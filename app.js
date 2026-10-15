@@ -122,7 +122,9 @@ function attach() {
 }
 async function bootstrap() {
   try {
-    database=JSON.parse(document.getElementById('catalog-data').textContent);
+    const response = await fetch('./data.json', {cache: 'no-store'});
+    if (!response.ok) throw new Error('Erro ao carregar data.json: HTTP ' + response.status);
+    database = await response.json();
     if(!database?.courses?.length||!database?.universities?.length)throw new Error('Inconsistent database');
     renderTabs();renderFilters();attach();renderMatrix();
   } catch(e) {
