@@ -40,8 +40,8 @@
     const useful=es.filter(e=>e.rank<3),remaining=es.filter(e=>e.rank===3);
     const showing=revealAll ? useful.concat(remaining) : useful;
     let html='<div class="mobile-entry-panel"><div class="mobile-entry-summary"><b>'+es.length+'</b> universidades elegíveis · <b>'+es.filter(e=>e.m&&e.m.status!=='indicio_titulo').length+'</b> pré-análises documentais · <b>'+es.filter(e=>e.rank===2).length+'</b> indícios em catálogos</div>';
-    html+=showing.length ? showing.map(e=>universityCard(e,subjectIndex,courseId)).join('') : '<p class="mobile-no-matches">Nenhuma candidata identificada nos catálogos pesquisados. Isso não significa incompatibilidade.</p>';
-    if(remaining.length) html+='<button type="button" class="mobile-show-more" data-mobile-more="true">'+(revealAll?'Ocultar universidades sem candidata ↑':'Ver outras '+remaining.length+' universidades sem candidata verificada ↓')+'</button>';
+    html+=showing.length ? showing.map(e=>universityCard(e,subjectIndex,courseId)).join('') : '<p class="mobile-no-matches">Não há candidata localizada nas fontes cadastradas. Muitos catálogos estrangeiros ainda não foram indexados integralmente; isso não demonstra incompatibilidade.</p>';
+    if(remaining.length) html+='<button type="button" class="mobile-show-more" data-mobile-more="true">'+(revealAll?'Ocultar universidades sem candidata ↑':'Ver outras '+remaining.length+' universidades com pesquisa pendente ↓')+'</button>';
     return html+'<p class="mobile-disclaimer">Indícios automáticos não são equivalências. A homologação depende de ementas, carga horária, oferta e coordenação.</p></div>';
   }
   function render() {
@@ -56,11 +56,11 @@
       if(stage!=='all' && String(s.semester)!==stage) return false;
       if(search && ![s.name,s.id,s.abstract].some(v=>normalize(v).includes(search))) return false;
       const matches=es.filter(e=>e.m&&e.m.status!=='indicio_titulo');
-      if(only && !matches.length) return false;
+      if(only && !es.some(e=>e.rank<3)) return false;
       if(status==='candidata_forte' && !matches.some(e=>e.m.status==='candidata_forte')) return false;
       if(status==='em_analise' && !matches.some(e=>e.m.status==='em_analise')) return false;
       if(status==='indicio_titulo' && !es.some(e=>e.rank===2)) return false;
-      if(status==='sem_dados' && matches.length===es.length) return false;
+      if(status==='sem_dados' && es.some(e=>e.m)) return false;
       return true;
     });
     if(rows.length===1 && !expanded) expanded=courseId+'|'+rows[0].i;
