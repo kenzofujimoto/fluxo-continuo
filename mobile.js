@@ -60,8 +60,8 @@
       if(search && ![s.name,s.id,s.abstract].some(v=>normalize(v).includes(search))) return false;
       const matches=es.flatMap(e=>e.matches).filter(m=>m.status!=='indicio_titulo');
       if(only && !es.some(e=>e.rank<3)) return false;
-      if(status==='candidata_forte' && !matches.some(e=>e.m.status==='candidata_forte')) return false;
-      if(status==='em_analise' && !matches.some(e=>e.m.status==='em_analise')) return false;
+      if(status==='candidata_forte' && !matches.some(e=>e.status==='candidata_forte')) return false;
+      if(status==='em_analise' && !matches.some(e=>e.status==='em_analise')) return false;
       if(status==='indicio_titulo' && !es.some(e=>e.matches.some(m=>m.status==='indicio_titulo') || e.rank===2)) return false;
       if(status==='sem_dados' && es.some(e=>e.matches.length)) return false;
       return true;
