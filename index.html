@@ -8,8 +8,10 @@
  <title>MobiMatch Alpha · Matriz de equivalências</title>
  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Crect width='64' height='64' rx='14' fill='%238b183b'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='bold' font-size='37' fill='white' text-anchor='middle'%3EM%3C/text%3E%3C/svg%3E"/>
  <link rel="stylesheet" href="./styles.css"/>
+ <link rel="stylesheet" href="./mobile.css"/>
  <script defer src="./app.js"></script>
  <script defer src="./triagem-view.js"></script>
+ <script defer src="./mobile.js"></script>
 </head>
 <body>
  <a class="skip" href="#matrix">Pular para matriz curricular</a>
@@ -25,6 +27,10 @@
  <div class="summary-row"><div class="summary-card"><span class="stat-icon">▦</span><div><strong id="countSubjects">—</strong><small>Disciplinas na matriz</small></div></div><div class="summary-card"><span class="stat-icon">◎</span><div><strong id="countUniversities">—</strong><small>Instituições marcadas Sim pela COI</small></div></div><div class="summary-card"><span class="stat-icon">↔</span><div><strong id="countMatches">—</strong><small>Correspondências documentadas</small></div></div><div class="summary-card accent-stat"><span class="stat-icon">◈</span><div><strong id="countEvidence">—</strong><small>Ementas em análise cruzada</small></div></div></div>
  <div class="controls"><div class="control-field search-field"><label for="search">BUSCAR DISCIPLINA OU CÓDIGO</label><div class="search-wrapper"><span aria-hidden="true">⌕</span><input id="search" placeholder="Ex.: Computação Paralela, ENEC61020..." autocomplete="off"/></div></div><div class="control-field"><label for="semester">ETAPA</label><select id="semester"><option value="all">Todas as etapas</option></select></div><div class="control-field"><label for="university">UNIVERSIDADE</label><select id="university"><option value="all">Todas as universidades</option></select></div><div class="control-field"><label for="status">STATUS DA EQUIVALÊNCIA</label><select id="status"><option value="all">Todos os status</option><option value="candidata_forte">Forte candidata</option><option value="em_analise">Em análise</option><option value="sem_dados">Sem dados</option></select></div></div>
  <div class="matrix-toolbar"><div class="matrix-heading"><span class="matrix-marker">▦</span><div><strong id="matrixTitle">Ciência da Computação</strong><small id="matrixDescription">Matriz acadêmica de referência</small></div></div><div class="matrix-actions"><label class="toggle"><input id="onlyMatched" type="checkbox"/><span>Somente com correspondência</span></label><label class="toggle"><input id="allUniversities" type="checkbox"/><span>Mostrar não elegíveis</span></label><button id="exportCsv" class="btn secondary" type="button">↓ CSV</button><button id="resetFilters" class="btn subtle" type="button">Limpar</button></div></div>
+ <div class="mobile-explorer" id="mobileExplorer" aria-label="Consulta de disciplinas no celular">
+  <div class="mobile-explorer-top"><div><span class="mobile-kicker">VISUALIZAÇÃO NO CELULAR</span><h3>Explore por disciplina</h3><p>Toque em uma matéria para comparar universidades e abrir ementas.</p></div><div class="mobile-view-toggle" role="group" aria-label="Modo de visualização"><button type="button" data-mobile-mode="cards" aria-pressed="true">Cartões</button><button type="button" data-mobile-mode="table" aria-pressed="false">Tabela ↔</button></div></div>
+  <div class="mobile-results" id="mobileResults" aria-live="polite"><p class="mobile-no-matches">Carregando disciplinas…</p></div>
+ </div>
  <div class="matrix-scroller" id="matrix" tabindex="0" role="region" aria-label="Matriz de disciplinas e universidades com rolagem horizontal"><table id="matrixTable"><thead id="matrixHead"></thead><tbody id="matrixBody"></tbody></table></div>
  <div class="matrix-bottom"><span id="rowCount">—</span><span>↔ Role horizontalmente para comparar universidades • Clique nas células para abrir os detalhes</span></div>
  <div class="legend"><span><i class="legend-dot strong"></i> Forte candidata (não homologada)</span><span><i class="legend-dot pending"></i> Em análise</span><span><i class="legend-dot empty"></i> Não verificada</span><span>Universidades filtradas pelo campo “Sim” da planilha oficial</span></div>
