@@ -35,7 +35,8 @@ function matchingRows() {
     const related = universities.map(u => matchFor(row,u.id)).filter(Boolean);
     if (state.status === 'candidata_forte' && !related.some(m => m.status === 'candidata_forte')) return false;
     if (state.status === 'em_analise' && !related.some(m => m.status === 'em_analise')) return false;
-    if (state.status === 'sem_dados' && related.length === universities.length) return false;
+    if (state.status === 'indicio_titulo' && !related.some(m=>m.status==='indicio_titulo')) return false;
+    if (state.status === 'sem_dados' && related.length) return false;
     if (state.only && !related.length) return false;
     return true;
   });
@@ -66,8 +67,8 @@ function renderMatrix() {
   $('#countSubjects').textContent=String(c.rows.length);
   $('#countUniversities').textContent=String(unis.length);
   const available = database.matches.filter(m=>m.courseId===currentCourse && unis.some(u=>u.id===m.universityId));
-  $('#countMatches').textContent=String(available.length);
-  $('#countEvidence').textContent=String(database.foreignCourses.filter(f=>unis.some(u=>u.id===f.universityId)).length);
+  $('#countMatches').textContent=String(available.filter(m=>m.status!=='indicio_titulo').length);
+  $('#countEvidence').textContent=String(available.filter(m=>m.status==='indicio_titulo').length);
   $('#rowCount').textContent=`Exibindo ${rows.length} de ${c.rows.length} disciplinas`;
   els.head.innerHTML=`<tr><th class="fixedcol"><div class="fixed-content">COMPONENTE CURRICULAR MACKENZIE</div></th><th class="semester-cell">ETAPA</th>${unis.map(u=>`<th class="foreign-cell" scope="col"><span class="uni-flag">${flag(u.flag)}</span><span class="uni-name">${esc(u.name)}</span><div class="uni-country">${esc(u.country)} · ${u.courses?.[currentCourse] ? 'COI: Sim' : 'COI: não consta Sim'}</div></th>`).join('')}</tr>`;
   els.body.innerHTML=rows.length ? rows.map((row,r)=> `<tr><td class="fixedcol"><div class="fixed-content"><span class="subj-title">${esc(row.name)}</span><span class="subj-code">${esc(row.id || 'Código não cadastrado')}</span></div></td><td class="semester-cell"><span class="term">${row.semester}ª</span></td>${unis.map((u,i)=>{
