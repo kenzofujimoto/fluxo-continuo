@@ -1,55 +1,77 @@
 # MobiMatch Alpha — Fluxo Contínuo 2027.2
 
-> **Publicação em andamento:** este repositório recebeu a estrutura inicial; o pacote integral v2 (dados COI, scripts e estilos) foi produzido localmente, mas ainda não está todo commitado aqui. A URL de produção permanece na versão anterior até o novo deploy. Não usar este repositório isoladamente como catálogo oficial.
+> **Projeto acadêmico independente e não oficial.** Pesquisa de possíveis aproveitamentos curriculares para o campus Mackenzie Alphaville, não homologações institucionais.
 
-**[Abrir site publicado](https://mobimatch-alpha.vercel.app)** · [Idiomas e certificados](https://mobimatch-alpha.vercel.app/idiomas.html)
+**Site principal:** https://fluxo-continuo.vercel.app  
+**Página de idiomas:** https://fluxo-continuo.vercel.app/idiomas.html
 
-Projeto **independente e não oficial** de apoio à escolha de disciplinas e universidades estrangeiras, com foco em quatro cursos do campus Mackenzie Alphaville: Ciência da Computação, Sistemas de Informação, Direito e Administração.
+## Estado da pesquisa — 15/10/2026
 
-## O que a versão 2 oferece
+Os números abaixo foram verificados na base `data.json` publicada na Vercel:
 
-- Matriz horizontal pesquisável de disciplinas Mackenzie × instituições assinaladas **Sim** para o curso no XLSX oficial 1S/2027 (mobilidade 2027.2).
-- 66 instituições da planilha inicial COI; **23 em CC, 16 em SI, 40 em Administração e 39 em Direito**. A coluna selecionada é **por curso**, não por campus ou modalidade.
-- Filtro opcional para mostrar instituições sem marcação “Sim”; isso não autoriza candidatura.
-- Células clicáveis com links às ementas; análise documentada em seis cruzamentos iniciais, **nenhum homologado**.
-- Página exclusiva de idiomas com requisitos, nota mínima, certidão MLC, aceitação MLC e hiperlinks oficiais de cada instituição.
-- Quadro de custos e descontos, com fonte e prazo: exame MLC, TOEFL ETS/GCUB, IELTS British Council, DELE/Instituto Cervantes e EF SET (diagnóstico, não substituto garantido).
-- CSV da matriz filtrada; sem login, sem banco de dados e sem dados pessoais.
+| Indicador | Quantidade |
+| --- | ---: |
+| Cursos brasileiros | 4 (Ciência da Computação, Sistemas de Informação, Administração e Direito) |
+| Disciplinas brasileiras listadas | 221 (CC 47, SI 46, ADM 47, Direito 81) |
+| Instituições elegíveis da planilha COI | 66 |
+| Instituições com disciplinas estrangeiras indexadas | 39 |
+| Disciplinas estrangeiras indexadas | 1.596 |
+| Registros de possíveis correspondências | 505 |
+| Indícios *somente pelo título* | 447 |
+| Correspondências em análise | 55 |
+| Candidatas fortes | 3 |
+| Equivalências formalmente homologadas | **0** |
 
-## Limites e qualidade da importação
+As quantidades podem mudar a cada atualização. Os números de cada aba são recortes por curso/universidades elegíveis.
 
-- A COI publica a planilha inicial 1S/2027 e avisa que requisitos de idioma podem mudar. `Sim` indica disponibilidade **por área de estudo** no momento da planilha, não garante vaga individual nem disciplina ofertada em 2027/28.
-- O campo de idioma está **inválido em 12 linhas de instituições portuguesas**: aparece repetido o texto `Universidade Lusófona`. Preservamos a universidade e a elegibilidade do curso, mas **não interpretamos esses valores como requisitos de idioma**.
-- Na planilha Excel, a aba herdou um nome interno histórico (`Fluxo 2S 25 inicial`) que não corresponde ao nome/ano do XLSX. O projeto usa o nome do documento disponibilizado para 2027.2, verificando as informações sempre com a COI.
-- As matrizes brasileiras são uma base preliminar já cadastrada (47 componentes CC, 46 SI, 47 ADM, 81 DIR) e não representam todas as versões/PPC por ano de ingresso. As disciplinas estrangeiras presentes vêm de auditorias anteriores de Ciência da Computação. Ampliar a cobertura exige curadoria acadêmica.
-- O exame de proficiência MLC é reconhecido **somente se aceito** pela universidade da candidatura. EF SET é gratuito, mas não é aceito automaticamente por universidade ou edital.
-- **Equivalências não são homologações** e nenhuma decisão de aproveitamento foi atribuída à coordenação.
+**A pesquisa não está completa.** Ainda há 27 instituições sem disciplinas estrangeiras indexadas; mesmo onde há catálogo, várias ementas individuais, cargas horárias, pré-requisitos e ofertas em 2027/28 não foram verificados. Ter executado a triagem dos 6.856 cruzamentos possíveis não é o mesmo que ter comparado integralmente as ementas de todas essas combinações. O método de título é apenas um filtro inicial.
 
-## Executar localmente
+## Como usar
+
+- No celular: explore **cartões por disciplina**, expanda para ver universidades e fontes, ou ative o modo **Tabela**.
+- No desktop: use a grade disciplinas do Mackenzie (linhas) × universidades (colunas).
+- Filtre curso, etapa, universidade e situação da pesquisa.
+- Uma célula pode ter múltiplas candidatas estrangeiras. Confira a ficha e **a fonte oficial** antes de considerar o Plano de Estudos.
+- Abra **Idiomas e provas** para requisitos da COI, testes de língua, preços de referência e benefícios anunciados; confirme vigência diretamente com os provedores.
+- Exporte CSV para trabalhar e compartilhar a auditoria.
+
+## Dados e método
+
+- `data.json`: universidades, elegibilidade, matrizes curriculares, disciplinas estrangeiras e sugestões de correspondência.
+- `triagem.json`: resultado automatizado e limitado da triagem dos **6.856 pares elegíveis**.
+- `triagem-view.js`: visualização da triagem na tabela desktop.
+- `mobile.js` e `mobile.css`: exploração por cartões no celular.
+- `METODOLOGIA.md`: o que foi e não foi verificado.
+- `index.html`, `app.js` e `styles.css`: aplicação sem login e sem backend.
+
+### Significado dos estados
+
+1. **Candidata forte**: conteúdo apresenta relação significativa, mas ainda não implica aproveitamento homologado.
+2. **Em análise**: proposta que exige complementação documental.
+3. **Indício pelo título**: apenas nome/código de catálogo oficial, sem cotejo integral das ementas. **Não corresponde a porcentagem de equivalência.**
+4. **Sem candidato encontrado na base parcial**: não significa incompatibilidade nem ausência de matérias na universidade.
+
+É necessário verificar as ementas de ambas as instituições, a carga horária de contato, a versão curricular, a oferta no semestre, o idioma, as restrições de matrícula e as regras de aproveitamento. A decisão final pertence à coordenação do Mackenzie e aos responsáveis pela mobilidade.
+
+## Cobertura e confiabilidade
+
+O XLSX da COI foi importado para 2027.2. Os **66 registros e respectivos campos de elegibilidade por curso** são independentes da disponibilidade de cada disciplina. Há campos de idioma corrompidos/inconsistentes em algumas linhas de instituições portuguesas; nesses casos, a informação está marcada para verificação. Em Direito, nomes aparentemente semelhantes podem designar sistemas jurídicos nacionais diferentes.
+
+## Execução local
+
+Na raiz deste repositório:
 
 ```bash
 python -m http.server 8000
-# abra http://localhost:8000/
 ```
 
-Site estático sem dependências. Hospedar os arquivos `index.html`, `app.js`, `styles.css`, `idiomas.html`, `idiomas.js`, `idiomas.css` e `data.json` na raiz do projeto. A Vercel pode servir a raiz como site estático (Framework: Other).
+Acesse http://localhost:8000. O projeto é estático, sem login nem Neon, com implantação automática na Vercel ligada à branch `main`.
 
-## Fontes oficiais
+## Fontes e responsabilidade
 
-- [COI — Fluxo Contínuo, planilha inicial de universidades por curso](https://www.mackenzie.br/universidade/fluxo-continuo)
-- [MLC — exame para intercâmbio COI (R$ 259, validade 6 meses)](https://portal.mackenzie.br/mackenzie-language-center/cursos-especificos/exame-para-intercambio-coi)
-- [ETS — TOEFL iBT, tabela de taxas](https://www.br.ets.org/toefl/test-takers/ibt/register/fees.html)
-- [GCUB — voucher TOEFL outubro/2026 de **10%**, prazo **31/10/2026**](https://www.gcub.org.br/parceiros/voucher-de-10-para-o-toefl-ibt-outubro-de-2026/)
-- [GCUB/Cervantes — benefício DELE outubro/2026 de **25%**, prazo **30/10/2026**](https://www.gcub.org.br/eventos/noticias/beneficios-oferecidos-pelo-instituto-cervantes-outubro-2026/)
-- [IELTS — centro SP](https://ielts.org/test-centres/british-council-sao-paulo-open-centre) / [British Council — preço de referência](https://www.britishcouncil.org.br/en/exam/ielts/which-test/academic)
-- [EF SET — prova gratuita de quatro habilidades](https://www.efset.org/pt/4-skill/)
+- [Comissão de Intercâmbio Internacional (COI) — Fluxo Contínuo](https://www.mackenzie.br/universidade/fluxo-continuo)
+- [Mackenzie Language Center — exame de intercâmbio](https://portal.mackenzie.br/mackenzie-language-center/cursos-especificos/exame-para-intercambio-coi)
+- Catálogos e ementas estrangeiras: links oficiais individualizados em `data.json`.
+- As ofertas de cursos e valores de exames podem mudar sem aviso; consulte sempre a COI, a universidade anfitriã e a coordenação antes de tomar decisões.
 
-*Última checagem de fontes e dados: 15/10/2026.*
-
-## Responsabilidade
-
-O MobiMatch Alpha **não é afiliado, endossado ou homologado pelo Mackenzie**. A identidade cromática foi inspirada no ambiente institucional, sem uso do brasão. Exames, preços, ementas e requisitos mudam. A COI e a instituição anfitriã são as fontes definitivas, e a coordenação da graduação decide aproveitamentos curriculares.
-
-### Resultados por par (2027.2)
-
-`triagem.json` contém 6.856 tentativas automatizadas de correspondência de título/metadados; `triagem-view.js` mostra o motivo em cada célula e permite exportar um CSV completo. Não significa 6.856 equivalências aprovadas. Ver `METODOLOGIA.md`.
+**O MobiMatch Alpha não é afiliado nem endossado pelo Mackenzie e não emite pareceres acadêmicos.**
