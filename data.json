@@ -16,7 +16,7 @@
       "dir": 39,
       "adm": 40
     },
-    "matchCountAsOfDate": 54,
+    "matchCountAsOfDate": "2026-10-15",
     "academicCoverageNotice": "Somente parte dos 6856 cruzamentos possíveis foi investigada. Células sem correspondência = NÃO AUDITADO e não incompatível. Direito requer validação por ordenamento jurídico; 2027.2 sujeito a confirmação.",
     "method": "Pré-análises com fontes oficiais, comparação de conteúdo e carga horária apenas quando documentadas; nenhum parecer homologado."
   },
@@ -3681,7 +3681,7 @@
         "dataIssue": true
       },
       "coiRow": 53,
-      "availabilityNote": "Planilha inicial COI 1S/2027 (mobilidade 2027.2): curso assinalado Sim. Vagas efetivas e requisitos podem mudar.",
+      "availabilityNote": "Planilha inicial COI 1S/2027 (mobilidade 2027.2): curso assinalado Sim. Vagas efetivas e requisitos podem mudar. Flexibilidade curricular entre ciclos, departamentos e faculdades sujeita à aprovação de coordenadores; a oferta de 2027/28 não está confirmada.",
       "eligibility": {
         "cc": "COI: Sim",
         "si": "COI: Sim",
@@ -4573,24 +4573,24 @@
     {
       "universityId": "pt-coimbra",
       "universityRaw": "Coimbra",
-      "code": "2003476",
+      "code": "02003476",
       "name": "Computação Paralela",
       "role": "Paralela",
-      "period": "Outono/S1 a confirmar",
+      "period": "1º semestre no plano 2026/27; 2027/28 a confirmar",
       "degree": "Mestrado",
-      "documentation": "EMENTA PARCIAL",
+      "documentation": "EMENTA INDIVIDUAL OFICIAL 2026/27",
       "contactHours": null,
       "credits": "6",
       "mackRelated": "ENEC61020 Computação Paralela (PENDENTE) | ENEC61018 Computação Distribuída (PLANEJADO)",
-      "topics": "MPI, OpenMP, speedup, algoritmos paralelos e arquiteturas multicore",
-      "overlap": "Mack Paralela: arquiteturas, programação paralela, algoritmos e desempenho; Distribuída: mensagens",
+      "topics": "Arquiteturas paralelas; memória distribuída e partilhada; OpenMP; MPI; paralelização de algoritmos; speedup; eficiência; Lei de Amdahl; comunicação coletiva; decomposição de dados e domínio",
+      "overlap": "Forte convergência com ENEC61020 em arquiteturas, algoritmos, paralelismo e desempenho, sem validação de carga horária",
       "novel": "Possível técnica mais avançada de programação paralela",
-      "limitations": "Horas de contato/semestre/exchange mestrado NÃO comprovados",
+      "limitations": "Horas de contato não identificadas na ficha; oferta em 2027/28 não confirmada; aprovação pelos coordenadores de mobilidade e coordenação de CC indispensável",
       "duplicationRisk": "BAIXA",
-      "assessment": "PROMISSORA em conteúdo, SEM verificação 75% de horas",
+      "assessment": "CANDIDATA FORTE EM CONTEÚDO; equivalência ainda não demonstrada em horas ou homologada",
       "source": "https://apps.uc.pt/courses/PT/unit/8910/22901/2026-2027?common_core=true&id=10541&type=ram",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "O plano de 2026/27 lista 1º semestre em curso de mestrado de outra faculdade; inscrição interdepartamental e entre ciclos depende de aprovação dos coordenadores, pré-requisitos, disponibilidade e horários"
     },
     {
       "universityId": "pt-coimbra",
@@ -7711,6 +7711,21 @@
       "scope": "2027.2 por confirmar",
       "checkedOn": "2026-10-15",
       "validationStage": "indicio_documental"
+    },
+    {
+      "courseId": "cc",
+      "mackName": "Computação Paralela",
+      "mackCode": "ENEC61020",
+      "universityId": "pt-coimbra",
+      "foreignCode": "02003476",
+      "status": "em_analise",
+      "contentScore": null,
+      "evidence": "Ementa individual oficial de 2026/27 confirma MPI, OpenMP, arquiteturas paralelas, speedup, Lei de Amdahl e decomposição de dados/domínios; disciplina listada no 1º semestre de um curso de mestrado. A universidade informa que alunos de mobilidade podem solicitar componentes de outros ciclos/faculdades com aprovação dos coordenadores. Ainda faltam horas de contato, homologação Mackenzie e confirmação de oferta de 2027.2.",
+      "source": "https://apps.uc.pt/courses/PT/unit/8910/22901/2026-2027?common_core=true&id=10541&type=ram",
+      "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+      "scope": "Oferta de 2026/27 documentada; 2027.2 pendente de confirmação",
+      "checkedOn": "2026-10-15",
+      "validationStage": "ementa_individual_oficial_sem_ch"
     }
   ],
   "contacts": {
