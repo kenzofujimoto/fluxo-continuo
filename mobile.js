@@ -59,6 +59,7 @@
       if(only && !matches.length) return false;
       if(status==='candidata_forte' && !matches.some(e=>e.m.status==='candidata_forte')) return false;
       if(status==='em_analise' && !matches.some(e=>e.m.status==='em_analise')) return false;
+      if(status==='indicio_titulo' && !es.some(e=>e.rank===2)) return false;
       if(status==='sem_dados' && matches.length===es.length) return false;
       return true;
     });
