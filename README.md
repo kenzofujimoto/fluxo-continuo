@@ -49,3 +49,7 @@ Site estático sem dependências. Hospedar os arquivos `index.html`, `app.js`, `
 ## Responsabilidade
 
 O MobiMatch Alpha **não é afiliado, endossado ou homologado pelo Mackenzie**. A identidade cromática foi inspirada no ambiente institucional, sem uso do brasão. Exames, preços, ementas e requisitos mudam. A COI e a instituição anfitriã são as fontes definitivas, e a coordenação da graduação decide aproveitamentos curriculares.
+
+### Resultados por par (2027.2)
+
+`triagem.json` contém 6.856 tentativas automatizadas de correspondência de título/metadados; `triagem-view.js` mostra o motivo em cada célula e permite exportar um CSV completo. Não significa 6.856 equivalências aprovadas. Ver `METODOLOGIA.md`.
