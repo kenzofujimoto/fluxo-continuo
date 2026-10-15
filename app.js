@@ -18,11 +18,14 @@ function safeUrl(value) {
   try { const url = new URL(value); return ['https:', 'http:'].includes(url.protocol) ? url.href : ''; } catch {return '';}
 }
 function current() { return database.courses.find(course => course.id === currentCourse); }
-function matchFor(subject, universityId) {
+function matchesFor(subject, universityId) {
   const normalized = subject.name.toLocaleLowerCase('pt-BR');
-  return database.matches.find(item => item.courseId === currentCourse && item.universityId === universityId &&
-    ((subject.id && subject.id === item.mackCode) || (!subject.id && normalized === item.mackName.toLocaleLowerCase('pt-BR'))));
+  const rank={candidata_forte:0,em_analise:1,indicio_titulo:2};
+  return database.matches.filter(item=>item.courseId===currentCourse&&item.universityId===universityId&&
+    ((subject.id && subject.id===item.mackCode)||(!subject.id&&normalized===String(item.mackName||'').toLocaleLowerCase('pt-BR'))))
+    .sort((a,b)=>(rank[a.status]??9)-(rank[b.status]??9));
 }
+function matchFor(subject,universityId){return matchesFor(subject,universityId)[0]||null;}
 function foreignFor(item) {
   return item ? database.foreignCourses.find(course => course.universityId === item.universityId && course.code === item.foreignCode) : null;
 }
@@ -32,7 +35,7 @@ function matchingRows() {
   return current().rows.filter(row => {
     if (term && ![row.name, row.id, row.abstract].some(value => String(value||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(term))) return false;
     if (state.semester !== 'all' && String(row.semester) !== state.semester) return false;
-    const related = universities.map(u => matchFor(row,u.id)).filter(Boolean);
+    const related = universities.flatMap(u => matchesFor(row,u.id));
     if (state.status === 'candidata_forte' && !related.some(m => m.status === 'candidata_forte')) return false;
     if (state.status === 'em_analise' && !related.some(m => m.status === 'em_analise')) return false;
     if (state.status === 'indicio_titulo' && !related.some(m=>m.status==='indicio_titulo')) return false;
@@ -72,8 +75,8 @@ function renderMatrix() {
   $('#rowCount').textContent=`Exibindo ${rows.length} de ${c.rows.length} disciplinas`;
   els.head.innerHTML=`<tr><th class="fixedcol"><div class="fixed-content">COMPONENTE CURRICULAR MACKENZIE</div></th><th class="semester-cell">ETAPA</th>${unis.map(u=>`<th class="foreign-cell" scope="col"><span class="uni-flag">${flag(u.flag)}</span><span class="uni-name">${esc(u.name)}</span><div class="uni-country">${esc(u.country)} · ${u.courses?.[currentCourse] ? 'COI: Sim' : 'COI: não consta Sim'}</div></th>`).join('')}</tr>`;
   els.body.innerHTML=rows.length ? rows.map((row,r)=> `<tr><td class="fixedcol"><div class="fixed-content"><span class="subj-title">${esc(row.name)}</span><span class="subj-code">${esc(row.id || 'Código não cadastrado')}</span></div></td><td class="semester-cell"><span class="term">${row.semester}ª</span></td>${unis.map((u,i)=>{
-    const m=matchFor(row,u.id);const f=foreignFor(m);
-    if(m) return `<td class="foreign-cell"><button class="cell-button ${m.status==='indicio_titulo'?'suggested':m.status==='candidata_forte'?'strong':'pending'}" type="button" data-r="${r}" data-u="${i}" aria-label="Abrir proposta ${esc(f?.name||m.foreignCode)} para ${esc(row.name)} em ${esc(u.name)}"><span class="match-code">${esc(f?.officialCodeKnown===false?'Catálogo ↗':m.foreignCode+' ↗')}</span><span class="cell-tag">${esc(f?.name||'Candidata em análise')}</span></button></td>`;
+    const options=matchesFor(row,u.id);const m=options[0];const f=foreignFor(m);
+    if(m) return `<td class="foreign-cell"><button class="cell-button ${m.status==='indicio_titulo'?'suggested':m.status==='candidata_forte'?'strong':'pending'}" type="button" data-r="${r}" data-u="${i}" aria-label="Abrir proposta ${esc(f?.name||m.foreignCode)} para ${esc(row.name)} em ${esc(u.name)}"><span class="match-code">${esc(f?.officialCodeKnown===false?'Catálogo ↗':m.foreignCode+' ↗')}</span><span class="cell-tag">${esc(f?.name||'Candidata em análise')}${options.length>1?' · +'+(options.length-1)+' alternativa(s)':''}</span></button></td>`;
     return `<td class="foreign-cell"><button class="cell-button empty" type="button" data-r="${r}" data-u="${i}" aria-label="Não verificada: ${esc(row.name)} e ${esc(u.name)}" title="Sem comparação documental cadastrada">—</button></td>`;
   }).join('')}</tr>`).join('') : `<tr><td class="loading" colspan="${unis.length+2}">Nenhuma disciplina corresponde aos filtros. Ajuste a etapa ou a busca.</td></tr>`;
   els.body.querySelectorAll('[data-r][data-u]').forEach(b=>b.addEventListener('click',()=>openDetail(rows[Number(b.dataset.r)],unis[Number(b.dataset.u)])));
@@ -85,9 +88,26 @@ function openDetail(subject,uni) {
   const m=matchFor(subject,uni.id); const f=foreignFor(m);
   els.detailTitle.textContent=uni.name;
   const base=`<section class="detail-section"><div class="detail-label">DISCIPLINA DO MACKENZIE</div><div class="detail-course">${esc(subject.name)}</div><span class="detail-code">${esc(subject.id||'Sem código cadastrado')}</span><div class="detail-meta"><span>${subject.semester}ª etapa</span>${subject.hours?`<span>${Number(subject.hours).toLocaleString('pt-BR',{maximumFractionDigits:2})} horas</span>`:''}<span>${esc(current().name)}</span></div>${subject.abstract?`<p>${esc(subject.abstract)}</p>`:''}${link('Ementário Mackenzie',subject.syllabusUrl||current().source)}</section>`;
-  const other= m && f ? `<section class="detail-section"><div class="detail-label">DISCIPLINA DA UNIVERSIDADE ESTRANGEIRA</div><div class="detail-course">${esc(f.name)}</div><span class="detail-code">${esc(f.officialCodeKnown===false?'Referência do catálogo (não é código oficial): '+f.code:f.code)}</span><div class="detail-meta">${f.contactHours!=null?`<span>${esc(f.contactHours)}h de contato</span>`:''}${f.credits?`<span>${esc(f.credits)} créditos</span>`:''}<span>${esc(f.period||'Semestre a verificar')}</span><span>${esc(f.degree||'Nível pendente')}</span></div>${link('Abrir programa / ementa estrangeira',f.source)}</section><section class="detail-section"><h3>Comparação documental</h3><div class="callout ${m.status==='candidata_forte'?'pink':''}"><b>${m.status==='indicio_titulo'?'Indício por título em catálogo oficial — NÃO É EQUIVALÊNCIA':m.status==='candidata_forte'?'Forte candidata — não homologada':'Em análise — não homologada'}</b><br/>${esc(m.evidence)}</div>${f.topics?`<p><b>Conteúdo estrangeiro:</b> ${esc(f.topics)}</p>`:''}${f.overlap?`<p><b>Sobreposição identificada:</b> ${esc(f.overlap)}</p>`:''}${f.novel?`<p><b>Conteúdo novo:</b> ${esc(f.novel)}</p>`:''}${f.limitations?`<p><b>Limitações:</b> ${esc(f.limitations)}</p>`:''}${f.assessment?`<p><b>Parecer técnico:</b> ${esc(f.assessment)}</p>`:''}${f.constraints?`<p><b>Oferta e matrícula:</b> ${esc(f.constraints)}</p>`:''}</section>` : `<section class="detail-section"><h3>Nenhuma equivalência documentada</h3><div class="callout">Não há comparação de ementas registrada para este cruzamento. Isso <b>não significa incompatibilidade</b>; significa ausência de evidência verificada.</div><p>Para cadastrar uma correspondência, precisamos de código, syllabus oficial, horas presenciais, semestre de oferta, idioma, pré-requisitos e análise com a disciplina brasileira.</p></section>`;
-  const further=database.matches.filter(a=>a.courseId===currentCourse&&a.universityId===uni.id&&a!==m&&((subject.id&&a.mackCode===subject.id)||(!subject.id&&a.mackName.toLocaleLowerCase('pt-BR')===subject.name.toLocaleLowerCase('pt-BR'))));
-  const more=further.length?'<section class="detail-section"><h3>Outras disciplinas a considerar nesta universidade</h3>'+further.map(x=>{const fx=foreignFor(x);return '<div class="callout"><b>'+esc(fx?.name||x.foreignCode)+'</b><p>'+esc(x.status==='indicio_titulo'?'Similaridade de título, ainda sem análise de conteúdo.':x.evidence)+'</p>'+link('Ver fonte oficial',fx?.source||x.source)+'</div>';}).join('')+'</section>':'';
+  const allOptions=matchesFor(subject,uni.id);
+  const other=allOptions.length
+    ? '<section class="detail-section"><h3>'+allOptions.length+' possibilidade'+(allOptions.length>1?'s':'')+' nesta universidade</h3><p>Correspondências e afinidades preliminares. Nenhuma está homologada.</p></section>'+
+      allOptions.map((candidate,i)=>{
+        const foreign=foreignFor(candidate);
+        if(!foreign)return '';
+        const state=candidate.status==='candidata_forte'?'Candidata forte':candidate.status==='em_analise'?'Em análise documental':'Afinidade por título (sem cotejo de ementas)';
+        return '<section class="detail-section"><div class="detail-label">'+(i+1)+' · '+esc(state)+'</div>'+
+         '<div class="detail-course">'+esc(foreign.name)+'</div>'+
+         '<span class="detail-code">'+esc(foreign.officialCodeKnown===false?'Referência de catálogo (não código oficial): '+foreign.code:foreign.code)+'</span>'+
+         '<div class="detail-meta">'+(foreign.contactHours!=null?'<span>'+esc(foreign.contactHours)+'h de contato</span>':'<span>Horas não comprovadas</span>')+
+         (foreign.credits?'<span>'+esc(foreign.credits)+' créditos</span>':'')+'<span>'+esc(foreign.period||'Oferta a confirmar')+'</span></div>'+
+         link('Abrir disciplina / ementa oficial',foreign.source||candidate.source)+
+         '<div class="callout"><b>'+esc(state)+' — não homologada</b><p>'+esc(candidate.evidence||'Comparação curricular pendente')+'</p></div>'+
+         (foreign.topics?'<p><b>Conteúdo estrangeiro:</b> '+esc(foreign.topics)+'</p>':'')+
+         (foreign.limitations?'<p><b>Limitações:</b> '+esc(foreign.limitations)+'</p>':'')+
+         (foreign.assessment?'<p><b>Observações:</b> '+esc(foreign.assessment)+'</p>':'')+
+         '</section>';
+      }).join('')
+    : '<section class="detail-section"><h3>Nenhuma candidata catalogada</h3><div class="callout">O catálogo pode estar incompleto. A ausência de correspondência não demonstra incompatibilidade.</div></section>';
   const eligible=uni.courses?.[currentCourse]===true;
   const requirement=uni.language?.required||'Não informado ou campo inválido no XLSX';
   const eligibility=`<section class="detail-section"><h3>Elegibilidade & idioma</h3><div class="callout"><b>${eligible?'COI: curso assinalado Sim':'COI: curso sem marcação Sim'}</b><br/>A disponibilidade de matéria, vaga individual, idioma e período deve ser confirmada pela instituição.</div><p><b>Idioma informado:</b> ${esc(requirement)}</p><p><b>Certificado MLC:</b> ${uni.language?.mlcAccepted===true?'COI assinala Sim':uni.language?.mlcAccepted===false?'COI assinala Não':'Não informado'}</p>${link('Página de idiomas desta universidade',`./idiomas.html?universidade=${encodeURIComponent(uni.id)}`)}${link('Fonte da planilha COI',database.meta.availabilitySource)}${link('Site da universidade',uni.website)}${link('Catálogo estrangeiro',uni.catalogUrl)}<p>O estudo é preliminar. A coordenação do curso decide se o aproveitamento curricular será aceito.</p></section>`;
