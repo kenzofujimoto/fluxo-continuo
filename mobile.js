@@ -23,14 +23,14 @@
       const triage = registry.get(courseId+'|'+subjectIndex+'|'+ui);
       const candidate = triage?.[4] && foreign.get(uni.id+'|'+triage[4][0]);
       const doc = m && foreign.get(uni.id+'|'+m.foreignCode);
-      const rank = m ? (m.status === 'candidata_forte' ? 0 : 1) : (candidate ? 2 : 3);
+      const rank = m ? (m.status === 'indicio_titulo' ? 2 : m.status === 'candidata_forte' ? 0 : 1) : (candidate ? 2 : 3);
       return {uni,ui,m,triage,candidate,doc,rank};
     }).filter(Boolean).sort((a,b) => a.rank-b.rank || a.uni.name.localeCompare(b.uni.name,'pt-BR'));
   }
   function universityCard(e,subjectIndex,courseId) {
     const title = e.doc?.name || e.candidate?.name || '';
-    const code = e.m?.foreignCode || e.candidate?.code || '';
-    const state = e.m ? (e.rank===0 ? 'Candidata forte, não homologada' : 'Em análise documental') : (states[e.triage?.[3]] || 'Sem candidata documentada');
+    const code = e.doc?.officialCodeKnown===false ? 'Ref. catálogo' : e.m?.foreignCode || e.candidate?.code || '';
+    const state = e.m ? (e.m.status === 'indicio_titulo' ? 'Afinidade no catálogo · falta comparar ementas' : e.rank===0 ? 'Candidata forte, não homologada' : 'Em análise documental') : (states[e.triage?.[3]] || 'Sem candidata documentada');
     const color = e.rank===0?'strong':e.rank===1?'pending':e.rank===2?'potential':'unknown';
     return '<button type="button" class="mobile-university '+color+'" data-mobile-university="'+e.ui+'" data-mobile-subject="'+subjectIndex+'" data-mobile-course="'+esc(courseId)+'" aria-label="Abrir '+esc(e.uni.name)+'">'+
       '<span class="mobile-university-main"><span class="mobile-flag">'+(flags[e.uni.flag]||'🌐')+'</span><span class="mobile-university-text"><strong>'+esc(e.uni.name)+'</strong><small>'+esc(e.uni.country)+' · '+esc(state)+'</small></span><span class="mobile-arrow" aria-hidden="true">›</span></span>'+
@@ -39,7 +39,7 @@
   function content(courseId,subjectIndex,es) {
     const useful=es.filter(e=>e.rank<3),remaining=es.filter(e=>e.rank===3);
     const showing=revealAll ? useful.concat(remaining) : useful;
-    let html='<div class="mobile-entry-panel"><div class="mobile-entry-summary"><b>'+es.length+'</b> universidades elegíveis · <b>'+es.filter(e=>e.m).length+'</b> documentais · <b>'+es.filter(e=>e.rank===2).length+'</b> indícios por nome</div>';
+    let html='<div class="mobile-entry-panel"><div class="mobile-entry-summary"><b>'+es.length+'</b> universidades elegíveis · <b>'+es.filter(e=>e.m&&e.m.status!=='indicio_titulo').length+'</b> pré-análises documentais · <b>'+es.filter(e=>e.rank===2).length+'</b> indícios em catálogos</div>';
     html+=showing.length ? showing.map(e=>universityCard(e,subjectIndex,courseId)).join('') : '<p class="mobile-no-matches">Nenhuma candidata identificada nos catálogos pesquisados. Isso não significa incompatibilidade.</p>';
     if(remaining.length) html+='<button type="button" class="mobile-show-more" data-mobile-more="true">'+(revealAll?'Ocultar universidades sem candidata ↑':'Ver outras '+remaining.length+' universidades sem candidata verificada ↓')+'</button>';
     return html+'<p class="mobile-disclaimer">Indícios automáticos não são equivalências. A homologação depende de ementas, carga horária, oferta e coordenação.</p></div>';
@@ -55,7 +55,7 @@
     const rows=course.rows.map((s,i)=>({s,i,es:entries(courseId,s,i)})).filter(({s,es})=>{
       if(stage!=='all' && String(s.semester)!==stage) return false;
       if(search && ![s.name,s.id,s.abstract].some(v=>normalize(v).includes(search))) return false;
-      const matches=es.filter(e=>e.m);
+      const matches=es.filter(e=>e.m&&e.m.status!=='indicio_titulo');
       if(only && !matches.length) return false;
       if(status==='candidata_forte' && !matches.some(e=>e.m.status==='candidata_forte')) return false;
       if(status==='em_analise' && !matches.some(e=>e.m.status==='em_analise')) return false;
@@ -65,10 +65,10 @@
     if(rows.length===1 && !expanded) expanded=courseId+'|'+rows[0].i;
     results.innerHTML='<div class="mobile-results-count"><span>'+rows.length+' de '+course.rows.length+' disciplinas</span><span>Toque para expandir ↓</span></div>'+
       (rows.length ? rows.map(({s,i,es})=>{
-        const opened=expanded===courseId+'|'+i,docs=es.filter(e=>e.m).length,lex=es.filter(e=>e.rank===2).length;
+        const opened=expanded===courseId+'|'+i,docs=es.filter(e=>e.m&&e.m.status!=='indicio_titulo').length,lex=es.filter(e=>e.rank===2).length;
         return '<article class="mobile-subject '+(opened?'is-open':'')+'"><button type="button" class="mobile-subject-trigger" data-mobile-toggle="'+i+'" aria-expanded="'+opened+'" aria-controls="mobile-panel-'+courseId+'-'+i+'">'+
           '<span class="mobile-subject-top"><span>'+esc(s.semester)+'ª etapa</span><span>'+esc(s.id||'Código a conferir')+'</span></span>'+
-          '<span class="mobile-subject-title">'+esc(s.name)+'</span><span class="mobile-subject-footer"><span class="mobile-status-count '+(docs?'has-doc':'')+'">'+docs+' documentais</span>'+(lex?'<span class="mobile-status-count">'+lex+' indícios</span>':'')+
+          '<span class="mobile-subject-title">'+esc(s.name)+'</span><span class="mobile-subject-footer"><span class="mobile-status-count '+(docs?'has-doc':'')+'">'+(docs?docs+' pré-análises':'Documento pendente')+'</span>'+(lex?'<span class="mobile-status-count has-doc">'+lex+' possibilidades</span>':'')+
           '<span class="mobile-subject-chevron" aria-hidden="true">'+(opened?'⌃':'⌄')+'</span></span></button><div id="mobile-panel-'+courseId+'-'+i+'" '+(opened?'':'hidden')+'>'+(opened?content(courseId,i,es):'')+'</div></article>';
       }).join(''):'<div class="mobile-empty-state"><strong>Nenhuma disciplina encontrada.</strong><p>Experimente outra etapa, universidade ou palavra-chave.</p></div>');
   }
