@@ -4206,7 +4206,9 @@
       "assessment": "FORTE: 94,7% horas; 4+ eixos temáticos, homologação depende de critérios Mack",
       "source": "https://asignaturas.uca.es/2026-27/21714033",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": "60h=15 teóricas + 45 práticas, 6 ECTS, oferta 1º semestre confirmada 2026/27"
+      "constraints": "60h=15 teóricas + 45 práticas, 6 ECTS, oferta 1º semestre confirmada 2026/27",
+      "foreignSemester": 7,
+      "academicYear": "2025/26"
     },
     {
       "universityId": "es-cadiz",
@@ -4228,7 +4230,9 @@
       "assessment": "NÃO preferir à 21714033 para Parallel",
       "source": "https://asignaturas.uca.es/2026-27/21714032",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "",
+      "foreignSemester": 7,
+      "academicYear": "2025/26"
     },
     {
       "universityId": "es-cadiz",
@@ -4250,7 +4254,9 @@
       "assessment": "CONDICIONAL como optativa especializada; contato 94,7%",
       "source": "https://asignaturas.uca.es/2026-27/21714043",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "",
+      "foreignSemester": 7,
+      "academicYear": "2025/26"
     },
     {
       "universityId": "es-cadiz",
@@ -4272,7 +4278,9 @@
       "assessment": "CONDICIONAL com boa CH e foco incremental em gerenciamento",
       "source": "https://asignaturas.uca.es/2026-27/21714044",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "",
+      "foreignSemester": 7,
+      "academicYear": "2025/26"
     },
     {
       "universityId": "es-cadiz",
@@ -4294,7 +4302,9 @@
       "assessment": "EXCLUIR do plano outono 2027",
       "source": "https://asignaturas.uca.es/2026-27/21714048",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "",
+      "foreignSemester": 6,
+      "academicYear": "2025/26"
     },
     {
       "universityId": "es-salamanca",
@@ -5067,7 +5077,7 @@
       "constraints": ""
     },
     {
-      "universityId": "",
+      "universityId": "at-graz",
       "universityRaw": "TU Graz",
       "code": "MAT.408",
       "name": "High Performance Computing",
@@ -5089,7 +5099,7 @@
       "constraints": ""
     },
     {
-      "universityId": "",
+      "universityId": "at-graz",
       "universityRaw": "TU Graz",
       "code": "C.5.8/5.9",
       "name": "Cryptography VO + KU",
@@ -5111,7 +5121,7 @@
       "constraints": ""
     },
     {
-      "universityId": "",
+      "universityId": "at-graz",
       "universityRaw": "TU Graz",
       "code": "C.5.5",
       "name": "Information Search and Retrieval",
@@ -5243,7 +5253,7 @@
       "constraints": ""
     },
     {
-      "universityId": "",
+      "universityId": "pt-porto",
       "universityRaw": "Universidade do Porto",
       "code": "CC4014",
       "name": "Computação Paralela",
@@ -5265,7 +5275,7 @@
       "constraints": ""
     },
     {
-      "universityId": "",
+      "universityId": "pt-porto",
       "universityRaw": "Universidade do Porto",
       "code": "CC3008",
       "name": "Tecnologias Web",
@@ -5287,7 +5297,7 @@
       "constraints": ""
     },
     {
-      "universityId": "",
+      "universityId": "pt-porto",
       "universityRaw": "Universidade do Porto",
       "code": "CC3049",
       "name": "Programação Mobile",
@@ -5309,7 +5319,7 @@
       "constraints": ""
     },
     {
-      "universityId": "",
+      "universityId": "pt-porto",
       "universityRaw": "Universidade do Porto",
       "code": "CC4076",
       "name": "Criptografia Aplicada",
@@ -5350,7 +5360,9 @@
       "assessment": "FORTE: 70h=110,5%, cinco grandes temas cobertos; aprovação formal pendente",
       "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5077_en_vniculescu_2026_10988.pdf",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "",
+      "foreignSemester": 5,
+      "academicYear": "2026/27"
     },
     {
       "universityId": "ro-babes",
@@ -5372,7 +5384,9 @@
       "assessment": "FORTE como área nova, SEM % temático de Opt I atribuído pois não há ementa alvo",
       "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5267_en_rusu_2026_11024.pdf",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "",
+      "foreignSemester": 5,
+      "academicYear": "2026/27"
     },
     {
       "universityId": "ro-babes",
@@ -5394,7 +5408,9 @@
       "assessment": "FORTE para nova optativa com justificativa de especialização e consentimento",
       "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5247_en_bmursa_2026_10335.pdf",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "",
+      "foreignSemester": 5,
+      "academicYear": "2026/27"
     },
     {
       "universityId": "ro-babes",
@@ -5416,7 +5432,9 @@
       "assessment": "REPROVA CH isoladamente",
       "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5078_en_dan_2026_10640.pdf",
       "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf | https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
-      "constraints": ""
+      "constraints": "",
+      "foreignSemester": 5,
+      "academicYear": "2026/27"
     },
     {
       "universityId": "ar-cordoba",
@@ -5584,7 +5602,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 1
     },
     {
       "universityId": "ro-babes",
@@ -5598,7 +5617,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 1
     },
     {
       "universityId": "ro-babes",
@@ -5612,7 +5632,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 1
     },
     {
       "universityId": "ro-babes",
@@ -5626,7 +5647,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 1
     },
     {
       "universityId": "ro-babes",
@@ -5640,7 +5662,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 1
     },
     {
       "universityId": "ro-babes",
@@ -5654,7 +5677,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 3
     },
     {
       "universityId": "ro-babes",
@@ -5668,7 +5692,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 3
     },
     {
       "universityId": "ro-babes",
@@ -5682,7 +5707,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 3
     },
     {
       "universityId": "ro-babes",
@@ -5696,7 +5722,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 3
     },
     {
       "universityId": "ro-babes",
@@ -5710,7 +5737,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 3
     },
     {
       "universityId": "ro-babes",
@@ -5724,7 +5752,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 5
     },
     {
       "universityId": "ro-babes",
@@ -5738,7 +5767,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 5
     },
     {
       "universityId": "ro-babes",
@@ -5752,7 +5782,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 5
     },
     {
       "universityId": "ro-babes",
@@ -5766,7 +5797,8 @@
       "academicYear": "2026/27 (catálogo)",
       "degree": "Graduação",
       "documentation": "EMENTA INDIVIDUAL",
-      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação."
+      "limitations": "Ano, disponibilidade e eventuais alterações de turma em 2027.2 sujeitos a confirmação.",
+      "foreignSemester": 5
     },
     {
       "universityId": "es-cadiz",
@@ -5793,6 +5825,1098 @@
       "topics": "Normas, fontes do direito e ordenamento jurídico",
       "source": "https://guias.usal.es/node/235560?plan=149789",
       "limitations": "Direito brasileiro e espanhol são ordenamentos distintos; CH ainda não apurada."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE0014",
+      "name": "Geometry",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5022",
+      "name": "Data structures and algorithms",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE0010",
+      "name": "Dynamical systems",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5006",
+      "name": "Object oriented programming",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5025",
+      "name": "Graph algorithms",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5011",
+      "name": "Software engineering",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5029",
+      "name": "Artificial intelligence",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5013",
+      "name": "Systems for design and implementation",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5015",
+      "name": "Web programming",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5028",
+      "name": "Database management systems",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE7001",
+      "name": "Internship",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE0104",
+      "name": "Theorem proving in Lean",
+      "credits": "4 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5147",
+      "name": "Robotic process automation",
+      "credits": "4 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5061",
+      "name": "Virtual reality",
+      "credits": "4 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5161",
+      "name": "Research project",
+      "credits": "2 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE0095",
+      "name": "Designing innovative products",
+      "credits": "2 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5012",
+      "name": "Team project",
+      "credits": "2 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5014",
+      "name": "Software systems verification and validation",
+      "credits": "7 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE2001",
+      "name": "Preparation of bachelor thesis",
+      "credits": "3 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE0028",
+      "name": "Numerical calculus",
+      "credits": "7 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5072",
+      "name": "System and network administration",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5117",
+      "name": "Android/IoT things",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5270",
+      "name": "Rust programming",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5185",
+      "name": "Analysis and synthesis of circuits",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5216",
+      "name": "Quantum computing with applications in cryptography and AI",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5092",
+      "name": "Virtual instrumentation",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE8115",
+      "name": "Design patterns",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5157",
+      "name": "Blockchain: smart contracts",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE8151",
+      "name": "Introduction to natural language processing",
+      "credits": "5 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE7007",
+      "name": "History of computer science",
+      "credits": "3 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "ro-babes",
+      "code": "MLE5159",
+      "name": "Ethics and academic integrity in computer science",
+      "credits": "3 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2026/27",
+      "source": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "documentation": "LISTA OFICIAL / PDF INDIVIDUAL NA PÁGINA",
+      "limitations": "Somente nome/código/ECTS confirmados na lista; conteúdo e CH não conferidos."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714009",
+      "name": "Cálculo",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 1,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714005",
+      "name": "Informática General",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 1,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714006",
+      "name": "Introducción a la Programación",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 1,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714010",
+      "name": "Matemática Discreta",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 1,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714084",
+      "name": "Sistemas Digitales",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 1,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714008",
+      "name": "Álgebra",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714002",
+      "name": "Estadística",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714004",
+      "name": "Fundamentos de Estructura de Computadores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714003",
+      "name": "Fundamentos Físicos y Electrónicos de la Informática",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714007",
+      "name": "Metodología de la Programación",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 2,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714014",
+      "name": "Análisis de Algoritmos y Estructura de Datos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 3,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714019",
+      "name": "Arquitectura de Computadores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 3,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714001",
+      "name": "Organización y Gestión de Empresas",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 3,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714021",
+      "name": "Redes de Computadores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 3,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714023",
+      "name": "Sistemas Operativos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 3,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714011",
+      "name": "Bases de Datos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714016",
+      "name": "Estructura de Datos no Lineales",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714012",
+      "name": "Ingeniería del Software",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714017",
+      "name": "Programación Orientada a Objetos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714022",
+      "name": "Sistemas Distribuidos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 4,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714015",
+      "name": "Diseño de Algoritmos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714013",
+      "name": "Inteligencia Artificial",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714020",
+      "name": "Programación Concurrente y de Tiempo Real",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21719027",
+      "name": "Proyectos Informáticos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714059",
+      "name": "Seguridad en los Sistemas Informáticos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 5,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714025",
+      "name": "Modelos de Computación",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714030",
+      "name": "Reconocimiento de Patrones",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714031",
+      "name": "Sistemas Inteligentes",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714027",
+      "name": "Teoría de Autómatas y Lenguajes Formales",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714028",
+      "name": "Aprendizaje Computacional",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714024",
+      "name": "Complejidad Computacional",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714029",
+      "name": "Percepción",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714026",
+      "name": "Procesadores de Lenguaje",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714035",
+      "name": "Diseño Basado en Microprocesadores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714036",
+      "name": "Diseño de Computadores Empotrados",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714039",
+      "name": "Diseño de Redes de Computadores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714037",
+      "name": "Técnicas de Diseño de Computadores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714038",
+      "name": "Administración y Seguridad de Redes de Computadores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714034",
+      "name": "Diseño Avanzado de Arquitectura de Computadores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714040",
+      "name": "Diseño de Sistemas Software",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714047",
+      "name": "Implementación e Implantación de Sistemas Software",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714041",
+      "name": "Ingeniería de Requisitos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714042",
+      "name": "Verificación y Validación del Software",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714046",
+      "name": "Evolución del Software",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714045",
+      "name": "Metodologías y Procesos Software",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714049",
+      "name": "Programación en Internet",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714052",
+      "name": "Sistemas de Información en la Empresa",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714054",
+      "name": "Tecnologías Avanzadas de Bases de Datos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714053",
+      "name": "Administración de Bases de Datos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714051",
+      "name": "Ingeniería de Sistemas de Información",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714050",
+      "name": "Recuperación de la Información",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714055",
+      "name": "Tecnologías de Inteligencia de Negocio",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714056",
+      "name": "Administración de Servidores",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714080",
+      "name": "Interacción Persona-Ordenador",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714057",
+      "name": "Interconexión de Redes",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714063",
+      "name": "Programación Web",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 6,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714058",
+      "name": "Calidad de los Sistemas Informáticos",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714061",
+      "name": "Ingeniería Web",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714062",
+      "name": "Internet y Negocio Electrónico",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
+    },
+    {
+      "universityId": "es-cadiz",
+      "code": "21714085",
+      "name": "Virtualización de Sistemas",
+      "credits": "6 ECTS",
+      "contactHours": null,
+      "foreignSemester": 7,
+      "academicYear": "2025/26",
+      "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "documentation": "GRADE OFICIAL — EMENTA INDIVIDUAL A OBTER",
+      "limitations": "A lista não comprova horas de contato nem 75% de conteúdo."
     }
   ],
   "matches": [
