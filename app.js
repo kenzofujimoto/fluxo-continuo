@@ -128,6 +128,10 @@ async function bootstrap() {
     const response = await fetch('./data.json', {cache: 'no-store'});
     if (!response.ok) throw new Error('Erro ao carregar data.json: HTTP ' + response.status);
     database = await response.json();
+    const covered = new Set(database.foreignCourses.filter(f=>f.universityId).map(f=>f.universityId)).size;
+    const titleCandidates = database.matches.filter(m=>m.status==='indicio_titulo').length;
+    document.getElementById('researchCoverage').textContent = covered + ' de ' + database.universities.length + ' universidades com pelo menos uma disciplina catalogada · ' + database.foreignCourses.length + ' disciplinas estrangeiras indexadas · ' + titleCandidates + ' indícios por título';
+
     if(!database?.courses?.length||!database?.universities?.length)throw new Error('Inconsistent database');
     renderTabs();renderFilters();attach();renderMatrix();
   } catch(e) {
