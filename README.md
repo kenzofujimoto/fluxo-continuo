@@ -3,6 +3,7 @@
 > **Projeto acadêmico independente e não oficial.** Pesquisa de possíveis aproveitamentos curriculares para o campus Mackenzie Alphaville, não homologações institucionais.
 
 **Site principal:** https://fluxo-continuo.vercel.app  
+**Acervo de ementas e evidências:** https://fluxo-continuo.vercel.app/ementas.html  
 **Cobertura por universidade:** https://fluxo-continuo.vercel.app/cobertura.html  
 **Página de idiomas:** https://fluxo-continuo.vercel.app/idiomas.html
 
@@ -94,3 +95,23 @@ Acesse http://localhost:8000. O projeto é estático, sem login nem Neon, com im
 - Em caso de dúvida, siga a planilha atual da COI e a coordenação do Mackenzie. Não existe aproveitamento aprovado na base.
 
 Para validar o banco localmente, execute `node validate.js`.
+
+
+## Auditoria individual de ementas (16/10/2026)
+
+A base de catálogos e a análise curricular são conjuntos **distintos**. Consulte [o acervo de ementas](https://fluxo-continuo.vercel.app/ementas.html) para o estado documental **por disciplina**, derivado de links institucionais individuais, sem converter nomes semelhantes em equivalências.
+
+Arquivos gerados: `syllabi/records.json` contém fonte, identificação do programa, ano, integridade SHA-256, status, horas de contato quando explícitas e marcadores temáticos; `syllabi/metrics.json` resume resultados; `syllabi/backlog.json` agrupa lacunas; `syllabi/comparacoes.json` cruza evidências documentais dos candidatos registrados e as 6.856 células elegíveis. `syllabi/source-inventory.json` documenta os domínios examinados.
+
+A rotina `scripts/collect_syllabi.py` distingue documentos individuais de catálogos compartilhados, verifica a identidade da disciplina e registra somente metadados/proveniência, mantendo PDFs e programas completos nas URLs oficiais. A rotina `scripts/compare_evidence.py` procura **sinais temáticos controlados** em resumos brasileiros existentes e programas estrangeiros verificáveis. Sinais compartilhados **não são percentuais de cobertura curricular**; a carga horária do Mackenzie pode ter base distinta das horas de contato estrangeiras. Falta decisão humana fundamentada sobre todos os conteúdos, ementas brasileiras atuais e equivalência de horas.
+
+Para repetir a coleta via GitHub Actions, execute `Coletar evidencias de ementas` em *Actions*. Localmente:
+
+```bash
+python -m pip install -r scripts/requirements-audit.txt
+python scripts/collect_syllabi.py
+python scripts/compare_evidence.py
+node validate.js
+```
+
+O número de documentos recuperados varia por acessibilidade dos sites; não interpretar erro HTTP, ausência de programa, URL ainda não visitada ou catálogo parcial como impossibilidade de aproveitamento. Os dados gerados **não** constituem aprovação, homologação ou atestado de oferta 2027.2.
