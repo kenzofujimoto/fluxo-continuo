@@ -35,6 +35,34 @@
 
 Os **3.920 pares** anteriormente marcados I receberam triagem de títulos: 140 pares apresentaram afinidades lexicais, 279 mantiveram candidatos manuais sem novo sinal, 142 mantiveram sugestões anteriores e 3359 ficaram sem indícios fortes nos catálogos parciais. Não houve cotejo de ementas ou CH.
 
+## Pareceres curriculares individuais — estado em 16/10/2026
+
+| Indicador | Quantidade |
+| --- | ---: |
+| Ementas Mackenzie oficiais vinculadas | **178** (75 vigentes CC/SI 2025 · 41 Administração sem ano impresso · 62 Direito 2022 histórico) |
+| Programas estrangeiros individuais lidos e versionados por hash | **329** |
+| Candidaturas com documentos oficiais dos dois lados | **133** |
+| Pareceres individuais tópico a tópico | **133** (4 alta afinidade · 67 parcial · 55 baixa · 7 evidência insuficiente) |
+| Pareceres com horas analisáveis | 41 (2 comparáveis · 39 condicionais) |
+| Cruzamentos com estado de pesquisa justificado | **6.856/6.856** |
+| Novas candidatas por conceitos (não por título) | 1.138 disciplinas em 572 cruzamentos · 13 combinações de duas disciplinas |
+| Ementas estrangeiras a obter | 894 |
+| Cruzamentos bloqueados por catálogo insuficiente | 3.754 |
+| Equivalências homologadas | **0** |
+
+- Pareceres e prioridades: [analises.html](https://fluxo-continuo.vercel.app/analises.html). O que solicitar a cada coordenação e universidade: [pendencias.html](https://fluxo-continuo.vercel.app/pendencias.html), aba "O que solicitar".
+- Regras institucionais aplicadas: `docs/coi/`. Esquema e regras dos pareceres: `syllabi/pareceres/README.md`. Método: `METODOLOGIA.md`.
+
+```bash
+python -m pip install -r scripts/requirements-audit.txt pytest
+python -m pytest -q tests
+python scripts/fetch_documents.py            # cache incremental + campos estruturados
+python scripts/build_pareceres.py            # valida pareceres e publica o índice
+python scripts/semantic_triage.py            # estado de pesquisa dos 6.856 cruzamentos
+python scripts/report_requests.py            # pendências documentais por instituição
+python scripts/validate_audit.py && node validate.js
+```
+
 ## Como usar
 
 - No celular: explore **cartões por disciplina**, expanda para ver universidades e fontes, ou ative o modo **Tabela**.
