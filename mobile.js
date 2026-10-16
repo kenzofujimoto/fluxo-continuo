@@ -11,6 +11,7 @@
   const flags = {RO:'🇷🇴',ES:'🇪🇸',GB:'🇬🇧',AT:'🇦🇹',PT:'🇵🇹',KR:'🇰🇷',IE:'🇮🇪',US:'🇺🇸',AR:'🇦🇷',UY:'🇺🇾',BO:'🇧🇴',CO:'🇨🇴',FR:'🇫🇷',DE:'🇩🇪',BE:'🇧🇪',CL:'🇨🇱',MX:'🇲🇽',IT:'🇮🇹'};
   const states = {P:'Indício por nome',T:'Período a verificar',S:'Triagem parcial',C:'Catálogo pendente',F:'Documentos pendentes',I:'Catálogo indexado · analisar par'};
   let catalog, registry, foreign, expanded = null, revealAll = false, suggestionIndex = new Map();
+  let syllabi = new Map();
   const selected = () => document.querySelector('.course-tab[aria-selected="true"]')?.dataset.course || 'cc';
 
   function entries(courseId, subject, subjectIndex) {
@@ -96,11 +97,15 @@
         const f=foreign.get(uni.id+'|'+m.foreignCode);
         if(!f)return;
         const status=m.status==='candidata_forte'?'Candidata forte':m.status==='em_analise'?'Pré-análise documental':'Afinidade de nome — ementa não comparada';
+        const proof=syllabi.get(uni.id+'|'+m.foreignCode);
+        const evidenceHtml=proof?.status==='ementa_individual'
+          ? '<div class="callout"><b>Ementa individual localizada.</b> '+esc(proof.contactHours!=null?proof.contactHours+' horas de contato na fonte':'Carga de contato a confirmar')+'; equivalência ainda não analisada integralmente.</div>'+getSafeLink('Abrir ementa auditada',proof.document)
+          : '<p><b>Auditoria:</b> '+esc(proof?.status==='nao_tentada'?'Fonte aguarda coleta':proof?.status==='pagina_com_conteudo'?'Página com programa; verificação documental pendente':'Ementa individual não comprovada')+'</p>';
         html+='<section class="detail-section"><div class="detail-label">'+(i+1)+' · '+esc(status)+'</div><div class="detail-course">'+esc(f.name)+'</div>'+
         '<p><b>Código:</b> '+esc(f.originalCode || (f.officialCodeKnown===false?'Referência do catálogo (não código oficial)':f.code))+
         ' · <b>Oferta:</b> '+esc(f.period||'A confirmar')+' · <b>Créditos:</b> '+esc(f.credits ? f.credits+' '+(f.creditUnit||'créditos') : 'A confirmar')+'</p>'+
         '<div class="callout">'+esc(m.evidence||'É necessário conferir a ementa individual e a carga horária.')+'</div>'+
-        getSafeLink('Consultar fonte oficial',f.source||m.source)+'</section>';
+        getSafeLink('Consultar fonte oficial',f.source||m.source)+evidenceHtml+'</section>';
       });
     } else {
       const pair=registry.get(courseId+'|'+subjectIndex+'|'+ui);
@@ -139,6 +144,8 @@
     suggestionIndex=new Map(suggestions.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p[3]]));
     registry=new Map(screening.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p]));
     foreign=new Map(catalog.foreignCourses.map(f=>[f.universityId+'|'+f.code,f]));
+    try {const resp=await fetch('./syllabi/records.json',{cache:'no-store'});if(resp.ok){const doc=await resp.json();syllabi=new Map((doc.foreign||[]).map(r=>[r.universityId+'|'+r.foreignCode,r]));}}
+    catch(error){console.warn('Ementários documentados indisponíveis',error);}
     render();
   }).catch(e=>{results.innerHTML='<p class="mobile-no-matches">Não foi possível carregar os dados. Atualize a página.</p>';console.error(e);});
 })();
