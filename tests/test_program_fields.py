@@ -102,3 +102,18 @@ def test_ubb_older_template_row_layout():
 def test_ubb_inconsistent_hour_row_is_rejected():
     f = parse_ubb("x", " 3.1. Hours per week 2 2 2\n")
     assert f["hours"]["weekly"] is None
+
+
+def test_mackenzie_si_inline_layout_variants():
+    txt = ("Coordenador Adjunto \n\n\x0c\n \nCurso \nSISTEMAS DE INFORMAÇÃO \nNúcleo Temático \n"
+           "Formação Cidadã e Profissional Etapa \n3 \nComp. Curricular DESENVOLVIMENTO WEB II \nCódigo \n"
+           "Carga horária (horas) \n31,67 \nPresencial \n2 \nEspecífico \nPrática como CC \nX \nPercentual \n50,00 \n% \n"
+           "Ementa \nConceitos de integração de sistemas web. Práticas de Extensão. \nBibliografia básica \nX")
+    b = parse_mackenzie_blocks(txt)
+    assert len(b) == 1
+    assert b[0]["name"] == "DESENVOLVIMENTO WEB II"
+    assert b[0]["stage"] == 3 and b[0]["theme"] == "Formação Cidadã e Profissional"
+    assert b[0]["hours"] == 31.67
+    assert b[0]["extensionPercent"] == 50.0
+    # SI layout drops empty cells: weekly split cannot be read reliably
+    assert b[0]["weekly"] is None

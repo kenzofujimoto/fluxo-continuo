@@ -130,7 +130,7 @@ def _year(text: str):
     return f"{m.group(1)}/{m.group(2)}" if m else None
 
 
-_MACK_HEADER = re.compile(r"(?:^|\n)[ \t]*Curso[ \t]*\n([^\n]+)\n\s*N[uú]cleo Tem[aá]tico\s*\n(.*?)\n\s*Etapa\s*\n\s*(\d+)\S*\s*\n\s*Comp\. Curricular\s*\n(.*?)\n\s*C[oó]digo", re.S)
+_MACK_HEADER = re.compile(r"(?:^|\n)[ \t]*Curso[ \t]*\n([^\n]+)\n\s*N[uú]cleo Tem[aá]tico\s*(.*?)\s*Etapa\s*(\d+)\S*\s*\n\s*Comp\. Curricular\s*(.*?)\s*C[oó]digo", re.S)
 
 
 def parse_mackenzie_blocks(text: str) -> list[dict]:
@@ -142,12 +142,15 @@ def parse_mackenzie_blocks(text: str) -> list[dict]:
         seg = text[m.end():end]
         hours = _num(_first(r"Carga hor[aá]ria \(horas\)\s*\n\s*([0-9]{1,3}(?:,[0-9]{1,2})?)", seg))
         weekly = None
-        pres = re.search(r"\nPresencial\s*\n((?:[^\n]*\n){3})", seg)
+        # Only trust the three cells (teórica/prática/ateliê) when the layout keeps blank cells,
+        # i.e. exactly three lines between 'Presencial' and 'Específico' (FCI CC layout).
+        pres = re.search(r"\nPresencial[ \t]*\n((?:[^\n]*\n){3})\s*Espec[ií]fico", seg)
         if pres:
             cells = [c.strip() for c in pres.group(1).split("\n")[:3]]
             vals = [int(c) if c.isdigit() else 0 for c in cells]
             if all(c == "" or c.isdigit() for c in cells) and sum(vals) > 0:
                 weekly = {"teorica": vals[0], "pratica": vals[1], "atelie": vals[2]}
+        ext = _first(r"Percentual\s*\n\s*([0-9]{1,3}(?:,[0-9]{1,2})?)\s*\n?\s*%", seg)
         opt = re.search(r"Optativo\s*\n\s*(X?)\s*\n", seg)
         ementa = _first(r"\bEmenta\s*\n(.*?)\n\s*Bibliografia", seg) or ""
         out.append({
@@ -159,6 +162,7 @@ def parse_mackenzie_blocks(text: str) -> list[dict]:
             "hourUnit": "hora_relogio" if hours is not None else None,
             "weekly": weekly,
             "optional": bool(opt and opt.group(1) == "X"),
+            "extensionPercent": _num(ext),
             "ementa": _clean(ementa),
         })
     return out
