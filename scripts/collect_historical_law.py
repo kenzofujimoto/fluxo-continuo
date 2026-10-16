@@ -29,6 +29,8 @@ def segments(pdf):
     found=[]
     for page_idx,page in enumerate(pdf):
         txt=page.get_text(sort=True)
+        if page_idx==0:
+            print("DEBUG PAGE0 PDF TEXT:",repr(txt[:1300]),flush=True)
         hits=list(re.finditer(r"Nome\s+do\s+Componente\s+Curricular\s*:?\s*\n\s*([^\n]{3,150})",txt,re.I))
         for n,m in enumerate(hits):
             title=m.group(1).strip()
