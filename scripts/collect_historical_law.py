@@ -29,9 +29,7 @@ def segments(pdf):
     found=[]
     for page_idx,page in enumerate(pdf):
         txt=page.get_text(sort=True)
-        if page_idx==0:
-            print("DEBUG PAGE0 PDF TEXT:",repr(txt[:1300]),flush=True)
-        hits=list(re.finditer(r"Nome\s+do\s+Componente\s+Curricular\s*:?\s*\n\s*([^\n]{3,150})",txt,re.I))
+        hits=list(re.finditer(r"Nome\s+do\s+Componente\s+Curricular\s*:[^\n]*\n\s*([^\n]{3,150})",txt,re.I))
         for n,m in enumerate(hits):
             title=m.group(1).strip()
             if re.match(r"C[oó]digo do Componente",title,re.I):continue
@@ -43,7 +41,7 @@ def segments(pdf):
             stage_m=re.search(r"Etapa\s*:\s*(\d{1,2})\s*[ªaoº]",section,re.I)
             weekly=re.search(r"(?:Carga\s+hor[aá]ria\s*:\s*)(\d{1,2})\s*horas?\s+aula",section,re.I)
             if not weekly:
-                weekly=re.search(r"(?:Carga\s+hor[aá]ria\s*:\s*)\n\s*(\d{1,2})\s*horas?\s+aula",section,re.I)
+                weekly=re.search(r"(?:Carga\s+hor[aá]ria\s*:[^\n]*)\n\s*(\d{1,2})\s*horas?\s+aula",section,re.I)
             if len(text)<45:continue
             found.append({"name":title,"norm":norm(title),"stage":int(stage_m.group(1)) if stage_m else None,
                 "page":page_idx+1,"weeklyClassHours":int(weekly.group(1)) if weekly else None,
