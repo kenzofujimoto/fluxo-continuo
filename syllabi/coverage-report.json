@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:36:00.560116+00:00",
+  "generated": "2026-10-16T13:42:46.019892+00:00",
   "definitions": {
     "individualSyllabus": "Automated document identity + syllabus criteria; independent human audit pending.",
     "withoutIndividualSyllabus": "A course is indexed but individual syllabus not established.",
@@ -9,13 +9,13 @@
   },
   "metrics": {
     "foreignTotal": 2608,
-    "foreignIndividual": 215,
-    "foreignMissingIndividual": 2393,
-    "foreignIndividualMissingHours": 158,
+    "foreignIndividual": 290,
+    "foreignMissingIndividual": 2318,
+    "foreignIndividualMissingHours": 233,
     "mackTotal": 221,
     "mackVerified": 75,
     "registeredCandidates": 725,
-    "bothSyllabiCandidates": 52,
+    "bothSyllabiCandidates": 57,
     "manualReviews": 3,
     "institutionalApprovals": 0
   },
@@ -915,34 +915,17 @@
         "dir"
       ],
       "catalogued": 129,
-      "individualSyllabus": 0,
+      "individualSyllabus": 5,
       "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 129,
-      "withIndividualButMissingHours": 0,
+      "withoutIndividualSyllabus": 124,
+      "withIndividualButMissingHours": 5,
       "statuses": {
-        "pagina_com_conteudo": 126,
+        "ementa_individual": 5,
+        "pagina_com_conteudo": 121,
         "indisponivel": 1,
         "catalogo_ou_matriz": 2
       },
       "samplePending": [
-        {
-          "code": "101136",
-          "name": "Desarrollo de Aplicaciones Avanzadas",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/255695?plan=79987"
-        },
-        {
-          "code": "101148",
-          "name": "Modelado y Simulación",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/255595"
-        },
-        {
-          "code": "101131",
-          "name": "Seguridad en Sistemas Informáticos",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/255761"
-        },
         {
           "code": "101120",
           "name": "Interfaces Gráficas de Usuario",
@@ -950,22 +933,10 @@
           "source": "https://guias.usal.es/node/255584"
         },
         {
-          "code": "101132",
-          "name": "Sistemas Distribuidos",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/255767"
-        },
-        {
           "code": "302430",
           "name": "Computación de Altas Prestaciones",
           "status": "indisponivel",
           "source": "https://guias.usal.es/filesg/guias2015/Horario_M%C3%81STER%20ING.%20INFORMTICA_CURSO%202019-20_V2_Aprob.Junta%20Ftad._7-6-19.pdf"
-        },
-        {
-          "code": "102302",
-          "name": "Teoría del Derecho",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/235560?plan=149789"
         },
         {
           "code": "CAT-USAL-209422",
@@ -996,27 +967,39 @@
           "name": "ECONOMÍA ESPAÑOLA",
           "status": "pagina_com_conteudo",
           "source": "https://guias.usal.es/node/209525"
+        },
+        {
+          "code": "CAT-USAL-209563",
+          "name": "ECONOMÍA PÚBLICA Y SISTEMA FISCAL",
+          "status": "pagina_com_conteudo",
+          "source": "https://guias.usal.es/node/209563"
+        },
+        {
+          "code": "CAT-USAL-209604",
+          "name": "ESTADÍSTICA I",
+          "status": "pagina_com_conteudo",
+          "source": "https://guias.usal.es/node/209604"
+        },
+        {
+          "code": "CAT-USAL-209634",
+          "name": "FUNDAMENTOS DE DERECHO CIVIL PATRIMONIAL",
+          "status": "pagina_com_conteudo",
+          "source": "https://guias.usal.es/node/209634"
+        },
+        {
+          "code": "CAT-USAL-209660",
+          "name": "HISTORIA ECONÓMICA",
+          "status": "pagina_com_conteudo",
+          "source": "https://guias.usal.es/node/209660"
+        },
+        {
+          "code": "CAT-USAL-209681",
+          "name": "INTRODUCCIÓN A LA ADMINISTRACIÓN",
+          "status": "pagina_com_conteudo",
+          "source": "https://guias.usal.es/node/209681"
         }
       ],
       "pendingForeign": [
-        {
-          "code": "101136",
-          "name": "Desarrollo de Aplicaciones Avanzadas",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/255695?plan=79987"
-        },
-        {
-          "code": "101148",
-          "name": "Modelado y Simulación",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/255595"
-        },
-        {
-          "code": "101131",
-          "name": "Seguridad en Sistemas Informáticos",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/255761"
-        },
         {
           "code": "101120",
           "name": "Interfaces Gráficas de Usuario",
@@ -1024,22 +1007,10 @@
           "source": "https://guias.usal.es/node/255584"
         },
         {
-          "code": "101132",
-          "name": "Sistemas Distribuidos",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/255767"
-        },
-        {
           "code": "302430",
           "name": "Computación de Altas Prestaciones",
           "status": "indisponivel",
           "source": "https://guias.usal.es/filesg/guias2015/Horario_M%C3%81STER%20ING.%20INFORMTICA_CURSO%202019-20_V2_Aprob.Junta%20Ftad._7-6-19.pdf"
-        },
-        {
-          "code": "102302",
-          "name": "Teoría del Derecho",
-          "status": "pagina_com_conteudo",
-          "source": "https://guias.usal.es/node/235560?plan=149789"
         },
         {
           "code": "CAT-USAL-209422",
@@ -1774,7 +1745,38 @@
           "source": "https://guias.usal.es/node/207813"
         }
       ],
-      "syllabiMissingContactHours": [],
+      "syllabiMissingContactHours": [
+        {
+          "code": "101136",
+          "name": "Desarrollo de Aplicaciones Avanzadas",
+          "status": "ementa_sem_horas",
+          "source": "https://guias.usal.es/node/255695?plan=79987"
+        },
+        {
+          "code": "101148",
+          "name": "Modelado y Simulación",
+          "status": "ementa_sem_horas",
+          "source": "https://guias.usal.es/node/255595"
+        },
+        {
+          "code": "101131",
+          "name": "Seguridad en Sistemas Informáticos",
+          "status": "ementa_sem_horas",
+          "source": "https://guias.usal.es/node/255761"
+        },
+        {
+          "code": "101132",
+          "name": "Sistemas Distribuidos",
+          "status": "ementa_sem_horas",
+          "source": "https://guias.usal.es/node/255767"
+        },
+        {
+          "code": "102302",
+          "name": "Teoría del Derecho",
+          "status": "ementa_sem_horas",
+          "source": "https://guias.usal.es/node/235560?plan=149789"
+        }
+      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -3318,695 +3320,6 @@
           "name": "PRÁCTICAS PROFESIONALES",
           "status": "catalogo_ou_matriz",
           "source": "https://www.ucc.edu.ar/carreras/administracion-empresas/"
-        }
-      ],
-      "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "es-29-universitataut",
-      "name": "Universitat Autònoma de Barcelona",
-      "country": "Espanha",
-      "eligibleFor": [
-        "dir"
-      ],
-      "catalogued": 99,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 99,
-      "withIndividualButMissingHours": 0,
-      "statuses": {
-        "pagina_com_conteudo": 40,
-        "catalogo_ou_matriz": 59
-      },
-      "samplePending": [
-        {
-          "code": "102300",
-          "name": "Dret Civil I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102300/ca"
-        },
-        {
-          "code": "102252",
-          "name": "Dret Penal I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102252/ca"
-        },
-        {
-          "code": "102231",
-          "name": "Dret Romà",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102231/ca"
-        },
-        {
-          "code": "102197",
-          "name": "Història del Dret i de les Institucions",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102197/ca"
-        },
-        {
-          "code": "102251",
-          "name": "Instruments per a l'Estudi",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102251/ca"
-        },
-        {
-          "code": "102277",
-          "name": "Introducció a l'Economia",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102277/ca"
-        },
-        {
-          "code": "102299",
-          "name": "Organització Constitucional de l'Estat",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102299/ca"
-        },
-        {
-          "code": "102267",
-          "name": "Teoria del Dret",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102267/ca"
-        },
-        {
-          "code": "102216",
-          "name": "Dret Constitucional I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102216/ca"
-        },
-        {
-          "code": "102246",
-          "name": "Dret Penal II",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102246/ca"
-        },
-        {
-          "code": "102276",
-          "name": "Dret Administratiu I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102276/ca"
-        },
-        {
-          "code": "102232",
-          "name": "Dret Internacional Públic",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102232/ca"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "102300",
-          "name": "Dret Civil I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102300/ca"
-        },
-        {
-          "code": "102252",
-          "name": "Dret Penal I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102252/ca"
-        },
-        {
-          "code": "102231",
-          "name": "Dret Romà",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102231/ca"
-        },
-        {
-          "code": "102197",
-          "name": "Història del Dret i de les Institucions",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102197/ca"
-        },
-        {
-          "code": "102251",
-          "name": "Instruments per a l'Estudi",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102251/ca"
-        },
-        {
-          "code": "102277",
-          "name": "Introducció a l'Economia",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102277/ca"
-        },
-        {
-          "code": "102299",
-          "name": "Organització Constitucional de l'Estat",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102299/ca"
-        },
-        {
-          "code": "102267",
-          "name": "Teoria del Dret",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102267/ca"
-        },
-        {
-          "code": "102216",
-          "name": "Dret Constitucional I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102216/ca"
-        },
-        {
-          "code": "102246",
-          "name": "Dret Penal II",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102246/ca"
-        },
-        {
-          "code": "102276",
-          "name": "Dret Administratiu I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102276/ca"
-        },
-        {
-          "code": "102232",
-          "name": "Dret Internacional Públic",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102232/ca"
-        },
-        {
-          "code": "102230",
-          "name": "Dret Administratiu II",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102230/ca"
-        },
-        {
-          "code": "102240",
-          "name": "Dret Civil II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102240/ca"
-        },
-        {
-          "code": "102239",
-          "name": "Dret Civil III",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102239/ca"
-        },
-        {
-          "code": "102215",
-          "name": "Dret Constitucional II",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102215/ca"
-        },
-        {
-          "code": "102263",
-          "name": "Dret de la Unió Europea",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102263/ca"
-        },
-        {
-          "code": "102271",
-          "name": "Dret Mercantil I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102271/ca"
-        },
-        {
-          "code": "102245",
-          "name": "Dret Penal III",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102245/ca"
-        },
-        {
-          "code": "102229",
-          "name": "Dret Administratiu III",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102229/ca"
-        },
-        {
-          "code": "102238",
-          "name": "Dret Civil IV",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102238/ca"
-        },
-        {
-          "code": "102292",
-          "name": "Dret del Treball i de la Seguretat Social I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102292/ca"
-        },
-        {
-          "code": "102291",
-          "name": "Dret del Treball i de la Seguretat Social II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102291/ca"
-        },
-        {
-          "code": "102223",
-          "name": "Dret Financer i Tributari I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102223/ca"
-        },
-        {
-          "code": "102222",
-          "name": "Dret Financer i Tributari II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102222/ca"
-        },
-        {
-          "code": "102270",
-          "name": "Dret Mercantil II",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102270/ca"
-        },
-        {
-          "code": "102207",
-          "name": "Dret Processal I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102207/ca"
-        },
-        {
-          "code": "102206",
-          "name": "Dret Processal II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102206/ca"
-        },
-        {
-          "code": "102259",
-          "name": "Dret Internacional Privat",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102259/ca"
-        },
-        {
-          "code": "102255",
-          "name": "Protecció Internacional dels Drets Humans",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102255/ca"
-        },
-        {
-          "code": "103957",
-          "name": "Treball de Final de Grau",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/103957/ca"
-        },
-        {
-          "code": "102282",
-          "name": "Bioètica",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102282/ca"
-        },
-        {
-          "code": "100471",
-          "name": "Crims contra la humanitat i els drets humans",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/100471/ca"
-        },
-        {
-          "code": "103956",
-          "name": "Dictadura Franquista i Transició Democràtica",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/103956/ca"
-        },
-        {
-          "code": "103955",
-          "name": "Dret de Família",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/103955/ca"
-        },
-        {
-          "code": "102293",
-          "name": "Dret de la Seguretat Social",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102293/ca"
-        },
-        {
-          "code": "102273",
-          "name": "Dret de l'Assegurança",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102273/ca"
-        },
-        {
-          "code": "102237",
-          "name": "Dret de Successions",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102237/ca"
-        },
-        {
-          "code": "102261",
-          "name": "Dret del Comerç Internacional",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102261/ca"
-        },
-        {
-          "code": "102227",
-          "name": "Dret del Medi Ambient",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102227/ca"
-        },
-        {
-          "code": "102235",
-          "name": "Dret del Menor",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102235/ca"
-        },
-        {
-          "code": "102228",
-          "name": "Dret Dels Sectors Regulats: Telecomunicacions i Energia",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102228/ca"
-        },
-        {
-          "code": "102260",
-          "name": "Dret Europeu del Mercat Interior (Lliure Circulació)",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102260/ca"
-        },
-        {
-          "code": "102287",
-          "name": "Dret Global: Fonaments i Principis",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102287/ca"
-        },
-        {
-          "code": "102285",
-          "name": "Dret i Benestar Animal",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102285/ca"
-        },
-        {
-          "code": "102250",
-          "name": "Dret i Religions",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102250/ca"
-        },
-        {
-          "code": "102281",
-          "name": "Dret i Tecnologia",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102281/ca"
-        },
-        {
-          "code": "102226",
-          "name": "Dret Local",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102226/ca"
-        },
-        {
-          "code": "102272",
-          "name": "Dret Marítim",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102272/ca"
-        },
-        {
-          "code": "102248",
-          "name": "Dret Penal del Risc i Delinqüència Tecnològica",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102248/ca"
-        },
-        {
-          "code": "102247",
-          "name": "Dret Penal Econòmic i de l'Empresa",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102247/ca"
-        },
-        {
-          "code": "102286",
-          "name": "Dret Privat Europeu",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102286/ca"
-        },
-        {
-          "code": "102290",
-          "name": "Dret Processal Laboral",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102290/ca"
-        },
-        {
-          "code": "102225",
-          "name": "Dret Urbanístic",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102225/ca"
-        },
-        {
-          "code": "102214",
-          "name": "Drets Fonamentals",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102214/ca"
-        },
-        {
-          "code": "105068",
-          "name": "Drets i Tecnologies en l'Àmbit de les Relacions Laborals",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/105068/ca"
-        },
-        {
-          "code": "102284",
-          "name": "El Mètode del Cas: Jurisprudència Romana",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102284/ca"
-        },
-        {
-          "code": "102204",
-          "name": "Els Judicis Penals",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102204/ca"
-        },
-        {
-          "code": "102220",
-          "name": "Finançament Dels Ens Públics Territorials",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102220/ca"
-        },
-        {
-          "code": "102219",
-          "name": "Fiscalitat Empresarial",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102219/ca"
-        },
-        {
-          "code": "102218",
-          "name": "Fiscalitat Internacional",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102218/ca"
-        },
-        {
-          "code": "102280",
-          "name": "Gènere i Dret",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102280/ca"
-        },
-        {
-          "code": "102205",
-          "name": "Gestió Dels Litigis Civils",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102205/ca"
-        },
-        {
-          "code": "102298",
-          "name": "Història de les Cultures Jurídiques",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102298/ca"
-        },
-        {
-          "code": "102297",
-          "name": "Història del Dret i de les Institucions a Catalunya",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102297/ca"
-        },
-        {
-          "code": "102296",
-          "name": "Imatges del Dret en el Cinema",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102296/ca"
-        },
-        {
-          "code": "102258",
-          "name": "Institucionalització del Sistema Internacional",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102258/ca"
-        },
-        {
-          "code": "102213",
-          "name": "Institucions Polítiques de Catalunya",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102213/ca"
-        },
-        {
-          "code": "102268",
-          "name": "Introducció a la Ciència Política",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102268/ca"
-        },
-        {
-          "code": "102244",
-          "name": "Introducció a la Criminologia",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102244/ca"
-        },
-        {
-          "code": "102208",
-          "name": "Introducció a l'Anàlisi Dels Estats Comptables",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102208/ca"
-        },
-        {
-          "code": "102257",
-          "name": "La Participació Dels Ciutadans en les Institucions de la Unió Europea",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102257/ca"
-        },
-        {
-          "code": "102256",
-          "name": "Manteniment de la Pau i Polítiques Europees de Defensa",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102256/ca"
-        },
-        {
-          "code": "102249",
-          "name": "Multiculturalitat i Llibertat Religiosa",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102249/ca"
-        },
-        {
-          "code": "105066",
-          "name": "Pràctiques en Oficines Judicials",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/105066/ca"
-        },
-        {
-          "code": "102200",
-          "name": "Pràctiques Externes I",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102200/ca"
-        },
-        {
-          "code": "102289",
-          "name": "Prevenció de Riscos Laborals",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102289/ca"
-        },
-        {
-          "code": "102243",
-          "name": "Protecció Penal de la Funció Pública",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102243/ca"
-        },
-        {
-          "code": "100507",
-          "name": "Règim Jurídic de les Relacions Laborals a les Administracions Públiques",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/100507/ca"
-        },
-        {
-          "code": "102234",
-          "name": "Responsabilitat Civil",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102234/ca"
-        },
-        {
-          "code": "102224",
-          "name": "Seminari de Qüestions Actuals sobre Dret Administratiu",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102224/ca"
-        },
-        {
-          "code": "102233",
-          "name": "Seminari de Qüestions Actuals sobre Dret Civil",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102233/ca"
-        },
-        {
-          "code": "102212",
-          "name": "Seminari de Qüestions Actuals sobre Dret Constitucional",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102212/ca"
-        },
-        {
-          "code": "102288",
-          "name": "Seminari de Qüestions Actuals sobre Dret del Treball i de la Seguretat Social",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102288/ca"
-        },
-        {
-          "code": "102217",
-          "name": "Seminari de Qüestions Actuals sobre Dret Financer i Tributari",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102217/ca"
-        },
-        {
-          "code": "102254",
-          "name": "Seminari de Qüestions Actuals sobre Dret Internacional Privat",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102254/ca"
-        },
-        {
-          "code": "102253",
-          "name": "Seminari de Qüestions Actuals sobre Dret Internacional Públic",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102253/ca"
-        },
-        {
-          "code": "102269",
-          "name": "Seminari de Qüestions Actuals sobre Dret Mercantil",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102269/ca"
-        },
-        {
-          "code": "102242",
-          "name": "Seminari de Qüestions Actuals sobre Dret Penal",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102242/ca"
-        },
-        {
-          "code": "102203",
-          "name": "Seminari de Qüestions Actuals sobre Dret Processal",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102203/ca"
-        },
-        {
-          "code": "102283",
-          "name": "Seminari de Qüestions Actuals sobre Dret Romà",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102283/ca"
-        },
-        {
-          "code": "102295",
-          "name": "Seminari de Qüestions Actuals sobre Història del Dret i de les Institucions",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102295/ca"
-        },
-        {
-          "code": "102279",
-          "name": "Seminari de Qüestions Actuals sobre Teoria i Filosofia del Dret",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102279/ca"
-        },
-        {
-          "code": "105067",
-          "name": "Simulació Jurídica",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/105067/ca"
-        },
-        {
-          "code": "102294",
-          "name": "Sistemes Jurídics Contemporanis",
-          "status": "pagina_com_conteudo",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102294/ca"
-        },
-        {
-          "code": "102278",
-          "name": "Sociologia del Dret",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102278/ca"
-        },
-        {
-          "code": "102210",
-          "name": "Teoria de l'Estat",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102210/ca"
-        },
-        {
-          "code": "102202",
-          "name": "Tutela Judicial i Processos de Família",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102202/ca"
-        },
-        {
-          "code": "102201",
-          "name": "Tutela Judicial i Solució Alternativa de Conflictes",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102201/ca"
         }
       ],
       "syllabiMissingContactHours": [],
@@ -6484,536 +5797,6 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
-      "id": "es-cadiz",
-      "name": "Universidad de Cádiz",
-      "country": "Espanha",
-      "eligibleFor": [
-        "cc",
-        "adm",
-        "dir"
-      ],
-      "catalogued": 72,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 72,
-      "withIndividualButMissingHours": 0,
-      "statuses": {
-        "pagina_com_conteudo": 68,
-        "catalogo_ou_matriz": 3,
-        "indisponivel": 1
-      },
-      "samplePending": [
-        {
-          "code": "21714033",
-          "name": "Programación Paralela y Distribuida",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714033"
-        },
-        {
-          "code": "21714032",
-          "name": "Arquitectura de Computadores Paralelos y Distribuidos",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714032"
-        },
-        {
-          "code": "21714043",
-          "name": "Calidad del Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714043"
-        },
-        {
-          "code": "21714044",
-          "name": "Dirección y Gestión de Proyectos Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714044"
-        },
-        {
-          "code": "21714048",
-          "name": "Desarrollo de Sistemas Hipermedia",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714048"
-        },
-        {
-          "code": "21506032",
-          "name": "Dirección de Marketing",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas2.uca.es/wuca_asignaturasttg1617_asignatura7748.html?asign=21506032&dpto=C148&titul=21506"
-        },
-        {
-          "code": "21714009",
-          "name": "Cálculo",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714005",
-          "name": "Informática General",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714006",
-          "name": "Introducción a la Programación",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714010",
-          "name": "Matemática Discreta",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714084",
-          "name": "Sistemas Digitales",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714008",
-          "name": "Álgebra",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "21714033",
-          "name": "Programación Paralela y Distribuida",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714033"
-        },
-        {
-          "code": "21714032",
-          "name": "Arquitectura de Computadores Paralelos y Distribuidos",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714032"
-        },
-        {
-          "code": "21714043",
-          "name": "Calidad del Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714043"
-        },
-        {
-          "code": "21714044",
-          "name": "Dirección y Gestión de Proyectos Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714044"
-        },
-        {
-          "code": "21714048",
-          "name": "Desarrollo de Sistemas Hipermedia",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas.uca.es/2026-27/21714048"
-        },
-        {
-          "code": "21506032",
-          "name": "Dirección de Marketing",
-          "status": "pagina_com_conteudo",
-          "source": "https://asignaturas2.uca.es/wuca_asignaturasttg1617_asignatura7748.html?asign=21506032&dpto=C148&titul=21506"
-        },
-        {
-          "code": "21714009",
-          "name": "Cálculo",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714005",
-          "name": "Informática General",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714006",
-          "name": "Introducción a la Programación",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714010",
-          "name": "Matemática Discreta",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714084",
-          "name": "Sistemas Digitales",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714008",
-          "name": "Álgebra",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714002",
-          "name": "Estadística",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714004",
-          "name": "Fundamentos de Estructura de Computadores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714003",
-          "name": "Fundamentos Físicos y Electrónicos de la Informática",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714007",
-          "name": "Metodología de la Programación",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714014",
-          "name": "Análisis de Algoritmos y Estructura de Datos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714019",
-          "name": "Arquitectura de Computadores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714001",
-          "name": "Organización y Gestión de Empresas",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714021",
-          "name": "Redes de Computadores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714023",
-          "name": "Sistemas Operativos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714011",
-          "name": "Bases de Datos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714016",
-          "name": "Estructura de Datos no Lineales",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714012",
-          "name": "Ingeniería del Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714017",
-          "name": "Programación Orientada a Objetos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714022",
-          "name": "Sistemas Distribuidos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714015",
-          "name": "Diseño de Algoritmos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714013",
-          "name": "Inteligencia Artificial",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714020",
-          "name": "Programación Concurrente y de Tiempo Real",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21719027",
-          "name": "Proyectos Informáticos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714059",
-          "name": "Seguridad en los Sistemas Informáticos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714025",
-          "name": "Modelos de Computación",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714030",
-          "name": "Reconocimiento de Patrones",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714031",
-          "name": "Sistemas Inteligentes",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714027",
-          "name": "Teoría de Autómatas y Lenguajes Formales",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714028",
-          "name": "Aprendizaje Computacional",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714024",
-          "name": "Complejidad Computacional",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714029",
-          "name": "Percepción",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714026",
-          "name": "Procesadores de Lenguaje",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714035",
-          "name": "Diseño Basado en Microprocesadores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714036",
-          "name": "Diseño de Computadores Empotrados",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714039",
-          "name": "Diseño de Redes de Computadores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714037",
-          "name": "Técnicas de Diseño de Computadores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714038",
-          "name": "Administración y Seguridad de Redes de Computadores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714034",
-          "name": "Diseño Avanzado de Arquitectura de Computadores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714040",
-          "name": "Diseño de Sistemas Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714047",
-          "name": "Implementación e Implantación de Sistemas Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714041",
-          "name": "Ingeniería de Requisitos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714042",
-          "name": "Verificación y Validación del Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714046",
-          "name": "Evolución del Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714045",
-          "name": "Metodologías y Procesos Software",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714049",
-          "name": "Programación en Internet",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714052",
-          "name": "Sistemas de Información en la Empresa",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714054",
-          "name": "Tecnologías Avanzadas de Bases de Datos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714053",
-          "name": "Administración de Bases de Datos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714051",
-          "name": "Ingeniería de Sistemas de Información",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714050",
-          "name": "Recuperación de la Información",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714055",
-          "name": "Tecnologías de Inteligencia de Negocio",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714056",
-          "name": "Administración de Servidores",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714080",
-          "name": "Interacción Persona-Ordenador",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714057",
-          "name": "Interconexión de Redes",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714063",
-          "name": "Programación Web",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714058",
-          "name": "Calidad de los Sistemas Informáticos",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714061",
-          "name": "Ingeniería Web",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714062",
-          "name": "Internet y Negocio Electrónico",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "21714085",
-          "name": "Virtualización de Sistemas",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-        },
-        {
-          "code": "CAT-es-cadiz-001",
-          "name": "Asignaturas de la tecnología específica elegida",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/#titulo"
-        },
-        {
-          "code": "CAT-es-cadiz-002",
-          "name": "Asignatura optativa",
-          "status": "catalogo_ou_matriz",
-          "source": "https://drive.google.com/file/d/1TzTSsjDVrQK93XNTif3Aj-IawDYV440b/view?usp=drive_link"
-        },
-        {
-          "code": "CAT-es-cadiz-003",
-          "name": "Asignaturas de la tecnología específica elegida",
-          "status": "pagina_com_conteudo",
-          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/#titulo"
-        },
-        {
-          "code": "CAT-es-cadiz-004",
-          "name": "Asignatura optativa",
-          "status": "catalogo_ou_matriz",
-          "source": "https://drive.google.com/file/d/1TzTSsjDVrQK93XNTif3Aj-IawDYV440b/view?usp=drive_link"
-        },
-        {
-          "code": "CAT-es-cadiz-005",
-          "name": "Asignaturas optativas",
-          "status": "catalogo_ou_matriz",
-          "source": "https://drive.google.com/file/d/1TzTSsjDVrQK93XNTif3Aj-IawDYV440b/view?usp=drive_link"
-        },
-        {
-          "code": "21714064",
-          "name": "Trabajo Fin de Grado",
-          "status": "indisponivel",
-          "source": "https://asignaturas.uca.es/2026-27/21714064/"
-        }
-      ],
-      "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
       "id": "it-48-universitadegl",
       "name": "Università degli Studi di Salerno",
       "country": "Itália",
@@ -7537,6 +6320,538 @@
         }
       ],
       "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
+      "id": "es-cadiz",
+      "name": "Universidad de Cádiz",
+      "country": "Espanha",
+      "eligibleFor": [
+        "cc",
+        "adm",
+        "dir"
+      ],
+      "catalogued": 72,
+      "individualSyllabus": 1,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 71,
+      "withIndividualButMissingHours": 1,
+      "statuses": {
+        "ementa_individual": 1,
+        "pagina_com_conteudo": 67,
+        "catalogo_ou_matriz": 3,
+        "indisponivel": 1
+      },
+      "samplePending": [
+        {
+          "code": "21714032",
+          "name": "Arquitectura de Computadores Paralelos y Distribuidos",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21714032"
+        },
+        {
+          "code": "21714043",
+          "name": "Calidad del Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21714043"
+        },
+        {
+          "code": "21714044",
+          "name": "Dirección y Gestión de Proyectos Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21714044"
+        },
+        {
+          "code": "21714048",
+          "name": "Desarrollo de Sistemas Hipermedia",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21714048"
+        },
+        {
+          "code": "21506032",
+          "name": "Dirección de Marketing",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas2.uca.es/wuca_asignaturasttg1617_asignatura7748.html?asign=21506032&dpto=C148&titul=21506"
+        },
+        {
+          "code": "21714009",
+          "name": "Cálculo",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714005",
+          "name": "Informática General",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714006",
+          "name": "Introducción a la Programación",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714010",
+          "name": "Matemática Discreta",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714084",
+          "name": "Sistemas Digitales",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714008",
+          "name": "Álgebra",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714002",
+          "name": "Estadística",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "21714032",
+          "name": "Arquitectura de Computadores Paralelos y Distribuidos",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21714032"
+        },
+        {
+          "code": "21714043",
+          "name": "Calidad del Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21714043"
+        },
+        {
+          "code": "21714044",
+          "name": "Dirección y Gestión de Proyectos Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21714044"
+        },
+        {
+          "code": "21714048",
+          "name": "Desarrollo de Sistemas Hipermedia",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21714048"
+        },
+        {
+          "code": "21506032",
+          "name": "Dirección de Marketing",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas2.uca.es/wuca_asignaturasttg1617_asignatura7748.html?asign=21506032&dpto=C148&titul=21506"
+        },
+        {
+          "code": "21714009",
+          "name": "Cálculo",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714005",
+          "name": "Informática General",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714006",
+          "name": "Introducción a la Programación",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714010",
+          "name": "Matemática Discreta",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714084",
+          "name": "Sistemas Digitales",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714008",
+          "name": "Álgebra",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714002",
+          "name": "Estadística",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714004",
+          "name": "Fundamentos de Estructura de Computadores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714003",
+          "name": "Fundamentos Físicos y Electrónicos de la Informática",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714007",
+          "name": "Metodología de la Programación",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714014",
+          "name": "Análisis de Algoritmos y Estructura de Datos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714019",
+          "name": "Arquitectura de Computadores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714001",
+          "name": "Organización y Gestión de Empresas",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714021",
+          "name": "Redes de Computadores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714023",
+          "name": "Sistemas Operativos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714011",
+          "name": "Bases de Datos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714016",
+          "name": "Estructura de Datos no Lineales",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714012",
+          "name": "Ingeniería del Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714017",
+          "name": "Programación Orientada a Objetos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714022",
+          "name": "Sistemas Distribuidos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714015",
+          "name": "Diseño de Algoritmos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714013",
+          "name": "Inteligencia Artificial",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714020",
+          "name": "Programación Concurrente y de Tiempo Real",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21719027",
+          "name": "Proyectos Informáticos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714059",
+          "name": "Seguridad en los Sistemas Informáticos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714025",
+          "name": "Modelos de Computación",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714030",
+          "name": "Reconocimiento de Patrones",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714031",
+          "name": "Sistemas Inteligentes",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714027",
+          "name": "Teoría de Autómatas y Lenguajes Formales",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714028",
+          "name": "Aprendizaje Computacional",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714024",
+          "name": "Complejidad Computacional",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714029",
+          "name": "Percepción",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714026",
+          "name": "Procesadores de Lenguaje",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714035",
+          "name": "Diseño Basado en Microprocesadores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714036",
+          "name": "Diseño de Computadores Empotrados",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714039",
+          "name": "Diseño de Redes de Computadores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714037",
+          "name": "Técnicas de Diseño de Computadores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714038",
+          "name": "Administración y Seguridad de Redes de Computadores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714034",
+          "name": "Diseño Avanzado de Arquitectura de Computadores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714040",
+          "name": "Diseño de Sistemas Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714047",
+          "name": "Implementación e Implantación de Sistemas Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714041",
+          "name": "Ingeniería de Requisitos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714042",
+          "name": "Verificación y Validación del Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714046",
+          "name": "Evolución del Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714045",
+          "name": "Metodologías y Procesos Software",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714049",
+          "name": "Programación en Internet",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714052",
+          "name": "Sistemas de Información en la Empresa",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714054",
+          "name": "Tecnologías Avanzadas de Bases de Datos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714053",
+          "name": "Administración de Bases de Datos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714051",
+          "name": "Ingeniería de Sistemas de Información",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714050",
+          "name": "Recuperación de la Información",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714055",
+          "name": "Tecnologías de Inteligencia de Negocio",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714056",
+          "name": "Administración de Servidores",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714080",
+          "name": "Interacción Persona-Ordenador",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714057",
+          "name": "Interconexión de Redes",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714063",
+          "name": "Programación Web",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714058",
+          "name": "Calidad de los Sistemas Informáticos",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714061",
+          "name": "Ingeniería Web",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714062",
+          "name": "Internet y Negocio Electrónico",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21714085",
+          "name": "Virtualización de Sistemas",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "CAT-es-cadiz-001",
+          "name": "Asignaturas de la tecnología específica elegida",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/#titulo"
+        },
+        {
+          "code": "CAT-es-cadiz-002",
+          "name": "Asignatura optativa",
+          "status": "catalogo_ou_matriz",
+          "source": "https://drive.google.com/file/d/1TzTSsjDVrQK93XNTif3Aj-IawDYV440b/view?usp=drive_link"
+        },
+        {
+          "code": "CAT-es-cadiz-003",
+          "name": "Asignaturas de la tecnología específica elegida",
+          "status": "pagina_com_conteudo",
+          "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/#titulo"
+        },
+        {
+          "code": "CAT-es-cadiz-004",
+          "name": "Asignatura optativa",
+          "status": "catalogo_ou_matriz",
+          "source": "https://drive.google.com/file/d/1TzTSsjDVrQK93XNTif3Aj-IawDYV440b/view?usp=drive_link"
+        },
+        {
+          "code": "CAT-es-cadiz-005",
+          "name": "Asignaturas optativas",
+          "status": "catalogo_ou_matriz",
+          "source": "https://drive.google.com/file/d/1TzTSsjDVrQK93XNTif3Aj-IawDYV440b/view?usp=drive_link"
+        },
+        {
+          "code": "21714064",
+          "name": "Trabajo Fin de Grado",
+          "status": "indisponivel",
+          "source": "https://asignaturas.uca.es/2026-27/21714064/"
+        }
+      ],
+      "syllabiMissingContactHours": [
+        {
+          "code": "21714033",
+          "name": "Programación Paralela y Distribuida",
+          "status": "ementa_sem_horas",
+          "source": "https://asignaturas.uca.es/2026-27/21714033"
+        }
+      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -12124,377 +11439,6 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
-      "id": "es-26-universidaddej",
-      "name": "Universidad de Jaén",
-      "country": "Espanha",
-      "eligibleFor": [
-        "adm"
-      ],
-      "catalogued": 46,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 46,
-      "withIndividualButMissingHours": 0,
-      "statuses": {
-        "pagina_com_conteudo": 44,
-        "catalogo_ou_matriz": 2
-      },
-      "samplePending": [
-        {
-          "code": "11911001",
-          "name": "Administración de empresas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html"
-        },
-        {
-          "code": "11912021",
-          "name": "Análisis y valoración de operaciones bancarias",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"
-        },
-        {
-          "code": "11912030",
-          "name": "Análisis y valoración de operaciones en los mercados financieros",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912030/es/2025-26-11912030_es.html"
-        },
-        {
-          "code": "11912022",
-          "name": "Auditoría de cuentas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912022/es/2025-26-11912022_es.html"
-        },
-        {
-          "code": "11912001",
-          "name": "Contabilidad de gestión",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912001/es/2025-26-11912001_es.html"
-        },
-        {
-          "code": "11912031",
-          "name": "Contabilidad de gestión II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912031/es/2025-26-11912031_es.html"
-        },
-        {
-          "code": "11912002",
-          "name": "Contabilidad financiera",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912002/es/2025-26-11912002_es.html"
-        },
-        {
-          "code": "11912023",
-          "name": "Contabilidad financiera II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912023/es/2025-26-11912023_es.html"
-        },
-        {
-          "code": "11912024",
-          "name": "Contabilidad financiera III",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912024/es/2025-26-11912024_es.html"
-        },
-        {
-          "code": "11912025",
-          "name": "Creación de empresas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912025/es/2025-26-11912025_es.html"
-        },
-        {
-          "code": "11912003",
-          "name": "Dirección de marketing I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html"
-        },
-        {
-          "code": "11912011",
-          "name": "Dirección de marketing II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912011/es/2025-26-11912011_es.html"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "11911001",
-          "name": "Administración de empresas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html"
-        },
-        {
-          "code": "11912021",
-          "name": "Análisis y valoración de operaciones bancarias",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"
-        },
-        {
-          "code": "11912030",
-          "name": "Análisis y valoración de operaciones en los mercados financieros",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912030/es/2025-26-11912030_es.html"
-        },
-        {
-          "code": "11912022",
-          "name": "Auditoría de cuentas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912022/es/2025-26-11912022_es.html"
-        },
-        {
-          "code": "11912001",
-          "name": "Contabilidad de gestión",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912001/es/2025-26-11912001_es.html"
-        },
-        {
-          "code": "11912031",
-          "name": "Contabilidad de gestión II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912031/es/2025-26-11912031_es.html"
-        },
-        {
-          "code": "11912002",
-          "name": "Contabilidad financiera",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912002/es/2025-26-11912002_es.html"
-        },
-        {
-          "code": "11912023",
-          "name": "Contabilidad financiera II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912023/es/2025-26-11912023_es.html"
-        },
-        {
-          "code": "11912024",
-          "name": "Contabilidad financiera III",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912024/es/2025-26-11912024_es.html"
-        },
-        {
-          "code": "11912025",
-          "name": "Creación de empresas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912025/es/2025-26-11912025_es.html"
-        },
-        {
-          "code": "11912003",
-          "name": "Dirección de marketing I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html"
-        },
-        {
-          "code": "11912011",
-          "name": "Dirección de marketing II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912011/es/2025-26-11912011_es.html"
-        },
-        {
-          "code": "11912026",
-          "name": "Dirección de marketing III",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912026/es/2025-26-11912026_es.html"
-        },
-        {
-          "code": "11912012",
-          "name": "Dirección estratégica I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912012/es/2025-26-11912012_es.html"
-        },
-        {
-          "code": "11912027",
-          "name": "Dirección estratégica II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912027/es/2025-26-11912027_es.html"
-        },
-        {
-          "code": "11912013",
-          "name": "Dirección financiera I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912013/es/2025-26-11912013_es.html"
-        },
-        {
-          "code": "11912014",
-          "name": "Dirección financiera II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912014/es/2025-26-11912014_es.html"
-        },
-        {
-          "code": "11912032",
-          "name": "Dirección internacional y cooperación empresarial",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912032/es/2025-26-11912032_es.html"
-        },
-        {
-          "code": "11912015",
-          "name": "Dirección y administración de la producción",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912015/es/2025-26-11912015_es.html"
-        },
-        {
-          "code": "11912016",
-          "name": "Diseño y funcionamiento de la organización",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912016/es/2025-26-11912016_es.html"
-        },
-        {
-          "code": "11912017",
-          "name": "Econometría",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912017/es/2025-26-11912017_es.html"
-        },
-        {
-          "code": "11912004",
-          "name": "Economía del sector público",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912004/es/2025-26-11912004_es.html"
-        },
-        {
-          "code": "11912018",
-          "name": "Economía española",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912018/es/2025-26-11912018_es.html"
-        },
-        {
-          "code": "11912019",
-          "name": "Economía mundial",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912019/es/2025-26-11912019_es.html"
-        },
-        {
-          "code": "11911002",
-          "name": "Estadística I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911002/es/2025-26-11911002_es.html"
-        },
-        {
-          "code": "11912005",
-          "name": "Estadística II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912005/es/2025-26-11912005_es.html"
-        },
-        {
-          "code": "11912006",
-          "name": "Estados financieros",
-          "status": "catalogo_ou_matriz",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912006/es/2025-26-11912006_es.html"
-        },
-        {
-          "code": "11912033",
-          "name": "Finanzas de mercado",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912033/es/2025-26-11912033_es.html"
-        },
-        {
-          "code": "11911003",
-          "name": "Fundamentos de marketing",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911003/es/2025-26-11911003_es.html"
-        },
-        {
-          "code": "11912007",
-          "name": "Gestión de recursos humanos",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912007/es/2025-26-11912007_es.html"
-        },
-        {
-          "code": "11912028",
-          "name": "Gestión jurídico-laboral de la empresa",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912028/es/2025-26-11912028_es.html"
-        },
-        {
-          "code": "11911004",
-          "name": "Historia económica",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911004/es/2025-26-11911004_es.html"
-        },
-        {
-          "code": "11911005",
-          "name": "Introducción a la contabilidad",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911005/es/2025-26-11911005_es.html"
-        },
-        {
-          "code": "11911006",
-          "name": "Introducción a la economía",
-          "status": "catalogo_ou_matriz",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911006/es/2025-26-11911006_es.html"
-        },
-        {
-          "code": "11911007",
-          "name": "Introducción a las finanzas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911007/es/2025-26-11911007_es.html"
-        },
-        {
-          "code": "11911008",
-          "name": "Introducción al derecho",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911008/es/2025-26-11911008_es.html"
-        },
-        {
-          "code": "11912020",
-          "name": "Investigación operativa",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912020/es/2025-26-11912020_es.html"
-        },
-        {
-          "code": "11912008",
-          "name": "Macroeconomía",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912008/es/2025-26-11912008_es.html"
-        },
-        {
-          "code": "11911009",
-          "name": "Matemáticas I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911009/es/2025-26-11911009_es.html"
-        },
-        {
-          "code": "11912009",
-          "name": "Matemáticas II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912009/es/2025-26-11912009_es.html"
-        },
-        {
-          "code": "11911010",
-          "name": "Microeconomía",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911010/es/2025-26-11911010_es.html"
-        },
-        {
-          "code": "11912029",
-          "name": "Régimen fiscal de la empresa",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912029/es/2025-26-11912029_es.html"
-        },
-        {
-          "code": "11912010",
-          "name": "Sistema financiero español",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912010/es/2025-26-11912010_es.html"
-        },
-        {
-          "code": "11912034",
-          "name": "Sistemas informáticos aplicados al análisis financiero",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912034/es/2025-26-11912034_es.html"
-        },
-        {
-          "code": "11916001",
-          "name": "Trabajo fin de Grado - ADE",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11916001/es/2025-26-11916001_es.html"
-        },
-        {
-          "code": "11916002",
-          "name": "Trabajo fin de Grado - Finanzas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11916002/es/2025-26-11916002_es.html"
-        }
-      ],
-      "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
       "id": "co-17-universidaddel",
       "name": "Universidad de Los Andes",
       "country": "Colombia",
@@ -13923,6 +12867,697 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
+      "id": "es-29-universitataut",
+      "name": "Universitat Autònoma de Barcelona",
+      "country": "Espanha",
+      "eligibleFor": [
+        "dir"
+      ],
+      "catalogued": 99,
+      "individualSyllabus": 57,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 42,
+      "withIndividualButMissingHours": 57,
+      "statuses": {
+        "ementa_individual": 57,
+        "catalogo_ou_matriz": 39,
+        "pagina_com_conteudo": 3
+      },
+      "samplePending": [
+        {
+          "code": "102222",
+          "name": "Dret Financer i Tributari II",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102222/ca"
+        },
+        {
+          "code": "102270",
+          "name": "Dret Mercantil II",
+          "status": "pagina_com_conteudo",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102270/ca"
+        },
+        {
+          "code": "102282",
+          "name": "Bioètica",
+          "status": "pagina_com_conteudo",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102282/ca"
+        },
+        {
+          "code": "102235",
+          "name": "Dret del Menor",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102235/ca"
+        },
+        {
+          "code": "102228",
+          "name": "Dret Dels Sectors Regulats: Telecomunicacions i Energia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102228/ca"
+        },
+        {
+          "code": "102287",
+          "name": "Dret Global: Fonaments i Principis",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102287/ca"
+        },
+        {
+          "code": "102250",
+          "name": "Dret i Religions",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102250/ca"
+        },
+        {
+          "code": "102281",
+          "name": "Dret i Tecnologia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102281/ca"
+        },
+        {
+          "code": "102248",
+          "name": "Dret Penal del Risc i Delinqüència Tecnològica",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102248/ca"
+        },
+        {
+          "code": "102286",
+          "name": "Dret Privat Europeu",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102286/ca"
+        },
+        {
+          "code": "102290",
+          "name": "Dret Processal Laboral",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102290/ca"
+        },
+        {
+          "code": "102284",
+          "name": "El Mètode del Cas: Jurisprudència Romana",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102284/ca"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "102222",
+          "name": "Dret Financer i Tributari II",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102222/ca"
+        },
+        {
+          "code": "102270",
+          "name": "Dret Mercantil II",
+          "status": "pagina_com_conteudo",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102270/ca"
+        },
+        {
+          "code": "102282",
+          "name": "Bioètica",
+          "status": "pagina_com_conteudo",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102282/ca"
+        },
+        {
+          "code": "102235",
+          "name": "Dret del Menor",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102235/ca"
+        },
+        {
+          "code": "102228",
+          "name": "Dret Dels Sectors Regulats: Telecomunicacions i Energia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102228/ca"
+        },
+        {
+          "code": "102287",
+          "name": "Dret Global: Fonaments i Principis",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102287/ca"
+        },
+        {
+          "code": "102250",
+          "name": "Dret i Religions",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102250/ca"
+        },
+        {
+          "code": "102281",
+          "name": "Dret i Tecnologia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102281/ca"
+        },
+        {
+          "code": "102248",
+          "name": "Dret Penal del Risc i Delinqüència Tecnològica",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102248/ca"
+        },
+        {
+          "code": "102286",
+          "name": "Dret Privat Europeu",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102286/ca"
+        },
+        {
+          "code": "102290",
+          "name": "Dret Processal Laboral",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102290/ca"
+        },
+        {
+          "code": "102284",
+          "name": "El Mètode del Cas: Jurisprudència Romana",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102284/ca"
+        },
+        {
+          "code": "102220",
+          "name": "Finançament Dels Ens Públics Territorials",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102220/ca"
+        },
+        {
+          "code": "102218",
+          "name": "Fiscalitat Internacional",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102218/ca"
+        },
+        {
+          "code": "102298",
+          "name": "Història de les Cultures Jurídiques",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102298/ca"
+        },
+        {
+          "code": "102297",
+          "name": "Història del Dret i de les Institucions a Catalunya",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102297/ca"
+        },
+        {
+          "code": "102296",
+          "name": "Imatges del Dret en el Cinema",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102296/ca"
+        },
+        {
+          "code": "102213",
+          "name": "Institucions Polítiques de Catalunya",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102213/ca"
+        },
+        {
+          "code": "102268",
+          "name": "Introducció a la Ciència Política",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102268/ca"
+        },
+        {
+          "code": "102244",
+          "name": "Introducció a la Criminologia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102244/ca"
+        },
+        {
+          "code": "102208",
+          "name": "Introducció a l'Anàlisi Dels Estats Comptables",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102208/ca"
+        },
+        {
+          "code": "102256",
+          "name": "Manteniment de la Pau i Polítiques Europees de Defensa",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102256/ca"
+        },
+        {
+          "code": "102289",
+          "name": "Prevenció de Riscos Laborals",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102289/ca"
+        },
+        {
+          "code": "102243",
+          "name": "Protecció Penal de la Funció Pública",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102243/ca"
+        },
+        {
+          "code": "100507",
+          "name": "Règim Jurídic de les Relacions Laborals a les Administracions Públiques",
+          "status": "pagina_com_conteudo",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/100507/ca"
+        },
+        {
+          "code": "102224",
+          "name": "Seminari de Qüestions Actuals sobre Dret Administratiu",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102224/ca"
+        },
+        {
+          "code": "102233",
+          "name": "Seminari de Qüestions Actuals sobre Dret Civil",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102233/ca"
+        },
+        {
+          "code": "102212",
+          "name": "Seminari de Qüestions Actuals sobre Dret Constitucional",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102212/ca"
+        },
+        {
+          "code": "102288",
+          "name": "Seminari de Qüestions Actuals sobre Dret del Treball i de la Seguretat Social",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102288/ca"
+        },
+        {
+          "code": "102217",
+          "name": "Seminari de Qüestions Actuals sobre Dret Financer i Tributari",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102217/ca"
+        },
+        {
+          "code": "102254",
+          "name": "Seminari de Qüestions Actuals sobre Dret Internacional Privat",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102254/ca"
+        },
+        {
+          "code": "102253",
+          "name": "Seminari de Qüestions Actuals sobre Dret Internacional Públic",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102253/ca"
+        },
+        {
+          "code": "102269",
+          "name": "Seminari de Qüestions Actuals sobre Dret Mercantil",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102269/ca"
+        },
+        {
+          "code": "102242",
+          "name": "Seminari de Qüestions Actuals sobre Dret Penal",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102242/ca"
+        },
+        {
+          "code": "102203",
+          "name": "Seminari de Qüestions Actuals sobre Dret Processal",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102203/ca"
+        },
+        {
+          "code": "102283",
+          "name": "Seminari de Qüestions Actuals sobre Dret Romà",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102283/ca"
+        },
+        {
+          "code": "102295",
+          "name": "Seminari de Qüestions Actuals sobre Història del Dret i de les Institucions",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102295/ca"
+        },
+        {
+          "code": "102279",
+          "name": "Seminari de Qüestions Actuals sobre Teoria i Filosofia del Dret",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102279/ca"
+        },
+        {
+          "code": "102278",
+          "name": "Sociologia del Dret",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102278/ca"
+        },
+        {
+          "code": "102210",
+          "name": "Teoria de l'Estat",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102210/ca"
+        },
+        {
+          "code": "102202",
+          "name": "Tutela Judicial i Processos de Família",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102202/ca"
+        },
+        {
+          "code": "102201",
+          "name": "Tutela Judicial i Solució Alternativa de Conflictes",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102201/ca"
+        }
+      ],
+      "syllabiMissingContactHours": [
+        {
+          "code": "102300",
+          "name": "Dret Civil I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102300/ca"
+        },
+        {
+          "code": "102252",
+          "name": "Dret Penal I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102252/ca"
+        },
+        {
+          "code": "102231",
+          "name": "Dret Romà",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102231/ca"
+        },
+        {
+          "code": "102197",
+          "name": "Història del Dret i de les Institucions",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102197/ca"
+        },
+        {
+          "code": "102251",
+          "name": "Instruments per a l'Estudi",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102251/ca"
+        },
+        {
+          "code": "102277",
+          "name": "Introducció a l'Economia",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102277/ca"
+        },
+        {
+          "code": "102299",
+          "name": "Organització Constitucional de l'Estat",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102299/ca"
+        },
+        {
+          "code": "102267",
+          "name": "Teoria del Dret",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102267/ca"
+        },
+        {
+          "code": "102216",
+          "name": "Dret Constitucional I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102216/ca"
+        },
+        {
+          "code": "102246",
+          "name": "Dret Penal II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102246/ca"
+        },
+        {
+          "code": "102276",
+          "name": "Dret Administratiu I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102276/ca"
+        },
+        {
+          "code": "102232",
+          "name": "Dret Internacional Públic",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102232/ca"
+        },
+        {
+          "code": "102230",
+          "name": "Dret Administratiu II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102230/ca"
+        },
+        {
+          "code": "102240",
+          "name": "Dret Civil II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102240/ca"
+        },
+        {
+          "code": "102239",
+          "name": "Dret Civil III",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102239/ca"
+        },
+        {
+          "code": "102215",
+          "name": "Dret Constitucional II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102215/ca"
+        },
+        {
+          "code": "102263",
+          "name": "Dret de la Unió Europea",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102263/ca"
+        },
+        {
+          "code": "102271",
+          "name": "Dret Mercantil I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102271/ca"
+        },
+        {
+          "code": "102245",
+          "name": "Dret Penal III",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102245/ca"
+        },
+        {
+          "code": "102229",
+          "name": "Dret Administratiu III",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102229/ca"
+        },
+        {
+          "code": "102238",
+          "name": "Dret Civil IV",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102238/ca"
+        },
+        {
+          "code": "102292",
+          "name": "Dret del Treball i de la Seguretat Social I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102292/ca"
+        },
+        {
+          "code": "102291",
+          "name": "Dret del Treball i de la Seguretat Social II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102291/ca"
+        },
+        {
+          "code": "102223",
+          "name": "Dret Financer i Tributari I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102223/ca"
+        },
+        {
+          "code": "102207",
+          "name": "Dret Processal I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102207/ca"
+        },
+        {
+          "code": "102206",
+          "name": "Dret Processal II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102206/ca"
+        },
+        {
+          "code": "102259",
+          "name": "Dret Internacional Privat",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102259/ca"
+        },
+        {
+          "code": "102255",
+          "name": "Protecció Internacional dels Drets Humans",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102255/ca"
+        },
+        {
+          "code": "103957",
+          "name": "Treball de Final de Grau",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/103957/ca"
+        },
+        {
+          "code": "100471",
+          "name": "Crims contra la humanitat i els drets humans",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/100471/ca"
+        },
+        {
+          "code": "103956",
+          "name": "Dictadura Franquista i Transició Democràtica",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/103956/ca"
+        },
+        {
+          "code": "103955",
+          "name": "Dret de Família",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/103955/ca"
+        },
+        {
+          "code": "102293",
+          "name": "Dret de la Seguretat Social",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102293/ca"
+        },
+        {
+          "code": "102273",
+          "name": "Dret de l'Assegurança",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102273/ca"
+        },
+        {
+          "code": "102237",
+          "name": "Dret de Successions",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102237/ca"
+        },
+        {
+          "code": "102261",
+          "name": "Dret del Comerç Internacional",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102261/ca"
+        },
+        {
+          "code": "102227",
+          "name": "Dret del Medi Ambient",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102227/ca"
+        },
+        {
+          "code": "102260",
+          "name": "Dret Europeu del Mercat Interior (Lliure Circulació)",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102260/ca"
+        },
+        {
+          "code": "102285",
+          "name": "Dret i Benestar Animal",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102285/ca"
+        },
+        {
+          "code": "102226",
+          "name": "Dret Local",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102226/ca"
+        },
+        {
+          "code": "102272",
+          "name": "Dret Marítim",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102272/ca"
+        },
+        {
+          "code": "102247",
+          "name": "Dret Penal Econòmic i de l'Empresa",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102247/ca"
+        },
+        {
+          "code": "102225",
+          "name": "Dret Urbanístic",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102225/ca"
+        },
+        {
+          "code": "102214",
+          "name": "Drets Fonamentals",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102214/ca"
+        },
+        {
+          "code": "105068",
+          "name": "Drets i Tecnologies en l'Àmbit de les Relacions Laborals",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/105068/ca"
+        },
+        {
+          "code": "102204",
+          "name": "Els Judicis Penals",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102204/ca"
+        },
+        {
+          "code": "102219",
+          "name": "Fiscalitat Empresarial",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102219/ca"
+        },
+        {
+          "code": "102280",
+          "name": "Gènere i Dret",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102280/ca"
+        },
+        {
+          "code": "102205",
+          "name": "Gestió Dels Litigis Civils",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102205/ca"
+        },
+        {
+          "code": "102258",
+          "name": "Institucionalització del Sistema Internacional",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102258/ca"
+        },
+        {
+          "code": "102257",
+          "name": "La Participació Dels Ciutadans en les Institucions de la Unió Europea",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102257/ca"
+        },
+        {
+          "code": "102249",
+          "name": "Multiculturalitat i Llibertat Religiosa",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102249/ca"
+        },
+        {
+          "code": "105066",
+          "name": "Pràctiques en Oficines Judicials",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/105066/ca"
+        },
+        {
+          "code": "102200",
+          "name": "Pràctiques Externes I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102200/ca"
+        },
+        {
+          "code": "102234",
+          "name": "Responsabilitat Civil",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102234/ca"
+        },
+        {
+          "code": "105067",
+          "name": "Simulació Jurídica",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/105067/ca"
+        },
+        {
+          "code": "102294",
+          "name": "Sistemes Jurídics Contemporanis",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102294/ca"
+        }
+      ],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
       "id": "tu-67-nevsehirhacbek",
       "name": "Nevşehir Hacı Bektaş Veli Üniversitesi",
       "country": "Turquia",
@@ -14858,6 +14493,379 @@
         }
       ],
       "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
+      "id": "es-26-universidaddej",
+      "name": "Universidad de Jaén",
+      "country": "Espanha",
+      "eligibleFor": [
+        "adm"
+      ],
+      "catalogued": 46,
+      "individualSyllabus": 11,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 35,
+      "withIndividualButMissingHours": 11,
+      "statuses": {
+        "pagina_com_conteudo": 34,
+        "ementa_individual": 11,
+        "catalogo_ou_matriz": 1
+      },
+      "samplePending": [
+        {
+          "code": "11911001",
+          "name": "Administración de empresas",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html"
+        },
+        {
+          "code": "11912021",
+          "name": "Análisis y valoración de operaciones bancarias",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"
+        },
+        {
+          "code": "11912030",
+          "name": "Análisis y valoración de operaciones en los mercados financieros",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912030/es/2025-26-11912030_es.html"
+        },
+        {
+          "code": "11912022",
+          "name": "Auditoría de cuentas",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912022/es/2025-26-11912022_es.html"
+        },
+        {
+          "code": "11912001",
+          "name": "Contabilidad de gestión",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912001/es/2025-26-11912001_es.html"
+        },
+        {
+          "code": "11912002",
+          "name": "Contabilidad financiera",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912002/es/2025-26-11912002_es.html"
+        },
+        {
+          "code": "11912023",
+          "name": "Contabilidad financiera II",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912023/es/2025-26-11912023_es.html"
+        },
+        {
+          "code": "11912025",
+          "name": "Creación de empresas",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912025/es/2025-26-11912025_es.html"
+        },
+        {
+          "code": "11912003",
+          "name": "Dirección de marketing I",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html"
+        },
+        {
+          "code": "11912011",
+          "name": "Dirección de marketing II",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912011/es/2025-26-11912011_es.html"
+        },
+        {
+          "code": "11912026",
+          "name": "Dirección de marketing III",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912026/es/2025-26-11912026_es.html"
+        },
+        {
+          "code": "11912012",
+          "name": "Dirección estratégica I",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912012/es/2025-26-11912012_es.html"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "11911001",
+          "name": "Administración de empresas",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html"
+        },
+        {
+          "code": "11912021",
+          "name": "Análisis y valoración de operaciones bancarias",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"
+        },
+        {
+          "code": "11912030",
+          "name": "Análisis y valoración de operaciones en los mercados financieros",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912030/es/2025-26-11912030_es.html"
+        },
+        {
+          "code": "11912022",
+          "name": "Auditoría de cuentas",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912022/es/2025-26-11912022_es.html"
+        },
+        {
+          "code": "11912001",
+          "name": "Contabilidad de gestión",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912001/es/2025-26-11912001_es.html"
+        },
+        {
+          "code": "11912002",
+          "name": "Contabilidad financiera",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912002/es/2025-26-11912002_es.html"
+        },
+        {
+          "code": "11912023",
+          "name": "Contabilidad financiera II",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912023/es/2025-26-11912023_es.html"
+        },
+        {
+          "code": "11912025",
+          "name": "Creación de empresas",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912025/es/2025-26-11912025_es.html"
+        },
+        {
+          "code": "11912003",
+          "name": "Dirección de marketing I",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html"
+        },
+        {
+          "code": "11912011",
+          "name": "Dirección de marketing II",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912011/es/2025-26-11912011_es.html"
+        },
+        {
+          "code": "11912026",
+          "name": "Dirección de marketing III",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912026/es/2025-26-11912026_es.html"
+        },
+        {
+          "code": "11912012",
+          "name": "Dirección estratégica I",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912012/es/2025-26-11912012_es.html"
+        },
+        {
+          "code": "11912027",
+          "name": "Dirección estratégica II",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912027/es/2025-26-11912027_es.html"
+        },
+        {
+          "code": "11912013",
+          "name": "Dirección financiera I",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912013/es/2025-26-11912013_es.html"
+        },
+        {
+          "code": "11912014",
+          "name": "Dirección financiera II",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912014/es/2025-26-11912014_es.html"
+        },
+        {
+          "code": "11912032",
+          "name": "Dirección internacional y cooperación empresarial",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912032/es/2025-26-11912032_es.html"
+        },
+        {
+          "code": "11912015",
+          "name": "Dirección y administración de la producción",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912015/es/2025-26-11912015_es.html"
+        },
+        {
+          "code": "11912017",
+          "name": "Econometría",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912017/es/2025-26-11912017_es.html"
+        },
+        {
+          "code": "11912004",
+          "name": "Economía del sector público",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912004/es/2025-26-11912004_es.html"
+        },
+        {
+          "code": "11912018",
+          "name": "Economía española",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912018/es/2025-26-11912018_es.html"
+        },
+        {
+          "code": "11912019",
+          "name": "Economía mundial",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912019/es/2025-26-11912019_es.html"
+        },
+        {
+          "code": "11911002",
+          "name": "Estadística I",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911002/es/2025-26-11911002_es.html"
+        },
+        {
+          "code": "11912005",
+          "name": "Estadística II",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912005/es/2025-26-11912005_es.html"
+        },
+        {
+          "code": "11912006",
+          "name": "Estados financieros",
+          "status": "catalogo_ou_matriz",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912006/es/2025-26-11912006_es.html"
+        },
+        {
+          "code": "11911003",
+          "name": "Fundamentos de marketing",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911003/es/2025-26-11911003_es.html"
+        },
+        {
+          "code": "11912007",
+          "name": "Gestión de recursos humanos",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912007/es/2025-26-11912007_es.html"
+        },
+        {
+          "code": "11911005",
+          "name": "Introducción a la contabilidad",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911005/es/2025-26-11911005_es.html"
+        },
+        {
+          "code": "11911007",
+          "name": "Introducción a las finanzas",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911007/es/2025-26-11911007_es.html"
+        },
+        {
+          "code": "11911008",
+          "name": "Introducción al derecho",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911008/es/2025-26-11911008_es.html"
+        },
+        {
+          "code": "11912020",
+          "name": "Investigación operativa",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912020/es/2025-26-11912020_es.html"
+        },
+        {
+          "code": "11912008",
+          "name": "Macroeconomía",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912008/es/2025-26-11912008_es.html"
+        },
+        {
+          "code": "11911010",
+          "name": "Microeconomía",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911010/es/2025-26-11911010_es.html"
+        },
+        {
+          "code": "11912034",
+          "name": "Sistemas informáticos aplicados al análisis financiero",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912034/es/2025-26-11912034_es.html"
+        },
+        {
+          "code": "11916001",
+          "name": "Trabajo fin de Grado - ADE",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11916001/es/2025-26-11916001_es.html"
+        },
+        {
+          "code": "11916002",
+          "name": "Trabajo fin de Grado - Finanzas",
+          "status": "pagina_com_conteudo",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11916002/es/2025-26-11916002_es.html"
+        }
+      ],
+      "syllabiMissingContactHours": [
+        {
+          "code": "11912031",
+          "name": "Contabilidad de gestión II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912031/es/2025-26-11912031_es.html"
+        },
+        {
+          "code": "11912024",
+          "name": "Contabilidad financiera III",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912024/es/2025-26-11912024_es.html"
+        },
+        {
+          "code": "11912016",
+          "name": "Diseño y funcionamiento de la organización",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912016/es/2025-26-11912016_es.html"
+        },
+        {
+          "code": "11912033",
+          "name": "Finanzas de mercado",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912033/es/2025-26-11912033_es.html"
+        },
+        {
+          "code": "11912028",
+          "name": "Gestión jurídico-laboral de la empresa",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912028/es/2025-26-11912028_es.html"
+        },
+        {
+          "code": "11911004",
+          "name": "Historia económica",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911004/es/2025-26-11911004_es.html"
+        },
+        {
+          "code": "11911006",
+          "name": "Introducción a la economía",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911006/es/2025-26-11911006_es.html"
+        },
+        {
+          "code": "11911009",
+          "name": "Matemáticas I",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911009/es/2025-26-11911009_es.html"
+        },
+        {
+          "code": "11912009",
+          "name": "Matemáticas II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912009/es/2025-26-11912009_es.html"
+        },
+        {
+          "code": "11912029",
+          "name": "Régimen fiscal de la empresa",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912029/es/2025-26-11912029_es.html"
+        },
+        {
+          "code": "11912010",
+          "name": "Sistema financiero español",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912010/es/2025-26-11912010_es.html"
+        }
+      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -18277,6 +18285,353 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
+      "id": "gb-leeds",
+      "name": "University of Leeds",
+      "country": "Inglaterra",
+      "eligibleFor": [
+        "cc",
+        "adm",
+        "dir"
+      ],
+      "catalogued": 6,
+      "individualSyllabus": 0,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 6,
+      "withIndividualButMissingHours": 0,
+      "statuses": {
+        "pagina_com_conteudo": 6
+      },
+      "samplePending": [
+        {
+          "code": "COMP3270",
+          "name": "High-performance Computing",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3270/202627"
+        },
+        {
+          "code": "COMP3630",
+          "name": "Artificial Intelligence and Robotics",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3630/202627"
+        },
+        {
+          "code": "COMP3620",
+          "name": "Neural Networks & Deep Learning",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3620/202627"
+        },
+        {
+          "code": "COMP3950",
+          "name": "Compiler Design & Optimisation",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3950/202627"
+        },
+        {
+          "code": "COMP3212",
+          "name": "Resilient Distributed Systems",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3212/202627"
+        },
+        {
+          "code": "COMP3912",
+          "name": "Optimisation with Applications in AI",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3912/202627"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "COMP3270",
+          "name": "High-performance Computing",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3270/202627"
+        },
+        {
+          "code": "COMP3630",
+          "name": "Artificial Intelligence and Robotics",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3630/202627"
+        },
+        {
+          "code": "COMP3620",
+          "name": "Neural Networks & Deep Learning",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3620/202627"
+        },
+        {
+          "code": "COMP3950",
+          "name": "Compiler Design & Optimisation",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3950/202627"
+        },
+        {
+          "code": "COMP3212",
+          "name": "Resilient Distributed Systems",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3212/202627"
+        },
+        {
+          "code": "COMP3912",
+          "name": "Optimisation with Applications in AI",
+          "status": "pagina_com_conteudo",
+          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3912/202627"
+        }
+      ],
+      "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
+      "id": "kr-chung",
+      "name": "Chung-Ang University",
+      "country": "Coreia do Sul",
+      "eligibleFor": [
+        "cc",
+        "si",
+        "adm",
+        "dir"
+      ],
+      "catalogued": 5,
+      "individualSyllabus": 0,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 5,
+      "withIndividualButMissingHours": 0,
+      "statuses": {
+        "catalogo_ou_matriz": 5
+      },
+      "samplePending": [
+        {
+          "code": "CAT-KR-CHUNG-001",
+          "name": "Human-media Multi-core Computing",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        },
+        {
+          "code": "CAT-KR-CHUNG-002",
+          "name": "NLP and Information Search",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        },
+        {
+          "code": "CAT-KR-CHUNG-003",
+          "name": "Machine Learning Project",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        },
+        {
+          "code": "CAT-KR-CHUNG-004",
+          "name": "Design Pattern",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        },
+        {
+          "code": "CAT-KR-CHUNG-005",
+          "name": "Image Processing",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "CAT-KR-CHUNG-001",
+          "name": "Human-media Multi-core Computing",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        },
+        {
+          "code": "CAT-KR-CHUNG-002",
+          "name": "NLP and Information Search",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        },
+        {
+          "code": "CAT-KR-CHUNG-003",
+          "name": "Machine Learning Project",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        },
+        {
+          "code": "CAT-KR-CHUNG-004",
+          "name": "Design Pattern",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        },
+        {
+          "code": "CAT-KR-CHUNG-005",
+          "name": "Image Processing",
+          "status": "catalogo_ou_matriz",
+          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
+        }
+      ],
+      "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
+      "id": "pt-iade",
+      "name": "IADE",
+      "country": "Portugal",
+      "eligibleFor": [
+        "cc",
+        "si",
+        "dir"
+      ],
+      "catalogued": 5,
+      "individualSyllabus": 0,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 5,
+      "withIndividualButMissingHours": 0,
+      "statuses": {
+        "pagina_com_conteudo": 4,
+        "catalogo_ou_matriz": 1
+      },
+      "samplePending": [
+        {
+          "code": "CAT-PT-IADE-001",
+          "name": "Projeto de Sistemas Distribuídos",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-002",
+          "name": "Programação para Dispositivos Móveis",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-003",
+          "name": "Projeto de Desenvolvimento Móvel",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-004",
+          "name": "Segurança Informática",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-005",
+          "name": "Inteligência Artificial",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "CAT-PT-IADE-001",
+          "name": "Projeto de Sistemas Distribuídos",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-002",
+          "name": "Programação para Dispositivos Móveis",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-003",
+          "name": "Projeto de Desenvolvimento Móvel",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-004",
+          "name": "Segurança Informática",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-005",
+          "name": "Inteligência Artificial",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        }
+      ],
+      "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
+      "id": "fr-38-lecolededesign",
+      "name": "L'Ecole de Design Nantes Atlantique",
+      "country": "França",
+      "eligibleFor": [],
+      "catalogued": 5,
+      "individualSyllabus": 0,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 5,
+      "withIndividualButMissingHours": 0,
+      "statuses": {
+        "pagina_com_conteudo": 1,
+        "catalogo_ou_matriz": 4
+      },
+      "samplePending": [
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-001",
+          "name": "French Language and Culture",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        },
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-002",
+          "name": "Illustration (opção em alternativa a Wordpress)",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        },
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-003",
+          "name": "Wordpress (opção em alternativa a Illustration)",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        },
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-004",
+          "name": "After Effects (opção em alternativa a Photography)",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        },
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-005",
+          "name": "Photography (opção em alternativa a After Effects)",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-001",
+          "name": "French Language and Culture",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        },
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-002",
+          "name": "Illustration (opção em alternativa a Wordpress)",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        },
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-003",
+          "name": "Wordpress (opção em alternativa a Illustration)",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        },
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-004",
+          "name": "After Effects (opção em alternativa a Photography)",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        },
+        {
+          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-005",
+          "name": "Photography (opção em alternativa a After Effects)",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
+        }
+      ],
+      "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
       "id": "pt-coimbra",
       "name": "Universidade de Coimbra",
       "country": "Portugal",
@@ -18287,15 +18642,21 @@
         "dir"
       ],
       "catalogued": 144,
-      "individualSyllabus": 138,
+      "individualSyllabus": 139,
       "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 6,
-      "withIndividualButMissingHours": 138,
+      "withoutIndividualSyllabus": 5,
+      "withIndividualButMissingHours": 139,
       "statuses": {
-        "ementa_individual": 138,
-        "catalogo_ou_matriz": 6
+        "ementa_individual": 139,
+        "catalogo_ou_matriz": 5
       },
       "samplePending": [
+        {
+          "code": "2038756",
+          "name": "Segurança e Privacidade",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/88926/25144/2026-2027?id=5041&type=ram"
+        },
         {
           "code": "18803",
           "name": "Marketing",
@@ -18315,26 +18676,20 @@
           "source": "https://apps.uc.pt/courses/PT/unit/83589/24624/2026-2027?common_core=true&type=ram&id=11983"
         },
         {
-          "code": "83584",
-          "name": "Economia II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/83584/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
           "code": "91511",
           "name": "Administração Ambiental",
           "status": "catalogo_ou_matriz",
           "source": "https://apps.uc.pt/courses/PT/unit/91511/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "22232",
-          "name": "Metodologia do Direito",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/22232/25802/2025-2026?common_core=true&type=ram&id=1556"
         }
       ],
       "pendingForeign": [
         {
+          "code": "2038756",
+          "name": "Segurança e Privacidade",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/88926/25144/2026-2027?id=5041&type=ram"
+        },
+        {
           "code": "18803",
           "name": "Marketing",
           "status": "catalogo_ou_matriz",
@@ -18353,22 +18708,10 @@
           "source": "https://apps.uc.pt/courses/PT/unit/83589/24624/2026-2027?common_core=true&type=ram&id=11983"
         },
         {
-          "code": "83584",
-          "name": "Economia II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/83584/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
           "code": "91511",
           "name": "Administração Ambiental",
           "status": "catalogo_ou_matriz",
           "source": "https://apps.uc.pt/courses/PT/unit/91511/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "22232",
-          "name": "Metodologia do Direito",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/22232/25802/2025-2026?common_core=true&type=ram&id=1556"
         }
       ],
       "syllabiMissingContactHours": [
@@ -18383,12 +18726,6 @@
           "name": "Automação no Desenvolvimento de Software",
           "status": "ementa_sem_horas",
           "source": "https://apps.uc.pt/courses/PT/unit/97174/25123/2026-2027?id=5041&type=ram"
-        },
-        {
-          "code": "2038756",
-          "name": "Segurança e Privacidade",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/88926/25144/2026-2027?id=5041&type=ram"
         },
         {
           "code": "2056078",
@@ -18757,6 +19094,12 @@
           "source": "https://apps.uc.pt/courses/PT/unit/21120/24624/2026-2027?common_core=true&type=ram&id=11983"
         },
         {
+          "code": "83584",
+          "name": "Economia II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83584/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
           "code": "83586",
           "name": "Finanças Públicas I",
           "status": "ementa_sem_horas",
@@ -19117,6 +19460,12 @@
           "source": "https://apps.uc.pt/courses/PT/unit/100127/25802/2025-2026?common_core=true&type=ram&id=1556"
         },
         {
+          "code": "22232",
+          "name": "Metodologia do Direito",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22232/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
           "code": "22233",
           "name": "Direito Comercial II",
           "status": "ementa_sem_horas",
@@ -19201,353 +19550,6 @@
           "source": "https://apps.uc.pt/courses/PT/unit/97268/25802/2025-2026?common_core=true&type=ram&id=1556"
         }
       ],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "gb-leeds",
-      "name": "University of Leeds",
-      "country": "Inglaterra",
-      "eligibleFor": [
-        "cc",
-        "adm",
-        "dir"
-      ],
-      "catalogued": 6,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 6,
-      "withIndividualButMissingHours": 0,
-      "statuses": {
-        "pagina_com_conteudo": 6
-      },
-      "samplePending": [
-        {
-          "code": "COMP3270",
-          "name": "High-performance Computing",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3270/202627"
-        },
-        {
-          "code": "COMP3630",
-          "name": "Artificial Intelligence and Robotics",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3630/202627"
-        },
-        {
-          "code": "COMP3620",
-          "name": "Neural Networks & Deep Learning",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3620/202627"
-        },
-        {
-          "code": "COMP3950",
-          "name": "Compiler Design & Optimisation",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3950/202627"
-        },
-        {
-          "code": "COMP3212",
-          "name": "Resilient Distributed Systems",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3212/202627"
-        },
-        {
-          "code": "COMP3912",
-          "name": "Optimisation with Applications in AI",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3912/202627"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "COMP3270",
-          "name": "High-performance Computing",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3270/202627"
-        },
-        {
-          "code": "COMP3630",
-          "name": "Artificial Intelligence and Robotics",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3630/202627"
-        },
-        {
-          "code": "COMP3620",
-          "name": "Neural Networks & Deep Learning",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3620/202627"
-        },
-        {
-          "code": "COMP3950",
-          "name": "Compiler Design & Optimisation",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3950/202627"
-        },
-        {
-          "code": "COMP3212",
-          "name": "Resilient Distributed Systems",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3212/202627"
-        },
-        {
-          "code": "COMP3912",
-          "name": "Optimisation with Applications in AI",
-          "status": "pagina_com_conteudo",
-          "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3912/202627"
-        }
-      ],
-      "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "kr-chung",
-      "name": "Chung-Ang University",
-      "country": "Coreia do Sul",
-      "eligibleFor": [
-        "cc",
-        "si",
-        "adm",
-        "dir"
-      ],
-      "catalogued": 5,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 5,
-      "withIndividualButMissingHours": 0,
-      "statuses": {
-        "catalogo_ou_matriz": 5
-      },
-      "samplePending": [
-        {
-          "code": "CAT-KR-CHUNG-001",
-          "name": "Human-media Multi-core Computing",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        },
-        {
-          "code": "CAT-KR-CHUNG-002",
-          "name": "NLP and Information Search",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        },
-        {
-          "code": "CAT-KR-CHUNG-003",
-          "name": "Machine Learning Project",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        },
-        {
-          "code": "CAT-KR-CHUNG-004",
-          "name": "Design Pattern",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        },
-        {
-          "code": "CAT-KR-CHUNG-005",
-          "name": "Image Processing",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "CAT-KR-CHUNG-001",
-          "name": "Human-media Multi-core Computing",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        },
-        {
-          "code": "CAT-KR-CHUNG-002",
-          "name": "NLP and Information Search",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        },
-        {
-          "code": "CAT-KR-CHUNG-003",
-          "name": "Machine Learning Project",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        },
-        {
-          "code": "CAT-KR-CHUNG-004",
-          "name": "Design Pattern",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        },
-        {
-          "code": "CAT-KR-CHUNG-005",
-          "name": "Image Processing",
-          "status": "catalogo_ou_matriz",
-          "source": "https://sw.cau.ac.kr/eng/sub03/sub0302.php"
-        }
-      ],
-      "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "pt-iade",
-      "name": "IADE",
-      "country": "Portugal",
-      "eligibleFor": [
-        "cc",
-        "si",
-        "dir"
-      ],
-      "catalogued": 5,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 5,
-      "withIndividualButMissingHours": 0,
-      "statuses": {
-        "pagina_com_conteudo": 4,
-        "catalogo_ou_matriz": 1
-      },
-      "samplePending": [
-        {
-          "code": "CAT-PT-IADE-001",
-          "name": "Projeto de Sistemas Distribuídos",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-002",
-          "name": "Programação para Dispositivos Móveis",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-003",
-          "name": "Projeto de Desenvolvimento Móvel",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-004",
-          "name": "Segurança Informática",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-005",
-          "name": "Inteligência Artificial",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "CAT-PT-IADE-001",
-          "name": "Projeto de Sistemas Distribuídos",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-002",
-          "name": "Programação para Dispositivos Móveis",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-003",
-          "name": "Projeto de Desenvolvimento Móvel",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-004",
-          "name": "Segurança Informática",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-005",
-          "name": "Inteligência Artificial",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        }
-      ],
-      "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "fr-38-lecolededesign",
-      "name": "L'Ecole de Design Nantes Atlantique",
-      "country": "França",
-      "eligibleFor": [],
-      "catalogued": 5,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 5,
-      "withIndividualButMissingHours": 0,
-      "statuses": {
-        "pagina_com_conteudo": 1,
-        "catalogo_ou_matriz": 4
-      },
-      "samplePending": [
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-001",
-          "name": "French Language and Culture",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        },
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-002",
-          "name": "Illustration (opção em alternativa a Wordpress)",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        },
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-003",
-          "name": "Wordpress (opção em alternativa a Illustration)",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        },
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-004",
-          "name": "After Effects (opção em alternativa a Photography)",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        },
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-005",
-          "name": "Photography (opção em alternativa a After Effects)",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-001",
-          "name": "French Language and Culture",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        },
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-002",
-          "name": "Illustration (opção em alternativa a Wordpress)",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        },
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-003",
-          "name": "Wordpress (opção em alternativa a Illustration)",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        },
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-004",
-          "name": "After Effects (opção em alternativa a Photography)",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        },
-        {
-          "code": "CAT-FR-38-LECOLEDEDESIGN-INTL-005",
-          "name": "Photography (opção em alternativa a After Effects)",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.lecolededesign.com/en/programs/international-class-3rd-year"
-        }
-      ],
-      "syllabiMissingContactHours": [],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -20556,8 +20558,8 @@
       ],
       "candidates": 198,
       "candidatePhases": {
-        "topicos_preliminares_disponiveis": 40,
-        "falta_ementa_estrangeira_individual": 144,
+        "topicos_preliminares_disponiveis": 44,
+        "falta_ementa_estrangeira_individual": 140,
         "falta_ementa_brasileira_validada": 14
       },
       "individualReviews": 3
@@ -20608,8 +20610,8 @@
       ],
       "candidates": 97,
       "candidatePhases": {
-        "falta_ementa_estrangeira_individual": 84,
-        "topicos_preliminares_disponiveis": 12,
+        "topicos_preliminares_disponiveis": 13,
+        "falta_ementa_estrangeira_individual": 83,
         "falta_ementa_brasileira_validada": 1
       },
       "individualReviews": 0
@@ -20906,8 +20908,8 @@
       ],
       "candidates": 231,
       "candidatePhases": {
-        "falta_ementa_estrangeira_individual": 200,
-        "falta_ementa_brasileira_validada": 31
+        "falta_ementa_estrangeira_individual": 199,
+        "falta_ementa_brasileira_validada": 32
       },
       "individualReviews": 0
     },
@@ -21407,8 +21409,8 @@
       ],
       "candidates": 199,
       "candidatePhases": {
-        "falta_ementa_estrangeira_individual": 177,
-        "falta_ementa_brasileira_validada": 22
+        "falta_ementa_brasileira_validada": 33,
+        "falta_ementa_estrangeira_individual": 166
       },
       "individualReviews": 0
     }
