@@ -33,7 +33,7 @@
   function universityCard(e,subjectIndex,courseId) {
     const displayMatches = e.matches.map(m => ({m,f:foreign.get(e.uni.id+'|'+m.foreignCode)})).filter(x=>x.f);
     const titles = displayMatches.map(({m,f})=>'<span class="mobile-foreign-course"><b>'+esc(f.officialCodeKnown===false?'Ref. catálogo':f.code)+'</b> '+esc(f.name)+' <small>· '+esc(m.status==='candidata_forte'?'candidata forte':m.status==='em_analise'?'pré-análise':'indício por título')+'</small></span>').join('');
-    const extra = e.extraSuggestions.slice(0,2).map(x=>'<span class="mobile-foreign-course">'+esc(x.f.name)+' <small>· indício de nome</small></span>').join('');
+    const extra = e.extraSuggestions.map(x=>'<span class="mobile-foreign-course">'+esc(x.f.name)+' <small>· indício de nome</small></span>').join('');
     const candidate = (!displayMatches.length && e.candidate) ? '<span class="mobile-foreign-course">'+esc(e.candidate.name)+' · <small>triagem lexical</small></span>' : '';
     const count=displayMatches.length + e.extraSuggestions.length;
     const label = count ? count+' possibilidade'+(count===1?'':'s') : (e.candidate?'Triagem lexical':'Pesquisa pendente');
@@ -66,7 +66,7 @@
       if(status==='candidata_forte' && !matches.some(e=>e.status==='candidata_forte')) return false;
       if(status==='em_analise' && !matches.some(e=>e.status==='em_analise')) return false;
       if(status==='indicio_titulo' && !es.some(e=>e.matches.some(m=>m.status==='indicio_titulo') || e.rank===2)) return false;
-      if(status==='sem_dados' && es.some(e=>e.matches.length)) return false;
+      if(status==='sem_dados' && es.some(e=>e.rank<3)) return false;
       return true;
     });
     if(rows.length===1 && !expanded) expanded=courseId+'|'+rows[0].i;
@@ -111,7 +111,7 @@
     const extraSuggestions=(suggestionIndex.get(courseId+'|'+subjectIndex+'|'+ui)||[]).map(x=>({f:foreign.get(uni.id+'|'+x[0]),score:x[1]})).filter(x=>x.f&&!matches.some(m=>m.foreignCode===x.f.code));
     if(extraSuggestions.length){
       html+='<section class="detail-section"><h3>Outras disciplinas com nome semelhante</h3><p>Pesquisa automática de títulos em catálogos oficiais. <b>Não corresponde à equivalência curricular</b>, e a pontuação não é percentual de compatibilidade.</p>';
-      extraSuggestions.slice(0,3).forEach(x=>{html+='<p><b>'+esc(x.f.name)+'</b> · '+esc(x.f.officialCodeKnown===false?'Código não confirmado':x.f.code)+' · similaridade lexical '+esc(x.score)+'/100</p>'+getSafeLink('Fonte oficial',x.f.source);});
+      extraSuggestions.forEach(x=>{html+='<p><b>'+esc(x.f.name)+'</b> · '+esc(x.f.officialCodeKnown===false?'Código não confirmado':x.f.code)+' · similaridade lexical '+esc(x.score)+'/100</p>'+getSafeLink('Fonte oficial',x.f.source);});
       html+='</section>';
     }
     html+='<section class="detail-section"><h3>Limitações</h3><p>Exigências de idioma, matrícula, horas e oferta de 2027.2 ainda precisam de confirmação. A coordenação decide qualquer aproveitamento.</p>'+
