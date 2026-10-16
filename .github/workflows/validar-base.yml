@@ -21,3 +21,33 @@ jobs:
           node --check mobile.js
           node --check triagem-view.js
           node --check idiomas.js
+      - name: Conferir sintaxe das telas de evidencias
+        run: |
+          python - <<'PY'
+          import html.parser, pathlib, subprocess, tempfile
+          class Reader(html.parser.HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.in_script=False
+                  self.code=[]
+                  self.current=""
+              def handle_starttag(self, tag, attrs):
+                  if tag=="script" and not dict(attrs).get("src"):
+                      self.in_script=True
+                      self.current=""
+              def handle_data(self, data):
+                  if self.in_script:self.current+=data
+              def handle_endtag(self,tag):
+                  if tag=="script" and self.in_script:
+                      self.code.append(self.current)
+                      self.in_script=False
+          for name in ["index.html","ementas.html","analises.html"]:
+              reader=Reader()
+              reader.feed(pathlib.Path(name).read_text(encoding="utf-8"))
+              for n,code in enumerate(reader.code):
+                  if not code.strip():continue
+                  with tempfile.NamedTemporaryFile(mode="w",suffix=".js",encoding="utf-8") as t:
+                      t.write(code);t.flush()
+                      subprocess.run(["node","--check",t.name],check=True)
+              print(name,"inline scripts verified")
+          PY
