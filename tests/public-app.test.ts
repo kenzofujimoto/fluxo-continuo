@@ -1,0 +1,47 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { getRepository, getDiscipline, getComparison, searchDisciplines, parseDataset, safeSource, comparisonId } from '../lib/data';
+
+test('public counts are computed from versioned source records', () => {
+  const repository = getRepository();
+  const raw = JSON.parse(readFileSync('data.json', 'utf8'));
+  assert.equal(repository.stats.universities, raw.universities.length);
+  assert.equal(repository.stats.disciplines, raw.courses.reduce((sum: number, course: { rows: unknown[] }) => sum + course.rows.length, 0));
+  assert.equal(repository.stats.foreignCourses, raw.foreignCourses.length);
+  assert.equal(repository.stats.reviews, repository.reviews.length);
+  assert.equal(repository.stats.homologated, repository.reviews.filter(review => review.institutionalStatus === 'homologado').length);
+});
+
+test('discipline identity includes degree and supports names without codes', () => {
+  const repository = getRepository();
+  for (const course of repository.courses) for (const row of course.rows) {
+    const discipline = getDiscipline(course.id, row.id ?? row.name);
+    assert.equal(discipline?.row.name, row.name);
+  }
+  assert.equal(getDiscipline('missing', 'missing'), undefined);
+});
+
+test('search ignores accents and filters degree', () => {
+  assert.ok(searchDisciplines('computacao', 'cc').length > 0);
+  assert.equal(searchDisciplines('computacao', 'adm').length, 0);
+  assert.equal(searchDisciplines('nonexistent-unfindable').length, 0);
+});
+
+test('comparison URLs resolve exact evidence and preserve hour uncertainty', () => {
+  const repository = getRepository();
+  for (const review of repository.reviews) {
+    const resolved = getComparison(comparisonId(review.id));
+    assert.equal(resolved?.id, review.id);
+    assert.deepEqual(resolved?.hoursComparison, review.hoursComparison);
+    assert.deepEqual(resolved?.topics, review.topics);
+  }
+  assert.equal(getComparison('unknown'), undefined);
+});
+
+test('invalid datasets fail visibly and unsafe source protocols are rejected', () => {
+  assert.throws(() => parseDataset({ courses: [], universities: [{ id: 2 }] }));
+  assert.equal(safeSource('javascript:alert(1)'), undefined);
+  assert.equal(safeSource('file:///secret'), undefined);
+  assert.equal(safeSource('https://www.mackenzie.br/'), 'https://www.mackenzie.br/');
+});
