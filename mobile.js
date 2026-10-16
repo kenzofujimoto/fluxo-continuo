@@ -10,7 +10,7 @@
   const normalize = v => String(v || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const flags = {RO:'🇷🇴',ES:'🇪🇸',GB:'🇬🇧',AT:'🇦🇹',PT:'🇵🇹',KR:'🇰🇷',IE:'🇮🇪',US:'🇺🇸',AR:'🇦🇷',UY:'🇺🇾',BO:'🇧🇴',CO:'🇨🇴',FR:'🇫🇷',DE:'🇩🇪',BE:'🇧🇪',CL:'🇨🇱',MX:'🇲🇽',IT:'🇮🇹'};
   const states = {P:'Indício por nome',T:'Período a verificar',S:'Triagem parcial',C:'Catálogo pendente',F:'Documentos pendentes'};
-  let catalog, registry, foreign, expanded = null, revealAll = false;
+  let catalog, registry, foreign, expanded = null, revealAll = false, suggestionIndex = new Map();
   const selected = () => document.querySelector('.course-tab[aria-selected="true"]')?.dataset.course || 'cc';
 
   function entries(courseId, subject, subjectIndex) {
@@ -25,24 +25,27 @@
       const triage = registry.get(courseId+'|'+subjectIndex+'|'+ui);
       const candidate = triage?.[4] && foreign.get(uni.id+'|'+triage[4][0]);
       const doc = m && foreign.get(uni.id+'|'+m.foreignCode);
-      const rank = m ? (m.status === 'indicio_titulo' ? 2 : m.status === 'candidata_forte' ? 0 : 1) : (candidate ? 2 : 3);
-      return {uni,ui,m,matches,triage,candidate,doc,rank};
+      const extraSuggestions = (suggestionIndex.get(courseId+'|'+subjectIndex+'|'+ui) || []).map(pair => ({f:foreign.get(uni.id+'|'+pair[0]),lexical:pair[1]})).filter(x => x.f && !matches.some(m => m.foreignCode === x.f.code));
+      const rank = m ? (m.status === 'indicio_titulo' ? 2 : m.status === 'candidata_forte' ? 0 : 1) : (candidate || extraSuggestions.length ? 2 : 3);
+      return {uni,ui,m,matches,triage,candidate,doc,rank,extraSuggestions};
     }).filter(Boolean).sort((a,b) => a.rank-b.rank || a.uni.name.localeCompare(b.uni.name,'pt-BR'));
   }
   function universityCard(e,subjectIndex,courseId) {
     const displayMatches = e.matches.map(m => ({m,f:foreign.get(e.uni.id+'|'+m.foreignCode)})).filter(x=>x.f);
     const titles = displayMatches.map(({m,f})=>'<span class="mobile-foreign-course"><b>'+esc(f.officialCodeKnown===false?'Ref. catálogo':f.code)+'</b> '+esc(f.name)+' <small>· '+esc(m.status==='candidata_forte'?'candidata forte':m.status==='em_analise'?'pré-análise':'indício por título')+'</small></span>').join('');
+    const extra = e.extraSuggestions.slice(0,2).map(x=>'<span class="mobile-foreign-course">'+esc(x.f.name)+' <small>· indício de nome</small></span>').join('');
     const candidate = (!displayMatches.length && e.candidate) ? '<span class="mobile-foreign-course">'+esc(e.candidate.name)+' · <small>triagem lexical</small></span>' : '';
-    const label = displayMatches.length ? displayMatches.length+' possibilidade'+(displayMatches.length===1?'':'s') : (e.candidate?'Triagem lexical':'Pesquisa pendente');
+    const count=displayMatches.length + e.extraSuggestions.length;
+    const label = count ? count+' possibilidade'+(count===1?'':'s') : (e.candidate?'Triagem lexical':'Pesquisa pendente');
     const color = e.rank===0?'strong':e.rank===1?'pending':e.rank===2?'potential':'unknown';
     return '<button type="button" class="mobile-university '+color+'" data-mobile-university="'+e.ui+'" data-mobile-subject="'+subjectIndex+'" data-mobile-course="'+esc(courseId)+'" aria-label="Abrir '+esc(e.uni.name)+': '+label+'">'+
       '<span class="mobile-university-main"><span class="mobile-flag">'+(flags[e.uni.flag]||'🌐')+'</span><span class="mobile-university-text"><strong>'+esc(e.uni.name)+'</strong><small>'+esc(e.uni.country)+' · '+esc(label)+'</small></span><span class="mobile-arrow" aria-hidden="true">›</span></span>'+
-      (titles || candidate || '<span class="mobile-undocumented">Ainda não há candidata identificada</span>')+'</button>';
+      (titles + extra || candidate || '<span class="mobile-undocumented">Sem candidata localizada nos catálogos indexados</span>')+'</button>';
   }
   function content(courseId,subjectIndex,es) {
     const useful=es.filter(e=>e.rank<3),remaining=es.filter(e=>e.rank===3);
     const showing=revealAll ? useful.concat(remaining) : useful;
-    let html='<div class="mobile-entry-panel"><div class="mobile-entry-summary"><b>'+es.length+'</b> universidades elegíveis · <b>'+es.reduce((n,e)=>n+e.matches.filter(m=>m.status!=='indicio_titulo').length,0)+'</b> pré-análises documentais · <b>'+es.reduce((n,e)=>n+e.matches.filter(m=>m.status==='indicio_titulo').length+(e.m?0:e.candidate?1:0),0)+'</b> indícios em catálogos</div>';
+    let html='<div class="mobile-entry-panel"><div class="mobile-entry-summary"><b>'+es.length+'</b> universidades elegíveis · <b>'+es.reduce((n,e)=>n+e.matches.filter(m=>m.status!=='indicio_titulo').length,0)+'</b> pré-análises documentais · <b>'+es.reduce((n,e)=>n+e.matches.filter(m=>m.status==='indicio_titulo').length+e.extraSuggestions.length+(e.m?0:e.candidate?1:0),0)+'</b> indícios em catálogos</div>';
     html+=showing.length ? showing.map(e=>universityCard(e,subjectIndex,courseId)).join('') : '<p class="mobile-no-matches">Não há candidata localizada nas fontes cadastradas. Muitos catálogos estrangeiros ainda não foram indexados integralmente; isso não demonstra incompatibilidade.</p>';
     if(remaining.length) html+='<button type="button" class="mobile-show-more" data-mobile-more="true">'+(revealAll?'Ocultar universidades sem candidata ↑':'Ver outras '+remaining.length+' universidades com pesquisa pendente ↓')+'</button>';
     return html+'<p class="mobile-disclaimer">Indícios automáticos não são equivalências. A homologação depende de ementas, carga horária, oferta e coordenação.</p></div>';
@@ -69,7 +72,7 @@
     if(rows.length===1 && !expanded) expanded=courseId+'|'+rows[0].i;
     results.innerHTML='<div class="mobile-results-count"><span>'+rows.length+' de '+course.rows.length+' disciplinas</span><span>Toque para expandir ↓</span></div>'+
       (rows.length ? rows.map(({s,i,es})=>{
-        const opened=expanded===courseId+'|'+i,docs=es.reduce((n,e)=>n+e.matches.filter(m=>m.status!=='indicio_titulo').length,0),lex=es.reduce((n,e)=>n+e.matches.filter(m=>m.status==='indicio_titulo').length+(e.matches.length?0:e.candidate?1:0),0);
+        const opened=expanded===courseId+'|'+i,docs=es.reduce((n,e)=>n+e.matches.filter(m=>m.status!=='indicio_titulo').length,0),lex=es.reduce((n,e)=>n+e.matches.filter(m=>m.status==='indicio_titulo').length+e.extraSuggestions.length+(e.matches.length?0:e.candidate?1:0),0);
         return '<article class="mobile-subject '+(opened?'is-open':'')+'"><button type="button" class="mobile-subject-trigger" data-mobile-toggle="'+i+'" aria-expanded="'+opened+'" aria-controls="mobile-panel-'+courseId+'-'+i+'">'+
           '<span class="mobile-subject-top"><span>'+esc(s.semester)+'ª etapa</span><span>'+esc(s.id||'Código a conferir')+'</span></span>'+
           '<span class="mobile-subject-title">'+esc(s.name)+'</span><span class="mobile-subject-footer"><span class="mobile-status-count '+(docs?'has-doc':'')+'">'+(docs?docs+' pré-análises':'Documento pendente')+'</span>'+(lex?'<span class="mobile-status-count has-doc">'+lex+' possibilidades</span>':'')+
@@ -105,6 +108,12 @@
       html+='<section class="detail-section"><h3>'+esc(states[pair?.[3]]||'Pesquisa pendente')+'</h3><p>Não há candidata curricular documentada neste cruzamento; isso não prova incompatibilidade.</p>'+
         (possible?'<p>Indício lexical: '+esc(possible.name)+'. Pontuação não é percentual de equivalência.</p>'+getSafeLink('Consultar catálogo',possible.source):'')+'</section>';
     }
+    const extraSuggestions=(suggestionIndex.get(courseId+'|'+subjectIndex+'|'+ui)||[]).map(x=>({f:foreign.get(uni.id+'|'+x[0]),score:x[1]})).filter(x=>x.f&&!matches.some(m=>m.foreignCode===x.f.code));
+    if(extraSuggestions.length){
+      html+='<section class="detail-section"><h3>Outras disciplinas com nome semelhante</h3><p>Pesquisa automática de títulos em catálogos oficiais. <b>Não corresponde à equivalência curricular</b>, e a pontuação não é percentual de compatibilidade.</p>';
+      extraSuggestions.slice(0,3).forEach(x=>{html+='<p><b>'+esc(x.f.name)+'</b> · '+esc(x.f.officialCodeKnown===false?'Código não confirmado':x.f.code)+' · similaridade lexical '+esc(x.score)+'/100</p>'+getSafeLink('Fonte oficial',x.f.source);});
+      html+='</section>';
+    }
     html+='<section class="detail-section"><h3>Limitações</h3><p>Exigências de idioma, matrícula, horas e oferta de 2027.2 ainda precisam de confirmação. A coordenação decide qualquer aproveitamento.</p>'+
        getSafeLink('Site da universidade',uni.website)+getSafeLink('Catálogo',uni.catalogUrl)+'</section>';
     document.getElementById('detailTitle').textContent=uni.name;
@@ -124,9 +133,10 @@
     root.querySelectorAll('[data-mobile-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
   }));
   new MutationObserver(render).observe(head,{childList:true});
-  Promise.all([fetch('./data.json'),fetch('./triagem.json')]).then(async ([d,t])=>{
+  Promise.all([fetch('./data.json'),fetch('./triagem.json'),fetch('./candidatos-catalogo.json')]).then(async ([d,t,candidates])=>{
     if(!d.ok||!t.ok) throw new Error('Base indisponível');
-    catalog=await d.json();const screening=await t.json();
+    catalog=await d.json();const screening=await t.json();const suggestions=candidates.ok?await candidates.json():{pairs:[]};
+    suggestionIndex=new Map(suggestions.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p[3]]));
     registry=new Map(screening.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p]));
     foreign=new Map(catalog.foreignCourses.map(f=>[f.universityId+'|'+f.code,f]));
     render();
