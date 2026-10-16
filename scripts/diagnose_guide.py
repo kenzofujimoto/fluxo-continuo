@@ -9,7 +9,9 @@ SAMPLES=[
  ("Universitat Autònoma de Barcelona","102300","Dret Civil I","https://apps.uab.cat/guies/public/html/2026/assignatura/102300/ca"),
  ("Universidad de Salamanca","101136","Desarrollo de Aplicaciones Avanzadas","https://guias.usal.es/node/255695?plan=79987"),
  ("Universidad de Jaén","11912021","Análisis y valoración de operaciones bancarias","https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"),
- ("Universidad de Cádiz","21714032","Arquitectura de Computadores Paralelos y Distribuidos","https://asignaturas.uca.es/2026-27/21714032")
+ ("Universidad de Cádiz","21714032","Arquitectura de Computadores Paralelos y Distribuidos","https://asignaturas.uca.es/2026-27/21714032"),
+ ("Universidad de Salamanca","101148","Modelado y Simulación","https://guias.usal.es/node/255595"),
+ ("Universidad de Cádiz","21714043","Calidad del Software","https://asignaturas.uca.es/2026-27/21714043")
 ]
 def main():
  for uni,code,name,url in SAMPLES:
