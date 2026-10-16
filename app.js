@@ -10,6 +10,7 @@ const els = {
 let database;
 let titleSuggestionIndex = new Map();
 let foreignIndex = new Map();
+let syllabusEvidenceIndex = new Map();
 let currentCourse = 'cc';
 let activeElementBeforeDrawer = null;
 const state = { search: '', semester: 'all', university: 'all', status: 'all', only: false, all: false };
@@ -102,6 +103,10 @@ function openDetail(subject,uni) {
       allOptions.map((candidate,i)=>{
         const foreign=foreignFor(candidate);
         if(!foreign)return '';
+        const proof=syllabusEvidenceIndex.get(candidate.universityId+'|'+candidate.foreignCode);
+        const proofHtml=proof?.status==='ementa_individual'
+          ? '<div class="callout"><b>Ementa individual recuperada</b><p>'+esc(proof.contactHours!=null?proof.contactHours+' horas de contato verificadas na fonte':'Horas de contato ainda não extraídas')+(proof.academicYear?' · '+esc(proof.academicYear):'')+'. Os tópicos ainda exigem cotejo com a ementa oficial brasileira.</p></div>'+link('Abrir evidência individual auditada',proof.document)
+          : '<p><b>Status da auditoria:</b> '+esc(proof?.status==='nao_tentada'?'Fonte ainda não examinada':proof?.status==='pagina_com_conteudo'?'Página com conteúdo, mas ementa não confirmada':proof?.status==='catalogo_ou_matriz'?'Somente catálogo ou matriz verificados':'Ementa individual ainda não comprovada')+'</p>';
         const state=candidate.status==='candidata_forte'?'Candidata forte':candidate.status==='em_analise'?'Em análise documental':'Afinidade por título (sem cotejo de ementas)';
         return '<section class="detail-section"><div class="detail-label">'+(i+1)+' · '+esc(state)+'</div>'+
          '<div class="detail-course">'+esc(foreign.name)+'</div>'+
@@ -110,6 +115,7 @@ function openDetail(subject,uni) {
          (foreign.credits?'<span>'+esc(foreign.credits)+' '+esc(foreign.creditUnit||'créditos')+'</span>':'')+'<span>'+esc(foreign.period||'Oferta a confirmar')+'</span></div>'+
          link('Abrir disciplina / ementa oficial',foreign.source||candidate.source)+
          '<div class="callout"><b>'+esc(state)+' — não homologada</b><p>'+esc(candidate.evidence||'Comparação curricular pendente')+'</p></div>'+
+         proofHtml+
          (foreign.topics?'<p><b>Conteúdo estrangeiro:</b> '+esc(foreign.topics)+'</p>':'')+
          (foreign.limitations?'<p><b>Limitações:</b> '+esc(foreign.limitations)+'</p>':'')+
          (foreign.assessment?'<p><b>Observações:</b> '+esc(foreign.assessment)+'</p>':'')+
@@ -162,10 +168,18 @@ async function bootstrap() {
     if (!response.ok) throw new Error('Erro ao carregar data.json: HTTP ' + response.status);
     database = await response.json();
     foreignIndex = new Map(database.foreignCourses.map(f=>[f.universityId+'|'+f.code,f]));
+    try {
+      const response = await fetch('./syllabi/records.json', {cache: 'no-store'});
+      if(response.ok) {
+        const audit=await response.json();
+        syllabusEvidenceIndex=new Map((audit.foreign||[]).map(f=>[f.universityId+'|'+f.foreignCode,f]));
+      }
+    } catch(error) {console.warn('Acervo documental indisponível',error);}
+
     try { const source = await fetch('./candidatos-catalogo.json'); if (source.ok) { const suggestions=await source.json(); titleSuggestionIndex=new Map(suggestions.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p[3]])); } } catch(error) { console.warn('Índice complementar indisponível',error); }
     const covered = new Set(database.foreignCourses.filter(f=>f.universityId).map(f=>f.universityId)).size;
     const titleCandidates = database.matches.filter(m=>m.status==='indicio_titulo').length;
-    document.getElementById('researchCoverage').textContent = covered + ' de ' + database.universities.length + ' universidades com pelo menos uma disciplina catalogada · ' + database.foreignCourses.length + ' disciplinas estrangeiras indexadas · ' + titleCandidates + ' indícios por título';
+    document.getElementById('researchCoverage').textContent = covered + ' de ' + database.universities.length + ' universidades com pelo menos uma disciplina catalogada · ' + database.foreignCourses.length + ' disciplinas estrangeiras indexadas · ' + titleCandidates + ' indícios por título · ' + [...syllabusEvidenceIndex.values()].filter(e=>e.status==='ementa_individual').length + ' ementas individuais identificadas';
 
     if(!database?.courses?.length||!database?.universities?.length)throw new Error('Inconsistent database');
     renderTabs();renderFilters();attach();renderMatrix();
