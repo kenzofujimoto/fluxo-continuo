@@ -15,7 +15,7 @@
 <script>
 'use strict';const $=id=>document.getElementById(id),esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['https:','http:'].includes(p.protocol)?p.href:null}catch{return null}};
-let base=[],filt=[],offset=0,db,official;
+let base=[],filt=[],offset=0,db,official,manual=new Map();
 const phases={topicos_preliminares_disponiveis:'Duas ementas identificadas',falta_ementa_brasileira_validada:'Falta ementa Mackenzie validada',falta_ementa_estrangeira_individual:'Falta ementa estrangeira individual'};
 const norm=x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 function rows(reset){
@@ -27,6 +27,8 @@ function rows(reset){
  $('results').insertAdjacentHTML('beforeend',display.map(m=>{
  const sh=(m.sharedTopicSignals||[]).map(x=>x.replaceAll('_',' '));const missing=(m.mackTopicSignalsNotFound||[]).map(x=>x.replaceAll('_',' '));
  const hasBoth=m.phase==='topicos_preliminares_disponiveis';
+ const review=manual.get(m.courseId+'|'+m.mackCode+'|'+m.universityId+'|'+m.foreignCode);
+ const human=review?'<div style="background:#faf5f7;border-left:3px solid #8e1738;padding:12px;margin:12px 0;border-radius:6px"><b>Revisão individual das ementas (sem homologação)</b><p>'+esc(review.justification)+'</p><p><b>Conteúdos em comum:</b> '+esc(review.sharedAreas.join('; '))+'</p><p><b>Lacunas:</b> '+esc(review.notClearlyExplicitInForeign.join('; ')||'Nenhuma explicitamente identificada nesta primeira leitura')+'</p><p>'+esc(review.hourObservation)+'</p></div>':'';
  const a=m.mackSyllabusOfficial2025&&safe(m.mackSyllabusUrl);const b=m.foreignIndividualSyllabus&&safe(m.foreignSyllabusUrl);
  return '<article class="entry"><span class="tag '+(hasBoth?'both':'')+'">'+esc(phases[m.phase]||m.phase)+'</span>'+
  '<h2>'+esc(m.mackName||m.mackCode)+'</h2><p class="course">'+esc(m.courseName)+' · '+esc(m.university)+'</p>'+
@@ -35,7 +37,7 @@ function rows(reset){
  '<div><dt>Estrangeira</dt><dd>'+esc(m.foreignContactHours!=null?m.foreignContactHours+' h contato':'Não comprovadas')+'</dd></div></dl>'+
  '<p class="topics"><b>Sinais compartilhados:</b> '+esc(sh.join(', ')||'Nenhum confirmado')+'</p>'+
  (hasBoth?'<p class="topics"><b>Temas brasileiros sem sinal estrangeiro:</b> '+esc(missing.join(', ')||'Nenhum identificado pela heurística')+'</p>':'')+
- '<div class="links">'+(a?'<a href="'+esc(a)+'" target="_blank" rel="noopener noreferrer">Ementa Mackenzie ↗</a>':'')+
+ human+'<div class="links">'+(a?'<a href="'+esc(a)+'" target="_blank" rel="noopener noreferrer">Ementa Mackenzie ↗</a>':'')+
  (b?'<a href="'+esc(b)+'" target="_blank" rel="noopener noreferrer">Ementa estrangeira ↗</a>':'')+'</div><p class="muted">'+esc(m.hourComparison==='horas_incompletas'?'Comparação de horas incompleta':'Bases horárias ainda precisam de validação')+' · Não homologada</p></article>'
  }).join(''));
  $('count').textContent=filt.length+' candidaturas · exibindo '+offset;$('more').hidden=offset>=filt.length;
@@ -43,9 +45,10 @@ function rows(reset){
 }
 async function init(){
  try{
- const [a,b,c]=await Promise.all([fetch('./syllabi/comparacoes.json',{cache:'no-store'}),fetch('./data.json'),fetch('./syllabi/metrics.json',{cache:'no-store'})]);
+ const [a,b,c,d]=await Promise.all([fetch('./syllabi/comparacoes.json',{cache:'no-store'}),fetch('./data.json'),fetch('./syllabi/metrics.json',{cache:'no-store'}),fetch('./syllabi/revisoes-ementas.json',{cache:'no-store'})]);
  if(!a.ok||!b.ok||!c.ok)throw Error('A coleta documental está em processamento. Consulte a execução mais recente no GitHub Actions.');
  const [audit,data,metrics]=await Promise.all([a.json(),b.json(),c.json()]);
+ if(d.ok){const x=await d.json();manual=new Map((x.reviews||[]).map(y=>[y.courseId+'|'+y.mackCode+'|'+y.foreignUniversityId+'|'+y.foreignCode,y]));}
  db=data;const courseMap=new Map(data.courses.map(x=>[x.id,x])),fmap=new Map(data.foreignCourses.map(f=>[f.universityId+'|'+f.code,f]));
  base=audit.registered.map(m=>({...m,mackName:courseMap.get(m.courseId)?.rows.find(x=>x.id===m.mackCode)?.name||m.mackCode,
  foreignName:fmap.get(m.universityId+'|'+m.foreignCode)?.name,
