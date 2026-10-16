@@ -1,0 +1,23 @@
+name: Validar base academica
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar referencias e cruzamentos
+        run: node validate.js
+      - name: Conferir sintaxe do JavaScript
+        run: |
+          node --check app.js
+          node --check mobile.js
+          node --check triagem-view.js
+          node --check idiomas.js
