@@ -27,12 +27,13 @@ def main():
         good=[x for x in f if x["status"]=="ementa_individual"]
         withhours=sum(x.get("contactHours") is not None for x in good)
         missing=[x for x in f if x["status"]!="ementa_individual"]
-        records={s:[{"code":x["foreignCode"],"name":x["name"],"source":x.get("source") or x.get("catalogueUrl")} for x in f if x["status"]==s] for s in states}
         institutions.append({
             "id":uid,"name":u["name"],"country":u.get("country"),"eligibleFor":[c for c in courses if u.get("courses",{}).get(c) is True],
             "catalogued":len(f),"individualSyllabus":len(good),"individualWithContactHours":withhours,
             "withoutIndividualSyllabus":len(missing),"withIndividualButMissingHours":len(good)-withhours,
             "statuses":dict(states),"samplePending":[{"code":x["foreignCode"],"name":x["name"],"status":x["status"],"source":x.get("source") or x.get("catalogueUrl")} for x in missing[:12]],
+            "pendingForeign":[{"code":x["foreignCode"],"name":x["name"],"status":x["status"],"source":x.get("source") or x.get("catalogueUrl")} for x in missing],
+            "syllabiMissingContactHours":[{"code":x["foreignCode"],"name":x["name"],"status":"ementa_sem_horas","source":x.get("document") or x.get("source")} for x in good if x.get("contactHours") is None],
             "sourceEvidenceHint":"Only course-level syllabus status has been checked, not offer or academic equivalence."
         })
     institutions.sort(key=lambda z:(-z["withoutIndividualSyllabus"],z["name"]))
