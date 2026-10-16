@@ -84,7 +84,7 @@ function renderMatrix() {
   els.head.innerHTML=`<tr><th class="fixedcol"><div class="fixed-content">COMPONENTE CURRICULAR MACKENZIE</div></th><th class="semester-cell">ETAPA</th>${unis.map(u=>`<th class="foreign-cell" scope="col"><span class="uni-flag">${flag(u.flag)}</span><span class="uni-name">${esc(u.name)}</span><div class="uni-country">${esc(u.country)} · ${u.courses?.[currentCourse] ? 'COI: Sim' : 'COI: não consta Sim'}</div></th>`).join('')}</tr>`;
   els.body.innerHTML=rows.length ? rows.map((row,r)=> `<tr><td class="fixedcol"><div class="fixed-content"><span class="subj-title">${esc(row.name)}</span><span class="subj-code">${esc(row.id || 'Código não cadastrado')}</span></div></td><td class="semester-cell"><span class="term">${row.semester}ª</span></td>${unis.map((u,i)=>{
     const options=matchesFor(row,u.id);const m=options[0];const f=foreignFor(m);
-    if(m) return `<td class="foreign-cell"><button class="cell-button ${m.status==='indicio_titulo'?'suggested':m.status==='candidata_forte'?'strong':'pending'}" type="button" data-r="${r}" data-u="${i}" aria-label="Abrir proposta ${esc(f?.name||m.foreignCode)} para ${esc(row.name)} em ${esc(u.name)}"><span class="match-code">${esc(f?.officialCodeKnown===false?'Catálogo ↗':m.foreignCode+' ↗')}</span><span class="cell-tag">${esc(f?.name||'Candidata em análise')}${options.length>1?' · +'+(options.length-1)+' alternativa(s)':''}</span></button></td>`;
+    if(m) return `<td class="foreign-cell"><button class="cell-button ${m.status==='indicio_titulo'?'suggested':m.status==='candidata_forte'?'strong':'pending'}" type="button" data-r="${r}" data-u="${i}" aria-label="Abrir proposta ${esc(f?.name||m.foreignCode)} para ${esc(row.name)} em ${esc(u.name)}"><span class="match-code">${esc(f?.originalCode?f.originalCode+' ↗':f?.officialCodeKnown===false?'Catálogo ↗':m.foreignCode+' ↗')}</span><span class="cell-tag">${esc(f?.name||'Candidata em análise')}${options.length>1?' · +'+(options.length-1)+' alternativa(s)':''}</span></button></td>`;
     return `<td class="foreign-cell"><button class="cell-button empty" type="button" data-r="${r}" data-u="${i}" aria-label="Não verificada: ${esc(row.name)} e ${esc(u.name)}" title="Sem comparação documental cadastrada">—</button></td>`;
   }).join('')}</tr>`).join('') : `<tr><td class="loading" colspan="${unis.length+2}">Nenhuma disciplina corresponde aos filtros. Ajuste a etapa ou a busca.</td></tr>`;
   els.body.querySelectorAll('[data-r][data-u]').forEach(b=>b.addEventListener('click',()=>openDetail(rows[Number(b.dataset.r)],unis[Number(b.dataset.u)])));
@@ -105,7 +105,7 @@ function openDetail(subject,uni) {
         const state=candidate.status==='candidata_forte'?'Candidata forte':candidate.status==='em_analise'?'Em análise documental':'Afinidade por título (sem cotejo de ementas)';
         return '<section class="detail-section"><div class="detail-label">'+(i+1)+' · '+esc(state)+'</div>'+
          '<div class="detail-course">'+esc(foreign.name)+'</div>'+
-         '<span class="detail-code">'+esc(foreign.officialCodeKnown===false?'Referência de catálogo (não código oficial): '+foreign.code:foreign.code)+'</span>'+
+         '<span class="detail-code">'+esc(foreign.originalCode?'Código no plano: '+foreign.originalCode+' · registro interno: '+foreign.code:foreign.officialCodeKnown===false?'Referência de catálogo (não código oficial): '+foreign.code:foreign.code)+'</span>'+
          '<div class="detail-meta">'+(foreign.contactHours!=null?'<span>'+esc(foreign.contactHours)+'h de contato</span>':'<span>Horas não comprovadas</span>')+
          (foreign.credits?'<span>'+esc(foreign.credits)+' '+esc(foreign.creditUnit||'créditos')+'</span>':'')+'<span>'+esc(foreign.period||'Oferta a confirmar')+'</span></div>'+
          link('Abrir disciplina / ementa oficial',foreign.source||candidate.source)+
@@ -113,6 +113,7 @@ function openDetail(subject,uni) {
          (foreign.topics?'<p><b>Conteúdo estrangeiro:</b> '+esc(foreign.topics)+'</p>':'')+
          (foreign.limitations?'<p><b>Limitações:</b> '+esc(foreign.limitations)+'</p>':'')+
          (foreign.assessment?'<p><b>Observações:</b> '+esc(foreign.assessment)+'</p>':'')+
+         (foreign.prerequisites?'<p><b>Pré-requisitos:</b> '+esc(foreign.prerequisites)+'</p>':'')+
          '</section>';
       }).join('')
     : '<section class="detail-section"><h3>Nenhuma candidata catalogada</h3><div class="callout">O catálogo pode estar incompleto. A ausência de correspondência não demonstra incompatibilidade.</div></section>';
