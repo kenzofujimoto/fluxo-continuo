@@ -1,0 +1,33 @@
+name: Publicar inventario de pendencias
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/inventario-pendencias.yml'
+      - 'scripts/report_coverage.py'
+permissions:
+  contents: write
+concurrency:
+  group: inventario-pendencias
+  cancel-in-progress: false
+jobs:
+  relatorio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/report_coverage.py
+      - run: python -m json.tool syllabi/coverage-report.json >/dev/null
+      - name: Commit de pendencias documentais
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add syllabi/coverage-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(audit): inventory missing individual syllabi and contact hours"
+            git pull --rebase origin main
+            git push
+          fi
