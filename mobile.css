@@ -2,10 +2,10 @@
 .mobile-explorer{display:none}
 @media(max-width:760px){
  html,body{max-width:100%;overflow-x:clip}
- .site-header{height:auto;min-height:67px;padding:10px 15px;gap:9px}
+ .site-header{height:auto;min-height:67px;padding:10px 15px;gap:9px;flex-wrap:wrap}
  .brand-icon{height:37px;width:37px;flex-shrink:0;font-size:22px}
  .brand-title{font-size:17px}.brand-caption{font-size:9px}
- .header-actions{gap:7px}.header-actions .header-pill,.header-actions a:last-child{display:none}
+ .header-actions{gap:7px;width:100%;flex-wrap:wrap;justify-content:flex-start}.header-actions .header-pill,.header-actions a:last-child{display:none}
  .header-link{font-size:11px;white-space:nowrap;padding:9px;border:1px solid #eddee3;border-radius:9px}
  .hero{min-height:0;height:auto}.hero-inner{padding:31px 17px 26px}
  .hero-art{opacity:.09;right:-220px}.hero h1{font-size:clamp(28px,7.6vw,35px);letter-spacing:-1.1px;margin:12px 0 10px}
