@@ -2,11 +2,13 @@
    Afini­dade de título não constitui equivalência nem parecer acadêmico. */
 'use strict';
 (async function () {
-  const [response, screeningResponse] = await Promise.all([fetch('./data.json'), fetch('./triagem.json')]);
+  const [response, screeningResponse, candidateResponse] = await Promise.all([fetch('./data.json'), fetch('./triagem.json'), fetch('./candidatos-catalogo.json')]);
   if (!response.ok || !screeningResponse.ok) return;
   const data = await response.json();
   const screening = await screeningResponse.json();
   const registry = new Map(screening.pairs.map(function (p) {return [p[0] + '|' + p[1] + '|' + p[2], p];}));
+  const extraCandidates = candidateResponse.ok ? await candidateResponse.json() : {pairs: []};
+  const suggestionIndex = new Map(extraCandidates.pairs.map(function(p){return [p[0]+'|'+p[1]+'|'+p[2],p[3]];}));
   const foreignIndex = new Map(data.foreignCourses.map(function (f) {return [f.universityId + '|' + f.code, f];}));
   const uIndex = new Map(data.universities.map(function (u, i) {return [u.name, i];}));
   const labels = {P:'Afinidade lexical', T:'Verificar semestre', S:'Triagem parcial', C:'Consultar catálogo', F:'Solicitar documentos'};
@@ -20,11 +22,13 @@
     const subject=course.rows[record.r],uni=data.universities[record.u];
     const entry=record.entry,st=entry[3],candidate=entry[4] && foreignIndex.get(uni.id+'|'+entry[4][0]);
     const intro='<section class="detail-section"><div class="detail-label">DISCIPLINA DO MACKENZIE</div><div class="detail-course">'+encode(subject.name)+'</div><p>'+encode(subject.semester)+'ª etapa • '+encode(course.name)+'</p>'+a('Ementário brasileiro',subject.syllabusUrl || course.source)+'</section>';
+    const hints=(suggestionIndex.get(record.c+'|'+record.r+'|'+record.u)||[]).map(x=>({f:foreignIndex.get(uni.id+'|'+x[0]),score:x[1]})).filter(x=>x.f);
     const desc='<section class="detail-section"><h3>'+encode(labels[st])+'</h3><div class="callout"><b>Triagem automatizada, NÃO equivalência.</b><p>'+encode(screening.meta.statusLegend[st])+'</p><p>O algoritmo examinou nomes e metadados de disciplinas estrangeiras previamente coletadas. Não representa análise integral de todos os programas, nem reprovação de matéria sem similaridade.</p></div></section>';
+    const more=hints.length?'<section class="detail-section"><h3>Possíveis disciplinas por nome (não homologadas)</h3><p>Correspondências somente lexicais de catálogos oficiais. Pontuação não corresponde a % de equivalência.</p>'+hints.map(x=>'<p><b>'+encode(x.f.name)+'</b> · '+encode(x.f.officialCodeKnown===false?'Código a confirmar':x.f.code)+' · '+x.score+'/100</p>'+a('Fonte acadêmica',x.f.source)).join('')+'</section>':'';
     const cand=candidate?'<section class="detail-section"><div class="detail-label">DISCIPLINA COM AFINIDADE LEXICAL</div><div class="detail-course">'+encode(candidate.name)+'</div><p>Código '+encode(candidate.code)+' • '+encode(candidate.academicYear || 'ano a confirmar')+'</p><p>Pontuação lexical '+entry[4][1]+'/100. <b>Não é percentual de compatibilidade.</b></p>'+a('Consultar disciplina ou catálogo oficial',candidate.source)+'</section>':'';
     const next='<section class="detail-section"><h3>O que ainda falta conferir</h3><p>Plano de ensino individual, horas de contato, cobertura tema a tema, pré-requisitos, acesso ao departamento e oferta em 2027.2.</p>'+a('Catálogo da universidade',uni.catalogUrl||uni.website)+'</section>';
     document.getElementById('detailTitle').textContent=uni.name;
-    document.getElementById('detailBody').innerHTML=intro+desc+cand+next;
+    document.getElementById('detailBody').innerHTML=intro+desc+cand+more+next;
     document.getElementById('overlay').hidden=false;
     document.body.style.overflow='hidden';
     document.getElementById('closeDetail').focus();
@@ -50,11 +54,12 @@
         if(ui==null||!b.classList.contains('empty')||b.dataset.screening)continue;
         const r=registry.get(cid+'|'+ri+'|'+ui);
         if(!r)continue;
+        const extras=suggestionIndex.get(cid+'|'+ri+'|'+ui)||[];
         const st=r[3];b.dataset.screening='true';b.dataset.sclass=st;b.dataset.sri=String(ri);b.dataset.sui=String(ui);b.dataset.scourse=cid;
-        const first=document.createElement('span');first.className='match-code';first.textContent=r[4]?r[4][0]:tokens[st];
-        const second=document.createElement('span');second.className='cell-tag';second.textContent=labels[st];
+        const first=document.createElement('span');first.className='match-code';first.textContent=extras.length?extras[0][0]:(r[4]?r[4][0]:tokens[st]);
+        const second=document.createElement('span');second.className='cell-tag';second.textContent=extras.length?'Possível por título':labels[st];
         b.replaceChildren(first,second);b.title=screening.meta.statusLegend[st];
-        if(st==='P')b.classList.add('suggested');
+        if(st==='P'||extras.length)b.classList.add('suggested');
         if(st==='T')b.classList.add('timing');
       }
     }
