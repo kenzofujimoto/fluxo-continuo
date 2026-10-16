@@ -12,6 +12,7 @@ let titleSuggestionIndex = new Map();
 let foreignIndex = new Map();
 let syllabusEvidenceIndex = new Map();
 let officialMackenzieIndex = new Map();
+let individualReviewIndex = new Map();
 let currentCourse = 'cc';
 let activeElementBeforeDrawer = null;
 const state = { search: '', semester: 'all', university: 'all', status: 'all', only: false, all: false };
@@ -38,6 +39,25 @@ function extraFor(subject, universityId) {
   const uniIndex = database.universities.findIndex(u => u.id === universityId);
   if (rowIndex < 0 || uniIndex < 0) return [];
   return (titleSuggestionIndex.get(currentCourse+'|'+rowIndex+'|'+uniIndex) || []).map(([code,score])=>({foreign:foreignIndex.get(universityId+'|'+code),score})).filter(item=>item.foreign);
+}
+function auditKey(courseId, mackCode, universityId, foreignCode) {
+  return [courseId,mackCode,universityId,foreignCode].join('|');
+}
+function auditStage(subject, candidate) {
+  if (!candidate) return {level:'none',label:'Sem candidata'};
+  const brazil=officialMackenzieIndex.get(currentCourse+'|'+String(subject.id||subject.name).toLocaleLowerCase('pt-BR'));
+  const foreign=syllabusEvidenceIndex.get(candidate.universityId+'|'+candidate.foreignCode);
+  const br=!!brazil && brazil.status==='ementa_oficial_correspondente';
+  const fr=!!foreign && foreign.status==='ementa_individual';
+  const manual=individualReviewIndex.has(auditKey(currentCourse,candidate.mackCode||subject.id||subject.name,candidate.universityId,candidate.foreignCode));
+  if (manual) return {level:'review',label:'Ementas comparadas · não homologada'};
+  if (br && fr) return {level:'dual',label:'Duas ementas obtidas'};
+  if (br || fr) return {level:'one',label:'Uma ementa obtida'};
+  return {level:'none',label:'Sem ementas individuais vinculadas'};
+}
+function stageHtml(subject, candidate) {
+  const a=auditStage(subject,candidate);
+  return '<span class="audit-pill audit-'+esc(a.level)+'" title="'+esc(a.label)+'">'+esc(a.label)+'</span>';
 }
 function matchingRows() {
   const term = state.search.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
@@ -86,7 +106,7 @@ function renderMatrix() {
   els.head.innerHTML=`<tr><th class="fixedcol"><div class="fixed-content">COMPONENTE CURRICULAR MACKENZIE</div></th><th class="semester-cell">ETAPA</th>${unis.map(u=>`<th class="foreign-cell" scope="col"><span class="uni-flag">${flag(u.flag)}</span><span class="uni-name">${esc(u.name)}</span><div class="uni-country">${esc(u.country)} · ${u.courses?.[currentCourse] ? 'COI: Sim' : 'COI: não consta Sim'}</div></th>`).join('')}</tr>`;
   els.body.innerHTML=rows.length ? rows.map((row,r)=> `<tr><td class="fixedcol"><div class="fixed-content"><span class="subj-title">${esc(row.name)}</span><span class="subj-code">${esc(row.id || 'Código não cadastrado')}</span></div></td><td class="semester-cell"><span class="term">${row.semester}ª</span></td>${unis.map((u,i)=>{
     const options=matchesFor(row,u.id);const m=options[0];const f=foreignFor(m);
-    if(m) return `<td class="foreign-cell"><button class="cell-button ${m.status==='indicio_titulo'?'suggested':m.status==='candidata_forte'?'strong':'pending'}" type="button" data-r="${r}" data-u="${i}" aria-label="Abrir proposta ${esc(f?.name||m.foreignCode)} para ${esc(row.name)} em ${esc(u.name)}"><span class="match-code">${esc(f?.originalCode?f.originalCode+' ↗':f?.officialCodeKnown===false?'Catálogo ↗':m.foreignCode+' ↗')}</span><span class="cell-tag">${esc(f?.name||'Candidata em análise')}${options.length>1?' · +'+(options.length-1)+' alternativa(s)':''}</span></button></td>`;
+    if(m) return `<td class="foreign-cell"><button class="cell-button ${m.status==='indicio_titulo'?'suggested':m.status==='candidata_forte'?'strong':'pending'}" type="button" data-r="${r}" data-u="${i}" aria-label="Abrir proposta ${esc(f?.name||m.foreignCode)} para ${esc(row.name)} em ${esc(u.name)}"><span class="match-code">${esc(f?.originalCode?f.originalCode+' ↗':f?.officialCodeKnown===false?'Catálogo ↗':m.foreignCode+' ↗')}</span><span class="cell-tag">${esc(f?.name||'Candidata em análise')}${options.length>1?' · +'+(options.length-1)+' alternativa(s)':''}</span>${stageHtml(row,m)}</button></td>`;
     return `<td class="foreign-cell"><button class="cell-button empty" type="button" data-r="${r}" data-u="${i}" aria-label="Não verificada: ${esc(row.name)} e ${esc(u.name)}" title="Sem comparação documental cadastrada">—</button></td>`;
   }).join('')}</tr>`).join('') : `<tr><td class="loading" colspan="${unis.length+2}">Nenhuma disciplina corresponde aos filtros. Ajuste a etapa ou a busca.</td></tr>`;
   els.body.querySelectorAll('[data-r][data-u]').forEach(b=>b.addEventListener('click',()=>openDetail(rows[Number(b.dataset.r)],unis[Number(b.dataset.u)])));
@@ -109,6 +129,11 @@ function openDetail(subject,uni) {
         const foreign=foreignFor(candidate);
         if(!foreign)return '';
         const proof=syllabusEvidenceIndex.get(candidate.universityId+'|'+candidate.foreignCode);
+        const individualReview=individualReviewIndex.get(auditKey(currentCourse,candidate.mackCode||subject.id||subject.name,candidate.universityId,candidate.foreignCode));
+        const reviewedHtml=individualReview
+          ? '<div class="callout"><b>Comparação individual das ementas — não homologada</b><p>'+esc(individualReview.justification)+'</p><p><b>Tópicos em comum:</b> '+esc((individualReview.sharedAreas||[]).join('; '))+'</p><p><b>Lacunas documentadas:</b> '+esc((individualReview.notClearlyExplicitInForeign||[]).join('; ')||'Nenhuma identificada nesta leitura')+'</p><p>'+esc(individualReview.hourObservation)+'</p></div>'
+          : '';
+
         const proofHtml=proof?.status==='ementa_individual'
           ? '<div class="callout"><b>Ementa individual recuperada</b><p>'+esc(proof.contactHours!=null?proof.contactHours+' horas de contato verificadas na fonte':'Horas de contato ainda não extraídas')+(proof.academicYear?' · '+esc(proof.academicYear):'')+'. Os tópicos ainda exigem cotejo com a ementa oficial brasileira.</p></div>'+link('Abrir evidência individual auditada',proof.document)
           : '<p><b>Status da auditoria:</b> '+esc(proof?.status==='nao_tentada'?'Fonte ainda não examinada':proof?.status==='pagina_com_conteudo'?'Página com conteúdo, mas ementa não confirmada':proof?.status==='catalogo_ou_matriz'?'Somente catálogo ou matriz verificados':'Ementa individual ainda não comprovada')+'</p>';
@@ -120,7 +145,7 @@ function openDetail(subject,uni) {
          (foreign.credits?'<span>'+esc(foreign.credits)+' '+esc(foreign.creditUnit||'créditos')+'</span>':'')+'<span>'+esc(foreign.period||'Oferta a confirmar')+'</span></div>'+
          link('Abrir disciplina / ementa oficial',foreign.source||candidate.source)+
          '<div class="callout"><b>'+esc(state)+' — não homologada</b><p>'+esc(candidate.evidence||'Comparação curricular pendente')+'</p></div>'+
-         proofHtml+
+         proofHtml+reviewedHtml+
          (foreign.topics?'<p><b>Conteúdo estrangeiro:</b> '+esc(foreign.topics)+'</p>':'')+
          (foreign.limitations?'<p><b>Limitações:</b> '+esc(foreign.limitations)+'</p>':'')+
          (foreign.assessment?'<p><b>Observações:</b> '+esc(foreign.assessment)+'</p>':'')+
@@ -185,6 +210,13 @@ async function bootstrap() {
       const response = await fetch('./syllabi/mackenzie-docs.json',{cache:'no-store'});
       if(response.ok) {const audit=await response.json();officialMackenzieIndex=new Map((audit.rows||[]).map(x=>[x.courseId+'|'+String(x.code||x.name).toLocaleLowerCase('pt-BR'),x]));}
     }catch(error){console.warn('Ementário oficial brasileiro não carregado',error);}
+    try {
+      const response = await fetch('./syllabi/revisoes-ementas.json',{cache:'no-store'});
+      if (response.ok) {
+        const audit=await response.json();
+        individualReviewIndex=new Map((audit.reviews||[]).map(x=>[auditKey(x.courseId,x.mackCode,x.foreignUniversityId,x.foreignCode),x]));
+      }
+    }catch(error){console.warn('Análises individuais não carregadas',error);}
     try { const source = await fetch('./candidatos-catalogo.json'); if (source.ok) { const suggestions=await source.json(); titleSuggestionIndex=new Map(suggestions.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p[3]])); } } catch(error) { console.warn('Índice complementar indisponível',error); }
     const covered = new Set(database.foreignCourses.filter(f=>f.universityId).map(f=>f.universityId)).size;
     const titleCandidates = database.matches.filter(m=>m.status==='indicio_titulo').length;
