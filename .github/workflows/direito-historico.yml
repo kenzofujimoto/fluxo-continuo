@@ -1,0 +1,43 @@
+name: Consultar ementario historico Direito Alphaville
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/direito-historico.yml'
+      - 'scripts/collect_historical_law.py'
+permissions:
+  contents: write
+jobs:
+  conferir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements-audit.txt
+      - run: python -m py_compile scripts/collect_historical_law.py
+      - name: Extrair ementas historicas com ano e unidade de hora
+        run: python scripts/collect_historical_law.py
+      - name: Conferir fonte e correspondencias
+        run: |
+          python - <<'PY'
+          import json
+          x=json.load(open("syllabi/direito-historico-2022.json"))
+          assert x["meta"]["curriculumDisciplineCount"] == 81
+          assert x["meta"]["matchedHistorical"] >= 40, "Historical matches unexpectedly low"
+          assert all(r["validFor2027"] is False for r in x["rows"])
+          print(x["meta"])
+          PY
+      - name: Versionar parecer historico separado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add syllabi/direito-historico-2022.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(audit): link historical Law syllabus without 2027 validation"
+            git pull --rebase origin main
+            git push
+          fi
