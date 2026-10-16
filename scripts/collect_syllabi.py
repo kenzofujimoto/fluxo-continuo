@@ -168,7 +168,7 @@ def course_quality(foreign, document, ubb=False):
     by_code = len(str(code)) >= 4 and str(code).casefold() in text[:10000].casefold()
     official_unit = document["type"] == "html" and ("/unit/" in str(document.get("finalUrl") or "") or "/asignaturas/" in str(document.get("finalUrl") or ""))
     section_markers = sum(bool(re.search(p, text, re.I)) for p in
-        [r"\\bprograma\\b|\\bcontents\\b", r"learning outcomes|resultados de aprendizagem|objetivos", r"bibliograf|assessment|avalia[cç][aã]o"])
+        [r"programa|contents", r"learning outcomes|resultados de aprendizagem|objetivos", r"bibliograf|assessment|avalia[cç][aã]o"])
     individual = bool(ubb or (document["type"] == "pdf" and document.get("pages") and document["pages"] <= 25) or (official_unit and section_markers >= 2))
     rich = bool(MARKERS.search(text[:13000])) and len(text) >= 650
     has_identity = by_name or by_code
