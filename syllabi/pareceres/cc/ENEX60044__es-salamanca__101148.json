@@ -1,0 +1,168 @@
+{
+  "id": "cc|ENEX60044|es-salamanca|101148",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60044",
+    "name": "Métodos Numéricos",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 2 (4ª etapa CC Alphaville), bloco 'MÉTODOS NUMÉRICOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2
+      },
+      "note": "Ementário declara 31,67 h-relógio e 2 h-a teóricas semanais."
+    },
+    "topics": [
+      "Estudo dos esquemas de representação de dados numéricos e análise de erros",
+      "Estudos dos algoritmos numéricos para problemas de: obtenção de raízes de equações, resolução de sistemas de equações lineares, interpolação e aproximação de funções, derivação e integração",
+      "Análise assintótica e de convergência de algoritmos numéricos",
+      "Implementação dos principais métodos numéricos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101148",
+      "name": "Modelado y Simulación",
+      "faculty": "Facultad de Ciencias",
+      "department": "Informática y Automática",
+      "programme": "Grado en Ingeniería Informática (bloque formativo 'Informática Industrial')",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 3,
+      "semester": "Primer Semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Optativa",
+      "assessment": "Avaliação contínua 20%, exame ou trabalho final 80% (mínimo 40% na prova final)",
+      "prerequisites": "Nenhuma disciplina prévia exigida ('no es necesario haber cursado antes ninguna otra asignatura')",
+      "source": "https://guias.usal.es/node/255595",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "188157f4a59812875584444c4ba32ff152ce877bcd10c46f4b6f25a6fb9e66f9",
+      "location": "Guía 2026/2027: secções 1, 2 (contexto do bloco), 3 (objetivos), 4 (CE01-CE08), 5 (Teoría e Práctica P1-P4), 8 (recursos), 9 (avaliação)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece apenas com o título e a data no texto obtido; a tabela de horas não foi capturada. Só 6 ECTS explícitos; ECTS não convertidos em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos esquemas de representação de dados numéricos e análise de erros",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 2, 3, 4 (CE01-CE08), 5 (Teoría e Práctica P1-P4), 8 e 9 lidas integralmente",
+      "note": "Representação em ponto flutuante e análise de erros não aparecem."
+    },
+    {
+      "brTopic": "Estudos dos algoritmos numéricos para problemas de: obtenção de raízes de equações, resolução de sistemas de equações lineares, interpolação e aproximação de funções, derivação e integração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 2, 3, 4 (CE01-CE08), 5 (Teoría e Práctica P1-P4), 8 e 9 lidas integralmente",
+      "note": "A simulação de sistemas contínuos usa integradores de EDO embutidos em Simulink/ACSL, mas a guia não ensina raízes, sistemas lineares, interpolação, derivação ou integração numérica como conteúdo."
+    },
+    {
+      "brTopic": "Análise assintótica e de convergência de algoritmos numéricos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 2, 3, 4 (CE01-CE08), 5 (Teoría e Práctica P1-P4), 8 e 9 lidas integralmente"
+    },
+    {
+      "brTopic": "Implementação dos principais métodos numéricos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 2, 3, 4 (CE01-CE08), 5 (Teoría e Práctica P1-P4), 8 e 9 lidas integralmente",
+      "note": "CE03 trata de codificar o modelo matemático e os experimentos de simulação, não de implementar métodos numéricos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Modelagem matemática de sistemas físicos contínuos, identificação paramétrica e validação",
+      "location": "Secção 5 Teoría, itens 2-3"
+    },
+    {
+      "topic": "Ambientes de simulação contínua: Matlab & Simulink, ACSL, Easy Java, Python",
+      "location": "Secção 5 Teoría item 5; Práctica P1-P2"
+    },
+    {
+      "topic": "Simulação de eventos discretos com GPSS e SIMPROCESS",
+      "location": "Secção 5 Teoría item 6; Práctica P3"
+    },
+    {
+      "topic": "Projeto básico de simulação e uso de IA na simulação",
+      "location": "Práctica P4; secção 3, objetivo 6"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "CE02 obter o modelo matemático de um sistema físico",
+      "CE03-CE04 programar modelos e experimentos de simulação",
+      "CE06 desenvolver projeto completo básico de modelagem e simulação"
+    ],
+    "convergences": [
+      "Uso de computador para resolver problemas matemáticos aplicados"
+    ],
+    "differences": [
+      "Mackenzie estuda os algoritmos numéricos e seus erros/convergência; Salamanca usa ferramentas que os encapsulam para modelar e simular sistemas"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca optativa de 3º curso, Mackenzie obrigatória da 4ª etapa",
+    "brazil": "Disciplina teórica de 2 h-a semanais",
+    "foreign": "Disciplina aplicada com práticas em Matlab/Simulink, ACSL, GPSS",
+    "theoryPractice": "Não comparável: horas da guia não capturadas"
+  },
+  "practical": {
+    "period": "Primer Semestre (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre — não verificado",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional da universidade no projeto)",
+    "enrolment": "Optativa do bloco Informática Industrial; aceitação de intercambista não verificada",
+    "prerequisites": "Sem pré-requisitos; acessível a estudante de qualquer etapa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Modelado y Simulación trata de modelagem de sistemas contínuos e de eventos discretos e de ferramentas de simulação (Simulink, ACSL, GPSS); nenhum dos quatro enunciados de Métodos Numéricos — erros, algoritmos clássicos, convergência e implementação de métodos — tem item correspondente na guia.",
+  "justification": "Os quatro tópicos essenciais foram classificados como não encontrados após leitura de objetivos, competências CE01-CE08, Contenidos de teoria e práticas P1-P4. A relação entre as disciplinas é indireta: a simulação contínua depende de integradores numéricos, mas a guia os trata como recursos de software, sem estudo de algoritmos, erros ou convergência. Carga horária não comparável por ausência de horas presenciais na guia. A classe derivada pela regra é baixa afinidade.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia oficial com conteúdo detalhado e inequívoco quanto ao objeto; falta apenas a tabela de horas, que não alteraria a conclusão.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Carga horária não comparável: guia sem horas presenciais capturadas",
+    "Ementa brasileira avaliada pelos quatro enunciados oficiais",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Salamanca oferece disciplina de Métodos Numéricos/Cálculo Numérico no Grado en Ingeniería Informática ou em Matemáticas acessível a intercambistas?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía/programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a secção/item do documento estrangeiro; campos data.json não usados como evidência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergência de objeto inequívoca no documento"
+  }
+}

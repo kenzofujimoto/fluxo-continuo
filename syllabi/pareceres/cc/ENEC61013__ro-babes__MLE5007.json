@@ -1,0 +1,187 @@
+{
+  "id": "cc|ENEC61013|ro-babes|MLE5007",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61013",
+    "name": "Sistemas Operacionais",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 2 (numeração impressa 102), bloco 'Comp. Curricular SISTEMAS OPERACIONAIS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário declara 63,33 h; a grade semanal não foi extraída de forma estruturada (o texto do bloco mostra 'Presencial 2 2', provavelmente 2 teóricas + 2 práticas)."
+    },
+    "topics": [
+      "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+      "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+      "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+      "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5007",
+      "name": "Operating Systems",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Computer Science",
+      "programme": "Information Engineering (campo 'Computers and information technology'; linha IIE do catálogo)",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 4,
+      "period": "Semestre 4 = 2º semestre do ano letivo (primavera europeia, fev-jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (linha IIE em inglês segundo o catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory / Core subject",
+      "assessment": "Exame final 40% + tarefas de laboratório 20% + exame prático 40%; mínimo 5 em cada; presença de 75% em seminário e 90% em laboratório",
+      "prerequisites": "Nenhum pré-requisito curricular listado; conhecimento mínimo de C padrão",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem4_MLE5007_en_sanda_2026_10380.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IIE",
+      "sha256": "f1fbae050f41001ef518e4be0303d5c4e917a54326217ac25aa3b04cdd0449db",
+      "location": "Course description 2026-2027: secções 2, 3.1-3.9 (horas), 4, 7, 8.1 blocos 1-3, 4-7, 8-9, 10-14; 8.2 seminário 1-7 e laboratório 1-14; 9",
+      "hours": {
+        "weekly": {
+          "total": 5,
+          "course": 2,
+          "seminarLab": 3
+        },
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 80,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Valores 70/28/42 lidos diretamente nas linhas 3.4-3.6 do documento; o extrator automático não os capturou."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Types of computer systems and operating systems'; 'General structure and functions of an operating system'; 'General operating system structure'",
+      "foreignLocation": "Secção 8.1 blocos 1-3 (item 1) e 10-14 (itens 1 e 3)",
+      "note": "Classificação e estrutura cobertas; histórico dos sistemas operacionais não é mencionado. O prefixo do enunciado é cabeçalho de página capturado pela extração."
+    },
+    {
+      "brTopic": "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Processes under Unix; structure of a process', fork/wait/exit/exec; 'Process scheduling'",
+      "foreignLocation": "Secção 8.1 blocos 4-7 e 10-14; secção 8.2 laboratório 9"
+    },
+    {
+      "brTopic": "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'concurrency, semaphores, deadlock'; 'POSIX threads'; 'Memory management' e swap; sistemas de arquivos FAT, NTFS, i-node; 'I/O channel, multiple buffers' e escalonamento de disco",
+      "foreignLocation": "Secção 8.1 blocos 4-7, 8-9 e 10-14; secção 8.2 laboratórios 10-12",
+      "note": "Gerência de dispositivos tratada via canais de E/S, buffers e escalonamento de disco magnético."
+    },
+    {
+      "brTopic": "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Laboratórios de shell, sed/grep/awk, programas C com arquivos Unix, processos, pipe, FIFO e threads; exame prático 'developing shells and creating Unix processes'",
+      "foreignLocation": "Secção 8.2 laboratório 1-14 e seminário 1-7; secção 9.5",
+      "note": "Prática é programação de sistemas em espaço de usuário (chamadas POSIX); não há implementação de módulos como escalonador ou gerência de memória."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Interface externa do Unix: expressões regulares, filtros sort/awk/sed/grep, shells e programação shell",
+      "location": "8.1 blocos 1-3; 8.2 seminário 1-3 e laboratório 1-6"
+    },
+    {
+      "topic": "Estrutura interna de sistemas de arquivos FAT, NTFS (MFT) e Unix (i-node); montagem e links",
+      "location": "8.1 blocos 1-3 e 8-9"
+    },
+    {
+      "topic": "Comunicação entre processos com pipe, popen e FIFO",
+      "location": "8.1 blocos 4-7; 8.2 seminário 5-6 e laboratório 10-11"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Programação específica de sistemas operacionais",
+      "Instalar e configurar sistemas operacionais",
+      "Usar ferramentas de teste e depuração"
+    ],
+    "convergences": [
+      "Processos, escalonamento, concorrência, memória e arquivos",
+      "Prática com processos e threads"
+    ],
+    "differences": [
+      "UBB enfatiza o Unix como usuário e programador (shell, POSIX); Mackenzie prevê implementação dos módulos do SO",
+      "Histórico de SO ausente na UBB",
+      "Teoria geral concentrada nas semanas 10-14 da UBB"
+    ]
+  },
+  "depth": {
+    "level": "UBB no 2º ano (semestre 4) da Information Engineering; Mackenzie na 5ª etapa de CC",
+    "brazil": "Componente obrigatório com teoria de SO e prática de implementação",
+    "foreign": "Nove semanas de Unix aplicado (shell, chamadas de sistema, sistemas de arquivos) e cinco de teoria geral; 14 laboratórios e 7 seminários",
+    "theoryPractice": "UBB: 28 h aula + 42 h seminário/laboratório; exame prático vale 40%"
+  },
+  "practical": {
+    "period": "Semestre 4 = primavera europeia (fev-jun), fora do período 2027.2; coincidiria com 2028.1 em intercâmbio anual",
+    "language": "Inglês na linha IIE (a confirmar)",
+    "enrolment": "Disciplina de outra especialização (Information Engineering); presença de 90% em laboratório",
+    "prerequisites": "Conhecimento de C; compatível com a 5ª etapa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5007 combina Unix aplicado (shell, chamadas POSIX, sistemas de arquivos) com cinco semanas de teoria geral de SO. Processos, escalonamento, concorrência, memória, arquivos e E/S da ementa Mackenzie estão presentes; histórico e implementação de módulos do SO aparecem só parcialmente.",
+  "justification": "Escalonamento e gerência de processos (blocos 4-7 e 10-14) e o conjunto concorrência/semáforos/deadlock, threads POSIX, memória e swap, FAT/NTFS/i-node e E/S com buffers (blocos 4-14) estão cobertos. A classificação e a estrutura do SO aparecem, mas não o histórico. A prática é de programação de sistemas em C e shell (14 laboratórios, exame prático de 40%), sem implementar escalonador ou gerência de memória. Resultado: 2 cobertos e 2 parciais (50% integral), abaixo dos 75% para alta afinidade. As 70 h de contato (28 + 42), lidas nas linhas 3.4-3.6, dão razão 1,105 frente às 63,33 h, ou 0,92 com hora de 50 min.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento 2026-2027 completo, com horas explícitas no texto (não capturadas pelo extrator) e conteúdo detalhado; reduzem a confiança a especialização distinta (IIE) e a oferta apenas na primavera.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Disciplina do semestre 4 (primavera): não cursável num intercâmbio restrito a 2027.2",
+    "Horas de contato não foram capturadas pelo extrator (programas.json com contact null); valores copiados manualmente das linhas 3.4-3.6",
+    "Primeiro enunciado da ementa brasileira inclui cabeçalho de página ('UNIVERSIDADE PRESBITERIANA MACKENZIE ... 102') por artefato de extração",
+    "Duração da hora de contato da UBB não declarada",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita programação de sistemas POSIX como 'prática com implementação' dos módulos do SO?",
+    "Intercambista vinculado à Computer Science pode cursar disciplina da Information Engineering?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5072",
+      "name": "System and network administration",
+      "relation": "Complementar na administração de sistemas; não substitui SO; programa não lido"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude), incluindo o bloco do PDF brasileiro no texto em cache; cada tópico vinculado a bloco e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Classe derivada coincide com a escolhida; horas lidas diretamente no documento"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

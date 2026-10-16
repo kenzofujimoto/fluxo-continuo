@@ -1,0 +1,179 @@
+{
+  "id": "si|PROJETOS EMPREENDEDORES|pt-coimbra|93363",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "PROJETOS EMPREENDEDORES",
+    "name": "Projetos Empreendedores",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 48, bloco 'PROJETOS EMPREENDEDORES', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 31,67 h-relógio no semestre."
+    },
+    "topics": [
+      "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "Análise de soluções para o problema ou oportunidade",
+      "Proposição de projetos com viabilidade de implementação",
+      "Prática de proposição de valor e modelagem de projetos",
+      "Construção de planos de negócios simplificados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93363",
+      "name": "Projeto Integrador",
+      "pageCode": "01021158",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português (língua de ensino); inglês como outra língua de ensino",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100% (plano de trabalho, relatório intercalar, relatório final e apresentação)",
+      "prerequisites": "Conhecimentos de Base Recomendados: Marketing, Estratégia, Recursos Humanos, Gestão das operações, Contabilidade e Finanças",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (i-v), Programa (modalidades PE, PA, PI), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/93363/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "a9b3421ff0e3206ebf6dff261d6cf9a9e1672910c107fbffceb22470ccc8c682",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 12.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 12,0 ECTS; não informa horas de contacto (trabalho em grupo com reuniões de acompanhamento). Código interno: 01021158."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Projeto empresarial: 'resolução de um problema real ou realista de uma organização'; resultado iv 'diagnosticar situações'",
+      "foreignLocation": "Programa, modalidade i (PE); Resultados de Aprendizagem iv"
+    },
+    {
+      "brTopic": "Análise de soluções para o problema ou oportunidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'definir objetivos e formular estratégias apropriadas'; 'abordar problemas de forma multidisciplinar'",
+      "foreignLocation": "Resultados de Aprendizagem iv e v"
+    },
+    {
+      "brTopic": "Proposição de projetos com viabilidade de implementação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'estabelecer planos de implementação com impacto nas organizações/sociedade'",
+      "foreignLocation": "Resultados de Aprendizagem iv",
+      "note": "Plano de implementação previsto; análise de viabilidade não é mencionada."
+    },
+    {
+      "brTopic": "Prática de proposição de valor e modelagem de projetos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral (Métodos de Ensino, Resultados i-v, Programa, Bibliografia variável por projeto)",
+      "note": "O conteúdo de cada projeto é definido por modalidade e tema; proposta de valor pode surgir num projeto empresarial, mas a página não o prevê."
+    },
+    {
+      "brTopic": "Construção de planos de negócios simplificados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral",
+      "note": "Não há menção a plano de negócios; o produto avaliado é relatório e apresentação de projeto."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Projeto aplicado sobre contexto económico (territórios, setores, políticas)",
+      "location": "Programa, modalidade ii (PA)"
+    },
+    {
+      "topic": "Iniciação à investigação",
+      "location": "Programa, modalidade iii (PI)"
+    },
+    {
+      "topic": "Recolha, análise e interpretação de dados; comunicação oral e escrita; soft skills",
+      "location": "Resultados de Aprendizagem i-iii"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve um ciclo de concepção empreendedora: problema, solução, viabilidade, proposta de valor e plano de negócios.",
+    "foreign": [
+      "Diagnosticar situações e formular estratégias",
+      "Estabelecer planos de implementação",
+      "Trabalhar em equipa e comunicar"
+    ],
+    "convergences": [
+      "Partir de problema real de organização",
+      "Formular solução e plano de implementação"
+    ],
+    "differences": [
+      "Coimbra é projeto integrador de Gestão com três modalidades, das quais só a empresarial se aproxima do empreendedorismo",
+      "Proposta de valor e plano de negócios, centrais no Mackenzie, não constam da página"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de Gestão (UC de síntese), Mackenzie na 5ª etapa de SI",
+    "brazil": "Componente de 31,67 h",
+    "foreign": "Projeto em grupo de 12 ECTS, o dobro das UC comuns, com entidades externas e calendário de entregas",
+    "theoryPractice": "Ambas orientadas a prática de projeto; Coimbra sem aulas expositivas regulares declaradas"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português, com inglês como alternativa",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; como UC obrigatória de síntese do 3º ano, com grupos e entidades externas, a integração de um estudante de mobilidade de SI é incerta.",
+    "prerequisites": "Formação em marketing, estratégia, RH, operações, contabilidade e finanças, que o estudante de SI não terá na totalidade",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O Projeto Integrador de Gestão coincide com Projetos Empreendedores na identificação de um problema real e na formulação de soluções e planos de implementação, mas não prevê proposta de valor, modelagem de negócio nem plano de negócios, e o conteúdo efetivo varia com a modalidade escolhida.",
+  "justification": "Dois dos cinco tópicos essenciais estão cobertos (identificação de problema; análise de soluções), um parcialmente (implementação sem viabilidade) e dois não encontrados (proposta de valor; plano de negócios). A razão coberto+parcial é 3/5 (60%), o que dá afinidade parcial pela regra interna. A carga não é comparável: 12 ECTS sem horas de contacto face a 31,67 h; o volume estrangeiro é desproporcionalmente maior e a UC está indicada no 2º semestre.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "O programa remete o conteúdo para cada edição e modalidade e a bibliografia é variável; não há horas de contacto e a oferta semestral não é confirmada na página.",
+  "limitations": [
+    "Conteúdo concreto definido por projeto e edição; a avaliação pode mudar conforme a modalidade",
+    "Horas de contacto não declaradas; 12 ECTS não convertidos",
+    "Oferta indicada no 2º semestre (data.json), não confirmada para 2027/28",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "Um estudante de mobilidade pode integrar um grupo na modalidade de projeto empresarial?",
+    "A coordenação de SI aceitaria uma UC de 12 ECTS para um componente de 31,67 h?"
+  ],
+  "alternatives": [
+    {
+      "code": "93362",
+      "name": "Empreendedorismo e Criação de Empresas",
+      "relation": "Título sugere maior aderência (proposta de valor, plano de negócios), mas o programa não foi lido neste parecer; avaliar antes de qualquer indicação"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Conteúdo variável por edição e possível alternativa mais aderente não avaliada"
+  }
+}

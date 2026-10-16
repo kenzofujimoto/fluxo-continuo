@@ -1,0 +1,133 @@
+{
+  "id": "cc|ENEC50011|ro-babes|MLE5270",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC50011",
+    "name": "Algoritmos e Programação I",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 1ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO I', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário (componente de 1ª etapa)",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "Implementação de algoritmos utilizando linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5270",
+      "name": "Rust Programming",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (linha IE, em inglês, segundo a URL do catálogo)",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 6,
+      "period": "Semestre 6 = 2º semestre do ano letivo (primavera europeia, fev-jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (linha IE do catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Elective (campo 2.7 'Discipline regime')",
+      "assessment": "Colóquio (tipo 'C'): prova escrita e quizzes 50% + tarefas de laboratório (100 Exercises to Learn Rust) 50%; mínimo 5 em cada parte",
+      "prerequisites": "Fundamentals of Programming; habilidades básicas de programação de baixo nível",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem6_MLE5270_en_craciunf_2026_10927.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "8ee0f86fd605b1f3be64d14c4f7e717da1fa1dfa9217bc76d058d3122987e15f",
+      "location": "Syllabus 'University year 2026-2027': secções 2, 3.1-3.9, 4, 6.2, 7, 8.1 itens 1-12, 8.2 labs 1-6, 10",
+      "hours": {
+        "weekly": {"total": 7, "course": 2, "seminarLab": 3},
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 30,
+        "totalWorkload": 90,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Documento declara 7 h semanais, mas a decomposição é 2 aula + 1 lab + 2 projeto (5); 'total' copia o valor declarado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Item 1 'Types and values, control flow basics'; item 2 'Tuples and Arrays'; item 7 'Modules'; lab 1 'Control flow structures'",
+      "foreignLocation": "Secção 8.1 itens 1-2 e 7; secção 8.2 labs 1 e 4",
+      "note": "Os construtos aparecem como sintaxe de Rust em duas a três aulas; não há ênfase em desenvolvimento de algoritmos nem progressão de problemas."
+    },
+    {
+      "brTopic": "Implementação de algoritmos utilizando linguagem de programação imperativa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Resultado 'able to fluently write programs in the Rust language'; laboratórios com exercícios de programação em Rust",
+      "foreignLocation": "Secção 6.2 (Skills); secção 8.2 labs 1-6; secção 10.5"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Ownership, borrowing, lifetimes e smart pointers", "location": "8.1 itens 5-6"},
+    {"topic": "Pattern matching, traits, genéricos e closures", "location": "8.1 itens 3-4; 8.2 lab 2"},
+    {"topic": "Tratamento de erros, unsafe Rust e testes", "location": "8.1 itens 7-8; 8.2 lab 3"},
+    {"topic": "Concorrência em Rust: threads e futures", "location": "8.1 itens 10-11; 8.2 lab 5"}
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": ["Raciocinar sobre programas de baixo nível com sistema de tipos linear orientado a ownership", "Escrever Rust idiomático e depurar erros de borrowing"],
+    "convergences": ["Estruturas de controle, arranjos e módulos", "Prática de programação imperativa"],
+    "differences": ["Mackenzie é introdução a algoritmos para iniciantes; a UBB é optativa de 3º ano sobre uma linguagem específica e seu modelo de memória", "Cerca de oito das onze aulas da UBB tratam de recursos avançados de Rust sem paralelo na ementa"]
+  },
+  "depth": {
+    "level": "Mackenzie na 1ª etapa (introdutória); UBB no 3º ano (eletiva)",
+    "brazil": "Algoritmos básicos com 2 h-a teóricas + 2 práticas semanais",
+    "foreign": "Onze aulas e uma prova; laboratórios quinzenais e projeto",
+    "theoryPractice": "UBB: 24 h aula + 36 h laboratório/projeto; carga total de 90 h para 5 ECTS"
+  },
+  "practical": {
+    "period": "Semestre 6 = primavera europeia (fev-jun), fora do período 2027.2",
+    "language": "Inglês na linha IE",
+    "enrolment": "Eletiva; abertura depende de demanda",
+    "prerequisites": "Fundamentos de programação",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5270 é uma eletiva de 3º ano sobre a linguagem Rust (ownership, traits, concorrência). As estruturas de controle, arranjos e módulos de Algoritmos e Programação I aparecem só como sintaxe introdutória, mas há prática intensa de programação imperativa.",
+  "justification": "A implementação em linguagem imperativa está coberta: o resultado 6.2 exige escrever Rust com fluência, e os labs 1-6 e as tarefas valem 50% da nota. O enunciado de desenvolvimento de algoritmos é parcial, porque tipos, fluxo de controle, arranjos e módulos ocupam os itens 1-2 e 7 como apresentação da linguagem, sem resolução progressiva de problemas. Isso dá 1 coberto e 1 parcial, 50% de cobertura integral e afinidade parcial pela regra. As 60 h de contato (24 + 36) equivalem a 0,947 das 63,33 h (0,79 com hora de 50 min). O documento é inconsistente nas horas: 7 h semanais declaradas contra 5 decompostas, e 90 h totais para 5 ECTS.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento 2026-2027 com horas semestrais explícitas e conteúdo listado; o conteúdo é curto (12 itens sem descrição) e há incoerências internas nas horas semanais e na carga total.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Disciplina eletiva do semestre 6 (primavera): não cursável num intercâmbio restrito a 2027.2",
+    "Documento declara 7 h semanais, incompatível com a decomposição 2 + 1 + 2, e 90 h totais para 5 ECTS",
+    "Conteúdo descrito por títulos curtos, sem detalhamento de cada aula",
+    "Duração da hora de contato da UBB não declarada",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria uma disciplina de linguagem específica de 3º ano como substituta de uma introdução a algoritmos?"
+  ],
+  "alternatives": [
+    {"code": "MLE5005", "name": "Programming fundamentals", "relation": "Pelo título, candidata mais aderente (semestre 1, outono); programa individual não lido neste parecer"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a item e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Classe parcial decorre de dois enunciados amplos; propósito pedagógico diverge (eletiva avançada versus introdução) e há incoerências de horas no documento"}
+}

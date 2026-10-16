@@ -1,0 +1,166 @@
+{
+  "id": "cc|ENEC54303|ro-babes|MLE5023",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54303",
+    "name": "Linguagens Formais e Autômatos",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 3, bloco 'Comp. Curricular LINGUAGENS FORMAIS E AUTÔMATOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas + 0 práticas presenciais por semana."
+    },
+    "topics": [
+      "Estudo dos conceitos fundamentais sobre alfabetos, palavras e linguagens formais, a hierarquia de Chomsky e gramáticas formais",
+      "Apresenta as linguagens regulares e autômatos finitos, linguagens livres de contexto e autômatos à pilha, linguagens sensíveis ao contexto e autômatos linearmente limitados, linguagens recursivamente enumeráveis e Máquinas de Turing"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5023",
+      "name": "Formal Languages and Compiler Design",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Semestre 5 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (documento em inglês; publicado no catálogo IE 2026; confirmar turma em 2027/28)",
+      "courseStatus": "Mandatory",
+      "assessment": "Exame escrito 60%, exercícios e trabalhos de seminário 10%, avaliação prática de laboratório e portfólio 30%; presença 75% seminário e 90% laboratório; mínimo 5 em exame e laboratório",
+      "prerequisites": "Data Structures and Algorithms; programação de nível médio em linguagem de alto nível",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5023_en_motogna_2026_10163.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "335695a143cebc08818c079d5f77639b2a9908ec9a09a071e8230becc3857fde",
+      "location": "Syllabus 'University year 2025-2026': secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 6-7 (competências/objetivos), 8.1 (curso), 8.2 (seminário/laboratório), 10 (avaliação); 8.1 itens 1-14, 8.2 seminários 1-14 e laboratório Tasks 1-5",
+      "hours": {
+        "weekly": {
+          "total": 6,
+          "course": 2,
+          "seminarLab": 4,
+          "note": "Documento: '2 sem + 2 lab'"
+        },
+        "contactTotal": 84,
+        "contactLecture": 28,
+        "contactSeminarLab": 56,
+        "selfStudy": 41,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "documentNote": "Documento publicado no catálogo 2026 mas rotulado 'University year 2025-2026' (datado 12.04.2025)."
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos conceitos fundamentais sobre alfabetos, palavras e linguagens formais, a hierarquia de Chomsky e gramáticas formais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Introductory notions of formal languages. Grammars and Finite Automata'; objetivo 'formal languages concepts: Chomsky hierarchy'; seminários sobre BNF e linguagem gerada por gramática",
+      "foreignLocation": "Secção 8.1 item 3; secção 7.2; 8.2 seminários 1-2"
+    },
+    {
+      "brTopic": "Apresenta as linguagens regulares e autômatos finitos, linguagens livres de contexto e autômatos à pilha, linguagens sensíveis ao contexto e autômatos linearmente limitados, linguagens recursivamente enumeráveis e Máquinas de Turing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Linguagens regulares, expressões regulares e lema do bombeamento (item 4); gramáticas livres de contexto (item 5); 'Push-down automata and Turing machines' (item 14)",
+      "foreignLocation": "Secção 8.1 itens 3-5 e 14; 8.2 seminários 3-7 e 14; laboratório Tasks 2-3",
+      "note": "Regulares/autômatos finitos e livres de contexto/autômatos de pilha cobertos; linguagens sensíveis ao contexto e autômatos linearmente limitados ausentes; máquinas de Turing e recursivamente enumeráveis apenas em parte de uma aula."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Estrutura e fases de um compilador; análise léxica",
+      "location": "8.1 itens 1-2; Task 1"
+    },
+    {
+      "topic": "Parsing descendente recursivo, LL(1), LR(0), SLR, LR(1), LALR",
+      "location": "8.1 itens 6-10; 8.2 seminários 7-11; Task 4"
+    },
+    {
+      "topic": "Geradores lex/yacc, gramáticas de atributos, código intermediário e otimização",
+      "location": "8.1 itens 11-13; Task 5"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Compreender a hierarquia de Chomsky e as equivalências entre autômatos e gramáticas",
+      "Compreender projeto de compiladores e implementar técnicas de compilação"
+    ],
+    "convergences": [
+      "Gramáticas formais, linguagens regulares e autômatos finitos",
+      "Gramáticas livres de contexto e autômatos de pilha"
+    ],
+    "differences": [
+      "Mackenzie percorre toda a hierarquia até sensíveis ao contexto e Turing; UBB para essencialmente nas livres de contexto",
+      "Cerca de dois terços do MLE5023 tratam compiladores, ausentes da ementa de LFA"
+    ]
+  },
+  "depth": {
+    "level": "UBB 3º ano/semestre 5; Mackenzie 5ª etapa",
+    "brazil": "4 h-a teóricas semanais dedicadas inteiramente a linguagens formais e computabilidade",
+    "foreign": "2 h aula + 2 h seminário + 2 h laboratório; cerca de 5 das 14 aulas (itens 3-5 e 14) tratam linguagens formais",
+    "theoryPractice": "UBB implementa transformações autômato-gramática em laboratório; Mackenzie teórica"
+  },
+  "practical": {
+    "period": "Semestre 5 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês (documento em inglês)",
+    "enrolment": "Pré-requisito declarado: Data Structures and Algorithms",
+    "prerequisites": "Compatível com aluno da 5ª etapa ou posterior",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5023 cobre a base de Linguagens Formais e Autômatos — hierarquia de Chomsky, linguagens regulares e livres de contexto com seus autômatos — mas reserva a maior parte do semestre a compiladores e toca máquinas de Turing apenas numa aula, sem linguagens sensíveis ao contexto.",
+  "justification": "O primeiro enunciado (alfabetos, linguagens, Chomsky, gramáticas) está coberto pelo item 3, pela secção 7.2 e pelos seminários 1-2. O segundo é parcial: regulares e autômatos finitos (itens 3-4, seminários 3-6, Task 2) e livres de contexto com autômatos de pilha (itens 5 e 14, Task 3) aparecem, mas sensíveis ao contexto/linearmente limitados não, e Turing divide uma única aula. Cobertura integral de 50%. As 84 h de contato (razão 1,33 sobre 63,33 h; 1,11 com hora de 50 min) são enganosas: só cerca de 5 aulas tratam teoria de linguagens.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdo detalhado e horas explícitas; o documento é rotulado 2025-2026 e a parcela do tempo dedicada a linguagens formais é estimada pela sequência de aulas, não declarada.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Documento rotulado 'University year 2025-2026' (datado 12.04.2025) publicado no catálogo 2026",
+    "Horas totais incluem conteúdo de compiladores; o tempo dedicado a linguagens formais não é declarado",
+    "MLE5023 também é cotejada com Projeto de Compiladores; aproveitamento simultâneo para dois componentes não está definido",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Um mesmo MLE5023 pode ser aproveitado para Linguagens Formais e Autômatos e para Projeto de Compiladores?",
+    "A UBB oferece Formal languages and automata (MLE5181) a intercambista no outono?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5181",
+      "name": "Formal languages and automata",
+      "relation": "Título coincidente com a ementa (catálogo, 7º semestre de outra linha); documento não verificado neste parecer"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Lacunas pontuais e explícitas; documento detalhado"
+  }
+}

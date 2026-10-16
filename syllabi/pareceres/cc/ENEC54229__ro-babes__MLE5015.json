@@ -1,0 +1,182 @@
+{
+  "id": "cc|ENEC54229|ro-babes|MLE5015",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54229",
+    "name": "Algoritmos e Programação II",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 2ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5015",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem4_MLE5015_en_forest_2026_10142.pdf",
+      "sha256": "4a332fb96254c979890572b690ea33fe5c72f030a608afa835e4c2ee7d5a451b",
+      "name": "Web Programming",
+      "programme": "Computer Science",
+      "yearOfStudy": 2,
+      "semester": 4,
+      "period": "Semestre 4 = 2º semestre do ano letivo (primavera europeia)",
+      "academicYear": "2025/2026 (rótulo do documento 'University year 2025-2026', publicado na pasta do catálogo 2026)",
+      "language": "Inglês (documento e linha IE do catálogo)",
+      "courseStatus": "Mandatory",
+      "assessment": "E (exame): exame prático 60%, média das tarefas de laboratório 40%; mínimo 5 em ambos; presença mínima de 90% nos laboratórios",
+      "prerequisites": "Computer Networks, Distributed Operating Systems, Databases, Data Structures and Algorithms, Object Oriented Programming",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Syllabus 'University year 2025-2026': secções 2, 3.1-3.9, 4, 7.1-7.2, 8.1 (itens 1-14), 8.2 (laboratórios 1-14), 10",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (itens 1-14) e 8.2 (laboratórios 1-14) do programa MLE5015",
+      "note": "A única menção próxima é programação assíncrona em JavaScript (setTimeout, promises; item 6), sem recursão nem análise de complexidade."
+    },
+    {
+      "brTopic": "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (itens 1-14) e 8.2 (laboratórios 1-14) do programa MLE5015",
+      "note": "Nenhum algoritmo de busca ou ordenação; os itens tratam de protocolos, linguagens de marcação, frameworks e segurança Web."
+    },
+    {
+      "brTopic": "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (itens 1-14) e 8.2 (laboratórios 1-14) do programa MLE5015",
+      "note": "O item 6 cita 'collections' de JavaScript como recurso da linguagem, sem estudo de vetores ou matrizes."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "História e conceitos da WWW: endereçamento, servidores de nomes, URLs/URIs; protocolo HTTP",
+      "location": "8.1 itens 1 e 3"
+    },
+    {
+      "topic": "HTML5, CSS3, design responsivo, XML/XHTML/XSLT",
+      "location": "8.1 itens 2, 4, 5; 8.2 laboratórios 1-4"
+    },
+    {
+      "topic": "JavaScript/DOM, jQuery, Angular e React",
+      "location": "8.1 itens 6-8; 8.2 laboratórios 5-6 e 8"
+    },
+    {
+      "topic": "Servidor: PHP/AJAX, JSP/Servlets/Spring Boot/Hibernate/REST, ASP.NET Core/Entity Framework",
+      "location": "8.1 itens 9-11; 8.2 laboratórios 7, 9-12"
+    },
+    {
+      "topic": "WebGL, WebRTC e segurança Web (same-origin, XSS, injeção de SQL)",
+      "location": "8.1 itens 12-14"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa trata de técnicas iterativas/recursivas, complexidade, busca, ordenação, vetores e matrizes.",
+    "foreign": [
+      "Compreender como a World Wide Web é construída e funciona (7.2)",
+      "Conhecer HTML/XML, CSS, JavaScript/DOM, PHP, Angular, React, JSP/Servlet, ASP.NET Core (7.2)",
+      "Instalar, configurar e manter um servidor na Internet (6.2)"
+    ],
+    "convergences": [
+      "Nenhuma convergência de conteúdo; apenas o exercício geral de programar em linguagens de alto nível"
+    ],
+    "differences": [
+      "MLE5015 é disciplina de tecnologias Web; AP II é disciplina algorítmica",
+      "MLE5015 exige Data Structures and Algorithms como pré-requisito (4.1), isto é, posiciona-se depois do conteúdo de AP II"
+    ]
+  },
+  "depth": {
+    "level": "UBB 2º ano, semestre 4; Mackenzie 2ª etapa",
+    "brazil": "2 h-a teóricas + 2 práticas por semana",
+    "foreign": "2 h de curso + 2 h de laboratório por semana; exame prático vale 60%",
+    "theoryPractice": "UBB: 28 de 56 h em laboratório (50%)"
+  },
+  "practical": {
+    "period": "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "language": "Inglês (documento e catálogo IE)",
+    "enrolment": "Exige 90% de presença em laboratórios e 50% em aulas (10.6)",
+    "prerequisites": "Redes, sistemas operacionais distribuídos, bancos de dados, estruturas de dados e algoritmos, POO",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Web programming (MLE5015) é introdução a tecnologias Web de cliente e servidor; não contém recursão, complexidade, busca, ordenação nem vetores e matrizes, que compõem toda a ementa de Algoritmos e Programação II.",
+  "justification": "Nenhum dos três tópicos essenciais tem correspondência nas 14 unidades de curso nem nos 14 laboratórios, o que dá baixa afinidade pela regra interna. As 56 h de contato (28 + 28) dariam razão 0,884 frente a 63,33 h, mas a carga horária não compensa a ausência de conteúdo. O programa ainda lista Data Structures and Algorithms entre os pré-requisitos, situando-se depois de AP II na sequência, e é oferecido no semestre 4 (primavera).",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual completo e horas explícitas; reduz a confiança o rótulo 'University year 2025-2026' num documento do catálogo 2026. A ausência de sobreposição é clara no texto.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Programa rotulado 'University year 2025-2026' apesar de publicado na pasta do catálogo 2026",
+    "records.json registra totalHours 94, que é o estudo individual (3.7); o total semestral do documento é 150 h",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação considera aproveitar MLE5015 como optativa ou eletiva, já que não corresponde a AP II?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5005",
+      "name": "Programming fundamentals",
+      "relation": "Programa lido neste lote: recursão, notação assintótica, busca e ordenação com complexidade em Python (semestre 1, outono); cobre a maior parte de AP II"
+    },
+    {
+      "code": "MLE5022",
+      "name": "Data structures and algorithms",
+      "relation": "Semestre 2; apenas título visto em data.json, programa não lido"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência de sobreposição inequívoca entre os dois documentos"
+  }
+}

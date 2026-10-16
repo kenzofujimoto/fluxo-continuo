@@ -1,0 +1,179 @@
+{
+  "id": "cc|ENEC61020|pt-coimbra|02003476",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61020",
+    "name": "Computação Paralela",
+    "courseName": "Ciência da Computação",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 8ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "99a89616cc97ad85d17f1c8b29d7b0e84a2272807e38dd743c40180bead9aab4",
+    "location": "PDF p. 2, bloco 'COMPUTAÇÃO PARALELA', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Estudo de arquiteturas de sistemas paralelos",
+      "Metodologia de desenvolvimento de programas paralelos",
+      "Análise de algoritmos paralelos",
+      "Medição e avaliação de programas paralelos",
+      "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "02003476",
+      "name": "Computação Paralela",
+      "pageCode": "02003476",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Plano indicado na página: Computação e Simulação (2º Ciclo - Mestrado); área científica Computação e Simulação",
+      "level": "2º Ciclo - Mestrado",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; a página não indica o semestre (data.json: '1º semestre no plano 2026/27')",
+      "academicYear": "2026/2027",
+      "language": "Português (língua de ensino); inglês como outra língua de ensino",
+      "courseStatus": "Opcional",
+      "assessment": "Resolução de problemas 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: experiência em programação numa linguagem de alto nível (Python ou C ou Fortran)",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivos e competências), Programa (texto corrido), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/8910/22901/2026-2027?common_core=true&id=10541&type=ram",
+      "sha256": "947656550617b1456304283bb6f7264c88b32ee6253210ea02fdac8d2be2c802",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e duração semestral; não informa horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de arquiteturas de sistemas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Paradigmas de computação paralela: memória distribuída e partilhada. Algumas noções de supercomputador, principais arquiteturas e middleware associado'",
+      "foreignLocation": "Programa, bloco 'Noções Básicas'; objetivo 'Conhecer a arquitetura de máquinas paralelas'"
+    },
+    {
+      "brTopic": "Metodologia de desenvolvimento de programas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Técnicas de Paralelização de Algoritmos: decomposição de dados e decomposição de domínio. Modelo master-slave para distribuição de dados'",
+      "foreignLocation": "Programa, bloco MPI / técnicas de paralelização; objetivo 'distribuir... uma tarefa computacional por um conjunto de processos'"
+    },
+    {
+      "brTopic": "Análise de algoritmos paralelos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'A medição da eficiência de um algoritmo paralelo: speedup e eficiência de paralelização (Lei de Amdhal)'",
+      "foreignLocation": "Programa, bloco 'Noções Básicas'",
+      "note": "Há análise de eficiência via speedup/Amdahl, mas não análise de complexidade ou custo de algoritmos paralelos."
+    },
+    {
+      "brTopic": "Medição e avaliação de programas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "speedup, eficiência de paralelização e Lei de Amdahl",
+      "foreignLocation": "Programa, bloco 'Noções Básicas'"
+    },
+    {
+      "brTopic": "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programação em OpenMP (fork and join, loops paralelos, data race) e MPI (comunicadores, operações coletivas); exercícios em Python com mpi4py",
+      "foreignLocation": "Programa, blocos OpenMP e MPI; Métodos de Ensino",
+      "note": "Cobre multicore (memória partilhada) e clusters (memória distribuída); GPU, aceleradores, manycore e arquiteturas heterogéneas não são mencionados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Comunicadores, topologias de comunicação e tipos derivados em MPI",
+      "location": "Programa, bloco MPI"
+    },
+    {
+      "topic": "Aplicações a álgebra linear e resolução da equação de Poisson",
+      "location": "Programa, parte final"
+    },
+    {
+      "topic": "Domínios de aplicação e tendências de hardware/software de supercomputação",
+      "location": "Programa, bloco 'Noções Básicas'"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário lista conteúdos; não declara objetivos ou competências.",
+    "foreign": [
+      "Conhecer a arquitetura de máquinas paralelas",
+      "Distribuir tarefas computacionais por processos independentes",
+      "Utilizar os paradigmas da programação paralela"
+    ],
+    "convergences": [
+      "Arquiteturas de memória partilhada e distribuída",
+      "Decomposição de problemas",
+      "Speedup e eficiência"
+    ],
+    "differences": [
+      "Coimbra omite GPU/aceleradores e arquiteturas heterogéneas, explícitos na ementa Mackenzie",
+      "Coimbra orienta-se para computação científica (álgebra linear, equação de Poisson) em Python/mpi4py"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra: 2º Ciclo (mestrado), 1º ano, plano de Computação e Simulação; Mackenzie: graduação, 8ª etapa. Nível de mestrado não implica pré-requisitos além de programação de alto nível.",
+    "brazil": "Componente obrigatório de 63,33 h, 2 h-a teóricas + 2 práticas por semana",
+    "foreign": "Optativa de 6 ECTS, 'ensino eminentemente prático', avaliada 100% por resolução de problemas",
+    "theoryPractice": "Coimbra declara ênfase prática com computador individual; Mackenzie divide meio a meio"
+  },
+  "practical": {
+    "period": "data.json indica 1º semestre no plano 2026/27, que corresponderia a 2027.2 se mantido; a página não confirma o semestre",
+    "language": "Português, com inglês como alternativa",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; a UC pertence a um mestrado de Computação e Simulação, o que exige aprovação expressa para graduando de CC.",
+    "prerequisites": "Programação em Python, C ou Fortran; compatível com a 8ª etapa de CC",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Computação Paralela de Coimbra cobre arquiteturas de memória partilhada/distribuída, decomposição de dados e domínio e avaliação por speedup e Amdahl com OpenMP e MPI, mas não trata GPU, manycore ou arquiteturas heterogéneas nem análise de complexidade de algoritmos paralelos.",
+  "justification": "Três dos cinco tópicos essenciais estão cobertos (arquiteturas, metodologia por decomposição/master-slave, medição de desempenho) e dois parcialmente (análise limitada a speedup/eficiência; implementação restrita a OpenMP e MPI, sem aceleradores). Não há tópico ausente. A página declara 6 ECTS mas nenhuma hora de contacto, por isso as 63,33 h Mackenzie não podem ser comparadas e a regra interna limita a classe a afinidade parcial. O enfoque científico em Python/mpi4py difere do perfil de implementação heterogénea pedido pelo Mackenzie.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-2027 detalhado e avaliação declarada; faltam horas de contacto e confirmação do semestre e da aceitação de graduando numa UC de mestrado.",
+  "limitations": [
+    "Oferta em 2027/28 e semestre não confirmados na página",
+    "Horas de contacto não declaradas; apenas 6 ECTS",
+    "UC de 2º ciclo: inscrição condicional à aprovação dos coordenadores",
+    "Programa em texto corrido, sem divisão por aulas; extensão de cada tema não quantificável",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceita a ausência de GPU/aceleradores se o estudante comprovar o tema por outra via?",
+    "Coimbra pode informar horas de contacto (T/TP/PL) da UC 02003476?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Lacuna em aceleradores/heterogéneas e ausência de horas exigem decisão da coordenação"
+  }
+}

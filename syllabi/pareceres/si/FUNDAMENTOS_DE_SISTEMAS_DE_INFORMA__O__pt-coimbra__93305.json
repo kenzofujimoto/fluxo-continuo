@@ -1,0 +1,196 @@
+{
+  "id": "si|FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO|pt-coimbra|93305",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO",
+    "name": "Fundamentos de Sistemas de Informação",
+    "courseName": "Sistemas de Informação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 5, bloco 'FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 63,33 h-relógio no semestre."
+    },
+    "topics": [
+      "Conceito de Sistemas de Informação",
+      "Pensamento sistêmico",
+      "Abordagem sociotécnica de Sistemas de Informação",
+      "Atuação do profissional de SI",
+      "Tipos de sistemas de informação e suas implicações para os negócios e para a sociedade",
+      "Dimensões de Sistemas de Informação: pessoas, tecnologia, procedimentos, cultura",
+      "Caracterização dos eixos de formação e atuação em Sistemas de Informação: software, dados, gestão organizacional, gestão de infraestrutura de TI, pesquisa e inovação",
+      "Relacionamento de Sistemas de Informação com outras áreas do conhecimento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93305",
+      "name": "Gestão de Sistemas de Informação",
+      "pageCode": "01020964",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json); área científica Sistemas de Informação",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre (catálogo 2026/27), não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português (única língua de ensino indicada)",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: 'Não aplicável'",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1.1-1.4, 2.1, 2.3), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/93305/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "6c9c3d799e35f03bb524a01aa93cf89bb788baf48a9f413cfd590cea1818b8f0",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página indica aulas teóricas e práticas e 6,0 ECTS, sem horas de contacto. Código interno na página: 01020964."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceito de Sistemas de Informação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Conhecer e compreender a terminologia e os conceitos associados às Tecnologias e aos Sistemas de Informação (TI/SI)'",
+      "foreignLocation": "Resultados de Aprendizagem, 1ª competência; Programa, item 1"
+    },
+    {
+      "brTopic": "Pensamento sistêmico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (itens 1.1-1.4, 2.1, 2.3), Resultados de Aprendizagem, Métodos de Ensino e Bibliografia"
+    },
+    {
+      "brTopic": "Abordagem sociotécnica de Sistemas de Informação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa e Resultados de Aprendizagem",
+      "note": "Transformação digital (1.1) é tratada como fenómeno de gestão, sem enquadramento sociotécnico explícito."
+    },
+    {
+      "brTopic": "Atuação do profissional de SI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa e Resultados de Aprendizagem; a UC forma gestores, não discute a profissão de SI"
+    },
+    {
+      "brTopic": "Tipos de sistemas de informação e suas implicações para os negócios e para a sociedade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1.3. Principais tipos de SI'; '1.1. Digitalização e Transformação Digital'; '1.2. TI Disruptivas'",
+      "foreignLocation": "Programa, itens 1.1-1.3",
+      "note": "Tipos e impacto nos negócios estão presentes; implicações para a sociedade não são explicitadas."
+    },
+    {
+      "brTopic": "Dimensões de Sistemas de Informação: pessoas, tecnologia, procedimentos, cultura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa e Resultados de Aprendizagem",
+      "note": "Modelação de processos (2.1) e de dados (2.3) toca procedimentos e tecnologia, mas não como modelo de dimensões de um SI."
+    },
+    {
+      "brTopic": "Caracterização dos eixos de formação e atuação em Sistemas de Informação: software, dados, gestão organizacional, gestão de infraestrutura de TI, pesquisa e inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral",
+      "note": "Tópico ligado à estrutura do curso brasileiro de SI; não se espera equivalente numa UC de licenciatura em Gestão."
+    },
+    {
+      "brTopic": "Relacionamento de Sistemas de Informação com outras áreas do conhecimento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa e Resultados de Aprendizagem",
+      "note": "A UC está inserida em Gestão, mas não discute a relação de SI com outras áreas como conteúdo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Planeamento estratégico, gestão e sourcing de SI",
+      "location": "Programa, item 1.4"
+    },
+    {
+      "topic": "Análise e modelação de processos (BPM)",
+      "location": "Programa, item 2.1; Bibliografia (Dumas et al.)"
+    },
+    {
+      "topic": "Análise, modelação e gestão de dados",
+      "location": "Programa, item 2.3"
+    },
+    {
+      "topic": "TI disruptivas: Big Data, IA, realidade virtual",
+      "location": "Programa, item 1.2"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário lista conteúdos introdutórios do curso; não declara competências.",
+    "foreign": [
+      "Compreender terminologia e conceitos de TI/SI e transformação digital",
+      "Desenvolver modelos de representação de informação e de processos"
+    ],
+    "convergences": [
+      "Conceito e tipos de SI"
+    ],
+    "differences": [
+      "Mackenzie é introdução à área e à profissão (pensamento sistémico, sociotécnica, eixos de formação)",
+      "Coimbra é gestão de SI para gestores, com metade do programa em modelação de processos e dados"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano da licenciatura em Gestão, Mackenzie na 1ª etapa de SI",
+    "brazil": "Componente obrigatório introdutório de 63,33 h",
+    "foreign": "UC obrigatória de 6 ECTS com aulas teóricas (artigos e casos) e práticas (exercícios de modelação)",
+    "theoryPractice": "Coimbra declara parte prática de modelação; o ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 (outono europeu) se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC de outra faculdade/curso (Gestão), portanto condicionada.",
+    "prerequisites": "Nenhum ('Não aplicável')",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão de Sistemas de Informação apresenta conceitos e tipos de SI e transformação digital para alunos de Gestão, mas dedica a segunda parte à modelação de processos e dados; os temas de identidade da área (pensamento sistémico, visão sociotécnica, profissão e eixos de formação) da Fundamentos de SI não aparecem.",
+  "justification": "Dos oito tópicos essenciais, um está coberto (conceito de SI), um parcialmente (tipos de SI e impacto nos negócios, sem a sociedade) e seis não foram encontrados. A razão coberto+parcial é 2/8 (25%). A página declara 6 ECTS e não informa horas de contacto, pelo que não há comparação com as 63,33 h. A oferta indicada no 2º semestre agrava a inviabilidade para 2027.2.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Programa curto mas itemizado e resultados explícitos; a baixa afinidade decorre de ausências claras e não depende das horas.",
+  "limitations": [
+    "Oferta em 2027/28 não confirmada; semestre (2º) só no data.json",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Página com numeração saltando de 2.1 para 2.3 (possível item 2.2 omitido)",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "O item 2.2 omitido na página trata algum tema adicional?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausências claras na maioria dos tópicos"
+  }
+}

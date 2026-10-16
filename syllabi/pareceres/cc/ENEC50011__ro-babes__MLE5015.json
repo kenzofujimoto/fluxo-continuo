@@ -1,0 +1,133 @@
+{
+  "id": "cc|ENEC50011|ro-babes|MLE5015",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC50011",
+    "name": "Algoritmos e Programação I",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 1ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO I', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário (componente de 1ª etapa)",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "Implementação de algoritmos utilizando linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5015",
+      "name": "Web Programming",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (linha IE, em inglês, segundo a URL do catálogo)",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 4,
+      "period": "Semestre 4 = 2º semestre do ano letivo (primavera europeia, fev-jun)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (linha IE do catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Mandatory (campo 2.7 'Discipline regime')",
+      "assessment": "Exame prático 60% + média das tarefas de laboratório 40%; mínimo 5 em ambos; presença de 90% nos laboratórios e 50% nas aulas",
+      "prerequisites": "Computer Networks, Distributed Operating Systems, Databases, Data Structures and Algorithms, Object Oriented Programming",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem4_MLE5015_en_forest_2026_10142.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "4a332fb96254c979890572b690ea33fe5c72f030a608afa835e4c2ee7d5a451b",
+      "location": "Syllabus 'University year 2025-2026': secções 2, 3.1-3.9, 4, 6.2, 7, 8.1 itens 1-14, 8.2 labs 1-14, 10",
+      "hours": {
+        "weekly": {"total": 4, "course": 2, "seminarLab": 2},
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 4, 6.2, 7, 8.1 itens 1-14 e 8.2 labs 1-14: o curso pressupõe estruturas de dados e algoritmos como pré-requisito e não tem unidade de construção de algoritmos",
+      "note": "O item 6 apresenta fundamentos da linguagem JavaScript (funções, objetos, coleções) como ferramenta web, não como estudo de algoritmos."
+    },
+    {
+      "brTopic": "Implementação de algoritmos utilizando linguagem de programação imperativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programação em JavaScript (item 6), PHP (item 9), Java servlets/Spring Boot (item 10) e ASP.NET Core (item 11) nos laboratórios",
+      "foreignLocation": "Secção 8.1 itens 6, 9-11; secção 8.2 labs 5, 7, 9-12",
+      "note": "Há programação em linguagens imperativas, mas aplicada a páginas e serviços web, não à implementação de algoritmos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "HTML5, CSS3, design responsivo, XML/XSLT", "location": "8.1 itens 2, 4-5; 8.2 labs 1-4"},
+    {"topic": "HTTP, URLs, DNS e história da WWW", "location": "8.1 itens 1 e 3"},
+    {"topic": "Frameworks Angular/React, jQuery, AJAX/Fetch, REST e Swagger", "location": "8.1 itens 7-10; 8.2 labs 6-8"},
+    {"topic": "Segurança web: same-origin, XSS, SQL injection", "location": "8.1 itens 13-14"}
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": ["Compreender a construção e o funcionamento da World Wide Web", "Conhecer HTML/XML, CSS, JavaScript/DOM, PHP, Angular, React, JSP/Servlet, ASP.NET Core"],
+    "convergences": ["Escrita de código em linguagens imperativas"],
+    "differences": ["Mackenzie é a primeira disciplina de lógica e algoritmos; a UBB é um curso de tecnologias web de 2º ano que exige algoritmos, estruturas de dados, POO, redes e bancos de dados como pré-requisitos", "Nenhuma unidade da UBB trata de comandos de controle, modularização ou resolução progressiva de problemas"]
+  },
+  "depth": {
+    "level": "Mackenzie na 1ª etapa (introdutória); UBB no 2º ano, com cinco pré-requisitos",
+    "brazil": "Fundamentos de algoritmos com 2 h-a teóricas + 2 práticas semanais",
+    "foreign": "Panorama de tecnologias web cliente e servidor, com laboratórios semanais",
+    "theoryPractice": "UBB: 28 h aula + 28 h laboratório; exame prático vale 60%"
+  },
+  "practical": {
+    "period": "Semestre 4 = primavera europeia (fev-jun), fora do período 2027.2",
+    "language": "Inglês na linha IE",
+    "enrolment": "Pré-requisitos extensos; não há sentido curricular em cursá-la para substituir disciplina de 1ª etapa",
+    "prerequisites": "Redes, sistemas operacionais distribuídos, bancos de dados, EDA e POO",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5015 ensina tecnologias web (HTML, CSS, JavaScript, PHP, Java/Spring, ASP.NET, segurança web) a alunos que já dominam algoritmos e estruturas de dados. Não trata da construção de algoritmos com atribuição, condicionais, repetição e modularização, núcleo de Algoritmos e Programação I.",
+  "justification": "O primeiro enunciado (desenvolvimento de algoritmos com estruturas de controle, modularização e estrutura linear) não tem correspondente: a secção 4 exige 'Data Structures and Algorithms' como pré-requisito, e os itens 8.1 1-14 tratam de protocolos, linguagens de marcação, frameworks e segurança. O segundo enunciado é parcial apenas porque há codificação em JavaScript, PHP, Java e C# nos labs 5-12. A regra de contagem (1 de 2 tópicos com cobertura, 50%) deriva afinidade parcial, mas a classe foi rebaixada. As 56 h de contato (razão 0,884) não alteram a conclusão.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Com apenas dois enunciados, a cobertura parcial do segundo (uso incidental de linguagens imperativas em contexto web) leva a 50% pela contagem; o conteúdo essencial da disciplina (algoritmos introdutórios) é pressuposto, não ensinado, pela UBB.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento individual com horas e conteúdo detalhados que tornam clara a divergência; rotulado 'University year 2025-2026' no catálogo 2026.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Documento do catálogo 2026 rotulado 'University year 2025-2026'",
+    "Disciplina do semestre 4 (primavera): não cursável num intercâmbio restrito a 2027.2",
+    "Duração da hora de contato da UBB não declarada",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Faz sentido acadêmico buscar equivalência para uma disciplina de 1ª etapa durante intercâmbio em etapas avançadas?"
+  ],
+  "alternatives": [
+    {"code": "MLE5005", "name": "Programming fundamentals", "relation": "Pelo título, candidata natural para Algoritmos e Programação I (semestre 1, outono); programa individual não lido neste parecer"},
+    {"code": "MLE5171", "name": "Computer programming and programming languages", "relation": "Introdução à programação na linha Information Engineering; programa não lido"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a item e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Divergência de propósito inequívoca; o rebaixamento está justificado e torna a conclusão mais conservadora"}
+}

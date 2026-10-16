@@ -1,0 +1,166 @@
+{
+  "id": "cc|ENEC61015|ro-babes|MLE5012",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61015",
+    "name": "Projeto de Compiladores",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 3, bloco 'Comp. Curricular PROJETO DE COMPILADORES', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas presenciais por semana."
+    },
+    "topics": [
+      "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código",
+      "Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5012",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5012_en_dsuciu_2026_10231.pdf",
+      "sha256": "5bd7128160fd1eb3daaf8ac2261a57f19a8f0431b59776b0ae67dc7837c1bce9",
+      "name": "Team Project",
+      "programme": "Computer Science",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Semestre 5 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026 (rótulo do documento 'University year 2025-2026'; data de assinatura 15.04.2025)",
+      "language": "Inglês (documento e linha IE do catálogo)",
+      "courseStatus": "Optional",
+      "assessment": "C (colóquio): exame oral 100% sobre desempenho individual no desenvolvimento do produto",
+      "prerequisites": "Sem pré-requisito curricular; competências: programação em linguagem de alto nível, análise e projeto de software",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Syllabus 'University year 2025-2026': secções 2, 3.1-3.9, 4, 7.1-7.2, 8.1 (vazia), 8.2 (7 temas), 9 (vazia), 10",
+      "hours": {
+        "weekly": {
+          "total": 2,
+          "course": null,
+          "seminarLab": 2
+        },
+        "contactTotal": 28,
+        "contactLecture": null,
+        "contactSeminarLab": 28,
+        "selfStudy": 22,
+        "totalWorkload": 50,
+        "ects": 2,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Extração automática não leu as horas; o texto declara 3.1 = 2 h/semana, 3.4 = 28 h e 3.6 = 28 h, com '-' para curso (contactLecture mantido null)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (vazia) e 8.2 (7 temas: Git, papéis, Agile, empreendedorismo, comunicação, métricas, apresentação) do programa MLE5012",
+      "note": "Nenhuma etapa de compilador; os temas são de gestão de projeto e colaboração."
+    },
+    {
+      "brTopic": "Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (vazia) e 8.2 (7 temas: Git, papéis, Agile, empreendedorismo, comunicação, métricas, apresentação) do programa MLE5012",
+      "note": "O produto de média complexidade (7.1) não tem domínio definido; ferramentas citadas são de versionamento e acompanhamento (Git, Bugzilla), não de construção de compiladores."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Sistemas de controle de versão e configuração de projeto (Git)",
+      "location": "8.2, 1º tema"
+    },
+    {
+      "topic": "Papéis na equipe e metodologias ágeis",
+      "location": "8.2, 2º-3º temas; 7.2"
+    },
+    {
+      "topic": "Empreendedorismo, comunicação e colaboração",
+      "location": "8.2, 4º-5º temas"
+    },
+    {
+      "topic": "Ferramentas de medição de progresso e apresentação",
+      "location": "8.2, 6º-7º temas"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa é de construção de compiladores.",
+    "foreign": [
+      "Gerir projeto de desenvolvimento de software de média complexidade (7.1)",
+      "Aplicar processo ágil (7.2)",
+      "Trabalho em grupo interdisciplinar (6.1)"
+    ],
+    "convergences": [
+      "Nenhuma convergência de conteúdo"
+    ],
+    "differences": [
+      "MLE5012 trata de gestão de projeto em equipe; Projeto de Compiladores trata de teoria e implementação de compiladores"
+    ]
+  },
+  "depth": {
+    "level": "UBB 3º ano, semestre 5, optativa; Mackenzie 6ª etapa obrigatória",
+    "brazil": "4 h-a teóricas semanais",
+    "foreign": "2 h semanais de seminário/laboratório; avaliação oral única",
+    "theoryPractice": "UBB sem aulas expositivas (curso '-'); Mackenzie só teoria declarada"
+  },
+  "practical": {
+    "period": "Oferta no 1º semestre do ano letivo europeu (outono), coincidente com 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês (documento e catálogo IE)",
+    "enrolment": "Optativa; vagas para intercambista não verificadas",
+    "prerequisites": "Programação em linguagem de alto nível; análise e projeto de aplicações",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Team project (MLE5012) trabalha gestão de projeto de software em equipe — Git, papéis, métodos ágeis, empreendedorismo e apresentação — e não tem nenhuma etapa de construção de compiladores.",
+  "justification": "Os dois tópicos essenciais de Projeto de Compiladores não aparecem: a secção 8.1 está vazia e a 8.2 lista sete temas de gestão e colaboração. O texto declara 28 h semestrais de seminário/laboratório (3.4 e 3.6), razão 0,44 frente a 63,33 h, embora a extração automática não tenha capturado esse valor. Rotulado 'University year 2025-2026', assinado em 15.04.2025 e com as secções 9 e 10.6 em branco, o programa é menos completo que os demais da UBB. Classe derivada: baixa afinidade.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento individual disponível, mas rotulado 2025-2026 e com secções em branco; a conclusão de ausência de conteúdo é robusta.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Programa MLE5012 rotulado 'University year 2025-2026' (assinatura 15.04.2025) apesar de publicado na pasta do catálogo 2026",
+    "Secções 8.1, 9 e 10.6 sem conteúdo no documento",
+    "Horas de contato lidas manualmente do texto; a extração automática (programas.json) registra contact null",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "MLE5023 (Formal languages and compiler design) está disponível para intercambistas no outono de 2027?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5023",
+      "name": "Formal languages and compiler design",
+      "relation": "Semestre 5 (outono), 5 ECTS; título corresponde a compiladores; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência total de sobreposição de conteúdo"
+  }
+}

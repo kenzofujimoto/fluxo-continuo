@@ -1,0 +1,146 @@
+{
+  "id": "cc|ENEC61015|pt-coimbra|93363",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61015",
+    "name": "Projeto de Compiladores",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 3, bloco 'PROJETO DE COMPILADORES', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas + 0 práticas por semana."
+    },
+    "topics": [
+      "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código",
+      "Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93363",
+      "name": "Projeto Integrador",
+      "pageCode": "01021158",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre (catálogo 2026/27), não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português (língua de ensino); inglês como outra língua de ensino",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Marketing, Estratégia, Recursos Humanos, Gestão das operações, Contabilidade e Finanças",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (i-v), Programa (modalidades PE, PA, PI), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/93363/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "a9b3421ff0e3206ebf6dff261d6cf9a9e1672910c107fbffceb22470ccc8c682",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 12.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 12,0 ECTS; não há horas de contacto. O código interno na página é 01021158, distinto do código de catálogo 93363."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral: Conhecimentos de Base, Métodos de Ensino, Resultados de Aprendizagem i-v, Programa (três modalidades de projeto), Bibliografia"
+    },
+    {
+      "brTopic": "Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral, incluindo a modalidade 'Projeto de investigação'; nenhum conteúdo de linguagens formais, compiladores ou computação",
+      "note": "A coincidência é apenas a palavra 'Projeto' no título."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Projeto empresarial, aplicado ou de investigação em Gestão, com entidades externas",
+      "location": "Programa"
+    },
+    {
+      "topic": "Diagnóstico organizacional, formulação de estratégias e planos de implementação",
+      "location": "Resultados de Aprendizagem, iv"
+    },
+    {
+      "topic": "Competências transversais: comunicação, trabalho em equipa, pensamento crítico",
+      "location": "Resultados de Aprendizagem, ii-iii"
+    }
+  ],
+  "competencies": {
+    "brazil": "Construção de compiladores: análise léxica, sintática e semântica, geração e otimização de código.",
+    "foreign": [
+      "Recolher e interpretar dados",
+      "Diagnosticar situações e formular estratégias organizacionais",
+      "Comunicar e trabalhar em equipa"
+    ],
+    "convergences": [],
+    "differences": [
+      "Áreas científicas distintas: Computação (compiladores) versus Gestão (projeto integrador de licenciatura)"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano da licenciatura em Gestão, Mackenzie na 6ª etapa de CC",
+    "brazil": "Componente teórico de 63,33 h (4 h-a teóricas semanais) com implementação de compilador",
+    "foreign": "Projeto em grupo de 12 ECTS acompanhado por reuniões com docente; conteúdo definido por edição",
+    "theoryPractice": "Não comparável: a UC estrangeira é um projeto de gestão sem componente técnica de computação"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json, o que não coincidiria com 2027.2",
+    "language": "Português, com inglês como alternativa",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; o projeto integrador obrigatório do 3º ano de Gestão pressupõe formação prévia em gestão.",
+    "prerequisites": "Marketing, estratégia, recursos humanos, operações, contabilidade e finanças",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O Projeto Integrador é a UC de síntese da licenciatura em Gestão, com projetos empresariais, aplicados ou de investigação; não contém qualquer conteúdo de compiladores, linguagens ou geração de código, e o vínculo com Projeto de Compiladores resulta apenas da palavra 'Projeto'.",
+  "justification": "Os dois enunciados oficiais de Projeto de Compiladores (etapas do compilador; ferramentas e implementação para máquina hipotética) não têm correspondência em nenhuma secção da página 93363, cujos conhecimentos de base recomendados são marketing, contabilidade e finanças. Razão coberto+parcial 0/2. A carga também não é comparável (12 ECTS sem horas de contacto contra 63,33 h), e a oferta indicada é no 2º semestre.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Página oficial completa quanto a conteúdo e área científica; a divergência é integral e independe das horas não declaradas.",
+  "limitations": [
+    "Oferta em 2027/28 não confirmada; semestre indicado (2º) apenas no data.json",
+    "Horas de contacto não declaradas; 12 ECTS não convertidos",
+    "Código na página (01021158) difere do código de catálogo (93363)",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Há em Coimbra (Departamento de Engenharia Informática) uma UC de compiladores acessível a estudantes de mobilidade?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência total de conteúdo correspondente"
+  }
+}

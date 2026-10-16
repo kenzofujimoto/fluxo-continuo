@@ -1,0 +1,240 @@
+{
+  "id": "si|GESTÃO DA INFORMAÇÃO|pt-coimbra|93305",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "GESTÃO DA INFORMAÇÃO",
+    "name": "Gestão da Informação",
+    "courseName": "Sistemas de Informação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 20, bloco 'GESTÃO DA INFORMAÇÃO', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 63,33 h-relógio no semestre."
+    },
+    "topics": [
+      "Organizações e negócios data-driven",
+      "Dados e Informação como ativo organizacional",
+      "Informação, estratégia e tomada de decisão",
+      "Sistemas de gestão integrada de processos e informação (CRM, ERP, SCM etc)",
+      "Gestão de Documentos",
+      "Gestão de Conhecimento",
+      "Governança de Dados",
+      "Inteligência de Negócios",
+      "Arquitetura de Dados",
+      "Arquitetura da Informação",
+      "Frameworks de Gestão da Informação",
+      "Dados Abertos",
+      "Privacidade e Proteção de Dados",
+      "Sociedade dataficada"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93305",
+      "name": "Gestão de Sistemas de Informação",
+      "pageCode": "01020964",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json); área científica Sistemas de Informação",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre (catálogo 2026/27), não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português (única língua de ensino indicada)",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: 'Não aplicável'",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1.1-1.4, 2.1, 2.3), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/93305/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "6c9c3d799e35f03bb524a01aa93cf89bb788baf48a9f413cfd590cea1818b8f0",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página indica aulas teóricas e práticas e 6,0 ECTS, sem horas de contacto. Código interno na página: 01020964."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Organizações e negócios data-driven",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1.1. Digitalização e Transformação Digital'; '1.2. TI Disruptivas (Big Data, Inteligência Artificial...)'",
+      "foreignLocation": "Programa, itens 1.1-1.2",
+      "note": "Transformação digital e Big Data aproximam-se do tema, mas a organização orientada a dados não é nomeada."
+    },
+    {
+      "brTopic": "Dados e Informação como ativo organizacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'2.3. Análise, modelação e gestão de dados'",
+      "foreignLocation": "Programa, item 2.3",
+      "note": "Gestão de dados presente; o valor dos dados como ativo não é explicitado."
+    },
+    {
+      "brTopic": "Informação, estratégia e tomada de decisão",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1.4. Planeamento estratégico, gestão e obtenção (sourcing) the SI'",
+      "foreignLocation": "Programa, item 1.4",
+      "note": "Trata a estratégia de SI; o uso da informação na decisão não tem item próprio."
+    },
+    {
+      "brTopic": "Sistemas de gestão integrada de processos e informação (CRM, ERP, SCM etc)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1.3. Principais tipos de SI'; '2.1. Análise e modelação de processos'",
+      "foreignLocation": "Programa, itens 1.3 e 2.1",
+      "note": "CRM, ERP e SCM não são nomeados; a bibliografia (Turban) costuma abordá-los, mas bibliografia não comprova conteúdo lecionado."
+    },
+    {
+      "brTopic": "Gestão de Documentos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem, Métodos de Ensino e Bibliografia"
+    },
+    {
+      "brTopic": "Gestão de Conhecimento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Governança de Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (inclui 2.3 'gestão de dados', sem governança) e Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Inteligência de Negócios",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa e Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Arquitetura de Dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'2.3. Análise, modelação e gestão de dados'; resultados: 'saber desenvolver alguns dos principais modelos de representação de informação'",
+      "foreignLocation": "Programa, item 2.3; Resultados de Aprendizagem, 2ª competência",
+      "note": "Modelação de dados é parte da arquitetura de dados, mas não a esgota (integração, camadas, repositórios)."
+    },
+    {
+      "brTopic": "Arquitetura da Informação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa e Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Frameworks de Gestão da Informação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Dados Abertos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa e Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Privacidade e Proteção de Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa e Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Sociedade dataficada",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (incluindo 1.2 TI disruptivas) e Resultados de Aprendizagem"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Planeamento estratégico e sourcing de SI",
+      "location": "Programa, item 1.4"
+    },
+    {
+      "topic": "Análise e modelação de processos de negócio",
+      "location": "Programa, item 2.1"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário lista catorze conteúdos de gestão da informação; não declara competências.",
+    "foreign": [
+      "Compreender conceitos de TI/SI e transformação digital",
+      "Modelar informação e processos"
+    ],
+    "convergences": [
+      "Gestão e modelação de dados",
+      "Estratégia de SI",
+      "Tipos de SI"
+    ],
+    "differences": [
+      "Coimbra não trata governança de dados, BI, gestão documental e do conhecimento, dados abertos nem privacidade",
+      "Coimbra inclui modelação de processos, ausente da ementa de Gestão da Informação"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano de Gestão, Mackenzie na 4ª etapa de SI",
+    "brazil": "Componente de 63,33 h com programa extenso (14 enunciados)",
+    "foreign": "UC de 6 ECTS com programa de seis itens, metade dedicada a modelação",
+    "theoryPractice": "Coimbra tem aulas práticas de modelação; o ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; fora de 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC do plano de Gestão.",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A mesma UC 93305 aproxima-se de Gestão da Informação apenas pela gestão/modelação de dados, pela estratégia de SI e pelos tipos de sistemas; governança de dados, inteligência de negócios, gestão documental e do conhecimento, dados abertos e privacidade estão ausentes.",
+  "justification": "Dos catorze tópicos essenciais, nenhum está integralmente coberto, cinco têm cobertura parcial (data-driven via transformação digital, dados como ativo e arquitetura de dados via item 2.3, estratégia via 1.4, sistemas integrados via 1.3 sem nomear ERP/CRM/SCM) e nove não foram encontrados. A razão coberto+parcial é 5/14 (36%). Sem horas de contacto na página (só 6 ECTS) não há comparação com as 63,33 h Mackenzie.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial curto (seis subitens), o que dificulta afirmar ausência de temas que possam ser lecionados dentro de itens genéricos como 2.3; horas e semestre não constam da página.",
+  "limitations": [
+    "Programa resumido: temas brasileiros podem estar dentro de itens genéricos sem que a página o diga",
+    "Horas de contacto não declaradas; oferta e semestre 2027/28 não confirmados",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "O docente confirma se CRM/ERP/SCM são tratados no item 1.3?"
+  ],
+  "alternatives": [
+    {
+      "code": "91503",
+      "name": "Análise de Dados e Gestão de Informação I",
+      "relation": "Apesar do título, é UC de estatística inferencial; não é alternativa melhor (ver parecer próprio)"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Baixa cobertura evidente; nenhuma decisão limítrofe"
+  }
+}

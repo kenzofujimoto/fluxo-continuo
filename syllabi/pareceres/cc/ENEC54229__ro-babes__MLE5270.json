@@ -1,0 +1,176 @@
+{
+  "id": "cc|ENEC54229|ro-babes|MLE5270",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54229",
+    "name": "Algoritmos e Programação II",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 2ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5270",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem6_MLE5270_en_craciunf_2026_10927.pdf",
+      "sha256": "8ee0f86fd605b1f3be64d14c4f7e717da1fa1dfa9217bc76d058d3122987e15f",
+      "name": "Rust Programming",
+      "programme": "Computer Science",
+      "yearOfStudy": 3,
+      "semester": 6,
+      "period": "Semestre 6 = 2º semestre do ano letivo (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo)",
+      "courseStatus": "Elective",
+      "assessment": "C (colóquio): exame escrito e quizzes 50%, tarefas de laboratório (100 Exercises to Learn Rust) 50%",
+      "prerequisites": "Fundamentals of Programming; 'Basic low-level programming skills'",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Syllabus 'University year 2026-2027': secções 2, 3.1-3.9, 4, 7.1-7.2, 8.1 (itens 1-12), 8.2 (itens 1-6, quinzenais), 10",
+      "hours": {
+        "weekly": {
+          "declaredTotal": 7,
+          "course": 2,
+          "lab": 1,
+          "project": 2
+        },
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 30,
+        "totalWorkload": 90,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Secção 3.1 declara 7 h semanais, mas as parcelas 3.2-3.3 somam 2 + 1 Lab + 2 Pr = 5; totais semestrais 60 = 24 + 36 usados como declarados."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (itens 1-12) e 8.2 (itens 1-6) do programa MLE5270",
+      "note": "'Control flow basics' (item 1) e 'Iterators' (item 7) tratam a sintaxe de Rust; não há recursão como técnica de projeto nem análise de eficiência/complexidade."
+    },
+    {
+      "brTopic": "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (itens 1-12) e 8.2 (itens 1-6) do programa MLE5270",
+      "note": "Nenhum algoritmo de busca ou ordenação nomeado no curso ou no laboratório."
+    },
+    {
+      "brTopic": "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Tuples and Arrays, References, User-Defined Types'; laboratório 'Data structures and iterators'",
+      "foreignLocation": "Secção 8.1, item 2 (e item 4, tipos da biblioteca padrão); secção 8.2, item 4",
+      "note": "Arrays e coleções da biblioteca padrão cobrem vetores; matrizes não são citadas. Rust é imperativa, mas o foco é ownership e segurança de memória."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Ownership, borrowing e lifetimes; ponteiros inteligentes",
+      "location": "8.1 itens 5-6; 8.2 item 1"
+    },
+    {
+      "topic": "Pattern matching, traits, genéricos, closures",
+      "location": "8.1 itens 3-4; 8.2 item 2"
+    },
+    {
+      "topic": "Tratamento de erros, unsafe Rust, padrões idiomáticos",
+      "location": "8.1 itens 8-9; 8.2 item 3"
+    },
+    {
+      "topic": "Concorrência em Rust (threads e futures)",
+      "location": "8.1 itens 10-11; 8.2 item 5"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa é algorítmica (recursão, complexidade, busca, ordenação, vetores/matrizes).",
+    "foreign": [
+      "Raciocinar sobre programas de baixo nível com sistema de tipos guiado por ownership (6.2)",
+      "Escrever Rust idiomático e resolver erros de borrowing (7.2)",
+      "Segurança de threads e memória garantida em compilação (7.2)"
+    ],
+    "convergences": [
+      "Uso de arrays em linguagem imperativa"
+    ],
+    "differences": [
+      "MLE5270 é eletiva de linguagem específica; AP II é disciplina obrigatória de algoritmos",
+      "Nenhuma unidade de busca, ordenação, recursão ou complexidade na UBB"
+    ]
+  },
+  "depth": {
+    "level": "UBB 3º ano, semestre 6, eletiva; Mackenzie 2ª etapa obrigatória",
+    "brazil": "2 h-a teóricas + 2 práticas por semana",
+    "foreign": "11 aulas e exame (24 h de curso) mais laboratório quinzenal e projeto (36 h)",
+    "theoryPractice": "UBB: 36 de 60 h em laboratório/projeto (60%)"
+  },
+  "practical": {
+    "period": "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "language": "Inglês (documento e catálogo IE)",
+    "enrolment": "Eletiva (Elective); laboratórios a cada duas semanas; vagas para intercambista não verificadas",
+    "prerequisites": "Fundamentals of Programming; habilidades básicas de programação de baixo nível",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Rust programming (MLE5270) é eletiva de 3º ano centrada em ownership, tipos algébricos e segurança de memória; da ementa de Algoritmos e Programação II resta apenas o uso de arrays, sem busca, ordenação, recursão ou complexidade.",
+  "justification": "Um tópico parcial (arrays no item 2 do curso e estruturas de dados no item 4 do laboratório) e dois não encontrados levam à baixa afinidade derivada (33% dos tópicos com alguma cobertura). As 60 h de contato (24 + 36) dariam razão 0,947 frente às 63,33 h, mas o semestre 6 é de primavera e a avaliação é colóquio (C). A secção 3.1 declara 7 h semanais enquanto as parcelas somam 2 + 1 + 2 = 5, e o total de 90 h por semestre (3.8) é menor que o de outras disciplinas de 5 ECTS da faculdade, como MLE5006 (125 h).",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026-2027 individual; reduzem a confiança a inconsistência entre horas semanais declaradas (7) e parcelas (5) e a duração da hora não declarada. A conclusão de baixa afinidade não depende desses números.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Horas semanais internamente inconsistentes na secção 3 do documento (7 declaradas; 2 + 1 + 2 nas parcelas)",
+    "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A UBB confirma a carga de 60 h de contato para MLE5270 em 2027/28, dada a inconsistência da secção 3?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5005",
+      "name": "Programming fundamentals",
+      "relation": "Programa lido neste lote: recursão, notação assintótica, busca e ordenação com complexidade em Python (semestre 1, outono); cobre a maior parte de AP II"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Baixa sobreposição evidente; números de horas não alteram a classe"
+  }
+}

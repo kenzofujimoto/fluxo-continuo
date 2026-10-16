@@ -1,0 +1,192 @@
+{
+  "id": "cc|ENEX60057|ro-babes|MLE5247",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60057",
+    "name": "Inteligência Artificial II",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 7ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "PDF p. 3 (numeração impressa 115), bloco 'Comp. Curricular INTELIGÊNCIA ARTIFICIAL II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5247",
+      "name": "Understanding and Developing Large Language Models (LLMs)",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (linha IE, em inglês, segundo a URL do catálogo)",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Semestre 5 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Optional / Specialisation subject",
+      "assessment": "Exame oral sobre projeto 60% + exame prático sob observação contínua 40%; nota final mínima 5",
+      "prerequisites": "Python, Álgebra Linear, Estatística, Estruturas de Dados e Algoritmos",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5247_en_bmursa_2026_10335.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "b3a9aec61b06fac8e6152968ec707b44c0d63b6ebcd73b2483226e10197567fe",
+      "location": "Course description 2026-2027: secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 7 (resultados), 8.1 itens 1-14, 8.2 labs 1-7 e projeto fases 1-7, 9 (avaliação)",
+      "hours": {
+        "weekly": {
+          "total": 5,
+          "course": 2,
+          "seminarLab": 3
+        },
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 65,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Item 1 'Introduction to LLMs and the Landscape of Generative AI' (história do PLN); paradigma de aprendizagem tratado via pré-treino e fine-tuning",
+      "foreignLocation": "Secção 8.1, itens 1-2 e 6-7",
+      "note": "O prefixo do enunciado é cabeçalho de página capturado pela extração do ementário. Representação de conhecimento só aparece nos resultados genéricos copiados do currículo (6.2), sem unidade em 8.1/8.2."
+    },
+    {
+      "brTopic": "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado 'main machine learning paradigms, including supervised learning, unsupervised learning, and deep learning' e 'data analysis, preprocessing, and visualization'",
+      "foreignLocation": "Secção 7 (Knowledge 2-3; Skills 2)",
+      "note": "Os conteúdos 8.1/8.2 tratam apenas de LLMs; aprendizagem supervisionada/não supervisionada geral e ciência de dados constam só nos resultados da secção 7."
+    },
+    {
+      "brTopic": "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Deep learning via Transformers e atenção (itens 3-4); pré-treino, fine-tuning, PEFT/LoRA e RLHF (itens 6-9); avaliação do modelo nas fases 3-4 do projeto; LangChain/RAG",
+      "foreignLocation": "Secção 8.1 itens 3-4, 6-9, 11; secção 8.2 labs 2-6 e projeto fases 3-6",
+      "note": "Agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística e detecção de anomalia não aparecem em nenhuma unidade."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Engenharia de prompts, Chain-of-Thought e ReAct",
+      "location": "8.1 itens 5 e 10; 8.2 lab 3"
+    },
+    {
+      "topic": "Retrieval Augmented Generation com LangChain, vector stores e embeddings; construção de chatbot",
+      "location": "8.1 item 11; 8.2 labs 6-7, projeto fase 6"
+    },
+    {
+      "topic": "Leis de escala no pré-treino de LLMs",
+      "location": "8.1 item 6"
+    },
+    {
+      "topic": "Ética de IA generativa",
+      "location": "8.1 item 12"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Compreender arquitetura Transformer e atenção",
+      "Adaptar LLMs por prompt, fine-tuning e RLHF",
+      "Integrar LLMs em aplicações reais via LangChain/RAG"
+    ],
+    "convergences": [
+      "Deep learning",
+      "Ciclo treinar-avaliar-ajustar modelos"
+    ],
+    "differences": [
+      "Mackenzie cobre o repertório clássico de aprendizagem de máquina (agrupamento, redução de dimensionalidade, associação, árvores, regressão logística, anomalias); a UBB não",
+      "UBB aprofunda IA generativa e LLMs, tema que a ementa Mackenzie não nomeia",
+      "Disciplina UBB é optativa de especialização; a Mackenzie é obrigatória"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UBB no 3º ano (semestre 5), Mackenzie na 7ª etapa",
+    "brazil": "Componente obrigatório com 2 h-a teóricas + 2 práticas semanais e escopo amplo de aprendizagem de máquina",
+    "foreign": "Optativa de especialização: 12 aulas sobre LLMs + 2 de apresentações, laboratório e projeto em grupo de 14 semanas",
+    "theoryPractice": "UBB: 24 h aula + 36 h laboratório/projeto; Mackenzie: metade teórica e metade prática"
+  },
+  "practical": {
+    "period": "Semestre 5 = outono europeu, coincidente com 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês na linha IE",
+    "enrolment": "Optativa; vagas de optativas para intercambistas não verificadas",
+    "prerequisites": "Python, Álgebra Linear, Estatística e EDA exigidos; compatíveis com a 7ª etapa do Mackenzie",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5247 é uma optativa sobre modelos de linguagem de grande porte (Transformers, fine-tuning, RLHF, RAG). Toca os três enunciados de Inteligência Artificial II apenas pelo ângulo do deep learning; o repertório clássico de aprendizagem de máquina da ementa brasileira não aparece nas unidades.",
+  "justification": "Os três tópicos foram classificados como parciais, o que pela regra interna deriva afinidade parcial. A classe foi rebaixada porque o terceiro enunciado enumera onze subtemas e só deep learning e treino/avaliação têm unidade (8.1 itens 3-4 e 6-9; projeto fases 3-4). Agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística e detecção de anomalia estão ausentes. Aprendizagem supervisionada/não supervisionada e ciência de dados só aparecem nos resultados da secção 7, que parecem genéricos: falam em 'connected systems' e o critério 9.6 em 'computer vision problems'. As 60 h de contato (24 + 36) equivalem a 0,947 das 63,33 h nominais (0,79 no cenário de 50 min), portanto a carga não é o fator limitante.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A granularidade de três enunciados longos superestima a cobertura: no enunciado 3, apenas 2 de 11 subtemas (deep learning; treino/teste/validação) têm unidade correspondente, e os resultados de aprendizagem que mencionam ML geral não têm conteúdo programático associado.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento estrangeiro individual do ano 2026-2027 com horas discriminadas e conteúdo detalhado; a confiança cai porque os resultados da secção 7 e o critério 9.6 parecem copiados de outra disciplina e porque o primeiro enunciado brasileiro contém ruído de extração.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Disciplina optativa: abertura de turma depende de demanda",
+    "Secção 7 menciona 'connected systems' e o critério 9.6 'computer vision problems', indícios de texto reaproveitado de outro programa",
+    "Primeiro enunciado da ementa brasileira inclui cabeçalho de página ('UNIVERSIDADE PRESBITERIANA MACKENZIE ... 115') por artefato de extração",
+    "Duração da hora de contato da UBB não declarada",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria MLE5247 como optativa de IA, em vez de equivalente de Inteligência Artificial II?",
+    "Os resultados de aprendizagem da secção 7 (ML supervisionado/não supervisionado) correspondem a conteúdo efetivamente ministrado?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5029",
+      "name": "Artificial intelligence",
+      "relation": "Cobre árvores de decisão, redes neurais, SVM e K-means (ver parecer cc|ENEX60057|ro-babes|MLE5029); oferta no semestre de primavera"
+    },
+    {
+      "code": "MLE8151",
+      "name": "Introduction to natural language processing",
+      "relation": "Possível complemento em PLN; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a item e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe rebaixada em relação à derivada e resultados de aprendizagem estrangeiros possivelmente copiados de outro programa"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "cc|ENEX60052|ro-babes|MLE5029",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60052",
+    "name": "Inteligência Artificial I",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 4, bloco 'Comp. Curricular INTELIGÊNCIA ARTIFICIAL I', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas presenciais por semana."
+    },
+    "topics": [
+      "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "Agentes Lógicos",
+      "Representação do conhecimento",
+      "Tomada de Decisão",
+      "e Aprendizagem"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5029",
+      "name": "Artificial Intelligence",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (linha IE, em inglês, segundo a URL do catálogo)",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 6,
+      "period": "Documento declara 'Year 2, Semester 6'; o nome do arquivo e o catálogo indicam semestre 4. Em ambos os casos, semestre par = primavera europeia (fev-jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory / DS",
+      "assessment": "Exame escrito 40% + exame oral 50% + laboratório e projetos 10%; presença mínima de 90% no laboratório; nota final mínima 5",
+      "prerequisites": "Data Structures and Algorithms Theory; programação média em linguagem de alto nível",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem4_MLE5029_en_mihoct_2026_10516.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "619320a3c4a8f4a6720a985b09d5fc04245e5ad57686b38c54399934a15c14e4",
+      "location": "Course description 2026-2027: secções 2, 3.1-3.9 (horas), 4, 7 (resultados), 8.1 itens 1-14, 8.2 labs 1-13, 9",
+      "hours": {
+        "weekly": {"total": 4, "course": 2, "seminarLab": 2},
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Valores 56/28/28 (laboratório '0/28/0') lidos nas linhas 3.4-3.6; o extrator automático não os capturou."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Item 1 'Introduction to AI: History, Method, and Ethical Issues'; itens 6-8 busca não informada, informada (A*), local; item 11 busca adversarial",
+      "foreignLocation": "Secção 8.1 itens 1, 6-8 e 11; secção 8.2 lab 9",
+      "note": "História, busca e aplicações cobertas; o conceito de agente inteligente não é nomeado no programa."
+    },
+    {
+      "brTopic": "Agentes Lógicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Item 13 'Knowledge representation and reasoning in rule-based systems'; resultado 'rule-based reasoning'",
+      "foreignLocation": "Secção 8.1 item 13; secção 7 (Knowledge 2 e 6)",
+      "note": "Raciocínio por regras presente; lógica proposicional/de primeira ordem e inferência lógica não aparecem explicitamente."
+    },
+    {
+      "brTopic": "Representação do conhecimento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Item 13 'Knowledge representation and reasoning in rule-based systems'; resultado 6 'knowledge representation, and rule-based reasoning'",
+      "foreignLocation": "Secção 8.1 item 13; secção 7 (Knowledge 6)"
+    },
+    {
+      "brTopic": "Tomada de Decisão",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Item 14 'Uncertainty management in rule-based systems'; item 11 minimax e poda alfa-beta; lab 12 'RBS in an uncertain environment'",
+      "foreignLocation": "Secção 8.1 itens 11 e 14; secção 8.2 lab 12; secção 7 (Knowledge 2, 'game theory')",
+      "note": "Decisão sob incerteza e decisão adversarial presentes; teoria da utilidade e processos de decisão sequenciais não aparecem."
+    },
+    {
+      "brTopic": "e Aprendizagem",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Item 2 aprendizado de máquina e árvores de decisão; itens 3-5 redes neurais, backpropagation, CNN/RNN/Transformers; item 12 SVM e K-means; labs 3-8",
+      "foreignLocation": "Secção 8.1 itens 2-5 e 12; secção 8.2 labs 3-8",
+      "note": "O enunciado oficial começa com 'e' por artefato da segmentação da ementa."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Computação evolutiva: algoritmos genéticos, estratégias evolutivas, programação genética", "location": "8.1 itens 8-9; 8.2 lab 10"},
+    {"topic": "Inteligência de enxame: PSO e colônia de formigas", "location": "8.1 item 10; 8.2 lab 11"},
+    {"topic": "Métodos de Monte Carlo, transfer learning e hiper-heurísticas", "location": "8.2 labs 2, 8 e 13"},
+    {"topic": "Ética em IA", "location": "8.1 item 1; secção 7 (Knowledge 4)"}
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": ["Modelar problemas reais como problemas de IA", "Implementar e validar algoritmos de busca, otimização, aprendizado e raciocínio por regras", "Avaliar modelos com métricas e validação"],
+    "convergences": ["História e técnicas centrais de IA", "Busca para resolução de problemas", "Representação do conhecimento por regras", "Aprendizagem de máquina"],
+    "differences": ["UBB não nomeia agentes inteligentes nem agentes lógicos baseados em lógica formal", "UBB acrescenta computação evolutiva e de enxame", "Mackenzie é integralmente teórica; a UBB tem 28 h de laboratório com PyTorch"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UBB no 2º ano, Mackenzie na 6ª etapa",
+    "brazil": "Componente teórico de introdução à IA (4 h-a semanais), com estrutura próxima à de Russell & Norvig",
+    "foreign": "Introdução ampla à IA com 14 aulas e 13 laboratórios práticos em Python/PyTorch",
+    "theoryPractice": "UBB: 28 h aula + 28 h laboratório; exames escrito e oral valem 90%"
+  },
+  "practical": {
+    "period": "Semestre par (primavera europeia, fev-jun), fora do período 2027.2; coincidiria com 2028.1 em intercâmbio anual",
+    "language": "Inglês na linha IE",
+    "enrolment": "Disciplina obrigatória do 2º ano; aceitação de intercambista não verificada",
+    "prerequisites": "Estruturas de dados e teoria de algoritmos; compatíveis com a 6ª etapa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5029 é uma introdução ampla à IA, com história, busca, busca adversarial, aprendizado de máquina, redes neurais, sistemas baseados em regras e incerteza. Cobre integralmente representação do conhecimento e aprendizagem; agentes inteligentes, agentes lógicos e tomada de decisão aparecem apenas parcialmente.",
+  "justification": "Representação do conhecimento (item 13) e aprendizagem (itens 2-5 e 12; labs 3-8) estão cobertas. Os outros três enunciados são parciais. História e busca estão nos itens 1, 6-8 e 11, mas 'agentes inteligentes' não é nomeado. Agentes lógicos aparecem apenas como sistemas de regras, sem lógica formal. Tomada de decisão limita-se a incerteza em sistemas de regras e minimax. A cobertura integral é 2/5 (40%), abaixo dos 75%. Mesmo reclassificando o primeiro enunciado como coberto, chegaria a 60%, ainda parcial. As 56 h de contato equivalem a 0,884 das 63,33 h nominais (0,74 com hora de 50 min). O documento também se contradiz quanto ao semestre (6 no texto, 4 no arquivo).",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento 2026-2027 detalhado, com horas explícitas no texto; reduzem a confiança a inconsistência 'Year 2, Semester 6' versus semestre 4 do catálogo e a ausência de captura automática das horas.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Documento declara 'Year of study 2' e 'Semester 6', incoerente com o arquivo 'IE_sem4' e com data.json (semestre 4)",
+    "Disciplina de semestre par (primavera): não cursável num intercâmbio restrito a 2027.2",
+    "Horas de contato copiadas manualmente das linhas 3.4-3.6 (programas.json com contact null)",
+    "Duração da hora de contato da UBB não declarada; no cenário de 50 min a razão seria 0,74",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Em que semestre MLE5029 será oferecida em 2027/28 (4 ou 6)?",
+    "A coordenação aceita sistemas baseados em regras como cobertura de 'Agentes Lógicos'?",
+    "Se MLE5029 for usada para IA I, ela ainda poderia ser considerada para IA II?"
+  ],
+  "alternatives": [
+    {"code": "MLE5247", "name": "Understanding and Developing Large Language Models", "relation": "Não substitui IA I; optativa de LLMs no outono, avaliada para IA II no parecer cc|ENEX60057|ro-babes|MLE5247"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a item e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Semestre de oferta contraditório no próprio documento e sobreposição com o par IA II-MLE5029"}
+}

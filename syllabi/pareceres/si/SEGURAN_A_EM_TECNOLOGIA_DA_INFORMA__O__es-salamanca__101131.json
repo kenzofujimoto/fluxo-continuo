@@ -1,0 +1,192 @@
+{
+  "id": "si|SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO|es-salamanca|101131",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO",
+    "name": "Segurança em Tecnologia da Informação",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Ementário SI Alphaville 2025, PDF p. 28, bloco 'SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário declara 63,33 h-relógio; distribuição semanal não extraída."
+    },
+    "topics": [
+      "Conceitos Fundamentais de Segurança da Informação",
+      "Introdução à Criptografia",
+      "Introdução de Segurança de Operações",
+      "Introdução de Segurança de desenvolvimento de software",
+      "Introdução aos Padrões de Segurança",
+      "Família ISO 27000 e ISO 22301",
+      "Introdução à Lei Brasileira e Privacidade dos Dados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101131",
+      "name": "Seguridad en Sistemas Informáticos",
+      "faculty": "Facultad de Ciencias",
+      "department": "Informática y Automática",
+      "programme": "Grado en Ingeniería Informática",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 4,
+      "semester": "Primer Semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Obligatoria (campo 'Carácter')",
+      "assessment": "Avaliação contínua 15%, exames 70%, realização e defesa de práticas/trabalhos 15%",
+      "prerequisites": "Necessário bom conhecimento de Sistemas Operativos e Redes de Computadores",
+      "source": "https://guias.usal.es/node/255761",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "65ffa7e1de3fd2ba8865763bbeabe6e4e31098d591e57cb8ba6c6961abb77e9a",
+      "location": "Guía 2026/2027: secções 1 (dados), 2 (recomendações), 3 (objetivos), 4 (competências), 5 (Teoría e Práctica), 8 (recursos), 9 (avaliação)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece apenas com o título e a data no texto obtido; a tabela de horas não foi capturada. Só 6 ECTS explícitos; ECTS não convertidos em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos Fundamentais de Segurança da Informação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Definiciones'; 'Servicios de seguridad (confidencialidad, autenticación, …)' relacionados com mensagem e entidades",
+      "foreignLocation": "Secção 5 Teoría, bloco 'Cifrado. Protocolos estándar...'"
+    },
+    {
+      "brTopic": "Introdução à Criptografia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Cifrado simétrico', 'Cifrado asimétrico', 'Gestión de Claves'; práticas com ferramentas de cifra e assinatura eletrônica",
+      "foreignLocation": "Secção 5 Teoría (bloco Cifrado); Práctica (Bloque de Cifrado)"
+    },
+    {
+      "brTopic": "Introdução de Segurança de Operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Gestão de usuários, arquivos de registro, controles de acesso, cortafuegos, sistema detector de intrusões; prática 'Configuraciones que Ayudan a la Seguridad'",
+      "foreignLocation": "Secção 5 Teoría (blocos SO e Redes); Práctica (Bloque Seguridad en los Sistemas)",
+      "note": "Interpretado como segurança operacional (administração segura, monitoração, controles); resposta a incidentes não é explícita."
+    },
+    {
+      "brTopic": "Introdução de Segurança de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Programación segura' e 'Código malicioso' dentro do bloco de sistemas operacionais",
+      "foreignLocation": "Secção 5 Teoría, bloco 'Seguridad en los sistemas operativos'",
+      "note": "Não há ciclo de desenvolvimento seguro, modelagem de ameaças ou testes de segurança de aplicações."
+    },
+    {
+      "brTopic": "Introdução aos Padrões de Segurança",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Gestión de la seguridad. Normas y estándares de seguridad de la información'; objetivo 'Introducir los Sistemas de Gestión de Seguridad'",
+      "foreignLocation": "Secção 5 Teoría, penúltimo bloco; secção 3, objetivo 5"
+    },
+    {
+      "brTopic": "Família ISO 27000 e ISO 22301",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Normas e padrões e SGSI introduzidos sem nomear a família ISO 27000; ISO 22301 (continuidade de negócios) ausente",
+      "foreignLocation": "Secção 5 Teoría, bloco Gestión de la seguridad; secção 3, objetivo 5"
+    },
+    {
+      "brTopic": "Introdução à Lei Brasileira e Privacidade dos Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4, 5 (Teoría e Práctica), 8 e 9 lidas integralmente",
+      "note": "Lei brasileira é, por natureza, estranha a guia espanhola; nem RGPD/LOPDGDD nem privacidade de dados aparecem — apenas a competência CESI2 menciona 'legislación vigente'."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Protocolos de comunicação segura e análise de tráfego SSL/TLS com Wireshark",
+      "location": "Secção 5 Teoría; Práctica"
+    },
+    {
+      "topic": "Segurança em redes sem fio",
+      "location": "Secção 5 Teoría, último item"
+    },
+    {
+      "topic": "Servidor web seguro e correio com certificados",
+      "location": "Secção 5 Práctica, Bloque de Cifrado"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Avaliar a situação de segurança de um sistema e propor soluções (objetivo 2)",
+      "Identificar ataques habituais e formas de proteção (objetivo 4)",
+      "CESI5 avaliação de riscos e planos de atuação"
+    ],
+    "convergences": [
+      "Fundamentos e criptografia",
+      "Controles operacionais",
+      "Gestão por normas de segurança"
+    ],
+    "differences": [
+      "SI Mackenzie exige ISO 22301 e legislação brasileira de privacidade (LGPD), ausentes",
+      "Salamanca é mais técnica (SO, redes, IDS, laboratório SSL/TLS)"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca obrigatória de 4º curso de engenharia; Mackenzie obrigatória da 5ª etapa de SI, de caráter introdutório ('Introdução...')",
+    "brazil": "Sete enunciados introdutórios com ênfase em gestão e conformidade",
+    "foreign": "Abordagem técnica com oito práticas de laboratório e exames de 70%",
+    "theoryPractice": "Proporção estrangeira não declarada"
+  },
+  "practical": {
+    "period": "Primer Semestre (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre — não verificado",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional da universidade no projeto)",
+    "enrolment": "Obrigatória de 4º curso; aceitação de intercambista não verificada",
+    "prerequisites": "Exige SO e Redes; estudante de SI deve verificar se a base de redes/SO do curso é suficiente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Para Segurança em TI, a guia 101131 sustenta fundamentos, criptografia, segurança operacional e padrões; desenvolvimento seguro e ISO 27000/22301 são tratados de modo genérico ou ausente, e privacidade de dados/lei brasileira não tem correspondente.",
+  "justification": "Quatro dos sete tópicos essenciais são cobertos (fundamentos, criptografia, operações, padrões), dois parciais (desenvolvimento seguro reduzido a 'Programación segura'; normas sem ISO 27000 nominal e sem ISO 22301) e um não encontrado (LGPD e privacidade). A cobertura integral de 57% fica abaixo do parâmetro de 75% e a carga de 63,33 h não pode ser confrontada porque a guia não traz horas presenciais; resulta afinidade parcial. A lacuna de privacidade/LGPD exigiria complementação no Brasil.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia oficial com teoria e práticas enumeradas; sem tabela de horas e com tópicos ISO e de desenvolvimento seguro descritos de forma genérica.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Carga horária não comparável: guia sem horas presenciais capturadas",
+    "O tópico de lei brasileira é intrinsecamente local; mesmo uma cobertura de RGPD exigiria decisão da coordenação",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de SI aceitaria estudo complementar de LGPD para suprir o tópico 7?",
+    "O bloco 'Normas y estándares' de Salamanca usa a ISO 27001/27002 (verificar com o docente)?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía/programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a secção/item do documento estrangeiro; campos data.json não usados como evidência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Mapeamento item a item claro; lacunas objetivas"
+  }
+}

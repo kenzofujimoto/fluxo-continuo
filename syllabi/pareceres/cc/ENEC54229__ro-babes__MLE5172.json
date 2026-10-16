@@ -1,0 +1,173 @@
+{
+  "id": "cc|ENEC54229|ro-babes|MLE5172",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54229",
+    "name": "Algoritmos e Programação II",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 2ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5172",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem3_MLE5172_en_craciunf_2026_10855.pdf",
+      "sha256": "53a84531da00c98a749d8d53dfdf7df14f5fbca594f6164f1e1045b586feb4d1",
+      "name": "Programming Paradigms",
+      "programme": "Information Engineering (linha IIE, em inglês); field 'Computers and Information Technology'",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Semestre 3 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026 (rótulo do documento 'University year 2025-2026', publicado na pasta do catálogo 2026)",
+      "language": "Inglês (documento e linha IIE do catálogo)",
+      "courseStatus": "Compulsory",
+      "assessment": "E (exame): escrito final 25%, exame prático final 35%, testes de seminário 5%, projeto de laboratório 35%; nota mínima 5 nos dois exames",
+      "prerequisites": "Object oriented programming, Algorithmics, Data structures; 'Basic notions and programming skills'",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IIE",
+      "location": "Syllabus 'University year 2025-2026': secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 6-7 (competências/objetivos), 8.1 (15 itens de curso, não numerados), 8.2 (14 sessões de laboratório), 10 (avaliação)",
+      "hours": {
+        "weekly": {
+          "total": 5,
+          "course": 2,
+          "seminarLab": 3
+        },
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 80,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (15 itens de curso) e 8.2 (14 sessões de laboratório) do programa MLE5172",
+      "note": "'Functional programming: lambda expressions, streams' e o laboratório 'memory management' não tratam recursão como técnica nem análise de complexidade."
+    },
+    {
+      "brTopic": "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (15 itens de curso) e 8.2 (14 sessões de laboratório) do programa MLE5172",
+      "note": "'Collections and Generic Types' apresenta a API de coleções; nenhum algoritmo de busca ou ordenação é nomeado."
+    },
+    {
+      "brTopic": "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Introduction to Java platform: ... primitive data types, arrays ...'; 'Collections in C#'",
+      "foreignLocation": "Secção 8.1, 1º e 11º itens; secção 8.2, 'Java basic project'",
+      "note": "Arrays Java e coleções aparecem como recursos de linguagem; matrizes não são citadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Collections e genéricos em Java e C#",
+      "location": "8.1, 2º e 11º itens"
+    },
+    {
+      "topic": "Lambdas e streams; concorrência com threads, executors e futures",
+      "location": "8.1, 4º, 6º-7º itens"
+    },
+    {
+      "topic": "GUI JavaFX/FXML e GUI em C#",
+      "location": "8.1, 5º, 8º e 13º itens"
+    },
+    {
+      "topic": "Interpretador de linguagem imperativa concorrente como projeto de laboratório",
+      "location": "10.6, regras do laboratório"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa de AP II é algorítmica (recursão, eficiência, busca, ordenação, vetores e matrizes).",
+    "foreign": [
+      "Usar Java, padrões de projeto e GUI (7.2)",
+      "Escolher entre paradigmas procedural, OO e funcional (6.2)"
+    ],
+    "convergences": [
+      "Programação em linguagem imperativa com arrays"
+    ],
+    "differences": [
+      "MLE5172 exige Algorithmics e Data structures (4.1): presume o conteúdo de AP II",
+      "Nenhuma unidade de complexidade, busca ou ordenação na UBB"
+    ]
+  },
+  "depth": {
+    "level": "UBB 2º ano, semestre 3 (linha IIE); Mackenzie 2ª etapa",
+    "brazil": "2 h-a teóricas + 2 práticas por semana",
+    "foreign": "2 h de curso + 3 h de seminário/laboratório por semana",
+    "theoryPractice": "UBB: 42 de 70 h em seminário/laboratório (60%)"
+  },
+  "practical": {
+    "period": "Oferta no 1º semestre do ano letivo europeu (outono), coincidente com 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês, programa Information Engineering (catálogo IIE)",
+    "enrolment": "90% de presença em laboratório e 70% em seminário (10.6); aceitação de intercambista na linha IIE não verificada",
+    "prerequisites": "Object oriented programming, Algorithmics, Data structures",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Programming paradigms (MLE5172) percorre Java, C#, Scala e Rust com foco em recursos de plataforma; recursão, complexidade, busca e ordenação, centrais em Algoritmos e Programação II, não aparecem, restando arrays Java como único ponto de contato.",
+  "justification": "Um tópico parcial em três (arrays no 1º item da secção 8.1) resulta em baixa afinidade derivada. A carga de 70 h de contato (28 + 42) supera as 63,33 h (razão 1,105), mas a disciplina lista Algorithmics e Data structures como pré-requisitos (4.1), ou seja, presume o que AP II ensina. O programa está rotulado 'University year 2025-2026' embora publicado na pasta do catálogo 2026 da linha IIE.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento individual com horas discriminadas; reduzem a confiança o rótulo de ano 2025-2026 e a duração não declarada da hora. A ausência dos tópicos algorítmicos é inequívoca.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Programa MLE5172 rotulado 'University year 2025-2026' apesar de publicado na pasta do catálogo 2026",
+    "Disciplina da linha Information Engineering (IIE), não da linha Computer Science",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Há versão 2026-2027 do programa MLE5172?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5005",
+      "name": "Programming fundamentals",
+      "relation": "Programa lido neste lote: recursão, notação assintótica, busca e ordenação com complexidade em Python (semestre 1, outono); cobre a maior parte de AP II"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Baixa sobreposição clara; nenhuma divergência de fonte afeta a classe"
+  }
+}

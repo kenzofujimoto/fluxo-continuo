@@ -1,0 +1,193 @@
+{
+  "id": "cc|ENEC54239|ro-babes|MLE5004",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54239",
+    "name": "Arquitetura e Organização de Computadores",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 3ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas + 0 práticas presenciais por semana."
+    },
+    "topics": [
+      "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "Arquitetura RISC x CISC",
+      "Introduz à linguagem de montagem em arquitetura RISC",
+      "Aborda de forma introdutória as arquiteturas paralelas centralizadas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5004",
+      "name": "Computer systems architecture",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Semestre 1 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (documento em inglês com título bilíngue; publicado no catálogo IE 2026; confirmar turma em 2027/28)",
+      "courseStatus": "Mandatory",
+      "assessment": "Exame escrito 60%, média dos trabalhos de laboratório 10%, média dos testes de laboratório 30%; mínimo 5 em cada atividade; presença 75% seminário e 90% laboratório",
+      "prerequisites": "Nenhum declarado (secção 4: '-')",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5004_en_mihai-suciu_2026_10771.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "1c900b50164101bc74d1ffd931b0bb416e26dd076286be5d78ee55b9e14488e2",
+      "location": "Syllabus 'University year 2025-2026': secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 6-7 (competências/objetivos), 8.1 (curso), 8.2 (seminário/laboratório), 10 (avaliação); 8.1 itens 1-14, 8.2 S1-S7 e L1-L14",
+      "hours": {
+        "weekly": {
+          "total": 5,
+          "course": 2,
+          "seminarLab": 3,
+          "note": "Documento: seminário/laboratório/projeto '1/2/0'"
+        },
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 80,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "documentNote": "Documento publicado no catálogo 2026 mas rotulado 'University year 2025-2026' e com código interno 'MLRE004' (catálogo: MLE5004)."
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivos: 'computer architectural models' e consciência dos princípios da arquitetura von Neumann; não há unidade de evolução ou classificação de arquiteturas",
+      "foreignLocation": "Secção 7.1 e 7.2 (objetivos gerais e específicos)",
+      "note": "Evidência apenas em objetivos, sem item de conteúdo correspondente em 8.1."
+    },
+    {
+      "brTopic": "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'80x86 microprocessor architecture – structure, registers, address calculation, addressing modes'; 'Executive unit (EU)'; 'BIU unit'",
+      "foreignLocation": "Secção 8.1 itens 3-5 e 9",
+      "note": "CPU e interface de barramento são tratadas no estudo de caso 8086; memória aparece via endereçamento e segmentação; dispositivos de E/S não aparecem como unidade."
+    },
+    {
+      "brTopic": "Arquitetura RISC x CISC",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7.1-7.2, 8.1 itens 1-14, 8.2 S1-S7 e L1-L14 e bibliografia; nenhuma comparação RISC/CISC"
+    },
+    {
+      "brTopic": "Introduz à linguagem de montagem em arquitetura RISC",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Assembly language elements', 'Assembly language instructions', jumps, subprogramas, NASM multimódulo; 14 laboratórios em assembly IA-32",
+      "foreignLocation": "Secção 8.1 itens 6-14; 8.2 S1-S6 e L1-L14",
+      "note": "Programação em linguagem de montagem é intensa, mas em arquitetura x86 (CISC), não RISC como exige a ementa."
+    },
+    {
+      "brTopic": "Aborda de forma introdutória as arquiteturas paralelas centralizadas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7, 8.1 itens 1-14, 8.2 e bibliografia; arquiteturas paralelas não são mencionadas"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Representação de dados: codificação de caracteres e inteiros, complemento, overflow",
+      "location": "8.1 itens 1-2; 8.2 L1"
+    },
+    {
+      "topic": "Little endian e representação de instruções de máquina",
+      "location": "8.1 itens 9 e 11"
+    },
+    {
+      "topic": "Ligação de módulos assembly com linguagens de alto nível (asm + C)",
+      "location": "8.1 item 14; 8.2 L12"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Conhecer modelos arquiteturais e o funcionamento do processador",
+      "Programar em assembly para compreender o microprocessador",
+      "Relacionar arquitetura, sistema operacional e linguagens de alto nível"
+    ],
+    "convergences": [
+      "Organização da CPU e registradores",
+      "Programação em linguagem de montagem"
+    ],
+    "differences": [
+      "UBB usa exclusivamente x86 (CISC); Mackenzie exige assembly RISC e comparação RISC x CISC",
+      "Arquiteturas paralelas e E/S presentes só no Mackenzie",
+      "UBB aprofunda representação de dados e integração asm-C"
+    ]
+  },
+  "depth": {
+    "level": "UBB 1º ano/semestre 1; Mackenzie 3ª etapa",
+    "brazil": "4 h-a teóricas semanais, visão panorâmica de arquitetura e organização",
+    "foreign": "2 h aula + 1 h seminário + 2 h laboratório; 42 das 70 h de contato são práticas em assembly",
+    "theoryPractice": "UBB muito mais prática (programação assembly) e centrada em um único processador; Mackenzie mais conceitual e comparativa"
+  },
+  "practical": {
+    "period": "Semestre 1 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês (documento em inglês com título bilíngue)",
+    "enrolment": "Disciplina de 1º ano; aceitação de intercambista e oferta em inglês não verificadas",
+    "prerequisites": "Nenhum pré-requisito declarado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5004 é um curso de programação assembly x86 com estudo do 8086 que toca CPU, registradores e barramento, mas não trata RISC, a comparação RISC x CISC nem arquiteturas paralelas exigidas por Arquitetura e Organização de Computadores.",
+  "justification": "Nenhum dos cinco tópicos essenciais está integralmente coberto: organização de CPU/barramento (itens 3-5), assembly (itens 6-14, L1-L14) e modelos arquiteturais (só em objetivos 7.1-7.2) são parciais; RISC x CISC e arquiteturas paralelas centralizadas não aparecem. A soma de cobertos e parciais atinge 60%, com cobertura integral nula. As 70 h de contato (28 aula + 42 seminário/laboratório) superam as 63,33 h brasileiras (razão 1,11; 0,92 com hora de 50 min), mas o excesso é prática em x86, não os temas ausentes.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual com conteúdos e horas explícitos; reduzem a confiança o rótulo 'University year 2025-2026' num arquivo do catálogo 2026, o código interno MLRE004 divergente e a dependência de evidência apenas em objetivos para o tópico 1.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Documento rotulado 2025-2026; versão 2026/2027 não localizada",
+    "Código interno impresso 'MLRE004' difere do código de catálogo MLE5004",
+    "Assembly x86 (CISC) usado como evidência parcial para um tópico que exige arquitetura RISC",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação considera assembly x86 aceitável no lugar de assembly RISC?",
+    "Existe disciplina UBB que cubra RISC/CISC e arquiteturas paralelas para complementar?",
+    "A UBB publicará a versão 2026/2027 do programa com o mesmo conteúdo?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5077",
+      "name": "Parallel and Distributed Programming",
+      "relation": "Trata arquiteturas paralelas (taxonomia de Flynn); complemento possível apenas para o tópico 5, não substitui AOC"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe parcial sustentada só por coberturas parciais (nenhum tópico integral), substituição de RISC por x86 a ser julgada e documento com ano 2025-2026"
+  }
+}

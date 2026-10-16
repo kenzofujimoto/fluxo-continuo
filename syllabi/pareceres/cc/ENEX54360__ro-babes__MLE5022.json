@@ -1,0 +1,147 @@
+{
+  "id": "cc|ENEX54360|ro-babes|MLE5022",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54360",
+    "name": "Estrutura de Dados I",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 3ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 4, bloco 'Comp. Curricular ESTRUTURA DE DADOS I', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Apresenta o conceito de Tipo Abstrato de Dados (TAD)",
+      "Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações",
+      "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5022",
+      "name": "Data Structures and Algorithms",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (in English)",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Semestre 2 = 2º semestre do ano letivo (primavera europeia, fev-jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (programa 'Computer Science (in English)')",
+      "courseStatus": "Compulsory / Core subject",
+      "assessment": "Exame escrito 60% + laboratório (implementação C++ e documentação) 40%; bônus de seminário até 0,5; mínimo 5 no exame",
+      "prerequisites": "Fundamentals of programming; habilidade média de programação",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem2_MLE5022_en_marianzsu_2026_10311.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "f613878e49984296c59ad0b8fe6f0ab6b7e3bb876df0eb47a51b352fcf0077bb",
+      "location": "Course description 2026-2027: secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 7 (resultados), 8.1 C1-C14, 8.2 laboratório Lab1-Lab7 e seminário S1-S7, 9 (avaliação)",
+      "hours": {
+        "weekly": {"total": 4, "course": 2, "seminarLab": 2},
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 69,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta o conceito de Tipo Abstrato de Dados (TAD)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "C1 'Abstract Data Types and Data Structures'; C3-C4 ADTs Set, Map, Matrix, MultiMap, Stack, Queue, PriorityQueue, Deque, List com domínio, interface e representações",
+      "foreignLocation": "Secção 8.1 C1, C3, C4; secção 7 (Knowledge 1)"
+    },
+    {
+      "brTopic": "Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "C2 vetor dinâmico; C4 pilha, fila, deque, lista; C5-C6 listas simples, duplas, ordenadas, circulares; C7 'Binary Heap ... HeapSort'; S5 avaliação de expressões",
+      "foreignLocation": "Secção 8.1 C2, C4-C7, C14; secção 8.2 seminário S5"
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "C1 'Complexities'; C2 'Amortized complexity analysis'; seminário S2 'Complexities'; laboratório avaliado inclui complexidades",
+      "foreignLocation": "Secção 8.1 C1-C2; secção 8.2 seminário S2; secção 9.5"
+    },
+    {
+      "brTopic": "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Laboratórios A1-A5 implementam um container (ADT) em C++ sobre vetor dinâmico, listas, tabela hash e ABB; critério 'C++ implementation of the concepts and algorithms'",
+      "foreignLocation": "Secção 8.2 Lab1-Lab7; secção 9.5",
+      "note": "O documento não usa o termo 'orientada a objetos', mas C++ com containers e iteradores atende ao enunciado; resolução de problemas também em S1-S7."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Tabelas de dispersão: endereçamento direto, encadeamento separado e coalescido, endereçamento aberto, hashing perfeito", "location": "8.1 C8-C10; 8.2 Lab5, S6"},
+    {"topic": "Árvores binárias, árvores binárias de busca e AVL", "location": "8.1 C11-C13; 8.2 Lab6, S7"},
+    {"topic": "Iteradores e ordenações bucket/lexicográfica/radix", "location": "8.1 C2, C5; 8.2 S3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": ["Identificar e justificar conceitos de estruturas de dados, TADs e algoritmos", "Projetar soluções de software com algoritmos eficientes e estruturas adequadas"],
+    "convergences": ["TAD separado da representação", "Estruturas lineares e heap com análise de complexidade", "Implementação prática obrigatória"],
+    "differences": ["UBB avança para hashing, ABB e AVL, conteúdos que no Mackenzie pertencem a Estrutura de Dados II", "Linguagem de laboratório explícita é C++; a ementa Mackenzie fala genericamente em linguagem orientada a objetos"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UBB no 1º ano (semestre 2), Mackenzie na 3ª etapa",
+    "brazil": "Componente obrigatório, metade teórico e metade prático, restrito a estruturas lineares e heap",
+    "foreign": "Disciplina core com 14 aulas, 7 laboratórios quinzenais e 7 seminários quinzenais; cobre linear, hash e árvores",
+    "theoryPractice": "UBB: 28 h aula + 28 h seminário/laboratório; Mackenzie: 2+2 h-a semanais"
+  },
+  "practical": {
+    "period": "Semestre 2 = primavera europeia (fev-jun), fora do período 2027.2; coincidiria com 2028.1 em intercâmbio anual",
+    "language": "Inglês na linha 'Computer Science (in English)'",
+    "enrolment": "Disciplina de 1º ano; aceitação de intercambista em disciplina de ano inicial não verificada",
+    "prerequisites": "Fundamentos de programação; compatível com um aluno da 3ª etapa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Os quatro enunciados de Estrutura de Dados I (TAD, estruturas lineares com heap/heapsort, eficiência assintótica e implementação prática) têm unidades explícitas em MLE5022, que ainda acrescenta hashing, ABB e AVL.",
+  "justification": "TAD aparece em C1, C3 e C4; vetores, listas, pilhas, filas, heap e heapsort em C2 e C4-C7; complexidade e análise amortizada em C1-C2 e no seminário S2; a implementação em C++ de containers é o eixo dos laboratórios A1-A5, que valem 40% da nota. São 4/4 tópicos cobertos. As 56 h de contato declaradas (28 + 28) correspondem a 0,884 das 63,33 h Mackenzie pelo valor nominal; se a hora romena fosse de 50 min (46,7 h), a razão cairia para 0,74, ligeiramente abaixo do parâmetro de 0,75. Esse cenário fica registrado como incerteza. A disciplina é de primavera, fora de 2027.2.",
+  "conclusionClass": "alta_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento estrangeiro de 2026-2027 completo, com horas discriminadas e unidades detalhadas; a confiança é reduzida pela duração não declarada da hora romena (o cenário de 50 min fica abaixo de 0,75) e pela oferta só na primavera.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Disciplina do semestre 2 (primavera): não cursável num intercâmbio restrito a 2027.2",
+    "Duração da hora de contato da UBB não declarada; no cenário de 50 min a razão de horas seria 0,74",
+    "Ementa brasileira concisa, sem conteúdo programático detalhado",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "O intercâmbio previsto inclui o semestre de primavera de 2028?",
+    "A coordenação aceitaria uma única disciplina estrangeira (MLE5022) para Estrutura de Dados I, dado que ela também cobre parte de Estrutura de Dados II?"
+  ],
+  "alternatives": [
+    {"code": "MLE5232", "name": "Data structures and basic algorithms", "relation": "Programa quase idêntico na linha Information Engineering (ver parecer cc|ENEX54360|ro-babes|MLE5232); também no semestre 2"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a item e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Razão de horas no cenário de 50 min (0,74) fica abaixo do parâmetro, e a mesma disciplina estrangeira é candidata também para Estrutura de Dados II"}
+}

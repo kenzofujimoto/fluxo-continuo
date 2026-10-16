@@ -1,0 +1,191 @@
+{
+  "id": "cc|ENEX60057|ro-babes|MLE5029",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60057",
+    "name": "Inteligência Artificial II",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 7ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "PDF p. 3 (numeração impressa 115), bloco 'Comp. Curricular INTELIGÊNCIA ARTIFICIAL II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5029",
+      "name": "Artificial Intelligence",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (linha IE, em inglês, segundo a URL do catálogo)",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 6,
+      "period": "Documento declara 'Year 2, Semester 6'; arquivo e catálogo indicam semestre 4. Semestre par = primavera europeia (fev-jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory / DS",
+      "assessment": "Exame escrito 40% + exame oral 50% + laboratório e projetos 10%; presença mínima de 90% no laboratório",
+      "prerequisites": "Data Structures and Algorithms Theory; programação média em linguagem de alto nível",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem4_MLE5029_en_mihoct_2026_10516.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "619320a3c4a8f4a6720a985b09d5fc04245e5ad57686b38c54399934a15c14e4",
+      "location": "Course description 2026-2027: secções 3.1-3.9 (horas), 7 (resultados), 8.1 itens 1-14, 8.2 labs 1-13, 9",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Valores lidos nas linhas 3.4-3.6 do documento; não capturados pelo extrator automático."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Item 13 'Knowledge representation and reasoning in rule-based systems' e itens 2-5 e 12 sobre aprendizado de máquina e redes neurais",
+      "foreignLocation": "Secção 8.1 itens 2-5, 12 e 13",
+      "note": "Prefixo do enunciado é cabeçalho de página capturado pela extração do ementário."
+    },
+    {
+      "brTopic": "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Item 1 'Data Preprocessing'; item 2 'Machine learning and decision trees'; lab 1 SciPy/Matplotlib e pré-processamento",
+      "foreignLocation": "Secção 8.1 itens 1-2; secção 8.2 lab 1",
+      "note": "Aprendizado de máquina presente; a relação com ciência de dados só aparece indiretamente pelo pré-processamento de dados."
+    },
+    {
+      "brTopic": "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Árvore de decisão (item 2, lab 3 'Validate the results'); K-means (item 12); deep learning com CNN/RNN/Transformers (itens 3-5, labs 4-8); classificação (lab 6); ecossistema SciPy/PyTorch",
+      "foreignLocation": "Secção 8.1 itens 2-5 e 12; secção 8.2 labs 1, 3-8; secção 7 (Skills 2 e 5)",
+      "note": "Redução de dimensionalidade, regras de associação, regressão logística e detecção de anomalias não aparecem."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Busca não informada, informada, local e adversarial",
+      "location": "8.1 itens 6-8 e 11; 8.2 lab 9"
+    },
+    {
+      "topic": "Computação evolutiva e inteligência de enxame",
+      "location": "8.1 itens 8-10; 8.2 labs 10-11"
+    },
+    {
+      "topic": "Sistemas baseados em regras sob incerteza",
+      "location": "8.1 item 14; 8.2 lab 12"
+    },
+    {
+      "topic": "SVM",
+      "location": "8.1 item 12"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Construir, treinar, avaliar e interpretar modelos de aprendizado de máquina e redes neurais",
+      "Avaliar modelos com métricas e procedimentos de validação"
+    ],
+    "convergences": [
+      "Árvores de decisão, agrupamento e deep learning",
+      "Treinamento e validação de modelos com ferramentas Python"
+    ],
+    "differences": [
+      "Cerca de metade do programa UBB (busca, evolução, enxame, regras) corresponde ao escopo de IA I, não de IA II",
+      "Redução de dimensionalidade, associação, regressão logística e detecção de anomalias ausentes",
+      "UBB tem orientação de introdução geral; IA II é aprofundamento em aprendizagem de máquina"
+    ]
+  },
+  "depth": {
+    "level": "UBB no 2º ano (introdutória); Mackenzie na 7ª etapa (segunda disciplina de IA)",
+    "brazil": "Aprofundamento em aprendizagem de máquina, 2 h-a teóricas + 2 práticas semanais",
+    "foreign": "Seis das catorze aulas (itens 1-5 e 12) e seis laboratórios (3-8) tratam de aprendizado de máquina",
+    "theoryPractice": "UBB: 28 h aula + 28 h laboratório"
+  },
+  "practical": {
+    "period": "Semestre par (primavera europeia, fev-jun), fora do período 2027.2",
+    "language": "Inglês na linha IE",
+    "enrolment": "Disciplina obrigatória do 2º ano; aceitação de intercambista não verificada",
+    "prerequisites": "Estruturas de dados e algoritmos",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Para Inteligência Artificial II, MLE5029 oferece árvores de decisão, K-means, SVM e redes neurais profundas com laboratórios em PyTorch. Faltam redução de dimensionalidade, associação, regressão logística e detecção de anomalias, e metade do curso trata de busca e computação evolutiva.",
+  "justification": "O enunciado sobre representação de conhecimento e paradigma de aprendizagem está coberto (itens 13 e 2-5). Aprendizagem de máquina e ciência de dados é parcial: há ML e pré-processamento (itens 1-2, lab 1), sem tratamento explícito de ciência de dados. O enunciado longo do ecossistema de ML também é parcial: árvore de decisão, agrupamento, deep learning e validação aparecem, mas quatro técnicas listadas não. A cobertura integral é 1/3 (33%) e a soma com parciais 100%, o que leva à afinidade parcial pela regra. Em carga, 56 h de contato contra 63,33 h (razão 0,884; 0,74 com hora de 50 min). Como MLE5029 se alinha mais a IA I, usá-la para IA II exige decisão da coordenação.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento 2026-2027 detalhado com horas explícitas no texto; reduzem a confiança a contradição de semestre (6 no texto, 4 no arquivo) e a sobreposição com o escopo de IA I.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Documento declara 'Semester 6' para o 2º ano, incoerente com o arquivo 'IE_sem4'",
+    "Disciplina de semestre par (primavera): não cursável num intercâmbio restrito a 2027.2",
+    "Horas de contato copiadas manualmente das linhas 3.4-3.6 (programas.json com contact null)",
+    "Primeiro enunciado da ementa brasileira contém cabeçalho de página por artefato de extração",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria uma introdução geral à IA como equivalente parcial de IA II, cuja ementa é de aprendizagem de máquina?",
+    "MLE5029 deve ser reservada para IA I (ver parecer cc|ENEX60052|ro-babes|MLE5029)?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5247",
+      "name": "Understanding and Developing Large Language Models",
+      "relation": "Optativa de LLMs no outono; cobre apenas deep learning do escopo de IA II (ver parecer cc|ENEX60057|ro-babes|MLE5247)"
+    },
+    {
+      "code": "MLR5063",
+      "name": "Development methods for intelligent systems",
+      "relation": "Possível complemento em sistemas inteligentes; semestre e programa não verificados"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a item e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Mesma disciplina estrangeira também avaliada para IA I, onde a aderência é maior; semestre contraditório no documento"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

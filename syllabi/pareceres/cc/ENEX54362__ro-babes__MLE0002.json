@@ -1,0 +1,170 @@
+{
+  "id": "cc|ENEX54362|ro-babes|MLE0002",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54362",
+    "name": "Cálculo para Ciência da Computação",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 3ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 3, bloco 'Comp. Curricular CÁLCULO PARA CIÊNCIA DA COMPUTAÇÃO', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas + 0 práticas presenciais por semana."
+    },
+    "topics": [
+      "Demonstra a resolução de problemas que utilizam função real de uma variável",
+      "Estudo de gráficos: crescimento, concavidade, assíntotas, máximos e mínimos; problemas de otimização, limites e derivadas",
+      "Apresenta o conceito de primitiva e introduz a noção de integral definida aplicando os conceitos vistos à Ciência da Computação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE0002",
+      "name": "Mathematical Analysis",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Mathematics",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": null,
+      "semester": 1,
+      "period": "Semestre 1 (pelo nome do arquivo no catálogo 'IE_sem1'; campos 2.4/2.5 vazios no documento) = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento em inglês, publicado no catálogo da linha IE 'Computer Science in English'; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory / Complementary subject",
+      "assessment": "Exame 50%, prova intermediária 30%, atividade de seminário 10%, trabalhos de casa 10%; presença mínima de 75% nos seminários; nota final mínima 5",
+      "prerequisites": "Cálculo do ensino médio; saber calcular limites (sequências e funções), derivadas e primitivas",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE0002_en_mihai.nechita_2026_10793.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "7526559c7386c76f70bdb5f16a0c7c2432ed58db9e7f7123ef7c52045d18659a",
+      "location": "Course description 2026/2027: secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 7 (resultados), 8.1 (curso), 8.2 (seminário/laboratório), 9 (avaliação); 8.1 itens 1-14 e 8.2 itens 1-14",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "documentNote": "Ano de estudo e semestre (2.4/2.5) em branco no documento; programas.json registra ano 2/semestre 2, valor não sustentado pelo texto em cache."
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Demonstra a resolução de problemas que utilizam função real de uma variável",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Functions of one variable: limits, continuity, differentiability'; 'Higher order derivatives. Taylor series'; 'Riemann integrals'",
+      "foreignLocation": "Secção 8.1 itens 5-7; 8.2 itens 5-7 (resolução de problemas)"
+    },
+    {
+      "brTopic": "Estudo de gráficos: crescimento, concavidade, assíntotas, máximos e mínimos; problemas de otimização, limites e derivadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Limites e derivadas (item 5), derivadas de ordem superior (item 6), extremos locais e otimização com restrições (itens 11-12, em várias variáveis)",
+      "foreignLocation": "Secção 8.1 itens 5, 6, 11 e 12; secção 7, competência específica 2",
+      "note": "Estudo de gráficos — crescimento, concavidade e assíntotas — não é nomeado; extremos e otimização aparecem no contexto multivariável."
+    },
+    {
+      "brTopic": "Apresenta o conceito de primitiva e introduz a noção de integral definida aplicando os conceitos vistos à Ciência da Computação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Riemann integrals. Improper integrals'; aplicação a 'optimization, statistics, machine learning, and data science'; gradient descent",
+      "foreignLocation": "Secção 8.1 itens 7 e 10; secção 7, competências específicas 1 e 4",
+      "note": "Primitivas constam como pré-requisito (4.2) e o cálculo de integrais como competência; a aplicação à computação aparece como gradient descent e aprendizado de máquina."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Números reais, sequências e séries (inclusive séries de potências)",
+      "location": "8.1 itens 1-4"
+    },
+    {
+      "topic": "Espaço euclidiano, funções de várias variáveis, derivadas parciais, Hessiana",
+      "location": "8.1 itens 8-11"
+    },
+    {
+      "topic": "Multiplicadores de Lagrange; integrais duplas e triplas com mudança de variáveis",
+      "location": "8.1 itens 12-14"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Calcular limites, derivadas e integrais e analisar convergência",
+      "Encontrar extremos de funções de várias variáveis e resolver otimização com restrições",
+      "Usar análise matemática em otimização, estatística e aprendizado de máquina"
+    ],
+    "convergences": [
+      "Limites, derivadas e integral definida de funções reais de uma variável",
+      "Orientação para aplicações em computação"
+    ],
+    "differences": [
+      "UBB cobre séries e cálculo multivariável (metade das aulas), ausentes da ementa brasileira",
+      "Mackenzie enfatiza estudo de gráficos (concavidade, assíntotas) não nomeado na UBB",
+      "UBB tem abordagem com demonstrações ('Exposition, proofs, examples')"
+    ]
+  },
+  "depth": {
+    "level": "UBB 1º ano (catálogo 'sem1'); Mackenzie 3ª etapa",
+    "brazil": "4 h-a teóricas semanais, cálculo de uma variável aplicado",
+    "foreign": "2 h aula + 2 h seminário; ritmo de 14 tópicos que vai de números reais a integrais triplas",
+    "theoryPractice": "UBB mais extensa e formal; o cálculo de uma variável ocupa cerca de metade do semestre"
+  },
+  "practical": {
+    "period": "Semestre 1 da UBB pelo nome do arquivo (outono), compatível com 2027.2 se mantido; campos de semestre vazios no documento",
+    "language": "Inglês na linha IE",
+    "enrolment": "Disciplina complementar obrigatória; aceitação de intercambista não verificada",
+    "prerequisites": "Cálculo do ensino médio (limites, derivadas, primitivas); compatível com aluno da 3ª etapa ou posterior",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE0002 cobre o cálculo de uma variável exigido em Cálculo para Ciência da Computação — limites, derivadas, integral de Riemann e aplicações — dentro de um programa mais amplo com séries e cálculo multivariável, mas não nomeia o estudo de gráficos com concavidade e assíntotas.",
+  "justification": "Funções reais de uma variável (itens 5-7) e primitiva/integral definida com aplicação computacional (itens 7 e 10; competências 1 e 4) estão cobertas; o tópico de gráficos e otimização é parcial porque crescimento, concavidade e assíntotas não aparecem e a otimização (itens 11-12) é multivariável. Cobertura integral de 2 em 3 (67%), abaixo do limiar de 75%. As 56 h de contato contra 63,33 h dão razão 0,88 (0,74 se a hora for de 50 min). Metade do programa UBB é conteúdo adicional, o que reduz o tempo efetivo dedicado ao cálculo de uma variável.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026/2027 assinado e com horas explícitas; a classificação é limítrofe (um único tópico parcial separa a classe alta) e o documento deixa em branco ano e semestre de estudo.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Campos 2.4/2.5 (ano e semestre) vazios; semestre inferido do nome do arquivo 'IE_sem1'; programas.json registra ano 2/semestre 2 sem respaldo no texto",
+    "No cenário de hora de 50 min a razão de carga cai para 0,74",
+    "Metade do programa UBB trata séries e cálculo multivariável, reduzindo o tempo efetivo de cálculo de uma variável",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita os itens 5-6 (derivadas e derivadas de ordem superior) como cobertura do estudo de gráficos com concavidade e assíntotas?",
+    "A UBB confirma em que semestre MLE0002 é ofertada em 2027/28, já que o documento omite o campo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Decisão limítrofe: se o estudo de gráficos for aceito como coberto, a classe passaria a alta afinidade; semestre de oferta não declarado no documento"
+  }
+}

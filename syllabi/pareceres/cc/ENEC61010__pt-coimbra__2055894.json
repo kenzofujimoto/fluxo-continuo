@@ -1,0 +1,181 @@
+{
+  "id": "cc|ENEC61010|pt-coimbra|2055894",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61010",
+    "name": "Desenvolvimento de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 2, bloco 'DESENVOLVIMENTO DE SOFTWARE', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas + 0 práticas por semana."
+    },
+    "topics": [
+      "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "2055894",
+      "name": "Automação no Desenvolvimento de Software",
+      "pageCode": "02055894",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Plano indicado na página: Engenharia de Software (2º Ciclo - Mestrado); área científica Engenharia de Software",
+      "level": "2º Ciclo - Mestrado",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; semestre não indicado na página (data.json: 'Outono a confirmar')",
+      "academicYear": "2026/2027",
+      "language": "Português (língua de ensino); inglês como outra língua de ensino",
+      "courseStatus": "Opcional",
+      "assessment": "Projeto 50%, exame 50%",
+      "prerequisites": "Conhecimentos de Base Recomendados: programação, engenharia de software",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino (TP e PL), Resultados de Aprendizagem, Programa (itens 1-8), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/97174/25123/2026-2027?id=5041&type=ram",
+      "sha256": "9ed13f03b2000ded1f0ff68656747b533ff4b0bcc2f22977a74303e16d269059",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Página com tipologia TP e PL, mas sem horas de contacto; apenas 6,0 ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'metodologias e técnicas para melhorar o desenvolvimento de software através de automação'; item 1 'Fundamentos de automação'",
+      "foreignLocation": "Resultados de Aprendizagem; Programa, item 1",
+      "note": "O cabeçalho institucional e o número de página '96' foram capturados na extração do PDF e reproduzem-se aqui por exigência do esquema; o tópico efetivo é 'Fundamentos dos conceitos e métodos de desenvolvimento de software'. Coimbra pressupõe esses fundamentos (recomenda Engenharia de Software) e trata apenas métodos de automação."
+    },
+    {
+      "brTopic": "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa itens 1-8, Resultados de Aprendizagem, Métodos de Ensino e Bibliografia (cinco livros sobre CI/CD, Git e entrega contínua)"
+    },
+    {
+      "brTopic": "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa itens 1-8, Resultados de Aprendizagem e Bibliografia; nenhuma menção a UML ou diagramas"
+    },
+    {
+      "brTopic": "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa itens 1-8 (incluindo 'Documentação contínua') e Resultados de Aprendizagem",
+      "note": "Programação assistida por LLM (item 1) não equivale a mapeamento de modelos UML em código."
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Métodos de Ensino e Programa",
+      "note": "Componente de extensão curricular brasileira, sem correspondência esperada em programa estrangeiro; não entra no cálculo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Desenvolvimento e teste contínuos com LLMs, incluindo testes funcionais e não funcionais",
+      "location": "Resultados de Aprendizagem; Programa, item 2"
+    },
+    {
+      "topic": "Integração, entrega e disponibilização contínuas (CI/CD)",
+      "location": "Programa, itens 3-5"
+    },
+    {
+      "topic": "Monitorização contínua e documentação contínua",
+      "location": "Programa, itens 6-7"
+    },
+    {
+      "topic": "IA para engenharia de software: engenharia baseada em pesquisa, recomendação, sistemas auto-adaptativos",
+      "location": "Programa, item 8"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário lista conteúdos de análise e projeto OO com UML; não declara competências.",
+    "foreign": [
+      "Automatizar desenvolvimento, teste, integração, entrega e monitorização de software",
+      "Aplicar IA à engenharia de software"
+    ],
+    "convergences": [
+      "Ambas tratam métodos de desenvolvimento de software em sentido amplo"
+    ],
+    "differences": [
+      "Mackenzie centra-se em modelagem OO e UML; Coimbra em DevOps/CI-CD e IA, sem modelagem"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra: 2º Ciclo (mestrado), 1º ano; Mackenzie: graduação, 4ª etapa. A UC estrangeira pressupõe engenharia de software já cursada.",
+    "brazil": "Componente obrigatório de 63,33 h, 4 h-a teóricas semanais",
+    "foreign": "Optativa de 6 ECTS com TP e projeto prático de software (caso de estudo)",
+    "theoryPractice": "Coimbra é orientada a projeto prático; Mackenzie declara carga integralmente teórica"
+  },
+  "practical": {
+    "period": "Semestral; semestre não declarado na página",
+    "language": "Português, com inglês como alternativa",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; como UC de mestrado em Engenharia de Software, depende dessa aprovação.",
+    "prerequisites": "Programação e engenharia de software recomendadas",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Automação no Desenvolvimento de Software trata CI/CD, testes contínuos, monitorização e IA para engenharia de software; a modelagem orientada a objetos e a UML, que formam três dos quatro tópicos essenciais de Desenvolvimento de Software, não aparecem na página.",
+  "justification": "Entre os quatro tópicos essenciais (Práticas de extensão excluída), só os fundamentos de métodos de desenvolvimento têm correspondência parcial; análise/projeto OO, diagramas estruturais e comportamentais e mapeamento UML-código não são encontrados em nenhum dos oito itens do programa nem na bibliografia. A razão coberto+parcial é 1/4, abaixo do limiar de 50%. A carga não é comparável: 63,33 h Mackenzie contra 6 ECTS sem horas de contacto.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Programa itemizado e bibliografia confirmam a ausência de modelagem OO/UML; a falta de horas não alteraria a conclusão.",
+  "limitations": [
+    "Oferta em 2027/28 e semestre não confirmados",
+    "Horas de contacto não declaradas",
+    "UC de 2º ciclo: inscrição condicionada",
+    "Tópico 1 brasileiro contém ruído de extração do PDF (cabeçalho e número de página)",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Coimbra oferece em licenciatura uma UC de análise e projeto orientado a objetos com UML?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência de UML/OO verificável no programa itemizado"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

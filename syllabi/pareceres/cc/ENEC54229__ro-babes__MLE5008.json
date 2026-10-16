@@ -1,0 +1,180 @@
+{
+  "id": "cc|ENEC54229|ro-babes|MLE5008",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54229",
+    "name": "Algoritmos e Programação II",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 2ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5008",
+      "name": "Advanced Programming Methods",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Semestre 3 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (documento em inglês; publicado no catálogo IE 2026; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory",
+      "assessment": "Exame escrito final 25%, exame prático final 35%, testes de seminário 5%, projeto de laboratório 35%; mínimo 5 nos exames; presença mínima de 90% nos laboratórios e 70% nos seminários",
+      "prerequisites": "Object oriented programming, Algorithmics, Data structures",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE5008_en_craciunf_2026_10815.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "4afe1515851d41be11ee3f5e646bcef370b7236bec1ff541c9848dd0f754c019",
+      "location": "Syllabus 'University year 2025-2026': secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 6-7 (competências/objetivos), 8.1 (curso), 8.2 (seminário/laboratório), 10 (avaliação); 8.1 (16 unidades sem numeração), 8.2 (15 sessões de projeto Java)",
+      "hours": {
+        "weekly": {
+          "total": 6,
+          "course": 2,
+          "seminarLab": 4,
+          "note": "Documento: '2 sem. + 2 lab'"
+        },
+        "contactTotal": 84,
+        "contactLecture": 28,
+        "contactSeminarLab": 56,
+        "selfStudy": 66,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "documentNote": "Documento rotulado 'University year 2025-2026'. Horas de contato explícitas na secção 3.4 (84 = 28 curso + 28 seminário + 28 laboratório); a extração automática de programas.json não as capturou (contact null) por causa da grafia '28 sem + 28 lab'."
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (16 unidades), 8.2 (15 sessões de projeto) e 10; não há unidade de recursão como técnica de projeto nem de complexidade de algoritmos",
+      "note": "O curso trata recursos da linguagem Java/C#/Scala/Rust, não desenvolvimento e análise de algoritmos."
+    },
+    {
+      "brTopic": "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7, 8.1 e 8.2 integralmente; 'Collections and Generic Types' trata estruturas de biblioteca, não algoritmos de busca e ordenação"
+    },
+    {
+      "brTopic": "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Introduction to Java platform: ... primitive data types, arrays, classes'; 'Collections and Generic Types'",
+      "foreignLocation": "Secção 8.1, primeira e segunda unidades; 8.2 'Java project: Collections, Generics'",
+      "note": "Vetores aparecem como arrays de Java; matrizes não são nomeadas; Java é orientada a objetos, não estritamente imperativa."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "IO/NIO, programação funcional (lambdas, streams), GUI JavaFX",
+      "location": "8.1 unidades 3-5 e 'GUI (cont.)'"
+    },
+    {
+      "topic": "Concorrência: threads, executors, futures, métodos assíncronos",
+      "location": "8.1 unidades de concorrência; 8.2 sessões de concorrência"
+    },
+    {
+      "topic": "Metaprogramação, C#/.NET, Scala e Rust",
+      "location": "8.1 unidades finais"
+    },
+    {
+      "topic": "Projeto de laboratório: interpretador de linguagem concorrente de brinquedo em Java",
+      "location": "Secção 10.6 (regras de laboratório)"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Usar Java, padrões de projeto e GUI",
+      "Aplicar conceitos OO em análise e projeto",
+      "Escolher paradigma (procedural, OO, funcional) adequado à aplicação"
+    ],
+    "convergences": [
+      "Programação prática intensiva em linguagem de alto nível"
+    ],
+    "differences": [
+      "Mackenzie centra-se em algoritmos (recursão, complexidade, busca e ordenação); UBB em recursos avançados de linguagens",
+      "UBB pressupõe Algorithmics e Data structures como pré-requisitos, ou seja, posiciona-se depois do conteúdo de Algoritmos e Programação II"
+    ]
+  },
+  "depth": {
+    "level": "UBB 2º ano/semestre 3; Mackenzie 2ª etapa",
+    "brazil": "2 h-a teóricas + 2 práticas semanais, segundo curso de algoritmos",
+    "foreign": "2 h aula + 2 h seminário + 2 h laboratório; curso avançado de linguagens com projeto contínuo",
+    "theoryPractice": "UBB com 2/3 do contato prático; objetos de estudo distintos"
+  },
+  "practical": {
+    "period": "Semestre 3 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês (documento em inglês)",
+    "enrolment": "Pré-requisitos declarados (Object oriented programming, Algorithmics, Data structures) exigem comprovação",
+    "prerequisites": "POO, algoritmos e estruturas de dados — superiores ao nível da 2ª etapa Mackenzie",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5008 é um curso avançado de recursos de linguagens (Java, C#, Scala, Rust) e não trata recursão, complexidade, busca ou ordenação; apenas arrays aparecem, o que deixa Algoritmos e Programação II quase sem correspondência.",
+  "justification": "Dos três tópicos essenciais, dois não aparecem em nenhuma das 16 unidades de 8.1 nem nas 15 sessões de 8.2 (técnicas iterativas/recursivas com complexidade; busca e ordenação) e o terceiro é parcial (arrays na introdução à plataforma Java, sem matrizes). Cobertura somada de 33%, abaixo do limiar de 50%. As horas não compensam: 84 h de contato (28 + 28 + 28) contra 63,33 h dão razão 1,33, mas dedicadas a outro objeto. A própria UBB exige 'Algorithmics' e 'Data structures' como pré-requisito de MLE5008.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdo explícito e suficiente para concluir pela baixa afinidade; o documento é rotulado 2025-2026 e as horas de contato tiveram de ser lidas do texto porque a extração automática falhou.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Documento rotulado 'University year 2025-2026' publicado no catálogo 2026",
+    "programas.json não registra horas de contato de MLE5008 (falha de extração); valor 84 lido da secção 3.4 do documento",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Programming fundamentals (MLE5005), que trata recursão, complexidade, busca e ordenação, seria aceita como alternativa para Algoritmos e Programação II?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5005",
+      "name": "Programming fundamentals",
+      "relation": "Programa 2026/27 verificado: 'Recursion. Algorithm complexity' e 'Searching. Sorting' — candidata mais aderente; exige parecer próprio para este componente"
+    },
+    {
+      "code": "MLE5022",
+      "name": "Data structures and algorithms",
+      "relation": "Possível alternativa; documento não verificado neste parecer"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência de dois tópicos essenciais é inequívoca no documento"
+  }
+}

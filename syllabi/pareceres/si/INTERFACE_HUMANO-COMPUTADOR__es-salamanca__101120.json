@@ -1,0 +1,159 @@
+{
+  "id": "si|INTERFACE HUMANO-COMPUTADOR|es-salamanca|101120",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "INTERFACE HUMANO-COMPUTADOR",
+    "name": "Interface Humano-Computador",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Ementário SI Alphaville 2025, PDF p. 26, bloco 'INTERFACE HUMANO-COMPUTADOR', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário declara 31,67 h-relógio; distribuição semanal não extraída."
+    },
+    "topics": [
+      "Estudo dos fatores humanos em sistemas interativos",
+      "Estudos da relação entre comunicação, interface e interação",
+      "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "Avaliação de usabilidade de sistemas interativos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101120",
+      "name": "Interfaces Gráficas de Usuario",
+      "faculty": "Facultad de Ciencias",
+      "department": "Informática y Automática",
+      "programme": "Grado en Ingeniería Informática",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 3,
+      "semester": "Primer Semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Obligatoria (campo 'Carácter')",
+      "assessment": "Entregas parciais da prática 30%, entrega final com demonstração de competências 70%; mínimo de 40% no exame final",
+      "prerequisites": "Recomenda-se ter superado Programación III (POO) e cursado Ingeniería del Software I",
+      "source": "https://guias.usal.es/node/255584",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "0c4ec3505e87d5120dd8987b6f912e8811c5dca8eb2a1637d04908ce76b043c6",
+      "location": "Guía 2026/2027: secções 1 (dados), 2 (recomendações), 3 (objetivos), 4 (competências), 5 (contenidos teoría), 6-7 (metodologias), 9 (avaliação)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece apenas com o título e a data no texto obtido; a tabela de horas não foi capturada. Só 6 ECTS explícitos; ECTS não convertidos em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fatores humanos em sistemas interativos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Somente como objetivo: compreender capacidades e limitações humanas para a interação; ausente dos oito itens de conteúdo",
+      "foreignLocation": "Secção 3, objetivo 1"
+    },
+    {
+      "brTopic": "Estudos da relação entre comunicação, interface e interação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, competências (CB, CE, CT), Contenidos e Evaluación da guia 2026/2027",
+      "note": "Nenhuma unidade sobre modelos de comunicação usuário-sistema, metáforas de interface ou estilos de interação."
+    },
+    {
+      "brTopic": "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conteúdo de implementação de GUI (janelas, menus, eventos, controles avançados); projeto centrado no usuário apenas citado no objetivo 4",
+      "foreignLocation": "Secção 5 Teoría; secção 3, objetivo 4"
+    },
+    {
+      "brTopic": "Avaliação de usabilidade de sistemas interativos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4, 5 e 9; avaliação composta por entregas de código (30% + 70%)",
+      "note": "CE17/CETI3 são competências genéricas do título; não há método de avaliação de usabilidade ensinado ou avaliado."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Programação orientada a eventos sobre API de GUI e sua relação com POO",
+      "location": "Secção 5, itens 2 e 5"
+    },
+    {
+      "topic": "Gráficos 2D e animações em interfaces",
+      "location": "Secção 5, itens 7-8"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Implementar interfaces gráficas com um framework e linguagem OO",
+      "CETI3 metodologias centradas no usuário (competência do título)"
+    ],
+    "convergences": [
+      "Construção de sistemas interativos"
+    ],
+    "differences": [
+      "IHC de SI é conceitual (fatores humanos, comunicação, avaliação); 101120 é técnica e mede apenas programação",
+      "101120 pressupõe Programación III, base de POO mais pesada do que a exigida pela 5ª etapa de SI"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca obrigatória de 3º curso de engenharia; Mackenzie obrigatória da 5ª etapa de SI",
+    "brazil": "31,67 h dedicadas aos fundamentos de IHC",
+    "foreign": "Prática incremental de programação de GUI; exame mínimo de 40%",
+    "theoryPractice": "Não comparável; horas da guia não capturadas"
+  },
+  "practical": {
+    "period": "Primer Semestre (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre — não verificado",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional da universidade no projeto)",
+    "enrolment": "Obrigatória do grau de engenharia; aceitação de intercambista não verificada",
+    "prerequisites": "Recomenda Programación III e Ingeniería del Software I; aluno de SI precisa comprovar POO sólida",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Para o IHC do curso de SI, Interfaces Gráficas de Usuario funciona como disciplina de programação de GUI: implementação e menção a fatores humanos nos objetivos existem, mas comunicação/interação e avaliação de usabilidade, metade da ementa, não aparecem.",
+  "justification": "Dois tópicos parciais (fatores humanos só como objetivo; projeto e implementação com ênfase exclusiva na codificação) e dois não encontrados (comunicação-interface-interação; avaliação de usabilidade). Sem tópico coberto, o limiar de 50% é alcançado apenas formalmente. A guia não apresenta horas presenciais, o que impede confrontar as 31,67 h da 5ª etapa de SI. Para estudante de SI, o pré-requisito de Programación III agrava o desencaixe.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Classe derivada seria afinidade parcial (2 de 4 parciais), mas nenhum tópico é coberto e os dois parciais se apoiam em objetivos e em codificação de GUI; os eixos conceituais e avaliativos da ementa SI estão ausentes do conteúdo e da avaliação.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdo e avaliação da guia são claros; a falta da tabela de horas e de identificação do framework limita a análise.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Carga horária não comparável (secção 7 sem tabela no texto obtido)",
+    "Divergência entre data.json ('Optativa') e a guia ('OBLIGATORIA')",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "Há em Salamanca disciplina de Interacción Persona-Ordenador/Usabilidad aberta a intercambistas de SI?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía/programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a secção/item do documento estrangeiro; campos data.json não usados como evidência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe rebaixada em relação à derivada pela regra"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "id": "si|GOVERNANÇA E COMPLIANCE EM TI|pt-coimbra|2056078",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "GOVERNANÇA E COMPLIANCE EM TI",
+    "name": "Governança e Compliance em TI",
+    "courseName": "Sistemas de Informação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 36, bloco 'GOVERNANÇA E COMPLIANCE EM TI', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 31,67 h-relógio no semestre."
+    },
+    "topics": [
+      "Estratégia Organizacional e de TI",
+      "Governança corporativa",
+      "Governança de TI: fundamentos, estrutura, modelos e ferramentas",
+      "Frameworks BSC, COBIT, ITIL",
+      "Portfólio de TI",
+      "Gestão de desempenho de operações e de níveis de serviço de TI",
+      "Legislações específicas",
+      "Estudos de casos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "2056078",
+      "name": "Governança de Sistemas e Dados",
+      "pageCode": "02056078",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Plano indicado na página: Sistemas de Informação (2º Ciclo - Mestrado); área científica Sistemas de Informação",
+      "level": "2º Ciclo - Mestrado",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; semestre não indicado na página (data.json: 'Outono a confirmar')",
+      "academicYear": "2026/2027",
+      "language": "Inglês (língua de ensino); português como outra língua de ensino",
+      "courseStatus": "Opcional",
+      "assessment": "Trabalho de investigação 10%, projeto 30%, exame 60%",
+      "prerequisites": "Conhecimentos de Base Recomendados: conhecimentos base de Sistemas de Informação",
+      "location": "Página da UC 2026-2027: campos de identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (itens 1-6), Métodos de Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/97192/25141/2026-2027",
+      "sha256": "59091dcc660a98937db3dd5bf099a9f8ef42f787e9dd7d1e8d5315ea26934b91",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara apenas 6,0 ECTS e duração semestral; não há horas de contacto nem tipologia horária."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estratégia Organizacional e de TI",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Alinhamento estratégico; geração de valor' e item 6 'Planeamento de Cenários e Previsão Tecnológica'",
+      "foreignLocation": "Programa, itens 2 e 6",
+      "note": "O alinhamento negócio-TI é tratado como pilar da governança; a formulação da estratégia organizacional em si não tem unidade própria."
+    },
+    {
+      "brTopic": "Governança corporativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa itens 1-6, Resultados de Aprendizagem, Métodos de Ensino e Bibliografia",
+      "note": "O programa parte diretamente da governança de TI; governança corporativa (conselhos, acionistas, códigos) não é mencionada."
+    },
+    {
+      "brTopic": "Governança de TI: fundamentos, estrutura, modelos e ferramentas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Conceitos de Governança de Tecnologias de Informação (TI). Alinhamento estratégico; geração de valor; gestão de riscos; gestão de recursos; medição de desempenho; COBIT 2019'",
+      "foreignLocation": "Programa, item 2"
+    },
+    {
+      "brTopic": "Frameworks BSC, COBIT, ITIL",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "COBIT 2019 (item 2) e ITIL 4 (item 4); projeto laboratorial 'de transformação digital com COBIT e/ou ITIL'",
+      "foreignLocation": "Programa, itens 2 e 4; Métodos de Ensino (práticas laboratoriais)",
+      "note": "Balanced Scorecard não aparece em nenhuma secção da página."
+    },
+    {
+      "brTopic": "Portfólio de TI",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'geração de valor; gestão de riscos; gestão de recursos' dentro dos conceitos de governança de TI",
+      "foreignLocation": "Programa, item 2",
+      "note": "O termo 'portfólio' não consta da página; a classificação parcial assume que a gestão de valor e recursos inclui decisões de investimento em TI, o que precisa de confirmação com o docente."
+    },
+    {
+      "brTopic": "Gestão de desempenho de operações e de níveis de serviço de TI",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Gestão das Operações em Sistemas de Informação' e 'Gestão de Serviços... operação de serviços; melhoria de serviços; ITIL 4'; medição de desempenho",
+      "foreignLocation": "Programa, itens 2, 3 e 4"
+    },
+    {
+      "brTopic": "Legislações específicas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa itens 1-6, Resultados de Aprendizagem, Métodos de Ensino e Bibliografia (cinco referências)",
+      "note": "Não há menção a legislação, regulação ou conformidade legal; o item 3 trata continuidade de negócio e segurança da informação sob ótica de gestão."
+    },
+    {
+      "brTopic": "Estudos de casos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Apresentação e discussão de casos de estudo de forma a ilustrar a importância prática das metodologias'",
+      "foreignLocation": "Métodos de Ensino, aulas teórico-práticas"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Fundações da gestão de SI: evolução, tipos de SI, integração e sistemas empresariais",
+      "location": "Programa, item 1"
+    },
+    {
+      "topic": "Governança de dados: objetivos, impulsionadores de negócio, benefícios e ferramentas",
+      "location": "Programa, item 5"
+    },
+    {
+      "topic": "Planeamento de cenários, estudos de futuros e imaginários sociotécnicos",
+      "location": "Programa, item 6"
+    },
+    {
+      "topic": "Continuidade do negócio, segurança da informação e gestão de departamentos de SI",
+      "location": "Programa, item 3"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário lista conteúdos; não declara objetivos ou competências do componente.",
+    "foreign": [
+      "Gerir SI e dados em organizações com princípios e metodologias de governança",
+      "Aplicar ITIL e COBIT em projeto de transformação digital",
+      "Síntese, comunicação escrita, resolução de problemas e raciocínio crítico"
+    ],
+    "convergences": [
+      "Governança de TI com COBIT",
+      "Gestão de serviços e operações com ITIL",
+      "Uso de casos de estudo"
+    ],
+    "differences": [
+      "Coimbra não trata governança corporativa, BSC nem legislação; o 'compliance' do título brasileiro não tem contrapartida explícita",
+      "Coimbra acrescenta governança de dados e planeamento de cenários, ausentes da ementa Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra: 2º Ciclo (mestrado), 1º ano; Mackenzie: graduação, 7ª etapa. Unidade de mestrado pode exceder o nível exigido e pressupõe conhecimentos base de SI.",
+    "brazil": "Componente obrigatório de 31,67 h, de caráter introdutório-panorâmico (oito enunciados curtos)",
+    "foreign": "Optativa de 6 ECTS com aulas teórico-práticas, práticas laboratoriais com projeto em contexto real e palestras de convidados",
+    "theoryPractice": "Coimbra declara componente laboratorial com projeto (30% da nota); o ementário brasileiro não discrimina teoria e prática"
+  },
+  "practical": {
+    "period": "Semestral; semestre não declarado na página. data.json indica 'Outono a confirmar', o que coincidiria com 2027.2 se confirmado.",
+    "language": "Inglês como língua de ensino principal; português como alternativa",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; por ser UC de mestrado, a inscrição de estudante de graduação é condicional a essa aprovação.",
+    "prerequisites": "Conhecimentos base de SI; o estudante Mackenzie de SI na 7ª etapa já os terá cursado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Governança de Sistemas e Dados cobre o núcleo de governança de TI (COBIT 2019), gestão de serviços (ITIL 4) e operações, com casos de estudo, mas não menciona governança corporativa, Balanced Scorecard nem legislação, que dão o eixo de compliance à disciplina Mackenzie.",
+  "justification": "Dos oito tópicos essenciais, três estão cobertos (governança de TI, desempenho de operações/serviços, estudos de casos), três parcialmente (estratégia via alinhamento, frameworks sem BSC, portfólio só por inferência de 'geração de valor') e dois ausentes (governança corporativa, legislações específicas). A UC de Coimbra vale 6 ECTS e não declara horas de contacto, enquanto o componente brasileiro tem 31,67 h; a carga não é comparável e, pelo volume em ECTS, a estrangeira tende a ser maior, o que não compensa a lacuna temática. Ser de 2º ciclo reforça a profundidade, mas depende de autorização para graduandos.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Página oficial 2026-2027 com programa itemizado e avaliação; faltam horas de contacto, semestre de oferta e confirmação de que graduandos podem cursar UC de mestrado.",
+  "limitations": [
+    "Oferta em 2027/28 e semestre (outono) não confirmados na página",
+    "Horas de contacto não declaradas; apenas 6 ECTS, que não são convertidos em horas",
+    "UC de 2º ciclo: inscrição de graduando depende de aprovação dos coordenadores",
+    "Classificação de 'Portfólio de TI' como parcial depende de inferência sobre o conteúdo de 'geração de valor'",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de SI aceita a ausência de legislação e governança corporativa se o estudante cursar conteúdo de compliance noutra UC?",
+    "O docente confirma tratamento de portfólio de investimentos de TI no item de geração de valor?",
+    "Coimbra autoriza estudante de licenciatura estrangeiro nesta optativa de mestrado no outono de 2027?"
+  ],
+  "alternatives": [
+    {
+      "code": "2038756",
+      "name": "Segurança e Privacidade",
+      "relation": "Trata obrigações éticas e legais de privacidade; não supre governança corporativa nem frameworks e não substitui esta UC"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Duas classificações parciais dependem de inferência e a UC é de mestrado"
+  }
+}

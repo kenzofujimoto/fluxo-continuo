@@ -1,0 +1,169 @@
+{
+  "id": "cc|ENEX60050|ro-babes|MLE5015",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60050",
+    "name": "Paradigmas de Programação",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF da 5ª etapa, p. 6 (numeração impressa 105), bloco 'Comp. Curricular PARADIGMAS DE PROGRAMAÇÃO'; o próprio bloco registra 'Etapa 7'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas presenciais; a matriz do projeto (data.json) registra 31,667 h e semestre 5 para o mesmo código. Divergência não resolvida: usa-se o valor do ementário."
+    },
+    "topics": [
+      "Estudo evolutivo das linguagens de programação",
+      "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5015",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem4_MLE5015_en_forest_2026_10142.pdf",
+      "sha256": "4a332fb96254c979890572b690ea33fe5c72f030a608afa835e4c2ee7d5a451b",
+      "name": "Web Programming",
+      "programme": "Computer Science",
+      "yearOfStudy": 2,
+      "semester": 4,
+      "period": "Semestre 4 = 2º semestre do ano letivo (primavera europeia)",
+      "academicYear": "2025/2026 (rótulo do documento 'University year 2025-2026', publicado na pasta do catálogo 2026)",
+      "language": "Inglês (documento e linha IE do catálogo)",
+      "courseStatus": "Mandatory",
+      "assessment": "E (exame): exame prático 60%, média das tarefas de laboratório 40%; mínimo 5 em ambos; presença mínima de 90% nos laboratórios",
+      "prerequisites": "Computer Networks, Distributed Operating Systems, Databases, Data Structures and Algorithms, Object Oriented Programming",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Syllabus 'University year 2025-2026': secções 2, 3.1-3.9, 4, 7.1-7.2, 8.1 (itens 1-14), 8.2 (laboratórios 1-14), 10",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo evolutivo das linguagens de programação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (itens 1-14) e 8.2 (laboratórios 1-14) do programa MLE5015",
+      "note": "O item 1 traz história da WWW (endereçamento, servidores de nomes, URLs), não das linguagens de programação."
+    },
+    {
+      "brTopic": "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (itens 1-14) e 8.2 (laboratórios 1-14) do programa MLE5015",
+      "note": "JavaScript (item 6), PHP, Java e C# são usados como ferramentas Web; não há estudo de paradigmas, programação funcional formal ou lógica."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "HTTP, HTML5, CSS3, XML/XSLT",
+      "location": "8.1 itens 2-5"
+    },
+    {
+      "topic": "JavaScript/DOM, jQuery, Angular, React",
+      "location": "8.1 itens 6-8"
+    },
+    {
+      "topic": "PHP, JSP/Servlets/Spring Boot, ASP.NET Core, APIs REST",
+      "location": "8.1 itens 9-11"
+    },
+    {
+      "topic": "Segurança Web (same-origin, XSS, injeção de SQL)",
+      "location": "8.1 itens 13-14"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa é de linguagens comparadas e paradigmas.",
+    "foreign": [
+      "Compreender o funcionamento da WWW (7.2)",
+      "Conhecer as principais tecnologias de desenvolvimento Web (7.2)"
+    ],
+    "convergences": [
+      "Contato com várias linguagens (JavaScript, PHP, Java, C#), sem análise comparativa"
+    ],
+    "differences": [
+      "MLE5015 é de tecnologias Web; Paradigmas de Programação é de fundamentos de linguagens",
+      "Paradigmas funcional e lógico ausentes na UBB"
+    ]
+  },
+  "depth": {
+    "level": "UBB 2º ano, semestre 4; Mackenzie etapa 5/7 (divergência documental)",
+    "brazil": "Componente teórico de 2 h-a semanais",
+    "foreign": "2 h de curso + 2 h de laboratório por semana",
+    "theoryPractice": "UBB metade laboratório; Mackenzie só teoria declarada"
+  },
+  "practical": {
+    "period": "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "language": "Inglês (documento e catálogo IE)",
+    "enrolment": "90% de presença em laboratórios (10.6)",
+    "prerequisites": "Redes, sistemas operacionais distribuídos, bancos de dados, estruturas de dados e algoritmos, POO",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Web programming (MLE5015) ensina HTML, CSS, JavaScript, PHP, Java EE e ASP.NET Core para aplicações Web; usa várias linguagens, mas não as estuda como paradigmas nem trata da evolução histórica das linguagens de programação.",
+  "justification": "Os dois tópicos essenciais de Paradigmas de Programação ficaram sem correspondência após leitura das 14 unidades de curso e dos 14 laboratórios: a história do item 1 é a da WWW, e JavaScript aparece como ferramenta de cliente, não como exemplo de paradigma. Classe derivada: baixa afinidade. As 56 h de contato (razão 0,884 sobre 63,33 h) não alteram o resultado; o semestre 4 é de primavera e o documento está rotulado 2025-2026.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual completo; reduzem a confiança o rótulo 2025-2026 e a divergência de carga horária do componente brasileiro, nenhuma das quais altera a classe.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Carga horária brasileira divergente: ementário 63,33 h com 2 h-a teóricas semanais; matriz data.json 31,667 h; bloco do PDF da 5ª etapa registra 'Etapa 7'",
+    "Programa MLE5015 rotulado 'University year 2025-2026' apesar de publicado na pasta do catálogo 2026",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Qual é a carga horária vigente de ENEX60050 (63,33 h ou 31,667 h)?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5009",
+      "name": "Functional and logic programming",
+      "relation": "Semestre 3 (outono); apenas título visto em data.json, programa não lido"
+    },
+    {
+      "code": "MLE5172",
+      "name": "Programming paradigms",
+      "relation": "Programa lido neste lote: procedural, OO e funcional em Java/C#/Scala/Rust; linha IIE, semestre 3"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência de sobreposição clara; divergência de horas brasileiras não afeta a classe"
+  }
+}

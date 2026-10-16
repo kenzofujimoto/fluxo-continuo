@@ -1,0 +1,213 @@
+{
+  "id": "cc|ENEC61010|ro-babes|MLE5008",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61010",
+    "name": "Desenvolvimento de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 2, bloco 'Comp. Curricular DESENVOLVIMENTO DE SOFTWARE', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas + 0 práticas presenciais por semana."
+    },
+    "topics": [
+      "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5008",
+      "name": "Advanced Programming Methods",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Semestre 3 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (documento em inglês; publicado no catálogo IE 2026; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory",
+      "assessment": "Exame escrito final 25%, exame prático final 35%, testes de seminário 5%, projeto de laboratório 35%; mínimo 5 nos exames; presença mínima de 90% nos laboratórios e 70% nos seminários",
+      "prerequisites": "Object oriented programming, Algorithmics, Data structures",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE5008_en_craciunf_2026_10815.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "4afe1515851d41be11ee3f5e646bcef370b7236bec1ff541c9848dd0f754c019",
+      "location": "Syllabus 'University year 2025-2026': secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 6-7 (competências/objetivos), 8.1 (curso), 8.2 (seminário/laboratório), 10 (avaliação); 8.1 (16 unidades sem numeração), 8.2 (15 sessões de projeto Java)",
+      "hours": {
+        "weekly": {
+          "total": 6,
+          "course": 2,
+          "seminarLab": 4,
+          "note": "Documento: '2 sem. + 2 lab'"
+        },
+        "contactTotal": 84,
+        "contactLecture": 28,
+        "contactSeminarLab": 56,
+        "selfStudy": 66,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "documentNote": "Documento rotulado 'University year 2025-2026'. Horas de contato explícitas na secção 3.4 (84 = 28 curso + 28 seminário + 28 laboratório); a extração automática de programas.json não as capturou (contact null) por causa da grafia '28 sem + 28 lab'."
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competências 'development and maintenance of software systems'; resultado 'apply architectural styles, design patterns and best practices'",
+      "foreignLocation": "Secções 6.1-6.2",
+      "note": "Evidência só em competências/resultados; nenhuma unidade de 8.1 trata conceitos ou métodos de desenvolvimento de software. O enunciado oficial traz resíduo de cabeçalho de página ('UNIVERSIDADE ... 96'), reproduzido literalmente."
+    },
+    {
+      "brTopic": "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo 'analysis, design, and implementation based on design patterns and general object oriented paradigms'; 'use object-oriented concepts in program analysis and design'",
+      "foreignLocation": "Secção 7.1-7.2; bibliografia 8.1 item 4 (Gamma et al., Design Patterns)",
+      "note": "Só objetivos e bibliografia; não há unidade de técnicas de modelagem."
+    },
+    {
+      "brTopic": "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6-7, 8.1 (16 unidades), 8.2 (15 sessões), 10 e bibliografias; nenhuma menção a UML, diagramas estruturais ou comportamentais",
+      "note": "O enunciado refere-se à linguagem de modelagem (diagramas estruturais e comportamentais), isto é, UML."
+    },
+    {
+      "brTopic": "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Mesmas secções; há implementação intensiva em Java (projeto de interpretador), mas sem partir de diagramas UML"
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": false,
+      "status": "nao_verificavel",
+      "note": "Práticas de extensão são atividade curricular de extensão própria do Mackenzie, sem correspondente esperado em programa estrangeiro; item não entra no cálculo de cobertura."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Plataforma Java: coleções, genéricos, IO/NIO, lambdas e streams",
+      "location": "8.1 unidades 1-4"
+    },
+    {
+      "topic": "GUI com JavaFX/FXML e em C#",
+      "location": "8.1 unidades de GUI"
+    },
+    {
+      "topic": "Concorrência em Java: threads, executors, futures, cancelamento",
+      "location": "8.1 unidades de concorrência; 8.2"
+    },
+    {
+      "topic": "Introdução a C#/.NET, Scala e Rust; reflexão e serialização",
+      "location": "8.1 unidades finais"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Usar Java, padrões de projeto e GUI",
+      "Aplicar conceitos OO em análise e projeto",
+      "Avaliar arquiteturas e escolher soluções adequadas"
+    ],
+    "convergences": [
+      "Orientação a objetos como base de projeto",
+      "Referência a padrões de projeto"
+    ],
+    "differences": [
+      "Mackenzie centra-se em modelagem UML e mapeamento modelo-código; UBB em recursos de linguagens",
+      "UBB não nomeia UML em nenhuma secção",
+      "Práticas de extensão sem equivalente estrangeiro"
+    ]
+  },
+  "depth": {
+    "level": "UBB 2º ano/semestre 3; Mackenzie 4ª etapa",
+    "brazil": "4 h-a teóricas semanais com práticas de extensão",
+    "foreign": "2 h aula + 2 h seminário + 2 h laboratório; projeto contínuo de interpretador em Java",
+    "theoryPractice": "UBB fortemente prática em programação; Mackenzie declarada como teórica com foco em modelagem"
+  },
+  "practical": {
+    "period": "Semestre 3 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês (documento em inglês)",
+    "enrolment": "Pré-requisitos declarados (Object oriented programming, Algorithmics, Data structures) exigem comprovação",
+    "prerequisites": "Compatíveis com a 4ª etapa do Mackenzie",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5008 menciona análise e projeto orientados a objetos apenas nos objetivos e nunca trata UML; como Desenvolvimento de Software é centrado em modelagem com diagramas e mapeamento para código, a aderência é baixa apesar da base OO comum.",
+  "justification": "Dos quatro tópicos essenciais (o quinto, práticas de extensão, foi excluído do cálculo), dois são parciais e dois ausentes. Os parciais — fundamentos de desenvolvimento e modelagem OO — apoiam-se só nas secções 6.2 e 7.1-7.2 e na referência a Gamma et al.; as 16 unidades de 8.1 tratam Java, C#, Scala e Rust. Diagramas estruturais/comportamentais e o mapeamento UML-código não aparecem. As 84 h de contato (razão 1,33 sobre 63,33 h) são programação, não modelagem.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A classe derivada (afinidade_parcial) resulta de dois tópicos 'parcial' sustentados apenas por enunciados de objetivos, sem unidade de conteúdo em 8.1/8.2; a UML, núcleo de dois dos quatro tópicos essenciais, está ausente. Registrar afinidade parcial superestimaria a aderência.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdo estrangeiro explícito e suficiente para constatar a ausência de UML; o documento é rotulado 2025-2026, as horas foram lidas do texto por falha de extração e o enunciado brasileiro traz resíduo de cabeçalho de página.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Documento rotulado 'University year 2025-2026' publicado no catálogo 2026",
+    "programas.json não registra horas de contato de MLE5008; valor 84 lido da secção 3.4",
+    "Primeiro enunciado oficial brasileiro contém texto de cabeçalho de página ('UNIVERSIDADE PRESBITERIANA MACKENZIE ... 96') capturado na extração",
+    "Classe rebaixada em relação à derivada; ver downgradeReason",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A UBB oferece disciplina com UML no outono (p.ex. Software engineering ou Design patterns) acessível a intercambista?",
+    "A coordenação admitiria cobrir Desenvolvimento de Software por combinação de disciplinas?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5011",
+      "name": "Software engineering",
+      "relation": "Candidata provável para modelagem e métodos de desenvolvimento; documento não verificado neste parecer"
+    },
+    {
+      "code": "MLE8115",
+      "name": "Design patterns",
+      "relation": "Possível complemento para projeto OO; documento não verificado"
+    },
+    {
+      "code": "MLE5006",
+      "name": "Object oriented programming",
+      "relation": "Possível complemento; documento não verificado"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe escolhida abaixo da derivada pelas regras; validar o critério de rebaixamento"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

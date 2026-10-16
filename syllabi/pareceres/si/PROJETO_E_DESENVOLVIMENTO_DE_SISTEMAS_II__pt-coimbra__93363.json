@@ -1,0 +1,152 @@
+{
+  "id": "si|PROJETO E DESENVOLVIMENTO DE SISTEMAS II|pt-coimbra|93363",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "PROJETO E DESENVOLVIMENTO DE SISTEMAS II",
+    "name": "Projeto e Desenvolvimento de Sistemas II",
+    "courseName": "Sistemas de Informação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 39, bloco 'PROJETO E DESENVOLVIMENTO DE SISTEMAS II', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 63,33 h-relógio no semestre."
+    },
+    "topics": [
+      "Desenvolvimento de um sistema de informação que tenha funcionalidades típicas de processamento de dados distribuídos com necessidade de atender requisitos de qualidade - tais como desempenho, escalabilidade, concorrência, segurança e acessibilidade - e que deve atender a uma demanda real da sociedade",
+      "Levantamento e especificação dos requisitos de qualidade",
+      "Definição e implementação da arquitetura do sistema e implantação em ambiente de produção",
+      "Práticas de Extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93363",
+      "name": "Projeto Integrador",
+      "pageCode": "01021158",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português (língua de ensino); inglês como outra língua de ensino",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100% (plano de trabalho, relatório intercalar, relatório final e apresentação)",
+      "prerequisites": "Conhecimentos de Base Recomendados: Marketing, Estratégia, Recursos Humanos, Gestão das operações, Contabilidade e Finanças",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (i-v), Programa (modalidades PE, PA, PI), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/93363/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "a9b3421ff0e3206ebf6dff261d6cf9a9e1672910c107fbffceb22470ccc8c682",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 12.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 12,0 ECTS; não informa horas de contacto (trabalho em grupo com reuniões de acompanhamento). Código interno: 01021158."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Desenvolvimento de um sistema de informação que tenha funcionalidades típicas de processamento de dados distribuídos com necessidade de atender requisitos de qualidade - tais como desempenho, escalabilidade, concorrência, segurança e acessibilidade - e que deve atender a uma demanda real da sociedade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral; nenhuma menção a sistemas distribuídos, desempenho, escalabilidade, concorrência, segurança ou acessibilidade"
+    },
+    {
+      "brTopic": "Levantamento e especificação dos requisitos de qualidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem i-v e Programa",
+      "note": "'definir objetivos' (iv) refere-se a objetivos organizacionais, não a requisitos não funcionais de software."
+    },
+    {
+      "brTopic": "Definição e implementação da arquitetura do sistema e implantação em ambiente de produção",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral"
+    },
+    {
+      "brTopic": "Práticas de Extensão",
+      "essential": false,
+      "status": "parcial",
+      "foreignEvidence": "temas 'definidos com a colaboração de entidades externas'",
+      "foreignLocation": "Programa",
+      "note": "Exigência de extensão curricular brasileira; excluída do cálculo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Modalidades de projeto empresarial, aplicado e de investigação",
+      "location": "Programa"
+    },
+    {
+      "topic": "Soft skills orientadas ao futuro profissional (ILO4)",
+      "location": "Resultados de Aprendizagem ii-iii"
+    }
+  ],
+  "competencies": {
+    "brazil": "Arquitetar e implantar em produção um sistema distribuído que cumpra requisitos de qualidade.",
+    "foreign": [
+      "Formular estratégias e planos de implementação organizacionais",
+      "Abordagem multidisciplinar de problemas"
+    ],
+    "convergences": [],
+    "differences": [
+      "Requisitos não funcionais, arquitetura e implantação de software não existem no Projeto Integrador de Gestão"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de Gestão, Mackenzie na 7ª etapa de SI (projeto técnico avançado)",
+    "brazil": "Componente de 63,33 h com foco em arquitetura e requisitos de qualidade",
+    "foreign": "Projeto de 12 ECTS de gestão",
+    "theoryPractice": "Projetos práticos de áreas distintas"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json",
+    "language": "Português, com inglês como alternativa",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; o projeto integrador de Gestão pressupõe formação em gestão que o estudante de SI não tem completa.",
+    "prerequisites": "Marketing, estratégia, RH, operações, contabilidade e finanças",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A segunda disciplina de projeto de SI pede arquitetura distribuída, requisitos de qualidade (desempenho, escalabilidade, concorrência, segurança, acessibilidade) e implantação em produção; o Projeto Integrador de Gestão é um trabalho de diagnóstico e estratégia organizacional e não toca nenhum destes elementos.",
+  "justification": "Nenhum dos três tópicos essenciais tem correspondência (razão 0/3): não há sistema distribuído, especificação de requisitos não funcionais nem definição de arquitetura e implantação. A colaboração com entidades externas só se relaciona com as Práticas de Extensão, excluídas do cálculo. As 63,33 h Mackenzie não podem ser confrontadas com os 12 ECTS sem horas de contacto.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "A natureza não técnica da UC está explícita na página; a conclusão independe das horas.",
+  "limitations": [
+    "Horas de contacto não declaradas; 12 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada; semestre só no data.json",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "Há em Coimbra UC de arquitetura de sistemas distribuídos ou projeto de software em licenciatura acessível a mobilidade?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergência integral de área e objetivo"
+  }
+}

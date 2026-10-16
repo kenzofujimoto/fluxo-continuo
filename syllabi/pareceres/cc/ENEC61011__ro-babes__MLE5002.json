@@ -1,0 +1,203 @@
+{
+  "id": "cc|ENEC61011|ro-babes|MLE5002",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61011",
+    "name": "Redes de Computadores",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 4, bloco 'Comp. Curricular REDES DE COMPUTADORES', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes",
+      "Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet",
+      "Descrição do roteamento de pacotes, vazão, atraso e perda de dados",
+      "Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento",
+      "Aplicação de tecnologias de redes sem fio: arquitetura 802.11"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5002",
+      "name": "Computer Networks",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Semestre 3 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (documento em inglês; publicado no catálogo IE 2026; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory",
+      "assessment": "Exame escrito (teste Moodle) 50%, testes de laboratório intermediário e final 50%; mínimo 5 em teoria e laboratório",
+      "prerequisites": "Operating Systems, Computer System Architecture; C/C++ e Python básicos, noções de redes, criptografia e virtualização",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE5002_en_dadi_2026_10554.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "0e7306f8971ee31446ac74bd33c57af4699552ab661882201845c55a76e2ed59",
+      "location": "Syllabus 'University year 2025-2026': secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 6-7 (competências/objetivos), 8.1 (curso), 8.2 (seminário/laboratório), 10 (avaliação); 8.1 itens 1-14, 8.2 itens 1-14",
+      "hours": {
+        "weekly": {
+          "total": null,
+          "course": 2,
+          "seminarLab": 2,
+          "note": "Documento imprime total semanal '2', incoerente com 2+2"
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "documentNote": "Documento rotulado 'University year 2025-2026' (datado 15/04/2025), código interno impresso 'MLE5022' (no catálogo MLE5022 é Data structures and algorithms) e 3.1 com total semanal '2' incoerente com 2 aula + 2 seminário/lab e 56 h."
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Computer Networks Introduction. Definition. Examples. Network Topologies'; 'The physical layer. Transmission media... fiber networks, wireless networks'",
+      "foreignLocation": "Secção 8.1 itens 1 e 13",
+      "note": "Tipos e tecnologias de transmissão aparecem; escalabilidade não é tratada explicitamente (apenas indiretamente via sub-redes/CIDR, item 5)."
+    },
+    {
+      "brTopic": "Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Protocol layers. The OSI reference model. The TCP/IP layered model'; objetivo de compreender 'the layered Internet protocols architecture'",
+      "foreignLocation": "Secção 8.1 item 3; secção 7.2"
+    },
+    {
+      "brTopic": "Descrição do roteamento de pacotes, vazão, atraso e perda de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Roteamento por vetor de distância e estado de enlace (item 12); janela deslizante, controle de fluxo e congestionamento TCP (item 8); detecção de erros (item 13)",
+      "foreignLocation": "Secção 8.1 itens 8, 12 e 13; 8.2 itens 10-11",
+      "note": "Vazão, atraso e perda como métricas de desempenho não são nomeados."
+    },
+    {
+      "brTopic": "Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Datagrama e endereçamento IP, ARP, sub-redes/CIDR (itens 4-5); 'Routing protocols: RIP, BGP, OSPF' (item 12); Packet Tracer com roteamento estático e RIP",
+      "foreignLocation": "Secção 8.1 itens 4, 5 e 12; 8.2 itens 10-11",
+      "note": "IPv6 não aparece em nenhuma secção."
+    },
+    {
+      "brTopic": "Aplicação de tecnologias de redes sem fio: arquitetura 802.11",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'wireless networks' citadas dentro da aula sobre camada física",
+      "foreignLocation": "Secção 8.1 item 13",
+      "note": "Não há tratamento da arquitetura 802.11; menção limitada a meio de transmissão."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Programação com sockets TCP/UDP, servidores concorrentes e multiplexados (select)",
+      "location": "8.1 item 2; 8.2 itens 2-7"
+    },
+    {
+      "topic": "Camada de aplicação: HTTP, SMTP, FTP e DNS",
+      "location": "8.1 itens 10-11"
+    },
+    {
+      "topic": "Broadcast, multicast e ICMP",
+      "location": "8.1 item 9"
+    },
+    {
+      "topic": "Simulação com Packet Tracer: NAT, filtragem de pacotes, VLANs",
+      "location": "8.2 itens 8-13"
+    },
+    {
+      "topic": "Segurança de redes e netiqueta",
+      "location": "8.1 item 14"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Projetar e administrar redes de complexidade média",
+      "Programar aplicações de rede sobre TCP/IP",
+      "Compreender a arquitetura em camadas da Internet"
+    ],
+    "convergences": [
+      "Modelos OSI e TCP/IP",
+      "Endereçamento IPv4 e protocolos de roteamento"
+    ],
+    "differences": [
+      "UBB enfatiza programação com sockets, ausente da ementa brasileira",
+      "IPv6, arquitetura 802.11 e métricas de desempenho só no Mackenzie",
+      "UBB inclui camada de aplicação e simulação com Packet Tracer"
+    ]
+  },
+  "depth": {
+    "level": "UBB 2º ano/semestre 3; Mackenzie 5ª etapa",
+    "brazil": "2 h-a teóricas + 2 práticas semanais",
+    "foreign": "2 h aula + 2 h laboratório; laboratório dividido entre programação de rede e simulação",
+    "theoryPractice": "Proporção teoria/prática equivalente (metade/metade); prática UBB orientada a programação"
+  },
+  "practical": {
+    "period": "Semestre 3 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês (documento em inglês)",
+    "enrolment": "Pré-requisitos declarados (Operating Systems, Computer System Architecture) podem exigir comprovação no histórico",
+    "prerequisites": "Sistemas operacionais e arquitetura de computadores; C/C++ e Python básicos — compatível com a 5ª etapa do Mackenzie",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5002 cobre a arquitetura em camadas OSI/TCP-IP e grande parte da camada de rede IPv4 e do roteamento, mas deixa IPv6, a arquitetura 802.11 e as métricas de vazão/atraso/perda sem tratamento, privilegiando programação com sockets.",
+  "justification": "Um dos cinco tópicos essenciais está integralmente coberto (OSI/TCP-IP, item 3) e os outros quatro são parciais: tipos e meios de transmissão sem escalabilidade (itens 1 e 13), roteamento e controle de fluxo sem métricas de vazão/atraso/perda (itens 8 e 12), IPv4 e RIP/BGP/OSPF sem IPv6 (itens 4, 5 e 12) e redes sem fio apenas citadas (item 13). As 56 h de contato (28 + 28) dão razão 0,88 sobre 63,33 h (0,74 com hora de 50 min).",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "O documento é o programa 2025-2026 (datado de 15/04/2025), imprime código interno MLE5022 que no catálogo pertence a outra disciplina e traz total semanal incoerente; o conteúdo é detalhado, mas a correspondência com a oferta 2026/27 e 2027/28 não está confirmada.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Documento rotulado 'University year 2025-2026' publicado no catálogo 2026",
+    "Código interno impresso 'MLE5022' conflita com o código de catálogo MLE5002",
+    "Secção 3.1 imprime total semanal '2', incoerente com 2 aula + 2 laboratório e 56 h",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A UBB confirma que o programa de MLE5002 para 2026/27 e 2027/28 é este documento?",
+    "A coordenação aceita a ausência de IPv6 e de 802.11 dada a ênfase em programação de redes?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5072",
+      "name": "System and network administration",
+      "relation": "Possível complemento prático; conteúdo não verificado neste parecer"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Documento com três inconsistências (ano, código interno, horas semanais) e cobertura apoiada em quatro tópicos parciais"
+  }
+}

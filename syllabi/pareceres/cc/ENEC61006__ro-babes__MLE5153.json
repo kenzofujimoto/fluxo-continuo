@@ -1,0 +1,172 @@
+{
+  "id": "cc|ENEC61006|ro-babes|MLE5153",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61006",
+    "name": "Arquitetura de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ARQUITETURA DE SOFTWARE', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas presenciais por semana, sem carga prática."
+    },
+    "topics": [
+      "Visão geral de arquiteturas de software: definições, objetivos e relevância",
+      "Processo para a construção de arquitetura de software",
+      "Identificação e especificação de requisitos arquiteturais",
+      "Uso de padrões arquiteturais e padrões de software para a solução de requisitos arquiteturais",
+      "Métodos e técnicas para a representação de arquiteturas de software, incluindo-se visão arquiteturais e linguagens de descrição arquitetural",
+      "Métodos para a avaliação de arquiteturas de software",
+      "Perspectivas de pesquisa em arquitetura de software"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5153",
+      "name": "Cloud Application Architecture",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (linha IE, em inglês, segundo a URL do catálogo)",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Semestre 5 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (documento e linha IE do catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Campo 2.7 'Discipline regime' = 'DO' (sigla não expandida no documento; obrigatoriedade/optatividade a confirmar)",
+      "assessment": "Colóquio (tipo 'C'): conhecimento das tecnologias 50% + teste de laboratório 50%; mínimo 5 em apresentação e projeto de laboratório",
+      "prerequisites": "Computer Networks, Databases, Web Programming; boa habilidade de programação",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5153_en_horea_2026_10207.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "a26afe51c5a8824b89286b1cd85490f25bf0f722d25313eb598df582cc76ac06",
+      "location": "Syllabus 'University year 2025-2026': secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 6.2 (resultados), 7 (objetivos), 8.1 itens 1-15, 8.2 labs 1-7, 10 (avaliação)",
+      "hours": {
+        "weekly": {"total": 5, "course": 2, "seminarLab": 3},
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 30,
+        "totalWorkload": 100,
+        "ects": 4,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Visão geral de arquiteturas de software: definições, objetivos e relevância",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 itens 1-15 e 8.2 labs 1-7: a introdução (8.1 item 1) trata do panorama de nuvem (conceitos, provedores, preços, regiões), não de definições de arquitetura de software",
+      "note": "Objetivo geral 7.1 é apresentar computação em nuvem e a migração para a nuvem."
+    },
+    {
+      "brTopic": "Processo para a construção de arquitetura de software",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7, 8.1 itens 1-15 e 8.2 labs 1-7; não há unidade de processo arquitetural (etapas, papéis, iterações de projeto)"
+    },
+    {
+      "brTopic": "Identificação e especificação de requisitos arquiteturais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Atributos de qualidade tratados como temas técnicos: escalabilidade (item 4), disponibilidade e recuperação de desastres (item 6), segurança (itens 7-8 e 11)",
+      "foreignLocation": "Secção 8.1, itens 4, 6, 7-8 e 11",
+      "note": "Requisitos não funcionais aparecem como capacidades da AWS, sem técnica de identificação/especificação (cenários de qualidade, utility tree)."
+    },
+    {
+      "brTopic": "Uso de padrões arquiteturais e padrões de software para a solução de requisitos arquiteturais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Load balancing, auto-scaling, multi-AZ, filas e pub-sub, serverless e API Gateway; resultado 'apply architectural styles, design patterns and best practices'",
+      "foreignLocation": "Secção 8.1 itens 4, 6, 12-14; secção 6.2 (Knowledge); 8.2 labs 3, 5-6",
+      "note": "Padrões restritos ao domínio de nuvem/AWS; padrões de software gerais (camadas, MVC, microsserviços, GoF) não são unidades do programa. Erl et al. 'Cloud Computing Design Patterns' consta só na bibliografia."
+    },
+    {
+      "brTopic": "Métodos e técnicas para a representação de arquiteturas de software, incluindo-se visão arquiteturais e linguagens de descrição arquitetural",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 itens 1-15, 8.2 labs 1-7 e 10; não há menção a visões (4+1, C4), UML de arquitetura ou ADLs"
+    },
+    {
+      "brTopic": "Métodos para a avaliação de arquiteturas de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado 'ability to evaluate different architectures and possible solutions to a problem and choose the right one'",
+      "foreignLocation": "Secção 6.2, 'Responsibility and autonomy'",
+      "note": "Aparece apenas como resultado esperado; nenhum método formal (ATAM, SAAM) consta em 8.1/8.2."
+    },
+    {
+      "brTopic": "Perspectivas de pesquisa em arquitetura de software",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7, 8.1 (item 15 'Recap and closing'), 8.2 e 9; nenhum conteúdo de pesquisa ou tendências"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Modelos IaaS e PaaS: máquinas virtuais, imagens, armazenamento em bloco/arquivo, contêineres e Docker", "location": "8.1 itens 2 e 9; 8.2 labs 2 e 4"},
+    {"topic": "Redes em nuvem: VPC, firewalls, listas de acesso, NAT, DNS e distribuição de conteúdo", "location": "8.1 itens 3 e 5; 8.2 lab 3"},
+    {"topic": "Bancos de dados gerenciados (relacional, chave-valor, documento) e serverless (FaaS, DynamoDB, Aurora)", "location": "8.1 itens 10 e 13; 8.2 labs 4 e 6"},
+    {"topic": "Segurança de aplicação com OAuth e provedores de identidade (Cognito)", "location": "8.1 item 11; 8.2 lab 5"}
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": ["Familiaridade com os serviços centrais da Amazon Web Services", "Desenvolvimento de aplicações nativas de nuvem", "Avaliar arquiteturas alternativas e escolher a adequada às restrições da aplicação"],
+    "convergences": ["Decisões arquiteturais orientadas por atributos de qualidade (escalabilidade, disponibilidade, segurança)", "Uso de padrões para resolver requisitos não funcionais, no recorte de nuvem"],
+    "differences": ["Mackenzie trata arquitetura de software de forma geral (processo, representação, avaliação, pesquisa); a UBB é uma disciplina tecnológica de nuvem centrada em AWS", "Representação arquitetural (visões, ADLs) e métodos de avaliação ausentes no programa da UBB", "UBB tem 42 h de laboratório/projeto prático; a disciplina Mackenzie é integralmente teórica"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UBB no 3º ano (semestre 5), Mackenzie na 6ª etapa",
+    "brazil": "Componente obrigatório teórico (4 h-a semanais) com escopo conceitual amplo de arquitetura de software",
+    "foreign": "15 unidades expositivas sobre serviços e modelos de nuvem e 7 sessões práticas na AWS (EC2, VPC, ECS, RDS, SQS/SNS, Lambda)",
+    "theoryPractice": "UBB: 28 h aula + 42 h laboratório/projeto; Mackenzie: somente teoria"
+  },
+  "practical": {
+    "period": "Semestre 5 = outono europeu, coincidente com 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês na linha IE",
+    "enrolment": "Regime 'DO' não expandido no documento; aceitação de estudante de intercâmbio não verificada",
+    "prerequisites": "Redes de Computadores, Bancos de Dados e Programação Web exigidos; um aluno na 6ª etapa do Mackenzie normalmente já cursou os equivalentes",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5153 é um curso de arquitetura de aplicações em nuvem AWS (IaaS, PaaS, serverless, escalabilidade); dos sete tópicos da ementa de Arquitetura de Software, três têm correspondência parcial (requisitos de qualidade, padrões de nuvem, avaliação como resultado) e quatro não aparecem.",
+  "justification": "Nenhum dos sete enunciados Mackenzie está integralmente coberto: visão geral, processo de construção, representação por visões/ADLs e perspectivas de pesquisa não têm unidade nos itens 8.1 1-15 nem nos labs 8.2 1-7. Escalabilidade (item 4), disponibilidade (item 6), segurança (itens 7, 11) e padrões como filas, pub-sub e balanceamento (itens 4, 12-14) cobrem parcialmente requisitos e padrões arquiteturais, e a avaliação de arquiteturas surge apenas no resultado 6.2. A soma coberto+parcial é 3/7 (43%). As 70 h de contato (28 + 42) superam as 63,33 h nominais (razão 1,105; 0,92 no cenário de 50 min), de modo que a baixa afinidade decorre de conteúdo, não de carga.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais completos e horas discriminadas; o programa da UBB é detalhado o bastante para afirmar a ausência dos tópicos. Reduzem a confiança o rótulo 'University year 2025-2026' num documento do catálogo 2026 e o regime 'DO' não expandido.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Documento publicado no catálogo 2026 rotulado 'University year 2025-2026'; o programa vigente em 2027/28 pode diferir",
+    "Cabeçalho do PDF diz 'Cloud Computing Architecture' e o campo 2.1 diz 'Cloud Application Architecture'",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC consideraria MLE5153 como optativa/eletiva de computação em nuvem, já que não substitui Arquitetura de Software?",
+    "O regime 'DO' do campo 2.7 significa disciplina optativa ou obrigatória na linha IE?"
+  ],
+  "alternatives": [
+    {"code": "MLE5011", "name": "Software engineering", "relation": "Candidata mais provável para processo e representação arquitetural; programa individual não lido neste parecer e oferta no semestre 4 (primavera)"},
+    {"code": "MLE8115", "name": "Design patterns", "relation": "Poderia complementar o tópico de padrões de software; programa não lido e semestre 6 (primavera)"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a item e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Divergência de escopo nítida e documentada; classe derivada coincide com a escolhida"}
+}

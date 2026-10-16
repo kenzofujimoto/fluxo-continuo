@@ -1,0 +1,203 @@
+{
+  "id": "cc|ENEC54240|ro-babes|MLE5006",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54240",
+    "name": "Programação Orientada a Objetos",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 3ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 4 (numeração impressa 93), bloco 'Comp. Curricular PROGRAMAÇÃO ORIENTADA A OBJETOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+      "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
+      "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5006",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Departament of Computer Science (grafia do documento)",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem2_MLE5006_en_iuliana_2026_10392.pdf",
+      "sha256": "d0aa84d84d5a65200761e17cfcbcf1595b0d9894ce0526af221ef4a736406b63",
+      "name": "Object Oriented Programming",
+      "programme": "Computer Science",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Semestre 2 = 2º semestre do ano letivo (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo); prática em C++ e Qt",
+      "courseStatus": "Compulsory / Specialisation subject",
+      "assessment": "Exame escrito 40%, exame prático 20%, laboratório e testes 40%; mínimo 5 em cada componente",
+      "prerequisites": "Fundamentals of Programming; 'Average programming skills in a high level programming language'",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Course description 2026-2027: secções 2, 3.1-3.9, 4, 6.2-7, 8.1 (unidades 1-14), 8.2 (seminários 1-7), 8.3 (laboratórios 1-14), 9",
+      "hours": {
+        "weekly": {
+          "total": 5,
+          "course": 2,
+          "seminar": 1,
+          "lab": 2
+        },
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 55,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Extração automática não leu as horas; o texto declara 3.4 = 70 h, 3.5 = 28 h e 3.6 = '14+28' (seminário quinzenal + laboratório)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Classes and objects; Defining classes; Object creation and destruction' e 'Exception handling. Exception-safe code'",
+      "foreignLocation": "Secção 8.1, unidades 3 e 7; secção 8.3, laboratórios 5-6 e 9",
+      "note": "O enunciado oficial inclui cabeçalho de página ('UNIVERSIDADE PRESBITERIANA MACKENZIE ... 93') capturado do PDF; o conteúdo avaliado é classes, objetos, instanciação e exceções."
+    },
+    {
+      "brTopic": "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Simple inheritance ... Multiple inheritance'; 'Static and dynamic binding; Virtual methods; Abstract classes'; 'Class templates; Containers, iterators in STL'",
+      "foreignLocation": "Secção 8.1, unidades 3-6; secção 8.2, seminários 3-5; secção 8.3, laboratório 8",
+      "note": "Encapsulamento e controle de acesso aparecem na definição de classes e em elementos 'friend' (unidade 3) e no resultado 7.2; interfaces correspondem a classes abstratas em C++, sem palavra-chave própria."
+    },
+    {
+      "brTopic": "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Input/Output streams ... Text files'; laboratório 'Text Files, exceptions. STL containers'",
+      "foreignLocation": "Secção 8.1, unidade 7; secção 8.3, laboratório 9",
+      "note": "Manipulação de arquivos coberta; comunicação de aplicação com banco de dados ausente."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Base de C/C++: ponteiros, gerenciamento de memória, programação modular",
+      "location": "8.1 unidades 1-2; 8.3 laboratórios 2-4"
+    },
+    {
+      "topic": "Sobrecarga de operadores, elementos estáticos e friend",
+      "location": "8.1 unidade 3"
+    },
+    {
+      "topic": "RAII e smart pointers",
+      "location": "8.1 unidade 8"
+    },
+    {
+      "topic": "GUI com Qt, programação orientada a eventos, MVC",
+      "location": "8.1 unidades 9-11; 8.3 laboratórios 11-12"
+    },
+    {
+      "topic": "Padrões de projeto (Adapter, Observer, Iterator, Composite, Strategy); UML",
+      "location": "8.1 unidades 5, 12-13"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa nomeia conceitos OO, coleções, arquivos e acesso a banco de dados.",
+    "foreign": [
+      "Desenvolver aplicações com projeto OO, C++ e GUI em Qt (7)",
+      "Explicar herança, polimorfismo, ligação dinâmica e estruturas genéricas (7)",
+      "PC4 definir arquitetura de software (6.1)"
+    ],
+    "convergences": [
+      "Classes, objetos, exceções, herança, polimorfismo estático e dinâmico",
+      "Classes parametrizadas (templates) e coleções (STL)",
+      "Arquivos-texto"
+    ],
+    "differences": [
+      "UBB não trata comunicação com banco de dados",
+      "UBB acrescenta GUI, eventos, MVC, RAII e padrões de projeto",
+      "Linguagem C++ na UBB; ementa Mackenzie não nomeia linguagem"
+    ]
+  },
+  "depth": {
+    "level": "UBB 1º ano, semestre 2; Mackenzie 3ª etapa",
+    "brazil": "2 h-a teóricas + 2 práticas por semana",
+    "foreign": "2 h de curso, 1 h de seminário (quinzenal, 2 h) e 2 h de laboratório por semana; três testes de laboratório",
+    "theoryPractice": "UBB: 42 de 70 h em seminário/laboratório (60%)"
+  },
+  "practical": {
+    "period": "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "language": "Inglês (documento e catálogo IE); C++ e Qt",
+    "enrolment": "Mínimo de 5 presenças em seminário e 12 em laboratório (9.6)",
+    "prerequisites": "Fundamentals of Programming",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Object Oriented Programming (MLE5006) cobre em C++ classes, exceções, herança, polimorfismo estático e dinâmico, classes abstratas, templates, STL e arquivos-texto; falta apenas a comunicação de aplicação com banco de dados prevista na ementa Mackenzie.",
+  "justification": "Dois tópicos integralmente cobertos (unidades 3-7 da secção 8.1, seminários 3-5 e laboratórios 5-9) e um parcial dão 66,7% de cobertura integral, abaixo do limiar de 75%; por isso a classe derivada é afinidade parcial, embora as 70 h de contato (28 de curso, 14 de seminário, 28 de laboratório) superem as 63,33 h (razão 1,105; 0,92 com hora de 50 min). A UBB acrescenta GUI em Qt, eventos, MVC, RAII e padrões de projeto. O semestre 2 é de primavera, o que limita a viabilidade para 2027.2.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026-2027 completo e detalhado; horas lidas manualmente do texto (extração automática falhou) e hora romena sem duração declarada.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "Horas de contato lidas manualmente da secção 3 ('14+28'); a extração automática registra contact null",
+    "Primeiro enunciado da ementa brasileira contém cabeçalho de página do PDF misturado ao texto (falha de layout)",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita a ausência de acesso a banco de dados, ou exige complemento (p.ex. MLE5028 com ADO.NET)?",
+    "Há possibilidade de cursar disciplina de semestre par em mobilidade de 2027.2?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5172",
+      "name": "Programming paradigms",
+      "relation": "Programa lido neste lote: Java com interfaces, sobrecarga/sobrescrita, genéricos, coleções, exceções e IO/NIO; sem banco de dados; linha IIE, semestre 3 (outono)"
+    },
+    {
+      "code": "MLE5028",
+      "name": "Database Management Systems",
+      "relation": "Programa lido neste lote: aplicações ADO.NET com SQL Server (seminários 1-2, laboratórios 1-2); complemento possível para o tópico de banco de dados, semestre 4"
+    },
+    {
+      "code": "MLE5008",
+      "name": "Advanced programming methods",
+      "relation": "Semestre 3 (outono); apenas título visto em data.json, programa não lido"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe depende só do tópico de banco de dados; horas obtidas por leitura manual divergem do registro automático (null)"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

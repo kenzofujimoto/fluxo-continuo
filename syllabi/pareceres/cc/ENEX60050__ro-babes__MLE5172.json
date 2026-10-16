@@ -1,0 +1,133 @@
+{
+  "id": "cc|ENEX60050|ro-babes|MLE5172",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60050",
+    "name": "Paradigmas de Programação",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — arquivo da 5ª etapa (FCI), bloco marcado 'Etapa 7'",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 6 do arquivo '5ª ETAPA', bloco 'Etapa 7 / Comp. Curricular PARADIGMAS DE PROGRAMAÇÃO', campos 'Carga horária (horas) 63,33' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 0},
+      "note": "Bloco declara 63,33 h, mas a grade semanal extraída mostra apenas 2 h-a presenciais teóricas, o que corresponderia a cerca de metade dessa carga; a matriz em data.json registra 31,667 h e semestre 5. A posição das marcações (presencial/online) no PDF é ambígua."
+    },
+    "topics": [
+      "Estudo evolutivo das linguagens de programação",
+      "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5172",
+      "name": "Programming Paradigms",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Information Engineering (campo 'Computers and Information Technology'; linha IIE do catálogo)",
+      "level": "Undergraduate",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Semestre 3 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (linha IIE em inglês segundo o catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory (campo 2.7 'Discipline regime')",
+      "assessment": "Exame escrito 25% + exame prático 35% + testes de seminário 5% + projeto de laboratório 35%; mínimo 5 em ambos os exames; presença mínima de 90% nos laboratórios",
+      "prerequisites": "Object oriented programming, Algorithmics, Data structures",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem3_MLE5172_en_craciunf_2026_10855.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IIE",
+      "sha256": "53a84531da00c98a749d8d53dfdf7df14f5fbca594f6164f1e1045b586feb4d1",
+      "location": "Syllabus 'University year 2025-2026': secções 2, 3.1-3.9, 4, 6.2, 7.1-7.2, 8.1 (18 entradas sem numeração), 8.2 (15 entradas), 10.4-10.6",
+      "hours": {
+        "weekly": {"total": 5, "course": 2, "seminarLab": 3},
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 80,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo evolutivo das linguagens de programação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 e 8.2: há introduções a Java, C#, Scala e Rust, mas nenhuma unidade sobre história ou evolução das linguagens",
+      "note": "A exposição a várias linguagens é técnica (plataforma, coleções, IO, GUI), não evolutiva."
+    },
+    {
+      "brTopic": "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Java: classes, interfaces, overriding/overloading, polimorfismo, genéricos; 'Functional programming: lambda expressions, streams'; projeto 'memory management' e 'type system'; interpretador de linguagem imperativa concorrente",
+      "foreignLocation": "Secção 8.1 entradas 1, 2 e 4; secção 8.2 projetos Java (funcional, memória, sistema de tipos); secção 10.6 (interpretador em Java)",
+      "note": "Orientação a objetos bem coberta; imperativo parcialmente (tipos, memória, interpretador); funcional limitado a lambdas e streams Java (sem cálculo lambda, avaliação lazy explícita ou compreensão de listas); paradigma lógico (cláusulas de Horn, backtracking) ausente."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Concorrência em Java: threads, executors, futures, métodos assíncronos e cancelamento", "location": "8.1 entradas 6-7; 8.2 projetos de concorrência"},
+    {"topic": "Interfaces gráficas JavaFX (FXML, CSS) e GUI em C#", "location": "8.1 entradas 5, 8 e 14"},
+    {"topic": "IO/NIO, reflexão e serialização; plataforma .NET", "location": "8.1 entradas 3, 9-13"}
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": ["Usar Java, padrões de projeto e GUI", "Aplicar conceitos orientados a objetos em análise e projeto", "Escolher e usar paradigmas procedural, orientado a objetos e funcional (resultado 6.2)"],
+    "convergences": ["Paradigma orientado a objetos", "Elementos funcionais (funções de alta ordem via lambdas)"],
+    "differences": ["Mackenzie é uma disciplina conceitual de linguagens (Sebesta, Tucker) com quatro paradigmas; a UBB é um curso aplicado de Java/C# orientado a objetos", "Paradigma lógico e cálculo lambda ausentes na UBB", "UBB acrescenta concorrência, GUI e metaprogramação"]
+  },
+  "depth": {
+    "level": "UBB no 2º ano (semestre 3) da Information Engineering; Mackenzie na 7ª etapa de CC",
+    "brazil": "Componente teórico (2 h-a semanais presenciais) de conceitos de linguagens",
+    "foreign": "Curso prático com projeto semanal de um interpretador de linguagem de brinquedo em Java",
+    "theoryPractice": "UBB: 28 h aula + 42 h seminário/laboratório; Mackenzie: somente teoria"
+  },
+  "practical": {
+    "period": "Semestre 3 = outono europeu, coincidente com 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês na linha IIE (a confirmar)",
+    "enrolment": "Disciplina de outra especialização (Information Engineering); presença mínima de 90% em laboratório",
+    "prerequisites": "POO, Algoritmos e Estruturas de Dados; compatíveis com a 7ª etapa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Apesar do título, MLE5172 é um curso aplicado de Java e C# centrado em orientação a objetos, concorrência e GUI. Cobre bem o paradigma OO e só superficialmente o funcional (lambdas/streams); omite o paradigma lógico e o estudo evolutivo das linguagens.",
+  "justification": "O primeiro enunciado (evolução das linguagens) não tem unidade: as introduções a Scala e Rust no fim de 8.1 são apresentações de linguagem, não estudo histórico. O segundo enunciado fica parcial: OO aparece com classes, polimorfismo e genéricos; imperativo, por memória, tipos e pelo interpretador do laboratório; funcional, apenas por lambdas e streams; lógico não aparece. Pela regra, 1 de 2 tópicos com algum grau de cobertura (50%) deriva afinidade parcial, mas a classe foi rebaixada. Em horas, 70 h de contato contra 63,33 h declaradas (razão 1,105; 0,92 com hora de 50 min). Há porém conflito na fonte brasileira: 2 h-a semanais e 31,667 h na matriz.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A ementa brasileira tem só dois enunciados, e o segundo agrega quatro paradigmas; a UBB cobre plenamente apenas um deles (OO) e parcialmente outros dois, sem o lógico. A proporção de 50% derivada da contagem superestima a afinidade real.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Documento estrangeiro rotulado 2025-2026 e de outra especialização; carga horária brasileira inconsistente (63,33 h declaradas versus 2 h-a semanais e 31,667 h na matriz) e bloco brasileiro marcado 'Etapa 7' dentro do arquivo da 5ª etapa.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Documento do catálogo 2026 rotulado 'University year 2025-2026'",
+    "Carga horária brasileira ambígua: 63,33 h no bloco, 2 h-a semanais teóricas na grade e 31,667 h na matriz do projeto",
+    "Bloco brasileiro marcado 'Etapa 7' publicado no arquivo da 5ª etapa",
+    "Unidades da secção 8.1 não numeradas; a localização usa a ordem das entradas",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Qual a carga horária vigente de Paradigmas de Programação (63,33 h ou 31,67 h)?",
+    "MLE5009 (Functional and logic programming) poderia ser combinada com outra disciplina para cobrir os paradigmas funcional e lógico?"
+  ],
+  "alternatives": [
+    {"code": "MLE5009", "name": "Functional and logic programming", "relation": "Pelo título, candidata mais aderente aos paradigmas funcional e lógico; semestre 3 (outono) na linha CC; programa individual não lido neste parecer"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude), incluindo o bloco do PDF brasileiro no texto em cache; cada tópico vinculado a entrada e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Classe rebaixada, carga horária brasileira conflitante e documento estrangeiro de ano anterior"}
+}

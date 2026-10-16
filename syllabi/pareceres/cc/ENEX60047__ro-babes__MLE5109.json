@@ -1,0 +1,193 @@
+{
+  "id": "cc|ENEX60047|ro-babes|MLE5109",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60047",
+    "name": "Análise de Algoritmos",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 3, bloco 'Comp. Curricular ANÁLISE DE ALGORITMOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 47.5,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 3,
+        "pratica": 0
+      },
+      "note": "Ementário declara 47,5 h e 3 h-a teóricas + 0 práticas presenciais por semana."
+    },
+    "topics": [
+      "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+      "Aborda a complexidade de algoritmos iterativos e recursivos",
+      "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
+      "Analisa o desempenho das técnicas clássicas de projeto de algoritmos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5109",
+      "name": "Principles of Performance Oriented Coding",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Semestre 5 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (documento em inglês; publicado no catálogo IE 2026; confirmar turma em 2027/28)",
+      "courseStatus": "Optional",
+      "assessment": "Colóquio (C): prova escrita ou quizzes 40%, trabalhos de laboratório 60%; mínimo 5 em todas as atividades",
+      "prerequisites": "Object Oriented Programming, Advanced Programming Methods; Java de nível médio",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5109_en_grigo_2026_10532.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "497f2996d0763ab3008ee4548f30f9c5bfc7ff44307489f61204a1a809a856ce",
+      "location": "Syllabus 'University year 2025-2026': secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 6-7 (competências/objetivos), 8.1 (curso), 8.2 (seminário/laboratório), 10 (avaliação); 8.1 itens 1-14, 8.2 itens 1-7",
+      "hours": {
+        "weekly": {
+          "total": 5,
+          "course": 2,
+          "seminarLab": 3,
+          "note": "Documento: '1 lab + 2 pr'"
+        },
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 30,
+        "totalWorkload": 100,
+        "ects": 4,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "documentNote": "Documento rotulado 'University year 2025-2026'. data.json registra 56 h de contato; o documento declara 70 (28 curso + 42 laboratório/projeto)."
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 itens 1-14, 8.2 itens 1-7 e bibliografia; nenhuma menção a análise assintótica ou a melhor/pior/caso médio",
+      "note": "O enunciado oficial traz resíduo de cabeçalho de página ('UNIVERSIDADE ... 98'), reproduzido literalmente."
+    },
+    {
+      "brTopic": "Aborda a complexidade de algoritmos iterativos e recursivos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Mesmas secções; não há análise de complexidade de algoritmos iterativos ou recursivos"
+    },
+    {
+      "brTopic": "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Mesmas secções; divisão e conquista, backtracking, gulosos e programação dinâmica não aparecem"
+    },
+    {
+      "brTopic": "Analisa o desempenho das técnicas clássicas de projeto de algoritmos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Mesmas secções; 'Application and process performance' e 'Profiling in practice' (itens 2 e 8) medem desempenho de código Java, não de técnicas de projeto de algoritmos",
+      "note": "Desempenho na UBB é empírico (profiling, coleções, I/O, concorrência), sem relação com análise de algoritmos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Coleções de alto desempenho e lambdas em Java",
+      "location": "8.1 itens 3-5"
+    },
+    {
+      "topic": "Processamento de strings, expressões regulares e desempenho de I/O",
+      "location": "8.1 itens 6-7"
+    },
+    {
+      "topic": "Profiling e concorrência em Java",
+      "location": "8.1 itens 8-11"
+    },
+    {
+      "topic": "Armadilhas de desempenho em padrões de projeto",
+      "location": "8.1 itens 12-13"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Aprofundar tecnologias centrais de Java",
+      "Programação concorrente em Java",
+      "Preparação para certificação Java"
+    ],
+    "convergences": [
+      "Preocupação com desempenho de programas (em sentidos distintos)"
+    ],
+    "differences": [
+      "Mackenzie trata análise teórica de algoritmos e técnicas de projeto; UBB trata otimização prática de código Java",
+      "Nenhuma técnica clássica de projeto de algoritmos na UBB"
+    ]
+  },
+  "depth": {
+    "level": "UBB 3º ano/semestre 5, optativa; Mackenzie 4ª etapa",
+    "brazil": "3 h-a teóricas semanais",
+    "foreign": "2 h aula + 1 h laboratório + 2 h projeto",
+    "theoryPractice": "Objetos de estudo distintos: teoria de algoritmos versus engenharia de desempenho em Java"
+  },
+  "practical": {
+    "period": "Semestre 5 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês (documento em inglês)",
+    "enrolment": "Optativa com pré-requisitos Object Oriented Programming e Advanced Programming Methods",
+    "prerequisites": "Java de nível médio",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5109 trata otimização prática de código Java (coleções, I/O, profiling, concorrência) e não contém nenhum dos quatro conteúdos de Análise de Algoritmos: análise assintótica, complexidade de algoritmos iterativos e recursivos, técnicas clássicas de projeto e sua análise.",
+  "justification": "Os quatro tópicos essenciais estão ausentes dos 14 itens de 8.1 e das 7 sessões de 8.2; a única aproximação — 'Application and process performance' e 'Profiling in practice' — é medição empírica de programas Java, não análise de algoritmos. As 70 h de contato declaradas (28 aula + 42 laboratório/projeto; data.json registra 56) superam as 47,5 h brasileiras (razão 1,47), mas a carga não compensa a falta de conteúdo. Divisão e conquista, backtracking, gulosos e programação dinâmica aparecem em MLE5005 Programming fundamentals, não neste curso.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdo estrangeiro explícito e sem ambiguidade para a conclusão; o documento é rotulado 2025-2026 e há divergência de horas com data.json.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Documento rotulado 'University year 2025-2026' publicado no catálogo 2026",
+    "data.json registra 56 h de contato; o documento declara 70 h",
+    "Primeiro enunciado oficial brasileiro contém texto de cabeçalho de página",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria MLE5005 Programming fundamentals (complexidade e técnicas de projeto) ou Algorithm designs como alternativa para Análise de Algoritmos?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5005",
+      "name": "Programming fundamentals",
+      "relation": "Programa 2026/27 verificado: complexidade assintótica e greedy, divisão e conquista, backtracking e programação dinâmica; nível introdutório, exige parecer próprio"
+    },
+    {
+      "code": "MLE5173",
+      "name": "Algorithm designs",
+      "relation": "Título próximo da ementa (catálogo, 4º semestre de outra linha, primavera); documento não verificado"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência total dos tópicos essenciais é inequívoca no documento"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

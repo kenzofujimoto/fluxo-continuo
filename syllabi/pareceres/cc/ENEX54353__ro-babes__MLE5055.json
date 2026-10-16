@@ -1,0 +1,191 @@
+{
+  "id": "cc|ENEX54353|ro-babes|MLE5055",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54353",
+    "name": "Lógica Matemática",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 1ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 5, bloco 'Comp. Curricular LÓGICA MATEMÁTICA', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas + 0 práticas presenciais por semana."
+    },
+    "topics": [
+      "Estudo de elementos da teoria dos conjuntos: noção de conjunto e pertinência, subconjunto, operações com conjuntos, produto cartesiano, conjunto das partes, conjuntos numéricos; bases numéricas",
+      "Aborta a representação computacional de números inteiros e de ponto flutuante; funções, injetividade, sobrejetividade, bijetividade",
+      "Apresenta a lógica proposicional, proposições, conectivos lógicos, tabelas- verdade, equivalência proposicional, construção e validação de argumentos; Lógica de predicados, quantificador",
+      "Aborda formas normais e introduz problemas de satisfatibilidade",
+      "Apresenta demonstrações matemáticas princípio da indução matemática"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5055",
+      "name": "Computational Logic",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science in English",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Semestre 1 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento em inglês, publicado no catálogo da linha IE 'Computer Science in English'; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory / Core subject",
+      "assessment": "Prova escrita na sessão de exames 80%, atividade de seminário (exercícios apresentados) 20%; mínimo 5 em ambas; presença mínima de 75% nos seminários",
+      "prerequisites": "Campos 4.1/4.2 em branco no documento",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5055_en_lupea_2026_10200.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "4d17125e2146b53e243cdcb8e12d9ff7470a2eb5e6121fe45a8f2ddfa44adad9",
+      "location": "Course description 2026/2027: secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 7 (resultados), 8.1 (curso), 8.2 (seminário/laboratório), 9 (avaliação); Course 1-14 e Seminar 1-14",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de elementos da teoria dos conjuntos: noção de conjunto e pertinência, subconjunto, operações com conjuntos, produto cartesiano, conjunto das partes, conjuntos numéricos; bases numéricas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secção 7 (resultados), 8.1 Course 1-14, 8.2 Seminars 1-14 e bibliografia; nenhuma unidade de teoria dos conjuntos, conjuntos numéricos ou bases numéricas",
+      "note": "C9 'Boolean algebras' trata estrutura algébrica booleana, não operações com conjuntos nem conjunto das partes."
+    },
+    {
+      "brTopic": "Aborta a representação computacional de números inteiros e de ponto flutuante; funções, injetividade, sobrejetividade, bijetividade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7, 8.1 Course 1-14 e 8.2 Seminars 1-14",
+      "note": "Funções booleanas (C9-C11) são funções em sentido algébrico, mas injetividade/sobrejetividade/bijetividade não são tratadas; representação de inteiros e ponto flutuante não aparece (na UBB está em MLE5004, itens 1-2)."
+    },
+    {
+      "brTopic": "Apresenta a lógica proposicional, proposições, conectivos lógicos, tabelas- verdade, equivalência proposicional, construção e validação de argumentos; Lógica de predicados, quantificador",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Course 1 'Propositional logic – semantics', Course 2 'Propositional logic as a formal system', Course 3 'Predicate (first order) logic', Course 8 modelagem de raciocínio",
+      "foreignLocation": "Secção 8.1 C1-C3 e C8; 8.2 S1-S4 e S10",
+      "note": "Construção e validação de argumentos correspondem à modelagem do raciocínio humano e matemático (C8) e aos métodos de prova semânticos e sintáticos (secção 7, conhecimento 2)."
+    },
+    {
+      "brTopic": "Aborda formas normais e introduz problemas de satisfatibilidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tableaux semânticos (C4-C5) e resolução (C6-C7) em lógica proposicional e de predicados; 'canonical conjunctive form' em C10",
+      "foreignLocation": "Secção 8.1 C4-C7 e C10; 8.2 S5-S9",
+      "note": "Tableaux e resolução são procedimentos de decisão de (in)satisfatibilidade; a forma normal conjuntiva é pré-requisito da resolução."
+    },
+    {
+      "brTopic": "Apresenta demonstrações matemáticas princípio da indução matemática",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Propositional logic as a formal system' e resultado 'syntactic and semantic proof methods in classical logics'; indução matemática não mencionada",
+      "foreignLocation": "Secção 8.1 C2; secção 7, conhecimento 2; 8.2 S3"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Álgebras e funções booleanas; simplificação por Veitch-Karnaugh, Quine e Moisil",
+      "location": "8.1 C9-C11; 8.2 S11-S12"
+    },
+    {
+      "topic": "Circuitos lógicos: portas, análise e síntese, somador, subtrator, codificador, decodificador",
+      "location": "8.1 C12-C14; 8.2 S13-S14"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Representar conhecimento em lógica proposicional e de predicados",
+      "Aplicar métodos de prova sintáticos e semânticos",
+      "Analisar e implementar circuitos lógicos simples com funções booleanas"
+    ],
+    "convergences": [
+      "Lógica proposicional e de predicados",
+      "Satisfatibilidade e formas normais"
+    ],
+    "differences": [
+      "Mackenzie inclui teoria dos conjuntos, funções, bases numéricas e representação computacional de números, ausentes do MLE5055",
+      "UBB dedica cerca de seis das catorze aulas a álgebra booleana e circuitos, ausentes da ementa brasileira",
+      "Indução matemática só no Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de 1º semestre (UBB ano 1; Mackenzie 1ª etapa)",
+    "brazil": "4 h-a teóricas semanais, matemática discreta introdutória",
+    "foreign": "2 h aula + 2 h seminário; 94 h de estudo individual; prova escrita com 80% do peso",
+    "theoryPractice": "Ambas predominantemente teóricas; a UBB avalia resolução de exercícios em seminário (20%)"
+  },
+  "practical": {
+    "period": "Semestre 1 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês na linha IE",
+    "enrolment": "Disciplina core do 1º ano; aceitação de intercambista não verificada. Componente da 1ª etapa Mackenzie, normalmente já cursado antes da mobilidade",
+    "prerequisites": "Campos de pré-requisito vazios no documento",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5055 cobre o núcleo lógico da ementa de Lógica Matemática (proposições, predicados, formas normais e satisfatibilidade), mas omite a metade de matemática discreta (conjuntos, funções, bases e representação numérica) e troca a indução por álgebra booleana e circuitos.",
+  "justification": "Dois dos cinco tópicos essenciais estão integralmente cobertos (C1-C8 e S1-S10 para lógica proposicional/predicados; C4-C7 e C10 para formas normais e satisfatibilidade), um é parcial (demonstração apenas como sistema formal, sem indução) e dois não aparecem: conjuntos/bases numéricas e funções/representação de inteiros e ponto flutuante. A cobertura integral fica em 40% e a soma com parciais em 60%. Contato de 56 h (28 aula + 28 seminário) contra 63,33 h: razão nominal 0,88, que cai para 0,74 se a hora romena for de 50 min.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026/2027 completo e assinado, com horas discriminadas; a classificação depende de dois tópicos brasileiros de matemática discreta claramente ausentes, o que torna o resultado estável, mas a duração da hora romena e a oferta 2027/28 permanecem abertas.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "No cenário de hora de 50 min a razão de carga cai para 0,74, abaixo do parâmetro de 0,75",
+    "Enunciado brasileiro contém erro de digitação ('Aborta' por 'Aborda') reproduzido do ementário oficial",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria complementar conjuntos, funções e representação numérica com outra disciplina da UBB (p.ex. Algebra ou Computer systems architecture)?",
+    "Lógica Matemática ainda estará pendente no histórico do estudante em 2027.2?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE0020",
+      "name": "Algebra",
+      "relation": "Possível complemento para conjuntos e funções; conteúdo não verificado neste parecer"
+    },
+    {
+      "code": "MLE5004",
+      "name": "Computer systems architecture",
+      "relation": "Itens 1-2 da secção 8.1 tratam representação e codificação de inteiros; complemento parcial do tópico 2"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Lacunas objetivas (dois tópicos ausentes) e documentos concordantes; classe parcial não é limítrofe"
+  }
+}

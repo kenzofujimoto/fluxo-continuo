@@ -75,6 +75,25 @@ def _triple(label: str, text: str):
     return {"total": total, "course": course, "seminarLab": sem}
 
 
+def _contact_split(text: str):
+    """Older UBB tables: '70 of which 3.5 course 28 ... 14+28' or course '-'.
+
+    The declared total and lecture hours are kept; seminar/lab hours are kept only when the
+    numbers printed after the lecture value add up exactly to the remainder.
+    """
+    m = re.search(r"3\.4\.?\s*Total (?:of )?hours in the(?: curriculum)?\s*(\d+)\s*of which:?\s*3\.5\.?\s*course\s*(\d+|-)", text, re.I)
+    if not m:
+        return None
+    total = int(m.group(1))
+    course = 0 if m.group(2) == "-" else int(m.group(2))
+    if course > total:
+        return None
+    tail = re.split(r"Time allot|Time allocation", text[m.end():m.end() + 400], flags=re.I)[0]
+    parts = [int(x) for x in re.findall(r"(?<![\d.])(\d{1,3})(?![\d.])", tail)]
+    sem = sum(parts) if parts and sum(parts) == total - course else None
+    return {"total": total, "course": course, "seminarLab": sem}
+
+
 def parse_ubb(text: str, sorted_text: str | None = None) -> dict:
     """Babeș-Bolyai 'Course description' form (sections 1-9).
 
@@ -84,7 +103,7 @@ def parse_ubb(text: str, sorted_text: str | None = None) -> dict:
     t = text
     ht = (sorted_text or "") + "\n" + text
     weekly = _triple(r"3\.1\.?\s*(?:Number of\s*)?hours per week", ht)
-    contact = _triple(r"3\.4\.?\s*Total (?:of )?hours in the(?: curriculum)?", ht)
+    contact = _triple(r"3\.4\.?\s*Total (?:of )?hours in the(?: curriculum)?", ht) or _contact_split(ht)
     hours = {
         "weekly": weekly,
         "contact": contact,
@@ -133,13 +152,19 @@ def _year(text: str):
 _MACK_HEADER = re.compile(r"(?:^|\n)[ \t]*Curso[ \t]*\n([^\n]+)\n\s*N[uú]cleo Tem[aá]tico\s*(.*?)\s*Etapa\s*(\d+)\S*\s*\n\s*Comp\. Curricular\s*(.*?)\s*C[oó]digo", re.S)
 
 
+# Running page header of the FCI PDFs; it must never leak into an ementa that crosses a page break.
+_MACK_PAGE_HEADER = re.compile(r"UNIVERSIDADE PRESBITERIANA MACKENZIE\s*\n\s*Faculdade de Computa\S+ e Inform\S+\s*(?:\n[ \t]*)*\d{1,3}[ \t]*\n")
+# 4 weekly class periods of 50 min correspond to 63,33 h in every consistent FCI block (19 weeks).
+_HOURS_PER_WEEKLY_PERIOD = 63.33 / 4
+
+
 def parse_mackenzie_blocks(text: str) -> list[dict]:
     """Mackenzie FCI 'ementário' component blocks (2025 layout)."""
     out = []
     headers = list(_MACK_HEADER.finditer(text))
     for i, m in enumerate(headers):
         end = headers[i + 1].start() if i + 1 < len(headers) else len(text)
-        seg = text[m.end():end]
+        seg = _MACK_PAGE_HEADER.sub("\n", text[m.end():end])
         hours = _num(_first(r"Carga hor[aá]ria \(horas\)\s*\n\s*([0-9]{1,3}(?:,[0-9]{1,2})?)", seg))
         weekly = None
         # Only trust the three cells (teórica/prática/ateliê) when the layout keeps blank cells,
@@ -164,7 +189,18 @@ def parse_mackenzie_blocks(text: str) -> list[dict]:
             "optional": bool(opt and opt.group(1) == "X"),
             "extensionPercent": _num(ext),
             "ementa": _clean(ementa),
+            "anomalies": _mack_anomalies(hours, weekly),
         })
+    return out
+
+
+def _mack_anomalies(hours, weekly) -> list[str]:
+    out = []
+    if hours is not None and weekly:
+        periods = sum(weekly.values())
+        expected = round(periods * _HOURS_PER_WEEKLY_PERIOD, 2)
+        if abs(expected - hours) > 0.5:
+            out.append(f"Carga declarada {hours} h incompatível com {periods} h-a semanais (padrão do ementário: {expected} h); confirmar com a coordenação")
     return out
 
 

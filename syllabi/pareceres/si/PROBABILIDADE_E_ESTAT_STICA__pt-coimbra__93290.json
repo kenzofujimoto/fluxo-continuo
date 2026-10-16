@@ -1,0 +1,227 @@
+{
+  "id": "si|PROBABILIDADE E ESTATÍSTICA|pt-coimbra|93290",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "PROBABILIDADE E ESTATÍSTICA",
+    "name": "Probabilidade e Estatística",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 27, bloco 'PROBABILIDADE E ESTATÍSTICA', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 63,33 h-relógio no semestre."
+    },
+    "topics": [
+      "Estudo exploratório de dados",
+      "Estatística descritiva",
+      "Gráficos, tabelas e medidas estatísticas",
+      "Introdução à teoria de probabilidades",
+      "Conceitos de variáveis aleatórias",
+      "Distribuições de probabilidade discretas e contínuas",
+      "Introdução à inferência estatística",
+      "Intervalos de confianças",
+      "Testes de hipótese",
+      "Análise de Variância",
+      "Análise de Correlação e Regressão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93290",
+      "name": "Estatística para Economia e Gestão II",
+      "pageCode": "01020818",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json; a página refere também LE); área científica Métodos Quantitativos",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português (única língua de ensino indicada)",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Matemática para Economia e Gestão I e II; Estatística para Economia e Gestão I",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1 modelos probabilísticos, 2 vetores aleatórios, 3 estatística matemática), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/93290/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "56ce61fc6f42bc6ab03b9de070310e163300add8b436983599075b6319d6684c",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto. Código interno: 01020818."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo exploratório de dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-3f, Resultados de Aprendizagem e Bibliografia; a estatística descritiva é pré-requisito (parte I), não conteúdo"
+    },
+    {
+      "brTopic": "Estatística descritiva",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-3f, Resultados de Aprendizagem e Bibliografia; a estatística descritiva é pré-requisito (parte I), não conteúdo",
+      "note": "'Amostragem casual e estatísticas' (3a) refere-se a estatísticas amostrais para inferência."
+    },
+    {
+      "brTopic": "Gráficos, tabelas e medidas estatísticas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-3f, Resultados de Aprendizagem e Bibliografia; a estatística descritiva é pré-requisito (parte I), não conteúdo"
+    },
+    {
+      "brTopic": "Introdução à teoria de probabilidades",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'compreender os conceitos fundamentais associados ao cálculo de probabilidades e a sua aplicação na resolução de problemas que envolvam incerteza'",
+      "foreignLocation": "Resultados de Aprendizagem",
+      "note": "Previsto nos resultados, mas o programa começa nos modelos probabilísticos; os axiomas e a probabilidade condicionada estão na parte I."
+    },
+    {
+      "brTopic": "Conceitos de variáveis aleatórias",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Variáveis aleatórias discretas e contínuas; vetores aleatórios, distribuições conjunta, marginal e condicionada; valor esperado e momentos",
+      "foreignLocation": "Programa, 1a-1b e 2a-2d"
+    },
+    {
+      "brTopic": "Distribuições de probabilidade discretas e contínuas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Bernoulli, binomial, binomial negativa, Poisson; uniforme, exponencial, normal, qui-quadrado; teorema do limite central",
+      "foreignLocation": "Programa, 1a-1c"
+    },
+    {
+      "brTopic": "Introdução à inferência estatística",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Amostragem, distribuições por amostragem, estimação pontual (momentos, máxima verosimilhança), propriedades dos estimadores",
+      "foreignLocation": "Programa, 3a-3d"
+    },
+    {
+      "brTopic": "Intervalos de confianças",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'e) Estimação intervalar'; resultados: 'calculando estimativas pontuais e intervalares'",
+      "foreignLocation": "Programa, 3e; Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Testes de hipótese",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Testes de hipóteses. Testes para populações normais: média e variância'",
+      "foreignLocation": "Programa, 3f"
+    },
+    {
+      "brTopic": "Análise de Variância",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-3f e Resultados de Aprendizagem",
+      "note": "Há testes para a variância de uma população normal, não ANOVA (comparação de várias médias)."
+    },
+    {
+      "brTopic": "Análise de Correlação e Regressão",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-3f e Resultados de Aprendizagem",
+      "note": "Momentos de vetores aleatórios (2d) podem incluir covariância, mas correlação amostral e regressão não são nomeadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Distribuição normal multidimensional e vetores aleatórios",
+      "location": "Programa, 2a-2e"
+    },
+    {
+      "topic": "Métodos de estimação pelos momentos e máxima verosimilhança; propriedades dos estimadores",
+      "location": "Programa, 3c-3d"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário lista conteúdos; não declara competências.",
+    "foreign": [
+      "Distinguir variáveis discretas e contínuas e calcular probabilidades",
+      "Aplicar valor esperado condicionado e não condicionado",
+      "Calcular estimativas pontuais e intervalares",
+      "Implementar testes de hipóteses"
+    ],
+    "convergences": [
+      "Distribuições de probabilidade",
+      "Inferência, intervalos de confiança e testes de hipóteses"
+    ],
+    "differences": [
+      "Coimbra pressupõe a estatística descritiva (parte I) e não a revê",
+      "Coimbra tem formalização matemática maior (máxima verosimilhança, normal multidimensional) e omite ANOVA e regressão"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano de Gestão/Economia, Mackenzie na 5ª etapa de SI",
+    "brazil": "Componente de 63,33 h de cobertura ampla e introdutória",
+    "foreign": "Segunda UC de estatística (6 ECTS), mais matemática; exige Matemática I e II e Estatística I",
+    "theoryPractice": "Aulas teórico-práticas com exercícios; ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json, compatível com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC do plano de Gestão.",
+    "prerequisites": "Estatística I e Matemática I-II recomendadas; estudante de SI tem cálculo, mas não a parte I de Coimbra",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estatística para Economia e Gestão II cobre o núcleo probabilístico e inferencial da ementa Mackenzie (modelos discretos e contínuos, estimação, intervalos e testes de hipóteses), mas não revê a estatística descritiva e omite ANOVA e correlação/regressão.",
+  "justification": "Cinco dos onze tópicos essenciais estão cobertos (variáveis aleatórias, distribuições, inferência, intervalos, testes), um parcialmente (fundamentos de probabilidade apenas nos resultados) e cinco ausentes: os três descritivos, pressupostos da parte I, mais ANOVA e regressão. A razão coberto+parcial é 6/11 (55%). Sem horas de contacto (só 6 ECTS) não há comparação com 63,33 h. É a mais viável das duas UC de estatística para 2027.2, por estar indicada no 1º semestre.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa e resultados explícitos; faltam horas de contacto e confirmação do semestre na própria página.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Semestre indicado apenas no data.json; oferta 2027/28 não confirmada",
+    "Pré-requisito formal de Estatística I de Coimbra pode exigir comprovação por histórico Mackenzie",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de SI considera a estatística descritiva suprida por formação anterior do estudante?",
+    "ANOVA e regressão poderiam ser compensadas por 91503/91506 no mesmo período?"
+  ],
+  "alternatives": [
+    {
+      "code": "93289",
+      "name": "Estatística para Economia e Gestão I",
+      "relation": "Cobre descritiva e probabilidades, mas indicada no 2º semestre"
+    },
+    {
+      "code": "91506",
+      "name": "Análise de Dados e Gestão de Informação II",
+      "relation": "Contém regressão linear múltipla; avaliação própria necessária"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Ausência do bloco descritivo e de ANOVA/regressão exige decisão da coordenação"
+  }
+}

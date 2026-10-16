@@ -1,0 +1,176 @@
+{
+  "id": "cc|ENEX60050|ro-babes|MLE5270",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60050",
+    "name": "Paradigmas de Programação",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF da 5ª etapa, p. 6 (numeração impressa 105), bloco 'Comp. Curricular PARADIGMAS DE PROGRAMAÇÃO'; o próprio bloco registra 'Etapa 7'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas presenciais; a matriz do projeto (data.json) registra 31,667 h e semestre 5 para o mesmo código. Divergência não resolvida: usa-se o valor do ementário."
+    },
+    "topics": [
+      "Estudo evolutivo das linguagens de programação",
+      "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5270",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem6_MLE5270_en_craciunf_2026_10927.pdf",
+      "sha256": "8ee0f86fd605b1f3be64d14c4f7e717da1fa1dfa9217bc76d058d3122987e15f",
+      "name": "Rust Programming",
+      "programme": "Computer Science",
+      "yearOfStudy": 3,
+      "semester": 6,
+      "period": "Semestre 6 = 2º semestre do ano letivo (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo)",
+      "courseStatus": "Elective",
+      "assessment": "C (colóquio): exame escrito e quizzes 50%, tarefas de laboratório (100 Exercises to Learn Rust) 50%",
+      "prerequisites": "Fundamentals of Programming; 'Basic low-level programming skills'",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Syllabus 'University year 2026-2027': secções 2, 3.1-3.9, 4, 7.1-7.2, 8.1 (itens 1-12), 8.2 (itens 1-6, quinzenais), 10",
+      "hours": {
+        "weekly": {
+          "declaredTotal": 7,
+          "course": 2,
+          "lab": 1,
+          "project": 2
+        },
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 30,
+        "totalWorkload": 90,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Secção 3.1 declara 7 h semanais, mas as parcelas 3.2-3.3 somam 2 + 1 Lab + 2 Pr = 5; totais semestrais 60 = 24 + 36 usados como declarados."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo evolutivo das linguagens de programação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7.1-7.2, 8.1 (itens 1-12) e 8.2 (itens 1-6) do programa MLE5270",
+      "note": "A introdução (item 1) apresenta Rust diretamente, sem histórico ou evolução das linguagens."
+    },
+    {
+      "brTopic": "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Memory Management and Smart Pointers'; 'Borrowing and Lifetimes'; 'Pattern Matching, Methods and Traits, Generics'; 'Closures'",
+      "foreignLocation": "Secção 8.1, itens 2-6; secção 7.2 ('ownership and algebraic types')",
+      "note": "Imperativo: tempo de vida, referências/ponteiros, tipagem estática. Funcional: closures, iteradores, tipos algébricos e pattern matching. Polimorfismo via traits e genéricos. Ausentes: classes e herança (inexistentes em Rust), cálculo lambda, avaliação lazy explícita, compreensão de listas e todo o paradigma lógico."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Tratamento de erros e unsafe Rust",
+      "location": "8.1 item 8"
+    },
+    {
+      "topic": "Padrões idiomáticos de Rust",
+      "location": "8.1 item 9"
+    },
+    {
+      "topic": "Concorrência: threads e futures",
+      "location": "8.1 itens 10-11; 8.2 item 5"
+    },
+    {
+      "topic": "Módulos e testes",
+      "location": "8.1 item 7"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa pede comparação dos paradigmas imperativo, OO, funcional e lógico.",
+    "foreign": [
+      "Raciocinar sobre programas com sistema de tipos linear guiado por ownership (6.2)",
+      "Compreender tipos algébricos e segurança de memória/threads em compilação (7.2)"
+    ],
+    "convergences": [
+      "Tempo de vida, ponteiros e tipagem estática (eixo imperativo)",
+      "Closures, tipos algébricos e polimorfismo paramétrico (eixo funcional)"
+    ],
+    "differences": [
+      "Única linguagem estudada, sem comparação entre paradigmas",
+      "Sem programação lógica e sem herança de classes",
+      "Sem estudo histórico"
+    ]
+  },
+  "depth": {
+    "level": "UBB 3º ano, semestre 6, eletiva; Mackenzie etapa 5/7 (divergência documental)",
+    "brazil": "Componente teórico de 2 h-a semanais",
+    "foreign": "11 aulas e exame (24 h), laboratório quinzenal e projeto (36 h)",
+    "theoryPractice": "UBB 60% prática; Mackenzie sem horas práticas declaradas"
+  },
+  "practical": {
+    "period": "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "language": "Inglês (documento e catálogo IE)",
+    "enrolment": "Eletiva (Elective); vagas não verificadas",
+    "prerequisites": "Fundamentals of Programming",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Rust programming (MLE5270) aprofunda tempo de vida, ponteiros inteligentes, tipagem estática, closures e polimorfismo por traits — parte dos eixos imperativo e funcional de Paradigmas de Programação —, mas numa única linguagem, sem herança de classes, sem paradigma lógico e sem estudo evolutivo.",
+  "justification": "Um tópico parcial (itens 2-6 da secção 8.1) e um não encontrado resultam em afinidade parcial pela regra interna (50% dos tópicos com alguma cobertura, nenhum integral). As 60 h de contato (24 + 36) dão razão 0,947 sobre as 63,33 h do ementário, que por sua vez diverge das 31,667 h da matriz. Pesam contra: eletiva do semestre 6 (primavera), avaliação por colóquio e 7 h semanais declaradas, incompatíveis com as parcelas 2 + 1 + 2.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026-2027 individual; a confiança cai pela inconsistência de horas semanais na UBB e pela divergência de carga/etapa no componente brasileiro.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Carga horária brasileira divergente: ementário 63,33 h com 2 h-a teóricas semanais; matriz data.json 31,667 h; bloco do PDF da 5ª etapa registra 'Etapa 7'",
+    "Horas semanais de MLE5270 internamente inconsistentes (7 declaradas; 2 + 1 + 2 nas parcelas)",
+    "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita uma disciplina de linguagem única como cobertura parcial de paradigmas comparados?",
+    "Combinar MLE5270 com MLE5009 (funcional e lógica) seria aceitável para cobrir o paradigma lógico?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5009",
+      "name": "Functional and logic programming",
+      "relation": "Semestre 3 (outono); título indica paradigma lógico ausente em MLE5270; programa não lido"
+    },
+    {
+      "code": "MLE5172",
+      "name": "Programming paradigms",
+      "relation": "Programa lido neste lote: compara Java, C#, Scala e Rust; linha IIE, semestre 3 (outono)"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe no limite (50% exato com só um tópico parcial) e carga horária brasileira divergente"
+  }
+}

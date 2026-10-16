@@ -1,0 +1,194 @@
+{
+  "id": "si|SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO|pt-coimbra|2038756",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO",
+    "name": "Segurança em Tecnologia da Informação",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 28, bloco 'SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 63,33 h-relógio no semestre."
+    },
+    "topics": [
+      "Conceitos Fundamentais de Segurança da Informação",
+      "Introdução à Criptografia",
+      "Introdução de Segurança de Operações",
+      "Introdução de Segurança de desenvolvimento de software",
+      "Introdução aos Padrões de Segurança",
+      "Família ISO 27000 e ISO 22301",
+      "Introdução à Lei Brasileira e Privacidade dos Dados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "2038756",
+      "name": "Segurança e Privacidade",
+      "pageCode": "02038756",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Plano indicado na página: Cibersegurança (2º Ciclo - Mestrado); área científica Cibersegurança",
+      "level": "2º Ciclo - Mestrado",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; semestre não indicado na página (data.json: 'Outono a confirmar')",
+      "academicYear": "2026/2027",
+      "language": "Português (língua de ensino); inglês como outra língua de ensino",
+      "courseStatus": "Opcional",
+      "assessment": "Projeto 50%, exame 50%",
+      "prerequisites": "Conhecimentos de Base Recomendados: programação, conceitos básicos de bases de dados, engenharia de redes e sistemas de informação",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino (T e PL), Resultados de Aprendizagem, Programa (Tópicos 1-12), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/88926/25144/2026-2027?id=5041&type=ram",
+      "sha256": "a8aef2350d188c343120a1b280bb1bf6ee41f43cf32ca4f71bcf98b484112176",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página indica aulas T e PL e 6,0 ECTS, mas não quantifica horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos Fundamentais de Segurança da Informação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tópico 1 'Fundamentos da Privacidade e Segurança'; resultados: 'conceitos fundamentais de segurança com foco na privacidade'",
+      "foreignLocation": "Programa, Tópico 1; Resultados de Aprendizagem",
+      "note": "Os fundamentos são enquadrados pela privacidade, não pela tríade de segurança em sentido amplo."
+    },
+    {
+      "brTopic": "Introdução à Criptografia",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Encriptação pesquisável (Tópico 7), encriptação homomórfica (Tópico 11), criptografia pós-quântica (Tópico 12)",
+      "foreignLocation": "Programa, Tópicos 7, 11 e 12",
+      "note": "São técnicas criptográficas avançadas; a introdução (cifras simétricas/assimétricas, hash) não é listada e parece pressuposta."
+    },
+    {
+      "brTopic": "Introdução de Segurança de Operações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (Tópicos 1-12), Resultados de Aprendizagem e Métodos de Ensino",
+      "note": "Proteção de dados 'em armazenamento, comunicação e processamento' é tratada por técnicas de privacidade, não por operação de segurança (monitorização, resposta a incidentes, controlos operacionais)."
+    },
+    {
+      "brTopic": "Introdução de Segurança de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'as ferramentas necessárias para desenvolver aplicações que lidem com dados sensíveis'",
+      "foreignLocation": "Resultados de Aprendizagem; aulas PL com exercícios e projetos",
+      "note": "Foco em privacidade de dados nas aplicações; não há ciclo de desenvolvimento seguro nem vulnerabilidades de software."
+    },
+    {
+      "brTopic": "Introdução aos Padrões de Segurança",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (Tópicos 1-12), Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Família ISO 27000 e ISO 22301",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (Tópicos 1-12), Resultados de Aprendizagem e Bibliografia (12 referências, nenhuma norma ISO)"
+    },
+    {
+      "brTopic": "Introdução à Lei Brasileira e Privacidade dos Dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'questões de privacidade, incluindo as obrigações éticas e legais das organizações'",
+      "foreignLocation": "Resultados de Aprendizagem",
+      "note": "Privacidade é o eixo da UC, mas a dimensão legal aparece só nos resultados e sem referência à LGPD (esperável numa UC portuguesa)."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Publicação de dados com preservação de privacidade e geração de dados sintéticos",
+      "location": "Programa, Tópicos 2 e 9"
+    },
+    {
+      "topic": "Computação segura entre múltiplas partes e autenticação anónima",
+      "location": "Programa, Tópicos 3 e 4"
+    },
+    {
+      "topic": "Privacidade de localização e gestão da pegada digital",
+      "location": "Programa, Tópicos 5 e 6"
+    },
+    {
+      "topic": "IA preservadora de privacidade e aprendizagem de máquina adversarial",
+      "location": "Programa, Tópicos 8 e 10"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário lista conteúdos introdutórios; não declara objetivos ou competências.",
+    "foreign": [
+      "Compreender princípios de privacidade ao longo do ciclo de vida dos dados",
+      "Aplicar técnicas de preservação de privacidade em armazenamento, comunicação e processamento",
+      "Desenvolver aplicações que tratem dados sensíveis"
+    ],
+    "convergences": [
+      "Fundamentos de segurança",
+      "Privacidade de dados"
+    ],
+    "differences": [
+      "Mackenzie é panorâmica e normativa (operações, padrões, ISO 27000/22301, lei brasileira)",
+      "Coimbra é especializada em tecnologias de preservação de privacidade e criptografia avançada"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra: 2º Ciclo (mestrado), 1º ano, mestrado em Cibersegurança; Mackenzie: graduação, 5ª etapa. A UC estrangeira excede o nível introdutório e pressupõe programação, bases de dados e redes.",
+    "brazil": "Componente obrigatório de 63,33 h com sete enunciados 'introdução a'",
+    "foreign": "Optativa de 6 ECTS, aulas teóricas e práticas laboratoriais com projeto (50% da nota)",
+    "theoryPractice": "Coimbra declara T + PL; o ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "Semestral; semestre não declarado na página (data.json: 'Outono a confirmar')",
+    "language": "Português, com inglês como alternativa",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; trata-se de optativa do mestrado em Cibersegurança, pelo que a admissão de graduando fica condicionada.",
+    "prerequisites": "Programação, bases de dados, redes e SI recomendados; estudante de SI na 5ª etapa pode ainda não ter redes",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Segurança e Privacidade é uma optativa de mestrado centrada em tecnologias de preservação de privacidade (computação multipartes, encriptação homomórfica e pesquisável, IA preservadora); da ementa Mackenzie só os fundamentos ficam claramente cobertos, e operações, padrões e normas ISO 27000/22301 não aparecem.",
+  "justification": "Um dos sete tópicos essenciais está coberto, três parcialmente (criptografia apenas em técnicas avançadas, desenvolvimento só quanto a dados sensíveis, privacidade sem lei brasileira) e três ausentes (segurança de operações, padrões de segurança, ISO 27000/22301). A soma coberto+parcial atinge 4/7, o que a regra interna classifica como afinidade parcial; adota-se classe mais conservadora porque as coberturas parciais são tangenciais e todo o bloco normativo do componente brasileiro falta. As 63,33 h Mackenzie não podem ser comparadas: a página só declara 6 ECTS.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "As três coberturas parciais são periféricas (criptografia avançada sem introdução, desenvolvimento só quanto a privacidade, legislação genérica) e faltam operações, padrões e ISO 27000/22301, que formam metade da ementa; a UC é especialização de mestrado, não introdução à segurança.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa com doze tópicos e resultados detalhados; faltam horas de contacto e semestre. A conclusão de baixa afinidade decorre do conteúdo e não mudaria com as horas.",
+  "limitations": [
+    "Oferta em 2027/28 e semestre não confirmados",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "UC de 2º ciclo do mestrado em Cibersegurança: inscrição condicionada à aprovação dos coordenadores",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "Existe em Coimbra UC de licenciatura de segurança da informação com normas ISO e operações, mais próxima da ementa Mackenzie?",
+    "A coordenação de SI admitiria esta UC como optativa e não como substituta do componente obrigatório?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergência de escopo evidente no programa; classe conservadora justificada"
+  }
+}

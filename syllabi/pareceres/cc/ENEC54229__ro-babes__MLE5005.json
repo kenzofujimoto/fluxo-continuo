@@ -1,0 +1,179 @@
+{
+  "id": "cc|ENEC54229|ro-babes|MLE5005",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54229",
+    "name": "Algoritmos e Programação II",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 2ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5005",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Departament of Computer Science (grafia do documento)",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5005_en_arthur_2026_10324.pdf",
+      "sha256": "5b6f7f84d291ca6d4faab216a3362ed62c83e9f44d9117c2d6615b201c2fdb13",
+      "name": "Programming fundamentals",
+      "programme": "Computer Science (in English)",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Semestre 1 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (Computer Science in English)",
+      "courseStatus": "Compulsory / Specialisation subject",
+      "assessment": "Exame escrito 30%, avaliação prática 30%, portfólio de programas e documentação 40%; mínimo 5 em cada componente",
+      "prerequisites": "Nenhum (secções 4.1 e 4.2 com '-')",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Course description 2026-2027: secções 2, 3.1-3.9, 4, 6.1-7, 8.1 (10 unidades), 8.2 (10 sessões), 9 (avaliação)",
+      "hours": {
+        "weekly": {
+          "total": 6,
+          "course": 2,
+          "seminarLab": 4
+        },
+        "contactTotal": 84,
+        "contactLecture": 28,
+        "contactSeminarLab": 56,
+        "selfStudy": 66,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Recursion. Algorithm complexity': recursão direta e indireta, análise empírica e assintótica, notações big-o, little-o, omega, theta",
+      "foreignLocation": "Secção 8.1, unidade 'Recursion. Algorithm complexity'; secção 8.2, sessão 2",
+      "note": "Técnicas iterativas aparecem em 'Procedural programming' (funções, laços em Python) e na análise de algoritmos de busca/ordenação."
+    },
+    {
+      "brTopic": "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Search methods: sequential, binary, exponential. Sort methods: bubble sort, selection sort, insertion sort ... quick sort, merge sort'",
+      "foreignLocation": "Secção 8.1, unidade 'Searching. Sorting'; secção 8.2, sessão 3",
+      "note": "Ordenação avançada representada por quick sort e merge sort, com análise de complexidade; heapsort e shellsort não são citados."
+    },
+    {
+      "brTopic": "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Compound types in Python: list, tuple, dictionary'",
+      "foreignLocation": "Secção 8.1, unidade 'Procedural programming'; secção 8.2, sessão 5",
+      "note": "Listas de Python fazem o papel de vetores; matrizes não são nomeadas e não há tratamento de arranjos de tamanho fixo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Métodos de resolução: guloso, divisão e conquista, backtracking, programação dinâmica",
+      "location": "8.1 'Problem solving methods'; 8.2 sessão 4"
+    },
+    {
+      "topic": "Programação modular, responsabilidade única, acoplamento/coesão, arquitetura em camadas",
+      "location": "8.1 'Modular programming' e 'Program design guidelines'; 8.2 sessões 6 e 9"
+    },
+    {
+      "topic": "Classes, objetos, encapsulamento, herança e exceções em Python",
+      "location": "8.1 'Classes and objects', 'Object based programming'; 8.2 sessões 7-8"
+    },
+    {
+      "topic": "Testes automatizados com PyUnit, TDD, refatoração; UML de classes",
+      "location": "8.1 'Program testing and refactoring', 'Program design guidelines'"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa destaca recursão, eficiência/complexidade, busca, ordenação e vetores/matrizes.",
+    "foreign": [
+      "Conhecer conceitos-chave de programação (7)",
+      "Executar, testar e depurar programas Python (7)",
+      "CP1 create software; CP9 fix software bugs; CP11 use software design patterns (6.1)"
+    ],
+    "convergences": [
+      "Recursão e análise assintótica",
+      "Busca e ordenação elementares e avançadas com análise de complexidade"
+    ],
+    "differences": [
+      "UBB acrescenta métodos de projeto de algoritmos (guloso, divisão e conquista, backtracking, programação dinâmica) e engenharia de software básica (TDD, UML, camadas)",
+      "Mackenzie nomeia vetores e matrizes; UBB trabalha listas, tuplas e dicionários de Python",
+      "UBB não exige pré-requisito; é disciplina de entrada que também abrange conteúdos de AP I"
+    ]
+  },
+  "depth": {
+    "level": "UBB 1º ano, semestre 1, sem pré-requisitos; Mackenzie 2ª etapa",
+    "brazil": "2 h-a teóricas + 2 práticas por semana, foco algorítmico",
+    "foreign": "2 h de curso + 4 h de seminário/laboratório por semana; portfólio de programas vale 40% da nota",
+    "theoryPractice": "UBB: 56 de 84 h de contato em seminário/laboratório (67%)"
+  },
+  "practical": {
+    "period": "Oferta no 1º semestre do ano letivo europeu (outono), coincidente com 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês (Computer Science in English)",
+    "enrolment": "Exige 10 presenças em seminário e 12 em laboratório (9.6); disciplina de 1º ano, aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum (4.1 e 4.2 com '-')",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Programming fundamentals (MLE5005) reúne, em Python, recursão, notação assintótica, busca sequencial/binária/exponencial e cinco algoritmos de ordenação com análise de complexidade — o núcleo de Algoritmos e Programação II —, mas não nomeia vetores e matrizes, tratando apenas listas, tuplas e dicionários.",
+  "justification": "Dois dos três tópicos essenciais estão integralmente cobertos pelas unidades 'Recursion. Algorithm complexity' e 'Searching. Sorting' (secção 8.1, sessões 2-3 da 8.2); o terceiro é parcial porque matrizes não aparecem. A cobertura integral de 66,7%, abaixo do limiar interno de 75%, impede a alta afinidade, apesar de as 84 h de contato (28 + 56) superarem as 63,33 h Mackenzie (razão 1,33; 1,11 com hora de 50 min). Cerca de metade do programa trata de modularização, POO, UML e testes, o que dilui o foco algorítmico sem retirar conteúdo exigido.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026-2027 completo, com horas discriminadas e unidades nomeadas; reduzem a confiança a hora romena sem duração declarada e a ementa brasileira resumida em três enunciados.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "A ementa brasileira não detalha quais algoritmos 'avançados' de ordenação são exigidos",
+    "Disciplina de 1º ano da UBB: nível introdutório também cobre AP I, o que pode gerar sobreposição de aproveitamentos",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Listas de Python bastam para o tópico 'vetores e matrizes', ou a coordenação exige matrizes explícitas?",
+    "A UBB admite intercambistas em disciplina de 1º ano da linha em inglês no outono de 2027?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5022",
+      "name": "Data structures and algorithms",
+      "relation": "Semestre 2 (primavera), 5 ECTS; apenas título visto em data.json, programa não lido; pode complementar estruturas lineares"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe depende do julgamento sobre matrizes no tópico 3: se aceito como coberto, a regra passaria a alta afinidade"
+  }
+}

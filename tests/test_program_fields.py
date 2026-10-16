@@ -178,3 +178,22 @@ def test_split_ementa_fine_breaks_long_legal_paragraphs_on_sentences_and_semicol
     assert split_ementa_fine(t) == ["Estudo do pluralismo jurídico",
                                     "A análise suscita reflexões como: a discussão do pluralismo",
                                     "exame da aculturação jurídica", "análise dos direitos humanos"]
+
+
+def test_mackenzie_page_header_inside_ementa_is_removed_and_anomalies_flagged():
+    txt = ("Curso \nCIÊNCIA DA COMPUTAÇÃO \nNúcleo Temático \nX \nEtapa \n7 \nComp. Curricular \nPARADIGMAS DE PROGRAMAÇÃO \n"
+           "Código\n \nCarga horária (horas) \n63,33 \nPresencial \n2 \n \n \nEspecífico \nEmenta  \n"
+           "\n\x0c\nUNIVERSIDADE PRESBITERIANA MACKENZIE \nFaculdade de Computação e Informática \n \n \n105 \n \n"
+           "Estudo evolutivo das linguagens. \nBibliografia básica \nX")
+    b = parse_mackenzie_blocks(txt.replace("\n\x0c\n", "\n"))[0]
+    assert b["ementa"] == "Estudo evolutivo das linguagens."
+    assert any("h-a semanais" in a for a in b["anomalies"])
+
+
+def test_ubb_older_tables_with_split_seminar_lab_or_dash():
+    a = parse_ubb("x", "  3.4. Total of hours in the curriculum    70   of which: 3.5. course  28     3.6. seminar/ laboratory         14+28\n Time allocation")
+    assert a["hours"]["contact"] == {"total": 70, "course": 28, "seminarLab": 42}
+    b = parse_ubb("x", " 3.4. Total hours in the curriculum       28    of which: 3.5 course       -                            28  seminar\nTime allotment")
+    assert b["hours"]["contact"] == {"total": 28, "course": 0, "seminarLab": 28}
+    c = parse_ubb("x", " 3.4. Total hours in the curriculum       84    of which: 3.5 course   28\n  seminar/laboratory/project   + 28 lab\nTime allotment")
+    assert c["hours"]["contact"] == {"total": 84, "course": 28, "seminarLab": None}

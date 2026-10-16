@@ -1,0 +1,173 @@
+{
+  "id": "cc|ENEX60050|ro-babes|MLE5005",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60050",
+    "name": "Paradigmas de Programação",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF da 5ª etapa, p. 6 (numeração impressa 105), bloco 'Comp. Curricular PARADIGMAS DE PROGRAMAÇÃO'; o próprio bloco registra 'Etapa 7'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas presenciais; a matriz do projeto (data.json) registra 31,667 h e semestre 5 para o mesmo código. Divergência não resolvida: usa-se o valor do ementário."
+    },
+    "topics": [
+      "Estudo evolutivo das linguagens de programação",
+      "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5005",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Departament of Computer Science (grafia do documento)",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5005_en_arthur_2026_10324.pdf",
+      "sha256": "5b6f7f84d291ca6d4faab216a3362ed62c83e9f44d9117c2d6615b201c2fdb13",
+      "name": "Programming fundamentals",
+      "programme": "Computer Science (in English)",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Semestre 1 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (Computer Science in English)",
+      "courseStatus": "Compulsory / Specialisation subject",
+      "assessment": "Exame escrito 30%, avaliação prática 30%, portfólio de programas e documentação 40%; mínimo 5 em cada componente",
+      "prerequisites": "Nenhum (secções 4.1 e 4.2 com '-')",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Course description 2026-2027: secções 2, 3.1-3.9, 4, 6.1-7, 8.1 (10 unidades), 8.2 (10 sessões), 9 (avaliação)",
+      "hours": {
+        "weekly": {
+          "total": 6,
+          "course": 2,
+          "seminarLab": 4
+        },
+        "contactTotal": 84,
+        "contactLecture": 28,
+        "contactSeminarLab": 56,
+        "selfStudy": 66,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo evolutivo das linguagens de programação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (10 unidades) e 8.2 (10 sessões) do programa MLE5005",
+      "note": "Não há unidade sobre história ou evolução das linguagens; a introdução trata de algoritmo, programa e interpretador Python."
+    },
+    {
+      "brTopic": "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Procedural programming' (funções, escopo de variáveis); 'Classes and objects'; 'Object based programming: information hiding, encapsulation, inheritance, dynamic typing'",
+      "foreignLocation": "Secção 8.1, unidades 5, 7 e 8; secção 8.2, sessões 5, 7 e 8",
+      "note": "Cobre, em Python, parte do imperativo (escopo, tipagem dinâmica) e do OO (classes, objetos, herança). Ausentes: tipo ponteiro, tipagem estática, cálculo lambda, avaliação lazy, funções de alta ordem e todo o paradigma lógico (cláusulas de Horn, fatos e regras). Backtracking aparece só como método algorítmico (unidade 4)."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Recursão, complexidade assintótica, busca e ordenação",
+      "location": "8.1 unidades 2-3"
+    },
+    {
+      "topic": "Métodos guloso, divisão e conquista, backtracking, programação dinâmica",
+      "location": "8.1 unidade 4"
+    },
+    {
+      "topic": "Arquitetura em camadas, princípios de projeto, UML",
+      "location": "8.1 unidades 6 e 9"
+    },
+    {
+      "topic": "Testes com PyUnit, TDD e refatoração",
+      "location": "8.1 unidade 10"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa pede estudo evolutivo das linguagens e comparação de quatro paradigmas (imperativo, OO, funcional, lógico).",
+    "foreign": [
+      "Conhecer paradigmas modernos de programação e metodologias de desenvolvimento (CP4, 6.2)",
+      "Criar aplicações de console em paradigma estruturado ou OO em Python (7)"
+    ],
+    "convergences": [
+      "Conceitos imperativos de escopo e tipagem dinâmica",
+      "Classes, objetos e herança"
+    ],
+    "differences": [
+      "UBB não trata paradigmas funcional e lógico nem história das linguagens",
+      "MLE5005 é disciplina de fundamentos de programação, não de linguagens comparadas"
+    ]
+  },
+  "depth": {
+    "level": "UBB 1º ano, semestre 1; Mackenzie 5ª etapa na matriz (bloco do ementário indica 7)",
+    "brazil": "Componente teórico (2 h-a teóricas semanais declaradas)",
+    "foreign": "2 h de curso + 4 h de seminário/laboratório por semana",
+    "theoryPractice": "UBB fortemente prática (56 de 84 h); Mackenzie sem horas práticas declaradas"
+  },
+  "practical": {
+    "period": "Oferta no 1º semestre do ano letivo europeu (outono), coincidente com 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês (Computer Science in English)",
+    "enrolment": "Disciplina de 1º ano; 10 presenças em seminário e 12 em laboratório (9.6)",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Programming fundamentals (MLE5005) ensina programação procedural e baseada em objetos em Python; não estuda a evolução das linguagens nem os paradigmas funcional e lógico que estruturam Paradigmas de Programação.",
+  "justification": "O tópico de estudo evolutivo não foi encontrado e o tópico dos quatro paradigmas é parcial: as unidades 5, 7 e 8 da secção 8.1 cobrem escopo, tipagem dinâmica, classes, objetos e herança. A regra numérica daria afinidade parcial (1 de 2 tópicos com alguma cobertura), aqui rebaixada para baixa afinidade porque metade dos paradigmas listados (funcional e lógico) e os itens de ponteiro e tipagem estática estão ausentes. Horas: 84 h de contato contra 63,33 h do ementário (razão 1,33), valor que diverge das 31,667 h da matriz do projeto.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A ementa brasileira concentra quatro paradigmas num único enunciado; o 'parcial' de MLE5005 corresponde só a escopo, tipagem dinâmica, classes e herança em Python, sem paradigma funcional nem lógico e sem estudo comparativo. Com apenas dois tópicos, um parcial atinge 50% e superestima a afinidade.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa estrangeiro 2026-2027 completo; a confiança cai pela divergência de carga horária e etapa no lado brasileiro (63,33 h x 31,667 h; etapa 5 x 7) e pelo rebaixamento manual.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Carga horária brasileira divergente: ementário 63,33 h com 2 h-a teóricas semanais; matriz data.json 31,667 h; bloco do PDF da 5ª etapa registra 'Etapa 7'",
+    "Ementa brasileira com dois enunciados longos: a granularidade dificulta a medição de cobertura",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Qual é a carga horária vigente de ENEX60050: 63,33 h (ementário) ou 31,667 h (matriz)?",
+    "A coordenação aceitaria combinação MLE5005 + MLE5009 para cobrir os paradigmas funcional e lógico?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5009",
+      "name": "Functional and logic programming",
+      "relation": "Semestre 3 (outono), 6 ECTS; título indica os paradigmas ausentes em MLE5005; programa não lido neste parecer"
+    },
+    {
+      "code": "MLE5172",
+      "name": "Programming paradigms",
+      "relation": "Programa lido neste lote: Java, C#, Scala e Rust com programação procedural, OO e funcional (lambdas, streams); sem programação lógica; linha IIE, semestre 3"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Rebaixamento manual da classe derivada e divergência de carga horária/etapa no componente brasileiro"
+  }
+}

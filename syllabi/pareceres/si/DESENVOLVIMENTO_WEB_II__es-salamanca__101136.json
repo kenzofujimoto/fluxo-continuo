@@ -1,0 +1,188 @@
+{
+  "id": "si|DESENVOLVIMENTO WEB II|es-salamanca|101136",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "DESENVOLVIMENTO WEB II",
+    "name": "Desenvolvimento Web II",
+    "courseName": "Sistemas de Informação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Ementário SI Alphaville 2025, PDF p. 7, bloco 'DESENVOLVIMENTO WEB II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário declara 63,33 h-relógio; distribuição semanal não extraída."
+    },
+    "topics": [
+      "Conceitos de integração de sistemas web",
+      "Construção de websites com conteúdo dinâmico",
+      "Construção de sistemas Web com linguagens do lado do servidor",
+      "Desenvolvimento de APIs para fornecimento de serviço online do lado do servidor, com acesso a banco de dados",
+      "Consumo de serviços de APIs como forma de integração de sistemas web",
+      "Práticas de Extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101136",
+      "name": "Desarrollo de Aplicaciones Avanzadas",
+      "faculty": "Facultad de Ciencias",
+      "department": "Informática y Automática",
+      "programme": "Doble Titulación de Grado en Estadística y en Ingeniería Informática",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 5,
+      "semester": "Primer Semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Campo 'Carácter' vazio no documento",
+      "assessment": "Avaliação contínua 30%, trabalho final com defesa obrigatória 70% (mínimo 3/10); uso de Git obrigatório",
+      "prerequisites": "Recomenda-se ter superado Programación III e Interfaces Gráficas de Usuario",
+      "source": "https://guias.usal.es/node/255695?plan=79987",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "9b6f8d5c5fc6ebdbe792b0ae746482aa4552563e8fcb5177a520669164506d38",
+      "location": "Guía 2026/2027 (plano da dupla titulação): secções 1, 2, 3 (objetivos), 5 (Teoría 11 temas; Práctica 7 itens), 6 (metodologia, presencialidade 40% dos ECTS), 8, 9",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece apenas com o título e a data no texto obtido; a tabela de horas não foi capturada. Só 6 ECTS explícitos; ECTS não convertidos em horas. A secção 6 declara que as atividades presenciais 'suponen el 40 % de los créditos ECTS'; percentual não convertido em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos de integração de sistemas web",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Introducción a los servicios web...', 'Arquitectura de aplicaciones frontend y backend'; objetivo inclui comunicação cliente-servidor",
+      "foreignLocation": "Secção 5 Teoría, temas 1-2; secção 3"
+    },
+    {
+      "brTopic": "Construção de websites com conteúdo dinâmico",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "HTML, CSS e JavaScript; frameworks de componentes; 'Componentes, estado, eventos y reactividad'; prática com Vue.js",
+      "foreignLocation": "Secção 5 Teoría, temas 3-7; Práctica, itens 1-3"
+    },
+    {
+      "brTopic": "Construção de sistemas Web com linguagens do lado do servidor",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivos: 'se introducirán aspectos relacionados con el desarrollo de backends'; nenhum tema dedicado a linguagem do lado do servidor",
+      "foreignLocation": "Secção 3; secção 5 Teoría tema 2",
+      "note": "Node.js e Express aparecem só em 'Otras referencias'; o foco declarado é o frontend."
+    },
+    {
+      "brTopic": "Desenvolvimento de APIs para fornecimento de serviço online do lado do servidor, com acesso a banco de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Consumo y diseño básico de APIs REST y nociones básicas de GraphQL'; 'Autenticación, seguridad básica y persistencia de datos'",
+      "foreignLocation": "Secção 5 Teoría, temas 8-9; Práctica, item 5",
+      "note": "Projeto de API apenas 'básico'; acesso a banco de dados no servidor não é explícito (Firebase e MongoDB só nas referências)."
+    },
+    {
+      "brTopic": "Consumo de serviços de APIs como forma de integração de sistemas web",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Consumo de APIs y comunicación con servicios backend'; avaliação valoriza 'el consumo de servicios web'",
+      "foreignLocation": "Secção 5 Práctica, item 4; secção 9"
+    },
+    {
+      "brTopic": "Práticas de Extensão",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 5, 6 e 9 lidas; nenhuma atividade extensionista",
+      "note": "Práticas de Extensão são exigência curricular do Mackenzie sem equivalente esperado em guia estrangeira; não essencial para o cotejo de conteúdo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Roteamento e navegação entre vistas; gestão de estado global",
+      "location": "Secção 5 Teoría, temas 6-7"
+    },
+    {
+      "topic": "Desenvolvimento multiplataforma: PWA, Ionic/Capacitor",
+      "location": "Secção 5 Teoría, tema 10"
+    },
+    {
+      "topic": "Implantação, otimização e manutenção de aplicações",
+      "location": "Secção 5 Teoría, tema 11; Práctica, item 7"
+    },
+    {
+      "topic": "Usabilidade, design adaptável e experiência do usuário",
+      "location": "Secção 3; critérios da secção 9"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Construir aplicações web e multiplataforma por componentes, com gestão de estado e navegação",
+      "Consumir e projetar APIs, com autenticação e persistência",
+      "Justificar decisões técnicas em defesa oral do trabalho final"
+    ],
+    "convergences": [
+      "Integração frontend-backend por APIs",
+      "Conteúdo dinâmico no cliente"
+    ],
+    "differences": [
+      "Mackenzie centra a disciplina no servidor (linguagens server-side, APIs com banco de dados); Salamanca centra no frontend com Vue.js e trata o backend como introdução",
+      "Salamanca acrescenta PWA, Ionic/Capacitor e implantação"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca no 5º curso da dupla titulação, com pré-requisitos de POO e GUI; Mackenzie na 2ª etapa de SI",
+    "brazil": "Disciplina introdutória de desenvolvimento web server-side",
+    "foreign": "Disciplina avançada e prática (avaliação 100% por projeto e entregas)",
+    "theoryPractice": "Ambas práticas; presencialidade estrangeira apenas como 40% dos ECTS, sem horas"
+  },
+  "practical": {
+    "period": "Primer Semestre (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre — não verificado",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional da universidade no projeto)",
+    "enrolment": "Guia corresponde ao plano da Doble Titulación Estadística + Ingeniería Informática; acesso de intercambista a esse grupo não verificado",
+    "prerequisites": "Pressupõe Programación III e Interfaces Gráficas de Usuario; nível acima da 2ª etapa de SI",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Desarrollo de Aplicaciones Avanzadas cobre integração web, conteúdo dinâmico e consumo de APIs com folga (temas 1-8, prática Vue.js), mas trata o lado do servidor só como introdução: linguagens server-side e APIs com acesso a banco de dados, núcleo de Desenvolvimento Web II, ficam parciais.",
+  "justification": "Dos cinco tópicos essenciais, três são cobertos (integração, sites dinâmicos, consumo de APIs) e dois parciais (sistemas web server-side e desenvolvimento de APIs com banco de dados), pois a guia declara foco no frontend e apenas 'diseño básico de APIs REST'. Práticas de Extensão foi registrada como não essencial. A guia não informa horas presenciais, só que a presencialidade equivale a 40% dos ECTS, o que não é convertido; por isso a carga não é comparável e a classe máxima é afinidade parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdos e avaliação detalhados na guia 2026/2027; reduzem a confiança a falta de horas, o campo 'Carácter' vazio e o fato de a guia ser do plano de dupla titulação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Carga horária não comparável: apenas 6 ECTS e percentual de presencialidade",
+    "Guia do plano de dupla titulação (5º curso); disponibilidade no Grado en Ingeniería Informática não verificada",
+    "Desnível de etapa: disciplina avançada para um componente da 2ª etapa SI",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "Existe guia de 101136 para o plano do Grado en Ingeniería Informática com o mesmo conteúdo e horas presenciais?",
+    "A coordenação de SI aceita backend introdutório como cobertura de 'linguagens do lado do servidor'?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía/programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a secção/item do documento estrangeiro; campos data.json não usados como evidência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Guia de dupla titulação com campo 'Carácter' vazio; identidade do plano acessível ao intercambista a confirmar"
+  }
+}

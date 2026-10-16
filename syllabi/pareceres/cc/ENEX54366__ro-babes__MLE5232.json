@@ -1,0 +1,147 @@
+{
+  "id": "cc|ENEX54366|ro-babes|MLE5232",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54366",
+    "name": "Estrutura de Dados II",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 3, bloco 'Comp. Curricular ESTRUTURA DE DADOS II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas por semana; ementa inclui 'Práticas de extensão'."
+    },
+    "topics": [
+      "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações",
+      "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5232",
+      "name": "Data Structures and basic algorithms",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Information Engineering (campo 'Computers and information technology'; linha IIE do catálogo)",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Semestre 2 = 2º semestre do ano letivo (primavera europeia, fev-jun)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (linha IIE em inglês segundo o catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory (campo 2.7 'Discipline regime')",
+      "assessment": "Exame escrito 70% + laboratório C++ 30%; bônus de seminário até 0,5; nota final mínima 5",
+      "prerequisites": "Computer programming and programming languages; habilidade média de programação",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem2_MLE5232_en_marianzsu_2026_10301.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IIE",
+      "sha256": "c66a935bfdfa0bd724d0d4556c5189d03eb8b300bd1cda4f4963438a68ad1eae",
+      "location": "Syllabus 'University year 2025-2026': secções 2, 3.1-3.9, 4, 7.1-7.2, 8.1 C1-C14, 8.2 Lab1-Lab7, 8.3 S1-S7, 10",
+      "hours": {
+        "weekly": {"total": 4, "course": 2, "seminarLab": 2},
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 69,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "C9-C10 árvores binárias e percursos; C13 'Binary Search Trees, AVL Trees'; C7-C8 tabela hash com três estratégias de colisão; C4 ADT Map",
+      "foreignLocation": "Secção 8.1 C4, C7-C10, C13; secção 8.2 Lab5-Lab6; secção 8.3 S5-S6",
+      "note": "Árvores B ausentes; ABB e AVL concentradas numa única aula (C13)."
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "C1 'Algorithm analysis ... Complexities'; objetivo 7.2 'compare the complexities of their operations'; S2 'Complexities'",
+      "foreignLocation": "Secção 8.1 C1-C2; secção 7.2; secção 8.3 S2"
+    },
+    {
+      "brTopic": "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Lab5 'Hash Table' e Lab6 'Binary Search Tree' implementados como containers em C++; critério 10.5 'C++ implementation of the concepts'",
+      "foreignLocation": "Secção 8.2 Lab5-Lab7; secção 10.5"
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7, 8.1-8.3, 9 e 10 do programa MLE5232",
+      "note": "Componente de curricularização da extensão do Mackenzie, sem conteúdo disciplinar; não essencial para o cotejo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Estruturas lineares (vetor dinâmico, listas, pilha, fila), heap binário, heapsort e fila de prioridade", "location": "8.1 C2-C3, C5-C6, C11-C12; 8.2 Lab2-Lab4"},
+    {"topic": "Ordenações bucket, lexicográfica e radix; MultiMap ordenado", "location": "8.3 S3-S4"}
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": ["Escolher a estrutura de dados adequada para modelar problemas reais", "Comparar complexidades de operações"],
+    "convergences": ["Árvores binárias, ABB, AVL, hashing e mapas", "Implementação em C++ de ABB e tabela hash"],
+    "differences": ["Sem árvores B", "ABB e AVL dividem uma só aula (C13)", "Mais da metade do programa cobre estruturas lineares de ED I", "Curso de outra especialização (Information Engineering)"]
+  },
+  "depth": {
+    "level": "UBB no 1º ano (semestre 2) da Information Engineering; Mackenzie na 4ª etapa de CC",
+    "brazil": "Componente inteiro dedicado a estruturas não lineares, com 2+2 h-a semanais",
+    "foreign": "Cinco aulas (C7-C10, C13), dois laboratórios e dois seminários sobre hash e árvores",
+    "theoryPractice": "Exame escrito vale 70%; o laboratório (30%) é a principal parte prática"
+  },
+  "practical": {
+    "period": "Semestre 2 = primavera europeia (fev-jun), fora do período 2027.2",
+    "language": "Inglês na linha IIE (a confirmar)",
+    "enrolment": "Disciplina de outra especialização; matrícula cruzada de intercambista não verificada",
+    "prerequisites": "Programação de computadores",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Frente a Estrutura de Dados II, MLE5232 dedica cinco aulas a hash, árvores binárias, ABB e AVL, sem árvores B. Complexidade e implementação em C++ estão presentes, mas o núcleo do curso é linear, e o documento é de 2025-2026.",
+  "justification": "Complexidade (C1, S2) e implementação de ABB e tabela hash (Lab5-Lab6, 30% da nota) cobrem dois dos três enunciados essenciais. O enunciado de estruturas não lineares fica parcial porque árvores B não aparecem e ABB e AVL dividem a única aula C13. A cobertura integral de 67% não alcança os 75% da regra interna. A carga nominal de 56 h (razão 0,884) não compensa essa diferença: só cerca de um terço das aulas trata do escopo de ED II. A confiança cai porque o programa é da linha Information Engineering, rotulado 2025-2026 e com metadados de autoria inconsistentes.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Documento rotulado 'University year 2025-2026' no catálogo 2026, de outra especialização, e com divergência entre nome do arquivo e coordenadora; o conteúdo, porém, é detalhado.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Documento do catálogo 2026 rotulado 'University year 2025-2026' e datado de 15.04.2025",
+    "Nome do arquivo ('marianzsu') diverge da coordenadora declarada (Hotea Diana-Lucia)",
+    "Disciplina do semestre 2 (primavera): não cursável num intercâmbio restrito a 2027.2",
+    "Duração da hora de contato da UBB não declarada",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Intercambista vinculado à Computer Science pode cursar disciplina da Information Engineering?",
+    "A coordenação aceitaria complementar árvores B por estudo dirigido?"
+  ],
+  "alternatives": [
+    {"code": "MLE5022", "name": "Data structures and algorithms", "relation": "Mesmo escopo na linha Computer Science, documento 2026-2027 e uma aula a mais sobre árvores balanceadas (ver parecer cc|ENEX54366|ro-babes|MLE5022)"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a item e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Confiança baixa por documento de ano anterior e especialização distinta; classe limítrofe pela ausência de árvores B"}
+}

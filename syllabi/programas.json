@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-10-16T15:04:40Z",
+  "generated": "2026-10-16T15:06:51Z",
   "foreign": 329,
   "brazil": 178,
   "brazilByCourse": {
@@ -738,11 +738,15 @@
    "courseType": null,
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 84,
+     "course": 28,
+     "seminarLab": null
+    },
     "selfStudy": 66,
     "totalWorkload": 150,
     "ects": 6,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": "Object oriented programming, Algorithmics, Data structures",
@@ -1134,11 +1138,15 @@
    "courseType": "Specialisation subject",
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 70,
+     "course": 28,
+     "seminarLab": 42
+    },
     "selfStudy": 55,
     "totalWorkload": 125,
     "ects": 5,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": "Fundamentals of Programming",
@@ -1302,11 +1310,15 @@
    "courseType": "DS",
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 56,
+     "course": 28,
+     "seminarLab": 28
+    },
     "selfStudy": 94,
     "totalWorkload": 150,
     "ects": 6,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": "Data Structures, and Algorithms Theory",
@@ -1335,11 +1347,15 @@
    "courseType": null,
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 70,
+     "course": 28,
+     "seminarLab": null
+    },
     "selfStudy": 80,
     "totalWorkload": 150,
     "ects": 6,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": "Databases Advanced Programming Methods Operating Systems Computer Networks",
@@ -1450,11 +1466,15 @@
    "courseType": null,
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 14,
+     "course": 14,
+     "seminarLab": null
+    },
     "selfStudy": 136,
     "totalWorkload": 150,
     "ects": 6,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": null,
@@ -1647,11 +1667,15 @@
    "courseType": "Specialisation subject",
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 28,
+     "course": 3,
+     "seminarLab": null
+    },
     "selfStudy": 23,
     "totalWorkload": 50,
     "ects": 2,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": " Write code in a high-level programming language",
@@ -1680,11 +1704,15 @@
    "courseType": null,
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 28,
+     "course": 0,
+     "seminarLab": 28
+    },
     "selfStudy": 22,
     "totalWorkload": 50,
     "ects": 2,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": null,
@@ -1992,11 +2020,15 @@
    "courseType": "DS",
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 60,
+     "course": 24,
+     "seminarLab": 36
+    },
     "selfStudy": 65,
     "totalWorkload": 125,
     "ects": 5,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": "relate d Basic knowledge of calculus and linear algebra.",
@@ -3933,11 +3965,15 @@
    "courseType": null,
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 56,
+     "course": 42,
+     "seminarLab": 14
+    },
     "selfStudy": 69,
     "totalWorkload": 125,
     "ects": 5,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": "Mathematical Analysis (I-II)",
@@ -4044,11 +4080,15 @@
    "courseType": null,
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 14,
+     "course": 14,
+     "seminarLab": null
+    },
     "selfStudy": 86,
     "totalWorkload": 100,
     "ects": 4,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": null,
@@ -4188,11 +4228,15 @@
    "courseType": "Core subject",
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 56,
+     "course": 28,
+     "seminarLab": null
+    },
     "selfStudy": 44,
     "totalWorkload": 100,
     "ects": 4,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": "●​ Advanced Programming Methods ●​ Databases ●​ Distributed Operating Systems",
@@ -4221,11 +4265,15 @@
    "courseType": "Core subject",
    "hours": {
     "weekly": null,
-    "contact": null,
+    "contact": {
+     "total": 28,
+     "course": 0,
+     "seminarLab": 28
+    },
     "selfStudy": 22,
     "totalWorkload": 50,
     "ects": 2,
-    "contactBasis": null,
+    "contactBasis": "semestre",
     "hourLengthMinutes": null
    },
    "prerequisites": "●​ Advanced Programming Methods ●​ Databases ●​ Distributed Operating Systems",
@@ -5503,15 +5551,14 @@
     "atelie": 0
    },
    "optional": false,
-   "ementa": "Estudo do desenvolvimento da ciência e da tecnologia, suas interfaces com a sociedade e suas recíprocas influências na Computação. Estudo sobre os fundamentos epistemológicos da ciência e tecnologia. Reflexão sobre a não-neutralidade na ciência. Análise dos fatos científicos condicionados ao seu contexto social de origem e desenvolvimento. Estudo de como as descobertas da ciência e as aplicações tecnológicas se inter-relacionam à dimensão social humana e no contexto da relação homem-máquina. Práticas de extensão. UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 82",
+   "ementa": "Estudo do desenvolvimento da ciência e da tecnologia, suas interfaces com a sociedade e suas recíprocas influências na Computação. Estudo sobre os fundamentos epistemológicos da ciência e tecnologia. Reflexão sobre a não-neutralidade na ciência. Análise dos fatos científicos condicionados ao seu contexto social de origem e desenvolvimento. Estudo de como as descobertas da ciência e as aplicações tecnológicas se inter-relacionam à dimensão social humana e no contexto da relação homem-máquina. Práticas de extensão.",
    "topics": [
     "Estudo do desenvolvimento da ciência e da tecnologia, suas interfaces com a sociedade e suas recíprocas influências na Computação",
     "Estudo sobre os fundamentos epistemológicos da ciência e tecnologia",
     "Reflexão sobre a não-neutralidade na ciência",
     "Análise dos fatos científicos condicionados ao seu contexto social de origem e desenvolvimento",
     "Estudo de como as descobertas da ciência e as aplicações tecnológicas se inter-relacionam à dimensão social humana e no contexto da relação homem-máquina",
-    "Práticas de extensão",
-    "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 82"
+    "Práticas de extensão"
    ],
    "status": "lido",
    "officialSyllabus": true,
@@ -5753,9 +5800,9 @@
     "atelie": 0
    },
    "optional": false,
-   "ementa": "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 93 Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções. Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections. Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos.",
+   "ementa": "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções. Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections. Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos.",
    "topics": [
-    "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 93 Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+    "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
     "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
     "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos"
    ],
@@ -5780,9 +5827,9 @@
     "atelie": 0
    },
    "optional": false,
-   "ementa": "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 98 Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio. Aborda a complexidade de algoritmos iterativos e recursivos. Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica. Analisa o desempenho das técnicas clássicas de projeto de algoritmos.",
+   "ementa": "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio. Aborda a complexidade de algoritmos iterativos e recursivos. Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica. Analisa o desempenho das técnicas clássicas de projeto de algoritmos.",
    "topics": [
-    "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 98 Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+    "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
     "Aborda a complexidade de algoritmos iterativos e recursivos",
     "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
     "Analisa o desempenho das técnicas clássicas de projeto de algoritmos"
@@ -5808,9 +5855,9 @@
     "atelie": 0
    },
    "optional": false,
-   "ementa": "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 96 Fundamentos dos conceitos e métodos de desenvolvimento de software. Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos. Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais. Domínio do Mapeamento dos diagramas UML para linguagem de programação. Práticas de extensão.",
+   "ementa": "Fundamentos dos conceitos e métodos de desenvolvimento de software. Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos. Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais. Domínio do Mapeamento dos diagramas UML para linguagem de programação. Práticas de extensão.",
    "topics": [
-    "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 96 Fundamentos dos conceitos e métodos de desenvolvimento de software",
+    "Fundamentos dos conceitos e métodos de desenvolvimento de software",
     "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
     "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
     "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
@@ -6030,9 +6077,9 @@
    "hourUnit": "hora_relogio",
    "weekly": null,
    "optional": false,
-   "ementa": "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 102 Apresenta o histórico, classificação, estrutura de um sistema operacional. Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos. concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos. Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional.",
+   "ementa": "Apresenta o histórico, classificação, estrutura de um sistema operacional. Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos. concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos. Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional.",
    "topics": [
-    "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 102 Apresenta o histórico, classificação, estrutura de um sistema operacional",
+    "Apresenta o histórico, classificação, estrutura de um sistema operacional",
     "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
     "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
     "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional"
@@ -6117,9 +6164,9 @@
     "atelie": 0
    },
    "optional": false,
-   "ementa": "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 108 Introduz o conceito de segurança da informação. Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais.",
+   "ementa": "Introduz o conceito de segurança da informação. Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais.",
    "topics": [
-    "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 108 Introduz o conceito de segurança da informação",
+    "Introduz o conceito de segurança da informação",
     "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais"
    ],
    "status": "lido",
@@ -6313,9 +6360,9 @@
     "atelie": 0
    },
    "optional": false,
-   "ementa": "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 115 Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem. Estudo de aprendizagem de máquina e sua relação com ciência de dados. Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning.",
+   "ementa": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem. Estudo de aprendizagem de máquina e sua relação com ciência de dados. Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning.",
    "topics": [
-    "UNIVERSIDADE PRESBITERIANA MACKENZIE Faculdade de Computação e Informática 115 Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+    "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
     "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
     "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning"
    ],

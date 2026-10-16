@@ -1,0 +1,162 @@
+{
+  "id": "cc|ENEC61015|ro-babes|MLE5161",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61015",
+    "name": "Projeto de Compiladores",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 3, bloco 'Comp. Curricular PROJETO DE COMPILADORES', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas presenciais por semana."
+    },
+    "topics": [
+      "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código",
+      "Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5161",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5161_en_istvanc_2026_10245.pdf",
+      "sha256": "5b1d29a261d13f590d4a9c80e4f293b98bdf9c81559a55fb951a65ab4d8398cf",
+      "name": "Research project",
+      "programme": "Computer Science",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Semestre 5 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo)",
+      "courseStatus": "Optional / Specialisation subject",
+      "assessment": "Exame; seis fases de entregas documentais (10%-20% cada) e apresentação final 10%",
+      "prerequisites": "Computer Science Research Methodology",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Course description 2026-2027: secções 2, 3.1-3.9, 4, 6.2, 7, 8.1 (vazia), 8.2 (etapas 1-14), 9",
+      "hours": {
+        "weekly": {
+          "total": 2,
+          "course": 0,
+          "seminarLab": 2
+        },
+        "contactTotal": 28,
+        "contactLecture": 0,
+        "contactSeminarLab": 28,
+        "selfStudy": 22,
+        "totalWorkload": 50,
+        "ects": 2,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Secção 3.3 traz '2 lab / 2 pr' para 2 h semanais; total semestral 28 h, todo em laboratório/projeto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (vazia) e 8.2 (etapas 1-14) e 9 do programa MLE5161",
+      "note": "Projeto de pesquisa com tema escolhido pelo aluno; nenhuma etapa trata de análise léxica, sintática, semântica, tabela de símbolos ou geração de código."
+    },
+    {
+      "brTopic": "Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (vazia) e 8.2 (etapas 1-14) e 9 do programa MLE5161",
+      "note": "As etapas 7-8 (projeto e implementação de sistema de software) não especificam domínio; um tema de compiladores seria possível, mas não está previsto no documento."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Definição de tema e metodologia de pesquisa científica",
+      "location": "8.2 etapas 1-2"
+    },
+    {
+      "topic": "Revisão bibliográfica e relevância das fontes",
+      "location": "8.2 etapas 4-6"
+    },
+    {
+      "topic": "Projeto, implementação, documentação e experimentos de um sistema de software",
+      "location": "8.2 etapas 7-11"
+    },
+    {
+      "topic": "Redação iterativa e apresentação do relatório de pesquisa",
+      "location": "8.2 etapas 12-14; 9.5 fase 6"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa descreve a estrutura e as etapas de um compilador e a implementação para máquina hipotética.",
+    "foreign": [
+      "Documentar-se sobre um tema e redigir relatório científico em iterações (7)",
+      "Conduzir revisão de literatura (6.2)"
+    ],
+    "convergences": [
+      "Nenhuma convergência de conteúdo"
+    ],
+    "differences": [
+      "MLE5161 é disciplina de metodologia/projeto de pesquisa; Projeto de Compiladores é disciplina técnica de construção de compiladores"
+    ]
+  },
+  "depth": {
+    "level": "UBB 3º ano, semestre 5, optativa; Mackenzie 6ª etapa obrigatória",
+    "brazil": "4 h-a teóricas semanais",
+    "foreign": "2 h semanais de laboratório/projeto, sem aulas expositivas",
+    "theoryPractice": "UBB 100% prática supervisionada; Mackenzie 100% teórica declarada"
+  },
+  "practical": {
+    "period": "Oferta no 1º semestre do ano letivo europeu (outono), coincidente com 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês (documento e catálogo IE)",
+    "enrolment": "Optativa; exige ter cursado Computer Science Research Methodology",
+    "prerequisites": "Computer Science Research Methodology",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Research project (MLE5161) é optativa de 2 ECTS para redigir um relatório de pesquisa sobre tema livre; não tem nenhum conteúdo de análise léxica, sintática ou semântica, tabela de símbolos ou geração e otimização de código.",
+  "justification": "Nenhum dos dois tópicos essenciais tem correspondência: a secção 8.1 está vazia e as 14 etapas da 8.2 vão da escolha do tema ao relatório final. As 28 h de contato, todas em laboratório/projeto, representam razão 0,44 sobre 63,33 h, abaixo do parâmetro de 0,75. Classe derivada: baixa afinidade. A pertinência do par parece decorrer apenas do catálogo, sem base no conteúdo.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Programa 2026-2027 individual e completo, horas explícitas; a ausência de conteúdo de compiladores é inequívoca.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "MLE5023 (Formal languages and compiler design) está disponível para intercambistas no outono de 2027?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5023",
+      "name": "Formal languages and compiler design",
+      "relation": "Semestre 5 (outono), 5 ECTS; título corresponde diretamente a compiladores; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência total de sobreposição de conteúdo"
+  }
+}

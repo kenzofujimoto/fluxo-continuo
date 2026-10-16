@@ -1,0 +1,234 @@
+{
+  "id": "si|GESTÃO DA INFORMAÇÃO|pt-coimbra|91503",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "GESTÃO DA INFORMAÇÃO",
+    "name": "Gestão da Informação",
+    "courseName": "Sistemas de Informação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 20, bloco 'GESTÃO DA INFORMAÇÃO', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 63,33 h-relógio no semestre."
+    },
+    "topics": [
+      "Organizações e negócios data-driven",
+      "Dados e Informação como ativo organizacional",
+      "Informação, estratégia e tomada de decisão",
+      "Sistemas de gestão integrada de processos e informação (CRM, ERP, SCM etc)",
+      "Gestão de Documentos",
+      "Gestão de Conhecimento",
+      "Governança de Dados",
+      "Inteligência de Negócios",
+      "Arquitetura de Dados",
+      "Arquitetura da Informação",
+      "Frameworks de Gestão da Informação",
+      "Dados Abertos",
+      "Privacidade e Proteção de Dados",
+      "Sociedade dataficada"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "91503",
+      "name": "Análise de Dados e Gestão de Informação I",
+      "pageCode": "01019788",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Administração Pública (plano 11983 segundo data.json); área científica Gestão e Administração",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português (única língua de ensino indicada)",
+      "courseStatus": "Obrigatória",
+      "assessment": "Resolução de problemas 10%, trabalho de síntese 40%, frequência 50%",
+      "prerequisites": "Conhecimentos de Base Recomendados: 'Não aplicável'",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (itens 1-2.4), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/91503/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "19711fddfcb45f8e03e7e71f370581e4e2c92c020cf595e49c08b86b9066e92c",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 5.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 5,0 ECTS, sem horas de contacto. Código interno: 01019788."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Organizações e negócios data-driven",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Dados e Informação como ativo organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Informação, estratégia e tomada de decisão",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)",
+      "note": "Os testes de hipóteses apoiam decisões estatísticas, mas não tratam o papel da informação na estratégia organizacional."
+    },
+    {
+      "brTopic": "Sistemas de gestão integrada de processos e informação (CRM, ERP, SCM etc)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Gestão de Documentos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Gestão de Conhecimento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Governança de Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Inteligência de Negócios",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Arquitetura de Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Arquitetura da Informação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Frameworks de Gestão da Informação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Dados Abertos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Privacidade e Proteção de Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    },
+    {
+      "brTopic": "Sociedade dataficada",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes paramétricos e não paramétricos, qui-quadrado, Fisher, ANACOR), Resultados de Aprendizagem e Bibliografia (manuais de estatística/SPSS)"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Testes de hipóteses paramétricos para médias e proporções, amostras independentes e emparelhadas",
+      "location": "Programa, 1.1 e 1.3"
+    },
+    {
+      "topic": "Testes de normalidade (Kolmogorov-Smirnov/Lilliefors, Shapiro-Wilk) e não paramétricos (Kruskal-Wallis, Mann-Whitney)",
+      "location": "Programa, 1.2 e 1.3.2"
+    },
+    {
+      "topic": "ANOVA",
+      "location": "Programa, 1.3.2.1"
+    },
+    {
+      "topic": "Qui-quadrado, teste exato de Fisher, ANACOR e correspondência múltipla",
+      "location": "Programa, 2.1-2.4"
+    }
+  ],
+  "competencies": {
+    "brazil": "Gestão da informação como recurso organizacional (governança, BI, arquitetura, privacidade).",
+    "foreign": [
+      "Aplicar testes de hipóteses paramétricos e não paramétricos",
+      "Analisar dados categoriais e dependência entre variáveis"
+    ],
+    "convergences": [],
+    "differences": [
+      "'Gestão de Informação' no título designa técnicas estatísticas univariadas e bivariadas com SPSS, não gestão organizacional da informação"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de Administração Pública, Mackenzie na 4ª etapa de SI",
+    "brazil": "Componente de 63,33 h de gestão da informação",
+    "foreign": "UC de 5 ECTS de estatística inferencial aplicada, com software",
+    "theoryPractice": "Coimbra resolve casos e exercícios com software estatístico; temas não comparáveis"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json, compatível com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC do plano de Administração Pública.",
+    "prerequisites": "Nenhum declarado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Análise de Dados e Gestão de Informação I é, pelo programa, uma UC de estatística inferencial (testes de hipóteses, ANOVA, qui-quadrado, análise de correspondências); nenhum dos catorze temas organizacionais de Gestão da Informação aparece.",
+  "justification": "Os 14 tópicos essenciais foram procurados nos itens 1 a 2.4 do programa, nos resultados e na bibliografia (Hair, Maroco, Pestana e Gageiro): nenhum tem correspondência, razão 0/14. A afinidade sugerida pelo título 'Gestão de Informação' não se confirma. A carga também não se compara (5 ECTS sem horas de contacto contra 63,33 h). O conteúdo aproxima-se mais de Probabilidade e Estatística (testes, ANOVA) do que de Gestão da Informação.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Programa itemizado até ao 4º nível e bibliografia exclusivamente estatística tornam a divergência inequívoca.",
+  "limitations": [
+    "Horas de contacto não declaradas; 5 ECTS não convertidos",
+    "Oferta em 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de SI teria interesse em avaliar esta UC face a Probabilidade e Estatística (testes de hipóteses e ANOVA)?"
+  ],
+  "alternatives": [
+    {
+      "code": "93305",
+      "name": "Gestão de Sistemas de Informação",
+      "relation": "Cobertura parcial de cinco tópicos de Gestão da Informação; ainda baixa afinidade, mas mais próxima que 91503"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergência integral de área"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": "cc|ENEC61018|es-cadiz|21714033",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61018",
+    "name": "Computação Distribuída",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 7ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "PDF p. 2 (7ª etapa CC Alphaville), bloco 'Comp. Curricular COMPUTAÇÃO DISTRIBUÍDA', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h-relógio e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Estudo de modelos, tecnologias, comunicação e serviços para computação distribuída",
+      "Estudo e análise de algoritmos distribuídos",
+      "Modelos de comunicação entre processos paralelos e distribuídos",
+      "Problemas e discussões sobre concorrência, sincronização, transação, consistência e replicação entre sistemas distribuídos",
+      "Métricas de desempenho, eficiência, escalabilidade, disponibilidade etc",
+      "Estudo de arquiteturas para sistemas distribuídos: cluster, grid, nuvem, fog, IoT etc",
+      "Desenvolvimento e implementação de soluções para sistemas distribuídos homogêneos e heterogêneos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714033",
+      "name": "Programación Paralela y Distribuida",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo IIIB Tecnología Específica Ingeniería de Computadores",
+      "level": "Grado (graduação)",
+      "yearOfStudy": "3 ou 4",
+      "semester": "Primer semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Optativa",
+      "assessment": "Exame teórico-prático tipo test 60%, reto prático em equipe 20%, análise de artigo científico 10%, exercícios de práticas 10%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714033",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "abb38d9b408540f57c6f98c9083f86fa4b8e8c0033488f850fb8391eae3090b5",
+      "location": "Programa docente 2026-27: cabeçalho (créditos, tipo, duração, idioma), 'Resultados de aprendizaje' 1-3, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-7, 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 15,
+        "contactSeminarLab": 45,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro 'Actividades y metodologías docentes': 60 h presenciais (Teoría 15 + Prácticas de informática 45); 90 h de outras atividades (86 não presenciais + 4 de avaliação); 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de modelos, tecnologias, comunicação e serviços para computação distribuída",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 5: sockets (5.3) e RPC (5.4) como tecnologias de comunicação; Tema 1 introdução à programação paralela e distribuída. Não há serviços/middleware distribuídos",
+      "foreignLocation": "Temario, Temas 1 e 5"
+    },
+    {
+      "brTopic": "Estudo e análise de algoritmos distribuídos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario Temas 1-7, Resultados de aprendizaje 1-3, Actividades, Sistema de evaluación e Bibliografía lidos integralmente",
+      "note": "Nenhum algoritmo distribuído clássico (eleição, exclusão mútua distribuída, relógios lógicos, consenso) aparece; Coulouris e Liu constam só na bibliografia."
+    },
+    {
+      "brTopic": "Modelos de comunicação entre processos paralelos e distribuídos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "3.6 'Modelos de comunicación entre procesos'; Tema 5 IPC, sockets, RPC, sinais; Tema 7 MPI e 7.4 modos de comunicação",
+      "foreignLocation": "Temario, Tema 3.6, Tema 5 (5.2-5.5), Tema 7"
+    },
+    {
+      "brTopic": "Problemas e discussões sobre concorrência, sincronização, transação, consistência e replicação entre sistemas distribuídos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "6.4 'Estrategias de sincronización', 6.6 reentrância vs. thread safe, 3.3 problemas da computação paralela-distribuída; transação, consistência e replicação ausentes",
+      "foreignLocation": "Temario, Tema 6 (6.4, 6.6) e 3.3",
+      "note": "Concorrência e sincronização tratadas em memória compartilhada (threads), não entre nós de um sistema distribuído."
+    },
+    {
+      "brTopic": "Métricas de desempenho, eficiência, escalabilidade, disponibilidade etc",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "4.2 'Speedup, eficiencia, paralelicibilidad', 4.3 Amdahl, 4.4 balanceamento de carga; disponibilidade não tratada",
+      "foreignLocation": "Temario, Tema 4"
+    },
+    {
+      "brTopic": "Estudo de arquiteturas para sistemas distribuídos: cluster, grid, nuvem, fog, IoT etc",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "2.3 'Clusters' e 2.4 multinúcleo; grid, nuvem, fog e IoT não aparecem",
+      "foreignLocation": "Temario, Tema 2"
+    },
+    {
+      "brTopic": "Desenvolvimento e implementação de soluções para sistemas distribuídos homogêneos e heterogêneos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Prácticas de informática (45 h): 'implementará y probará diversos algoritmos paralelos y sistemas distribuidos'; MPI e RPC no temário; heterogeneidade não mencionada",
+      "foreignLocation": "Actividades y metodologías docentes, código 03; Temario, Temas 5 e 7"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Arquiteturas paralelas, modelos de programação paralela e paralelização de aplicações",
+      "location": "Temario, Temas 2 e 3"
+    },
+    {
+      "topic": "Programação multi-hebras com Thread API, pool de threads e introdução a OpenMP",
+      "location": "Temario, Tema 6"
+    },
+    {
+      "topic": "Análise crítica de artigo científico e reto prático de paralelização em equipe",
+      "location": "Sistema de evaluación, itens 1 e 3"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Analisar e avaliar plataformas paralelas e distribuídas e otimizar software para elas (RA 1)",
+      "Projetar e implementar software de sistema e de comunicações (RA 2)"
+    ],
+    "convergences": [
+      "Comunicação entre processos (IPC, sockets, RPC, troca de mensagens MPI)",
+      "Medidas de desempenho e balanceamento de carga"
+    ],
+    "differences": [
+      "Núcleo de sistemas distribuídos do Mackenzie (algoritmos distribuídos, transações, consistência, replicação, disponibilidade) sem correspondente em Cádiz",
+      "Arquiteturas grid/nuvem/fog/IoT do Mackenzie contra apenas clusters e multinúcleo em Cádiz",
+      "Ênfase de Cádiz em paralelismo de memória compartilhada e HPC"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Cádiz optativa de 3º/4º curso, Mackenzie obrigatória da 7ª etapa",
+    "brazil": "Sete eixos de sistemas distribuídos, 2+2 h-a semanais",
+    "foreign": "Disciplina de programação paralela com componente de comunicação entre processos; 45 h práticas de 60 presenciais",
+    "theoryPractice": "Cádiz mais prática (75% do contato em laboratório) que o Mackenzie (50%)"
+  },
+  "practical": {
+    "period": "'Duración: PRIMER SEMESTRE'; Computação Distribuída é da 7ª etapa, de modo que o encaixe com 2027.2 depende da etapa do estudante e da programação 2027/28",
+    "language": "Castelhano; edital exige B2",
+    "enrolment": "Optativa; secção 'Movilidad' sem vagas de mobilidade internacional informadas",
+    "prerequisites": "Nenhum requisito formal declarado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Para Computação Distribuída, o programa 21714033 só oferece com segurança a comunicação entre processos (IPC, sockets, RPC, MPI); os temas centrais de sistemas distribuídos — algoritmos distribuídos, transação, consistência, replicação, disponibilidade e arquiteturas grid/nuvem/fog/IoT — não aparecem nos sete temas.",
+  "justification": "Dos sete tópicos essenciais, um é coberto (modelos de comunicação, Temas 3.6, 5 e 7), cinco são parciais e um não foi encontrado (algoritmos distribuídos). Os parciais dependem de fragmentos do conteúdo de paralelismo: sincronização em threads (Tema 6), clusters (2.3), speedup e Amdahl (Tema 4), sem a dimensão distribuída exigida. As 60 h presenciais equivalem a 94,7% das 63,33 h nominalmente (79% com hora de 50 min), mas a carga está orientada a outro objeto. A regra interna deriva afinidade parcial; adota-se classe mais conservadora pelo motivo registrado em downgradeReason.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A razão de 6/7 tópicos com alguma cobertura é inflada por correspondências tangenciais: cinco 'parciais' vêm de conteúdos de programação paralela (threads, clusters, speedup) e nenhum trata transação, consistência, replicação, disponibilidade, nuvem/fog/IoT ou algoritmos distribuídos, que formam o núcleo da ementa ENEC61018. Além disso, a mesma disciplina é a candidata natural para Computação Paralela, o que tornaria duvidosa a dupla contagem das mesmas 60 h.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial completo com temário e horas; a classificação depende do julgamento sobre o peso dos parciais, e a duração da hora e a oferta 2027/28 não estão declaradas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade internacional não confirmadas",
+    "Duração da hora presencial não declarada no programa",
+    "Créditos teoria + prática (7,5) divergem dos 6 ECTS declarados",
+    "Uso simultâneo para ENEC61020 e ENEC61018 implicaria dupla contagem; critério da COI desconhecido",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A guia de 21714022 Sistemas Distribuidos (Cádiz) cobre consistência, replicação e algoritmos distribuídos?",
+    "A coordenação aceitaria composição 21714033 + outra disciplina para ENEC61018?"
+  ],
+  "alternatives": [
+    {
+      "code": "21714022",
+      "name": "Sistemas Distribuidos",
+      "relation": "Título indica aderência maior ao núcleo distribuído; guia não analisada neste parecer"
+    },
+    {
+      "code": "21714032",
+      "name": "Arquitectura de Computadores Paralelos y Distribuidos",
+      "relation": "Possível complemento em arquiteturas; guia não analisada"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía/programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a secção/item do documento estrangeiro; campos data.json não usados como evidência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe rebaixada em relação à derivada pela regra; convém revisão humana do peso dos tópicos parciais"
+  }
+}

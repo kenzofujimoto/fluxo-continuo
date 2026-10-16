@@ -1,0 +1,167 @@
+{
+  "id": "cc|ENEC54298|es-salamanca|101131",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54298",
+    "name": "Cibersegurança",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 2 (6ª etapa CC Alphaville; cabeçalho com numeração impressa 108 incorporado ao texto extraído), bloco 'CIBERSEGURANÇA', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h-relógio e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Introduz o conceito de segurança da informação",
+      "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101131",
+      "name": "Seguridad en Sistemas Informáticos",
+      "faculty": "Facultad de Ciencias",
+      "department": "Informática y Automática",
+      "programme": "Grado en Ingeniería Informática",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 4,
+      "semester": "Primer Semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Obligatoria (campo 'Carácter')",
+      "assessment": "Avaliação contínua 15%, exames 70%, realização e defesa de práticas/trabalhos 15%",
+      "prerequisites": "Necessário bom conhecimento de Sistemas Operativos e Redes de Computadores",
+      "source": "https://guias.usal.es/node/255761",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "65ffa7e1de3fd2ba8865763bbeabe6e4e31098d591e57cb8ba6c6961abb77e9a",
+      "location": "Guía 2026/2027: secções 1 (dados), 2 (recomendações), 3 (objetivos), 4 (competências), 5 (Teoría e Práctica), 8 (recursos), 9 (avaliação)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece apenas com o título e a data no texto obtido; a tabela de horas não foi capturada. Só 6 ECTS explícitos; ECTS não convertidos em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introduz o conceito de segurança da informação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Bloco 'Cifrado...': 'Definiciones' e 'Servicios de seguridad (confidencialidad, autenticación, …)'; objetivo 'Conocer los servicios y mecanismos de seguridad'",
+      "foreignLocation": "Secção 5 Teoría, primeiro bloco; secção 3, objetivo 1",
+      "note": "O tópico oficial extraído inclui o cabeçalho da página do PDF ('UNIVERSIDADE PRESBITERIANA MACKENZIE ... 108'); avaliou-se apenas 'Introduz o conceito de segurança da informação'."
+    },
+    {
+      "brTopic": "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cifra simétrica/assimétrica, gestão de chaves, protocolos de comunicação segura, cortafuegos, IDS, programação segura, normas e padrões; aspectos éticos e jurídicos sem conteúdo",
+      "foreignLocation": "Secção 5 Teoría (blocos Cifrado, SO, Redes, Gestión de la seguridad); Práctica (blocos Cifrado e Sistemas)",
+      "note": "Tópico composto: criptografia e protocolos, segurança de redes e boas práticas internacionais estão cobertos; segurança de aplicações/desenvolvimento só por 'Programación segura' e 'Código malicioso'; ética e direito aparecem apenas na competência CESI2 (legislação)."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Segurança em sistemas operacionais: gestão de usuários, sistema de arquivos, logs, controles de acesso",
+      "location": "Secção 5 Teoría, bloco SO"
+    },
+    {
+      "topic": "Segurança em redes sem fio e sistemas detectores de intrusão",
+      "location": "Secção 5 Teoría, últimos itens"
+    },
+    {
+      "topic": "Práticas: correio seguro com certificados, servidor web seguro, assinatura eletrônica, análise de tráfego SSL/TLS com Wireshark, repositórios de vulnerabilidades",
+      "location": "Secção 5 Práctica"
+    },
+    {
+      "topic": "Introdução a Sistemas de Gestão de Segurança",
+      "location": "Secção 3, objetivo 5"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "CETI7 compreender, aplicar e gerir a segurança de sistemas informáticos",
+      "CESI2 requisitos de segurança e cumprimento de normativa e legislação",
+      "CESI5 avaliação de riscos e planos de atuação",
+      "Emitir relatórios de vulnerabilidades e plano de segurança (objetivo 3)"
+    ],
+    "convergences": [
+      "Criptografia teórica e prática",
+      "Segurança de redes",
+      "Padrões de segurança da informação"
+    ],
+    "differences": [
+      "Mackenzie explicita aspectos éticos e jurídicos; Salamanca só cita legislação como competência",
+      "Salamanca aprofunda segurança de SO, IDS e redes sem fio"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca obrigatória de 4º curso, Mackenzie obrigatória da 6ª etapa",
+    "brazil": "2+2 h-a semanais, teoria e prática",
+    "foreign": "Teoria em quatro blocos e oito práticas em laboratório; exames valem 70%",
+    "theoryPractice": "Ambas combinam teoria e laboratório; proporção estrangeira não declarada"
+  },
+  "practical": {
+    "period": "Primer Semestre (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre — não verificado",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional da universidade no projeto)",
+    "enrolment": "Obrigatória de 4º curso do grau; aceitação de intercambista não verificada",
+    "prerequisites": "Exige SO e Redes; estudante da 6ª etapa CC já cursou componentes equivalentes",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Seguridad en Sistemas Informáticos cobre a introdução à segurança da informação e a maior parte do enunciado composto de Cibersegurança — criptografia, protocolos, redes, padrões — mas não traz conteúdo sobre aspectos éticos e jurídicos e trata desenvolvimento seguro em um único item.",
+  "justification": "O ementário de ENEC54298 foi segmentado em apenas dois tópicos: o conceito de segurança (coberto pelos itens Definiciones e Servicios de seguridad) e um enunciado longo que reúne criptografia, redes, aplicações, ética/direito e boas práticas. Este último é parcial porque ética e direito não constam dos Contenidos. Sem tabela de horas na guia (secção 7 vazia no texto obtido), as 63,33 h Mackenzie não podem ser comparadas, o que impede classe superior a afinidade parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guía oficial com conteúdos teóricos e práticos detalhados; faltam horas presenciais e a segmentação do ementário brasileiro em dois tópicos reduz a granularidade do cotejo.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Carga horária não comparável: guia sem horas presenciais capturadas",
+    "Tópicos oficiais extraídos do ementário contêm cabeçalho de página e um enunciado composto; a proporção 1 coberto/1 parcial é sensível a essa segmentação",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC considera a ausência de conteúdo ético-jurídico impeditiva ou complementável?",
+    "Salamanca informa horas presenciais de 101131 na versão completa da guia?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía/programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a secção/item do documento estrangeiro; campos data.json não usados como evidência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Anomalia na extração dos tópicos oficiais (cabeçalho de página e enunciado composto) afeta a contagem"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

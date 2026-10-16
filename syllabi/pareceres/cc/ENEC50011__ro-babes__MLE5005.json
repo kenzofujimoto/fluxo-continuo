@@ -1,0 +1,177 @@
+{
+  "id": "cc|ENEC50011|ro-babes|MLE5005",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC50011",
+    "name": "Algoritmos e Programação I",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 1ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 2, bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO I', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "Implementação de algoritmos utilizando linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5005",
+      "name": "Programming fundamentals",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (in English)",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Semestre 1 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento em inglês, publicado no catálogo da linha IE 'Computer Science in English'; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory / Specialisation subject",
+      "assessment": "Exame escrito 30%, avaliação prática 30%, portfólio de programas e documentação 40%; nota mínima 5 em laboratório, teste prático e exame; presença mínima 10/14 seminários e 12/14 laboratórios",
+      "prerequisites": "Nenhum declarado (secção 4: '-')",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5005_en_arthur_2026_10324.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "5b6f7f84d291ca6d4faab216a3362ed62c83e9f44d9117c2d6615b201c2fdb13",
+      "location": "Course description 2026/2027: secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 7 (resultados), 8.1 (curso), 8.2 (seminário/laboratório), 9 (avaliação)",
+      "hours": {
+        "weekly": {
+          "total": 6,
+          "course": 2,
+          "seminarLab": 4
+        },
+        "contactTotal": 84,
+        "contactLecture": 28,
+        "contactSeminarLab": 56,
+        "selfStudy": 66,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'What is programming: algorithm, program, basic elements of the Python language'; 'Procedural programming' (list, tuple, dictionary; funções, passagem de parâmetros); 'Modular programming'",
+      "foreignLocation": "Secção 8.1, unidades 'Introduction to the course', 'Procedural programming', 'Modular programming' e 'Problem solving methods'; 8.2 itens 1, 4-6",
+      "note": "Atribuição, condicionais e repetição não são listados um a um; estão contidos nos elementos básicos da linguagem e são pré-condição das unidades de recursão e busca/ordenação. Estruturas lineares: list/tuple. A progressão de complexidade é implícita na sequência 8.2 (itens 1 a 10)."
+    },
+    {
+      "brTopic": "Implementação de algoritmos utilizando linguagem de programação imperativa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'learn the Python language and gain proficiency in running, testing, and debugging Python programs'; 56 h de seminário/laboratório e portfólio de programas (40% da nota)",
+      "foreignLocation": "Secção 7 (competências específicas); 8.1 'Procedural programming'; 8.2 itens 1-6; 9.5",
+      "note": "Python é multiparadigma; o programa trata a programação procedural antes da orientada a objetos, o que atende ao enunciado 'linguagem de programação imperativa'."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Recursão e complexidade assintótica (big-O, theta, omega; tempo e espaço extra)",
+      "location": "8.1 'Recursion. Algorithm complexity'; 8.2 item 2"
+    },
+    {
+      "topic": "Busca sequencial/binária/exponencial e ordenação (bubble, selection, insertion, quick, merge)",
+      "location": "8.1 'Searching. Sorting'; 8.2 item 3"
+    },
+    {
+      "topic": "Métodos de resolução: greedy, divisão e conquista, backtracking, programação dinâmica",
+      "location": "8.1 'Problem solving methods'; 8.2 item 4"
+    },
+    {
+      "topic": "Classes, objetos, encapsulamento, herança, exceções e arquitetura em camadas",
+      "location": "8.1 'Classes and objects', 'Object based programming'; 8.2 itens 7-9"
+    },
+    {
+      "topic": "Princípios de projeto, diagramas de classe UML, testes com PyUnit, TDD e refatoração",
+      "location": "8.1 'Program design guidelines', 'Program testing and refactoring'"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Conhecer os conceitos-chave de programação",
+      "Criar aplicações de console pequenas e médias em Python (estruturado e OO)",
+      "Executar, testar e depurar programas Python",
+      "Desenvolver estilo individual de programação"
+    ],
+    "convergences": [
+      "Construção de algoritmos com estruturas de controle, funções e módulos",
+      "Implementação prática intensiva em laboratório"
+    ],
+    "differences": [
+      "UBB antecipa complexidade, busca/ordenação e técnicas de projeto que no Mackenzie ficam em Algoritmos e Programação II e Análise de Algoritmos",
+      "UBB inclui POO, UML, TDD e arquitetura em camadas, ausentes da ementa brasileira",
+      "Ementa Mackenzie não fixa linguagem; a UBB adota Python"
+    ]
+  },
+  "depth": {
+    "level": "Ambas introdutórias de 1º semestre (UBB ano 1, semestre 1; Mackenzie 1ª etapa)",
+    "brazil": "2 h-a teóricas + 2 práticas semanais, foco em resolução de problemas de complexidade crescente",
+    "foreign": "6 h semanais (2 aula + 4 seminário/laboratório); 56 das 84 h de contato são práticas",
+    "theoryPractice": "Proporção prática maior na UBB (2/3 do contato contra 1/2 no Mackenzie)"
+  },
+  "practical": {
+    "period": "Semestre 1 da UBB (outono), compatível com o período de mobilidade 2027.2 se a programação se mantiver",
+    "language": "Inglês na linha IE",
+    "enrolment": "Disciplina de 1º ano; aceitação de intercambista em disciplina introdutória e conflitos de horário não verificados. O estudante que parte em 2027.2 normalmente já cursou a 1ª etapa, de modo que o aproveitamento só interessa se houver pendência no histórico",
+    "prerequisites": "Nenhum pré-requisito declarado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5005 cobre os dois enunciados de Algoritmos e Programação I — algoritmos com controle de fluxo, modularização e estruturas lineares, e implementação em linguagem imperativa — usando Python procedural, e ainda acrescenta complexidade, ordenação, técnicas de projeto e introdução à orientação a objetos.",
+  "justification": "Os dois tópicos essenciais encontram unidades nomeadas na secção 8.1 ('basic elements of the Python language', 'Procedural programming', 'Modular programming') e dez sessões de laboratório em 8.2; condicionais e laços não aparecem como itens próprios, mas são pré-condição das unidades de recursão e busca. A UBB declara 84 h de contato (28 aula + 56 seminário/laboratório) contra 63,33 h-relógio: razão nominal 1,33 e 1,11 no cenário de hora de 50 min. O escopo extra (POO, UML, TDD, complexidade) amplia a disciplina sem reduzir a cobertura exigida.",
+  "conclusionClass": "alta_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026/2027 completo, com horas discriminadas e ano letivo coerente com o catálogo; reduzem a confiança a ementa brasileira com apenas dois enunciados, a ausência de menção literal a condicionais/repetição no programa UBB e a duração não declarada da hora romena.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Ementa brasileira concisa (dois enunciados), sem conteúdo programático detalhado",
+    "Programa UBB não nomeia atribuição/condicionais/laços individualmente; cobertura inferida dos elementos básicos da linguagem",
+    "Disciplina de 1º ano: utilidade prática depende de pendência no histórico do estudante",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceita Python (com ênfase procedural e depois OO) como a 'linguagem de programação imperativa' da ementa?",
+    "O estudante ainda terá Algoritmos e Programação I pendente em 2027.2, ou o par serve apenas como referência?",
+    "A UBB aceita intercambista em disciplina obrigatória do 1º ano no outono de 2027/28?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5171",
+      "name": "Computer programming and programming languages",
+      "relation": "Disciplina de 1º semestre listada no catálogo; conteúdo não verificado neste parecer"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Fontes concordantes, horas explícitas e cobertura integral dos dois enunciados"
+  }
+}

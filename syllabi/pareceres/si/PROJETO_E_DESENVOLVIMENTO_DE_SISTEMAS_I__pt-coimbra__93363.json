@@ -1,0 +1,156 @@
+{
+  "id": "si|PROJETO E DESENVOLVIMENTO DE SISTEMAS I|pt-coimbra|93363",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "PROJETO E DESENVOLVIMENTO DE SISTEMAS I",
+    "name": "Projeto e Desenvolvimento de Sistemas I",
+    "courseName": "Sistemas de Informação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 34, bloco 'PROJETO E DESENVOLVIMENTO DE SISTEMAS I', campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário SI 2025 declara 31,67 h-relógio no semestre."
+    },
+    "topics": [
+      "Desenvolvimento de um sistema de informação que tenha funcionalidades típicas de gerenciamento de dados (CRUD) - incluindo operações por diferentes usuários e geração de relatórios - e que deve atender a uma demanda real da sociedade",
+      "Aplicação de conceitos de desenvolvimento de sistemas de Informação que foram aprendidos no curso",
+      "Execução das atividades de desenvolvimento de software, tais como análise de requisitos, projeto de software, implementação, teste e implantação",
+      "Práticas de Extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93363",
+      "name": "Projeto Integrador",
+      "pageCode": "01021158",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português (língua de ensino); inglês como outra língua de ensino",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100% (plano de trabalho, relatório intercalar, relatório final e apresentação)",
+      "prerequisites": "Conhecimentos de Base Recomendados: Marketing, Estratégia, Recursos Humanos, Gestão das operações, Contabilidade e Finanças",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (i-v), Programa (modalidades PE, PA, PI), Avaliação, Bibliografia",
+      "source": "https://apps.uc.pt/courses/PT/unit/93363/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "a9b3421ff0e3206ebf6dff261d6cf9a9e1672910c107fbffceb22470ccc8c682",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 12.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 12,0 ECTS; não informa horas de contacto (trabalho em grupo com reuniões de acompanhamento). Código interno: 01021158."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Desenvolvimento de um sistema de informação que tenha funcionalidades típicas de gerenciamento de dados (CRUD) - incluindo operações por diferentes usuários e geração de relatórios - e que deve atender a uma demanda real da sociedade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral: Conhecimentos de Base, Métodos de Ensino, Resultados i-v, Programa (PE, PA, PI)",
+      "note": "A UC parte de problemas reais com entidades externas, mas o produto é análise/estratégia de gestão, não um sistema com CRUD e relatórios."
+    },
+    {
+      "brTopic": "Aplicação de conceitos de desenvolvimento de sistemas de Informação que foram aprendidos no curso",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (ILO3 da Licenciatura em Gestão) e Programa",
+      "note": "Integra conhecimentos da licenciatura em Gestão (marketing, finanças, operações), não de desenvolvimento de SI."
+    },
+    {
+      "brTopic": "Execução das atividades de desenvolvimento de software, tais como análise de requisitos, projeto de software, implementação, teste e implantação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Página integral; nenhuma referência a software, requisitos, implementação ou testes"
+    },
+    {
+      "brTopic": "Práticas de Extensão",
+      "essential": false,
+      "status": "parcial",
+      "foreignEvidence": "projetos 'definidos com a colaboração de entidades externas'; impacto 'nas organizações/sociedade'",
+      "foreignLocation": "Programa; Resultados de Aprendizagem iv",
+      "note": "Componente de extensão curricular brasileira; a colaboração externa aproxima-se, mas o item não entra no cálculo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Projeto empresarial, aplicado ou de investigação em Gestão",
+      "location": "Programa"
+    },
+    {
+      "topic": "Diagnóstico, formulação de estratégia e plano de implementação organizacional",
+      "location": "Resultados de Aprendizagem iv"
+    }
+  ],
+  "competencies": {
+    "brazil": "Desenvolver ponta a ponta um SI com CRUD, múltiplos utilizadores e relatórios.",
+    "foreign": [
+      "Integrar conhecimentos de Gestão num projeto",
+      "Recolher e interpretar dados",
+      "Comunicar e trabalhar em equipa"
+    ],
+    "convergences": [
+      "Projeto em equipa sobre problema real com parceiros externos"
+    ],
+    "differences": [
+      "Nenhuma atividade de engenharia de software no Projeto Integrador de Gestão"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de Gestão, Mackenzie na 6ª etapa de SI",
+    "brazil": "Componente prático de 31,67 h centrado em construir software",
+    "foreign": "Projeto de 12 ECTS em gestão, sem produção de software",
+    "theoryPractice": "Ambos são projetos práticos, de natureza diferente"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json",
+    "language": "Português, com inglês como alternativa",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC de síntese do plano de Gestão.",
+    "prerequisites": "Formação de base em Gestão",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Projeto e Desenvolvimento de Sistemas I exige construir um sistema CRUD com relatórios aplicando o ciclo de desenvolvimento de software; o Projeto Integrador de Gestão partilha só o formato de projeto com problema real e parceiros externos, sem qualquer atividade de software.",
+  "justification": "Os três tópicos essenciais (sistema CRUD para demanda real, aplicação de conceitos de desenvolvimento de SI, ciclo requisitos-projeto-implementação-teste-implantação) não têm correspondência na página 93363; razão 0/3. Apenas as Práticas de Extensão, não essenciais, encontram eco na colaboração com entidades externas. Carga não comparável (12 ECTS sem horas face a 31,67 h).",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Página completa quanto a natureza e conteúdo; a inexistência de desenvolvimento de software não depende das horas não declaradas.",
+  "limitations": [
+    "Horas de contacto não declaradas; 12 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de SI e à COI"
+  ],
+  "openQuestions": [
+    "Coimbra tem projeto de desenvolvimento de software em licenciatura de Engenharia Informática aberto a mobilidade?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergência integral de natureza do projeto"
+  }
+}

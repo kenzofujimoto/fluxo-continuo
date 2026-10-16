@@ -1,0 +1,175 @@
+{
+  "id": "cc|ENEC54298|ro-babes|MLE0049",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54298",
+    "name": "Cibersegurança",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 2, bloco 'Comp. Curricular CIBERSEGURANÇA', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Introduz o conceito de segurança da informação",
+      "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE0049",
+      "name": "Public-Key Cryptography",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Mathematics",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Semestre 5 (arquivo 'IE_sem5'; o documento imprime semestre '1' do 3º ano) = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento em inglês, publicado no catálogo da linha IE 'Computer Science in English'; confirmar turma em 2027/28)",
+      "courseStatus": "Optional / Specialisation subject",
+      "assessment": "Viva voce: avaliações 1/2 da nota, exame prático 1/2; nota final mínima 5",
+      "prerequisites": "Campos 4.1/4.2 em branco no documento",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE0049_en_crivei_2026_10408.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "3f44641b353564ba43c1eaac429a21aca94d5ac5e13b7e5e94b9ac2b3db1854f",
+      "location": "Course description 2026/2027: secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 7 (resultados), 8.1 (curso), 8.2 (seminário/laboratório), 9 (avaliação); 8.1 itens 1-14, 8.2 itens 1-7",
+      "hours": {
+        "weekly": {
+          "total": 3,
+          "course": 2,
+          "seminarLab": 1,
+          "note": "Laboratório de 2 h a cada duas semanas"
+        },
+        "contactTotal": 42,
+        "contactLecture": 28,
+        "contactSeminarLab": 14,
+        "selfStudy": 58,
+        "totalWorkload": 100,
+        "ects": 4,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "documentNote": "Cabeçalho do documento traz o título 'Algebra' (resíduo de modelo) e campo 'Field of study: Mathematics'; o campo 2.1 identifica 'Public-Key Cryptography' MLE0049. data.json registra 56 h de contato, mas o documento declara 42."
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introduz o conceito de segurança da informação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7 (resultados), 8.1 itens 1-14, 8.2 itens 1-7 e bibliografia; não há unidade sobre conceito de segurança da informação (propriedades, ameaças, controles)",
+      "note": "Enunciado oficial traz resíduo de cabeçalho de página ('UNIVERSIDADE ... 108'), reproduzido literalmente."
+    },
+    {
+      "brTopic": "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "RSA, Rabin, ElGamal, curvas elípticas, 'Digital signatures', 'Key-related protocols', 'Practical aspects of public-key cryptosystems'",
+      "foreignLocation": "Secção 8.1 itens 1, 3, 6, 8, 11-14; 8.2 itens 1, 6-7",
+      "note": "Cobre a parte de técnicas e protocolos criptográficos (apenas chave pública e criptografia clássica; sem cifras simétricas modernas nem hash). Segurança de redes, de aplicações, desenvolvimento seguro, aspectos éticos/jurídicos e boas práticas internacionais estão ausentes."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Teoria dos números e complexidade algorítmica aplicadas à criptografia",
+      "location": "8.1 item 2; 8.2 itens 2-3"
+    },
+    {
+      "topic": "Testes de primalidade e fatoração de inteiros",
+      "location": "8.1 itens 4-5; 8.2 itens 4-5"
+    },
+    {
+      "topic": "Corpos finitos, polinômios, logaritmo discreto e algoritmo de Berlekamp",
+      "location": "8.1 itens 7, 9-10"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Conhecer noções fundamentais de criptografia e aplicá-las",
+      "Desenvolver raciocínio matemático e algorítmico com abstração e prova formal"
+    ],
+    "convergences": [
+      "Criptografia de chave pública, assinaturas e protocolos de chaves"
+    ],
+    "differences": [
+      "UBB é disciplina matemática de criptografia assimétrica; Mackenzie é panorama de segurança da informação",
+      "Segurança de redes, aplicações, desenvolvimento seguro, ética e direito ausentes na UBB",
+      "UBB aprofunda teoria dos números e corpos finitos"
+    ]
+  },
+  "depth": {
+    "level": "UBB 3º ano, optativa de especialização; Mackenzie obrigatória da 6ª etapa",
+    "brazil": "2 h-a teóricas + 2 práticas semanais",
+    "foreign": "2 h aula + 1 h laboratório (2 h quinzenais); departamento de Matemática",
+    "theoryPractice": "UBB predominantemente teórica e matemática; laboratório de algoritmização"
+  },
+  "practical": {
+    "period": "Semestre 5 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês na linha IE",
+    "enrolment": "Optativa: depende de abertura de turma e de vaga para intercambista",
+    "prerequisites": "Nenhum declarado; base em aritmética modular recomendável",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE0049 é uma optativa matemática de criptografia de chave pública que atende apenas à fração criptográfica de Cibersegurança; conceitos de segurança da informação, segurança de redes e aplicações e aspectos éticos e jurídicos não aparecem.",
+  "justification": "O primeiro enunciado (conceito de segurança da informação) não tem unidade correspondente nos 14 itens de 8.1 nem nos 7 de 8.2. O segundo é composto; dele só a parte criptográfica aparece (itens 3, 6, 8, 11-14), sem cifras simétricas modernas, segurança de redes e de aplicações, desenvolvimento seguro, ética, direito ou boas práticas. Cobertura somada de 50% pelo cálculo, mas apoiada num fragmento de um enunciado. O documento declara 42 h de contato (28 + 14), não as 56 h do data.json: razão 0,66 sobre 63,33 h, abaixo de 0,75 já pelo valor nominal.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A classe derivada (afinidade_parcial) depende de marcar como 'parcial' um enunciado composto do qual só a criptografia (um de cerca de seis elementos) é atendida; somando-se a ausência do primeiro tópico e a razão de horas de 0,66, a afinidade parcial superestimaria a aderência.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026/2027 assinado e com horas explícitas; o cabeçalho com título 'Algebra' (resíduo de modelo) e a divergência de horas com data.json exigem atenção, mas não afetam o conteúdo listado.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Cabeçalho do documento intitulado 'Algebra'; o campo 2.1 identifica Public-Key Cryptography MLE0049",
+    "data.json registra 56 h de contato; o documento declara 42 h",
+    "Disciplina optativa: abertura de turma sujeita a demanda",
+    "Primeiro enunciado oficial brasileiro contém texto de cabeçalho de página",
+    "Classe rebaixada em relação à derivada; ver downgradeReason",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Existe disciplina de segurança da informação ou de redes seguras na UBB acessível no outono de 2027/28?",
+    "A coordenação admitiria Public-Key Cryptography como optativa livre em vez de equivalente a Cibersegurança?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5002",
+      "name": "Computer networks",
+      "relation": "Item 14 de 8.1 trata segurança de redes de forma introdutória; complemento marginal, não substitui"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe escolhida abaixo da derivada pelas regras e divergência de horas entre data.json e o documento"
+  },
+  "revisionLog": [
+    {
+      "date": "2026-10-16",
+      "change": "Removido cabeçalho de página do PDF que o extrator havia colado ao primeiro tópico oficial; conteúdo do parecer inalterado."
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "cc|ENEC54344|ro-babes|MLE5028",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54344",
+    "name": "Tópicos Avançados em Banco de Dados",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 5, bloco 'Comp. Curricular TÓPICOS AVANÇADOS EM BANCO DE DADOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Aplicação da linguagem SQL: views, procedures, functions e triggers",
+      "Fundamentação sobre paradigmas de persistência: Hierárquico, Relacional e Objeto-relacional",
+      "Estudo da modelagem multidimensional (OLAP)",
+      "Transformação, preparação e carga de dados para uso em aplicações analíticas",
+      "Visualização de dados com a utilização de dashboard",
+      "Estudo de armazenamento e recuperação de dados em larga escala (Big Data)",
+      "Utilização de ferramentas para manipulação de dados em larga escala",
+      "Introdução aos bancos de dados NoSQL",
+      "Caracterização das famílias de bancos de dados NoSQL: chave-valor, documentos, grafos e colunas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5028",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "level": "Bachelor",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem4_MLE5028_en_sabina_2026_11006.pdf",
+      "sha256": "7eaad114f8b7651551c15b8ed46713880a9790e8ecc1855186edce5aaeafcfcc",
+      "name": "Database Management Systems",
+      "programme": "Computer Science",
+      "yearOfStudy": 2,
+      "semester": 4,
+      "period": "Semestre 4 = 2º semestre do ano letivo (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo)",
+      "courseStatus": "Compulsory / Specialisation subject",
+      "assessment": "2.6 indica 'Viva voce', mas a secção 9 prevê exame escrito 50% e avaliação de laboratório + exame prático 50%",
+      "prerequisites": "Data Structures and Algorithms; Databases; programação intermediária",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "location": "Course description 2026-2027: secções 2, 3.1-3.9, 4, 6.2-7, 8.1 (unidades 1-14), 8.2 (seminários 1-7, laboratórios 1-3), 9",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aplicação da linguagem SQL: views, procedures, functions e triggers",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (unidades 1-14) e 8.2 (seminários 1-7, laboratórios 1-3) do programa MLE5028",
+      "note": "Há otimização de consultas e tuning no SQL Server (unidades 6-9; seminários 5 e 7), mas views, procedures, functions e triggers não são nomeados; o pré-requisito 'Databases' sugere que SQL básico é visto antes."
+    },
+    {
+      "brTopic": "Fundamentação sobre paradigmas de persistência: Hierárquico, Relacional e Objeto-relacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programa centrado em SGBD relacional: transações, recuperação, avaliação de operadores relacionais; resultado 'designs, applies, operates and develops relational databases'",
+      "foreignLocation": "Secção 8.1, unidades 1-9; secção 6.2",
+      "note": "Só o paradigma relacional; hierárquico e objeto-relacional não aparecem."
+    },
+    {
+      "brTopic": "Estudo da modelagem multidimensional (OLAP)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (unidades 1-14) e 8.2 (seminários 1-7, laboratórios 1-3) do programa MLE5028",
+      "note": "Nenhuma menção a OLAP, cubos ou modelagem dimensional."
+    },
+    {
+      "brTopic": "Transformação, preparação e carga de dados para uso em aplicações analíticas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (unidades 1-14) e 8.2 (seminários 1-7, laboratórios 1-3) do programa MLE5028",
+      "note": "A unidade 12 (Azure Stream Analytics) trata de processamento de fluxos, não de preparação e carga de dados para ambiente analítico."
+    },
+    {
+      "brTopic": "Visualização de dados com a utilização de dashboard",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (unidades 1-14) e 8.2 (seminários 1-7, laboratórios 1-3) do programa MLE5028",
+      "note": "Dashboards ou visualização de dados não aparecem."
+    },
+    {
+      "brTopic": "Estudo de armazenamento e recuperação de dados em larga escala (Big Data)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Distributed Databases' (10-11) e 'Parallel Databases. Spatial Databases' (13); resultado 'concepts of distributed databases and parallel databases'",
+      "foreignLocation": "Secção 8.1, unidades 10-11 e 13; secção 7, item 3",
+      "note": "Armazenamento e recuperação em escala por bancos distribuídos e paralelos, não por ecossistemas de Big Data."
+    },
+    {
+      "brTopic": "Utilização de ferramentas para manipulação de dados em larga escala",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Data Stream Processing: Azure Stream Analytics, Azure Machine Learning'",
+      "foreignLocation": "Secção 8.1, unidade 12",
+      "note": "Uma única aula sobre ferramenta de processamento de fluxos em nuvem."
+    },
+    {
+      "brTopic": "Introdução aos bancos de dados NoSQL",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (unidades 1-14) e 8.2 (seminários 1-7, laboratórios 1-3) do programa MLE5028",
+      "note": "Nenhuma menção a NoSQL."
+    },
+    {
+      "brTopic": "Caracterização das famílias de bancos de dados NoSQL: chave-valor, documentos, grafos e colunas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6.2, 7, 8.1 (unidades 1-14) e 8.2 (seminários 1-7, laboratórios 1-3) do programa MLE5028",
+      "note": "Famílias chave-valor, documentos, grafos e colunas não aparecem."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Transações e controle de concorrência (pessimista, otimista, multiversão)",
+      "location": "8.1 unidades 1-3; 8.2 seminários 3-4, laboratório 3"
+    },
+    {
+      "topic": "Recuperação de banco de dados",
+      "location": "8.1 unidade 4"
+    },
+    {
+      "topic": "Segurança de banco de dados",
+      "location": "8.1 unidade 5"
+    },
+    {
+      "topic": "Avaliação de operadores relacionais e otimização de consultas; tuning no SQL Server",
+      "location": "8.1 unidades 6-9; 8.2 seminários 5 e 7"
+    },
+    {
+      "topic": "Aplicações ADO.NET/Windows Forms com SQL Server",
+      "location": "8.2 seminários 1-2, laboratórios 1-2"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário não lista competências; a ementa cobre SQL procedural, paradigmas de persistência, OLAP/ETL/dashboards, Big Data e NoSQL.",
+    "foreign": [
+      "Controle de concorrência e recuperação (7)",
+      "Otimização de consultas SQL (7)",
+      "Bancos distribuídos e paralelos; segurança (7)",
+      "PC16-PC19: diagramas, gestão, esquema e modelos de dados (6.1)"
+    ],
+    "convergences": [
+      "Paradigma relacional",
+      "Armazenamento distribuído/paralelo e processamento de dados em escala"
+    ],
+    "differences": [
+      "UBB aprofunda internos do SGBD (transações, recuperação, otimização), ausentes da ementa Mackenzie",
+      "Mackenzie exige OLAP, ETL, dashboards e NoSQL, ausentes na UBB"
+    ]
+  },
+  "depth": {
+    "level": "UBB 2º ano, semestre 4; Mackenzie 4ª etapa",
+    "brazil": "2 h-a teóricas + 2 práticas por semana",
+    "foreign": "2 h de curso + 2 h de seminário/laboratório por semana",
+    "theoryPractice": "UBB: 28 de 56 h em seminário/laboratório (50%)"
+  },
+  "practical": {
+    "period": "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "language": "Inglês (documento e catálogo IE)",
+    "enrolment": "Mínimo de 6 laboratórios e 5 seminários para acesso ao exame (9.6)",
+    "prerequisites": "Data Structures and Algorithms; Databases",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Database Management Systems (MLE5028) estuda o interior de um SGBD relacional — transações, concorrência, recuperação, segurança e otimização de consultas — e só toca a larga escala por bancos distribuídos/paralelos e Azure Stream Analytics; OLAP, ETL, dashboards e NoSQL, que dominam a ementa Mackenzie, estão ausentes.",
+  "justification": "Dos nove tópicos essenciais, três são parciais (paradigma relacional nas unidades 1-9, bancos distribuídos/paralelos nas unidades 10-11 e 13, streaming na unidade 12) e seis não foram encontrados, incluindo os dois de NoSQL e os de OLAP, ETL e visualização. Com 33% dos tópicos com alguma evidência, a classe derivada é baixa afinidade. As 56 h de contato (28 + 28) dariam razão 0,884 sobre 63,33 h. A disciplina complementa, mas não substitui, Tópicos Avançados em Banco de Dados.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026-2027 individual com horas explícitas; reduzem a confiança a contradição entre 'Viva voce' (2.6) e exame escrito (9.4) e a duração não declarada da hora.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Semestre par da UBB (primavera europeia): não coincide com 2027.2; só seria cursável em mobilidade anual ou em 2028.1",
+    "Forma de avaliação contraditória no documento (2.6 'Viva voce' x 9.4 exame escrito)",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Algum dos cursos de bancos de dados da UBB (MLE5027, MLE5174) cobre NoSQL, OLAP ou ETL?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5027",
+      "name": "Databases",
+      "relation": "Semestre 3 (outono), 6 ECTS; apenas título visto em data.json, programa não lido; pode cobrir SQL procedural"
+    },
+    {
+      "code": "MLE5174",
+      "name": "Databases 2",
+      "relation": "Linha IIE, semestre 4; apenas título visto em data.json, programa não lido"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa UBB em cache local (dossiê .cache/dossiers) com apoio de IA (Claude); cada tópico oficial brasileiro vinculado a unidade/secção do programa estrangeiro; campos numéricos conferidos com syllabi/programas.json e scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": false,
+    "reason": "Seis de nove tópicos sem correspondência; classe estável a variações de julgamento nos parciais"
+  }
+}

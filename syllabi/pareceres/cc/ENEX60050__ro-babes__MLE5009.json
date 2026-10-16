@@ -1,0 +1,172 @@
+{
+  "id": "cc|ENEX60050|ro-babes|MLE5009",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60050",
+    "name": "Paradigmas de Programação",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 6, bloco 'Comp. Curricular PARADIGMAS DE PROGRAMAÇÃO', campos 'Carga horária' e 'Ementa' (bloco impresso como 'Etapa 7' dentro do PDF da 5ª etapa)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 0
+      },
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 0 práticas presenciais por semana. Divergência: data.json registra 31,667 h e 5º semestre para este componente; o bloco do ementário (PDF da 5ª etapa, p. 6) imprime 'Etapa 7' e 63,33 h com apenas 2 h-a teóricas presenciais."
+    },
+    "topics": [
+      "Estudo evolutivo das linguagens de programação",
+      "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5009",
+      "name": "Functional and Logic Programming",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Semestre 3 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento em inglês, publicado no catálogo da linha IE 'Computer Science in English'; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory / Core subject",
+      "assessment": "Prova escrita (semanas 13-14) 60%, documentação e entrega de programas 10%, teste prático Prolog 15%, teste prático Lisp 15%, bônus de seminário 5%; mínimo 5 na prova e na média final",
+      "prerequisites": "MLE5005 Programming Fundamentals, MLE5055 Computational Logic, MLE5022 Data Structures and Algorithms",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE5009_en_hfpop_2026_10149.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "700229e8ca36652382a1d1920650a3b9bd5827c08bcb771d6492427c5241a725",
+      "location": "Syllabus 2026/2027: secções 2, 3.1-3.9, 4, 7 (resultados), 8.1 (12 unidades), 8.2 S1-S7, 8.3 Lab 1-7, 9 (avaliação)",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo evolutivo das linguagens de programação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Programming and programming languages. Imperative programming vs. declarative programming... History and presentation of Lisp'",
+      "foreignLocation": "Secção 8.1, sétima unidade",
+      "note": "Há contextualização histórica apenas de Lisp e da oposição imperativo/declarativo; não há panorama evolutivo das linguagens."
+    },
+    {
+      "brTopic": "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Prolog: fatos e regras, recursão, listas, árvores, backtracking e cut; Lisp: LAMBDA, FUNCALL/APPLY, funções MAP, recursão e listas",
+      "foreignLocation": "Secção 8.1 unidades 1-6 (Prolog) e 7-12 (Lisp); 8.2 S1-S6; 8.3 Lab 1-7",
+      "note": "Paradigmas lógico e funcional cobertos (cláusulas de Horn não nomeadas; avaliação lazy, compreensão de listas e polimorfismo funcional ausentes). Paradigma imperativo só como contraponto e orientado a objetos ausente."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Base de dados interna do Prolog e gerenciamento de arquivos",
+      "location": "8.1 unidades 5-6"
+    },
+    {
+      "topic": "Recursão de cauda e otimização da pilha em Prolog",
+      "location": "8.1 unidade 4"
+    },
+    {
+      "topic": "Macros, argumentos opcionais e funções destrutivas em Lisp",
+      "location": "8.1 unidades 10 e 12"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": [
+      "Conhecer conceitos e modelos dos paradigmas funcional e lógico",
+      "Programar em Common Lisp e SWI-Prolog",
+      "Aplicar técnicas declarativas a problemas reais"
+    ],
+    "convergences": [
+      "Programação funcional com funções de alta ordem e listas",
+      "Programação lógica com fatos, regras, recursão e backtracking"
+    ],
+    "differences": [
+      "Mackenzie compara quatro paradigmas; UBB aprofunda apenas dois (declarativos)",
+      "Imperativo (escopo, tipagem, ponteiros) e OO (classes, herança, polimorfismo) ausentes na UBB",
+      "Cálculo lambda como teoria e avaliação lazy não aparecem na UBB"
+    ]
+  },
+  "depth": {
+    "level": "UBB 2º ano/semestre 3; Mackenzie etapa 7 no bloco do ementário",
+    "brazil": "Visão comparativa de paradigmas, 2 h-a teóricas presenciais",
+    "foreign": "2 h aula + 2 h seminário/laboratório; testes práticos em Prolog e Lisp",
+    "theoryPractice": "UBB com prática de programação declarativa; Mackenzie declarada como teórica"
+  },
+  "practical": {
+    "period": "Semestre 3 da UBB (outono), compatível com 2027.2 se mantido",
+    "language": "Inglês (documento em inglês)",
+    "enrolment": "Pré-requisitos UBB (Programming Fundamentals, Computational Logic, Data Structures and Algorithms) podem exigir comprovação",
+    "prerequisites": "Compatíveis com aluno da 5ª etapa ou posterior",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5009 aprofunda os paradigmas funcional (Lisp) e lógico (Prolog) previstos em Paradigmas de Programação, mas não trata os paradigmas imperativo e orientado a objetos nem a evolução histórica das linguagens, metade do escopo comparativo da ementa.",
+  "justification": "Os dois enunciados oficiais são parciais: o histórico limita-se a Lisp e à oposição imperativo/declarativo (sétima unidade de 8.1), e dos quatro paradigmas apenas lógico (unidades 1-6, S1-S4, Lab 2-4) e funcional (unidades 7-12, S5-S6, Lab 5-7) aparecem. Cobertura integral nula e soma de parciais de 100%. Pelo valor do programas.json (63,33 h), as 56 h de contato dão razão 0,88; se prevalecer o 31,667 h do data.json, a UBB teria quase o dobro. A divergência de carga e de etapa no próprio ementário impede conclusão firme sobre horas.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa UBB 2026/2027 completo, mas a carga e a etapa brasileiras são contraditórias (63,33 h com 2 h-a semanais, 'Etapa 7' no PDF da 5ª etapa, 31,667 h no data.json), o que fragiliza a comparação de horas.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Carga horária brasileira contraditória: 63,33 h no bloco do ementário versus 31,667 h no data.json; 2 h-a teóricas semanais impressas",
+    "Bloco brasileiro impresso como 'Etapa 7' dentro do PDF da 5ª etapa",
+    "Ementa brasileira com erros de digitação ('compressão de listas', 'polimorfismo funciona') reproduzidos do original",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Qual é a carga horária vigente de Paradigmas de Programação: 63,33 h ou 31,667 h?",
+    "A coordenação aceita dois paradigmas aprofundados no lugar de quatro comparados, eventualmente com complemento OO?"
+  ],
+  "alternatives": [
+    {
+      "code": "MLE5172",
+      "name": "Programming paradigms",
+      "relation": "Título mais próximo da ementa (catálogo, 3º semestre de outra linha); documento não verificado neste parecer"
+    },
+    {
+      "code": "MLE5006",
+      "name": "Object oriented programming",
+      "relation": "Complemento possível para o paradigma OO; documento não verificado"
+    }
+  ],
+  "method": "Leitura integral dos dois documentos oficiais (bloco do ementário Mackenzie 2025 e programa UBB) com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Carga horária e etapa brasileiras conflitantes entre fontes; cobertura apoiada apenas em tópicos parciais"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "cc|ENEC61014|es-salamanca|101120",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61014",
+    "name": "Interface Humano-Computador",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 5 (6ª etapa CC Alphaville), bloco 'Comp. Curricular INTERFACE HUMANO-COMPUTADOR', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário declara 31,67 h-relógio; distribuição semanal não extraída."
+    },
+    "topics": [
+      "Estudo dos fatores humanos em sistemas interativos",
+      "Estudos da relação entre comunicação, interface e interação",
+      "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "Avaliação de usabilidade de sistemas interativos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101120",
+      "name": "Interfaces Gráficas de Usuario",
+      "faculty": "Facultad de Ciencias",
+      "department": "Informática y Automática",
+      "programme": "Grado en Ingeniería Informática",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 3,
+      "semester": "Primer Semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Obligatoria (campo 'Carácter')",
+      "assessment": "Entregas parciais da prática 30%, entrega final com demonstração de competências 70%; mínimo de 40% no exame final",
+      "prerequisites": "Recomenda-se ter superado Programación III (POO) e cursado Ingeniería del Software I",
+      "source": "https://guias.usal.es/node/255584",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "0c4ec3505e87d5120dd8987b6f912e8811c5dca8eb2a1637d04908ce76b043c6",
+      "location": "Guía 2026/2027: secções 1 (dados), 2 (recomendações), 3 (objetivos), 4 (competências), 5 (contenidos teoría), 6-7 (metodologias), 9 (avaliação)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece apenas com o título e a data no texto obtido; a tabela de horas não foi capturada. Só 6 ECTS explícitos; ECTS não convertidos em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fatores humanos em sistemas interativos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo 'Comprender las capacidades y limitaciones humanas para la interacción'; nenhum item dos Contenidos trata fatores humanos",
+      "foreignLocation": "Secção 3 (Objetivos), item 1; secção 5 examinada"
+    },
+    {
+      "brTopic": "Estudos da relação entre comunicação, interface e interação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3 (Objetivos), 4 (Competencias), 5 (Contenidos teoría) e 9 (Evaluación) lidas integralmente",
+      "note": "O objetivo 2 cita interação multimodal como tecnologia, sem teoria de comunicação/interface/interação."
+    },
+    {
+      "brTopic": "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Implementação coberta: controles visuais, disposição de controles, programação orientada a eventos, gráficos 2D, animações; processo de projeto só no objetivo 'enfoques centrados en el usuario'",
+      "foreignLocation": "Secção 5 (Contenidos teoría, oito itens); secção 3, objetivo 4"
+    },
+    {
+      "brTopic": "Avaliação de usabilidade de sistemas interativos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4, 5, 6 e 9 lidas; avaliação baseada exclusivamente em exercícios de código",
+      "note": "A competência genérica CE17 do grau menciona avaliar usabilidade, mas nenhum conteúdo ou atividade a operacionaliza."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Programação de GUI sobre uma API: janelas, botões, menus, layout e controles avançados",
+      "location": "Secção 5, itens 1-4 e 6"
+    },
+    {
+      "topic": "Programação orientada a eventos e relação GUI-POO",
+      "location": "Secção 5, itens 2 e 5"
+    },
+    {
+      "topic": "Gráficos 2D e animações",
+      "location": "Secção 5, itens 7-8"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Desenvolver sistemas interativos com enfoque centrado no usuário (objetivo 4)",
+      "CE17 projetar e avaliar interfaces acessíveis e usáveis (competência genérica do grau)",
+      "Domínio de um framework de GUI comprovado por entregas de código"
+    ],
+    "convergences": [
+      "Implementação de sistemas interativos"
+    ],
+    "differences": [
+      "Salamanca é disciplina de programação de interfaces gráficas; o Mackenzie trata IHC como área (fatores humanos, comunicação, avaliação)",
+      "Avaliação de usabilidade não aparece no conteúdo nem na avaliação de Salamanca"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca obrigatória de 3º curso, Mackenzie obrigatória da 6ª etapa",
+    "brazil": "Componente teórico-conceitual de 31,67 h",
+    "foreign": "Enfoque 'fundamentalmente práctico'; nota = entregas incrementais de uma prática de programação",
+    "theoryPractice": "Proporção não comparável: a tabela de horas da secção 7 não foi capturada"
+  },
+  "practical": {
+    "period": "Primer Semestre (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre — não verificado",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional da universidade no projeto)",
+    "enrolment": "Disciplina obrigatória do grau; aceitação de intercambista não verificada",
+    "prerequisites": "Exige base sólida em POO; compatível com a 6ª etapa CC do Mackenzie",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Interfaces Gráficas de Usuario ensina a programar GUIs sobre uma API (controles, layout, eventos, 2D, animação); da ementa de IHC do Mackenzie só a implementação de sistemas interativos tem conteúdo correspondente, e fatores humanos aparecem apenas como objetivo.",
+  "justification": "Nenhum dos quatro tópicos essenciais é integralmente coberto: fatores humanos (objetivo 1) e projeto/implementação (secção 5, sem processo de design) são parciais; comunicação-interface-interação e avaliação de usabilidade não constam dos Contenidos nem da avaliação, que mede apenas código. A guia não traz horas presenciais (secção 7 vazia no texto obtido), logo a carga de 31,67 h não pode ser comparada. A regra interna deriva afinidade parcial pelo limite exato de 50%; registra-se classe mais conservadora.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Os dois 'parciais' apoiam-se em objetivos gerais e na parte de implementação, enquanto a ementa ENEC61014 é centrada em fatores humanos, comunicação e avaliação de usabilidade, ausentes do conteúdo e da avaliação de 101120; o limiar de 50% é atingido sem nenhum tópico coberto.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guía oficial 2026/2027 com conteúdos e avaliação legíveis; falta a tabela de horas e a guia não nomeia a API utilizada.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Tabela de horas (secção 7) não capturada; carga horária não comparável",
+    "API/framework de GUI não identificado na guia",
+    "data.json registra a disciplina como optativa, mas a guia declara 'OBLIGATORIA'",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Salamanca oferece outra disciplina de Interacción Persona-Ordenador com avaliação de usabilidade acessível a intercambistas?",
+    "A secção 7 da guia no portal traz horas presenciais (tabela não capturada no cache)?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía/programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a secção/item do documento estrangeiro; campos data.json não usados como evidência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe rebaixada em relação à derivada; e horas ausentes"
+  }
+}
