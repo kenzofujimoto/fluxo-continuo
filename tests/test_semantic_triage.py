@@ -56,3 +56,28 @@ def test_crossing_states_never_declare_incompatibility():
     st = crossing_state(kind="disciplina", pareceres=[{"id": "x", "conclusionClass": "afinidade_parcial"}],
                         registered=["A"], semantic=[], area_courses=40)
     assert st["state"] == "parecer_concluido"
+
+
+def test_candidate_requires_identity_concepts_on_both_sides():
+    from semantic_triage import is_candidate
+    idf = {c: 2.0 for c in ("pesquisa_operacional", "programacao", "algoritmos", "paralelismo", "complexidade")}
+    br_title = concepts("Pesquisa Operacional I")
+    br_all = br_title | {"programacao"}
+    # programming course shares only a generic concept and nothing of the Brazilian title
+    assert not is_candidate(br_title, br_all, concepts("Elementary Programming"), {"programacao"}, idf)
+    assert is_candidate(br_title, br_all, concepts("Investigación Operativa"), {"pesquisa_operacional"}, idf)
+
+
+def test_linear_programming_is_not_programming():
+    assert "programacao" not in concepts("Programação linear e método simplex")
+    assert "pesquisa_operacional" in concepts("Programação linear e método simplex")
+
+
+def test_social_security_is_not_information_security_and_generic_concepts_are_not_identity():
+    from semantic_triage import is_candidate
+    assert "seguranca" not in concepts("Seguridad Social")
+    assert "seguridade" in concepts("Seguridad Social")
+    assert "calculo" not in concepts("limites da coisa julgada")
+    idf = {c: 2.0 for c in ("economia", "direitos_humanos")}
+    # only the generic 'economia' concept is shared
+    assert not is_candidate({"direitos_humanos"}, {"direitos_humanos", "economia"}, {"economia"}, {"economia"}, idf)
