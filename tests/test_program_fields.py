@@ -14,6 +14,10 @@ def ubb_text():
     return (FIX / "ubb_course_description.txt").read_text(encoding="utf-8")
 
 
+def ubb_sorted():
+    return (FIX / "ubb_course_description_sorted.txt").read_text(encoding="utf-8")
+
+
 def mack_text():
     return (FIX / "mackenzie_stage8_excerpt.txt").read_text(encoding="utf-8")
 
@@ -30,7 +34,7 @@ def test_ubb_identification_fields():
 
 
 def test_ubb_hours_are_split_and_never_derived_from_ects():
-    h = parse_ubb(ubb_text())["hours"]
+    h = parse_ubb(ubb_text(), ubb_sorted())["hours"]
     assert h["weekly"] == {"total": 5, "course": 2, "seminarLab": 3}
     assert h["contact"] == {"total": 70, "course": 28, "seminarLab": 42}
     assert h["selfStudy"] == 55

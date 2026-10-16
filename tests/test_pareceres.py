@@ -165,3 +165,9 @@ def test_detects_boilerplate_between_pareceres():
     c["justification"] = "Circuitos combinacionais excedem a ementa; indução matemática não aparece."
     dup = find_boilerplate([a, b, c])
     assert dup == [(a["id"], b["id"])]
+
+
+def test_historical_brazilian_syllabus_caps_class_at_partial():
+    cov = coverage_summary([topic("coberto")] * 4)
+    hours = {"state": "comparavel", "ratio": 1.0}
+    assert derive_class(cov, hours, docs_ok=True, current_br=False) == "afinidade_parcial"
