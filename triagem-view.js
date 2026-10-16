@@ -2,7 +2,7 @@
    Afini­dade de título não constitui equivalência nem parecer acadêmico. */
 'use strict';
 (async function () {
-  const [response, screeningResponse, candidateResponse] = await Promise.all([fetch('./data.json'), fetch('./triagem.json'), fetch('./candidatos-catalogo.json')]);
+  const [response, screeningResponse, candidateResponse, evidenceResponse, mackResponse] = await Promise.all([fetch('./data.json'), fetch('./triagem.json'), fetch('./candidatos-catalogo.json'), fetch('./syllabi/records.json'), fetch('./syllabi/mackenzie-docs.json')]);
   if (!response.ok || !screeningResponse.ok) return;
   const data = await response.json();
   const screening = await screeningResponse.json();
@@ -10,6 +10,11 @@
   const extraCandidates = candidateResponse.ok ? await candidateResponse.json() : {pairs: []};
   const suggestionIndex = new Map(extraCandidates.pairs.map(function(p){return [p[0]+'|'+p[1]+'|'+p[2],p[3]];}));
   const foreignIndex = new Map(data.foreignCourses.map(function (f) {return [f.universityId + '|' + f.code, f];}));
+  const evidences=evidenceResponse.ok ? await evidenceResponse.json() : {foreign:[]};
+  const brEvidences=mackResponse.ok ? await mackResponse.json() : {rows:[]};
+  const docIndex=new Map((evidences.foreign||[]).map(function(x){return[x.universityId+'|'+x.foreignCode,x];}));
+  const brIndex=new Map((brEvidences.rows||[]).map(function(x){return[x.courseId+'|'+String(x.code||x.name).toLocaleLowerCase('pt-BR'),x];}));
+
   const uIndex = new Map(data.universities.map(function (u, i) {return [u.name, i];}));
   const labels = {P:'Afinidade lexical', T:'Verificar semestre', S:'Triagem parcial', C:'Consultar catálogo', F:'Solicitar documentos', I:'Nova pesquisa pendente'};
   const tokens = {P:'Afinidade',T:'Período ?',S:'Sem indício',C:'Catálogo ↗',F:'Fonte ?',I:'Triagem pendente'};
@@ -58,7 +63,19 @@
         const st=r[3];b.dataset.screening='true';b.dataset.sclass=st;b.dataset.sri=String(ri);b.dataset.sui=String(ui);b.dataset.scourse=cid;
         const first=document.createElement('span');first.className='match-code';first.textContent=extras.length?extras[0][0]:(r[4]?r[4][0]:tokens[st]);
         const second=document.createElement('span');second.className='cell-tag';second.textContent=extras.length?'Possível por título':labels[st];
-        b.replaceChildren(first,second);b.title=screening.meta.statusLegend[st];
+        b.replaceChildren(first,second);
+        const target=extras[0]||r[4]||null;
+        if(target){
+          const foreign=docIndex.get(data.universities[ui].id+'|'+target[0]);
+          const local=brIndex.get(cid+'|'+String(course.rows[ri].id||course.rows[ri].name).toLocaleLowerCase('pt-BR'));
+          const brOK=local?.status==='ementa_oficial_correspondente',frOK=foreign?.status==='ementa_individual';
+          const label=brOK&&frOK?'Duas ementas':brOK||frOK?'Uma ementa':'Ementas pendentes';
+          const stage=document.createElement('span');
+          stage.className='audit-pill audit-'+(brOK&&frOK?'dual':brOK||frOK?'one':'none');
+          stage.textContent=label;
+          b.appendChild(stage);
+        }
+        b.title=screening.meta.statusLegend[st];
         if(st==='P'||extras.length)b.classList.add('suggested');
         if(st==='T')b.classList.add('timing');
       }
