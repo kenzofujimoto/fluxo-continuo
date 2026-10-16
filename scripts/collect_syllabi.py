@@ -170,7 +170,7 @@ def extract_official_program(text, url):
         return "", False
     # Find curriculum text itself, not navigation bar, syllabus metadata, or ECTS alone.
     patterns=[
-        r"(?:\b5\.\s*CONTENIDOS\b|\b5\.\s*Continguts\b|\bCONTINGUTS\b|\bContenidos\s+te[oó]ricos\b|\bPrograma de la asignatura\b)",
+        r"(?:\b5\.\s*CONTENIDOS\b|\b5\.\s*Continguts\b|\bCONTINGUTS\b|\bDESCRIPCI[OÓ]N\s+DE\s+CONTENIDOS\b|\bContenidos\s+te[oó]ricos\b|\bPrograma de la asignatura\b)",
         r"\bContents\s+of\s+the\s+course\b",
     ]
     start=None
