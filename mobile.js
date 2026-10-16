@@ -9,7 +9,7 @@
   const esc = value => String(value == null ? '' : value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const normalize = v => String(v || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   const flags = {RO:'🇷🇴',ES:'🇪🇸',GB:'🇬🇧',AT:'🇦🇹',PT:'🇵🇹',KR:'🇰🇷',IE:'🇮🇪',US:'🇺🇸',AR:'🇦🇷',UY:'🇺🇾',BO:'🇧🇴',CO:'🇨🇴',FR:'🇫🇷',DE:'🇩🇪',BE:'🇧🇪',CL:'🇨🇱',MX:'🇲🇽',IT:'🇮🇹'};
-  const states = {P:'Indício por nome',T:'Período a verificar',S:'Triagem parcial',C:'Catálogo pendente',F:'Documentos pendentes'};
+  const states = {P:'Indício por nome',T:'Período a verificar',S:'Triagem parcial',C:'Catálogo pendente',F:'Documentos pendentes',I:'Catálogo indexado · analisar par'};
   let catalog, registry, foreign, expanded = null, revealAll = false, suggestionIndex = new Map();
   const selected = () => document.querySelector('.course-tab[aria-selected="true"]')?.dataset.course || 'cc';
 
@@ -32,7 +32,7 @@
   }
   function universityCard(e,subjectIndex,courseId) {
     const displayMatches = e.matches.map(m => ({m,f:foreign.get(e.uni.id+'|'+m.foreignCode)})).filter(x=>x.f);
-    const titles = displayMatches.map(({m,f})=>'<span class="mobile-foreign-course"><b>'+esc(f.officialCodeKnown===false?'Ref. catálogo':f.code)+'</b> '+esc(f.name)+' <small>· '+esc(m.status==='candidata_forte'?'candidata forte':m.status==='em_analise'?'pré-análise':'indício por título')+'</small></span>').join('');
+    const titles = displayMatches.map(({m,f})=>'<span class="mobile-foreign-course"><b>'+esc(f.originalCode || (f.officialCodeKnown===false?'Ref. catálogo':f.code))+'</b> '+esc(f.name)+' <small>· '+esc(m.status==='candidata_forte'?'candidata forte':m.status==='em_analise'?'pré-análise':'indício por título')+'</small></span>').join('');
     const extra = e.extraSuggestions.map(x=>'<span class="mobile-foreign-course">'+esc(x.f.name)+' <small>· indício de nome</small></span>').join('');
     const candidate = (!displayMatches.length && e.candidate) ? '<span class="mobile-foreign-course">'+esc(e.candidate.name)+' · <small>triagem lexical</small></span>' : '';
     const count=displayMatches.length + e.extraSuggestions.length;
@@ -97,7 +97,7 @@
         if(!f)return;
         const status=m.status==='candidata_forte'?'Candidata forte':m.status==='em_analise'?'Pré-análise documental':'Afinidade de nome — ementa não comparada';
         html+='<section class="detail-section"><div class="detail-label">'+(i+1)+' · '+esc(status)+'</div><div class="detail-course">'+esc(f.name)+'</div>'+
-        '<p><b>Código:</b> '+esc(f.officialCodeKnown===false?'Referência do catálogo (não código oficial)':f.code)+
+        '<p><b>Código:</b> '+esc(f.originalCode || (f.officialCodeKnown===false?'Referência do catálogo (não código oficial)':f.code))+
         ' · <b>Oferta:</b> '+esc(f.period||'A confirmar')+' · <b>Créditos:</b> '+esc(f.credits ? f.credits+' '+(f.creditUnit||'créditos') : 'A confirmar')+'</p>'+
         '<div class="callout">'+esc(m.evidence||'É necessário conferir a ementa individual e a carga horária.')+'</div>'+
         getSafeLink('Consultar fonte oficial',f.source||m.source)+'</section>';
