@@ -11,8 +11,8 @@
   const suggestionIndex = new Map(extraCandidates.pairs.map(function(p){return [p[0]+'|'+p[1]+'|'+p[2],p[3]];}));
   const foreignIndex = new Map(data.foreignCourses.map(function (f) {return [f.universityId + '|' + f.code, f];}));
   const uIndex = new Map(data.universities.map(function (u, i) {return [u.name, i];}));
-  const labels = {P:'Afinidade lexical', T:'Verificar semestre', S:'Triagem parcial', C:'Consultar catálogo', F:'Solicitar documentos'};
-  const tokens = {P:'Afinidade',T:'Período ?',S:'Sem indício',C:'Catálogo ↗',F:'Fonte ?'};
+  const labels = {P:'Afinidade lexical', T:'Verificar semestre', S:'Triagem parcial', C:'Consultar catálogo', F:'Solicitar documentos', I:'Nova pesquisa pendente'};
+  const tokens = {P:'Afinidade',T:'Período ?',S:'Sem indício',C:'Catálogo ↗',F:'Fonte ?',I:'Triagem pendente'};
   const encode = function (s) {return String(s == null ? '' : s).replace(/[&<>"']/g, function (ch) {return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch];});};
   const url = function (s) {try {const u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:'';}catch{return '';}};
   const a = function (label, href) {const clean=url(href);return clean?'<a class="detail-link" target="_blank" rel="noopener noreferrer" href="'+encode(clean)+'">'+encode(label)+' ↗</a>':'';};
