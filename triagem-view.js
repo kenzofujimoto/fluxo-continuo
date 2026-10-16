@@ -80,11 +80,12 @@
   const exportButton=document.createElement('button');exportButton.type='button';exportButton.className='btn secondary';exportButton.textContent='↓ Auditoria total';
   const actions=document.querySelector('.matrix-actions');if(actions)actions.appendChild(exportButton);
   exportButton.addEventListener('click',function () {
-    const output=[['Curso','Etapa','Código Mack','Disciplina Mack','Universidade','Status','Candidato lexical','Pontuação lexical','Fonte disponível']];
+    const output=[['Curso','Etapa','Código Mack','Disciplina Mack','Universidade','Status','Candidato lexical','Pontuação lexical','Fonte disponível','Candidatos adicionais por título','Fontes dos candidatos adicionais','Método dos candidatos adicionais']];
     for(const p of screening.pairs) {
       const c=data.courses.find(function (x) {return x.id===p[0];}),s=c.rows[p[1]],u=data.universities[p[2]];
       const f=p[4]&&foreignIndex.get(u.id+'|'+p[4][0]);
-      output.push([c.name,s.semester,s.id||'',s.name,u.name,screening.meta.statusLegend[p[3]],f&&f.code||'',p[4]&&p[4][1]||'',f&&f.source||u.catalogUrl||u.website||'']);
+      const extras=(suggestionIndex.get(p[0]+'|'+p[1]+'|'+p[2])||[]).map(x=>({f:foreignIndex.get(u.id+'|'+x[0]),score:x[1]})).filter(x=>x.f);
+      output.push([c.name,s.semester,s.id||'',s.name,u.name,screening.meta.statusLegend[p[3]],f&&f.code||'',p[4]&&p[4][1]||'',f&&f.source||u.catalogUrl||u.website||'',extras.map(x=>x.f.name+' ('+(x.f.officialCodeKnown===false?'ref.':x.f.code)+')').join(' | '),extras.map(x=>x.f.source||'').join(' | '),extras.length?'similaridade lexical, não equivalência':'']);
     }
     const csv='\ufeff'+output.map(function (r) {return r.map(function (cell) {let str=String(cell==null?'':cell);if(/^\s*[=+@-]/.test(str))str="'"+str;return '"'+str.replace(/"/g,'""')+'"';}).join(';');}).join('\r\n');
     const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}),objectUrl=URL.createObjectURL(blob),a=document.createElement('a');
