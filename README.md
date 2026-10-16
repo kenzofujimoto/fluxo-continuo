@@ -1,4 +1,4 @@
-# MobiMatch Alpha — Fluxo Contínuo 2027.2
+# Fluxo Contínuo — pesquisa independente de mobilidade 2027.2
 
 > **Projeto acadêmico independente e não oficial.** Pesquisa de possíveis aproveitamentos curriculares para o campus Mackenzie Alphaville, não homologações institucionais.
 
