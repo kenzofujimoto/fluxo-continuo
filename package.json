@@ -7,8 +7,27 @@
     "build": "next build",
     "start": "next start",
     "test": "tsx --test tests/public-app.test.ts",
-    "lint": "eslint app lib tests/public-app.test.ts && tsc --noEmit"
+    "lint": "next typegen && eslint app lib tests/public-app.test.ts && tsc --noEmit"
   },
-  "dependencies": { "next": "^16.0.0", "react": "^19.2.0", "react-dom": "^19.2.0", "zod": "^4.0.0", "@fontsource/space-grotesk": "^5.2.0", "@fontsource/dm-serif-display": "^5.2.0", "@fontsource/jetbrains-mono": "^5.2.0" },
-  "devDependencies": { "typescript": "^5.9.0", "tsx": "^4.20.0", "@types/node": "^24.0.0", "@types/react": "^19.2.0", "@types/react-dom": "^19.2.0", "eslint": "^9.0.0", "eslint-config-next": "^16.0.0" }
+  "dependencies": {
+    "@fontsource/dm-serif-display": "^5.2.0",
+    "@fontsource/jetbrains-mono": "^5.2.0",
+    "@fontsource/space-grotesk": "^5.2.0",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.0.0",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
 }

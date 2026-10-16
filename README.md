@@ -2,6 +2,23 @@
 
 > **Projeto acadêmico independente e não oficial.** Pesquisa de possíveis aproveitamentos curriculares para o campus Mackenzie Alphaville, não homologações institucionais.
 
+## Aplicação pública (Next.js)
+
+O site agora é uma aplicação Next.js 16, React 19 e TypeScript estrito. A consulta é 100% pública, sem autenticação, administração, API de escrita ou banco. Os JSONs versionados continuam sendo a fonte de verdade; a camada `lib/data.ts` valida os campos consumidos com Zod e calcula indicadores a partir dos registros, sem depender dos resumos históricos abaixo.
+
+```sh
+npm ci
+npm run dev
+```
+
+Abra `http://localhost:3000`. Para produção, execute `npm run build` e `npm start`. O deploy precisa usar o framework Next.js e não um servidor de arquivos HTML. Não é necessário configurar variáveis de ambiente ou Neon.
+
+Rotas: `/disciplinas`, `/universidades`, `/comparacoes`, `/ementas`, `/idiomas`, `/pendencias`, `/cobertura`, `/metodologia`. Disciplinas, instituições e pareceres têm URLs próprias. Filtros, buscas e paginação permanecem na URL e funcionam sem JavaScript no navegador. URLs antigas `.html` redirecionam para a aplicação; os arquivos antigos permanecem como referência histórica no repositório.
+
+Validação: `npm test`, `npm run lint`, `npm run build`, `python -X utf8 -m pytest -q tests` e `node validate.js`. A CI também executa esses comandos. Detalhes de arquitetura, atualização e lacunas: [docs/PUBLIC_APP.md](docs/PUBLIC_APP.md).
+
+**Os números abaixo são um retrato histórico da coleta; os indicadores atuais da aplicação vêm dos registros e podem divergir desse retrato.**
+
 **Site principal:** https://fluxo-continuo.vercel.app  
 **Acervo de ementas e evidências:** https://fluxo-continuo.vercel.app/ementas.html  
 **Pendências por disciplina e universidade:** https://fluxo-continuo.vercel.app/pendencias.html  

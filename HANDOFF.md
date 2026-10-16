@@ -1,3 +1,19 @@
+# HANDOFF — aplicação pública (16/10/2026)
+
+Branch atual: `feature/public-app`. Escopo aprovado: aplicação pública Next.js/TypeScript, identidade visual MackJr e comparação documental; Neon, API de escrita e administração foram adiados explicitamente pelo usuário.
+
+- Implementado: início, disciplinas e universidades com detalhes, biblioteca de ementas, idiomas, comparações com evidências por tópico lado a lado, pendências, cobertura e metodologia. Buscas e filtros usam URLs compartilháveis; listas paginam; rotas HTML antigas redirecionam.
+- Fonte de verdade: JSONs existentes no Git, validados na camada `lib/data.ts` com Zod. Fontes, vigência, hashes e revisão aparecem nas consultas. Nenhuma nova equivalência foi inventada ou homologada.
+- Identidade: paleta e fontes reais do projeto MackJr local, carregadas sem chamadas externas. Layout responsivo, navegação por teclado, estados de erro/carregamento/404.
+- Execução: `npm ci`, `npm run dev`; produção `npm run build` e `npm start`. Servidor de produção para revisão nesta sessão: `http://127.0.0.1:3001`. Sem deploy ou push nesta implementação.
+- Validação: seis contratos TypeScript, 51 testes Python, validação Node, lint/typecheck, build de produção, 133 pareceres e auditoria documental aprovados. Testes iniciais foram registrados falhando no commit `db680a3`.
+- Auditoria npm: zero vulnerabilidades de produção; cinco achados altos transitivos de desenvolvimento no encadeamento ESLint/glob, sem downgrade forçado. Detalhes em `docs/PUBLIC_APP.md`.
+- Alterações anteriores em scripts de coleta, testes Python e arquivos não rastreados foram preservadas e não pertencem aos commits da aplicação.
+- Próximo passo operacional: revisar visualmente e publicar como aplicação Next.js quando solicitado. Coleta adicional e segunda revisão continuam pendentes conforme `/pendencias`; não é necessário banco para a consulta pública atual.
+- O navegador automatizado não ficou disponível nesta sessão; a revisão independente validou renderização HTTP, navegação por URLs, filtros, redirecionamentos, ausência de resultados e evidências do parecer. Detalhes técnicos: `docs/PUBLIC_APP.md`.
+
+## Checkpoint anterior preservado
+
 # HANDOFF — análise curricular profunda (checkpoint 16/10/2026)
 
 Branch: `feature/pareceres-curriculares`. Nada foi publicado em `main`; a Vercel publica apenas `main`.
