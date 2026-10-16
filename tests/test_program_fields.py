@@ -85,3 +85,20 @@ def test_split_ementa_into_topics():
                       "Análise de algoritmos paralelos"]
     assert split_ementa("Variáveis; decisões; repetições") == ["Variáveis", "decisões", "repetições"]
     assert split_ementa("") == []
+
+
+def test_ubb_older_template_row_layout():
+    sorted_rows = ("SYLLABUS\nUniversity year 2025-2026\n"
+                   " 3.4. Total hours in the curriculum         56                   28                           28\n"
+                   "  3.8. Total hours per semester   125\n 3.9. Number of ECTS credits 5\n")
+    f = parse_ubb("SYLLABUS\nComputer Networks\nUniversity year 2025-2026\n1.5. Study cycle\nBachelor\n1.6. Study programme", sorted_rows)
+    assert f["academicYear"] == "2025/2026"
+    assert f["level"] == "Bachelor"
+    assert f["hours"]["contact"] == {"total": 56, "course": 28, "seminarLab": 28}
+    assert f["hours"]["ects"] == 5
+    assert f["hours"]["totalWorkload"] == 125
+
+
+def test_ubb_inconsistent_hour_row_is_rejected():
+    f = parse_ubb("x", " 3.1. Hours per week 2 2 2\n")
+    assert f["hours"]["weekly"] is None

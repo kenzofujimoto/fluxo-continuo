@@ -64,6 +64,17 @@ def _list_items(section, prefix):
     return [i for i in items if i["text"]]
 
 
+def _triple(label: str, text: str):
+    """Read 'total / course / seminar-lab' hour triples; reject rows whose parts do not add up."""
+    m = re.search(label + r"\s*(\d+)\s*(?:of which:?)?\s*(?:3\.[25]\.?)?\s*(?:course)?\s*(\d+)\s*(?:3\.[36]\.?)?\s*(?:seminar[^0-9\n]*)?\s*(\d+)", text, re.I)
+    if not m:
+        return None
+    total, course, sem = (int(m.group(i)) for i in (1, 2, 3))
+    if total != course + sem:
+        return None
+    return {"total": total, "course": course, "seminarLab": sem}
+
+
 def parse_ubb(text: str, sorted_text: str | None = None) -> dict:
     """Babeș-Bolyai 'Course description' form (sections 1-9).
 
@@ -72,14 +83,14 @@ def parse_ubb(text: str, sorted_text: str | None = None) -> dict:
     """
     t = text
     ht = (sorted_text or "") + "\n" + text
-    weekly = re.search(r"3\.1\.\s*Number of hours per week\s*(\d+)\s*of which:?\s*3\.2\.\s*course\s*(\d+)\s*3\.3\.\s*seminar[^0-9]*?(\d+)", ht, re.I | re.S)
-    contact = re.search(r"3\.4\.\s*Total of hours in the curriculum\s*(\d+)\s*of which:?\s*3\.5\.\s*course\s*(\d+)\s*3\.6\.\s*seminar[^0-9]*?(\d+)", ht, re.I | re.S)
+    weekly = _triple(r"3\.1\.?\s*(?:Number of\s*)?hours per week", ht)
+    contact = _triple(r"3\.4\.?\s*Total (?:of )?hours in the(?: curriculum)?", ht)
     hours = {
-        "weekly": {"total": int(weekly.group(1)), "course": int(weekly.group(2)), "seminarLab": int(weekly.group(3))} if weekly else None,
-        "contact": {"total": int(contact.group(1)), "course": int(contact.group(2)), "seminarLab": int(contact.group(3))} if contact else None,
-        "selfStudy": _num(_first(r"3\.7\.\s*Total hours of individual study[^0-9]*?(\d+)", ht)),
-        "totalWorkload": _num(_first(r"3\.8\.\s*Total hours per semester\s*(\d+)", ht)),
-        "ects": _num(_first(r"3\.9\.\s*Number of credits\s*(\d+(?:[.,]\d+)?)", ht)),
+        "weekly": weekly,
+        "contact": contact,
+        "selfStudy": _num(_first(r"3\.7\.?\s*Total (?:hours of )?individual study[^0-9]*?(\d+)", ht)),
+        "totalWorkload": _num(_first(r"3\.8\.?\s*Total hours per semester\s*(\d+)", ht)),
+        "ects": _num(_first(r"3\.9\.?\s*Number of (?:ECTS )?credits\s*(\d+(?:[.,]\d+)?)", ht)),
         "contactBasis": "semestre" if contact else None,
         "hourLengthMinutes": None,  # not declared on the UBB form
     }
@@ -94,15 +105,15 @@ def parse_ubb(text: str, sorted_text: str | None = None) -> dict:
     lab_section = sec82[: end82.start() if end82 else None]
     return {
         "layout": "ubb_course_description",
-        "academicYear": _first(r"Academic year\s*(\d{4}/\d{4})", t),
+        "academicYear": _year(ht),
         "code": _first(r"Course code\s*([A-Z]{2,4}\d{3,5})", t),
         "title": _clean(_first(r"2\.1\.\s*Course title\s*(.*?)\s*Course code", t)) or None,
         "faculty": _clean(_first(r"1\.2\.\s*Faculty\s*(.*?)\s*1\.3\.", t)) or None,
         "department": _clean(_first(r"1\.3\.\s*Department\s*(.*?)\s*1\.4\.", t)) or None,
-        "level": _clean(_first(r"1\.5\.\s*Level of study\s*(.*?)\s*1\.6\.", t)) or None,
+        "level": _clean(_first(r"1\.5\.?\s*(?:Level of study|Study cycle)\s*(.*?)\s*1\.6\.?", t)) or None,
         "programme": _clean(_first(r"1\.6\.\s*Degree programme\s*/?\s*Qualification\s*(.*?)\s*1\.7\.", t)) or None,
-        "yearOfStudy": _num(_first(r"2\.4\.\s*Year of study\s*(\d)", t)),
-        "semester": _num(_first(r"2\.5\.\s*Semester\s*(\d)", t)),
+        "yearOfStudy": _num(_first(r"2\.4\.?\s*Year of study\s*(\d)", ht)),
+        "semester": _num(_first(r"2\.5\.?\s*Semester\s*(\d)", ht)),
         "assessment": _clean(_first(r"2\.6\.\s*Type of assessment\s*(\w+)", t)) or None,
         "courseStatus": _clean(_first(r"2\.7\.\s*Course status\s*(\w+)", t)) or None,
         "courseType": _clean(_first(r"2\.8\.\s*Course type\s*(.*?)\s*(?:3\.|\n\n)", t)) or None,
@@ -112,6 +123,11 @@ def parse_ubb(text: str, sorted_text: str | None = None) -> dict:
         "courseTopics": _list_items(course_section, "C"),
         "labTopics": _list_items(lab_section, r"(?:L|S|P)"),
     }
+
+
+def _year(text: str):
+    m = re.search(r"(?:Academic|University) year\s*(\d{4})\s*[-/–]\s*(\d{4})", text, re.I)
+    return f"{m.group(1)}/{m.group(2)}" if m else None
 
 
 _MACK_HEADER = re.compile(r"(?:^|\n)[ \t]*Curso[ \t]*\n([^\n]+)\n\s*N[uú]cleo Tem[aá]tico\s*\n(.*?)\n\s*Etapa\s*\n\s*(\d+)\S*\s*\n\s*Comp\. Curricular\s*\n(.*?)\n\s*C[oó]digo", re.S)

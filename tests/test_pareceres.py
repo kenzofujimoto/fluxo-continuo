@@ -171,3 +171,44 @@ def test_historical_brazilian_syllabus_caps_class_at_partial():
     cov = coverage_summary([topic("coberto")] * 4)
     hours = {"state": "comparavel", "ratio": 1.0}
     assert derive_class(cov, hours, docs_ok=True, current_br=False) == "afinidade_parcial"
+
+
+# ---------- cross-check against extracted documents ----------
+from build_pareceres import crosscheck  # noqa: E402
+
+
+def programs_fixture():
+    return {
+        "brazil": {"cc|ENEC61020": {"sha256": "aa", "hours": 63.33, "status": "lido",
+                                    "topics": ["Estudo de arquiteturas", "Medição"]}},
+        "foreign": {"ro-babes|MLE5077": {"sha256": "bb", "status": "lido", "layout": "ubb_course_description",
+                                         "hours": {"contact": {"total": 70}, "ects": 5}}},
+    }
+
+
+def xp():
+    p = base_parecer()
+    p["brazil"].update({"sha256": "aa", "topics": ["Estudo de arquiteturas", "Medição"]})
+    p["topics"] = [dict(topic("coberto"), brTopic="Estudo de arquiteturas"), dict(topic("coberto"), brTopic="Medição")]
+    p["foreign"][0].update({"sha256": "bb"})
+    p["foreign"][0]["hours"].update({"ects": 5})
+    return p
+
+
+def test_crosscheck_accepts_matching_document_values():
+    assert crosscheck(xp(), programs_fixture()) == []
+
+
+def test_crosscheck_flags_hours_hash_and_topic_drift():
+    p = xp()
+    p["foreign"][0]["hours"]["contactTotal"] = 84
+    p["brazil"]["sha256"] = "zz"
+    p["topics"][0]["brTopic"] = "Tópico inventado"
+    errs = " | ".join(crosscheck(p, programs_fixture()))
+    assert "contactTotal" in errs and "sha256" in errs and "brTopic" in errs
+
+
+def test_crosscheck_requires_every_official_topic_to_be_assessed():
+    p = xp()
+    p["topics"] = p["topics"][:1]
+    assert any("not assessed" in e for e in crosscheck(p, programs_fixture()))

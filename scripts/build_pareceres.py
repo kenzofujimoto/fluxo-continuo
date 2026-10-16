@@ -163,6 +163,47 @@ def validate_parecer(p: dict, docs_ok: bool, current_br: bool = True) -> dict:
     return out
 
 
+def _norm(s) -> str:
+    t = unicodedata.normalize("NFD", str(s or "")).casefold()
+    return re.sub(r"\s+", " ", "".join(c for c in t if unicodedata.category(c) != "Mn")).strip()
+
+
+def crosscheck(p: dict, programs: dict) -> list[str]:
+    """Compare a parecer with values extracted from the cached official documents."""
+    errs = []
+    b = p["brazil"]
+    bp = programs.get("brazil", {}).get(f"{b['courseId']}|{b['code']}")
+    if bp and bp.get("status") == "lido":
+        if b.get("sha256") and bp.get("sha256") and b["sha256"] != bp["sha256"]:
+            errs.append("brazil.sha256 differs from fetched document")
+        if bp.get("hours") is not None and (b.get("hours") or {}).get("value") not in (None, bp["hours"]):
+            errs.append("brazil.hours.value differs from official ementário")
+        official = [_norm(t) for t in bp.get("topics") or []]
+        if official:
+            if [_norm(t) for t in b.get("topics") or []] != official:
+                errs.append("brazil.topics must reproduce the official ementa topics")
+            assessed = {_norm(t.get("brTopic")) for t in p["topics"]}
+            for t in p["topics"]:
+                if _norm(t.get("brTopic")) not in official:
+                    errs.append(f"brTopic not in official ementa: {t.get('brTopic')!r}")
+            for o in official:
+                if o not in assessed:
+                    errs.append(f"official topic not assessed: {o!r}")
+    for f in p["foreign"]:
+        fp = programs.get("foreign", {}).get(f"{f['universityId']}|{f['code']}")
+        if not fp or fp.get("status") != "lido":
+            continue
+        if f.get("sha256") and fp.get("sha256") and f["sha256"] != fp["sha256"]:
+            errs.append(f"{f['code']}: sha256 differs from fetched document")
+        h = fp.get("hours") or {}
+        fh = f.get("hours") or {}
+        if (h.get("contact") or {}).get("total") is not None and fh.get("contactTotal") != h["contact"]["total"]:
+            errs.append(f"{f['code']}: hours.contactTotal {fh.get('contactTotal')} differs from document {h['contact']['total']}")
+        if h.get("ects") is not None and fh.get("ects") not in (None, h["ects"]):
+            errs.append(f"{f['code']}: hours.ects differs from document")
+    return errs
+
+
 def _tokens(p: dict) -> set[str]:
     t = unicodedata.normalize("NFD", (p.get("synthesis", "") + " " + p.get("justification", "")).lower())
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
@@ -196,6 +237,8 @@ def main() -> int:
     foreign_ok |= {(r["universityId"], r["code"]) for r in extra.get("foreign", []) if r.get("individualSyllabus")}
     br_ok = {(r["courseId"], str(r["code"] or r["name"])) for r in mack["rows"] if r["status"] == "ementa_oficial_correspondente"}
     br_extra = {(r["courseId"], r["code"]): r for r in extra.get("brazil", [])}
+    prog_path = ROOT / "syllabi" / "programas.json"
+    programs = json.loads(prog_path.read_text(encoding="utf-8")) if prog_path.exists() else {}
     known_foreign = {(f["universityId"], f["code"]) for f in data["foreignCourses"]}
     uni_index = {u["id"]: i for i, u in enumerate(data["universities"])}
     row_index = {(c["id"], r.get("id") or r["name"]): i for c in data["courses"] for i, r in enumerate(c["rows"])}
@@ -215,6 +258,9 @@ def main() -> int:
             br_doc = key in br_ok or bool(br_extra.get(key, {}).get("officialSyllabus"))
             current = key in br_ok or bool(br_extra.get(key, {}).get("current"))
             docs_ok = br_doc and all((f["universityId"], f["code"]) in foreign_ok for f in p["foreign"])
+            drift = crosscheck(p, programs)
+            if drift:
+                raise ParecerError(f"{p.get('id')}: " + "; ".join(drift))
             v = validate_parecer(p, docs_ok=docs_ok, current_br=current)
             v["brazilDocumentCurrent"] = current
             v["documentsVerified"] = docs_ok

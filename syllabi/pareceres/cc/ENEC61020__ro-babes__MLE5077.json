@@ -1,0 +1,156 @@
+{
+  "id": "cc|ENEC61020|ro-babes|MLE5077",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61020",
+    "name": "Computação Paralela",
+    "courseName": "Ciência da Computação",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 8ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "99a89616cc97ad85d17f1c8b29d7b0e84a2272807e38dd743c40180bead9aab4",
+    "location": "PDF p. 2 (numeração impressa 118), bloco 'Comp. Curricular COMPUTAÇÃO PARALELA', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas presenciais por semana."
+    },
+    "topics": [
+      "Estudo de arquiteturas de sistemas paralelos",
+      "Metodologia de desenvolvimento de programas paralelos",
+      "Análise de algoritmos paralelos",
+      "Medição e avaliação de programas paralelos",
+      "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5077",
+      "name": "Parallel and Distributed Programming",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (linha IE, em inglês)",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Semestre 5 = 1º semestre do ano letivo (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Inglês (documento e linha IE do catálogo; confirmar turma em 2027/28)",
+      "courseStatus": "Compulsory / Core subject",
+      "assessment": "Exame teórico 40%, programas de laboratório 40%, projeto complexo 20%; nota mínima 5 no exame",
+      "prerequisites": "Object Oriented Programming, Advanced Programming Methods, Operating Systems, Systems for programming and design; C++ e Java",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5077_en_vniculescu_2026_10988.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "ab29f653b64e6c33892390cb2321134f53a592c987f1fcf61cf8bd94715f64f0",
+      "location": "Course description 2026/2027: secções 2 (dados), 3.1-3.9 (horas), 4 (pré-requisitos), 7 (resultados), 8.1 C1-C14, 8.2 L1-L14, 9 (avaliação)",
+      "hours": {
+        "weekly": {"total": 5, "course": 2, "seminarLab": 3},
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 55,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de arquiteturas de sistemas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "C2 'Parallel architectures – Taxonomies (Flynn)'; C3 'Types and models of parallelism'",
+      "foreignLocation": "Secção 8.1, unidades C2-C3"
+    },
+    {
+      "brTopic": "Metodologia de desenvolvimento de programas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "C11-C13 padrões de projeto paralelos e distribuídos (Master-slaves, Task-Farm, Divide & Conquer, Pipeline); resultado 'design parallel algorithms and applications'",
+      "foreignLocation": "Secção 8.1 C11-C13; secção 7, competências específicas 1-2",
+      "note": "A UBB organiza a metodologia por padrões de projeto; Foster (Designing and Building Parallel Programs) consta na bibliografia 8.1."
+    },
+    {
+      "brTopic": "Análise de algoritmos paralelos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado 'find solutions to the parallelization issues' e C14 análise comparativa de técnicas; não há unidade explícita de análise de complexidade/custo de algoritmos paralelos",
+      "foreignLocation": "Secção 7, competência 2; secção 8.1 C14",
+      "note": "Grama et al. (Introduction to Parallel Computing) na bibliografia sugere o tema, mas bibliografia não comprova conteúdo ministrado."
+    },
+    {
+      "brTopic": "Medição e avaliação de programas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "C9 'Performance evaluation of parallel programs'; resultado 'assess the performance improvements obtained by parallelization'",
+      "foreignLocation": "Secção 8.1 C9; secção 7, competência 3"
+    },
+    {
+      "brTopic": "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "C4 MPI (memória distribuída), C5/C8 memória partilhada e OpenMP, C10 CUDA; laboratórios L1-L4 multithreading C++/Java, L5-L6 MPI, L10 OpenMP, L11 projeto CUDA",
+      "foreignLocation": "Secção 8.1 C4, C5, C8, C10; secção 8.2 L1-L11",
+      "note": "'Heterogêneas' não aparece literalmente; o modelo CUDA (host CPU + dispositivo GPU) cobre o caso típico."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Concorrência: monitores, semáforos, variáveis de condição; padrão produtor-consumidor", "location": "8.1 C6-C7; 8.2 L7-L9"},
+    {"topic": "Programação paralela assíncrona", "location": "8.1 C8 (segunda entrada)"},
+    {"topic": "Padrões de projeto para programação distribuída e projeto cliente-servidor", "location": "8.1 C13; 8.2 L12-L14"}
+  ],
+  "competencies": {
+    "brazil": "Ementa descreve conteúdos; o ementário não lista objetivos/competências por componente.",
+    "foreign": ["Projetar algoritmos e aplicações paralelas", "Resolver problemas de paralelização", "Avaliar ganhos de desempenho da paralelização"],
+    "convergences": ["Projeto e implementação de programas paralelos", "Avaliação de desempenho"],
+    "differences": ["UBB avalia explicitamente concorrência/sincronização e programação distribuída cliente-servidor, ausentes da ementa brasileira", "Mackenzie nomeia análise de algoritmos paralelos, não individualizada na UBB"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UBB no 3º ano (semestre 5), Mackenzie na 8ª etapa",
+    "brazil": "Componente obrigatório final do curso, metade teórico e metade prático (2+2 h-a semanais)",
+    "foreign": "Disciplina core obrigatória com 40% do contato em aula e 60% em laboratório; projeto complexo avaliado",
+    "theoryPractice": "Proporção prática maior na UBB (42 de 70 h de contato)"
+  },
+  "practical": {
+    "period": "Oferta no 1º semestre do ano letivo europeu, coincidente com o período 2027.2 se a programação de 2027/28 se mantiver",
+    "language": "Inglês na linha IE",
+    "enrolment": "Pré-requisitos curriculares (POO, SO, métodos avançados) podem exigir comprovação do histórico; aceitação de estudante de intercâmbio na linha IE não verificada",
+    "prerequisites": "Programação C++/Java exigida; compatível com a 8ª etapa do Mackenzie",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Os quatro eixos de arquitetura, metodologia, medição de desempenho e implementação multicore/acelerador da ementa Mackenzie aparecem em unidades identificadas do programa MLE5077; a análise formal de algoritmos paralelos aparece só de modo indireto.",
+  "justification": "Quatro de cinco tópicos essenciais têm unidade correspondente explícita (C2-C5, C8-C13; L1-L11) e o quinto tem cobertura parcial. As 70 horas de contato semestrais declaradas superam as 63,33 h Mackenzie em 10,5% pelo valor nominal; mesmo que a hora romena fosse de 50 minutos (58,3 h), a razão ficaria em 0,92. A disciplina estrangeira acrescenta concorrência, sincronização e programação distribuída, o que amplia e não reduz o escopo exigido.",
+  "conclusionClass": "alta_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Dois documentos oficiais individuais e horas discriminadas; reduzem a confiança a duração não declarada da hora romena, o ementário brasileiro sem objetivos e a ausência de confirmação de oferta 2027/28.",
+  "limitations": [
+    "Oferta, turma em inglês e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora de contato da UBB não declarada no documento",
+    "Ementa brasileira concisa: a comparação usa os cinco enunciados oficiais, sem conteúdo programático detalhado",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceita padrões de projeto paralelos como cobertura da 'metodologia de desenvolvimento'?",
+    "A UBB confirma MLE5077 no semestre de outono de 2027/28 para estudantes de mobilidade?"
+  ],
+  "alternatives": [
+    {"code": "MLE5007", "name": "Operating Systems", "relation": "Complementar em concorrência; não substitui Computação Paralela"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada tópico vinculado a unidade e secção do programa estrangeiro; coerência verificada por scripts/build_pareceres.py",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Fontes concordantes e horas explícitas"}
+}
