@@ -12,6 +12,7 @@
   const states = {P:'Indício por nome',T:'Período a verificar',S:'Triagem parcial',C:'Catálogo pendente',F:'Documentos pendentes',I:'Catálogo indexado · analisar par'};
   let catalog, registry, foreign, expanded = null, revealAll = false, suggestionIndex = new Map();
   let syllabi = new Map();
+  let brazilEvidence = new Map(), individualReviews = new Map();
   const selected = () => document.querySelector('.course-tab[aria-selected="true"]')?.dataset.course || 'cc';
 
   function entries(courseId, subject, subjectIndex) {
@@ -31,9 +32,17 @@
       return {uni,ui,m,matches,triage,candidate,doc,rank,extraSuggestions};
     }).filter(Boolean).sort((a,b) => a.rank-b.rank || a.uni.name.localeCompare(b.uni.name,'pt-BR'));
   }
+  function evidenceState(e,subjectIndex,courseId,candidate) {
+    const subject=catalog.courses.find(c=>c.id===courseId)?.rows[subjectIndex];
+    const br=brazilEvidence.get(courseId+'|'+normalize(subject?.id||subject?.name));
+    const fr=syllabi.get(e.uni.id+'|'+candidate.foreignCode);
+    const hasBr=br?.status==='ementa_oficial_correspondente',hasFr=fr?.status==='ementa_individual';
+    const review=individualReviews.has([courseId,candidate.mackCode||subject?.id||subject?.name,e.uni.id,candidate.foreignCode].join('|'));
+    return review?'Ementas comparadas (não homologada)':hasBr&&hasFr?'Duas ementas':hasBr||hasFr?'Uma ementa':'Ementas pendentes';
+  }
   function universityCard(e,subjectIndex,courseId) {
     const displayMatches = e.matches.map(m => ({m,f:foreign.get(e.uni.id+'|'+m.foreignCode)})).filter(x=>x.f);
-    const titles = displayMatches.map(({m,f})=>'<span class="mobile-foreign-course"><b>'+esc(f.originalCode || (f.officialCodeKnown===false?'Ref. catálogo':f.code))+'</b> '+esc(f.name)+' <small>· '+esc(m.status==='candidata_forte'?'candidata forte':m.status==='em_analise'?'pré-análise':'indício por título')+'</small></span>').join('');
+    const titles = displayMatches.map(({m,f})=>'<span class="mobile-foreign-course"><b>'+esc(f.originalCode || (f.officialCodeKnown===false?'Ref. catálogo':f.code))+'</b> '+esc(f.name)+' <small>· '+esc(m.status==='candidata_forte'?'candidata forte':m.status==='em_analise'?'pré-análise':'indício por título')+' · '+esc(evidenceState(e,subjectIndex,courseId,m))+'</small></span>').join('');
     const extra = e.extraSuggestions.map(x=>'<span class="mobile-foreign-course">'+esc(x.f.name)+' <small>· indício de nome</small></span>').join('');
     const candidate = (!displayMatches.length && e.candidate) ? '<span class="mobile-foreign-course">'+esc(e.candidate.name)+' · <small>triagem lexical</small></span>' : '';
     const count=displayMatches.length + e.extraSuggestions.length;
@@ -96,6 +105,9 @@
       matches.forEach((m,i)=>{
         const f=foreign.get(uni.id+'|'+m.foreignCode);
         if(!f)return;
+        const review=individualReviews.get([courseId,m.mackCode||s.id||s.name,uni.id,m.foreignCode].join('|'));
+        const reviewHtml=review?'<div class="callout"><b>Ementas analisadas individualmente — não homologada</b><p>'+esc(review.justification)+'</p><p>'+esc(review.hourObservation)+'</p></div>':'';
+
         const status=m.status==='candidata_forte'?'Candidata forte':m.status==='em_analise'?'Pré-análise documental':'Afinidade de nome — ementa não comparada';
         const proof=syllabi.get(uni.id+'|'+m.foreignCode);
         const evidenceHtml=proof?.status==='ementa_individual'
@@ -105,7 +117,7 @@
         '<p><b>Código:</b> '+esc(f.originalCode || (f.officialCodeKnown===false?'Referência do catálogo (não código oficial)':f.code))+
         ' · <b>Oferta:</b> '+esc(f.period||'A confirmar')+' · <b>Créditos:</b> '+esc(f.credits ? f.credits+' '+(f.creditUnit||'créditos') : 'A confirmar')+'</p>'+
         '<div class="callout">'+esc(m.evidence||'É necessário conferir a ementa individual e a carga horária.')+'</div>'+
-        getSafeLink('Consultar fonte oficial',f.source||m.source)+evidenceHtml+'</section>';
+        getSafeLink('Consultar fonte oficial',f.source||m.source)+evidenceHtml+reviewHtml+'</section>';
       });
     } else {
       const pair=registry.get(courseId+'|'+subjectIndex+'|'+ui);
@@ -144,6 +156,9 @@
     suggestionIndex=new Map(suggestions.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p[3]]));
     registry=new Map(screening.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p]));
     foreign=new Map(catalog.foreignCourses.map(f=>[f.universityId+'|'+f.code,f]));
+    try {const resp=await fetch('./syllabi/mackenzie-docs.json');if(resp.ok){const doc=await resp.json();brazilEvidence=new Map((doc.rows||[]).map(r=>[r.courseId+'|'+normalize(r.code||r.name),r]));}} catch(error){console.warn(error);}
+    try {const resp=await fetch('./syllabi/revisoes-ementas.json');if(resp.ok){const doc=await resp.json();individualReviews=new Map((doc.reviews||[]).map(r=>[[r.courseId,r.mackCode,r.foreignUniversityId,r.foreignCode].join('|'),r]));}} catch(error){console.warn(error);}
+
     try {const resp=await fetch('./syllabi/records.json',{cache:'no-store'});if(resp.ok){const doc=await resp.json();syllabi=new Map((doc.foreign||[]).map(r=>[r.universityId+'|'+r.foreignCode,r]));}}
     catch(error){console.warn('Ementários documentados indisponíveis',error);}
     render();
