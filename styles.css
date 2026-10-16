@@ -5,3 +5,9 @@
 
 
 .research-progress{border:1px solid #e5d4dc;background:#fffafd;border-left:4px solid #982147;border-radius:10px;padding:14px 18px;margin:10px 0 18px}.research-progress strong{display:block;font:700 12px Manrope,sans-serif;color:#733047;line-height:1.5}.research-progress p{margin:6px 0 0;color:#7c6c77;font-size:11px;line-height:1.6}@media(max-width:680px){.research-progress{margin-top:14px;padding:13px 14px}.research-progress strong{font-size:12px}}
+
+/* Academic evidence is an independent axis from colour-coded candidate status. */
+.audit-pill{display:inline-block;max-width:100%;font-size:9px;font-weight:750;line-height:1.35;padding:4px 6px;border-radius:5px;color:#57565f;background:#f0eff1;white-space:normal;margin-top:3px;overflow-wrap:anywhere}
+.audit-pill.audit-one{color:#57516d;background:#f1eef9}.audit-pill.audit-dual{color:#155944;background:#dcefe7}.audit-pill.audit-review{color:#274779;background:#e5ecff;border:1px solid #a5b8df}.audit-pill.audit-none{color:#747076;background:#f4f2f4}
+.cell-button .audit-pill{font-family:inherit;letter-spacing:0}
+.legend-dot.lexical{background:#8999d9}.legend-dot.timing{background:#c6a16b}.legend-evidence{margin-top:4px;width:100%;font-size:11px;line-height:1.55;color:#645f6a}
