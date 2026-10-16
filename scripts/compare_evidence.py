@@ -78,5 +78,15 @@ def run():
           "hoursPolicy":"BR CH basis and foreign contact hours are not assumed comparable.",
           "decisionsApproved":0,"note":"No final compatibility or incompatibility conclusions; institutional review required."}
     (DIR/"comparacoes.json").write_text(json.dumps({"meta":meta,"registered":rows,"matrixCoverage":matrix},ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
+    source_counts=collections.Counter(f["status"] for f in evid["foreign"])
+    hours_count=sum(1 for f in evid["foreign"] if f["status"]=="ementa_individual" and f.get("contactHours") is not None)
+    topic_count=sum(1 for f in evid["foreign"] if f["status"]=="ementa_individual" and len(f.get("topicTags") or [])>=2)
+    metrics={"generated":meta["generated"],"cataloguedForeign":len(evid["foreign"]),
+             "mackCourses":len(evid["mackenzie"]),"foreignIndividualDocuments":source_counts.get("ementa_individual",0),
+             "individualWithExtractedContactHours":hours_count,"individualWithAtLeastTwoTopicSignals":topic_count,
+             "sourceStatuses":dict(source_counts),"registeredCandidates":len(rows),
+             "candidatesWithPreliminaryTopicSignals":counter.get("topicos_preliminares_disponiveis",0),
+             "institutionalApprovals":0,"crossings":len(matrix),"scope":"Evidence, NOT academic equivalence"}
+    (DIR/"metrics.json").write_text(json.dumps(metrics,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Comparisons inventory:",meta,flush=True)
 if __name__=="__main__":run()
