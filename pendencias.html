@@ -22,7 +22,7 @@ const $=id=>document.getElementById(id),escape=x=>String(x??'').replace(/[&<>"']
 const safe=x=>{try{const u=new URL(x);return ['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}};
 const norm=x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const fmt=n=>Number(n||0).toLocaleString('pt-BR');
-let report=null,kind='foreign',filtered=[],offset=0;
+let report=null,kind='foreign',filtered=[],offset=0,historicalLaw=new Map();
 const stateText={pagina_com_conteudo:'Página com conteúdo (ementa incompleta)',catalogo_ou_matriz:'Apenas catálogo/matriz',indisponivel:'Fonte não recuperada',nao_tentada:'Coleta não realizada',ementa_sem_horas:'Ementa com horas não extraídas',pendente:'Vínculo documental não confirmado',pareamento_incerto:'Correspondência de nome incerta',ementario_oficial_atual_pendente:'Ementário oficial atual pendente'};
 function listEntries(arr,term){
  const subset=term?arr.filter(x=>norm(x.name+' '+x.code).includes(term)):arr;
@@ -34,7 +34,12 @@ function uniCard(u,term,type){
 }
 function mackCard(c,term){
  const items=term?c.pendingSubjects.filter(x=>norm(x.name+' '+x.code).includes(term)):c.pendingSubjects;
- return '<article class="card"><h2>'+escape(c.name)+'</h2><p>'+fmt(c.officialSyllabiMatched)+' de '+fmt(c.components)+' com vínculo oficial individual (edição 2025 para CC/SI).</p><div class="counts"><span><b>'+fmt(c.officialSyllabiPending)+'</b> pendentes</span><span><b>'+fmt(c.candidates)+'</b> candidatas cadastradas</span><span><b>'+fmt(c.individualReviews)+'</b> revisões individuais</span></div><details open><summary>Ver '+fmt(items.length)+' disciplina(s) pendente(s)</summary><div class="subjects">'+items.map(x=>'<div class="item"><div><b>'+escape(x.name)+'</b><small>'+escape(x.code||'Sem código')+' · '+escape(x.semester||'?')+'ª etapa · '+escape(stateText[x.status]||x.status)+'</small></div></div>').join('')+'</div></details></article>';
+ return '<article class="card"><h2>'+escape(c.name)+'</h2><p>'+fmt(c.officialSyllabiMatched)+' de '+fmt(c.components)+' com vínculo oficial individual (edição 2025 para CC/SI).</p><div class="counts"><span><b>'+fmt(c.officialSyllabiPending)+'</b> pendentes</span><span><b>'+fmt(c.candidates)+'</b> candidatas cadastradas</span><span><b>'+fmt(c.individualReviews)+'</b> revisões individuais</span></div><details open><summary>Ver '+fmt(items.length)+' disciplina(s) pendente(s)</summary><div class="subjects">'+items.map(x=>{
+  const h=c.id==='dir'?historicalLaw.get(norm(x.name)+'|'+x.semester):null;
+  return '<div class="item"><div><b>'+escape(x.name)+'</b><small>'+escape(x.code||'Sem código')+' · '+escape(x.semester||'?')+'ª etapa · '+escape(stateText[x.status]||x.status)+'</small>'+
+  (h?'<small>Referência histórica 2022 disponível (NÃO comprovada para a matriz atual).</small>':'')+'</div>'+
+  (h?'<a href="'+escape(h.source+'#page='+h.pdfPage)+'" target="_blank" rel="noopener noreferrer">PDF 2022 ↗</a>':'')+'</div>';
+ }).join('')+'</div></details></article>';
 }
 function render(reset=true){
  if(!report)return;
@@ -61,6 +66,11 @@ async function init(){
  try{
  const r=await fetch('./syllabi/coverage-report.json',{cache:'no-store'});if(!r.ok)throw Error('Inventário ainda não publicado.');
  report=await r.json();const m=report.metrics;
+ try {
+   const hist=await fetch('./syllabi/direito-historico-2022.json',{cache:'no-store'});
+   if(hist.ok){const h=await hist.json();historicalLaw=new Map((h.rows||[]).filter(x=>x.status==='historical_2022_identified').map(x=>[norm(x.name)+'|'+x.stage,x]));}
+ }catch(error){console.warn('Ementário histórico não disponível',error);}
+
  $('foreignMissing').textContent=fmt(m.foreignMissingIndividual);$('hoursMissing').textContent=fmt(m.foreignIndividualMissingHours);
  $('brMissing').textContent=fmt(m.mackTotal-m.mackVerified);$('dual').textContent=fmt(m.bothSyllabiCandidates);
  $('notice').textContent='Inventário atualizado em '+report.generated+'. 66 universidades foram indexadas; os números abaixo discriminam ausência de ementa e ausência de horas. Zero equivalências homologadas.';
