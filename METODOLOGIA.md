@@ -7,7 +7,8 @@
 - T: possível afinidade de disciplina anual ou semestre incompatível.
 - S: lista estrangeira PARCIAL indexada não apresenta candidato suficientemente similar. Não indica incompatibilidade.
 - C: catálogo identificado, sem coleta da lista individual.
-- F: falta catálogo com disciplinas.
+- F: falta catálogo com disciplinas (estado histórico, sem pares atuais).
+- I: catálogo já foi indexado, mas esta combinação ainda não passou por nova triagem individual.
 
 0–100 nas células é **pontuação lexical**, jamais porcentagem de equivalência.
 
@@ -16,11 +17,14 @@
 Fontes: planilha COI recebida; ementário Mackenzie; lista oficial UBB: https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE; lista UCA: https://esingenieria.uca.es/docencia/grados/gii/asignaturas/. Decisões são da coordenação e do RINT.
 
 
-## Complemento de 16/10/2026
+## Ampliação concluída da indexação institucional — 16/10/2026
 
-Indexação ampliada para 44/66 universidades (1.838 títulos), 553 relações cadastradas e 438 pares com sugestões adicionais. São indicadores de registros com sobreposição, não homologações. Títulos e CFU de Ferrara, Tor Vergata e Salerno vieram de fontes oficiais 2026/27, sem leitura individual de todas as ementas nem comprovação de 2027.2. Houve auditoria de duplicidade de referências internas; candidatos ambíguos foram descartados em vez de receber equivalência inventada.
+A pesquisa passou a ter **66 de 66 instituições com pelo menos uma disciplina nomeada**, total de **2.608 registros estrangeiros** e **725 indícios/preanálises** (0 homologações). **55** instituições são elegíveis na planilha COI em pelo menos um dos 4 cursos; outras **11** têm disciplinas de referência, mas não são elegíveis para estas matrizes.
 
-**Não é correto chamar de "zero equivalências" a ausência de candidatas no banco parcial, nem chamar qualquer sugestão lexical de equivalência comprovada.**
+Foram examinados planos institucionais diversos, alguns históricos, além de cursos de tecnólogo, graduação e mestrado. Não inferir conversão de ECTS, créditos coreanos, norte-americanos, turcos, italianos, colombianos ou bolivianos em horas. Não inferir oferta 2027.2. Não presumir que um aluno pode cursar qualquer unidade da universidade.
 
-- Soongsil: 31 resumos de disciplinas de Segurança da Informação na página departamental (sem confirmação 2027.2 ou acesso de intercambistas).
-- Universidad Evangélica Boliviana: entrada de “disciplina não localizada” retirada do índice para não contaminar a contagem.
+**UEB:** 59 Engenharia de Sistemas e 57 Administração Geral, créditos locais, semestres e pré-requisitos, sem data identificável de vigência do PDF. **Alfa y Omega:** 132 unidades nas matrizes oficiais de Administração, Direito e Informática Administrativa, sem elegibilidade COI nos quatro cursos. **Lusíada Lisboa:** 84 unidades de Direito e Gestão em 2025/26, sem oferta futura garantida.
+
+**3.920** pares antes rotulados C/F foram reclassificados **I**: as disciplinas estrangeiras passaram a estar indexadas, mas os pares ainda exigem nova triagem lexical e confronto de ementas. O arquivo continua a ter **6.856** cruzamentos; essa quantidade **não indica que 6.856 ementas foram confrontadas**. Os **438** pares com sugestões da geração multilíngue anterior permanecem preliminares e não foram reprocessados após esta expansão.
+
+O Brasil possui ementários incompletos: SI 41/46 extraídos, Direito 63/81 de edição antiga, Administração requer ementário validado. O resultado final de equivalência depende do Mackenzie, não deste projeto.
