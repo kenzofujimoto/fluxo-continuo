@@ -154,6 +154,40 @@ def ubb_links():
     except Exception as e:
         return {}, repr(e)
 
+def extract_official_program(text, url):
+    """Require an identifiable teaching-content section before calling a public guide a syllabus."""
+    host=(urlparse(str(url or "")).hostname or "").lower()
+    path=(urlparse(str(url or "")).path or "").lower()
+    # Provider-specific routes point to an individual teaching guide, not the course catalog.
+    routes=[
+        ("guias.usal.es", r"^/node/\d+$"),
+        ("apps.uab.cat", r"/guies/public/html/\d{4}/assignatura/\d+"),
+        ("uvirtual.ujaen.es", r"catalogofichasdocentesasignaturas/.+\.html$"),
+        ("asignaturas.uca.es", r"/\d{4}-\d{2}/\d+$"),
+    ]
+    allowed=any(host==h and re.search(route,path) for h,route in routes)
+    if not allowed:
+        return "", False
+    # Find curriculum text itself, not navigation bar, syllabus metadata, or ECTS alone.
+    patterns=[
+        r"(?:\b5\.\s*CONTENIDOS\b|\b5\.\s*Continguts\b|\bCONTINGUTS\b|\bContenidos\s+te[oó]ricos\b|\bPrograma de la asignatura\b)",
+        r"\bContents\s+of\s+the\s+course\b",
+    ]
+    start=None
+    for pat in patterns:
+        m=re.search(pat,text,re.I)
+        if m:
+            start=m.end()
+            break
+    if start is None:
+        return "", False
+    remaining=text[start:start+38000]
+    stop=re.search(r"(?:\b6\.\s*METODOLOG[IÍ]A\b|\b6\.\s*Metodolog|\bMetodologia\s+docent\b|\b7\.\s*SISTEMA\s+DE\s+EVALUACI[OÓ]N\b|\bBibliograf[ií]a\b)",remaining,re.I)
+    programme=remaining[:stop.start()] if stop else remaining[:14000]
+    programme=normalize(programme)
+    identified=len(programme)>=160 and len(re.findall(r"\b(?:tema|bloque|unitat|unit|chapter|pr[aá]ctica|contenid|dret|sistema|programa|objectiu)\b",programme,re.I))>=2
+    return programme,identified
+
 def course_quality(foreign, document, ubb=False):
     status = document.get("status")
     base = {"status": "indisponivel", "source": foreign.get("source"), "document": None, "contactHours": None, "totalHours": None, "reason": status}
@@ -166,19 +200,31 @@ def course_quality(foreign, document, ubb=False):
     name, code = foreign.get("name", ""), foreign.get("originalCode") or foreign.get("code", "")
     by_name = len(clean(name)) >= 10 and clean(name) in clean(text[:15000])
     by_code = len(str(code)) >= 4 and str(code).casefold() in text[:10000].casefold()
-    official_unit = document["type"] == "html" and ("/unit/" in str(document.get("finalUrl") or "") or "/asignaturas/" in str(document.get("finalUrl") or ""))
+    official_unit = document["type"] == "html" and "/unit/" in str(document.get("finalUrl") or "")
     section_markers = sum(bool(re.search(p, text, re.I)) for p in
         [r"programa|contents", r"learning outcomes|resultados de aprendizagem|objetivos", r"bibliograf|assessment|avalia[cç][aã]o"])
-    individual = bool(ubb or (document["type"] == "pdf" and document.get("pages") and document["pages"] <= 25) or (official_unit and section_markers >= 2))
-    rich = bool(MARKERS.search(text[:13000])) and len(text) >= 650
+    provider_program,provider_guide=extract_official_program(text,document.get("finalUrl"))
+    individual = bool(ubb or (document["type"] == "pdf" and document.get("pages") and document["pages"] <= 25) or (official_unit and section_markers >= 2) or (provider_guide and by_code))
+    rich = bool(MARKERS.search(text[:13000])) and len(text) >= 650 or provider_guide
     has_identity = by_name or by_code
     q = "ementa_individual" if individual and rich and has_identity else ("pagina_com_conteudo" if has_identity and rich else "catalogo_ou_matriz")
     if q == "ementa_individual":
         hours = field_hours(text)
         total = field_total(text)
+        # Universidad de Jaén publishes a clear table headed HORAS PRESENCIALES.
+        # Only use the first column of the TOTALES row in that specific guide.
+        finalhost=(urlparse(str(document.get("finalUrl") or "")).hostname or "").lower()
+        if hours is None and finalhost=="uvirtual.ujaen.es" and "HORAS PRESENCIALES" in text.upper():
+            h=re.search(r"TOTALES\s*:?\s*(\d{2,3}(?:[.,]\d{1,2})?)\s+(?:\d{1,3}(?:[.,]\d{1,2})?\s+){1,3}",text,re.I)
+            if h:
+                value=float(h.group(1).replace(",","."))
+                if 10<=value<=300: hours=value
     else:
         hours = total = None
-    base.update({"topicTags": topic_tags(text[text.lower().find("8. contents"):] if "8. contents" in text.lower() else text) if q == "ementa_individual" else [], "status": q, "document": document.get("finalUrl"), "source": document.get("finalUrl"), "sha256": document.get("sha256"),
+    base.update({"topicTags": topic_tags(provider_program if provider_guide else text[text.lower().find("8. contents"):] if "8. contents" in text.lower() else text) if q == "ementa_individual" else [],
+                 "programEvidenceChars": len(provider_program) if provider_guide else None,
+                 "documentClassification": "guia_oficial_programa_extraido" if provider_guide and q=="ementa_individual" else ("pdf_individual" if q=="ementa_individual" and document["type"]=="pdf" else "pagina_matriz_ou_programa_parcial"),
+                 "status": q, "document": document.get("finalUrl"), "source": document.get("finalUrl"), "sha256": document.get("sha256"),
                  "format": document.get("type"), "pages": document.get("pages"), "identifiedBy": [v for v, b in (("title", by_name), ("code", by_code)) if b],
                  "contactHours": hours, "totalHours": total, "reason": "Documento identificado; requer confrontação humana de ementas e CH" if q == "ementa_individual" else "Fonte não comprova ementa individual completa"})
     return base
