@@ -1,0 +1,194 @@
+{
+ "meta": {
+  "generated": "2026-10-16",
+  "hierarchy": [
+   "Edital específico do Fluxo Contínuo do período",
+   "Regulamento de Mobilidade Acadêmica (RE CONSU 17/2014)",
+   "Manual do Intercâmbio 2024",
+   "Orientações e materiais de apoio da COI"
+  ],
+  "pending": [
+   "Edital específico do Fluxo Contínuo para 2027.2 não localizado na página oficial em 16/10/2026 (a página lista a planilha 1S 2027 e o Termo de Compromisso 2S 2026)",
+   "RE CONSU 17/2014 é PDF digitalizado sem camada de texto: leitura humana/OCR pendente; não foi possível verificar conflitos com o Manual 2024",
+   "Interpretação do critério de 75% (como medir conteúdo e carga horária) não definida nos documentos: confirmar com COI/RINT/coordenação"
+  ],
+  "conflicts": [],
+  "policy": "PDFs não são versionados; somente URL, hash SHA-256, páginas e trechos curtos."
+ },
+ "documents": [
+  {
+   "id": "manual-2024",
+   "title": "Manual do Intercâmbio 2024 (COI)",
+   "url": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/coi/2024/Manual_do_Interc%C3%A2mbio_2024.pdf",
+   "retrievedAt": "2026-10-16",
+   "httpStatus": 200,
+   "sha256": "f9b58cf8820c6366aff8b4360e8b4580d264824bc3e22740c019733986711fb5",
+   "pages": 25,
+   "textExtraction": "ok"
+  },
+  {
+   "id": "regulamento-2014",
+   "title": "Regulamento de Mobilidade Acadêmica da Graduação — RE CONSU 17/2014",
+   "url": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/coi/2018/editais/RE_CONSU_17_2014_RegulamentoMobilidadeAcademicaGraduacao_Assinada.pdf",
+   "retrievedAt": "2026-10-16",
+   "httpStatus": 200,
+   "sha256": "9b8c0b2ce43ddd0e736ca5b2814f542e38d997b65c0137455700d37529245f0c",
+   "pages": 10,
+   "textExtraction": "falhou_pdf_digitalizado"
+  },
+  {
+   "id": "orientacoes-2022",
+   "title": "Orientações para Mobilidade Acadêmica (2022)",
+   "url": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/coi/2022/Orienta%C3%A7%C3%B5es_para_Mobilidade_Acad%C3%AAmica.pdf",
+   "retrievedAt": "2026-10-16",
+   "httpStatus": 200,
+   "sha256": "6e7992fc720a2ae9a6b29acda9805ff592c53d94b159830d914debcbf52e4aab",
+   "pages": 8,
+   "textExtraction": "ok"
+  },
+  {
+   "id": "cartilha-escolher-2024",
+   "title": "Cartilha — Como escolher a universidade de destino (2024)",
+   "url": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/coi/2024/Cartilha_-_Como_escolher_a_universidade_de_destino_-_2024.pdf",
+   "retrievedAt": "2026-10-16",
+   "httpStatus": 200,
+   "sha256": "445e715cab9b35b73724bd2b97aadb2464f733e75c8b4e67c7fd7c113ed0527b",
+   "pages": 11,
+   "textExtraction": "ok"
+  },
+  {
+   "id": "apresentacao-2025",
+   "title": "Apresentação do Processo Seletivo — Fluxo Contínuo 2025",
+   "url": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/coi/2024/Apresenta%C3%A7%C3%A3o_do_Processo_Seletivo_-_Fluxo_Cont%C3%ADnuo_-_2025.pdf",
+   "retrievedAt": "2026-10-16",
+   "httpStatus": 200,
+   "sha256": "478d8ddcd7e884cde0ed868513e309237d5c308b304f7b3d14d58b136fdec86c",
+   "pages": 36,
+   "textExtraction": "ok"
+  },
+  {
+   "id": "evite-erros-2024",
+   "title": "Evite erros durante a sua aplicação — Fluxo Contínuo 2024",
+   "url": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/coi/2024/Evite_erros_durante_a_sua_aplica%C3%A7%C3%A3o_-_Fluxo_Cont%C3%ADnuo_-_2024.pdf",
+   "retrievedAt": "2026-10-16",
+   "httpStatus": 200,
+   "sha256": "6119dbc10fc4906d7e166d39553c86f215499c55562ec2ae649992784e6d9889",
+   "pages": 13,
+   "textExtraction": "ok"
+  }
+ ],
+ "rules": [
+  {
+   "id": "R1",
+   "rule": "Créditos cursados em mobilidade só são aproveitados se carga horária e conteúdo programático forem compatíveis com o currículo da UPM em, no mínimo, 75%.",
+   "quote": "a carga horária e o conteúdo programático sejam compatíveis ao currículo da UPM em, no mínimo, 75%",
+   "sources": [
+    {
+     "doc": "manual-2024",
+     "location": "§6.4 Equivalência de Disciplinas, PDF p. 23"
+    },
+    {
+     "doc": "orientacoes-2022",
+     "location": "'Equivalência de disciplinas', PDF p. 7"
+    }
+   ],
+   "application": "Usado como indicador de referência nos pareceres (tópicos integralmente cobertos e razão de horas de contato). O Manual não define fórmula de medição; o projeto não cria pontuação oficial.",
+   "status": "vigencia_a_confirmar"
+  },
+  {
+   "id": "R2",
+   "rule": "Limite máximo de 25% do total da carga horária do curso para aproveitamento de créditos cumpridos em mobilidade.",
+   "quote": "observado o limite máximo de 25% (vinte e cinco por cento) do total da carga horária do curso",
+   "sources": [
+    {
+     "doc": "manual-2024",
+     "location": "§6.4, PDF p. 23"
+    },
+    {
+     "doc": "orientacoes-2022",
+     "location": "PDF p. 7"
+    }
+   ],
+   "application": "Exibido na visão de prioridades: soma das cargas Mackenzie das candidatas não pode ultrapassar 25% da carga total do curso; não se conta a mesma carga estrangeira para dois requisitos.",
+   "status": "vigencia_a_confirmar"
+  },
+  {
+   "id": "R3",
+   "rule": "Não é necessário escolher disciplinas do mesmo semestre/etapa cursado na UPM; basta que façam referência à macroárea do curso.",
+   "quote": "não há a necessidade de escolher disciplinas de um único semestre correspondente ao semestre sendo cursado pelo aluno na UPM",
+   "sources": [
+    {
+     "doc": "manual-2024",
+     "location": "§3.3, PDF p. 10"
+    }
+   ],
+   "application": "Pareceres não exigem correspondência de etapa/semestre; registram apenas o período de oferta estrangeiro.",
+   "status": "vigencia_a_confirmar"
+  },
+  {
+   "id": "R4",
+   "rule": "Verificar se a disciplina é ofertada no semestre do intercâmbio (há disciplinas exclusivas do 1º ou do 2º semestre do ano letivo estrangeiro).",
+   "quote": "algumas disciplinas são ofertadas exclusivamente no primeiro semestre",
+   "sources": [
+    {
+     "doc": "manual-2024",
+     "location": "§3.3, PDF p. 11; §2.8, PDF p. 7"
+    }
+   ],
+   "application": "Campo practical.period e offer2027 em cada parecer; nenhuma oferta 2027.2 é presumida.",
+   "status": "vigencia_a_confirmar"
+  },
+  {
+   "id": "R5",
+   "rule": "ECTS medem o volume global de trabalho (aulas, trabalho pessoal, exames), cerca de 25 a 30 horas de trabalho por crédito, não apenas horas de aula.",
+   "quote": "o ECTS baseia-se no volume global de trabalho do estudante e não se limita apenas às horas de aulas",
+   "sources": [
+    {
+     "doc": "manual-2024",
+     "location": "§3.4 Créditos no exterior, PDF p. 11"
+    }
+   ],
+   "application": "Fundamenta a proibição de converter ECTS em horas de contato (compare_hours: nao_comparavel).",
+   "status": "vigencia_a_confirmar"
+  },
+  {
+   "id": "R6",
+   "rule": "Escolha e alteração de disciplinas sob orientação do Coordenador do Curso/RINT; alterações exigem autorização da IES estrangeira, do Coordenador do Curso e do Diretor da Unidade.",
+   "quote": "sempre com a autorização da IES estrangeira, do Coordenador de seu Curso e do Diretor de sua Unidade Acadêmica",
+   "sources": [
+    {
+     "doc": "manual-2024",
+     "location": "§3.3, PDF p. 10-11; §5.2 Alterações no Plano de Estudos, PDF p. 19"
+    }
+   ],
+   "application": "Distingue Plano de Estudos (pré-mobilidade) de equivalência formal (pós-mobilidade).",
+   "status": "vigencia_a_confirmar"
+  },
+  {
+   "id": "R7",
+   "rule": "A equivalência é requerida após o retorno, via TIA ('Requerimentos'), com Relatório de Notas, Planos de Ensino estrangeiros e Planos de Ensino UPM; documentos em inglês, francês, espanhol e italiano com tradução simples assinada pelo RINT; demais idiomas com tradução juramentada.",
+   "quote": "ao retornar da mobilidade acadêmica, o aluno deve solicitar a equivalência de disciplinas, via TIA",
+   "sources": [
+    {
+     "doc": "manual-2024",
+     "location": "§6.4, PDF p. 23"
+    }
+   ],
+   "application": "Pareceres registram o idioma do documento estrangeiro (ex.: programas apenas em romeno/coreano exigiriam tradução juramentada).",
+   "status": "vigencia_a_confirmar"
+  },
+  {
+   "id": "R8",
+   "rule": "Se não houver equivalência de disciplinas ou estágio, é possível solicitar aproveitamento como atividades complementares.",
+   "quote": "possibilidade de aproveitamento das atividades realizadas no exterior como horas de atividades complementares",
+   "sources": [
+    {
+     "doc": "manual-2024",
+     "location": "§6.6, PDF p. 24"
+    }
+   ],
+   "application": "Informativo; fora do escopo dos pareceres de disciplina.",
+   "status": "vigencia_a_confirmar"
+  }
+ ]
+}
