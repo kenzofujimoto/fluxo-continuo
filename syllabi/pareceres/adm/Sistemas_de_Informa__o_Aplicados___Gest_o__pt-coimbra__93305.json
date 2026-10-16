@@ -1,0 +1,188 @@
+{
+  "id": "adm|Sistemas de Informação Aplicados à Gestão|pt-coimbra|93305",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sistemas de Informação Aplicados à Gestão",
+    "name": "Sistemas de Informação Aplicados à Gestão",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 12, bloco 'Sistemas de Informação Aplicados à Gestão': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Alinhamento estratégico de TI",
+      "Governança de TI",
+      "Convergência Tecnológica",
+      "Internet das coisas",
+      "Block Chain",
+      "Cripton Moeda",
+      "Big Data",
+      "Computação nas nuvens",
+      "Inteligência Artificial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93305",
+      "name": "Gestão de Sistemas de Informação",
+      "pageCode": "01020964",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Sistemas de Informação",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/93305/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "6c9c3d799e35f03bb524a01aa93cf89bb788baf48a9f413cfd590cea1818b8f0",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa 1-2.3, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, aulas teóricas e práticas, sem horas de contacto. Código interno: 01020964."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Alinhamento estratégico de TI",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "1.4 'Planeamento estratégico, gestão e obtenção (sourcing) the SI'; bibliografia Turban, IT for Management: On-Demand Strategies",
+      "foreignLocation": "Programa, 1.4",
+      "note": "O alinhamento não é nomeado literalmente; o planeamento estratégico de SI é o seu conteúdo típico."
+    },
+    {
+      "brTopic": "Governança de TI",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "1.4 'gestão e obtenção (sourcing)' de SI; resultado 'práticas e ferramentas associadas à gestão de sistemas de informação'",
+      "foreignLocation": "Programa, 1.4; Resultados de Aprendizagem, 2ª competência",
+      "note": "Gestão e sourcing de SI aparecem; quadros de governança (COBIT, ITIL) não são nomeados."
+    },
+    {
+      "brTopic": "Convergência Tecnológica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "1.1 'Digitalização e Transformação Digital'",
+      "foreignLocation": "Programa, 1.1; Resultados de Aprendizagem, 1ª competência",
+      "note": "A transformação digital é afim, mas a convergência tecnológica não é nomeada."
+    },
+    {
+      "brTopic": "Internet das coisas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.3, Resultados de Aprendizagem, Métodos de Ensino e Bibliografia",
+      "note": "O ponto 1.2 enumera 'Big Data, Inteligência Artificial, Realidade Virtual, ...'; a reticência deixa a lista aberta, mas IoT não é nomeada."
+    },
+    {
+      "brTopic": "Block Chain",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.3, Resultados de Aprendizagem e Bibliografia",
+      "note": "Lista aberta em 1.2; blockchain não nomeada."
+    },
+    {
+      "brTopic": "Cripton Moeda",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.3, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Big Data",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "1.2 'TI Disruptivas (Big Data, Inteligência Artificial, Realidade Virtual, ...)'; 2.3 análise, modelação e gestão de dados",
+      "foreignLocation": "Programa, 1.2 e 2.3"
+    },
+    {
+      "brTopic": "Computação nas nuvens",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.3, Resultados de Aprendizagem e Bibliografia",
+      "note": "O 'sourcing' de SI (1.4) pode abranger serviços em nuvem, mas a nuvem não é nomeada."
+    },
+    {
+      "brTopic": "Inteligência Artificial",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "1.2 'TI Disruptivas (Big Data, Inteligência Artificial, ...)'",
+      "foreignLocation": "Programa, 1.2"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Principais tipos de sistemas de informação", "location": "Programa 1.3"},
+    {"topic": "Análise e modelação de processos (BPM)", "location": "Programa 2.1; bibliografia Dumas et al."},
+    {"topic": "Análise, modelação e gestão de dados", "location": "Programa 2.3"},
+    {"topic": "Realidade virtual", "location": "Programa 1.2"}
+  ],
+  "competencies": {
+    "brazil": "A ementa trata a aplicabilidade dos SI ao apoio à decisão e as novas tecnologias que transformam os negócios.",
+    "foreign": ["Conhecer a terminologia de TI/SI e da transformação digital", "Conhecer práticas e ferramentas de gestão de SI e desenvolver modelos de representação de informação e processos"],
+    "convergences": ["Estratégia e gestão de SI", "Tecnologias disruptivas (big data, IA)"],
+    "differences": ["Coimbra dedica a parte 2 a modelação de processos e dados, ausente da ficha Mackenzie", "IoT, blockchain, criptomoedas e nuvem, nomeados no Mackenzie, não constam explicitamente em Coimbra"]
+  },
+  "depth": {
+    "level": "Coimbra no 2º ano; Mackenzie na 6ª etapa",
+    "brazil": "Componente curto (31,7 h) de panorama tecnológico e estratégico",
+    "foreign": "UC de 6 ECTS com componente prática de modelação (processos e dados)",
+    "theoryPractice": "Coimbra: teóricas com discussão de artigos e casos; práticas com exercícios de modelação"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json: não coincidiria com 2027.2 se mantido; não confirmado na página",
+    "language": "Português",
+    "enrolment": "UC obrigatória do plano de Gestão. A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de outros ciclos, departamentos e faculdades, sujeito à aprovação dos coordenadores.",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão de Sistemas de Informação cobre o eixo estratégico e parte do panorama tecnológico da disciplina Mackenzie (planeamento estratégico de SI, big data, IA, transformação digital), mas não nomeia IoT, blockchain, criptomoedas nem computação em nuvem, e acrescenta modelação de processos e dados.",
+  "justification": "Três dos nove itens oficiais estão cobertos (alinhamento por 1.4; big data e IA por 1.2), dois parcialmente (governança e convergência tecnológica, aproximadas por 1.4 e 1.1) e quatro não encontrados (IoT, blockchain, criptomoeda, nuvem), embora a lista do ponto 1.2 termine em reticência. Coberto+parcial é 5/9 (56%): afinidade parcial. A página só declara 6 ECTS contra 31,7 h no Mackenzie: horas não comparáveis. A indicação de 2º semestre é obstáculo para 2027.2.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial curto, com lista de tecnologias aberta ('...'); faltam horas e semestre, e a ficha brasileira não tem ano.",
+  "limitations": [
+    "Lista de tecnologias disruptivas aberta na página (reticência); itens não nomeados foram tratados como não encontrados",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Semestre (2º) não confirmado na página; oferta 2027/28 não confirmada",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O docente confirma IoT, blockchain e nuvem dentro das 'TI disruptivas' do ponto 1.2?",
+    "A UC é oferecida no semestre de outono de 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "93283", "name": "Informática para Economia e Gestão", "relation": "UC de 1º semestre segundo data.json; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item vinculado aos subpontos do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Programa claro; incerteza limitada à lista aberta de tecnologias"}
+}

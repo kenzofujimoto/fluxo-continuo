@@ -1,0 +1,156 @@
+{
+  "id": "adm|Marketing I|pt-coimbra|93365",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93365",
+      "name": "Introdução ao Marketing Digital",
+      "pageCode": "01021175",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não indica duração nem semestre; data.json: 'Semestral'",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/93365/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "e6d304938111b008efb92a01be4e54790c1d5afed8a9cd7a1b76d02601964683",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1-10), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto nem duração."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1 Introdução ao marketing digtal' [sic]",
+      "foreignLocation": "Programa, item 1",
+      "note": "Introduz o marketing digital; o conceito geral de marketing (valor, satisfação, fidelidade, na ementa Mackenzie) não é objeto declarado."
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'2 Análise do mercado online: micro-ambiente'; '3 O macro-ambiente digital'",
+      "foreignLocation": "Programa, itens 2-3",
+      "note": "Estrutura micro/macro presente, mas restrita ao ambiente online."
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'7 Desenvolver a experiência digital do cliente'",
+      "foreignLocation": "Programa, item 7",
+      "note": "Experiência do cliente em canais digitais; não há unidade sobre processo de decisão ou fatores do comportamento do consumidor."
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-10, Resultados de Aprendizagem, Métodos de Ensino, Bibliografia",
+      "note": "Na ementa Mackenzie trata-se do comportamento do comprador organizacional (B2B), sem correspondência em 93365."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-10 (inclui 4 'A estratégia de marketing digital'), Resultados de Aprendizagem, Bibliografia",
+      "note": "Segmentação e posicionamento não são nomeados; o item 4 é genérico e não basta como evidência."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Media digitais e marketing mix", "location": "Programa, item 5"},
+    {"topic": "Marketing relacional em plataformas digitais", "location": "Programa, item 6"},
+    {"topic": "Planeamento de campanhas, comunicação em media digitais e otimização de desempenho dos canais (com simulação)", "location": "Programa, itens 8-10; Métodos de Ensino"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: o que é marketing e como gera valor; satisfação, valor, fidelidade, comportamento do consumidor e do comprador organizacional, marketing estratégico com segmentação e posicionamento.",
+    "foreign": ["Conhecer os aspetos fundamentais do marketing digital", "Formular e implementar estratégias de marketing digital", "Planear campanhas de marketing digital"],
+    "convergences": ["Análise de ambiente (aqui só digital)", "Orientação ao cliente"],
+    "differences": ["Marketing I é a fundamentação conceitual do 1º semestre; 93365 é uma especialização opcional de 3º ano", "Comprador organizacional e segmentação/posicionamento ausentes em Coimbra"]
+  },
+  "depth": {
+    "level": "Desnível: Mackenzie 1ª etapa (fundamentos); Coimbra 3º ano (opcional aplicada)",
+    "brazil": "Conceitos fundadores de marketing e de comportamento de compra",
+    "foreign": "Marketing aplicado a canais digitais, com simulação de campanhas",
+    "theoryPractice": "Coimbra declara componente eminentemente prática com casos reais"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; confirmar para 2027.2",
+    "language": "Português",
+    "enrolment": "UC opcional; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado, mas a UC pressupõe fundamentos de marketing",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introdução ao Marketing Digital não substitui os fundamentos de Marketing I: toca o significado de marketing, o ambiente e o cliente apenas na versão digital e não trata comprador organizacional nem segmentação e posicionamento, que são o núcleo estratégico da ficha brasileira.",
+  "justification": "Nenhum dos cinco tópicos está plenamente coberto; três são parciais por serem tratados só no contexto digital (itens 1, 2-3 e 7) e dois não aparecem (comportamento do comprador organizacional; segmentação e posicionamento). A regra interna admitiria afinidade parcial (3/5 = 60% coberto+parcial), mas a classe foi rebaixada porque a cobertura plena é nula e o bloco central da ementa Mackenzie está ausente. Sem horas de contacto em Coimbra, as 63,3 h não são comparáveis.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Zero tópicos integralmente cobertos; as três correspondências parciais são recortes digitais de temas gerais, e segmentação/posicionamento e comprador organizacional — núcleo da ementa — estão ausentes. A UC é especialização opcional de 3º ano, não fundamentos.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de dez itens claro quanto ao recorte digital; faltam horas, semestre e vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contacto e semestre não declarados; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UC 18803 Marketing (1º semestre de Gestão) seria candidata mais adequada para Marketing I? Requer leitura do programa."
+  ],
+  "alternatives": [
+    {"code": "18803", "name": "Marketing", "relation": "UC geral de marketing (1º semestre segundo data.json); programa não lido neste parecer"},
+    {"code": "80046", "name": "Marketing Relacional", "relation": "Título relacionado; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Classe rebaixada abaixo da derivada pela regra; confirmar critério com a coordenação"}
+}

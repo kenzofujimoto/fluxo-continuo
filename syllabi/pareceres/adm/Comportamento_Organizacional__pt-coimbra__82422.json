@@ -1,0 +1,183 @@
+{
+  "id": "adm|Comportamento Organizacional|pt-coimbra|82422",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Comportamento Organizacional",
+    "name": "Comportamento Organizacional",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 1, bloco 'Comportamento Organizacional': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Comportamento Organizacional – Conceito, dimensões e elementos",
+      "Processos Cognitivos e formação de atitudes",
+      "Processo de aprendizagem individual",
+      "Adoecimento no trabalho, estresse e qualidade de vida no trabalho",
+      "Comprometimento, Satisfação e envolvimento no Trabalho",
+      "Motivação",
+      "Liderança e poder nas organizações",
+      "Cultura organizacional",
+      "Diversidade"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "82422",
+      "name": "Comportamento Organizacional",
+      "pageCode": "01015009",
+      "faculty": "Não indicada na página da UC (plano de Gestão, Faculdade de Economia segundo o plano 10622)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Trabalhos 40% + Mini Testes 60%",
+      "prerequisites": "Conhecimentos de Base Recomendados: n.a",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/82422/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "27b435de0b38893787304c1af2666312c6104f95f898b76ab8215dde35d96fbb",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (ILO1/4/5, objetivos 1-4), Programa, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto. Código interno: 01015009."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Comportamento Organizacional – Conceito, dimensões e elementos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivos 1-2: variáveis individuais e 'dinâmicas dos processos grupais e organizacionais' e seu impacto no comportamento",
+      "foreignLocation": "Resultados de Aprendizagem, objetivos 1-2",
+      "note": "Os três níveis de análise estão implícitos nos objetivos; não há unidade de programa que o confirme (ver anomalia da secção Programa)."
+    },
+    {
+      "brTopic": "Processos Cognitivos e formação de atitudes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Compreender a influência das variáveis individuais na determinação do comportamento em ambiente organizacional'",
+      "foreignLocation": "Resultados de Aprendizagem, objetivo 1 (20%)",
+      "note": "'Variáveis individuais' é genérico; cognição e atitudes não são nomeadas."
+    },
+    {
+      "brTopic": "Processo de aprendizagem individual",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Não aparece nos objetivos; a secção Programa da página traz conteúdo de Sistemas de Informação, o que impede verificar o temário real."
+    },
+    {
+      "brTopic": "Adoecimento no trabalho, estresse e qualidade de vida no trabalho",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Não aparece nos objetivos; Programa da página inválido para esta UC."
+    },
+    {
+      "brTopic": "Comprometimento, Satisfação e envolvimento no Trabalho",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Não aparece nos objetivos; Programa da página inválido para esta UC."
+    },
+    {
+      "brTopic": "Motivação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Identificar estratégias de intervenção organizacional, nomeadamente nos domínios da motivação, gestão de conflito, negociação, liderança e cultura'",
+      "foreignLocation": "Resultados de Aprendizagem, objetivo 3 (30%)"
+    },
+    {
+      "brTopic": "Liderança e poder nas organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo 3 nomeia 'liderança', 'gestão de conflito' e 'negociação'",
+      "foreignLocation": "Resultados de Aprendizagem, objetivo 3",
+      "note": "Poder não é nomeado."
+    },
+    {
+      "brTopic": "Cultura organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivo 3 nomeia 'cultura organizacional' como domínio de intervenção",
+      "foreignLocation": "Resultados de Aprendizagem, objetivo 3"
+    },
+    {
+      "brTopic": "Diversidade",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Não aparece nos objetivos; Programa da página inválido para esta UC."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Gestão de conflito e negociação", "location": "Resultados de Aprendizagem, objetivo 3"},
+    {"topic": "Reflexão crítica sobre os desafios da gestão das pessoas", "location": "Resultados de Aprendizagem, objetivo 4"}
+  ],
+  "competencies": {
+    "brazil": "A ementa estuda o comportamento humano nos níveis individual, grupal e organizacional: satisfação, motivação, liderança, equipes, cultura, mudança, diversidade e qualidade de vida no trabalho.",
+    "foreign": ["Compreender variáveis individuais (20%)", "Compreender dinâmicas grupais e organizacionais (40%)", "Identificar intervenções em motivação, conflito, negociação, liderança e cultura (30%)", "Refletir criticamente sobre a gestão das pessoas (10%)"],
+    "convergences": ["Os três níveis de análise", "Motivação, liderança e cultura"],
+    "differences": ["Coimbra destaca conflito e negociação, ausentes da ficha brasileira", "Estresse, QVT, comprometimento, aprendizagem e diversidade não podem ser confirmados no documento estrangeiro"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano, Mackenzie na 5ª etapa",
+    "brazil": "Componente de 63,3 h com nove itens de conteúdo programático",
+    "foreign": "UC introdutória obrigatória de 6 ECTS (a página a chama 'disciplina introdutória')",
+    "theoryPractice": "Coimbra alterna exposição teórica e discussão de casos; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json: compatível com 2027.2 se mantido; não confirmado na página",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de outros ciclos, departamentos e faculdades, sujeito à aprovação dos coordenadores; UC obrigatória do plano de Gestão.",
+    "prerequisites": "Nenhum (n.a)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A página oficial de Comportamento Organizacional de Coimbra tem objetivos e bibliografia coerentes com a disciplina Mackenzie, mas a secção Programa reproduz o conteúdo de uma UC de Sistemas de Informação. Por isso, quase metade dos itens brasileiros não pode ser verificada.",
+  "justification": "Sem programa válido, a comparação apoia-se nos quatro objetivos de aprendizagem. Motivação e cultura estão nomeadas (coberto); conceito/níveis de análise, variáveis individuais e liderança aparecem de forma genérica ou incompleta (parcial). Aprendizagem individual, estresse/QVT, comprometimento/satisfação e diversidade (4 de 9, 44%) não constam e não podem ser confirmados, o que ultrapassa o limite de 1/3 de itens não verificáveis e leva a evidência insuficiente. A bibliografia (Robbins & Judge, Cunha et al.) sugere temário convencional, mas não comprova conteúdo. Horas não comparáveis: a página só declara 6 ECTS.",
+  "conclusionClass": "evidencia_insuficiente",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Documento oficial com erro de conteúdo na secção Programa; a análise depende apenas de objetivos genéricos. A ficha brasileira não tem ano.",
+  "limitations": [
+    "Anomalia documental: a secção Programa da página 82422 (2026-2027) lista tópicos de Sistemas de Informação (transformação digital, tipos de SI, modelação de processos e dados)",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Semestre não confirmado na página; oferta 2027/28 não confirmada",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Coimbra pode fornecer o programa correto da UC 82422 para 2026-2027 ou 2027-2028?",
+    "O programa real inclui estresse, qualidade de vida no trabalho, comprometimento e diversidade?"
+  ],
+  "alternatives": [
+    {"code": "18267", "name": "Gestão e Pessoas", "relation": "Optativa de Gestão na área de pessoas; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); por causa da secção Programa errada, a evidência vem dos Resultados de Aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Página oficial com programa de outra UC; é preciso obter o programa correto antes de qualquer conclusão"}
+}

@@ -1,0 +1,157 @@
+{
+  "id": "adm|Políticas e Práticas de Gestão de Pessoas|pt-coimbra|18267",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Políticas e Práticas de Gestão de Pessoas",
+    "name": "Políticas e Práticas de Gestão de Pessoas",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 10, bloco 'Políticas e Práticas de Gestão de Pessoas': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução à gestão de pessoas: a perspectiva estratégica",
+      "Políticas e Práticas de Captação e Movimentação de pessoas – Recrutamento, seleção e expatriação",
+      "Políticas e práticas de Desenvolvimento de pessoas – Treinamento, Gestão do conhecimento e universidade corporativa",
+      "Políticas e práticas de remuneração estratégica",
+      "Gestão do desempenho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18267",
+      "name": "Gestão e Pessoas",
+      "pageCode": "01620346",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não indica duração nem semestre; data.json: 'Semestral'",
+      "academicYear": "2026/2027",
+      "language": "Português (página exige leitura fluente em inglês)",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: 'Leitura fluente em inglês'",
+      "source": "https://apps.uc.pt/courses/PT/unit/18267/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "034c6b1273dd7d7c2f594ed321351c4872b3910843ccc24c6ce13bd582ff6a29",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (a-e), Programa (1-9), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto nem duração."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução à gestão de pessoas: a perspectiva estratégica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1. Fatores contextuais e estratégicos da gestão de ativos humanos'; '2. Integração da visão estratégica e gestão de linha'",
+      "foreignLocation": "Programa, itens 1-2"
+    },
+    {
+      "brTopic": "Políticas e Práticas de Captação e Movimentação de pessoas – Recrutamento, seleção e expatriação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado a): 'Identificar diferentes formas das organizações captarem pessoas e desenvolverem relações de emprego'",
+      "foreignLocation": "Resultados de Aprendizagem, alínea a)",
+      "note": "Captação aparece como objetivo; recrutamento, seleção e expatriação não são unidades do programa."
+    },
+    {
+      "brTopic": "Políticas e práticas de Desenvolvimento de pessoas – Treinamento, Gestão do conhecimento e universidade corporativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Item 5(a) 'investir nos trabalhadores'; resultados a) aprendizagem ao longo da vida e c) aprendizagem organizacional",
+      "foreignLocation": "Programa, item 5(a); Resultados de Aprendizagem a) e c)",
+      "note": "Desenvolvimento tratado como dimensão da relação de emprego; treino, gestão do conhecimento e universidade corporativa não nomeados."
+    },
+    {
+      "brTopic": "Políticas e práticas de remuneração estratégica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-9 (inclui 7 HPWS e 9(a) justiça distributiva), Resultados de Aprendizagem a-e, Bibliografia",
+      "note": "A 'perceção de justiça distributiva' surge como resultado atitudinal, não como política de remuneração."
+    },
+    {
+      "brTopic": "Gestão do desempenho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'7. Abordagem com foco financeiro: práticas para um sistema de trabalho de elevado desempenho (HPWS)'; resultado b) elevado desempenho organizacional",
+      "foreignLocation": "Programa, item 7; Resultados de Aprendizagem b)",
+      "note": "Desempenho organizacional via HPWS; avaliação de desempenho individual não aparece."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Paradigmas fordista e pós-fordista; modelos japonês, americano e europeu", "location": "Programa, itens 3-4"},
+    {"topic": "Modelo de exigências-recursos do trabalho (JD-R) e bem-estar dos trabalhadores", "location": "Programa, itens 6 e 8"},
+    {"topic": "Resultados atitudinais e comportamentais: comprometimento, satisfação, cidadania organizacional, intenção de saída", "location": "Programa, item 9"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: abordagens contemporâneas e estratégicas de políticas e práticas de gestão de pessoas, com os processos de recrutar, selecionar, desenvolver, avaliar desempenho e recompensar.",
+    "foreign": ["Identificar formas de captar pessoas e desenvolver relações de emprego", "Compreender como práticas de gestão afetam desempenho e bem-estar", "Analisar paradigmas fordista e pós-fordista", "Justificar como valores e normas implícitas afetam inovação e desempenho"],
+    "convergences": ["Perspetiva estratégica da gestão de pessoas", "Relação entre práticas de RH e desempenho"],
+    "differences": ["Mackenzie é funcional (subsistemas de RH); Coimbra é analítica e crítica, centrada em relação de emprego e bem-estar", "Remuneração e técnicas de recrutamento/seleção ausentes em Coimbra"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano (opcional), Mackenzie na 6ª etapa",
+    "brazil": "Componente de 63,3 h organizado pelos subsistemas de gestão de pessoas",
+    "foreign": "UC de 6 ECTS com literatura de investigação em inglês (Guest, Coyle-Shapiro) sobre HPWS, JD-R e bem-estar",
+    "theoryPractice": "Coimbra: discussão em grupo de notícias e documentários e prática reflexiva"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; confirmar para 2027.2",
+    "language": "Português, com leitura fluente em inglês exigida",
+    "enrolment": "UC opcional; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Leitura fluente em inglês",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão e Pessoas partilha com o componente Mackenzie a perspetiva estratégica e a ligação entre práticas de RH e desempenho, mas aborda captação, desenvolvimento e desempenho pela ótica da relação de emprego e do bem-estar, sem tratar remuneração nem as técnicas de recrutamento e seleção.",
+  "justification": "A introdução estratégica está coberta (itens 1-2). Captação, desenvolvimento e gestão do desempenho têm correspondência parcial, apoiada no resultado a), no item 5(a) e no HPWS do item 7, e a remuneração estratégica não aparece. Coberto+parcial = 4/5 (80%), o que dá afinidade parcial; a cobertura plena fica em 1/5. Coimbra declara 6 ECTS sem horas de contacto, pelo que a carga de 63,3 h não é comparável, e a ficha brasileira não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de nove itens e cinco resultados de aprendizagem explícitos; faltam horas, semestre e vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contacto e semestre não declarados; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Abordagem estrangeira crítica/psicológica, distinta da abordagem funcional por subsistemas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita a ausência de remuneração estratégica e de técnicas de recrutamento/seleção?",
+    "Em que semestre 18267 é oferecida em 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "91495", "name": "Gestão de Recursos Humanos", "relation": "UC de Administração Pública (1º semestre segundo data.json) com título mais funcional; programa não lido neste parecer"},
+    {"code": "82422", "name": "Comportamento Organizacional", "relation": "Título relacionado; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado ao item do programa ou resultado de aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Cobertura plena baixa (1/5) e diferença de abordagem; avaliar alternativa 91495"}
+}

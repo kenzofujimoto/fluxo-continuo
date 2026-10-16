@@ -1,0 +1,175 @@
+{
+  "id": "adm|Sistemas de Informação Aplicados à Gestão|pt-coimbra|91503",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sistemas de Informação Aplicados à Gestão",
+    "name": "Sistemas de Informação Aplicados à Gestão",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 12, bloco 'Sistemas de Informação Aplicados à Gestão': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Alinhamento estratégico de TI",
+      "Governança de TI",
+      "Convergência Tecnológica",
+      "Internet das coisas",
+      "Block Chain",
+      "Cripton Moeda",
+      "Big Data",
+      "Computação nas nuvens",
+      "Inteligência Artificial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "91503",
+      "name": "Análise de Dados e Gestão de Informação I",
+      "pageCode": "01019788",
+      "faculty": "Não indicada na página da UC (plano 11983, Licenciatura em Administração Pública)",
+      "programme": "Licenciatura em Administração Pública (plano 11983); área científica Gestão e Administração",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Resolução de problemas 10%; trabalho de síntese 40%; frequência 50%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/91503/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "sha256": "19711fddfcb45f8e03e7e71f370581e4e2c92c020cf595e49c08b86b9066e92c",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1-2.4), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 5.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 5,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Alinhamento estratégico de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4 (testes de hipóteses e análise categorial), Resultados de Aprendizagem, Métodos de Ensino, Bibliografia"
+    },
+    {
+      "brTopic": "Governança de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4, Resultados de Aprendizagem, Bibliografia"
+    },
+    {
+      "brTopic": "Convergência Tecnológica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4, Resultados de Aprendizagem, Bibliografia"
+    },
+    {
+      "brTopic": "Internet das coisas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4, Resultados de Aprendizagem, Bibliografia"
+    },
+    {
+      "brTopic": "Block Chain",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4, Resultados de Aprendizagem, Bibliografia"
+    },
+    {
+      "brTopic": "Cripton Moeda",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4, Resultados de Aprendizagem, Bibliografia"
+    },
+    {
+      "brTopic": "Big Data",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4, Resultados de Aprendizagem, Métodos de Ensino, Bibliografia",
+      "note": "A UC faz análise estatística de dados (testes paramétricos e não paramétricos, ANOVA, qui-quadrado, ANACOR), não tecnologias ou gestão de Big Data."
+    },
+    {
+      "brTopic": "Computação nas nuvens",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4, Resultados de Aprendizagem, Bibliografia"
+    },
+    {
+      "brTopic": "Inteligência Artificial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-2.4, Resultados de Aprendizagem, Bibliografia"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Testes de hipóteses paramétricos (média, proporção, duas médias, ANOVA) e não paramétricos (normalidade, Kruskal-Wallis, Mann-Whitney)", "location": "Programa, 1-1.3.2.3"},
+    {"topic": "Análise de dados categoriais: qui-quadrado, teste exato de Fisher, ANACOR, análise de correspondência múltipla", "location": "Programa, 2-2.4"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: aplicabilidade dos sistemas de informação à decisão empresarial e novas tecnologias que transformam os negócios.",
+    "foreign": ["Compreender e aplicar testes de hipóteses", "Distinguir testes paramétricos e não paramétricos", "Analisar dependência entre variáveis categoriais", "Introdução à análise de correspondências"],
+    "convergences": ["Apoio à decisão com informação (em sentido muito amplo)"],
+    "differences": ["Mackenzie trata TI e tecnologias emergentes (governança, IoT, blockchain, nuvem, IA)", "Coimbra é estatística inferencial aplicada; 'gestão de informação' no título refere-se a técnicas de análise de dados"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de Administração Pública, Mackenzie na 6ª etapa",
+    "brazil": "Componente curto (31,7 h) de panorama tecnológico",
+    "foreign": "UC de 5 ECTS de estatística aplicada com software",
+    "theoryPractice": "Coimbra: casos resolvidos pelo docente seguidos de exercícios, com software de análise de dados"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json; coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "UC do plano de Administração Pública; mobilidade sujeita à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado; pressupõe estatística introdutória",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O par assenta apenas no termo 'informação' do título: Análise de Dados e Gestão de Informação I é uma UC de testes de hipóteses e análise categorial, enquanto Sistemas de Informação Aplicados à Gestão é um panorama de TI (alinhamento, governança, IoT, blockchain, nuvem, IA).",
+  "justification": "Nenhum dos nove tópicos brasileiros tem correspondência: o programa estrangeiro (itens 1-2.4) cobre testes paramétricos e não paramétricos, ANOVA, qui-quadrado e ANACOR, sem qualquer unidade de sistemas ou tecnologias de informação. Coberto+parcial = 0/9. Os 5 ECTS não vêm acompanhados de horas de contacto, pelo que não há comparação com as 31,7 h. A UC tem, porém, interesse para outro componente (Métodos Quantitativos em Processos Decisórios), por incluir teste de duas médias e ANOVA.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e inequívoco quanto à ausência de TI; a confiança não é alta só porque faltam horas de contacto e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Horas de contacto não declaradas; 5 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "As UC 93305 'Gestão de Sistemas de Informação' (Gestão) ou 91508 'Governação Eletrónica' (Administração Pública) seriam candidatas mais adequadas? Exigem leitura dos programas."
+  ],
+  "alternatives": [
+    {"code": "93305", "name": "Gestão de Sistemas de Informação", "relation": "Título diretamente relacionado (2º semestre segundo data.json); programa não lido neste parecer"},
+    {"code": "91508", "name": "Governação Eletrónica", "relation": "Título relacionado (2º semestre segundo data.json); programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico confrontado com todos os itens do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Desencontro total de conteúdo, documentado item a item"}
+}

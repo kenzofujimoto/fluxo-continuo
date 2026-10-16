@@ -1,0 +1,158 @@
+{
+  "id": "dir|HISTÓRIA DO DIREITO|pt-coimbra|83165",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "HISTÓRIA DO DIREITO",
+    "name": "História do Direito",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 3, bloco 'HISTÓRIA DO DIREITO' (1ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "83165",
+      "name": "História do Direito Luso-Brasileiro",
+      "pageCode": "01015119",
+      "faculty": "Faculdade de Direito (área científica História)",
+      "programme": "Licenciatura em Direito (plano 1556)",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2025/2026 (página consultada não é a de 2026/2027)",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Exame: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: conhecimentos elementares de História e Introdução ao Direito",
+      "source": "https://apps.uc.pt/courses/PT/unit/83165/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "sha256": "76fd6d6a9e113b689936495d8215d307d6566b56ca9e0605088e3c2da3394231",
+      "location": "Página da UC 2025-2026: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (I.1-4, II.1-4, III.1-4), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e aulas teórico-práticas, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'A História do Direito e a Historicidade Jurídica'; prática de 'descobrir as suas raízes históricas e as rationes' dos institutos atuais",
+      "foreignLocation": "Programa I.1; Métodos de Ensino",
+      "note": "A relevância formativa é tratada, mas pela via das raízes dos institutos atuais; a 'perspectiva crítica' da ementa Mackenzie não é declarada."
+    },
+    {
+      "brTopic": "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'conhecimentos das fontes do direito ao longo da História, das correntes doutrinais e das transformações no plano das instituições jurídicas luso-brasileiras'",
+      "foreignLocation": "Resultados de Aprendizagem; Programa I.3-I.4, II.3"
+    },
+    {
+      "brTopic": "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Historicidade Jurídica'; 'correntes doutrinais'; 'O direito no Brasil sob o signo do pluralismo jurídico'",
+      "foreignLocation": "Programa I.1 e I.3; Resultados de Aprendizagem",
+      "note": "Historicidade e pluralismo sugerem a relatividade dos conceitos, mas anacronismo e não essencialidade não são nomeados."
+    },
+    {
+      "brTopic": "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'A independência e a constituinte', 'A constituição imperial', 'O Constitucionalismo'; transformações das instituições jurídicas luso-brasileiras",
+      "foreignLocation": "Programa II.1-II.2 e III.3; Resultados de Aprendizagem",
+      "note": "O enquadramento constitucional das instituições é estudado; Judiciário, Legislativo e Ministério Público não são nomeados."
+    },
+    {
+      "brTopic": "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Direito brasileiro no período imperial': constituição imperial, ensino jurídico, codificação; período republicano: laicização, constitucionalismo, codificação",
+      "foreignLocation": "Programa II.1-II.4 e III.1-III.4",
+      "note": "Aqui não há diferença de sistema: o objeto é o próprio direito brasileiro do Império e da República, comparado ao português."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Integração do direito português no Brasil colonial e fontes do direito colonial", "location": "Programa I.2 e I.4"},
+    {"topic": "Ensino jurídico no Brasil imperial", "location": "Programa II.3"},
+    {"topic": "Comparação das raízes dos ordenamentos português e brasileiro, incluindo base romanista", "location": "Resultados de Aprendizagem; Bibliografia (Santos Justo, Braga da Cruz)"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 propõe uma história crítica das ideias, instituições e fontes, com foco no direito brasileiro dos séculos XIX e XX.",
+    "foreign": ["Dominar as matrizes histórico-jurídicas comuns a Portugal e Brasil", "Conhecer fontes, correntes doutrinais e instituições luso-brasileiras", "Comparar as raízes dos ordenamentos português e brasileiro"],
+    "convergences": ["Fontes do direito brasileiro no Império e na República", "Codificação e constitucionalismo", "Relação entre instituições e direito"],
+    "differences": ["Coimbra inclui o período colonial e privilegia continuidade luso-brasileira e raízes romanistas", "Mackenzie enfatiza crítica ao anacronismo e organização de Judiciário, Legislativo e MP"]
+  },
+  "depth": {
+    "level": "Ambas introdutórias do 1º ano/1ª etapa",
+    "brazil": "Componente obrigatório de 2 h-a semanais",
+    "foreign": "Opcional de 6 ECTS teórico-prática",
+    "theoryPractice": "Coimbra: exposição dogmática e prática de identificação de raízes históricas dos institutos; exame 100%"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "UC opcional da Licenciatura em Direito; a Universidade de Coimbra admite pedidos de mobilidade em outros cursos e faculdades, sujeitos à aprovação dos coordenadores",
+    "prerequisites": "Noções de História e de Introdução ao Direito",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "História do Direito Luso-Brasileiro trata diretamente o direito brasileiro colonial, imperial e republicano (fontes, constituições, codificação, ensino jurídico) em comparação com Portugal; cobre as fontes do século XIX-XX da ementa Mackenzie, mas não explicita a abordagem crítica sobre anacronismo nem Judiciário, Legislativo e MP.",
+  "justification": "Dois tópicos estão cobertos (história das ideias, instituições e fontes, Resultados de Aprendizagem; fontes do direito público e privado no Brasil do século XIX e início do XX, Programa II.1-II.4 e III.1-III.4) e três são parciais (perspectiva crítica, anacronismo e relatividade dos conceitos, estruturas institucionais). É o caso deste lote em que a diferença de sistema jurídico não pesa, pois o objeto é o próprio direito brasileiro. Coberto+parcial = 5/5; a classe fica em afinidade parcial porque a ementa de 2022 não é vigente e as horas não são comparáveis (2 h-a semanais contra 6 ECTS sem horas de contacto). Oferta no 2º semestre segundo data.json.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e objetivos claros; reduzem a confiança a página de 2025/26, a falta de horas e semestre na página e o ementário brasileiro histórico.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; data.json indica 2º semestre; página de 2025/26",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Programa com numeração incompleta (Parte III salta do item 1 para o 3)",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A UC 83165 é oferecida no semestre de outono a intercambistas, ou apenas no 2º semestre?",
+    "A coordenação aceita a abordagem luso-brasileira de continuidade histórica em lugar da perspectiva crítica da ementa?"
+  ],
+  "alternatives": [
+    {"code": "22383", "name": "História do Direito Português", "relation": "UC de 2º semestre centrada em Portugal; programa não lido neste parecer"},
+    {"code": "22402", "name": "Direito Romano", "relation": "UC de 1º semestre; complementar, não substitui história do direito brasileiro; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2025-2026) com apoio de IA (Claude); cada tópico vinculado a item do Programa ou aos Resultados de Aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Programa itemizado e objeto comum (direito brasileiro); pendências são de oferta e horas"}
+}

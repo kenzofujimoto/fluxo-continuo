@@ -1,0 +1,170 @@
+{
+  "id": "adm|Microeconomia Aplicada aos Negócios|pt-coimbra|93295",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Microeconomia Aplicada aos Negócios",
+    "name": "Microeconomia Aplicada aos Negócios",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": null,
+    "documentTitle": "Ficha de disciplina CCSA do 2º semestre de Administração (Etapa_2_02.pdf), vinculada pelo link '2º Semestre' da matriz oficial de Alphaville; cabeçalho do campus São Paulo, sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 5, bloco 'Microeconomia Aplicada aos Negócios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h no semestre; vigência para a matriz atual de Alphaville não confirmada."
+    },
+    "topics": [
+      "Conceitos e ferramentas básicas",
+      "Demanda x oferta",
+      "Elasticidades",
+      "Intervenção do governo no mercado",
+      "Teoria da firma: Produção e Custos",
+      "Organização da indústria"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93295",
+      "name": "Princípios de Microeconomia",
+      "pageCode": "01020860",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622; a página refere também a Licenciatura em Economia); área científica Economia",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: 'Não aplicável'",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/93295/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "f4a8a9c2450196f877c92fb890d3203697b9fcfa20a065c2837d5664a3008b77",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivos 1-5 com pesos), Programa 1-9, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e ferramentas básicas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Economia como Ciência'; objetivo 1 'Reconhecer e aplicar conceitos, princípios e instrumentos básicos de análise microeconómica' (30%)",
+      "foreignLocation": "Programa 1; Resultados de Aprendizagem 1"
+    },
+    {
+      "brTopic": "Demanda x oferta",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Procura e Oferta'; objetivo 2 papel do mecanismo preço no funcionamento dos mercados",
+      "foreignLocation": "Programa 2; Resultados de Aprendizagem 2"
+    },
+    {
+      "brTopic": "Elasticidades",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Elasticidades da Procura e da Oferta'",
+      "foreignLocation": "Programa 3"
+    },
+    {
+      "brTopic": "Intervenção do governo no mercado",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Falhas de Mercado'; objetivo 5 reconhecer falhas e 'a forma como a intervenção do Estado as pode atenuar' (10%)",
+      "foreignLocation": "Programa 9; Resultados de Aprendizagem 5",
+      "note": "Intervenção vista pelas falhas de mercado; preços máximos/mínimos e impostos sobre o mercado não são nomeados."
+    },
+    {
+      "brTopic": "Teoria da firma: Produção e Custos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Produção e Custos'; objetivo 3 escolhas ótimas dos produtores",
+      "foreignLocation": "Programa 5; Resultados de Aprendizagem 3"
+    },
+    {
+      "brTopic": "Organização da indústria",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Concorrência perfeita, monopólio e concorrência monopolística; objetivo 4 comparar estruturas de mercado quanto a preço, quantidade e eficiência",
+      "foreignLocation": "Programa 6-8; Resultados de Aprendizagem 4 (25%)",
+      "note": "Oligopólio não é listado entre as estruturas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Escolhas do consumidor", "location": "Programa 4; Resultados de Aprendizagem 3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: agentes e problemas económicos, sistemas económicos, oferta, demanda e equilíbrio, alterações de mercado, atuação do governo, elasticidade, estruturas de mercado, trade-off e custo de oportunidade.",
+    "foreign": [
+      "Aplicar instrumentos básicos de análise microeconómica",
+      "Explicar o mecanismo preço",
+      "Explicar escolhas ótimas de consumidores e produtores",
+      "Comparar estruturas de mercado",
+      "Reconhecer falhas de mercado e intervenção do Estado"
+    ],
+    "convergences": ["Sequência clássica de princípios de microeconomia: oferta/procura, elasticidades, custos, estruturas de mercado"],
+    "differences": [
+      "Coimbra acrescenta teoria das escolhas do consumidor",
+      "Mackenzie enfatiza aplicação aos negócios e intervenção governamental; Coimbra trata a intervenção só a partir de falhas de mercado"
+    ]
+  },
+  "depth": {
+    "level": "Ambas introdutórias; Coimbra no 1º ano, Mackenzie no 2º semestre",
+    "brazil": "Componente de 63,3 h com seis blocos de microeconomia aplicada",
+    "foreign": "UC de 6 ECTS com nove capítulos e objetivos ponderados; bibliografia Krugman-Wells e Mankiw",
+    "theoryPractice": "Coimbra separa aulas teóricas e práticas de exercícios; a ficha Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json; coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC do 1º ano de Gestão",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada",
+    "note": "Componente do 2º semestre Mackenzie; útil sobretudo para aluno com a disciplina pendente"
+  },
+  "synthesis": "Princípios de Microeconomia de Coimbra segue quase item a item a ficha Mackenzie (conceitos básicos, oferta e procura, elasticidades, produção e custos, estruturas de mercado) e só trata a intervenção governamental pelo ângulo das falhas de mercado; a classe não sobe por falta de horas de contacto e de vigência da ficha brasileira.",
+  "justification": "Cinco dos seis tópicos oficiais têm capítulo correspondente (Programa 1, 2, 3, 5 e 6-8) e o sexto, intervenção do governo, é parcial (capítulo 9 e objetivo 5, sem controles de preço ou tributação). Cobertos = 5/6 (83%), sem tópico ausente. A página declara 6 ECTS sem horas de contacto; as 63,3 h Mackenzie não são comparáveis. Pela regra interna, horas não analisáveis e ficha brasileira sem vigência confirmada limitam a classe a afinidade parcial, apesar da forte convergência de conteúdo.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa e objetivos ponderados claros na página oficial 2026-2027; faltam horas de contacto, o semestre só consta do data.json e a ficha Mackenzie não tem vigência confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; 1º semestre segundo data.json",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação considera a abordagem por falhas de mercado suficiente para 'intervenção do governo no mercado'?",
+    "Coimbra confirma vaga de intercambista nesta UC de 1º ano em 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "93288", "name": "Microeconomia", "relation": "UC seguinte de microeconomia (2º semestre); programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado a capítulo e objetivo; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Correspondência de capítulos direta; limitações documentais já refletidas na classe"}
+}

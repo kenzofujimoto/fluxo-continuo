@@ -1,0 +1,193 @@
+{
+  "id": "adm|Gestão Integrada de Empresas|es-26-universidaddej|11911001",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão Integrada de Empresas",
+    "name": "Gestão Integrada de Empresas",
+    "courseName": "Administração",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 8º Semestre (Etapa_8_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_8_02.pdf",
+    "sha256": "ad75686cce296fe03be1bf61a9b3f75d1090a24f81a8c9ae1e4a6e5054c5d9d0",
+    "location": "PDF p. 1, bloco 'Gestão Integrada de Empresas': carga horária, ementa e Conteúdo Programático",
+    "language": "Português (o programa usa títulos em inglês em parte das sessões)",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Decisões sobre gestão de pessoas",
+      "Análise de mercado e implantação da empresa",
+      "Decisões em um Ambiente de incerteza",
+      "Lean Manufacturing and Quality Improvement",
+      "Demonstrativos Financeiros, Plano de negócios, Valuation e Gestão de RH",
+      "Elaboração do plano de negócios, do Valuation e da Proposta de venda de participação",
+      "Negociação com investidor",
+      "Customized Objective Learning Assessment",
+      "Liberação dos resultados do Learning Assessment",
+      "Reunião com CEOS e VPS de RH Gestão, Reconhecimento e Remuneração"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-26-universidaddej",
+      "university": "Universidad de Jaén",
+      "code": "11911001",
+      "name": "Administración de empresas",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U136 - Organización de Empresas, Marketing y Sociología (área 650 Organización de Empresas)",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado en ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Primer cuatrimestre (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Exame teórico 70%; trabalhos, casos e exercícios 25%; assistência/participação 5%",
+      "prerequisites": "Nenhum indicado",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "sha256": "f0473e51a839a534e868932ad97b8469aed6fd36df6cd8fdadc72d2fb3255143",
+      "location": "Guía docente 2025-26: Ficha identificativa, Resumen (memoria RUCT), Competencias, Descripción de contenidos (Temas 1-8 e práticas por tema), Actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,50 h e A2a pequeño grupo 37,50 h, presencialidade 40%; sem total presencial impresso nem ECTS. Nada foi derivado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Decisões sobre gestão de pessoas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 8 'Dirección del comportamiento humano en la empresa': motivação, teorias motivacionais, liderança, comunicação",
+      "foreignLocation": "Descripción de contenidos, Teoría tema 8.1-8.8",
+      "note": "Jaén apresenta teorias de comportamento; a ficha Mackenzie trata decisões de gestão de pessoas tomadas num simulador empresarial."
+    },
+    {
+      "brTopic": "Análise de mercado e implantação da empresa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'3.3. El análisis estratégico: ámbito externo e interno'; tema 4 crescimento e modos de entrada no mercado exterior",
+      "foreignLocation": "Teoría temas 3.3 e 4.1-4.3",
+      "note": "Introdução conceitual à análise do entorno; não há análise de mercado aplicada à implantação de uma empresa."
+    },
+    {
+      "brTopic": "Decisões em um Ambiente de incerteza",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'2.5. Las decisiones en la dirección de empresas'; RUCT: 'Las decisiones en la empresa'",
+      "foreignLocation": "Teoría tema 2.5; Resumen (memoria RUCT)",
+      "note": "Tipologia de decisões sem referência explícita a incerteza nem a decisão sequencial em simulação."
+    },
+    {
+      "brTopic": "Lean Manufacturing and Quality Improvement",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría temas 1-8, Práctica por tema, Bibliografía"
+    },
+    {
+      "brTopic": "Demonstrativos Financeiros, Plano de negócios, Valuation e Gestão de RH",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría temas 1-8 (inclui 6 Planificación y control), Práctica por tema, Bibliografía",
+      "note": "O tema 6 trata a função de planeamento em geral, não demonstrações financeiras nem valuation."
+    },
+    {
+      "brTopic": "Elaboração do plano de negócios, do Valuation e da Proposta de venda de participação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-8, Práctica por tema, Sistemas de evaluación"
+    },
+    {
+      "brTopic": "Negociação com investidor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-8, Práctica por tema (casos, lecturas, notícias; role-playing ocasional na metodologia)"
+    },
+    {
+      "brTopic": "Customized Objective Learning Assessment",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Sistemas de evaluación (específico e general)",
+      "note": "Item de avaliação da simulação, não conteúdo curricular; não pesa na cobertura."
+    },
+    {
+      "brTopic": "Liberação dos resultados do Learning Assessment",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Sistemas de evaluación",
+      "note": "Evento de calendário (divulgação de resultados), não conteúdo curricular."
+    },
+    {
+      "brTopic": "Reunião com CEOS e VPS de RH Gestão, Reconhecimento e Remuneração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría tema 8 (motivação e liderança), Práctica tema 8, Bibliografía",
+      "note": "Teorias motivacionais do tema 8 não tratam remuneração nem a atividade simulada com executivos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "A empresa como organização e sistema aberto; empresa familiar", "location": "Teoría tema 1"},
+    {"topic": "Empresário, propriedade e governo da empresa", "location": "Teoría tema 2.1-2.4"},
+    {"topic": "Cultura, ética e responsabilidade social empresarial", "location": "Teoría tema 5"},
+    {"topic": "Desenho organizativo e fatores de contingência", "location": "Teoría tema 7"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: simulação da gestão empresarial em mercado competitivo, integração de áreas funcionais e decisão estratégica com desempenho operacional, de mercado e financeiro.",
+    "foreign": ["C05 Conhecer os conceitos básicos de Direção de Empresas", "CC22 Conhecer os ODS e a sua aplicabilidade à matéria"],
+    "convergences": ["Noções de decisão e de comportamento humano na empresa"],
+    "differences": ["Mackenzie é um laboratório de simulação integrada de fim de curso (finanças, operações lean, valuation, negociação)", "Jaén é a introdução à administração do 1º curso, expositiva com casos"]
+  },
+  "depth": {
+    "level": "Desnível acentuado: Jaén 1º curso, Mackenzie 8ª etapa (componente de síntese)",
+    "brazil": "Componente integrador baseado em simulação e entregas (plano de negócios, valuation, proposta a investidor)",
+    "foreign": "Fundamentos de administração de empresas: conceitos, funções diretivas, estratégia introdutória, estrutura e motivação",
+    "theoryPractice": "Jaén: lição magistral participativa e método do caso; Mackenzie: decisão simulada em equipas"
+  },
+  "practical": {
+    "period": "Primer cuatrimestre, compatível em calendário com 2027.2 se mantido",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC básica de 1º curso; aceitação de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A semelhança é só de título: Administración de empresas é a UC introdutória do 1º curso de Jaén, enquanto Gestão Integrada de Empresas é o simulador empresarial da 8ª etapa, com finanças, lean, valuation e negociação com investidor, conteúdos que a guia de Jaén não contém.",
+  "justification": "Entre os oito tópicos essenciais (dois itens de avaliação foram marcados como não curriculares), apenas três encontram correspondência parcial e conceitual — comportamento humano (tema 8), análise estratégica introdutória (3.3) e decisões na direção (2.5) — e cinco não aparecem: lean e qualidade, demonstrações financeiras, plano de negócios e valuation, negociação com investidor e remuneração. Coberto+parcial = 3/8 (37,5%). O nível também diverge (introdução vs. componente final de síntese). Sem ECTS nem total presencial na guia, a carga de 63,3 h não é comparável.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Ambos os textos foram lidos integralmente e o desencontro de conteúdo é nítido; a ficha brasileira é um roteiro de sessões, não uma ementa analítica, e não tem vigência confirmada.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad",
+    "Horas presenciais e ECTS não declarados",
+    "Conteúdo Programático Mackenzie é lista de sessões de simulação (inclui eventos de avaliação), sem ano impresso",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação considera aproveitável, para um componente de simulação integrada, alguma UC estrangeira sem simulador? Caso contrário, este componente deve ser cursado no Mackenzie."
+  ],
+  "alternatives": [
+    {"code": "11912025", "name": "Creación de empresas", "relation": "Título sugere plano de negócios; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático da ficha Mackenzie e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Desencontro de conteúdo e de nível evidente nos dois documentos"}
+}

@@ -1,0 +1,149 @@
+{
+  "id": "adm|Marketing II|pt-coimbra|93365",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93365",
+      "name": "Introdução ao Marketing Digital",
+      "pageCode": "01021175",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não indica duração nem semestre; data.json: 'Semestral'",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/93365/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "e6d304938111b008efb92a01be4e54790c1d5afed8a9cd7a1b76d02601964683",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1-10), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto nem duração."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5 Os media digitais e o marketing mix'",
+      "foreignLocation": "Programa, item 5",
+      "note": "Produto entra apenas como variável do mix aplicada aos media digitais; gestão de bens e serviços (ciclo de vida, serviços) não é individualizada."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5 Os media digitais e o marketing mix'",
+      "foreignLocation": "Programa, item 5",
+      "note": "Preço só como componente do mix digital; sem unidade de estratégia ou métodos de fixação de preço."
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5 Os media digitais e o marketing mix'; canais digitais nos itens 9-10",
+      "foreignLocation": "Programa, itens 5, 9-10",
+      "note": "Canais digitais presentes; canais físicos, intermediários e logística não aparecem."
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'8 Planeamento de campanhas nos media digitais'; '9 Comunicação através de canais de media digitais'; '10 A avaliação e a otimização do desempenho'",
+      "foreignLocation": "Programa, itens 8-10; Métodos de Ensino (simulação de campanhas)",
+      "note": "É a variável mais desenvolvida em Coimbra (três itens e simulação), mas restrita aos media digitais; comunicação integrada tradicional não é tratada."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Micro e macro-ambiente digital", "location": "Programa, itens 2-3"},
+    {"topic": "Marketing relacional em plataformas digitais e experiência digital do cliente", "location": "Programa, itens 6-7"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e definição das estratégias de preço, comunicação e distribuição para gerar valor ao cliente e à empresa.",
+    "foreign": ["Formular e implementar estratégias de marketing digital", "Planear campanhas de marketing digital", "Reconhecer desafios e oportunidades das tecnologias digitais"],
+    "convergences": ["Marketing mix como quadro de decisão", "Planeamento e avaliação de comunicação"],
+    "differences": ["Mackenzie trata cada P como decisão gerencial autónoma; Coimbra agrupa o mix num único item digital", "Comunicação em Coimbra limita-se a media digitais"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano (opcional), Mackenzie na 4ª etapa",
+    "brazil": "Mix de marketing (4P) em 63,3 h",
+    "foreign": "Marketing digital aplicado, com simulação de campanhas e casos reais",
+    "theoryPractice": "Coimbra declara componente eminentemente prática"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; confirmar para 2027.2",
+    "language": "Português",
+    "enrolment": "UC opcional; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado; estudante na 4ª etapa já cursou Marketing I",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Para Marketing II, centrado nos 4P, a UC 93365 oferece o mix apenas como item único aplicado aos media digitais e desenvolve com mais extensão só a comunicação digital (planeamento, canais, otimização); produto, preço e distribuição ficam tratados de forma tangencial.",
+  "justification": "Os quatro tópicos recebem correspondência parcial e nenhum é plenamente coberto: bens/serviços, preço e distribuição dependem do item 5 ('media digitais e o marketing mix'), e a comunicação, embora apareça nos itens 8-10, exclui meios tradicionais. Coberto+parcial = 4/4, o que pela regra interna dá afinidade parcial; mantém-se essa classe porque o quadro do mix está efetivamente presente, mas com confiança baixa. Horas de contacto ausentes (só 6 ECTS) impedem comparar com 63,3 h.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Toda a cobertura é parcial e depende de um item genérico; o programa não detalha o mix e não há horas, semestre nem vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contacto e semestre não declarados; 6 ECTS não convertidos",
+    "Programa de Coimbra não desdobra o marketing mix",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita um recorte digital do mix como equivalente aos 4P gerais?",
+    "O docente de 93365 pode fornecer plano de aulas com o desdobramento do item 5?"
+  ],
+  "alternatives": [
+    {"code": "18803", "name": "Marketing", "relation": "UC geral de marketing; programa não lido neste parecer"},
+    {"code": "93364", "name": "Gestão de Marcas", "relation": "Poderia reforçar produto/marca; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Cobertura inteiramente parcial; depende de interpretação do item 5"}
+}

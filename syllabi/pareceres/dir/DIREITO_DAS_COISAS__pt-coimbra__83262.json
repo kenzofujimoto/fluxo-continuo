@@ -1,0 +1,183 @@
+{
+  "id": "dir|DIREITO DAS COISAS|pt-coimbra|83262",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DAS COISAS",
+    "name": "Direito das Coisas",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 35, bloco 'DIREITO DAS COISAS' (5ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 4 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo dos fundamentos do Direito das Coisas a partir da leitura constitucional do direito de propriedade e da função social",
+      "Análise conceitual e prática sobre a aquisição e perda da posse, bem como de seus efeitos sob o exame da tutela possessória",
+      "Reflexão doutrinária e jurisprudencial sobre o direito de propriedade e seus efeitos, além dos direitos reais sobre coisas alheias e garantias reais",
+      "O componente curricular preocupa-se no estudo pragmático do direito das coisas, estimulando o debate de cases para capacitação da vivência profissional"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Coimbra",
+      "name": "Direito das Coisas II",
+      "pageCode": "01015136",
+      "faculty": "Faculdade de Direito (plano 1556 da Licenciatura em Direito; faculdade não indicada na página)",
+      "programme": "Licenciatura em Direito (plano 1556 segundo data.json); área científica Direito Civil",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 4,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Exame: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Direito das Coisas I, Direito das Obrigações, Teoria Geral do Direito Civil",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "location": "Página da UC 2025-2026: Métodos de Ensino, Resultados de Aprendizagem, Programa (Direitos reais menores de gozo; Direitos reais de garantia), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6,0 ECTS, sem horas de contacto. Página do ano letivo 2025-2026."
+      },
+      "universityId": "pt-coimbra",
+      "code": "83262",
+      "source": "https://apps.uc.pt/courses/PT/unit/83262/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "sha256": "64860169fc5a62d8b7d7b39112ad985bc11adc02372418982c17df2e2f9e874f"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do Direito das Coisas a partir da leitura constitucional do direito de propriedade e da função social",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Programa integral (usufruto, superfície, servidões, hipoteca, penhor, retenção, privilégios, consignação) e Bibliografia",
+      "note": "A UC pressupõe Direito das Coisas I; fundamentos, propriedade e função social não são retomados."
+    },
+    {
+      "brTopic": "Análise conceitual e prática sobre a aquisição e perda da posse, bem como de seus efeitos sob o exame da tutela possessória",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral e Resultados de Aprendizagem; posse e ações possessórias ausentes"
+    },
+    {
+      "brTopic": "Reflexão doutrinária e jurisprudencial sobre o direito de propriedade e seus efeitos, além dos direitos reais sobre coisas alheias e garantias reais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Direitos reais menores de gozo (usufruto, superfície, servidões) e de garantia (hipoteca, penhor, direito de retenção, privilégios creditórios)",
+      "foreignLocation": "Programa, blocos 'Direitos reais menores de gozo' e 'Direitos reais de garantia'",
+      "note": "Cobre direitos reais sobre coisa alheia e garantias sob o Código Civil português; o direito de propriedade e seus efeitos não é tratado, e figuras do Código Civil de 2002 como alienação fiduciária, laje, uso e habitação não aparecem."
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se no estudo pragmático do direito das coisas, estimulando o debate de cases para capacitação da vivência profissional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Alunos 'chamados a discutir e resolver casos inspirados da jurisprudência' e da prática notarial e registal",
+      "foreignLocation": "Resultados de Aprendizagem, 2º parágrafo; Métodos de Ensino",
+      "note": "Tópico metodológico; a abordagem casuística transfere-se entre sistemas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Usufruto simultâneo e sucessivo, direito de acrescer, usufruto a favor de nascituro",
+      "location": "Programa, Usufruto"
+    },
+    {
+      "topic": "Classificação das servidões (positivas/negativas, contínuas/descontínuas, aparentes, legais e voluntárias)",
+      "location": "Programa, Servidões"
+    },
+    {
+      "topic": "Hipoteca legal, judicial e voluntária; transmissão, redução e expurgação",
+      "location": "Programa, Hipoteca"
+    },
+    {
+      "topic": "Consignação de rendimentos",
+      "location": "Programa, final"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 parte da leitura constitucional da propriedade e da função social, posse e tutela possessória, propriedade, direitos reais sobre coisa alheia e garantias, com estudo de cases.",
+    "foreign": [
+      "Dominar o regime substantivo dos principais direitos reais de gozo e de garantia",
+      "Relacionar temas e tomar posição fundamentada sobre problemas teóricos e práticos"
+    ],
+    "convergences": [
+      "Direitos reais limitados e garantias reais",
+      "Método casuístico com jurisprudência"
+    ],
+    "differences": [
+      "Coimbra II não trata posse, propriedade nem função social (matéria de Direito das Coisas I)",
+      "Regime do Código Civil português, com ênfase notarial e registal"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra no 4º ano (optativa de aprofundamento); Mackenzie na 5ª etapa (obrigatória introdutória e completa)",
+    "brazil": "Componente único de 4 horas-aula semanais para todo o direito das coisas",
+    "foreign": "Segunda UC da sequência, de aprofundamento em direitos limitados",
+    "theoryPractice": "Coimbra: exposição teórica seguida de casos; textos, acórdãos e pareceres do IRN para estudo autónomo"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2",
+    "language": "Português",
+    "enrolment": "Optativa de 4º ano; mobilidade sujeita à aprovação dos coordenadores",
+    "prerequisites": "Direito das Coisas I, Obrigações e Teoria Geral do Direito Civil recomendados; estudante Mackenzie na 5ª etapa tem base equivalente em direito civil, não em direitos reais",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito das Coisas II é a metade de aprofundamento de uma sequência de Coimbra: cobre direitos reais limitados de gozo e de garantia, mas deixa de fora posse, propriedade e função social, que formam o núcleo da ementa Mackenzie.",
+  "justification": "Dos quatro tópicos essenciais, um é 'coberto' (método casuístico, Resultados de Aprendizagem), um é 'parcial' (direitos reais sobre coisa alheia e garantias: usufruto, superfície, servidões, hipoteca, penhor, retenção, sob o Código Civil português e sem a propriedade) e dois são 'nao_encontrado' (fundamentos constitucionais da propriedade e função social; posse e tutela possessória). A regra interna daria afinidade parcial por atingir 50%, mas metade dessa contagem vem de um tópico metodológico; os dois eixos substantivos centrais estão ausentes. Opta-se por baixa afinidade. Horas não comparáveis (4 horas-aula semanais vs. 6 ECTS) e oferta no 2º semestre.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "O limiar de 50% só é atingido porque o tópico metodológico (debate de cases) conta como coberto; posse, propriedade e função social, núcleo substantivo da ementa, não são ensinados nesta UC, que pressupõe Direito das Coisas I.",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de Coimbra itemizado; página de 2025-2026 e ementa brasileira histórica reduzem a confiança.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; o texto pode não corresponder à matriz vigente",
+    "Página da UC referente a 2025-2026; horas de contacto não declaradas; carga Mackenzie em horas-aula semanais",
+    "Direitos reais portugueses não reproduzem o rol do Código Civil de 2002",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "Direito das Coisas I (100127, 1º semestre) cobre posse, propriedade e função social, permitindo cotejo próprio?",
+    "A coordenação aceitaria combinação Coisas I + Coisas II, considerando que estão em semestres distintos?"
+  ],
+  "alternatives": [
+    {
+      "code": "100127",
+      "name": "Direito das Coisas I",
+      "relation": "Primeira UC da sequência, 1º semestre segundo data.json; candidata mais provável para posse e propriedade; programa não lido neste parecer"
+    },
+    {
+      "code": "22832",
+      "name": "Direito dos Registos e do Notariado",
+      "relation": "Complementar em registro predial; programa não lido"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da página oficial da UC 83262 (2025-2026) com apoio de IA (Claude); tópicos confrontados com o Programa e os Resultados de Aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe rebaixada em relação à derivada; recomenda-se cotejo com Direito das Coisas I"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-16"
+}

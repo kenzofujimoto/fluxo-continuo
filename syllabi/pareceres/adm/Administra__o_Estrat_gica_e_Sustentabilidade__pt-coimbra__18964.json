@@ -1,0 +1,183 @@
+{
+  "id": "adm|Administração Estratégica e Sustentabilidade|pt-coimbra|18964",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Administração Estratégica e Sustentabilidade",
+    "name": "Administração Estratégica e Sustentabilidade",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 1, bloco 'Administração Estratégica e Sustentabilidade': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso, cabeçalho São Paulo; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "Fundamentos da sustentabilidade",
+      "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "Numa perspectiva da sustentabilidade",
+      "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18964",
+      "name": "Estratégia Empresarial",
+      "pageCode": "01620073",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/18964/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "b55cbe017f349b1f605f33bcf668f04b884229a28c64f57698ad3b79b7cfedb4",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1-5), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto nem tipologia."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1.1. O conceito da estratégia'",
+      "foreignLocation": "Programa, 1.1",
+      "note": "Conceito de estratégia presente; as quatro acepções (plano, padrão, posição, perspectiva) e a evolução histórica não são nomeadas."
+    },
+    {
+      "brTopic": "Fundamentos da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1.2. Missão, visão, valores e responsabilidade social das empresas'; resultado: estratégias 'tendo em conta a ética e a responsabilidade social'",
+      "foreignLocation": "Programa, 1.2; Resultados de Aprendizagem",
+      "note": "Responsabilidade social, sem triple bottom line, economia circular nem indicadores GRI/Dow Jones/ETHOS citados na ementa Mackenzie."
+    },
+    {
+      "brTopic": "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "2.1 'Análise do ambiente geral', 2.2 'Análise da indústria', 2.5 SWOT; identificar 'oportunidades, ameaças'",
+      "foreignLocation": "Programa, 2.1, 2.2, 2.5; Resultados de Aprendizagem",
+      "note": "A análise externa está integralmente presente; falta a leitura sob a perspetiva da sustentabilidade que integra o enunciado brasileiro."
+    },
+    {
+      "brTopic": "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "1.2 missão, visão, valores; 2.4 'Análise de recursos e capacidades'; 2.5 SWOT (pontos fortes e fracos)",
+      "foreignLocation": "Programa, 1.2, 2.4, 2.5"
+    },
+    {
+      "brTopic": "Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado OIT3: plano estratégico 'considerando as preocupações das partes interessadas e a ética'",
+      "foreignLocation": "Resultados de Aprendizagem (OIT3); Programa 1.2",
+      "note": "Fragmento autónomo na ficha brasileira; Coimbra aborda stakeholders e responsabilidade social, não sustentabilidade ambiental."
+    },
+    {
+      "brTopic": "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "2.4 'Análise de recursos e capacidades'; 3 'Estratégia competitiva'",
+      "foreignLocation": "Programa, 2.4 e 3"
+    },
+    {
+      "brTopic": "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "3 'Estratégia competitiva'; 4 'Estratégia corporativa': integração vertical, global, diversificação, fusões, aquisições e alianças",
+      "foreignLocation": "Programa, 3 e 4.1-4.4",
+      "note": "Níveis corporativo e de negócio e crescimento cobertos; nível funcional, estratégias de redução e defensivas não nomeados."
+    },
+    {
+      "brTopic": "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5. Avaliação e implementação de estratégias.'",
+      "foreignLocation": "Programa, 5",
+      "note": "Item único sem desdobramento em estrutura, pessoas, sistemas e cultura."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Análise do modelo de negócio", "location": "Programa, 2.3"},
+    {"topic": "Estratégia global", "location": "Programa, 4.2"},
+    {"topic": "Empreendedorismo estratégico (OIT4) e estudos de caso de unidades de negócio reais", "location": "Resultados de Aprendizagem; Métodos de Ensino"}
+  ],
+  "competencies": {
+    "brazil": "A ficha lista conteúdos; a ementa acrescenta Balanced Scorecard, modelos de gestão sustentáveis e indicadores GRI, Dow Jones e ETHOS.",
+    "foreign": ["Descrever, explicar e implementar modelos de análise estratégica", "Identificar oportunidades, ameaças, forças e fraquezas e gerar opções", "Formular estratégias corporativas e competitivas sob incerteza e risco, com ética e responsabilidade social"],
+    "convergences": ["Análise externa e interna", "Recursos e capacidades", "Estratégia competitiva e corporativa"],
+    "differences": ["Sustentabilidade (TBL, economia circular, indicadores) quase ausente em Coimbra, restrita a responsabilidade social", "Implantação tratada num único item em Coimbra"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano de Gestão, Mackenzie na 4ª etapa",
+    "brazil": "Componente de 63,3 h com dupla ênfase: estratégia e sustentabilidade",
+    "foreign": "UC obrigatória de 6 ECTS centrada em análise estratégica e formulação, com trabalho de grupo e casos",
+    "theoryPractice": "Coimbra declara componente 'eminentemente prática' com estudos de caso fornecidos por empresas"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estratégia Empresarial reproduz a espinha dorsal estratégica da ficha Mackenzie (conceito, análise externa e interna, recursos e capacidades, estratégia competitiva e corporativa, implementação), mas o eixo de sustentabilidade, que dá nome ao componente brasileiro, aparece apenas como responsabilidade social.",
+  "justification": "Dois tópicos estão cobertos (análise interna; vantagem competitiva/recursos via 2.4 e 3) e seis parcialmente: os três de sustentabilidade só têm a responsabilidade social de 1.2 e OIT3; o conceito de estratégia não traz as quatro acepções; a formulação omite nível funcional, redução e defesa; a implementação é um item único (5). Nenhum tópico ficou sem correspondência (8/8 coberto+parcial). A página indica 6 ECTS sem horas de contacto, pelo que a carga não é comparável, e a ficha brasileira não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 itemizado; faltam horas de contacto, o semestre só consta do data.json e a ficha brasileira não tem ano.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Semestre (2º) não confirmado na página; oferta 2027/28 não confirmada",
+    "Sustentabilidade só coberta como responsabilidade social",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita responsabilidade social e stakeholders como suficientes para o eixo de sustentabilidade?",
+    "A UC 18964 tem oferta no semestre de outono (compatível com 2027.2)?"
+  ],
+  "alternatives": [
+    {"code": "93294", "name": "Responsabilidade Ética e Sustentabilidade", "relation": "Título sugere complemento para o eixo de sustentabilidade (1º semestre segundo data.json); programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Decisão sobre suficiência do eixo de sustentabilidade cabe à coordenação"}
+}

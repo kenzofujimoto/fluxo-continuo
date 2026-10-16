@@ -1,0 +1,165 @@
+{
+  "id": "dir|TEORIA GERAL DO DIREITO|es-salamanca|102302",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TEORIA GERAL DO DIREITO",
+    "name": "Teoria Geral do Direito",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 4, bloco 'TEORIA GERAL DO DIREITO' (1ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 4 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos",
+      "Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico",
+      "O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial",
+      "A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial",
+      "Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "102302",
+      "name": "Teoría del Derecho",
+      "faculty": "Facultad de Derecho",
+      "department": "Historia del Derecho y Filosofía Jurídica, Moral y Política (área de Filosofía del Derecho)",
+      "programme": "Doble Titulación de Grado en Derecho y en Ciencia Política y Administración Pública",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Primer Semestre (campo 'Periodicidad')",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Não informado (campo 'Carácter' vazio na página)",
+      "assessment": "Exame escrito 80% (perguntas curtas e uma de desenvolvimento) + práticas 20%; é preciso aprovar a parte teórica; nota final é a média das partes de cada professor",
+      "prerequisites": "Nenhuma recomendação prévia informada",
+      "source": "https://guias.usal.es/node/235560?plan=149789",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "f2c34b1df47ee0b5ff8839e406a35ff127055fe186c7ee3c0d9c509ec27968f4",
+      "location": "Guía 2026/2027: secções 1 (datos), 3 (objetivos), 4 (competencias), 5 (contenidos L.1-L.12), 6-7 (metodologías), 8 (recursos), 9 (evaluación)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 7.5,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "7,5 ECTS. A secção 7 'Distribución de las Metodologías Docentes' está vazia no texto obtido; nenhuma hora de contacto declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conceito de Direito; análise funcional: relações do Direito com a moral, a economia, o poder e o Estado; objetivo de compreender 'la contribución funcional específica del Derecho a la vida social'",
+      "foreignLocation": "Contenidos L.2-L.5; Objetivos"
+    },
+    {
+      "brTopic": "Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Análise estrutural da norma e dos enunciados jurídicos; sistemas jurídicos segundo Kelsen e Hart; bibliografia de Bobbio, Nino, Alchourrón e Bulygin",
+      "foreignLocation": "Contenidos L.7-L.10; Recursos (secção 8)",
+      "note": "O conteúdo é de matriz analítica, mas a guia não declara o positivismo jurídico como premissa epistemológica e inclui análise axiológica (L.6)."
+    },
+    {
+      "brTopic": "O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Las relaciones entre el Derecho y la moral'; valores jurídicos incluindo justiça; 'la teoría de Hart'",
+      "foreignLocation": "Contenidos L.3, L.6, L.10",
+      "note": "Dworkin figura só na bibliografia ('Los derechos en serio') e a decisão judicial não é lição própria. O enunciado oficial está truncado em programas.json; o ementário completo menciona também a distinção entre obrigação jurídica e moral, coerente com L.3."
+    },
+    {
+      "brTopic": "A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tipologia das normas, regras e princípios; sistema dinâmico (validade em Kelsen), sistema institucionalizado (Hart), antinomias e lacunas",
+      "foreignLocation": "Contenidos L.8-L.12",
+      "note": "Sistema jurídico é amplamente coberto; coação e sanção só implicitamente (L.5 Direito, poder e Estado); interpretação e decisão judicial não são lições do programa."
+    },
+    {
+      "brTopic": "Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Blocos 'Análisis funcional' e 'Análisis axiológico': valores jurídicos, certeza e segurança, eficiência, justiça; objetivo 'tomar conciencia de la dimensión valorativa del Derecho'",
+      "foreignLocation": "Contenidos L.3-L.6; Objetivos"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Relações entre Direito e economia; eficiência como valor jurídico", "location": "Contenidos L.4, L.6"},
+    {"topic": "Enunciados jurídicos: normas completas, incompletas e disposições não normativas; normas programáticas", "location": "Contenidos L.8"},
+    {"topic": "Coerência e completude do sistema: classificação de antinomias e tipologia de lacunas", "location": "Contenidos L.11-L.12"}
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 descreve conteúdos e opção teórica; não lista competências.",
+    "foreign": [
+      "Usar linguagem jurídica básica e conceitos jurídicos gerais",
+      "Distinguir tipos de normas e suas relações no sistema",
+      "Diferenciar o Direito de outros fenómenos sociais e reconhecer sua dimensão valorativa"
+    ],
+    "convergences": ["Conceito e função do Direito", "Direito e moral", "Teoria do sistema jurídico (Kelsen, Hart)"],
+    "differences": [
+      "Salamanca não individualiza interpretação, decisão judicial nem a obra de Dworkin",
+      "Salamanca acrescenta Direito e economia e teoria das antinomias e lacunas"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação no 1º ano/1ª etapa",
+    "brazil": "4 horas-aula semanais no primeiro semestre do curso",
+    "foreign": "7,5 ECTS, 12 lições divididas entre dois professores; questionários práticos por lição",
+    "theoryPractice": "Salamanca: aulas teóricas e práticas (questionários V/F, comentário de textos); avaliação 80% teórica"
+  },
+  "practical": {
+    "period": "Primeiro semestre (setembro a janeiro); sobrepõe-se a 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Guia do plano da dupla titulação Direito + Ciência Política (plan 149789); turma única de manhã; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Teoría del Derecho de Salamanca cobre o núcleo da Teoria Geral do Direito Mackenzie (conceito e função do Direito, Direito e moral, valores, teoria do sistema em Kelsen e Hart); interpretação, decisão judicial e Dworkin não são lições próprias.",
+  "justification": "Dois dos cinco enunciados estão cobertos (interface do direito positivo com aspectos sociais e filosóficos, L.2-L.5; abordagem funcional e axiológica, L.3-L.6) e três parcialmente: a premissa positivista analítica não é declarada, embora o conteúdo seja analítico (L.7-L.10); Hart é lição própria e Dworkin aparece só na bibliografia; sistema jurídico é tratado em profundidade (L.9-L.12), mas não interpretação, decisão judicial, coação e sanção. Todos os tópicos têm correspondência (100% coberto+parcial), o que dá afinidade parcial; a alta afinidade é impedida pela ementa histórica e pela falta de horas comparáveis (4 h-a semanais contra 7,5 ECTS sem horas de contacto). Por ser disciplina teórica, a diferença de ordenamento nacional pesa pouco.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial com títulos das 12 lições, objetivos e avaliação; faltam horas de contacto e detalhamento das lições, e a ementa brasileira é histórica e chega truncada no enunciado 3.",
+  "limitations": [
+    "Ementário Mackenzie 2022 é histórico; o texto pode não corresponder à matriz vigente",
+    "Enunciado oficial 3 truncado na extração (falta a distinção 'ser obrigado'/'ter uma obrigação' do ementário completo)",
+    "Horas de contacto não declaradas; 7,5 ECTS não convertidos",
+    "Guia referente ao plano da dupla titulação; o registo de sha256 em records.json difere do documento obtido (usado o hash de programas.json)",
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita a ausência de lições específicas de interpretação e decisão judicial?",
+    "A turma do Grado en Derecho (código de catálogo CAT-USAL-207221) tem o mesmo programa que a da dupla titulação?"
+  ],
+  "alternatives": [
+    {"code": "CAT-USAL-207221", "name": "Teoría del Derecho (Grado en Derecho)", "relation": "Mesma matéria no plano simples de Direito; código interno de catálogo, programa não lido"},
+    {"code": "CAT-USAL-207765", "name": "Interpretación y Argumentación Jurídica", "relation": "4º curso; poderia suprir interpretação e decisão judicial; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da guía docente USAL 2026/2027 com apoio de IA (Claude); cada tópico vinculado a lição do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Disciplina teórica com programa itemizado; incertezas registadas em limitations"}
+}

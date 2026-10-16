@@ -1,0 +1,170 @@
+{
+  "id": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|es-29-universitataut|102239",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL",
+    "name": "Direito das Obrigações e Responsabilidade Civil",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 17, bloco 'DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL' (3ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 4 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Estudo da teoria do direito das obrigações como fonte reflexiva para aplicação no âmbito das relações obrigacionais",
+      "Análise conceitual e prática das modalidades das obrigações, bem como das repercussões jurídicas em face do inadimplemento",
+      "Além do exame dos modos de transmissão das obrigações, análise dos modos de adimplemento direto e indireto e a consequente extinção da obrigação",
+      "Reflexão sobre o descumprimento obrigacional, apresentando as consequências da mora e, por sua vez, a implicação em perdas e danos",
+      "O componente curricular preocupa-se com a compreensão conceitual e prática da responsabilidade civil a partir da teoria geral do direito, estimulando a problematização de cases que envolvem a configuração do dano material, moral e estético",
+      "No tocante à quantificação do dano moral, busca-se, por meio do diálogo entre a doutrina e a jurisprudência, elencar parâmetros e critérios para a mensuração do dano"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102239",
+      "name": "Dret Civil III (teoria geral do contrato e contratos em especial)",
+      "faculty": "Facultat de Dret",
+      "programme": "Grau en Dret",
+      "level": "Grau (1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segon quadrimestre do 2º curso (fevereiro a junho), segundo Objectius e a tabela 'Grups i idiomes'",
+      "academicYear": "2026/2027",
+      "language": "Teoria em catalão (grupos 1, 2, 70) ou catalão/castelhano (grupo 51); seminários majoritariamente em catalão; informação provisória até 30 de novembro",
+      "courseStatus": "OB (obrigatória)",
+      "assessment": "Avaliação contínua 50% (atividades práticas 20%, exame parcial 20%, exposição oral 10%) + exame final 50% com mínimo 4/10; reavaliação e avaliação única previstas; seminários obrigatórios",
+      "prerequisites": "Fundamentos de Direito Romano, Dret Civil I e Dret Civil II; terminologia jurídica",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102239/ca",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "sha256": "2b68970a6a6ec13fabaa09669d402c99b741ae732e34945861209d07f06fa5dd",
+      "location": "Guia docent 2026/2027: Prerequisits, Objectius, Continguts (Temes 1-14), Activitats formatives, Avaluació, Bibliografia, Grups i idiomes",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Atividades 'Dirigida': classes teòriques 22 h e seminaris 22 h; 'Supervisada': tutoria e avaliação 15 h; 'Autònoma': 86 h. O guia descreve as dirigidas como de 'direcció presencial', mas não declara um total semestral de horas de contacto; mantido null."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da teoria do direito das obrigações como fonte reflexiva para aplicação no âmbito das relações obrigacionais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectius, Resultats d'aprenentatge e Continguts (Temes 1-14: teoria geral do contrato e contratos em especial), Bibliografia",
+      "note": "Os Objectius pedem 'connectar el Dret de contractes amb el Dret d'obligacions', o que pressupõe a teoria das obrigações estudada antes (Dret Civil II é pré-requisito)."
+    },
+    {
+      "brTopic": "Análise conceitual e prática das modalidades das obrigações, bem como das repercussões jurídicas em face do inadimplemento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Els remeis en cas d'incompliment de les parts' na compra e venda; pacto de condição resolutória",
+      "foreignLocation": "Continguts, Tema 8, itens 6 e 8",
+      "note": "Só o inadimplemento contratual, dentro da compra e venda e segundo o direito catalão/espanhol; modalidades das obrigações não aparecem."
+    },
+    {
+      "brTopic": "Além do exame dos modos de transmissão das obrigações, análise dos modos de adimplemento direto e indireto e a consequente extinção da obrigação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Continguts, Temes 1-14 (o Tema 14 trata transação, mediação e arbitragem como meios extrajudiciais de conflitos, não modos de pagamento); Objectius"
+    },
+    {
+      "brTopic": "Reflexão sobre o descumprimento obrigacional, apresentando as consequências da mora e, por sua vez, a implicação em perdas e danos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Remédios para o incumprimento das partes na compra e venda; responsabilidade pela rutura das negociações preliminares",
+      "foreignLocation": "Continguts, Tema 8 item 6; Tema 2 item 1.1",
+      "note": "Mora e indemnização de perdas e danos não são nomeadas; o tema aparece apenas aplicado a contratos concretos."
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se com a compreensão conceitual e prática da responsabilidade civil a partir da teoria geral do direito, estimulando a problematização de cases que envolvem a configuração do dano material, moral e estético",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Continguts, Temes 1-14; Objectius (que remetem Responsabilitat Civil a outra assignatura do Grau); Resultats d'aprenentatge",
+      "note": "Só a responsabilidade pré-contratual (Tema 2) toca o tema; a responsabilidade extracontratual e os tipos de dano não constam."
+    },
+    {
+      "brTopic": "No tocante à quantificação do dano moral, busca-se, por meio do diálogo entre a doutrina e a jurisprudência, elencar parâmetros e critérios para a mensuração do dano",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Continguts, Temes 1-14; Resultats d'aprenentatge; Bibliografia obrigatória e recomendada"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Teoria geral do contrato: autonomia privada, elementos, formação, condições gerais e cláusulas abusivas, vícios do consentimento, ineficácia e invalidade", "location": "Continguts, Temes 1-6"},
+    {"topic": "Contratos em especial: mandato, compra e venda, permuta, arrendamento, obra e serviços, empréstimo, leasing, contratos aleatórios, seguro", "location": "Continguts, Temes 7-13"},
+    {"topic": "Smart contracts e contratação digital; contrato de fornecimento de conteúdos digitais", "location": "Continguts, Tema 2 item 5; Tema 11 item 5"},
+    {"topic": "Meios extrajudiciais: transação, mediação, arbitragem", "location": "Continguts, Tema 14"}
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 descreve conteúdos de teoria das obrigações e responsabilidade civil; não declara competências.",
+    "foreign": [
+      "Identificar conceitos da teoria geral do contrato e dos contratos em especial",
+      "Comparar o direito de contratos estatal com o catalão e o europeu",
+      "Redigir contratos e elaborar informes sobre reformas"
+    ],
+    "convergences": ["Consequências do incumprimento, aplicadas a contratos"],
+    "differences": [
+      "A UC estrangeira é de contratos (teoria geral e espécies), matéria que no Mackenzie fica em outra disciplina",
+      "Teoria geral das obrigações e responsabilidade civil extracontratual estão fora do programa",
+      "Direito positivo catalão (Llibre Sisè do Codi Civil de Catalunya) e espanhol, não o Código Civil brasileiro de 2002"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UAB no 2º curso, Mackenzie na 3ª etapa",
+    "brazil": "4 horas-aula semanais",
+    "foreign": "6 ECTS com 14 temas de contratos; seminários obrigatórios",
+    "theoryPractice": "UAB: 22 h de aulas teóricas e 22 h de seminários práticos; ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "Segundo quadrimestre (fevereiro a junho); não coincide com o período 2027.2",
+    "language": "Predominantemente catalão; grupo 51 e alguns seminários em catalão/castelhano",
+    "enrolment": "Obrigatória do 2º curso; Dret Civil I e II indicados como conhecimento prévio",
+    "prerequisites": "Pressupõe a teoria das obrigações de Dret Civil II",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Apesar do título genérico, Dret Civil III é uma disciplina de contratos (teoria geral do contrato e contratos em especial, segundo o direito catalão e espanhol); a teoria geral das obrigações, o adimplemento, a transmissão e a responsabilidade civil por danos da ementa Mackenzie não estão no programa.",
+  "justification": "Dos seis tópicos essenciais, quatro não foram encontrados (teoria das obrigações, transmissão/adimplemento/extinção, responsabilidade civil e danos, quantificação do dano moral) e dois só aparecem de forma parcial, ambos apoiados no item 8.6 sobre remédios para o incumprimento na compra e venda. A razão coberto+parcial é 2/6 (33%), abaixo do limiar de 50%: baixa afinidade. A correspondência sugerida pelo catálogo não se sustenta no conteúdo. As horas não são comparáveis (4 h-a semanais contra 6 ECTS) e a oferta no segundo quadrimestre também não coincide com 2027.2.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia UAB completo com 14 temas detalhados, o que torna a divergência de objeto clara; a ementa brasileira é a edição histórica de 2022.",
+  "limitations": [
+    "Ementário Mackenzie 2022 é histórico; o texto pode não corresponder à matriz vigente",
+    "Horas não comparáveis: 4 h-a semanais contra 6 ECTS",
+    "Ordenamentos distintos: Código Civil de Catalunha e legislação espanhola, não o Código Civil de 2002",
+    "Oferta 2027/28 não confirmada; UC do segundo quadrimestre e predominantemente em catalão",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "Dret Civil III poderia ser aproveitado em outro componente Mackenzie de contratos, em vez de Obrigações e Responsabilidade Civil?",
+    "Qual é a ementa vigente de Direito das Obrigações e Responsabilidade Civil?"
+  ],
+  "alternatives": [
+    {"code": "102240", "name": "Dret Civil II", "relation": "Pré-requisito declarado de Dret Civil III; analisado em parecer separado deste lote, programa não lido por este revisor"},
+    {"code": "102234", "name": "Responsabilitat Civil", "relation": "Optativa de 4º curso citada nos Objectius; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e do guia docente UAB 2026/2027 (catalão) com apoio de IA (Claude); cada tópico vinculado a tema e item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Divergência de objeto evidente no programa detalhado"}
+}

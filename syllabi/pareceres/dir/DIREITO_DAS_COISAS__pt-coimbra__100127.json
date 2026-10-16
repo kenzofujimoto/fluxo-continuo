@@ -1,0 +1,139 @@
+{
+  "id": "dir|DIREITO DAS COISAS|pt-coimbra|100127",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DAS COISAS",
+    "name": "Direito das Coisas",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 35, bloco 'DIREITO DAS COISAS' (5ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 4 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Estudo dos fundamentos do Direito das Coisas a partir da leitura constitucional do direito de propriedade e da função social",
+      "Análise conceitual e prática sobre a aquisição e perda da posse, bem como de seus efeitos sob o exame da tutela possessória",
+      "Reflexão doutrinária e jurisprudencial sobre o direito de propriedade e seus efeitos, além dos direitos reais sobre coisas alheias e garantias reais",
+      "O componente curricular preocupa-se no estudo pragmático do direito das coisas, estimulando o debate de cases para capacitação da vivência profissional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "100127",
+      "name": "Direito das Coisas I",
+      "pageCode": "01022664",
+      "faculty": "Faculdade de Direito (plano 1556, Licenciatura em Direito, segundo data.json)",
+      "programme": "Licenciatura em Direito; área científica Direito Civil",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 4,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exame com resolução de casos práticos: 100%",
+      "prerequisites": "Não aplicável; 'Resultados de Aprendizagem' remete a competências genéricas de Teoria Geral do Direito Civil I e II",
+      "source": "https://apps.uc.pt/courses/PT/unit/100127/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "sha256": "78d4034d4da03c6c5db988297407e92b19ddad9eccb9e86e9e6ee80041f08118",
+      "location": "Página da UC 2025-2026: identificação, Métodos de Ensino, Resultados de Aprendizagem, Avaliação, Bibliografia; a página não tem secção 'Programa'",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do Direito das Coisas a partir da leitura constitucional do direito de propriedade e da função social",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "A página não publica programa nem objetivos de conteúdo; a bibliografia (Santos Justo, Mota Pinto, Orlando de Carvalho sobre direitos reais) indica a matéria mas não comprova o conteúdo ministrado. A leitura constitucional seria da CRP, não da CF 1988 (art. 5º XXIII)."
+    },
+    {
+      "brTopic": "Análise conceitual e prática sobre a aquisição e perda da posse, bem como de seus efeitos sob o exame da tutela possessória",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Posse não é mencionada; sem programa não se sabe se integra Coisas I ou Coisas II (83262)."
+    },
+    {
+      "brTopic": "Reflexão doutrinária e jurisprudencial sobre o direito de propriedade e seus efeitos, além dos direitos reais sobre coisas alheias e garantias reais",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Sem programa; garantias reais no direito português podem estar repartidas entre direitos reais e obrigações."
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se no estudo pragmático do direito das coisas, estimulando o debate de cases para capacitação da vivência profissional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'aulas práticas, com resolução de casos práticos e acompanhamento dos alunos'; avaliação por 'exame com resolução de casos práticos'",
+      "foreignLocation": "Métodos de Ensino; Métodos de Avaliação",
+      "note": "Confirma a orientação casuística, mas não o conteúdo dos casos."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "O ementário 2022 descreve conteúdos; não lista competências.",
+    "foreign": ["Competências genéricas de Teoria Geral do Direito Civil I e II (única indicação da página)"],
+    "convergences": ["Ensino com resolução de casos práticos"],
+    "differences": ["Ordenamento português (Código Civil, Livro III); a CF 1988 e o Código Civil de 2002 não seriam objeto", "Coimbra divide a matéria em Coisas I e II"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 4º ano, Mackenzie na 5ª etapa",
+    "brazil": "4 horas-aula semanais",
+    "foreign": "6 ECTS, primeira de duas UC de direitos reais; conteúdo não publicado",
+    "theoryPractice": "Coimbra: aulas teóricas e práticas com casos; ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json; coincidiria em parte com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "Obrigatória do 4º ano da Licenciatura em Direito; mobilidade sujeita à aprovação dos coordenadores",
+    "prerequisites": "Teoria Geral do Direito Civil (equivalente a Parte Geral, já cursada no Mackenzie)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A página oficial de Direito das Coisas I não publica programa nem objetivos de conteúdo; só confirma ensino e avaliação por casos práticos, pelo que fundamentos, posse, propriedade, direitos reais limitados e garantias da ementa Mackenzie não podem ser verificados.",
+  "justification": "Três dos quatro enunciados essenciais (fundamentos e função social, posse e tutela possessória, propriedade, direitos reais sobre coisa alheia e garantias) são não verificáveis, porque a página de 2025-2026 não tem secção 'Programa' e a bibliografia apenas indica a matéria de direitos reais. O quarto (estudo pragmático com cases) tem correspondência parcial nos métodos de ensino e avaliação. Com 3/4 não verificáveis, acima do limite de 1/3, a classe é evidência insuficiente. Mesmo com programa, o conteúdo seria o do Código Civil português, e Coimbra reparte a matéria entre Coisas I e Coisas II. Horas não comparáveis (4 h-a semanais contra 6 ECTS).",
+  "conclusionClass": "evidencia_insuficiente",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Página estrangeira sem programa, objetivos de conteúdo ou horas, referente a 2025-2026; ementa brasileira histórica.",
+  "limitations": [
+    "Página da UC sem programa; conteúdo real desconhecido",
+    "Ementário Mackenzie 2022 é histórico; o texto pode não corresponder à matriz vigente",
+    "Horas não comparáveis: 4 h-a semanais contra 6 ECTS",
+    "Página referente a 2025-2026; semestre só consta do data.json; oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A Faculdade de Direito de Coimbra fornece o programa detalhado de Direito das Coisas I (e II)?",
+    "Posse e garantias reais estão em Coisas I ou em Coisas II?"
+  ],
+  "alternatives": [
+    {"code": "83262", "name": "Direito das Coisas II", "relation": "Continuação no 2º semestre; programa não lido; eventual combinação dependeria da coordenação"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2025-2026) com apoio de IA (Claude); tópicos sem programa estrangeiro marcados como não verificáveis; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Programa estrangeiro ausente; reavaliar quando houver documento detalhado"}
+}

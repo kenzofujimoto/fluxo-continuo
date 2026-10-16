@@ -1,0 +1,198 @@
+{
+  "id": "dir|HISTÓRIA DO DIREITO|es-29-universitataut|102197",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "HISTÓRIA DO DIREITO",
+    "name": "História do Direito",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 3, bloco 'HISTÓRIA DO DIREITO' (1ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universitat Autònoma de Barcelona",
+      "name": "Història del Dret i de les Institucions",
+      "faculty": "Facultat de Dret (guia docent do Grau en Dret)",
+      "programme": "Grau en Dret; tipo FB (formação básica); grupo 70 específico de Dret + ADE",
+      "level": "Grau (graduação)",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Segon quadrimestre (fevereiro-junho) segundo o quadro 'Grups i idiomes'; 15 semanas",
+      "academicYear": "2026/2027",
+      "language": "Teoria: grupos 1-3 'Català/Castellà', 51 e 70 em catalão; seminários 13, 23, 33 e 512 em castelhano (provisório até 30/11)",
+      "courseStatus": "FB - formação básica",
+      "assessment": "Prova final 50% (mínimo 5), trabalhos individuais 20%, trabalho em grupo 20%, participação 10%; regime próprio no grupo 70",
+      "prerequisites": "Nenhum requisito específico",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "location": "Guia docent 2026/2027: Objectius, Resultats d'aprenentatge 1-13, Continguts 1-6 (e conteúdos do grupo 70), Activitats formatives, Avaluació, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Metodologia: 'Dirigides (44 hores en total)': 22 h de aulas magistrais e 22 h de seminários; Autònomes 106 h; avaliação 5 h. Registrado como atividade dirigida, sem rótulo de horas de contato."
+      },
+      "universityId": "es-29-universitataut",
+      "code": "102197",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102197/ca",
+      "sha256": "f213fcdf2bebb86fe9ccff247ebf03fd6eae8474119b4b60b2ad4ca89304a29c"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Importància de la Història i de la cultura jurídiques en la formació dels juristes. Història crítica del Dret.'",
+      "foreignLocation": "Continguts, unidade 1 (Introducció metodològica i conceptual)"
+    },
+    {
+      "brTopic": "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Cada período explica bases econômicas e sociais, fontes jurídicas e instituições; resultado 'Contrastar l'estreta vinculació ... entre l'ordre jurídic, el social, el polític i l'econòmic'",
+      "foreignLocation": "Objectius, 3º parágrafo; Resultats d'aprenentatge 7; Continguts 1 ('La nova història institucional')"
+    },
+    {
+      "brTopic": "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Resultado: distinguir conceitos jurídicos que respondem a práticas sociais inseridas em contextos históricos determinados; 'consciència històrica del Dret'",
+      "foreignLocation": "Resultats d'aprenentatge 8 e 11; Continguts 1",
+      "note": "O termo 'anacronismo' não aparece; a historicidade dos conceitos é resultado de aprendizagem explícito."
+    },
+    {
+      "brTopic": "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Monarquia Universal: estado, guerra, fazenda, governo, graça e justiça; Estado liberal; gênese e evolução das instituições públicas e privadas na Espanha",
+      "foreignLocation": "Continguts 3-4; Resultats d'aprenentatge 12",
+      "note": "As instituições estudadas são as da península e da Europa; Judiciário, Legislativo e Ministério Público brasileiros não são tratados, mas o tópico Mackenzie é teórico e não restrito ao Brasil."
+    },
+    {
+      "brTopic": "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Constituições espanholas 1812-1931, codificação, diversidade jurídica; conquista da América e incorporação das Índias",
+      "foreignLocation": "Continguts 3 e 4",
+      "note": "O período e o fenômeno (constitucionalismo liberal e codificação) coincidem, mas sob o sistema espanhol; fontes do direito público e privado do Brasil oitocentista (Constituição de 1824, Código Comercial de 1850, Código Civil de 1916) não aparecem."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Ordem jurídica medieval, ius commune, nascimento das universidades e pluralismo jurídico",
+      "location": "Continguts 2"
+    },
+    {
+      "topic": "Iusnaturalismo racionalista e crise do Antigo Regime",
+      "location": "Continguts 4"
+    },
+    {
+      "topic": "História do direito social com perspectiva de gênero",
+      "location": "Continguts 5; Objectius, 4º parágrafo"
+    },
+    {
+      "topic": "Segunda República, totalitarismos e ditadura franquista",
+      "location": "Continguts 6"
+    },
+    {
+      "topic": "Grupo 70 (Dret + ADE): história do direito mercantil, tributário e financeiro; Usatges de Barcelona",
+      "location": "Continguts, bloco do grupo 70"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 propõe abordagem crítica com história das ideias, das instituições e das fontes, culminando no direito brasileiro dos séculos XIX-XX; não lista competências.",
+    "foreign": [
+      "Relacionar ordem jurídica, social, política e econômica",
+      "Usar fontes e documentos históricos e bases digitalizadas",
+      "Distinguir criticamente outros direitos e outras razões jurídicas",
+      "Contextualizar fontes do direito nos marcos espanhol e europeu"
+    ],
+    "convergences": [
+      "Perspectiva crítica e metodológica da história do direito",
+      "História das instituições e das fontes",
+      "Historicidade dos conceitos jurídicos"
+    ],
+    "differences": [
+      "Recorte espanhol/europeu no lugar do brasileiro para os séculos XIX-XX",
+      "UAB acrescenta perspectiva de gênero e história do direito social"
+    ]
+  },
+  "depth": {
+    "level": "Ambas no primeiro ano: UAB no 1º curso (FB), Mackenzie na 1ª etapa",
+    "brazil": "Componente de 2 horas-aula semanais",
+    "foreign": "6 ECTS com 6 unidades históricas, seminários com comentário de textos histórico-jurídicos",
+    "theoryPractice": "UAB divide igualmente aulas magistrais (22 h) e seminários (22 h); Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "Segon quadrimestre (fevereiro-junho); não coincide com 2027.2 se a programação se mantiver",
+    "language": "Catalão e castelhano conforme grupo; há seminários em castelhano",
+    "enrolment": "Disciplina de 1º curso com presença obrigatória nas práticas; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Història del Dret i de les Institucions reproduz a arquitetura metodológica da ementa Mackenzie (história crítica, ideias, instituições e fontes, historicidade dos conceitos), mas aplica-a à experiência jurídica peninsular e europeia; só o fecho sobre fontes brasileiras dos séculos XIX-XX fica sem correspondência direta.",
+  "justification": "Quatro dos cinco tópicos essenciais têm unidade ou resultado de aprendizagem explícito (unidade 1 sobre história crítica e formação do jurista; Objectius e resultado 7 sobre direito e sociedade; resultados 8 e 11 sobre conceitos situados historicamente; unidades 3-4 e resultado 12 sobre instituições). O quinto é 'parcial': a UAB estuda constituições espanholas de 1812-1931 e a codificação, fenômeno paralelo ao brasileiro, mas não as fontes do Brasil. Apesar de 80% de cobertura plena, a classe fica limitada a afinidade parcial porque o ementário de 2022 é histórico e as 2 horas-aula semanais não se comparam às 44 h dirigidas da UAB. História do direito é das matérias que melhor se transferem entre sistemas, o que favorece este par sobre os de direito positivo.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia UAB detalhado e atual (2026/2027); reduzem a confiança a ementa brasileira histórica e a ausência de carga semestral comparável.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; o texto pode não corresponder à matriz vigente",
+    "Carga Mackenzie em horas-aula semanais; carga não comparável e 6 ECTS não convertidos",
+    "Fontes do direito brasileiro dos séculos XIX-XX não são estudadas",
+    "Oferta 2027/28 e grupo de idioma não confirmados; disciplina no segon quadrimestre",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita constitucionalismo e codificação espanhóis como equivalentes ao recorte brasileiro do século XIX?",
+    "A UAB oferece a disciplina, ou outra de história jurídica, no primer quadrimestre de 2027/28?"
+  ],
+  "alternatives": [
+    {
+      "code": "102298",
+      "name": "Història de les Cultures Jurídiques",
+      "relation": "Optativa de 4º curso de história jurídica comparada; programa não lido neste parecer"
+    },
+    {
+      "code": "102295",
+      "name": "Seminari de Qüestions Actuals sobre Història del Dret i de les Institucions",
+      "relation": "Seminário optativo; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da guia docent UAB 102197 (2026/2027, catalão) com apoio de IA (Claude); tópicos vinculados a unidades de Continguts e Resultats d'aprenentatge; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Cobertura documentada unidade a unidade; limitação decorre de regra de vigência e horas"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-16"
+}

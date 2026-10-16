@@ -1,0 +1,186 @@
+{
+  "id": "adm|Matemática Financeira|pt-coimbra|93315",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Matemática Financeira",
+    "name": "Matemática Financeira",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 7, bloco 'Matemática Financeira': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fundamentos da Matemática Financeira",
+      "Capitalização Simples",
+      "Capitalização Composta",
+      "Operações com taxas de juros",
+      "Descontos",
+      "Séries de pagamentos",
+      "Sistemas de Amortização de Empréstimos e Financiamentos – Sistema de Amortização",
+      "Constante e Sistema Francês de Amortização",
+      "Análise de projetos e decisões de investimentos – Valor Presente Líquido e Taxa Interna de Retorno"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93315",
+      "name": "Cálculo e Instrumentos Financeiros",
+      "pageCode": "01021068",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não indica duração nem semestre; data.json: 'Semestral; 2027.2 a confirmar'",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/93315/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "1f38ca447fdd205004f4e455f9d760048b1b0e9e9055bb5d764c5d6374c4ca77",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivos gerais, competências i-iv), Programa (1-5.3), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e aulas teórico-práticas em sala de aula invertida, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos da Matemática Financeira",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivo: 'lógica do raciocínio matemático que sustenta as operações financeiras'; competência i) fluxos de capitais em momentos diferentes; 1.4 capitais simultâneos",
+      "foreignLocation": "Resultados de Aprendizagem (objetivos gerais, competência i); Programa 1.4"
+    },
+    {
+      "brTopic": "Capitalização Simples",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1. Regimes de capitalização e de desconto'; '1.1. Capitalização'",
+      "foreignLocation": "Programa, 1-1.1",
+      "note": "O plural 'regimes' corresponde aos regimes simples e composto; o termo 'simples' não aparece literalmente."
+    },
+    {
+      "brTopic": "Capitalização Composta",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1.1. Capitalização' dentro de 'Regimes de capitalização'; 1.3 taxas equivalentes",
+      "foreignLocation": "Programa, 1.1 e 1.3"
+    },
+    {
+      "brTopic": "Operações com taxas de juros",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1.3 Taxas equivalentes'; '4.3. Taxas associadas a um empréstimo por obrigações'; competência ii) taxas de custo/rendimento",
+      "foreignLocation": "Programa 1.3, 4.3; Resultados de Aprendizagem ii"
+    },
+    {
+      "brTopic": "Descontos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1.2. Desconto'",
+      "foreignLocation": "Programa, 1.2"
+    },
+    {
+      "brTopic": "Séries de pagamentos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'2.Rendas certas': termos constantes, progressão aritmética e geométrica, fracionadas, perpétuas",
+      "foreignLocation": "Programa, 2.1-2.5"
+    },
+    {
+      "brTopic": "Sistemas de Amortização de Empréstimos e Financiamentos – Sistema de Amortização",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'3.Reembolsos de empréstimos' e 'modalidades de reembolso'; competência ii) 'construir mapas de amortização de empréstimos indivisos e por obrigações'",
+      "foreignLocation": "Programa 3-3.1 e 4.2; Resultados de Aprendizagem ii"
+    },
+    {
+      "brTopic": "Constante e Sistema Francês de Amortização",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Estudo das diversas modalidades de reembolso de um empréstimo'",
+      "foreignLocation": "Programa, 3.1 (segundo item com essa numeração)",
+      "note": "SAC e Price/francês não são nomeados; 'diversas modalidades' é compatível mas não comprova cada sistema."
+    },
+    {
+      "brTopic": "Análise de projetos e decisões de investimentos – Valor Presente Líquido e Taxa Interna de Retorno",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência iv) 'resolver o problema da escolha da melhor alternativa de financiamento ou aplicação'; ii) taxas de custo/rendimento",
+      "foreignLocation": "Resultados de Aprendizagem ii e iv",
+      "note": "Escolha entre alternativas financeiras, sem unidade de análise de projetos nem VPL/TIR nomeados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Empréstimo por obrigações e valor de uma obrigação", "location": "Programa, 4-4.4"},
+    {"topic": "Financiamento bancário de curto prazo, papel comercial e locação financeira (leasing, também citado na ementa Mackenzie)", "location": "Programa, 5.1-5.3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: juros simples e compostos, fluxo de caixa, equivalência de capitais, financiamentos e amortização, leasing, critérios de decisão de investimento e uso de planilhas e calculadoras financeiras.",
+    "foreign": ["Operar fluxos de capitais em momentos diferentes", "Construir mapas de amortização e calcular taxas de custo/rendimento", "Aplicar cálculo financeiro a instrumentos financeiros", "Escolher a melhor alternativa de financiamento ou aplicação"],
+    "convergences": ["Capitalização, desconto, taxas, rendas e amortização", "Locação financeira (leasing)"],
+    "differences": ["Coimbra acrescenta obrigações e papel comercial", "Mackenzie nomeia VPL/TIR, SAC e Price e o uso de planilhas/calculadoras, não explícitos em Coimbra"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano (opcional), Mackenzie na 3ª etapa",
+    "brazil": "Matemática financeira aplicada de 63,3 h",
+    "foreign": "Cálculo financeiro com extensão a instrumentos de mercado (obrigações, papel comercial)",
+    "theoryPractice": "Coimbra: aulas teórico-práticas em sala invertida com quiz e exercícios"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; data.json marca 2027.2 a confirmar",
+    "language": "Português",
+    "enrolment": "UC opcional; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Cálculo e Instrumentos Financeiros cobre de forma explícita quase toda a sequência da ficha Mackenzie — regimes de capitalização, desconto, taxas, rendas e reembolso de empréstimos —, ficando parciais a nomeação de SAC/Price e a análise de investimentos por VPL e TIR.",
+  "justification": "Sete dos nove enunciados estão cobertos por itens identificados (1.1-1.4, 2.1-2.5, 3, 4.3) e dois são parciais: os sistemas constante e francês cabem nas 'diversas modalidades de reembolso' sem serem nomeados, e VPL/TIR só aparecem como escolha da melhor alternativa (competência iv). Nenhum tópico ficou ausente e Coimbra ainda trata leasing, citado na ementa brasileira. A classe fica em afinidade parcial porque a página declara 6 ECTS sem horas de contacto (carga não comparável) e a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e competências explícitas; faltam horas de contacto, semestre e vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contacto e semestre não declarados; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada (data.json: '2027.2 a confirmar')",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O programa detalhado das 'modalidades de reembolso' inclui amortizações constantes e prestações constantes (francês)?",
+    "Coimbra pode informar horas de contacto semanais/semestrais da UC?"
+  ],
+  "alternatives": [
+    {"code": "18278", "name": "Gestão Financeira", "relation": "Pode tratar avaliação de investimentos (VPL/TIR); programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}

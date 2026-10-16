@@ -1,0 +1,148 @@
+{
+  "id": "adm|Marketing II|pt-coimbra|83606",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "83606",
+      "name": "Marketing Estratégico",
+      "pageCode": "01015490",
+      "faculty": "Não indicada na página da UC (plano 11983, Licenciatura em Administração Pública segundo data.json)",
+      "programme": "Licenciatura em Administração Pública (plano 11983); área científica Gestão e Administração",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Avaliação contínua: frequência 100%; avaliação final: exame 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/83606/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "3e329a390001e82f65483d433d5d1c70c64985470acc60e103787fd280c7da38",
+      "location": "Página da UC 2026-2027: Programa Parte IV 'Políticas de Marketing' (pontos 8-11), Resultados de Aprendizagem, Métodos de Ensino, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e aulas teórico-práticas, sem horas de contacto. Código interno: 01015490."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Parte IV 'Políticas de Marketing', ponto 8 'Produto'",
+      "foreignLocation": "Programa, Parte IV, ponto 8 (numeração repetida na página)",
+      "note": "O produto é uma unidade própria; a gestão de serviços não é nomeada."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Parte IV, ponto 9 'Preço'",
+      "foreignLocation": "Programa, Parte IV, ponto 9"
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Parte IV, ponto 10 'Distribuição'",
+      "foreignLocation": "Programa, Parte IV, ponto 10"
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Parte IV, ponto 11 'Comunicação'",
+      "foreignLocation": "Programa, Parte IV, ponto 11"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Conceitos e evolução do marketing", "location": "Programa, Parte I, pontos 1-2"},
+    {"topic": "Análise e estudos de mercado; comportamento do consumidor", "location": "Programa, Parte II, pontos 3-5"},
+    {"topic": "Segmentação, mercado-alvo e posicionamento", "location": "Programa, Parte III, pontos 6-8"}
+  ],
+  "competencies": {
+    "brazil": "A ementa trata a administração de bens e serviços e a definição das estratégias de preço, comunicação e distribuição para gerar valor superior.",
+    "foreign": ["Panorama abrangente com especial atenção à estratégia e às políticas de marketing", "Preparação para trabalhar em marketing em diferentes organizações"],
+    "convergences": ["As quatro políticas do composto de marketing têm unidade própria (Parte IV)"],
+    "differences": ["Em Coimbra o composto ocupa a última de quatro partes; Marketing II dedica o semestre inteiro a ele", "A gestão de serviços não aparece em Coimbra"]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano (optativa); Mackenzie na 4ª etapa, segunda disciplina de marketing",
+    "brazil": "63,3 h dedicadas a produto/serviço, preço, distribuição e comunicação",
+    "foreign": "As políticas de marketing são uma das quatro partes do programa; a profundidade por unidade não é declarada",
+    "theoryPractice": "Coimbra: aulas teórico-práticas com casos; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json: compatível com 2027.2 se mantido; não confirmado na página",
+    "language": "Português",
+    "enrolment": "Optativa da Licenciatura em Administração Pública (plano 11983). A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de outros cursos e faculdades, sujeito à aprovação dos coordenadores.",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Parte IV de Marketing Estratégico traz uma unidade para cada política do composto (produto, preço, distribuição, comunicação), cobrindo nominalmente os quatro eixos de Marketing II. Mas o composto é só a última de quatro partes de um curso de visão geral.",
+  "justification": "Preço, distribuição e comunicação têm unidades próprias (pontos 9-11) e estão cobertos; 'bens e serviços' é parcial, porque o ponto 8 trata só do produto. Coberto+parcial é 4/4, com 75% integralmente coberto, mas a ficha brasileira sem vigência confirmada e a falta de horas de contacto (só 6 ECTS) limitam a classe a afinidade parcial. Ressalva de profundidade: os pontos 8-11 são cerca de um terço do programa, contra um semestre inteiro de 63,3 h no Mackenzie.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial com unidades nomeadas para cada política, mas só por título; faltam horas de contacto e semestre, e a ficha brasileira não tem ano.",
+  "limitations": [
+    "Profundidade do composto incerta: quatro pontos de título numa UC de visão geral",
+    "UC optativa do plano de Administração Pública; abertura a intercambistas e oferta 2027/28 não confirmadas",
+    "Esta UC é a mesma candidata a Marketing I; não poderá ser aproveitada duas vezes",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação considera suficiente um terço de UC dedicado ao composto para Marketing II?",
+    "83606 seria usada para Marketing I (melhor aderência pelas Partes I-III) ou para Marketing II?"
+  ],
+  "alternatives": [
+    {"code": "93364", "name": "Gestão de Marcas", "relation": "Poderia aprofundar a política de produto/marca; programa não lido neste parecer"},
+    {"code": "93365", "name": "Introdução ao Marketing Digital", "relation": "Poderia complementar a comunicação; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item vinculado aos pontos 8-11 do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Profundidade do composto incerta e uso concorrente da mesma UC para Marketing I"}
+}

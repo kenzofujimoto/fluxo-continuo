@@ -1,0 +1,189 @@
+{
+  "id": "adm|Contabilidade de Custos|es-26-universidaddej|11912031",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade de Custos",
+    "name": "Contabilidade de Custos",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 3, bloco 'Contabilidade de Custos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "Custos Fixos e Variáveis)",
+      "Métodos de contabilização de estoques",
+      "Custeio por Absorção (Com e sem Departamentalização)",
+      "Custeio Variável",
+      "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "Tributos sobre a Receita e formação de preços",
+      "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "Etapas do processo orçamentário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-26-universidaddej",
+      "university": "Universidad de Jaén",
+      "code": "11912031",
+      "name": "Contabilidad de gestión II",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U137 - Economía Financiera y Contabilidad",
+      "programme": "Doble Grado en Administración y Dirección de Empresas y Finanzas y Contabilidad (titulación impressa; temporalidade remete ao Grado en Finanzas y Contabilidad)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 5,
+      "semester": 1,
+      "period": "Primer cuatrimestre (setembro–janeiro no calendário espanhol)",
+      "academicYear": "2025/2026",
+      "language": "Español",
+      "courseStatus": "Obligatoria",
+      "assessment": "Contínua: exame final teórico-prático 50% + participação ativa 50%; avaliação única: teste teórico 40% + casos práticos 60%",
+      "prerequisites": "Recomendado ter cursado Contabilidad de Gestión I (continuação declarada)",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912031/es/2025-26-11912031_es.html",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "sha256": "d7b6eb6ab8d1e398bad1a62bc9395314407dc61a3dd67fd230370f6089b2d5dc",
+      "location": "Guía docente 2025-26: Ficha identificativa, Resumen e Prerrequisitos, Competencias C8/C24/HD04/HD17, Descripción de contenidos (Temas 1-5 com subitens), Actividades formativas, Sistemas de evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A guia lista A1a 75 h e A2A 75 h de atividades, ambas com 40% de presencialidade; modalidade híbrida. Não declara total presencial nem ECTS; nenhuma hora foi derivada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen e Prerrequisitos, Temas 1-5 com todos os subitens, Práctica e Competencias",
+      "note": "A guia diz ser 'continuación' de Contabilidad de Gestión I e parte 'del cálculo de coste'; a terminologia básica fica na asignatura anterior."
+    },
+    {
+      "brTopic": "Custos Fixos e Variáveis)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "1.4 'El análisis coste-volumen-beneficio'; 1.2-1.3 capacidade e volume de produção",
+      "foreignLocation": "Tema 1, subitens 1.2-1.5",
+      "note": "A distinção fixo/variável é usada no CVB, mas não é ensinada como unidade conceitual própria."
+    },
+    {
+      "brTopic": "Métodos de contabilização de estoques",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temas 1-5 com todos os subitens, Resumen RUCT e Competencias"
+    },
+    {
+      "brTopic": "Custeio por Absorção (Com e sem Departamentalização)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temas 1-5 com todos os subitens e Resumen RUCT",
+      "note": "O tema 4 trata o custeio ABC (atividades e indutores), um método distinto do custeio por absorção com departamentalização."
+    },
+    {
+      "brTopic": "Custeio Variável",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 2: decisões de fabricar ou comprar, aceitar pedido, recursos escassos, abandonar produto, custos de oportunidade",
+      "foreignLocation": "Tema 2, subitens 2.1-2.7",
+      "note": "As decisões de curto prazo baseadas em custos relevantes e variáveis aparecem; o custeio variável como método de apuração do resultado não é nomeado."
+    },
+    {
+      "brTopic": "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "1.4 'El análisis coste-volumen-beneficio'; 1.5 'Modelo simplificado del análisis C-V-B' em setores lucrativo, público e terceiro setor",
+      "foreignLocation": "Tema 1, subitens 1.4-1.5",
+      "note": "'Alavancagem' não aparece literalmente."
+    },
+    {
+      "brTopic": "Tributos sobre a Receita e formação de preços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "1.4 '(... control de costes y fijación de precios)'; 2.1 'Decisiones basadas en precios y costes'",
+      "foreignLocation": "Tema 1, subitem 1.4; Tema 2, subitem 2.1",
+      "note": "A formação de preços aparece; tributos sobre a receita, que dependem da legislação brasileira, não."
+    },
+    {
+      "brTopic": "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "3.1 'La relación del presupuesto con la estrategia'; 3.5-3.7 orçamentos comercial, produtivo e 'Planificación y control financiero'",
+      "foreignLocation": "Tema 3, subitens 3.1 e 3.5-3.7"
+    },
+    {
+      "brTopic": "Etapas do processo orçamentário",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "3.2 'El proceso (ciclo) presupuestario'; padrões de custo e desvios",
+      "foreignLocation": "Tema 3, subitens 3.2-3.4"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Custos-padrão, target costing e análise de desvios", "location": "Tema 3, 3.3-3.6"},
+    {"topic": "Custeio baseado em atividades (ABC) e gestão por atividades (ABM)", "location": "Tema 4, 4.1-4.5"},
+    {"topic": "Balanced scorecard e relatório de fatores de sustentabilidade e ambientais", "location": "Tema 5, 5.1-5.2"},
+    {"topic": "Throughput accounting e valor esperado em decisões", "location": "Tema 2, 2.4 e 2.6"}
+  ],
+  "competencies": {
+    "brazil": "A ementa fala em entender o papel da contabilidade gerencial para decisões, prever o comportamento dos custos, custear por métodos direto e de absorção, analisar o ponto de equilíbrio, formar preços e orçar.",
+    "foreign": ["HD04 Usa relatórios da contabilidade de gestão para analisar a eficiência e apoiar decisões", "HD17 Elabora e interpreta informação contábil para controle de gestão e decisão", "C8 Conhece os conceitos básicos de Contabilidade"],
+    "convergences": ["Contabilidade gerencial voltada a decisões", "CVB, preços e orçamento"],
+    "differences": ["Jaén pressupõe o cálculo de custos de Contabilidad de Gestión I; a base de custeio (terminologia, estoques, absorção) da ementa Mackenzie fica de fora", "Jaén vai além com ABC/ABM, custos-padrão e balanced scorecard"]
+  },
+  "depth": {
+    "level": "Jaén no 5º curso do duplo grau (asignatura avançada, segunda de duas); Mackenzie na 4ª etapa, introdutória",
+    "brazil": "Componente de 63,3 h que vai da terminologia ao orçamento",
+    "foreign": "Aprofundamento estratégico da gestão de custos, com programa detalhado em subitens",
+    "theoryPractice": "Jaén usa metodologia ativa (casos, role playing, gamificação) com 50% da nota em participação; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "Primer cuatrimestre: compatível com o período 2027.2 se o calendário for mantido",
+    "language": "Espanhol; o edital exige B2",
+    "enrolment": "Asignatura do 5º curso do duplo grau, com modalidade híbrida; aceitação de intercambista não verificada",
+    "prerequisites": "Recomenda-se Contabilidad de Gestión I; o estudante Mackenzie da 4ª etapa ainda não teria cursado Contabilidade de Custos",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Contabilidad de gestión II cobre bem a parte final da ementa Mackenzie (custo-volume-lucro, decisões de preço e orçamento), mas, sendo continuação de Contabilidad de gestión I, omite a base do custeio: terminologia, estoques e custeio por absorção.",
+  "justification": "Três dos nove itens oficiais estão cobertos (CVB nos subitens 1.4-1.5; orçamento e ciclo orçamentário nos subitens 3.1-3.7), três parcialmente (fixos/variáveis só dentro do CVB; custeio variável só como decisões de curto prazo do tema 2; preços sem tributos sobre a receita) e três não encontrados (terminologia, estoques, absorção com departamentalização; o ABC do tema 4 é método distinto). Coberto+parcial dá 6/9 (67%), afinidade parcial; a ficha brasileira sem vigência confirmada também limita a classe. As 75 + 75 h de atividades com 40% de presencialidade não formam total presencial declarado: horas não comparáveis.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa estrangeiro detalhado em subitens; faltam ECTS e horas presenciais, a guia é de 2025-26 e a ficha brasileira não tem ano.",
+  "limitations": [
+    "Oferta 2027/28 e acesso de intercambista ao 5º curso do duplo grau não confirmados",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "ECTS e total de horas presenciais não declarados na guia",
+    "O conteúdo de base provavelmente está em Contabilidad de gestión (11912001), não analisada neste parecer",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A combinação Contabilidad de gestión (I) + II seria aceita, dado que podem estar em cuatrimestres diferentes?",
+    "Jaén admite intercambista numa asignatura de 5º curso sem a asignatura I?"
+  ],
+  "alternatives": [
+    {"code": "11912001", "name": "Contabilidad de gestión", "relation": "Asignatura anterior, provável base de custeio (terminologia, absorção); programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada item vinculado a tema e subitem; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Base do custeio ausente; uma eventual combinação com 11912001 depende de análise própria e da coordenação"}
+}

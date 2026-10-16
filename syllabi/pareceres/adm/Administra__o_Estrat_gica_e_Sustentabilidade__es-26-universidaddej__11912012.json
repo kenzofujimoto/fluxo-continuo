@@ -1,0 +1,179 @@
+{
+  "id": "adm|Administração Estratégica e Sustentabilidade|es-26-universidaddej|11912012",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Administração Estratégica e Sustentabilidade",
+    "name": "Administração Estratégica e Sustentabilidade",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 1, bloco 'Administração Estratégica e Sustentabilidade': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "Fundamentos da sustentabilidade",
+      "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "Numa perspectiva da sustentabilidade",
+      "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-26-universidaddej",
+      "university": "Universidad de Jaén",
+      "code": "11912012",
+      "name": "Dirección estratégica I",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U136 - Organización de Empresas, Marketing y Sociología (área 650 Organización de Empresas)",
+      "programme": "Doble Grado en Administración y Dirección de Empresas y Finanzas y Contabilidad (titulación impressa na guia; data.json indica ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "Segundo cuatrimestre (fevereiro–junho no calendário espanhol)",
+      "academicYear": "2025/2026",
+      "language": "Español",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame teórico-prático 60% (aprovação obrigatória) + trabalhos, tarefas e participação 40%; extraordinária: prova escrita 100%",
+      "prerequisites": "Ninguno",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912012/es/2025-26-11912012_es.html",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "sha256": "f25bbb9b17e27ce79f22b627b15f1a96f20685efd7e212ad562ceae71ea0fd55",
+      "location": "Guía docente 2025-26: Ficha identificativa, Resumen (memoria RUCT), Competencias C05/COM04, Descripción de contenidos (Teoría 1-8, Práctica), Actividades formativas, Sistemas de evaluación, ODS",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A guia lista A1a 'Actividades en gran grupo' 112,50 h e A2a 'Actividades en pequeño grupo' 37,50 h, ambas com 40% de presencialidade; não declara um total de horas presenciais nem ECTS. Nenhuma hora foi derivada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'Naturaleza de la dirección estratégica'; RUCT 'La naturaleza de la dirección estratégica'",
+      "foreignLocation": "Descripción de contenidos, Teoría, tema 1; Resumen RUCT",
+      "note": "A guia dá só o título do tema; os 4 Ps de Mintzberg e a evolução histórica não são nomeados."
+    },
+    {
+      "brTopic": "Fundamentos da sustentabilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Competencias C05/COM04, Teoría temas 1-8, Práctica, Bibliografía e secção ODS",
+      "note": "O tema 3 trata grupos de interés e governo corporativo, não sustentabilidade (triple bottom line, economia circular). A secção ODS (8, 9, 10, 12, 17) declara contribuição, não conteúdo lecionado."
+    },
+    {
+      "brTopic": "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 4 'Análisis del entorno' e tema 5 'Análisis del entorno competitivo'; RUCT 'Análisis del entorno general y específico'",
+      "foreignLocation": "Teoría, temas 4-5; Resumen RUCT",
+      "note": "A análise do entorno geral e específico está presente; a leitura 'numa perspectiva da sustentabilidade' não aparece."
+    },
+    {
+      "brTopic": "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 2 'Orientaciones futuras y valores de la empresa'; tema 6 'Análisis interno'; RUCT 'Análisis de los recursos y capacidades'",
+      "foreignLocation": "Teoría, temas 2 e 6; Resumen RUCT"
+    },
+    {
+      "brTopic": "Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-8, Práctica, Resumen RUCT e secção ODS",
+      "note": "Item autónomo do conteúdo programático brasileiro (perspectiva da sustentabilidade na análise interna). Grupos de interés (tema 3) não equivalem a ela."
+    },
+    {
+      "brTopic": "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 7 'Ventajas competitivas y estrategias'; RUCT 'Análisis de los recursos y capacidades'; bibliografia Guerras/Navas e Hill/Jones",
+      "foreignLocation": "Teoría, tema 7; Resumen RUCT"
+    },
+    {
+      "brTopic": "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 7 'Ventajas competitivas y estrategias'; tema 8 'Estrategias competitivas según el tipo de industrias'",
+      "foreignLocation": "Teoría, temas 7-8",
+      "note": "Só o nível competitivo (unidade de negócio) aparece; estratégias corporativas de crescimento, redução e defensivas não constam — possivelmente estão em Dirección estratégica II (não lida)."
+    },
+    {
+      "brTopic": "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-8, Práctica ('Resolución de casos, preguntas y exposiciones'), Resumen RUCT e Competencias"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Criação de valor, grupos de interesse e governo corporativo", "location": "Teoría, tema 3"},
+    {"topic": "Grupos estratégicos e estratégias segundo o tipo de indústria", "location": "Resumen RUCT; Teoría, tema 8"}
+  ],
+  "competencies": {
+    "brazil": "A ficha descreve ementa e conteúdo programático; não lista competências.",
+    "foreign": ["C05 Conhece os conceitos básicos de Direção de Empresas", "COM04 Ter uma visão estratégica da direção de empresas"],
+    "convergences": ["Análise externa e interna", "Vantagem competitiva e recursos e capacidades"],
+    "differences": ["A ementa Mackenzie integra sustentabilidade (TBL, economia circular, GRI, Dow Jones, ETHOS); a guia de Jaén não traz esse conteúdo", "Implantação e controle estratégico e estratégias corporativas ausentes de Dirección estratégica I"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Jaén no 3º curso do duplo grau, Mackenzie na 4ª etapa",
+    "brazil": "Componente de 63,3 h que vai da análise ambiental à implantação, com eixo de sustentabilidade",
+    "foreign": "Primeira de duas asignaturas de direção estratégica, centrada em análise e estratégia competitiva; programa só com títulos de tema",
+    "theoryPractice": "Jaén: aulas expositivas e prática por casos, perguntas e exposições; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (fevereiro–junho): não coincide com o período 2027.2 se o calendário for mantido",
+    "language": "Espanhol; o edital exige B2",
+    "enrolment": "Guia da titulação de duplo grau (código 119A); acesso de intercambista a esse plano não verificado",
+    "prerequisites": "Nenhum declarado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dirección estratégica I cobre a metade analítica da disciplina Mackenzie — natureza da estratégia, análise do entorno, análise interna, vantagem competitiva e estratégias competitivas —, mas não traz o eixo de sustentabilidade, as estratégias corporativas e a implantação estratégica.",
+  "justification": "Dos oito itens oficiais, dois estão cobertos (análise interna nos temas 2 e 6; vantagem competitiva e recursos no tema 7), três parcialmente (tema 1 só pelo título; temas 4-5 sem perspectiva de sustentabilidade; temas 7-8 limitados ao nível competitivo) e três não encontrados (fundamentos da sustentabilidade, a perspectiva sustentável da análise interna e a implantação). Coberto+parcial dá 5/8 (62,5%), o que leva à afinidade parcial; a ficha brasileira sem ano confirmado também impede classe superior. As horas não são comparáveis: a guia dá 112,5 + 37,5 h de atividades com 40% de presencialidade, sem total presencial nem ECTS. O segundo cuatrimestre não coincide com 2027.2.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia oficial individual com temário, mas só com títulos de tema e do ano 2025-26; ficha Mackenzie sem ano e sem vigência confirmada para Alphaville.",
+  "limitations": [
+    "Oferta 2027/28, turma e aceitação de intercambista não confirmadas; a guia é de 2025-26",
+    "Ficha brasileira sem ano impresso e com cabeçalho do campus São Paulo; vigência não confirmada",
+    "Guia de Jaén com temário apenas por títulos; ECTS e horas presenciais totais não declarados",
+    "A guia pertence ao duplo grau ADE + Finanzas y Contabilidad, não ao grau simples de ADE",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria Dirección estratégica I + II em conjunto para cobrir as estratégias corporativas e a implantação?",
+    "Existe em Jaén uma asignatura de sustentabilidade/RSC que complete o eixo de sustentabilidade?",
+    "Qual é o cuatrimestre da asignatura no plano de 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "11912027", "name": "Dirección estratégica II", "relation": "Continuação provável (estratégias corporativas e implantação); programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie (conteúdo programático oficial) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada item vinculado ao tema da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Programa estrangeiro só com títulos e eixo de sustentabilidade ausente; a combinação com Dirección estratégica II requer análise própria"}
+}

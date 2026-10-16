@@ -1,0 +1,164 @@
+{
+  "id": "adm|Gestão Financeira|pt-coimbra|18278",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão Financeira",
+    "name": "Gestão Financeira",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": null,
+    "documentTitle": "Ficha de disciplina CCSA do 6º semestre de Administração (Etapa_6_v2_01.pdf), vinculada pelo link '6º Semestre' da matriz oficial de Alphaville; cabeçalho do campus São Paulo, sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 4, bloco 'Gestão Financeira': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h no semestre; vigência para a matriz atual de Alphaville não confirmada."
+    },
+    "topics": [
+      "Objetivos financeiros",
+      "Governança Corporativa",
+      "Custo de capital",
+      "Estrutura de capital",
+      "Gestão do capital de giro (Ciclo operacional e financeiro, necessidade de capital de giro, equilíbrio financeiro)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18278",
+      "name": "Gestão Financeira",
+      "pageCode": "01620090",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: 'Não aplicável'",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/18278/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "8a8b7c63ad6cba3b8ee39db0556d21a1b2d3b2e9e9e9ce35c2ad67b9cb6fa754",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivos gerais e específicos i-iv com pesos), Programa 1-6, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Objetivos financeiros",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Introdução: principais atribuições da gestão financeira'; objetivo geral sobre princípios que cumpram 'os objetivos da função financeira'",
+      "foreignLocation": "Programa 1; Resultados de Aprendizagem, objetivos gerais"
+    },
+    {
+      "brTopic": "Governança Corporativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6, objetivos gerais e específicos i-iv e Bibliografia",
+      "note": "Conflitos de agência ou governança não são nomeados; Coimbra tem UC optativa 'Governance e Reestruturação Empresarial' (102118), não lida."
+    },
+    {
+      "brTopic": "Custo de capital",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo ii avaliar impacto das decisões de estrutura de capital e dividendos no valor da empresa; Programa 3 decisões de financiamento",
+      "foreignLocation": "Resultados de Aprendizagem ii (35%); Programa 3",
+      "note": "O custo de capital é pressuposto da análise de valor, mas não aparece como item do programa."
+    },
+    {
+      "brTopic": "Estrutura de capital",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Decisões estratégicas de financiamento'; objetivo ii 'com particular incidência nas decisões de estrutura de capital'",
+      "foreignLocation": "Programa 3; Resultados de Aprendizagem ii"
+    },
+    {
+      "brTopic": "Gestão do capital de giro (Ciclo operacional e financeiro, necessidade de capital de giro, equilíbrio financeiro)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Gestão financeira de curto prazo'; objetivo i 'Identificar as principais questões que envolvem a gestão do fundo de maneio (30%)'",
+      "foreignLocation": "Programa 2; Resultados de Aprendizagem i",
+      "note": "Fundo de maneio é o termo português para capital de giro; os subitens (ciclos, NCG) não são detalhados na página."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Decisões de política de dividendos", "location": "Programa 4; objetivo ii"},
+    {"topic": "Planeamento financeiro", "location": "Programa 5; objetivo iii (25%)"},
+    {"topic": "Tipos de risco financeiro e formas de gestão", "location": "Programa 6; objetivo iv (10%)"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: objetivos financeiros e conflitos de agência; decisões de investimento, financiamento e distribuição; custo de capital e estrutura de capital; dividendos; finanças de curto prazo e capital de giro.",
+    "foreign": [
+      "Gerir o fundo de maneio",
+      "Avaliar o impacto de estrutura de capital e dividendos no valor",
+      "Elaborar e implementar planeamento financeiro",
+      "Distinguir e gerir riscos financeiros"
+    ],
+    "convergences": ["Capital de giro, estrutura de capital e dividendos (estes últimos presentes na ementa Mackenzie)", "Visão de valor da empresa como critério das decisões financeiras"],
+    "differences": [
+      "Governança corporativa e conflitos de agência só na ficha Mackenzie",
+      "Coimbra acrescenta planeamento financeiro e gestão de risco financeiro"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano, Mackenzie no 6º semestre",
+    "brazil": "Componente de 31,7 h com cinco blocos de finanças corporativas",
+    "foreign": "UC de 6 ECTS com seis capítulos e objetivos ponderados; bibliografia de finanças corporativas (Brealey-Myers, Brigham)",
+    "theoryPractice": "Coimbra: aulas teóricas e práticas em sala de aula invertida com quiz; a ficha Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC do plano de Gestão",
+    "prerequisites": "Nenhum recomendado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão Financeira de Coimbra coincide com a ficha Mackenzie em objetivos financeiros, estrutura de capital e capital de giro (fundo de maneio), trata o custo de capital só implicitamente e não menciona governança corporativa; acrescenta planeamento e risco financeiro.",
+  "justification": "Três dos cinco tópicos oficiais estão cobertos (Programa 1, 2 e 3 com objetivos i e ii), um parcial (custo de capital, pressuposto no objetivo ii mas sem item) e um não encontrado (governança corporativa). Coberto+parcial = 4/5 (80%); cobertos 3/5 (60%). A página declara 6 ECTS sem horas de contacto, pelo que as 31,7 h Mackenzie não são comparáveis; a ficha brasileira sem vigência também impede classe superior. A indicação de 2º semestre é obstáculo prático para 2027.2.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Página oficial com programa em seis capítulos e objetivos ponderados, mas programa pouco detalhado (sem subitens); faltam horas de contacto e o semestre só consta do data.json.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; 2º semestre segundo data.json",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Programa de Coimbra lista só títulos de capítulos; subitens de capital de giro e custo de capital não verificáveis",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O docente de Coimbra trata custo de capital (WACC) dentro do capítulo 3?",
+    "A UC 18278 é oferecida no semestre de outono a intercambistas?"
+  ],
+  "alternatives": [
+    {"code": "102118", "name": "Governance e Reestruturação Empresarial", "relation": "Poderia suprir governança corporativa; programa não lido neste parecer"},
+    {"code": "18963", "name": "Análise Financeira", "relation": "Programa lido em outro parecer; foca diagnóstico financeiro e avaliação introdutória de projetos, 1º semestre"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado a capítulo e objetivo da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Correspondência de capítulos clara; limitações documentais já refletidas na classe"}
+}

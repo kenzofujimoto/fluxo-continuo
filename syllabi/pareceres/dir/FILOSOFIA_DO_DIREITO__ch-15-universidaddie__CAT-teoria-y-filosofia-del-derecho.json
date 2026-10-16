@@ -1,0 +1,172 @@
+{
+  "id": "dir|FILOSOFIA DO DIREITO|ch-15-universidaddie|CAT-teoria-y-filosofia-del-derecho",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "FILOSOFIA DO DIREITO",
+    "name": "Filosofia do Direito",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 4, bloco 'FILOSOFIA DO DIREITO' (2ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica: pode não corresponder à matriz vigente."
+    },
+    "topics": [
+      "A Filosofia do Direito é um componente curricular de grande importância para a formação reflexiva do jurista",
+      "Visa proporcionar ao aluno o conhecimento e reflexão de temas clássicos e contemporâneos da filosofia através da problematização de questões fundamentais do direito, desenvolvendo sua a capacidade para a leitura, compreensão e análise de textos conceitualmente complexos",
+      "O recorte dado à disciplina é a distinção operada considerações de Michel Troper e Theodor Viehweg sobre esta distinção",
+      "Trata-se de um conjunto de análises, definições que tem por objeto (i) a conceito de direito",
+      "(ii) a teoria da justiça",
+      "(iii) a teoria da ciência jurídica",
+      "Contudo, este recorte não é radical, a filosofia do direito se apresenta como descrição das práticas jurídicas que se caracterizam pelo nível elevado de abstração e generalização, para tanto, ela se funda necessariamente sobre certos pressupostos e requer o emprego de conceitos cuja escolha dependem da transposição das grandes doutrinas filosóficas aos problemas do direito e da justiça",
+      "Neste componente curricular será apresentada a filosofia do direito, sua origem, seu desenvolvimento histórico e suas principais correntes",
+      "introdução e reflexão de temas clássicos e contemporâneos da filosofia do direito através da problematização de questões fundamentais do direito, tais como justiça, norma, moral, liberdade, poder, legitimidade, Estado e sociedade",
+      "contribuições das abordagens jusnaturalista e positivistas para a análise dos fenômenos jurídicos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ch-15-universidaddie",
+      "university": "Universidad Diego Portales",
+      "code": "CAT-teoria-y-filosofia-del-derecho",
+      "name": "Teoría y Filosofía del Derecho",
+      "faculty": "Facultad de Derecho",
+      "programme": "Derecho (Código DEMRE 38004); malla curricular 2026",
+      "level": "Pregrado (licenciatura em Ciencias Jurídicas y Sociales)",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "Não indicado; data.json registra 'Unknown'",
+      "academicYear": "2026 (malla 'actualizada en noviembre 2025', 'sujeta a cambios')",
+      "language": "Espanhol (língua da instituição; não indicada por disciplina)",
+      "courseStatus": "Não indicado",
+      "assessment": "Não indicada",
+      "prerequisites": "Não indicados",
+      "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf",
+      "catalogue": "https://admision.udp.cl/descubre/carreras/",
+      "sha256": "1f38e88e4b99b97da1204480ef9868e5a95928ada8f8548ab258ab8d74e821f7",
+      "location": "Folheto de admissão 'Malla curricular Derecho UDP' (documento integral, 4.312 caracteres): grade de disciplinas e legenda de linhas formativas",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O folheto não traz horas, créditos nem ECTS. Os '3 créditos institucionais' do data.json não constam deste documento e não são horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A Filosofia do Direito é um componente curricular de grande importância para a formação reflexiva do jurista",
+      "essential": false,
+      "status": "nao_verificavel",
+      "note": "Frase de apresentação da importância do componente, sem conteúdo curricular próprio."
+    },
+    {
+      "brTopic": "Visa proporcionar ao aluno o conhecimento e reflexão de temas clássicos e contemporâneos da filosofia através da problematização de questões fundamentais do direito, desenvolvendo sua a capacidade para a leitura, compreensão e análise de textos conceitualmente complexos",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O folheto só afirma genericamente uma 'sólida base teórica, filosófica e histórico-social'; não há programa da disciplina."
+    },
+    {
+      "brTopic": "O recorte dado à disciplina é a distinção operada considerações de Michel Troper e Theodor Viehweg sobre esta distinção",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Sem programa nem bibliografia da UDP para verificar Bobbio, Troper ou Viehweg."
+    },
+    {
+      "brTopic": "Trata-se de um conjunto de análises, definições que tem por objeto (i) a conceito de direito",
+      "essential": true,
+      "status": "nao_verificavel"
+    },
+    {
+      "brTopic": "(ii) a teoria da justiça",
+      "essential": true,
+      "status": "nao_verificavel"
+    },
+    {
+      "brTopic": "(iii) a teoria da ciência jurídica",
+      "essential": true,
+      "status": "nao_verificavel"
+    },
+    {
+      "brTopic": "Contudo, este recorte não é radical, a filosofia do direito se apresenta como descrição das práticas jurídicas que se caracterizam pelo nível elevado de abstração e generalização, para tanto, ela se funda necessariamente sobre certos pressupostos e requer o emprego de conceitos cuja escolha dependem da transposição das grandes doutrinas filosóficas aos problemas do direito e da justiça",
+      "essential": true,
+      "status": "nao_verificavel"
+    },
+    {
+      "brTopic": "Neste componente curricular será apresentada a filosofia do direito, sua origem, seu desenvolvimento histórico e suas principais correntes",
+      "essential": true,
+      "status": "nao_verificavel"
+    },
+    {
+      "brTopic": "introdução e reflexão de temas clássicos e contemporâneos da filosofia do direito através da problematização de questões fundamentais do direito, tais como justiça, norma, moral, liberdade, poder, legitimidade, Estado e sociedade",
+      "essential": true,
+      "status": "nao_verificavel"
+    },
+    {
+      "brTopic": "contribuições das abordagens jusnaturalista e positivistas para a análise dos fenômenos jurídicos",
+      "essential": true,
+      "status": "nao_verificavel"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A ementa 2022 descreve objetivos de leitura e análise de textos complexos e o recorte Bobbio/Troper/Viehweg; não lista competências por item.",
+    "foreign": ["Não há competências por disciplina; o folheto só descreve o perfil geral do curso (pensamento crítico, base teórica, filosófica e histórico-social)"],
+    "convergences": [],
+    "differences": ["Impossível comparar: a fonte estrangeira é uma malla curricular de admissão, não um programa de disciplina"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; posição da disciplina na malla UDP não legível no texto extraído (numeração 01-10 de semestres sem associação recuperável)",
+    "brazil": "Componente obrigatório da 2ª etapa, 2 h-a semanais (ementário 2022)",
+    "foreign": "Desconhecida: 'Filosofía del Derecho' aparece como célula da grade e 'Teoría y Filosofía del Derecho' como rótulo de linha formativa na legenda",
+    "theoryPractice": "Não informado no documento estrangeiro"
+  },
+  "practical": {
+    "period": "Semestre não identificado; calendário chileno (março-julho / agosto-dezembro) a confirmar para 2027.2",
+    "language": "Espanhol; a UDP exige nível B2 segundo a ficha da universidade no data.json",
+    "enrolment": "Não verificado; não se sabe se a disciplina 'Filosofía del Derecho' é aberta a intercambistas",
+    "prerequisites": "Não informados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A fonte estrangeira é o folheto de admissão 'Malla curricular Derecho UDP' 2026, sem programa: o código CAT corresponde ao rótulo de linha formativa 'Teoría y Filosofía del Derecho', não a uma disciplina com conteúdo descrito. Nenhum dos dez enunciados da ementa Mackenzie 2022 pode ser verificado.",
+  "justification": "Os nove tópicos essenciais da ementa de Filosofia do Direito (conceito de direito, teoria da justiça, teoria da ciência jurídica, correntes jusnaturalista e positivistas, recorte Bobbio/Troper/Viehweg) ficaram nao_verificavel, pois o documento de 4.312 caracteres só lista nomes de disciplinas ('Filosofía del Derecho', 'Introducción al Derecho I/II', 'Ética y Responsabilidad Profesional en la Abogacía') e a legenda de linhas formativas. Não há horas, créditos, semestre nem idioma por disciplina; o ementário brasileiro informa apenas 2 h-a semanais e é edição histórica. A ausência de dados não equivale a reprovação: o título 'Filosofía del Derecho' existe na malla, mas só um programa individual permitiria o cotejo.",
+  "conclusionClass": "evidencia_insuficiente",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Lado estrangeiro sem programa individual (apenas grade de admissão) e lado brasileiro em edição histórica de 2022 com carga semanal; nenhum tópico verificável.",
+  "limitations": [
+    "Oferta da disciplina e vaga para intercambista em 2027.2 não confirmadas",
+    "O documento estrangeiro é uma malla de admissão sem programa; records.json o classifica como 'ementa_individual', o que não se confirma na leitura",
+    "O código CAT-teoria-y-filosofia-del-derecho é interno ao catálogo e corresponde a um rótulo de linha formativa da legenda; a disciplina efetiva parece ser 'Filosofía del Derecho'",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente; carga apenas em horas-aula semanais",
+    "O texto oficial brasileiro extraído omite um trecho ('distinção operada [...] considerações'), reproduzido aqui tal como em programas.json",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A UDP pode fornecer o programa ('programa de asignatura') de 'Filosofía del Derecho' e de 'Introducción al Derecho I/II', com horas e semestre?",
+    "A coordenação de Direito usa a ementa de 2022 ou uma versão posterior de Filosofia do Direito para a análise de aproveitamento?"
+  ],
+  "alternatives": [
+    {"code": "CAT-destrezas-para-la-profesion", "name": "Destrezas para la Profesión", "relation": "Outro rótulo de linha formativa da mesma malla; não é disciplina de filosofia e não tem programa lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e do texto extraído do folheto oficial da UDP com apoio de IA (Claude); verificação de que não há programa por disciplina; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Classificação do documento como ementa individual em records.json é incorreta; requer obtenção do programa da UDP"}
+}

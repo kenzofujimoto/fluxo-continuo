@@ -1,0 +1,163 @@
+{
+  "id": "adm|Análise de Viabilidade Financeira|pt-coimbra|18963",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Análise de Viabilidade Financeira",
+    "name": "Análise de Viabilidade Financeira",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": null,
+    "documentTitle": "Ficha de disciplina CCSA do 6º semestre de Administração (Etapa_6_v2_01.pdf), vinculada pelo link '6º Semestre' da matriz oficial de Alphaville; cabeçalho do campus São Paulo, sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 1, bloco 'Análise de Viabilidade Financeira': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h no semestre (componente de meia carga); vigência para a matriz atual de Alphaville não confirmada."
+    },
+    "topics": [
+      "Projeção do fluxo de caixa incremental",
+      "Métodos de avaliação de investimentos (VPL, TIR, TIR Modificada, Payback e Índice de",
+      "Rentabilidade)",
+      "Projetos de substituição e de renovação de ativos",
+      "Análise de sensibilidade, cenários e árvores de decisão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18963",
+      "name": "Análise Financeira",
+      "pageCode": "01620005",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Contabilidade Financeira",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/18963/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "60e3893b8b3c08931ccd8d4f50a0e0d99a7e48e16687a2aa60b2cda337cd946a",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (1 peso 80%, 2 peso 20%), Programa 1-6.2, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Projeção do fluxo de caixa incremental",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Elaboração dos mapas cash flows do projeto'; resultado 2 'Estimar os cashflows previsionais de projetos de investimento'",
+      "foreignLocation": "Programa 6.1; Resultados de Aprendizagem 2",
+      "note": "O caráter incremental não é escrito, mas é inerente aos mapas de cash flow de projeto; o capítulo é declarado introdutório."
+    },
+    {
+      "brTopic": "Métodos de avaliação de investimentos (VPL, TIR, TIR Modificada, Payback e Índice de",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Critérios de avaliação (Payback, TIR, VAL, VALA, FCF/WACC)'",
+      "foreignLocation": "Programa 6.2",
+      "note": "VAL corresponde ao VPL; TIR e payback presentes; TIR modificada não é nomeada. Tópico oficial partido em duas linhas na ficha."
+    },
+    {
+      "brTopic": "Rentabilidade)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6.2, Resultados de Aprendizagem 1-2 e Bibliografia",
+      "note": "Fragmento do 'Índice de Rentabilidade' de projetos; a 'rendibilidade' do capítulo 4 de Coimbra trata de rácios da empresa, não do índice de projetos."
+    },
+    {
+      "brTopic": "Projetos de substituição e de renovação de ativos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6.2 (em especial 6.1-6.2), Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Análise de sensibilidade, cenários e árvores de decisão",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Critérios de avaliação (...) e análise risco'",
+      "foreignLocation": "Programa 6.2",
+      "note": "Análise de risco de projeto é citada sem detalhar sensibilidade, cenários ou árvores de decisão."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Diagnóstico económico-financeiro com informação contabilística e relatório global", "location": "Programa 1-2.2"},
+    {"topic": "Solvabilidade e taxa de crescimento sustentável", "location": "Programa 3.1-3.2"},
+    {"topic": "Rendibilidade do investimento e criação de valor", "location": "Programa 4.1-4.2"},
+    {"topic": "Risco operacional e financeiro; scoring e rating de crédito", "location": "Programa 5.1-5.2"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: ferramentas de análise econômica de projetos (VPL, TIR, payback, retorno), sensibilidade, alavancagem financeira, decisão sob incerteza e construção de cenários.",
+    "foreign": [
+      "Calcular e interpretar indicadores de desempenho económico, financeiro e de risco da empresa (peso 80%)",
+      "Estimar cash flows previsionais de projetos e aferir o seu valor (peso 20%)"
+    ],
+    "convergences": ["Mapas de cash flow de projeto e critérios VAL/TIR/payback", "Risco operacional e financeiro (alavancagem) citado na ementa Mackenzie"],
+    "differences": [
+      "Coimbra é sobretudo análise de demonstrações financeiras (80% do peso); a avaliação de projetos é um capítulo introdutório",
+      "Substituição de ativos, índice de rentabilidade, TIR modificada, cenários e árvores de decisão só na ficha Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano da Licenciatura em Gestão, Mackenzie no 6º semestre",
+    "brazil": "Componente de 31,7 h dedicado inteiramente à viabilidade de projetos",
+    "foreign": "UC de 6 ECTS em que apenas o capítulo 6 (20% do peso) trata de projetos de investimento",
+    "theoryPractice": "Coimbra alterna aulas expositivas e casos práticos com bases de dados online; a ficha Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json; coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC do plano de Gestão",
+    "prerequisites": "Contabilidade Financeira recomendada; aluno da 6ª etapa de Administração já a cursou",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Análise Financeira de Coimbra é uma UC de diagnóstico de demonstrações financeiras que só no capítulo 6 introduz a avaliação de projetos (cash flows, payback, TIR, VAL e risco); cobre o núcleo de cálculo da ficha Mackenzie, mas não substituição de ativos, índice de rentabilidade nem cenários e árvores de decisão.",
+  "justification": "Dos cinco tópicos oficiais (dois deles fragmentos de uma mesma linha), um está coberto (mapas de cash flow, 6.1), dois parciais (critérios de avaliação sem TIR modificada; 'análise risco' sem sensibilidade/cenários/árvores, 6.2) e dois ausentes (índice de rentabilidade; projetos de substituição e renovação). Coberto+parcial = 3/5 (60%). A página informa 6 ECTS sem horas de contacto, por isso as 31,7 h Mackenzie não são comparáveis. A classe derivada é afinidade parcial, mas o tema de projetos pesa só 20% no resultado de aprendizagem de Coimbra.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Página oficial 2026-2027 com programa itemizado; faltam horas de contacto e o semestre só consta do data.json; ficha Mackenzie sem vigência confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; semestre (1º) só indicado no data.json",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Avaliação de projetos é capítulo introdutório em Coimbra; profundidade real não verificável pela página",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita uma UC centrada em análise de demonstrações financeiras para um componente de 31,7 h de viabilidade de projetos?",
+    "Há em Coimbra UC de avaliação de projetos ou decisões de investimento mais específica, aberta a intercambistas?"
+  ],
+  "alternatives": [
+    {"code": "18278", "name": "Gestão Financeira", "relation": "Programa lido em outro parecer; trata de valorização e decisões de financiamento, não de viabilidade de projetos"},
+    {"code": "93315", "name": "Cálculo e Instrumentos Financeiros", "relation": "Pode incluir matemática financeira de base; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado à secção do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Projetos de investimento são parte menor da UC estrangeira; decisão depende do juízo da coordenação sobre profundidade"}
+}

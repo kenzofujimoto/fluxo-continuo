@@ -1,0 +1,206 @@
+{
+  "id": "adm|Gestão de Projetos|pt-coimbra|93363",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Projetos",
+    "name": "Gestão de Projetos",
+    "courseName": "Administração",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 7º Semestre (Etapa_7_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_7_02.pdf",
+    "sha256": "d279717ca786cf41173458d00984280076c11ea43bc0a66ae61f8471af0fb5bd",
+    "location": "PDF p. 1, bloco 'Gestão de Projetos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Projeto e gestão de projetos",
+      "Estruturas orientadas para projetos",
+      "Gestão do escopo do projeto",
+      "Gestão de Tempo a. PERT-CPM",
+      "Gestão de Custos",
+      "Gestão dos Recursos Humanos do Projeto",
+      "Gestão das Comunicações do Projeto",
+      "Gerenciamento da Qualidade do Projeto a. Ferramentas de qualidade voltadas para projetos",
+      "Gerenciamento dos Riscos do Projeto",
+      "Gestão das Aquisições",
+      "Gerenciamento da Integração",
+      "Gestão dos Stakeholders",
+      "O projeto e a sustentabilidade"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93363",
+      "name": "Projeto Integrador",
+      "pageCode": "01021158",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português; outra língua de ensino: Inglês",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%; acompanhamento por plano de trabalho, relatório intercalar, relatório final e apresentação",
+      "prerequisites": "Conhecimentos de Base Recomendados: Marketing, Estratégia, Recursos Humanos, Gestão das operações, Contabilidade e Finanças",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/93363/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "a9b3421ff0e3206ebf6dff261d6cf9a9e1672910c107fbffceb22470ccc8c682",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (i-v), Programa (modalidades PE/PA/PI), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 12.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 12,0 ECTS, sem horas de contacto; o trabalho decorre em grupo com reuniões de acompanhamento. Código interno: 01021158."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Projeto e gestão de projetos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (modalidades projeto empresarial, aplicado e de investigação), Resultados de Aprendizagem i-v, Métodos de Ensino e Bibliografia",
+      "note": "O estudante executa um projeto (plano de trabalho, relatórios, calendário), mas não há ensino de conceitos ou métodos de gestão de projetos."
+    },
+    {
+      "brTopic": "Estruturas orientadas para projetos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino"
+    },
+    {
+      "brTopic": "Gestão do escopo do projeto",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino",
+      "note": "O objetivo iv ('definir objetivos e formular estratégias') refere-se ao problema da organização estudada, não ao escopo como área de conhecimento."
+    },
+    {
+      "brTopic": "Gestão de Tempo a. PERT-CPM",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino",
+      "note": "O 'calendário pré-definido' é o calendário de entregas da UC, não ensino de cronogramação."
+    },
+    {
+      "brTopic": "Gestão de Custos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino"
+    },
+    {
+      "brTopic": "Gestão dos Recursos Humanos do Projeto",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino",
+      "note": "O objetivo iii ('trabalhar em equipa') é uma competência transversal, não a gestão da equipe de projeto."
+    },
+    {
+      "brTopic": "Gestão das Comunicações do Projeto",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino",
+      "note": "O objetivo ii ('comunicar eficazmente') é uma competência individual, não um plano de comunicações."
+    },
+    {
+      "brTopic": "Gerenciamento da Qualidade do Projeto a. Ferramentas de qualidade voltadas para projetos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino"
+    },
+    {
+      "brTopic": "Gerenciamento dos Riscos do Projeto",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino"
+    },
+    {
+      "brTopic": "Gestão das Aquisições",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino"
+    },
+    {
+      "brTopic": "Gerenciamento da Integração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino",
+      "note": "'Integrador' no título refere-se à integração dos conhecimentos da licenciatura, não à área de integração do PMBOK."
+    },
+    {
+      "brTopic": "Gestão dos Stakeholders",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Métodos de Ensino",
+      "note": "Os projetos são definidos com entidades externas, mas a gestão de partes interessadas não é conteúdo declarado."
+    },
+    {
+      "brTopic": "O projeto e a sustentabilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa, Resultados de Aprendizagem i-v e Bibliografia (variável por projeto)"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Desenvolvimento de projeto empresarial, aplicado ou de iniciação à investigação com entidades externas", "location": "Programa"},
+    {"topic": "Recolha, análise e interpretação de dados; diagnóstico e planos de implementação", "location": "Resultados de Aprendizagem i e iv"}
+  ],
+  "competencies": {
+    "brazil": "A ementa fala em métodos de gerenciamento de projetos segundo o PMI, cronograma no MS Project, valor agregado, riscos, aquisições com AHP, portfólio e métodos ágeis.",
+    "foreign": ["Recolher e interpretar dados", "Comunicar oralmente e por escrito", "Trabalhar em equipa", "Diagnosticar e formular estratégias e planos de implementação", "Abordar problemas de forma multidisciplinar"],
+    "convergences": ["Ambas envolvem trabalho orientado a um projeto concreto"],
+    "differences": ["Coimbra é um projeto final integrador da licenciatura (capstone), sem conteúdo de gestão de projetos", "Mackenzie ensina as áreas de conhecimento do PMI, ferramentas e métodos ágeis"]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano (último da licenciatura); Mackenzie na 7ª etapa",
+    "brazil": "Componente de 63,3 h com treze itens técnicos de gestão de projetos",
+    "foreign": "UC de 12 ECTS de desenvolvimento autónomo de projeto em grupo, com orientação docente",
+    "theoryPractice": "Coimbra é essencialmente prática (projeto, workshops, palestras); Mackenzie combina métodos e estudos de caso"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json: não coincidiria com 2027.2 se mantido",
+    "language": "Português ou inglês",
+    "enrolment": "UC final obrigatória que pressupõe a formação da licenciatura e projetos com entidades externas; a aceitação de intercambista é incerta. Coimbra admite pedidos de mobilidade entre ciclos e faculdades, sujeitos à aprovação dos coordenadores.",
+    "prerequisites": "Marketing, Estratégia, RH, Operações, Contabilidade e Finanças recomendados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Projeto Integrador é o projeto final da licenciatura em Gestão de Coimbra: o estudante executa um projeto, mas não aprende gestão de projetos. Nenhum dos treze itens PMI da ementa Mackenzie consta do programa.",
+  "justification": "Os treze itens oficiais (escopo, tempo/PERT-CPM, custos, RH, comunicações, qualidade, riscos, aquisições, integração, stakeholders, sustentabilidade, estruturas e conceitos) não foram encontrados no programa nem nos cinco resultados de aprendizagem, que tratam de dados, comunicação, trabalho em equipa, diagnóstico e multidisciplinaridade. O título 'Projeto' e o acompanhamento por plano de trabalho e relatórios não equivalem ao ensino de métodos de gestão: baixa afinidade. As horas não são comparáveis (12 ECTS, sem horas de contacto), e a oferta no 2º semestre pesa contra 2027.2.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Página oficial clara sobre a natureza da UC; os conteúdos variam por projeto, mas nenhuma modalidade declara ensino de gestão de projetos. Ficha brasileira sem ano.",
+  "limitations": [
+    "Conteúdos definidos por projeto e bibliografia variável; o programa não detalha temas",
+    "12 ECTS sem horas de contacto; semestre não confirmado na página; oferta 2027/28 não confirmada",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Há em Coimbra (Gestão ou outra faculdade) uma UC específica de gestão de projetos aberta a mobilidade?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item da ementa procurado no Programa e nos Resultados de Aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Ausência de conteúdo de gestão de projetos evidente no programa oficial"}
+}

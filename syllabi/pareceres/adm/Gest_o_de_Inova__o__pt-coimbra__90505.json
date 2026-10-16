@@ -1,0 +1,161 @@
+{
+  "id": "adm|Gestão de Inovação|pt-coimbra|90505",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Inovação",
+    "name": "Gestão de Inovação",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso; a ficha intitula o componente 'Gestão da Inovação'",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 3, bloco 'Gestão da Inovação': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h (componente de meia carga). Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fatores fundamentais na gestão da inovação",
+      "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "A inovação como um processo de gestão e mecanismos de implantação",
+      "Modelo de estratégia de inovação",
+      "Ecossistema de Inovação",
+      "Avaliação e desempenho da inovação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "90505",
+      "name": "Inovação e Gestão do Conhecimento",
+      "pageCode": "01019521",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não indica duração nem semestre; data.json: 'Semestral'",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/90505/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "779aec50a7dacfd92657b7f5e4862f4381c3287cfde13704d55ec04219d47c08",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (blocos Inovação e Gestão do Conhecimento), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto nem duração."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fatores fundamentais na gestão da inovação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'fatores, pré-condições e barreiras à inovação; gestão da inovação'",
+      "foreignLocation": "Programa, bloco Inovação"
+    },
+    {
+      "brTopic": "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'perspetivas, classificações e o processo de inovação; principais teorias da inovação'",
+      "foreignLocation": "Programa, bloco Inovação",
+      "note": "Teorias e classificações presentes; características da organização inovadora não nomeadas."
+    },
+    {
+      "brTopic": "A inovação como um processo de gestão e mecanismos de implantação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'o processo de inovação'; 'gestão da inovação'; aplicação 'no desenvolvimento de soluções inovadoras'",
+      "foreignLocation": "Programa, bloco Inovação; Métodos de Ensino"
+    },
+    {
+      "brTopic": "Modelo de estratégia de inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (blocos Inovação e Gestão do Conhecimento), Resultados de Aprendizagem, Bibliografia",
+      "note": "Goffin & Mitchell ('effective strategy and implementation') consta da bibliografia, o que não comprova conteúdo lecionado."
+    },
+    {
+      "brTopic": "Ecossistema de Inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (blocos Inovação e Gestão do Conhecimento), Resultados de Aprendizagem, Bibliografia",
+      "note": "O programa trata 'inovação em alguns sectores da atividade económica' e importância económica, não ecossistemas."
+    },
+    {
+      "brTopic": "Avaliação e desempenho da inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (blocos Inovação e Gestão do Conhecimento), Resultados de Aprendizagem, Bibliografia"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Gestão do Conhecimento: aspetos conceptuais, campos de utilização, ferramentas e novas tecnologias", "location": "Programa, bloco Gestão do Conhecimento"},
+    {"topic": "Importância económica da inovação e inovação setorial", "location": "Programa, bloco Inovação"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos de inovação e inovação como processo de gestão nas organizações.",
+    "foreign": ["Atuar como agente promotor da inovação", "Atualizar conhecimento setorial com modelos de inovação e gestão do conhecimento", "Recolher, organizar e analisar criticamente conteúdos e comunicar propostas de criação de valor"],
+    "convergences": ["Conceitos, teorias e processo de inovação"],
+    "differences": ["Coimbra dedica cerca de metade do programa à gestão do conhecimento", "Estratégia de inovação, ecossistema e métricas de desempenho, presentes no Mackenzie, não aparecem em Coimbra"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano (opcional), Mackenzie na 6ª etapa",
+    "brazil": "Componente curto (31,7 h) focado em inovação",
+    "foreign": "UC opcional de 6 ECTS que divide o programa entre inovação e gestão do conhecimento",
+    "theoryPractice": "Coimbra: palestras, audiovisuais, casos e discussão"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; precisa de confirmação para 2027.2",
+    "language": "Português",
+    "enrolment": "UC opcional; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Inovação e Gestão do Conhecimento cobre a parte conceitual da ficha Mackenzie (fatores, teorias e processo de inovação), mas não trata estratégia de inovação, ecossistemas nem avaliação de desempenho, e gasta parte do programa em gestão do conhecimento, tema ausente da ficha brasileira.",
+  "justification": "Dos seis tópicos, dois estão cobertos (fatores e barreiras; processo e gestão da inovação), um é parcial (teorias e classificações sem a organização inovadora) e três não aparecem (estratégia, ecossistema, desempenho). Coberto+parcial = 3/6 (50%), exatamente no limiar da afinidade parcial. Em sentido inverso, os 6 ECTS sugerem volume de trabalho superior às 31,7 h brasileiras, mas sem horas de contacto declaradas nada é comparado.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa em prosa corrida de dois parágrafos, sem itemização nem semestre; ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Horas de contacto e semestre não declarados; 6 ECTS não convertidos",
+    "Programa pouco detalhado (dois blocos em texto corrido)",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso; nome na ficha ('Gestão da Inovação') difere ligeiramente da matriz",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita a ausência de estratégia de inovação e de métricas de desempenho, dado que o componente brasileiro tem só 31,7 h?",
+    "Em que semestre 90505 é oferecida em 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "93309", "name": "História da Empresa e da Inovação", "relation": "Título relacionado; programa não lido neste parecer"},
+    {"code": "93362", "name": "Empreendedorismo e Criação de Empresas", "relation": "Título relacionado (2º semestre segundo data.json); programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado ao bloco do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Cobertura no limiar de 50% e programa estrangeiro pouco detalhado"}
+}

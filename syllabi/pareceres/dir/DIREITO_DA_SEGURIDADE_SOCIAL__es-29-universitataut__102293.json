@@ -1,0 +1,193 @@
+{
+  "id": "dir|DIREITO DA SEGURIDADE SOCIAL|es-29-universitataut|102293",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DA SEGURIDADE SOCIAL",
+    "name": "Direito da Seguridade Social",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 50, bloco 'DIREITO DA SEGURIDADE SOCIAL' (7ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica, não confirma a matriz vigente."
+    },
+    "topics": [
+      "Análise do sistema de seguridade social brasileiro: evolução histórica, subsistemas de saúde, de assistência e de previdência social",
+      "Princípios",
+      "Financiamento",
+      "Saúde: pressupostos constitucionais e principais aspectos da lei orgânica da saúde",
+      "Assistência social: pressupostos constitucionais, BPC e outras políticas assistenciais",
+      "Previdência social: conceitos fundamentais, pressupostos constitucionais, regimes previdenciários, plano de benefício do RGPS, financiamento e processo administrativo",
+      "Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais",
+      "Previdência complementar: pressupostos constitucionais e normas gerais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102293",
+      "name": "Dret de la Seguretat Social",
+      "faculty": "Facultat de Dret",
+      "programme": "Grau en Dret (itinerário de Empresa, segundo a secção Objectius)",
+      "level": "Grau (1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 1,
+      "period": "Primer quadrimestre (grupo 51, turno de tarde), segundo a tabela 'Grups i idiomes'",
+      "academicYear": "2026/2027",
+      "language": "Espanhol no grupo 51 (teoria e práticas de aula); informação provisória até 30 de novembro",
+      "courseStatus": "OP (optativa)",
+      "assessment": "Avaliação contínua das três atividades práticas 50% + exame final teórico 50% com nota mínima 5/10; reavaliação e avaliação única previstas; assistência obrigatória às aulas práticas",
+      "prerequisites": "Recomendado ter cursado Dret del Treball i de la Seguretat Social I e II",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102293/ca",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "sha256": "506a5f7758e1b5b00894e0d83c5da0202a3857ad74c2712ab5919e193c5dd21d",
+      "location": "Guia docent 2026/2027: Prerequisits, Objectius, Continguts (Temes 1-9), Activitats formatives, Avaluació, Bibliografia, Grups i idiomes",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A tabela de atividades lista 'Dirigida': classes magistrals 22 h e classes pràctiques 22 h; 'Autònoma': 18 + 50 + 20 + 18 h. O guia não qualifica expressamente as horas dirigidas como horas de contacto semestrais; mantidas fora de contactTotal."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Análise do sistema de seguridade social brasileiro: evolução histórica, subsistemas de saúde, de assistência e de previdência social",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'De les assegurances socials a la Seguretat Social. El concepte de risc social'; níveis contributivo e não contributivo; assistência sanitária e assistência social",
+      "foreignLocation": "Continguts, Tema 1 item 0; Tema 2 itens 2 e 4.3; Tema 5 item 1",
+      "note": "Evolução e estrutura do sistema espanhol. O desenho tripartite saúde/assistência/previdência da Constituição de 1988 (art. 194) não é objeto da UC."
+    },
+    {
+      "brTopic": "Princípios",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Concepte de Dret de la Seguretat Social i els seus principis informadors'",
+      "foreignLocation": "Continguts, Tema 1, item 1.2",
+      "note": "Princípios do ordenamento espanhol; universalidade, seletividade, equidade no custeio e demais princípios constitucionais brasileiros não são tratados."
+    },
+    {
+      "brTopic": "Financiamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelos de financiamento; financiamento dos níveis não contributivo e contributivo; cotização: bases, tipos e responsabilidades empresariais",
+      "foreignLocation": "Continguts, Tema 3 itens 1.1-1.3; Tema 4 item 4",
+      "note": "Os conceitos de financiamento transferem-se; as contribuições sociais brasileiras (art. 195 CF) não."
+    },
+    {
+      "brTopic": "Saúde: pressupostos constitucionais e principais aspectos da lei orgânica da saúde",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Alteració de la salut': conceito, beneficiários, prestações de assistência sanitária, gestão",
+      "foreignLocation": "Continguts, Tema 5, item 1 (1.1-1.4)",
+      "note": "A UAB trata a assistência sanitária como prestação do sistema espanhol; a Lei 8.080/1990 (SUS) e o art. 196 CF não têm equivalente no programa."
+    },
+    {
+      "brTopic": "Assistência social: pressupostos constitucionais, BPC e outras políticas assistenciais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Prestações não contributivas: pensões de invalidez e de reforma não contributivas, ingrés mínim vital, proteção da dependência; serviços sociais e assistência social",
+      "foreignLocation": "Continguts, Tema 9 itens 1.1-2.4; Tema 2 item 4.3",
+      "note": "As pensões não contributivas espanholas têm função análoga ao BPC (Lei 8.742/1993), mas o regime jurídico é outro."
+    },
+    {
+      "brTopic": "Previdência social: conceitos fundamentais, pressupostos constitucionais, regimes previdenciários, plano de benefício do RGPS, financiamento e processo administrativo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Règim General: afiliação, cotização; incapacidade temporária e permanente, nascimento, reforma, morte e sobrevivência, família, desemprego; regimes especiais; entidades gestoras",
+      "foreignLocation": "Continguts, Temes 4-8; Tema 3 item 2",
+      "note": "Bloco mais extenso da UC, porém sobre o Regime Geral espanhol (LGSS), não o RGPS da Lei 8.213/1991; o processo administrativo aparece só como 'gestió i dinàmica de les prestacions'."
+    },
+    {
+      "brTopic": "Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Continguts, Temes 1-9 (em especial Tema 2 item 3.2 e Tema 8 'Règims especials': conceito, tipologia e gestão), Objectius e Resultats d'aprenentatge",
+      "note": "O Tema 8 trata regimes especiais em termos genéricos; o guia não menciona funcionários públicos nem regime de classes passivas."
+    },
+    {
+      "brTopic": "Previdência complementar: pressupostos constitucionais e normas gerais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Acció protectora complementària: ... millores voluntàries'; objetivo de diferenciar prestações públicas das dispensadas 'des de la previsió empresarial'",
+      "foreignLocation": "Continguts, Tema 2 item 4.3; Objectius, 4º objetivo",
+      "note": "Melhorias voluntárias e previsão empresarial, sem regime de entidades de previdência complementar (art. 202 CF, LC 108 e 109/2001)."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Competências autonómicas e internacionalização: normas europeias e convénios internacionais de Seguridade Social", "location": "Continguts, Tema 1 itens 2-3"},
+    {"topic": "Atos de enquadramento: inscrição de empresas, afiliação, altas e baixas", "location": "Continguts, Tema 4 itens 2-3"},
+    {"topic": "Perspetiva de género: brecha de pensões e complemento para redução da brecha", "location": "Continguts, Tema 1 item 1.3; Tema 6 item 1.4"}
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 lista conteúdos; não declara competências.",
+    "foreign": [
+      "Identificar conceito, objeto, fontes e competências estatais, autonómicas e europeias em Seguridade Social",
+      "Identificar obrigações empresariais de inscrição, afiliação e cotização",
+      "Distinguir contingências profissionais e comuns e as prestações do sistema"
+    ],
+    "convergences": ["Estrutura contributiva e não contributiva", "Financiamento e prestações previdenciárias", "Assistência social não contributiva"],
+    "differences": [
+      "Todo o regime positivo estudado é o espanhol (LGSS), não a CF 1988 nem as Leis 8.212 e 8.213/1991",
+      "Saúde aparece como prestação do sistema, não como sistema universal autónomo (SUS)",
+      "UAB enfatiza obrigações empresariais (itinerário de Empresa); regime próprio de servidores ausente"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UAB no 4º curso (optativa), Mackenzie na 7ª etapa (obrigatória)",
+    "brazil": "2 horas-aula semanais; ementa com oito eixos do sistema brasileiro",
+    "foreign": "6 ECTS com 9 temas detalhados e três atividades práticas avaliáveis",
+    "theoryPractice": "UAB divide as horas dirigidas igualmente entre aulas magistrais e práticas (22 + 22 h); ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "Primeiro quadrimestre (setembro a janeiro); sobrepõe-se ao período 2027.2, mas avaliações podem estender-se a janeiro",
+    "language": "Espanhol (grupo 51), sujeito a confirmação após 30 de novembro",
+    "enrolment": "Optativa de 4º curso do Grau en Dret; aceitação de estudante de mobilidade não verificada",
+    "prerequisites": "Recomenda Dret del Treball i de la Seguretat Social I e II; estudante da 7ª etapa já terá cursado Direito Individual do Trabalho",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dret de la Seguretat Social percorre os mesmos grandes eixos da ementa Mackenzie (evolução, princípios, financiamento, saúde, assistência, previdência e proteção complementar), mas sempre pelo ordenamento espanhol; o regime próprio dos servidores públicos não aparece.",
+  "justification": "Sete dos oito tópicos essenciais têm correspondência parcial e um não foi encontrado (regime próprio dos servidores). Nenhum é marcado como coberto porque a ementa Mackenzie é construída sobre institutos brasileiros (art. 194-202 da CF 1988, Lei Orgânica da Saúde, BPC, RGPS), enquanto a UAB ensina o Règim General espanhol, as prestações não contributivas e as 'millores voluntàries'. A razão coberto+parcial é 7/8 (87,5%), o que conduz a afinidade parcial pela regra interna. As horas não são comparáveis: o ementário 2022 informa 2 h-a semanais e a UAB 6 ECTS, com 44 h de atividades dirigidas não qualificadas como contacto. A transferência é sobretudo conceitual (estrutura contributiva/assistencial, financiamento, contingências).",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia docente UAB completo e itemizado; a ementa brasileira é de 2022 (histórica), em horas-aula semanais, e pode não refletir a matriz vigente.",
+  "limitations": [
+    "Ementário Mackenzie 2022 é histórico; o texto pode não corresponder à matriz vigente",
+    "Horas não comparáveis: 2 h-a semanais contra 6 ECTS; ECTS não convertidos",
+    "Ordenamentos distintos: o direito positivo brasileiro de seguridade não é coberto pela UC espanhola",
+    "Oferta 2027/28, grupo em espanhol e vaga para intercambista em optativa de 4º curso não confirmados",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de Direito aceita estudo do sistema espanhol como cobertura parcial de Seguridade Social, exigindo complementação sobre CF 1988 e RGPS?",
+    "Qual é a ementa vigente de Direito da Seguridade Social na matriz atual de Alphaville?",
+    "A UAB abre a optativa 102293 a estudantes de mobilidade no primeiro quadrimestre de 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "102292", "name": "Dret del Treball i de la Seguretat Social I", "relation": "3º curso; programa não lido neste parecer"},
+    {"code": "102291", "name": "Dret del Treball i de la Seguretat Social II", "relation": "3º curso; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e do guia docente UAB 2026/2027 (catalão) com apoio de IA (Claude); cada tópico vinculado a tema e item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Comparação entre sistemas jurídicos nacionais distintos e ementa brasileira histórica"}
+}

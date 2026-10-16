@@ -1,0 +1,150 @@
+{
+  "id": "adm|Marketing II|es-26-universidaddej|11911003",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-26-universidaddej",
+      "university": "Universidad de Jaén",
+      "code": "11911003",
+      "name": "Fundamentos de marketing",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U136 - Organización de Empresas, Marketing y Sociología (área 095 Comercialización e Investigación de Mercados)",
+      "programme": "Doble Grado en Administración y Dirección de Empresas y Finanzas y Contabilidad (titulación impressa na guia)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Segundo cuatrimestre (fevereiro–junho no calendário espanhol)",
+      "academicYear": "2025/2026",
+      "language": "Español",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Exame escrito 70% (mínimo de 50% na prova) + tarefas obrigatórias 30%",
+      "prerequisites": "Nenhum declarado",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911003/es/2025-26-11911003_es.html",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "sha256": "0554eb55ac1a6e229866b9e1aa257506055646a1459ba90b8d68e7c89d3a4c9c",
+      "location": "Guía docente 2025-26: Resumen RUCT, Competencia C12, Descripción de contenidos (Partes I-III, Temas 1-6 com subitens), Actividades formativas, Sistemas de evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A1a 112,50 h e A2a 37,50 h com 40% de presencialidade; não há total presencial nem ECTS declarados. Nenhuma hora foi derivada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "6.1 'Producto: concepto de producto, clasificación de productos y componentes del producto'",
+      "foreignLocation": "Parte III, Tema 6, subitem 6.1",
+      "note": "Um único subitem; a gestão de serviços e o ciclo de vida não são nomeados."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "6.2 'El precio como instrumento de marketing'",
+      "foreignLocation": "Parte III, Tema 6, subitem 6.2",
+      "note": "Tratado como um subitem introdutório; não há métodos nem estratégias de preço."
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "6.3 'Distribución comercial: canal de distribución e intermediarios'",
+      "foreignLocation": "Parte III, Tema 6, subitem 6.3"
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "6.4 'Comunicación integrada de marketing y el mix de comunicación'; 6.5 'Marketing on line'",
+      "foreignLocation": "Parte III, Tema 6, subitens 6.4-6.5"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Natureza, dimensões e evolução do marketing; novas tendências", "location": "Tema 1"},
+    {"topic": "Marketing estratégico e operativo; planejamento estratégico de marketing", "location": "Tema 2"},
+    {"topic": "Mercado, macro e microentorno, marketing global", "location": "Tema 3"},
+    {"topic": "Comportamento do consumidor e das organizações", "location": "Tema 4"},
+    {"topic": "Segmentação, mercado-alvo e posicionamento", "location": "Tema 5"}
+  ],
+  "competencies": {
+    "brazil": "A ementa trata a administração de bens e serviços e as estratégias de preço, comunicação e distribuição para gerar valor ao cliente e à empresa.",
+    "foreign": ["C12 Conhece os conceitos básicos de Marketing"],
+    "convergences": ["As quatro variáveis do composto de marketing são nomeadas"],
+    "differences": ["Em Jaén, o composto ocupa um tema de seis, em nível introdutório; Marketing II dedica todo o semestre a ele", "Os temas 1-5 de Jaén (conceito, entorno, consumidor, segmentação e posicionamento) correspondem ao escopo de um primeiro curso de marketing"]
+  },
+  "depth": {
+    "level": "Jaén no 1º curso (asignatura básica); Mackenzie na 4ª etapa, segunda disciplina de marketing",
+    "brazil": "Semestre de 63,3 h dedicado à definição das estratégias de produto, preço, distribuição e comunicação",
+    "foreign": "Introdução geral ao marketing; o mix aparece só como visão de conjunto no tema 6",
+    "theoryPractice": "Jaén: aulas expositivas, prática por casos e debates; tarefas valem 30%"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre: não coincide com 2027.2 se o calendário for mantido",
+    "language": "Espanhol; o edital exige B2",
+    "enrolment": "Asignatura básica de 1º curso do duplo grau; acesso de intercambista não verificado",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Fundamentos de marketing nomeia os quatro eixos de Marketing II (produto, preço, distribuição e comunicação), mas só nos subitens 6.1-6.5 de um tema introdutório; o resto da asignatura trata o conteúdo de um primeiro curso de marketing.",
+  "justification": "Os quatro itens oficiais aparecem, cada um em um único subitem do tema 6, e foram marcados como parciais: a regra dá 4/4 (100%) e afinidade parcial. Em proporção, porém, o composto ocupa um dos seis temas da guia, enquanto Marketing II gasta as 63,3 h inteiras em estratégias de produto, preço, praça e promoção; não há preço como estratégia, gestão de serviços nem decisões de canal. As horas não são comparáveis (150 h de atividades com 40% de presencialidade, sem total presencial ou ECTS), e a oferta no segundo cuatrimestre não coincide com 2027.2.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Todos os itens aparecem só como subitens introdutórios de um único tema (cerca de um sexto do temário), sem a profundidade estratégica que Marketing II exige; a parcialidade nominal superestima a compatibilidade de conteúdo.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Temário oficial detalhado em subitens; faltam ECTS e horas presenciais, a guia é de 2025-26 e a ficha brasileira não tem ano.",
+  "limitations": [
+    "Oferta 2027/28 e acesso de intercambista não confirmados; a guia é de 2025-26",
+    "Ficha brasileira sem ano impresso e com conteúdo programático de só quatro itens; vigência não confirmada",
+    "ECTS e total de horas presenciais não declarados",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Dirección de marketing I, II ou III de Jaén aprofundam o composto de marketing e são oferecidas no primer cuatrimestre?"
+  ],
+  "alternatives": [
+    {"code": "11912003", "name": "Dirección de marketing I", "relation": "Provável aprofundamento do composto; programa não lido neste parecer"},
+    {"code": "11912011", "name": "Dirección de marketing II", "relation": "Idem; programa não lido"},
+    {"code": "11912026", "name": "Dirección de marketing III", "relation": "Idem; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); itens vinculados aos subitens do tema 6; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Descompasso de profundidade evidente no próprio temário"}
+}

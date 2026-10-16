@@ -1,0 +1,152 @@
+{
+  "id": "adm|Marketing II|pt-coimbra|80046",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": null,
+    "documentTitle": "Ficha de disciplina CCSA do 4º semestre de Administração (Etapa_4_02.pdf), vinculada pelo link '4º Semestre' da matriz oficial de Alphaville; cabeçalho do campus São Paulo, sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h no semestre; vigência para a matriz atual de Alphaville não confirmada."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "80046",
+      "name": "Marketing Relacional",
+      "pageCode": "01010114",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Página não indica duração nem semestre; data.json indica 'Semestral'",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Sem pré-requisitos formais; conhecimentos de Marketing considerados importantes",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/80046/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "9761d5057226855579e05ebf86efac63003befb3ef2930ab23def8bd45311b86",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa I-V, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-V, Resultados de Aprendizagem e Bibliografia",
+      "note": "O item 'Serviços' do Programa II trata o marketing relacional dirigido a serviços, não a gestão de bens e serviços (produto, ciclo de vida, marca)."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-V, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Uma estratégia Omnichannel'; 'Gerir múltiplos touchpoints'",
+      "foreignLocation": "Programa V",
+      "note": "Integração de canais na jornada do cliente; estrutura de canais, intermediários e logística não aparecem."
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Gestão de touchpoints e 'Converter leads em negócio'; papel do CRM",
+      "foreignLocation": "Programa IV e V",
+      "note": "Comunicação relacional com o cliente; o mix de comunicação (publicidade, promoção, relações públicas) não é tratado."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Lealdade: essência, benefícios e custos da rotação de clientes", "location": "Programa I"},
+    {"topic": "Marketing relacional em B2B, B2C e serviços", "location": "Programa II"},
+    {"topic": "Segmentação da carteira de clientes relacionais", "location": "Programa III"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e definição das estratégias de preço, comunicação e distribuição para gerar valor superior ao cliente e à empresa.",
+    "foreign": [
+      "Visão de marketing assente em relações duradouras e reciprocamente vantajosas",
+      "Construção de carteira de clientes lucrativa de longo prazo"
+    ],
+    "convergences": ["Geração de valor para cliente e empresa", "Canais e pontos de contacto com o cliente"],
+    "differences": [
+      "Marketing II Mackenzie é estruturado nos 4P; Coimbra não trata produto nem preço",
+      "Coimbra concentra-se em lealdade, CRM e jornada do cliente"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano (optativa); Mackenzie no 4º semestre",
+    "brazil": "Componente de 63,3 h dedicado às decisões do composto de marketing",
+    "foreign": "UC de 6 ECTS especializada em marketing relacional",
+    "theoryPractice": "Coimbra é interativa, com grupos que apresentam casos do dia e comentam temas; a ficha Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; data.json indica apenas 'Semestral'",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC optativa do plano de Gestão",
+    "prerequisites": "Conhecimentos de Marketing considerados importantes; aluno da 4ª etapa já cursou Marketing I",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Para Marketing II, Marketing Relacional toca apenas distribuição e comunicação pelo prisma omnichannel e dos touchpoints; produto/serviço e preço, metade dos 4P da ficha Mackenzie, não aparecem no programa.",
+  "justification": "Dos quatro tópicos oficiais, dois são parciais (distribuição e comunicação via estratégia omnichannel, touchpoints e CRM, Programa IV-V) e dois não foram encontrados (bens e serviços; preço). Coberto+parcial = 2/4 (50%), cobertos = 0/4. A regra interna aceitaria afinidade parcial no limite, mas o eixo da UC estrangeira é lealdade e retenção de clientes, não o composto de marketing. A página indica 6 ECTS sem horas de contacto; as 63,3 h não são comparáveis.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Os dois tópicos parciais são tangenciais (canais e contactos na jornada do cliente), sem nenhuma unidade sobre decisões de produto, preço, canal ou mix de comunicação; contar 50% de parciais superestimaria a correspondência.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Página oficial 2026-2027 com programa em cinco capítulos; faltam horas de contacto e semestre, e a ficha Mackenzie não tem vigência confirmada.",
+  "limitations": [
+    "Oferta 2027/28 e semestre não confirmados; UC optativa pode não abrir",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UC Marketing (18803) ou Gestão de Marcas (93364) de Coimbra cobre o composto de marketing?"
+  ],
+  "alternatives": [
+    {"code": "18803", "name": "Marketing", "relation": "Candidata mais provável para o composto de marketing; programa não lido neste parecer"},
+    {"code": "93364", "name": "Gestão de Marcas", "relation": "Poderia cobrir parte de produto/marca; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado ao capítulo do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Ausência de produto e preço é inequívoca no programa estrangeiro"}
+}

@@ -1,0 +1,218 @@
+{
+  "id": "adm|Gestão de Operações|pt-coimbra|18633",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Operações",
+    "name": "Gestão de Operações",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": null,
+    "documentTitle": "Ficha de disciplina CCSA do 5º semestre de Administração (Etapa_5_02.pdf), vinculada pelo link '5º Semestre' da matriz oficial de Alphaville; cabeçalho do campus São Paulo, sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 3, bloco 'Gestão de Operações': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h no semestre; vigência para a matriz atual de Alphaville não confirmada."
+    },
+    "topics": [
+      "Introdução à gestão de operações",
+      "Estratégia de produção e operações",
+      "Pacotes de valor",
+      "Indicadores de desempenho",
+      "Projeto de produto e seleção de processos",
+      "Tipos e seleção de Arranjo físico (layout)",
+      "Gestão da Capacidade",
+      "Teoria das Restrições",
+      "Planejamento Mestre de Produção e Operações (PMP)",
+      "Cálculo da Necessidade de Materiais (MRP)",
+      "Sequenciamento, Programação e Controle de Operações",
+      "Confiabilidade de processos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18633",
+      "name": "Gestão de Operações",
+      "pageCode": "01620084",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Matemática para Economia e Gestão I e Estatística para Economia e Gestão I",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/18633/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "9f863dc8bb2ea7045c135db82578250b7ba09d16336c4024ade1da6bac79313c",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem 1-4 (com pesos), Programa 1-9 com subitens, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução à gestão de operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1. Introdução'; resultado 1 'Compreender e aplicar os conceitos fundamentais da gestão de operações (20%)'",
+      "foreignLocation": "Programa 1; Resultados de Aprendizagem 1"
+    },
+    {
+      "brTopic": "Estratégia de produção e operações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-9 com subitens, Resultados de Aprendizagem 1-4 e Bibliografia",
+      "note": "A Introdução não tem subitens; estratégia de operações e critérios competitivos não são nomeados."
+    },
+    {
+      "brTopic": "Pacotes de valor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-9 com subitens, Resultados de Aprendizagem 1-4 e Bibliografia"
+    },
+    {
+      "brTopic": "Indicadores de desempenho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Medição e gestão de desempenho organizacional'; resultado 4 'Medir e interpretar indicadores de desempenho organizacional'",
+      "foreignLocation": "Programa 9; Resultados de Aprendizagem 4"
+    },
+    {
+      "brTopic": "Projeto de produto e seleção de processos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-9 com subitens, Resultados de Aprendizagem 1-4 e Bibliografia",
+      "note": "O resultado 4 fala em 'analisar e melhorar os processos produtivos', não em projeto de produto ou escolha do tipo de processo."
+    },
+    {
+      "brTopic": "Tipos e seleção de Arranjo físico (layout)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-9 com subitens, Resultados de Aprendizagem 1-4 e Bibliografia"
+    },
+    {
+      "brTopic": "Gestão da Capacidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Planeamento agregado da produção': características do processo de planeamento e técnicas",
+      "foreignLocation": "Programa 3",
+      "note": "O planeamento agregado ajusta produção à capacidade, mas opções estratégicas de capacidade e gargalos não são nomeados."
+    },
+    {
+      "brTopic": "Teoria das Restrições",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-9 com subitens (incluindo 6, sequências de fabrico), Resultados de Aprendizagem 1-4 e Bibliografia"
+    },
+    {
+      "brTopic": "Planejamento Mestre de Produção e Operações (PMP)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Planeamento agregado da produção' e 'Sistemas de planeamento de produtos e materiais'",
+      "foreignLocation": "Programa 3 e 5; Resultados de Aprendizagem 2",
+      "note": "O plano mestre (MPS) não é nomeado, embora integre normalmente os sistemas de planeamento de materiais."
+    },
+    {
+      "brTopic": "Cálculo da Necessidade de Materiais (MRP)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Sistemas de planeamento de produtos e materiais'; resultado 3 'Gerir o inventário e o planeamento de materiais' (30%)",
+      "foreignLocation": "Programa 5; Resultados de Aprendizagem 3"
+    },
+    {
+      "brTopic": "Sequenciamento, Programação e Controle de Operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Fatores da sequência de fabrico, algoritmos para determinação das sequências e problema de afetação de encomendas",
+      "foreignLocation": "Programa 6"
+    },
+    {
+      "brTopic": "Confiabilidade de processos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Controlo estatístico de qualidade': gráficos de controlo, capacidade de um processo, controlo por amostragem",
+      "foreignLocation": "Programa 8",
+      "note": "Capacidade e controlo estatístico tratam a estabilidade do processo; confiabilidade em sentido estrito (falhas, manutenção) não aparece."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Previsão da procura: modelos e indicadores de erro", "location": "Programa 2; Resultados 2"},
+    {"topic": "Gestão de stocks e modelos de aprovisionamento", "location": "Programa 4; Resultados 3"},
+    {"topic": "Planeamento e controlo de projetos com PERT/CPM", "location": "Programa 7"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel estratégico de operações, diferença produtos/serviços, critérios competitivos e desempenho, projeto de produto e processo, layout, capacidade e gargalos, PMP, MRP, sequenciamento e controle.",
+    "foreign": [
+      "Aplicar conceitos fundamentais de gestão de operações",
+      "Usar técnicas quantitativas de previsão, planeamento e stocks",
+      "Gerir inventário e planeamento de materiais",
+      "Analisar processos e medir desempenho organizacional"
+    ],
+    "convergences": ["Planeamento de materiais, sequenciamento e medição de desempenho"],
+    "differences": [
+      "Coimbra é quantitativa e de planeamento (previsão, stocks, PERT/CPM, controlo estatístico)",
+      "Mackenzie é mais estratégica e de projeto do sistema: estratégia, pacotes de valor, projeto de produto, layout e teoria das restrições, ausentes em Coimbra"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano, Mackenzie no 5º semestre",
+    "brazil": "Componente de 63,3 h com doze tópicos, da estratégia ao controle de operações",
+    "foreign": "UC de 6 ECTS com nove capítulos e forte componente quantitativa (pré-requisitos de matemática e estatística)",
+    "theoryPractice": "Coimbra: aulas teóricas e práticas com exemplos empresariais; a ficha Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json; coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; UC do plano de Gestão",
+    "prerequisites": "Matemática e Estatística para Economia e Gestão I; aluno da 5ª etapa já cursou estatística e matemática",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Gestão de Operações de Coimbra cobre a metade de planeamento e controle da ficha Mackenzie (MRP, sequenciamento, desempenho e, em parte, capacidade, PMP e qualidade do processo), mas não a metade estratégica e de projeto do sistema produtivo: estratégia, pacotes de valor, projeto de produto, layout e teoria das restrições.",
+  "justification": "Dos doze tópicos oficiais, quatro estão cobertos (introdução, indicadores no capítulo 9, MRP no capítulo 5, sequenciamento no capítulo 6), três parciais (capacidade via planeamento agregado, PMP não nomeado, confiabilidade via controlo estatístico do capítulo 8) e cinco não encontrados. Coberto+parcial = 7/12 (58%), cobertos 4/12 (33%). A página informa 6 ECTS sem horas de contacto, logo as 63,3 h Mackenzie não são comparáveis. A UC acrescenta previsão da procura, stocks e PERT/CPM, que ampliam mas não substituem o bloco estratégico ausente.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa com subitens e resultados ponderados na página oficial 2026-2027; faltam horas de contacto, o semestre só consta do data.json e a ficha Mackenzie não tem vigência confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; 1º semestre segundo data.json",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Capítulo introdutório sem subitens: estratégia de operações pode ser tratada sem constar da página",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita cobertura limitada ao planeamento e controle, sem layout, projeto de processo e teoria das restrições?",
+    "O capítulo 1 de Coimbra inclui estratégia de operações e critérios competitivos?"
+  ],
+  "alternatives": [
+    {"code": "93320", "name": "Gestão da Cadeia de Abastecimento", "relation": "Complementar em operações; programa não lido neste parecer"},
+    {"code": "18098", "name": "Gestão pela Qualidade Total", "relation": "Complementar em qualidade; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado a capítulo e subitem da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Cinco de doze tópicos ausentes; aceitação depende do peso que a coordenação dá ao bloco estratégico"}
+}

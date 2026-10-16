@@ -1,0 +1,176 @@
+{
+  "id": "dir|DIREITO PROCESSUAL DO TRABALHO|pt-coimbra|18800",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO PROCESSUAL DO TRABALHO",
+    "name": "Direito Processual do Trabalho",
+    "courseName": "Direito",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 60, bloco 'DIREITO PROCESSUAL DO TRABALHO' (8ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Análise das regras e fundamentos do sistema processual à luz do Processo do Trabalho, bem como sua relação de subsidiariedade com sistema processual civil",
+      "Apresentação da Justiça do Trabalho, sua organização, estrutura, competência e ritos",
+      "Será feito um estudo reflexivo do Processo Individual do Trabalho, com suas regras e peculiaridades, inclusive em relação ao processo eletrônico trabalhista",
+      "Reflexão sobre a Teoria Geral dos Recursos",
+      "Análise dos Recursos no Processo do Trabalho",
+      "Apresentação da Execução Trabalhista e suas Peculiaridades",
+      "Reflexão sobre as Ações de Procedimentos Especiais",
+      "Estudo das Ações Coletivas",
+      "Discussão sobre as tutelas de urgência e ações e medidas cautelares na Justiça do Trabalho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18800",
+      "name": "Direito do Trabalho",
+      "pageCode": "01620292",
+      "faculty": "Não indicada na página (área científica Direito)",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json e URL); UC destinada a 'estudantes não juristas'",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "data.json indica 'Semestral'; a página não indica duração nem semestre",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: contacto prévio com uma disciplina jurídica introdutória",
+      "source": "https://apps.uc.pt/courses/PT/unit/18800/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "de983ffe4d959703119b380bf322b5ca35dfb25ebfa6c392da9aff7beeaede45",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivo geral, específicos, competências), Programa (I-III), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e aulas teórico-práticas, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Análise das regras e fundamentos do sistema processual à luz do Processo do Trabalho, bem como sua relação de subsidiariedade com sistema processual civil",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I (génese, objeto, fontes), II (relações coletivas) e III (contrato de trabalho), Resultados de Aprendizagem e Bibliografia; nenhum conteúdo processual"
+    },
+    {
+      "brTopic": "Apresentação da Justiça do Trabalho, sua organização, estrutura, competência e ritos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-III e Bibliografia; tribunais do trabalho e sua organização não aparecem"
+    },
+    {
+      "brTopic": "Será feito um estudo reflexivo do Processo Individual do Trabalho, com suas regras e peculiaridades, inclusive em relação ao processo eletrônico trabalhista",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-III, Métodos de Ensino e Bibliografia (Código do Trabalho, não o Código de Processo do Trabalho)",
+      "note": "O Programa III trata o contrato individual de trabalho no plano material, não o processo."
+    },
+    {
+      "brTopic": "Reflexão sobre a Teoria Geral dos Recursos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-III, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Análise dos Recursos no Processo do Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-III, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Apresentação da Execução Trabalhista e suas Peculiaridades",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-III, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Reflexão sobre as Ações de Procedimentos Especiais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-III, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Estudo das Ações Coletivas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa II (contratação coletiva, atores coletivos, greve) e restantes secções",
+      "note": "O Programa II trata relações coletivas no plano material; ações coletivas em juízo não aparecem."
+    },
+    {
+      "brTopic": "Discussão sobre as tutelas de urgência e ações e medidas cautelares na Justiça do Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-III, Resultados de Aprendizagem e Bibliografia"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Génese, objeto e fontes do direito do trabalho", "location": "Programa I"},
+    {"topic": "Contratação coletiva, atores coletivos e greve", "location": "Programa II"},
+    {"topic": "Contrato de trabalho: modalidades, direitos e deveres, retribuição, tempo e local de trabalho, cessação", "location": "Programa III.1-III.7"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 é inteiramente processual: Justiça do Trabalho, processo individual e eletrônico, recursos, execução, procedimentos especiais, ações coletivas e tutelas de urgência.",
+    "foreign": ["Reconhecer o papel do direito do trabalho nas decisões empresariais de gestão de pessoas", "Conhecer o quadro jurídico das relações de trabalho em Portugal", "Dialogar com juristas no contexto profissional"],
+    "convergences": [],
+    "differences": ["Coimbra ensina direito material do trabalho a não juristas (Gestão); nada de processo do trabalho", "Sistema português em vez da CLT, CPC 2015 e Justiça do Trabalho brasileira"]
+  },
+  "depth": {
+    "level": "Ambas de graduação, mas Coimbra é UC de serviço para não juristas (3º ano de Gestão) e Mackenzie é componente técnico da 8ª etapa de Direito",
+    "brazil": "Componente obrigatório de 2 h-a semanais de direito processual",
+    "foreign": "Opcional de 6 ECTS introdutória ao direito material do trabalho",
+    "theoryPractice": "Coimbra: aulas teórico-práticas com exercícios e legislação laboral"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; data.json só diz 'Semestral'",
+    "language": "Português",
+    "enrolment": "UC opcional de Gestão; a Universidade de Coimbra admite pedidos de mobilidade em outros cursos e faculdades, sujeitos à aprovação dos coordenadores",
+    "prerequisites": "Disciplina jurídica introdutória",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A UC 18800 é Direito do Trabalho material para estudantes de Gestão (fontes, contratação coletiva, greve, contrato de trabalho e cessação); não contém nenhum conteúdo processual, pelo que a ligação a Direito Processual do Trabalho é apenas de título.",
+  "justification": "Os nove tópicos da ementa Mackenzie 2022 (subsidiariedade do CPC, Justiça do Trabalho, processo individual e eletrônico, teoria geral dos recursos, recursos trabalhistas, execução, procedimentos especiais, ações coletivas, tutelas de urgência) não foram encontrados no Programa I-III nem na bibliografia, que cita o Código do Trabalho e não o Código de Processo do Trabalho. O Programa II sobre relações coletivas é material, não processual. Coberto+parcial = 0/9: baixa afinidade. O objetivo declarado é capacitar 'estudantes não juristas', nível inferior ao de um componente da 8ª etapa de Direito; horas não comparáveis (2 h-a semanais contra 6 ECTS).",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa e objetivos explícitos e de 2026/27 tornam clara a ausência de conteúdo processual; o ementário brasileiro é histórico e faltam horas e semestre.",
+  "limitations": [
+    "Oferta 2027/28 e semestre não confirmados",
+    "UC do plano de Gestão destinada a não juristas",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente; carga só em horas-aula semanais",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "Coimbra oferece alguma UC de processo do trabalho aberta a intercambistas? Nenhuma foi identificada na lista de UC de Direito do data.json."
+  ],
+  "alternatives": [
+    {"code": "100134", "name": "Direito Processual Civil", "relation": "UC anual de processo civil; não trata processo do trabalho; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico procurado no Programa, objetivos e bibliografia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Ausência de conteúdo processual inequívoca no documento estrangeiro"}
+}

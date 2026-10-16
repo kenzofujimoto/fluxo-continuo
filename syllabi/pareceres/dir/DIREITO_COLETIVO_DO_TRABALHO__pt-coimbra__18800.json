@@ -1,0 +1,157 @@
+{
+  "id": "dir|DIREITO COLETIVO DO TRABALHO|pt-coimbra|18800",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO COLETIVO DO TRABALHO",
+    "name": "Direito Coletivo do Trabalho",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 51, bloco 'DIREITO COLETIVO DO TRABALHO' (7ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18800",
+      "name": "Direito do Trabalho (UC opcional para não juristas)",
+      "pageCode": "01620292",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Plano 10622 (Licenciatura em Gestão, segundo data.json); área científica Direito",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração não indicada na página; data.json indica apenas 'Semestral'",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de base recomendados: contacto prévio com uma disciplina jurídica introdutória",
+      "source": "https://apps.uc.pt/courses/PT/unit/18800/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "de983ffe4d959703119b380bf322b5ca35dfb25ebfa6c392da9aff7beeaede45",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivo geral, objetivos específicos, competências), Programa (I-III), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto nem tipologia de aulas quantificada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'II. As relações coletivas de trabalho': contratação coletiva, atores laborais coletivos, conflitos laborais e greve",
+      "foreignLocation": "Programa, parte II, itens 1-3",
+      "note": "Bloco de três itens numa UC geral de Direito do Trabalho destinada a 'estudantes não juristas'; regras do Código do Trabalho português."
+    },
+    {
+      "brTopic": "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Os atores laborais coletivos'; objetivo de 'identificar o quadro jurídico da negociação coletiva e das estruturas de representação dos trabalhadores dentro e fora da empresa'",
+      "foreignLocation": "Programa II.2; Resultados de Aprendizagem, objetivos específicos",
+      "note": "Organização sindical e representação segundo o direito português; a CLT, o art. 8º da CF 1988 e a Reforma Trabalhista de 2017 não são objeto. Análise 'profunda' incompatível com o nível declarado para não juristas."
+    },
+    {
+      "brTopic": "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'As fontes' do direito do trabalho na introdução e 'A contratação coletiva'",
+      "foreignLocation": "Programa I.2 e II.1",
+      "note": "A articulação entre lei e instrumentos coletivos não é enunciada; inferida apenas da conjugação de fontes e contratação coletiva."
+    },
+    {
+      "brTopic": "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-III, Resultados de Aprendizagem, Métodos de Ensino e Bibliografia (Código do Trabalho, CRP, manuais de Amado, Monteiro Fernandes, Leitão, Palma Ramalho)",
+      "note": "Negociado versus legislado (arts. 611-A e 620 CLT), Direito Administrativo do Trabalho e convenções da OIT não aparecem."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Contrato de trabalho: figuras afins, modalidades (termo, temporário, teletrabalho), direitos e deveres, retribuição, tempo e local, cessação", "location": "Programa, parte III"},
+    {"topic": "Génese, objeto e alcance disciplinar do direito do trabalho", "location": "Programa I.1"}
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 descreve conteúdos; não lista competências.",
+    "foreign": [
+      "Identificar o quadro jurídico da negociação coletiva e da representação dos trabalhadores",
+      "Apoiar decisões de gestão de pessoas à luz do quadro juslaboral português",
+      "Facilitar o diálogo com juristas no contexto profissional"
+    ],
+    "convergences": ["Contratação coletiva, sujeitos coletivos e greve"],
+    "differences": [
+      "UC de Direito do Trabalho para não juristas (Gestão), não curso jurídico de Direito Coletivo",
+      "Direito português (Código do Trabalho); reforma trabalhista brasileira, negociado sobre legislado e OIT ausentes",
+      "Dois terços do programa tratam a relação individual de trabalho"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de plano não jurídico, Mackenzie na 7ª etapa de Direito",
+    "brazil": "2 horas-aula semanais dedicadas só ao Direito Coletivo",
+    "foreign": "6 ECTS repartidos entre introdução, relações coletivas e contrato de trabalho",
+    "theoryPractice": "Coimbra: aulas teórico-práticas com exercícios e legislação; ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página da UC",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra admite que estudantes de mobilidade peçam unidades de outros ciclos, departamentos e faculdades, sujeito à aprovação dos coordenadores; UC do plano de Gestão, fora da Faculdade de Direito",
+    "prerequisites": "Disciplina jurídica introdutória; satisfeito por estudante de 7ª etapa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A UC 18800 é um curso geral de Direito do Trabalho português para estudantes de Gestão, em que as relações coletivas ocupam um dos três blocos (contratação coletiva, atores coletivos, greve); o primado do negociado, a reforma de 2017 e a OIT, centrais na ementa Mackenzie, não aparecem.",
+  "justification": "Três dos quatro enunciados têm correspondência parcial, todos apoiados na parte II do programa (itens 1-3) e na introdução sobre fontes; o quarto (negociado sobre legislado, acordo coletivo sobre convenção, Direito Administrativo do Trabalho e OIT) não foi encontrado. Nenhum é coberto: a UC aplica o Código do Trabalho português e declara-se dirigida a não juristas, enquanto a ementa pede análise 'profunda' segundo o ordenamento brasileiro. A razão de 3/4 (75%) dá afinidade parcial pela regra interna, mas a cobertura é rasa em extensão. Horas não comparáveis (2 h-a semanais contra 6 ECTS sem horas de contacto).",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa de 2026-2027 em tópicos curtos, sem semestre nem horas; ementa brasileira histórica; UC de outro plano (Gestão) com nível para não juristas.",
+  "limitations": [
+    "Ementário Mackenzie 2022 é histórico; o texto pode não corresponder à matriz vigente",
+    "Horas não comparáveis: 2 h-a semanais contra 6 ECTS sem horas de contacto",
+    "Ordenamentos distintos: Código do Trabalho português, não CLT nem Lei 13.467/2017",
+    "Semestre e oferta 2027/28 não confirmados; inscrição em UC de Gestão depende dos coordenadores",
+    "O mesmo programa 18800 foi comparado com Direito Individual do Trabalho; não poderia ser aproveitado para ambos sem decisão da coordenação",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A UC 97282 'Direito Coletivo do Trabalho' da Faculdade de Direito é oferecida no 1º semestre de 2027/28 e qual é o seu programa?",
+    "A coordenação aceitaria uma UC de nível para não juristas como base de aproveitamento de componente da 7ª etapa?"
+  ],
+  "alternatives": [
+    {"code": "97282", "name": "Direito Coletivo do Trabalho", "relation": "Licenciatura em Direito, 1º semestre segundo data.json; título correspondente, programa não lido; candidata preferencial a verificar"},
+    {"code": "100130", "name": "Direito do Trabalho", "relation": "Licenciatura em Direito; programa lido em outro par deste lote: trata só a relação individual, não serve para o Coletivo"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado à parte do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Sistemas jurídicos distintos, UC de plano não jurídico e cobertura apoiada num único bloco do programa"}
+}

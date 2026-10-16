@@ -1,0 +1,154 @@
+{
+  "id": "dir|METODOLOGIA DA CIÊNCIA DO DIREITO|pt-coimbra|22232",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "METODOLOGIA DA CIÊNCIA DO DIREITO",
+    "name": "Metodologia da Ciência do Direito",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 9, bloco 'METODOLOGIA DA CIÊNCIA DO DIREITO' (2ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "O componente curricular estudará a produção de conhecimento científico na área jurídica por meio de conteúdo teórico e sua aplicação na construção de projetos de iniciação científica",
+      "As aulas serão divididas em exposições teóricas e num laboratório de construção de projetos de pesquisa individuais e/ou em grupos",
+      "O conteúdo teórico se concentrará na análise dos requisitos de um trabalho científico, abordando forma, método e procedimentos de pesquisa como produtor de saberes e objeto de análise empírica e teórica",
+      "A parte prática será desenvolvida pela escolha dos discentes de temas estudados nas disciplinas do 1º semestre, como Bens e Pessoas, Ciência Política, Filosofia do Direito, História do Direito e Teoria do Direito, com escopo de construir projetos de iniciação científica com problema de pesquisa definido, desenvolvendo técnicas de coleta de dados e escrita acadêmica",
+      "O discente receberá capacitação para organizar os seus estudos na área do Direito, de modo a compreender todos os requisitos essenciais que devem ser desenvolvidos ao longo de sua graduação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "22232",
+      "name": "Metodologia do Direito",
+      "pageCode": "01210341",
+      "faculty": "Faculdade de Direito (plano 1556, Licenciatura em Direito, segundo data.json)",
+      "programme": "Licenciatura em Direito; área científica Filosofia",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 4,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exame escrito e prova oral: 100%",
+      "prerequisites": "Não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/22232/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "sha256": "5aad6fb5f20fecfd2ea60af86d75bdbf9a95290113a620d7343fe9e66f611ce7",
+      "location": "Página da UC 2025-2026: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (I-IV), Docentes, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O componente curricular estudará a produção de conhecimento científico na área jurídica por meio de conteúdo teórico e sua aplicação na construção de projetos de iniciação científica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Programa I-IV (normatividade e metodologia do direito, racionalidade metodológica, esquema metódico, problema constitucional da decisão judicativa) e Bibliografia (Castanheira Neves, Bronze)",
+      "note": "'Metodologia do direito' em Coimbra designa a metodologia da realização judicativo-decisória do direito (metodonomologia), não metodologia de pesquisa científica."
+    },
+    {
+      "brTopic": "As aulas serão divididas em exposições teóricas e num laboratório de construção de projetos de pesquisa individuais e/ou em grupos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Aulas teóricas de apresentação sistemática e aulas práticas com abordagem dialogada e 'apreciação de trabalhos eventualmente apresentados'",
+      "foreignLocation": "Métodos de Ensino",
+      "note": "Coincide a divisão teoria/prática; não há laboratório de projetos de pesquisa."
+    },
+    {
+      "brTopic": "O conteúdo teórico se concentrará na análise dos requisitos de um trabalho científico, abordando forma, método e procedimentos de pesquisa como produtor de saberes e objeto de análise empírica e teórica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa I-IV, Resultados de Aprendizagem e Bibliografia; nenhum item sobre requisitos de trabalho científico ou procedimentos de pesquisa"
+    },
+    {
+      "brTopic": "A parte prática será desenvolvida pela escolha dos discentes de temas estudados nas disciplinas do 1º semestre, como Bens e Pessoas, Ciência Política, Filosofia do Direito, História do Direito e Teoria do Direito, com escopo de construir projetos de iniciação científica com problema de pesquisa definido, desenvolvendo técnicas de coleta de dados e escrita acadêmica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Métodos de Ensino (aulas práticas sobre sentenças e propostas doutrinais), Métodos de Avaliação (exame escrito e oral) e Programa I-IV"
+    },
+    {
+      "brTopic": "O discente receberá capacitação para organizar os seus estudos na área do Direito, de modo a compreender todos os requisitos essenciais que devem ser desenvolvidos ao longo de sua graduação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem e Programa I-IV; a UC é do 4º ano e pressupõe formação jurídica avançada"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Crítica das impostações normativistas e funcionalistas; crise da razão e racionalidade metodológico-jurídica", "location": "Resultados de Aprendizagem; Programa II"},
+    {"topic": "Esquema metódico da realização do direito e legitimação constitucional da decisão judicativa", "location": "Programa III-IV"},
+    {"topic": "Comentário de sentenças jurisdicionais", "location": "Métodos de Ensino"}
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 visa a formação em pesquisa científica (projetos, coleta de dados, escrita acadêmica).",
+    "foreign": ["Reconhecer as aporias das posições normativistas e funcionalistas na realização judicativo-decisória do direito"],
+    "convergences": ["Divisão em aulas teóricas e práticas"],
+    "differences": [
+      "Objeto distinto: metodologia de pesquisa (Mackenzie) versus metodologia jurídica da decisão judicial (Coimbra)",
+      "Coimbra é UC filosófica de 4º ano; Mackenzie é introdutória de 2ª etapa",
+      "Coimbra avalia por exame escrito e oral; Mackenzie prevê construção de projeto"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 4º ano (área de Filosofia), Mackenzie na 2ª etapa",
+    "brazil": "2 horas-aula semanais com laboratório de projetos",
+    "foreign": "6 ECTS de reflexão teórica de alta densidade (jurisprudencialismo de Castanheira Neves)",
+    "theoryPractice": "Coimbra: práticas dialogadas e comentário de sentenças; sem produção de projeto"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json; coincidiria em parte com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "Obrigatória do 4º ano da Licenciatura em Direito; mobilidade sujeita à aprovação dos coordenadores",
+    "prerequisites": "Nenhum declarado, mas pressupõe teoria do direito e direito civil avançados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Metodologia do Direito de Coimbra é uma disciplina filosófica sobre a racionalidade da decisão judicial (metodonomologia), enquanto a Metodologia da Ciência do Direito Mackenzie ensina pesquisa científica e construção de projetos; a semelhança é só de título e da divisão em aulas teóricas e práticas.",
+  "justification": "Quatro dos cinco enunciados não foram encontrados: produção de conhecimento científico e iniciação científica, requisitos e procedimentos de pesquisa, projetos com coleta de dados e escrita acadêmica, e organização dos estudos jurídicos estão ausentes do Programa I-IV, cujo objeto é a realização judicativo-decisória do direito. Só o formato de aulas teóricas e práticas tem correspondência parcial. Razão coberto+parcial de 1/5 (20%): baixa afinidade. A UC estrangeira é ainda de 4º ano e avaliada por exame escrito e oral. Horas não comparáveis (2 h-a semanais contra 6 ECTS).",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa e objetivos estrangeiros suficientes para identificar o objeto, embora sem horas e referentes a 2025-2026; ementa brasileira histórica.",
+  "limitations": [
+    "Ementário Mackenzie 2022 é histórico; o texto pode não corresponder à matriz vigente",
+    "Horas não comparáveis: 2 h-a semanais contra 6 ECTS",
+    "Página referente a 2025-2026; oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "Metodologia do Direito de Coimbra poderia ser aproveitada em componente de Hermenêutica ou Filosofia do Direito em vez de Metodologia da Ciência do Direito?"
+  ],
+  "alternatives": [
+    {"code": "100137", "name": "Introdução ao Direito", "relation": "Anual, 1º ano; programa não lido; título não indica metodologia de pesquisa"},
+    {"code": "97269", "name": "Pensamento Jurídico Contemporâneo", "relation": "2º semestre; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2025-2026) com apoio de IA (Claude); cada tópico confrontado com o programa I-IV e os métodos; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Objeto divergente evidente no programa"}
+}

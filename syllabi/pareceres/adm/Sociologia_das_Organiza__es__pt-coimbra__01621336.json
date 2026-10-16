@@ -1,0 +1,178 @@
+{
+  "id": "adm|Sociologia das Organizações|pt-coimbra|01621336",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sociologia das Organizações",
+    "name": "Sociologia das Organizações",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 9, bloco 'Sociologia das Organizações': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O poder e o poder nas organizações",
+      "A sociologia weberiana e as formas de dominação",
+      "A relação entre a Sociologia e Administração e a abordagem sociológica das organizações",
+      "A análise sociológica da dinâmica interna da empresa",
+      "A análise sociológica da dinâmica externa da empresa",
+      "Dimensões da cultura e cultura organizacional",
+      "Cultura brasileira e cultura organizacional",
+      "Questões sociológicas emergentes nas organizações"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "01621336",
+      "name": "Sociologia das Organizações",
+      "pageCode": "01621336",
+      "faculty": "Faculdade de Economia (a página refere UC de opção 'para vários cursos da FEUC')",
+      "programme": "Opção no plano de Gestão (plano 10622 na URL); área científica Sociologia",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não indica duração nem semestre; data.json: 'Semestral; 2027.2 a confirmar'",
+      "academicYear": "2026/2027",
+      "language": "Português; outra língua de ensino: Inglês",
+      "courseStatus": "Opcional",
+      "assessment": "Contínua: trabalhos escritos 20% + apresentações 30% + frequência 50%; final: exame 100%",
+      "prerequisites": "Nenhum formal; valoriza-se transpor para a sociologia temas organizacionais de outras áreas",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/19129/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "f8826ebc29caeb59f9525cbec9e7ae8280c89ed7b1e067422f335f53f16b7195",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivos gerais e específicos), Programa 1-6, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto. O identificador da URL (unit/19129) difere do código exibido na página (01621336), que é o usado no data.json."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O poder e o poder nas organizações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 3 'O ator e o sistema: as relações de poder e a análise estratégica'; objetivo 'Identificar relações de poder (formal e informal)'",
+      "foreignLocation": "Programa, ponto 3; objetivos específicos"
+    },
+    {
+      "brTopic": "A sociologia weberiana e as formas de dominação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6, objetivos gerais e específicos, competências e Bibliografia",
+      "note": "O poder é tratado pela análise estratégica (ator e sistema), não pelos tipos de dominação de Weber."
+    },
+    {
+      "brTopic": "A relação entre a Sociologia e Administração e a abordagem sociológica das organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo geral: 'Compreensão das dimensões, social, cultural, política e simbólica das organizações'; Programa 1 'A organização, o indivíduo e o grupo'",
+      "foreignLocation": "Resultados de Aprendizagem, objetivo geral; Programa, ponto 1",
+      "note": "Há abordagem sociológica das organizações, mas a relação com a Administração não é tematizada."
+    },
+    {
+      "brTopic": "A análise sociológica da dinâmica interna da empresa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 1-4: indivíduo e grupo, identidade e trabalho, poder, conflito e negociação; objetivo 'Percecionar dinâmicas individuais e coletivas'",
+      "foreignLocation": "Programa, pontos 1-4; objetivos específicos"
+    },
+    {
+      "brTopic": "A análise sociológica da dinâmica externa da empresa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6, objetivos e Bibliografia",
+      "note": "O 'associativismo' (ponto 4) liga-se a conflito e negociação; não há ambiente, instituições ou relação empresa–sociedade."
+    },
+    {
+      "brTopic": "Dimensões da cultura e cultura organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 5 'O papel da cultura nas organizações'; objetivo 'Analisar a cultura organizacional'",
+      "foreignLocation": "Programa, ponto 5; objetivos específicos"
+    },
+    {
+      "brTopic": "Cultura brasileira e cultura organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6, objetivos e Bibliografia",
+      "note": "Tema nacional brasileiro; não esperável numa UC portuguesa."
+    },
+    {
+      "brTopic": "Questões sociológicas emergentes nas organizações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6, objetivos e Bibliografia",
+      "note": "A bibliografia inclui comunicação corporativa digital, mas nenhum ponto do programa trata questões emergentes."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Identidade, motivação e pessoas enquanto 'recursos'", "location": "Programa 2; objetivos específicos"},
+    {"topic": "Conflito, negociação e associativismo", "location": "Programa 4"},
+    {"topic": "Liderança, mudança e desenvolvimento organizacional", "location": "Programa 6"}
+  ],
+  "competencies": {
+    "brazil": "A ementa estuda as relações entre a Sociologia e as organizações, os fundamentos teóricos da dinâmica organizacional e as dimensões sociais, culturais e de poder.",
+    "foreign": ["Compreender as dimensões social, cultural, política e simbólica das organizações", "Identificar relações de poder e processos de conflito e negociação", "Analisar a cultura e identificar mecanismos de liderança e mudança"],
+    "convergences": ["Poder, cultura e dinâmica interna"],
+    "differences": ["Coimbra não trabalha Weber, a dinâmica externa nem a cultura brasileira", "Coimbra aprofunda conflito, negociação, liderança e mudança, temas próximos de Comportamento Organizacional"]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano (opção); Mackenzie na 3ª etapa",
+    "brazil": "Componente curto (31,7 h) de fundamentos sociológicos",
+    "foreign": "UC de 6 ECTS teórico-prática, com leitura prévia de textos e debate",
+    "theoryPractice": "Coimbra: aulas teórico-práticas com apresentações (30%) e trabalhos escritos (20%)"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; oferta 2027/28 a confirmar",
+    "language": "Português ou inglês",
+    "enrolment": "UC de opção aberta a vários cursos da FEUC e de fora dela, o que favorece a inscrição de intercambista; a aprovação dos coordenadores continua necessária.",
+    "prerequisites": "Nenhum formal",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Sociologia das Organizações de Coimbra coincide com a do Mackenzie em poder, dinâmica interna e cultura organizacional, mas segue a análise estratégica em vez de Weber e não trata a dinâmica externa, a cultura brasileira nem questões emergentes.",
+  "justification": "Três dos oito itens oficiais estão cobertos (poder no ponto 3; dinâmica interna nos pontos 1-4; cultura no ponto 5), um é parcial (abordagem sociológica, sem a relação com a Administração) e quatro não foram encontrados (Weber e dominação, dinâmica externa, cultura brasileira, questões emergentes). Coberto+parcial é exatamente 4/8 (50%), no limite da afinidade parcial. As horas não são comparáveis: 31,7 h vs. 6 ECTS sem horas de contacto.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa e objetivos oficiais itemizados; a página não traz semestre nem horas, e o identificador da URL difere do código da UC. A ficha brasileira não tem ano.",
+  "limitations": [
+    "Classe no limiar (50%); a reclassificação de um único item muda o resultado",
+    "Semestre e horas de contacto não declarados; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita a ausência de Weber e da cultura brasileira, sendo esta última inerente ao contexto nacional?",
+    "Em que semestre a UC 01621336 funciona em 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "83600", "name": "Teoria da Organização", "relation": "UC de Administração Pública, possivelmente com Weber e o ambiente organizacional; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item vinculado a ponto do Programa ou objetivo; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Classificação no limiar de 50%"}
+}

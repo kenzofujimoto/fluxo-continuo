@@ -1,0 +1,155 @@
+{
+  "id": "adm|Projetos Empreendedores|pt-coimbra|93363",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Projetos Empreendedores",
+    "name": "Projetos Empreendedores",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": null,
+    "documentTitle": "Ficha de disciplina CCSA do 5º semestre de Administração (Etapa_5_02.pdf), vinculada pelo link '5º Semestre' da matriz oficial de Alphaville; cabeçalho do campus São Paulo, sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 9, bloco 'Projetos Empreendedores': aulas semanais, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "A ficha informa apenas 2 aulas semanais, sem total semestral em horas-relógio; carga não comparável."
+    },
+    "topics": [
+      "Metodologias para execução do Projeto",
+      "Definição de Equipes e Projetos ou Desafios",
+      "Reconhecimento de Problemas e Identificação de oportunidades",
+      "Elaboração do Projeto"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93363",
+      "name": "Projeto Integrador",
+      "pageCode": "01021158",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português; outra língua de ensino: Inglês",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%; acompanhamento por plano de trabalho, relatório intercalar, relatório final e apresentação",
+      "prerequisites": "Conhecimentos de Base Recomendados: Marketing, Estratégia, Recursos Humanos, Gestão das operações, Contabilidade e Finanças",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/93363/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "a9b3421ff0e3206ebf6dff261d6cf9a9e1672910c107fbffceb22470ccc8c682",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem i-v, Programa (modalidades PE, PA, PI), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 12.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 12,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Metodologias para execução do Projeto",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Reuniões regulares de acompanhamento, workshops e palestras; calendário com plano de trabalho, relatório intercalar, relatório final e apresentação",
+      "foreignLocation": "Métodos de Ensino",
+      "note": "Há processo de gestão do projeto, mas nenhuma metodologia de execução é ensinada como conteúdo."
+    },
+    {
+      "brTopic": "Definição de Equipes e Projetos ou Desafios",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Trabalho de grupo; projetos definidos com entidades externas em três modalidades (empresarial, aplicado, investigação)",
+      "foreignLocation": "Programa; Métodos de Ensino; Resultados iii"
+    },
+    {
+      "brTopic": "Reconhecimento de Problemas e Identificação de oportunidades",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Projeto empresarial: 'resolução de um problema real ou realista de uma organização'; resultado iv 'diagnosticar situações, definir objetivos'",
+      "foreignLocation": "Programa, modalidade PE; Resultados de Aprendizagem iv",
+      "note": "Diagnóstico de problemas organizacionais; identificação de oportunidades empreendedoras não é mencionada."
+    },
+    {
+      "brTopic": "Elaboração do Projeto",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Resultado iv 'formular estratégias apropriadas e estabelecer planos de implementação'; relatório final e apresentação",
+      "foreignLocation": "Resultados de Aprendizagem iv; Métodos de Ensino"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Projeto aplicado sobre contexto económico ou projeto de iniciação à investigação", "location": "Programa, modalidades PA e PI"},
+    {"topic": "Recolha, análise e interpretação de dados; comunicação oral e escrita; abordagem multidisciplinar", "location": "Resultados de Aprendizagem i, ii, v"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: identificar problema ou oportunidade, analisar soluções, propor projetos viáveis, praticar proposição de valor e modelagem e construir planos de negócios simplificados.",
+    "foreign": [
+      "Recolher, analisar e interpretar dados",
+      "Comunicar de forma oral e escrita",
+      "Trabalhar em equipa com pensamento crítico e inovador",
+      "Diagnosticar, definir objetivos, formular estratégias e planos de implementação",
+      "Abordar problemas de forma multidisciplinar"
+    ],
+    "convergences": ["Aprendizagem por projeto em equipa sobre problema real", "Formulação de plano de implementação"],
+    "differences": [
+      "Mackenzie é orientado ao empreendedorismo (proposição de valor, modelagem de negócio, plano de negócios); Coimbra é projeto integrador de fim de curso, que pode ser empresarial, aplicado ou de investigação",
+      "Conteúdo de cada projeto em Coimbra varia por modalidade e tema"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano (capstone de 12 ECTS); Mackenzie no 5º semestre (2 aulas semanais)",
+    "brazil": "Componente prático de 2 aulas semanais",
+    "foreign": "UC de 12 ECTS que integra conhecimentos de toda a licenciatura",
+    "theoryPractice": "Ambas essencialmente práticas, baseadas em projeto"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português, com inglês indicado como outra língua de ensino",
+    "enrolment": "A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de ciclos, departamentos e faculdades diferentes, sujeito à aprovação dos coordenadores; capstone de 3º ano pode exigir alocação a projeto com entidade externa",
+    "prerequisites": "Marketing, Estratégia, RH, Operações, Contabilidade e Finanças recomendados; aluno da 5ª etapa tem a maioria",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Projeto Integrador partilha com Projetos Empreendedores o formato de projeto em equipa sobre problema real, mas é um capstone de 12 ECTS sem conteúdo empreendedor declarado (proposição de valor, modelo e plano de negócios), cujo tema varia por modalidade.",
+  "justification": "Dois dos quatro tópicos oficiais estão cobertos (definição de equipas e projetos; elaboração do projeto com planos de implementação, resultado iv) e dois são parciais (metodologias, só como calendário de acompanhamento; reconhecimento de problemas sem identificação de oportunidades). Coberto+parcial = 4/4, cobertos 2/4 (50%). A ficha Mackenzie informa apenas 2 aulas semanais e Coimbra só 12 ECTS: a carga não é comparável. Só a modalidade 'projeto empresarial' se aproxima do objetivo brasileiro.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa estrangeiro descreve modalidades e não conteúdos; o tema efetivo depende do projeto atribuído; ficha Mackenzie sem horas semestrais nem vigência confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; 2º semestre segundo data.json",
+    "Carga não comparável: 2 aulas semanais Mackenzie versus 12 ECTS sem horas de contacto",
+    "Conteúdo depende da modalidade e do tema do projeto, não verificáveis antes da mobilidade",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Coimbra admite intercambistas no Projeto Integrador e permite escolher a modalidade 'projeto empresarial'?",
+    "Empreendedorismo e Criação de Empresas (93362) seria candidata mais próxima?"
+  ],
+  "alternatives": [
+    {"code": "93362", "name": "Empreendedorismo e Criação de Empresas", "relation": "Título mais próximo do foco empreendedor; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da Unidade Curricular de Coimbra (ano letivo 2026-2027) com apoio de IA (Claude); cada tópico vinculado a secção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Conteúdo variável por projeto e diferença de escala (12 ECTS versus 2 aulas semanais)"}
+}

@@ -1,0 +1,165 @@
+{
+  "id": "dir|DIREITO DE FAMÍLIA|pt-coimbra|22389",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DE FAMÍLIA",
+    "name": "Direito de Família",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 41, bloco 'DIREITO DE FAMÍLIA' (6ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 4 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Coimbra",
+      "name": "Direito da Família e dos Menores",
+      "pageCode": "01210157",
+      "faculty": "Faculdade de Direito (plano 1556 da Licenciatura em Direito; faculdade não indicada na página)",
+      "programme": "Licenciatura em Direito (plano 1556 segundo data.json); área científica Direito da Família",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação teórica e prática: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Não Aplicável",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "location": "Página da UC 2025-2026: Métodos de Ensino, Resultados de Aprendizagem (lista de conteúdos e capacidades), Avaliação, Bibliografia; a página não tem secção 'Programa'",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6,0 ECTS; aulas teóricas e práticas sem horas declaradas. Página do ano letivo 2025-2026."
+      },
+      "universityId": "pt-coimbra",
+      "code": "22389",
+      "source": "https://apps.uc.pt/courses/PT/unit/22389/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "sha256": "f8441bc5fadd510c372b0a95603d47da0002836b6fd64ddc5070e9012ee03908"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conhecimentos relativos ao direito da família em geral: 'noção, fontes e princípios gerais'",
+      "foreignLocation": "Resultados de Aprendizagem, 1º parágrafo",
+      "note": "Princípios gerais são estudados, mas sob o direito português; a matriz constitucional brasileira (CF/1988) não é objeto."
+    },
+    {
+      "brTopic": "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Casamento como acto (modalidades, requisitos, invalidade) e como estado (efeitos pessoais); modificação e extinção, evolução do divórcio, procedimento e efeitos",
+      "foreignLocation": "Resultados de Aprendizagem, 1º parágrafo",
+      "note": "Efeitos patrimoniais (regimes de bens) e união estável não aparecem; o regime é o do Código Civil português."
+    },
+    {
+      "brTopic": "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Estabelecimento da filiação; responsabilidades parentais; menoridade, adopção, apadrinhamento civil, proteção de crianças e jovens em perigo",
+      "foreignLocation": "Resultados de Aprendizagem, 1º parágrafo",
+      "note": "O sistema português de proteção de crianças e jovens é funcionalmente próximo do ECA, mas não o substitui; alimentos e socioafetividade não são nomeados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Apadrinhamento civil",
+      "location": "Resultados de Aprendizagem"
+    },
+    {
+      "topic": "Ponderação crítica das soluções legais e avaliação de interesses em jogo",
+      "location": "Resultados de Aprendizagem, 2º parágrafo"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 propõe estudo principiológico e constitucional, institutos conjugais pessoais e patrimoniais, dissolução, filiação, adoção, alimentos, guarda e ECA.",
+    "foreign": [
+      "Diagnosticar e resolver problemas práticos",
+      "Ponderar criticamente soluções legais",
+      "Avaliar interesses em jogo nos problemas de família e menores"
+    ],
+    "convergences": [
+      "Casamento, divórcio, filiação, responsabilidades parentais e adoção",
+      "Proteção de crianças e jovens"
+    ],
+    "differences": [
+      "Coimbra separa o direito patrimonial da família em outra UC (22231); regimes de bens não constam",
+      "União estável não aparece",
+      "Regime português no lugar do Código Civil de 2002 e do ECA"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano (obrigatória); Mackenzie na 6ª etapa (obrigatória)",
+    "brazil": "Componente de 4 horas-aula semanais com dimensão pessoal e patrimonial",
+    "foreign": "UC de 6 ECTS concentrada no direito pessoal da família e no direito dos menores",
+    "theoryPractice": "Combinação de aulas teóricas e práticas; avaliação teórica e prática"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json; coincidiria com 2027.2 se a programação se mantiver",
+    "language": "Português",
+    "enrolment": "UC obrigatória da Licenciatura em Direito; mobilidade sujeita à aprovação dos coordenadores",
+    "prerequisites": "Não aplicável",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito da Família e dos Menores de Coimbra cobre o lado pessoal do direito de família (casamento, divórcio, filiação, responsabilidades parentais, adoção e proteção de menores) sob a lei portuguesa, mas deixa os regimes de bens para outra UC; os três tópicos Mackenzie ficam parciais.",
+  "justification": "Todos os três tópicos essenciais têm correspondência nos Resultados de Aprendizagem: princípios gerais do direito da família; casamento como acto e como estado e divórcio; filiação, responsabilidades parentais, adoção e proteção de crianças e jovens em perigo. Nenhum é 'coberto' porque o conteúdo é português (sem CF/1988, Código Civil de 2002 e ECA) e porque faltam efeitos patrimoniais do casamento, união estável e alimentos. A página não tem secção 'Programa', o que limita a granularidade. Com 3/3 parciais a classe derivada é afinidade parcial; 4 horas-aula semanais não se comparam aos 6 ECTS. Diferentemente da UAB, a oferta indicada no 1º semestre favorece 2027.2.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Resultados de Aprendizagem enumeram os conteúdos, mas a página não traz programa itemizado; página de 2025-2026 e ementa brasileira histórica.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; o texto pode não corresponder à matriz vigente",
+    "Página sem secção 'Programa'; cotejo feito pelos Resultados de Aprendizagem",
+    "Página da UC referente a 2025-2026; horas de contacto não declaradas; carga Mackenzie em horas-aula semanais",
+    "Semestre apenas em data.json; oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação exigiria complemento de regimes de bens (ex.: UC 22231) para o aproveitamento?",
+    "A Universidade de Coimbra disponibiliza programa detalhado de 22389 para 2027/28?"
+  ],
+  "alternatives": [
+    {
+      "code": "22231",
+      "name": "Direito Patrimonial da Família e Sucessões",
+      "relation": "Complementaria regimes de bens; 2º semestre segundo data.json; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da página oficial da UC 22389 (2025-2026) com apoio de IA (Claude); tópicos confrontados com os Resultados de Aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Ausência de programa itemizado e de efeitos patrimoniais; depende de aceitação de direito estrangeiro"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-16"
+}

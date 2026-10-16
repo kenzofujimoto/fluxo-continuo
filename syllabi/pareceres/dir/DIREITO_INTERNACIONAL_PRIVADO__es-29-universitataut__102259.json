@@ -1,0 +1,197 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL PRIVADO|es-29-universitataut|102259",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL PRIVADO",
+    "name": "Direito Internacional Privado",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 34, bloco 'DIREITO INTERNACIONAL PRIVADO' (5ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Exame do direito internacional privado envolvendo questões de ordem conceitual, com análise no contexto do direito pátrio, com sua respectiva aplicação pelo juiz brasileiro, inclusive com cooperação internacional",
+      "Estudo dos fundamentos e objeto do direito internacional privado",
+      "Compreensão da correlação entre as fontes do Direito Internacional Público e do Direito Internacional Privado",
+      "Análise da evolução histórica das normas de direito internacional privado e das formas de dirimir os conflitos da lei no espaço",
+      "Estudo sobre os sujeitos, a competência do Poder Judiciário nacional na solução de conflitos entre diferentes jurisdições",
+      "Exame dos principais elementos de conexão existentes no direito brasileiro na determinação da lei material aplicável em ações de Direito Internacional Privado",
+      "Compreensão da correlação entre o direito internacional privado e demais ramos do direito nacional",
+      "Compreensão dos princípios fundamentais da arbitragem em Direito Internacional Privado e o seu papel fundamental para a disciplina",
+      "Análise dos limites à cooperação jurídica internacional e à aplicação do direito estrangeiro pelo juiz brasileiro com fundamento na ordem pública",
+      "Exame da Condição Jurídica do Migrante no Direito Internacional Privado"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102259",
+      "name": "Dret Internacional Privat",
+      "faculty": "Facultat de Dret",
+      "programme": "Grau en Dret",
+      "level": "Grau (1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 1,
+      "period": "Primer quadrimestre do 4º curso",
+      "academicYear": "2026/2027",
+      "language": "Grupo 1 espanhol, grupo 2 inglês (teoria e seminários 21-23), grupos 51 e 70 catalão; provisório até 30 de novembro",
+      "courseStatus": "OB (obrigatória)",
+      "assessment": "Exame final teórico oral 50%, prova prática final 25%, duas práticas escritas em aula 12,5% cada; avaliação única (50/40/10) e reavaliação previstas; IA não permitida",
+      "prerequisites": "Sem pré-requisitos específicos além da língua do grupo",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102259/ca",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "sha256": "3e8e7c427ea591fdd45d2183c2b33fcb0d32d273c636456409785bbfdf3b99ee",
+      "location": "Guia docent 2026/2027: Prerequisits (grupos e línguas), Objectius, Continguts (Temes 1-11), Activitats formatives, Avaluació, Bibliografia, Grups i idiomes",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 9,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O guia declara 'Crèdits: 9' (data.json registra 6). Atividades: Dirigida = classes teòriques 41,5 h + seminaris 22 h (descritas como 'a l'aula'); Autònoma = estudi 99 h + preparació 57 h; provas 5,5 h. Não há total semestral de contacto declarado como tal; contactTotal fica nulo."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Exame do direito internacional privado envolvendo questões de ordem conceitual, com análise no contexto do direito pátrio, com sua respectiva aplicação pelo juiz brasileiro, inclusive com cooperação internacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'Conèixer els elements bàsics del sistema espanyol de dret internacional privat'; Tema 8 aplicação do direito estrangeiro; Tema 11 cooperação judicial",
+      "foreignLocation": "Objectius; Continguts, Temas 1, 8 e 11",
+      "note": "Parte conceitual transfere-se; o 'direito pátrio' estudado é o espanhol/UE (LOPJ, Lei 29/2015), não a LINDB nem o CPC 2015 aplicados pelo juiz brasileiro."
+    },
+    {
+      "brTopic": "Estudo dos fundamentos e objeto do direito internacional privado",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Objecte, concepte i contingut del DIPr. Pressupòsits: pluralitat d'ordenaments jurídics i tràfic privat internacional'",
+      "foreignLocation": "Continguts, Tema 1"
+    },
+    {
+      "brTopic": "Compreensão da correlação entre as fontes do Direito Internacional Público e do Direito Internacional Privado",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fontes do DIPr: Constituição, convénios de direitos humanos, tipos de convénios internacionais, Conferência da Haia, direito da UE, lex mercatoria",
+      "foreignLocation": "Continguts, Tema 2",
+      "note": "Os tratados aparecem como fonte do DIPr, mas não há item sobre a correlação com as fontes do Direito Internacional Público em si."
+    },
+    {
+      "brTopic": "Análise da evolução histórica das normas de direito internacional privado e das formas de dirimir os conflitos da lei no espaço",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Técnicas de regulamentação: normas materiais especiais, leis de polícia, norma de conflito e seus elementos, flexibilização conflitual",
+      "foreignLocation": "Continguts, Tema 5",
+      "note": "As formas de dirimir conflitos de leis estão cobertas; a evolução histórica do DIPr não aparece no programa."
+    },
+    {
+      "brTopic": "Estudo sobre os sujeitos, a competência do Poder Judiciário nacional na solução de conflitos entre diferentes jurisdições",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência judicial internacional: Regulamento 1215/2012, foros exclusivos, submissão, litispendência; sistema autónomo espanhol (LOPJ), imunidades estatais",
+      "foreignLocation": "Continguts, Temas 3 e 4",
+      "note": "Mesmo instituto sob outro sistema: regras de competência espanholas e da UE, não os arts. 21-25 do CPC 2015. 'Sujeitos' do DIPr não é item autónomo."
+    },
+    {
+      "brTopic": "Exame dos principais elementos de conexão existentes no direito brasileiro na determinação da lei material aplicável em ações de Direito Internacional Privado",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Elementos da norma de conflito, 'punt de connexió'; Roma I (contratos) e Roma II (obrigações extracontratuais); Convénios da Haia de 1971 e 1973",
+      "foreignLocation": "Continguts, Temas 5 e 7",
+      "note": "A técnica dos elementos de conexão é estudada, mas os elementos da LINDB (domicílio, lex rei sitae etc.) do direito brasileiro não; estatuto pessoal, família e sucessões não constam do programa UAB."
+    },
+    {
+      "brTopic": "Compreensão da correlação entre o direito internacional privado e demais ramos do direito nacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Identificar en un supòsit específic les qüestions de dret internacional privat i entendre les seves relacions amb altres branques de l'ordenament jurídic'",
+      "foreignLocation": "Objectius, 2º objetivo; Tema 7 (contrato de consumo e de trabalho)"
+    },
+    {
+      "brTopic": "Compreensão dos princípios fundamentais da arbitragem em Direito Internacional Privado e o seu papel fundamental para a disciplina",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectius, Resultats d'aprenentatge, Continguts Temas 1-11 e Bibliografia; só a 'lex mercatoria' (Tema 2) toca o comércio internacional, sem arbitragem"
+    },
+    {
+      "brTopic": "Análise dos limites à cooperação jurídica internacional e à aplicação do direito estrangeiro pelo juiz brasileiro com fundamento na ordem pública",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'L'excepció d'ordre públic. L'excepció de frau a la llei'; prova e aplicação do direito estrangeiro; reconhecimento e exequatur; notificação e prova internacionais",
+      "foreignLocation": "Continguts, Temas 6, 8, 9 e 11",
+      "note": "Limites de ordem pública estudados no sistema espanhol/UE; homologação de sentença estrangeira pelo STJ e carta rogatória brasileiras não são tratadas."
+    },
+    {
+      "brTopic": "Exame da Condição Jurídica do Migrante no Direito Internacional Privado",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Continguts Temas 1-11, Objectius e Bibliografia; o programa não inclui nacionalidade, estrangeiros nem migração"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Problemas de aplicação da norma de conflito: qualificação, reenvio, questão prévia, sistemas plurilegislativos, conflito móvel", "location": "Continguts, Tema 6"},
+    {"topic": "Reconhecimento e execução de decisões estrangeiras na UE (Regulamentos 1215/2012, 805/2004, 1896/2006, 861/2007; Convenção da Haia de 2019)", "location": "Continguts, Tema 9"},
+    {"topic": "Eficácia de documentos públicos estrangeiros, apostila da Haia de 1961, Regulamento (UE) 2016/1191", "location": "Continguts, Tema 10"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 centra-se na aplicação do DIPr pelo juiz brasileiro, elementos de conexão do direito brasileiro, arbitragem e condição do migrante.",
+    "foreign": ["Compreender o tráfego jurídico internacional nas vertentes processual e substantiva", "Identificar questões de DIPr num caso concreto", "Conhecer o sistema espanhol de DIPr (fonte interna, tratados e direito da UE)"],
+    "convergences": ["Objeto e fundamentos", "Norma de conflito e elementos de conexão", "Ordem pública e aplicação do direito estrangeiro", "Cooperação judicial internacional"],
+    "differences": ["Sistema espanhol/UE no lugar da LINDB e do CPC 2015", "Arbitragem e condição jurídica do migrante ausentes", "UAB aprofunda competência internacional e reconhecimento de decisões (Bruxelas I bis)"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UAB no 4º curso, Mackenzie na 5ª etapa",
+    "brazil": "Componente obrigatório de 2 h-a semanais",
+    "foreign": "Obrigatória de 9 ECTS com 63,5 h dirigidas (teoria + seminários de casos), programa extenso em direito europeu",
+    "theoryPractice": "UAB: seminários dedicados à resolução de casos práticos e provas práticas valendo 50% da nota"
+  },
+  "practical": {
+    "period": "Primer quadrimestre (setembro-janeiro), compatível com 2027.2 se mantido",
+    "language": "Há grupo integral em inglês (grupo 2, seminários 21-23), indicado no guia para estudantes de intercâmbio; grupo 1 em espanhol",
+    "enrolment": "Disciplina obrigatória do 4º curso; aceitação de intercambista não verificada, embora o guia mencione muitos estudantes de intercâmbio no grupo 2",
+    "prerequisites": "Nenhum específico; compatível com a 5ª etapa Mackenzie",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dret Internacional Privat oferece um programa extenso (Temas 1-11) de objeto, fontes, competência internacional, norma de conflito, ordem pública, prova do direito estrangeiro, reconhecimento e cooperação, mas no sistema espanhol e da UE; arbitragem e condição jurídica do migrante não constam.",
+  "justification": "Dos dez tópicos da ementa Mackenzie 2022, dois estão cobertos (objeto e fundamentos, Tema 1; correlação com outros ramos, Objectius), seis são parciais e dois não foram encontrados (arbitragem e migrante). Os parciais resultam da diferença de sistema: competência, elementos de conexão e ordem pública são ensinados pelo Regulamento 1215/2012, Roma I/II e LOPJ, não pela LINDB e pelo CPC 2015, e a evolução histórica do DIPr está ausente. Coberto+parcial = 8/10. As horas não são comparáveis: 2 h-a semanais (Mackenzie 2022) contra 9 ECTS com 63,5 h dirigidas sem total de contacto declarado; o guia diverge do data.json (6 créditos).",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia docente 2026/27 completo e itemizado; reduzem a confiança o ementário brasileiro histórico, a carga horária não comparável e a divergência de créditos entre guia (9) e data.json (6).",
+  "limitations": [
+    "Oferta 2027/28, grupo em inglês e vaga para intercambista não confirmados",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente; carga só em horas-aula semanais",
+    "DIPr ensinado é o espanhol e europeu; LINDB, CPC 2015 e homologação no STJ ficam por estudar",
+    "Créditos: guia declara 9 ECTS, data.json registra 6; ECTS não convertidos em horas",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita DIPr de sistema europeu, com lacunas em arbitragem e migração, para este componente?",
+    "O grupo 2 em inglês será mantido em 2027/28 e aberto a intercambistas?"
+  ],
+  "alternatives": [
+    {"code": "102254", "name": "Seminari de Qüestions Actuals sobre Dret Internacional Privat", "relation": "Optativa do 4º curso; programa não lido"},
+    {"code": "102261", "name": "Dret del Comerç Internacional", "relation": "Optativa do 4º curso que poderia tratar arbitragem comercial; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e do guia docente oficial UAB 2026/2027 com apoio de IA (Claude); cada tópico vinculado a tema do guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Diferença de sistema e divergência de créditos (9 vs 6) a confirmar"}
+}

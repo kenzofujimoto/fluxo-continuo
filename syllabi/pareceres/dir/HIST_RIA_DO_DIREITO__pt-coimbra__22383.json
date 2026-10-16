@@ -1,0 +1,177 @@
+{
+  "id": "dir|HISTÓRIA DO DIREITO|pt-coimbra|22383",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "HISTÓRIA DO DIREITO",
+    "name": "História do Direito",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 3, bloco 'HISTÓRIA DO DIREITO' (1ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Coimbra",
+      "name": "História do Direito Português",
+      "pageCode": "01210214",
+      "faculty": "Faculdade de Direito (plano 1556 da Licenciatura em Direito; faculdade não indicada na página)",
+      "programme": "Licenciatura em Direito (plano 1556 segundo data.json); área científica História",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exame: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: NA",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "location": "Página da UC 2025-2026: Métodos de Ensino, Resultados de Aprendizagem (parágrafo único), Programa ('Ver documento.' - documento anexo não disponível no cache), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6,0 ECTS, sem horas de contacto. Página do ano letivo 2025-2026."
+      },
+      "universityId": "pt-coimbra",
+      "code": "22383",
+      "source": "https://apps.uc.pt/courses/PT/unit/22383/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "sha256": "5cdce6685015ad66fc2db8609034ee40c6a30a8c1e75c1fee25325419be8804c"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "A UC 'visa contribuir para a formação dos alunos, mostrando como se formou e desenvolveu o direito português'",
+      "foreignLocation": "Resultados de Aprendizagem",
+      "note": "Contribuição para a formação do jurista é explícita; perspectiva crítica não é declarada."
+    },
+    {
+      "brTopic": "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Formação e desenvolvimento do direito português 'com especial incidência nas influências que recebeu' (família romano-germânica)",
+      "foreignLocation": "Resultados de Aprendizagem",
+      "note": "Influências recebidas indicam história das fontes e das ideias; a relação sociedade-direito e a história das instituições não são descritas sem o programa."
+    },
+    {
+      "brTopic": "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O Programa remete para documento externo ('Ver documento.') não disponível; nada na página permite verificar a abordagem do anacronismo e da relatividade dos conceitos."
+    },
+    {
+      "brTopic": "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa indisponível; a página não menciona instituições judiciárias, legislativas ou equivalentes."
+    },
+    {
+      "brTopic": "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Desenvolvimento do direito português 'desde o séc. XII até ao séc. XX'",
+      "foreignLocation": "Resultados de Aprendizagem",
+      "note": "Abrange o mesmo período sob o sistema português (codificação oitocentista portuguesa), não as fontes do Brasil independente; o Brasil só partilha esse ordenamento até 1822."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Inserção do direito português na família romano-germânica",
+      "location": "Resultados de Aprendizagem"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 pede história crítica das ideias, das instituições e das fontes, com fecho no direito público e privado brasileiro dos séculos XIX-XX.",
+    "foreign": [
+      "Compreender a formação e o desenvolvimento do direito português do século XII ao XX e as suas influências"
+    ],
+    "convergences": [
+      "História das fontes e influências na tradição romano-germânica",
+      "Contribuição para a formação do jurista"
+    ],
+    "differences": [
+      "Recorte nacional português",
+      "Abordagem crítica, anacronismo e história institucional não verificáveis sem o programa"
+    ]
+  },
+  "depth": {
+    "level": "Ambas no primeiro ano: Coimbra no 1º ano, Mackenzie na 1ª etapa",
+    "brazil": "Componente de 2 horas-aula semanais",
+    "foreign": "UC obrigatória de 6 ECTS cobrindo oito séculos de direito português",
+    "theoryPractice": "Exposições magistrais ligadas a aulas práticas; exame 100%"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2",
+    "language": "Português",
+    "enrolment": "UC obrigatória de 1º ano; mobilidade sujeita à aprovação dos coordenadores",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A página de História do Direito Português remete o programa para um documento externo não disponível; só o objetivo geral (direito português dos séculos XII a XX e suas influências) pôde ser cotejado, o que deixa dois dos cinco tópicos Mackenzie sem verificação.",
+  "justification": "Três tópicos essenciais são 'parcial' com base no único parágrafo de Resultados de Aprendizagem (formação do jurista; fontes e influências; período até o século XX sob o sistema português) e dois são 'nao_verificavel' (anacronismo e relatividade dos conceitos; história das instituições), porque o Programa diz apenas 'Ver documento.'. Como 2/5 (40%) dos tópicos essenciais não são verificáveis, acima do teto de 1/3, a classe é evidência insuficiente. Não se trata de reprovação: o tema transfere-se bem entre sistemas, e o catálogo traz 83165 História do Direito Luso-Brasileiro, mais aderente ao recorte brasileiro. Horas não comparáveis (2 horas-aula semanais vs. 6 ECTS).",
+  "conclusionClass": "evidencia_insuficiente",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa da UC indisponível na página oficial (remissão a documento externo); página de 2025-2026; ementa brasileira histórica.",
+  "limitations": [
+    "Programa de Coimbra não disponível; cotejo baseado num único parágrafo de objetivos",
+    "Ementário Mackenzie de 2022 é edição histórica; o texto pode não corresponder à matriz vigente",
+    "Página da UC referente a 2025-2026; horas de contacto não declaradas; carga Mackenzie em horas-aula semanais",
+    "Semestre apenas em data.json; oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "Coimbra disponibiliza o documento do programa de 22383 referido como 'Ver documento.'?",
+    "História do Direito Luso-Brasileiro (83165) cobre as fontes brasileiras do século XIX?"
+  ],
+  "alternatives": [
+    {
+      "code": "83165",
+      "name": "História do Direito Luso-Brasileiro",
+      "relation": "Título mais aderente ao fecho brasileiro da ementa; 2º semestre segundo data.json; programa não lido neste parecer"
+    },
+    {
+      "code": "22402",
+      "name": "Direito Romano",
+      "relation": "Complementar em história das fontes; não substitui; programa não lido"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da página oficial da UC 22383 (2025-2026) com apoio de IA (Claude); tópicos confrontados com o único parágrafo de Resultados de Aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Programa estrangeiro indisponível; refazer com o documento anexo"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-16"
+}

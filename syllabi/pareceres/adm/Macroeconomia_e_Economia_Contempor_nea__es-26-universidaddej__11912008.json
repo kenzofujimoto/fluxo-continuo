@@ -1,0 +1,180 @@
+{
+  "id": "adm|Macroeconomia e Economia Contemporânea|es-26-universidaddej|11912008",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Macroeconomia e Economia Contemporânea",
+    "name": "Macroeconomia e Economia Contemporânea",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 5, bloco 'Macroeconomia e Economia Contemporânea': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O Lado real e o Lado monetário da economia",
+      "Demanda e Oferta Agregados",
+      "Noções básicas de contas nacionais",
+      "O setor externo da economia",
+      "O lado monetário da economia",
+      "Os efeitos da inflação na atividade econômica",
+      "Política fiscal e seus efeitos",
+      "Discussão da conjuntura econômica nacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-26-universidaddej",
+      "university": "Universidad de Jaén",
+      "code": "11912008",
+      "name": "Macroeconomía",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U110 - Economía (áreas 225 Economía Aplicada e 415 Fundamentos del Análisis Económico)",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado en ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Primer cuatrimestre (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame teórico-prático 70% (mínimo 4/10); atividades programadas até 30%",
+      "prerequisites": "Nenhum indicado",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912008/es/2025-26-11912008_es.html",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "sha256": "70a459ed55d5ff8cd633387c800625385abdba9fcb0cd8f0afe2c5947df51624",
+      "location": "Guía docente 2025-26: Ficha identificativa, Resumen RUCT, Competencias C13/COM02, Teoría blocos I-IV (temas 1-9), Práctica, Actividades formativas, Evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 100 h e A2a pequeño grupo 50 h, presencialidade 30%; sem total presencial impresso nem ECTS. Nada foi derivado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O Lado real e o Lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 2 'El mercado de bienes', tema 3 'Los mercados financieros', tema 4 'el modelo IS-LM'",
+      "foreignLocation": "Teoría, bloque II (temas 2-4)"
+    },
+    {
+      "brTopic": "Demanda e Oferta Agregados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 7 'Análisis conjunto de todos los mercados: el modelo de OA-DA y la curva de Philips'",
+      "foreignLocation": "Teoría, bloque III, tema 7"
+    },
+    {
+      "brTopic": "Noções básicas de contas nacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'Conceptos e indicadores básicos de la Macroeconomía'",
+      "foreignLocation": "Teoría, bloque I, tema 1",
+      "note": "Indicadores básicos tipicamente incluem PIB e agregados, mas a guia não nomeia contas nacionais."
+    },
+    {
+      "brTopic": "O setor externo da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 5 'El modelo IS-LM en una economía abierta'; tema 8 'La Economía abierta: tipos de cambio y decisiones políticas'",
+      "foreignLocation": "Teoría, temas 5 e 8"
+    },
+    {
+      "brTopic": "O lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 3 'Los mercados financieros' e curva LM no tema 4",
+      "foreignLocation": "Teoría, bloque II, temas 3-4"
+    },
+    {
+      "brTopic": "Os efeitos da inflação na atividade econômica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelo OA-DA e curva de Phillips (inflação, desemprego e produto no médio prazo)",
+      "foreignLocation": "Teoría, bloque III, temas 6-7"
+    },
+    {
+      "brTopic": "Política fiscal e seus efeitos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "IS-LM em economia fechada e aberta; tema 8 'decisiones políticas'",
+      "foreignLocation": "Teoría, temas 4, 5 e 8",
+      "note": "O modelo IS-LM é o instrumento usual de análise da política fiscal, mas a guia não individualiza política fiscal nem setor público."
+    },
+    {
+      "brTopic": "Discussão da conjuntura econômica nacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Práticas: 'Análisis de datos macroeconómicos actualizados' e 'Interpretación de noticias, informes o textos económicos'; COM02 contextualizar problemas atuais",
+      "foreignLocation": "Descripción de contenidos, Práctica; Competencias COM02",
+      "note": "Conjuntura atual é trabalhada, mas a referência é a economia espanhola/europeia, não a brasileira exigida pela ficha."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Mercado de trabalho", "location": "Teoría, tema 6"},
+    {"topic": "Progresso tecnológico e crescimento de longo prazo", "location": "Teoría, bloque IV, tema 9"},
+    {"topic": "Uso de simuladores e software macroeconómico", "location": "Práctica"}
+  ],
+  "competencies": {
+    "brazil": "Ementa orientada à compreensão de políticas econômicas, inflação, emprego, câmbio, juros e indicadores para tomada de decisão empresarial, com confronto Brasil-outros países.",
+    "foreign": ["C13 Conhecer os conceitos básicos de Macroeconomia", "COM02 Contextualizar problemas atuais pela análise macroeconómica"],
+    "convergences": ["Modelos IS-LM e OA-DA", "Setor externo e câmbio", "Inflação e desemprego"],
+    "differences": ["Jaén é mais formal (modelos de curto, médio e longo prazo, crescimento)", "Mackenzie exige discussão da conjuntura brasileira e da política fiscal do governo"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Jaén no 2º curso, Mackenzie na 3ª etapa",
+    "brazil": "Macroeconomia aplicada à gestão, de cunho descritivo e de conjuntura",
+    "foreign": "Macroeconomia analítica com modelos IS-LM, OA-DA e crescimento; exercícios numéricos",
+    "theoryPractice": "Jaén combina aulas expositivas com exercícios-tipo, dados atualizados e simuladores"
+  },
+  "practical": {
+    "period": "Primer cuatrimestre, coincidente com 2027.2 se mantido",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC obrigatória do 2º curso; abertura à mobilidade não verificada",
+    "prerequisites": "Nenhum indicado; conhecimentos de introdução à economia são úteis",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Macroeconomía de Jaén trabalha, com modelos formais (IS-LM, OA-DA, Phillips, economia aberta), quase todos os eixos da ficha Mackenzie; ficam parciais as contas nacionais, a política fiscal não individualizada e a conjuntura, que em Jaén é espanhola/europeia e não brasileira.",
+  "justification": "Cinco dos oito tópicos estão cobertos por temas identificados (2-5 e 7-8) e três têm cobertura parcial (tema 1 sem contas nacionais nomeadas; política fiscal só implícita no IS-LM; conjuntura nacional trabalhada sobre outra economia). Nenhum tópico ficou ausente. A classe fica limitada a afinidade parcial porque a ficha Mackenzie não tem vigência confirmada e a guia não declara ECTS nem total presencial (apenas 100 h + 50 h de atividades com 30% de presencialidade), o que torna as 63,3 h não comparáveis.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Temário completo e itemizado; faltam horas presenciais/ECTS na guia, a guia é de 2025-26 e a ficha brasileira não tem ano.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia de 2025-26 emitida para o duplo grau ADE + Finanzas y Contabilidad",
+    "Horas presenciais e ECTS não declarados; nenhuma conversão foi feita",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita que a discussão de conjuntura seja feita sobre economia espanhola/europeia?",
+    "A carga presencial total (não impressa) atinge 75% de 63,3 h? Pedir confirmação a Jaén."
+  ],
+  "alternatives": [
+    {"code": "11912018", "name": "Economía española", "relation": "Poderia complementar a conjuntura, mas de outro país; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático da ficha Mackenzie e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/bloco da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Correspondência temática clara; pendências são de horas e vigência, não de leitura"}
+}

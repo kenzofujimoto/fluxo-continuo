@@ -1,0 +1,225 @@
+{
+  "id": "dir|CIÊNCIA POLÍTICA|pt-coimbra|83595",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "CIÊNCIA POLÍTICA",
+    "name": "Ciência Política",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 2, bloco 'CIÊNCIA POLÍTICA' (1ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "A Ciência Política é um componente curricular que contribui para formação geral do aluno",
+      "Relaciona o direito o século XIX, sob a influência de Friedrich Carl von Savigny e seus sucessores, tornou-se pronunciada a tendência entre juristas, de se separar radicalmente o direito da política",
+      "A Ciência Política insere o direito nessa malha complexa de relações que ultrapassa a mera separação de objetos da ciência",
+      "Analisa o conteúdo da ação de uma autoridade e as formas de implementação dessa ação, e aponta sua suscetível aplicação na esfera jurídica (legal policy) e no campo do direito e de suas instituições de implementação (a Justiça, a administração, a burocracia etc.), inserindo as relações entre direito e política no plano empírico",
+      "Para tanto, serão explicitados dos conceitos básicos de ciência política",
+      "o exame das temáticas do Estado, da sociedade e do direito",
+      "a análise da relação entre governo, legitimidade e legalidade",
+      "o exame dos regimes políticos e a discussão da temática do Estado de direito",
+      "O componente curricular também abordará um tópico específico sobre os aportes teóricos contemporâneos da ciência política às questões da globalização e da governança"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Coimbra",
+      "name": "Ciência Política",
+      "pageCode": "01015383",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Administração Pública (plano 11983 segundo data.json); área científica Ciência Política",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória (no plano de Administração Pública)",
+      "assessment": "Exame: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: História e Inglês",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa 1-5, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, modo presencial e duração semestral, sem horas de contacto."
+      },
+      "universityId": "pt-coimbra",
+      "code": "83595",
+      "source": "https://apps.uc.pt/courses/PT/unit/83595/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "3b11b1b878c15b12f77731f94f31b59909b2e1691f3af48c8f98845009349503"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A Ciência Política é um componente curricular que contribui para formação geral do aluno",
+      "essential": false,
+      "status": "coberto",
+      "foreignEvidence": "Objetivo: 'introduzir os estudantes na área científica da Ciência Política'",
+      "foreignLocation": "Resultados de Aprendizagem",
+      "note": "Frase de enquadramento do ementário (papel do componente na formação geral), sem conteúdo avaliável; marcada como não essencial."
+    },
+    {
+      "brTopic": "Relaciona o direito o século XIX, sob a influência de Friedrich Carl von Savigny e seus sucessores, tornou-se pronunciada a tendência entre juristas, de se separar radicalmente o direito da política",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Programa 1-5 e Bibliografia",
+      "note": "O enunciado oficial está truncado na extração do PDF ('Relaciona o direito o século XIX'); o núcleo legível (separação entre direito e política desde Savigny) não aparece no programa de Coimbra."
+    },
+    {
+      "brTopic": "A Ciência Política insere o direito nessa malha complexa de relações que ultrapassa a mera separação de objetos da ciência",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Programa 1-5",
+      "note": "O item 1.ii define o objeto como 'os fenómenos políticos', sem tratar a relação entre direito e política."
+    },
+    {
+      "brTopic": "Analisa o conteúdo da ação de uma autoridade e as formas de implementação dessa ação, e aponta sua suscetível aplicação na esfera jurídica (legal policy) e no campo do direito e de suas instituições de implementação (a Justiça, a administração, a burocracia etc.), inserindo as relações entre direito e política no plano empírico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-5 (agentes, formas de expressão política, formas de Estado e de governo) e Métodos de Ensino",
+      "note": "Não há unidade sobre ação de autoridade, políticas públicas, legal policy ou burocracia."
+    },
+    {
+      "brTopic": "Para tanto, serão explicitados dos conceitos básicos de ciência política",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "1. Ciência Política: nascimento de uma disciplina; objeto: os fenómenos políticos; descrever conceitos básicos (partidos, formas de governo, eleições)",
+      "foreignLocation": "Programa 1.i-1.ii; Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "o exame das temáticas do Estado, da sociedade e do direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Formas de Estado (unitário, federal, regional); cidadãos 'de súbditos a cidadãos' e formas de participação política",
+      "foreignLocation": "Programa 4 e 2.1",
+      "note": "Trata organização territorial do Estado e cidadania; não há teoria das relações entre Estado, sociedade e direito."
+    },
+    {
+      "brTopic": "a análise da relação entre governo, legitimidade e legalidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Formas de governo: parlamentar, presidencial, mistas",
+      "foreignLocation": "Programa 5.i-5.iii",
+      "note": "Legitimidade e legalidade não são nomeadas."
+    },
+    {
+      "brTopic": "o exame dos regimes políticos e a discussão da temática do Estado de direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Eleições e sistemas eleitorais; o referendo e a democracia semidireta",
+      "foreignLocation": "Programa 3.1-3.2",
+      "note": "Toca o regime democrático pelos seus mecanismos; não há tipologia de regimes políticos nem discussão do Estado de direito."
+    },
+    {
+      "brTopic": "O componente curricular também abordará um tópico específico sobre os aportes teóricos contemporâneos da ciência política às questões da globalização e da governança",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-5, Resultados de Aprendizagem e Bibliografia",
+      "note": "Globalização e governança não aparecem; o objetivo menciona apenas 'acontecimentos políticos atuais'."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Partidos políticos, tipos e sistemas partidários",
+      "location": "Programa 2.2"
+    },
+    {
+      "topic": "Grupos de interesse e de pressão; teorias pluralista e neocorporativista",
+      "location": "Programa 2.3"
+    },
+    {
+      "topic": "Sistemas eleitorais maioritários, proporcionais e compósitos",
+      "location": "Programa 3.1"
+    },
+    {
+      "topic": "Novas formas de participação política",
+      "location": "Programa 2.1.iii"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 articula direito e política (legal policy, instituições de implementação, Estado de direito, globalização); não lista competências.",
+    "foreign": [
+      "Compreender e descrever conceitos básicos dos fenómenos políticos (partidos, formas de governo, eleições)",
+      "Compreender acontecimentos políticos atuais"
+    ],
+    "convergences": [
+      "Conceitos básicos de ciência política",
+      "Formas de Estado e de governo"
+    ],
+    "differences": [
+      "Coimbra centra-se em atores e instituições políticas (partidos, grupos de pressão, sistemas eleitorais)",
+      "Mackenzie centra-se na relação entre direito e política, Estado de direito e governança global, ausentes em Coimbra"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra no 2º ano da Licenciatura em Administração Pública; Mackenzie na 1ª etapa de Direito",
+    "brazil": "Componente de 2 horas-aula semanais de formação geral",
+    "foreign": "UC introdutória de 6 ECTS com cinco blocos programáticos",
+    "theoryPractice": "Coimbra: aulas expositivas com debates; avaliação só por exame"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json; coincidiria com 2027.2 se mantido, mas a página não o confirma",
+    "language": "Português",
+    "enrolment": "UC de outro plano (Administração Pública); Coimbra admite que estudantes de mobilidade escolham UC de ciclos e faculdades diferentes, sujeito à aprovação dos coordenadores",
+    "prerequisites": "História e Inglês recomendados; sem impedimento formal",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Ciência Política de Coimbra é uma introdução institucional (partidos, grupos de pressão, eleições, formas de Estado e de governo) que só cruza a ementa Mackenzie nos conceitos básicos e nas formas de Estado e governo; o eixo brasileiro direito-política, legal policy e globalização fica de fora.",
+  "justification": "Dos oito tópicos essenciais (o primeiro enunciado é enquadramento e foi marcado não essencial), um está coberto (conceitos básicos, Programa 1), três são parciais (Estado e sociedade pelo Programa 4 e 2.1; governo pelo Programa 5, sem legitimidade e legalidade; regimes pelo Programa 3, sem Estado de direito) e quatro não foram encontrados (separação direito-política, direito na malha de relações, ação de autoridade e burocracia, globalização e governança). A razão coberto+parcial atinge exatamente 50%, limiar mínimo de afinidade parcial; a ementa brasileira é de 2022 e as 2 horas-aula semanais não se comparam aos 6 ECTS sem horas de contacto. A matéria é de teoria política, logo menos dependente do ordenamento nacional, mas o recorte é distinto.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de Coimbra itemizado; reduzem a confiança a ementa brasileira histórica, um enunciado oficial truncado na extração e o semestre apenas em data.json.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; o texto pode não corresponder à matriz vigente",
+    "Um tópico oficial está truncado na extração do PDF e foi avaliado pelo trecho legível",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos; carga Mackenzie em horas-aula semanais",
+    "UC do plano de Administração Pública; semestre e oferta 2027/28 não confirmados",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de Direito considera suficiente uma introdução institucional sem o eixo direito-política?",
+    "A UC 83595 está aberta a estudantes de mobilidade de Direito no 1º semestre de 2027/28?"
+  ],
+  "alternatives": [
+    {
+      "code": "91484",
+      "name": "Políticas Públicas",
+      "relation": "Poderia complementar o tópico de ação de autoridade e implementação; programa não lido neste parecer"
+    },
+    {
+      "code": "97264",
+      "name": "Direito e Políticas Públicas",
+      "relation": "Título aderente ao eixo direito-política (2º semestre, Direito); programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da página oficial da UC 83595 (2026-2027) com apoio de IA (Claude); cada tópico vinculado a item do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Cobertura no limiar de 50% e tópico oficial truncado na extração"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-16"
+}

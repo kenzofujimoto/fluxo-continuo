@@ -1,0 +1,167 @@
+{
+  "id": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|es-29-universitataut|102240",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL",
+    "name": "Direito das Obrigações e Responsabilidade Civil",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 17, bloco 'DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL' (3ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 4 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Estudo da teoria do direito das obrigações como fonte reflexiva para aplicação no âmbito das relações obrigacionais",
+      "Análise conceitual e prática das modalidades das obrigações, bem como das repercussões jurídicas em face do inadimplemento",
+      "Além do exame dos modos de transmissão das obrigações, análise dos modos de adimplemento direto e indireto e a consequente extinção da obrigação",
+      "Reflexão sobre o descumprimento obrigacional, apresentando as consequências da mora e, por sua vez, a implicação em perdas e danos",
+      "O componente curricular preocupa-se com a compreensão conceitual e prática da responsabilidade civil a partir da teoria geral do direito, estimulando a problematização de cases que envolvem a configuração do dano material, moral e estético",
+      "No tocante à quantificação do dano moral, busca-se, por meio do diálogo entre a doutrina e a jurisprudência, elencar parâmetros e critérios para a mensuração do dano"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102240",
+      "name": "Dret Civil II (Obligacions)",
+      "faculty": "Facultat de Dret",
+      "programme": "Grau en Dret",
+      "level": "Grau (1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer quadrimestre do 2º curso (início em 7 de setembro; 15 semanas de docência)",
+      "academicYear": "2026/2027",
+      "language": "Grupos de teoria em catalão (1, 2) e espanhol (51, 70); seminários em catalão ou espanhol; informação provisória até 30 de novembro",
+      "courseStatus": "OB (obrigatória)",
+      "assessment": "Avaliação contínua 50% (práticas em aula 20%, exame parcial 15%, exposição oral em grupo 15%) + exame final 50% com nota mínima 4/10; avaliação única e reavaliação previstas",
+      "prerequisites": "Bom conhecimento de Dret Civil I e dos conceitos patrimoniais do Direito romano; terminologia jurídica",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102240/ca",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "sha256": "95739e0510fc98c5fd80e4b3c640219e0fa4c578cd75b4abc4714b4dbcfddd59",
+      "location": "Guia docent 2026/2027: Prerequisits, Objectius, Continguts (Temes 1-12), Activitats formatives, Avaluació, Bibliografia, Grups i idiomes",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: Dirigida = classes teòriques 21 h + seminaris 21 h; Supervisada = tutorització i avaliació 6 h; Autònoma = 49 h + 49 h; exame final 2 h. O guia não qualifica estas horas como 'presenciais' nem declara total semestral de contacto, por isso contactTotal fica nulo."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da teoria do direito das obrigações como fonte reflexiva para aplicação no âmbito das relações obrigacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'La relació obligatòria: concepte, estructura i característiques'; crédito e débito; responsabilidade patrimonial do devedor; fontes das obrigações",
+      "foreignLocation": "Continguts, Tema 1 (1.5-1.9) e Tema 2",
+      "note": "Teoria geral da relação obrigacional é doutrinária e transfere-se; o direito positivo ensinado é o Codi Civil de Catalunya e o Código Civil espanhol, não o Código Civil brasileiro de 2002."
+    },
+    {
+      "brTopic": "Análise conceitual e prática das modalidades das obrigações, bem como das repercussões jurídicas em face do inadimplemento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Obrigações de dar, fazer e não fazer; genéricas, alternativas, pecuniárias, sinalagmáticas; divisíveis, solidárias; a termo e condicionais",
+      "foreignLocation": "Continguts, Temas 3, 4 e 5",
+      "note": "As modalidades são as mesmas categorias dogmáticas, mas sob regime catalão/espanhol; o regime do CC 2002 (arts. 233-285) não é estudado."
+    },
+    {
+      "brTopic": "Além do exame dos modos de transmissão das obrigações, análise dos modos de adimplemento direto e indireto e a consequente extinção da obrigação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Pagamento, consignação, compensação, dação em pagamento, condonação; cessão de créditos, subrogação, mudança de devedor; confusão e mútuo dissenso",
+      "foreignLocation": "Continguts, Tema 7 (7.1-7.10), Tema 10 (10.2-10.4) e Tema 11",
+      "note": "Cobertura temática ampla, mas regida pelo direito civil aplicável na Catalunha; institutos brasileiros (p. ex. assunção de dívida e imputação no CC 2002) só por analogia."
+    },
+    {
+      "brTopic": "Reflexão sobre o descumprimento obrigacional, apresentando as consequências da mora e, por sua vez, a implicação em perdas e danos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'La mora del deutor: concepte, requisits, efectes i cessament'; mora do credor; 'La indemnització de danys i perjudicis'",
+      "foreignLocation": "Continguts, Tema 8 (8.2, 8.9) e Tema 9 (9.6)",
+      "note": "Mesmo instituto sob outro sistema nacional; a UAB acrescenta o regime de 'manca de conformitat' e remédios de inspiração europeia."
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se com a compreensão conceitual e prática da responsabilidade civil a partir da teoria geral do direito, estimulando a problematização de cases que envolvem a configuração do dano material, moral e estético",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 12: conceito e funções da responsabilidade civil, subjetiva e objetiva, pressupostos (ação, culpa, dano, causalidade), responsabilidade por atos alheios",
+      "foreignLocation": "Continguts, Tema 12 (12.1-12.6); seminários com casos práticos",
+      "note": "O guia trata 'dany' de forma genérica; dano moral e dano estético não são nomeados. Responsabilidade civil ocupa um só tema de doze."
+    },
+    {
+      "brTopic": "No tocante à quantificação do dano moral, busca-se, por meio do diálogo entre a doutrina e a jurisprudência, elencar parâmetros e critérios para a mensuração do dano",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Continguts Temas 1-12 (inclusive 9.6 indemnização e 12.4.3 dano), Objectius, Resultats d'aprenentatge e Bibliografia; nenhuma menção a quantificação de dano moral ou a critérios jurisprudenciais de mensuração"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Relação jurídica, direito subjetivo, bens e património; enriquecimento injusto e obrigação natural", "location": "Continguts, Tema 1"},
+    {"topic": "Garantias da obrigação: cláusula penal, arras e fiança", "location": "Continguts, Tema 6"},
+    {"topic": "Falta de conformidade, redução do preço, resolução por incumprimento e meios de proteção do crédito (ação direta, subrogatória, pauliana, prelação de créditos)", "location": "Continguts, Temas 8.6 e 9"},
+    {"topic": "Desistência nas relações obrigacionais de consumo", "location": "Continguts, Tema 11.5"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 enfatiza aplicação prática, problematização de casos de dano e diálogo doutrina-jurisprudência na mensuração do dano moral.",
+    "foreign": ["Identificar objeto, fontes e conceitos fundamentais do direito das obrigações", "Analisar as instituições do direito patrimonial", "Aplicar conceitos a partir da jurisprudência", "Redigir documentos jurídicos e expor oralmente"],
+    "convergences": ["Teoria geral da relação obrigacional", "Modalidades, cumprimento, incumprimento e extinção", "Pressupostos da responsabilidade civil"],
+    "differences": ["Direito positivo catalão/espanhol em vez do Código Civil brasileiro de 2002", "UAB dedica um só tema à responsabilidade extracontratual (há optativa própria 102234 'Responsabilitat Civil')", "Dano moral, dano estético e sua quantificação ausentes do guia"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UAB no 2º curso, Mackenzie na 3ª etapa",
+    "brazil": "Componente obrigatório de 4 h-a semanais que combina obrigações e responsabilidade civil",
+    "foreign": "Obrigatória de 6 ECTS concentrada em obrigações (Temas 1-11); responsabilidade civil como tema final introdutório",
+    "theoryPractice": "UAB: 21 h de teoria e 21 h de seminários práticos obrigatórios; ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "Primer quadrimestre (setembro-janeiro), compatível com 2027.2 se o calendário se mantiver",
+    "language": "Catalão ou espanhol conforme grupo; há grupos de teoria em espanhol (51 tarde, 70 manhã) e seminários em espanhol",
+    "enrolment": "Disciplina obrigatória do 2º curso do Grau en Dret; aceitação de intercambista não verificada no guia",
+    "prerequisites": "Dret Civil I e Direito romano patrimonial recomendados; o estudante Mackenzie terá cursado parte geral do direito civil",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dret Civil II cobre com detalhe a teoria geral, modalidades, cumprimento, incumprimento, transmissão e extinção das obrigações, mas sob o Direito civil aplicável na Catalunha; a responsabilidade civil ocupa só o Tema 12 e não trata dano moral, estético nem a sua quantificação.",
+  "justification": "Dos seis tópicos da ementa Mackenzie 2022, um está coberto (teoria da relação obrigacional, Temas 1-2), quatro são parciais e um não foi encontrado (quantificação do dano moral). Os parciais decorrem sobretudo da diferença de sistema: modalidades (Temas 3-5), adimplemento e transmissão (Temas 7, 10, 11) e mora/perdas e danos (Temas 8-9) são ensinados pelo Codi Civil de Catalunya e Código Civil espanhol, não pelo CC 2002; a responsabilidade civil (Tema 12) não nomeia dano moral ou estético. Coberto+parcial = 5/6. As horas não são comparáveis: Mackenzie informa 4 h-a semanais (2022) e a UAB 6 ECTS com 42 h dirigidas não qualificadas como presenciais.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia docente oficial 2026/27 detalhado por tema e subtema; reduzem a confiança o ementário brasileiro histórico (2022), horas não comparáveis e a diferença de sistema jurídico.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas; idioma de cada grupo provisório até 30 de novembro",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente; carga só em horas-aula semanais",
+    "Direito positivo ensinado é catalão/espanhol; regras do Código Civil brasileiro de 2002 exigiriam estudo complementar",
+    "Horas dirigidas (42 h) não declaradas como presenciais; ECTS não convertidos",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de Direito aceita direito de obrigações de outro sistema nacional para a parte de obrigações do componente?",
+    "A combinação com a optativa 102234 'Responsabilitat Civil' (4º curso) seria considerada para a parte de responsabilidade civil?",
+    "Há grupo em espanhol aberto a intercambistas em 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "102234", "name": "Responsabilitat Civil", "relation": "Optativa do 4º curso que pode suprir a parte de responsabilidade civil; programa não lido"},
+    {"code": "102239", "name": "Dret Civil III", "relation": "Contratos (2º curso); complementar, não substitui obrigações; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e do guia docente oficial UAB 2026/2027 com apoio de IA (Claude); cada tópico vinculado a tema/subtema do guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Diferença de sistema jurídico e lacuna em dano moral exigem juízo da coordenação de Direito"}
+}

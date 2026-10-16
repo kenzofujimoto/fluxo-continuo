@@ -1,0 +1,184 @@
+{
+  "id": "dir|DIREITO DA SEGURIDADE SOCIAL|pt-coimbra|91510",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DA SEGURIDADE SOCIAL",
+    "name": "Direito da Seguridade Social",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 50, bloco 'DIREITO DA SEGURIDADE SOCIAL' (7ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Análise do sistema de seguridade social brasileiro: evolução histórica, subsistemas de saúde, de assistência e de previdência social",
+      "Princípios",
+      "Financiamento",
+      "Saúde: pressupostos constitucionais e principais aspectos da lei orgânica da saúde",
+      "Assistência social: pressupostos constitucionais, BPC e outras políticas assistenciais",
+      "Previdência social: conceitos fundamentais, pressupostos constitucionais, regimes previdenciários, plano de benefício do RGPS, financiamento e processo administrativo",
+      "Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais",
+      "Previdência complementar: pressupostos constitucionais e normas gerais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "91510",
+      "name": "Direito da Segurança Social",
+      "pageCode": "01019841",
+      "faculty": "Não indicada na página (área científica Direito)",
+      "programme": "Licenciatura em Administração Pública (plano 11983 segundo data.json e URL); a página não nomeia o curso",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Frequência: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: noções fundamentais de Direito Privado e de Direito Público",
+      "source": "https://apps.uc.pt/courses/PT/unit/91510/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "sha256": "511e25836c3b54a471099ed47a094c6d5f5a7d9922d1b53c3d9835df0ce84b1e",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (Partes I-III), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 5.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 5,0 ECTS e ensino presencial teórico-prático, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Análise do sistema de seguridade social brasileiro: evolução histórica, subsistemas de saúde, de assistência e de previdência social",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Parte I '2. Memória'; Parte III 'Linhas fundamentais da segurança social em Portugal': sistemas previdencial, de cidadania, complementar e convergente",
+      "foreignLocation": "Programa, Parte I.2 e Parte III",
+      "note": "Analisa o sistema português; a segurança social portuguesa não inclui a saúde, que integra a seguridade brasileira (CF 1988, art. 194)."
+    },
+    {
+      "brTopic": "Princípios",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Parte I '5. Princípios' do Direito da Segurança Social",
+      "foreignLocation": "Programa, Parte I.5",
+      "note": "Princípios do direito português; os objetivos constitucionais brasileiros (universalidade, seletividade, equidade no custeio etc.) não são estudados como tais."
+    },
+    {
+      "brTopic": "Financiamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Relações jurídicas contributivas'",
+      "foreignLocation": "Programa, Parte II.4",
+      "note": "Contribuições do sistema português; o custeio brasileiro (CF art. 195, contribuições sociais diversas) não aparece."
+    },
+    {
+      "brTopic": "Saúde: pressupostos constitucionais e principais aspectos da lei orgânica da saúde",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa Partes I-III, Resultados de Aprendizagem, Métodos de Ensino e Bibliografia; nenhuma menção a saúde, Serviço Nacional de Saúde ou equivalente da Lei 8.080/1990"
+    },
+    {
+      "brTopic": "Assistência social: pressupostos constitucionais, BPC e outras políticas assistenciais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Sistema de proteção social de cidadania'",
+      "foreignLocation": "Programa, Parte III.2",
+      "note": "O sistema português de cidadania abrange prestações não contributivas e ação social, mas o BPC e a LOAS brasileiros não são estudados; o enunciado do programa é só o título."
+    },
+    {
+      "brTopic": "Previdência social: conceitos fundamentais, pressupostos constitucionais, regimes previdenciários, plano de benefício do RGPS, financiamento e processo administrativo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Sistema previdencial'; relações jurídicas de vinculação, contributivas e prestacionais",
+      "foreignLocation": "Programa, Parte II.3-II.5 e Parte III.1",
+      "note": "Conceitos gerais (vinculação, contribuição, prestação) transferem-se; plano de benefícios do RGPS e processo administrativo no INSS não."
+    },
+    {
+      "brTopic": "Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Sistema de proteção social convergente'",
+      "foreignLocation": "Programa, Parte III.4",
+      "note": "O regime convergente português é o dos trabalhadores em funções públicas; o enunciado é só o título e o RPPS brasileiro (CF art. 40) não é tratado."
+    },
+    {
+      "brTopic": "Previdência complementar: pressupostos constitucionais e normas gerais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Sistema complementar'",
+      "foreignLocation": "Programa, Parte III.3",
+      "note": "Regime complementar português; normas gerais brasileiras (LC 108 e 109/2001) não estudadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Quadro internacional, da União Europeia e comparado da segurança social; desafios dos sistemas", "location": "Resultados de Aprendizagem; Métodos de Ensino (jurisprudência constitucional e casos europeus)"},
+    {"topic": "Interações do Direito da Segurança Social e suas fontes", "location": "Programa, Parte I.3-I.4"},
+    {"topic": "Dimensões subjetivas das relações jurídicas de segurança social", "location": "Programa, Parte II.2"},
+    {"topic": "Articulação entre direito, organização e práticas administrativas ('law in action')", "location": "Resultados de Aprendizagem"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 percorre o tripé constitucional brasileiro (saúde, assistência, previdência), RGPS, RPPS e previdência complementar.",
+    "foreign": ["Conhecer os elementos fundamentais do direito português da segurança social", "Situá-lo no quadro internacional, europeu e comparado", "Desenvolver visão crítica sobre o sistema português", "Articular direito e prática administrativa"],
+    "convergences": ["Fundamentos, princípios e relações contributiva e prestacional", "Regimes previdencial, de servidores públicos e complementar como categorias"],
+    "differences": ["Sistema português em vez do brasileiro; saúde fora do âmbito da segurança social portuguesa", "Programa apresenta só títulos, sem detalhar benefícios ou procedimentos"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de Administração Pública (opcional), Mackenzie na 7ª etapa de Direito (obrigatória)",
+    "brazil": "Componente obrigatório de 2 h-a semanais",
+    "foreign": "Opcional de 5 ECTS teórico-prática com casuística constitucional e europeia",
+    "theoryPractice": "Coimbra: teórico-prático, avaliação por frequência 100%"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "UC opcional de outro curso (Administração Pública); a Universidade de Coimbra admite pedidos de mobilidade em outros cursos e faculdades, sujeitos à aprovação dos coordenadores",
+    "prerequisites": "Noções de direito privado e público; satisfeitas por estudante da 7ª etapa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito da Segurança Social (Coimbra, Administração Pública) apresenta em três partes fundamentos, relações jurídicas e os quatro sistemas portugueses (previdencial, cidadania, complementar, convergente); cada eixo brasileiro tem homólogo apenas por título, e a saúde não aparece.",
+  "justification": "Sete dos oito tópicos da ementa Mackenzie 2022 ficam parciais e um não é encontrado (saúde e Lei Orgânica da Saúde). A parcialidade é dupla: o programa de Coimbra lista apenas títulos (p. ex. III.2 'Sistema de proteção social de cidadania', III.4 'Sistema de proteção social convergente'), e o direito ensinado é o português, sem BPC, RGPS, RPPS nem custeio do art. 195 da CF 1988. Coberto+parcial = 7/8, o que permite afinidade parcial, mas a coincidência é estrutural, não normativa. Horas não comparáveis (2 h-a semanais contra 5 ECTS); oferta no 2º semestre segundo data.json.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa de Coimbra apenas por títulos, sem horas nem semestre na página; ementário brasileiro histórico; forte dependência do sistema nacional.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas; data.json indica 2º semestre",
+    "UC pertence ao plano de Administração Pública, não ao de Direito",
+    "Programa de Coimbra lista só títulos; o detalhe vem de 'sumários desenvolvidos' não publicados na página",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente; carga só em horas-aula semanais",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita segurança social portuguesa, sem a componente saúde, para Direito da Seguridade Social?",
+    "Coimbra pode fornecer os sumários desenvolvidos da UC e confirmar o semestre de oferta em 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "100130", "name": "Direito do Trabalho", "relation": "UC da Licenciatura em Direito; não substitui seguridade social; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado a parte e item do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Cobertura só estrutural e programa por títulos; requer sumários desenvolvidos e juízo da coordenação"}
+}

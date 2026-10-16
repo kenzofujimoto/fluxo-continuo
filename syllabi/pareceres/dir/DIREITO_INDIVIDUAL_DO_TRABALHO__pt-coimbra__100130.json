@@ -1,0 +1,192 @@
+{
+  "id": "dir|DIREITO INDIVIDUAL DO TRABALHO|pt-coimbra|100130",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INDIVIDUAL DO TRABALHO",
+    "name": "Direito Individual do Trabalho",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 45, bloco 'DIREITO INDIVIDUAL DO TRABALHO' (6ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 4 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "do Direito Individual do Trabalho",
+      "e, do Direito Tutelar do Trabalho",
+      "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Coimbra",
+      "name": "Direito do Trabalho",
+      "pageCode": "01022692",
+      "faculty": "Faculdade de Direito (plano 1556 da Licenciatura em Direito; faculdade não indicada na página)",
+      "programme": "Licenciatura em Direito (plano 1556 segundo data.json); área científica Direito do Trabalho",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exame: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Não Aplicável",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "location": "Página da UC 2025-2026: Resultados de Aprendizagem e Programa (sequência de pontos em texto corrido, do 'o quê, porquê e para quê' à cessação do contrato)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6,0 ECTS; aulas teóricas e práticas sem horas declaradas. Página do ano letivo 2025-2026."
+      },
+      "universityId": "pt-coimbra",
+      "code": "100130",
+      "source": "https://apps.uc.pt/courses/PT/unit/100130/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "sha256": "48a18ebfb6812ab47cbff4ec0b7038c2f6dac9b81126c9279217ac97769ac86d"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Direito do Trabalho: o quê, porquê e para quê? Noção e características gerais do DT'",
+      "foreignLocation": "Programa, pontos iniciais",
+      "note": "Fundamentos são transferíveis; as 'principais regras' ensinadas são as do Código do Trabalho português, não da CLT."
+    },
+    {
+      "brTopic": "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'estudo e compreensão do regime jurídico da relação individual do trabalho'",
+      "foreignLocation": "Resultados de Aprendizagem",
+      "note": "O tópico Mackenzie exige consonância com o ordenamento brasileiro; o mesmo instituto é ensinado sob o sistema português."
+    },
+    {
+      "brTopic": "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Noção e características gerais do DT; fontes do DT (breve referência); tendências recentes do DT",
+      "foreignLocation": "Programa, pontos iniciais",
+      "note": "Princípios (proteção, primazia da realidade etc.) não são nomeados e as fontes têm só breve referência."
+    },
+    {
+      "brTopic": "do Direito Individual do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Contrato de trabalho e modalidades; formação, forma e invalidade; período experimental; poderes do empregador; mobilidade funcional; retribuição; suspensão; cessação",
+      "foreignLocation": "Programa, sequência integral",
+      "note": "Cobertura temática ampla, mas sob o regime português; institutos brasileiros como aviso prévio, FGTS e equiparação salarial da CLT não são tratados."
+    },
+    {
+      "brTopic": "e, do Direito Tutelar do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'O tempo da prestação de trabalho: trabalhar quanto e quando?' Férias. Faltas",
+      "foreignLocation": "Programa, parte final",
+      "note": "Duração do trabalho e descansos aparecem; segurança e saúde no trabalho e proteção do trabalho da mulher e do menor não constam."
+    },
+    {
+      "brTopic": "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Contrato de trabalho Vs contrato de prestação de serviço. Tendências recentes do DT'; 'os múltiplos desvios ao modelo típico'",
+      "foreignLocation": "Programa, pontos iniciais",
+      "note": "A qualificação do vínculo e as formas atípicas relacionam-se com novas relações de trabalho, mas gig economy, CLT e direito comparado não são nomeados; para o estudante brasileiro, o curso é em si uma experiência comparada."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Direitos do trabalhador enquanto pessoa e cidadão perante os poderes do empregador",
+      "location": "Programa, parte intermédia"
+    },
+    {
+      "topic": "Lugar da prestação de trabalho",
+      "location": "Programa, parte intermédia"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 pede estudo crítico da teoria geral, do direito individual e do direito tutelar do trabalho, com CLT, novas relações (gig economy), direito comparado e futuro do trabalho.",
+    "foreign": [
+      "Interpretar e aplicar o regime legal da relação individual de trabalho",
+      "Resolver hipóteses práticas"
+    ],
+    "convergences": [
+      "Ciclo do contrato individual de trabalho, da formação à cessação",
+      "Qualificação do vínculo e formas atípicas",
+      "Tempo de trabalho, férias e retribuição"
+    ],
+    "differences": [
+      "Regime português (Código do Trabalho) em vez da CLT",
+      "Direito tutelar (saúde e segurança, trabalho da mulher e do menor) ausente",
+      "Gig economy e futuro do trabalho não nomeados"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano; Mackenzie na 6ª etapa",
+    "brazil": "Componente de 4 horas-aula semanais",
+    "foreign": "UC obrigatória de 6 ECTS centrada no contrato individual, com bibliografia básica única (Leal Amado, 2022)",
+    "theoryPractice": "Coimbra alterna exposição teórica e resolução conjunta de hipóteses práticas; avaliação por exame único"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "UC obrigatória da Licenciatura em Direito; mobilidade sujeita à aprovação dos coordenadores",
+    "prerequisites": "Não aplicável; estudante Mackenzie na 6ª etapa tem base de direito civil",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Coimbra 100130 percorre todo o ciclo do contrato individual de trabalho, o que acompanha a estrutura da ementa Mackenzie, mas o faz pelo Código do Trabalho português; os seis tópicos brasileiros ficam todos em cobertura parcial, com lacuna no direito tutelar e nas referências à CLT e à gig economy.",
+  "justification": "Seis de seis tópicos essenciais são 'parcial': a UC trata fundamentos, teoria geral (com fontes só em breve referência), relação individual completa (formação, período experimental, poderes, mobilidade, tempo, férias, faltas, retribuição, suspensão e cessação) e qualificação do vínculo diante da prestação de serviços. Nenhum chega a 'coberto' porque a ementa 2022 ancora-se na CLT e no ordenamento brasileiro, e institutos como FGTS, aviso prévio e proteção do trabalho da mulher e do menor não aparecem. A razão coberto+parcial de 100% leva a afinidade parcial; a ementa é histórica e as 4 horas-aula semanais não se comparam aos 6 ECTS. A oferta no 2º semestre (data.json) é obstáculo para 2027.2.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de Coimbra lista os pontos, mas sem numeração nem horas; página de 2025-2026 e ementa brasileira histórica reduzem a confiança.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; o texto pode não corresponder à matriz vigente",
+    "Direito do trabalho português não cobre CLT, FGTS nem a regulação brasileira de plataformas",
+    "Página da UC referente a 2025-2026; horas de contacto não declaradas; carga Mackenzie em horas-aula semanais",
+    "Semestre (2º) apenas em data.json; oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita contrato individual sob o Código do Trabalho português como cobertura do direito individual brasileiro, exigindo complementação de CLT?",
+    "Há oferta de 100130 no 1º semestre de 2027/28 para mobilidade?"
+  ],
+  "alternatives": [
+    {
+      "code": "97282",
+      "name": "Direito Coletivo do Trabalho",
+      "relation": "Complementar no eixo coletivo; não substitui a parte individual; programa não lido"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da página oficial da UC 100130 (2025-2026) com apoio de IA (Claude); cada tópico confrontado com pontos do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Classificação depende da aceitação de direito do trabalho estrangeiro e da ausência do direito tutelar"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-16"
+}

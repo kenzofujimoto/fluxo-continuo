@@ -1,0 +1,157 @@
+{
+  "id": "adm|Marketing I|es-26-universidaddej|11911003",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": null,
+    "documentTitle": "Ficha de disciplina CCSA do 1º semestre de Administração (Etapa_1_02.pdf), vinculada pelo link '1º Semestre' da matriz oficial de Alphaville; cabeçalho do campus São Paulo, sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h no semestre; vigência para a matriz atual de Alphaville não confirmada (arquivo publicado em 29/07/2021)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-26-universidaddej",
+      "university": "Universidad de Jaén",
+      "code": "11911003",
+      "name": "Fundamentos de marketing",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "programme": "Guia publicada para o Doble Grado en Administración y Dirección de Empresas y Finanzas y Contabilidad (data.json associa a UC ao Grado em ADE)",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Segundo cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Exame escrito final 70% (mínimo de 50% na prova) e tarefas obrigatórias ao longo do cuatrimestre 30%",
+      "prerequisites": "Não indicados ('-')",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911003/es/2025-26-11911003_es.html",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "sha256": "0554eb55ac1a6e229866b9e1aa257506055646a1459ba90b8d68e7c89d3a4c9c",
+      "location": "Guía Docente 2025-26: Ficha identificativa, Resumen (RUCT), Competencias (C12), Descripción de contenidos (Partes I-III, Temas 1-6), Actividades formativas, Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Guia sem ECTS e sem total de horas presenciais. Tabela de atividades: A1a gran grupo 112,5 h e A2a pequeño grupo 37,5 h, ambas com 40% de presencialidade; nenhum total presencial impresso."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 1 'Naturaleza y alcance del marketing': o que não é marketing, dimensões, intercâmbio como paradigma, enfoques e evolução",
+      "foreignLocation": "Parte I, Tema 1.1-1.6"
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'El entorno del marketing: macroentorno y microentorno'; conceito e classificação do mercado",
+      "foreignLocation": "Parte II, Tema 3.1-3.3"
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelos de comportamento do consumidor, fatores externos e internos, processo de decisão de compra",
+      "foreignLocation": "Parte II, Tema 4.1-4.3"
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Comportamiento de compra de las organizaciones'; resumo RUCT 'Comportamiento del consumidor y de las organizaciones'",
+      "foreignLocation": "Parte II, Tema 4.4; Resumen RUCT",
+      "note": "A ementa Mackenzie esclarece que o tópico é o 'comportamento do comprador organizacional', não Comportamento Organizacional da área de gestão de pessoas."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Segmentação, delimitação e seleção do mercado-meta; diferenciação, posicionamento e reposicionamento",
+      "foreignLocation": "Parte II, Tema 5.1-5.4"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Gestão de marketing nas organizações: marketing estratégico e operacional, planejamento estratégico", "location": "Parte I, Tema 2.1-2.3"},
+    {"topic": "Variáveis do marketing mix: produto, preço, distribuição, comunicação e marketing online", "location": "Parte III, Tema 6.1-6.5"},
+    {"topic": "Novas tendências: neuromarketing, marketing sensorial e experiencial, geomarketing; marketing global", "location": "Tema 1.6; Tema 3.3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: o que é marketing e como gera valor; satisfação, valor, fidelidade, comportamento do consumidor e do comprador organizacional, marketing estratégico com segmentação e posicionamento.",
+    "foreign": ["C12 conhece os conceitos básicos de marketing", "Elaborar informes e respostas argumentativas (avaliação de tarefas)"],
+    "convergences": ["Conceito de marketing, ambiente, comportamento de compra individual e organizacional", "Segmentação, mercado-meta e posicionamento"],
+    "differences": [
+      "Jaén acrescenta um tema introdutório ao marketing mix (Tema 6), conteúdo que no Mackenzie é de Marketing II",
+      "Satisfação, valor e fidelidade, citados na ementa Mackenzie, não aparecem como itens no temário de Jaén"
+    ]
+  },
+  "depth": {
+    "level": "Ambas introdutórias; Jaén no 1º curso, Mackenzie no 1º semestre",
+    "brazil": "Componente de 63,3 h com cinco blocos conceituais",
+    "foreign": "Disciplina básica com três partes e seis temas, cobrindo também o mix de marketing",
+    "theoryPractice": "Jaén combina aula expositiva com casos e debates (30% da nota em tarefas); a ficha Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (fevereiro a junho); não coincide com a mobilidade 2027.2 se a programação se mantiver",
+    "language": "Espanhol; edital exige nível B2 e a avaliação penaliza erros de ortografia e gramática",
+    "enrolment": "Guia publicada no Doble Grado ADE + Finanzas y Contabilidad; modalidade presencial; abertura a intercambistas não verificada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada",
+    "note": "Marketing I é do 1º semestre Mackenzie; um aluno em mobilidade 2027.2 provavelmente já o terá cursado"
+  },
+  "synthesis": "Fundamentos de marketing contém, tema a tema, os cinco blocos da ficha Mackenzie de Marketing I (conceito, ambiente, consumidor, comprador organizacional, segmentação e posicionamento) e vai além, com uma introdução ao marketing mix; o que impede classe mais alta é a ficha brasileira sem vigência confirmada e a falta de horas presenciais na guia.",
+  "justification": "Os cinco tópicos oficiais estão cobertos por unidades identificadas: Tema 1 (significado), Tema 3.2 (macro e microentorno), Tema 4.1-4.3 (consumidor), Tema 4.4 (compra organizacional) e Tema 5 (segmentação e posicionamento); coberto = 5/5. A guia não traz ECTS nem total presencial (só 112,5 h + 37,5 h de atividades com 40% de presencialidade), logo as 63,3 h não são comparáveis. Pela regra interna a classe fica em afinidade parcial, também porque a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Correspondência temática completa em guia oficial itemizada; faltam horas presenciais e ECTS, e a ficha Mackenzie não tem ano de vigência.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas; guia consultada é de 2025-26",
+    "UC do 2º cuatrimestre, fora do período da mobilidade 2027.2",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Guia sem ECTS e sem horas presenciais totais; carga horária não comparável",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Um aluno já aprovado em Marketing I teria interesse na UC, ou ela serviria só para pendência curricular?",
+    "Jaén confirma horas presenciais e ECTS de Fundamentos de marketing para 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "11912003", "name": "Dirección de marketing I", "relation": "Disciplina posterior de marketing em Jaén; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Correspondência de conteúdo direta; limitações documentais já refletidas na classe"}
+}

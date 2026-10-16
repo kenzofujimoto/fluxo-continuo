@@ -1,0 +1,182 @@
+{
+  "id": "dir|DIREITO DE FAMÍLIA|es-29-universitataut|103955",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DE FAMÍLIA",
+    "name": "Direito de Família",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 41, bloco 'DIREITO DE FAMÍLIA' (6ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 4 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universitat Autònoma de Barcelona",
+      "name": "Dret de Família",
+      "faculty": "Facultat de Dret (guia docent do Grau en Dret)",
+      "programme": "Grau en Dret; tipo OP (optativa)",
+      "level": "Grau (graduação)",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segon quadrimestre (fevereiro-junho) segundo o quadro 'Grups i idiomes'",
+      "academicYear": "2026/2027",
+      "language": "Catalão (único grupo de teoria e de práticas de aula; informação provisória até 30/11)",
+      "courseStatus": "OP - optativa de 4º curso",
+      "assessment": "Avaliação continuada: atividades (textos jurídicos, exposição oral, debates) 50% + prova test 50% com mínimo 4; exige 80% de presença; avaliação única com redação de convênio regulador, exposição oral e test",
+      "prerequisites": "Conhecimento prévio de direito civil patrimonial, direito da pessoa e parte geral",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "location": "Guia docent 2026/2027: Prerequisits, Objectius 1-4, Resultats d'aprenentatge, Continguts Temes 1-12, Activitats formatives, Avaluació, Bibliografia, Grups i idiomes",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro 'Activitats formatives': Dirigida 44 h (aulas magistrais, práticas, debates, simulações); Supervisada 6 h (tutorias); Autònoma 95 h (bibliografia 15, estudo 45, leitura 20, redação 15); avaliação 5 h. O guia não denomina essas horas 'de contato'."
+      },
+      "universityId": "es-29-universitataut",
+      "code": "103955",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/103955/ca",
+      "sha256": "7ca721c7d6daf053831307a2cb86c1b1ee29ae31e6f14d36339b61e7d3da7976"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'Família i famílies'; conceito e caracterização do direito de família; objetivo 2: evolução das instituições familiares e adaptação do ordenamento",
+      "foreignLocation": "Continguts, Tema 1.1-1.2; Objectius, item 2",
+      "note": "O enfoque constitucional brasileiro (CF/1988, arts. 226-227) não é ensinado; a legislação listada é o Codi Civil de Catalunya e o Código Civil espanhol, sem referência à Constituição espanhola no temário."
+    },
+    {
+      "brTopic": "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Matrimônio: requisitos e formas, efeitos pessoais e patrimoniais, regimes econômicos, separação, divórcio e nulidade, convivência estável em casal",
+      "foreignLocation": "Continguts, Temes 5-11",
+      "note": "Os institutos equivalem aos do Código Civil de 2002, mas sob o regime catalão (separação de bens como regime supletivo, ao contrário da comunhão parcial brasileira); não é o direito positivo brasileiro."
+    },
+    {
+      "brTopic": "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Parentesco e alimentos, filiação por natureza e reconhecimento, filiação adotiva, potestade parental, guarda e plano de parentalidade com o interesse da pessoa menor",
+      "foreignLocation": "Continguts, Temes 1.3-1.4, 2, 3, 4 e 10.6.1",
+      "note": "O Estatuto da Criança e do Adolescente (Lei 8.069/1990) e a socioafetividade não aparecem; o princípio do interesse superior do menor é tratado sob a lei catalã."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Regimes econômicos matrimoniais catalães (participação nos ganhos, associação a compras e melhorias, agermanament) e a sociedad de gananciales",
+      "location": "Continguts, Temes 7-8"
+    },
+    {
+      "topic": "Maternidade por substituição e inseminação doméstica",
+      "location": "Continguts, Tema 2.5"
+    },
+    {
+      "topic": "Efeitos civis em caso de violência de gênero; pactos em previsão de ruptura",
+      "location": "Continguts, Tema 10.4 e 10.7"
+    },
+    {
+      "topic": "Relações convivenciais de ajuda mútua",
+      "location": "Continguts, Tema 11.2"
+    },
+    {
+      "topic": "Mediação familiar",
+      "location": "Continguts, Tema 12"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 indica abordagem principiológica, constitucional e jurisprudencial dos institutos de família, com ênfase no melhor interesse da criança e no ECA; não lista competências.",
+    "foreign": [
+      "Conhecer os conteúdos básicos do direito de família",
+      "Refletir sobre a evolução das instituições familiares",
+      "Ajudar a resolver conflitos familiares",
+      "Elaborar documentos jurídicos (ex.: convênio regulador)"
+    ],
+    "convergences": [
+      "Casamento, união estável, dissolução, filiação, adoção, alimentos e guarda",
+      "Debate jurisprudencial e casos práticos"
+    ],
+    "differences": [
+      "Direito aplicado é o catalão/espanhol, não o Código Civil de 2002 nem o ECA",
+      "UAB aprofunda regimes de bens catalães e mediação familiar, ausentes da ementa brasileira",
+      "Ementa brasileira enfatiza fundamento constitucional e afetividade, não visíveis no temário UAB"
+    ]
+  },
+  "depth": {
+    "level": "UAB no 4º curso (optativa); Mackenzie na 6ª etapa (obrigatória)",
+    "brazil": "Componente de 4 horas-aula semanais sobre todo o direito de família brasileiro",
+    "foreign": "Temário de 12 temas detalhado até subitens, com prerequisitos de parte geral e direito patrimonial",
+    "theoryPractice": "UAB combina aulas magistrais com práticas de aula, debates, exposição de jurisprudência e simulações; 80% de presença exigidos"
+  },
+  "practical": {
+    "period": "Segon quadrimestre (fevereiro-junho); não coincide com o período 2027.2 se a programação se mantiver",
+    "language": "Catalão; não há grupo em castelhano indicado",
+    "enrolment": "Optativa de 4º curso; aceitação de intercambista não verificada",
+    "prerequisites": "Direito civil patrimonial, da pessoa e parte geral; estudante Mackenzie na 6ª etapa já cursou parte geral e obrigações",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dret de Família percorre, em direito catalão, praticamente todos os institutos da ementa Mackenzie (casamento, regimes, dissolução, filiação, adoção, alimentos, guarda), mas sem o fundamento constitucional brasileiro e sem o ECA; por isso os três tópicos oficiais ficam apenas parcialmente atendidos.",
+  "justification": "Os três tópicos essenciais têm correspondência material nos Temes 1-11 (parentesco e alimentos, filiação, adoção, potestade parental, matrimônio, regimes econômicos, separação, divórcio, nulidade e convivência estável). Todos são classificados 'parcial' porque o conteúdo é o direito positivo catalão e espanhol: o regime supletivo de separação de bens, a potestade parental e a convivência estável catalã não substituem automaticamente o Código Civil de 2002, a CF/1988 e o ECA. Com 3/3 tópicos parciais, a regra interna leva a afinidade parcial; a ementa 2022 é histórica e as 4 horas-aula semanais não são comparáveis aos 6 ECTS (44 h dirigidas, 6 h supervisionadas). Obstáculos práticos: optativa de 4º curso, só em catalão, no segon quadrimestre.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Temário UAB muito detalhado; a confiança cai pela ementa brasileira histórica de 2022 e pela dependência de juízo da coordenação sobre a transferibilidade entre sistemas jurídicos.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; o texto pode não corresponder à matriz vigente",
+    "Carga Mackenzie em horas-aula semanais; carga não comparável e 6 ECTS não convertidos",
+    "Direito de família catalão/espanhol não cobre CF/1988, Código Civil de 2002 e ECA",
+    "Oferta 2027/28, idioma do grupo e vaga para intercambista não confirmados",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita direito de família de outro ordenamento como cobertura dos institutos positivados brasileiros?",
+    "Existe oferta de Dret de Família ou equivalente no primer quadrimestre de 2027/28?"
+  ],
+  "alternatives": [
+    {
+      "code": "102235",
+      "name": "Dret del Menor",
+      "relation": "Optativa que poderia complementar o bloco de criança e adolescente; programa não lido neste parecer"
+    },
+    {
+      "code": "102202",
+      "name": "Tutela Judicial i Processos de Família",
+      "relation": "Enfoque processual de família; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da guia docent UAB 103955 (2026/2027, catalão) com apoio de IA (Claude); tópicos confrontados com Temes 1-12 e Objectius; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Classificação depende da aceitação de institutos equivalentes de outro sistema jurídico"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-16"
+}

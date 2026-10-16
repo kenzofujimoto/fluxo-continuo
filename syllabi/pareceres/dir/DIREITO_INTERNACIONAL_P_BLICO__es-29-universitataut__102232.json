@@ -1,0 +1,147 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL PÚBLICO|es-29-universitataut|102232",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL PÚBLICO",
+    "name": "Direito Internacional Público",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 19, bloco 'DIREITO INTERNACIONAL PÚBLICO' (3ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade",
+      "O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina",
+      "A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102232",
+      "name": "Dret Internacional Públic",
+      "faculty": "Facultat de Dret",
+      "programme": "Grau en Dret",
+      "level": "Grau (1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer quadrimestre para os grupos 1, 2 e 51; segon quadrimestre para o grupo 70 (tabela 'Grups i idiomes')",
+      "academicYear": "2026/2027",
+      "language": "Grupo 2 e seminários 21-23 em inglês; grupo 51 em espanhol; grupos 1 e 70 em catalão (informação provisória até 30 de novembro)",
+      "courseStatus": "FB (formação básica)",
+      "assessment": "Nove atividades de seminário 45% + participação em plenário 10% + exame de conteúdos 45% com mínimo 4/10; reavaliação só do exame; avaliação única prevista",
+      "prerequisites": "Não há",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102232/ca",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "sha256": "98644991dffff2d8ed65f960a94ff07e4b4bb1af62e1c4ccf3daf2052568e7c0",
+      "location": "Guia docent 2026/2027: Prerequisits, Idiomes, Objectius, Resultats d'aprenentatge, Continguts (Lliçons 1-13), Activitats formatives, Avaluació, Bibliografia, Grups i idiomes",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Atividades 'Dirigida': classes teòriques 22 h, resolució de casos 5 h, seminaris 17 h; 'Autònoma': 91 h. O guia afirma que a docência é presencial, mas não declara um total de horas de contacto; mantido null."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectius, Resultats d'aprenentatge e Continguts, Lliçons 1-13 (em especial Lliçó 3, atores, e Lliçó 13, arquitetura económica internacional e cooperação para o desenvolvimento)",
+      "note": "A Lliçó 13 trata relações financeiras e comerciais internacionais e cooperação para o desenvolvimento entre Estados e organizações; não há modelo de governança empresa-poder público."
+    },
+    {
+      "brTopic": "O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Estatuto internacional de outros atores: 'Els pobles. Les ONG. Les empreses transnacionals. L'individu'; soft law e interação entre fontes formais e mecanismos coadjuvantes",
+      "foreignLocation": "Continguts, Lliçó 3 e Lliçó 6",
+      "note": "A UAB trata empresas transnacionais e ONG como atores dentro de um DIP interestatal; não teoriza um Direito Global de origem privada."
+    },
+    {
+      "brTopic": "A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Continguts, Lliçons 1-13; Objectius; Bibliografia",
+      "note": "Coincidências só incidentais: a arbitragem da Lliçó 9 é meio de solução de controvérsias entre Estados, não arbitragem comercial; ONG aparecem na Lliçó 3. Redes económicas transnacionais e exclusão de cidadãos não constam."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Sociedade internacional, conceito de DIP e sistema das Nações Unidas", "location": "Continguts, Lliçó 1"},
+    {"topic": "Subjetividade do Estado e das organizações internacionais; reconhecimento, imunidades", "location": "Continguts, Lliçons 2-3"},
+    {"topic": "Fontes: tratados, costume, princípios gerais, ius cogens, atos unilaterais", "location": "Continguts, Lliçons 4-6"},
+    {"topic": "Relações entre DIP e direito interno; efeitos e extinção dos tratados", "location": "Continguts, Lliçons 7-8"},
+    {"topic": "Solução pacífica de controvérsias, responsabilidade internacional, uso da força", "location": "Continguts, Lliçons 9-11"},
+    {"topic": "Espaços (terrestre, aéreo, mar), meio ambiente", "location": "Continguts, Lliçó 12"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 define objetivos de análise de governança transnacional e desigualdade; não lista competências.",
+    "foreign": [
+      "Identificar e aplicar princípios e normas do ordenamento internacional e da União Europeia",
+      "Resolver problemas de interpretação e aplicação de normas internacionais",
+      "Analisar a proteção dos direitos humanos no plano internacional"
+    ],
+    "convergences": ["Reconhecimento de atores não estatais (ONG, empresas transnacionais)"],
+    "differences": [
+      "A ementa Mackenzie 2022 descreve um curso de governança e Direito Global de origem privada; a UAB ensina o DIP clássico (fontes, sujeitos, tratados, responsabilidade, controvérsias)",
+      "A desigualdade social e a inclusão/exclusão de cidadãos não são objeto da UC estrangeira"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; UAB no 2º curso (formação básica), Mackenzie na 3ª etapa",
+    "brazil": "2 horas-aula semanais, abordagem teórico-empírica com estudos de caso setoriais",
+    "foreign": "6 ECTS, 13 lições, nove atividades de seminário e simulação judicial na avaliação única",
+    "theoryPractice": "UAB: 22 h de teoria, 17 h de seminários e 5 h de casos; ementário brasileiro não discrimina"
+  },
+  "practical": {
+    "period": "Primeiro quadrimestre (grupos 1, 2, 51), compatível em grande parte com 2027.2",
+    "language": "Opção de grupo em inglês (grupo 2) ou espanhol (grupo 51)",
+    "enrolment": "Formação básica de 2º curso, sem pré-requisitos; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A UAB oferece um curso clássico de Direito Internacional Público (fontes, sujeitos, tratados, responsabilidade, solução de controvérsias), enquanto a ementa Mackenzie 2022 descreve governança transnacional, Direito Global de origem privada e desigualdade; só a menção a ONG e empresas transnacionais como atores aproxima os programas.",
+  "justification": "Dos três enunciados oficiais, apenas o segundo tem correspondência parcial (Lliçó 3 inclui ONG e empresas transnacionais; Lliçó 6 trata soft law). O primeiro (governança empresa-poder público para redução da desigualdade) e o terceiro (redes económicas transnacionais, exclusão de cidadãos, exemplos setoriais) não foram encontrados; a arbitragem da Lliçó 9 é interestatal. Razão coberto+parcial de 1/3 (33%): baixa afinidade. A divergência decorre sobretudo do perfil atípico da ementa brasileira de 2022; se a ementa vigente for de DIP clássico, a avaliação deve ser refeita. Horas não comparáveis (2 h-a semanais contra 6 ECTS).",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa UAB completo, mas a ementa brasileira de 2022 é histórica e de conteúdo atípico para a disciplina, o que torna incerto se reflete o componente atual.",
+  "limitations": [
+    "Ementário Mackenzie 2022 é histórico e sua ementa de DIP descreve governança transnacional, não DIP clássico; pode não corresponder à matriz vigente",
+    "Horas não comparáveis: 2 h-a semanais contra 6 ECTS",
+    "Oferta 2027/28 e vaga em grupo de inglês ou espanhol não confirmadas",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A ementa vigente de Direito Internacional Público em Alphaville mantém o foco em governança e Direito Global ou segue o DIP clássico?",
+    "Caso a ementa vigente seja clássica, a coordenação reavaliaria 102232 com base no programa de fontes, sujeitos e controvérsias?"
+  ],
+  "alternatives": [
+    {"code": "102287", "name": "Dret Global: Fonaments i Principis", "relation": "Optativa de 4º curso cujo título se aproxima do foco em Direito Global da ementa 2022; programa não lido"},
+    {"code": "102258", "name": "Institucionalització del Sistema Internacional", "relation": "Optativa de 4º curso; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e do guia docente UAB 2026/2027 (catalão) com apoio de IA (Claude); cada tópico vinculado a lição do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Ementa brasileira histórica e atípica; conclusão depende da ementa vigente"}
+}

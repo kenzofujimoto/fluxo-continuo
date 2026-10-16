@@ -1,0 +1,175 @@
+{
+  "id": "adm|Introdução à Estatística|es-26-universidaddej|11911002",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Introdução à Estatística",
+    "name": "Introdução à Estatística",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": null,
+    "documentTitle": "Ficha de disciplina CCSA do 3º semestre de Administração (Etapa_3_02.pdf), vinculada pelo link '3º Semestre' da matriz oficial de Alphaville; cabeçalho do campus São Paulo, sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 4, bloco 'Introdução à Estatística': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h no semestre; vigência para a matriz atual de Alphaville não confirmada (arquivo publicado em 29/07/2021)."
+    },
+    "topics": [
+      "Dados e Estatística",
+      "Estatística Descritiva: métodos tabulares e gráficos",
+      "Medidas numéricas em estatística Descritiva",
+      "Introdução à probabilidade",
+      "Distribuições (discreta e contínua) de probabilidade",
+      "Amostragem",
+      "Estimação por intervalo"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-26-universidaddej",
+      "university": "Universidad de Jaén",
+      "code": "11911002",
+      "name": "Estadística I",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U112 - Estadística e Investigación Operativa",
+      "programme": "Guia publicada para o Doble Grado en Administración y Dirección de Empresas y Finanzas y Contabilidad (data.json associa a UC ao Grado em ADE)",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Segundo cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Exame teórico-prático 75% e prova de práticas em computador 25% (última semana de aula)",
+      "prerequisites": "Nenhum formal; recomenda-se cursar no cuatrimestre previsto por ser base de matérias posteriores",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911002/es/2025-26-11911002_es.html",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "sha256": "0c95032bc1c8caecdad9f58131d8601d6b6cda976c5f0648bbf03835f868bd34",
+      "location": "Guía Docente 2025-26: Ficha identificativa, Resumen (RUCT), Descripción de contenidos (Teoría 1-6.2; Práctica: Relaciones 1-5 e Prácticas en ordenador 1-4), Metodologías/Actividades formativas, Evaluación",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 45,
+        "contactSeminarLab": 15,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": 50,
+        "note": "Valores em sessões de 50 min declaradas na guia: 45 sessões de teoria, 10 de resolução de problemas e 5 em aula de informática. A tabela de atividades (A1a 112,5 h e A2a 37,5 h, 40% de presencialidade) é coerente com esse total. ECTS não informados; modalidade 'Híbrida'."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Dados e Estatística",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Introducción a la Estadística Descriptiva' com conceitos fundamentais e variáveis estatísticas unidimensionais",
+      "foreignLocation": "Teoría, temas 1.1-1.2"
+    },
+    {
+      "brTopic": "Estatística Descritiva: métodos tabulares e gráficos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Tablas de frecuencias y representaciones gráficas'; práticas em computador de variável qualitativa e quantitativa",
+      "foreignLocation": "Teoría 1.2.1; Prácticas en ordenador 1-2"
+    },
+    {
+      "brTopic": "Medidas numéricas em estatística Descritiva",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Medidas de posición, dispersión y forma'; medidas de concentración; descritiva bidimensional",
+      "foreignLocation": "Teoría 1.2.2-1.3; Práctica Relación 1"
+    },
+    {
+      "brTopic": "Introdução à probabilidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Definição de probabilidade, probabilidade condicionada, independência e teoremas fundamentais",
+      "foreignLocation": "Teoría 4.1-4.4; Práctica Relación 4"
+    },
+    {
+      "brTopic": "Distribuições (discreta e contínua) de probabilidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Variáveis discretas e contínuas; 'Modelos de distribuciones discretas' e 'continuas'; prática em computador de modelos",
+      "foreignLocation": "Teoría 5.1-5.2 e 6.1-6.2; Práctica en ordenador 4"
+    },
+    {
+      "brTopic": "Amostragem",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría 1-6.2, Relaciones 1-5, Prácticas en ordenador 1-4 e Bibliografía",
+      "note": "O programa termina nos modelos de distribuição; distribuições amostrais não aparecem."
+    },
+    {
+      "brTopic": "Estimação por intervalo",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría 1-6.2, Relaciones 1-5, Prácticas en ordenador 1-4 e Bibliografía",
+      "note": "Inferência (intervalos de confiança) não consta; provavelmente em Estadística II (11912005), não lida."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Séries cronológicas: componentes, tendência, variações estacionais e dessazonalização", "location": "Teoría, tema 2.1-2.5; Relación 2"},
+    {"topic": "Números índices: simples, compostos, mudança de base, enlace e deflação", "location": "Teoría, tema 3.1-3.5; Relación 3"},
+    {"topic": "Vetores aleatórios e suas características", "location": "Teoría, tema 5.3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos e medidas de estatística descritiva, gráficos e tabelas com ferramentas computacionais, distribuições de probabilidade e intervalos de confiança.",
+    "foreign": [
+      "C07 conhece os conceitos básicos da Estatística",
+      "Uso de software estatístico para resolver problemas práticos (prova de práticas 25%)"
+    ],
+    "convergences": ["Descritiva com apoio computacional", "Probabilidade e modelos de distribuição discretos e contínuos"],
+    "differences": [
+      "Jaén dedica dois temas a séries temporais e números índices, ausentes da ficha Mackenzie",
+      "Amostragem e estimação por intervalo, finais da ficha Mackenzie, ficam fora de Estadística I"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação introdutória; Jaén no 1º curso, Mackenzie no 3º semestre",
+    "brazil": "Componente de 63,3 h que vai da descritiva à estimação por intervalo",
+    "foreign": "Disciplina básica com 60 sessões de 50 min (45 teóricas, 15 práticas, das quais 5 em laboratório de informática)",
+    "theoryPractice": "Jaén declara 25% da nota em práticas de computador; a ficha Mackenzie menciona ferramentas computacionais na ementa sem discriminar carga"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (fevereiro a junho); não coincide com a mobilidade 2027.2 se a programação se mantiver",
+    "language": "Espanhol; edital exige nível B2",
+    "enrolment": "Guia publicada no Doble Grado ADE + Finanzas y Contabilidad; modalidade híbrida; abertura a intercambistas não verificada",
+    "prerequisites": "Nenhum formal",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estadística I de Jaén reproduz a parte descritiva e probabilística da ficha Mackenzie, com software estatístico, mas para nos modelos de distribuição: amostragem e estimação por intervalo não aparecem, e o curso gasta dois temas em séries temporais e números índices.",
+  "justification": "Cinco de sete tópicos oficiais estão cobertos (temas 1.1-1.3, 4.1-4.4, 5 e 6) e dois não foram encontrados (amostragem e estimação por intervalo), ambos do bloco inferencial. Coberto = 5/7 (71%), abaixo de 75% e com ausências. A guia declara 60 sessões de 50 min, ou 50 h-relógio, contra 63,3 h Mackenzie (razão 0,79). Como a ficha brasileira não tem vigência confirmada, a classe fica limitada a afinidade parcial; o 2º cuatrimestre é obstáculo prático para 2027.2.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia oficial 2025-26 com temário detalhado e sessões de 50 min declaradas; ficha Mackenzie sem vigência confirmada e guia sem ECTS.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas; guia consultada é de 2025-26",
+    "UC do 2º cuatrimestre, fora do período da mobilidade 2027.2",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Total de 60 sessões obtido somando as três atividades declaradas na guia; ECTS não informados",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria Estadística I sem o bloco de amostragem e intervalos?",
+    "Estadística II (11912005) traz amostragem e estimação e é oferecida no 1º cuatrimestre?"
+  ],
+  "alternatives": [
+    {"code": "11912005", "name": "Estadística II", "relation": "Provável continuação inferencial; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Bloco inferencial ausente e ficha brasileira sem vigência confirmada"}
+}

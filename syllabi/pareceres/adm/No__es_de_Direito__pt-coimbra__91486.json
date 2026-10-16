@@ -1,0 +1,173 @@
+{
+  "id": "adm|Noções de Direito|pt-coimbra|91486",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Noções de Direito",
+    "name": "Noções de Direito",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 7, bloco 'Noções de Direito': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Interação entre o ordenamento jurídico e a vida social",
+      "Panorama sobre a Separação dos Poderes",
+      "Estruturação do Sistema Jurídico, Constituição Federal e Direitos e Garantias",
+      "Fundamentais",
+      "Apontamentos sobre o Direito Civil e Direito do Consumidor nos aspectos Contratuais e obrigacionais",
+      "Análise do sistema de responsabilização civil e criminal",
+      "Relações Empresariais e seus efeitos nos âmbitos trabalhista e tributário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "91486",
+      "name": "Noções de Direito Privado e de Direito Público II",
+      "pageCode": "01019678",
+      "faculty": "Não indicada na página da UC (plano 11983, Licenciatura em Administração Pública segundo data.json)",
+      "programme": "Licenciatura em Administração Pública (plano 11983; a página fala em 'Administração Público-Privada'); área científica Direito",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação contínua: mini testes 80% (dois testes escritos de duas horas) + participação ('Outra') 20%",
+      "prerequisites": "Cultura liceal média; Noções de Direito Privado e de Direito Público I",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/91486/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "3124e9c0037b54aa1203604a4050fa741b6a8068ea7f8a97890a9630cf2f4f54",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa A-F, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 7.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 7,0 ECTS, sem horas de contacto. Código interno: 01019678."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Interação entre o ordenamento jurídico e a vida social",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa A-F (Código Civil, parte geral, obrigações, coisas, família, sucessões), Resultados de Aprendizagem e Bibliografia",
+      "note": "A introdução geral ao Direito deve estar na parte I (91482), não lida."
+    },
+    {
+      "brTopic": "Panorama sobre a Separação dos Poderes",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa A-F e Resultados de Aprendizagem",
+      "note": "Apesar do título, a parte II trata só de direito privado (direito civil)."
+    },
+    {
+      "brTopic": "Estruturação do Sistema Jurídico, Constituição Federal e Direitos e Garantias",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa A-F e Resultados de Aprendizagem",
+      "note": "O ponto A ('O Código Civil e a sua sistematização') organiza só o direito civil português. A Constituição Federal de 1988 não seria coberta por uma UC portuguesa."
+    },
+    {
+      "brTopic": "Fundamentais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa A-F e Resultados de Aprendizagem",
+      "note": "Fragmento do item anterior ('Direitos e Garantias Fundamentais') separado por quebra de linha na ficha oficial; mantido como na fonte."
+    },
+    {
+      "brTopic": "Apontamentos sobre o Direito Civil e Direito do Consumidor nos aspectos Contratuais e obrigacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "C. Direito das obrigações: relação obrigacional, fontes, modalidades, garantias, cumprimento e não cumprimento, extinção",
+      "foreignLocation": "Programa, C.1-C.7",
+      "note": "Ensina o instituto pelo Código Civil português, não pelo Código Civil brasileiro de 2002 nem pelo CDC; o direito do consumidor não aparece. Por isso, parcial no máximo."
+    },
+    {
+      "brTopic": "Análise do sistema de responsabilização civil e criminal",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "C.2 'Fontes das obrigações' e C.6 'Cumprimento e não cumprimento das obrigações'",
+      "foreignLocation": "Programa, C.2 e C.6",
+      "note": "A responsabilidade civil aparece de forma indireta e no direito português; a responsabilização criminal está ausente."
+    },
+    {
+      "brTopic": "Relações Empresariais e seus efeitos nos âmbitos trabalhista e tributário",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa A-F, Resultados de Aprendizagem e Bibliografia"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Parte geral do direito civil: relação jurídica e seus elementos", "location": "Programa B"},
+    {"topic": "Direito das coisas: posse, propriedade, direitos reais limitados", "location": "Programa D.1-D.5"},
+    {"topic": "Direito da família: matrimonial e filiação", "location": "Programa E.1-E.3"},
+    {"topic": "Direito das sucessões", "location": "Programa F.1-F.3"}
+  ],
+  "competencies": {
+    "brazil": "A ementa fala em panorama do ordenamento brasileiro para o administrador: separação de poderes, Constituição Federal, direitos fundamentais, civil e consumidor, responsabilidade civil e criminal, efeitos trabalhistas, tributários e socioambientais.",
+    "foreign": ["Iniciação ao Direito Privado: princípios, institutos e regras fundamentais do direito civil"],
+    "convergences": ["Noções de obrigações e responsabilidade civil (em outro sistema nacional)"],
+    "differences": ["Coimbra II é inteiramente civilista (incluindo coisas, família e sucessões, alheios ao administrador)", "Direito constitucional, do consumidor, penal, trabalhista e tributário brasileiros não são tratados; mesmo quando o instituto existe, a lei é a portuguesa"]
+  },
+  "depth": {
+    "level": "Ambas de 1º ano/2ª etapa; introdutórias",
+    "brazil": "Panorama curto (31,7 h) e transversal do direito brasileiro aplicado à gestão",
+    "foreign": "UC de 7 ECTS concentrada no direito civil português, com bastante detalhe",
+    "theoryPractice": "Coimbra: exposição teórico-prática dialogada; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json: não coincidiria com 2027.2 se mantido; não confirmado na página",
+    "language": "Português",
+    "enrolment": "UC obrigatória do 1º ano de Administração Pública, com a parte I como conhecimento recomendado. Coimbra admite pedidos de mobilidade entre cursos e faculdades, sujeitos à aprovação dos coordenadores.",
+    "prerequisites": "Noções de Direito Privado e de Direito Público I recomendada",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Noções de Direito Privado e de Direito Público II é, no programa, um curso de direito civil português (obrigações, coisas, família, sucessões). Toca só os itens contratuais e de responsabilidade civil da ementa Mackenzie, que é um panorama do direito brasileiro para administradores.",
+  "justification": "Dos sete itens oficiais, dois são parciais: obrigações e contratos (C.1-C.7) e responsabilidade civil (C.2, C.6), ambos pelo Código Civil português, sem direito do consumidor nem responsabilidade criminal. Cinco não aparecem: direito e sociedade, separação de poderes, sistema jurídico e Constituição Federal (o item foi partido em dois pela ficha) e efeitos trabalhistas e tributários. Coberto+parcial é 2/7 (29%): baixa afinidade. A diferença de ordenamento pesa: o direito positivo brasileiro (CF/1988, CC/2002, CDC, CLT) não é ensinado numa UC portuguesa. As horas não são comparáveis (31,7 h vs. 7 ECTS).",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial detalhado e claro sobre o escopo civilista; faltam horas e semestre, e a ficha brasileira não tem ano.",
+  "limitations": [
+    "Diferença de sistema jurídico: os institutos portugueses não substituem o direito positivo brasileiro",
+    "Horas de contacto não declaradas; 7 ECTS não convertidos",
+    "Semestre (2º) não confirmado na página; oferta 2027/28 não confirmada",
+    "A ficha brasileira parte um item em dois ('...Direitos e Garantias' / 'Fundamentais'), o que pesa na contagem",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A parte I (91482), do 1º semestre, cobre a introdução ao Direito, a separação de poderes e o direito público?",
+    "A coordenação aceitaria direito estrangeiro para um componente que visa o ordenamento brasileiro?"
+  ],
+  "alternatives": [
+    {"code": "91482", "name": "Noções de Direito Privado e de Direito Público I", "relation": "Parte I, provável introdução ao Direito e ao direito público; programa não lido neste parecer"},
+    {"code": "93282", "name": "Direito Económico e Empresarial", "relation": "UC de Gestão possivelmente mais próxima das relações empresariais; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item vinculado às secções A-F do Programa, com atenção à diferença de ordenamento; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Escopo civilista e diferença de ordenamento evidentes no programa"}
+}

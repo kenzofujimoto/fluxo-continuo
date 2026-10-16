@@ -220,6 +220,7 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
                         "campus": "Alphaville", "page": page_of(url, row["documentName"]), "stage": b["stage"],
                         "name": b["name"], "hours": b["hours"], "hourUnit": b["hourUnit"], "weekly": b["weekly"],
                         "optional": b["optional"], "ementa": b["ementa"], "topics": split_ementa(b["ementa"]),
+                        "anomalies": b.get("anomalies", []) + ([f"Bloco do PDF da {row['stage']}ª etapa declara Etapa {b['stage']}"] if row["courseId"] == "cc" and b["stage"] != row["stage"] else []),
                         "status": "lido"}
     for k, v in progs_b.items():
         if v.get("status") == "lido":

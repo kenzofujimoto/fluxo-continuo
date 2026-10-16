@@ -1,0 +1,171 @@
+{
+  "id": "adm|Introdução à Estatística|es-26-universidaddej|11912005",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Introdução à Estatística",
+    "name": "Introdução à Estatística",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 4, bloco 'Introdução à Estatística': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Dados e Estatística",
+      "Estatística Descritiva: métodos tabulares e gráficos",
+      "Medidas numéricas em estatística Descritiva",
+      "Introdução à probabilidade",
+      "Distribuições (discreta e contínua) de probabilidade",
+      "Amostragem",
+      "Estimação por intervalo"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-26-universidaddej",
+      "university": "Universidad de Jaén",
+      "code": "11912005",
+      "name": "Estadística II",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U112 - Estadística e Investigación Operativa",
+      "programme": "Doble Grado en Administración y Dirección de Empresas y Finanzas y Contabilidad (titulación impressa na guia)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer cuatrimestre (setembro–janeiro no calendário espanhol)",
+      "academicYear": "2025/2026",
+      "language": "Español",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame teórico-prático 75% + prova de práticas em computador 25%",
+      "prerequisites": "Não se estabelecem; recomenda-se Estadística I",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912005/es/2025-26-11912005_es.html",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "sha256": "940226e26ac04a645f50442acd3fca32ea48b3702fc6bc6871ef3d2ee3529388",
+      "location": "Guía docente 2025-26: Resumen (contexto e RUCT), Competencia C14, Descripción de contenidos (Temas 1-5), Teoría/Práctica (sessões), Actividades formativas, Sistemas de evaluación",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 45,
+        "contactSeminarLab": 15,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": 50,
+        "note": "A guia declara 45 sessões de teoria, 10 de resolução de problemas e 5 em aula de informática, todas de 50 minutos (60 sessões, só somadas aqui). Registra também A1a 112,5 h e A2a 37,5 h com 40% de presencialidade. ECTS não declarados."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Dados e Estatística",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'Introducción a la inferencia estadística. Conceptos fundamentales'",
+      "foreignLocation": "Descripción de contenidos, Tema 1",
+      "note": "Só os conceitos de base da inferência (população, amostra); tipos e fontes de dados não aparecem."
+    },
+    {
+      "brTopic": "Estatística Descritiva: métodos tabulares e gráficos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen (contexto e RUCT), Competencia C14, Temas 1-5, descrição das sessões teóricas e práticas e Bibliografía"
+    },
+    {
+      "brTopic": "Medidas numéricas em estatística Descritiva",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temas 1-5 e descrição das sessões",
+      "note": "'Estadísticos muestrales' (tema 1) são estatísticas amostrais para inferência, não o ensino de medidas descritivas."
+    },
+    {
+      "brTopic": "Introdução à probabilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temas 1-5, Resumen e Competencia C14",
+      "note": "O cálculo de probabilidades é pressuposto (recomenda-se Estadística I)."
+    },
+    {
+      "brTopic": "Distribuições (discreta e contínua) de probabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'Distribuciones asociadas al muestreo'",
+      "foreignLocation": "Descripción de contenidos, Tema 1",
+      "note": "Só as distribuições amostrais; os modelos discretos e contínuos gerais (binomial, Poisson, normal) não são ensinados aqui."
+    },
+    {
+      "brTopic": "Amostragem",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Muestreo aleatorio simple. Estadísticos muestrales. Distribuciones asociadas al muestreo.'",
+      "foreignLocation": "Descripción de contenidos, Tema 1"
+    },
+    {
+      "brTopic": "Estimação por intervalo",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Estimación por intervalos. Intervalos de confianza para medias y varianzas.'",
+      "foreignLocation": "Descripción de contenidos, Tema 2"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Estimação pontual: propriedades e métodos de estimação", "location": "Tema 2"},
+    {"topic": "Testes de hipóteses paramétricos (médias, variâncias, proporções) e análise de variância", "location": "Tema 3"},
+    {"topic": "Testes não paramétricos: bondade de ajuste e independência", "location": "Tema 4"},
+    {"topic": "Regressão linear simples e correlação: estimação, inferência e predição", "location": "Tema 5"}
+  ],
+  "competencies": {
+    "brazil": "A ementa fala em conceitos e medidas de estatística descritiva, gráficos e tabelas com ferramentas computacionais, distribuições de probabilidade e intervalos de confiança.",
+    "foreign": ["C14 Conhece os conceitos básicos da Inferência Estatística", "Uso de software estatístico (5 sessões em aula de informática, 25% da nota)"],
+    "convergences": ["Amostragem e intervalos de confiança", "Uso de ferramenta computacional"],
+    "differences": ["Mackenzie centra-se em descritiva e probabilidade; Jaén pressupõe ambas (Estadística I)", "Jaén acrescenta testes, ANOVA, não paramétrica e regressão, ausentes da ementa brasileira"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Jaén no 2º curso, Mackenzie na 3ª etapa",
+    "brazil": "Primeira disciplina de estatística: descritiva, probabilidade e introdução à estimação",
+    "foreign": "Segunda disciplina de estatística, inteiramente inferencial",
+    "theoryPractice": "Jaén: 45 sessões teóricas, 10 de problemas e 5 de informática; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "Primer cuatrimestre: compatível com o período 2027.2 se o calendário for mantido",
+    "language": "Espanhol; o edital exige B2",
+    "enrolment": "Guia do duplo grau; acesso de intercambista não verificado",
+    "prerequisites": "Recomenda-se Estadística I; o estudante da 3ª etapa ainda não teria cursado Introdução à Estatística",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estadística II é a sequência inferencial de Jaén: coincide com o fim da ementa Mackenzie (amostragem e intervalos de confiança), mas não ensina estatística descritiva nem probabilidade, que formam o núcleo da disciplina brasileira.",
+  "justification": "Dos sete itens oficiais, dois estão cobertos (amostragem no tema 1; intervalos para médias e variâncias no tema 2), dois só marginalmente (conceitos de base da inferência; distribuições amostrais) e três não encontrados (métodos tabulares e gráficos, medidas descritivas, probabilidade). A regra dá 4/7 (57%) e afinidade parcial, mas as duas coberturas parciais são periféricas. As 60 sessões de 50 minutos somam 50 h-relógio, razão 0,79 sobre 63,3 h — horas compatíveis, conteúdo não.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Os dois itens parciais (conceitos de base da inferência e distribuições amostrais) não suprem a parte descritiva e probabilística, que é a maior parte da ementa brasileira; o conteúdo comum restringe-se a dois dos sete itens.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia individual detalhada, com sessões e duração declaradas; ressalvas: guia de 2025-26, ECTS ausentes e ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Oferta 2027/28 e acesso de intercambista não confirmados; a guia é de 2025-26",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Total de 60 sessões obtido pela soma de valores explícitos (45 + 10 + 5); ECTS não declarados",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Estadística I (11911002) cobre a parte descritiva e probabilística e é oferecida no primer cuatrimestre?",
+    "A coordenação aceitaria Estadística I como candidata principal, ficando Estadística II como complemento?"
+  ],
+  "alternatives": [
+    {"code": "11911002", "name": "Estadística I", "relation": "Provável correspondente da parte descritiva e probabilística; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); itens vinculados aos temas 1-5; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Divergência de conteúdo clara e documentada; nenhuma ambiguidade documental relevante"}
+}

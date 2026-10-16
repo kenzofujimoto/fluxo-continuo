@@ -1,0 +1,158 @@
+{
+  "id": "dir|TEORIA GERAL DO DIREITO|es-29-universitataut|102267",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TEORIA GERAL DO DIREITO",
+    "name": "Teoria Geral do Direito",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 4, bloco 'TEORIA GERAL DO DIREITO' (1ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 4 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos",
+      "Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico",
+      "O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial",
+      "A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial",
+      "Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102267",
+      "name": "Teoria del Dret",
+      "faculty": "Facultat de Dret",
+      "programme": "Grau en Dret",
+      "level": "Grau (1º ciclo)",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Primer quadrimestre do 1º curso",
+      "academicYear": "2026/2027",
+      "language": "Catalão e espanhol conforme grupo (teoria em espanhol nos grupos 1 e 70); sem grupo em inglês; listas de grupos/docentes contraditórias dentro do guia",
+      "courseStatus": "FB (formação básica)",
+      "assessment": "Seminários 50% (duas provas de 25%) + exame final 50% (nota superior a 5 exigida); avaliação única e reavaliação (máx. 6)",
+      "prerequisites": "Competência linguística e leitora; noções de filosofia e sociologia recomendadas",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102267/ca",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "sha256": "50869f8a42e4a43ddd5edc9aa82e78853bbf8dd0b3cfa77ae6751249664a0355",
+      "location": "Guia docent 2026/2027: Fe d'errades, Prerequisits, Objectius (temas 1-5 e objetivos 1-6), Resultats d'aprenentatge, Continguts 1-14, Activitats formatives, Avaluació, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Atividades: Dirigida = classes teòriques 22 h + seminari 22 h; Autònoma = leituras 45 h + trabalhos em grupo 20 h + individuais 36 h; provas 5 h. Sem total de contacto declarado; contactTotal nulo."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Ciència del Dret, Sociologia del Dret i Filosofia del Dret'; dimensões eficácia, validade e justiça; 'Dret i societat'",
+      "foreignLocation": "Continguts 1 e 4; Objectius, tema 1"
+    },
+    {
+      "brTopic": "Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Positivisme jurídic: teòric (estructuralista), ideològic, metodològic, positivisme moderat i excloent', ao lado de jusnaturalismo e realismo",
+      "foreignLocation": "Continguts 2.2",
+      "note": "O positivismo é estudado como uma concepção entre outras; a UAB não o adota como premissa e privilegia perspetiva crítica, sociojurídica e de género."
+    },
+    {
+      "brTopic": "O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Relacions entre el Dret i la moral'; 'obligació jurídica'; 'Sobre la funció creadora dels jutges'; justiça material e formal",
+      "foreignLocation": "Continguts 3, 9.2, 11.4 e 13.1",
+      "note": "Hart não é nomeado; Dworkin aparece só na bibliografia complementar ('Los derechos en serio'). O debate é coberto por tema, não por autor."
+    },
+    {
+      "brTopic": "A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Ordenamento jurídico (unidade, coerência, plenitude); sanção e ato ilícito; interpretação jurídica; justificação das decisões judiciais",
+      "foreignLocation": "Continguts 8, 9.2, 10 e 11",
+      "note": "Coação aparece indiretamente na função 'repressiva o sancionadora' (5.6)."
+    },
+    {
+      "brTopic": "Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Les funcions socials del Dret': controlo social, integração, resolução de conflitos, função promocional e distributiva, legitimação do poder",
+      "foreignLocation": "Continguts 5 e 6; Objectius 4"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Argumentação jurídica e estereótipos de género e racistas", "location": "Continguts 12"},
+    {"topic": "Pluralismo jurídico, sistemas jurídicos indígenas e crítica aos sistemas coloniais", "location": "Continguts 8.6-8.7"},
+    {"topic": "Deontologia jurídica e introdução à bioética", "location": "Continguts 13.2-13.3"},
+    {"topic": "Perspetiva de género na teoria do direito; linguagem jurídica não sexista", "location": "Continguts 7.5 e 14; Objectius 6"},
+    {"topic": "Objeção de consciência e desobediência civil", "location": "Continguts 3.6"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 parte do positivismo analítico (Hart/Dworkin) e da estrutura do direito, abrindo para a função e os valores.",
+    "foreign": ["Conhecer as formas de aproximação ao direito (ciência, sociologia, filosofia)", "Aplicar conceitos jurídicos essenciais", "Entender os fundamentos da argumentação jurídica", "Introduzir a perspetiva de género"],
+    "convergences": ["Direito e moral", "Norma e ordenamento", "Interpretação e decisão judicial", "Funções sociais do direito"],
+    "differences": ["UAB não adota o positivismo analítico como premissa", "UAB integra sociologia do direito, deontologia e perspetiva de género que a Mackenzie remete a outros componentes ou não prevê"]
+  },
+  "depth": {
+    "level": "Ambas introdutórias do 1º semestre/quadrimestre do curso",
+    "brazil": "Componente obrigatório de 4 h-a semanais",
+    "foreign": "Formação básica de 6 ECTS com 44 h dirigidas (22 teoria + 22 seminários) e 101 h autónomas",
+    "theoryPractice": "UAB: seminários com casos práticos de presença obrigatória"
+  },
+  "practical": {
+    "period": "Primer quadrimestre (setembro-janeiro), compatível com 2027.2 se mantido; disciplina do 1º curso",
+    "language": "Catalão ou espanhol; não há grupo em inglês",
+    "enrolment": "Disciplina de 1º curso; um intercambista Mackenzie normalmente estaria em etapa avançada, e o aproveitamento de componente da 1ª etapa depende da coordenação",
+    "prerequisites": "Nenhum formal",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Teoria del Dret cobre por tema quase toda a ementa de Teoria Geral do Direito (direito e moral, ordenamento, sanção, interpretação, aplicação judicial e funções do direito), mas com orientação crítica e de género em vez da premissa de positivismo analítico; Hart não é nomeado.",
+  "justification": "Quatro dos cinco tópicos essenciais estão cobertos (Continguts 1, 3, 5, 8-11) e um é parcial: o positivismo jurídico (2.2) é estudado como uma concepção entre jusnaturalismo e realismo, não como premissa epistemológica. A coincidência temática é a mais alta deste lote, mas a classe fica em afinidade parcial porque o ementário Mackenzie é de 2022 (não vigente) e as horas não são comparáveis: 4 h-a semanais contra 6 ECTS com 44 h dirigidas não declaradas como presenciais. A UAB acrescenta argumentação, pluralismo jurídico, deontologia e género.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia docente oficial 2026/27 com conteúdos numerados; reduzem a confiança o ementário brasileiro histórico, horas não comparáveis e listas de grupos/docentes contraditórias no próprio guia.",
+  "limitations": [
+    "Oferta 2027/28, idioma do grupo e vaga para intercambista não confirmados",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente; carga só em horas-aula semanais",
+    "Texto oficial brasileiro extraído omite um trecho ('diferença de [...] aproxima-se'), reproduzido aqui tal como em programas.json",
+    "O guia UAB contém duas listas de grupos e docentes divergentes ('Fe d'errades' e 'Prerequisits')",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita uma teoria do direito de orientação crítica, sem premissa positivista analítica, para este componente?",
+    "Faz sentido cursar no intercâmbio uma disciplina do 1º curso equivalente a componente da 1ª etapa já cursado?"
+  ],
+  "alternatives": [
+    {"code": "102278", "name": "Sociologia del Dret", "relation": "Optativa do 4º curso; complementar, programa não lido"},
+    {"code": "102279", "name": "Seminari de Qüestions Actuals sobre Teoria i Filosofia del Dret", "relation": "Optativa do 4º curso; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e do guia docente oficial UAB 2026/2027 com apoio de IA (Claude); cada tópico vinculado a item numerado dos Continguts; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Conteúdo teórico pouco dependente de sistema nacional; diferenças de orientação explicitadas"}
+}

@@ -1,0 +1,133 @@
+{
+  "id": "dir|DIREITO DE FAMÍLIA|pt-coimbra|22231",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DE FAMÍLIA",
+    "name": "Direito de Família",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 41, bloco 'DIREITO DE FAMÍLIA' (6ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 4 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "22231",
+      "name": "Direito Patrimonial da Família e Sucessões",
+      "pageCode": "01210359",
+      "faculty": "Faculdade de Direito (área científica Direito das Sucessões)",
+      "programme": "Licenciatura em Direito (plano 1556)",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 4,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2025/2026 (página consultada não é a de 2026/2027)",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exame escrito: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: 'Não Aplicável'",
+      "source": "https://apps.uc.pt/courses/PT/unit/22231/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "sha256": "f482409e45212637f552b75efb2e5f21cc26f68c7666377c986edc1b7d2d8830",
+      "location": "Página da UC 2025-2026 (1.304 caracteres): identificação, Métodos de Ensino, Resultados de Aprendizagem (uma frase), Avaliação, Bibliografia; sem secção 'Programa'",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e aulas teóricas e práticas, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Sem programa; a bibliografia inclui Pereira Coelho/Guilherme de Oliveira, 'Curso de Direito da Família, vol. I, Introdução', mas bibliografia não comprova conteúdo ministrado."
+    },
+    {
+      "brTopic": "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Fornecer aos alunos conhecimentos sobre o regime patrimonial do casamento e a sucessão por morte'",
+      "foreignLocation": "Resultados de Aprendizagem",
+      "note": "Só a dimensão patrimonial do casamento, no Código Civil português; efeitos pessoais, formalidades e dissolução (divórcio) não são declarados. Regime de bens do CC 2002 brasileiro não é estudado."
+    },
+    {
+      "brTopic": "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (âmbito declarado: regime patrimonial do casamento e sucessão por morte), Métodos de Ensino e Bibliografia; filiação, adoção, alimentos, responsabilidades parentais e direito dos menores não aparecem"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Direito das sucessões: sucessão por morte", "location": "Resultados de Aprendizagem; Bibliografia (Pereira Coelho, Capelo de Sousa)"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 abrange princípios constitucionais, casamento (efeitos pessoais e patrimoniais, dissolução), filiação, adoção, alimentos, guarda e ECA.",
+    "foreign": ["Conhecer o regime patrimonial do casamento", "Conhecer a sucessão por morte"],
+    "convergences": ["Regime de bens do casamento, como categoria"],
+    "differences": ["Coimbra é sobretudo uma UC de Direito das Sucessões (área científica), sem filiação nem menores", "Direito português em vez do CC 2002 e do ECA"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 4º ano, Mackenzie na 6ª etapa",
+    "brazil": "Componente obrigatório de 4 h-a semanais dedicado inteiramente ao direito de família",
+    "foreign": "Obrigatória de 6 ECTS que divide o semestre entre regime patrimonial do casamento e sucessões",
+    "theoryPractice": "Coimbra: aulas teóricas e práticas; exame escrito 100%"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra admite pedidos de mobilidade em outros cursos e faculdades, sujeitos à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito Patrimonial da Família e Sucessões declara apenas o regime patrimonial do casamento e a sucessão por morte; a coincidência com Direito de Família é de título, pois filiação, adoção, alimentos, guarda e ECA ficam fora do âmbito declarado.",
+  "justification": "Dos três tópicos da ementa Mackenzie 2022, só o das relações conjugais é parcial (dimensão patrimonial do casamento, Resultados de Aprendizagem, em regime português); o bloco de parentesco, filiação, adoção, alimentos, guarda e ECA não foi encontrado, e os fundamentos principiológicos e constitucionais são não verificáveis por falta de programa. Coberto+parcial = 1/3, abaixo de 50%: baixa afinidade. A UC pertence à área científica de Direito das Sucessões, tem 6 ECTS sem horas de contacto, é do 4º ano e, segundo data.json, do 2º semestre.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Página de 1.304 caracteres, sem programa, de 2025/26; ementário brasileiro histórico.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; data.json indica 2º semestre; página de 2025/26",
+    "A página não publica programa; apenas uma frase de resultados de aprendizagem",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente; carga só em horas-aula semanais",
+    "Direito da família português; CC 2002 e ECA exigiriam estudo próprio",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A UC 22389 'Direito da Família e dos Menores' (1º semestre) cobriria filiação, adoção e menores? Requer parecer próprio."
+  ],
+  "alternatives": [
+    {"code": "22389", "name": "Direito da Família e dos Menores", "relation": "UC de 1º semestre com título mais próximo; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2025-2026) com apoio de IA (Claude); âmbito declarado nos Resultados de Aprendizagem confrontado com cada tópico; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Divergência de âmbito explícita no próprio documento estrangeiro"}
+}

@@ -1,0 +1,169 @@
+{
+  "id": "dir|DIREITO COLETIVO DO TRABALHO|pt-coimbra|100130",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO COLETIVO DO TRABALHO",
+    "name": "Direito Coletivo do Trabalho",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 51, bloco 'DIREITO COLETIVO DO TRABALHO' (7ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Coimbra",
+      "name": "Direito do Trabalho",
+      "pageCode": "01022692",
+      "faculty": "Faculdade de Direito (plano 1556 da Licenciatura em Direito; faculdade não indicada na página)",
+      "programme": "Licenciatura em Direito (plano 1556 segundo data.json); área científica Direito do Trabalho",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exame: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Não Aplicável",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "location": "Página da UC 2025-2026: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (texto corrido), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, aulas teóricas e práticas, sem horas de contacto. Página referente ao ano letivo 2025-2026."
+      },
+      "universityId": "pt-coimbra",
+      "code": "100130",
+      "source": "https://apps.uc.pt/courses/PT/unit/100130/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "sha256": "48a18ebfb6812ab47cbff4ec0b7038c2f6dac9b81126c9279217ac97769ac86d"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Programa integral e Bibliografia (Leal Amado, Contrato de Trabalho)",
+      "note": "O objetivo declarado é 'o regime jurídico da relação individual do trabalho'; não há parte coletiva."
+    },
+    {
+      "brTopic": "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral; sindicatos, relações coletivas e a Lei 13.467/2017 não aparecem",
+      "note": "Mesmo um conteúdo sindical português não substituiria automaticamente a análise do ordenamento brasileiro pós-Reforma Trabalhista."
+    },
+    {
+      "brTopic": "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral, incluindo 'Fontes do DT (breve referência)'",
+      "note": "A breve referência às fontes não demonstra estudo da articulação entre normas coletivas e legais."
+    },
+    {
+      "brTopic": "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral e Resultados de Aprendizagem; negociação coletiva, acordos/convenções, inspeção do trabalho e convenções da OIT ausentes"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Contrato de trabalho: noção, elementos, distinção da prestação de serviço, modalidades atípicas",
+      "location": "Programa, início"
+    },
+    {
+      "topic": "Formação, forma, invalidade do contrato e período experimental",
+      "location": "Programa, parte intermédia"
+    },
+    {
+      "topic": "Poderes do empregador; objeto, local e tempo da prestação; férias, faltas, retribuição, suspensão e cessação",
+      "location": "Programa, parte final"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 exige estudo crítico das relações coletivas, organização sindical, negociação coletiva pós-Reforma Trabalhista, direito administrativo e internacional do trabalho.",
+    "foreign": [
+      "Interpretar e aplicar o regime legal da relação individual de trabalho"
+    ],
+    "convergences": [
+      "Apenas a área científica (Direito do Trabalho)"
+    ],
+    "differences": [
+      "Coimbra 100130 é exclusivamente de relação individual; nenhum conteúdo de direito coletivo, sindical, administrativo ou internacional do trabalho",
+      "Regime português (Código do Trabalho) e não a CLT"
+    ]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano; Mackenzie na 7ª etapa",
+    "brazil": "Componente de 2 horas-aula semanais dedicado ao direito coletivo",
+    "foreign": "UC obrigatória de 6 ECTS sobre contrato individual",
+    "theoryPractice": "Coimbra: aulas teóricas expositivas e práticas com hipóteses; exame 100%"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2",
+    "language": "Português",
+    "enrolment": "UC obrigatória da Licenciatura em Direito; Coimbra admite escolha de UC de outros planos sujeita à aprovação dos coordenadores",
+    "prerequisites": "Não aplicável",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito do Trabalho de Coimbra (100130) declara como objeto apenas a relação individual de trabalho; nenhum dos quatro eixos da ementa Mackenzie de Direito Coletivo (sindicatos, negociação coletiva pós-2017, articulação de normas, OIT e inspeção) aparece no programa.",
+  "justification": "Os quatro tópicos oficiais ficaram 'nao_encontrado' após leitura do programa corrido, cujo único ponto de contato é 'Fontes do DT (breve referência)', insuficiente para cobrir articulação entre normas coletivas. O resultado de aprendizagem limita expressamente a UC à 'relação individual do trabalho'. Além disso, o eixo brasileiro depende da Lei 13.467/2017 e da estrutura sindical da CLT, que um curso português não ensina. A coincidência é só de área científica; daí baixa afinidade. A página é de 2025-2026, a UC é de 2º semestre segundo data.json e as 2 horas-aula semanais Mackenzie não são comparáveis aos 6 ECTS. O catálogo de Coimbra lista uma UC específica, 97282 Direito Coletivo do Trabalho, que deve ser examinada no lugar desta.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Resultado de aprendizagem e programa de Coimbra delimitam claramente o objeto individual; a confiança é reduzida pela página de 2025-2026 e pela ementa brasileira histórica.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; o texto pode não corresponder à matriz vigente",
+    "Página da UC referente a 2025-2026; versão 2026-2027 não lida",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos; carga Mackenzie em horas-aula semanais",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "O programa de 97282 Direito Coletivo do Trabalho (1º semestre) cobre sindicatos, contratação coletiva e greve?",
+    "A coordenação aceitaria direito coletivo português sem a Reforma Trabalhista brasileira?"
+  ],
+  "alternatives": [
+    {
+      "code": "97282",
+      "name": "Direito Coletivo do Trabalho",
+      "relation": "Título exatamente aderente, 1º semestre segundo data.json; programa não lido neste parecer, exige parecer próprio"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da página oficial da UC 100130 (2025-2026) com apoio de IA (Claude); tópicos confrontados com Resultados de Aprendizagem e Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Objeto estrangeiro delimitado expressamente à relação individual"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-16"
+}

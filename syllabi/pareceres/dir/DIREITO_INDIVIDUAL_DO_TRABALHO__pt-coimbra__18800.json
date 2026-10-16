@@ -1,0 +1,176 @@
+{
+  "id": "dir|DIREITO INDIVIDUAL DO TRABALHO|pt-coimbra|18800",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INDIVIDUAL DO TRABALHO",
+    "name": "Direito Individual do Trabalho",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 45, bloco 'DIREITO INDIVIDUAL DO TRABALHO' (6ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 4 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "do Direito Individual do Trabalho",
+      "e, do Direito Tutelar do Trabalho",
+      "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18800",
+      "name": "Direito do Trabalho (UC opcional para não juristas)",
+      "pageCode": "01620292",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Plano 10622 (Licenciatura em Gestão, segundo data.json); área científica Direito",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração não indicada na página; data.json indica apenas 'Semestral'",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de base recomendados: contacto prévio com uma disciplina jurídica introdutória",
+      "source": "https://apps.uc.pt/courses/PT/unit/18800/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "de983ffe4d959703119b380bf322b5ca35dfb25ebfa6c392da9aff7beeaede45",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (I-III), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Direito do trabalho: a génese, o objeto e o alcance disciplinar'; 'As fontes'; competência de 'enquadrar criticamente as decisões empresariais com impacto nas relações laborais'",
+      "foreignLocation": "Programa I.1-I.2; Resultados de Aprendizagem, competências",
+      "note": "Os fundamentos transferem-se; as 'principais regras' ensinadas são as do Código do Trabalho português."
+    },
+    {
+      "brTopic": "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Parte III 'O contrato de trabalho' (itens 1-7) e objetivo de identificar o dispositivo legal que enquadra a gestão das relações individuais",
+      "foreignLocation": "Programa III.1-III.7; Resultados de Aprendizagem, objetivos específicos",
+      "note": "Relação individual segundo o ordenamento português, em nível para não juristas; CLT e CF 1988 art. 7º não são estudadas."
+    },
+    {
+      "brTopic": "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Introdução: génese, objeto e alcance disciplinar do direito do trabalho; fontes",
+      "foreignLocation": "Programa, Introdução, itens 1-2",
+      "note": "Matéria de teoria geral, pouco dependente do ordenamento nacional; extensão não quantificada."
+    },
+    {
+      "brTopic": "do Direito Individual do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Contrato de trabalho e figuras afins, modalidades, direitos e deveres, retribuição, tempo e local de trabalho, cessação",
+      "foreignLocation": "Programa III.1-III.7",
+      "note": "Os institutos equivalentes (contrato, salário, jornada, extinção) são ensinados sob o direito português, o que limita a correspondência a parcial."
+    },
+    {
+      "brTopic": "e, do Direito Tutelar do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'O tempo de trabalho'",
+      "foreignLocation": "Programa III.5",
+      "note": "Duração do trabalho integra a tutela; segurança e saúde no trabalho, trabalho da mulher e do menor e fiscalização não aparecem."
+    },
+    {
+      "brTopic": "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Contrato de trabalho e figuras afins'; modalidades incluindo trabalho temporário e teletrabalho; comentário de notícias e textos",
+      "foreignLocation": "Programa III.1-III.2; Métodos de Ensino",
+      "note": "Novas formas de trabalho são tratadas por modalidades e fronteira com figuras afins; gig economy e plataformas não são nomeadas. Para o estudante brasileiro, a própria UC funciona como direito comparado."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Relações coletivas: contratação coletiva, atores coletivos, greve", "location": "Programa, parte II"},
+    {"topic": "Local de trabalho", "location": "Programa III.6"}
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 descreve conteúdos; não lista competências.",
+    "foreign": [
+      "Conhecer o quadro jurídico das relações de trabalho assalariado vigente em Portugal",
+      "Usar adequadamente a linguagem técnico-jurídica",
+      "Resolver problemas concretos de gestão de pessoas"
+    ],
+    "convergences": ["Teoria geral e fontes do direito do trabalho", "Contrato individual, retribuição, tempo de trabalho, cessação"],
+    "differences": [
+      "Direito português (Código do Trabalho), não CLT",
+      "Nível declarado para estudantes não juristas de Gestão",
+      "Um terço do programa é dedicado às relações coletivas; direito tutelar quase ausente"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de plano não jurídico, Mackenzie na 6ª etapa de Direito",
+    "brazil": "4 horas-aula semanais só para direito individual e tutelar",
+    "foreign": "6 ECTS divididos entre introdução, relações coletivas e contrato de trabalho",
+    "theoryPractice": "Coimbra: aulas teórico-práticas com exercícios e trabalho sobre a legislação laboral"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página da UC",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra admite que estudantes de mobilidade peçam unidades de outros ciclos, departamentos e faculdades, sujeito à aprovação dos coordenadores; UC do plano de Gestão",
+    "prerequisites": "Disciplina jurídica introdutória; satisfeito por estudante de 6ª etapa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A parte III da UC 18800 (contrato de trabalho, modalidades, direitos e deveres, retribuição, tempo, local, cessação) corresponde aos institutos do Direito Individual do Trabalho, e a introdução cobre a teoria geral; tudo é ensinado pelo Código do Trabalho português e em nível para não juristas, e o direito tutelar limita-se ao tempo de trabalho.",
+  "justification": "Dos seis enunciados, a teoria geral (génese, objeto, fontes; Programa I) está coberta e os outros cinco têm correspondência parcial: fundamentos e regras, relação individual e institutos do contrato (III.1-III.7) seguem o direito português; o direito tutelar aparece apenas como tempo de trabalho (III.5); novas relações de trabalho surgem via teletrabalho e figuras afins, sem gig economy. Razão coberto+parcial de 6/6 dá afinidade parcial; a alta afinidade fica excluída pela ementa histórica e pelas horas não comparáveis (4 h-a semanais contra 6 ECTS). A UC 100130 da Faculdade de Direito, dedicada só à relação individual, parece mais adequada e deve ser verificada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa de 2026-2027 em tópicos curtos, sem semestre nem horas, de UC para não juristas; ementa brasileira histórica.",
+  "limitations": [
+    "Ementário Mackenzie 2022 é histórico; o texto pode não corresponder à matriz vigente",
+    "Horas não comparáveis: 4 h-a semanais contra 6 ECTS sem horas de contacto",
+    "Ordenamentos distintos: Código do Trabalho português, não CLT",
+    "Semestre e oferta 2027/28 não confirmados; inscrição em UC de Gestão depende dos coordenadores",
+    "O mesmo programa 18800 foi comparado com Direito Coletivo do Trabalho; não poderia ser aproveitado para ambos sem decisão da coordenação",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação prefere a UC 100130 (Faculdade de Direito, relação individual, 2º semestre) apesar do desencontro de período com 2027.2?",
+    "Uma UC de nível para não juristas é aceitável para componente de 4 h-a semanais da 6ª etapa?"
+  ],
+  "alternatives": [
+    {"code": "100130", "name": "Direito do Trabalho", "relation": "Licenciatura em Direito, obrigatória do 3º ano; programa lido em outro par deste lote: cobre formação, invalidade, período experimental, poderes do empregador, mobilidade, tempo, férias, faltas, retribuição, suspensão e cessação; 2º semestre segundo data.json"},
+    {"code": "97282", "name": "Direito Coletivo do Trabalho", "relation": "Não substitui o Individual; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado à parte do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Sistemas jurídicos distintos e UC de plano não jurídico; alternativa da Faculdade de Direito disponível"}
+}

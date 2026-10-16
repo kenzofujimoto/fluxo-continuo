@@ -1,0 +1,153 @@
+{
+  "id": "adm|Marketing I|pt-coimbra|83606",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "83606",
+      "name": "Marketing Estratégico",
+      "pageCode": "01015490",
+      "faculty": "Não indicada na página da UC (plano 11983, Licenciatura em Administração Pública segundo data.json)",
+      "programme": "Licenciatura em Administração Pública (plano 11983); área científica Gestão e Administração",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Avaliação contínua: frequência 100%; avaliação final: exame 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/83606/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "3e329a390001e82f65483d433d5d1c70c64985470acc60e103787fd280c7da38",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (Partes I-IV, pontos 1-11), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e aulas teórico-práticas, sem horas de contacto. Código interno: 01015490."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Parte I 'O marketing e a criação de valor': 1 'Conceitos fundamentais de Marketing', 2 'Evolução do papel do marketing'",
+      "foreignLocation": "Programa, Parte I, pontos 1-2"
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Ponto 3 'A análise do mercado e dos seus intervenientes'; ponto 4 'Os estudos de mercado'",
+      "foreignLocation": "Programa, Parte II, pontos 3-4",
+      "note": "Mercado e intervenientes (microambiente) estão presentes; o macroambiente não é nomeado."
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Ponto 5 'Teorias e modelos explicativos do comportamento do consumidor'",
+      "foreignLocation": "Programa, Parte II, ponto 5"
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa Partes I-IV (pontos 1-11), Resultados de Aprendizagem e Bibliografia",
+      "note": "Na ementa Mackenzie o item se refere ao comportamento do comprador organizacional; Coimbra só nomeia o consumidor."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Parte III: 6 'A segmentação de mercado', 7 'A escolha do mercado-alvo', 8 'O posicionamento de mercado'",
+      "foreignLocation": "Programa, Parte III, pontos 6-8"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Estudos de mercado", "location": "Programa, ponto 4"},
+    {"topic": "Políticas de marketing: produto, preço, distribuição e comunicação", "location": "Programa, Parte IV, pontos 8-11"}
+  ],
+  "competencies": {
+    "brazil": "A ementa estuda o que é marketing e seus conceitos de satisfação, valor, fidelidade, comportamento do consumidor e do comprador organizacional, segmentação e posicionamento.",
+    "foreign": ["Domínio dos conceitos e da filosofia de marketing como ferramenta de gestão", "Panorama da estratégia e das políticas de marketing", "Atitude ativa orientada para o cliente e o mercado"],
+    "convergences": ["Conceito e criação de valor", "Consumidor, segmentação, alvo e posicionamento"],
+    "differences": ["Coimbra não nomeia o comprador organizacional", "Coimbra acrescenta o composto de marketing (Parte IV), que no Mackenzie é objeto de Marketing II"]
+  },
+  "depth": {
+    "level": "Coimbra no 3º ano (optativa de Administração Pública); Mackenzie na 1ª etapa, introdutória",
+    "brazil": "Componente de 63,3 h com cinco itens conceituais",
+    "foreign": "UC de 6 ECTS que vai dos conceitos às políticas de marketing; as Partes I-III correspondem ao escopo de Marketing I",
+    "theoryPractice": "Coimbra: aulas teórico-práticas com casos empresariais; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json: compatível com 2027.2 se mantido; não confirmado na página",
+    "language": "Português",
+    "enrolment": "Optativa da Licenciatura em Administração Pública (plano 11983), não do plano de Gestão. A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de outros cursos e faculdades, sujeito à aprovação dos coordenadores.",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "As Partes I-III de Marketing Estratégico (conceitos e evolução do marketing, mercado, consumidor, segmentação, alvo e posicionamento) correspondem quase item a item a Marketing I; ficam de fora o comprador organizacional e o macroambiente.",
+  "justification": "Três dos cinco itens oficiais estão cobertos por pontos explícitos (1-2, 5, 6-8), o ambiente de marketing é parcial (ponto 3 limitado ao mercado e seus intervenientes) e o comportamento do comprador organizacional não aparece. Coberto+parcial é 4/5 (80%); com um item ausente, só 6 ECTS (horas não comparáveis) e ficha brasileira sem vigência confirmada, a classe é afinidade parcial. Cerca de um terço do programa (Parte IV, composto de marketing) excede Marketing I.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial itemizado e bem alinhado; faltam horas de contacto e semestre na página, e a ficha brasileira não tem ano.",
+  "limitations": [
+    "UC optativa do plano de Administração Pública; abertura a intercambistas e oferta 2027/28 não confirmadas",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Esta UC é a mesma candidata a Marketing II; não poderá ser aproveitada duas vezes",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aproveitaria 83606 para Marketing I ou para Marketing II (não para ambas)?",
+    "A UC 18803 Marketing do plano de Gestão cobre o comprador organizacional?"
+  ],
+  "alternatives": [
+    {"code": "18803", "name": "Marketing", "relation": "UC do plano de Gestão (1º semestre segundo data.json); programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item vinculado a Parte e ponto do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "A mesma UC é candidata a Marketing I e II; é preciso decidir a qual se aplica"}
+}

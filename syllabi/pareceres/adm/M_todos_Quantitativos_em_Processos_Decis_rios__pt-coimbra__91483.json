@@ -1,0 +1,148 @@
+{
+  "id": "adm|Métodos Quantitativos em Processos Decisórios|pt-coimbra|91483",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Métodos Quantitativos em Processos Decisórios",
+    "name": "Métodos Quantitativos em Processos Decisórios",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 6, bloco 'Métodos Quantitativos em Processos Decisórios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Revisão de conceitos de estatística descritiva e inferencial com apoio do software estatístico IBM/SPSS",
+      "Teste “T”",
+      "Análise de Variância (ANOVA)",
+      "Regressão Linear Simples e Múltipla",
+      "Análise Fatorial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "91483",
+      "name": "Métodos Quantitativos Aplicados à Administração Pública I",
+      "pageCode": "01019644",
+      "faculty": "Não indicada na página da UC (plano 11983, Licenciatura em Administração Pública segundo data.json)",
+      "programme": "Licenciatura em Administração Pública (plano 11983); área científica Matemática e Estatística",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Ao longo do semestre (duas ou três frequências) ou exame final: 100%",
+      "prerequisites": "Conhecimentos básicos de Matemática",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/91483/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "4cf4d65328b6fe8bf4b13981b57fdba18c098aa203124381515c6d051a256e64",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa 1-4, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, componentes teórica e teórico-prática, sem horas de contacto. Código interno: 01019644."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Revisão de conceitos de estatística descritiva e inferencial com apoio do software estatístico IBM/SPSS",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-4 (álgebra, funções, derivação, cálculo integral), Resultados de Aprendizagem, Métodos de Ensino e Bibliografia (Harshbarger e Reynolds, Matemática Aplicada)"
+    },
+    {
+      "brTopic": "Teste “T”",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-4, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Análise de Variância (ANOVA)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-4, Resultados de Aprendizagem e Bibliografia"
+    },
+    {
+      "brTopic": "Regressão Linear Simples e Múltipla",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-4, Resultados de Aprendizagem e Bibliografia",
+      "note": "O 'estudo de funções' (ponto 2) é análise matemática, não ajuste estatístico de modelos."
+    },
+    {
+      "brTopic": "Análise Fatorial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-4, Resultados de Aprendizagem e Bibliografia"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Conceitos algébricos elementares e estudo de funções", "location": "Programa 1-2"},
+    {"topic": "Derivação e otimização", "location": "Programa 3"},
+    {"topic": "Cálculo integral aplicado à economia e às ciências sociais", "location": "Programa 4"}
+  ],
+  "competencies": {
+    "brazil": "A ementa fala em escolher e aplicar técnicas estatísticas uni, bi e multivariadas (testes, ANOVA, regressão, análise fatorial) em SPSS para problemas gerenciais.",
+    "foreign": ["Ferramentas essenciais de matemática para problemas de administração pública ou privada", "Análise e síntese, organização e planificação, resolução de problemas"],
+    "convergences": ["Ambas são quantitativas e voltadas a problemas de gestão"],
+    "differences": ["Coimbra ensina cálculo (funções, derivadas, integrais); Mackenzie ensina estatística inferencial e multivariada aplicada com software"]
+  },
+  "depth": {
+    "level": "Coimbra no 1º ano; Mackenzie na 4ª etapa, depois de Introdução à Estatística",
+    "brazil": "Estatística aplicada intermediária/multivariada com SPSS",
+    "foreign": "Matemática introdutória para gestores",
+    "theoryPractice": "Coimbra: exposição e resolução de problemas orientada; a ficha brasileira prevê uso de SPSS"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json: compatível com 2027.2 se mantido; não confirmado na página",
+    "language": "Português",
+    "enrolment": "UC obrigatória do 1º ano de Administração Pública. A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de outros cursos e faculdades, sujeito à aprovação dos coordenadores.",
+    "prerequisites": "Conhecimentos básicos de matemática",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Apesar do título 'Métodos Quantitativos', a UC 91483 é um curso de matemática (álgebra, funções, derivadas e integrais) e não contém nenhuma das técnicas estatísticas da disciplina Mackenzie.",
+  "justification": "Os cinco itens oficiais (revisão de estatística com SPSS, teste t, ANOVA, regressão simples e múltipla, análise fatorial) não foram encontrados nos quatro pontos do programa, nos resultados de aprendizagem nem na bibliografia, que é um manual de matemática aplicada. Coberto+parcial é 0/5: baixa afinidade. Os conteúdos são de outra área (cálculo) e não suprem estatística. As horas não são comparáveis: só 6 ECTS.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Programa oficial curto e inequívoco; a divergência não depende de horas nem do detalhe do temário.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Métodos Quantitativos II (91488) ou Análise de Dados e Gestão de Informação I (91503) contêm teste t, ANOVA e regressão?"
+  ],
+  "alternatives": [
+    {"code": "91488", "name": "Métodos Quantitativos Aplicados à Administração Pública II", "relation": "Continuação; programa não lido neste parecer"},
+    {"code": "91503", "name": "Análise de Dados e Gestão de Informação I", "relation": "Possível conteúdo estatístico aplicado; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item procurado no Programa, nos Resultados e na Bibliografia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Correspondência só de título, refutada pelo programa"}
+}

@@ -1,0 +1,160 @@
+{
+  "id": "adm|Gestão de Inovação|pt-coimbra|93309",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Inovação",
+    "name": "Gestão de Inovação",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 3, bloco 'Gestão de Inovação': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h (componente de meia carga). Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fatores fundamentais na gestão da inovação",
+      "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "A inovação como um processo de gestão e mecanismos de implantação",
+      "Modelo de estratégia de inovação",
+      "Ecossistema de Inovação",
+      "Avaliação e desempenho da inovação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93309",
+      "name": "História da Empresa e da Inovação",
+      "pageCode": "01021004",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica História",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Página sem duração/semestre; data.json indica 'Semestral'",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/93309/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "b2443141e7c2defe2027fd2e6805093fac31b064ed42a6b9f455bfc052dd86f5",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivos gerais, específicos, competências genéricas), Programa 1-8, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto. Código interno: 01021004."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fatores fundamentais na gestão da inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-8, objetivos gerais e específicos, competências genéricas e Bibliografia",
+      "note": "A UC trata a inovação na história económica, não a sua gestão nas organizações."
+    },
+    {
+      "brTopic": "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programa 2: 'o contributo de Joseph Schumpeter e das correntes institucionalistas e neo-schumpeterianas'",
+      "foreignLocation": "Programa, ponto 2; objetivo específico 3",
+      "note": "Há teoria económica da inovação; tipos, graus e características da organização inovadora não aparecem."
+    },
+    {
+      "brTopic": "A inovação como um processo de gestão e mecanismos de implantação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-8, objetivos e Métodos de Ensino"
+    },
+    {
+      "brTopic": "Modelo de estratégia de inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-8, objetivos e Bibliografia"
+    },
+    {
+      "brTopic": "Ecossistema de Inovação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programa 5-6: papel das empresas, instituições públicas e privadas e do Estado; 'sistemas nacionais de inovação'",
+      "foreignLocation": "Programa, pontos 5-6",
+      "note": "O enfoque é histórico e macroinstitucional (Estado empreendedor), não o ecossistema da empresa (startups, parcerias, hubs)."
+    },
+    {
+      "brTopic": "Avaliação e desempenho da inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-8, objetivos e competências genéricas"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "História dos conceitos de empresa, empresário e inovação", "location": "Programa 1"},
+    {"topic": "Eras da inovação e ciclos de desenvolvimento económico", "location": "Programa 3-4"},
+    {"topic": "Inovação e propriedade intelectual", "location": "Programa 7"},
+    {"topic": "Desafios económicos e sociais das inovações tecnológicas e sustentabilidade", "location": "Programa 8"}
+  ],
+  "competencies": {
+    "brazil": "A ementa estuda os conceitos de inovação e a inovação como processo de gestão nas organizações.",
+    "foreign": ["Conhecer o contributo das inovações para a mudança económica em perspetiva histórica", "Periodizar e comparar contextos histórico-institucionais", "Discutir a relação entre inovação, mudança tecnológica e desenvolvimento"],
+    "convergences": ["Conceito e teoria da inovação (Schumpeter)"],
+    "differences": ["Coimbra é uma UC de história económica (área científica História); Mackenzie é uma disciplina de gestão aplicada (processo, estratégia, métricas)"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano como optativa, Mackenzie na 6ª etapa",
+    "brazil": "Componente curto (31,7 h) de gestão aplicada da inovação",
+    "foreign": "UC de 6 ECTS de história económica e empresarial, com exposição oral e trabalhos escritos debatidos",
+    "theoryPractice": "Coimbra: exposição e apresentação de trabalhos; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "Semestre não indicado na página; oferta 2027/28 não confirmada",
+    "language": "Português",
+    "enrolment": "Optativa do plano de Gestão. A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de outros ciclos, departamentos e faculdades, sujeito à aprovação dos coordenadores.",
+    "prerequisites": "Não aplicável",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "História da Empresa e da Inovação partilha com Gestão de Inovação apenas a palavra 'inovação' e a base schumpeteriana. É uma UC de história económica e não ensina o processo, a estratégia nem a avaliação da inovação na empresa.",
+  "justification": "Dos seis itens oficiais, nenhum está coberto; dois são parciais (teoria da inovação pelo ponto 2 — Schumpeter e neo-schumpeterianos; ecossistema pelos pontos 5-6 — Estado empreendedor e sistemas nacionais de inovação) e quatro não aparecem (fatores de gestão, processo e implantação, estratégia, avaliação de desempenho). Coberto+parcial fica em 2/6 (33%), abaixo de 50%: baixa afinidade. A semelhança de título não se sustenta no programa. As horas não são comparáveis: 31,7 h na ficha, só 6 ECTS em Coimbra.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial claro e itemizado, que torna a divergência evidente; faltam horas de contacto e semestre, e a ficha brasileira não tem ano.",
+  "limitations": [
+    "Horas de contacto e semestre não declarados na página; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UC 90505 Inovação e Gestão do Conhecimento cobre o processo e a estratégia de inovação?"
+  ],
+  "alternatives": [
+    {"code": "90505", "name": "Inovação e Gestão do Conhecimento", "relation": "Candidata mais próxima pelo título; programa não lido neste parecer"},
+    {"code": "93362", "name": "Empreendedorismo e Criação de Empresas", "relation": "Possível complemento sobre ecossistema; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item vinculado ao ponto do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Divergência de natureza (história vs. gestão) explícita no programa"}
+}

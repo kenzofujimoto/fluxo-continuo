@@ -1,0 +1,195 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL PRIVADO|pt-coimbra|22387",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL PRIVADO",
+    "name": "Direito Internacional Privado",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 34, bloco 'DIREITO INTERNACIONAL PRIVADO' (5ª etapa), campos de carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 informa 2 horas-aula semanais; não há total semestral em horas-relógio. Edição histórica."
+    },
+    "topics": [
+      "Exame do direito internacional privado envolvendo questões de ordem conceitual, com análise no contexto do direito pátrio, com sua respectiva aplicação pelo juiz brasileiro, inclusive com cooperação internacional",
+      "Estudo dos fundamentos e objeto do direito internacional privado",
+      "Compreensão da correlação entre as fontes do Direito Internacional Público e do Direito Internacional Privado",
+      "Análise da evolução histórica das normas de direito internacional privado e das formas de dirimir os conflitos da lei no espaço",
+      "Estudo sobre os sujeitos, a competência do Poder Judiciário nacional na solução de conflitos entre diferentes jurisdições",
+      "Exame dos principais elementos de conexão existentes no direito brasileiro na determinação da lei material aplicável em ações de Direito Internacional Privado",
+      "Compreensão da correlação entre o direito internacional privado e demais ramos do direito nacional",
+      "Compreensão dos princípios fundamentais da arbitragem em Direito Internacional Privado e o seu papel fundamental para a disciplina",
+      "Análise dos limites à cooperação jurídica internacional e à aplicação do direito estrangeiro pelo juiz brasileiro com fundamento na ordem pública",
+      "Exame da Condição Jurídica do Migrante no Direito Internacional Privado"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "22387",
+      "name": "Direito Internacional Privado",
+      "pageCode": "01210179",
+      "faculty": "Faculdade de Direito (área científica Direito Internacional)",
+      "programme": "Licenciatura em Direito (plano 1556)",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 4,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 1º Semestre, não confirmado na página",
+      "academicYear": "2025/2026 (página consultada não é a de 2026/2027)",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exame: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: 'Não Aplicável'",
+      "source": "https://apps.uc.pt/courses/PT/unit/22387/25802/2025-2026?common_core=true&type=ram&id=1556",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/1556/2025-2026",
+      "sha256": "31ba5bb277d04d565a61d35a5e8ae2a6ee5f129bc76a5eb30a8ffc9e1520c911",
+      "location": "Página da UC 2025-2026: identificação, Métodos de Ensino, Resultados de Aprendizagem 1-3, Programa (Introdução 1-7; Parte geral 1-7), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e aulas teóricas e práticas, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Exame do direito internacional privado envolvendo questões de ordem conceitual, com análise no contexto do direito pátrio, com sua respectiva aplicação pelo juiz brasileiro, inclusive com cooperação internacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'compreensão dos problemas suscitados pela vida jurídico-privada transfronteiriça'; 'A aplicação do direito material estrangeiro'",
+      "foreignLocation": "Resultados de Aprendizagem 1; Programa, Parte geral 5",
+      "note": "Dimensão conceitual coberta, mas o 'direito pátrio' ensinado é o português (Código Civil, arts. de conflitos); aplicação pelo juiz brasileiro e cooperação internacional não constam."
+    },
+    {
+      "brTopic": "Estudo dos fundamentos e objeto do direito internacional privado",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Noção e objecto do DIP'; 'Fundamento e natureza jurídica do DIP'; 'Fundamento geral do DIP. Princípios estruturantes'",
+      "foreignLocation": "Programa, Introdução 1, 3 e 7"
+    },
+    {
+      "brTopic": "Compreensão da correlação entre as fontes do Direito Internacional Público e do Direito Internacional Privado",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Fontes do DIP'; 'Confronto com disciplinas afins'",
+      "foreignLocation": "Programa, Introdução 3-4",
+      "note": "Fontes e disciplinas afins são estudadas, mas o programa não explicita a relação com as fontes do Direito Internacional Público."
+    },
+    {
+      "brTopic": "Análise da evolução histórica das normas de direito internacional privado e das formas de dirimir os conflitos da lei no espaço",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Génese e desenvolvimento histórico do DIP'; 'Vias de regulamentação das situações privadas internacionais: o pluralismo metodológico'; regra de conflitos",
+      "foreignLocation": "Programa, Introdução 5-6; Parte geral 1; Resultados de Aprendizagem 2"
+    },
+    {
+      "brTopic": "Estudo sobre os sujeitos, a competência do Poder Judiciário nacional na solução de conflitos entre diferentes jurisdições",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (Introdução 1-7, Parte geral 1-7), Resultados de Aprendizagem 1-3 e Bibliografia; competência internacional dos tribunais não integra esta UC, centrada no direito de conflitos"
+    },
+    {
+      "brTopic": "Exame dos principais elementos de conexão existentes no direito brasileiro na determinação da lei material aplicável em ações de Direito Internacional Privado",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'A regra de conflitos no seio de um DIP de matriz conflitual - estrutura e função'",
+      "foreignLocation": "Programa, Parte geral 1",
+      "note": "A estrutura da regra de conflitos (incluindo o elemento de conexão) é estudada, mas a Parte especial e as conexões da LINDB brasileira não; o programa é só de Parte geral."
+    },
+    {
+      "brTopic": "Compreensão da correlação entre o direito internacional privado e demais ramos do direito nacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Confronto com disciplinas afins'; 'O problema da qualificação'",
+      "foreignLocation": "Programa, Introdução 3; Parte geral 2",
+      "note": "O confronto é com disciplinas afins do DIP; a correlação com ramos do direito interno aparece só indiretamente na qualificação."
+    },
+    {
+      "brTopic": "Compreensão dos princípios fundamentais da arbitragem em Direito Internacional Privado e o seu papel fundamental para a disciplina",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (Introdução 1-7, Parte geral 1-7), Resultados de Aprendizagem, Métodos de Ensino e Bibliografia; arbitragem não mencionada"
+    },
+    {
+      "brTopic": "Análise dos limites à cooperação jurídica internacional e à aplicação do direito estrangeiro pelo juiz brasileiro com fundamento na ordem pública",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'A aplicação do direito material estrangeiro'; 'A exceção de ordem pública internacional'; 'A fraude à lei no direito internacional privado'",
+      "foreignLocation": "Programa, Parte geral 5-7",
+      "note": "Ordem pública como limite ao direito estrangeiro é coberta no sistema português; cooperação jurídica internacional e homologação de sentenças não constam."
+    },
+    {
+      "brTopic": "Exame da Condição Jurídica do Migrante no Direito Internacional Privado",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa completo, Resultados de Aprendizagem e Bibliografia; nacionalidade e condição jurídica de estrangeiros não aparecem"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Conflitos de sistemas de DIP (reenvio) e referência a ordenamentos plurilegislativos", "location": "Programa, Parte geral 3-4"},
+    {"topic": "Pluralismo metodológico na regulação de situações privadas internacionais", "location": "Programa, Introdução 6"},
+    {"topic": "Leitura de textos de autores clássicos do DIP", "location": "Métodos de Ensino"}
+  ],
+  "competencies": {
+    "brazil": "A ementa 2022 combina teoria do DIP com a prática brasileira: competência do Judiciário, LINDB, arbitragem, cooperação e migrante.",
+    "foreign": ["Compreender os problemas da vida jurídico-privada transfronteiriça", "Conhecer a evolução e situação atual do DIP", "Dominar os institutos da Parte Geral do direito de conflitos"],
+    "convergences": ["Objeto, fundamentos, fontes e história do DIP", "Regra de conflitos, aplicação do direito estrangeiro e ordem pública"],
+    "differences": ["Coimbra restringe-se à Parte geral do direito de conflitos; competência internacional, arbitragem, cooperação e migrante ausentes", "Sistema português de conflitos em vez da LINDB"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 4º ano, Mackenzie na 5ª etapa",
+    "brazil": "Componente obrigatório de 2 h-a semanais com escopo amplo",
+    "foreign": "Obrigatória de 6 ECTS, aprofundada na Parte geral do direito de conflitos (qualificação, reenvio, ordem pública, fraude)",
+    "theoryPractice": "Coimbra: aulas teóricas e práticas com hipóteses; exame 100%"
+  },
+  "practical": {
+    "period": "1º semestre segundo data.json, compatível com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "A Universidade de Coimbra admite pedidos de mobilidade em outros cursos e faculdades, sujeitos à aprovação dos coordenadores; UC obrigatória da Licenciatura em Direito",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A UC 22387 de Coimbra é um curso de Parte geral do direito de conflitos (objeto, fontes, história, regra de conflitos, qualificação, reenvio, direito estrangeiro, ordem pública, fraude); cobre o núcleo teórico da ementa Mackenzie, mas não competência internacional, arbitragem, cooperação nem condição do migrante.",
+  "justification": "Dois tópicos estão cobertos (fundamentos e objeto, Introdução 1-3-7; evolução histórica e formas de dirimir conflitos, Introdução 5-6), cinco parciais e três não encontrados (competência do Judiciário nacional, arbitragem, migrante). Os parciais combinam diferença de sistema (regra de conflitos portuguesa em vez da LINDB, Parte geral 1) e omissões (cooperação internacional no tópico 9, apesar da ordem pública em Parte geral 6). Coberto+parcial = 7/10. Ao contrário da UAB, Coimbra não trata competência nem reconhecimento. Horas não comparáveis: 2 h-a semanais (2022) contra 6 ECTS sem horas de contacto; página de 2025/26.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e coerente com os resultados de aprendizagem; reduzem a confiança a página de 2025/26, a falta de horas e semestre na página e o ementário brasileiro histórico.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas; página de 2025/26; semestre só no data.json",
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Ementário Mackenzie 2022 é histórico e pode não corresponder à matriz vigente",
+    "Competência internacional, arbitragem, cooperação e migrante exigiriam outra UC ou estudo complementar",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A combinação com 97268 'Processo Civil Internacional e Conflito de Leis' (2º semestre) supriria a competência internacional? Os semestres diferem.",
+    "A coordenação aceita a Parte geral do DIP português sem a LINDB?"
+  ],
+  "alternatives": [
+    {"code": "97268", "name": "Processo Civil Internacional e Conflito de Leis", "relation": "UC de 2º semestre que, pelo título, poderia tratar competência internacional; programa não lido"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da página oficial da UC de Coimbra (2025-2026) com apoio de IA (Claude); cada tópico vinculado a item do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Programa itemizado; lacunas explícitas"}
+}

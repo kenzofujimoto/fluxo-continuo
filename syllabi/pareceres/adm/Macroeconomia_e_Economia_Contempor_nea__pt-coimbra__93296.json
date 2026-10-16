@@ -1,0 +1,179 @@
+{
+  "id": "adm|Macroeconomia e Economia Contemporânea|pt-coimbra|93296",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Macroeconomia e Economia Contemporânea",
+    "name": "Macroeconomia e Economia Contemporânea",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 5, bloco 'Macroeconomia e Economia Contemporânea': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Documento sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O Lado real e o Lado monetário da economia",
+      "Demanda e Oferta Agregados",
+      "Noções básicas de contas nacionais",
+      "O setor externo da economia",
+      "O lado monetário da economia",
+      "Os efeitos da inflação na atividade econômica",
+      "Política fiscal e seus efeitos",
+      "Discussão da conjuntura econômica nacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93296",
+      "name": "Princípios de Macroeconomia",
+      "pageCode": "01020871",
+      "faculty": "Não indicada na página da UC",
+      "programme": "Licenciatura em Gestão (plano 10622 segundo data.json); a página refere a Licenciatura em Economia nos resultados de aprendizagem; área científica Economia",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º semestre no plano 2026/27, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português; outra língua de ensino: Inglês",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "source": "https://apps.uc.pt/courses/PT/unit/93296/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "bb65bf73800e6304bd2cbeadb999afdbe6ec3f49f8ec73ae1bc56911f2b33091",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem 1-4, Programa 1-10, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, aulas teóricas e práticas, sem horas de contacto. Código interno: 01020871."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O Lado real e o Lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 7 'mercado real e curva IS' e 8 'mercado monetário e curva LM'; pontos 2-5 do longo prazo",
+      "foreignLocation": "Programa, pontos 2-5 e 7-8"
+    },
+    {
+      "brTopic": "Demanda e Oferta Agregados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 10 'A economia no CP: modelo AS/AD'; resultado 3 aplica modelos IS-LM e AS-AD",
+      "foreignLocation": "Programa, ponto 10; Resultados de Aprendizagem 3"
+    },
+    {
+      "brTopic": "Noções básicas de contas nacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 1 'medição do nível de atividade económica e do custo de vida'; resultado 4 'calcular indicadores ... como o PIB e o IPC'",
+      "foreignLocation": "Programa, ponto 1; Resultados de Aprendizagem 4"
+    },
+    {
+      "brTopic": "O setor externo da economia",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-10, Resultados de Aprendizagem 1-4, Métodos de Ensino e Bibliografia",
+      "note": "Não há economia aberta, câmbio nem balanço de pagamentos no programa; a ementa brasileira cita expressamente 'o papel do câmbio'."
+    },
+    {
+      "brTopic": "O lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 4 'sistema financeiro', 5 'moeda e inflação', 8 'mercado monetário e curva LM'; resultado 2 cita bancos centrais",
+      "foreignLocation": "Programa, pontos 4, 5 e 8; Resultados de Aprendizagem 2"
+    },
+    {
+      "brTopic": "Os efeitos da inflação na atividade econômica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 5 'A economia no LP: moeda e inflação'; resultado 1 cita inflação e desemprego",
+      "foreignLocation": "Programa, ponto 5; Resultados de Aprendizagem 1"
+    },
+    {
+      "brTopic": "Política fiscal e seus efeitos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa 9 'modelo IS/LM e políticas de estabilização'; resultado 2 'avaliar criticamente a eficácia das políticas macroeconómicas'",
+      "foreignLocation": "Programa, ponto 9; Resultados de Aprendizagem 2",
+      "note": "'Fiscal' não aparece literalmente; a política orçamental faz parte da estabilização no modelo IS/LM, e o resultado 2 nomeia os governos."
+    },
+    {
+      "brTopic": "Discussão da conjuntura econômica nacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Métodos: 'Acompanhar e analisar acontecimentos correntes e desenvolvimentos macroeconómicos'",
+      "foreignLocation": "Métodos de Ensino, aulas práticas",
+      "note": "A conjuntura acompanhada será a portuguesa/europeia, não a brasileira exigida na ementa."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Crescimento económico de longo prazo", "location": "Programa 2"},
+    {"topic": "Desemprego de longo prazo", "location": "Programa 3"},
+    {"topic": "Teorias clássica e keynesiana", "location": "Resultados de Aprendizagem 1"}
+  ],
+  "competencies": {
+    "brazil": "A ementa descreve objetivos de governo, políticas econômicas, inflação e emprego, câmbio, moeda, crescimento e desenvolvimento, setor público, indicadores, juros e demanda agregada, e a política econômica atual do Brasil comparada à de outros países.",
+    "foreign": ["Descrever conceitos e teorias macroeconómicas", "Avaliar instituições e políticas macroeconómicas", "Aplicar IS-LM e AS-AD", "Calcular PIB, IPC, taxas de crescimento e números índices"],
+    "convergences": ["Modelos agregados, moeda, inflação e política de estabilização", "Indicadores macroeconómicos"],
+    "differences": ["Coimbra não trata setor externo/câmbio", "A conjuntura brasileira e a comparação Brasil–outros países não podem vir de uma UC portuguesa"]
+  },
+  "depth": {
+    "level": "Ambas introdutórias; Coimbra no 1º ano, Mackenzie na 3ª etapa",
+    "brazil": "Componente de 63,3 h que combina macroeconomia introdutória e economia contemporânea brasileira",
+    "foreign": "UC de 6 ECTS de princípios de macroeconomia, mais formal em modelos (IS-LM, AS-AD)",
+    "theoryPractice": "Coimbra: aulas teóricas e práticas com exercícios; a ficha brasileira não discrimina"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json: não coincidiria com 2027.2 se mantido; não confirmado na página",
+    "language": "Português ou inglês",
+    "enrolment": "UC obrigatória do 1º ano. A Universidade de Coimbra informou que estudantes de mobilidade podem pedir unidades de outros ciclos, departamentos e faculdades, sujeito à aprovação dos coordenadores.",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Princípios de Macroeconomia cobre o núcleo macroeconómico da disciplina Mackenzie (lado real e monetário, AS/AD, contas nacionais, inflação e política de estabilização), mas não o setor externo nem a conjuntura brasileira, que é a parte 'contemporânea' da ementa.",
+  "justification": "Seis dos oito itens oficiais estão cobertos por pontos explícitos do programa (1, 4-5, 7-10) e dos resultados 1-4; a conjuntura nacional é parcial (a UC acompanha a atualidade, mas não a brasileira) e o setor externo não foi encontrado. A cobertura integral atinge 75%, mas a regra não chega à afinidade alta: há um item ausente, a página só declara 6 ECTS (horas não comparáveis) e a ficha brasileira não tem vigência confirmada. Resultado: afinidade parcial. A indicação de 2º semestre é obstáculo para 2027.2.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa e resultados itemizados e convergentes; faltam horas de contacto e o semestre só consta do data.json; a ficha brasileira não tem ano.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Semestre (2º) não confirmado na página; oferta 2027/28 não confirmada",
+    "Setor externo e conjuntura brasileira não supríveis por esta UC",
+    "Ficha brasileira sem ano impresso; vigência para Alphaville não confirmada",
+    "Parecer preliminar independente; a decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita a ausência de setor externo/câmbio e da conjuntura brasileira, talvez com complemento?",
+    "93296 é oferecida no semestre de outono de 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "93321", "name": "Negócios Internacionais e Governança Global", "relation": "Poderia complementar a dimensão externa; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do bloco da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada item vinculado a ponto do Programa ou resultado de aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": true, "reason": "Cobertura alta do núcleo, mas a parte contemporânea/brasileira e o semestre de oferta exigem decisão da coordenação"}
+}

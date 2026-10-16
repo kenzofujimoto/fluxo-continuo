@@ -1,0 +1,189 @@
+{
+  "id": "adm|Contabilidade de Custos|pt-coimbra|19111",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade de Custos",
+    "name": "Contabilidade de Custos",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 3, bloco 'Contabilidade de Custos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "Custos Fixos e Variáveis)",
+      "Métodos de contabilização de estoques",
+      "Custeio por Absorção (Com e sem Departamentalização)",
+      "Custeio Variável",
+      "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "Tributos sobre a Receita e formação de preços",
+      "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "Etapas do processo orçamentário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "19111",
+      "name": "Contabilidade de Gestão",
+      "pageCode": "01620027",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração semestral; data.json indica 2º Semestre, não confirmado na página",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/19111/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "aae9fc650486a42a1db8b06f3e2492f9792ee995489ed23f3bc662459673562f",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1-8), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e aulas teórico-práticas, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "2) 'Conceitos fundamentais da Contabilidade de Gestão'; 3) componentes do custo de produção; 4) imputação dos gastos indiretos",
+      "foreignLocation": "Programa, itens 2-4",
+      "note": "Enunciado brasileiro partido em duas linhas na ficha; ambas foram avaliadas como tópicos oficiais."
+    },
+    {
+      "brTopic": "Custos Fixos e Variáveis)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "2) 'Estimação e comportamento das funções de custo'; 6) análise gasto-volume-resultado",
+      "foreignLocation": "Programa, itens 2 e 6"
+    },
+    {
+      "brTopic": "Métodos de contabilização de estoques",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-8, Resultados de Aprendizagem, Métodos de Ensino, Bibliografia",
+      "note": "O item 3 fala de 'acumulação e repartição de gastos', não de critérios de valoração de inventários (PEPS, custo médio)."
+    },
+    {
+      "brTopic": "Custeio por Absorção (Com e sem Departamentalização)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "4) imputação dos gastos indiretos 'do Método das Secções Homogéneas ao Custeio Baseado nas Atividades'; 3) métodos de imputação",
+      "foreignLocation": "Programa, itens 3-4",
+      "note": "Secções homogéneas é a designação portuguesa do custeio por absorção departamentalizado."
+    },
+    {
+      "brTopic": "Custeio Variável",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5) Sistemas de custeio: alternativas e resultados'",
+      "foreignLocation": "Programa, item 5",
+      "note": "Comparação de sistemas de custeio e seus resultados; o custeio variável não é nomeado."
+    },
+    {
+      "brTopic": "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "6) 'análise gasto-volume-resultado'",
+      "foreignLocation": "Programa, item 6",
+      "note": "Alavancagem operacional não aparece literalmente."
+    },
+    {
+      "brTopic": "Tributos sobre a Receita e formação de preços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "6) 'decisões de pricing'",
+      "foreignLocation": "Programa, item 6",
+      "note": "Formação de preço presente; tributos sobre a receita (no contexto brasileiro) ausentes."
+    },
+    {
+      "brTopic": "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-8, Resultados de Aprendizagem, Bibliografia",
+      "note": "Os resultados mencionam integrar a contabilidade de gestão 'no planeamento e controlo organizacional', mas não há unidade de orçamento."
+    },
+    {
+      "brTopic": "Etapas do processo orçamentário",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-8, Resultados de Aprendizagem, Bibliografia"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Custeio Baseado nas Atividades (ABC)", "location": "Programa, item 4"},
+    {"topic": "Decisões de escalonamento da produção e outsourcing", "location": "Programa, item 6"},
+    {"topic": "Conceção e implementação de um sistema de Contabilidade de Gestão; impacto do ambiente organizacional em mudança", "location": "Programa, itens 7-8"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: contabilidade gerencial para decisão, comportamento de custos, custeio direto e por absorção, ponto de equilíbrio, preços e tributos, orçamento.",
+    "foreign": ["Organizar e tratar informação contabilística e não contabilística (40%)", "Avaliar necessidades de informação para decisão (20%)", "Planear estratégias e interpretar alterações económicas e financeiras (20%)", "Comparar cenários e elaborar relatórios para a gestão (10%)"],
+    "convergences": ["Custeio e imputação de indiretos", "Análise custo-volume-resultado e preço"],
+    "differences": ["Coimbra acrescenta ABC, outsourcing e desenho de sistemas", "Mackenzie inclui orçamento, estoques e tributos sobre receita, ausentes em Coimbra"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano, Mackenzie na 4ª etapa",
+    "brazil": "Custos e orçamento em 63,3 h",
+    "foreign": "Contabilidade de gestão mais extensa em sistemas de custeio (secções homogéneas e ABC) e decisão",
+    "theoryPractice": "Coimbra: aulas teórico-práticas com casos; avaliação periódica opcional"
+  },
+  "practical": {
+    "period": "2º semestre segundo data.json; não coincidiria com 2027.2 se mantido",
+    "language": "Português",
+    "enrolment": "Mobilidade pode pedir UC de outros ciclos, departamentos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado; pressupõe contabilidade financeira introdutória",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Contabilidade de Gestão de Coimbra cobre o núcleo de custeio da ficha Mackenzie (terminologia, comportamento dos custos, secções homogéneas, gasto-volume-resultado), com custeio variável e preço só parciais, e deixa de fora estoques, tributos sobre a receita e todo o bloco de orçamento.",
+  "justification": "Dos nove enunciados oficiais, quatro estão cobertos (programa itens 2, 3, 4 e 6), dois são parciais (item 5 sem custeio variável nomeado; item 6 com pricing sem tributos) e três não aparecem (valoração de estoques, planeamento/orçamento e etapas orçamentárias). Coberto+parcial = 6/9 (67%). Coimbra declara 6 ECTS sem horas de contacto, pelo que as 63,3 h não são comparáveis; a vigência da ficha brasileira também não está confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 itemizado e objetivos ponderados; faltam horas de contacto e confirmação do semestre na página.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos",
+    "Semestre (2º) não confirmado na página; oferta 2027/28 não confirmada",
+    "Bloco de orçamento ausente na UC estrangeira",
+    "Ficha Mackenzie sem ano impresso e com enunciado partido em duas linhas",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita a ausência de orçamento, considerando que Coimbra acrescenta ABC e desenho de sistemas?",
+    "Há oferta de 19111 no semestre de outono?"
+  ],
+  "alternatives": [
+    {"code": "18278", "name": "Gestão Financeira", "relation": "Poderia tratar planeamento financeiro; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático da ficha Mackenzie e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada clara; lacuna orçamental documentada"}
+}
