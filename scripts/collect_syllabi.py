@@ -30,7 +30,7 @@ UBB = "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&speci
 MAX_BYTES = 8 * 1024 * 1024
 MAX_URLS = int(os.getenv("MAX_SOURCE_URLS", "1800"))
 WORKERS = max(1, min(int(os.getenv("AUDIT_WORKERS", "4")), 6))
-MARKERS = re.compile(r"syllabus|course description|course content|course outline|conteúdo programático|conteudos programaticos|ementa|programa da unidade|objectives|learning outcomes|tematica|temario|programa analítico", re.I)
+MARKERS = re.compile(r"syllabus|course description|course content|course outline|conteúdo programático|conteudos programaticos|ementa|programa da unidade|\bprograma\b|objetivos|resultados de aprendizagem|objectives|learning outcomes|tematica|temario|programa analítico", re.I)
 
 def valid_url(u):
     p = urlparse(str(u or ""))
@@ -158,12 +158,18 @@ def course_quality(foreign, document, ubb=False):
     status = document.get("status")
     base = {"status": "indisponivel", "source": foreign.get("source"), "document": None, "contactHours": None, "totalHours": None, "reason": status}
     if status != "lido":
+        if status == "aguardando_coleta":
+            base["status"] = "nao_tentada"
+            base["reason"] = "Fonte aguardando coleta; não indica inacessibilidade"
         return base
     text = document["_text"]
     name, code = foreign.get("name", ""), foreign.get("originalCode") or foreign.get("code", "")
     by_name = len(clean(name)) >= 10 and clean(name) in clean(text[:15000])
     by_code = len(str(code)) >= 4 and str(code).casefold() in text[:10000].casefold()
-    individual = (ubb or document["type"] == "pdf" and document.get("pages") and document["pages"] <= 25)
+    official_unit = document["type"] == "html" and ("/unit/" in str(document.get("finalUrl") or "") or "/asignaturas/" in str(document.get("finalUrl") or ""))
+    section_markers = sum(bool(re.search(p, text, re.I)) for p in
+        [r"\\bprograma\\b|\\bcontents\\b", r"learning outcomes|resultados de aprendizagem|objetivos", r"bibliograf|assessment|avalia[cç][aã]o"])
+    individual = bool(ubb or (document["type"] == "pdf" and document.get("pages") and document["pages"] <= 25) or (official_unit and section_markers >= 2))
     rich = bool(MARKERS.search(text[:13000])) and len(text) >= 650
     has_identity = by_name or by_code
     q = "ementa_individual" if individual and rich and has_identity else ("pagina_com_conteudo" if has_identity and rich else "catalogo_ou_matriz")
