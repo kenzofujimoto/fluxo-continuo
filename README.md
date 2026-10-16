@@ -5,26 +5,27 @@
 **Site principal:** https://fluxo-continuo.vercel.app  
 **Página de idiomas:** https://fluxo-continuo.vercel.app/idiomas.html
 
-## Estado da pesquisa — 15/10/2026
+## Estado auditado da base — 16/10/2026
 
-Os números abaixo foram verificados na base `data.json` publicada na Vercel:
+Os valores a seguir foram contados na base versionada em `data.json`, `triagem.json` e `candidatos-catalogo.json`. A cobertura documental não implica validação curricular.
 
 | Indicador | Quantidade |
 | --- | ---: |
-| Cursos brasileiros | 4 (Ciência da Computação, Sistemas de Informação, Administração e Direito) |
-| Disciplinas brasileiras listadas | 221 (CC 47, SI 46, ADM 47, Direito 81) |
-| Instituições elegíveis da planilha COI | 66 |
-| Instituições com disciplinas estrangeiras indexadas | 39 |
-| Disciplinas estrangeiras indexadas | 1.596 |
-| Registros de possíveis correspondências | 505 |
-| Indícios *somente pelo título* | 447 |
-| Correspondências em análise | 55 |
-| Candidatas fortes | 3 |
-| Equivalências formalmente homologadas | **0** |
+| Cursos brasileiros | 4 (Ciência da Computação, Sistemas de Informação, Administração, Direito) |
+| Componentes Mackenzie | 221 (CC 47, SI 46, Administração 47, Direito 81) |
+| Universidades listadas pela COI | 66 |
+| Universidades com ao menos um título estrangeiro indexado | **44** |
+| Disciplinas estrangeiras com título/catálogo indexado | **1.808** |
+| Correspondências e indícios registrados | **529** |
+| Pares da triagem adicional com alguma sugestão de título | **438** |
+| Cruzamentos disciplina × universidade elegível triados | **6.856** |
+| Aproveitamentos homologados | **0** |
 
-As quantidades podem mudar a cada atualização. Os números de cada aba são recortes por curso/universidades elegíveis.
+As 529 correspondências e as sugestões adicionais podem coincidir: nunca somá-las como equivalências distintas. Há **22 universidades sem disciplinas indexadas**; parte dessas 22 não tem marcação Sim para nenhum dos quatro cursos. O projeto **não concluiu** o cotejo integral das ementas nem a verificação de todas as ofertas em 2027.2.
 
-**A pesquisa não está completa.** Ainda há 27 instituições sem disciplinas estrangeiras indexadas; mesmo onde há catálogo, várias ementas individuais, cargas horárias, pré-requisitos e ofertas em 2027/28 não foram verificados. Ter executado a triagem dos 6.856 cruzamentos possíveis não é o mesmo que ter comparado integralmente as ementas de todas essas combinações. O método de título é apenas um filtro inicial.
+A rodada de 16/10 agregou **155 títulos oficiais** de Ferrara (13), Roma Tor Vergata (70) e Salerno (72), provenientes de catálogos institucionais 2026/27. Em Direito italiano, nomes semelhantes envolvem sistemas jurídicos diferentes. Foram removidas seis associações ambíguas e corrigidos códigos internos repetidos.
+
+Veja [cobertura por universidade e curso](./cobertura.html) para separar elegibilidade, indexação e pendências.
 
 ## Como usar
 
@@ -42,6 +43,8 @@ As quantidades podem mudar a cada atualização. Os números de cada aba são re
 - `triagem-view.js`: visualização da triagem na tabela desktop.
 - `mobile.js` e `mobile.css`: exploração por cartões no celular.
 - `METODOLOGIA.md`: o que foi e não foi verificado.
+- `cobertura.html`: mapa responsivo de 66 instituições, sem confundir ausência de catálogo com incompatibilidade.
+- `validate.js`: validação cruzada dos arquivos de dados.
 - `index.html`, `app.js` e `styles.css`: aplicação sem login e sem backend.
 
 ### Significado dos estados
@@ -76,12 +79,12 @@ Acesse http://localhost:8000. O projeto é estático, sem login nem Neon, com im
 
 **O MobiMatch Alpha não é afiliado nem endossado pelo Mackenzie e não emite pareceres acadêmicos.**
 
-## Cobertura verificável (16/10/2026)
+## Limitações e fontes acrescentadas (16/10/2026)
 
-- **6.856** cruzamentos de disciplina Mackenzie x instituição elegível classificados; isso é triagem, **não** 6.856 equivalências verificadas.
-- **1.653** disciplinas estrangeiras com títulos indexados de catálogos/páginas oficiais de **41** universidades; **25** instituições da planilha ainda sem disciplinas indexadas.
-- **505** correspondências anteriormente cadastradas (incluem fortes candidatas, pré-análises e indícios de título), **439** pares com candidatos na passagem multilíngue adicional; conjuntos parcialmente sobrepostos.
-- Ementários brasileiros: **CC 47/47 com resumos**; **SI 41/46 com texto do ementário oficial de 2025**; **Direito 63/81 com texto do ementário oficial de 2022**; Administração ainda requer verificação de ementário próprio do campus e da matriz curricular de ingresso.
-- Fontes por registro estão expostas no site. Nenhuma correspondência está homologada pela coordenação; confirmar horas, conteúdo, idioma, pré-requisitos e oferta em **2027.2**.
-- Finis Terrae: malla oficial de Direito usada somente para títulos; Bologna: fichas individuais 2026/27. Códigos `CAT-*` e sufixos internos não são códigos acadêmicos oficiais.
-- **Próxima etapa indispensável**: indexar e ler ementas individuais das universidades ausentes e revisar par a par o conteúdo, carga e semestre. Não usar ausência de resultado como prova de incompatibilidade.
+- O índice acadêmico cobre apenas documentos coletados; 2027/28, horários, acesso externo, equivalência de horas e programas individuais ainda podem mudar.
+- Foram extraídos 41 de 46 textos de ementas de SI e 63 de 81 de Direito; o ementário de Administração para a matriz correta permanece pendente.
+- Fontes institucionais agregadas: [Ferrara](https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o), [Tor Vergata](https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/) e [Salerno](https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti).
+- Códigos internos `CAT-*` não são códigos oficiais. O exame individual de cada ementa, carga horária e semestre permanece obrigatório.
+- Em caso de dúvida, siga a planilha atual da COI e a coordenação do Mackenzie. Não existe aproveitamento aprovado na base.
+
+Para validar o banco localmente, execute `node validate.js`.

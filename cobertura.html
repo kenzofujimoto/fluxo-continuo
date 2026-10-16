@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cobertura da pesquisa · Fluxo Contínuo</title><meta name="description" content="Auditoria pública de catálogos, disciplinas e lacunas da pesquisa de mobilidade acadêmica 2027.2."/>
+<style>
+:root{color-scheme:light;--ink:#2a1821;--brand:#8e1738;--edge:#e5d7dc;--muted:#756772}*{box-sizing:border-box}
+body{margin:0;background:#faf7f8;color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:var(--brand)}
+header{background:#68152f;color:#fff;padding:20px max(18px,calc((100vw - 1140px)/2))}header a{color:white;font-weight:650;text-decoration:none}
+main{max-width:1140px;margin:auto;padding:34px 18px 60px}h1{font-size:clamp(27px,5vw,39px);margin:12px 0 8px;line-height:1.15}p{color:var(--muted)}header a,p a{text-underline-offset:3px}
+.notice{border-left:4px solid var(--brand);padding:13px 17px;background:#f3e7ec;border-radius:0 9px 9px 0;line-height:1.6}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:22px 0}.stat{background:white;border:1px solid var(--edge);border-radius:12px;padding:18px}.stat b{display:block;font-size:27px;color:var(--brand)}.stat span{font-size:12px;color:var(--muted)}
+.filters{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:12px;margin:27px 0 15px}.filters label{font-size:12px;font-weight:700;display:grid;gap:6px}
+input,select{height:45px;width:100%;font:inherit;min-width:0;border:1px solid #cfc3c8;border-radius:9px;padding:9px 12px;background:white}
+.secondary{display:flex;gap:15px;align-items:center;flex-wrap:wrap;margin:7px 0 17px;font-size:12px}
+.secondary label{display:flex;gap:6px;align-items:center}.secondary input{height:18px;width:18px}
+.items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.item{min-width:0;background:white;border:1px solid var(--edge);border-radius:13px;padding:17px}
+.item header{all:unset;display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.item h2{font-size:16px;line-height:1.3;margin:0}.item p{font-size:12px;margin:8px 0}.pill{white-space:nowrap;background:#f2e7eb;border-radius:100px;padding:4px 8px;color:var(--brand);font:700 11px system-ui}
+.pill.missing{background:#fff2de;color:#7f5315}.pill.ineligible{color:#6d6671;background:#f0eff1}
+.boxes{display:flex;gap:5px;flex-wrap:wrap;margin:12px 0}.boxes span{border:1px solid #e7e1e5;background:#fcfafb;border-radius:5px;font-size:11px;padding:3px 6px}
+.links{display:flex;gap:14px;flex-wrap:wrap;margin-top:12px;font-size:12px;font-weight:650}
+.empty{padding:25px;background:white;border:1px solid var(--edge);border-radius:12px}
+footer{font-size:12px;color:var(--muted);margin-top:30px}
+@media(max-width:800px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.items{grid-template-columns:1fr}.filters{grid-template-columns:1fr 1fr}.filters label:first-child{grid-column:1/-1}}
+@media(max-width:410px){.stat{padding:12px}.stat b{font-size:23px}.filters{grid-template-columns:1fr}.filters label:first-child{grid-column:auto}}
+</style></head><body>
+<header><a href="./index.html">← Fluxo Contínuo · Matriz curricular</a></header><main>
+<div style="font-size:12px;font-weight:800;letter-spacing:.08em;color:#8e1738">AUDITORIA DA PESQUISA · 2027.2</div>
+<h1>Cobertura por universidade</h1><p>Consulte as 66 instituições da planilha COI e saiba quais têm disciplinas estrangeiras indexadas, sem confundir a pesquisa parcial com uma decisão de aproveitamento.</p>
+<div class="notice"><strong>Sem homologações.</strong> Um título de catálogo não comprova ementa, horas de contato, idioma, autorização de matrícula nem oferta em 2027.2. Universidades sem títulos coletados continuam possíveis destinos quando a COI as marca como elegíveis.</div>
+<section class="stats" aria-live="polite"><div class="stat"><b id="totalUnis">—</b><span>Instituições COI</span></div><div class="stat"><b id="covered">—</b><span>Com títulos indexados</span></div><div class="stat"><b id="subjects">—</b><span>Disciplinas estrangeiras</span></div><div class="stat"><b id="pairs">—</b><span>Candidatas e indícios cadastrados</span></div></section>
+<div class="filters"><label>Pesquisar universidade<input type="search" id="search" placeholder="Nome ou país"/></label><label>Curso Mackenzie<select id="course"><option value="all">Todos os cursos</option><option value="cc">Ciência da Computação</option><option value="si">Sistemas de Informação</option><option value="adm">Administração</option><option value="dir">Direito</option></select></label><label>Condição do catálogo<select id="coverage"><option value="all">Todas as situações</option><option value="with">Com títulos indexados</option><option value="without">Sem títulos indexados</option></select></label></div>
+<div class="secondary"><label><input type="checkbox" id="eligible" checked/> Mostrar só instituições elegíveis ao curso selecionado</label><span id="count">Carregando…</span></div>
+<section id="items" class="items" aria-live="polite"></section>
+<footer>Fontes: planilha inicial COI e catálogos institucionais vinculados em cada cartão. Dados coletados em 2026; consulte o edital, o curso e o coordenador para confirmações individuais.</footer>
+</main>
+<script>
+(function(){
+"use strict";
+const $=id=>document.getElementById(id),courseNames={cc:"CC",si:"SI",adm:"ADM",dir:"Direito"};
+const state={db:null};
+function node(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e}
+function addLink(parent,name,url){try{const parsed=new URL(url);if(parsed.protocol!=="https:"&&parsed.protocol!=="http:")return;const a=node("a",name);a.href=parsed.href;a.target="_blank";a.rel="noopener noreferrer";parent.appendChild(a)}catch{}}
+function render(){
+const db=state.db;if(!db)return;
+const term=$("search").value.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim(),course=$("course").value,mode=$("coverage").value,eligible=$("eligible").checked;
+const count=new Map();db.foreignCourses.forEach(f=>count.set(f.universityId,(count.get(f.universityId)||0)+1));
+const rows=db.universities.filter(u=>{
+if(course!=="all"&&eligible&&!u.courses?.[course])return false;
+if(course==="all"&&eligible&&!Object.values(u.courses||{}).some(Boolean))return false;
+const text=(u.name+" "+u.country).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+if(term&&!text.includes(term))return false;
+const n=count.get(u.id)||0;return mode==="all"||(mode==="with"&&n>0)||(mode==="without"&&n===0);
+}).sort((a,b)=>{const a0=count.get(a.id)||0,b0=count.get(b.id)||0;return (a0===0?0:1)-(b0===0?0:1)||a.name.localeCompare(b.name,"pt-BR")});
+const root=$("items");root.replaceChildren();
+$("count").textContent=rows.length+" instituição(ões) nos filtros";
+if(!rows.length)root.appendChild(node("div","Nenhuma instituição encontrada. Experimente outro filtro.","empty"));
+for(const u of rows){
+const n=count.get(u.id)||0,box=node("article",undefined,"item"),head=node("header"),title=node("h2",u.name),tag=node("span",n?n+" título(s)":"Sem títulos", "pill"+(n?"":" missing"));head.append(title,tag);box.appendChild(head);
+box.appendChild(node("p",u.country+" · "+(n?"Catálogo parcialmente indexado":"Indexação individual ainda pendente")));
+const labels=node("div",undefined,"boxes");for(const [key,label]of Object.entries(courseNames))labels.appendChild(node("span",label+": "+(u.courses?.[key]?"COI Sim":"não consta Sim")));box.appendChild(labels);
+const records=db.matches.filter(m=>m.universityId===u.id&&(course==="all"||m.courseId===course));
+box.appendChild(node("p",records.length+" registros de candidatas/indícios relacionados ao filtro atual. Nenhum é equivalência homologada."));
+const links=node("div",undefined,"links");addLink(links,"Catálogo ou página oficial ↗",u.catalogUrl);if(u.website!==u.catalogUrl)addLink(links,"Universidade ↗",u.website);box.appendChild(links);
+root.appendChild(box);
+}
+}
+Promise.all([fetch("./data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()})])
+.then(([db])=>{state.db=db;$("totalUnis").textContent=db.universities.length;$("covered").textContent=new Set(db.foreignCourses.map(f=>f.universityId)).size;$("subjects").textContent=db.foreignCourses.length.toLocaleString("pt-BR");$("pairs").textContent=db.matches.length;render()})
+.catch(()=>{$("count").textContent="Falha ao carregar base";$("items").appendChild(node("p","Não foi possível carregar os dados. Recarregue a página."))});
+["search","course","coverage","eligible"].forEach(id=>$(id).addEventListener(id==="search"?"input":"change",render));
+})();
+</script></body></html>

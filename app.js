@@ -107,7 +107,7 @@ function openDetail(subject,uni) {
          '<div class="detail-course">'+esc(foreign.name)+'</div>'+
          '<span class="detail-code">'+esc(foreign.officialCodeKnown===false?'Referência de catálogo (não código oficial): '+foreign.code:foreign.code)+'</span>'+
          '<div class="detail-meta">'+(foreign.contactHours!=null?'<span>'+esc(foreign.contactHours)+'h de contato</span>':'<span>Horas não comprovadas</span>')+
-         (foreign.credits?'<span>'+esc(foreign.credits)+' créditos</span>':'')+'<span>'+esc(foreign.period||'Oferta a confirmar')+'</span></div>'+
+         (foreign.credits?'<span>'+esc(foreign.credits)+' '+esc(foreign.creditUnit||'créditos')+'</span>':'')+'<span>'+esc(foreign.period||'Oferta a confirmar')+'</span></div>'+
          link('Abrir disciplina / ementa oficial',foreign.source||candidate.source)+
          '<div class="callout"><b>'+esc(state)+' — não homologada</b><p>'+esc(candidate.evidence||'Comparação curricular pendente')+'</p></div>'+
          (foreign.topics?'<p><b>Conteúdo estrangeiro:</b> '+esc(foreign.topics)+'</p>':'')+

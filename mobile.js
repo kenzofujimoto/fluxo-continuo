@@ -98,7 +98,7 @@
         const status=m.status==='candidata_forte'?'Candidata forte':m.status==='em_analise'?'Pré-análise documental':'Afinidade de nome — ementa não comparada';
         html+='<section class="detail-section"><div class="detail-label">'+(i+1)+' · '+esc(status)+'</div><div class="detail-course">'+esc(f.name)+'</div>'+
         '<p><b>Código:</b> '+esc(f.officialCodeKnown===false?'Referência do catálogo (não código oficial)':f.code)+
-        ' · <b>Oferta:</b> '+esc(f.period||'A confirmar')+' · <b>Créditos:</b> '+esc(f.credits||'A confirmar')+'</p>'+
+        ' · <b>Oferta:</b> '+esc(f.period||'A confirmar')+' · <b>Créditos:</b> '+esc(f.credits ? f.credits+' '+(f.creditUnit||'créditos') : 'A confirmar')+'</p>'+
         '<div class="callout">'+esc(m.evidence||'É necessário conferir a ementa individual e a carga horária.')+'</div>'+
         getSafeLink('Consultar fonte oficial',f.source||m.source)+'</section>';
       });
