@@ -6,7 +6,10 @@ SAMPLES=[
  ("Universidad de Salamanca","101131","Seguridad en Sistemas Informáticos","https://guias.usal.es/node/255761"),
  ("Universidad de Jaén","11911001","Administración de empresas","https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html"),
  ("Universidad de Cádiz","21714033","Programación Paralela y Distribuida","https://asignaturas.uca.es/2026-27/21714033"),
- ("Universitat Autònoma de Barcelona","102300","Dret Civil I","https://apps.uab.cat/guies/public/html/2026/assignatura/102300/ca")
+ ("Universitat Autònoma de Barcelona","102300","Dret Civil I","https://apps.uab.cat/guies/public/html/2026/assignatura/102300/ca"),
+ ("Universidad de Salamanca","101136","Desarrollo de Aplicaciones Avanzadas","https://guias.usal.es/node/255695?plan=79987"),
+ ("Universidad de Jaén","11912021","Análisis y valoración de operaciones bancarias","https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"),
+ ("Universidad de Cádiz","21714032","Arquitectura de Computadores Paralelos y Distribuidos","https://asignaturas.uca.es/2026-27/21714032")
 ]
 def main():
  for uni,code,name,url in SAMPLES:
@@ -17,5 +20,6 @@ def main():
     print(json.dumps({"uni":uni,"sourceCode":code,"status":evidence["status"],"fetchStatus":doc.get("status"),"final":doc.get("finalUrl"),
        "nameFound":clean(name) in clean(text[:15000]),"codeFound":code.casefold() in text[:10000].casefold(),
        "textLength":len(text),"programLength":len(program),"programWords":len(program.split()),
-       "programSample":program[:180],"individualGuide":guide,"detectedHours":evidence.get("contactHours")},ensure_ascii=False),flush=True)
+       "programSample":program[:180],"individualGuide":guide,"detectedHours":evidence.get("contactHours"),
+       "sections":[{"term":w,"at":text.lower().find(w.lower()),"context":text[max(text.lower().find(w.lower())-80,0):text.lower().find(w.lower())+180] if w.lower() in text.lower() else ""} for w in ["5. Contenidos","Contenidos","Temario","6. Metodología","HORAS PRESENCIALES","TOTALES:"]]},ensure_ascii=False),flush=True)
 if __name__=="__main__":main()
