@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#8e1738"><title>Acervo de ementas · Fluxo Contínuo</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#212632;background:#f8f7f8}
+*{box-sizing:border-box}body{margin:0}a{color:#7e1436}header{background:#821438;color:white;padding:22px max(20px,calc((100vw - 1180px)/2))}
+header a{color:#fff}header nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}header strong{font-size:18px}
+main{max-width:1180px;margin:auto;padding:26px 20px 56px}h1{font-size:clamp(27px,4vw,43px);margin:0 0 10px;letter-spacing:-.04em}
+.lead{line-height:1.6;max-width:850px;color:#59606b;margin:0 0 22px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:20px 0}
+.stat{background:#fff;border:1px solid #eee4e8;border-radius:14px;padding:17px;box-shadow:0 4px 16px #49203709}
+.stat strong{font-size:29px;display:block}.stat small{color:#66707c;font-size:12px}
+.filters{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:10px;margin:22px 0 16px}
+label{display:block;font-size:12px;font-weight:700;margin-bottom:6px}input,select,button{font:inherit}input,select{border:1px solid #d9d6da;border-radius:9px;padding:12px;background:#fff;width:100%;min-width:0}
+.results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+article{background:#fff;border:1px solid #e8e1e5;border-radius:13px;padding:16px;min-width:0}article h2{font-size:18px;line-height:1.4;margin:9px 0}
+article p{color:#545c65;font-size:13px;line-height:1.5;margin:8px 0}article a{display:inline-block;margin-top:5px;font-weight:700;overflow-wrap:anywhere}
+.meta{font-size:12px!important;color:#777!important}.pill{background:#f4e7ec;border-radius:25px;padding:5px 9px;font-size:11px;font-weight:750;color:#751634;display:inline-block}
+.pill.verified{background:#e7f3ea;color:#226241}.pill.unknown{background:#f3f1f1;color:#595e65}
+aside{border-left:4px solid #8a2140;background:#fff;padding:15px 18px;margin:14px 0 23px;line-height:1.55}
+#load{border:none;border-radius:9px;background:#811736;color:white;padding:12px 22px;font-weight:700;cursor:pointer;margin:20px auto;display:block}
+#load[hidden]{display:none}.empty{background:white;border:1px solid #eee;padding:22px;border-radius:12px}
+footer{color:#64707a;text-align:center;font-size:12px;padding:35px}
+@media(max-width:740px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.filters{grid-template-columns:1fr 1fr}.filters>div:first-child{grid-column:span 2}.results{grid-template-columns:1fr}main{padding:23px 16px}.stat strong{font-size:24px}}
+@media(max-width:400px){.filters{grid-template-columns:1fr}.filters>div:first-child{grid-column:span 1}}
+</style></head>
+<body><header><nav><strong>fluxo contínuo / ementas</strong><a href="./index.html">← Voltar à matriz</a></nav></header>
+<main><h1>O que foi realmente documentado?</h1>
+<p class="lead">Acervo auditável de fontes curriculares. Um catálogo com nomes de disciplinas não é uma ementa individual, e uma ementa não comprova, por si só, equivalência com o Mackenzie. Os vínculos retornam ao documento institucional.</p>
+<div class="stats" aria-label="Estatísticas da auditoria"><div class="stat"><strong id="total">—</strong><small>Disciplinas estrangeiras registradas</small></div><div class="stat"><strong id="individual">—</strong><small>Ementas individuais identificadas</small></div><div class="stat"><strong id="hours">—</strong><small>Ementas com horas de contato extraídas</small></div><div class="stat"><strong id="unfinished">—</strong><small>Registros ainda sem ementa individual</small></div></div>
+<aside id="statusText">Carregando auditoria documental…</aside>
+<div class="filters">
+<div><label for="search">Pesquisar disciplina ou código</label><input id="search" type="search" placeholder="Ex.: programação paralela, MLE5077"></div>
+<div><label for="course">Curso Mackenzie elegível</label><select id="course"><option value="">Todos os cursos</option></select></div>
+<div><label for="university">Universidade</label><select id="university"><option value="">Todas as universidades</option></select></div>
+<div><label for="status">Estado da evidência</label><select id="status"><option value="">Todos os estados</option><option value="ementa_individual">Ementa individual</option><option value="pagina_com_conteudo">Página com conteúdo</option><option value="catalogo_ou_matriz">Apenas catálogo/matriz</option><option value="indisponivel">Sem documento acessível</option></select></div>
+</div><p id="count" aria-live="polite"></p>
+<div class="results" id="results"></div><button id="load" type="button" hidden>Mostrar mais resultados</button>
+<p class="lead" style="margin-top:25px">A carga horária estrangeira de contato não pode ser comparada automaticamente com créditos ECTS ou com uma carga horária brasileira de natureza não identificada. A análise final exige programa por tópico, período, requisitos de matrícula e validação acadêmica.</p>
+</main><footer>Projeto independente, não homologado pelo Mackenzie. Fontes e metodologia disponíveis no GitHub.</footer>
+<script>
+'use strict';
+const e=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const src=u=>{try{const x=new URL(u);return ['https:','http:'].includes(x.protocol)?x.href:null}catch{return null}};
+const el=id=>document.getElementById(id);
+let evidence=[],univs=[],filtered=[],offset=0;
+const names={ementa_individual:'Ementa individual identificada',pagina_com_conteudo:'Página com conteúdo',catalogo_ou_matriz:'Catálogo ou matriz, sem ementa comprovada',indisponivel:'Ementa não recuperada'};
+function redraw(reset=true){
+ if(reset)offset=0;
+ const q=el('search').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+ const course=el('course').value, uni=el('university').value,st=el('status').value;
+ const unimap=new Map(univs.map(u=>[u.id,u]));
+ filtered=evidence.filter(r=>{
+  const u=unimap.get(r.universityId);
+  return (!uni||r.universityId===uni)&&(!course||u?.courses?.[course]===true)&&(!st||r.status===st)&&(!q||[r.name,r.foreignCode,u?.name].some(s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)));
+ });
+ const chunk=filtered.slice(offset,offset+50);offset+=chunk.length;
+ if(reset)el('results').innerHTML='';
+ el('results').insertAdjacentHTML('beforeend',chunk.map(r=>{
+   const u=unimap.get(r.universityId),link=src(r.document||r.source||r.catalogueUrl);
+   return '<article><span class="pill '+(r.status==='ementa_individual'?'verified':r.status==='indisponivel'?'unknown':'')+'">'+e(names[r.status]||r.status)+'</span>'+
+    '<h2>'+e(r.name)+'</h2><p class="meta">'+e(u?.name||r.universityId)+' · '+e(r.foreignCode)+' · '+e(r.academicYear||'Vigência a confirmar')+'</p>'+
+    '<p>'+(r.contactHours!=null?'<b>'+e(r.contactHours)+'h de contato</b>':'Horas de contato não comprovadas')+
+    (r.totalHours!=null?' · '+e(r.totalHours)+'h totais':'')+'</p>'+
+    '<p>'+e(r.reason||'Status documental automatizado, sujeito a revisão')+'</p>'+
+    (link?'<a href="'+e(link)+'" target="_blank" rel="noopener noreferrer">Consultar fonte oficial ↗</a>':'<p>Link individual ainda indisponível.</p>')+'</article>';
+ }).join(''));
+ el('count').textContent=filtered.length+' resultados · exibindo '+offset;
+ el('load').hidden=offset>=filtered.length;
+ if(!filtered.length)el('results').innerHTML='<p class="empty">Nenhum registro atende aos filtros. Isso não comprova incompatibilidade curricular.</p>';
+}
+async function init(){
+ try {
+ const [a,b]=await Promise.all([fetch('./syllabi/records.json',{cache:'no-store'}),fetch('./data.json')]);
+ if(!a.ok)throw Error('A primeira coleta ainda não foi persistida no repositório. Consulte o workflow Coletar evidencias de ementas no GitHub.');
+ if(!b.ok)throw Error('Banco de disciplinas não encontrado.');
+ const audit=await a.json(),db=await b.json();evidence=audit.foreign||[];univs=db.universities||[];
+ el('total').textContent=evidence.length.toLocaleString('pt-BR');
+ el('individual').textContent=evidence.filter(x=>x.status==='ementa_individual').length.toLocaleString('pt-BR');
+ el('hours').textContent=evidence.filter(x=>x.status==='ementa_individual'&&x.contactHours!=null).length.toLocaleString('pt-BR');
+ el('unfinished').textContent=evidence.filter(x=>x.status!=='ementa_individual').length.toLocaleString('pt-BR');
+ el('statusText').textContent='Auditoria executada em '+(audit.meta?.collectedAt||'data a confirmar')+'. URLs examinadas: '+(audit.meta?.urlsAttempted||0)+'. URLs não examinadas: '+(audit.meta?.unattemptedUniqueUrls||0)+'. Evidências automáticas exigem revisão; não há equivalências homologadas.';
+ el('course').insertAdjacentHTML('beforeend',(db.courses||[]).map(c=>'<option value="'+e(c.id)+'">'+e(c.name)+'</option>').join(''));
+ el('university').insertAdjacentHTML('beforeend',univs.map(u=>'<option value="'+e(u.id)+'">'+e(u.name)+'</option>').join(''));
+ for(const id of ['search','course','university','status'])el(id).addEventListener(id==='search'?'input':'change',()=>redraw());
+ el('load').addEventListener('click',()=>redraw(false));
+ redraw();
+ }catch(error){el('statusText').textContent=error.message}
+}
+init();
+</script></body></html>
