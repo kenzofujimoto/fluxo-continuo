@@ -15,6 +15,8 @@ def run():
     evid=load("syllabi/records.json")
     triage=load("triagem.json")
     extra=load("candidatos-catalogo.json")
+    official=load("syllabi/mackenzie-docs.json")
+    official_mack={(x["courseId"],str(x["code"] or x["name"]).casefold()):x for x in official["rows"]}
     foreign={key(x["universityId"],x["foreignCode"]):x for x in evid["foreign"]}
     mack={(x["courseId"],str(x["code"] or x["name"]).casefold()):x for x in evid["mackenzie"]}
     names={u["id"]:u["name"] for u in data["universities"]}
@@ -32,12 +34,14 @@ def run():
             r=next((x for x in cr["rows"] if x.get("id")==mk or x.get("name","").casefold()==str(m.get("mackName","")).casefold()),None)
             if r:
                 br=mack.get((cid,str(r.get("id") or r["name"]).casefold()))
+        official_br=official_mack.get((cid,str(br.get("code") or br.get("name")).casefold())) if br else None
+        official_verified=bool(official_br and official_br.get("status")=="ementa_oficial_correspondente")
         fr=foreign.get(key(uid,m["foreignCode"]))
         docs=bool(fr and fr.get("status")=="ementa_individual")
-        brdata=bool(br and br.get("hasAbstractInData"))
-        brhours=br.get("hoursInData") if br else None
+        brdata=bool(official_verified)
+        brhours=official_br.get("contactHoursDeclared") if official_verified else None
         frhours=fr.get("contactHours") if fr else None
-        tags_br=set(br.get("topicTags") or []) if br else set()
+        tags_br=set(official_br.get("topicTags") or []) if official_verified else set()
         tags_fr=set(fr.get("topicTags") or []) if fr else set()
         shared=sorted(tags_br & tags_fr) if docs and brdata else []
         missing=sorted(tags_br-tags_fr) if docs and brdata else []
@@ -54,7 +58,7 @@ def run():
         counter[phase]+=1
         rows.append({"courseId":cid,"universityId":uid,"university":names.get(uid),"mackCode":mk,
                      "foreignCode":m["foreignCode"],"candidateStatus":m.get("status"),"phase":phase,
-                     "mackAbstractInDatabase":brdata,"foreignIndividualSyllabus":docs,"foreignSyllabusUrl":fr.get("document") if fr else None,
+                     "mackSyllabusOfficial2025":official_verified,"mackSyllabusUrl":official_br.get("source") if official_verified else None,"foreignIndividualSyllabus":docs,"foreignSyllabusUrl":fr.get("document") if fr else None,
                      "foreignYear":fr.get("academicYear") if fr else None,
                      "foreignContactHours":frhours,"mackHoursListed":brhours,"hourComparison":hours,
                      "sharedTopicSignals":shared,"mackTopicSignalsNotFound":missing,
@@ -73,7 +77,7 @@ def run():
         state="instituicao_com_ementas" if documented else "sem_ementa_individual_recuperada"
         matrix_counts[state]+=1
         matrix.append([c,ri,ui,documented,withhours])
-    meta={"generated":dt.datetime.now(dt.timezone.utc).isoformat(),"registeredCandidates":len(rows),
+    meta={"generated":dt.datetime.now(dt.timezone.utc).isoformat(),"registeredCandidates":len(rows),"officialMackenzieVerified":sum(x.get("status")=="ementa_oficial_correspondente" for x in official["rows"]),
           "crossings":len(matrix),"candidatePhases":dict(counter),"matrixStates":dict(matrix_counts),
           "hoursPolicy":"BR CH basis and foreign contact hours are not assumed comparable.",
           "decisionsApproved":0,"note":"No final compatibility or incompatibility conclusions; institutional review required."}
@@ -82,7 +86,7 @@ def run():
     hours_count=sum(1 for f in evid["foreign"] if f["status"]=="ementa_individual" and f.get("contactHours") is not None)
     topic_count=sum(1 for f in evid["foreign"] if f["status"]=="ementa_individual" and len(f.get("topicTags") or [])>=2)
     metrics={"generated":meta["generated"],"cataloguedForeign":len(evid["foreign"]),
-             "mackCourses":len(evid["mackenzie"]),"foreignIndividualDocuments":source_counts.get("ementa_individual",0),
+             "mackCourses":len(evid["mackenzie"]),"officialMackenzieSyllabi":meta["officialMackenzieVerified"],"foreignIndividualDocuments":source_counts.get("ementa_individual",0),
              "individualWithExtractedContactHours":hours_count,"individualWithAtLeastTwoTopicSignals":topic_count,
              "sourceStatuses":dict(source_counts),"registeredCandidates":len(rows),
              "candidatesWithPreliminaryTopicSignals":counter.get("topicos_preliminares_disponiveis",0),
