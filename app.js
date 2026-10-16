@@ -11,6 +11,7 @@ let database;
 let titleSuggestionIndex = new Map();
 let foreignIndex = new Map();
 let syllabusEvidenceIndex = new Map();
+let officialMackenzieIndex = new Map();
 let currentCourse = 'cc';
 let activeElementBeforeDrawer = null;
 const state = { search: '', semester: 'all', university: 'all', status: 'all', only: false, all: false };
@@ -96,7 +97,11 @@ function openDetail(subject,uni) {
   activeElementBeforeDrawer = document.activeElement;
   const m=matchFor(subject,uni.id); const f=foreignFor(m);
   els.detailTitle.textContent=uni.name;
-  const base=`<section class="detail-section"><div class="detail-label">DISCIPLINA DO MACKENZIE</div><div class="detail-course">${esc(subject.name)}</div><span class="detail-code">${esc(subject.id||'Sem código cadastrado')}</span><div class="detail-meta"><span>${subject.semester}ª etapa</span>${subject.hours?`<span>${Number(subject.hours).toLocaleString('pt-BR',{maximumFractionDigits:2})} horas</span>`:''}<span>${esc(current().name)}</span></div>${subject.abstract?`<p>${esc(subject.abstract)}</p>`:''}${link('Ementário Mackenzie',subject.syllabusUrl||current().source)}</section>`;
+  const brazilEvidence=officialMackenzieIndex.get(currentCourse+'|'+String(subject.id||subject.name).toLocaleLowerCase('pt-BR'));
+  const brazilProof=brazilEvidence?.status==='ementa_oficial_correspondente'
+    ? '<p><b>Ementa oficial Alphaville (2025):</b> '+esc(brazilEvidence.contactHoursDeclared)+' horas declaradas no documento.</p>'+link('Abrir ementa Mackenzie 2025',brazilEvidence.source)
+    : '<p><b>Auditoria da ementa brasileira:</b> documento individual ainda não vinculado com segurança à matriz.</p>';
+  const base=`<section class="detail-section"><div class="detail-label">DISCIPLINA DO MACKENZIE</div><div class="detail-course">${esc(subject.name)}</div><span class="detail-code">${esc(subject.id||'Sem código cadastrado')}</span><div class="detail-meta"><span>${subject.semester}ª etapa</span>${subject.hours?`<span>${Number(subject.hours).toLocaleString('pt-BR',{maximumFractionDigits:2})} horas</span>`:''}<span>${esc(current().name)}</span></div>${subject.abstract?`<p>${esc(subject.abstract)}</p>`:''}${brazilProof}${link('Ementário Mackenzie',subject.syllabusUrl||current().source)}</section>`;
   const allOptions=matchesFor(subject,uni.id);
   const other=allOptions.length
     ? '<section class="detail-section"><h3>'+allOptions.length+' possibilidade'+(allOptions.length>1?'s':'')+' nesta universidade</h3><p>Correspondências e afinidades preliminares. Nenhuma está homologada.</p></section>'+
@@ -176,6 +181,10 @@ async function bootstrap() {
       }
     } catch(error) {console.warn('Acervo documental indisponível',error);}
 
+    try {
+      const response = await fetch('./syllabi/mackenzie-docs.json',{cache:'no-store'});
+      if(response.ok) {const audit=await response.json();officialMackenzieIndex=new Map((audit.rows||[]).map(x=>[x.courseId+'|'+String(x.code||x.name).toLocaleLowerCase('pt-BR'),x]));}
+    }catch(error){console.warn('Ementário oficial brasileiro não carregado',error);}
     try { const source = await fetch('./candidatos-catalogo.json'); if (source.ok) { const suggestions=await source.json(); titleSuggestionIndex=new Map(suggestions.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p[3]])); } } catch(error) { console.warn('Índice complementar indisponível',error); }
     const covered = new Set(database.foreignCourses.filter(f=>f.universityId).map(f=>f.universityId)).size;
     const titleCandidates = database.matches.filter(m=>m.status==='indicio_titulo').length;
