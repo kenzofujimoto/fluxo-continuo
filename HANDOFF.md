@@ -6,7 +6,7 @@ Branch atual: `feature/public-app`. Escopo aprovado: aplicação pública Next.j
 - Fonte de verdade: JSONs existentes no Git, validados na camada `lib/data.ts` com Zod. Fontes, vigência, hashes e revisão aparecem nas consultas. Nenhuma nova equivalência foi inventada ou homologada.
 - Identidade: paleta e fontes reais do projeto MackJr local, carregadas sem chamadas externas. Layout responsivo, navegação por teclado, estados de erro/carregamento/404.
 - Execução: `npm ci`, `npm run dev`; produção `npm run build` e `npm start`. Servidor de produção para revisão nesta sessão: `http://127.0.0.1:3001`. Sem deploy ou push nesta implementação.
-- Validação: seis contratos TypeScript, 51 testes Python, validação Node, lint/typecheck, build de produção, 133 pareceres e auditoria documental aprovados. Testes iniciais foram registrados falhando no commit `db680a3`.
+- Validação: sete contratos TypeScript, 51 testes Python, validação Node, lint/typecheck, build de produção, 133 pareceres e auditoria documental aprovados. Testes iniciais foram registrados falhando no commit `db680a3`; a regressão de URLs com acentos foi reproduzida em `8364632` e corrigida em `b0d41b5`.
 - Auditoria npm: zero vulnerabilidades de produção; cinco achados altos transitivos de desenvolvimento no encadeamento ESLint/glob, sem downgrade forçado. Detalhes em `docs/PUBLIC_APP.md`.
 - Alterações anteriores em scripts de coleta, testes Python e arquivos não rastreados foram preservadas e não pertencem aos commits da aplicação.
 - Próximo passo operacional: revisar visualmente e publicar como aplicação Next.js quando solicitado. Coleta adicional e segunda revisão continuam pendentes conforme `/pendencias`; não é necessário banco para a consulta pública atual.
