@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "date": "2026-10-16",
+    "method": "Leitura comparativa dos programas originais individuais, com confronto de tópicos, divergências e horas declaradas. Parecer preliminar independente, não decisão institucional.",
+    "reviewed": 3,
+    "approvedByMackenzie": 0,
+    "contactHourCaveat": "Unidades/documentos descrevem horas curriculares; concordância da base de conversão e regra aplicável depende da coordenação. Nenhum limiar automático foi aplicado.",
+    "versionBrazil": "Mackenzie CC Alphaville 2025",
+    "versionForeign": "Babeș-Bolyai 2026/2027"
+  },
+  "reviews": [
+    {
+      "courseId": "cc",
+      "mackCode": "ENEC61020",
+      "foreignUniversityId": "ro-babes",
+      "foreignCode": "MLE5077",
+      "mackName": "Computação Paralela",
+      "foreignName": "Parallel and Distributed Programming",
+      "conclusion": "afinidade_de_conteudo_substancial_pendente_validacao",
+      "confidence": "moderada",
+      "hoursMackenzieDeclared": 63.33,
+      "hoursForeignContact": 70,
+      "foreignECTS": 5,
+      "foreignStudyHoursTotal": 125,
+      "sharedAreas": [
+        "Arquiteturas paralelas e modelos de paralelismo",
+        "Desenvolvimento de programas e algoritmos paralelos",
+        "Execução em sistemas multicore/manycore e aceleradores",
+        "Avaliação do desempenho de programas paralelos"
+      ],
+      "additionalForeignAreas": [
+        "Programação com MPI e OpenMP",
+        "CUDA e programação com memória compartilhada",
+        "Mecanismos de sincronização e concorrência",
+        "Padrões de projeto para paralelismo e programação distribuída"
+      ],
+      "notClearlyExplicitInForeign": [],
+      "notClearlyExplicitInMackenzie": [
+        "Formalização de MPI, OpenMP e CUDA no texto conciso da ementa, embora obras de referência incluam MPI/OpenMP/OpenACC"
+      ],
+      "hourObservation": "Mackenzie informa 63,33 h para o componente (2025); UBB informa 70 h no currículo (28 de curso, 42 laboratório). São métricas explicitamente informadas, não conversão ECTS.",
+      "justification": "A sobreposição é forte nos eixos de arquitetura, programação, análise e medição; o programa estrangeiro apresenta aprofundamento em APIs e sincronização. Pode fundamentar uma solicitação de análise curricular, condicionada à confirmação das horas/versões/oferta/acesso em 2027.2.",
+      "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+      "foreignSource": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5077_en_vniculescu_2026_10988.pdf"
+    },
+    {
+      "courseId": "cc",
+      "mackCode": "ENEC50011",
+      "foreignUniversityId": "ro-babes",
+      "foreignCode": "MLE5005",
+      "mackName": "Algoritmos e Programação I",
+      "foreignName": "Programming Fundamentals",
+      "conclusion": "afinidade_parcial_programa_estrangeiro_mais_abrangente",
+      "confidence": "moderada",
+      "hoursMackenzieDeclared": 63.33,
+      "hoursForeignContact": 84,
+      "foreignECTS": 6,
+      "foreignStudyHoursTotal": 150,
+      "sharedAreas": [
+        "Introdução ao pensamento algorítmico e implementação de programas",
+        "Programação imperativa, tipos compostos, estruturas de controle e funções",
+        "Modularização e manipulação de estruturas lineares"
+      ],
+      "additionalForeignAreas": [
+        "Análise assintótica e complexidade de algoritmos",
+        "Estratégias de busca, ordenação, recursão e programação dinâmica",
+        "Orientação a objetos e UML",
+        "Testes automatizados, refatoração e design de software"
+      ],
+      "notClearlyExplicitInForeign": [],
+      "notClearlyExplicitInMackenzie": [
+        "Programação orientada a objetos, testes automatizados e análise algorítmica avançada não constam na ementa abreviada de Algoritmos e Programação I"
+      ],
+      "hourObservation": "Mackenzie 63,33 h declaradas; UBB 84 h curriculares de contato (28 aula, 56 laboratório). A soma de horas individuais da UBB integra 150 h totais e não deve ser confundida com carga de contato.",
+      "justification": "Existe base relevante para aproveitamento na direção de uma disciplina introdutória brasileira, mas o programa estrangeiro extrapola consideravelmente a ementa local e exige examinar competências e escopo das avaliações. Parecer de afinidade parcial, não equivalência assegurada.",
+      "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+      "foreignSource": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5005_en_arthur_2026_10324.pdf"
+    },
+    {
+      "courseId": "cc",
+      "mackCode": "ENEX54353",
+      "foreignUniversityId": "ro-babes",
+      "foreignCode": "MLE5055",
+      "mackName": "Lógica Matemática",
+      "foreignName": "Computational Logic",
+      "conclusion": "afinidade_parcial_lacunas_de_conteudo",
+      "confidence": "moderada",
+      "hoursMackenzieDeclared": 63.33,
+      "hoursForeignContact": 56,
+      "foreignECTS": 6,
+      "foreignStudyHoursTotal": 150,
+      "sharedAreas": [
+        "Lógica proposicional e lógica de predicados",
+        "Semântica da lógica e raciocínio formal",
+        "Funções e álgebra booleana em aplicações lógicas"
+      ],
+      "additionalForeignAreas": [
+        "Tableaux semânticos e métodos formais de resolução",
+        "Minimização de funções booleanas",
+        "Circuitos lógicos e combinacionais"
+      ],
+      "notClearlyExplicitInForeign": [
+        "Teoria dos conjuntos, subconjuntos, operações e produto cartesiano",
+        "Representação de inteiros e ponto flutuante",
+        "Princípio da indução matemática"
+      ],
+      "notClearlyExplicitInMackenzie": [
+        "Circuitos combinacionais e simplificação de Karnaugh/Quine não aparecem na ementa brasileira de Lógica Matemática"
+      ],
+      "hourObservation": "Mackenzie declara 63,33 h; UBB declara 56 h de contato (28 curso, 28 seminários/laboratórios). Mesmo quando as horas são comparáveis, só a coordenação pode fixar o critério.",
+      "justification": "As disciplinas compartilham lógica formal, mas a brasileira inclui fundamentos de matemática discreta que não aparecem explicitamente no programa da UBB, enquanto a estrangeira estende-se à lógica de circuitos. Não tratar como equivalência integral apenas pelo título.",
+      "mackSource": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+      "foreignSource": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5055_en_lupea_2026_10200.pdf"
+    }
+  ]
+}
