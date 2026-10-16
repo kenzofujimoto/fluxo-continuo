@@ -15,13 +15,15 @@ Os valores a seguir foram contados na base versionada em `data.json`, `triagem.j
 | Componentes Mackenzie | 221 (CC 47, SI 46, Administração 47, Direito 81) |
 | Universidades listadas pela COI | 66 |
 | Universidades com ao menos um título estrangeiro indexado | **44** |
-| Disciplinas estrangeiras com título/catálogo indexado | **1.808** |
-| Correspondências e indícios registrados | **529** |
+| Disciplinas estrangeiras com título/catálogo indexado | **1.838** |
+| Correspondências e indícios registrados | **553** |
 | Pares da triagem adicional com alguma sugestão de título | **438** |
 | Cruzamentos disciplina × universidade elegível triados | **6.856** |
 | Aproveitamentos homologados | **0** |
 
-As 529 correspondências e as sugestões adicionais podem coincidir: nunca somá-las como equivalências distintas. Há **22 universidades sem disciplinas indexadas**; parte dessas 22 não tem marcação Sim para nenhum dos quatro cursos. O projeto **não concluiu** o cotejo integral das ementas nem a verificação de todas as ofertas em 2027.2.
+As 553 correspondências e as sugestões adicionais podem coincidir: nunca somá-las como equivalências distintas. Há **22 universidades sem disciplinas indexadas**; parte dessas 22 não tem marcação Sim para nenhum dos quatro cursos. O projeto **não concluiu** o cotejo integral das ementas nem a verificação de todas as ofertas em 2027.2.
+
+A rodada de 16/10 também indexou o catálogo departamental oficial da [Soongsil](https://sec.ssu.ac.kr/page/subject_contents.php), com 31 títulos e resumos temáticos sem comprovação de disponibilidade para intercambistas. Um placeholder não verificado da Universidad Evangélica Boliviana foi removido.
 
 A rodada de 16/10 agregou **155 títulos oficiais** de Ferrara (13), Roma Tor Vergata (70) e Salerno (72), provenientes de catálogos institucionais 2026/27. Em Direito italiano, nomes semelhantes envolvem sistemas jurídicos diferentes. Foram removidas seis associações ambíguas e corrigidos códigos internos repetidos.
 
@@ -77,7 +79,7 @@ Acesse http://localhost:8000. O projeto é estático, sem login nem Neon, com im
 - Catálogos e ementas estrangeiras: links oficiais individualizados em `data.json`.
 - As ofertas de cursos e valores de exames podem mudar sem aviso; consulte sempre a COI, a universidade anfitriã e a coordenação antes de tomar decisões.
 
-**O MobiMatch Alpha não é afiliado nem endossado pelo Mackenzie e não emite pareceres acadêmicos.**
+**O projeto Fluxo Contínuo não é afiliado nem endossado pelo Mackenzie e não emite pareceres acadêmicos.**
 
 ## Limitações e fontes acrescentadas (16/10/2026)
 
