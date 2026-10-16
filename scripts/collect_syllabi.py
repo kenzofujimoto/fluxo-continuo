@@ -185,7 +185,7 @@ def extract_official_program(text, url):
     stop=re.search(r"(?:\b6\.\s*METODOLOG[IÍ]A\b|\b6\.\s*Metodolog|\bMetodologia\s+docent\b|\b7\.\s*SISTEMA\s+DE\s+EVALUACI[OÓ]N\b|\bBibliograf[ií]a\b)",remaining,re.I)
     programme=remaining[:stop.start()] if stop else remaining[:14000]
     programme=normalize(programme)
-    identified=len(programme)>=160 and len(re.findall(r"\b(?:tema|bloque|unitat|unit|chapter|pr[aá]ctica|contenid|dret|sistema|programa|objectiu)\b",programme,re.I))>=2
+    identified=len(programme)>=180 and (len(re.findall(r"\b(?:tema|bloque|unitat|unit|chapter|pr[aá]ctica|contenid|dret|sistema|programa|objectiu)\b",programme,re.I))>=2 or len(programme.split())>=55)
     return programme,identified
 
 def course_quality(foreign, document, ubb=False):
