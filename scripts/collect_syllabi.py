@@ -75,6 +75,37 @@ def get_document(url):
     except Exception as e:
         return {"status": "erro_acesso", "error": type(e).__name__ + ": " + str(e)[:100]}
 
+# Multilingual subject-topic lexicon. Matches are retrieval hints, NOT equivalence percentages.
+TOPICS = {
+ "algoritmos": r"\balgoritm|\balgorithm", "estrutura_de_dados": r"data structures?|estrutur[ae]s? de dados",
+ "redes": r"\bnetwork|redes? de computadores?|redes? informatic", "seguranca": r"\bsecurity|\bseguranca|\bseguranca da informac|\bcryptograph|\bcriptograf",
+ "bancos_de_dados": r"\bdatabase|banco[s]? de dados|\bbasi di dati", "sql": r"\bsql\b",
+ "sistemas_operacionais": r"operating systems?|sistemas? operaciona", "linux": r"\blinux\b",
+ "nuvem": r"\bcloud\b|\bnuvem\b", "virtualizacao": r"\bvirtualiz|\bvirtualis",
+ "concorrencia": r"\bconcurr|\bconcorr[eê]n|\bsynchroniz|\bsincroniza",
+ "paralelismo": r"\bparallel|\bparalel|\bopenmp\b|\bmpi\b|\bcuda\b",
+ "java": r"\bjava\b", "python": r"\bpython\b", "cpp": r"\bc\+\+\b|\bc\+\+",
+ "web": r"\bweb\b|\bhttp\b|\bjavascript\b|\bhtml\b", "orientacao_objetos": r"object.oriented|orienta[cç][aã]o a objetos",
+ "engenharia_software": r"software engineering|engenharia de software",
+ "teste_software": r"software testing|testes? de software|test driven",
+ "inteligencia_artificial": r"artificial intelligence|intelig[eê]ncia artificial|\bmachine learning\b|aprendizagem de m[aá]quina",
+ "logica": r"\blogic\b|\bl[oó]gica\b", "matematica_discreta": r"discrete math|matem[aá]tica discreta",
+ "estatistica": r"\bstatistic|\bestat[ií]stica|\bprobabilid|\bprobabilit",
+ "calculo": r"\bcalculus\b|\bc[aá]lculo\b", "algebra": r"\balgebra\b|\b[aá]lgebra\b",
+ "financas": r"\bfinance|\bfinan[cç]|\binterest rates?\b|\bjuros\b",
+ "economia": r"\beconom|\bmacroeconom|\bmicroeconom",
+ "administracao": r"\bmanagement\b|\bgest[aã]o\b|\badministr",
+ "marketing": r"\bmarketing\b", "contabilidade": r"\baccounting\b|\bcontabil",
+ "direito_constitucional": r"constitutional law|direito constitucional|derecho constitucional",
+ "direito_civil": r"civil law|direito civil|derecho civil",
+ "direito_penal": r"criminal law|direito penal|derecho penal",
+ "direito_tributario": r"tax law|direito tribut[aá]rio|derecho tributario",
+ "processo_judicial": r"procedural law|direito processual|derecho procesal",
+ "etica": r"\bethic|\b[eé]tica\b",
+}
+def topic_tags(text):
+    return sorted(k for k, pat in TOPICS.items() if re.search(pat, text or "", re.I))
+
 def field_hours(text):
     # Parse only explicit *contact/curriculum* hours, never ECTS or individual-study totals.
     patterns = [
@@ -141,7 +172,7 @@ def course_quality(foreign, document, ubb=False):
         total = field_total(text)
     else:
         hours = total = None
-    base.update({"status": q, "document": document.get("finalUrl"), "source": document.get("finalUrl"), "sha256": document.get("sha256"),
+    base.update({"topicTags": topic_tags(text[text.lower().find("8. contents"):] if "8. contents" in text.lower() else text) if q == "ementa_individual" else [], "status": q, "document": document.get("finalUrl"), "source": document.get("finalUrl"), "sha256": document.get("sha256"),
                  "format": document.get("type"), "pages": document.get("pages"), "identifiedBy": [v for v, b in (("title", by_name), ("code", by_code)) if b],
                  "contactHours": hours, "totalHours": total, "reason": "Documento identificado; requer confrontação humana de ementas e CH" if q == "ementa_individual" else "Fonte não comprova ementa individual completa"})
     return base
@@ -194,7 +225,7 @@ def main():
                          "hasAbstractInData": bool(r.get("abstract")), "hasHoursInData": r.get("hours") is not None,
                          "source": r.get("syllabusUrl") or course.get("source"),
                          "status": "ementa_no_banco_nao_auditada" if r.get("abstract") else "ementa_nao_extraida",
-                         "hoursInData": r.get("hours")})
+                         "hoursInData": r.get("hours"), "topicTags": topic_tags(r.get("abstract", "")) if r.get("abstract") else []})
     counts = collections.Counter(item["status"] for item in results)
     catalog = {"meta": {"collectedAt": TODAY, "scope": "audit not equivalence", "universities": len(universities),
              "foreignCourses": len(foreign), "urlsUnique": len(sources), "urlsAttempted": len(urls), "unattemptedUniqueUrls": max(0, len(url_list) - len(urls)),
