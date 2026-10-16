@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#86173D"><meta name="description" content="Inventário completo das ementas curriculares e horas pendentes de verificação no projeto Fluxo Contínuo.">
+<title>Pendências de ementas — Fluxo Contínuo</title>
+<style>
+:root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#22232c;background:#faf8f9}*{box-sizing:border-box}body{margin:0}a{color:#871a40}header{background:#86173d;color:#fff;padding:20px max(20px,calc((100vw - 1200px)/2))}header nav{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}header a{color:white;font-size:13px}main{max-width:1200px;padding:28px 20px 60px;margin:auto}h1{font-size:clamp(28px,4vw,43px);letter-spacing:-.045em;margin:0 0 9px}.lead{max-width:1000px;color:#626772;font-size:14px;line-height:1.65}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin:21px 0}.stat{background:#fff;padding:18px;border:1px solid #eae2e7;border-radius:13px}.stat strong{display:block;font-size:29px}.stat span{color:#6c6b76;font-size:12px}.note{background:#fff;border-left:4px solid #8a2046;border-radius:8px;padding:14px 16px;line-height:1.6;margin:18px 0;color:#555665;font-size:13px}.switch{display:flex;gap:9px;margin:23px 0}.switch button{border:1px solid #ddd0d6;border-radius:9px;padding:10px 15px;background:#fff;color:#5c4c56;font:inherit;font-weight:700;cursor:pointer}.switch button[aria-selected=true]{background:#84183d;color:white;border-color:#84183d}.filter{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:13px;padding-bottom:18px}.field label{display:block;font-size:12px;font-weight:700;margin-bottom:6px}.field input,.field select{width:100%;background:#fff;border:1px solid #d8d3d8;border-radius:8px;padding:12px;min-width:0;font:inherit}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{background:#fff;border:1px solid #e6dfe3;border-radius:12px;padding:17px;min-width:0}.card h2{font-size:18px;line-height:1.35;margin:0 0 8px}.card p{font-size:13px;color:#646470;line-height:1.55;margin:7px 0}.card small{font-size:11px;color:#73727b}.counts{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.counts span{padding:6px 8px;background:#f5f0f3;border-radius:5px;font-size:12px;color:#594451}.counts b{color:#71183b}.chip{display:inline-block;padding:4px 8px;font-size:10px;border-radius:20px;background:#f0e8ec;color:#802845;font-weight:750;margin-right:6px}.chip.warn{background:#fff2e3;color:#8a5515}.chip.ok{background:#e6f4eb;color:#256341}details{border-top:1px solid #ede7e9;margin-top:13px;padding-top:12px}summary{cursor:pointer;color:#842040;font-weight:750;font-size:13px}.subjects{max-height:350px;overflow:auto;margin-top:12px}.item{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid #f0eef0;font-size:12px;line-height:1.5}.item b{display:block}.item small{display:block}.item a{flex-shrink:0;max-width:95px;overflow-wrap:anywhere;text-align:right}.notice{font-size:12px;color:#6a626c;margin:12px 0 18px}#more{margin:22px auto;display:block;background:#84183d;color:white;border:none;padding:12px 22px;border-radius:8px;font:inherit;font-weight:750;cursor:pointer}#more[hidden],[hidden]{display:none!important}.empty{background:#fff;border:1px solid #eee;padding:22px;border-radius:12px}
+@media(max-width:760px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.cards{grid-template-columns:1fr}.filter{grid-template-columns:1fr 1fr}.filter>.field:first-child{grid-column:span 2}.stat strong{font-size:24px}}@media(max-width:410px){.filter{grid-template-columns:1fr}.filter>.field:first-child{grid-column:span 1}}
+</style></head>
+<body><header><nav><b>fluxo contínuo / pendências</b><div><a href="./index.html">Matriz</a> · <a href="./ementas.html">Ementas</a> · <a href="./analises.html">Análises</a></div></nav></header>
+<main><h1>Quais ementas ainda faltam?</h1><p class="lead">Relação verificável das disciplinas estrangeiras e brasileiras sem ementa oficial individual localizada ou validada. As fontes são as do repositório; cada item preserva o status e, quando existente, a página institucional original.</p>
+<div class="stats"><div class="stat"><strong id="foreignMissing">—</strong><span>Estrangeiras sem ementa individual identificada</span></div><div class="stat"><strong id="hoursMissing">—</strong><span>Ementas individuais estrangeiras sem horas extraídas</span></div><div class="stat"><strong id="brMissing">—</strong><span>Disciplinas Mackenzie sem ementa oficial vinculada</span></div><div class="stat"><strong id="dual">—</strong><span>Candidatas com ementas dos dois lados</span></div></div>
+<div class="note" id="notice">Carregando inventário documental…</div>
+<div role="tablist" class="switch" aria-label="Tipo de pendência"><button type="button" id="tabForeign" role="tab" aria-selected="true">Universidades estrangeiras</button><button type="button" id="tabMack" role="tab" aria-selected="false">Mackenzie — 4 cursos</button></div>
+<div class="filter" id="foreignFilter"><div class="field"><label for="search">Buscar universidade, código ou disciplina</label><input id="search" type="search" placeholder="Ex.: Coimbra, direito constitucional"></div><div class="field"><label for="course">Elegibilidade COI por curso</label><select id="course"><option value="">Todas as universidades</option></select></div><div class="field"><label for="kind">O que está pendente?</label><select id="kind"><option value="syllabus">Ementa individual</option><option value="hours">Horas de contato</option><option value="all">Qualquer pendência</option></select></div></div>
+<div class="filter" id="mackFilter" hidden><div class="field"><label for="mackSearch">Buscar disciplina brasileira</label><input id="mackSearch" type="search" placeholder="Ex.: Banco de Dados, Direito Civil"></div><div class="field"><label for="mackCourse">Curso Mackenzie</label><select id="mackCourse"><option value="">Todos os cursos</option></select></div></div>
+<p id="visible" class="notice" aria-live="polite"></p><div class="cards" id="results"></div><button id="more" type="button" hidden>Carregar mais universidades</button>
+<p class="note">O fato de uma ementa não ter sido localizada não demonstra que ela inexiste no site da universidade nem que a disciplina seja incompatível. As páginas de curso podem depender de login, anexos ou programas adicionais. Da mesma forma, créditos ECTS não são automaticamente convertíveis em horas de contato.</p>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id),escape=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safe=x=>{try{const u=new URL(x);return ['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}};
+const norm=x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const fmt=n=>Number(n||0).toLocaleString('pt-BR');
+let report=null,kind='foreign',filtered=[],offset=0;
+const stateText={pagina_com_conteudo:'Página com conteúdo (ementa incompleta)',catalogo_ou_matriz:'Apenas catálogo/matriz',indisponivel:'Fonte não recuperada',nao_tentada:'Coleta não realizada',ementa_sem_horas:'Ementa com horas não extraídas',pendente:'Vínculo documental não confirmado',pareamento_incerto:'Correspondência de nome incerta',ementario_oficial_atual_pendente:'Ementário oficial atual pendente'};
+function listEntries(arr,term){
+ const subset=term?arr.filter(x=>norm(x.name+' '+x.code).includes(term)):arr;
+ return subset.map(x=>'<div class="item"><div><b>'+escape(x.name)+'</b><small>'+escape(x.code||'Código não registrado')+' · '+escape(stateText[x.status]||x.status)+'</small></div>'+(safe(x.source)?'<a href="'+escape(safe(x.source))+'" target="_blank" rel="noopener noreferrer">Fonte ↗</a>':'')+'</div>').join('');
+}
+function uniCard(u,term,type){
+ const items=type==='hours'?u.syllabiMissingContactHours||[]:type==='all'?[...(u.pendingForeign||[]),...(u.syllabiMissingContactHours||[])]:u.pendingForeign||[];
+ return '<article class="card"><h2>'+escape(u.name)+'</h2><p>'+escape(u.country||'')+' · '+escape(u.eligibleFor.length?('COI: '+u.eligibleFor.map(c=>c.toUpperCase()).join(', ')):'Sem elegibilidade nos 4 cursos')+'</p><div class="counts"><span><b>'+fmt(u.catalogued)+'</b> catalogadas</span><span><b>'+fmt(u.individualSyllabus)+'</b> ementas</span><span><b>'+fmt(u.withoutIndividualSyllabus)+'</b> sem ementa</span><span><b>'+fmt(u.withIndividualButMissingHours)+'</b> sem horas extraídas</span></div><details><summary>Ver '+fmt(items.length)+' disciplina(s) pendente(s)</summary><div class="subjects">'+(listEntries(items,term)||'<p>Não há disciplina correspondente ao termo pesquisado.</p>')+'</div></details></article>';
+}
+function mackCard(c,term){
+ const items=term?c.pendingSubjects.filter(x=>norm(x.name+' '+x.code).includes(term)):c.pendingSubjects;
+ return '<article class="card"><h2>'+escape(c.name)+'</h2><p>'+fmt(c.officialSyllabiMatched)+' de '+fmt(c.components)+' com vínculo oficial individual (edição 2025 para CC/SI).</p><div class="counts"><span><b>'+fmt(c.officialSyllabiPending)+'</b> pendentes</span><span><b>'+fmt(c.candidates)+'</b> candidatas cadastradas</span><span><b>'+fmt(c.individualReviews)+'</b> revisões individuais</span></div><details open><summary>Ver '+fmt(items.length)+' disciplina(s) pendente(s)</summary><div class="subjects">'+items.map(x=>'<div class="item"><div><b>'+escape(x.name)+'</b><small>'+escape(x.code||'Sem código')+' · '+escape(x.semester||'?')+'ª etapa · '+escape(stateText[x.status]||x.status)+'</small></div></div>').join('')+'</div></details></article>';
+}
+function render(reset=true){
+ if(!report)return;
+ if(reset)offset=0;
+ const mac=kind==='mack';
+ $('foreignFilter').hidden=mac;$('mackFilter').hidden=!mac;
+ $('tabForeign').setAttribute('aria-selected',String(!mac));$('tabMack').setAttribute('aria-selected',String(mac));
+ if(mac){
+  const c=$('mackCourse').value,term=norm($('mackSearch').value);
+  filtered=report.mackenzieCourses.filter(x=>(!c||x.id===c)&&(!term||x.pendingSubjects.some(y=>norm(y.name+' '+y.code).includes(term))));
+  $('results').innerHTML=filtered.map(x=>mackCard(x,term)).join('')||'<p class="empty">Nenhuma pendência corresponde aos filtros.</p>';
+  $('visible').textContent=filtered.length+' curso(s) com pendências relacionadas à pesquisa.';$('more').hidden=true;
+ }else{
+  const q=norm($('search').value),c=$('course').value,k=$('kind').value;
+  filtered=report.universities.filter(u=>(!c||u.eligibleFor.includes(c))&&(!q||norm(u.name+' '+u.country).includes(q)||(u.pendingForeign||[]).some(x=>norm(x.name+' '+x.code).includes(q)))&&(k==='all'?(u.withoutIndividualSyllabus+u.withIndividualButMissingHours)>0:k==='hours'?u.withIndividualButMissingHours>0:u.withoutIndividualSyllabus>0));
+  const items=filtered.slice(offset,offset+12);offset+=items.length;
+  if(reset)$('results').innerHTML='';
+  $('results').insertAdjacentHTML('beforeend',items.map(x=>uniCard(x, q && !norm(x.name+' '+x.country).includes(q)?q:'',k)).join(''));
+  $('visible').textContent=filtered.length+' universidades · '+offset+' exibidas.';$('more').hidden=offset>=filtered.length;
+  if(!filtered.length)$('results').innerHTML='<p class="empty">Nenhuma pendência corresponde aos filtros.</p>';
+ }
+}
+async function init(){
+ try{
+ const r=await fetch('./syllabi/coverage-report.json',{cache:'no-store'});if(!r.ok)throw Error('Inventário ainda não publicado.');
+ report=await r.json();const m=report.metrics;
+ $('foreignMissing').textContent=fmt(m.foreignMissingIndividual);$('hoursMissing').textContent=fmt(m.foreignIndividualMissingHours);
+ $('brMissing').textContent=fmt(m.mackTotal-m.mackVerified);$('dual').textContent=fmt(m.bothSyllabiCandidates);
+ $('notice').textContent='Inventário atualizado em '+report.generated+'. 66 universidades foram indexadas; os números abaixo discriminam ausência de ementa e ausência de horas. Zero equivalências homologadas.';
+ for(const c of report.mackenzieCourses){$('course').insertAdjacentHTML('beforeend','<option value="'+escape(c.id)+'">'+escape(c.name)+'</option>');$('mackCourse').insertAdjacentHTML('beforeend','<option value="'+escape(c.id)+'">'+escape(c.name)+'</option>');}
+ $('tabForeign').addEventListener('click',()=>{kind='foreign';render()});$('tabMack').addEventListener('click',()=>{kind='mack';render()});
+ for(const id of ['search','course','kind','mackSearch','mackCourse'])$(id).addEventListener(id==='search'||id==='mackSearch'?'input':'change',()=>render());
+ $('more').addEventListener('click',()=>render(false));render();
+ }catch(e){$('notice').textContent=e.message}
+}init();
+</script></body></html>
