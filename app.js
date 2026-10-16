@@ -13,7 +13,19 @@ let foreignIndex = new Map();
 let syllabusEvidenceIndex = new Map();
 let officialMackenzieIndex = new Map();
 let individualReviewIndex = new Map();
+let parecerByCell = new Map();      // course|rowIndex|uniIndex -> [parecer]
+let triageByCell = new Map();       // course|rowIndex|uniIndex -> [state, semanticCandidates, note]
 let currentCourse = 'cc';
+function cellKey(subject, universityId) {
+  return currentCourse+'|'+current().rows.indexOf(subject)+'|'+database.universities.findIndex(u=>u.id===universityId);
+}
+function verdictHtml(subject, universityId) {
+  const list=parecerByCell.get(cellKey(subject,universityId))||[];
+  if(!list.length)return '';
+  const best=[...list].sort((a,b)=>Pareceres.RANK[b.conclusionClass]-Pareceres.RANK[a.conclusionClass])[0];
+  const c=Pareceres.CLASS[best.conclusionClass];
+  return '<span class="verdict-pill '+esc(c.css)+'" title="'+esc(c.plain)+'">Parecer: '+esc(c.short)+(list.length>1?' · '+list.length:'')+'</span>';
+}
 let activeElementBeforeDrawer = null;
 const state = { search: '', semester: 'all', university: 'all', status: 'all', only: false, all: false };
 function esc(value) {
@@ -106,8 +118,12 @@ function renderMatrix() {
   els.head.innerHTML=`<tr><th class="fixedcol"><div class="fixed-content">COMPONENTE CURRICULAR MACKENZIE</div></th><th class="semester-cell">ETAPA</th>${unis.map(u=>`<th class="foreign-cell" scope="col"><span class="uni-flag">${flag(u.flag)}</span><span class="uni-name">${esc(u.name)}</span><div class="uni-country">${esc(u.country)} · ${u.courses?.[currentCourse] ? 'COI: Sim' : 'COI: não consta Sim'}</div></th>`).join('')}</tr>`;
   els.body.innerHTML=rows.length ? rows.map((row,r)=> `<tr><td class="fixedcol"><div class="fixed-content"><span class="subj-title">${esc(row.name)}</span><span class="subj-code">${esc(row.id || 'Código não cadastrado')}</span></div></td><td class="semester-cell"><span class="term">${row.semester}ª</span></td>${unis.map((u,i)=>{
     const options=matchesFor(row,u.id);const m=options[0];const f=foreignFor(m);
-    if(m) return `<td class="foreign-cell"><button class="cell-button ${m.status==='indicio_titulo'?'suggested':m.status==='candidata_forte'?'strong':'pending'}" type="button" data-r="${r}" data-u="${i}" aria-label="Abrir proposta ${esc(f?.name||m.foreignCode)} para ${esc(row.name)} em ${esc(u.name)}"><span class="match-code">${esc(f?.originalCode?f.originalCode+' ↗':f?.officialCodeKnown===false?'Catálogo ↗':m.foreignCode+' ↗')}</span><span class="cell-tag">${esc(f?.name||'Candidata em análise')}${options.length>1?' · +'+(options.length-1)+' alternativa(s)':''}</span>${stageHtml(row,m)}</button></td>`;
-    return `<td class="foreign-cell"><button class="cell-button empty" type="button" data-r="${r}" data-u="${i}" aria-label="Não verificada: ${esc(row.name)} e ${esc(u.name)}" title="Sem comparação documental cadastrada">—</button></td>`;
+    if(m) return `<td class="foreign-cell"><button class="cell-button ${m.status==='indicio_titulo'?'suggested':m.status==='candidata_forte'?'strong':'pending'}" type="button" data-r="${r}" data-u="${i}" aria-label="Abrir proposta ${esc(f?.name||m.foreignCode)} para ${esc(row.name)} em ${esc(u.name)}"><span class="match-code">${esc(f?.originalCode?f.originalCode+' ↗':f?.officialCodeKnown===false?'Catálogo ↗':m.foreignCode+' ↗')}</span><span class="cell-tag">${esc(f?.name||'Candidata em análise')}${options.length>1?' · +'+(options.length-1)+' alternativa(s)':''}</span>${stageHtml(row,m)}${verdictHtml(row,u.id)}</button></td>`;
+    const tri=triageByCell.get(cellKey(row,u.id));
+    if(tri&&tri[0]==='candidata_semantica')return `<td class="foreign-cell"><button class="cell-button concept" type="button" data-r="${r}" data-u="${i}" aria-label="Candidatas por conceito: ${esc(row.name)} e ${esc(u.name)}" title="${esc(tri[2])}"><span class="match-code">◇ ${tri[1].length} por conceito</span><span class="cell-tag">Requer leitura das ementas</span></button></td>`;
+    const tip=tri?tri[2]:'Sem comparação documental cadastrada';
+    const mark=tri&&tri[0]==='catalogo_insuficiente'?'…':tri&&tri[0]==='regra_especifica'?'§':'—';
+    return `<td class="foreign-cell"><button class="cell-button empty" type="button" data-r="${r}" data-u="${i}" aria-label="${esc(tip)}" title="${esc(tip)}">${mark}</button></td>`;
   }).join('')}</tr>`).join('') : `<tr><td class="loading" colspan="${unis.length+2}">Nenhuma disciplina corresponde aos filtros. Ajuste a etapa ou a busca.</td></tr>`;
   els.body.querySelectorAll('[data-r][data-u]').forEach(b=>b.addEventListener('click',()=>openDetail(rows[Number(b.dataset.r)],unis[Number(b.dataset.u)])));
 }
@@ -160,7 +176,20 @@ function openDetail(subject,uni) {
   const eligible=uni.courses?.[currentCourse]===true;
   const requirement=uni.language?.required||'Não informado ou campo inválido no XLSX';
   const eligibility=`<section class="detail-section"><h3>Elegibilidade & idioma</h3><div class="callout"><b>${eligible?'COI: curso assinalado Sim':'COI: curso sem marcação Sim'}</b><br/>A disponibilidade de matéria, vaga individual, idioma e período deve ser confirmada pela instituição.</div><p><b>Idioma informado:</b> ${esc(requirement)}</p><p><b>Certificado MLC:</b> ${uni.language?.mlcAccepted===true?'COI assinala Sim':uni.language?.mlcAccepted===false?'COI assinala Não':'Não informado'}</p>${link('Página de idiomas desta universidade',`./idiomas.html?universidade=${encodeURIComponent(uni.id)}`)}${link('Fonte da planilha COI',database.meta.availabilitySource)}${link('Site da universidade',uni.website)}${link('Catálogo estrangeiro',uni.catalogUrl)}<p>O estudo é preliminar. A coordenação do curso decide se o aproveitamento curricular será aceito.</p></section>`;
-  els.detail.innerHTML=base+other+more+eligibility;
+  const key=cellKey(subject,uni.id);
+  const pareceres=parecerByCell.get(key)||[];
+  const verdicts=pareceres.length
+    ? '<section class="detail-section"><h3>'+pareceres.length+' parecer(es) curricular(es) individual(is)</h3><p>Cotejo documental tópico a tópico, com horas e fontes. Parecer preliminar independente — <b>nenhuma equivalência homologada</b>.</p>'+
+      [...pareceres].sort((a,b)=>Pareceres.RANK[b.conclusionClass]-Pareceres.RANK[a.conclusionClass]).map(p=>Pareceres.render(p,{withTitle:true})).join('')+'</section>'
+    : '';
+  const tri=triageByCell.get(key);
+  const triLabels={parecer_concluido:'Parecer concluído',candidata_registrada:'Candidata registrada aguardando parecer',candidata_semantica:'Candidatas encontradas por conceitos',regra_especifica:'Componente com regra específica',sem_candidata_no_catalogo_indexado:'Sem candidata no catálogo indexado',catalogo_insuficiente:'Catálogo insuficiente para concluir'};
+  const triage=tri
+    ? '<section class="detail-section"><h3>Triagem por conceitos: '+esc(triLabels[tri[0]]||tri[0])+'</h3><p>'+esc(tri[2])+'</p>'+
+      (tri[1]||[]).map(c=>{const f=foreignIndex.get(uni.id+'|'+c[0]);return f?'<p><b>'+esc(f.name)+'</b> · conceitos em comum: '+esc((c[2]||[]).join(', ').replaceAll('_',' '))+' · documento: '+esc(c[3]==='ementa_individual'?'ementa individual':'sem ementa individual')+'</p>'+link('Fonte institucional',f.source):'';}).join('')+
+      '<p class="callout">O indicador conceitual não é percentual de equivalência. Nenhum estado da triagem significa incompatibilidade.</p></section>'
+    : '';
+  els.detail.innerHTML=base+verdicts+other+more+triage+eligibility;
   els.overlay.hidden=false;
   document.body.style.overflow='hidden';
   $('#closeDetail').focus();
@@ -217,6 +246,13 @@ async function bootstrap() {
         individualReviewIndex=new Map((audit.reviews||[]).map(x=>[auditKey(x.courseId,x.mackCode,x.foreignUniversityId,x.foreignCode),x]));
       }
     }catch(error){console.warn('Análises individuais não carregadas',error);}
+    try {
+      const list=await Pareceres.load();
+      parecerByCell=new Map();
+      list.forEach(p=>{const k=p.cell.join('|');if(!parecerByCell.has(k))parecerByCell.set(k,[]);parecerByCell.get(k).push(p);});
+      const tr=await fetch('./syllabi/triagem-semantica.json',{cache:'no-store'});
+      if(tr.ok){const t=await tr.json();triageByCell=new Map(t.crossings.map(c=>[c[0]+'|'+c[1]+'|'+c[2],[c[3],c[4],c[5]]]));}
+    }catch(error){console.warn('Pareceres ou triagem indisponíveis',error);}
     try { const source = await fetch('./candidatos-catalogo.json'); if (source.ok) { const suggestions=await source.json(); titleSuggestionIndex=new Map(suggestions.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p[3]])); } } catch(error) { console.warn('Índice complementar indisponível',error); }
     const covered = new Set(database.foreignCourses.filter(f=>f.universityId).map(f=>f.universityId)).size;
     const titleCandidates = database.matches.filter(m=>m.status==='indicio_titulo').length;

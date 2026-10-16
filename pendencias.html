@@ -10,7 +10,7 @@
 <main><h1>Quais ementas ainda faltam?</h1><p class="lead">Relação verificável das disciplinas estrangeiras e brasileiras sem ementa oficial individual localizada ou validada. As fontes são as do repositório; cada item preserva o status e, quando existente, a página institucional original.</p>
 <div class="stats"><div class="stat"><strong id="foreignMissing">—</strong><span>Estrangeiras sem ementa individual identificada</span></div><div class="stat"><strong id="hoursMissing">—</strong><span>Ementas individuais estrangeiras sem horas extraídas</span></div><div class="stat"><strong id="brMissing">—</strong><span>Disciplinas Mackenzie sem ementa oficial vinculada</span></div><div class="stat"><strong id="dual">—</strong><span>Candidatas com ementas dos dois lados</span></div></div>
 <div class="note" id="notice">Carregando inventário documental…</div>
-<div role="tablist" class="switch" aria-label="Tipo de pendência"><button type="button" id="tabForeign" role="tab" aria-selected="true">Universidades estrangeiras</button><button type="button" id="tabMack" role="tab" aria-selected="false">Mackenzie — 4 cursos</button></div>
+<div role="tablist" class="switch" aria-label="Tipo de pendência"><button type="button" id="tabForeign" role="tab" aria-selected="true">Universidades estrangeiras</button><button type="button" id="tabMack" role="tab" aria-selected="false">Mackenzie — 4 cursos</button><button type="button" id="tabReq" role="tab" aria-selected="false">O que solicitar</button></div>
 <div class="filter" id="foreignFilter"><div class="field"><label for="search">Buscar universidade, código ou disciplina</label><input id="search" type="search" placeholder="Ex.: Coimbra, direito constitucional"></div><div class="field"><label for="course">Elegibilidade COI por curso</label><select id="course"><option value="">Todas as universidades</option></select></div><div class="field"><label for="kind">O que está pendente?</label><select id="kind"><option value="syllabus">Ementa individual</option><option value="hours">Horas de contato</option><option value="all">Qualquer pendência</option></select></div></div>
 <div class="filter" id="mackFilter" hidden><div class="field"><label for="mackSearch">Buscar disciplina brasileira</label><input id="mackSearch" type="search" placeholder="Ex.: Banco de Dados, Direito Civil"></div><div class="field"><label for="mackCourse">Curso Mackenzie</label><select id="mackCourse"><option value="">Todos os cursos</option></select></div></div>
 <p id="visible" class="notice" aria-live="polite"></p><div class="cards" id="results"></div><button id="more" type="button" hidden>Carregar mais universidades</button>
@@ -44,9 +44,10 @@ function mackCard(c,term){
 function render(reset=true){
  if(!report)return;
  if(reset)offset=0;
- const mac=kind==='mack';
- $('foreignFilter').hidden=mac;$('mackFilter').hidden=!mac;
- $('tabForeign').setAttribute('aria-selected',String(!mac));$('tabMack').setAttribute('aria-selected',String(mac));
+ const mac=kind==='mack',req=kind==='req';
+ $('foreignFilter').hidden=mac||req;$('mackFilter').hidden=!mac;
+ $('tabForeign').setAttribute('aria-selected',String(kind==='foreign'));$('tabMack').setAttribute('aria-selected',String(mac));$('tabReq').setAttribute('aria-selected',String(req));
+ if(req){renderRequests();return;}
  if(mac){
   const c=$('mackCourse').value,term=norm($('mackSearch').value);
   filtered=report.mackenzieCourses.filter(x=>(!c||x.id===c)&&(!term||x.pendingSubjects.some(y=>norm(y.name+' '+y.code).includes(term))));
@@ -62,6 +63,24 @@ function render(reset=true){
   if(!filtered.length)$('results').innerHTML='<p class="empty">Nenhuma pendência corresponde aos filtros.</p>';
  }
 }
+let requests=null;
+function renderRequests(){
+ $('more').hidden=true;
+ if(!requests){$('results').innerHTML='<p class="empty">Relatório de solicitações ainda não publicado.</p>';return;}
+ const L=requests.labels,names={cc:'Ciência da Computação',si:'Sistemas de Informação',adm:'Administração',dir:'Direito'};
+ const br=Object.entries(requests.brazil).map(([cid,c])=>{
+  const ask=c.rows.filter(r=>r.category!=='vigente_vinculada');
+  const groups={};ask.forEach(r=>(groups[r.category]=groups[r.category]||[]).push(r));
+  return '<article class="card"><h2>Mackenzie — '+escape(names[cid]||cid)+'</h2><p>Contato da coordenação: <b>'+escape(c.contact||'não informado')+'</b></p><div class="counts">'+Object.entries(c.counts).map(([k,v])=>'<span><b>'+fmt(v)+'</b> '+escape(L[k])+'</span>').join('')+'</div>'+
+  Object.entries(groups).map(([k,arr])=>'<details><summary>'+escape(L[k])+' ('+arr.length+')</summary>'+arr.map(r=>'<div class="item"><div><b>'+escape(r.name)+'</b><small>'+escape(r.code||'sem código')+' · '+escape(r.stage)+'ª etapa'+(r.documentYear?' · documento '+escape(r.documentYear):'')+(r.detail?' · '+escape(r.detail):'')+'</small></div>'+(safe(r.source)?'<a href="'+escape(safe(r.source))+'" target="_blank" rel="noopener noreferrer">Fonte ↗</a>':'')+'</div>').join('')+'</details>').join('')+'</article>';}).join('');
+ const fr=requests.foreign.filter(u=>u.missingSyllabi.length||u.insufficientCatalogueCrossings).map(u=>'<article class="card"><h2>'+escape(u.name)+'</h2><p>'+escape(u.country)+'</p><div class="counts"><span><b>'+fmt(u.insufficientCatalogueCrossings)+'</b> cruzamentos com catálogo insuficiente</span><span><b>'+fmt(u.missingSyllabi.length)+'</b> ementas individuais a obter</span><span><b>'+fmt(u.parecerAnomalies.length)+'</b> pareceres com segunda revisão</span></div>'+
+  (u.missingSyllabi.length?'<details><summary>Ementas a solicitar ou localizar</summary>'+u.missingSyllabi.map(x=>'<div class="item"><div><b>'+escape(x.name||x.code)+'</b><small>'+escape(x.code)+' · '+escape(x.reason)+'</small></div>'+(safe(x.source)?'<a href="'+escape(safe(x.source))+'" target="_blank" rel="noopener noreferrer">Fonte ↗</a>':'')+'</div>').join('')+'</details>':'')+
+  (u.parecerAnomalies.length?'<details><summary>Pontos para segunda revisão</summary>'+u.parecerAnomalies.map(a=>'<div class="item"><div><small>'+escape(a.parecer)+' — '+escape(a.reason)+'</small></div></div>').join('')+'</details>':'')+
+  (safe(u.catalogUrl)?'<p><a href="'+escape(safe(u.catalogUrl))+'" target="_blank" rel="noopener noreferrer">Catálogo oficial ↗</a></p>':'')+'</article>').join('');
+ const coi='<article class="card"><h2>COI — confirmações institucionais</h2>'+requests.coi.map(x=>'<p>'+escape(x)+'</p>').join('')+'<p><a href="https://github.com/kenzofujimoto/fluxo-continuo/blob/main/docs/coi/README.md" target="_blank" rel="noopener noreferrer">Regras registradas ↗</a></p></article>';
+ $('results').innerHTML=coi+br+fr;
+ $('visible').textContent='Pendências documentais: '+fmt(requests.meta.foreignMissingSyllabi)+' ementas estrangeiras a obter e '+fmt(requests.meta.insufficientCatalogueCrossings)+' cruzamentos com catálogo insuficiente. '+requests.meta.note;
+}
 async function init(){
  try{
  const r=await fetch('./syllabi/coverage-report.json',{cache:'no-store'});if(!r.ok)throw Error('Inventário ainda não publicado.');
@@ -75,6 +94,8 @@ async function init(){
  $('brMissing').textContent=fmt(m.mackTotal-m.mackVerified);$('dual').textContent=fmt(m.bothSyllabiCandidates);
  $('notice').textContent='Inventário atualizado em '+report.generated+'. 66 universidades foram indexadas; os números abaixo discriminam ausência de ementa e ausência de horas. Zero equivalências homologadas.';
  for(const c of report.mackenzieCourses){$('course').insertAdjacentHTML('beforeend','<option value="'+escape(c.id)+'">'+escape(c.name)+'</option>');$('mackCourse').insertAdjacentHTML('beforeend','<option value="'+escape(c.id)+'">'+escape(c.name)+'</option>');}
+ try{const q=await fetch('./syllabi/pendencias-documentais.json',{cache:'no-store'});if(q.ok)requests=await q.json();}catch(error){console.warn('Solicitações indisponíveis',error);}
+ $('tabReq').addEventListener('click',()=>{kind='req';render()});
  $('tabForeign').addEventListener('click',()=>{kind='foreign';render()});$('tabMack').addEventListener('click',()=>{kind='mack';render()});
  for(const id of ['search','course','kind','mackSearch','mackCourse'])$(id).addEventListener(id==='search'||id==='mackSearch'?'input':'change',()=>render());
  $('more').addEventListener('click',()=>render(false));render();

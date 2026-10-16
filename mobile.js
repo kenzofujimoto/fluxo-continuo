@@ -12,7 +12,7 @@
   const states = {P:'Indício por nome',T:'Período a verificar',S:'Triagem parcial',C:'Catálogo pendente',F:'Documentos pendentes',I:'Catálogo indexado · analisar par'};
   let catalog, registry, foreign, expanded = null, revealAll = false, suggestionIndex = new Map();
   let syllabi = new Map();
-  let brazilEvidence = new Map(), individualReviews = new Map();
+  let brazilEvidence = new Map(), individualReviews = new Map(), mobilePareceres = new Map();
   const selected = () => document.querySelector('.course-tab[aria-selected="true"]')?.dataset.course || 'cc';
 
   function entries(courseId, subject, subjectIndex) {
@@ -48,9 +48,11 @@
     const count=displayMatches.length + e.extraSuggestions.length;
     const label = count ? count+' possibilidade'+(count===1?'':'s') : (e.candidate?'Triagem lexical':'Pesquisa pendente');
     const color = e.rank===0?'strong':e.rank===1?'pending':e.rank===2?'potential':'unknown';
+    const verdicts=(mobilePareceres.get(courseId+'|'+subjectIndex+'|'+e.ui)||[]);
+    const verdict=verdicts.length&&window.Pareceres?verdicts.map(p=>window.Pareceres.classPill(p)).join(''):'';
     return '<button type="button" class="mobile-university '+color+'" data-mobile-university="'+e.ui+'" data-mobile-subject="'+subjectIndex+'" data-mobile-course="'+esc(courseId)+'" aria-label="Abrir '+esc(e.uni.name)+': '+label+'">'+
       '<span class="mobile-university-main"><span class="mobile-flag">'+(flags[e.uni.flag]||'🌐')+'</span><span class="mobile-university-text"><strong>'+esc(e.uni.name)+'</strong><small>'+esc(e.uni.country)+' · '+esc(label)+'</small></span><span class="mobile-arrow" aria-hidden="true">›</span></span>'+
-      (titles + extra || candidate || '<span class="mobile-undocumented">Sem candidata localizada nos catálogos indexados</span>')+'</button>';
+      (titles + extra || candidate || '<span class="mobile-undocumented">Sem candidata localizada nos catálogos indexados</span>')+verdict+'</button>';
   }
   function content(courseId,subjectIndex,es) {
     const useful=es.filter(e=>e.rank<3),remaining=es.filter(e=>e.rank===3);
@@ -100,6 +102,9 @@
       catch{return '';}
     };
     let html='<section class="detail-section"><div class="detail-label">DISCIPLINA MACKENZIE</div><div class="detail-course">'+esc(s.name)+'</div><p>'+esc(s.semester)+'ª etapa · '+esc(course.name)+'</p>'+getSafeLink('Ementário Mackenzie',s.syllabusUrl||course.source)+'</section>';
+    const cellPareceres=mobilePareceres.get(courseId+'|'+subjectIndex+'|'+ui)||[];
+    if(cellPareceres.length&&window.Pareceres) html+='<section class="detail-section"><h3>'+cellPareceres.length+' parecer(es) curricular(es)</h3><p>Cotejo tópico a tópico das ementas oficiais. Nenhuma equivalência homologada.</p>'+
+      cellPareceres.map(p=>window.Pareceres.render(p,{withTitle:true})).join('')+'</section>';
     if(matches.length) {
       html+='<section class="detail-section"><h3>'+matches.length+' possibilidade'+(matches.length===1?'':'s')+' encontrada'+(matches.length===1?'':'s')+'</h3><p>Correspondências documentais e afinidades por catálogo, sem homologação institucional.</p></section>';
       matches.forEach((m,i)=>{
@@ -157,6 +162,7 @@
     registry=new Map(screening.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p]));
     foreign=new Map(catalog.foreignCourses.map(f=>[f.universityId+'|'+f.code,f]));
     try {const resp=await fetch('./syllabi/mackenzie-docs.json');if(resp.ok){const doc=await resp.json();brazilEvidence=new Map((doc.rows||[]).map(r=>[r.courseId+'|'+normalize(r.code||r.name),r]));}} catch(error){console.warn(error);}
+    try {if(window.Pareceres){(await window.Pareceres.load()).forEach(p=>{const k=p.cell.join('|');if(!mobilePareceres.has(k))mobilePareceres.set(k,[]);mobilePareceres.get(k).push(p);});}} catch(error){console.warn(error);}
     try {const resp=await fetch('./syllabi/revisoes-ementas.json');if(resp.ok){const doc=await resp.json();individualReviews=new Map((doc.reviews||[]).map(r=>[[r.courseId,r.mackCode,r.foreignUniversityId,r.foreignCode].join('|'),r]));}} catch(error){console.warn(error);}
 
     try {const resp=await fetch('./syllabi/records.json',{cache:'no-store'});if(resp.ok){const doc=await resp.json();syllabi=new Map((doc.foreign||[]).map(r=>[r.universityId+'|'+r.foreignCode,r]));}}

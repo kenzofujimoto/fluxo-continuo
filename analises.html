@@ -1,66 +1,97 @@
 <!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Análise curricular documental · Fluxo Contínuo</title><meta name="theme-color" content="#8e1738">
+<title>Pareceres curriculares · Fluxo Contínuo</title><meta name="theme-color" content="#8e1738">
+<link rel="stylesheet" href="./styles.css">
 <style>
-:root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:#242633;background:#f8f6f7}*{box-sizing:border-box}body{margin:0}header{background:#821438;color:#fff;padding:22px max(20px,calc((100vw - 1150px)/2))}header nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}header a{color:#fff}main{max-width:1150px;margin:0 auto;padding:27px 20px 65px}h1{font-size:clamp(30px,4vw,44px);margin:4px 0 10px;letter-spacing:-.045em}p{line-height:1.58}.lead{max-width:920px;color:#626775;margin-top:0}.alert{background:#fff;border-left:4px solid #8e1738;border-radius:9px;padding:15px 18px;margin:22px 0;color:#4d555e}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;margin:18px 0}.metric{background:#fff;border:1px solid #ece4e8;border-radius:12px;padding:17px}.metric strong{font-size:27px;display:block}.metric small{color:#66717b}.filters{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:10px;margin:25px 0 15px}.filters label{font-size:12px;font-weight:750;display:block;margin-bottom:6px}select,input{padding:12px;border:1px solid #dcd7db;background:#fff;border-radius:8px;width:100%;font:inherit;min-width:0}.results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}.entry{background:#fff;border:1px solid #e8e0e5;border-radius:13px;padding:17px;overflow-wrap:anywhere}.tag{font-size:11px;padding:5px 9px;display:inline-block;font-weight:750;background:#f3ebee;color:#782a42;border-radius:25px}.tag.both{background:#e6f2eb;color:#2a6545}.entry h2{font-size:18px;line-height:1.33;margin:11px 0}.course{color:#4e5462;font-size:13px;margin:8px 0}.sep{font-size:13px;color:#9095a0;margin:0 8px}.entry dl{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:12px 0;border-top:1px solid #f1eced;border-bottom:1px solid #f1eced}.entry dt{font-size:11px;color:#737781}.entry dd{margin:4px 0 0;font-weight:700}.entry .topics{font-size:13px;color:#505562}.entry .links{display:flex;gap:11px;flex-wrap:wrap}.entry a{font-size:13px;font-weight:700;color:#8e1738}.muted{font-size:12px;color:#83818c}button{font:inherit;border:none;border-radius:9px;background:#8e1738;color:white;padding:12px 20px;cursor:pointer}#more{display:block;margin:22px auto}#more[hidden]{display:none}
-@media(max-width:760px){main{padding:22px 16px}.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.filters{grid-template-columns:1fr 1fr}.filters>div:first-child{grid-column:span 2}.results{grid-template-columns:1fr}.metric strong{font-size:23px}}
-@media(max-width:405px){.filters{grid-template-columns:1fr}.filters>div:first-child{grid-column:auto}}
+:root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:#242633;background:#f8f6f7}*{box-sizing:border-box}body{margin:0;background:#f8f6f7}
+header.top{background:#821438;color:#fff;padding:22px max(16px,calc((100vw - 1150px)/2))}header.top nav{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}header.top a{color:#fff}
+main{max-width:1150px;margin:0 auto;padding:27px 16px 65px}h1{font-size:clamp(28px,4vw,42px);margin:4px 0 10px;letter-spacing:-.04em}.lead{max-width:920px;color:#626775;margin-top:0;line-height:1.6}
+.alert{background:#fff;border-left:4px solid #8e1738;border-radius:9px;padding:14px 16px;margin:18px 0;color:#4d555e;font-size:13px;line-height:1.6}
+.metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:18px 0}.metric{background:#fff;border:1px solid #ece4e8;border-radius:12px;padding:14px}.metric strong{font-size:24px;display:block}.metric small{color:#66717b;font-size:11px}
+.tabs{display:flex;gap:6px;border-bottom:1px solid #e4dde1;margin:20px 0 14px;overflow-x:auto}.tabs button{border:0;background:transparent;padding:12px 14px;font:inherit;font-weight:700;color:#6e6870;border-bottom:3px solid transparent;white-space:nowrap;cursor:pointer}.tabs button[aria-selected=true]{color:#8e1738;border-color:#8e1738}
+.filters{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:10px;margin:14px 0}.filters label{font-size:11px;font-weight:750;display:block;margin-bottom:5px;color:#5c5560}
+.filters select,.filters input{padding:10px;border:1px solid #dcd7db;background:#fff;border-radius:8px;width:100%;font:inherit;font-size:13px;min-width:0}
+#count{font-size:13px;color:#5c5560}.prio-row{background:#fff;border:1px solid #ece6ea;border-radius:12px;padding:12px 14px;margin:10px 0}.prio-row h3{font-size:15px;margin:6px 0 2px}.prio-row p{font-size:12px;color:#5f5864;margin:4px 0;line-height:1.5}
+.score{font-weight:800;color:#8e1738}button.more{display:block;margin:20px auto;border:0;border-radius:9px;background:#8e1738;color:#fff;padding:11px 20px;font:inherit;cursor:pointer}
+@media(max-width:820px){.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.filters{grid-template-columns:1fr 1fr}.filters>div:first-child{grid-column:span 2}}
+@media(max-width:420px){.filters{grid-template-columns:1fr}.filters>div:first-child{grid-column:auto}}
 </style></head>
-<body><header><nav><strong>fluxo contínuo / análise curricular</strong><div><a href="./index.html">Matriz</a> &nbsp;·&nbsp; <a href="./ementas.html">Acervo de ementas</a></div></nav></header>
-<main><h1>Comparações com evidências</h1><p class="lead">Auditoria de documentos oficiais para as candidaturas já identificadas. O sistema distingue ementas individualmente verificadas, sinais temáticos e carga horária efetivamente declarada. Não presume que nomes parecidos sejam equivalentes.</p>
-<div class="metrics"><div class="metric"><strong id="all">—</strong><small>Candidaturas cadastradas</small></div><div class="metric"><strong id="br">—</strong><small>Ementas brasileiras verificadas</small></div><div class="metric"><strong id="foreign">—</strong><small>Ementas estrangeiras obtidas</small></div><div class="metric"><strong id="both">—</strong><small>Candidaturas com documentos dos dois lados</small></div></div>
-<div class="alert" id="notice">Carregando evidências…</div>
-<div class="filters"><div><label for="query">Pesquisar disciplinas</label><input type="search" id="query" placeholder="Ex.: sistemas distribuídos, programação, arquitetura"></div><div><label for="course">Curso Mackenzie</label><select id="course"><option value="">Todos</option></select></div><div><label for="uni">Universidade</label><select id="uni"><option value="">Todas</option></select></div><div><label for="phase">Documentação</label><select id="phase"><option value="">Todas</option><option value="topicos_preliminares_disponiveis">Ambas ementas</option><option value="falta_ementa_brasileira_validada">Pendente: Mackenzie</option><option value="falta_ementa_estrangeira_individual">Pendente: estrangeira</option></select></div></div>
-<p id="count" aria-live="polite"></p><div class="results" id="results"></div><button hidden id="more" type="button">Mostrar mais</button>
-<div class="alert">Os sinais compartilhados são marcadores de palavras e conceitos encontrados nos documentos, não percentual de compatibilidade. Créditos ECTS e horas de contato não são a mesma coisa. A decisão oficial depende da coordenação do Mackenzie, oferta e acesso à disciplina na universidade de destino.</div></main>
+<body><header class="top"><nav><strong>fluxo contínuo / pareceres curriculares</strong><div><a href="./index.html">Matriz</a> · <a href="./ementas.html">Ementas</a> · <a href="./pendencias.html">Pendências</a></div></nav></header>
+<main>
+<h1>Pareceres curriculares individuais</h1>
+<p class="lead">Cotejo dos programas oficiais tópico a tópico, com horas discriminadas, competências, restrições práticas e fontes localizadas. São <b>pareceres preliminares independentes</b>: nenhuma equivalência está homologada, e a decisão cabe à coordenação do curso Mackenzie e à COI.</p>
+<div class="metrics"><div class="metric"><strong id="mAll">—</strong><small>Pareceres individuais</small></div><div class="metric"><strong id="mAlta">—</strong><small>Alta afinidade documental</small></div><div class="metric"><strong id="mParcial">—</strong><small>Afinidade parcial</small></div><div class="metric"><strong id="mBaixa">—</strong><small>Baixa afinidade / insuficiente</small></div><div class="metric"><strong>0</strong><small>Homologações formais</small></div></div>
+<div class="alert" id="rule">Carregando…</div>
+<div class="tabs" role="tablist"><button role="tab" aria-selected="true" data-tab="prio">Prioridades</button><button role="tab" aria-selected="false" data-tab="all">Todos os pareceres</button></div>
+<div class="filters">
+ <div><label for="q">Disciplina ou universidade</label><input id="q" type="search" placeholder="Ex.: estrutura de dados, Coimbra, MLE5077"></div>
+ <div><label for="course">Curso Mackenzie</label><select id="course"><option value="">Todos</option></select></div>
+ <div><label for="stage">Etapa</label><select id="stage"><option value="">Todas</option></select></div>
+ <div><label for="country">País</label><select id="country"><option value="">Todos</option></select></div>
+ <div><label for="uni">Universidade</label><select id="uni"><option value="">Todas</option></select></div>
+ <div><label for="cls">Parecer</label><select id="cls"><option value="">Todos</option><option value="alta_afinidade">Alta afinidade</option><option value="afinidade_parcial">Afinidade parcial</option><option value="baixa_afinidade">Baixa afinidade</option><option value="evidencia_insuficiente">Evidência insuficiente</option></select></div>
+ <div><label for="conf">Confiança</label><select id="conf"><option value="">Todas</option><option value="alta">Alta</option><option value="moderada">Moderada</option><option value="baixa">Baixa</option></select></div>
+ <div><label for="docs">Cobertura documental</label><select id="docs"><option value="">Todas</option><option value="current">Ementa brasileira vigente</option><option value="notcurrent">Ementa brasileira histórica/sem data</option><option value="hours">Horas analisáveis</option><option value="nohours">Horas não comparáveis</option></select></div>
+</div>
+<p id="count" aria-live="polite"></p><div id="results"></div><button class="more" id="more" hidden type="button">Mostrar mais</button>
+<div class="alert"><b>Como ler a prioridade.</b> A ordenação combina a classe do parecer, a confiança documental e a comparabilidade das horas. É uma recomendação de onde concentrar a solicitação de análise, <b>não</b> uma aprovação. Lembre o limite geral de 25% da carga horária do curso para aproveitamento (Manual do Intercâmbio 2024, §6.4) e que a mesma disciplina estrangeira não deve ser contada para dois requisitos.</div>
+</main>
+<script src="./pareceres-view.js"></script>
 <script>
-'use strict';const $=id=>document.getElementById(id),esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const safe=u=>{try{const p=new URL(u);return ['https:','http:'].includes(p.protocol)?p.href:null}catch{return null}};
-let base=[],filt=[],offset=0,db,official,manual=new Map();
-const phases={topicos_preliminares_disponiveis:'Duas ementas identificadas',falta_ementa_brasileira_validada:'Falta ementa Mackenzie validada',falta_ementa_estrangeira_individual:'Falta ementa estrangeira individual'};
-const norm=x=>String(x||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-function rows(reset){
- if(reset)offset=0;
- const cid=$('course').value,uid=$('uni').value,phase=$('phase').value,q=norm($('query').value);
- filt=base.filter(m=>(!cid||m.courseId===cid)&&(!uid||m.universityId===uid)&&(!phase||m.phase===phase)&&(!q||norm([m.mackName,m.foreignName,m.university,m.mackCode].join(' ')).includes(q)));
- const display=filt.slice(offset,offset+30);offset+=display.length;
+'use strict';
+const $=id=>document.getElementById(id),{esc}=Pareceres;
+let all=[],filtered=[],shown=0,tab='prio',data;
+const norm=x=>String(x||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
+const confRank={alta:2,moderada:1,baixa:0};
+function prio(p){const h=p.hoursComparison||{};return Pareceres.RANK[p.conclusionClass]*10+confRank[p.confidence]*2+(h.state==='comparavel'||h.state==='comparavel_condicional'?1:0)+(h.ratio>=0.75?1:0);}
+function apply(reset){
+ if(reset)shown=0;
+ const q=norm($('q').value),v=id=>$(id).value;
+ filtered=all.filter(p=>{
+  const f=p.foreign[0]||{},u=data.universities.find(x=>x.id===f.universityId)||{};
+  if(v('course')&&p.brazil.courseId!==v('course'))return false;
+  if(v('stage')&&String(p._stage)!==v('stage'))return false;
+  if(v('country')&&u.country!==v('country'))return false;
+  if(v('uni')&&f.universityId!==v('uni'))return false;
+  if(v('cls')&&p.conclusionClass!==v('cls'))return false;
+  if(v('conf')&&p.confidence!==v('conf'))return false;
+  const hs=(p.hoursComparison||{}).state;
+  if(v('docs')==='current'&&!p.brazilDocumentCurrent)return false;
+  if(v('docs')==='notcurrent'&&p.brazilDocumentCurrent)return false;
+  if(v('docs')==='hours'&&hs==='nao_comparavel')return false;
+  if(v('docs')==='nohours'&&hs!=='nao_comparavel')return false;
+  if(q&&!norm([p.brazil.name,p.brazil.code,f.name,f.code,u.name,u.country].join(' ')).includes(q))return false;
+  return true;});
+ if(tab==='prio')filtered.sort((a,b)=>prio(b)-prio(a)||a.id.localeCompare(b.id));
+ else filtered.sort((a,b)=>a.brazil.courseId.localeCompare(b.brazil.courseId)||String(a.brazil.name).localeCompare(String(b.brazil.name)));
+ const page=filtered.slice(shown,shown+20);shown+=page.length;
  if(reset)$('results').innerHTML='';
- $('results').insertAdjacentHTML('beforeend',display.map(m=>{
- const sh=(m.sharedTopicSignals||[]).map(x=>x.replaceAll('_',' '));const missing=(m.mackTopicSignalsNotFound||[]).map(x=>x.replaceAll('_',' '));
- const hasBoth=m.phase==='topicos_preliminares_disponiveis';
- const review=manual.get(m.courseId+'|'+m.mackCode+'|'+m.universityId+'|'+m.foreignCode);
- const human=review?'<div style="background:#faf5f7;border-left:3px solid #8e1738;padding:12px;margin:12px 0;border-radius:6px"><b>Revisão individual das ementas (sem homologação)</b><p>'+esc(review.justification)+'</p><p><b>Conteúdos em comum:</b> '+esc(review.sharedAreas.join('; '))+'</p><p><b>Lacunas:</b> '+esc(review.notClearlyExplicitInForeign.join('; ')||'Nenhuma explicitamente identificada nesta primeira leitura')+'</p><p>'+esc(review.hourObservation)+'</p></div>':'';
- const a=m.mackSyllabusOfficial2025&&safe(m.mackSyllabusUrl);const b=m.foreignIndividualSyllabus&&safe(m.foreignSyllabusUrl);
- return '<article class="entry"><span class="tag '+(hasBoth?'both':'')+'">'+esc(phases[m.phase]||m.phase)+'</span>'+
- '<h2>'+esc(m.mackName||m.mackCode)+'</h2><p class="course">'+esc(m.courseName)+' · '+esc(m.university)+'</p>'+
- '<h2 style="font-size:15px">'+esc(m.foreignName||m.foreignCode)+'</h2>'+
- '<dl><div><dt>Mackenzie (2025)</dt><dd>'+esc(m.mackHoursListed!=null?m.mackHoursListed+' h':'Não comprovadas')+'</dd></div>'+
- '<div><dt>Estrangeira</dt><dd>'+esc(m.foreignContactHours!=null?m.foreignContactHours+' h contato':'Não comprovadas')+'</dd></div></dl>'+
- '<p class="topics"><b>Sinais compartilhados:</b> '+esc(sh.join(', ')||'Nenhum confirmado')+'</p>'+
- (hasBoth?'<p class="topics"><b>Temas brasileiros sem sinal estrangeiro:</b> '+esc(missing.join(', ')||'Nenhum identificado pela heurística')+'</p>':'')+
- human+'<div class="links">'+(a?'<a href="'+esc(a)+'" target="_blank" rel="noopener noreferrer">Ementa Mackenzie ↗</a>':'')+
- (b?'<a href="'+esc(b)+'" target="_blank" rel="noopener noreferrer">Ementa estrangeira ↗</a>':'')+'</div><p class="muted">'+esc(m.hourComparison==='horas_incompletas'?'Comparação de horas incompleta':'Bases horárias ainda precisam de validação')+' · Não homologada</p></article>'
- }).join(''));
- $('count').textContent=filt.length+' candidaturas · exibindo '+offset;$('more').hidden=offset>=filt.length;
- if(!filt.length)$('results').innerHTML='<p>Sem candidatos cadastrados para estes filtros. Isso não prova incompatibilidade.</p>';
+ $('results').insertAdjacentHTML('beforeend',page.map(p=>{
+  if(tab==='prio'){const f=p.foreign[0]||{},h=p.hoursComparison||{};
+   return '<div class="prio-row">'+Pareceres.classPill(p)+'<h3>'+esc(p.brazil.name)+' × '+esc(f.name)+'</h3><p>'+esc(p._courseName)+' · '+esc(p._stage)+'ª etapa · '+esc(f.university||f.universityId)+' ('+esc(f.code)+')</p>'+
+   '<p>Tópicos essenciais cobertos: <b>'+esc(p.coverage.coberto)+'/'+esc(p.coverage.essential)+'</b> (+'+esc(p.coverage.parcial)+' parciais) · horas: '+esc(h.state==='nao_comparavel'?'não comparáveis':'razão '+(h.ratio??'—'))+' · confiança '+esc(p.confidence)+'</p>'+
+   '<details><summary>Abrir parecer</summary>'+Pareceres.render(p,{open:true})+'</details></div>';}
+  return Pareceres.render(p,{withTitle:true});}).join(''));
+ $('count').textContent=filtered.length+' parecer(es) · exibindo '+shown;$('more').hidden=shown>=filtered.length;
+ if(!filtered.length)$('results').innerHTML='<p>Nenhum parecer para estes filtros. Isso não indica incompatibilidade: pode faltar ementa oficial de um dos lados.</p>';
 }
 async function init(){
- try{
- const [a,b,c,d]=await Promise.all([fetch('./syllabi/comparacoes.json',{cache:'no-store'}),fetch('./data.json'),fetch('./syllabi/metrics.json',{cache:'no-store'}),fetch('./syllabi/revisoes-ementas.json',{cache:'no-store'})]);
- if(!a.ok||!b.ok||!c.ok)throw Error('A coleta documental está em processamento. Consulte a execução mais recente no GitHub Actions.');
- const [audit,data,metrics]=await Promise.all([a.json(),b.json(),c.json()]);
- if(d.ok){const x=await d.json();manual=new Map((x.reviews||[]).map(y=>[y.courseId+'|'+y.mackCode+'|'+y.foreignUniversityId+'|'+y.foreignCode,y]));}
- db=data;const courseMap=new Map(data.courses.map(x=>[x.id,x])),fmap=new Map(data.foreignCourses.map(f=>[f.universityId+'|'+f.code,f]));
- base=audit.registered.map(m=>({...m,mackName:courseMap.get(m.courseId)?.rows.find(x=>x.id===m.mackCode)?.name||m.mackCode,
- foreignName:fmap.get(m.universityId+'|'+m.foreignCode)?.name,
- courseName:courseMap.get(m.courseId)?.name}));
- $('all').textContent=base.length.toLocaleString('pt-BR');$('br').textContent=(metrics.officialMackenzieSyllabi??0).toLocaleString('pt-BR');
- $('foreign').textContent=(metrics.foreignIndividualDocuments||0).toLocaleString('pt-BR');
- $('both').textContent=base.filter(x=>x.phase==='topicos_preliminares_disponiveis').length.toLocaleString('pt-BR');
- $('notice').textContent='Auditoria em '+metrics.generated+'. '+(metrics.crossings||0).toLocaleString('pt-BR')+' cruzamentos têm estado documental inventariado. Zero equivalências homologadas. Os registros exigem leitura comparativa integral e avaliação da coordenação.';
- $('course').insertAdjacentHTML('beforeend',data.courses.map(c=>'<option value="'+esc(c.id)+'">'+esc(c.name)+'</option>').join(''));
- $('uni').insertAdjacentHTML('beforeend',data.universities.map(u=>'<option value="'+esc(u.id)+'">'+esc(u.name)+'</option>').join(''));
- for(const id of ['query','course','uni','phase'])$(id).addEventListener(id==='query'?'input':'change',()=>rows(true));
- $('more').addEventListener('click',()=>rows(false));rows(true);
- }catch(e){$('notice').textContent=e.message}
-}init();
+ const [list,res]=await Promise.all([Pareceres.load(),fetch('./data.json')]);data=await res.json();
+ const idx=await fetch('./syllabi/pareceres-index.json',{cache:'no-store'}).then(r=>r.json()).catch(()=>({meta:{}}));
+ const cm=new Map(data.courses.map(c=>[c.id,c]));
+ all=list.map(p=>{const c=cm.get(p.brazil.courseId),row=c?.rows[p.cell[1]];return Object.assign(p,{_stage:row?.semester??p.brazil.stage,_courseName:c?.name||p.brazil.courseId});});
+ const by=k=>all.filter(p=>p.conclusionClass===k).length;
+ $('mAll').textContent=all.length;$('mAlta').textContent=by('alta_afinidade');$('mParcial').textContent=by('afinidade_parcial');$('mBaixa').textContent=by('baixa_afinidade')+by('evidencia_insuficiente');
+ $('rule').innerHTML='<b>Regra de classificação (interna, não oficial):</b> '+esc(idx.meta?.rule||'')+' Parâmetro de referência: 75% de compatibilidade de carga horária e conteúdo programático (Manual do Intercâmbio 2024, §6.4), sujeito à confirmação da COI.';
+ const add=(id,vals)=>$(id).insertAdjacentHTML('beforeend',vals.map(([v,t])=>'<option value="'+esc(v)+'">'+esc(t)+'</option>').join(''));
+ add('course',data.courses.map(c=>[c.id,c.name]));
+ add('stage',[...new Set(all.map(p=>p._stage))].sort((a,b)=>a-b).map(s=>[s,s+'ª etapa']));
+ const unis=[...new Set(all.map(p=>p.foreign[0].universityId))].map(id=>data.universities.find(u=>u.id===id)).filter(Boolean);
+ add('country',[...new Set(unis.map(u=>u.country))].sort().map(c=>[c,c]));add('uni',unis.map(u=>[u.id,u.name]));
+ ['q','course','stage','country','uni','cls','conf','docs'].forEach(id=>$(id).addEventListener(id==='q'?'input':'change',()=>apply(true)));
+ document.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{tab=b.dataset.tab;document.querySelectorAll('[data-tab]').forEach(x=>x.setAttribute('aria-selected',String(x===b)));apply(true);}));
+ $('more').addEventListener('click',()=>apply(false));
+ const h=location.hash.slice(1);if(h)$('q').value=decodeURIComponent(h);
+ apply(true);
+}
+init().catch(e=>{$('rule').textContent='Não foi possível carregar os pareceres: '+e.message;});
 </script></body></html>

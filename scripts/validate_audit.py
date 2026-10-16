@@ -49,5 +49,21 @@ def main():
         assert r["hoursMackenzieDeclared"]==b["contactHoursDeclared"]
         assert r["hoursForeignContact"]==f["contactHours"]
         assert r["conclusion"] and r["justification"] and r["sharedAreas"]
+    # Individual pareceres (schema v2): index matches files, no homologation without a formal decision,
+    # every crossing has exactly one research state, and the request report covers every Brazilian row.
+    files=sorted((ROOT/"syllabi"/"pareceres").rglob("*.json"))
+    index=read("syllabi/pareceres-index.json")
+    assert index["meta"]["count"]==len(files)==len(index["pareceres"]),"pareceres index out of date"
+    assert index["meta"]["institutionalDecisions"]==0 or all(p.get("decisionDocument") for p in index["pareceres"] if p["institutionalStatus"]!="aguardando_validacao_institucional")
+    for p in index["pareceres"]:
+        assert p["conclusionClass"] in ("alta_afinidade","afinidade_parcial","baixa_afinidade","evidencia_insuficiente")
+        assert p["coverage"]["essential"]>0,(p["id"],"no essential Brazilian topic assessed")
+        assert p["brazil"]["source"].startswith("https://") and all(f["source"].startswith("https://") for f in p["foreign"])
+    triage=read("syllabi/triagem-semantica.json")
+    assert len(triage["crossings"])==6856 and len({tuple(c[:3]) for c in triage["crossings"]})==6856
+    assert all("incompat" not in c[3] for c in triage["crossings"])
+    requests=read("syllabi/pendencias-documentais.json")
+    assert sum(len(c["rows"]) for c in requests["brazil"].values())==sum(len(c["rows"]) for c in db["courses"])==221
     print("OK: documentary provenance, hours and gaps are internally consistent")
+    print("OK:",len(files),"pareceres,",len(triage["crossings"]),"crossings with a research state")
 if __name__=="__main__":main()
