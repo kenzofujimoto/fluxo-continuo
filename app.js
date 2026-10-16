@@ -8,6 +8,8 @@ const els = {
   detail: $('#detailBody'), detailTitle: $('#detailTitle')
 };
 let database;
+let titleSuggestionIndex = new Map();
+let foreignIndex = new Map();
 let currentCourse = 'cc';
 let activeElementBeforeDrawer = null;
 const state = { search: '', semester: 'all', university: 'all', status: 'all', only: false, all: false };
@@ -29,6 +31,12 @@ function matchFor(subject,universityId){return matchesFor(subject,universityId)[
 function foreignFor(item) {
   return item ? database.foreignCourses.find(course => course.universityId === item.universityId && course.code === item.foreignCode) : null;
 }
+function extraFor(subject, universityId) {
+  const rowIndex = current().rows.indexOf(subject);
+  const uniIndex = database.universities.findIndex(u => u.id === universityId);
+  if (rowIndex < 0 || uniIndex < 0) return [];
+  return (titleSuggestionIndex.get(currentCourse+'|'+rowIndex+'|'+uniIndex) || []).map(([code,score])=>({foreign:foreignIndex.get(universityId+'|'+code),score})).filter(item=>item.foreign);
+}
 function matchingRows() {
   const term = state.search.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
   const universities = visibleUniversities();
@@ -38,9 +46,9 @@ function matchingRows() {
     const related = universities.flatMap(u => matchesFor(row,u.id));
     if (state.status === 'candidata_forte' && !related.some(m => m.status === 'candidata_forte')) return false;
     if (state.status === 'em_analise' && !related.some(m => m.status === 'em_analise')) return false;
-    if (state.status === 'indicio_titulo' && !related.some(m=>m.status==='indicio_titulo')) return false;
+    if (state.status === 'indicio_titulo' && !related.some(m=>m.status==='indicio_titulo') && !universities.some(u=>extraFor(row,u.id).length)) return false;
     if (state.status === 'sem_dados' && related.length) return false;
-    if (state.only && !related.length) return false;
+    if (state.only && !related.length && !universities.some(u=>extraFor(row,u.id).length)) return false;
     return true;
   });
 }
@@ -108,6 +116,10 @@ function openDetail(subject,uni) {
          '</section>';
       }).join('')
     : '<section class="detail-section"><h3>Nenhuma candidata catalogada</h3><div class="callout">O catálogo pode estar incompleto. A ausência de correspondência não demonstra incompatibilidade.</div></section>';
+  const registeredCodes = new Set(allOptions.map(item=>item.foreignCode));
+  const candidates = extraFor(subject,uni.id).filter(item=>!registeredCodes.has(item.foreign.code));
+  const more = candidates.length ? '<section class="detail-section"><h3>'+candidates.length+' indício(s) adicionais de catálogo</h3><p>Somente semelhança lexical de títulos. Pontuação NÃO é percentual de equivalência.</p>'+
+    candidates.map(item=>'<p><b>'+esc(item.foreign.name)+'</b> · '+esc(item.foreign.officialCodeKnown===false?'Código de referência (não oficial)':item.foreign.code)+' · afinidade lexical '+esc(item.score)+'/100</p>'+link('Fonte institucional',item.foreign.source)).join('')+'</section>' : '';
   const eligible=uni.courses?.[currentCourse]===true;
   const requirement=uni.language?.required||'Não informado ou campo inválido no XLSX';
   const eligibility=`<section class="detail-section"><h3>Elegibilidade & idioma</h3><div class="callout"><b>${eligible?'COI: curso assinalado Sim':'COI: curso sem marcação Sim'}</b><br/>A disponibilidade de matéria, vaga individual, idioma e período deve ser confirmada pela instituição.</div><p><b>Idioma informado:</b> ${esc(requirement)}</p><p><b>Certificado MLC:</b> ${uni.language?.mlcAccepted===true?'COI assinala Sim':uni.language?.mlcAccepted===false?'COI assinala Não':'Não informado'}</p>${link('Página de idiomas desta universidade',`./idiomas.html?universidade=${encodeURIComponent(uni.id)}`)}${link('Fonte da planilha COI',database.meta.availabilitySource)}${link('Site da universidade',uni.website)}${link('Catálogo estrangeiro',uni.catalogUrl)}<p>O estudo é preliminar. A coordenação do curso decide se o aproveitamento curricular será aceito.</p></section>`;
@@ -148,6 +160,8 @@ async function bootstrap() {
     const response = await fetch('./data.json', {cache: 'no-store'});
     if (!response.ok) throw new Error('Erro ao carregar data.json: HTTP ' + response.status);
     database = await response.json();
+    foreignIndex = new Map(database.foreignCourses.map(f=>[f.universityId+'|'+f.code,f]));
+    try { const source = await fetch('./candidatos-catalogo.json'); if (source.ok) { const suggestions=await source.json(); titleSuggestionIndex=new Map(suggestions.pairs.map(p=>[p[0]+'|'+p[1]+'|'+p[2],p[3]])); } } catch(error) { console.warn('Índice complementar indisponível',error); }
     const covered = new Set(database.foreignCourses.filter(f=>f.universityId).map(f=>f.universityId)).size;
     const titleCandidates = database.matches.filter(m=>m.status==='indicio_titulo').length;
     document.getElementById('researchCoverage').textContent = covered + ' de ' + database.universities.length + ' universidades com pelo menos uma disciplina catalogada · ' + database.foreignCourses.length + ' disciplinas estrangeiras indexadas · ' + titleCandidates + ' indícios por título';
