@@ -1,4 +1,4 @@
-/* MobiMatch Alpha — public, read-only, dependency-free academic matrix. */
+/* Fluxo Contínuo — public, read-only, dependency-free academic matrix. */
 'use strict';
 const $ = selector => document.querySelector(selector);
 const els = {
@@ -139,7 +139,7 @@ function exportCsv() {
   })]));
   const csv='\ufeff'+out.map(row=>row.map(safeCsv).join(';')).join('\r\n');
   const blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});const url=URL.createObjectURL(blob);
-  const a=document.createElement('a');a.href=url;a.download=`mobimatch_${currentCourse}_${database.meta.semester.replace('.','-')}.csv`;a.click();
+  const a=document.createElement('a');a.href=url;a.download=`fluxo-continuo_${currentCourse}_${database.meta.semester.replace('.','-')}.csv`;a.click();
   setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 function attach() {

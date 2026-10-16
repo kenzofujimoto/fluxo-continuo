@@ -1,4 +1,4 @@
-/* MobiMatch Alpha: camadas de triagem de TODOS os cruzamentos elegíveis.
+/* Fluxo Contínuo: camadas de triagem de TODOS os cruzamentos elegíveis.
    Afini­dade de título não constitui equivalência nem parecer acadêmico. */
 'use strict';
 (async function () {
@@ -89,6 +89,6 @@
     }
     const csv='\ufeff'+output.map(function (r) {return r.map(function (cell) {let str=String(cell==null?'':cell);if(/^\s*[=+@-]/.test(str))str="'"+str;return '"'+str.replace(/"/g,'""')+'"';}).join(';');}).join('\r\n');
     const blob=new Blob([csv],{type:'text/csv;charset=utf-8'}),objectUrl=URL.createObjectURL(blob),a=document.createElement('a');
-    a.href=objectUrl;a.download='mobimatch_auditoria_6856_cruzamentos.csv';a.click();setTimeout(function(){URL.revokeObjectURL(objectUrl);},1000);
+    a.href=objectUrl;a.download='fluxo-continuo_auditoria_6856_cruzamentos.csv';a.click();setTimeout(function(){URL.revokeObjectURL(objectUrl);},1000);
   });
-})().catch(function (err) {console.error('MobiMatch triagem indisponível:',err);});
+})().catch(function (err) {console.error('Fluxo Contínuo triagem indisponível:',err);});

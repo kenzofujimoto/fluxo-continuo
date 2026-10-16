@@ -1,4 +1,4 @@
-/* MobiMatch Alpha — exploração móvel independente da tabela desktop. */
+/* Fluxo Contínuo — exploração móvel independente da tabela desktop. */
 'use strict';
 (function () {
   const root = document.getElementById('mobileExplorer');

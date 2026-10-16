@@ -1,4 +1,4 @@
-# Triagem de cobertura — MobiMatch Alpha (16/10/2026)
+# Triagem de cobertura — Fluxo Contínuo (16/10/2026)
 
 6.856 pares curso/disciplina/universidade **submetidos a triagem automática de nomes e metadados**, NÃO a cotejo completo de ementas. Não existe homologação acadêmica nesta base.
 
@@ -18,7 +18,7 @@ Fontes: planilha COI recebida; ementário Mackenzie; lista oficial UBB: https://
 
 ## Complemento de 16/10/2026
 
-Indexação ampliada para 44/66 universidades (1.808 títulos), 529 relações cadastradas e 438 pares com sugestões adicionais. São indicadores de registros com sobreposição, não homologações. Títulos e CFU de Ferrara, Tor Vergata e Salerno vieram de fontes oficiais 2026/27, sem leitura individual de todas as ementas nem comprovação de 2027.2. Houve auditoria de duplicidade de referências internas; candidatos ambíguos foram descartados em vez de receber equivalência inventada.
+Indexação ampliada para 44/66 universidades (1.838 títulos), 553 relações cadastradas e 438 pares com sugestões adicionais. São indicadores de registros com sobreposição, não homologações. Títulos e CFU de Ferrara, Tor Vergata e Salerno vieram de fontes oficiais 2026/27, sem leitura individual de todas as ementas nem comprovação de 2027.2. Houve auditoria de duplicidade de referências internas; candidatos ambíguos foram descartados em vez de receber equivalência inventada.
 
 **Não é correto chamar de "zero equivalências" a ausência de candidatas no banco parcial, nem chamar qualquer sugestão lexical de equivalência comprovada.**
 
