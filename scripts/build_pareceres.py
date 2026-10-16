@@ -258,8 +258,9 @@ def main(argv: list[str] | None = None) -> int:
             for f in p["foreign"]:
                 if (f["universityId"], f["code"]) not in known_foreign:
                     raise ParecerError(f"{p.get('id')}: foreign course {f['code']} not in catalogue")
-            br_doc = key in br_ok or bool(br_extra.get(key, {}).get("officialSyllabus"))
-            current = key in br_ok or bool(br_extra.get(key, {}).get("current"))
+            bprog = programs.get("brazil", {}).get(f"{key[0]}|{key[1]}", {})
+            br_doc = key in br_ok or bool(bprog.get("officialSyllabus")) or bool(br_extra.get(key, {}).get("officialSyllabus"))
+            current = key in br_ok or bool(bprog.get("current")) or bool(br_extra.get(key, {}).get("current"))
             docs_ok = br_doc and all((f["universityId"], f["code"]) in foreign_ok for f in p["foreign"])
             drift = crosscheck(p, programs)
             if drift:

@@ -117,3 +117,64 @@ def test_mackenzie_si_inline_layout_variants():
     assert b[0]["extensionPercent"] == 50.0
     # SI layout drops empty cells: weekly split cannot be read reliably
     assert b[0]["weekly"] is None
+
+
+# ---------- CCSA / Direito ficha layout ----------
+from program_fields import parse_ficha_blocks  # noqa: E402
+
+
+def test_ficha_blocks_read_name_hours_stage_ementa_and_content():
+    text = (FIX / "ccsa_ficha_excerpt.txt").read_text(encoding="utf-8")
+    blocks = {b["name"]: b for b in parse_ficha_blocks(text)}
+    amb = blocks["Ambiente Profissional do Administrador"]
+    assert amb["hours"] == 63.3 and amb["hourUnit"] == "hora_relogio"
+    assert amb["stage"] == 1
+    assert amb["ementa"].startswith("Estudo do conceito de organização")
+    assert "Tomada de decisão em administração" in amb["programContent"]
+    cts = blocks["Ciência, Tecnologia e Sociedade na Administração e nos Negócios"]
+    # '2 aulas' is a weekly class-period count, never semester hours
+    assert cts["hours"] is None and cts["weeklyClassPeriods"] == 2
+    assert cts["programContent"][0] == "Métodos de leitura científica"
+    info = blocks["Informática Básica para Administradores"]
+    assert info["hours"] == 31.7
+
+
+def test_ficha_weekly_law_hours():
+    txt = ("Nome do Componente Curricular: \nDIREITO CIVIL I \nCódigo do Componente Curricular: \n"
+           "Carga horária: 4 horas aula \nEtapa: 2ª \nEmenta: \nParte geral do Código Civil. Pessoas naturais e jurídicas. \n"
+           "Bibliografia Básica: \nX")
+    b = parse_ficha_blocks(txt)[0]
+    assert b["name"] == "DIREITO CIVIL I" and b["stage"] == 2
+    assert b["hours"] is None and b["weeklyClassPeriods"] == 4
+    assert b["ementa"] == "Parte geral do Código Civil. Pessoas naturais e jurídicas."
+
+
+def test_ficha_ignores_code_label_and_keeps_ementa_with_word_objetivos():
+    txt = ("Disciplina: Logística Empresarial \nCódigo \nda \nDisciplina: \nENEX01259 \nCarga horária: 63,3 \nhoras \n"
+           "Etapa: 6 \nEmenta: \nObjetivos financeiros e estudo dos objetivos do governo. \nConteúdo Programático: \n"
+           "1) Conceitos de logística; \n2. Serviço aos Clientes \nBibliografia Básica: \nX")
+    b = parse_ficha_blocks(txt)
+    assert [x["name"] for x in b] == ["Logística Empresarial"]
+    assert b[0]["hours"] == 63.3 and b[0]["stage"] == 6
+    assert b[0]["ementa"] == "Objetivos financeiros e estudo dos objetivos do governo."
+    assert b[0]["programContent"] == ["Conceitos de logística", "Serviço aos Clientes"]
+
+
+def test_ficha_code_label_does_not_swallow_next_header_and_small_hours_are_weekly():
+    txt = ("Disciplina: Logística Empresarial \nCódigo \nda \nDisciplina: \nENEX01259 \nCarga horária: 63,3 horas \n"
+           "Etapa: 6 \nEmenta: \nCaracterização dos recursos. \nBibliografia Básica: \nX\n"
+           "Disciplina: Metodologia de Pesquisa em Ciências Sociais \nAplicadas \nCódigo da Disciplina: \nENEX01329 \n"
+           "Carga horária: 4 horas \nEtapa: 6 \nEmenta: \nEstudo de métodos de pesquisa científica. \nBibliografia Básica: \nX")
+    b = {x["name"]: x for x in parse_ficha_blocks(txt)}
+    assert set(b) == {"Logística Empresarial", "Metodologia de Pesquisa em Ciências Sociais Aplicadas"}
+    met = b["Metodologia de Pesquisa em Ciências Sociais Aplicadas"]
+    assert met["hours"] is None and met["weeklyClassPeriods"] == 4
+
+
+def test_split_ementa_fine_breaks_long_legal_paragraphs_on_sentences_and_semicolons():
+    from program_fields import split_ementa_fine
+    t = ("Estudo do pluralismo jurídico. A análise suscita reflexões como: a discussão do pluralismo; "
+         "exame da aculturação jurídica; análise dos direitos humanos.")
+    assert split_ementa_fine(t) == ["Estudo do pluralismo jurídico",
+                                    "A análise suscita reflexões como: a discussão do pluralismo",
+                                    "exame da aculturação jurídica", "análise dos direitos humanos"]

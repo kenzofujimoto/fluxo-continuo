@@ -176,3 +176,68 @@ def split_ementa(ementa: str) -> list[str]:
     sep = ";" if ementa.count(";") >= max(1, ementa.count(". ")) else "."
     parts = [p.strip(" .;") for p in re.split(r";" if sep == ";" else r"\.(?:\s+|$)", ementa)]
     return [p for p in parts if len(p) >= 3]
+
+
+# The name may wrap lines but never contains another label; this stops a 'Código da Disciplina:' label
+# from swallowing the next component's header.
+_FICHA_NAME = re.compile(r"(?:Nome\s+do\s+Componente\s+Curricular|\bDisciplina)\s*:\s*((?:(?!Carga\s*hor|Disciplina\s*:|Ementa\s*:).){0,200}?)\s*C[oó]digo", re.S | re.I)
+
+
+def _items(block: str) -> list[str]:
+    """Numbered or line items of a 'Conteúdo Programático' section, keeping official wording."""
+    out = []
+    for line in block.splitlines():
+        line = _clean(line)
+        if not line or len(line) < 3:
+            continue
+        m = re.match(r"^(?:\d+(?:\.\d+)*[.)]?|[•\-–])\s*(.+)$", line)
+        if m:
+            out.append(m.group(1).strip(" .;"))
+        elif out and line[:1].islower():
+            out[-1] = (out[-1] + " " + line).strip(" .;")  # wrapped continuation of previous item
+        else:
+            out.append(line.strip(" .;"))
+    return [o for o in out if len(o) >= 3]
+
+
+def parse_ficha_blocks(text: str) -> list[dict]:
+    """CCSA (Administração) and Faculdade de Direito 'ficha' layout: one block per component.
+
+    'Carga horária: 63,3 horas' is a semester clock-hour total; 'N aulas' / 'N horas aula' is a weekly
+    class-period count and is kept apart (never multiplied into semester hours).
+    """
+    out = []
+    heads = [h for h in _FICHA_NAME.finditer(text)
+             if not re.search(r"C[oó]digo\s+(?:da|do)\s*$", text[max(0, h.start() - 25):h.start()], re.I)]
+    for i, m in enumerate(heads):
+        name = _clean(m.group(1))
+        if not name or re.match(r"(?i)c[oó]digo", name):
+            continue
+        end = heads[i + 1].start() if i + 1 < len(heads) else len(text)
+        seg = text[m.end():end]
+        hours = _num(_first(r"Carga\s*hor[aá]ria\s*:\s*([0-9]{1,3}(?:,[0-9]{1,2})?)\s*horas(?!\s*-?\s*aula)", seg))
+        weekly = _num(_first(r"Carga\s*hor[aá]ria\s*:\s*([0-9]{1,2})\s*(?:aulas|horas?\s*-?\s*aulas?)\b", seg))
+        if hours is not None and hours < 10:
+            # e.g. 'Carga horária: 4 horas' on a semester form is a weekly count, not a semester total
+            weekly, hours = weekly or int(hours), None
+        stage = _num(_first(r"Etapa\s*:\s*([0-9]{1,2})", seg))
+        # Section labels only end a section at line start ('objetivos do governo' inside an ementa must not).
+        em = re.search(r"\bEmenta\s*:?\s*\n?(.*?)(?=\n\s*(?:Conte[uú]do\s+Program[aá]tico|Bibliografia|Objetivos?(?:\s+\w+)?\s*:)|$)", seg, re.S | re.I)
+        cp = re.search(r"Conte[uú]do\s+Program[aá]tico\s*:?\s*(.*?)(?=\n\s*(?:Bibliografia|Metodologia|Crit[eé]rios?\s+de\s+avalia)|$)", seg, re.S | re.I)
+        out.append({
+            "name": name,
+            "stage": int(stage) if stage else None,
+            "hours": hours,
+            "hourUnit": "hora_relogio" if hours is not None else None,
+            "weeklyClassPeriods": int(weekly) if weekly else None,
+            "ementa": _clean(em.group(1)) if em else "",
+            "programContent": _items(cp.group(1)) if cp else [],
+        })
+    return out
+
+
+def split_ementa_fine(ementa: str) -> list[str]:
+    """Split long ficha ementas (Direito/Administração) on sentence ends AND semicolons."""
+    ementa = _clean(ementa)
+    parts = [p.strip(" .;") for p in re.split(r";|\.(?:\s+|$)", ementa)]
+    return [p for p in parts if len(p) >= 3]

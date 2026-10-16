@@ -28,7 +28,7 @@ import requests
 from bs4 import BeautifulSoup
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from program_fields import parse_mackenzie_blocks, parse_ubb, split_ementa  # noqa: E402
+from program_fields import parse_ficha_blocks, parse_mackenzie_blocks, parse_ubb, split_ementa, split_ementa_fine  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".cache"
@@ -136,6 +136,30 @@ def page_of(url: str, needle: str) -> int | None:
     return None
 
 
+def brazil_registry() -> list[dict]:
+    p = ROOT / "syllabi/fontes-brasileiras.json"
+    return json.loads(p.read_text(encoding="utf-8"))["sources"] if p.exists() else []
+
+
+def match_ficha_rows(course: dict, blocks: list[dict]) -> dict:
+    """Match matrix rows to ficha blocks by exact canonical title (stage must agree when both are known)."""
+    found = {}
+    for row in course["rows"]:
+        name = canonical(row["name"])
+        stage = row.get("semester")
+        cand = [b for b in blocks if canonical(b["name"]) == name and (b["stage"] is None or not stage or b["stage"] == stage)]
+        method = "titulo_exato"
+        if not cand:
+            # Documented abbreviations/articles only ('Adm.' -> 'Administração', 'para a' / 'da' / 'de').
+            alias = lambda s: re.sub(r"\b(?:A|DA|DE|DO|NA|NO)\b", " ", canonical(s).replace("ADM ", "ADMINISTRACAO "))
+            cand = [b for b in blocks if re.sub(r"\s+", " ", alias(b["name"])).strip() == re.sub(r"\s+", " ", alias(row["name"])).strip()
+                    and (b["stage"] is None or not stage or b["stage"] == stage)]
+            method = "titulo_normalizado_artigos"
+        if len(cand) == 1 and len(cand[0]["ementa"]) >= 45:
+            found[row.get("id") or row["name"]] = (cand[0], method)
+    return found
+
+
 def targets(only_host: str | None) -> tuple[list[tuple[str, dict]], list[str]]:
     rec = json.loads((ROOT / "syllabi/records.json").read_text(encoding="utf-8"))
     mack = json.loads((ROOT / "syllabi/mackenzie-docs.json").read_text(encoding="utf-8"))
@@ -144,7 +168,8 @@ def targets(only_host: str | None) -> tuple[list[tuple[str, dict]], list[str]]:
     foreign = [(r["document"], {"universityId": r["universityId"], "code": r["foreignCode"]})
                for r in rec["foreign"] if r["status"] == "ementa_individual" and r.get("document")]
     foreign += [(r["source"], {"universityId": r["universityId"], "code": r["code"]}) for r in extra.get("foreign", []) if r.get("source")]
-    br = sorted({u for u in mack["sources"]} | {r["source"] for r in extra.get("brazil", []) if r.get("source")})
+    br = sorted({u for u in mack["sources"]} | {r["source"] for r in extra.get("brazil", []) if r.get("source")}
+                | {r["url"] for r in brazil_registry()})
     if only_host:
         foreign = [x for x in foreign if only_host in (urlparse(x[0]).hostname or "")]
         br = [u for u in br if only_host in (urlparse(u).hostname or "")]
@@ -196,7 +221,42 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
                         "name": b["name"], "hours": b["hours"], "hourUnit": b["hourUnit"], "weekly": b["weekly"],
                         "optional": b["optional"], "ementa": b["ementa"], "topics": split_ementa(b["ementa"]),
                         "status": "lido"}
+    for k, v in progs_b.items():
+        if v.get("status") == "lido":
+            v.update({"officialSyllabus": True, "current": True, "currencyNote": "Ementário público FCI 2025, câmpus Alphaville"})
+    # Additional official Brazilian ementários (Administração, Direito 2022) with explicit currency flags.
+    courses = {c["id"]: c for c in data["courses"]}
+    by_course = {}
+    for src in brazil_registry():
+        url = src["url"]
+        if manifest.get(url, {}).get("status") != "lido" or not text_path(url).exists():
+            continue
+        txt = text_path(url).read_text(encoding="utf-8")
+        pages = txt.split("\n\f\n")
+        for b in parse_ficha_blocks(txt.replace("\n\f\n", "\n")):
+            b["src"] = src
+            b["page"] = next((i for i, pg in enumerate(pages, 1) if canonical(b["name"]) in canonical(pg)), None)
+            by_course.setdefault(src["courseId"], []).append(b)
+    for cid, blocks in by_course.items():
+        for code, (b, method) in match_ficha_rows(courses[cid], blocks).items():
+            key = f"{cid}|{code}"
+            if key in progs_b and progs_b[key].get("current"):
+                continue  # never replace a current FCI 2025 ementa by an older document
+            src = b["src"]
+            progs_b[key] = {"source": src["url"], "sha256": manifest.get(src["url"], {}).get("sha256"),
+                            "documentYear": src.get("documentYear"), "campus": src.get("campus"), "page": b["page"],
+                            "stage": b["stage"], "name": b["name"], "matchMethod": method,
+                            "hours": b["hours"], "hourUnit": b["hourUnit"],
+                            "weeklyClassPeriods": b["weeklyClassPeriods"], "ementa": b["ementa"],
+                            # The official 'Conteúdo Programático' is the finer topic list when present.
+                            "topics": b["programContent"] if len(b["programContent"]) >= 3 else split_ementa_fine(b["ementa"]),
+                            "topicSource": "conteudo_programatico" if len(b["programContent"]) >= 3 else "ementa",
+                            "programContent": b["programContent"],
+                            "officialSyllabus": True, "current": bool(src.get("current")),
+                            "currencyNote": src.get("currencyNote"), "provenance": src.get("provenance"), "status": "lido"}
     return {"meta": {"generated": NOW, "foreign": len(progs_f), "brazil": len(progs_b),
+                     "brazilByCourse": {c: sum(1 for k, v in progs_b.items() if k.startswith(c + "|") and v.get("status") == "lido") for c in ("cc", "si", "adm", "dir")},
+                     "brazilCurrent": sum(1 for v in progs_b.values() if v.get("current")),
                      "structuredForeign": sum(1 for v in progs_f.values() if v.get("layout") == "ubb_course_description"),
                      "policy": "Campos lidos de seções explícitas; nulos quando ausentes. ECTS nunca convertidos em horas."},
             "foreign": progs_f, "brazil": progs_b}
