@@ -43,7 +43,7 @@ def main():
         assert (r["foreignUniversityId"],r["foreignCode"]) in foreign
         f=foreign[r["foreignUniversityId"],r["foreignCode"]]
         assert f["status"]=="ementa_individual",(r["foreignCode"],"unverified foreign syllabus")
-        b=br["cc",r["mackCode"]]
+        b=br["cc",r["mackCode"].casefold()]
         assert b["status"]=="ementa_oficial_correspondente"
         assert r["courseId"]=="cc"
         assert r["hoursMackenzieDeclared"]==b["contactHoursDeclared"]
