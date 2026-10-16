@@ -75,3 +75,13 @@ Acesse http://localhost:8000. O projeto é estático, sem login nem Neon, com im
 - As ofertas de cursos e valores de exames podem mudar sem aviso; consulte sempre a COI, a universidade anfitriã e a coordenação antes de tomar decisões.
 
 **O MobiMatch Alpha não é afiliado nem endossado pelo Mackenzie e não emite pareceres acadêmicos.**
+
+## Cobertura verificável (16/10/2026)
+
+- **6.856** cruzamentos de disciplina Mackenzie x instituição elegível classificados; isso é triagem, **não** 6.856 equivalências verificadas.
+- **1.653** disciplinas estrangeiras com títulos indexados de catálogos/páginas oficiais de **41** universidades; **25** instituições da planilha ainda sem disciplinas indexadas.
+- **505** correspondências anteriormente cadastradas (incluem fortes candidatas, pré-análises e indícios de título), **439** pares com candidatos na passagem multilíngue adicional; conjuntos parcialmente sobrepostos.
+- Ementários brasileiros: **CC 47/47 com resumos**; **SI 41/46 com texto do ementário oficial de 2025**; **Direito 63/81 com texto do ementário oficial de 2022**; Administração ainda requer verificação de ementário próprio do campus e da matriz curricular de ingresso.
+- Fontes por registro estão expostas no site. Nenhuma correspondência está homologada pela coordenação; confirmar horas, conteúdo, idioma, pré-requisitos e oferta em **2027.2**.
+- Finis Terrae: malla oficial de Direito usada somente para títulos; Bologna: fichas individuais 2026/27. Códigos `CAT-*` e sufixos internos não são códigos acadêmicos oficiais.
+- **Próxima etapa indispensável**: indexar e ler ementas individuais das universidades ausentes e revisar par a par o conteúdo, carga e semestre. Não usar ausência de resultado como prova de incompatibilidade.
