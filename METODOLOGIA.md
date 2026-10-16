@@ -25,6 +25,10 @@ Foram examinados planos institucionais diversos, alguns históricos, além de cu
 
 **UEB:** 59 Engenharia de Sistemas e 57 Administração Geral, créditos locais, semestres e pré-requisitos, sem data identificável de vigência do PDF. **Alfa y Omega:** 132 unidades nas matrizes oficiais de Administração, Direito e Informática Administrativa, sem elegibilidade COI nos quatro cursos. **Lusíada Lisboa:** 84 unidades de Direito e Gestão em 2025/26, sem oferta futura garantida.
 
-**3.920** pares antes rotulados C/F foram reclassificados **I**: as disciplinas estrangeiras passaram a estar indexadas, mas os pares ainda exigem nova triagem lexical e confronto de ementas. O arquivo continua a ter **6.856** cruzamentos; essa quantidade **não indica que 6.856 ementas foram confrontadas**. Os **438** pares com sugestões da geração multilíngue anterior permanecem preliminares e não foram reprocessados após esta expansão.
+**3.920** pares históricos I reprocessados apenas por títulos: 140 afinidades lexicais, 279 cadastrados anteriormente, 142 com sugestão anterior e 3359 sem sinal lexical forte. Não implica incompatibilidade ou aprovação.
 
 O Brasil possui ementários incompletos: SI 41/46 extraídos, Direito 63/81 de edição antiga, Administração requer ementário validado. O resultado final de equivalência depende do Mackenzie, não deste projeto.
+
+## Rescreen conservador de nomes (16/10/2026)
+
+O cotejo automatizado da segunda rodada usa normalização multilíngue de títulos, Dice lexical ≥ 0,70, pelo menos dois termos em comum ou um título de termo único, e evita misturar códigos de sequência I/II distintos. As faixas 0–100 são pontuações de nome, **não percentuais de equivalência**. Ausência de sugestão S significa apenas ausência de sinal de título no catálogo indexado. Nenhum programa 2027/28 foi homologado.

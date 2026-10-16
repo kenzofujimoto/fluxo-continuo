@@ -17,11 +17,11 @@
 | Instituições com elegibilidade COI Sim em um dos quatro cursos | **55/66** |
 | Disciplinas estrangeiras com registro e fonte | **2.608** |
 | Relações preliminares e indícios cadastrados | **725** |
-| Pares com sugestões lexicais da rodada anterior | **438** |
+| Pares com sugestões lexicais (base atualizada) | **501** |
 | Cruzamentos elegíveis na triagem inicial | **6.856** |
 | Aproveitamentos formalmente homologados | **0** |
 
-**A indexação das 22 universidades pendentes foi concluída no nível mínimo de título e fonte acadêmica. Isso NÃO equivale a comparar integralmente todas as ementas.** Os 725 registros e 438 sugestões têm sobreposição, não devem ser somados e não são aprovações institucionais. As 11 universidades sem marcação COI Sim em nenhum dos quatro cursos têm registros documentais, mas não são destinos elegíveis para essas matrizes.
+**A indexação das 22 universidades pendentes foi concluída no nível mínimo de título e fonte acadêmica. Isso NÃO equivale a comparar integralmente todas as ementas.** Os 725 registros e 501 sugestões têm sobreposição, não devem ser somados e não são aprovações institucionais. As 11 universidades sem marcação COI Sim em nenhum dos quatro cursos têm registros documentais, mas não são destinos elegíveis para essas matrizes.
 
 ### Última expansão
 
@@ -30,7 +30,7 @@
 - **Universidade Lusíada Lisboa:** 84 disciplinas de Gestão e Direito da matriz de 2025/26.
 - **Outras 19 universidades:** matrizes e páginas acadêmicas catalogadas, incluindo IPCB, UPAL, Konkuk, Florence University of the Arts, Nevşehir, BML Munjal, ISG, Viaa e instituições sem elegibilidade COI.
 
-A triagem adicional tem **3.920 pares com estado I (indexação posterior: comparação individual pendente)**. Não houve nova análise automática de conteúdo destes pares. As fontes por instituição podem ser abertas na [cobertura](./cobertura.html) e em `data.json`.
+Os **3.920 pares** anteriormente marcados I receberam triagem de títulos: 140 pares apresentaram afinidades lexicais, 279 mantiveram candidatos manuais sem novo sinal, 142 mantiveram sugestões anteriores e 3359 ficaram sem indícios fortes nos catálogos parciais. Não houve cotejo de ementas ou CH.
 
 ## Como usar
 
@@ -90,7 +90,7 @@ Acesse http://localhost:8000. O projeto é estático, sem login nem Neon, com im
 - Foram extraídos 41 de 46 textos de ementas de SI e 63 de 81 de Direito; o ementário de Administração para a matriz correta permanece pendente.
 - Fontes institucionais agregadas: [Ferrara](https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o), [Tor Vergata](https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/) e [Salerno](https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti).
 - Códigos internos `CAT-*` não são códigos oficiais. O exame individual de cada ementa, carga horária e semestre permanece obrigatório.
-- O estado **I** sinaliza disciplina indexada posteriormente e pendência de nova análise por par; não é incompatibilidade.
+- Os pares I históricos foram reavaliados por título; S não significa incompatibilidade e P não significa equivalência.
 - Em caso de dúvida, siga a planilha atual da COI e a coordenação do Mackenzie. Não existe aproveitamento aprovado na base.
 
 Para validar o banco localmente, execute `node validate.js`.

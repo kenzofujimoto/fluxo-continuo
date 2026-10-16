@@ -12,4 +12,7 @@ const indexed=new Set();data.foreignCourses.forEach(f=>{const key=f.universityId
 data.matches.forEach(m=>{assert(indexed.has(m.universityId+'|'+m.foreignCode),'unresolved match');const course=data.courses.find(c=>c.id===m.courseId);assert(course&&course.rows.some(s=>s.id? s.id===m.mackCode:s.name.toLowerCase()===m.mackName.toLowerCase()),'unresolved Mackenzie course')});
 const seen=new Set();screen.pairs.forEach(p=>{const course=data.courses.find(c=>c.id===p[0]);const u=data.universities[p[2]];assert(course&&course.rows[p[1]]&&u?.courses?.[p[0]],'invalid triage pair');const key=p.slice(0,3).join('|');assert(!seen.has(key),'duplicate triage pair');seen.add(key);if(p[4])assert(indexed.has(u.id+'|'+p[4][0]),'invalid triage foreign course')});
 extra.pairs.forEach(p=>{const u=data.universities[p[2]],course=data.courses.find(c=>c.id===p[0]);assert(u&&course?.rows[p[1]],'invalid extra pair');p[3].forEach(x=>assert(indexed.has(u.id+'|'+x[0]),'invalid additional candidate'))});
+assert.equal(screen.pairs.filter(p=>p[3]==='I').length,0,'rescreen all former I pairs');
+assert.equal(extra.pairs.length,extra.meta.candidatePairCount,'extra pair count');
+assert.equal(screen.meta.foreignCatalogCount,data.foreignCourses.length,'catalogue count');
 console.log('OK: 66 universidades, 221 disciplinas Mackenzie, '+data.foreignCourses.length+' cursos estrangeiros, '+data.matches.length+' registros, '+screen.pairs.length+' pares triados.');
