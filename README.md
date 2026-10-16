@@ -3,31 +3,34 @@
 > **Projeto acadêmico independente e não oficial.** Pesquisa de possíveis aproveitamentos curriculares para o campus Mackenzie Alphaville, não homologações institucionais.
 
 **Site principal:** https://fluxo-continuo.vercel.app  
+**Cobertura por universidade:** https://fluxo-continuo.vercel.app/cobertura.html  
 **Página de idiomas:** https://fluxo-continuo.vercel.app/idiomas.html
 
 ## Estado auditado da base — 16/10/2026
 
-Os valores a seguir foram contados na base versionada em `data.json`, `triagem.json` e `candidatos-catalogo.json`. A cobertura documental não implica validação curricular.
-
 | Indicador | Quantidade |
 | --- | ---: |
-| Cursos brasileiros | 4 (Ciência da Computação, Sistemas de Informação, Administração, Direito) |
-| Componentes Mackenzie | 221 (CC 47, SI 46, Administração 47, Direito 81) |
-| Universidades listadas pela COI | 66 |
-| Universidades com ao menos um título estrangeiro indexado | **44** |
-| Disciplinas estrangeiras com título/catálogo indexado | **1.838** |
-| Correspondências e indícios registrados | **553** |
-| Pares da triagem adicional com alguma sugestão de título | **438** |
-| Cruzamentos disciplina × universidade elegível triados | **6.856** |
-| Aproveitamentos homologados | **0** |
+| Cursos Mackenzie | 4 (CC, SI, Administração e Direito) |
+| Componentes curriculares brasileiros | **221** (47 CC, 46 SI, 47 Administração, 81 Direito) |
+| Universidades da planilha COI | **66** |
+| Universidades com pelo menos uma disciplina individual indexada | **66/66** |
+| Instituições com elegibilidade COI Sim em um dos quatro cursos | **55/66** |
+| Disciplinas estrangeiras com registro e fonte | **2.608** |
+| Relações preliminares e indícios cadastrados | **725** |
+| Pares com sugestões lexicais da rodada anterior | **438** |
+| Cruzamentos elegíveis na triagem inicial | **6.856** |
+| Aproveitamentos formalmente homologados | **0** |
 
-As 553 correspondências e as sugestões adicionais podem coincidir: nunca somá-las como equivalências distintas. Há **22 universidades sem disciplinas indexadas**; parte dessas 22 não tem marcação Sim para nenhum dos quatro cursos. O projeto **não concluiu** o cotejo integral das ementas nem a verificação de todas as ofertas em 2027.2.
+**A indexação das 22 universidades pendentes foi concluída no nível mínimo de título e fonte acadêmica. Isso NÃO equivale a comparar integralmente todas as ementas.** Os 725 registros e 438 sugestões têm sobreposição, não devem ser somados e não são aprovações institucionais. As 11 universidades sem marcação COI Sim em nenhum dos quatro cursos têm registros documentais, mas não são destinos elegíveis para essas matrizes.
 
-A rodada de 16/10 também indexou o catálogo departamental oficial da [Soongsil](https://sec.ssu.ac.kr/page/subject_contents.php), com 31 títulos e resumos temáticos sem comprovação de disponibilidade para intercambistas. Um placeholder não verificado da Universidad Evangélica Boliviana foi removido.
+### Última expansão
 
-A rodada de 16/10 agregou **155 títulos oficiais** de Ferrara (13), Roma Tor Vergata (70) e Salerno (72), provenientes de catálogos institucionais 2026/27. Em Direito italiano, nomes semelhantes envolvem sistemas jurídicos diferentes. Foram removidas seis associações ambíguas e corrigidos códigos internos repetidos.
+- **Universidad Evangélica Boliviana:** 59 disciplinas de Engenharia de Sistemas e 57 de Administração Geral, com códigos institucionais, semestres, créditos locais CR e pré-requisitos em PDFs vinculados pela universidade; ano de vigência a confirmar.
+- **Universidad Alfa y Omega (México):** 42 disciplinas de Administração, 42 de Direito e 48 de Informática Administrativa em PDFs oficiais com códigos e semestre. A instituição não consta como elegível nos quatro cursos.
+- **Universidade Lusíada Lisboa:** 84 disciplinas de Gestão e Direito da matriz de 2025/26.
+- **Outras 19 universidades:** matrizes e páginas acadêmicas catalogadas, incluindo IPCB, UPAL, Konkuk, Florence University of the Arts, Nevşehir, BML Munjal, ISG, Viaa e instituições sem elegibilidade COI.
 
-Veja [cobertura por universidade e curso](./cobertura.html) para separar elegibilidade, indexação e pendências.
+A triagem adicional tem **3.920 pares com estado I (indexação posterior: comparação individual pendente)**. Não houve nova análise automática de conteúdo destes pares. As fontes por instituição podem ser abertas na [cobertura](./cobertura.html) e em `data.json`.
 
 ## Como usar
 
@@ -87,6 +90,7 @@ Acesse http://localhost:8000. O projeto é estático, sem login nem Neon, com im
 - Foram extraídos 41 de 46 textos de ementas de SI e 63 de 81 de Direito; o ementário de Administração para a matriz correta permanece pendente.
 - Fontes institucionais agregadas: [Ferrara](https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o), [Tor Vergata](https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/) e [Salerno](https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti).
 - Códigos internos `CAT-*` não são códigos oficiais. O exame individual de cada ementa, carga horária e semestre permanece obrigatório.
+- O estado **I** sinaliza disciplina indexada posteriormente e pendência de nova análise por par; não é incompatibilidade.
 - Em caso de dúvida, siga a planilha atual da COI e a coordenação do Mackenzie. Não existe aproveitamento aprovado na base.
 
 Para validar o banco localmente, execute `node validate.js`.
