@@ -281,9 +281,23 @@ export function getDiscipline(courseId: string, key: string) {
   const course = getRepository().courses.find(
     (course) => course.id === courseId,
   );
-  const row = course?.rows.find((row) => disciplineKey(row) === key);
+  let row = course?.rows.find((row) => disciplineKey(row) === key);
+  if (!row && key.includes("%")) {
+    try {
+      const decodedKey = decodeURIComponent(key);
+      row = course?.rows.find(
+        (candidate) => disciplineKey(candidate) === decodedKey,
+      );
+    } catch {
+      return undefined;
+    }
+  }
   return course && row
-    ? { course, row, program: getRepository().programs[`${courseId}|${key}`] }
+    ? {
+        course,
+        row,
+        program: getRepository().programs[`${courseId}|${disciplineKey(row)}`],
+      }
     : undefined;
 }
 export function searchDisciplines(query = "", courseId = "") {
