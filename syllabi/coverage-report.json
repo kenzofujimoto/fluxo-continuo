@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T13:47:06.594293+00:00",
+  "generated": "2026-10-16T13:54:40.346688+00:00",
   "definitions": {
     "individualSyllabus": "Automated document identity + syllabus criteria; independent human audit pending.",
     "withoutIndividualSyllabus": "A course is indexed but individual syllabus not established.",
@@ -9,9 +9,9 @@
   },
   "metrics": {
     "foreignTotal": 2608,
-    "foreignIndividual": 302,
-    "foreignMissingIndividual": 2306,
-    "foreignIndividualMissingHours": 245,
+    "foreignIndividual": 329,
+    "foreignMissingIndividual": 2279,
+    "foreignIndividualMissingHours": 271,
     "mackTotal": 221,
     "mackVerified": 75,
     "registeredCandidates": 725,
@@ -15058,379 +15058,6 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
-      "id": "es-26-universidaddej",
-      "name": "Universidad de Jaén",
-      "country": "Espanha",
-      "eligibleFor": [
-        "adm"
-      ],
-      "catalogued": 46,
-      "individualSyllabus": 16,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 30,
-      "withIndividualButMissingHours": 16,
-      "statuses": {
-        "pagina_com_conteudo": 29,
-        "ementa_individual": 16,
-        "catalogo_ou_matriz": 1
-      },
-      "samplePending": [
-        {
-          "code": "11911001",
-          "name": "Administración de empresas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html"
-        },
-        {
-          "code": "11912021",
-          "name": "Análisis y valoración de operaciones bancarias",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"
-        },
-        {
-          "code": "11912030",
-          "name": "Análisis y valoración de operaciones en los mercados financieros",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912030/es/2025-26-11912030_es.html"
-        },
-        {
-          "code": "11912022",
-          "name": "Auditoría de cuentas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912022/es/2025-26-11912022_es.html"
-        },
-        {
-          "code": "11912001",
-          "name": "Contabilidad de gestión",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912001/es/2025-26-11912001_es.html"
-        },
-        {
-          "code": "11912002",
-          "name": "Contabilidad financiera",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912002/es/2025-26-11912002_es.html"
-        },
-        {
-          "code": "11912023",
-          "name": "Contabilidad financiera II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912023/es/2025-26-11912023_es.html"
-        },
-        {
-          "code": "11912003",
-          "name": "Dirección de marketing I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html"
-        },
-        {
-          "code": "11912026",
-          "name": "Dirección de marketing III",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912026/es/2025-26-11912026_es.html"
-        },
-        {
-          "code": "11912012",
-          "name": "Dirección estratégica I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912012/es/2025-26-11912012_es.html"
-        },
-        {
-          "code": "11912027",
-          "name": "Dirección estratégica II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912027/es/2025-26-11912027_es.html"
-        },
-        {
-          "code": "11912013",
-          "name": "Dirección financiera I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912013/es/2025-26-11912013_es.html"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "11911001",
-          "name": "Administración de empresas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html"
-        },
-        {
-          "code": "11912021",
-          "name": "Análisis y valoración de operaciones bancarias",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"
-        },
-        {
-          "code": "11912030",
-          "name": "Análisis y valoración de operaciones en los mercados financieros",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912030/es/2025-26-11912030_es.html"
-        },
-        {
-          "code": "11912022",
-          "name": "Auditoría de cuentas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912022/es/2025-26-11912022_es.html"
-        },
-        {
-          "code": "11912001",
-          "name": "Contabilidad de gestión",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912001/es/2025-26-11912001_es.html"
-        },
-        {
-          "code": "11912002",
-          "name": "Contabilidad financiera",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912002/es/2025-26-11912002_es.html"
-        },
-        {
-          "code": "11912023",
-          "name": "Contabilidad financiera II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912023/es/2025-26-11912023_es.html"
-        },
-        {
-          "code": "11912003",
-          "name": "Dirección de marketing I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html"
-        },
-        {
-          "code": "11912026",
-          "name": "Dirección de marketing III",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912026/es/2025-26-11912026_es.html"
-        },
-        {
-          "code": "11912012",
-          "name": "Dirección estratégica I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912012/es/2025-26-11912012_es.html"
-        },
-        {
-          "code": "11912027",
-          "name": "Dirección estratégica II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912027/es/2025-26-11912027_es.html"
-        },
-        {
-          "code": "11912013",
-          "name": "Dirección financiera I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912013/es/2025-26-11912013_es.html"
-        },
-        {
-          "code": "11912014",
-          "name": "Dirección financiera II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912014/es/2025-26-11912014_es.html"
-        },
-        {
-          "code": "11912015",
-          "name": "Dirección y administración de la producción",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912015/es/2025-26-11912015_es.html"
-        },
-        {
-          "code": "11912017",
-          "name": "Econometría",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912017/es/2025-26-11912017_es.html"
-        },
-        {
-          "code": "11912018",
-          "name": "Economía española",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912018/es/2025-26-11912018_es.html"
-        },
-        {
-          "code": "11912019",
-          "name": "Economía mundial",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912019/es/2025-26-11912019_es.html"
-        },
-        {
-          "code": "11911002",
-          "name": "Estadística I",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911002/es/2025-26-11911002_es.html"
-        },
-        {
-          "code": "11912005",
-          "name": "Estadística II",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912005/es/2025-26-11912005_es.html"
-        },
-        {
-          "code": "11912006",
-          "name": "Estados financieros",
-          "status": "catalogo_ou_matriz",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912006/es/2025-26-11912006_es.html"
-        },
-        {
-          "code": "11911003",
-          "name": "Fundamentos de marketing",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911003/es/2025-26-11911003_es.html"
-        },
-        {
-          "code": "11912007",
-          "name": "Gestión de recursos humanos",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912007/es/2025-26-11912007_es.html"
-        },
-        {
-          "code": "11911005",
-          "name": "Introducción a la contabilidad",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911005/es/2025-26-11911005_es.html"
-        },
-        {
-          "code": "11911007",
-          "name": "Introducción a las finanzas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911007/es/2025-26-11911007_es.html"
-        },
-        {
-          "code": "11911008",
-          "name": "Introducción al derecho",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911008/es/2025-26-11911008_es.html"
-        },
-        {
-          "code": "11912020",
-          "name": "Investigación operativa",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912020/es/2025-26-11912020_es.html"
-        },
-        {
-          "code": "11912008",
-          "name": "Macroeconomía",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912008/es/2025-26-11912008_es.html"
-        },
-        {
-          "code": "11912034",
-          "name": "Sistemas informáticos aplicados al análisis financiero",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912034/es/2025-26-11912034_es.html"
-        },
-        {
-          "code": "11916001",
-          "name": "Trabajo fin de Grado - ADE",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11916001/es/2025-26-11916001_es.html"
-        },
-        {
-          "code": "11916002",
-          "name": "Trabajo fin de Grado - Finanzas",
-          "status": "pagina_com_conteudo",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11916002/es/2025-26-11916002_es.html"
-        }
-      ],
-      "syllabiMissingContactHours": [
-        {
-          "code": "11912031",
-          "name": "Contabilidad de gestión II",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912031/es/2025-26-11912031_es.html"
-        },
-        {
-          "code": "11912024",
-          "name": "Contabilidad financiera III",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912024/es/2025-26-11912024_es.html"
-        },
-        {
-          "code": "11912025",
-          "name": "Creación de empresas",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912025/es/2025-26-11912025_es.html"
-        },
-        {
-          "code": "11912011",
-          "name": "Dirección de marketing II",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912011/es/2025-26-11912011_es.html"
-        },
-        {
-          "code": "11912032",
-          "name": "Dirección internacional y cooperación empresarial",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912032/es/2025-26-11912032_es.html"
-        },
-        {
-          "code": "11912016",
-          "name": "Diseño y funcionamiento de la organización",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912016/es/2025-26-11912016_es.html"
-        },
-        {
-          "code": "11912004",
-          "name": "Economía del sector público",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912004/es/2025-26-11912004_es.html"
-        },
-        {
-          "code": "11912033",
-          "name": "Finanzas de mercado",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912033/es/2025-26-11912033_es.html"
-        },
-        {
-          "code": "11912028",
-          "name": "Gestión jurídico-laboral de la empresa",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912028/es/2025-26-11912028_es.html"
-        },
-        {
-          "code": "11911004",
-          "name": "Historia económica",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911004/es/2025-26-11911004_es.html"
-        },
-        {
-          "code": "11911006",
-          "name": "Introducción a la economía",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911006/es/2025-26-11911006_es.html"
-        },
-        {
-          "code": "11911009",
-          "name": "Matemáticas I",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911009/es/2025-26-11911009_es.html"
-        },
-        {
-          "code": "11912009",
-          "name": "Matemáticas II",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912009/es/2025-26-11912009_es.html"
-        },
-        {
-          "code": "11911010",
-          "name": "Microeconomía",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911010/es/2025-26-11911010_es.html"
-        },
-        {
-          "code": "11912029",
-          "name": "Régimen fiscal de la empresa",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912029/es/2025-26-11912029_es.html"
-        },
-        {
-          "code": "11912010",
-          "name": "Sistema financiero español",
-          "status": "ementa_sem_horas",
-          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912010/es/2025-26-11912010_es.html"
-        }
-      ],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
       "id": "fr-36-ecolenationale",
       "name": "École Nationale Superieure D'Architecture de Versailles - Ensa-V",
       "country": "França",
@@ -17919,6 +17546,939 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
+      "id": "pt-coimbra",
+      "name": "Universidade de Coimbra",
+      "country": "Portugal",
+      "eligibleFor": [
+        "cc",
+        "si",
+        "adm",
+        "dir"
+      ],
+      "catalogued": 144,
+      "individualSyllabus": 137,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 7,
+      "withIndividualButMissingHours": 137,
+      "statuses": {
+        "ementa_individual": 137,
+        "catalogo_ou_matriz": 7
+      },
+      "samplePending": [
+        {
+          "code": "93288",
+          "name": "Microeconomia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/93288/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18803",
+          "name": "Marketing",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/18803/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "19277",
+          "name": "Multimédia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/19277/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "83589",
+          "name": "Economia I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/83589/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91492",
+          "name": "Direito Fiscal II",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/91492/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91495",
+          "name": "Gestão de Recursos Humanos",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/91495/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91511",
+          "name": "Administração Ambiental",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/91511/24624/2026-2027?common_core=true&type=ram&id=11983"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "93288",
+          "name": "Microeconomia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/93288/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18803",
+          "name": "Marketing",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/18803/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "19277",
+          "name": "Multimédia",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/19277/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "83589",
+          "name": "Economia I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/83589/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91492",
+          "name": "Direito Fiscal II",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/91492/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91495",
+          "name": "Gestão de Recursos Humanos",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/91495/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91511",
+          "name": "Administração Ambiental",
+          "status": "catalogo_ou_matriz",
+          "source": "https://apps.uc.pt/courses/PT/unit/91511/24624/2026-2027?common_core=true&type=ram&id=11983"
+        }
+      ],
+      "syllabiMissingContactHours": [
+        {
+          "code": "02003476",
+          "name": "Computação Paralela",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/8910/22901/2026-2027?common_core=true&id=10541&type=ram"
+        },
+        {
+          "code": "2055894",
+          "name": "Automação no Desenvolvimento de Software",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97174/25123/2026-2027?id=5041&type=ram"
+        },
+        {
+          "code": "2038756",
+          "name": "Segurança e Privacidade",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/88926/25144/2026-2027?id=5041&type=ram"
+        },
+        {
+          "code": "2056078",
+          "name": "Governança de Sistemas e Dados",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97192/25141/2026-2027"
+        },
+        {
+          "code": "93282",
+          "name": "Direito Económico e Empresarial",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93282/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93283",
+          "name": "Informática para Economia e Gestão",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93283/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18449",
+          "name": "Introdução à Gestão",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18449/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93285",
+          "name": "Matemática para Economia e Gestão I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93285/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93295",
+          "name": "Princípios de Microeconomia",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93295/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93286",
+          "name": "Contabilidade Financeira",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93286/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93289",
+          "name": "Estatística para Economia e Gestão I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93289/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93287",
+          "name": "Matemática para Economia e Gestão II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93287/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93296",
+          "name": "Princípios de Macroeconomia",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93296/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18963",
+          "name": "Análise Financeira",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18963/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "82422",
+          "name": "Comportamento Organizacional",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/82422/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93290",
+          "name": "Estatística para Economia e Gestão II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93290/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "19521",
+          "name": "História Económica e Empresarial",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/19521/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "19111",
+          "name": "Contabilidade de Gestão",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/19111/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18964",
+          "name": "Estratégia Empresarial",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18964/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18278",
+          "name": "Gestão Financeira",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18278/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93305",
+          "name": "Gestão de Sistemas de Informação",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93305/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93318",
+          "name": "Modelação e Otimização em Gestão",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93318/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "94806",
+          "name": "FEUC Skills",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/94806/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18633",
+          "name": "Gestão de Operações",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18633/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93294",
+          "name": "Responsabilidade Ética e Sustentabilidade",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93294/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93362",
+          "name": "Empreendedorismo e Criação de Empresas",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93362/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93363",
+          "name": "Projeto Integrador",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93363/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18097",
+          "name": "Contabilidade das Sociedades",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18097/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93304",
+          "name": "Contabilidade e Desempenho Financeiro da Empresa",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93304/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "102117",
+          "name": "Contratação Laboral na Era Digital",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/102117/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18805",
+          "name": "Contratos Internacionais",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18805/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "91827",
+          "name": "Cooperação para o Desenvolvimento",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91827/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93315",
+          "name": "Cálculo e Instrumentos Financeiros",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93315/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93316",
+          "name": "Decisão em Incerteza e Simulação",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93316/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93317",
+          "name": "Desenvolvimentos de Contabilidade Financeira",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93317/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "91808",
+          "name": "Diplomacia e Negociação",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91808/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "76202",
+          "name": "Direito das Sociedades",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/76202/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18800",
+          "name": "Direito do Trabalho",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18800/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18467",
+          "name": "Economia Bancária",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18467/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18468",
+          "name": "Economia da Saúde",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18468/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18648",
+          "name": "Economia do Ambiente",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18648/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "102115",
+          "name": "Equações de Diferenças e Aplicações",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/102115/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18628",
+          "name": "Fiscalidade",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18628/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93320",
+          "name": "Gestão da Cadeia de Abastecimento",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93320/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93364",
+          "name": "Gestão de Marcas",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93364/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18267",
+          "name": "Gestão e Pessoas",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18267/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "18098",
+          "name": "Gestão pela Qualidade Total",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/18098/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "102118",
+          "name": "Governance e Reestruturação Empresarial",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/102118/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93309",
+          "name": "História da Empresa e da Inovação",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93309/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "90505",
+          "name": "Inovação e Gestão do Conhecimento",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/90505/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93365",
+          "name": "Introdução ao Marketing Digital",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93365/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "80046",
+          "name": "Marketing Relacional",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/80046/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93321",
+          "name": "Negócios Internacionais e Governança Global",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93321/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93308",
+          "name": "Organizações da Economia Social",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93308/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93302",
+          "name": "Programação e Ciência dos Dados",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93302/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "01621336",
+          "name": "Sociologia das Organizações",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/19129/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93322",
+          "name": "Tributação Empresarial Internacional",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93322/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "93301",
+          "name": "R para Economia e Gestão",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/93301/23001/2026-2027?common_core=true&type=ram&id=10622"
+        },
+        {
+          "code": "83588",
+          "name": "História da Administração Pública I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83588/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91483",
+          "name": "Métodos Quantitativos Aplicados à Administração Pública I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91483/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91482",
+          "name": "Noções de Direito Privado e de Direito Público I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91482/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91484",
+          "name": "Políticas Públicas",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91484/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "21120",
+          "name": "Contabilidade Financeira",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/21120/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "83584",
+          "name": "Economia II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83584/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "83586",
+          "name": "Finanças Públicas I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83586/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "83583",
+          "name": "História da Administração Pública II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83583/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91486",
+          "name": "Noções de Direito Privado e de Direito Público II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91486/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "83595",
+          "name": "Ciência Política",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83595/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91490",
+          "name": "Contabilidade Pública",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91490/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91487",
+          "name": "Direito Administrativo I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91487/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91489",
+          "name": "Direito Fiscal I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91489/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91488",
+          "name": "Métodos Quantitativos Aplicados à Administração Pública II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91488/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91491",
+          "name": "Direito Administrativo II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91491/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "83598",
+          "name": "Direito das Empresas Públicas",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83598/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91493",
+          "name": "Finanças Empresariais",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91493/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "83600",
+          "name": "Teoria da Organização",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83600/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91496",
+          "name": "Administração Pública Europeia",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91496/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91503",
+          "name": "Análise de Dados e Gestão de Informação I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91503/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91494",
+          "name": "Auditoria I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91494/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "21375",
+          "name": "Gestão da Qualidade",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/21375/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91506",
+          "name": "Análise de Dados e Gestão de Informação II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91506/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91505",
+          "name": "Auditoria II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91505/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "21107",
+          "name": "Direito Público da Economia",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/21107/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91504",
+          "name": "Direito do Trabalho da Administração Pública",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91504/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91508",
+          "name": "Governação Eletrónica",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91508/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "88222",
+          "name": "Ciência da Administração",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/88222/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "83606",
+          "name": "Marketing Estratégico",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83606/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "83607",
+          "name": "Modelos de Governação",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83607/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91510",
+          "name": "Direito da Segurança Social",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91510/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91509",
+          "name": "Finanças Públicas II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91509/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "91512",
+          "name": "Governo Local",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/91512/24624/2026-2027?common_core=true&type=ram&id=11983"
+        },
+        {
+          "code": "20923",
+          "name": "Direito Internacional Público I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/20923/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22402",
+          "name": "Direito Romano",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22402/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22383",
+          "name": "História do Direito Português",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22383/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100125",
+          "name": "Direito Constitucional",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100125/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100136",
+          "name": "Economia Política",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100136/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100137",
+          "name": "Introdução ao Direito",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100137/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97266",
+          "name": "Direito Internacional Público e Direitos Humanos",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97266/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "83165",
+          "name": "História do Direito Luso-Brasileiro",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83165/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "20921",
+          "name": "Finanças Públicas I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/20921/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "20920",
+          "name": "Direito Fiscal I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/20920/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100124",
+          "name": "Direito Administrativo",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100124/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100126",
+          "name": "Direito da União Europeia",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100126/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100140",
+          "name": "Teoria Geral do Direito Civil",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100140/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97282",
+          "name": "Direito Coletivo do Trabalho",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97282/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97263",
+          "name": "Direito Climático e Ambiental",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97263/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97264",
+          "name": "Direito e Políticas Públicas",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97264/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "21144",
+          "name": "Finanças Públicas II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/21144/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100133",
+          "name": "Direito Processual Administrativo",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100133/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22389",
+          "name": "Direito da Família e dos Menores",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22389/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100130",
+          "name": "Direito do Trabalho",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100130/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100131",
+          "name": "Direito Penal",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100131/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100134",
+          "name": "Direito Processual Civil",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100134/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100128",
+          "name": "Direito das Obrigações",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100128/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "21139",
+          "name": "Contratos Públicos",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/21139/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97271",
+          "name": "Criminologia",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97271/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97267",
+          "name": "Inglês Jurídico",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97267/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100139",
+          "name": "Medicina Legal",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100139/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22391",
+          "name": "Direito Comercial I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22391/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22387",
+          "name": "Direito Internacional Privado",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22387/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100132",
+          "name": "Direito Penal II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100132/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100127",
+          "name": "Direito das Coisas I",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100127/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22232",
+          "name": "Metodologia do Direito",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22232/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22233",
+          "name": "Direito Comercial II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22233/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22231",
+          "name": "Direito Patrimonial da Família e Sucessões",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22231/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100135",
+          "name": "Direito Processual Civil Executivo",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100135/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22230",
+          "name": "Direito Processual Penal",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22230/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "21138",
+          "name": "Contratos Civis",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/21138/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97262",
+          "name": "Cooperação Internacional em Matéria Penal",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97262/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97265",
+          "name": "Direito Fiscal Internacional e das Empresas",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97265/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "83162",
+          "name": "Direito Luso-Chinês",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83162/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "83982",
+          "name": "Direito da Informática",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83982/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "83262",
+          "name": "Direito das Coisas II",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/83262/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "22832",
+          "name": "Direito dos Registos e do Notariado",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/22832/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "100123",
+          "name": "Organização Judiciária",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/100123/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97269",
+          "name": "Pensamento Jurídico Contemporâneo",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97269/25802/2025-2026?common_core=true&type=ram&id=1556"
+        },
+        {
+          "code": "97268",
+          "name": "Processo Civil Internacional e Conflito de Leis",
+          "status": "ementa_sem_horas",
+          "source": "https://apps.uc.pt/courses/PT/unit/97268/25802/2025-2026?common_core=true&type=ram&id=1556"
+        }
+      ],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
       "id": "ro-babes",
       "name": "Babeș-Bolyai University",
       "country": "Romênia",
@@ -19076,921 +19636,6 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
-      "id": "pt-coimbra",
-      "name": "Universidade de Coimbra",
-      "country": "Portugal",
-      "eligibleFor": [
-        "cc",
-        "si",
-        "adm",
-        "dir"
-      ],
-      "catalogued": 144,
-      "individualSyllabus": 140,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 4,
-      "withIndividualButMissingHours": 140,
-      "statuses": {
-        "ementa_individual": 140,
-        "catalogo_ou_matriz": 4
-      },
-      "samplePending": [
-        {
-          "code": "18803",
-          "name": "Marketing",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/18803/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "19277",
-          "name": "Multimédia",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/19277/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "83589",
-          "name": "Economia I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/83589/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91511",
-          "name": "Administração Ambiental",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/91511/24624/2026-2027?common_core=true&type=ram&id=11983"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "18803",
-          "name": "Marketing",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/18803/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "19277",
-          "name": "Multimédia",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/19277/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "83589",
-          "name": "Economia I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/83589/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91511",
-          "name": "Administração Ambiental",
-          "status": "catalogo_ou_matriz",
-          "source": "https://apps.uc.pt/courses/PT/unit/91511/24624/2026-2027?common_core=true&type=ram&id=11983"
-        }
-      ],
-      "syllabiMissingContactHours": [
-        {
-          "code": "02003476",
-          "name": "Computação Paralela",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/8910/22901/2026-2027?common_core=true&id=10541&type=ram"
-        },
-        {
-          "code": "2055894",
-          "name": "Automação no Desenvolvimento de Software",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97174/25123/2026-2027?id=5041&type=ram"
-        },
-        {
-          "code": "2038756",
-          "name": "Segurança e Privacidade",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/88926/25144/2026-2027?id=5041&type=ram"
-        },
-        {
-          "code": "2056078",
-          "name": "Governança de Sistemas e Dados",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97192/25141/2026-2027"
-        },
-        {
-          "code": "93282",
-          "name": "Direito Económico e Empresarial",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93282/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93283",
-          "name": "Informática para Economia e Gestão",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93283/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18449",
-          "name": "Introdução à Gestão",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18449/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93285",
-          "name": "Matemática para Economia e Gestão I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93285/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93295",
-          "name": "Princípios de Microeconomia",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93295/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93286",
-          "name": "Contabilidade Financeira",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93286/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93289",
-          "name": "Estatística para Economia e Gestão I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93289/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93287",
-          "name": "Matemática para Economia e Gestão II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93287/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93288",
-          "name": "Microeconomia",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93288/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93296",
-          "name": "Princípios de Macroeconomia",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93296/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18963",
-          "name": "Análise Financeira",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18963/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "82422",
-          "name": "Comportamento Organizacional",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/82422/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93290",
-          "name": "Estatística para Economia e Gestão II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93290/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "19521",
-          "name": "História Económica e Empresarial",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/19521/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "19111",
-          "name": "Contabilidade de Gestão",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/19111/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18964",
-          "name": "Estratégia Empresarial",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18964/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18278",
-          "name": "Gestão Financeira",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18278/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93305",
-          "name": "Gestão de Sistemas de Informação",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93305/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93318",
-          "name": "Modelação e Otimização em Gestão",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93318/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "94806",
-          "name": "FEUC Skills",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/94806/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18633",
-          "name": "Gestão de Operações",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18633/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93294",
-          "name": "Responsabilidade Ética e Sustentabilidade",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93294/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93362",
-          "name": "Empreendedorismo e Criação de Empresas",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93362/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93363",
-          "name": "Projeto Integrador",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93363/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18097",
-          "name": "Contabilidade das Sociedades",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18097/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93304",
-          "name": "Contabilidade e Desempenho Financeiro da Empresa",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93304/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "102117",
-          "name": "Contratação Laboral na Era Digital",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/102117/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18805",
-          "name": "Contratos Internacionais",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18805/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "91827",
-          "name": "Cooperação para o Desenvolvimento",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91827/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93315",
-          "name": "Cálculo e Instrumentos Financeiros",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93315/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93316",
-          "name": "Decisão em Incerteza e Simulação",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93316/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93317",
-          "name": "Desenvolvimentos de Contabilidade Financeira",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93317/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "91808",
-          "name": "Diplomacia e Negociação",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91808/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "76202",
-          "name": "Direito das Sociedades",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/76202/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18800",
-          "name": "Direito do Trabalho",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18800/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18467",
-          "name": "Economia Bancária",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18467/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18468",
-          "name": "Economia da Saúde",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18468/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18648",
-          "name": "Economia do Ambiente",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18648/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "102115",
-          "name": "Equações de Diferenças e Aplicações",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/102115/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18628",
-          "name": "Fiscalidade",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18628/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93320",
-          "name": "Gestão da Cadeia de Abastecimento",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93320/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93364",
-          "name": "Gestão de Marcas",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93364/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18267",
-          "name": "Gestão e Pessoas",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18267/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "18098",
-          "name": "Gestão pela Qualidade Total",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/18098/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "102118",
-          "name": "Governance e Reestruturação Empresarial",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/102118/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93309",
-          "name": "História da Empresa e da Inovação",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93309/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "90505",
-          "name": "Inovação e Gestão do Conhecimento",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/90505/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93365",
-          "name": "Introdução ao Marketing Digital",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93365/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "80046",
-          "name": "Marketing Relacional",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/80046/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93321",
-          "name": "Negócios Internacionais e Governança Global",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93321/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93308",
-          "name": "Organizações da Economia Social",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93308/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93302",
-          "name": "Programação e Ciência dos Dados",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93302/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "01621336",
-          "name": "Sociologia das Organizações",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/19129/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93322",
-          "name": "Tributação Empresarial Internacional",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93322/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "93301",
-          "name": "R para Economia e Gestão",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/93301/23001/2026-2027?common_core=true&type=ram&id=10622"
-        },
-        {
-          "code": "83588",
-          "name": "História da Administração Pública I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83588/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91483",
-          "name": "Métodos Quantitativos Aplicados à Administração Pública I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91483/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91482",
-          "name": "Noções de Direito Privado e de Direito Público I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91482/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91484",
-          "name": "Políticas Públicas",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91484/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "21120",
-          "name": "Contabilidade Financeira",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/21120/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "83584",
-          "name": "Economia II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83584/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "83586",
-          "name": "Finanças Públicas I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83586/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "83583",
-          "name": "História da Administração Pública II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83583/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91486",
-          "name": "Noções de Direito Privado e de Direito Público II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91486/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "83595",
-          "name": "Ciência Política",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83595/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91490",
-          "name": "Contabilidade Pública",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91490/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91487",
-          "name": "Direito Administrativo I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91487/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91489",
-          "name": "Direito Fiscal I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91489/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91488",
-          "name": "Métodos Quantitativos Aplicados à Administração Pública II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91488/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91491",
-          "name": "Direito Administrativo II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91491/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91492",
-          "name": "Direito Fiscal II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91492/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "83598",
-          "name": "Direito das Empresas Públicas",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83598/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91493",
-          "name": "Finanças Empresariais",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91493/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "83600",
-          "name": "Teoria da Organização",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83600/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91496",
-          "name": "Administração Pública Europeia",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91496/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91503",
-          "name": "Análise de Dados e Gestão de Informação I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91503/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91494",
-          "name": "Auditoria I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91494/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "21375",
-          "name": "Gestão da Qualidade",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/21375/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91495",
-          "name": "Gestão de Recursos Humanos",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91495/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91506",
-          "name": "Análise de Dados e Gestão de Informação II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91506/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91505",
-          "name": "Auditoria II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91505/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "21107",
-          "name": "Direito Público da Economia",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/21107/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91504",
-          "name": "Direito do Trabalho da Administração Pública",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91504/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91508",
-          "name": "Governação Eletrónica",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91508/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "88222",
-          "name": "Ciência da Administração",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/88222/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "83606",
-          "name": "Marketing Estratégico",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83606/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "83607",
-          "name": "Modelos de Governação",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83607/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91510",
-          "name": "Direito da Segurança Social",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91510/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91509",
-          "name": "Finanças Públicas II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91509/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "91512",
-          "name": "Governo Local",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/91512/24624/2026-2027?common_core=true&type=ram&id=11983"
-        },
-        {
-          "code": "20923",
-          "name": "Direito Internacional Público I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/20923/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22402",
-          "name": "Direito Romano",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22402/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22383",
-          "name": "História do Direito Português",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22383/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100125",
-          "name": "Direito Constitucional",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100125/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100136",
-          "name": "Economia Política",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100136/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100137",
-          "name": "Introdução ao Direito",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100137/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97266",
-          "name": "Direito Internacional Público e Direitos Humanos",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97266/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "83165",
-          "name": "História do Direito Luso-Brasileiro",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83165/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "20921",
-          "name": "Finanças Públicas I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/20921/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "20920",
-          "name": "Direito Fiscal I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/20920/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100124",
-          "name": "Direito Administrativo",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100124/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100126",
-          "name": "Direito da União Europeia",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100126/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100140",
-          "name": "Teoria Geral do Direito Civil",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100140/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97282",
-          "name": "Direito Coletivo do Trabalho",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97282/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97263",
-          "name": "Direito Climático e Ambiental",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97263/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97264",
-          "name": "Direito e Políticas Públicas",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97264/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "21144",
-          "name": "Finanças Públicas II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/21144/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100133",
-          "name": "Direito Processual Administrativo",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100133/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22389",
-          "name": "Direito da Família e dos Menores",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22389/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100130",
-          "name": "Direito do Trabalho",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100130/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100131",
-          "name": "Direito Penal",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100131/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100134",
-          "name": "Direito Processual Civil",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100134/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100128",
-          "name": "Direito das Obrigações",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100128/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "21139",
-          "name": "Contratos Públicos",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/21139/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97271",
-          "name": "Criminologia",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97271/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97267",
-          "name": "Inglês Jurídico",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97267/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100139",
-          "name": "Medicina Legal",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100139/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22391",
-          "name": "Direito Comercial I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22391/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22387",
-          "name": "Direito Internacional Privado",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22387/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100132",
-          "name": "Direito Penal II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100132/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100127",
-          "name": "Direito das Coisas I",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100127/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22232",
-          "name": "Metodologia do Direito",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22232/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22233",
-          "name": "Direito Comercial II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22233/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22231",
-          "name": "Direito Patrimonial da Família e Sucessões",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22231/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100135",
-          "name": "Direito Processual Civil Executivo",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100135/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22230",
-          "name": "Direito Processual Penal",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22230/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "21138",
-          "name": "Contratos Civis",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/21138/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97262",
-          "name": "Cooperação Internacional em Matéria Penal",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97262/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97265",
-          "name": "Direito Fiscal Internacional e das Empresas",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97265/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "83162",
-          "name": "Direito Luso-Chinês",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83162/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "83982",
-          "name": "Direito da Informática",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83982/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "83262",
-          "name": "Direito das Coisas II",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/83262/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "22832",
-          "name": "Direito dos Registos e do Notariado",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/22832/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "100123",
-          "name": "Organização Judiciária",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/100123/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97269",
-          "name": "Pensamento Jurídico Contemporâneo",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97269/25802/2025-2026?common_core=true&type=ram&id=1556"
-        },
-        {
-          "code": "97268",
-          "name": "Processo Civil Internacional e Conflito de Leis",
-          "status": "ementa_sem_horas",
-          "source": "https://apps.uc.pt/courses/PT/unit/97268/25802/2025-2026?common_core=true&type=ram&id=1556"
-        }
-      ],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
       "id": "pt-utad",
       "name": "Universidade de Trás-os-Montes e Alto Douro",
       "country": "Portugal",
@@ -20466,6 +20111,297 @@
       ],
       "syllabiMissingContactHours": [],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
+      "id": "es-26-universidaddej",
+      "name": "Universidad de Jaén",
+      "country": "Espanha",
+      "eligibleFor": [
+        "adm"
+      ],
+      "catalogued": 46,
+      "individualSyllabus": 46,
+      "individualWithContactHours": 1,
+      "withoutIndividualSyllabus": 0,
+      "withIndividualButMissingHours": 45,
+      "statuses": {
+        "ementa_individual": 46
+      },
+      "samplePending": [],
+      "pendingForeign": [],
+      "syllabiMissingContactHours": [
+        {
+          "code": "11911001",
+          "name": "Administración de empresas",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html"
+        },
+        {
+          "code": "11912021",
+          "name": "Análisis y valoración de operaciones bancarias",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912021/es/2025-26-11912021_es.html"
+        },
+        {
+          "code": "11912030",
+          "name": "Análisis y valoración de operaciones en los mercados financieros",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912030/es/2025-26-11912030_es.html"
+        },
+        {
+          "code": "11912022",
+          "name": "Auditoría de cuentas",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912022/es/2025-26-11912022_es.html"
+        },
+        {
+          "code": "11912001",
+          "name": "Contabilidad de gestión",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912001/es/2025-26-11912001_es.html"
+        },
+        {
+          "code": "11912031",
+          "name": "Contabilidad de gestión II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912031/es/2025-26-11912031_es.html"
+        },
+        {
+          "code": "11912002",
+          "name": "Contabilidad financiera",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912002/es/2025-26-11912002_es.html"
+        },
+        {
+          "code": "11912023",
+          "name": "Contabilidad financiera II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912023/es/2025-26-11912023_es.html"
+        },
+        {
+          "code": "11912024",
+          "name": "Contabilidad financiera III",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912024/es/2025-26-11912024_es.html"
+        },
+        {
+          "code": "11912025",
+          "name": "Creación de empresas",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912025/es/2025-26-11912025_es.html"
+        },
+        {
+          "code": "11912003",
+          "name": "Dirección de marketing I",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html"
+        },
+        {
+          "code": "11912011",
+          "name": "Dirección de marketing II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912011/es/2025-26-11912011_es.html"
+        },
+        {
+          "code": "11912026",
+          "name": "Dirección de marketing III",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912026/es/2025-26-11912026_es.html"
+        },
+        {
+          "code": "11912012",
+          "name": "Dirección estratégica I",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912012/es/2025-26-11912012_es.html"
+        },
+        {
+          "code": "11912027",
+          "name": "Dirección estratégica II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912027/es/2025-26-11912027_es.html"
+        },
+        {
+          "code": "11912013",
+          "name": "Dirección financiera I",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912013/es/2025-26-11912013_es.html"
+        },
+        {
+          "code": "11912014",
+          "name": "Dirección financiera II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912014/es/2025-26-11912014_es.html"
+        },
+        {
+          "code": "11912032",
+          "name": "Dirección internacional y cooperación empresarial",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912032/es/2025-26-11912032_es.html"
+        },
+        {
+          "code": "11912015",
+          "name": "Dirección y administración de la producción",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912015/es/2025-26-11912015_es.html"
+        },
+        {
+          "code": "11912016",
+          "name": "Diseño y funcionamiento de la organización",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912016/es/2025-26-11912016_es.html"
+        },
+        {
+          "code": "11912017",
+          "name": "Econometría",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912017/es/2025-26-11912017_es.html"
+        },
+        {
+          "code": "11912004",
+          "name": "Economía del sector público",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912004/es/2025-26-11912004_es.html"
+        },
+        {
+          "code": "11912018",
+          "name": "Economía española",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912018/es/2025-26-11912018_es.html"
+        },
+        {
+          "code": "11912019",
+          "name": "Economía mundial",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912019/es/2025-26-11912019_es.html"
+        },
+        {
+          "code": "11911002",
+          "name": "Estadística I",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911002/es/2025-26-11911002_es.html"
+        },
+        {
+          "code": "11912005",
+          "name": "Estadística II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912005/es/2025-26-11912005_es.html"
+        },
+        {
+          "code": "11912006",
+          "name": "Estados financieros",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912006/es/2025-26-11912006_es.html"
+        },
+        {
+          "code": "11912033",
+          "name": "Finanzas de mercado",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912033/es/2025-26-11912033_es.html"
+        },
+        {
+          "code": "11911003",
+          "name": "Fundamentos de marketing",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911003/es/2025-26-11911003_es.html"
+        },
+        {
+          "code": "11912028",
+          "name": "Gestión jurídico-laboral de la empresa",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912028/es/2025-26-11912028_es.html"
+        },
+        {
+          "code": "11911004",
+          "name": "Historia económica",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911004/es/2025-26-11911004_es.html"
+        },
+        {
+          "code": "11911005",
+          "name": "Introducción a la contabilidad",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911005/es/2025-26-11911005_es.html"
+        },
+        {
+          "code": "11911006",
+          "name": "Introducción a la economía",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911006/es/2025-26-11911006_es.html"
+        },
+        {
+          "code": "11911007",
+          "name": "Introducción a las finanzas",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911007/es/2025-26-11911007_es.html"
+        },
+        {
+          "code": "11911008",
+          "name": "Introducción al derecho",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911008/es/2025-26-11911008_es.html"
+        },
+        {
+          "code": "11912020",
+          "name": "Investigación operativa",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912020/es/2025-26-11912020_es.html"
+        },
+        {
+          "code": "11912008",
+          "name": "Macroeconomía",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912008/es/2025-26-11912008_es.html"
+        },
+        {
+          "code": "11911009",
+          "name": "Matemáticas I",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911009/es/2025-26-11911009_es.html"
+        },
+        {
+          "code": "11912009",
+          "name": "Matemáticas II",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912009/es/2025-26-11912009_es.html"
+        },
+        {
+          "code": "11911010",
+          "name": "Microeconomía",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911010/es/2025-26-11911010_es.html"
+        },
+        {
+          "code": "11912029",
+          "name": "Régimen fiscal de la empresa",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912029/es/2025-26-11912029_es.html"
+        },
+        {
+          "code": "11912010",
+          "name": "Sistema financiero español",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912010/es/2025-26-11912010_es.html"
+        },
+        {
+          "code": "11912034",
+          "name": "Sistemas informáticos aplicados al análisis financiero",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912034/es/2025-26-11912034_es.html"
+        },
+        {
+          "code": "11916001",
+          "name": "Trabajo fin de Grado - ADE",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11916001/es/2025-26-11916001_es.html"
+        },
+        {
+          "code": "11916002",
+          "name": "Trabajo fin de Grado - Finanzas",
+          "status": "ementa_sem_horas",
+          "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11916002/es/2025-26-11916002_es.html"
+        }
+      ],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     }
   ],
   "mackenzieCourses": [
@@ -20901,8 +20837,8 @@
       ],
       "candidates": 231,
       "candidatePhases": {
-        "falta_ementa_estrangeira_individual": 199,
-        "falta_ementa_brasileira_validada": 32
+        "falta_ementa_estrangeira_individual": 191,
+        "falta_ementa_brasileira_validada": 40
       },
       "individualReviews": 0
     },
