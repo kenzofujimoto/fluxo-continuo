@@ -41,7 +41,7 @@ jobs:
                   if tag=="script" and self.in_script:
                       self.code.append(self.current)
                       self.in_script=False
-          for name in ["index.html","ementas.html","analises.html"]:
+          for name in ["index.html","ementas.html","analises.html","pendencias.html"]:
               reader=Reader()
               reader.feed(pathlib.Path(name).read_text(encoding="utf-8"))
               for n,code in enumerate(reader.code):
