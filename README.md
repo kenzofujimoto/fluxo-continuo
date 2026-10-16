@@ -4,6 +4,8 @@
 
 **Site principal:** https://fluxo-continuo.vercel.app  
 **Acervo de ementas e evidências:** https://fluxo-continuo.vercel.app/ementas.html  
+**Pendências por disciplina e universidade:** https://fluxo-continuo.vercel.app/pendencias.html  
+**Comparações curriculares:** https://fluxo-continuo.vercel.app/analises.html  
 **Cobertura por universidade:** https://fluxo-continuo.vercel.app/cobertura.html  
 **Página de idiomas:** https://fluxo-continuo.vercel.app/idiomas.html
 
@@ -88,7 +90,7 @@ Acesse http://localhost:8000. O projeto é estático, sem login nem Neon, com im
 ## Limitações e fontes acrescentadas (16/10/2026)
 
 - O índice acadêmico cobre apenas documentos coletados; 2027/28, horários, acesso externo, equivalência de horas e programas individuais ainda podem mudar.
-- Foram extraídos 41 de 46 textos de ementas de SI e 63 de 81 de Direito; o ementário de Administração para a matriz correta permanece pendente.
+- A auditoria oficial Alphaville 2025 conseguiu vincular 35/47 ementas de CC e 40/46 de SI. Para Direito, o PDF de 2022 disponibiliza 45 correspondências de títulos na matriz, mas **não valida a versão vigente**. Administração ainda requer o ementário oficial aplicável à matriz atual.
 - Fontes institucionais agregadas: [Ferrara](https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o), [Tor Vergata](https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/) e [Salerno](https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti).
 - Códigos internos `CAT-*` não são códigos oficiais. O exame individual de cada ementa, carga horária e semestre permanece obrigatório.
 - Os pares I históricos foram reavaliados por título; S não significa incompatibilidade e P não significa equivalência.
@@ -101,17 +103,34 @@ Para validar o banco localmente, execute `node validate.js`.
 
 A base de catálogos e a análise curricular são conjuntos **distintos**. Consulte [o acervo de ementas](https://fluxo-continuo.vercel.app/ementas.html) para o estado documental **por disciplina**, derivado de links institucionais individuais, sem converter nomes semelhantes em equivalências.
 
-Arquivos gerados: `syllabi/records.json` contém fonte, identificação do programa, ano, integridade SHA-256, status, horas de contato quando explícitas e marcadores temáticos; `syllabi/metrics.json` resume resultados; `syllabi/backlog.json` agrupa lacunas; `syllabi/comparacoes.json` cruza evidências documentais dos candidatos registrados e as 6.856 células elegíveis. `syllabi/source-inventory.json` documenta os domínios examinados.
+Arquivos gerados: `syllabi/coverage-report.json` informa detalhadamente quais disciplinas ainda carecem de ementa individual ou de horas; `syllabi/direito-historico-2022.json` preserva separadamente os programas históricos; `syllabi/revisoes-ementas.json` registra as análises individuais fundamentadas. `syllabi/records.json` contém fonte, identificação do programa, ano, integridade SHA-256, status, horas de contato quando explícitas e marcadores temáticos; `syllabi/metrics.json` resume resultados; `syllabi/backlog.json` agrupa lacunas; `syllabi/comparacoes.json` cruza evidências documentais dos candidatos registrados e as 6.856 células elegíveis. `syllabi/source-inventory.json` documenta os domínios examinados.
 
-A rotina `scripts/collect_syllabi.py` distingue documentos individuais de catálogos compartilhados, verifica a identidade da disciplina e registra somente metadados/proveniência, mantendo PDFs e programas completos nas URLs oficiais. A rotina `scripts/compare_evidence.py` procura **sinais temáticos controlados** em resumos brasileiros existentes e programas estrangeiros verificáveis. Sinais compartilhados **não são percentuais de cobertura curricular**; a carga horária do Mackenzie pode ter base distinta das horas de contato estrangeiras. Falta decisão humana fundamentada sobre todos os conteúdos, ementas brasileiras atuais e equivalência de horas.
+A rotina `scripts/collect_syllabi.py` distingue documentos individuais de catálogos compartilhados, verifica a identidade da disciplina e registra somente metadados/proveniência, mantendo PDFs e programas completos nas URLs oficiais. A rotina `scripts/compare_evidence.py` procura **sinais temáticos controlados** em ementas brasileiras de fonte oficial 2025 vinculadas à matriz e em programas estrangeiros identificados. Sinais compartilhados **não são percentuais de cobertura curricular**; a carga horária do Mackenzie pode ter base distinta das horas de contato estrangeiras. Falta decisão humana fundamentada sobre todos os conteúdos, ementas brasileiras atuais e equivalência de horas.
 
 Para repetir a coleta via GitHub Actions, execute `Coletar evidencias de ementas` em *Actions*. Localmente:
 
 ```bash
 python -m pip install -r scripts/requirements-audit.txt
 python scripts/collect_syllabi.py
+python scripts/collect_mackenzie.py
+python scripts/collect_historical_law.py
 python scripts/compare_evidence.py
+python scripts/report_coverage.py
 node validate.js
+python scripts/validate_audit.py
 ```
 
 O número de documentos recuperados varia por acessibilidade dos sites; não interpretar erro HTTP, ausência de programa, URL ainda não visitada ou catálogo parcial como impossibilidade de aproveitamento. Os dados gerados **não** constituem aprovação, homologação ou atestado de oferta 2027.2.
+
+
+### Legenda da matriz — cores ≠ provas documentais
+
+- Rosa: candidatura forte já cadastrada, porém não homologada e não necessariamente revisada por ementa.
+- Amarelo: candidatura em análise documental.
+- Azul/lilás: indício lexical por títulos de disciplinas.
+- Alaranjado: atenção ao semestre/período de oferta.
+- Branco/cinza: sem candidata cadastrada ou sem sinal lexical. Não equivale a incompatibilidade.
+
+As etiquetas **independentes da cor** dentro de cada célula discriminam: nenhuma, uma ou duas ementas individuais obtidas ou análise comparativa individual registrada (não homologada). O número de programas obtidos é atualizado em `syllabi/metrics.json` e em `syllabi/coverage-report.json`.
+
+Nenhuma relação foi aprovada institucionalmente. Para Direito, 2022 é fonte histórica; "2 horas-aula" semanais não devem ser confundidas com carga horária semestral e não provam a vigência do componente. Para Administração, não usar o ementário de Campinas como se fosse o do campus Alphaville.
