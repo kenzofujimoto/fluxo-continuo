@@ -227,7 +227,10 @@ def _load(path):
     return json.loads((ROOT / path).read_text(encoding="utf-8"))
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    """Validate all pareceres and write the index; with --check FILE..., validate only and write nothing."""
+    argv = sys.argv[1:] if argv is None else argv
+    check_only = bool(argv) and argv[0] == "--check"
     data = _load("data.json")
     records = _load("syllabi/records.json")
     mack = _load("syllabi/mackenzie-docs.json")
@@ -243,7 +246,7 @@ def main() -> int:
     uni_index = {u["id"]: i for i, u in enumerate(data["universities"])}
     row_index = {(c["id"], r.get("id") or r["name"]): i for c in data["courses"] for i, r in enumerate(c["rows"])}
 
-    files = sorted(DIR.rglob("*.json")) if DIR.exists() else []
+    files = [Path(a).resolve() for a in argv[1:]] if check_only else (sorted(DIR.rglob("*.json")) if DIR.exists() else [])
     out, errors = [], []
     for fp in files:
         try:
@@ -272,9 +275,24 @@ def main() -> int:
     ids = collections.Counter(p["id"] for p in out)
     errors += [f"duplicate id {k}" for k, n in ids.items() if n > 1]
     errors += [f"boilerplate: {a} ~ {b}" for a, b in find_boilerplate(out)]
+    if check_only:
+        # Also compare with pareceres outside this batch to catch boilerplate across batches.
+        others = []
+        for fp in sorted(DIR.rglob("*.json")):
+            if fp.resolve() not in files:
+                try:
+                    others.append(json.loads(fp.read_text(encoding="utf-8")))
+                except json.JSONDecodeError:
+                    pass
+        mine = {p["id"] for p in out}
+        errors += [f"boilerplate vs other file: {a} ~ {b}" for a, b in find_boilerplate(out + others) if (a in mine) != (b in mine)]
     if errors:
         print("\n".join("ERROR " + e for e in errors), file=sys.stderr)
         return 1
+    if check_only:
+        for p in out:
+            print("OK", p["id"], p["conclusionClass"], "derived=" + p["derivedClass"], p["coverage"], p["hoursComparison"]["state"])
+        return 0
     meta = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "count": len(out),
