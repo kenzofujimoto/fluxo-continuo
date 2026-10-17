@@ -73,6 +73,12 @@ def verify_programme(text: str, title: str, code: str, other_titles: list[str], 
     declared_code = re.search(r"\bC[oó]digo(?:\s+(?:de la asignatura|da disciplina))?\s*:?\s*(\d{4,})\b", text[:6000], re.I)
     if str(code).isdigit() and declared_code and declared_code.group(1) != str(code) and not catalogue_id:
         return {"ok": False, "reason": "código acadêmico declarado difere da disciplina solicitada"}
+    english_code = re.search(r"\bCourse\s+Code\s*:?\s*([A-Z]{2,8}\s*\d{2,6}[A-Z]?)\b", text[:6000], re.I)
+    if english_code and not str(code).startswith("CAT-"):
+        declared = re.sub(r"\s+", "", english_code.group(1)).upper()
+        requested = re.sub(r"\s+", "", str(code)).upper()
+        if declared != requested:
+            return {"ok": False, "reason": "código acadêmico declarado difere da disciplina solicitada"}
     ident = []
     if title_matches:
         ident.append("title")
