@@ -1,5 +1,13 @@
 # Release checkpoint — 2026-10-17
 
+## Integration and review round (Claude, 17/10/2026)
+
+- Branch `feature/public-syllabus-sweep`. Regional discoveries were integrated with `scripts/integrate_research.py`: every source re-fetched and re-verified against our catalogue (`verify_programme`), 436 accepted, 51 rejected with reasons in `syllabi/integracao-pesquisa-publica.json` (commit `3bd4684`). Individual foreign syllabi 718 -> 1,154; missing 2,214 -> 1,778.
+- `verify_programme` now accepts known one-course templates (USAL, Leeds, UCA, Coimbra, Nevşehir) even when prerequisites cite other courses (`INDIVIDUAL_TEMPLATES`, commit `977fece`).
+- 6 existing reviews carry `documentDrift` (official document changed since review): re-review them.
+- Review round 4 in progress: `.cache/worklist-q1..q12.json` (169 pairs: 66 for 31 Brazilian disciplines that had no review, 103 registered candidates). Brief: `.cache/agent-brief-batch3.md`. After each agent: `python scripts/build_pareceres.py`, commit `syllabi/pareceres*`. Remaining ready pairs: `python scripts/worklist.py`.
+- Brazilian side publicly exhausted (no 2026 Alphaville ementário published); 49 Brazilian disciplines still lack any documented foreign candidate.
+
 ## Active follow-up: public source exhaustion
 
 - User explicitly approved the new plan: inventory all 66 universities and four Brazilian courses, search public official portals/PDFs/archives, verify source identity/content/hours, update viable reviews and run tests/audit. No institutional contacts now. Do not claim the public internet is exhausted while institutional searches remain pending.
