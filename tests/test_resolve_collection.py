@@ -79,3 +79,10 @@ def test_resolve_uses_shared_cache_but_verifies_each_course(monkeypatch):
     assert resolver.resolve({**target, "code": "yes"}, cache)["ok"] is True
     assert resolver.resolve({**target, "code": "no"}, cache)["ok"] is False
     assert calls == ["https://example.edu"]
+
+
+def test_navigation_content_label_does_not_verify_degree_curriculum():
+    text = "Ir para o conteúdo Engenharia Informática Licenciatura Plano curricular " + "Campus Escola superior Tecnologia Gestão " * 40
+    verdict = resolver.verify_programme(text, "Engenharia Informática", "CAT-PT-ESTG-004", [])
+    assert verdict["ok"] is False
+    assert "conteúdos" in verdict["reason"]
