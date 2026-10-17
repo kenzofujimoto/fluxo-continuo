@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T01:29:41.736026+00:00",
+  "generated": "2026-10-17T12:33:42.315000+00:00",
   "definitions": {
     "individualSyllabus": "Automated document identity + syllabus criteria; independent human audit pending.",
     "withoutIndividualSyllabus": "A course is indexed but individual syllabus not established.",
@@ -9,13 +9,13 @@
   },
   "metrics": {
     "foreignTotal": 2932,
-    "foreignIndividual": 722,
-    "foreignMissingIndividual": 2210,
-    "foreignIndividualMissingHours": 456,
+    "foreignIndividual": 718,
+    "foreignMissingIndividual": 2214,
+    "foreignIndividualMissingHours": 452,
     "mackTotal": 221,
     "mackVerified": 75,
     "registeredCandidates": 725,
-    "bothSyllabiCandidates": 100,
+    "bothSyllabiCandidates": 95,
     "manualReviews": 3,
     "institutionalApprovals": 0
   },
@@ -4932,14 +4932,14 @@
         "dir"
       ],
       "catalogued": 211,
-      "individualSyllabus": 137,
+      "individualSyllabus": 136,
       "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 74,
-      "withIndividualButMissingHours": 137,
+      "withoutIndividualSyllabus": 75,
+      "withIndividualButMissingHours": 136,
       "statuses": {
-        "ementa_individual": 137,
+        "ementa_individual": 136,
         "indisponivel": 1,
-        "pagina_com_conteudo": 73
+        "pagina_com_conteudo": 74
       },
       "samplePending": [
         {
@@ -5267,6 +5267,12 @@
           "name": "Sistemas De Bases De Datos",
           "status": "pagina_com_conteudo",
           "source": "https://guias.usal.es/node/255476"
+        },
+        {
+          "code": "101114",
+          "name": "Sistemas Operativos I",
+          "status": "pagina_com_conteudo",
+          "source": "https://guias.usal.es/node/250976"
         },
         {
           "code": "101119",
@@ -6103,12 +6109,6 @@
           "name": "Fundamentos Físicos",
           "status": "ementa_sem_horas",
           "source": "https://guias.usal.es/node/255176"
-        },
-        {
-          "code": "101114",
-          "name": "Sistemas Operativos I",
-          "status": "ementa_sem_horas",
-          "source": "https://guias.usal.es/node/250976"
         },
         {
           "code": "101126",
@@ -11028,13 +11028,13 @@
         "dir"
       ],
       "catalogued": 72,
-      "individualSyllabus": 23,
+      "individualSyllabus": 22,
       "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 49,
-      "withIndividualButMissingHours": 23,
+      "withoutIndividualSyllabus": 50,
+      "withIndividualButMissingHours": 22,
       "statuses": {
-        "ementa_individual": 23,
-        "pagina_com_conteudo": 45,
+        "ementa_individual": 22,
+        "pagina_com_conteudo": 46,
         "catalogo_ou_matriz": 3,
         "indisponivel": 1
       },
@@ -11202,6 +11202,12 @@
           "name": "Programación Concurrente y de Tiempo Real",
           "status": "pagina_com_conteudo",
           "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+        },
+        {
+          "code": "21719027",
+          "name": "Proyectos Informáticos",
+          "status": "pagina_com_conteudo",
+          "source": "https://asignaturas.uca.es/2026-27/21719027"
         },
         {
           "code": "21714059",
@@ -11492,12 +11498,6 @@
           "name": "Inteligencia Artificial",
           "status": "ementa_sem_horas",
           "source": "https://asignaturas.uca.es/2026-27/21714013"
-        },
-        {
-          "code": "21719027",
-          "name": "Proyectos Informáticos",
-          "status": "ementa_sem_horas",
-          "source": "https://asignaturas.uca.es/2026-27/21719027"
         },
         {
           "code": "21714027",
@@ -18728,6 +18728,91 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
+      "id": "pt-iade",
+      "name": "IADE",
+      "country": "Portugal",
+      "eligibleFor": [
+        "cc",
+        "si",
+        "dir"
+      ],
+      "catalogued": 5,
+      "individualSyllabus": 0,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 5,
+      "withIndividualButMissingHours": 0,
+      "statuses": {
+        "pagina_com_conteudo": 3,
+        "catalogo_ou_matriz": 2
+      },
+      "samplePending": [
+        {
+          "code": "CAT-PT-IADE-001",
+          "name": "Projeto de Sistemas Distribuídos",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-002",
+          "name": "Programação para Dispositivos Móveis",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-003",
+          "name": "Projeto de Desenvolvimento Móvel",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-004",
+          "name": "Segurança Informática",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-005",
+          "name": "Inteligência Artificial",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "CAT-PT-IADE-001",
+          "name": "Projeto de Sistemas Distribuídos",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-002",
+          "name": "Programação para Dispositivos Móveis",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-003",
+          "name": "Projeto de Desenvolvimento Móvel",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-004",
+          "name": "Segurança Informática",
+          "status": "pagina_com_conteudo",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        },
+        {
+          "code": "CAT-PT-IADE-005",
+          "name": "Inteligência Artificial",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
+        }
+      ],
+      "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
       "id": "fr-38-lecolededesign",
       "name": "L'Ecole de Design Nantes Atlantique",
       "country": "França",
@@ -18968,87 +19053,6 @@
         }
       ],
       "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "pt-iade",
-      "name": "IADE",
-      "country": "Portugal",
-      "eligibleFor": [
-        "cc",
-        "si",
-        "dir"
-      ],
-      "catalogued": 5,
-      "individualSyllabus": 1,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 4,
-      "withIndividualButMissingHours": 1,
-      "statuses": {
-        "pagina_com_conteudo": 3,
-        "catalogo_ou_matriz": 1,
-        "ementa_individual": 1
-      },
-      "samplePending": [
-        {
-          "code": "CAT-PT-IADE-001",
-          "name": "Projeto de Sistemas Distribuídos",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-002",
-          "name": "Programação para Dispositivos Móveis",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-003",
-          "name": "Projeto de Desenvolvimento Móvel",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-004",
-          "name": "Segurança Informática",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "CAT-PT-IADE-001",
-          "name": "Projeto de Sistemas Distribuídos",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-002",
-          "name": "Programação para Dispositivos Móveis",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-003",
-          "name": "Projeto de Desenvolvimento Móvel",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        },
-        {
-          "code": "CAT-PT-IADE-004",
-          "name": "Segurança Informática",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        }
-      ],
-      "syllabiMissingContactHours": [
-        {
-          "code": "CAT-PT-IADE-005",
-          "name": "Inteligência Artificial",
-          "status": "ementa_sem_horas",
-          "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-        }
-      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -20569,6 +20573,62 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
+      "id": "pt-estg",
+      "name": "P.PORTO / ESTG",
+      "country": "Portugal",
+      "eligibleFor": [
+        "cc",
+        "si",
+        "adm"
+      ],
+      "catalogued": 4,
+      "individualSyllabus": 3,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 1,
+      "withIndividualButMissingHours": 3,
+      "statuses": {
+        "ementa_individual": 3,
+        "catalogo_ou_matriz": 1
+      },
+      "samplePending": [
+        {
+          "code": "CAT-PT-ESTG-004",
+          "name": "Laboratório de Desenvolvimento de Software",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "CAT-PT-ESTG-004",
+          "name": "Laboratório de Desenvolvimento de Software",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
+        }
+      ],
+      "syllabiMissingContactHours": [
+        {
+          "code": "CAT-PT-ESTG-001",
+          "name": "Computação Móvel e Ubíqua",
+          "status": "ementa_sem_horas",
+          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
+        },
+        {
+          "code": "CAT-PT-ESTG-002",
+          "name": "Sistemas Distribuídos",
+          "status": "ementa_sem_horas",
+          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
+        },
+        {
+          "code": "CAT-PT-ESTG-003",
+          "name": "Administração de Sistemas Informáticos",
+          "status": "ementa_sem_horas",
+          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
+        }
+      ],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
       "id": "eu-33-theohiostateun",
       "name": "The Ohio State University",
       "country": "EUA",
@@ -20723,53 +20783,6 @@
         }
       ],
       "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "pt-estg",
-      "name": "P.PORTO / ESTG",
-      "country": "Portugal",
-      "eligibleFor": [
-        "cc",
-        "si",
-        "adm"
-      ],
-      "catalogued": 4,
-      "individualSyllabus": 4,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 0,
-      "withIndividualButMissingHours": 4,
-      "statuses": {
-        "ementa_individual": 4
-      },
-      "samplePending": [],
-      "pendingForeign": [],
-      "syllabiMissingContactHours": [
-        {
-          "code": "CAT-PT-ESTG-001",
-          "name": "Computação Móvel e Ubíqua",
-          "status": "ementa_sem_horas",
-          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
-        },
-        {
-          "code": "CAT-PT-ESTG-002",
-          "name": "Sistemas Distribuídos",
-          "status": "ementa_sem_horas",
-          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
-        },
-        {
-          "code": "CAT-PT-ESTG-003",
-          "name": "Administração de Sistemas Informáticos",
-          "status": "ementa_sem_horas",
-          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
-        },
-        {
-          "code": "CAT-PT-ESTG-004",
-          "name": "Laboratório de Desenvolvimento de Software",
-          "status": "ementa_sem_horas",
-          "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
-        }
-      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -21147,9 +21160,9 @@
       ],
       "candidates": 198,
       "candidatePhases": {
-        "topicos_preliminares_disponiveis": 77,
-        "falta_ementa_brasileira_validada": 20,
-        "falta_ementa_estrangeira_individual": 101
+        "topicos_preliminares_disponiveis": 73,
+        "falta_ementa_brasileira_validada": 19,
+        "falta_ementa_estrangeira_individual": 106
       },
       "individualReviews": 3
     },
@@ -21199,8 +21212,8 @@
       ],
       "candidates": 97,
       "candidatePhases": {
-        "topicos_preliminares_disponiveis": 23,
-        "falta_ementa_estrangeira_individual": 72,
+        "topicos_preliminares_disponiveis": 22,
+        "falta_ementa_estrangeira_individual": 73,
         "falta_ementa_brasileira_validada": 2
       },
       "individualReviews": 0
@@ -21497,8 +21510,8 @@
       ],
       "candidates": 231,
       "candidatePhases": {
-        "falta_ementa_brasileira_validada": 64,
-        "falta_ementa_estrangeira_individual": 167
+        "falta_ementa_brasileira_validada": 62,
+        "falta_ementa_estrangeira_individual": 169
       },
       "individualReviews": 0
     },
