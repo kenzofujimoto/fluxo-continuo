@@ -1,0 +1,170 @@
+{
+  "id": "dir|PROCESSO DE CONHECIMENTO|es-salamanca|CAT-USAL-207570",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "PROCESSO DE CONHECIMENTO",
+    "name": "PROCESSO DE CONHECIMENTO",
+    "courseName": "Direito",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 21, bloco PROCESSO DE CONHECIMENTO; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 4
+    },
+    "topics": [
+      "A primeira etapa do curso de direito processual civil trata da chamada fase de conhecimento, por meio da qual partes e juiz preparam o material que é levado ao conhecimento do julgador para que profira decisão de mérito",
+      "Para a compreensão do aluno acerca do desenvolvimento do processo nessa fase, será abordado como o processo se inicia, analisando-se os critérios de competência, os requisitos da demanda (pressupostos processuais e condições da ação), a formulação da causa de pedir e do pedido",
+      "a formação do processo, com a integração das partes e de terceiros e as modalidades de litisconsórcio",
+      "as possibilidades de reação do réu, com apresentação de defesa e reconvenção",
+      "o dever de saneamento do magistrado, por meio do qual organiza a fase probatória e determina que as irregularidades sejam sanadas e",
+      "a produção de prova e sua relação com a reconstrução dos fatos em contraditório"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207570",
+      "name": "DERECHO PROCESAL CIVIL",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "year 3",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": "Teoria60%, práticas30%, participação10%",
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207570",
+      "catalogue": "https://guias.usal.es/node/207570",
+      "sha256": "d89a547171ed933382e74b8e3a495ffd77d02520106b9829c400ebf1d76c4a00",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102324"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A primeira etapa do curso de direito processual civil trata da chamada fase de conhecimento, por meio da qual partes e juiz preparam o material que é levado ao conhecimento do julgador para que profira decisão de mérito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Processo declarativo e julgamento de mérito estruturam a seçãoII.",
+      "foreignLocation": "5 EpígrafeII lecciones2-24"
+    },
+    {
+      "brTopic": "Para a compreensão do aluno acerca do desenvolvimento do processo nessa fase, será abordado como o processo se inicia, analisando-se os critérios de competência, os requisitos da demanda (pressupostos processuais e condições da ação), a formulação da causa de pedir e do pedido",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Competência, objeto, demanda, requisitos e admissão estão detalhados.",
+      "foreignLocation": "5 lecciones3,7,9"
+    },
+    {
+      "brTopic": "a formação do processo, com a integração das partes e de terceiros e as modalidades de litisconsórcio",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Partes, litisconsórcio, sucessão e intervenção de terceiros.",
+      "foreignLocation": "5 lecciones4-5"
+    },
+    {
+      "brTopic": "as possibilidades de reação do réu, com apresentação de defesa e reconvenção",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Contestação, revelia, allanamiento e reconvenção.",
+      "foreignLocation": "5 lección10"
+    },
+    {
+      "brTopic": "o dever de saneamento do magistrado, por meio do qual organiza a fase probatória e determina que as irregularidades sejam sanadas e",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Audiência prévia e seu conteúdo, sem identidade com saneamento do CPC.",
+      "foreignLocation": "5 lección11"
+    },
+    {
+      "brTopic": "a produção de prova e sua relação com a reconstrução dos fatos em contraditório",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Ônus, objeto, procedimento, valoração e meios de prova.",
+      "foreignLocation": "5 lecciones12-13"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A primeira etapa do curso de direito processual civil trata da chamada fase de conhecimento, por meio da qual partes e juiz preparam o material que é levado ao conhecimento do julgador para que profira decisão de mérito. Para a compreensão do aluno acerca do desenvolvimento do processo nessa fase, será abordado como o processo se inicia, analisando-se os critérios de competência, os requisitos da demanda (pressupostos processuais e condições da ação), a formulação da causa de pedir e do pedido; a formação do processo, com a integração das partes e de terceiros e as modalidades de litisconsórcio; as possibilidades de reação do réu, com apresentação de defesa e reconvenção; o dever de saneamento do magistrado, por meio do qual organiza a fase probatória e determina que as irregularidades sejam sanadas e; a produção de prova e sua relação com a reconstrução dos fatos em contraditório.",
+    "foreign": [
+      "Derecho Procesal Civil 102324 cobre praticamente toda a sequência de conhecimento: competência, partes, demanda, resposta, audiência e produção probatória."
+    ],
+    "convergences": [
+      "Processo declarativo e julgamento de mérito estruturam a seçãoII.",
+      "Competência, objeto, demanda, requisitos e admissão estão detalhados.",
+      "Partes, litisconsórcio, sucessão e intervenção de terceiros.",
+      "Contestação, revelia, allanamiento e reconvenção.",
+      "Audiência prévia e seu conteúdo, sem identidade com saneamento do CPC.",
+      "Ônus, objeto, procedimento, valoração e meios de prova."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 4; exterior: Graduação, ano None.",
+    "brazil": "PROCESSO DE CONHECIMENTO: 4; documento 2022",
+    "foreign": "DERECHO PROCESAL CIVIL: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 3",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Derecho Procesal Civil 102324 cobre praticamente toda a sequência de conhecimento: competência, partes, demanda, resposta, audiência e produção probatória.",
+  "justification": "Cinco de seis eixos têm correspondência conceitual integral, com saneamento parcial por diferenças normativas. O programa também inclui execução, arbitragem e jurisdição voluntária; não há horas de contato para isolar o eixo declarativo nem ementa brasileira vigente confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de PROCESSO DE CONHECIMENTO com DERECHO PROCESAL CIVIL; Cinco de seis eixos têm correspondência conceitual integral, com saneamento parcial por diferenças normativas. O programa também inclui execução, arbitragem e jurisdição voluntária; não há horas de contato para isolar o eixo declarativo nem ementa brasileira vigente confirmada.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "dir|AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS|es-salamanca|CAT-USAL-207570",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS",
+    "name": "AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 32, bloco AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 4
+    },
+    "topics": [
+      "A atividade do juiz em um processo judicial inclui a decisão acerca de questões de procedimento e de mérito que se apresentam, cabendo ao juiz zelar pela regularidade do processo, delimitar as questões controvertidas e organizar a produção probatória, bem como analisar se a pretensão deduzida pelas partes merece tutela, provisória ou definitiva, no curso da fase de conhecimento ou ao seu final",
+      "A possibilidade da decisão incorrer em algum erro de procedimento ou julgamento é inafastável e, portanto, são conferidas às partes oportunidade para pleitearem a revisão dos julgados",
+      "Esse componente curricular tem como finalidade apresentar ao aluno, de forma sistemática, como se forma a convicção do julgador e qual o grau de cognição exigido para proferimento das decisões, e qual a função e como se exercita o direito ao recurso"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207570",
+      "name": "DERECHO PROCESAL CIVIL",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "year 3",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207570",
+      "catalogue": "https://guias.usal.es/node/207570",
+      "sha256": "d89a547171ed933382e74b8e3a495ffd77d02520106b9829c400ebf1d76c4a00",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102324"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A atividade do juiz em um processo judicial inclui a decisão acerca de questões de procedimento e de mérito que se apresentam, cabendo ao juiz zelar pela regularidade do processo, delimitar as questões controvertidas e organizar a produção probatória, bem como analisar se a pretensão deduzida pelas partes merece tutela, provisória ou definitiva, no curso da fase de conhecimento ou ao seu final",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Audiência prévia, prova, sentença e requisitos são unidades detalhadas.",
+      "foreignLocation": "5, lecciones 11-14"
+    },
+    {
+      "brTopic": "A possibilidade da decisão incorrer em algum erro de procedimento ou julgamento é inafastável e, portanto, são conferidas às partes oportunidade para pleitearem a revisão dos julgados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Impugnações, apelação e cassação estão discriminadas.",
+      "foreignLocation": "5, lecciones 17-19"
+    },
+    {
+      "brTopic": "Esse componente curricular tem como finalidade apresentar ao aluno, de forma sistemática, como se forma a convicção do julgador e qual o grau de cognição exigido para proferimento das decisões, e qual a função e como se exercita o direito ao recurso",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Valoração da prova, estrutura da sentença e recursos cobrem os eixos; graus de cognição brasileiros não são explícitos.",
+      "foreignLocation": "5, lecciones 12-14 e 17-19"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A atividade do juiz em um processo judicial inclui a decisão acerca de questões de procedimento e de mérito que se apresentam, cabendo ao juiz zelar pela regularidade do processo, delimitar as questões controvertidas e organizar a produção probatória, bem como analisar se a pretensão deduzida pelas partes merece tutela, provisória ou definitiva, no curso da fase de conhecimento ou ao seu final. A possibilidade da decisão incorrer em algum erro de procedimento ou julgamento é inafastável e, portanto, são conferidas às partes oportunidade para pleitearem a revisão dos julgados. Esse componente curricular tem como finalidade apresentar ao aluno, de forma sistemática, como se forma a convicção do julgador e qual o grau de cognição exigido para proferimento das decisões, e qual a função e como se exercita o direito ao recurso",
+    "foreign": [
+      "Derecho Procesal Civil da USAL organiza audiência prévia, julgamento, sentença e recursos em lições próprias, com prática de casos e expressão oral."
+    ],
+    "convergences": [
+      "Audiência prévia, prova, sentença e requisitos são unidades detalhadas.",
+      "Impugnações, apelação e cassação estão discriminadas.",
+      "Valoração da prova, estrutura da sentença e recursos cobrem os eixos; graus de cognição brasileiros não são explícitos."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 5; exterior: Graduação, ano None.",
+    "brazil": "AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS: 4; documento 2022",
+    "foreign": "DERECHO PROCESAL CIVIL: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 3",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Derecho Procesal Civil da USAL organiza audiência prévia, julgamento, sentença e recursos em lições próprias, com prática de casos e expressão oral.",
+  "justification": "Dois tópicos estão cobertos conceitualmente e o terceiro parcialmente. Reposição, apelação e cassação espanhola não são identidade com CPC brasileiro; o programa amplo de 9 ECTS não discrimina contato, e o ementário Mackenzie 2022 só oferece horas semanais.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS com DERECHO PROCESAL CIVIL; Dois tópicos estão cobertos conceitualmente e o terceiro parcialmente. Reposição, apelação e cassação espanhola não são identidade com CPC brasileiro; o programa amplo de 9 ECTS não discrimina contato, e o ementário Mackenzie 2022 só oferece horas semanais.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

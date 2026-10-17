@@ -1,0 +1,166 @@
+{
+  "id": "cc|ENEC54361|ro-babes|MLE5161",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54361",
+    "name": "Metodologia de Pesquisa em Computação",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 5, bloco METODOLOGIA DE PESQUISA EM COMPUTAÇÃO; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Fundamentos de pesquisa científica",
+      "Projetos de pesquisa",
+      "Técnicas de pesquisa",
+      "Estrutura e conteúdo de trabalhos de conclusão de cursos de graduação",
+      "Apresentação de trabalhos científicos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5161",
+      "name": "Research project",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "5",
+      "academicYear": "2026/2027",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": "Optional",
+      "assessment": "Exam",
+      "prerequisites": "Computer Science Research Methodology",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5161_en_istvanc_2026_10245.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "5b1d29a261d13f590d4a9c80e4f293b98bdf9c81559a55fb951a65ab4d8398cf",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": {
+          "total": 2,
+          "course": 0,
+          "seminarLab": 2
+        },
+        "contactTotal": 28,
+        "contactLecture": 0,
+        "contactSeminarLab": 28,
+        "selfStudy": 22,
+        "totalWorkload": 50,
+        "ects": 2,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos de pesquisa científica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Metodologia científica e pesquisa bibliográfica estruturam o projeto.",
+      "foreignLocation": "8.2 itens 2 e 4-6; 6.2"
+    },
+    {
+      "brTopic": "Projetos de pesquisa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Escolha de tema, desenho, implementação e experimentos compõem projeto de pesquisa.",
+      "foreignLocation": "8.2 itens 1 e 7-11"
+    },
+    {
+      "brTopic": "Técnicas de pesquisa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Documentação bibliográfica, relevância de fontes e decisão de modelagem experimental são trabalhadas.",
+      "foreignLocation": "8.2 itens 4-6 e 10-11"
+    },
+    {
+      "brTopic": "Estrutura e conteúdo de trabalhos de conclusão de cursos de graduação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Sumário, rascunho e versões finais de relatório de pesquisa.",
+      "foreignLocation": "7 habilidades 2-3; 8.2 itens 3 e 12-14"
+    },
+    {
+      "brTopic": "Apresentação de trabalhos científicos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Apresentação final dos resultados é fase avaliada em 10%.",
+      "foreignLocation": "9 fase 6"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Fundamentos de pesquisa científica. Projetos de pesquisa. Técnicas de pesquisa. Estrutura e conteúdo de trabalhos de conclusão de cursos de graduação. Apresentação de trabalhos científicos.",
+    "foreign": [
+      "Research project MLE5161 reúne escolha de tema, revisão de literatura, experimentação, relatório e apresentação, cobrindo os cinco eixos de Metodologia de Pesquisa em Computação."
+    ],
+    "convergences": [
+      "Metodologia científica e pesquisa bibliográfica estruturam o projeto.",
+      "Escolha de tema, desenho, implementação e experimentos compõem projeto de pesquisa.",
+      "Documentação bibliográfica, relevância de fontes e decisão de modelagem experimental são trabalhadas.",
+      "Sumário, rascunho e versões finais de relatório de pesquisa.",
+      "Apresentação final dos resultados é fase avaliada em 10%."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 6; exterior: Bachelor, ano 3.",
+    "brazil": "Metodologia de Pesquisa em Computação: {'teorica': 2, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Research project: Optional; avaliação Exam; contato 28 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 0 h aula e 28 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "5",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Computer Science Research Methodology",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Research project MLE5161 reúne escolha de tema, revisão de literatura, experimentação, relatório e apresentação, cobrindo os cinco eixos de Metodologia de Pesquisa em Computação.",
+  "justification": "As 28 h exclusivamente práticas e 22 h autônomas sustentam a execução de investigação; a brasileira prevê 31,67 h teóricas. Embora haja convergência temática, a UBB pressupõe Computer Science Research Methodology, exigindo confirmar se fundamentos são efetivamente ensinados ou apenas aplicados.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Metodologia de Pesquisa em Computação com Research project; As 28 h exclusivamente práticas e 22 h autônomas sustentam a execução de investigação; a brasileira prevê 31,67 h teóricas. Embora haja convergência temática, a UBB pressupõe Computer Science Research Methodology, exigindo confirmar se fundamentos são efetivamente ensinados ou apenas aplicados.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Metodologia científica já é pré-requisito na UBB; confirmar profundidade da revisão de fundamentos"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

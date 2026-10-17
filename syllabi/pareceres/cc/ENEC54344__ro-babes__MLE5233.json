@@ -1,0 +1,202 @@
+{
+  "id": "cc|ENEC54344|ro-babes|MLE5233",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54344",
+    "name": "Tópicos Avançados em Banco de Dados",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 5, bloco TÓPICOS AVANÇADOS EM BANCO DE DADOS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Aplicação da linguagem SQL: views, procedures, functions e triggers",
+      "Fundamentação sobre paradigmas de persistência: Hierárquico, Relacional e Objeto-relacional",
+      "Estudo da modelagem multidimensional (OLAP)",
+      "Transformação, preparação e carga de dados para uso em aplicações analíticas",
+      "Visualização de dados com a utilização de dashboard",
+      "Estudo de armazenamento e recuperação de dados em larga escala (Big Data)",
+      "Utilização de ferramentas para manipulação de dados em larga escala",
+      "Introdução aos bancos de dados NoSQL",
+      "Caracterização das famílias de bancos de dados NoSQL: chave-valor, documentos, grafos e colunas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5233",
+      "name": "Databases 1",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Information Engineering",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "3rd Semester",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Compulsory",
+      "assessment": "Exam",
+      "prerequisites": "Data Structures and Algorithms; Average programming skills in a high-level programming language",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem3_MLE5233_en_emilia_2026_10169.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem3_MLE5233_en_emilia_2026_10169.pdf",
+      "sha256": "ec93fbccc3e92b3c376526024fcc93c897b646de08ad516c5bff9ff8623a92f3",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 44,
+        "totalWorkload": 100,
+        "ects": 4,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aplicação da linguagem SQL: views, procedures, functions e triggers",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Procedures, SQL dinâmico e cursores; funções, views e triggers em seminários dedicados.",
+      "foreignLocation": "7 resultado 4; 8.2 seminários 3-4"
+    },
+    {
+      "brTopic": "Fundamentação sobre paradigmas de persistência: Hierárquico, Relacional e Objeto-relacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelo relacional e bancos orientados a objetos aparecem; persistência hierárquica e objeto-relacional não são discriminadas.",
+      "foreignLocation": "8.1 itens 2 e 12"
+    },
+    {
+      "brTopic": "Estudo da modelagem multidimensional (OLAP)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "7; 8.1 itens 1-14; 8.2",
+      "note": "Normalização e modelagem conceitual não demonstram OLAP."
+    },
+    {
+      "brTopic": "Transformação, preparação e carga de dados para uso em aplicações analíticas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Análise por consultas SQL e data streams oferecem suporte de manipulação, mas não há pipeline ETL para análise.",
+      "foreignLocation": "7 habilidades 2; 8.1 item 12"
+    },
+    {
+      "brTopic": "Visualização de dados com a utilização de dashboard",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "7; 8.1; 8.2",
+      "note": "Não há unidade de dashboard ou visualização."
+    },
+    {
+      "brTopic": "Estudo de armazenamento e recuperação de dados em larga escala (Big Data)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Estrutura física, índices, árvores e hashing tratam armazenamento; escala Big Data não é explicitada.",
+      "foreignLocation": "8.1 itens 7-10"
+    },
+    {
+      "brTopic": "Utilização de ferramentas para manipulação de dados em larga escala",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "5.2; 8.1; 8.2",
+      "note": "SQL Server e Visual Studio são utilizados, sem ferramentas específicas de dados em larga escala."
+    },
+    {
+      "brTopic": "Introdução aos bancos de dados NoSQL",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "8.1 itens 1-14",
+      "note": "O plano se concentra no modelo relacional; bancos orientados a objetos não demonstram introdução NoSQL."
+    },
+    {
+      "brTopic": "Caracterização das famílias de bancos de dados NoSQL: chave-valor, documentos, grafos e colunas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "8.1 itens 7-12; 8.2",
+      "note": "Hash files são estrutura física, não descrição das famílias chave-valor, documentos, grafos e colunas."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Aplicação da linguagem SQL: views, procedures, functions e triggers. Fundamentação sobre paradigmas de persistência: Hierárquico, Relacional e Objeto-relacional. Estudo da modelagem multidimensional (OLAP). Transformação, preparação e carga de dados para uso em aplicações analíticas. Visualização de dados com a utilização de dashboard. Estudo de armazenamento e recuperação de dados em larga escala (Big Data). Utilização de ferramentas para manipulação de dados em larga escala. Introdução aos bancos de dados NoSQL. Caracterização das famílias de bancos de dados NoSQL: chave-valor, documentos, grafos e colunas.",
+    "foreign": [
+      "Databases 1 (MLE5233) sustenta SQL programável e armazenamento relacional; faltam OLAP, dashboards, ferramentas Big Data e famílias NoSQL de Tópicos Avançados em Banco de Dados."
+    ],
+    "convergences": [
+      "Procedures, SQL dinâmico e cursores; funções, views e triggers em seminários dedicados.",
+      "Modelo relacional e bancos orientados a objetos aparecem; persistência hierárquica e objeto-relacional não são discriminadas.",
+      "Análise por consultas SQL e data streams oferecem suporte de manipulação, mas não há pipeline ETL para análise.",
+      "Estrutura física, índices, árvores e hashing tratam armazenamento; escala Big Data não é explicitada."
+    ],
+    "differences": [
+      "Normalização e modelagem conceitual não demonstram OLAP.",
+      "Não há unidade de dashboard ou visualização.",
+      "SQL Server e Visual Studio são utilizados, sem ferramentas específicas de dados em larga escala.",
+      "O plano se concentra no modelo relacional; bancos orientados a objetos não demonstram introdução NoSQL.",
+      "Hash files são estrutura física, não descrição das famílias chave-valor, documentos, grafos e colunas."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 4; exterior: Bachelor, ano 2.",
+    "brazil": "Tópicos Avançados em Banco de Dados: {'teorica': 2, 'pratica': 2, 'atelie': 0}; documento 2025",
+    "foreign": "Databases 1: Compulsory; avaliação Exam; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "3rd Semester",
+    "language": "Inglês",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Data Structures and Algorithms; Average programming skills in a high-level programming language",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Databases 1 (MLE5233) sustenta SQL programável e armazenamento relacional; faltam OLAP, dashboards, ferramentas Big Data e famílias NoSQL de Tópicos Avançados em Banco de Dados.",
+  "justification": "Somente quatro de nove tópicos apresentam algum apoio, três deles parcial. A ficha declara 56 h (28+28), 44 h autônomas, total 100 h e 4 ECTS; essa carga não transforma o curso básico relacional em formação analítica e NoSQL.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Tópicos Avançados em Banco de Dados com Databases 1; Somente quatro de nove tópicos apresentam algum apoio, três deles parcial. A ficha declara 56 h (28+28), 44 h autônomas, total 100 h e 4 ECTS; essa carga não transforma o curso básico relacional em formação analítica e NoSQL.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

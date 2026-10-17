@@ -1,0 +1,170 @@
+{
+  "id": "dir|DIREITO INDIVIDUAL DO TRABALHO|es-salamanca|CAT-USAL-207531",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INDIVIDUAL DO TRABALHO",
+    "name": "DIREITO INDIVIDUAL DO TRABALHO",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 45, bloco DIREITO INDIVIDUAL DO TRABALHO; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 4
+    },
+    "topics": [
+      "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "do Direito Individual do Trabalho",
+      "e, do Direito Tutelar do Trabalho",
+      "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207531",
+      "name": "DERECHO DEL TRABAJO",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": 1,
+      "period": "year 3",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": "Teste70%; caso prático30%",
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207531",
+      "catalogue": "https://guias.usal.es/node/207531",
+      "sha256": "edad1be4d544215c833c10b1c1be2c7b48e01945cc25c6637acaea8fd8416fc4",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102322"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "História, fundamentos e abordagem crítica das relações laborais.",
+      "foreignLocation": "3 objetivos; 5 lección1"
+    },
+    {
+      "brTopic": "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Contrato individual em profundidade, sob regime espanhol, não brasileiro.",
+      "foreignLocation": "5, lecciones6-14"
+    },
+    {
+      "brTopic": "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Fontes estatais, coletivas, internacionais e interpretação.",
+      "foreignLocation": "5, lecciones1-5"
+    },
+    {
+      "brTopic": "do Direito Individual do Trabalho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Contrato, sujeitos, formação, modalidades, jornada, salário e extinção.",
+      "foreignLocation": "5, lecciones6-14"
+    },
+    {
+      "brTopic": "e, do Direito Tutelar do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Proteção de jornada, descanso e salário, sem segurança e saúde do trabalho individualizadas.",
+      "foreignLocation": "5, lecciones11-12"
+    },
+    {
+      "brTopic": "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivos e prática incentivam crítica social e questões atuais; gig economy não aparece expressamente.",
+      "foreignLocation": "3 objetivos; 5 prática;6 metodologia"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras. Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens. Será feito um estudo da Teoria Geral do Direito do Trabalho; do Direito Individual do Trabalho; e, do Direito Tutelar do Trabalho. Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho.",
+    "foreign": [
+      "Derecho del Trabajo 102322 oferece teoria geral e regime individual completos, com jornada, salário e término contratual; a comparação exige separar Estatuto espanhol e CLT."
+    ],
+    "convergences": [
+      "História, fundamentos e abordagem crítica das relações laborais.",
+      "Contrato individual em profundidade, sob regime espanhol, não brasileiro.",
+      "Fontes estatais, coletivas, internacionais e interpretação.",
+      "Contrato, sujeitos, formação, modalidades, jornada, salário e extinção.",
+      "Proteção de jornada, descanso e salário, sem segurança e saúde do trabalho individualizadas.",
+      "Objetivos e prática incentivam crítica social e questões atuais; gig economy não aparece expressamente."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 6; exterior: Graduação, ano None.",
+    "brazil": "DIREITO INDIVIDUAL DO TRABALHO: 4; documento 2022",
+    "foreign": "DERECHO DEL TRABAJO: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 3",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Derecho del Trabajo 102322 oferece teoria geral e regime individual completos, com jornada, salário e término contratual; a comparação exige separar Estatuto espanhol e CLT.",
+  "justification": "Três de seis eixos têm cobertura conceitual integral, três parcial por diferenças de sistema, tutela e novas plataformas. A avaliação combina teste70% e caso30%; 6 ECTS não provam horas semestrais ou ensino explícito de gig economy.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de DIREITO INDIVIDUAL DO TRABALHO com DERECHO DEL TRABAJO; Três de seis eixos têm cobertura conceitual integral, três parcial por diferenças de sistema, tutela e novas plataformas. A avaliação combina teste70% e caso30%; 6 ECTS não provam horas semestrais ou ensino explícito de gig economy.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

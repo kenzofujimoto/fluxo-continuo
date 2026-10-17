@@ -1,0 +1,163 @@
+{
+  "id": "cc|ENUN51121|ro-babes|MLE5012",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN51121",
+    "name": "Projetos Empreendedores",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "PDF p. 4, bloco PROJETOS EMPREENDEDORES; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 0,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "Análise de soluções para o problema ou oportunidade",
+      "Proposição de projetos com viabilidade de implementação",
+      "Prática de proposição de valor e modelagem de projetos",
+      "Construção de planos de negócios simplificados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5012",
+      "name": "Team project",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": null,
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "5",
+      "academicYear": "2025/2026",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5012_en_dsuciu_2026_10231.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "5bd7128160fd1eb3daaf8ac2261a57f19a8f0431b59776b0ae67dc7837c1bce9",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 28,
+        "contactLecture": 0,
+        "contactSeminarLab": 28,
+        "selfStudy": 22,
+        "totalWorkload": 50,
+        "ects": 2,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Produto de complexidade média e empreendedorismo são previstos, mas não há levantamento de oportunidade estruturado.",
+      "foreignLocation": "7.1; 8.2 Entrepreneurship"
+    },
+    {
+      "brTopic": "Análise de soluções para o problema ou oportunidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Planejamento Agile e fatores de sucesso apoiam solução de problema, sem análise de alternativas de mercado.",
+      "foreignLocation": "7.2; 8.2 Agile"
+    },
+    {
+      "brTopic": "Proposição de projetos com viabilidade de implementação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Desenvolvimento de produto e medição de progresso mostram viabilidade técnica, sem estudo financeiro.",
+      "foreignLocation": "7.1; 8.2 Project Progress Measurement Tools"
+    },
+    {
+      "brTopic": "Prática de proposição de valor e modelagem de projetos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Empreendedorismo é conteúdo explícito, porém não detalha proposta de valor ou modelo de negócio.",
+      "foreignLocation": "8.2 Entrepreneurship"
+    },
+    {
+      "brTopic": "Construção de planos de negócios simplificados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "7; 8.2; 10",
+      "note": "Não há elaboração expressa de plano de negócios."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto. Análise de soluções para o problema ou oportunidade. Proposição de projetos com viabilidade de implementação. Prática de proposição de valor e modelagem de projetos. Construção de planos de negócios simplificados.",
+    "foreign": [
+      "Team Project MLE5012 é execução Agile de produto em equipe com um tema de empreendedorismo. A base operacional aproxima Projetos Empreendedores, mas não documenta plano de negócios."
+    ],
+    "convergences": [
+      "Produto de complexidade média e empreendedorismo são previstos, mas não há levantamento de oportunidade estruturado.",
+      "Planejamento Agile e fatores de sucesso apoiam solução de problema, sem análise de alternativas de mercado.",
+      "Desenvolvimento de produto e medição de progresso mostram viabilidade técnica, sem estudo financeiro.",
+      "Empreendedorismo é conteúdo explícito, porém não detalha proposta de valor ou modelo de negócio."
+    ],
+    "differences": [
+      "Não há elaboração expressa de plano de negócios."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 3; exterior: Bachelor, ano 3.",
+    "brazil": "Projetos Empreendedores: {'teorica': 0, 'pratica': 2, 'atelie': 0}; documento 2025",
+    "foreign": "Team project: None; avaliação None; contato 28 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 0 h aula e 28 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "5",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Team Project MLE5012 é execução Agile de produto em equipe com um tema de empreendedorismo. A base operacional aproxima Projetos Empreendedores, mas não documenta plano de negócios.",
+  "justification": "Quatro eixos têm interseção parcial: o curso enfatiza Git, papéis, comunicação, progresso e apresentação. As 28 h de contato não demonstram as dimensões comercial e econômica requeridas pelas 31,67 h brasileiras.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Projetos Empreendedores com Team project; Quatro eixos têm interseção parcial: o curso enfatiza Git, papéis, comunicação, progresso e apresentação. As 28 h de contato não demonstram as dimensões comercial e econômica requeridas pelas 31,67 h brasileiras.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "PDF MLE5012 indica 2025/2026; oferta posterior precisa de confirmação"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

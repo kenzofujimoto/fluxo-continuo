@@ -1,0 +1,166 @@
+{
+  "id": "cc|ENEX60052|ro-babes|MLE5009",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60052",
+    "name": "Inteligência Artificial I",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 4, bloco INTELIGÊNCIA ARTIFICIAL I; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "Agentes Lógicos",
+      "Representação do conhecimento",
+      "Tomada de Decisão",
+      "e Aprendizagem"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5009",
+      "name": "Functional and Logic Programming",
+      "faculty": "Mathematics and Computer Science",
+      "department": "Computer Science",
+      "programme": "Graduação",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Outono/S1",
+      "academicYear": "2026/2027",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": "Compulsory",
+      "assessment": "Exam",
+      "prerequisites": "MLE5005: Programming Fundamentals MLE5055: Computational Logic MLE5022: Data Structures and Algorithms",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE5009_en_hfpop_2026_10149.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE5009_en_hfpop_2026_10149.pdf",
+      "sha256": "700229e8ca36652382a1d1920650a3b9bd5827c08bcb771d6492427c5241a725",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Backtracking e árvores de busca em Prolog apoiam busca; agentes inteligentes e história de IA não constam.",
+      "foreignLocation": "8.1 blocos de backtracking, árvores; 8.3 Lab3-4"
+    },
+    {
+      "brTopic": "Agentes Lógicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fatos, regras e unificação implementam raciocínio lógico; arquitetura de agentes não é apresentada.",
+      "foreignLocation": "8.1 blocos iniciais Prolog"
+    },
+    {
+      "brTopic": "Representação do conhecimento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Representação declarativa de fatos, regras e objetos compostos cobre parte da representação de conhecimento.",
+      "foreignLocation": "8.1 Prolog: fatos/regras, funtores, banco interno"
+    },
+    {
+      "brTopic": "Tomada de Decisão",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "7; 8.1-8.3",
+      "note": "Não há unidade de decisão sob incerteza ou teoria de decisão."
+    },
+    {
+      "brTopic": "e Aprendizagem",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "7; 8.1-8.3",
+      "note": "Lisp e Prolog são linguagens; não demonstram algoritmos de aprendizagem."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas; Agentes Lógicos; Representação do conhecimento; Tomada de Decisão; e Aprendizagem.",
+    "foreign": [
+      "MLE5009 fornece fundamentos declarativos úteis à IA simbólica, mas não reúne os eixos de agentes, decisão e aprendizagem de Inteligência Artificial I."
+    ],
+    "convergences": [
+      "Backtracking e árvores de busca em Prolog apoiam busca; agentes inteligentes e história de IA não constam.",
+      "Fatos, regras e unificação implementam raciocínio lógico; arquitetura de agentes não é apresentada.",
+      "Representação declarativa de fatos, regras e objetos compostos cobre parte da representação de conhecimento."
+    ],
+    "differences": [
+      "Não há unidade de decisão sob incerteza ou teoria de decisão.",
+      "Lisp e Prolog são linguagens; não demonstram algoritmos de aprendizagem."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 6; exterior: Bachelor, ano 2.",
+    "brazil": "Inteligência Artificial I: {'teorica': 4, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Functional and Logic Programming: Compulsory; avaliação Exam; contato 56 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 28 h aula e 28 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "Outono/S1",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "MLE5005: Programming Fundamentals MLE5055: Computational Logic MLE5022: Data Structures and Algorithms",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5009 fornece fundamentos declarativos úteis à IA simbólica, mas não reúne os eixos de agentes, decisão e aprendizagem de Inteligência Artificial I.",
+  "justification": "Há três apoios parciais em busca, lógica e representação; dois eixos essenciais ausentes. As 56 h são repartidas entre Lisp e Prolog, não entre as técnicas centrais de IA. A afinidade parcial não autoriza inferir cobertura de aprendizagem pela bibliografia.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Inteligência Artificial I com Functional and Logic Programming; Há três apoios parciais em busca, lógica e representação; dois eixos essenciais ausentes. As 56 h são repartidas entre Lisp e Prolog, não entre as técnicas centrais de IA. A afinidade parcial não autoriza inferir cobertura de aprendizagem pela bibliografia.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

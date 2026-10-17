@@ -1,0 +1,170 @@
+{
+  "id": "dir|JURISDIÇÃO, COMPETÊNCIA E MEDIDAS CAUTELARES PENAIS|es-29-universitataut|102207",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "JURISDIÇÃO, COMPETÊNCIA E MEDIDAS CAUTELARES PENAIS",
+    "name": "JURISDIÇÃO, COMPETÊNCIA E MEDIDAS CAUTELARES PENAIS",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 37, bloco JURISDIÇÃO, COMPETÊNCIA E MEDIDAS CAUTELARES PENAIS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 2
+    },
+    "topics": [
+      "A presente disciplina pretende abordar os aspectos relevantes envolvendo jurisdição, competência e as diversas medidas cautelares previstas na legislação processual penal pátria",
+      "Em um primeiro momento, jurisdição e competência serão analisadas desde o seu aspecto principiológico, possibilitando ao aluno o estudo crítico das regras legais de fixação de competência processual, bem como as hipóteses previstas para a sua modificação",
+      "Após a formação das premissas conceituais, serão abordados casos de fixação de competência em crimes cometidos pela internet, campo este que se tornou fértil para a prática delitiva desde o início do século",
+      "Em seguida, a disciplina visitará os conceitos de competência absoluta ou relativa e a repercussão dessa definição no deslinde de casos apreciados pelos Tribunais pátrios",
+      "Em um segundo momento, este módulo ingressará no estudo das medidas cautelares à luz do princípio da presunção de inocência",
+      "Serão verificados os pressupostos e requisitos legais para a decretação das prisões preventiva e temporária, ou imposição das medidas cautelares diversas da prisão, com análise dos diversos posicionamentos jurisprudenciais sobre a fundamentação das decisões nestas hipóteses"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102207",
+      "name": "Dret Processal I",
+      "faculty": null,
+      "department": null,
+      "programme": "Dret",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "3r",
+      "academicYear": "2026/27",
+      "language": "Espanhol; turma a confirmar",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102207/ca",
+      "catalogue": "https://apps.uab.cat/guies/public/html/2026/assignatura/102207/ca",
+      "sha256": "f9c0d3f8e95c47be515cef8d962f38b341392e01ac09f9f8624982decd7ae5a8",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 44,
+        "contactLecture": 22,
+        "contactSeminarLab": 22,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A presente disciplina pretende abordar os aspectos relevantes envolvendo jurisdição, competência e as diversas medidas cautelares previstas na legislação processual penal pátria",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Jurisdição/competência e cautelares penais são temas centrais; regras brasileiras não aparecem.",
+      "foreignLocation": "Continguts temas 6 e 10"
+    },
+    {
+      "brTopic": "Em um primeiro momento, jurisdição e competência serão analisadas desde o seu aspecto principiológico, possibilitando ao aluno o estudo crítico das regras legais de fixação de competência processual, bem como as hipóteses previstas para a sua modificação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência penal e garantias processuais são previstas sem critérios e modificações discriminados.",
+      "foreignLocation": "Continguts temas 2 e 6"
+    },
+    {
+      "brTopic": "Após a formação das premissas conceituais, serão abordados casos de fixação de competência em crimes cometidos pela internet, campo este que se tornou fértil para a prática delitiva desde o início do século",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções de objetivos, conteúdos programáticos e metodologia do documento estrangeiro integral; comparação com a ementa brasileira histórica de 2022",
+      "note": "O programa estrangeiro não individualiza Após a formação das premissas conceituais, serão abordados casos de fixação de competência em crimes cometidos pela internet, campo este que se tornou fértil para a prática delitiva desde o início do século"
+    },
+    {
+      "brTopic": "Em seguida, a disciplina visitará os conceitos de competência absoluta ou relativa e a repercussão dessa definição no deslinde de casos apreciados pelos Tribunais pátrios",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência penal aparece em nível de tema, sem divisão absoluta/relativa.",
+      "foreignLocation": "Continguts tema 6"
+    },
+    {
+      "brTopic": "Em um segundo momento, este módulo ingressará no estudo das medidas cautelares à luz do princípio da presunção de inocência",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Garantias constitucionais e cautelares são temas distintos; vínculo presunção de inocência não é expresso no sumário.",
+      "foreignLocation": "Continguts temas 2 e 10"
+    },
+    {
+      "brTopic": "Serão verificados os pressupostos e requisitos legais para a decretação das prisões preventiva e temporária, ou imposição das medidas cautelares diversas da prisão, com análise dos diversos posicionamentos jurisprudenciais sobre a fundamentação das decisões nestas hipóteses",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cautelares penais constam sem tipos de prisão, requisitos ou jurisprudência individualizados.",
+      "foreignLocation": "Continguts tema 10"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A presente disciplina pretende abordar os aspectos relevantes envolvendo jurisdição, competência e as diversas medidas cautelares previstas na legislação processual penal pátria. Em um primeiro momento, jurisdição e competência serão analisadas desde o seu aspecto principiológico, possibilitando ao aluno o estudo crítico das regras legais de fixação de competência processual, bem como as hipóteses previstas para a sua modificação. Após a formação das premissas conceituais, serão abordados casos de fixação de competência em crimes cometidos pela internet, campo este que se tornou fértil para a prática delitiva desde o início do século. Em seguida, a disciplina visitará os conceitos de competência absoluta ou relativa e a repercussão dessa definição no deslinde de casos apreciados pelos Tribunais pátrios. Em um segundo momento, este módulo ingressará no estudo das medidas cautelares à luz do princípio da presunção de inocência. Serão verificados os pressupostos e requisitos legais para a decretação das prisões preventiva e temporária, ou imposição das medidas cautelares diversas da prisão, com análise dos diversos posicionamentos jurisprudenciais sobre a fundamentação das decisões nestas hipóteses.",
+    "foreign": [
+      "Dret Processal I tem unidades expressas de competência e medidas cautelares penais; a ficha resumida não demonstra a profundidade brasileira sobre prisões e crimes de internet."
+    ],
+    "convergences": [
+      "Jurisdição/competência e cautelares penais são temas centrais; regras brasileiras não aparecem.",
+      "Competência penal e garantias processuais são previstas sem critérios e modificações discriminados.",
+      "Competência penal aparece em nível de tema, sem divisão absoluta/relativa.",
+      "Garantias constitucionais e cautelares são temas distintos; vínculo presunção de inocência não é expresso no sumário.",
+      "Cautelares penais constam sem tipos de prisão, requisitos ou jurisprudência individualizados."
+    ],
+    "differences": [
+      "O programa estrangeiro não individualiza Após a formação das premissas conceituais, serão abordados casos de fixação de competência em crimes cometidos pela internet, campo este que se tornou fértil para a prática delitiva desde o início do século"
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 5; exterior: Graduação, ano None.",
+    "brazil": "JURISDIÇÃO, COMPETÊNCIA E MEDIDAS CAUTELARES PENAIS: 2; documento 2022",
+    "foreign": "Dret Processal I: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "3r",
+    "language": "Espanhol; turma a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dret Processal I tem unidades expressas de competência e medidas cautelares penais; a ficha resumida não demonstra a profundidade brasileira sobre prisões e crimes de internet.",
+  "justification": "Cinco de seis tópicos têm aproximação parcial. Não se estende competência genérica para casos cibernéticos nem se equipara prisión provisional à prisão temporária brasileira. São 44 h dirigidas em primeiro quadrimestre, sem comparação quantitativa com 2022.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de JURISDIÇÃO, COMPETÊNCIA E MEDIDAS CAUTELARES PENAIS com Dret Processal I; Cinco de seis tópicos têm aproximação parcial. Não se estende competência genérica para casos cibernéticos nem se equipara prisión provisional à prisão temporária brasileira. São 44 h dirigidas em primeiro quadrimestre, sem comparação quantitativa com 2022.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "id": "dir|AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS|es-29-universitataut|102206",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS",
+    "name": "AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 32, bloco AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 4
+    },
+    "topics": [
+      "A atividade do juiz em um processo judicial inclui a decisão acerca de questões de procedimento e de mérito que se apresentam, cabendo ao juiz zelar pela regularidade do processo, delimitar as questões controvertidas e organizar a produção probatória, bem como analisar se a pretensão deduzida pelas partes merece tutela, provisória ou definitiva, no curso da fase de conhecimento ou ao seu final",
+      "A possibilidade da decisão incorrer em algum erro de procedimento ou julgamento é inafastável e, portanto, são conferidas às partes oportunidade para pleitearem a revisão dos julgados",
+      "Esse componente curricular tem como finalidade apresentar ao aluno, de forma sistemática, como se forma a convicção do julgador e qual o grau de cognição exigido para proferimento das decisões, e qual a função e como se exercita o direito ao recurso"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102206",
+      "name": "Dret Processal II",
+      "faculty": null,
+      "department": null,
+      "programme": "Dret",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "3r",
+      "academicYear": "2026/27",
+      "language": "Espanhol; turma a confirmar",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102206/ca",
+      "catalogue": "https://apps.uab.cat/guies/public/html/2026/assignatura/102206/ca",
+      "sha256": "0d34bcb6375ce2e83eb5bffafedf8a493f810603b5267e54481adb6b2ca1f6c8",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 63.5,
+        "contactLecture": 41.5,
+        "contactSeminarLab": 22,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 9,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A atividade do juiz em um processo judicial inclui a decisão acerca de questões de procedimento e de mérito que se apresentam, cabendo ao juiz zelar pela regularidade do processo, delimitar as questões controvertidas e organizar a produção probatória, bem como analisar se a pretensão deduzida pelas partes merece tutela, provisória ou definitiva, no curso da fase de conhecimento ou ao seu final",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Audiência prévia, prova, julgamento e sentença cobrem a sequência cognitiva civil; grau de cognição não é detalhado.",
+      "foreignLocation": "Continguts temas 6-10"
+    },
+    {
+      "brTopic": "A possibilidade da decisão incorrer em algum erro de procedimento ou julgamento é inafastável e, portanto, são conferidas às partes oportunidade para pleitearem a revisão dos julgados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Recursos no processo civil são unidade específica.",
+      "foreignLocation": "Continguts tema 12"
+    },
+    {
+      "brTopic": "Esse componente curricular tem como finalidade apresentar ao aluno, de forma sistemática, como se forma a convicção do julgador e qual o grau de cognição exigido para proferimento das decisões, e qual a função e como se exercita o direito ao recurso",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Prova, sentença e recursos fornecem os eixos, sem detalhamento de padrões de convicção.",
+      "foreignLocation": "Continguts temas 7,9,12"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A atividade do juiz em um processo judicial inclui a decisão acerca de questões de procedimento e de mérito que se apresentam, cabendo ao juiz zelar pela regularidade do processo, delimitar as questões controvertidas e organizar a produção probatória, bem como analisar se a pretensão deduzida pelas partes merece tutela, provisória ou definitiva, no curso da fase de conhecimento ou ao seu final. A possibilidade da decisão incorrer em algum erro de procedimento ou julgamento é inafastável e, portanto, são conferidas às partes oportunidade para pleitearem a revisão dos julgados. Esse componente curricular tem como finalidade apresentar ao aluno, de forma sistemática, como se forma a convicção do julgador e qual o grau de cognição exigido para proferimento das decisões, e qual a função e como se exercita o direito ao recurso",
+    "foreign": [
+      "Dret Processal II compartilha audiência, prova, sentença e recursos com o componente brasileiro, sem individualizar todos os padrões de cognição."
+    ],
+    "convergences": [
+      "Audiência prévia, prova, julgamento e sentença cobrem a sequência cognitiva civil; grau de cognição não é detalhado.",
+      "Recursos no processo civil são unidade específica.",
+      "Prova, sentença e recursos fornecem os eixos, sem detalhamento de padrões de convicção."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 5; exterior: Graduação, ano None.",
+    "brazil": "AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS: 4; documento 2022",
+    "foreign": "Dret Processal II: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "3r",
+    "language": "Espanhol; turma a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dret Processal II compartilha audiência, prova, sentença e recursos com o componente brasileiro, sem individualizar todos os padrões de cognição.",
+  "justification": "A afinidade é conceitual de processo civil: tema 12 trata impugnação e temas 6-9 a formação da decisão. A ficha declara 41,5 h de aula e 22 h de seminários; 4 h-a semanais do ementário brasileiro histórico não permitem razão de horas.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de AUDIÊNCIA, SENTENÇA E RECURSOS CÍVEIS com Dret Processal II; A afinidade é conceitual de processo civil: tema 12 trata impugnação e temas 6-9 a formação da decisão. A ficha declara 41,5 h de aula e 22 h de seminários; 4 h-a semanais do ementário brasileiro histórico não permitem razão de horas.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

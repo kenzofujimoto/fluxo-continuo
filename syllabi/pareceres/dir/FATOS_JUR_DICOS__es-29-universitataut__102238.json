@@ -1,0 +1,179 @@
+{
+  "id": "dir|FATOS JURÍDICOS|es-29-universitataut|102238",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "FATOS JURÍDICOS",
+    "name": "FATOS JURÍDICOS",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 11, bloco FATOS JURÍDICOS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 2
+    },
+    "topics": [
+      "Examinar a Parte Geral do Código Civil, em especial a teoria dos fatos jurídicos e reflete sua importância para a proteção das relações privadas",
+      "Na primeira etapa, o conceito e classificação dos fatos jurídicos e suas espécies são apresentados, como disciplinador da criação, modificação e extinção dos direitos",
+      "Na sequência, é diferenciado atos ilícitos e lícitos, com ênfase no negócio jurídico",
+      "Em relação ao tópico de negócios jurídicos são destacados os seguintes temas: negócio jurídico como poder de autorregulação privada para a solução dos problemas contemporâneos",
+      "análise dos elementos essenciais e acidentais do negócio jurídico",
+      "distinção entre nulidade absoluta e relativa do negócio jurídico e prova do negócio jurídico",
+      "Na etapa final, os temas da prescrição e decadência são abordados, bem como suas distinções práticas no âmbito judicial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "university": "Universitat Autònoma de Barcelona",
+      "code": "102238",
+      "name": "Dret Civil IV",
+      "faculty": null,
+      "department": null,
+      "programme": "Dret",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "3r",
+      "academicYear": "2026/27",
+      "language": "Espanhol; turma a confirmar",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102238/ca",
+      "catalogue": "https://apps.uab.cat/guies/public/html/2026/assignatura/102238/ca",
+      "sha256": "7df1a59351ce6ab3f0fbb655e6736d4a7e40d0fef3ec4db2367bc165c6ded2ad",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 44,
+        "contactLecture": 22,
+        "contactSeminarLab": 22,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Examinar a Parte Geral do Código Civil, em especial a teoria dos fatos jurídicos e reflete sua importância para a proteção das relações privadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Aquisição e transmissão de direitos reais são estudadas, sem teoria geral de fatos jurídicos.",
+      "foreignLocation": "Continguts tema 1"
+    },
+    {
+      "brTopic": "Na primeira etapa, o conceito e classificação dos fatos jurídicos e suas espécies são apresentados, como disciplinador da criação, modificação e extinção dos direitos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tradição, doação e extinção de direitos reais exemplificam fatos, sem classificação geral.",
+      "foreignLocation": "Continguts temas 1,5 e 7"
+    },
+    {
+      "brTopic": "Na sequência, é diferenciado atos ilícitos e lícitos, com ênfase no negócio jurídico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções de objetivos, conteúdos programáticos e metodologia do documento estrangeiro integral; comparação com a ementa brasileira histórica de 2022",
+      "note": "O programa estrangeiro não individualiza Na sequência, é diferenciado atos ilícitos e lícitos, com ênfase no negócio jurídico"
+    },
+    {
+      "brTopic": "Em relação ao tópico de negócios jurídicos são destacados os seguintes temas: negócio jurídico como poder de autorregulação privada para a solução dos problemas contemporâneos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções de objetivos, conteúdos programáticos e metodologia do documento estrangeiro integral; comparação com a ementa brasileira histórica de 2022",
+      "note": "O programa estrangeiro não individualiza Em relação ao tópico de negócios jurídicos são destacados os seguintes temas: negócio jurídico como poder de autorregulação privada para a solução dos problemas contemporâneos"
+    },
+    {
+      "brTopic": "análise dos elementos essenciais e acidentais do negócio jurídico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Doação condicional, a termo e com reversão exemplifica elementos acidentais, sem teoria geral do negócio.",
+      "foreignLocation": "Continguts tema 5.2.4"
+    },
+    {
+      "brTopic": "distinção entre nulidade absoluta e relativa do negócio jurídico e prova do negócio jurídico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções de objetivos, conteúdos programáticos e metodologia do documento estrangeiro integral; comparação com a ementa brasileira histórica de 2022",
+      "note": "O programa estrangeiro não individualiza distinção entre nulidade absoluta e relativa do negócio jurídico e prova do negócio jurídico"
+    },
+    {
+      "brTopic": "Na etapa final, os temas da prescrição e decadência são abordados, bem como suas distinções práticas no âmbito judicial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Prazos, interrupção e suspensão de usucapião; não prescrição e decadência em geral.",
+      "foreignLocation": "Continguts tema 6"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Examinar a Parte Geral do Código Civil, em especial a teoria dos fatos jurídicos e reflete sua importância para a proteção das relações privadas. Na primeira etapa, o conceito e classificação dos fatos jurídicos e suas espécies são apresentados, como disciplinador da criação, modificação e extinção dos direitos. Na sequência, é diferenciado atos ilícitos e lícitos, com ênfase no negócio jurídico. Em relação ao tópico de negócios jurídicos são destacados os seguintes temas: negócio jurídico como poder de autorregulação privada para a solução dos problemas contemporâneos; análise dos elementos essenciais e acidentais do negócio jurídico; distinção entre nulidade absoluta e relativa do negócio jurídico e prova do negócio jurídico. Na etapa final, os temas da prescrição e decadência são abordados, bem como suas distinções práticas no âmbito judicial.",
+    "foreign": [
+      "Dret Civil IV (102238) é direitos reais e registro imobiliário, enquanto Fatos Jurídicos concentra teoria geral dos atos e negócios jurídicos."
+    ],
+    "convergences": [
+      "Aquisição e transmissão de direitos reais são estudadas, sem teoria geral de fatos jurídicos.",
+      "Tradição, doação e extinção de direitos reais exemplificam fatos, sem classificação geral.",
+      "Doação condicional, a termo e com reversão exemplifica elementos acidentais, sem teoria geral do negócio.",
+      "Prazos, interrupção e suspensão de usucapião; não prescrição e decadência em geral."
+    ],
+    "differences": [
+      "O programa estrangeiro não individualiza Na sequência, é diferenciado atos ilícitos e lícitos, com ênfase no negócio jurídico",
+      "O programa estrangeiro não individualiza Em relação ao tópico de negócios jurídicos são destacados os seguintes temas: negócio jurídico como poder de autorregulação privada para a solução dos problemas contemporâneos",
+      "O programa estrangeiro não individualiza distinção entre nulidade absoluta e relativa do negócio jurídico e prova do negócio jurídico"
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 2; exterior: Graduação, ano None.",
+    "brazil": "FATOS JURÍDICOS: 2; documento 2022",
+    "foreign": "Dret Civil IV: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "3r",
+    "language": "Espanhol; turma a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dret Civil IV (102238) é direitos reais e registro imobiliário, enquanto Fatos Jurídicos concentra teoria geral dos atos e negócios jurídicos.",
+  "justification": "Quatro de sete tópicos têm aproximações pontuais por aquisição, doação e usucapião. Não há nulidades gerais, prova de negócio ou comparação lícito/ilícito; a coincidência Civil não basta para igualar os cursos. Ficha de 44 h dirigidas, mais 6 h tutorias, versus horas semanais históricas.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de FATOS JURÍDICOS com Dret Civil IV; Quatro de sete tópicos têm aproximações pontuais por aquisição, doação e usucapião. Não há nulidades gerais, prova de negócio ou comparação lícito/ilícito; a coincidência Civil não basta para igualar os cursos. Ficha de 44 h dirigidas, mais 6 h tutorias, versus horas semanais históricas.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

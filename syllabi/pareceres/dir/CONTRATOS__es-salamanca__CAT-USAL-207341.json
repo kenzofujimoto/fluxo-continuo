@@ -1,0 +1,153 @@
+{
+  "id": "dir|CONTRATOS|es-salamanca|CAT-USAL-207341",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "CONTRATOS",
+    "name": "CONTRATOS",
+    "courseName": "Direito",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 17, bloco CONTRATOS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 4
+    },
+    "topics": [
+      "O componente visa o estudo dos fundamentos da Teoria Geral dos Contratos como instrumento hermenêutico de aplicação às relações contratuais",
+      "O estudo inicia-se com a contextualização dos contratos na Teoria Geral do Direito",
+      "Análise conceitual e prática desde a formação, classificação, efeitos, incluindo as repercussões jurídicas da extinção dos contratos",
+      "O componente curricular preocupa-se com a compreensão conceitual e prática das espécies de contrato, projetando a sala de aula como ambiente de experimentação laboratorial para fins de aprendizagem teórica e atuação profissional quanto à elaboração de contratos de compra e venda, troca ou permuta, estimatório ou consignatório, doação, locação, empréstimo nas modalidades comodato e mútuo, prestação de serviços, empreitada, depósito, mandato, comissão, agência e distribuição, corretagem, transporte, seguro, constituição de renda e fiança, positivados no Código Civil"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207341",
+      "name": "DERECHO DE OBLIGACIONES Y CONTRATOS",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": 1,
+      "period": "year 2",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207341",
+      "catalogue": "https://guias.usal.es/node/207341",
+      "sha256": "09efd9687f4765400e8c87df0ef378445433c08d98690f4e8e3585068b7613c1",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 75,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": 187.5,
+        "ects": 7.5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102310"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O componente visa o estudo dos fundamentos da Teoria Geral dos Contratos como instrumento hermenêutico de aplicação às relações contratuais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Teoria geral do contrato inclui interpretação, elementos e eficácia.",
+      "foreignLocation": "5, III lecciones 12-17"
+    },
+    {
+      "brTopic": "O estudo inicia-se com a contextualização dos contratos na Teoria Geral do Direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Direito patrimonial contextualiza contratos; teoria geral do direito não é bloco próprio.",
+      "foreignLocation": "5, I lección 1 e III"
+    },
+    {
+      "brTopic": "Análise conceitual e prática desde a formação, classificação, efeitos, incluindo as repercussões jurídicas da extinção dos contratos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conceito, classes, formação, eficácia e ineficácia aparecem.",
+      "foreignLocation": "5, lecciones 12-17"
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se com a compreensão conceitual e prática das espécies de contrato, projetando a sala de aula como ambiente de experimentação laboratorial para fins de aprendizagem teórica e atuação profissional quanto à elaboração de contratos de compra e venda, troca ou permuta, estimatório ou consignatório, doação, locação, empréstimo nas modalidades comodato e mútuo, prestação de serviços, empreitada, depósito, mandato, comissão, agência e distribuição, corretagem, transporte, seguro, constituição de renda e fiança, positivados no Código Civil",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Compra/venda, permuta, doação, obra, serviços, arrendamento, mandato e fiança; não todas as espécies brasileiras nem redação de contratos listados.",
+      "foreignLocation": "5, IV lecciones 18-24; 6 práticas"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "O componente visa o estudo dos fundamentos da Teoria Geral dos Contratos como instrumento hermenêutico de aplicação às relações contratuais. O estudo inicia-se com a contextualização dos contratos na Teoria Geral do Direito. Análise conceitual e prática desde a formação, classificação, efeitos, incluindo as repercussões jurídicas da extinção dos contratos. O componente curricular preocupa-se com a compreensão conceitual e prática das espécies de contrato, projetando a sala de aula como ambiente de experimentação laboratorial para fins de aprendizagem teórica e atuação profissional quanto à elaboração de contratos de compra e venda, troca ou permuta, estimatório ou consignatório, doação, locação, empréstimo nas modalidades comodato e mútuo, prestação de serviços, empreitada, depósito, mandato, comissão, agência e distribuição, corretagem, transporte, seguro, constituição de renda e fiança, positivados no Código Civil.",
+    "foreign": [
+      "Obligaciones y Contratos 102310 compartilha teoria geral e várias espécies contratuais; a brasileira inclui um catálogo mais extenso e elaboração contratual."
+    ],
+    "convergences": [
+      "Teoria geral do contrato inclui interpretação, elementos e eficácia.",
+      "Direito patrimonial contextualiza contratos; teoria geral do direito não é bloco próprio.",
+      "Conceito, classes, formação, eficácia e ineficácia aparecem.",
+      "Compra/venda, permuta, doação, obra, serviços, arrendamento, mandato e fiança; não todas as espécies brasileiras nem redação de contratos listados."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 4; exterior: Graduação, ano None.",
+    "brazil": "CONTRATOS: 4; documento 2022",
+    "foreign": "DERECHO DE OBLIGACIONES Y CONTRATOS: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 2",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Obligaciones y Contratos 102310 compartilha teoria geral e várias espécies contratuais; a brasileira inclui um catálogo mais extenso e elaboração contratual.",
+  "justification": "Duas unidades têm cobertura integral e duas parcial. A USAL declara 75 h presenciais incluindo tutorias e avaliação e 187,5 h totais; não se equiparam a 4 h-a semanais de 2022. A designação Outros contratos não prova seguro, transporte ou distribuição.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de CONTRATOS com DERECHO DE OBLIGACIONES Y CONTRATOS; Duas unidades têm cobertura integral e duas parcial. A USAL declara 75 h presenciais incluindo tutorias e avaliação e 187,5 h totais; não se equiparam a 4 h-a semanais de 2022. A designação Outros contratos não prova seguro, transporte ou distribuição.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais",
+    "75 h presenciais incluem tutorias e avaliação; sem decomposição por modalidade"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

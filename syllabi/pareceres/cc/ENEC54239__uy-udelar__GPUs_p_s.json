@@ -1,0 +1,165 @@
+{
+  "id": "cc|ENEC54239|uy-udelar|GPUs / pós",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54239",
+    "name": "Arquitetura e Organização de Computadores",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 2, bloco ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "Arquitetura RISC x CISC",
+      "Introduz à linguagem de montagem em arquitetura RISC",
+      "Aborda de forma introdutória as arquiteturas paralelas centralizadas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "uy-udelar",
+      "university": "Universidad de la República",
+      "code": "GPUs / pós",
+      "name": "Programación Masivamente Paralela en Procesadores Gráficos",
+      "faculty": null,
+      "department": null,
+      "programme": "Maestría/Doctorado en Informática e Maestría en Ciencia de Datos y Aprendizaje Automático",
+      "level": "Pós-graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "Semestre 2027.2 não confirmado",
+      "academicYear": null,
+      "language": "Espanhol; turma a confirmar",
+      "courseStatus": null,
+      "assessment": "Exercícios 50%; laboratório final 50%; aprovação em ambos",
+      "prerequisites": "Programação C e arquitetura de sistemas; recomendados SO, computação gráfica e HPC",
+      "source": "https://www.fing.edu.uy/sites/default/files/2026-01/programacion-masivamente-paralela-en-procesadores-graficos.pdf",
+      "catalogue": "https://www.fing.edu.uy/sites/default/files/2026-01/programacion-masivamente-paralela-en-procesadores-graficos.pdf",
+      "sha256": "be0856151917a933057e78bb5ea3a25d2bd9e1e4473ce2c49a20a5f49a81e102",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 38,
+        "contactLecture": 24,
+        "contactSeminarLab": 9,
+        "selfStudy": 114,
+        "totalWorkload": 152,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "História das GPUs e arquiteturas recentes são examinadas, sem evolução geral de computadores.",
+      "foreignLocation": "Temario 1 e 8"
+    },
+    {
+      "brTopic": "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Hierarquia de memória CUDA e transferências são detalhadas; CPU, barramentos e E/S gerais são pressupostos.",
+      "foreignLocation": "Temario 3-4; conhecimentos prévios exigidos"
+    },
+    {
+      "brTopic": "Arquitetura RISC x CISC",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-9",
+      "note": "Não consta comparação RISC/CISC."
+    },
+    {
+      "brTopic": "Introduz à linguagem de montagem em arquitetura RISC",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 4b; lista integral 1-9",
+      "note": "Código PTX é mencionado em CUDA, sem introdução à montagem RISC."
+    },
+    {
+      "brTopic": "Aborda de forma introdutória as arquiteturas paralelas centralizadas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Memória compartilhada/distribuída e modelos paralelos são explicitados.",
+      "foreignLocation": "Temario 2a"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta a evolução e classificação das arquiteturas dos computadores. Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S. Arquitetura RISC x CISC. Introduz à linguagem de montagem em arquitetura RISC. Aborda de forma introdutória as arquiteturas paralelas centralizadas.",
+    "foreign": [
+      "O curso uruguaio de GPUs é de pós-graduação e especializa CUDA e desempenho heterogêneo; Arquitetura e Organização de Computadores é graduação introdutória com CPU, barramentos e montagem RISC."
+    ],
+    "convergences": [
+      "História das GPUs e arquiteturas recentes são examinadas, sem evolução geral de computadores.",
+      "Hierarquia de memória CUDA e transferências são detalhadas; CPU, barramentos e E/S gerais são pressupostos.",
+      "Memória compartilhada/distribuída e modelos paralelos são explicitados."
+    ],
+    "differences": [
+      "Não consta comparação RISC/CISC.",
+      "Código PTX é mencionado em CUDA, sem introdução à montagem RISC."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 3; exterior: Graduação, ano None.",
+    "brazil": "Arquitetura e Organização de Computadores: {'teorica': 4, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Programación Masivamente Paralela en Procesadores Gráficos: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "Semestre 2027.2 não confirmado",
+    "language": "Espanhol; turma a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O curso uruguaio de GPUs é de pós-graduação e especializa CUDA e desempenho heterogêneo; Arquitetura e Organização de Computadores é graduação introdutória com CPU, barramentos e montagem RISC.",
+  "justification": "Três tópicos têm interseção, somente paralelismo coberto integralmente. Declaram-se 38 h presenciais (24 teóricas, 5 práticas, 4 laboratório, 5 consulta), total 152 h, em curso de pós; não há base semestral explícita nem RISC/CISC, e matrícula de graduando depende de autorização.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Arquitetura e Organização de Computadores com Programación Masivamente Paralela en Procesadores Gráficos; Três tópicos têm interseção, somente paralelismo coberto integralmente. Declaram-se 38 h presenciais (24 teóricas, 5 práticas, 4 laboratório, 5 consulta), total 152 h, em curso de pós; não há base semestral explícita nem RISC/CISC, e matrícula de graduando depende de autorização.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "38 h presenciais incluem 5 h de consulta; documento não explicita base semestral nem minutos da hora",
+    "10 créditos locais declarados; não são ECTS",
+    "Oferta é pós-graduação: elegibilidade do graduando não comprovada"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

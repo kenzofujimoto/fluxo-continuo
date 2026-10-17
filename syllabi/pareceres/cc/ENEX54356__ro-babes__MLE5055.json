@@ -1,0 +1,129 @@
+{
+  "id": "cc|ENEX54356|ro-babes|MLE5055",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54356",
+    "name": "Circuitos Digitais",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 3, bloco CIRCUITOS DIGITAIS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Sistemas de numeração posicionais, álgebra booleana, portas lógicas, teoremas, expressões duais e complementares, mapas de karnaugh, circuitos digitais combinatórios: implementação de funções lógicas, codificadores, decodificadores, multiplexadores, demultiplexadores, circuitos digitais aritméticos, unidade lógica e aritmética, circuitos digitais sequenciais: latches, flip-flops, contadores, registradores de deslocamento, máquina de estado e memórias (RAM e ROM)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5055",
+      "name": "Computational Logic",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science in English",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Outono/S1",
+      "academicYear": "2026/2027",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": "Compulsory",
+      "assessment": "Exam",
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5055_en_lupea_2026_10200.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem1_MLE5055_en_lupea_2026_10200.pdf",
+      "sha256": "4d17125e2146b53e243cdcb8e12d9ff7470a2eb5e6121fe45a8f2ddfa44adad9",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Sistemas de numeração posicionais, álgebra booleana, portas lógicas, teoremas, expressões duais e complementares, mapas de karnaugh, circuitos digitais combinatórios: implementação de funções lógicas, codificadores, decodificadores, multiplexadores, demultiplexadores, circuitos digitais aritméticos, unidade lógica e aritmética, circuitos digitais sequenciais: latches, flip-flops, contadores, registradores de deslocamento, máquina de estado e memórias (RAM e ROM)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Álgebra booleana, simplificação Karnaugh e portas/circuitos combinatórios, somadores, codificadores e decodificadores aparecem. Não constam sistemas de numeração, multiplexação, latches, flip-flops, contadores, registradores ou memórias.",
+      "foreignLocation": "7; 8.1 C9-C14; 8.2 seminários 11-14"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Sistemas de numeração posicionais, álgebra booleana, portas lógicas, teoremas, expressões duais e complementares, mapas de karnaugh, circuitos digitais combinatórios: implementação de funções lógicas, codificadores, decodificadores, multiplexadores, demultiplexadores, circuitos digitais aritméticos, unidade lógica e aritmética, circuitos digitais sequenciais: latches, flip-flops, contadores, registradores de deslocamento, máquina de estado e memórias (RAM e ROM).",
+    "foreign": [
+      "Computational Logic MLE5055 cobre a parte booleana e combinatória de Circuitos Digitais, mas dedica boa parte do curso à lógica proposicional e de predicados."
+    ],
+    "convergences": [
+      "Álgebra booleana, simplificação Karnaugh e portas/circuitos combinatórios, somadores, codificadores e decodificadores aparecem. Não constam sistemas de numeração, multiplexação, latches, flip-flops, contadores, registradores ou memórias."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 2; exterior: Bachelor, ano 1.",
+    "brazil": "Circuitos Digitais: {'teorica': 2, 'pratica': 2, 'atelie': 0}; documento 2025",
+    "foreign": "Computational Logic: Compulsory; avaliação Exam; contato 56 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 28 h aula e 28 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "Outono/S1",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Computational Logic MLE5055 cobre a parte booleana e combinatória de Circuitos Digitais, mas dedica boa parte do curso à lógica proposicional e de predicados.",
+  "justification": "O tópico brasileiro é um enunciado composto: a presença de Karnaugh e portas não cobre máquinas de estado, circuitos sequenciais, RAM/ROM e sistemas de numeração. As 56 h (28+28) não equivalem a 63,33 h de projeto digital completo.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Circuitos Digitais com Computational Logic; O tópico brasileiro é um enunciado composto: a presença de Karnaugh e portas não cobre máquinas de estado, circuitos sequenciais, RAM/ROM e sistemas de numeração. As 56 h (28+28) não equivalem a 63,33 h de projeto digital completo.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

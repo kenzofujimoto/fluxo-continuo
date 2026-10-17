@@ -1,0 +1,161 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL ECONOMICO|es-salamanca|CAT-USAL-207665",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL ECONOMICO",
+    "name": "DIREITO INTERNACIONAL ECONOMICO",
+    "courseName": "Direito",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 30, bloco DIREITO INTERNACIONAL ECONÔMICO; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 2
+    },
+    "topics": [
+      "A disciplina apresenta o campo do Direito Econômico Internacional, em especial a partir do exame da construção de regimes jurídicos internacionais",
+      "Diferentes interações, seja da competição de mercados, seja da cooperação (alianças, trocas, negociações), dependem de estruturas jurídicas capazes de instrumentalizar as pretensões econômicas",
+      "Na primeira etapa a disciplina apresenta os processos jurídicos (normas e tutelas) que estruturam a ordem econômica internacional por meio do exame das atuações do Fundo Monetário Internacional, do Banco Mundial, da Organização para a Cooperação e Desenvolvimento Econômico, da Organização Mundial do Comércio, da Organização Mundial da Propriedade Intelectual e da Rede Internacional de Concorrência",
+      "Na sequência, as bases jurídicas sobre os movimentos de integração econômica são apresentadas, incluindo mecanismos de formação de união aduaneiras e de mercado comum, bem como a configuração de integrações transnacionais via a lex mercatoria e a lex digitalis",
+      "Por fim, a disciplina mobiliza casos práticos, que possibilitam a identificação dos procedimentos, da jurisdição extraterritorial e das soluções extrajudiciais que marcam o campo econômico internacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207665",
+      "name": "COMPETENCIA Y PROPIEDAD INTELECTUAL",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": 1,
+      "period": "year 4",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207665",
+      "catalogue": "https://guias.usal.es/node/207665",
+      "sha256": "fb5855b4375adaf9cca837df400fb6743528b2e1128d8f09625d2c41d3848658",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102331"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina apresenta o campo do Direito Econômico Internacional, em especial a partir do exame da construção de regimes jurídicos internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Regulação europeia/internacional da concorrência e propriedade intelectual é um recorte de regimes econômicos internacionais.",
+      "foreignLocation": "5, temas1-3 e6"
+    },
+    {
+      "brTopic": "Diferentes interações, seja da competição de mercados, seja da cooperação (alianças, trocas, negociações), dependem de estruturas jurídicas capazes de instrumentalizar as pretensões econômicas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Mercados, restrição de concorrência e circulação de mercadorias oferecem contato setorial.",
+      "foreignLocation": "5, temas2-3 e6"
+    },
+    {
+      "brTopic": "Na primeira etapa a disciplina apresenta os processos jurídicos (normas e tutelas) que estruturam a ordem econômica internacional por meio do exame das atuações do Fundo Monetário Internacional, do Banco Mundial, da Organização para a Cooperação e Desenvolvimento Econômico, da Organização Mundial do Comércio, da Organização Mundial da Propriedade Intelectual e da Rede Internacional de Concorrência",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Regulação internacional de PI e concorrência é estudada, sem instituições FMI/Banco Mundial/OCDE/OMC/OMPI/ICN discriminadas.",
+      "foreignLocation": "5, temas1 e6"
+    },
+    {
+      "brTopic": "Na sequência, as bases jurídicas sobre os movimentos de integração econômica são apresentadas, incluindo mecanismos de formação de união aduaneiras e de mercado comum, bem como a configuração de integrações transnacionais via a lex mercatoria e a lex digitalis",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Livre circulação e direito da UE aparecem, sem uniões aduaneiras ou lex mercatoria/digitalis.",
+      "foreignLocation": "5, tema6"
+    },
+    {
+      "brTopic": "Por fim, a disciplina mobiliza casos práticos, que possibilitam a identificação dos procedimentos, da jurisdição extraterritorial e das soluções extrajudiciais que marcam o campo econômico internacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resolução de conflitos e medidas de fronteira em PI, sem jurisdição extraterritorial econômica geral.",
+      "foreignLocation": "5, temas13 e15;6 práticas"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A disciplina apresenta o campo do Direito Econômico Internacional, em especial a partir do exame da construção de regimes jurídicos internacionais. Diferentes interações, seja da competição de mercados, seja da cooperação (alianças, trocas, negociações), dependem de estruturas jurídicas capazes de instrumentalizar as pretensões econômicas. Na primeira etapa a disciplina apresenta os processos jurídicos (normas e tutelas) que estruturam a ordem econômica internacional por meio do exame das atuações do Fundo Monetário Internacional, do Banco Mundial, da Organização para a Cooperação e Desenvolvimento Econômico, da Organização Mundial do Comércio, da Organização Mundial da Propriedade Intelectual e da Rede Internacional de Concorrência. Na sequência, as bases jurídicas sobre os movimentos de integração econômica são apresentadas, incluindo mecanismos de formação de união aduaneiras e de mercado comum, bem como a configuração de integrações transnacionais via a lex mercatoria e a lex digitalis. Por fim, a disciplina mobiliza casos práticos, que possibilitam a identificação dos procedimentos, da jurisdição extraterritorial e das soluções extrajudiciais que marcam o campo econômico internacional.",
+    "foreign": [
+      "Competencia y Propiedad Intelectual cobre um segmento do Direito Internacional Econômico: concorrência europeia e proteção internacional de bens imateriais."
+    ],
+    "convergences": [
+      "Regulação europeia/internacional da concorrência e propriedade intelectual é um recorte de regimes econômicos internacionais.",
+      "Mercados, restrição de concorrência e circulação de mercadorias oferecem contato setorial.",
+      "Regulação internacional de PI e concorrência é estudada, sem instituições FMI/Banco Mundial/OCDE/OMC/OMPI/ICN discriminadas.",
+      "Livre circulação e direito da UE aparecem, sem uniões aduaneiras ou lex mercatoria/digitalis.",
+      "Resolução de conflitos e medidas de fronteira em PI, sem jurisdição extraterritorial econômica geral."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 4; exterior: Graduação, ano None.",
+    "brazil": "DIREITO INTERNACIONAL ECONOMICO: 2; documento 2022",
+    "foreign": "COMPETENCIA Y PROPIEDAD INTELECTUAL: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 4",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Competencia y Propiedad Intelectual cobre um segmento do Direito Internacional Econômico: concorrência europeia e proteção internacional de bens imateriais.",
+  "justification": "Os cinco tópicos possuem apenas interseções setoriais. Não se presume que normas internacionais de patentes ensinem regimes monetários, organizações econômicas e integração aduaneira; os 4,5 ECTS não discriminam tempo dedicado ao recorte internacional.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de DIREITO INTERNACIONAL ECONOMICO com COMPETENCIA Y PROPIEDAD INTELECTUAL; Os cinco tópicos possuem apenas interseções setoriais. Não se presume que normas internacionais de patentes ensinem regimes monetários, organizações econômicas e integração aduaneira; os 4,5 ECTS não discriminam tempo dedicado ao recorte internacional.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

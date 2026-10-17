@@ -1,0 +1,207 @@
+{
+  "id": "cc|ENEC61012|ro-babes|MLE5177",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61012",
+    "name": "Introdução à Engenharia de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": null
+    },
+    "topics": [
+      "Bibliografia básica PRESSMAN, R",
+      "Engenharia de Software: Uma Abordagem Profissional",
+      "Edição, Bookman, McGraw-Hill, 2021",
+      "SOMMERVILLE, I",
+      "Engenharia de software",
+      "São Paulo: Pearson, 2019",
+      "WAZLAWICK, R",
+      "Engenharia de Software: Conceitos e Práticas",
+      "Edição",
+      "Rio de Janeiro: ElsevierCampus, 2013"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5177",
+      "name": "Software engineering",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Computer Science",
+      "programme": "Information engineering",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 6,
+      "period": "6th Semester",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Compulsory",
+      "assessment": "Viva",
+      "prerequisites": "• Fundamentals of programming Object-Oriented programming; Programming in a high-level object-orietend language",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem6_MLE5177_en_avescan_2026_10756.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem6_MLE5177_en_avescan_2026_10756.pdf",
+      "sha256": "5f96cfe9db13946ccfb20e345bfded49e6c0eedee6b8b28968e92c846dc90948",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": {
+          "total": 5,
+          "course": 2,
+          "seminarLab": 3
+        },
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 80,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bibliografia básica PRESSMAN, R",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "Engenharia de Software: Uma Abordagem Profissional",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "Edição, Bookman, McGraw-Hill, 2021",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "SOMMERVILLE, I",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "Engenharia de software",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "São Paulo: Pearson, 2019",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "WAZLAWICK, R",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "Engenharia de Software: Conceitos e Práticas",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "Edição",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    },
+    {
+      "brTopic": "Rio de Janeiro: ElsevierCampus, 2013",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "scopeExamined": "PDF brasileiro p. 2, bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Bibliografia básica PRESSMAN, R. Engenharia de Software: Uma Abordagem Profissional. 8ª. Edição, Bookman, McGraw-Hill, 2021. SOMMERVILLE, I. Engenharia de software. São Paulo: Pearson, 2019. WAZLAWICK, R. Engenharia de Software: Conceitos e Práticas. 1ª. Edição. Rio de Janeiro: ElsevierCampus, 2013.",
+    "foreign": [
+      "Introdução a Engenharia de Software não tem conteúdo curricular legível no bloco oficial consultado. MLE5177 dispõe de programa próprio: Processos, UML/OCL, elicitação, projeto e verificação; exame 50%, seminário 10% e projeto 40%."
+    ],
+    "convergences": [],
+    "differences": [
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido.",
+      "O campo extraído contém referência bibliográfica; o PDF deixa Ementa vazio antes de Bibliografia básica. Não permite aferir conteúdo exigido."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 5; exterior: Bachelor, ano 3.",
+    "brazil": "Introdução à Engenharia de Software: None; documento 2025",
+    "foreign": "Software engineering: Compulsory; avaliação Viva; contato 70 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 28 h aula e 42 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "6th Semester",
+    "language": "Inglês",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "• Fundamentals of programming Object-Oriented programming; Programming in a high-level object-orietend language",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introdução a Engenharia de Software não tem conteúdo curricular legível no bloco oficial consultado. MLE5177 dispõe de programa próprio: Processos, UML/OCL, elicitação, projeto e verificação; exame 50%, seminário 10% e projeto 40%.",
+  "justification": "Não se infere conteúdo brasileiro a partir de Pressman, Sommerville ou Wazlawick. Todos os 10 fragmentos indexados são bibliografia; MLE5177 registra 70 h de contato, mas compatibilidade de horas não supre a falta de ementa.",
+  "conclusionClass": "evidencia_insuficiente",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Cotejo documental de Introdução à Engenharia de Software com Software engineering; Não se infere conteúdo brasileiro a partir de Pressman, Sommerville ou Wazlawick. Todos os 10 fragmentos indexados são bibliografia; MLE5177 registra 70 h de contato, mas compatibilidade de horas não supre a falta de ementa.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Solicitar programa brasileiro completo; os tópicos atuais são fragmentos de bibliografia, não unidades curriculares"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

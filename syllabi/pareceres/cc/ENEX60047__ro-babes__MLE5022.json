@@ -1,0 +1,153 @@
+{
+  "id": "cc|ENEX60047|ro-babes|MLE5022",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60047",
+    "name": "Análise de Algoritmos",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 3, bloco ANÁLISE DE ALGORITMOS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 47.5,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 3,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+      "Aborda a complexidade de algoritmos iterativos e recursivos",
+      "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
+      "Analisa o desempenho das técnicas clássicas de projeto de algoritmos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5022",
+      "name": "Data Structures and Algorithms",
+      "faculty": "Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (in English)",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "2",
+      "academicYear": "2026/2027",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": "Compulsory",
+      "assessment": "Exam",
+      "prerequisites": "Fundamentals of programming; Medium programming skills",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem2_MLE5022_en_marianzsu_2026_10311.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "f613878e49984296c59ad0b8fe6f0ab6b7e3bb876df0eb47a51b352fcf0077bb",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 69,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Complexidades e análise amortizada são explícitas; melhor/pior/médio e notação assintótica não são discriminados.",
+      "foreignLocation": "8.1 itens 1-2; seminário 2"
+    },
+    {
+      "brTopic": "Aborda a complexidade de algoritmos iterativos e recursivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Árvores e operações recursivas/não recursivas são analisadas, sem tratamento geral de recorrências.",
+      "foreignLocation": "8.1 itens 11-12; 9 laboratório"
+    },
+    {
+      "brTopic": "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "8.1 itens 1-14; seminários 1-7; laboratórios 1-7",
+      "note": "A sequência é por estruturas de dados; não há unidades de divisão e conquista, backtracking, gulosos e programação dinâmica."
+    },
+    {
+      "brTopic": "Analisa o desempenho das técnicas clássicas de projeto de algoritmos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Complexidade das implementações é avaliada; desempenho das quatro técnicas clássicas não aparece.",
+      "foreignLocation": "9.5 avaliação de laboratório; 8.1 item 2"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio. Aborda a complexidade de algoritmos iterativos e recursivos. Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica. Analisa o desempenho das técnicas clássicas de projeto de algoritmos.",
+    "foreign": [
+      "Data Structures and Algorithms MLE5022 trabalha complexidade de contêineres, hashing e árvores; não é um curso organizado pelas técnicas de projeto exigidas em Análise de Algoritmos."
+    ],
+    "convergences": [
+      "Complexidades e análise amortizada são explícitas; melhor/pior/médio e notação assintótica não são discriminados.",
+      "Árvores e operações recursivas/não recursivas são analisadas, sem tratamento geral de recorrências.",
+      "Complexidade das implementações é avaliada; desempenho das quatro técnicas clássicas não aparece."
+    ],
+    "differences": [
+      "A sequência é por estruturas de dados; não há unidades de divisão e conquista, backtracking, gulosos e programação dinâmica."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 4; exterior: Bachelor, ano 1.",
+    "brazil": "Análise de Algoritmos: {'teorica': 3, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Data Structures and Algorithms: Compulsory; avaliação Exam; contato 56 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 28 h aula e 28 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "2",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Fundamentals of programming; Medium programming skills",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Data Structures and Algorithms MLE5022 trabalha complexidade de contêineres, hashing e árvores; não é um curso organizado pelas técnicas de projeto exigidas em Análise de Algoritmos.",
+  "justification": "Três tópicos têm apoio parcial de complexidade e operações de estruturas, mas a unidade central de divisão e conquista, backtracking, gulosos e programação dinâmica não foi encontrada. Há 56 h ante 47,5 h; a carga maior não prova conteúdo ausente.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Análise de Algoritmos com Data Structures and Algorithms; Três tópicos têm apoio parcial de complexidade e operações de estruturas, mas a unidade central de divisão e conquista, backtracking, gulosos e programação dinâmica não foi encontrada. Há 56 h ante 47,5 h; a carga maior não prova conteúdo ausente.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

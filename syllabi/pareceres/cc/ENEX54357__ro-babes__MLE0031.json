@@ -1,0 +1,144 @@
+{
+  "id": "cc|ENEX54357|ro-babes|MLE0031",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54357",
+    "name": "Análise de Dados",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2, bloco ANÁLISE DE DADOS APLICADA; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Estudo da análise exploratória de dados e construção de gráficos com uso de linguagens de programação",
+      "Aborda a coleta de dados e técnicas para obtenção de amostras aleatórias e para o desenvolvimento de experimentos estatísticos",
+      "Apresenta a inferência estatística e as principais; distribuições de probabilidade discretas e contínuas, distribuições amostrais, teste de hipótese inferência sobre a média populacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE0031",
+      "name": "Probability and Statistics",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (English)",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Outono/S1",
+      "academicYear": "2026/2027",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": "Compulsory",
+      "assessment": "Exam",
+      "prerequisites": "Mathematical Analysis, Algebra; Computation of limits and integrals, Set Theory, Combinatorics, Python programming",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE0031_en_hanne_2026_11025.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE0031_en_hanne_2026_11025.pdf",
+      "sha256": "fbf56fd1a808719ddcbfaba03128155b2c94e194eb984d6707fa6472e27d8168",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da análise exploratória de dados e construção de gráficos com uso de linguagens de programação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Estatística descritiva, representação de dados e processamento em Python são ensinados.",
+      "foreignLocation": "8.1 C9; 8.2 L1 e L6"
+    },
+    {
+      "brTopic": "Aborda a coleta de dados e técnicas para obtenção de amostras aleatórias e para o desenvolvimento de experimentos estatísticos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Teoria da amostragem e números pseudoaleatórios aparecem; desenho de experimentos e coleta não são detalhados.",
+      "foreignLocation": "8.1 C10; 8.2 L2"
+    },
+    {
+      "brTopic": "Apresenta a inferência estatística e as principais; distribuições de probabilidade discretas e contínuas, distribuições amostrais, teste de hipótese inferência sobre a média populacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Distribuições discretas/contínuas, intervalos para média e testes Z/t.",
+      "foreignLocation": "8.1 C3-C4 e C11-C14; 8.2 S3-S7"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo da análise exploratória de dados e construção de gráficos com uso de linguagens de programação. Aborda a coleta de dados e técnicas para obtenção de amostras aleatórias e para o desenvolvimento de experimentos estatísticos. Apresenta a inferência estatística e as principais; distribuições de probabilidade discretas e contínuas, distribuições amostrais, teste de hipótese inferência sobre a média populacional.",
+    "foreign": [
+      "Probability and Statistics MLE0031 compartilha estatística descritiva em Python, distribuições e inferência sobre a média com Análise de Dados Aplicada; planejamento experimental fica parcial."
+    ],
+    "convergences": [
+      "Estatística descritiva, representação de dados e processamento em Python são ensinados.",
+      "Teoria da amostragem e números pseudoaleatórios aparecem; desenho de experimentos e coleta não são detalhados.",
+      "Distribuições discretas/contínuas, intervalos para média e testes Z/t."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 2; exterior: Bachelor, ano 2.",
+    "brazil": "Análise de Dados: {'teorica': 4, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Probability and Statistics: Compulsory; avaliação Exam; contato 56 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 28 h aula e 28 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "Outono/S1",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Mathematical Analysis, Algebra; Computation of limits and integrals, Set Theory, Combinatorics, Python programming",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Probability and Statistics MLE0031 compartilha estatística descritiva em Python, distribuições e inferência sobre a média com Análise de Dados Aplicada; planejamento experimental fica parcial.",
+  "justification": "Duas de três unidades brasileiras estão cobertas e uma parcial. A carga estrangeira é 56 h (28+28), mas a duração da hora não é definida. Além disso, o título brasileiro diverge da matriz (Análise de Dados), e o vínculo deve ser confirmado antes de qualquer conclusão elevada.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Análise de Dados com Probability and Statistics; Duas de três unidades brasileiras estão cobertas e uma parcial. A carga estrangeira é 56 h (28+28), mas a duração da hora não é definida. Além disso, o título brasileiro diverge da matriz (Análise de Dados), e o vínculo deve ser confirmado antes de qualquer conclusão elevada.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Título Análise de Dados Aplicada no PDF difere de Análise de Dados na matriz; vínculo não confirmado"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}
