@@ -168,16 +168,24 @@ def _norm(s) -> str:
     return re.sub(r"\s+", " ", "".join(c for c in t if unicodedata.category(c) != "Mn")).strip()
 
 
+DRIFT = "DRIFT: "
+
+
+def split_drift(messages: list[str]) -> tuple[list[str], list[str]]:
+    """Structural problems are errors; a document that changed after the parecer is a review flag."""
+    return ([m for m in messages if not m.startswith(DRIFT)], [m[len(DRIFT):] for m in messages if m.startswith(DRIFT)])
+
+
 def crosscheck(p: dict, programs: dict) -> list[str]:
     """Compare a parecer with values extracted from the cached official documents."""
     errs = []
     b = p["brazil"]
     bp = programs.get("brazil", {}).get(f"{b['courseId']}|{b['code']}")
     if bp and bp.get("status") == "lido":
-        if b.get("sha256") and bp.get("sha256") and b["sha256"] != bp["sha256"]:
-            errs.append("brazil.sha256 differs from fetched document")
+        if b.get("sha256") and bp.get("sha256") and b["sha256"] not in (bp["sha256"], bp.get("contentSha256")):
+            errs.append(DRIFT + "brazil.sha256 differs from fetched document")
         if bp.get("hours") is not None and (b.get("hours") or {}).get("value") not in (None, bp["hours"]):
-            errs.append("brazil.hours.value differs from official ementário")
+            errs.append(DRIFT + "brazil.hours.value differs from official ementário")
         official = [_norm(t) for t in bp.get("topics") or []]
         if official:
             if [_norm(t) for t in b.get("topics") or []] != official:
@@ -193,14 +201,14 @@ def crosscheck(p: dict, programs: dict) -> list[str]:
         fp = programs.get("foreign", {}).get(f"{f['universityId']}|{f['code']}")
         if not fp or fp.get("status") != "lido":
             continue
-        if f.get("sha256") and fp.get("sha256") and f["sha256"] != fp["sha256"]:
-            errs.append(f"{f['code']}: sha256 differs from fetched document")
+        if f.get("sha256") and fp.get("sha256") and f["sha256"] not in (fp["sha256"], fp.get("contentSha256")):
+            errs.append(DRIFT + f"{f['code']}: sha256 differs from fetched document")
         h = fp.get("hours") or {}
         fh = f.get("hours") or {}
         if (h.get("contact") or {}).get("total") is not None and fh.get("contactTotal") != h["contact"]["total"]:
-            errs.append(f"{f['code']}: hours.contactTotal {fh.get('contactTotal')} differs from document {h['contact']['total']}")
+            errs.append(DRIFT + f"{f['code']}: hours.contactTotal {fh.get('contactTotal')} differs from document {h['contact']['total']}")
         if h.get("ects") is not None and fh.get("ects") not in (None, h["ects"]):
-            errs.append(f"{f['code']}: hours.ects differs from document")
+            errs.append(DRIFT + f"{f['code']}: hours.ects differs from document")
     return errs
 
 
@@ -262,10 +270,11 @@ def main(argv: list[str] | None = None) -> int:
             br_doc = key in br_ok or bool(bprog.get("officialSyllabus")) or bool(br_extra.get(key, {}).get("officialSyllabus"))
             current = key in br_ok or bool(bprog.get("current")) or bool(br_extra.get(key, {}).get("current"))
             docs_ok = br_doc and all((f["universityId"], f["code"]) in foreign_ok for f in p["foreign"])
-            drift = crosscheck(p, programs)
-            if drift:
-                raise ParecerError(f"{p.get('id')}: " + "; ".join(drift))
+            structural, drift = split_drift(crosscheck(p, programs))
+            if structural:
+                raise ParecerError(f"{p.get('id')}: " + "; ".join(structural))
             v = validate_parecer(p, docs_ok=docs_ok, current_br=current)
+            v["documentDrift"] = drift  # official document changed after the parecer: needs review
             v["brazilDocumentCurrent"] = current
             v["documentsVerified"] = docs_ok
             v["cell"] = [b["courseId"], row_index[key], uni_index[p["foreign"][0]["universityId"]]]
@@ -301,6 +310,7 @@ def main(argv: list[str] | None = None) -> int:
         "byConfidence": dict(collections.Counter(p["confidence"] for p in out)),
         "byCourse": dict(collections.Counter(p["brazil"]["courseId"] for p in out)),
         "combined": sum(p.get("type") == "combinada" for p in out),
+        "documentDrift": sum(1 for p in out if p.get("documentDrift")),
         "institutionalDecisions": sum(p["institutionalStatus"] != PENDING for p in out),
         "referenceRatio": REFERENCE_RATIO,
         "rule": "Regra interna do projeto: alta afinidade exige >=75% dos tópicos essenciais integralmente cobertos, "

@@ -260,6 +260,11 @@ def main() -> int:
     data = _load("data.json")
     programs = _load("syllabi/programas.json") if (ROOT / "syllabi/programas.json").exists() else {"brazil": {}, "foreign": {}}
     records = {(r["universityId"], r["foreignCode"]): r for r in _load("syllabi/records.json")["foreign"]}
+    # Programmes verified later by resolve_syllabi.py count as individual syllabi too.
+    if (ROOT / "syllabi/fontes-verificadas.json").exists():
+        for v in _load("syllabi/fontes-verificadas.json").get("foreign", []):
+            if v.get("individualSyllabus"):
+                records[(v["universityId"], v["code"])] = {"status": "ementa_individual", "document": v["source"]}
     pidx = _load("syllabi/pareceres-index.json")["pareceres"] if (ROOT / "syllabi/pareceres-index.json").exists() else []
     triage = _load("triagem.json")["pairs"]
     unis = data["universities"]

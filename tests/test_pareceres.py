@@ -212,3 +212,20 @@ def test_crosscheck_requires_every_official_topic_to_be_assessed():
     p = xp()
     p["topics"] = p["topics"][:1]
     assert any("not assessed" in e for e in crosscheck(p, programs_fixture()))
+
+
+def test_document_drift_is_flagged_not_fatal_and_content_hash_is_accepted():
+    from build_pareceres import split_drift
+    progs = programs_fixture()
+    progs["foreign"]["ro-babes|MLE5077"]["contentSha256"] = "cc"
+    p = xp()
+    p["foreign"][0]["sha256"] = "cc"           # content hash of the same document: accepted
+    errs, drift = split_drift(crosscheck(p, progs))
+    assert errs == [] and drift == []
+    p["foreign"][0]["sha256"] = "zz"           # document changed after the parecer was written
+    p["foreign"][0]["hours"]["contactTotal"] = 84
+    errs, drift = split_drift(crosscheck(p, progs))
+    assert errs == [] and len(drift) == 2
+    p["topics"][0]["brTopic"] = "Tópico inventado"  # structural problems stay fatal
+    errs, drift = split_drift(crosscheck(p, progs))
+    assert errs and "brTopic" in errs[0]

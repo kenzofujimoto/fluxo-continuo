@@ -118,6 +118,18 @@ def fetch(url: str, prev: dict | None, refresh: bool) -> dict:
         return entry
 
 
+def content_hash(url: str, entry: dict) -> str | None:
+    """Version identity of a document: raw bytes for PDFs; normalised visible text for HTML pages,
+    whose raw bytes change on every request (tokens, timestamps) even when the programme does not."""
+    if entry.get("format") == "pdf":
+        return entry.get("sha256")
+    p = text_path(url)
+    if not p.exists():
+        return None
+    text = re.sub(r"\s+", " ", p.read_text(encoding="utf-8")).strip()
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
 def canonical(s: str) -> str:
     t = unicodedata.normalize("NFD", str(s or ""))
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
@@ -183,7 +195,7 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
     for url, ident in foreign:
         m = manifest.get(url, {})
         key = ident["universityId"] + "|" + ident["code"]
-        base = {"source": url, "sha256": m.get("sha256"), "fetchedAt": m.get("fetchedAt"), "status": m.get("status")}
+        base = {"source": url, "sha256": m.get("sha256"), "contentSha256": content_hash(url, m), "fetchedAt": m.get("fetchedAt"), "status": m.get("status")}
         if m.get("status") != "lido" or not text_path(url).exists():
             progs_f[key] = base
             continue
