@@ -1,0 +1,134 @@
+{
+  "id": "si|INTERFACE HUMANO-COMPUTADOR|es-salamanca|101124",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "INTERFACE HUMANO-COMPUTADOR",
+    "name": "INTERFACE HUMANO-COMPUTADOR",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 26, bloco INTERFACE HUMANO-COMPUTADOR, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos fatores humanos em sistemas interativos",
+      "Estudos da relação entre comunicação, interface e interação",
+      "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "Avaliação de usabilidade de sistemas interativos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101124",
+      "name": "Interacción Persona-Ordenador",
+      "source": "https://guias.usal.es/node/255570",
+      "sha256": "ba7112076643484e70e65b080b2a4eda6c1c8c49986ed581e41d6edbc43cc6c7",
+      "location": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "academicYear": "2026/2027",
+      "language": "Espanhol declarado",
+      "period": "Segundo semestre, terceiro ano",
+      "assessment": "40% exames, 30% trabalho e 30% contínua; protótipo funcional obrigatório; presença mínima 80%",
+      "prerequisites": "Ter cursado Ingeniería del Software I",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fatores humanos em sistemas interativos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Psicologia cognitiva, canais sensoriais, percepção, movimento e memória",
+      "foreignLocation": "5 Contenidos, aspectos psicológicos"
+    },
+    {
+      "brTopic": "Estudos da relação entre comunicação, interface e interação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Diálogo pessoa-computador, estilos e paradigmas, design gráfico e comunicação",
+      "foreignLocation": "3 Objetivos; 5 Contenidos"
+    },
+    {
+      "brTopic": "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Design centrado no usuário, ciclo de vida, protótipos e implementação com ferramentas web",
+      "foreignLocation": "5 teoria/prática; 9 avaliação do protótipo"
+    },
+    {
+      "brTopic": "Avaliação de usabilidade de sistemas interativos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Métodos empíricos, fatores mensuráveis, experimentação e avaliação de usabilidade/acessibilidade",
+      "foreignLocation": "3 Objetivos; 5 avaliação de interfaces"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos fatores humanos em sistemas interativos. Estudos da relação entre comunicação, interface e interação. Estudo de processos de projeto e de implementação de sistemas interativos. Avaliação de usabilidade de sistemas interativos.",
+    "foreign": [
+      "Projetar e implementar interfaces centradas no usuário e avaliar usabilidade e acessibilidade"
+    ],
+    "convergences": [
+      "Interacción Persona-Ordenador apresenta correspondência explícita nos quatro eixos de IHC: fatores humanos, comunicação/interação, projeto/implementação e avaliação."
+    ],
+    "differences": [
+      "A teoria detalha percepção e memória, design centrado no usuário, acessibilidade e métodos empíricos; a prática usa Figma e tecnologias web e exige protótipo funcional. Apesar de quatro tópicos cobertos, os 6 ECTS não demonstram total de contato: não se atribui alta afinidade somente por escopo. Confirmar requisitos e vaga em turma de segundo semestre 2027/28."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 5; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Projetar e implementar interfaces centradas no usuário e avaliar usabilidade e acessibilidade",
+    "theoryPractice": "Trabalho individual/dupla, prototipagem, implementação e defesa pública; teoria cognitiva e avaliação de interfaces."
+  },
+  "practical": {
+    "period": "Segundo semestre, terceiro ano",
+    "language": "Espanhol declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Ter cursado Ingeniería del Software I",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Interacción Persona-Ordenador apresenta correspondência explícita nos quatro eixos de IHC: fatores humanos, comunicação/interação, projeto/implementação e avaliação.",
+  "justification": "A teoria detalha percepção e memória, design centrado no usuário, acessibilidade e métodos empíricos; a prática usa Figma e tecnologias web e exige protótipo funcional. Apesar de quatro tópicos cobertos, os 6 ECTS não demonstram total de contato: não se atribui alta afinidade somente por escopo. Confirmar requisitos e vaga em turma de segundo semestre 2027/28.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Interacción Persona-Ordenador para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de INTERFACE HUMANO-COMPUTADOR demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

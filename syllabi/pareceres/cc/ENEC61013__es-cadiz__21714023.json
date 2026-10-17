@@ -1,0 +1,138 @@
+{
+  "id": "cc|ENEC61013|es-cadiz|21714023",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61013",
+    "name": "Sistemas Operacionais",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 5",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 2, bloco SISTEMAS OPERACIONAIS: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+      "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+      "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+      "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714023",
+      "name": "Sistemas Operativos",
+      "programme": null,
+      "level": "Graduação",
+      "period": "1º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Teoria 60%, exames práticos 30%, atividades 10%; mínimo 4,5 em cada parte teórica/prática.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714023",
+      "catalogue": null,
+      "sha256": "a1ef256367db6f541a45f030c20adbf19b1a86c7f3c9cddce1a710c5c6e51d98",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 18,
+        "contactSeminarLab": 42,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "História, classificação, componentes e estrutura de SO são detalhados.",
+      "foreignLocation": "Tema 1.1-1.8"
+    },
+    {
+      "brTopic": "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Processos/threads, níveis e algoritmos de escalonamento e avaliação são explícitos.",
+      "foreignLocation": "Temas 2-3; Resultados 5-7"
+    },
+    {
+      "brTopic": "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Processos e interbloqueios, memória, arquivos e E/S são abrangidos; semáforos/monitores e sincronização geral não são desenvolvidos.",
+      "foreignLocation": "Temas 2, 4-7"
+    },
+    {
+      "brTopic": "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Práticas implementam scripts bash e exploram ext2/administração Linux; não há implementação dos diferentes gerenciadores internos.",
+      "foreignLocation": "Programa de Práticas 1-6; Atividades 03"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta o histórico, classificação, estrutura de um sistema operacional. Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos. concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos. Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional.",
+    "foreign": [
+      "Aplicar escalonamento, memória virtual e E/S, utilizar Linux avançado e conhecer seu núcleo."
+    ],
+    "convergences": [
+      "Sistemas Operativos 21714023 cobre estrutura e escalonamento e grande parte dos gerenciadores, mas a prática de usuário Linux não demonstra implementação dos módulos de SO exigida no Mackenzie."
+    ],
+    "differences": [
+      "Os temas 1-3 comprovam os dois primeiros enunciados, e 4-7 cobrem impasses, memória, E/S e arquivos. A sincronização explícita entre processos/threads fica limitada; as seis práticas são ext2, permissões, filtros, expressões regulares, administração e bash. Portanto dois eixos são integrais e dois parciais, com 60 h presenciais (18 teoria, 18 problemas, 24 informática), frente às 63,33 h brasileiras. A correspondência substancial justifica afinidade parcial; a falta de comprovação de implementação de gerenciadores impede tomar laboratório de Linux como prática equivalente de núcleo."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "SISTEMAS OPERACIONAIS: etapa 5, 63.33 horas declaradas.",
+    "foreign": "Obrigatória de 2º ano, sete temas teóricos e seis práticas Linux.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "1º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sistemas Operativos 21714023 cobre estrutura e escalonamento e grande parte dos gerenciadores, mas a prática de usuário Linux não demonstra implementação dos módulos de SO exigida no Mackenzie.",
+  "justification": "Os temas 1-3 comprovam os dois primeiros enunciados, e 4-7 cobrem impasses, memória, E/S e arquivos. A sincronização explícita entre processos/threads fica limitada; as seis práticas são ext2, permissões, filtros, expressões regulares, administração e bash. Portanto dois eixos são integrais e dois parciais, com 60 h presenciais (18 teoria, 18 problemas, 24 informática), frente às 63,33 h brasileiras. A correspondência substancial justifica afinidade parcial; a falta de comprovação de implementação de gerenciadores impede tomar laboratório de Linux como prática equivalente de núcleo.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora da UCA não declarada; comparação horária condicional.",
+    "Opções genéricas do formulário de idiomas/mobilidade não comprovam oferta em inglês ou vagas."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714023 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

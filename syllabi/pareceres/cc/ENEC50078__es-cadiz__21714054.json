@@ -1,0 +1,170 @@
+{
+  "id": "cc|ENEC50078|es-cadiz|21714054",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC50078",
+    "name": "Banco de Dados",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 3",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 2, bloco FUNDAMENTOS DE BANCO DE DADOS: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 47.5,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais",
+      "Detalhamento da teoria relacional",
+      "Construção de Modelos Entidade-Relacionamento e Relacional",
+      "Aplicação de Normalização",
+      "Estudo da Álgebra Relacional",
+      "Estudo da linguagem SQL",
+      "Introdução à linguagem de programação para banco de dados",
+      "Estudo de Transações e Controle de Concorrência"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714054",
+      "name": "Tecnologías Avanzadas de Bases de Datos",
+      "programme": null,
+      "level": "Graduação",
+      "period": "2º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Questionários 50%; práticas 50% (15% exercícios e 85% projeto dentro da parcela prática).",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714054",
+      "catalogue": null,
+      "sha256": "18ccce81861664f9e2b1280e866842b9e78df35d2e30d68cf7b51a669521475e",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 90,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Panorama dos sistemas e modelos/arquiteturas de bases de dados consta da teoria inicial.",
+      "foreignLocation": "Teoria 1.1-1.3"
+    },
+    {
+      "brTopic": "Detalhamento da teoria relacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelo objeto-relacional é estudado; a teoria relacional básica não é detalhada.",
+      "foreignLocation": "Teoria 1.2 e 2"
+    },
+    {
+      "brTopic": "Construção de Modelos Entidade-Relacionamento e Relacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoria 1-4 e Práticas 1-6",
+      "note": "Não há construção de diagramas ER e transformação para modelo relacional."
+    },
+    {
+      "brTopic": "Aplicação de Normalização",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoria 1-4 e Práticas 1-6",
+      "note": "Normalização não integra os temas divulgados."
+    },
+    {
+      "brTopic": "Estudo da Álgebra Relacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoria 3.4; temário integral",
+      "note": "Álgebra relacional não consta; consultas distribuídas não provam ensino da álgebra."
+    },
+    {
+      "brTopic": "Estudo da linguagem SQL",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cursores, SQL em PL/SQL e consultas CQL/Cypher são praticados; SQL relacional geral não tem sequência própria.",
+      "foreignLocation": "Práticas 1-3 e 5-6"
+    },
+    {
+      "brTopic": "Introdução à linguagem de programação para banco de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "PL/SQL, procedimentos, funções e pacotes formam uma sequência procedural explícita.",
+      "foreignLocation": "Práticas 1-4"
+    },
+    {
+      "brTopic": "Estudo de Transações e Controle de Concorrência",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "SELECT FOR UPDATE é mencionado no tema de cursores, sem teoria de transações e controle concorrente.",
+      "foreignLocation": "Práticas 2.1.6"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais. Detalhamento da teoria relacional. Construção de Modelos Entidade-Relacionamento e Relacional. Aplicação de Normalização. Estudo da Álgebra Relacional. Estudo da linguagem SQL. Introdução à linguagem de programação para banco de dados. Estudo de Transações e Controle de Concorrência.",
+    "foreign": [
+      "Projetar soluções objeto-relacionais/distribuídas e implementar PL/SQL, Cassandra e Neo4J."
+    ],
+    "convergences": [
+      "Tecnologías Avanzadas de Bases de Datos ensina programação procedural e sistemas avançados, mas não substitui o núcleo de modelagem, normalização e álgebra de Fundamentos de Banco de Dados."
+    ],
+    "differences": [
+      "O panorama teórico cobre fundamentos de SGBD e as práticas 1-4 dão cobertura sólida à introdução procedural. Relacional, SQL e concorrência ficam parciais: há objeto-relacional, cursores e SELECT FOR UPDATE, sem a base formal correspondente. Os três eixos de ER, normalização e álgebra não são encontrados. Com cinco de oito eixos ao menos parciais, a conclusão é afinidade parcial; 60 h presenciais não corrigem o conteúdo faltante nem a divergência entre o título da matriz brasileira e a ficha de 47,5 h."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "FUNDAMENTOS DE BANCO DE DADOS: etapa 3, 47.5 horas declaradas.",
+    "foreign": "Optativa do 3º/4º ano; quatro temas teóricos e seis práticos.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "2º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Tecnologías Avanzadas de Bases de Datos ensina programação procedural e sistemas avançados, mas não substitui o núcleo de modelagem, normalização e álgebra de Fundamentos de Banco de Dados.",
+  "justification": "O panorama teórico cobre fundamentos de SGBD e as práticas 1-4 dão cobertura sólida à introdução procedural. Relacional, SQL e concorrência ficam parciais: há objeto-relacional, cursores e SELECT FOR UPDATE, sem a base formal correspondente. Os três eixos de ER, normalização e álgebra não são encontrados. Com cinco de oito eixos ao menos parciais, a conclusão é afinidade parcial; 60 h presenciais não corrigem o conteúdo faltante nem a divergência entre o título da matriz brasileira e a ficha de 47,5 h.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora estrangeira não informada.",
+    "Vínculo entre Banco de Dados da matriz e Fundamentos de Banco de Dados de 2025 ainda precisa de confirmação."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714054 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

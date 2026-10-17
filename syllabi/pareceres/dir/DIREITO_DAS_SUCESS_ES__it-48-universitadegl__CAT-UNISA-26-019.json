@@ -1,0 +1,130 @@
+{
+  "id": "dir|DIREITO DAS SUCESSÕES|it-48-universitadegl|CAT-UNISA-26-019",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DAS SUCESSÕES",
+    "name": "DIREITO DAS SUCESSÕES",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "Página 54, bloco DIREITO DAS SUCESSÕES, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "Ementário 2022 histórico; duração da hora e total semestral não estabelecidos."
+    },
+    "topics": [
+      "Estudo da teoria geral do direito sucessório, da primazia da sucessão legítima no direito brasileiro e da sucessão testamentária",
+      "O componente curricular preocupa-se com a análise conceitual e prática da estrutura tradicional positivada a respeito da abertura da sucessão, inventário, partilha e disposições testamentárias, mas, também, foca no estudo preventivo do planejamento sucessório sob o ponto de vista patrimonial e afetivo",
+      "Conta, ainda, com a preparação teórica e profissional a partir da análise de cases, englobando o debate doutrinário e jurisprudencial sobre o direito das sucessões codificado e as repercussões sucessórias da herança digital"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "it-48-universitadegl",
+      "university": "Università degli Studi di Salerno",
+      "code": "CAT-UNISA-26-019",
+      "name": "Diritto delle successioni",
+      "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523774&percorso=0&anno=2026&cds_id=500852&tab=percorsi",
+      "sha256": "3726f294ac71d41744a34f105296a9f4226a2c6455cd27a236dd2b8558fb679b",
+      "location": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "academicYear": "2026/2027",
+      "language": "Italiano; turma e apoio linguístico a confirmar",
+      "period": "Primeiro semestre",
+      "assessment": "Exame oral",
+      "prerequisites": "Nenhum (Prerequisiti: NESSUNO)",
+      "hours": {
+        "contactTotal": 54,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "54h para inscritos a partir de 2025/26 explicitadas no método; distribuição temática antiga em 72h."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da teoria geral do direito sucessório, da primazia da sucessão legítima no direito brasileiro e da sucessão testamentária",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Sucessão legítima e testamentária e sucessão necessária italianas, sem demonstrar a primazia no direito brasileiro",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se com a análise conceitual e prática da estrutura tradicional positivada a respeito da abertura da sucessão, inventário, partilha e disposições testamentárias, mas, também, foca no estudo preventivo do planejamento sucessório sob o ponto de vista patrimonial e afetivo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Abertura, fases, comunhão e divisão hereditária, testamento e elementos acidentais; planejamento afetivo/patrimonial não individualizado",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "Conta, ainda, com a preparação teórica e profissional a partir da análise de cases, englobando o debate doutrinário e jurisprudencial sobre o direito das sucessões codificado e as repercussões sucessórias da herança digital",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Aplicação das normas ao caso e trabalho/tesina; herança digital não aparece",
+      "foreignLocation": "Obiettivi; Metodi; Contenuti"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo da teoria geral do direito sucessório, da primazia da sucessão legítima no direito brasileiro e da sucessão testamentária. O componente curricular preocupa-se com a análise conceitual e prática da estrutura tradicional positivada a respeito da abertura da sucessão, inventário, partilha e disposições testamentárias, mas, também, foca no estudo preventivo do planejamento sucessório sob o ponto de vista patrimonial e afetivo. Conta, ainda, com a preparação teórica e profissional a partir da análise de cases, englobando o debate doutrinário e jurisprudencial sobre o direito das sucessões codificado e as repercussões sucessórias da herança digital.",
+    "foreign": [
+      "Interpretar normas sucessórias e resolver casos sobre aquisição e divisão da herança"
+    ],
+    "convergences": [
+      "Diritto delle Successioni oferece núcleo sucessório amplo, com abertura, legítima, testamento e divisão, mas não comprova planejamento afetivo nem herança digital."
+    ],
+    "differences": [
+      "Os três enunciados são parcialmente cobertos porque a aplicação é ao Código Civil italiano e faltam recortes brasileiros específicos. A ficha registra 54h para matriculados a partir de 2025/26, preservando conteúdos distribuídos sob regime antigo de 72h: a abrangência efetiva da turma precisa ser confirmada. A tesina e a prova oral evidenciam aplicação conceitual, sem demonstrar o debate de ativos digitais."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 7; referência histórica 2022, sem comprovação de vigência atual.",
+    "foreign": "Interpretar normas sucessórias e resolver casos sobre aquisição e divisão da herança",
+    "theoryPractice": "Aulas, trabalho individual ou de grupo e exame oral com tesina. Regime recente explicita 54h; programa antigo conserva distribuição de 72h."
+  },
+  "practical": {
+    "period": "Primeiro semestre",
+    "language": "Italiano; turma e apoio linguístico a confirmar",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Nenhum (Prerequisiti: NESSUNO)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Diritto delle Successioni oferece núcleo sucessório amplo, com abertura, legítima, testamento e divisão, mas não comprova planejamento afetivo nem herança digital.",
+  "justification": "Os três enunciados são parcialmente cobertos porque a aplicação é ao Código Civil italiano e faltam recortes brasileiros específicos. A ficha registra 54h para matriculados a partir de 2025/26, preservando conteúdos distribuídos sob regime antigo de 72h: a abrangência efetiva da turma precisa ser confirmada. A tesina e a prova oral evidenciam aplicação conceitual, sem demonstrar o debate de ativos digitais.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Ementário Direito 2022 histórico, sem comprovação de correspondência à matriz vigente; horas semanais sem base semestral",
+    "Lista temática conserva carga de 72h; confirmar quais tópicos permanecem no regime 54h para ingressantes desde 2025/26."
+  ],
+  "openQuestions": [
+    "A universidade confirma Diritto delle successioni para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de DIREITO DAS SUCESSÕES demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

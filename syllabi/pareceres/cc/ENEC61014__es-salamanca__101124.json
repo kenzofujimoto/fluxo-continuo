@@ -1,0 +1,137 @@
+{
+  "id": "cc|ENEC61014|es-salamanca|101124",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61014",
+    "name": "Interface Humano-Computador",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 5, bloco INTERFACE HUMANO-COMPUTADOR: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos fatores humanos em sistemas interativos",
+      "Estudos da relação entre comunicação, interface e interação",
+      "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "Avaliação de usabilidade de sistemas interativos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101124",
+      "name": "Interacción Persona-Ordenador",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "period": "Segundo semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "assessment": "Exames 40%, trabalho final 30%, avaliação contínua 30%; mínimo 5 em exame e trabalho e presença de 80%.",
+      "prerequisites": "Ter cursado Ingeniería del Software I.",
+      "source": "https://guias.usal.es/node/255570",
+      "catalogue": null,
+      "sha256": "ba7112076643484e70e65b080b2a4eda6c1c8c49986ed581e41d6edbc43cc6c7",
+      "location": "Guia oficial 2026/2027, seções 1-9: identificação, recomendações, objetivos, competências, conteúdos teóricos/práticos, metodologias, recursos e avaliação.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fatores humanos em sistemas interativos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Psicologia cognitiva, canais sensoriais, percepção, movimento e memória tratam fatores humanos.",
+      "foreignLocation": "Seção 5, Teoria: aspectos psicológicos; seção 3"
+    },
+    {
+      "brTopic": "Estudos da relação entre comunicação, interface e interação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Diálogo, estilos/paradigmas, metáforas e princípios de comunicação integram interfaces.",
+      "foreignLocation": "Seção 5, Teoria: introdução e objetivos de interface"
+    },
+    {
+      "brTopic": "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Desenho centrado no usuário, ciclo de vida, protótipos e práticas JavaScript/CSS/HTML são previstos; protótipo funcional é obrigatório.",
+      "foreignLocation": "Seção 5, Teoria/Prática; seção 9, requisito do trabalho final"
+    },
+    {
+      "brTopic": "Avaliação de usabilidade de sistemas interativos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Métodos empíricos, fatores mensuráveis e avaliação de usabilidade/acessibilidade são explícitos.",
+      "foreignLocation": "Seção 5, Avaliação de Interfaces; seção 3"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos fatores humanos em sistemas interativos. Estudos da relação entre comunicação, interface e interação. Estudo de processos de projeto e de implementação de sistemas interativos. Avaliação de usabilidade de sistemas interativos.",
+    "foreign": [
+      "Projetar/implementar interfaces centradas no usuário e avaliar usabilidade/acessibilidade."
+    ],
+    "convergences": [
+      "Interacción Persona-Ordenador 101124 documenta os quatro eixos de IHC do Mackenzie e exige protótipo funcional, mas falta o total de contato para sustentar alta afinidade."
+    ],
+    "differences": [
+      "O guia enumera psicologia/percepção/memória, metáforas e comunicação, processo centrado no usuário, linguagens de interface e avaliação empírica. A seção 9 condiciona a avaliação do trabalho à entrega de protótipo funcional, confirmando implementação além de desenho estático. Apesar de quatro tópicos completos e 6 ECTS, a distribuição de horas da seção 7 não foi recuperada como texto, logo não se compara a carga às 31,67 h brasileiras. O resultado é afinidade parcial por limite de carga documental, não por lacuna de conteúdo."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "INTERFACE HUMANO-COMPUTADOR: etapa 6, 31.67 horas declaradas.",
+    "foreign": "Obrigatória do 3º ano; teoria de fatores humanos e prática funcional com ferramentas de interface.",
+    "theoryPractice": "Protótipo funcional obrigatório; práticas JavaScript/CSS/HTML/Processing, Figma e avaliação; defesa e relatório."
+  },
+  "practical": {
+    "period": "Segundo semestre",
+    "language": "Espanhol",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Ter cursado Ingeniería del Software I.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Interacción Persona-Ordenador 101124 documenta os quatro eixos de IHC do Mackenzie e exige protótipo funcional, mas falta o total de contato para sustentar alta afinidade.",
+  "justification": "O guia enumera psicologia/percepção/memória, metáforas e comunicação, processo centrado no usuário, linguagens de interface e avaliação empírica. A seção 9 condiciona a avaliação do trabalho à entrega de protótipo funcional, confirmando implementação além de desenho estático. Apesar de quatro tópicos completos e 6 ECTS, a distribuição de horas da seção 7 não foi recuperada como texto, logo não se compara a carga às 31,67 h brasileiras. O resultado é afinidade parcial por limite de carga documental, não por lacuna de conteúdo.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia oficial individual completo em texto; tabela de distribuição horária ausente no texto extraído.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Guia declara 6 ECTS; total de contato semestral não comprovado em texto, sem conversão de créditos."
+  ],
+  "openQuestions": [
+    "Qual o quadro oficial de horas presenciais e a oferta 2027/28 desta unidade?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Horas e vaga de mobilidade dependem de confirmação institucional."
+  }
+}

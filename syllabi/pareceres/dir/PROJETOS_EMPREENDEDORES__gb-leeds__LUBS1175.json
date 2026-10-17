@@ -1,0 +1,120 @@
+{
+  "id": "dir|PROJETOS EMPREENDEDORES|gb-leeds|LUBS1175",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "PROJETOS EMPREENDEDORES",
+    "name": "PROJETOS EMPREENDEDORES",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "Página 90, bloco PROJETOS EMPREENDEDORES, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "Ementário 2022 histórico; duração da hora e total semestral não estabelecidos."
+    },
+    "topics": [
+      "O componente oportuniza o desenvolvimento de um projeto empreendedor iniciando na dimensão de ideação, validação do modelo de negócios e finaliza com a construção do projeto",
+      "Permitirá aos alunos a vivência de construção de um projeto inovador a partir da análise e reflexão sobre oportunidades e problemas do ambiente político, cultural, econômico e socioambiental, resultando em uma apresentação em formato proposta de solução ou endereçamento da problemática com o seu empreendimento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS1175",
+      "name": "Global Entrepreneurship",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/1175/202627",
+      "sha256": "02b604820a4f35ca40f56091472b61f40281ff2fda92ca095c9197f20dbf4540",
+      "location": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "academicYear": "2026/27",
+      "language": "Documento em inglês; turma de mobilidade a confirmar",
+      "period": "Semester 2 (Jan to Jun)",
+      "assessment": "Exame de duas horas, 100%",
+      "prerequisites": "Não especificados na ficha disponível",
+      "hours": {
+        "contactTotal": 16,
+        "contactLecture": 11,
+        "contactSeminarLab": 5,
+        "selfStudy": 84,
+        "totalWorkload": 100,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O componente oportuniza o desenvolvimento de um projeto empreendedor iniciando na dimensão de ideação, validação do modelo de negócios e finaliza com a construção do projeto",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 5 elabora plano de negócios global, sem validação explícita de modelo e protótipo",
+      "foreignLocation": "Syllabus, Topic 5"
+    },
+    {
+      "brTopic": "Permitirá aos alunos a vivência de construção de um projeto inovador a partir da análise e reflexão sobre oportunidades e problemas do ambiente político, cultural, econômico e socioambiental, resultando em uma apresentação em formato proposta de solução ou endereçamento da problemática com o seu empreendimento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Oportunidades internacionais, barreiras culturais e estratégia global nos temas 2, 3, 6 e 10; não exige apresentação de proposta de solução",
+      "foreignLocation": "Syllabus Topics 2-3, 6 e 10"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "O componente oportuniza o desenvolvimento de um projeto empreendedor iniciando na dimensão de ideação, validação do modelo de negócios e finaliza com a construção do projeto. Permitirá aos alunos a vivência de construção de um projeto inovador a partir da análise e reflexão sobre oportunidades e problemas do ambiente político, cultural, econômico e socioambiental, resultando em uma apresentação em formato proposta de solução ou endereçamento da problemática com o seu empreendimento.",
+    "foreign": [
+      "Reconhecer oportunidades internacionais e formular estratégias para gerir negócios entre culturas"
+    ],
+    "convergences": [
+      "Global Entrepreneurship examina plano global e oportunidades interculturais, mas não comprova a sequência prática de ideação, validação e apresentação exigida em Projetos Empreendedores."
+    ],
+    "differences": [
+      "Os dois enunciados têm afinidade parcial por plano de negócios e leitura do ambiente internacional. A avaliação exclusiva por exame de 2h diverge da construção e apresentação de projeto inovador brasileiro. As 16h de contato declaradas não se confundem com as 100h de trabalho total; não é possível cotejá-las com a carga brasileira semanal de 2022."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 6; referência histórica 2022, sem comprovação de vigência atual.",
+    "foreign": "Reconhecer oportunidades internacionais e formular estratégias para gerir negócios entre culturas",
+    "theoryPractice": "11h de lectures e 5h de seminars; exame final de duas horas 100%, sem apresentação obrigatória de empreendimento."
+  },
+  "practical": {
+    "period": "Semester 2 (Jan to Jun)",
+    "language": "Documento em inglês; turma de mobilidade a confirmar",
+    "enrolment": "Não é discovery module; acesso de intercambistas precisa de autorização específica.",
+    "prerequisites": "Não especificados na ficha disponível",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Global Entrepreneurship examina plano global e oportunidades interculturais, mas não comprova a sequência prática de ideação, validação e apresentação exigida em Projetos Empreendedores.",
+  "justification": "Os dois enunciados têm afinidade parcial por plano de negócios e leitura do ambiente internacional. A avaliação exclusiva por exame de 2h diverge da construção e apresentação de projeto inovador brasileiro. As 16h de contato declaradas não se confundem com as 100h de trabalho total; não é possível cotejá-las com a carga brasileira semanal de 2022.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Ementário Direito 2022 histórico, sem comprovação de correspondência à matriz vigente; horas semanais sem base semestral"
+  ],
+  "openQuestions": [
+    "A universidade confirma Global Entrepreneurship para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de PROJETOS EMPREENDEDORES demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "si|ÉTICA E CIDADANIA|pt-coimbra|93294",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ÉTICA E CIDADANIA",
+    "name": "ÉTICA E CIDADANIA",
+    "courseName": "Sistemas de Informação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 45, bloco ÉTICA E CIDADANIA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história",
+      "bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93294",
+      "name": "Responsabilidade Ética e Sustentabilidade",
+      "source": "https://apps.uc.pt/courses/PT/unit/93294/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "dba95739a185c47eb9ae883f64e8cbd7c61f595c9d5a26e25baeab01959ce8da",
+      "location": "Ficha UC: identificação, Conhecimentos de Base, Métodos, Resultados, Programa, Avaliação e Bibliografia",
+      "academicYear": "2026-2027",
+      "language": "Português e inglês indicados",
+      "period": "Semestral; semestre civil não informado",
+      "assessment": "Periódica ou por exame conforme edição",
+      "prerequisites": "Não aplicável",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Moralidade, valores pessoais, responsabilidade e evolução de conceitos éticos empresariais; cidadania histórica não detalhada",
+      "foreignLocation": "Programa 1; Resultados"
+    },
+    {
+      "brTopic": "bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história; bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais.",
+    "foreign": [
+      "Avaliar dilemas éticos e casos de sustentabilidade empresarial e propor soluções criativas"
+    ],
+    "convergences": [
+      "Responsabilidade Ética e Sustentabilidade oferece ética aplicada aos negócios, cobrindo parcialmente a dimensão social de Ética e Cidadania de SI."
+    ],
+    "differences": [
+      "O primeiro tópico brasileiro encontra moralidade e responsabilidade individual/coletiva; o segundo exige ética calvinista, que não aparece nos dois capítulos empresariais. Stakeholders, economia circular e azul e compromisso digital não substituem a fundamentação histórica/confessional. São 6 ECTS sem contato publicado, portanto a afinidade é parcial e depende da coordenação."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 1; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Avaliar dilemas éticos e casos de sustentabilidade empresarial e propor soluções criativas",
+    "theoryPractice": "Casos reais por Problem-Based Learning com foco em conduta empresarial e sustentabilidade."
+  },
+  "practical": {
+    "period": "Semestral; semestre civil não informado",
+    "language": "Português e inglês indicados",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Não aplicável",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Responsabilidade Ética e Sustentabilidade oferece ética aplicada aos negócios, cobrindo parcialmente a dimensão social de Ética e Cidadania de SI.",
+  "justification": "O primeiro tópico brasileiro encontra moralidade e responsabilidade individual/coletiva; o segundo exige ética calvinista, que não aparece nos dois capítulos empresariais. Stakeholders, economia circular e azul e compromisso digital não substituem a fundamentação histórica/confessional. São 6 ECTS sem contato publicado, portanto a afinidade é parcial e depende da coordenação.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Responsabilidade Ética e Sustentabilidade para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ÉTICA E CIDADANIA demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

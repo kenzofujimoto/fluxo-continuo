@@ -1,0 +1,169 @@
+{
+  "id": "si|PROGRAMAÇÃO DE SISTEMAS I|es-salamanca|105909",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "PROGRAMAÇÃO DE SISTEMAS I",
+    "name": "PROGRAMAÇÃO DE SISTEMAS I",
+    "courseName": "Sistemas de Informação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 9, bloco PROGRAMAÇÃO DE SISTEMAS I, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Conceitos de orientação a objetos",
+      "Caracterização de tipos e classes",
+      "Identificação de objetos",
+      "Estudo da abstração, generalização, sub-classes e instanciação",
+      "Estudo sobre herança",
+      "Caracterização de construtores e destrutores",
+      "Array de Objetos",
+      "Criação de aplicações utilizando os conceitos de programação orientada a objetos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105909",
+      "name": "Programación Orientada A Objetos",
+      "source": "https://guias.usal.es/node/250805",
+      "sha256": "7d090ae6e0a1894e34a9bf4803e14d4823d1af4135dcba090a659a10824ffbc1",
+      "location": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "academicYear": "2026/2027",
+      "language": "Espanhol declarado",
+      "period": "Segundo semestre, primeiro ano",
+      "assessment": "40% parte prática Java/computador e 60% escrita",
+      "prerequisites": "Fundamentos de Programación recomendado",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semana",
+        "hourLengthMinutes": null,
+        "weekly": {
+          "total": 4
+        }
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos de orientação a objetos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conhecimentos fundamentais de programação OO e aplicação Java",
+      "foreignLocation": "3 Objetivos"
+    },
+    {
+      "brTopic": "Caracterização de tipos e classes",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Classes e objetos, relações e desenho avançado de classes",
+      "foreignLocation": "5 temas 2-3 e 5"
+    },
+    {
+      "brTopic": "Identificação de objetos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Classes e objetos nas práticas Java",
+      "foreignLocation": "5 tema 2 e Práctica"
+    },
+    {
+      "brTopic": "Estudo da abstração, generalização, sub-classes e instanciação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelos abstratos, herança e classes; instanciação/subclasses não discriminadas por unidade",
+      "foreignLocation": "4 CT04; 5 temas 2 e 4"
+    },
+    {
+      "brTopic": "Estudo sobre herança",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Herança e polimorfismo",
+      "foreignLocation": "5 tema 4"
+    },
+    {
+      "brTopic": "Caracterização de construtores e destrutores",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Desenho avançado de classes; ciclo de construção/destruição não explicitado",
+      "foreignLocation": "5 tema 5"
+    },
+    {
+      "brTopic": "Array de Objetos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Criação de aplicações utilizando os conceitos de programação orientada a objetos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Resolver problemas e desenvolver aplicações Java com metodologia OO",
+      "foreignLocation": "3 Objetivos e 5 Práctica"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Conceitos de orientação a objetos. Caracterização de tipos e classes. Identificação de objetos. Estudo da abstração, generalização, sub-classes e instanciação. Estudo sobre herança. Caracterização de construtores e destrutores. Array de Objetos. Criação de aplicações utilizando os conceitos de programação orientada a objetos.",
+    "foreign": [
+      "Construir aplicações Java com classes, herança, relações e padrões orientados a objetos"
+    ],
+    "convergences": [
+      "A candidata Java cobre classes, objetos, herança e aplicações de Programação de Sistemas I, deixando array de objetos sem evidência e ciclo de construção/destruição parcial."
+    ],
+    "differences": [
+      "Cinco dos oito enunciados são cobertos e dois parciais. O programa de seis temas adiciona padrões de projeto e polimorfismo, sem detalhar arrays ou destrutores. As duas sessões semanais de 2h não informam o total do semestre; não se transforma ECTS ou uma duração presumida em contato equivalente."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 2; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Construir aplicações Java com classes, herança, relações e padrões orientados a objetos",
+    "theoryPractice": "4h presenciais semanais, com problemas tutorados e trabalho autônomo; aplicações Java e UML."
+  },
+  "practical": {
+    "period": "Segundo semestre, primeiro ano",
+    "language": "Espanhol declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Fundamentos de Programación recomendado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A candidata Java cobre classes, objetos, herança e aplicações de Programação de Sistemas I, deixando array de objetos sem evidência e ciclo de construção/destruição parcial.",
+  "justification": "Cinco dos oito enunciados são cobertos e dois parciais. O programa de seis temas adiciona padrões de projeto e polimorfismo, sem detalhar arrays ou destrutores. As duas sessões semanais de 2h não informam o total do semestre; não se transforma ECTS ou uma duração presumida em contato equivalente.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Programación Orientada A Objetos para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de PROGRAMAÇÃO DE SISTEMAS I demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

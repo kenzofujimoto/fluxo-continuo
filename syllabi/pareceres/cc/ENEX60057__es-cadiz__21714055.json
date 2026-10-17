@@ -1,0 +1,130 @@
+{
+  "id": "cc|ENEX60057|es-cadiz|21714055",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60057",
+    "name": "Inteligência Artificial II",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 7",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "PDF p. 3, bloco INTELIGÊNCIA ARTIFICIAL II: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714055",
+      "name": "Tecnologías de Inteligencia de Negocio",
+      "programme": null,
+      "level": "Graduação",
+      "period": "1º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Projeto 30%; teoria 40%; pesquisa 10%; exame prático 20%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714055",
+      "catalogue": null,
+      "sha256": "a701ee07072edfe53a468496f118d4db8d0d54879db76808602557dcfd459e48",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Mineração introduz aprendizagem/classificação e conceitos gerais; representação de conhecimento de IA não é desenvolvida.",
+      "foreignLocation": "Teoria 8; P6"
+    },
+    {
+      "brTopic": "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Mineração e gestão de dados estabelecem ligação aplicada com ciência de dados, sem curso sistemático de aprendizagem de máquina.",
+      "foreignLocation": "Teoria 2 e 8"
+    },
+    {
+      "brTopic": "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Pentaho Machine Intelligence e técnicas básicas/classificação dão recorte do ecossistema; treino/teste, clustering, redução, regressão, anomalia e deep learning não são discriminados.",
+      "foreignLocation": "Teoria 8; P6"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem. Estudo de aprendizagem de máquina e sua relação com ciência de dados. Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning.",
+    "foreign": [
+      "Aplicar integração, visualização e mineração para inteligência de negócios."
+    ],
+    "convergences": [
+      "A unidade BI de Cádiz oferece mineração aplicada como recorte de Inteligência Artificial II, com cobertura parcial dos três enunciados e sem demonstrar o repertório de modelos solicitado no Mackenzie."
+    ],
+    "differences": [
+      "O tema 8 e a prática P6 são o único núcleo explícito de aprendizagem/classificação. Os sete temas anteriores tratam integração, governança, warehouse, modelagem dimensional, OLAP e painéis, não algoritmos de aprendizagem. Essa concentração impede atribuir cobertura integral ao ecossistema brasileiro de treino/teste/validação, agrupamento, redução, associação, árvore, regressão logística, anomalias e deep learning. A conclusão parcial decorre de três correspondências parciais, e não de equivalência entre BI e IA. A carga de 60 h, 30 em informática, é suficiente apenas no aspecto nominal/condicional frente a 63,33 h."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "INTELIGÊNCIA ARTIFICIAL II: etapa 7, 63.33 horas declaradas.",
+    "foreign": "Programa BI com mineração introdutória ao final da sequência.",
+    "theoryPractice": "Projeto Pentaho, sendo somente P6 explicitamente dedicada à mineração."
+  },
+  "practical": {
+    "period": "1º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A unidade BI de Cádiz oferece mineração aplicada como recorte de Inteligência Artificial II, com cobertura parcial dos três enunciados e sem demonstrar o repertório de modelos solicitado no Mackenzie.",
+  "justification": "O tema 8 e a prática P6 são o único núcleo explícito de aprendizagem/classificação. Os sete temas anteriores tratam integração, governança, warehouse, modelagem dimensional, OLAP e painéis, não algoritmos de aprendizagem. Essa concentração impede atribuir cobertura integral ao ecossistema brasileiro de treino/teste/validação, agrupamento, redução, associação, árvore, regressão logística, anomalias e deep learning. A conclusão parcial decorre de três correspondências parciais, e não de equivalência entre BI e IA. A carga de 60 h, 30 em informática, é suficiente apenas no aspecto nominal/condicional frente a 63,33 h.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora da UCA não declarada; comparação horária condicional.",
+    "Opções genéricas do formulário de idiomas/mobilidade não comprovam oferta em inglês ou vagas."
+  ],
+  "openQuestions": [
+    "O conteúdo detalhado do tema 8 comprova treino, validação e os modelos de IA II?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

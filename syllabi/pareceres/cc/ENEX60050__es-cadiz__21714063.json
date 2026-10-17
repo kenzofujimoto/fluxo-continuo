@@ -1,0 +1,122 @@
+{
+  "id": "cc|ENEX60050|es-cadiz|21714063",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60050",
+    "name": "Paradigmas de Programação",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 7",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 6, bloco PARADIGMAS DE PROGRAMAÇÃO: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo evolutivo das linguagens de programação",
+      "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714063",
+      "name": "Programación Web",
+      "programme": null,
+      "level": "Graduação",
+      "period": "2º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Entregas web 50%; provas 40%; atividades teóricas 10%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714063",
+      "catalogue": null,
+      "sha256": "c3ed4d0135fb50f3e2b293f7bfb639788b8889f6b68bca70a821aea54a5f4296",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 90,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo evolutivo das linguagens de programação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoria integral Blocos I-III; Resultados e Práticas",
+      "note": "Evolução histórica das linguagens de programação não está contemplada no roteiro de servidor/frameworks/CMS."
+    },
+    {
+      "brTopic": "Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "PHP e frameworks oferecem exemplos imperativos e orientados a objetos; cálculo lambda, Horn, avaliação lazy e programação lógica não são desenvolvidos.",
+      "foreignLocation": "Bloco II, itens 3-5; Práticas 1-2"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo evolutivo das linguagens de programação. Aborda os principais paradigmas de programação: imperativo (tempo de vida e escopo de variável, tipagem estática e dinâmica, tipo ponteiro), orientado a objetos (classes, objetos, herança e polimorfismo), funcional (cálculo de lambda, tipos de dados, funções recursivas e avaliação lazy, listas, compressão de listas, polimorfismo funciona e funções de alta ordem) e lógico (clausulas de Horn, fatos e regras, recursão, estruturas de dados, listas e backtracking).",
+    "foreign": [
+      "Desenvolver aplicações com frameworks PHP e configurar CMS."
+    ],
+    "convergences": [
+      "Programación Web trabalha um subconjunto imperativo/OO, deixando de demonstrar a perspectiva evolutiva e os paradigmas funcional e lógico de Paradigmas de Programação."
+    ],
+    "differences": [
+      "O bloco II aplica PHP e MVC ao desenvolvimento web; isso aproxima o enunciado amplo de paradigmas somente em parte. Os blocos I e III tratam servidor e CMS, sem história das linguagens, escopo/tipagem comparados, cálculo lambda ou cláusulas de Horn. Com um tópico ausente e outro parcial, a regra interna permite apenas afinidade parcial e não uma substituição curricular integral. A carga Mackenzie de 63,33 h também diverge das 2 h-a semanais impressas e o PDF da 5ª etapa identifica a etapa 7; ambos precisam de correção institucional."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "PARADIGMAS DE PROGRAMAÇÃO: etapa 7, 63.33 horas declaradas.",
+    "foreign": "Optativa de aplicações web do 3º/4º ano.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "2º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Programación Web trabalha um subconjunto imperativo/OO, deixando de demonstrar a perspectiva evolutiva e os paradigmas funcional e lógico de Paradigmas de Programação.",
+  "justification": "O bloco II aplica PHP e MVC ao desenvolvimento web; isso aproxima o enunciado amplo de paradigmas somente em parte. Os blocos I e III tratam servidor e CMS, sem história das linguagens, escopo/tipagem comparados, cálculo lambda ou cláusulas de Horn. Com um tópico ausente e outro parcial, a regra interna permite apenas afinidade parcial e não uma substituição curricular integral. A carga Mackenzie de 63,33 h também diverge das 2 h-a semanais impressas e o PDF da 5ª etapa identifica a etapa 7; ambos precisam de correção institucional.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora estrangeira não declarada.",
+    "Ficha Mackenzie: 63,33 h com apenas 2 h-a semanais, e etapa 7 dentro do PDF da 5ª etapa; valores mantidos sem corrigir por suposição."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714063 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

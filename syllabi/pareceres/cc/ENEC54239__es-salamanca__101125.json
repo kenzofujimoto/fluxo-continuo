@@ -1,0 +1,145 @@
+{
+  "id": "cc|ENEC54239|es-salamanca|101125",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54239",
+    "name": "Arquitetura e Organização de Computadores",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 3",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 2, bloco ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "Arquitetura RISC x CISC",
+      "Introduz à linguagem de montagem em arquitetura RISC",
+      "Aborda de forma introdutória as arquiteturas paralelas centralizadas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101125",
+      "name": "Arquitectura De Computadores",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "period": "Segundo semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "assessment": "Prova escrita 70%, exercícios em aula 5%, práticas com defesa 25%; teoria e prática devem ser aprovadas separadamente.",
+      "prerequisites": "Recomenda aprovação prévia em Computadores II.",
+      "source": "https://guias.usal.es/node/255538",
+      "catalogue": null,
+      "sha256": "918dd20e07b6ee0b094e0ff376cea9bd91d5c45b5c47cb7632a853c44df2bda4",
+      "location": "Guia oficial 2026/2027, seções 1-9: identificação, recomendações, objetivos, competências, conteúdos teóricos/práticos, metodologias, recursos e avaliação.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Evolução microarquitetural e processadores superescalares aparecem, sem taxonomia histórica geral.",
+      "foreignLocation": "Seção 5, Temas 1 e 4"
+    },
+    {
+      "brTopic": "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Processadores, segmentação e memória/cache são extensos; barramentos e E/S não têm unidades próprias.",
+      "foreignLocation": "Seção 5, Temas 2-5"
+    },
+    {
+      "brTopic": "Arquitetura RISC x CISC",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Arquitetura RISC é explícita, mas a comparação com CISC não é descrita.",
+      "foreignLocation": "Seção 5, Tema 3"
+    },
+    {
+      "brTopic": "Introduz à linguagem de montagem em arquitetura RISC",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Simulador de processador RISC DLX é prática prevista; programação assembly não é exigida nominalmente.",
+      "foreignLocation": "Seção 5, Prática 2"
+    },
+    {
+      "brTopic": "Aborda de forma introdutória as arquiteturas paralelas centralizadas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Concorrência, SIMD e multiprocessadores são abordados com simulação e programação paralela.",
+      "foreignLocation": "Seção 5, Tema 1 e Prática 1; seção 6"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta a evolução e classificação das arquiteturas dos computadores. Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S. Arquitetura RISC x CISC. Introduz à linguagem de montagem em arquitetura RISC. Aborda de forma introdutória as arquiteturas paralelas centralizadas.",
+    "foreign": [
+      "Medir desempenho de processadores e compreender concorrência microarquitetural."
+    ],
+    "convergences": [
+      "Arquitectura de Computadores 101125 aprofunda desempenho e microarquitetura, mas cobre parcialmente a organização básica e montagem RISC de Arquitetura e Organização de Computadores."
+    ],
+    "differences": [
+      "Os temas 1-5 se concentram em concorrência, pipelines, conflitos, superescalaridade e cache; as práticas MPI/DLX sustentam paralelismo e contato com RISC. Não se documentam barramentos/E/S, confronto CISC nem programação de montagem, por isso quatro tópicos são parciais e apenas o paralelismo é integral. A disciplina é obrigatória do 3º ano, segundo semestre, recomenda Computadores II e informa somente 6 ECTS. Sem contato total demonstrado, a comparação com 63,33 h permanece não comparável."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES: etapa 3, 63.33 horas declaradas.",
+    "foreign": "3º ano obrigatório; cinco temas e práticas MPI e DLX.",
+    "theoryPractice": "Atividades práticas e trabalhos descritos nas seções 5-6/9, sem total de horas de contato extraído em texto."
+  },
+  "practical": {
+    "period": "Segundo semestre",
+    "language": "Espanhol",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Recomenda aprovação prévia em Computadores II.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Arquitectura de Computadores 101125 aprofunda desempenho e microarquitetura, mas cobre parcialmente a organização básica e montagem RISC de Arquitetura e Organização de Computadores.",
+  "justification": "Os temas 1-5 se concentram em concorrência, pipelines, conflitos, superescalaridade e cache; as práticas MPI/DLX sustentam paralelismo e contato com RISC. Não se documentam barramentos/E/S, confronto CISC nem programação de montagem, por isso quatro tópicos são parciais e apenas o paralelismo é integral. A disciplina é obrigatória do 3º ano, segundo semestre, recomenda Computadores II e informa somente 6 ECTS. Sem contato total demonstrado, a comparação com 63,33 h permanece não comparável.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia oficial individual completo em texto; tabela de distribuição horária ausente no texto extraído.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Guia declara 6 ECTS; total de contato semestral não comprovado em texto, sem conversão de créditos."
+  ],
+  "openQuestions": [
+    "Qual o quadro oficial de horas presenciais e a oferta 2027/28 desta unidade?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Horas e vaga de mobilidade dependem de confirmação institucional."
+  }
+}

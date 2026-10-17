@@ -1,0 +1,161 @@
+{
+  "id": "si|INTELIGÊNCIA ARTIFICIAL APLICADA|pt-iade|CAT-PT-IADE-005",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "INTELIGÊNCIA ARTIFICIAL APLICADA",
+    "name": "INTELIGÊNCIA ARTIFICIAL APLICADA",
+    "courseName": "Sistemas de Informação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 38, bloco INTELIGÊNCIA ARTIFICIAL APLICADA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Inteligência Artificial Clássica e Aprendizado de Máquina",
+      "Representação do Conhecimento e Agentes Inteligentes",
+      "Algoritmos de Busca",
+      "Aprendizado com Reforço",
+      "Support Vector Machine",
+      "Detecção de Anomalia",
+      "Deep Learning",
+      "Processamento de Linguagem Natural"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-iade",
+      "university": "IADE",
+      "code": "CAT-PT-IADE-005",
+      "name": "Inteligência Artificial",
+      "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/",
+      "sha256": "653ca129a74ef8fe98ba66475d6d2992c72514527c2c04f7878370253bde8991",
+      "location": "Página IADE Engenharia Informática: apresentação, plano de estudos seis semestres, admissão e FAQ; sem programa individual",
+      "academicYear": "Ingresso setembro 2026; edição individual não declarada",
+      "language": "Página em português; língua da turma individual não comprovada",
+      "period": "Inteligência Artificial no quinto semestre do plano",
+      "assessment": "Não publicada para a unidade",
+      "prerequisites": "Não publicados por unidade",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "catalogueDeclaredHours": 56
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Inteligência Artificial Clássica e Aprendizado de Máquina",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa individual completo não disponível; o catálogo não permite verificar este conteúdo."
+    },
+    {
+      "brTopic": "Representação do Conhecimento e Agentes Inteligentes",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa individual completo não disponível; o catálogo não permite verificar este conteúdo."
+    },
+    {
+      "brTopic": "Algoritmos de Busca",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa individual completo não disponível; o catálogo não permite verificar este conteúdo."
+    },
+    {
+      "brTopic": "Aprendizado com Reforço",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa individual completo não disponível; o catálogo não permite verificar este conteúdo."
+    },
+    {
+      "brTopic": "Support Vector Machine",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa individual completo não disponível; o catálogo não permite verificar este conteúdo."
+    },
+    {
+      "brTopic": "Detecção de Anomalia",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa individual completo não disponível; o catálogo não permite verificar este conteúdo."
+    },
+    {
+      "brTopic": "Deep Learning",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa individual completo não disponível; o catálogo não permite verificar este conteúdo."
+    },
+    {
+      "brTopic": "Processamento de Linguagem Natural",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Programa individual completo não disponível; o catálogo não permite verificar este conteúdo."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Inteligência Artificial Clássica e Aprendizado de Máquina; Representação do Conhecimento e Agentes Inteligentes; Algoritmos de Busca; Aprendizado com Reforço; Support Vector Machine; Detecção de Anomalia; Deep Learning; Processamento de Linguagem Natural.",
+    "foreign": [
+      "A apresentação global menciona IA e sistemas inteligentes sem resultados de aprendizagem próprios da unidade"
+    ],
+    "convergences": [
+      "O IADE lista Inteligência Artificial e uma unidade distinta de IA Aplicada, mas não publica programa para verificar os oito conteúdos de Inteligência Artificial Aplicada de SI."
+    ],
+    "differences": [
+      "A candidata local se chama Inteligência Artificial, no quinto semestre com 6 ECTS e 56 horas de natureza não esclarecida. O plano também contém IA Aplicada no segundo semestre, 3 ECTS/28 horas; não se fundem as duas. Nenhum desses registros comprova busca, agentes, reforço, SVM, anomalias, deep learning ou PLN; requer-se a ficha individual correta."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 7; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "A apresentação global menciona IA e sistemas inteligentes sem resultados de aprendizagem próprios da unidade",
+    "theoryPractice": "Curso anuncia projetos reais e integração hardware/software, sem detalhar prática ou conteúdos desta unidade."
+  },
+  "practical": {
+    "period": "Inteligência Artificial no quinto semestre do plano",
+    "language": "Página em português; língua da turma individual não comprovada",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Não publicados por unidade",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O IADE lista Inteligência Artificial e uma unidade distinta de IA Aplicada, mas não publica programa para verificar os oito conteúdos de Inteligência Artificial Aplicada de SI.",
+  "justification": "A candidata local se chama Inteligência Artificial, no quinto semestre com 6 ECTS e 56 horas de natureza não esclarecida. O plano também contém IA Aplicada no segundo semestre, 3 ECTS/28 horas; não se fundem as duas. Nenhum desses registros comprova busca, agentes, reforço, SVM, anomalias, deep learning ou PLN; requer-se a ficha individual correta.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Existência e ECTS aparecem no plano oficial, porém objetivos e conteúdo individual não são publicados.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Há Inteligência Artificial (56 horas/6 ECTS) e Inteligência Artificial Aplicada (28 horas/3 ECTS), unidades distintas no plano.",
+    "Coluna Horas não esclarece duração da hora e natureza de contato; não foi convertida nem tratada como contato."
+  ],
+  "openQuestions": [
+    "A universidade confirma Inteligência Artificial para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de INTELIGÊNCIA ARTIFICIAL APLICADA demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "evidencia_insuficiente"
+}

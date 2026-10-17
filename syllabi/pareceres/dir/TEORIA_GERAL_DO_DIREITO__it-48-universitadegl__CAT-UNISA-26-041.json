@@ -1,0 +1,145 @@
+{
+  "id": "dir|TEORIA GERAL DO DIREITO|it-48-universitadegl|CAT-UNISA-26-041",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TEORIA GERAL DO DIREITO",
+    "name": "TEORIA GERAL DO DIREITO",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "Página 4, bloco TEORIA GERAL DO DIREITO, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "Ementário 2022 histórico; duração da hora e total semestral não estabelecidos."
+    },
+    "topics": [
+      "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos",
+      "Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico",
+      "O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial",
+      "A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial",
+      "Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "it-48-universitadegl",
+      "university": "Università degli Studi di Salerno",
+      "code": "CAT-UNISA-26-041",
+      "name": "Teoria dell'interpretazione",
+      "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523816&percorso=0&anno=2026&cds_id=500852&tab=percorsi",
+      "sha256": "fc018a085027bc37e523b9a5b46a6f80e19c69312abddb4f1eba0b49293f22ed",
+      "location": "Salerno: quadro 2026/2027, Obiettivi, Prerequisiti, Contenuti, Metodi, Verifica e Testi",
+      "academicYear": "2026/2027",
+      "language": "Italiano (ficha); exigência específica de mobilidade não confirmada",
+      "period": "Primeiro semestre",
+      "assessment": "Oral com pelo menos três questões",
+      "prerequisites": "Direito privado recomendado somente para alunos italianos",
+      "hours": {
+        "contactTotal": 54,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Metodi distingue 54h novo ordenamento de 72h nos anteriores."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Aspectos teóricos da interpretação e práticas dos operadores; não aborda globalmente o funcionamento social do direito positivo",
+      "foreignLocation": "Obiettivi"
+    },
+    {
+      "brTopic": "Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Linguagem normativa, lógica jurídica e interpretação sistemática; premissa epistemológica positivista analítica não é explicitada",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Salerno: quadro 2026/2027, Obiettivi, Prerequisiti, Contenuti, Metodi, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Silogismo judicial, antinomias, lacunas, analogia e precedente; coação e sanção não individualizadas",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Interpretação teleológica e constitucionalmente conforme; valores sociais no processo de positivação apenas tangenciados",
+      "foreignLocation": "Obiettivi e Contenuti"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos. Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico. O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial. A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial. Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito.",
+    "foreign": [
+      "Interpretar normas mediante critérios legais e sistemáticos e elaborar propostas hermenêuticas autônomas"
+    ],
+    "convergences": [
+      "Teoria dell’Interpretazione oferece métodos de interpretação e decisão, mas não demonstra Hart/Dworkin nem a análise global de coação, sanção e relação entre moral e direito."
+    ],
+    "differences": [
+      "Quatro dos cinco tópicos encontram apoio parcial. A sequência linguagens, definições, critérios legais, antinomias, lacunas e precedente aprofunda uma parcela da Teoria Geral brasileira; os debates moral/justiça e positivismo analítico permanecem sem correspondência integral. São 54h do novo ordenamento, com 72h explicitamente reservadas ao antigo, sem combinação com o laboratório posterior."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 1; referência histórica 2022, sem comprovação de vigência atual.",
+    "foreign": "Interpretar normas mediante critérios legais e sistemáticos e elaborar propostas hermenêuticas autônomas",
+    "theoryPractice": "Ensino seminarial, 54h no novo ordenamento e prova oral; laboratório de escrita é componente posterior distinto."
+  },
+  "practical": {
+    "period": "Primeiro semestre",
+    "language": "Italiano (ficha); exigência específica de mobilidade não confirmada",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Direito privado recomendado somente para alunos italianos",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Teoria dell’Interpretazione oferece métodos de interpretação e decisão, mas não demonstra Hart/Dworkin nem a análise global de coação, sanção e relação entre moral e direito.",
+  "justification": "Quatro dos cinco tópicos encontram apoio parcial. A sequência linguagens, definições, critérios legais, antinomias, lacunas e precedente aprofunda uma parcela da Teoria Geral brasileira; os debates moral/justiça e positivismo analítico permanecem sem correspondência integral. São 54h do novo ordenamento, com 72h explicitamente reservadas ao antigo, sem combinação com o laboratório posterior.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Ementário Direito 2022 histórico, sem comprovação de correspondência à matriz vigente; horas semanais sem base semestral"
+  ],
+  "openQuestions": [
+    "A universidade confirma Teoria dell'interpretazione para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de TEORIA GERAL DO DIREITO demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

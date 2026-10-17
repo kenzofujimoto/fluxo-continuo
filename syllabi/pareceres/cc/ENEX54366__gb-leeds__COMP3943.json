@@ -1,0 +1,140 @@
+{
+  "id": "cc|ENEX54366|gb-leeds|COMP3943",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54366",
+    "name": "Estrutura de Dados II",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 4",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 3, bloco ESTRUTURA DE DADOS II: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações",
+      "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3943",
+      "name": "Algorithms & Complexity",
+      "programme": "Graduação (UG)",
+      "level": "Graduação",
+      "period": "Semester 1 (setembro a janeiro)",
+      "academicYear": "2026/27",
+      "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+      "assessment": "Não publicada no texto recuperado; seção de avaliação não disponível.",
+      "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3943/202627",
+      "catalogue": null,
+      "sha256": "32bbd6525673f1f2dd190744ddd030f6e096f1881f407aefbf45c3c811677ab6",
+      "location": "Catálogo Leeds 2026/27: identificação, Module summary, Objectives, Learning/Skills outcomes, Syllabus, Teaching Methods e atualização.",
+      "hours": {
+        "contactTotal": 55,
+        "contactLecture": 44,
+        "contactSeminarLab": 11,
+        "selfStudy": 145,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "20 créditos britânicos; não tratados como ECTS. Total Contact hours declarado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Algoritmos parametrizados usam problemas em grafos e há menção a estruturas aleatórias, sem árvores AVL/B, mapas ou hashing desenvolvidos.",
+      "foreignLocation": "Syllabus, Parameterized e Randomised algorithms"
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Análise formal de eficiência/complexidade é explícita, sem operações das estruturas não lineares individualizadas.",
+      "foreignLocation": "Skills outcomes, itens 1 e 3"
+    },
+    {
+      "brTopic": "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Implementação de algoritmos com estruturas apropriadas é resultado; OO e implementação das estruturas especificadas não são comprovadas.",
+      "foreignLocation": "Skills outcomes, item 2"
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Outcomes, Syllabus e Teaching Methods",
+      "note": "Não há atividade extensionista ou participação comunitária descrita."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações. Estudo da eficiência assintótica das operações básicas de cada estrutura de dados. Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas. Práticas de extensão.",
+    "foreign": [
+      "Resolver problemas difíceis em grafos e analisar compromissos de complexidade."
+    ],
+    "convergences": [
+      "O COMP3943 usa problemas em grafos e análise avançada, mas não documenta a formação em árvores balanceadas, dispersão/mapas e extensão da disciplina Estrutura de Dados II."
+    ],
+    "differences": [
+      "Vertex Cover, Independent Set e Dominating Set são problemas do bloco parametrizado, não prova de implementação de árvores AVL/B, tabelas hash ou mapas. Os resultados gerais de desenho, complexidade e implementação permitem três aproximações parciais; nenhuma comprova as estruturas exigidas integralmente. Extensão não é descrita e permanece ausente. São 55 h de contato para 63,33 h brasileiras, sem linguagem OO nem laboratório especificados. A afinidade parcial deve portanto ser lida como proximidade algorítmica, com lacunas claras na prática estrutural e social."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "ESTRUTURA DE DADOS II: etapa 4, 63.33 horas declaradas.",
+    "foreign": "Foco avançado em intratabilidade e técnicas de enfrentamento, não estruturas de dados II.",
+    "theoryPractice": "11 h de seminários/práticas declaradas, 44 h de aulas e 145 h de estudo privado."
+  },
+  "practical": {
+    "period": "Semester 1 (setembro a janeiro)",
+    "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O COMP3943 usa problemas em grafos e análise avançada, mas não documenta a formação em árvores balanceadas, dispersão/mapas e extensão da disciplina Estrutura de Dados II.",
+  "justification": "Vertex Cover, Independent Set e Dominating Set são problemas do bloco parametrizado, não prova de implementação de árvores AVL/B, tabelas hash ou mapas. Os resultados gerais de desenho, complexidade e implementação permitem três aproximações parciais; nenhuma comprova as estruturas exigidas integralmente. Extensão não é descrita e permanece ausente. São 55 h de contato para 63,33 h brasileiras, sem linguagem OO nem laboratório especificados. A afinidade parcial deve portanto ser lida como proximidade algorítmica, com lacunas claras na prática estrutural e social.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual e contato explícitos; duração da hora, critérios de avaliação e mobilidade ainda requerem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora de contato estrangeira não explicitada; cenário condicional de 50 minutos deve ser considerado.",
+    "Módulo não aprovado como discovery module; não é confirmação de acesso de intercambista.",
+    "Avaliação e pré-requisitos não publicados no texto consultado; confirmar com a escola."
+  ],
+  "openQuestions": [
+    "A escola permite inscrição de intercambista neste módulo e confirma critérios de avaliação/duração da hora?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+  }
+}

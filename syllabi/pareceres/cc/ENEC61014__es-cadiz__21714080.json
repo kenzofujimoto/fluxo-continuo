@@ -1,0 +1,138 @@
+{
+  "id": "cc|ENEC61014|es-cadiz|21714080",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61014",
+    "name": "Interface Humano-Computador",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 5, bloco INTERFACE HUMANO-COMPUTADOR: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos fatores humanos em sistemas interativos",
+      "Estudos da relação entre comunicação, interface e interação",
+      "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "Avaliação de usabilidade de sistemas interativos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714080",
+      "name": "Interacción Persona-Ordenador",
+      "programme": null,
+      "level": "Graduação",
+      "period": "2º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Questionários, práticas e apresentação pública 50%; memória de projeto em equipe 50%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714080",
+      "catalogue": null,
+      "sha256": "1461d35a0e57d6896396dad1164c9fb6dcf85c209fb10ce792b00f033a0b007e",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 90,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fatores humanos em sistemas interativos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Análise de usuários/tarefas e desenho para todos tratam os fatores humanos na interação.",
+      "foreignLocation": "Temas 2.1-2.3 e 6.1"
+    },
+    {
+      "brTopic": "Estudos da relação entre comunicação, interface e interação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Metáforas, estilos e paradigmas de interação, UX e arquitetura da informação sustentam relações interface/interação.",
+      "foreignLocation": "Temas 1.2-1.4 e 3"
+    },
+    {
+      "brTopic": "Estudo de processos de projeto e de implementação de sistemas interativos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Necessidades, requisitos, padrões e prototipagem organizam o projeto; não há desenvolvimento de sistema executável especificado.",
+      "foreignLocation": "Temas 2-4; memória do projeto"
+    },
+    {
+      "brTopic": "Avaliação de usabilidade de sistemas interativos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Avaliação com e sem usuários é explícita e aplicada ao projeto.",
+      "foreignLocation": "Tema 5.1-5.2; Avaliação item 2"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos fatores humanos em sistemas interativos. Estudos da relação entre comunicação, interface e interação. Estudo de processos de projeto e de implementação de sistemas interativos. Avaliação de usabilidade de sistemas interativos.",
+    "foreign": [
+      "Aplicar desenho centrado no usuário, prototipagem e avaliação de usabilidade/acessibilidade."
+    ],
+    "convergences": [
+      "Interacción Persona-Ordenador tem forte correspondência com fatores humanos, interação e avaliação; a implementação de sistemas da ficha brasileira encontra demonstração apenas em prototipagem."
+    ],
+    "differences": [
+      "Três de quatro eixos estão documentados integralmente nos temas 1-3, 5 e 6; o processo de implementação fica parcial porque o trabalho final descrito envolve prototipar e avaliar um produto interativo, sem exigir código funcional. São 60 h de contato (30 teóricas e 30 laboratoriais), frente a 31,67 h: razão nominal 1,895 e 1,579 com horas de 50 min. Pela regra interna, 75% completos, nenhum ausente e carga suficiente admitem alta afinidade, conservando a ressalva sobre implementação e a decisão institucional pendente."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "INTERFACE HUMANO-COMPUTADOR: etapa 6, 31.67 horas declaradas.",
+    "foreign": "Optativa de 3º/4º ano; seis temas com processo de IHC e acessibilidade.",
+    "theoryPractice": "30 h de laboratório com projeto e sala invertida; memória documenta protótipos e avaliação de usabilidade/acessibilidade."
+  },
+  "practical": {
+    "period": "2º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Interacción Persona-Ordenador tem forte correspondência com fatores humanos, interação e avaliação; a implementação de sistemas da ficha brasileira encontra demonstração apenas em prototipagem.",
+  "justification": "Três de quatro eixos estão documentados integralmente nos temas 1-3, 5 e 6; o processo de implementação fica parcial porque o trabalho final descrito envolve prototipar e avaliar um produto interativo, sem exigir código funcional. São 60 h de contato (30 teóricas e 30 laboratoriais), frente a 31,67 h: razão nominal 1,895 e 1,579 com horas de 50 min. Pela regra interna, 75% completos, nenhum ausente e carga suficiente admitem alta afinidade, conservando a ressalva sobre implementação e a decisão institucional pendente.",
+  "conclusionClass": "alta_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora estrangeira não indicada; cenário de 50 min continua acima das 31,67 h brasileiras.",
+    "Projeto estrangeiro comprova prototipagem; implementação executável requer confirmação."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714080 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

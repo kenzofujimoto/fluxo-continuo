@@ -1,0 +1,161 @@
+{
+  "id": "cc|ENEC61018|es-salamanca|101132",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61018",
+    "name": "Computação Distribuída",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 7",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "PDF p. 2, bloco COMPUTAÇÃO DISTRIBUÍDA: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo de modelos, tecnologias, comunicação e serviços para computação distribuída",
+      "Estudo e análise de algoritmos distribuídos",
+      "Modelos de comunicação entre processos paralelos e distribuídos",
+      "Problemas e discussões sobre concorrência, sincronização, transação, consistência e replicação entre sistemas distribuídos",
+      "Métricas de desempenho, eficiência, escalabilidade, disponibilidade etc",
+      "Estudo de arquiteturas para sistemas distribuídos: cluster, grid, nuvem, fog, IoT etc",
+      "Desenvolvimento e implementação de soluções para sistemas distribuídos homogêneos e heterogêneos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101132",
+      "name": "Sistemas Distribuidos",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "Segundo semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "assessment": "Teoria 50%, práticas/projetos com defesa 50%; participação pode acrescentar 10%; mínimos em ambas as partes.",
+      "prerequisites": "Programação I-III, Redes I-II e SO I-II; destreza Java, OO, concorrência e multithreading recomendadas.",
+      "source": "https://guias.usal.es/node/255767",
+      "catalogue": null,
+      "sha256": "fb1d9253464349928f351a53a8daee373a951b4ccf4a525e50f33246ebc53fde",
+      "location": "Guia oficial 2026/2027, seções 1-9: identificação, recomendações, objetivos, competências, conteúdos teóricos/práticos, metodologias, recursos e avaliação.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de modelos, tecnologias, comunicação e serviços para computação distribuída",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelos, arquiteturas, middleware, RPC e serviços web cobrem tecnologias e serviços distribuídos.",
+      "foreignLocation": "Seção 5, Temas 1-3"
+    },
+    {
+      "brTopic": "Estudo e análise de algoritmos distribuídos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Coordenação, relógios, eleição e acordo são estudados com soluções algorítmicas e discussão de vantagens/limites.",
+      "foreignLocation": "Temas 4-5; seção 6"
+    },
+    {
+      "brTopic": "Modelos de comunicação entre processos paralelos e distribuídos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Marshalling, RPC, REST e multidifusão explicitam comunicação interprocessos.",
+      "foreignLocation": "Temas 3 e 5; Prática sessão 3"
+    },
+    {
+      "brTopic": "Problemas e discussões sobre concorrência, sincronização, transação, consistência e replicação entre sistemas distribuídos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Exclusão mútua, acordo e replicação são unidades próprias, mas transações/consistência não são detalhadas.",
+      "foreignLocation": "Temas 4-5 e 8"
+    },
+    {
+      "brTopic": "Métricas de desempenho, eficiência, escalabilidade, disponibilidade etc",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Alta disponibilidade e limitações de rede/escalabilidade são discutidas, sem uma unidade de métricas de desempenho.",
+      "foreignLocation": "Tema 8; seção 9, critérios"
+    },
+    {
+      "brTopic": "Estudo de arquiteturas para sistemas distribuídos: cluster, grid, nuvem, fog, IoT etc",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Arquiteturas, P2P e caso Google são explícitos; cluster/grid/fog/IoT não são individualizados.",
+      "foreignLocation": "Temas 2,7 e 10"
+    },
+    {
+      "brTopic": "Desenvolvimento e implementação de soluções para sistemas distribuídos homogêneos e heterogêneos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Java multithread e serviços REST culminam em prática obrigatória executada em vários computadores em rede.",
+      "foreignLocation": "Práticas sessões 1-4; seção 9, avaliação prática"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo de modelos, tecnologias, comunicação e serviços para computação distribuída. Estudo e análise de algoritmos distribuídos. Modelos de comunicação entre processos paralelos e distribuídos. Problemas e discussões sobre concorrência, sincronização, transação, consistência e replicação entre sistemas distribuídos. Métricas de desempenho, eficiência, escalabilidade, disponibilidade etc. Estudo de arquiteturas para sistemas distribuídos: cluster, grid, nuvem, fog, IoT etc. Desenvolvimento e implementação de soluções para sistemas distribuídos homogêneos e heterogêneos.",
+    "foreign": [
+      "Implementar algoritmos de coordenação e serviços distribuídos em ambiente real de rede."
+    ],
+    "convergences": [
+      "Sistemas Distribuidos 101132 demonstra forte núcleo algorítmico e prática Java/REST, com recortes parciais em transações, métricas e o repertório cluster/grid/fog/IoT de Computação Distribuída."
+    ],
+    "differences": [
+      "Os temas 1-5 e a prática obrigatória documentam quatro dos sete tópicos integralmente. Replicação/alta disponibilidade, limitações reais de rede e arquiteturas P2P/Google sustentam os três restantes apenas em parte, sem desenvolver transações nem toda a lista arquitetural brasileira. O guia informa 6 ECTS e durações de algumas sessões, mas não um total presencial semestral inequívoco; não foram somadas sessões parciais para inventar carga. Assim a afinidade fica parcial e a comparação horária com 63,33 h é não comparável."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "COMPUTAÇÃO DISTRIBUÍDA: etapa 7, 63.33 horas declaradas.",
+    "foreign": "Obrigatória do 4º ano, dez temas; acrescenta blockchain e seminários P2P/Git.",
+    "theoryPractice": "Multithreading Java e REST em fases, prática obrigatória em vários computadores conectados e defesa de código."
+  },
+  "practical": {
+    "period": "Segundo semestre",
+    "language": "Espanhol",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Programação I-III, Redes I-II e SO I-II; destreza Java, OO, concorrência e multithreading recomendadas.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sistemas Distribuidos 101132 demonstra forte núcleo algorítmico e prática Java/REST, com recortes parciais em transações, métricas e o repertório cluster/grid/fog/IoT de Computação Distribuída.",
+  "justification": "Os temas 1-5 e a prática obrigatória documentam quatro dos sete tópicos integralmente. Replicação/alta disponibilidade, limitações reais de rede e arquiteturas P2P/Google sustentam os três restantes apenas em parte, sem desenvolver transações nem toda a lista arquitetural brasileira. O guia informa 6 ECTS e durações de algumas sessões, mas não um total presencial semestral inequívoco; não foram somadas sessões parciais para inventar carga. Assim a afinidade fica parcial e a comparação horária com 63,33 h é não comparável.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia oficial individual completo em texto; tabela de distribuição horária ausente no texto extraído.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Guia declara 6 ECTS; total de contato semestral não comprovado em texto, sem conversão de créditos."
+  ],
+  "openQuestions": [
+    "Qual o quadro oficial de horas presenciais e a oferta 2027/28 desta unidade?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Horas e vaga de mobilidade dependem de confirmação institucional."
+  }
+}

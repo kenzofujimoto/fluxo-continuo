@@ -1,0 +1,164 @@
+{
+  "id": "cc|ENEC61018|gb-leeds|COMP3212",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61018",
+    "name": "Computação Distribuída",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 7",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "PDF p. 2, bloco COMPUTAÇÃO DISTRIBUÍDA: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo de modelos, tecnologias, comunicação e serviços para computação distribuída",
+      "Estudo e análise de algoritmos distribuídos",
+      "Modelos de comunicação entre processos paralelos e distribuídos",
+      "Problemas e discussões sobre concorrência, sincronização, transação, consistência e replicação entre sistemas distribuídos",
+      "Métricas de desempenho, eficiência, escalabilidade, disponibilidade etc",
+      "Estudo de arquiteturas para sistemas distribuídos: cluster, grid, nuvem, fog, IoT etc",
+      "Desenvolvimento e implementação de soluções para sistemas distribuídos homogêneos e heterogêneos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3212",
+      "name": "Resilient Distributed Systems",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "Semester 1 (setembro a janeiro)",
+      "academicYear": "2026/27",
+      "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+      "assessment": "Não publicada no texto recuperado; seção de avaliação não disponível.",
+      "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3212/202627",
+      "catalogue": null,
+      "sha256": "07b4c6b7f90ce0fffd8fdd29d55c1cae27e18092c4802195d3e318ae821311f2",
+      "location": "Catálogo Leeds 2026/27: identificação, Module summary, Objectives, Learning/Skills outcomes, Syllabus, Teaching Methods e atualização.",
+      "hours": {
+        "contactTotal": 66,
+        "contactLecture": 44,
+        "contactSeminarLab": 22,
+        "selfStudy": 134,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "20 créditos britânicos; não tratados como ECTS. Total Contact hours declarado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de modelos, tecnologias, comunicação e serviços para computação distribuída",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Arquiteturas, middleware, protocolos, SOA, microsserviços e serverless são explícitos.",
+      "foreignLocation": "Syllabus, primeiro bloco"
+    },
+    {
+      "brTopic": "Estudo e análise de algoritmos distribuídos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Eleição, consenso e sincronização de tempo são algoritmos expressos.",
+      "foreignLocation": "Skills outcomes, algoritmos distribuídos; Syllabus, segundo bloco"
+    },
+    {
+      "brTopic": "Modelos de comunicação entre processos paralelos e distribuídos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Protocolos, middleware e componentes que comunicam/coordenam são objetivos e conteúdos.",
+      "foreignLocation": "Module summary; Skills outcomes; Syllabus blocos 1-2"
+    },
+    {
+      "brTopic": "Problemas e discussões sobre concorrência, sincronização, transação, consistência e replicação entre sistemas distribuídos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tempo, concorrência, replicação, consistência e gestão de transações são declarados.",
+      "foreignLocation": "Syllabus blocos 2-3"
+    },
+    {
+      "brTopic": "Métricas de desempenho, eficiência, escalabilidade, disponibilidade etc",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Disponibilidade, escalabilidade, desempenho e eficiência energética são abordados, sem lista de métricas/benchmark de sistemas.",
+      "foreignLocation": "Objectives; Skills outcomes; Syllabus bloco 4"
+    },
+    {
+      "brTopic": "Estudo de arquiteturas para sistemas distribuídos: cluster, grid, nuvem, fog, IoT etc",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Edge, cloud e IoT aparecem; cluster/grid/fog não são individualizados.",
+      "foreignLocation": "Skills outcomes; Syllabus blocos 1,3-4"
+    },
+    {
+      "brTopic": "Desenvolvimento e implementação de soluções para sistemas distribuídos homogêneos e heterogêneos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Protótipos integram sensores, microcontroladores e serviços distribuídos, com implementação e avaliação em laboratório.",
+      "foreignLocation": "Module summary; Skills outcomes, protótipos CPS"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo de modelos, tecnologias, comunicação e serviços para computação distribuída. Estudo e análise de algoritmos distribuídos. Modelos de comunicação entre processos paralelos e distribuídos. Problemas e discussões sobre concorrência, sincronização, transação, consistência e replicação entre sistemas distribuídos. Métricas de desempenho, eficiência, escalabilidade, disponibilidade etc. Estudo de arquiteturas para sistemas distribuídos: cluster, grid, nuvem, fog, IoT etc. Desenvolvimento e implementação de soluções para sistemas distribuídos homogêneos e heterogêneos.",
+    "foreign": [
+      "Construir sistemas distribuídos resilientes com consenso, consistência, transações e componentes CPS."
+    ],
+    "convergences": [
+      "Resilient Distributed Systems cobre cinco dos sete eixos de Computação Distribuída e acrescenta integração ciberfísica; métricas e catálogo completo de arquiteturas ficam parciais."
+    ],
+    "differences": [
+      "A ficha atualizada em 21/09/2026 explicita protocolos/middleware, consenso, eleição, relógios, transações e consistência, sustentando os quatro primeiros eixos. Os protótipos CPS hardware/software sustentam implementação heterogênea. Cloud/edge/IoT e análise de desempenho não documentam todo o repertório cluster/grid/fog e métricas brasileiras, resultando em cinco completos e dois parciais (71,4% completos). As 66 h de contato, 22 práticas, superam as 63,33 h nominais e mantêm razão 0,868 no cenário de 50 min, mas não elevam os 71,4% ao limite de alta afinidade."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "COMPUTAÇÃO DISTRIBUÍDA: etapa 7, 63.33 horas declaradas.",
+    "foreign": "Convergência de sistemas distribuídos com CPS, tempo real e sensores/atuadores.",
+    "theoryPractice": "22 h de laboratório; protótipos CPS integrando hardware, rede, computação e atuação."
+  },
+  "practical": {
+    "period": "Semester 1 (setembro a janeiro)",
+    "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Resilient Distributed Systems cobre cinco dos sete eixos de Computação Distribuída e acrescenta integração ciberfísica; métricas e catálogo completo de arquiteturas ficam parciais.",
+  "justification": "A ficha atualizada em 21/09/2026 explicita protocolos/middleware, consenso, eleição, relógios, transações e consistência, sustentando os quatro primeiros eixos. Os protótipos CPS hardware/software sustentam implementação heterogênea. Cloud/edge/IoT e análise de desempenho não documentam todo o repertório cluster/grid/fog e métricas brasileiras, resultando em cinco completos e dois parciais (71,4% completos). As 66 h de contato, 22 práticas, superam as 63,33 h nominais e mantêm razão 0,868 no cenário de 50 min, mas não elevam os 71,4% ao limite de alta afinidade.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual e contato explícitos; duração da hora, critérios de avaliação e mobilidade ainda requerem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora de contato estrangeira não explicitada; cenário condicional de 50 minutos deve ser considerado.",
+    "Módulo não aprovado como discovery module; não é confirmação de acesso de intercambista.",
+    "Avaliação e pré-requisitos não publicados no texto consultado; confirmar com a escola."
+  ],
+  "openQuestions": [
+    "A escola permite inscrição de intercambista neste módulo e confirma critérios de avaliação/duração da hora?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+  }
+}

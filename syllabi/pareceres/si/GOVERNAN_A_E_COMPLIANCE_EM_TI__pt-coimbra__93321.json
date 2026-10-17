@@ -1,0 +1,166 @@
+{
+  "id": "si|GOVERNANÇA E COMPLIANCE EM TI|pt-coimbra|93321",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "GOVERNANÇA E COMPLIANCE EM TI",
+    "name": "GOVERNANÇA E COMPLIANCE EM TI",
+    "courseName": "Sistemas de Informação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 36, bloco GOVERNANÇA E COMPLIANCE EM TI, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estratégia Organizacional e de TI",
+      "Governança corporativa",
+      "Governança de TI: fundamentos, estrutura, modelos e ferramentas",
+      "Frameworks BSC, COBIT, ITIL",
+      "Portfólio de TI",
+      "Gestão de desempenho de operações e de níveis de serviço de TI",
+      "Legislações específicas",
+      "Estudos de casos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93321",
+      "name": "Negócios Internacionais e Governança Global",
+      "source": "https://apps.uc.pt/courses/PT/unit/93321/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "7a22b6d2923945858897e9d8b5aa23add88bafc5c57bb6dc9e84362f003949c4",
+      "location": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "academicYear": "2026-2027",
+      "language": "Português; inglês como outra língua",
+      "period": "Semestral, semestre civil não indicado",
+      "assessment": "Periódica ou exame definido por edição",
+      "prerequisites": "Não aplicável",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estratégia Organizacional e de TI",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Estratégia de internacionalização e multinacionais; não estratégia de TI",
+      "foreignLocation": "Resultados 3; Programa 6"
+    },
+    {
+      "brTopic": "Governança corporativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Poder, autoridade e normas das multinacionais; governança global não equivale a governança corporativa interna",
+      "foreignLocation": "Programa 1-3"
+    },
+    {
+      "brTopic": "Governança de TI: fundamentos, estrutura, modelos e ferramentas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Frameworks BSC, COBIT, ITIL",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Portfólio de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Gestão de desempenho de operações e de níveis de serviço de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Legislações específicas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Normas e normalização de negócios internacionais; sem legislação específica de TI",
+      "foreignLocation": "Programa 3"
+    },
+    {
+      "brTopic": "Estudos de casos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Casos de estratégia empresarial sustentável na África, América do Sul e China",
+      "foreignLocation": "Programa 6; Métodos"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estratégia Organizacional e de TI. Governança corporativa. Governança de TI: fundamentos, estrutura, modelos e ferramentas. Frameworks BSC, COBIT, ITIL. Portfólio de TI. Gestão de desempenho de operações e de níveis de serviço de TI. Legislações específicas. Estudos de casos.",
+    "foreign": [
+      "Analisar ordem internacional, multinacionais, investimento e sustentabilidade em negócios globais"
+    ],
+    "convergences": [
+      "Negócios Internacionais e Governança Global aproxima estratégia e casos organizacionais, mas governança aqui é internacional, sem frameworks e operação de TI."
+    ],
+    "differences": [
+      "Quatro de oito tópicos têm conexão, com estudos de caso integral e os demais parciais. Investimento direto, cadeias globais e autoridade das multinacionais não cobrem COBIT, ITIL, BSC, portfólio, níveis de serviço ou estrutura de governança tecnológica. Os 6 ECTS sem contato publicado limitam também a análise horária."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 7; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Analisar ordem internacional, multinacionais, investimento e sustentabilidade em negócios globais",
+    "theoryPractice": "Aulas TP, debates de atualidade, problemas reais/simulados e casos de internacionalização sustentável."
+  },
+  "practical": {
+    "period": "Semestral, semestre civil não indicado",
+    "language": "Português; inglês como outra língua",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Não aplicável",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Negócios Internacionais e Governança Global aproxima estratégia e casos organizacionais, mas governança aqui é internacional, sem frameworks e operação de TI.",
+  "justification": "Quatro de oito tópicos têm conexão, com estudos de caso integral e os demais parciais. Investimento direto, cadeias globais e autoridade das multinacionais não cobrem COBIT, ITIL, BSC, portfólio, níveis de serviço ou estrutura de governança tecnológica. Os 6 ECTS sem contato publicado limitam também a análise horária.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Negócios Internacionais e Governança Global para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de GOVERNANÇA E COMPLIANCE EM TI demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

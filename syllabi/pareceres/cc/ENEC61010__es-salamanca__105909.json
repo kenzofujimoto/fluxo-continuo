@@ -1,0 +1,149 @@
+{
+  "id": "cc|ENEC61010|es-salamanca|105909",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61010",
+    "name": "Desenvolvimento de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 4",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 2, bloco DESENVOLVIMENTO DE SOFTWARE: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105909",
+      "name": "Programación Orientada A Objetos",
+      "programme": "Grado en Ingeniería Informática en Sistemas de Información (259)",
+      "level": "Graduação",
+      "period": "Segundo semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "assessment": "Computador/práticas Java 40%; provas escritas 60%; mínimo 4 por parte e 5 global.",
+      "prerequisites": "Recomenda cursar/compreender Fundamentos de Programación.",
+      "source": "https://guias.usal.es/node/250805",
+      "catalogue": null,
+      "sha256": "7d090ae6e0a1894e34a9bf4803e14d4823d1af4135dcba090a659a10824ffbc1",
+      "location": "Guia oficial 2026/2027, seções 1-9: identificação, recomendações, objetivos, competências, conteúdos teóricos/práticos, metodologias, recursos e avaliação.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semana",
+        "hourLengthMinutes": null,
+        "weekly": {
+          "total": 4
+        }
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Desenvolvimento de aplicações OO em Java e resolução de problemas comprovam um método, sem panorama de processos de software.",
+      "foreignLocation": "Seção 3; seção 5, Blocos II-III"
+    },
+    {
+      "brTopic": "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Classes, relações, herança, polimorfismo e desenho avançado/padrões integram projeto OO.",
+      "foreignLocation": "Seção 5, Temas 2-6"
+    },
+    {
+      "brTopic": "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Diagramas UML são usados nas práticas; famílias estrutural e comportamental não são discriminadas.",
+      "foreignLocation": "Seção 5, Prática"
+    },
+    {
+      "brTopic": "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "As práticas articulam diagramas UML e programas Java para desenvolver os conceitos.",
+      "foreignLocation": "Seção 5, Prática; seção 3"
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3-6 e 9",
+      "note": "Não há ação extensionista/comunidade no guia; exercícios e trabalhos internos não a comprovam."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Fundamentos dos conceitos e métodos de desenvolvimento de software. Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos. Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais. Domínio do Mapeamento dos diagramas UML para linguagem de programação. Práticas de extensão.",
+    "foreign": [
+      "Resolver problemas mediante aplicações OO em Java e elaborar modelos abstratos."
+    ],
+    "convergences": [
+      "Programación Orientada a Objetos de Zamora demonstra modelagem e aplicação UML/Java de Desenvolvimento de Software, mas não comprova extensão e deixa parcial o panorama de métodos e diagramas."
+    ],
+    "differences": [
+      "As seções 3 e 5 conectam explicitamente UML a programas Java, cobrindo projeto OO e mapeamento. Os seis temas não apresentam métodos de desenvolvimento em sentido amplo nem distinguem diagramas comportamentais; práticas extensionistas não constam. Quatro de cinco tópicos têm cobertura total/parcial, porém nenhum trabalho interno foi tomado como extensão. A seção 6 informa duas sessões semanais de duas horas (4 h/semana), sem número de semanas ou duração da hora; a carga permanece semanal/não comparável às 63,33 h semestrais Mackenzie."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "DESENVOLVIMENTO DE SOFTWARE: etapa 4, 63.33 horas declaradas.",
+    "foreign": "Básica do 1º ano de Engenharia Informática em SI, campus Zamora.",
+    "theoryPractice": "Duas sessões de 2 h/semana; exemplos tutorizados e exercícios autônomos individuais/coletivos em Java/UML."
+  },
+  "practical": {
+    "period": "Segundo semestre",
+    "language": "Espanhol",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Recomenda cursar/compreender Fundamentos de Programación.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Programación Orientada a Objetos de Zamora demonstra modelagem e aplicação UML/Java de Desenvolvimento de Software, mas não comprova extensão e deixa parcial o panorama de métodos e diagramas.",
+  "justification": "As seções 3 e 5 conectam explicitamente UML a programas Java, cobrindo projeto OO e mapeamento. Os seis temas não apresentam métodos de desenvolvimento em sentido amplo nem distinguem diagramas comportamentais; práticas extensionistas não constam. Quatro de cinco tópicos têm cobertura total/parcial, porém nenhum trabalho interno foi tomado como extensão. A seção 6 informa duas sessões semanais de duas horas (4 h/semana), sem número de semanas ou duração da hora; a carga permanece semanal/não comparável às 63,33 h semestrais Mackenzie.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia oficial individual completo em texto; tabela de distribuição horária ausente no texto extraído.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "4 h semanais explícitas, sem duração do semestre/hora; não derivado contato semestral.",
+    "Sem evidência de extensão externa; campus Zamora e acesso de mobilidade a confirmar."
+  ],
+  "openQuestions": [
+    "Qual o quadro oficial de horas presenciais e a oferta 2027/28 desta unidade?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Horas e vaga de mobilidade dependem de confirmação institucional."
+  }
+}

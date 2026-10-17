@@ -1,0 +1,146 @@
+{
+  "id": "cc|ENEC61011|es-cadiz|21714021",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61011",
+    "name": "Redes de Computadores",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 5",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 4, bloco REDES DE COMPUTADORES: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes",
+      "Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet",
+      "Descrição do roteamento de pacotes, vazão, atraso e perda de dados",
+      "Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento",
+      "Aplicação de tecnologias de redes sem fio: arquitetura 802.11"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714021",
+      "name": "Redes de Computadores",
+      "programme": null,
+      "level": "Graduação",
+      "period": "1º semestre",
+      "academicYear": "2025/26 (ano impresso no documento)",
+      "language": "Castelhano",
+      "assessment": "Teoria 25%; problemas/análise de tráfego 40%; participação 5%; exame laboratorial 20%; práticas avaliadas 10%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2025-26/21714021",
+      "catalogue": null,
+      "sha256": "f5a06d2d8d59869c99279a6bfb1a7479aef79e4146d6420cf983f36acec990e0",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tipos de redes, meios físicos e Ethernet são explícitos; escalabilidade não é tratada como eixo.",
+      "foreignLocation": "Temas 1-3; Resultado 1 e 4"
+    },
+    {
+      "brTopic": "Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "OSI, TCP/IP e encapsulamento formam o tema inicial.",
+      "foreignLocation": "Tema 1.2-1.5; Resultados 2-3"
+    },
+    {
+      "brTopic": "Descrição do roteamento de pacotes, vazão, atraso e perda de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Roteamento, tráfego e transporte são estudados; métricas de vazão, atraso e perda não são individualizadas.",
+      "foreignLocation": "Temas 4-6; Resultado 7"
+    },
+    {
+      "brTopic": "Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Endereçamento, sub-redes, NAT e roteamento são explícitos, mas versões IPv4/IPv6 e protocolos de roteamento não são discriminados.",
+      "foreignLocation": "Tema 4.3-4.9"
+    },
+    {
+      "brTopic": "Aplicação de tecnologias de redes sem fio: arquitetura 802.11",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temário completo 1-6; Resultados 1-7",
+      "note": "802.11 e arquitetura sem fio não aparecem na lista de meios, Ethernet ou camadas superiores."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes. Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet. Descrição do roteamento de pacotes, vazão, atraso e perda de dados. Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento. Aplicação de tecnologias de redes sem fio: arquitetura 802.11.",
+    "foreign": [
+      "Configurar dispositivos de camadas 2/3, endereçar redes e analisar tráfego."
+    ],
+    "convergences": [
+      "Redes de Computadores de Cádiz tem boa base em camadas e configuração Ethernet, mas a ficha 2025-26 não demonstra 802.11 nem detalha IPv6 e métricas de desempenho."
+    ],
+    "differences": [
+      "Há um tópico inteiramente coberto (OSI/TCP-IP), três parciais e um ausente. Os temas 4-6 confirmam roteamento, transporte e análise de tráfego, sem permitir atribuir ensino de IPv6 ou redes sem fio por inferência. As 60 h de docência presencial (30 teoria, 24 laboratório, 6 problemas) correspondem nominalmente a 94,7% das 63,33 h Mackenzie, ou 78,9% no cenário de 50 min. A edição efetivamente disponível é 2025-26, independentemente do endereço da coleta, e precisa de atualização antes da mobilidade."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "REDES DE COMPUTADORES: etapa 5, 63.33 horas declaradas.",
+    "foreign": "Obrigatória do 2º ano, primeiro semestre; seis temas organizados por camadas.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "1º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Redes de Computadores de Cádiz tem boa base em camadas e configuração Ethernet, mas a ficha 2025-26 não demonstra 802.11 nem detalha IPv6 e métricas de desempenho.",
+  "justification": "Há um tópico inteiramente coberto (OSI/TCP-IP), três parciais e um ausente. Os temas 4-6 confirmam roteamento, transporte e análise de tráfego, sem permitir atribuir ensino de IPv6 ou redes sem fio por inferência. As 60 h de docência presencial (30 teoria, 24 laboratório, 6 problemas) correspondem nominalmente a 94,7% das 63,33 h Mackenzie, ou 78,9% no cenário de 50 min. A edição efetivamente disponível é 2025-26, independentemente do endereço da coleta, e precisa de atualização antes da mobilidade.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Documento recuperado identifica 2025-26; não comprova edição 2026-27 ou 2027/28.",
+    "Duração da hora não especificada; ausência de IPv6/802.11 no temário publicado."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714021 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

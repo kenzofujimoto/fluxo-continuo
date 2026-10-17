@@ -1,0 +1,110 @@
+{
+  "id": "si|FUNDAMENTOS DE MATEMÁTICA|pt-coimbra|93285",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "FUNDAMENTOS DE MATEMÁTICA",
+    "name": "FUNDAMENTOS DE MATEMÁTICA",
+    "courseName": "Sistemas de Informação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 8, bloco FUNDAMENTOS DE MATEMÁTICA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Funções reais de uma variável real, limites (limites laterais, funções contínuas, limites indeterminados, limites fundamentais e limites infinitos e no infinito), derivadas (definição, retas tangente e normal, regras de derivação, taxa de variação e aplicações)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93285",
+      "name": "Matemática para Economia e Gestão I",
+      "source": "https://apps.uc.pt/courses/PT/unit/93285/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "b049284e971360d5dc50c85ef7cc86994dbd081ea7dee52dba1e98081e1f5d73",
+      "location": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "academicYear": "2026-2027",
+      "language": "Português declarado",
+      "period": "Semestral, semestre civil não indicado",
+      "assessment": "Periódica ou por exame definido na edição",
+      "prerequisites": "Cálculo diferencial, geometria analítica e álgebra do ensino secundário",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Funções reais de uma variável real, limites (limites laterais, funções contínuas, limites indeterminados, limites fundamentais e limites infinitos e no infinito), derivadas (definição, retas tangente e normal, regras de derivação, taxa de variação e aplicações)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Funções elementares, limite segundo Cauchy, continuidade, derivadas/interpretações, indeterminações, Taylor e otimização; limites laterais/infinitos e reta normal não explicitados",
+      "foreignLocation": "Programa 1.1-1.3"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Funções reais de uma variável real, limites (limites laterais, funções contínuas, limites indeterminados, limites fundamentais e limites infinitos e no infinito), derivadas (definição, retas tangente e normal, regras de derivação, taxa de variação e aplicações).",
+    "foreign": [
+      "Aplicar cálculo de uma variável à modelagem e resolução de problemas econômicos e empresariais"
+    ],
+    "convergences": [
+      "Matemática para Economia e Gestão I cobre o núcleo de funções, limites e derivadas, com detalhes brasileiros específicos ainda não demonstrados no único enunciado agregado."
+    ],
+    "differences": [
+      "O eixo 1 oferece função real de uma variável, continuidade e diferenciabilidade com aplicações e otimização. Como o tópico Mackenzie também exige limites laterais/fundamentais/infinitos e reta normal, a correspondência do enunciado completo é parcial. Integrais, equações diferenciais e séries são acréscimos estrangeiros; 6 ECTS não permitem confirmar contato equivalente."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 2; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Aplicar cálculo de uma variável à modelagem e resolução de problemas econômicos e empresariais",
+    "theoryPractice": "Exposição com recursos algébricos/gráficos, exercícios, problemas e questionários conceituais."
+  },
+  "practical": {
+    "period": "Semestral, semestre civil não indicado",
+    "language": "Português declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Cálculo diferencial, geometria analítica e álgebra do ensino secundário",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Matemática para Economia e Gestão I cobre o núcleo de funções, limites e derivadas, com detalhes brasileiros específicos ainda não demonstrados no único enunciado agregado.",
+  "justification": "O eixo 1 oferece função real de uma variável, continuidade e diferenciabilidade com aplicações e otimização. Como o tópico Mackenzie também exige limites laterais/fundamentais/infinitos e reta normal, a correspondência do enunciado completo é parcial. Integrais, equações diferenciais e séries são acréscimos estrangeiros; 6 ECTS não permitem confirmar contato equivalente.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Matemática para Economia e Gestão I para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de FUNDAMENTOS DE MATEMÁTICA demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

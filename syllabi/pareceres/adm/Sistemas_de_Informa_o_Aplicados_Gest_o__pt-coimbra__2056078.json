@@ -1,0 +1,181 @@
+{
+  "id": "adm|Sistemas de Informação Aplicados à Gestão|pt-coimbra|2056078",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sistemas de Informação Aplicados à Gestão",
+    "name": "Sistemas de Informação Aplicados à Gestão",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo)",
+    "documentYear": null,
+    "documentTitle": "Ementário Mackenzie, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 12, bloco Sistemas de Informação Aplicados à Gestão: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Alinhamento estratégico de TI",
+      "Governança de TI",
+      "Convergência Tecnológica",
+      "Internet das coisas",
+      "Block Chain",
+      "Cripton Moeda",
+      "Big Data",
+      "Computação nas nuvens",
+      "Inteligência Artificial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "2056078",
+      "name": "Governança de Sistemas e Dados",
+      "programme": "Mestrado",
+      "level": "2º Ciclo - Mestrado",
+      "period": "Outono a confirmar",
+      "academicYear": null,
+      "language": "Inglês; português como outra língua de ensino.",
+      "assessment": "Investigação 10%, projeto 30%, exame 60%.",
+      "prerequisites": "Conhecimentos base de Sistemas de Informação.",
+      "source": "https://apps.uc.pt/courses/PT/unit/97192/25141/2026-2027",
+      "catalogue": null,
+      "sha256": "59091dcc660a98937db3dd5bf099a9f8ef42f787e9dd7d1e8d5315ea26934b91",
+      "location": "Identificação; Conhecimentos de Base; Métodos de Ensino; Resultados; Programa 1-6; Avaliação; bibliografia.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Alinhamento estratégico de TI",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "O alinhamento estratégico é eixo explícito da governança de TI.",
+      "foreignLocation": "Programa 2"
+    },
+    {
+      "brTopic": "Governança de TI",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Governança de TI com valor, riscos, recursos, desempenho e COBIT 2019.",
+      "foreignLocation": "Programa 2"
+    },
+    {
+      "brTopic": "Convergência Tecnológica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Integração e evolução de sistemas empresariais, mais cenários tecnológicos, aproximam convergência sem a desenvolver nominalmente.",
+      "foreignLocation": "Programa 1 e 6"
+    },
+    {
+      "brTopic": "Internet das coisas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral 1-6; Resultados de Aprendizagem; Métodos de Ensino",
+      "note": "A tecnologia específica não aparece nos conteúdos nem nos objetivos; governança de dados não prova ensino dessa tecnologia."
+    },
+    {
+      "brTopic": "Block Chain",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral 1-6; Resultados de Aprendizagem; Métodos de Ensino",
+      "note": "A tecnologia específica não aparece nos conteúdos nem nos objetivos; governança de dados não prova ensino dessa tecnologia."
+    },
+    {
+      "brTopic": "Cripton Moeda",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral 1-6; Resultados de Aprendizagem; Métodos de Ensino",
+      "note": "A tecnologia específica não aparece nos conteúdos nem nos objetivos; governança de dados não prova ensino dessa tecnologia."
+    },
+    {
+      "brTopic": "Big Data",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral 1-6; Resultados de Aprendizagem; Métodos de Ensino",
+      "note": "A tecnologia específica não aparece nos conteúdos nem nos objetivos; governança de dados não prova ensino dessa tecnologia."
+    },
+    {
+      "brTopic": "Computação nas nuvens",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral 1-6; Resultados de Aprendizagem; Métodos de Ensino",
+      "note": "A tecnologia específica não aparece nos conteúdos nem nos objetivos; governança de dados não prova ensino dessa tecnologia."
+    },
+    {
+      "brTopic": "Inteligência Artificial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa integral 1-6; Resultados de Aprendizagem; Métodos de Ensino",
+      "note": "A tecnologia específica não aparece nos conteúdos nem nos objetivos; governança de dados não prova ensino dessa tecnologia."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Discussão sobre a aplicabilidade dos sistemas de informação para o respaldo à tomada de decisão empresarial. Apresentação de novas ferramentas e tecnologias que transformam a dinâmica dos negócios na atualidade.",
+    "foreign": [
+      "Gerir sistemas e dados com COBIT/ITIL, resolver problemas complexos e executar transformação digital."
+    ],
+    "convergences": [
+      "Alinhamento estratégico e governança de TI."
+    ],
+    "differences": [
+      "Não demonstra IoT, blockchain, criptomoedas, big data, nuvem ou IA como tecnologias estudadas.",
+      "Governança de dados e operações/serviços são mais desenvolvidos em Coimbra."
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: graduação, 6ª etapa; Coimbra: mestrado, 1º ano, opcional.",
+    "brazil": "Sistemas de Informação Aplicados à Gestão: etapa 6, 31.7 horas declaradas.",
+    "foreign": "Mestrado com COBIT 2019, ITIL 4, continuidade, dados e prospecção sociotécnica.",
+    "theoryPractice": "Projeto em contexto real e exercícios laboratoriais; Mackenzie declara a disciplina como teórica."
+  },
+  "practical": {
+    "period": "Outono a confirmar",
+    "language": "Inglês; português como outra língua de ensino.",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Conhecimentos base de Sistemas de Informação.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Governança de Sistemas e Dados cobre alinhamento e governança da ficha brasileira, mas deixa seis tecnologias emergentes sem correspondência programática; o nível de mestrado também exige verificação de acesso.",
+  "justification": "A convergência tecnológica só encontra apoio parcial nos itens 1 e 6. Os outros dois encontros são diretos no item 2; IoT, blockchain, criptomoeda, big data, nuvem e IA não são tratados no programa 1-6. Assim, três de nove tópicos têm cobertura total ou parcial, abaixo da metade, apesar da maior profundidade da unidade em serviços e dados. Os 6 ECTS não substituem as 31,7 h da ficha histórica e não demonstram compatibilidade horária.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdos de ambas as fichas são individualizados; horas estrangeiras e vigência Mackenzie não estão confirmadas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Acesso de graduando a unidade de mestrado depende de autorização.",
+    "Sem horas de contato; ECTS não convertidos.",
+    "Ficha Mackenzie da etapa 6 sem vigência impressa e com cabeçalho de São Paulo."
+  ],
+  "openQuestions": [
+    "A UC admite intercambistas de graduação na unidade 02056078?",
+    "Existe unidade de tecnologias emergentes mais próxima dos seis temas não encontrados?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Diferença de nível e documentação brasileira histórica exigem revisão institucional."
+  }
+}

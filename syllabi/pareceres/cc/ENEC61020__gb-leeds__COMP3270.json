@@ -1,0 +1,149 @@
+{
+  "id": "cc|ENEC61020|gb-leeds|COMP3270",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61020",
+    "name": "Computação Paralela",
+    "courseName": "Ciência da Computação",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 8",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "99a89616cc97ad85d17f1c8b29d7b0e84a2272807e38dd743c40180bead9aab4",
+    "location": "PDF p. 2, bloco COMPUTAÇÃO PARALELA: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo de arquiteturas de sistemas paralelos",
+      "Metodologia de desenvolvimento de programas paralelos",
+      "Análise de algoritmos paralelos",
+      "Medição e avaliação de programas paralelos",
+      "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3270",
+      "name": "High-performance Computing",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "Semester 1 (setembro a janeiro)",
+      "academicYear": "2026/27",
+      "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+      "assessment": "Não publicada no texto recuperado; seção de avaliação não disponível.",
+      "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3270/202627",
+      "catalogue": null,
+      "sha256": "5b996b66b89c772913cf59680e515166444937cb2895f997f8ff272820e8eab3",
+      "location": "Catálogo Leeds 2026/27: identificação, Module summary, Objectives, Learning/Skills outcomes, Syllabus, Teaching Methods e atualização.",
+      "hours": {
+        "contactTotal": 48,
+        "contactLecture": 26,
+        "contactSeminarLab": 22,
+        "selfStudy": 152,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "20 créditos britânicos; não tratados como ECTS. Total Contact hours declarado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de arquiteturas de sistemas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Arquiteturas e infraestrutura HPC, modelos avançados CUDA e heterogêneos são estudados.",
+      "foreignLocation": "Syllabus, Introduction e Programming Models"
+    },
+    {
+      "brTopic": "Metodologia de desenvolvimento de programas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Padrões de programação paralela, MPI/OpenMP e estudos de caso orientam projeto.",
+      "foreignLocation": "Syllabus, Programming Models; Objectives"
+    },
+    {
+      "brTopic": "Análise de algoritmos paralelos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Otimização de desempenho e análise de artefatos são resultados, sem análise formal de algoritmos paralelos.",
+      "foreignLocation": "Learning outcomes; Syllabus, Practical considerations"
+    },
+    {
+      "brTopic": "Medição e avaliação de programas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Profiling de desempenho e avaliação/limitações de soluções são explícitos.",
+      "foreignLocation": "Module summary; Learning outcomes sobre teste/análise/avaliação"
+    },
+    {
+      "brTopic": "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programação prática MPI/OpenMP em supercomputador é prevista; CUDA e heterogeneidade são declaradamente teóricas.",
+      "foreignLocation": "Module summary; Syllabus, Theoretical exploration"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo de arquiteturas de sistemas paralelos. Metodologia de desenvolvimento de programas paralelos. Análise de algoritmos paralelos. Medição e avaliação de programas paralelos. Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas.",
+    "foreign": [
+      "Projetar e otimizar aplicações paralelas usando recursos de supercomputação."
+    ],
+    "convergences": [
+      "High-performance computing demonstra arquitetura, metodologia e avaliação de programas paralelos; a implementação de aceleradores permanece teórica e a carga de 48 h tem margem horária estreita."
+    ],
+    "differences": [
+      "Três dos cinco tópicos são integrais: arquitetura HPC, padrões/MPI/OpenMP e profiling. A análise formal dos algoritmos não é individualizada e a própria ficha qualifica CUDA e paradigmas heterogêneos como exploração teórica, de modo que implementação nesses alvos fica parcial. As 48 h de contato (26 aula e 22 prática) dão razão nominal 0,758 para 63,33 h, mas somente 0,632 no cenário de 50 min. Não é razoável interpretar essa proximidade nominal como garantia horária; a conclusão parcial também reflete as duas lacunas curriculares."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "COMPUTAÇÃO PARALELA: etapa 8, 63.33 horas declaradas.",
+    "foreign": "HPC com MPI/OpenMP prático e CUDA/heterogeneidade teóricos; inclui sustentabilidade.",
+    "theoryPractice": "22 h práticas para programação em supercomputador; modelos de acelerador descritos como teóricos."
+  },
+  "practical": {
+    "period": "Semester 1 (setembro a janeiro)",
+    "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "High-performance computing demonstra arquitetura, metodologia e avaliação de programas paralelos; a implementação de aceleradores permanece teórica e a carga de 48 h tem margem horária estreita.",
+  "justification": "Três dos cinco tópicos são integrais: arquitetura HPC, padrões/MPI/OpenMP e profiling. A análise formal dos algoritmos não é individualizada e a própria ficha qualifica CUDA e paradigmas heterogêneos como exploração teórica, de modo que implementação nesses alvos fica parcial. As 48 h de contato (26 aula e 22 prática) dão razão nominal 0,758 para 63,33 h, mas somente 0,632 no cenário de 50 min. Não é razoável interpretar essa proximidade nominal como garantia horária; a conclusão parcial também reflete as duas lacunas curriculares.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual e contato explícitos; duração da hora, critérios de avaliação e mobilidade ainda requerem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Contato 48 h só atinge 75% pelo valor nominal; com hora de 50 min cai a 63,2% da carga Mackenzie.",
+    "Duração da hora não declarada.",
+    "Implementação prática GPU/heterogênea não demonstrada.",
+    "Discovery module indisponível e avaliação não publicada."
+  ],
+  "openQuestions": [
+    "A escola permite inscrição de intercambista neste módulo e confirma critérios de avaliação/duração da hora?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+  }
+}
