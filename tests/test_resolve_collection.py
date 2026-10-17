@@ -115,3 +115,16 @@ def test_fetch_text_parses_pdf_with_leading_whitespace_and_keeps_raw_hash(monkey
     assert info["format"] == "pdf"
     assert "Course contents" in text
     assert info["sha256"] == hashlib.sha256(raw).hexdigest()
+
+
+def test_declared_english_course_code_overrides_matching_title():
+    text = "Business Law Course Code\nBUS202\nCourse contents Contracts and company law " + "case studies " * 100
+    assert not resolver.verify_programme(text, "Business Law", "BUS405", [])["ok"]
+
+
+def test_declared_english_course_code_accepts_spacing_and_ignores_grid_header():
+    text = "International Finance Course Code\nFIN 407\nCourse contents Currency markets " + "case studies " * 100
+    assert resolver.verify_programme(text, "International Finance", "FIN407", [])["ok"]
+    grid = "Business Ethics Course Code\nCredit Hours\nBUS445\nCourse contents Corporate ethics " + "case studies " * 100
+    assert resolver.verify_programme(grid, "Business Ethics", "BUS445", [])["ok"]
+
