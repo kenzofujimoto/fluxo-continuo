@@ -58,16 +58,23 @@ def academic_year(text: str) -> str | None:
     return f"{a}/{b}" if int(b) - int(a) == 1 else None
 
 
-def verify_programme(text: str, title: str, code: str, other_titles: list[str]) -> dict:
-    # Explicit academic metadata overrides a coincidentally matching course title.
-    declared_code = re.search(r"\bC[oó]digo(?:\s+(?:de la asignatura|da disciplina))?\s*:?\s*(\d{4,})\b", text[:6000], re.I)
-    if str(code).isdigit() and declared_code and declared_code.group(1) != str(code):
-        return {"ok": False, "reason": "código acadêmico declarado difere da disciplina solicitada"}
+def verify_programme(text: str, title: str, code: str, other_titles: list[str], source_url: str | None = None) -> dict:
     head = fold(text[:6000])
     t = fold(title)
+    title_matches = len(t) >= 5 and t in head
+    source = urlparse(source_url or "")
+    unit = re.match(r"^/courses/(?:PT|EN)/unit/(\d+)(?:/|$)", source.path)
+    catalogue_id = bool(source.scheme == "https" and source.hostname == "apps.uc.pt"
+                        and unit and unit.group(1) == str(code) and title_matches)
+    # Explicit academic metadata overrides a coincidentally matching course title.
+    declared_code = re.search(r"\bC[oó]digo(?:\s+(?:de la asignatura|da disciplina))?\s*:?\s*(\d{4,})\b", text[:6000], re.I)
+    if str(code).isdigit() and declared_code and declared_code.group(1) != str(code) and not catalogue_id:
+        return {"ok": False, "reason": "código acadêmico declarado difere da disciplina solicitada"}
     ident = []
-    if len(t) >= 5 and t in head:
+    if title_matches:
         ident.append("title")
+    if catalogue_id:
+        ident.append("catalogue_id")
     if code and not str(code).startswith("CAT-") and len(str(code)) >= 4 and fold(code) in fold(text[:8000]):
         ident.append("code")
     if not ident:
@@ -192,7 +199,7 @@ def resolve(t: dict, listing_cache: dict) -> dict:
     urls = candidate_urls(t["universityId"], t["code"], t["source"])
     for url in urls:
         info, text = fetch_text(url)
-        v = verify_programme(text, t["name"], t["code"], t["titles"]) if text else {"ok": False, "reason": f"HTTP {info.get('http')} {info.get('error', '')}".strip()}
+        v = verify_programme(text, t["name"], t["code"], t["titles"], source_url=info.get("finalUrl") or url) if text else {"ok": False, "reason": f"HTTP {info.get('http')} {info.get('error', '')}".strip()}
         tried.append({"url": url, "http": info.get("http"), "result": v.get("reason") or "verificado"})
         if v["ok"]:
             return {"ok": True, "url": info.get("finalUrl") or url, "info": info, "verify": v, "text": text, "tried": tried}
@@ -202,7 +209,7 @@ def resolve(t: dict, listing_cache: dict) -> dict:
             link = find_course_link(html, info.get("finalUrl") or url, t["name"])
             if link and link not in urls:
                 info2, text2 = fetch_text(link)
-                v2 = verify_programme(text2, t["name"], t["code"], t["titles"]) if text2 else {"ok": False, "reason": f"HTTP {info2.get('http')}"}
+                v2 = verify_programme(text2, t["name"], t["code"], t["titles"], source_url=info2.get("finalUrl") or link) if text2 else {"ok": False, "reason": f"HTTP {info2.get('http')}"}
                 tried.append({"url": link, "http": info2.get("http"), "result": v2.get("reason") or "verificado", "foundOn": url})
                 if v2["ok"]:
                     return {"ok": True, "url": info2.get("finalUrl") or link, "info": info2, "verify": v2, "text": text2, "tried": tried}
