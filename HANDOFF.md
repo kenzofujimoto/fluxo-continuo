@@ -1,3 +1,14 @@
+# Interactive globe checkpoint — 2026-10-16
+
+- Branch: `feature/interactive-globe`. Feature commit: `2680bb2`; failing tests: `a862010`; geodata: `d51b796`.
+- Production preview: http://127.0.0.1:3002 (running exec session `40718`). No push or deploy.
+- Home now has a dark interactive Globe.GL hero. `/universidades` has public search/course/eligibility filters, globe/list views, keyboard selection and institutional links. No login/database.
+- Local Natural Earth geometry: `public/maps/countries.geojson`. Versioned coordinates: `data/university-locations.json`: 57 mapped of 66 universities; nine pending locations stay in the list. Institutional points do not certify the campus offering exchange classes; source/precision/notes are shown.
+- Validation: nine TypeScript tests plus 57 Python tests (66 total), lint/types/build pass. HTTP checks pass for home, destinations, eligibility, empty searches and geography. Visual layout and actual WebGL interactions remain unverified because browser automation was unavailable.
+- Operational details/manual checklist: `docs/interactive-globe.md`; coordinate sources/pending institutions: `docs/GLOBE_LOCATIONS.md`.
+- Existing incoming research and untracked syllabi were preserved. Keep preview session running for user review.
+
+---
 # HANDOFF — aplicação pública (16/10/2026)
 
 Branch atual: `feature/public-app`. Escopo aprovado: aplicação pública Next.js/TypeScript, identidade visual MackJr e comparação documental; Neon, API de escrita e administração foram adiados explicitamente pelo usuário.
