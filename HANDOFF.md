@@ -1,3 +1,11 @@
+# Release checkpoint — 2026-10-17
+
+- All 270 frozen research pairs are complete; index contains 403 reviews: 5 high, 230 partial, 139 low, 29 insufficient. Covers 141/221 Brazilian disciplines. No institutional equivalence.
+- Source integrity fixes and their regression tests are committed. 61 Python tests and 9 application tests passed; documentary audit passed for 403 reviews and 6,856 research states.
+- Current release statistics and limitations: `docs/release-2026-10-17.md`. Foreign individual syllabi: 718/2,932; missing: 2,214; missing contact hours: 452/718; priority requests: 826.
+- Branch: `feature/interactive-globe`. Target project: `fluxo-continuo`, public domain https://fluxo-continuo.vercel.app. Vercel configured for Next.js. Publishing is explicitly authorized. Final lint/build and deployment verification are the current operational steps.
+- Preserve untracked `.claude/`. Older checkpoints below describe historical states.
+
 # Globe visual refinement — 2026-10-16
 
 - Country cards and university detail now render local SVG country flags in the red/cream palette; all 21 country codes in the current data have assets. Original flag-icons 7.6.0 SVGs and MIT license are in `public/flags/`.

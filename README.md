@@ -4,6 +4,8 @@
 
 ## Aplicação pública (Next.js)
 
+Atualização de 17/10/2026: **403 pareceres**, 141/221 disciplinas brasileiras analisadas, 718 ementas estrangeiras individuais entre 2.932 catalogadas. Consulte os [resultados e limites da publicação](docs/release-2026-10-17.md). Afinidade documental não significa equivalência homologada.
+
 O site agora é uma aplicação Next.js 16, React 19 e TypeScript estrito. A consulta é 100% pública, sem autenticação, administração, API de escrita ou banco. Os JSONs versionados continuam sendo a fonte de verdade; a camada `lib/data.ts` valida os campos consumidos com Zod e calcula indicadores a partir dos registros, sem depender dos resumos históricos abaixo.
 
 ```sh
