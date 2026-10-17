@@ -1,0 +1,221 @@
+{
+  "id": "adm|Comportamento Organizacional|es-salamanca|CAT-USAL-210334",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Comportamento Organizacional",
+    "name": "Comportamento Organizacional",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 1, bloco 'Comportamento Organizacional': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Comportamento Organizacional – Conceito, dimensões e elementos",
+      "Processos Cognitivos e formação de atitudes",
+      "Processo de aprendizagem individual",
+      "Adoecimento no trabalho, estresse e qualidade de vida no trabalho",
+      "Comprometimento, Satisfação e envolvimento no Trabalho",
+      "Motivação",
+      "Liderança e poder nas organizações",
+      "Cultura organizacional",
+      "Diversidade"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210334",
+      "name": "Comportamiento Organizacional",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Psicología Social y Antropología (área Psicología Social)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo Semestre (campo 'Periodicidad'), 4º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "OPTATIVA",
+      "assessment": "Avaliação contínua 100% (questionários, exercícios, team building, práticas individuais e em equipe, projeto com defesa); baseada em presencialidade",
+      "prerequisites": "Nenhum requisito prévio",
+      "source": "https://guias.usal.es/node/210334",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "0e78985e855c03a0c8c095e1fd1a7fc69dd0b3eff151b44d004c984793568889",
+      "location": "Guia 2025/2026: seções 1 (datos), 3 (objetivos), 4 (competencias CECO1/5/6/11), 5 (contenidos teóricos e prácticos), 6 (metodologías), 9 (evaluación)",
+      "officialCode": "103849",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS. A seção 7 'Distribución de las Metodologías Docentes' vem vazia no texto obtido; nenhuma hora de contato declarada. Código oficial do guia: 103849."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Comportamento Organizacional – Conceito, dimensões e elementos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'bases del comportamiento del individuo dentro de las organizaciones'; tema 'La conducta del empleado en las organizaciones: El capital humano'",
+      "foreignLocation": "Seções 3 e 5 (primeiro tema teórico)",
+      "note": "Cobre o nível individual e o de grupo; não articula os três níveis (individual, grupal, organizacional) nem 'dimensões e elementos'."
+    },
+    {
+      "brTopic": "Processos Cognitivos e formação de atitudes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Actitudes y estados psicológicos'; competência CECO6: 'percibir, apreciar e interpretar la conducta'",
+      "foreignLocation": "Seção 5, tema 4; seção 4, CECO6",
+      "note": "Atitudes cobertas; processos cognitivos (percepção, atribuição) não nomeados."
+    },
+    {
+      "brTopic": "Processo de aprendizagem individual",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Contenidos teóricos e prácticos) e seções 3, 4, 6 e 9 lidas; o guia remete a 'programa detallado' entregue no início do curso, que não está publicado. Nenhum item de aprendizagem individual.",
+      "note": "Ausência na lista de contenidos; pode figurar no programa detalhado não publicado."
+    },
+    {
+      "brTopic": "Adoecimento no trabalho, estresse e qualidade de vida no trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Contenidos teóricos e prácticos) e seções 3, 4, 6 e 9 lidas; o guia remete a 'programa detallado' entregue no início do curso, que não está publicado. Sem estresse, adoecimento ou qualidade de vida no trabalho.",
+      "note": "'Estados psicológicos' é genérico e não permite inferir estresse ou saúde no trabalho."
+    },
+    {
+      "brTopic": "Comprometimento, Satisfação e envolvimento no Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Actitudes y estados psicológicos' (bibliografia: Sessa e Bowling, 'job attitudes')",
+      "foreignLocation": "Seção 5, tema 4; seção 8",
+      "note": "Atitudes no trabalho cobertas implicitamente pela bibliografia; satisfação, comprometimento e envolvimento não são nomeados."
+    },
+    {
+      "brTopic": "Motivação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'La motivación en el trabajo'",
+      "foreignLocation": "Seção 5, contenidos teóricos, tema 5"
+    },
+    {
+      "brTopic": "Liderança e poder nas organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'El liderazgo en entornos organizacionales'",
+      "foreignLocation": "Seção 5, tema 6",
+      "note": "Liderança coberta; poder nas organizações não aparece."
+    },
+    {
+      "brTopic": "Cultura organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Contenidos teóricos e prácticos) e seções 3, 4, 6 e 9 lidas; o guia remete a 'programa detallado' entregue no início do curso, que não está publicado. Sem cultura organizacional.",
+      "note": "Tema da ementa brasileira ausente da lista de contenidos."
+    },
+    {
+      "brTopic": "Diversidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Contenidos teóricos e prácticos) e seções 3, 4, 6 e 9 lidas; o guia remete a 'programa detallado' entregue no início do curso, que não está publicado. Sem gestão da diversidade.",
+      "note": "Tema da ementa brasileira ausente da lista de contenidos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Valores e personalidade como bases da conduta individual",
+      "location": "Seção 5, tema 2"
+    },
+    {
+      "topic": "Papel das emoções no trabalho",
+      "location": "Seção 5, tema 3"
+    },
+    {
+      "topic": "Conduta em grupo e equipes de trabalho (citada na ementa brasileira, ausente do conteúdo programático)",
+      "location": "Seção 5, tema 7"
+    },
+    {
+      "topic": "Exercícios de team building e avaliação por projeto",
+      "location": "Seções 5 e 9"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: teorias e abordagens do comportamento humano em três níveis (individual, grupal e organizacional), com satisfação, motivação, liderança, cultura, mudança, diversidade e qualidade de vida no trabalho.",
+    "foreign": [
+      "CECO1: fundamentos do comportamento do indivíduo em ambientes organizacionais",
+      "CECO5: ferramentas de avaliação do comportamento",
+      "CECO6: perceber e interpretar a conduta própria e alheia",
+      "CECO11: aplicar instrumentos para avaliar comportamento de indivíduos e grupos"
+    ],
+    "convergences": [
+      "Motivação e liderança como temas centrais",
+      "Atitudes no trabalho",
+      "Comportamento de grupos e equipes"
+    ],
+    "differences": [
+      "Salamanca é centrada no indivíduo e no grupo, sem o nível organizacional (cultura, mudança, diversidade)",
+      "Mackenzie inclui aprendizagem, estresse e qualidade de vida, ausentes da lista de Salamanca",
+      "Salamanca acrescenta valores, personalidade, emoções e avaliação por instrumentos"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: 5ª etapa, obrigatória; Salamanca: 4º curso, optativa de Psicologia Social",
+    "brazil": "Disciplina de 63,3 h com 9 enunciados cobrindo níveis individual, grupal e organizacional",
+    "foreign": "Optativa de 6 ECTS com 7 blocos teóricos sobre indivíduo e equipe, ensinada por psicologia social",
+    "theoryPractice": "Salamanca: exercícios e team building a cada tema, casos, debates e projeto; avaliação 100% contínua"
+  },
+  "practical": {
+    "period": "Segundo semestre (fevereiro a junho), que não coincide com 2027.2 (agosto a dezembro)",
+    "language": "Espanhol",
+    "enrolment": "Optativa do 4º curso, grupo 1 com um professor; aceitação de intercambista Mackenzie não verificada",
+    "prerequisites": "Nenhum requisito prévio",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Comportamiento Organizacional trata o indivíduo e a equipe (motivação, liderança, atitudes, emoções), mas a ficha Mackenzie exige também aprendizagem, estresse, cultura e diversidade, que a lista de conteúdos de Salamanca não menciona.",
+  "justification": "Entre os 9 enunciados brasileiros, 1 está coberto (motivação), 4 são parciais (conceito, cognição e atitudes, satisfação e comprometimento, liderança sem poder) e 4 não foram encontrados: aprendizagem individual, adoecimento e estresse, cultura organizacional e diversidade. A razão de cobertura (5/9 entre coberto e parcial) cumpre só o mínimo da classe parcial, e o nível organizacional da ementa brasileira fica sem contrapartida. O guia remete a um programa detalhado distribuído no início do curso, de modo que as ausências valem para a lista publicada e podem ser menores. Sem horas de contato (6 ECTS) a carga é não comparável.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Lista de conteúdos curta e sem tabela de horas; o programa detalhado e as horas ficam fora do documento, e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Horas de contato não declaradas; 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Guia indica que o programa detalhado com os Temas é entregue no início do curso; a ausência de aprendizagem, estresse, cultura e diversidade vale só para a lista publicada",
+    "Disciplina optativa do 4º curso; disponibilidade para o intercâmbio depende da turma do semestre",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O programa detalhado distribuído no início do curso inclui cultura organizacional, diversidade e estresse no trabalho?",
+    "A coordenação aceita que cultura e mudança organizacional sejam supridas por outra disciplina?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Lista de conteúdos explícita; ausências registradas com escopo examinado"
+  }
+}

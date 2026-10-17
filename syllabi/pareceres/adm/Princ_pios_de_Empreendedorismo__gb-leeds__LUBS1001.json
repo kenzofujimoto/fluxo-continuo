@@ -1,0 +1,175 @@
+{
+  "id": "adm|Princípios de Empreendedorismo|gb-leeds|LUBS1001",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Princípios de Empreendedorismo",
+    "name": "Princípios de Empreendedorismo",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 8, bloco 'Princípios de Empreendedorismo': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "Ficha declara 2 horas-aula semanais, sem carga semestral em horas-relógio. Sem ano impresso; vigência não confirmada (current=false)."
+    },
+    "topics": [
+      "Empreendedorismo no contexto contemporâneo",
+      "Habilidades e atitudes essenciais para empreender",
+      "Mentalidades empreendedoras",
+      "Trajetórias de Empreendedores: exemplos de vida e carreiras como fonte de inspiração",
+      "Recursos e metodologias para o desenvolvimento de ação empreendedora, projetos e/ou negócios"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS1001",
+      "name": "Introduction to Enterprise and Entrepreneurship",
+      "pageCode": "LUBS1001",
+      "faculty": "Não indicada na página do módulo",
+      "programme": "Catálogo de módulos de graduação 2026/27 (Undergraduate Module Catalogue)",
+      "level": "Graduação (UG); código 1xxx sugere primeiro ano, o que a página não declara",
+      "yearOfStudy": null,
+      "semester": "Semester 2 (jan a jun)",
+      "period": "Semester 2 (jan a jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de catálogo (optativo para o intercambista)",
+      "assessment": "Ensaio individual de 2.500 palavras (100%); reavaliação por trabalho de 2.500 palavras",
+      "prerequisites": "Nenhum listado; a página diz que o módulo serve a estudantes de qualquer disciplina",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/1001/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "616cbec727a394377051dc82aac91288f539b3dd5871e8212edd23cf357926d1",
+      "location": "Página do módulo 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 20,
+        "contactLecture": 10,
+        "contactSeminarLab": 10,
+        "selfStudy": 80,
+        "totalWorkload": 100,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Catálogo: 10 UK credits (não são ECTS; 100 h de trabalho total). Contato: 10 aulas de 1 h + 5 workshops de 2 h = 20 h. Duração da hora não declarada. Módulo de um só semestre (Semester 2). A ficha brasileira informa apenas 2 horas-aula semanais, sem total semestral: carga não comparável."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Empreendedorismo no contexto contemporâneo",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'What is enterprise and entrepreneurship?'; 'Exploring the influences of contexts surrounding enterprises'",
+      "foreignLocation": "Syllabus, 1º e 5º itens; Learning outcomes 1-2"
+    },
+    {
+      "brTopic": "Habilidades e atitudes essenciais para empreender",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Entrepreneurs: characteristics and the myth of the hero entrepreneurs'",
+      "foreignLocation": "Syllabus, 2º item",
+      "note": "Características dos empreendedores correspondem às atitudes; habilidades a desenvolver não são citadas, e o enfoque é crítico (mito do empreendedor-herói)."
+    },
+    {
+      "brTopic": "Mentalidades empreendedoras",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Innovation and creativity in enterprises and entrepreneurship'; summary: 'creative techniques to deal with innovation'",
+      "foreignLocation": "Syllabus, 3º item; Module summary",
+      "note": "Criatividade e inovação aproximam o tópico, mas 'mentalidade empreendedora' não é nomeada."
+    },
+    {
+      "brTopic": "Trajetórias de Empreendedores: exemplos de vida e carreiras como fonte de inspiração",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Exploring different types of entrepreneurs'; 'Exploring sectors and groups of enterprises (e.g. Creative Industries, Family Businesses)'",
+      "foreignLocation": "Syllabus, 4º e 7º itens",
+      "note": "Trata de tipos de empreendedores e setores, não declara estudo de histórias de vida; o enfoque crítico do 'mito do herói' é oposto à ideia de inspiração."
+    },
+    {
+      "brTopic": "Recursos e metodologias para o desenvolvimento de ação empreendedora, projetos e/ou negócios",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Facilitating enterprise creation (incubators, start-up programmes) and growth'",
+      "foreignLocation": "Syllabus, 6º item",
+      "note": "Incubadoras e programas de start-up cobrem recursos de apoio, mas nenhuma metodologia de desenvolvimento de projeto ou plano de negócio é nomeada."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Dimensão crítica: mito do empreendedor-herói e influência do contexto externo",
+      "location": "Syllabus, 2º e 5º itens"
+    },
+    {
+      "topic": "Setores específicos: indústrias criativas e empresas familiares",
+      "location": "Syllabus, 7º item; Module summary"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: o que é empreendedorismo e sua importância; habilidades, atitudes e mentalidades; solução de problemas, oportunidades e redes de colaboração; trajetórias de empreendedores; tecnologia e inovação em negócios disruptivos.",
+    "foreign": [
+      "Compreender ideias fundamentais de enterprise e entrepreneurship e como se transformam em inovação",
+      "Explorar características de diferentes tipos de empreendedores e a influência dos contextos"
+    ],
+    "convergences": [
+      "Conceito e contexto do empreendedorismo",
+      "Características do empreendedor",
+      "Inovação e criatividade",
+      "Apoio à criação de negócios"
+    ],
+    "differences": [
+      "Leeds é conceitual e crítico, voltado à compreensão do fenômeno e avaliado por ensaio",
+      "Mackenzie enfatiza habilidades, mentalidades e ação empreendedora prática",
+      "Leeds inclui indústrias criativas e empresas familiares, ausentes na ficha brasileira"
+    ]
+  },
+  "depth": {
+    "level": "Ambas introdutórias de graduação; Leeds com código de primeiro ano, Mackenzie na 4ª etapa",
+    "brazil": "Princípios e mentalidades empreendedoras, 2 horas-aula semanais",
+    "foreign": "Introdução ao fenômeno empreendedor, 20 h de contato no semestre",
+    "theoryPractice": "10 aulas e 5 workshops de 2 h; sem projeto de negócio declarado"
+  },
+  "practical": {
+    "period": "Semester 2 (jan a jun) no catálogo 2026/27; a mobilidade 2027.2 tende a coincidir com o Semester 1 (set a jan) de 2027/28, cuja oferta deste módulo não está publicada",
+    "language": "Inglês (planilha institucional: exigência de IELTS 6.0, TOEFL iBT 87 ou equivalente)",
+    "enrolment": "Catálogo indica o módulo como disponível a estudantes de intercâmbio (study abroad); aprovado como 'discovery module'; turma de 300 alunos",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "LUBS1001 aborda empreendedorismo de forma introdutória e crítica: cobre o contexto contemporâneo e toca os demais quatro eixos de Princípios de Empreendedorismo (habilidades, mentalidades, trajetórias, recursos), todos apenas parcialmente.",
+  "justification": "Apenas o primeiro tópico está coberto por itens nomeados; os outros quatro são parciais porque o Syllabus de sete linhas fala de 'characteristics' do empreendedor, criatividade, tipos de empreendedores e incubadoras, sem habilidades a desenvolver, mentalidades, histórias de vida nem metodologias. Cobertura integral de 20% e total de 100% levam à afinidade parcial. A carga horária não é comparável: a ficha brasileira informa 2 horas-aula semanais, sem total semestral, e Leeds declara 20 h de contato em um semestre de 10 UK credits, valores que não se convertem entre si. A ficha brasileira também não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Syllabus de sete itens com horas explícitas, mas curtos; ficha brasileira informa só horas-aula semanais e não tem vigência confirmada.",
+  "limitations": [
+    "Carga brasileira informada em horas-aula semanais (2) e carga de Leeds em horas de contato semestrais (20 h): não comparável; 10 UK credits não convertidos",
+    "Os cinco vínculos além do primeiro são parciais e dependem de leitura do Syllabus de uma linha por tópico",
+    "Módulo lecionado no Semester 2; oferta correspondente a 2027.2 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita um módulo de enfoque crítico e avaliado por ensaio para uma disciplina de habilidades e mentalidades empreendedoras?",
+    "Qual a carga semestral em horas-relógio de Princípios de Empreendedorismo na matriz de Alphaville?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 4) e da página do módulo LUBS1001 no catálogo 2026/27 de Leeds, com apoio de IA (Claude); cada tópico vinculado ao item do Syllabus; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência itemizada; vínculos parciais explicados por tópico"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

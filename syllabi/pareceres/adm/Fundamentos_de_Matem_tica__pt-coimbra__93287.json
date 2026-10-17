@@ -1,0 +1,176 @@
+{
+  "id": "adm|Fundamentos de Matemática|pt-coimbra|93287",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Fundamentos de Matemática",
+    "name": "Fundamentos de Matemática",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 1, bloco 'Fundamentos de Matemática': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos fundamentais de pré-cálculo",
+      "Funções",
+      "Limites",
+      "Derivadas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93287",
+      "name": "Matemática para Economia e Gestão II",
+      "pageCode": "01020783",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Métodos Quantitativos",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Semestral; data.json: 2º Semestre; 2027.2 a confirmar",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: Matemática para Economia e Gestão I",
+      "source": "https://apps.uc.pt/courses/PT/unit/93287/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "523337da25a81ea3f62a9e007ca21f8922502496de0305cd968e35b2b29c2f7e",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (1.1-2.2.3), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e duração semestral, sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos fundamentais de pré-cálculo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programa 1.1-1.3: 'Vetores e matrizes', 'Sistemas de equações lineares', 'Determinantes'",
+      "foreignLocation": "Programa 1.1, 1.2 e 1.3",
+      "note": "A ementa brasileira detalha matriz, determinante, sistemas, logaritmo e trigonometria, polinômios e fatoração; Coimbra cobre matrizes, determinantes e sistemas e não traz logaritmo, trigonometria nem fatoração."
+    },
+    {
+      "brTopic": "Funções",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Conhecimentos de Base Recomendados, Resultados de Aprendizagem e Programa (1.1 a 2.2.3)",
+      "note": "Coimbra trata de 'funções de múltiplas variáveis' (2.1.1), não de funções reais de uma variável, que são base recomendada vinda de Matemática para Economia e Gestão I."
+    },
+    {
+      "brTopic": "Limites",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Conhecimentos de Base Recomendados, Resultados de Aprendizagem e Programa (1.1 a 2.2.3)",
+      "note": "Limites não aparecem; limite e continuidade estão no programa de Matemática para Economia e Gestão I (93285, item 1.2), não neste."
+    },
+    {
+      "brTopic": "Derivadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "2.1.2 'Derivadas parciais, vetor gradiente, matriz hessiana e plano tangente'; 2.1.7 'Regra da cadeia e funções implícitas'; 2.1.8-2.1.9 otimização",
+      "foreignLocation": "Programa 2.1.2, 2.1.7, 2.1.8 e 2.1.9",
+      "note": "Derivação de funções de várias variáveis, que pressupõe a de uma variável; a ementa brasileira trata definição, reta tangente, regras de derivação e taxa de variação em uma variável."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Formas quadráticas",
+      "location": "Programa 1.4"
+    },
+    {
+      "topic": "Funções homogêneas, diferenciais e aproximação linear, polinómio de Taylor/MacLaurin, derivada direcional",
+      "location": "Programa 2.1.3-2.1.6"
+    },
+    {
+      "topic": "Integrais duplos: definição, inversão da ordem de integração e mudança de variável",
+      "location": "Programa 2.2"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: pré-cálculo (matriz, determinante, sistemas, logaritmo, trigonometria), polinômios, funções reais de uma variável, limites e derivadas com retas tangente e normal e taxas de variação.",
+    "foreign": [
+      "Conceitos e técnicas de álgebra matricial",
+      "Cálculo diferencial de funções de várias variáveis",
+      "Cálculo de integrais duplos",
+      "Expressar fenómenos empresariais e económicos por funções de várias variáveis (20%)"
+    ],
+    "convergences": [
+      "Matrizes, determinantes e sistemas lineares",
+      "Derivação e otimização, em contexto de várias variáveis"
+    ],
+    "differences": [
+      "Mackenzie é cálculo de uma variável (limites e derivadas); Coimbra é álgebra linear e cálculo multivariado, posterior",
+      "Limites, funções de uma variável, logaritmo e trigonometria não são tratados em Coimbra",
+      "Formas quadráticas, integrais duplos e otimização com restrições estão apenas em Coimbra"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º semestre do 1º ano, com Matemática para Economia e Gestão I como base, Mackenzie na 2ª etapa",
+    "brazil": "Pré-cálculo e cálculo diferencial de uma variável, 63,3 h",
+    "foreign": "Álgebra linear e cálculo diferencial e integral multivariado, 6 ECTS",
+    "theoryPractice": "Exposição teórica com programas algébricos e gráficos, exercícios e planos de trabalho semanais"
+  },
+  "practical": {
+    "period": "Semestral; data.json: 2º Semestre; oferta 2027.2 a confirmar",
+    "language": "Português",
+    "enrolment": "UC obrigatória do 1º ano de Gestão e Economia; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Matemática para Economia e Gestão I",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Matemática para Economia e Gestão II continua o cálculo de uma variável em direção a várias variáveis e à álgebra linear: coincide na parte matricial do pré-cálculo e na ideia de derivação, mas sem limites, funções de uma variável, logaritmos e trigonometria.",
+  "justification": "Dois dos quatro tópicos têm correspondência parcial (matrizes, determinantes e sistemas em 1.1-1.3; derivação parcial e regra da cadeia em 2.1.2 e 2.1.7) e dois não aparecem (funções de uma variável e limites). A regra interna indicaria afinidade parcial por haver 50% de cobertura parcial, mas reduzimos a baixa afinidade porque os dois vínculos são indiretos: a derivação de várias variáveis supõe a de uma variável, que a UC não ensina, e a UC de Coimbra que contém limites e derivadas de uma variável é Matemática para Economia e Gestão I. A carga não é comparável (6 ECTS) e a ficha brasileira não tem vigência confirmada.",
+  "downgradeReason": "A regra interna dá afinidade parcial (2 de 4 tópicos parciais), mas os dois vínculos são indiretos (matrizes e derivação multivariada) e os conteúdos centrais da ficha brasileira (funções e limites de uma variável) estão em outra UC de Coimbra, MEG I (93285).",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado em subitens; faltam horas de contato, semestre e vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contato não declaradas; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada (data.json: 2º semestre; 2027.2 a confirmar)",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false); tópicos oficiais resumidos em quatro títulos, com a subdivisão só na ementa",
+    "Par proposto por recuperação semântica (álgebra linear, cálculo, matemática básica), não por candidatura registrada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Seria melhor cotejar Fundamentos de Matemática com Matemática para Economia e Gestão I (93285), que trata de limites e derivadas de uma variável?",
+    "Os logaritmos e a trigonometria do pré-cálculo brasileiro são considerados base recomendada em Coimbra?"
+  ],
+  "alternatives": [
+    {
+      "code": "93285",
+      "name": "Matemática para Economia e Gestão I",
+      "relation": "Mesma universidade, lida neste lote; cobre limites e derivadas de uma variável, centrais na ficha brasileira, mas não matrizes e determinantes; parecer próprio recomendado"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 2) e da página oficial da UC de Coimbra (2026-2027), com apoio de IA (Claude); cada tópico procurado no Programa 1.1-2.2.3; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe reduzida em relação à regra interna; vale confirmar se o vínculo indireto de derivadas multivariadas deve contar como parcial"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

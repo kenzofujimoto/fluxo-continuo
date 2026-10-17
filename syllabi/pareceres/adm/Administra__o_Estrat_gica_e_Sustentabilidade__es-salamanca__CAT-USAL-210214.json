@@ -1,0 +1,218 @@
+{
+  "id": "adm|Administração Estratégica e Sustentabilidade|es-salamanca|CAT-USAL-210214",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Administração Estratégica e Sustentabilidade",
+    "name": "Administração Estratégica e Sustentabilidade",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 1, bloco 'Administração Estratégica e Sustentabilidade': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "Fundamentos da sustentabilidade",
+      "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "Numa perspectiva da sustentabilidade",
+      "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Salamanca",
+      "name": "Estrategias Corporativas",
+      "officialCode": "103831",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Organización de Empresas)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "Segundo semestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Obligatoria",
+      "assessment": "Prova final tipo teste 60% (mínimo 2,4/6); participação e casos 20%; trabalho em equipe com defesa oral 20%",
+      "prerequisites": "Recomendado ter cursado 'Dirección Estratégica' (não obrigatório)",
+      "catalogue": "https://guias.usal.es/node/210214",
+      "location": "Guia 2025/2026: 1. Datos de la asignatura, 2. Recomendaciones previas, 3. Objetivos, 4. Competencias, 5. Contenidos (Temas 1-6), 6-7. Metodologías, 8. Recursos, 9. Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Guia declara 6,00 ECTS. A secção 7 (Distribución de las Metodologías Docentes) está vazia no texto obtido; sem horas presenciais. ECTS não convertidos em horas."
+      },
+      "sha256": "43171fdd98156b4ae6b165cc9c53378244630f9333b1191e42573708232a21c1",
+      "source": "https://guias.usal.es/node/210214",
+      "universityId": "es-salamanca",
+      "code": "CAT-USAL-210214"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'Entender la naturaleza de la estrategia empresarial'; Tema 1 'El crecimiento y el desarrollo de la empresa: Nociones generales'",
+      "foreignLocation": "3. Objetivos; 5. Contenidos, Tema 1",
+      "note": "Natureza da estratégia e crescimento; as quatro visões (plano, padrão, posição, perspectiva) e a evolução histórica não são nomeadas.",
+      "essential": true
+    },
+    {
+      "brTopic": "Fundamentos da sustentabilidade",
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia completa: 3. Objetivos, 4. Competencias, 5. Contenidos Temas 1-6, 8. Recursos",
+      "note": "Nenhuma menção a sustentabilidade, responsabilidade social ou triple bottom line.",
+      "essential": true
+    },
+    {
+      "brTopic": "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'identificando [...] potenciales oportunidades y amenazas'; 'herramientas de análisis estratégico con sus limitaciones'",
+      "foreignLocation": "3. Objetivos",
+      "note": "Aparece só como objetivo; não há tema próprio de análise do ambiente externo (recomenda-se Dirección Estratégica antes), nem perspectiva de sustentabilidade.",
+      "essential": true
+    },
+    {
+      "brTopic": "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'fortalezas y debilidades, y ventajas y desventajas competitivas como base para la formulación de estrategias'",
+      "foreignLocation": "3. Objetivos",
+      "note": "Diagnóstico interno citado como objetivo; missão, visão e competências essenciais não são nomeadas.",
+      "essential": true
+    },
+    {
+      "brTopic": "Numa perspectiva da sustentabilidade",
+      "status": "nao_encontrado",
+      "essential": false,
+      "scopeExamined": "Guia completa (objetivos, competências, Temas 1-6)",
+      "note": "'Numa perspectiva da sustentabilidade' é fragmento de título na ficha (continuação do item de ambiente interno); sem sustentabilidade na guia. Não conta de novo na cobertura."
+    },
+    {
+      "brTopic": "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'ventajas y desventajas competitivas como base para la formulación de estrategias'; bibliografia Grant, Guerras e Navas",
+      "foreignLocation": "3. Objetivos; 8. Recursos",
+      "note": "Vantagem competitiva é citada; a visão baseada em recursos não é nomeada.",
+      "essential": true
+    },
+    {
+      "brTopic": "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "status": "parcial",
+      "foreignEvidence": "Temas 2-6: integração vertical, diversificação (com reestruturação), crescimento interno/externo e fusões, cooperação, internacionalização",
+      "foreignLocation": "5. Contenidos, Temas 2-6",
+      "note": "Estratégia corporativa e de crescimento em profundidade, inclusive reestruturação; estratégias de unidade de negócio, genéricas, defensivas e funcionais não constam.",
+      "essential": true
+    },
+    {
+      "brTopic": "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura",
+      "status": "parcial",
+      "foreignEvidence": "Competência: 'vincular la estrategia corporativa con otros aspectos organizativos tales como la estructura'; Tema 3 'La dirección de la empresa diversificada'",
+      "foreignLocation": "4. Competencias; 5. Contenidos, Tema 3",
+      "note": "Relação entre estratégia e estrutura; pessoas, sistemas, cultura e acompanhamento não são nomeados.",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Integração vertical: vantagens e inconvenientes frente a alternativas de mercado",
+      "location": "Tema 2"
+    },
+    {
+      "topic": "Diversificação de produto, motivos, reestruturação e direção da empresa diversificada",
+      "location": "Tema 3"
+    },
+    {
+      "topic": "Fusões e aquisições; cooperação empresarial e tipos de acordos",
+      "location": "Temas 4-5"
+    },
+    {
+      "topic": "Internacionalização, modos de entrada e estratégias multinacionais",
+      "location": "Tema 6"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: análise dos ambientes externo e interno, teorias de gestão estratégica (vantagem competitiva, visão baseada em recursos), sustentabilidade (triple bottom line, economia circular), modelos como balanced scorecard e indicadores GRI, Dow Jones e Ethos.",
+    "foreign": [
+      "Fundamentos da estratégia corporativa",
+      "Integração vertical",
+      "Diversificação e seu efeito nos resultados",
+      "Internacionalização e modos de entrada",
+      "Métodos de desenvolvimento (crescimento interno, fusões, acordos cooperativos)",
+      "Vincular estratégia e estrutura"
+    ],
+    "convergences": [
+      "Gestão estratégica, vantagem competitiva e relação entre estratégia e estrutura"
+    ],
+    "differences": [
+      "Salamanca é estratégia corporativa avançada (integração, diversificação, fusões, internacionalização) e pressupõe Dirección Estratégica",
+      "Mackenzie é estratégia introdutória com sustentabilidade, balanced scorecard e indicadores ESG, ausentes em Salamanca"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca 3º curso de ADE (avançada, com pré-requisito recomendado); Mackenzie 4ª etapa (introdução à gestão estratégica e sustentabilidade)",
+    "brazil": "Componente de 63,3 h de estratégia mais sustentabilidade",
+    "foreign": "Seis temas de estratégia corporativa e crescimento, 6 ECTS",
+    "theoryPractice": "Salamanca: aulas magistrais, estudo de casos, debates, trabalho em equipe e jogos de papéis"
+  },
+  "practical": {
+    "period": "Segundo semestre, compatível com 2027.2 apenas se o calendário local for confirmado",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC obrigatória de 3º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Dirección Estratégica recomendada",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estrategias Corporativas e Administração Estratégica e Sustentabilidade compartilham o campo da estratégia, mas a guia de Salamanca é de nível corporativo avançado, sem tema de ambiente, de modelos de gestão ou de sustentabilidade, de modo que nenhum enunciado brasileiro fica plenamente coberto.",
+  "justification": "Dos sete enunciados essenciais (um fragmento de título foi excluído), seis são parciais e um não aparece. A parcialidade apoia-se em menções nos objetivos (oportunidades, ameaças, forças, fraquezas, vantagens competitivas) e nos Temas 2-6, que cobrem estratégia corporativa e de crescimento, e não em temas próprios de ambiente interno/externo ou teorias; a sustentabilidade, central na ficha brasileira (fundamentos, perspectiva em cada análise, indicadores GRI/Ethos, balanced scorecard), está ausente. Cobertura total ou parcial de 6/7 (85,7%) formalmente, mas 0/7 integralmente coberto, razão pela qual a classe foi rebaixada. Carga horária não comparável: a guia traz só 6 ECTS e a ficha tem 63,3 h.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Pela regra interna a classe seria afinidade parcial (6/7 parciais), mas nenhum tópico é plenamente coberto, quatro parciais dependem apenas de objetivos da guia e a sustentabilidade, metade do título brasileiro, está ausente; o curso de Salamanca também pressupõe Dirección Estratégica.",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia integral lida, porém curta; a secção de distribuição de horas está vazia e a guia é de 2025/2026; a ficha brasileira não tem ano de vigência e traz um fragmento de título.",
+  "limitations": [
+    "Guia consultada é de 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Secção 7 (distribuição de metodologias) vazia: sem horas presenciais; 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "Pré-requisito recomendado (Dirección Estratégica) pode concentrar a análise de ambiente e teorias que aqui constam só nos objetivos",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UC 'Dirección Estratégica' de Salamanca (pré-requisito recomendado) cobre ambiente externo/interno e teorias, e seria o cotejo adequado para a ficha brasileira?",
+    "Há em Salamanca disciplina de responsabilidade social ou sustentabilidade empresarial para os enunciados de sustentabilidade?"
+  ],
+  "alternatives": [
+    {
+      "code": "Dirección Estratégica",
+      "name": "Dirección Estratégica",
+      "relation": "Citada como recomendação prévia na guia; código e programa não lidos neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guia oficial de Salamanca 2025/2026 (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado a secção/tema da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe rebaixada por julgamento; vale revisar com a guia de Dirección Estratégica"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

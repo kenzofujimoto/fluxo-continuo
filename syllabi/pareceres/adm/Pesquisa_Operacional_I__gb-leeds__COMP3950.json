@@ -1,0 +1,192 @@
+{
+  "id": "adm|Pesquisa Operacional I|gb-leeds|COMP3950",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Pesquisa Operacional I",
+    "name": "Pesquisa Operacional I",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 7, bloco 'Pesquisa Operacional I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Programação linear",
+      "Modelagem de problemas de pesquisa operacional",
+      "Análise de sensibilidade",
+      "Problemas de mix de produção",
+      "Programação de metas",
+      "Modelos de redes: problemas de transportes e de designação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3950",
+      "name": "Compiler design & Optimisation",
+      "pageCode": "COMP3950",
+      "faculty": "Não indicada na página (prefixo COMP); resultados de aprendizagem de formação em engenharia",
+      "programme": "Catálogo de módulos de graduação 2026/27; módulo de ciência da computação",
+      "level": "Graduação (UG); código 3xxx sugere ano final, o que a página não declara",
+      "yearOfStudy": null,
+      "semester": "Semester 1 (set a jan)",
+      "period": "Semester 1 (set a jan)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de catálogo (optativo para o intercambista)",
+      "assessment": "Não informada na página consultada",
+      "prerequisites": "Nenhum listado na página; o módulo substitui COMP2932",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3950/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "add6574a3db8c4f5d675dc60d67af64f52d718fc8156da18ac0b5f32bd1faaab",
+      "location": "Página do módulo 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 66,
+        "contactLecture": 44,
+        "contactSeminarLab": 22,
+        "selfStudy": 134,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Catálogo: 20 UK credits (não são ECTS; 200 h de trabalho total). Contato: 22 aulas de 2 h = 44 h e 11 práticas de 2 h = 22 h; total 66 h. Duração da hora não declarada. Módulo de um só semestre (Semester 1)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Programação linear",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus (7 blocos com subitens), Teaching Methods",
+      "note": "O Syllabus trata de otimização de código de compiladores (análise estática/dinâmica, otimização guiada por perfil), não de otimização matemática de recursos; nenhum conteúdo de pesquisa operacional aparece."
+    },
+    {
+      "brTopic": "Modelagem de problemas de pesquisa operacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus (7 blocos com subitens), Teaching Methods",
+      "note": "Os resultados de aprendizagem falam de problemas de engenharia complexos em geral e de construir um compilador; não há modelagem de decisão com variáveis, restrições e função objetivo."
+    },
+    {
+      "brTopic": "Análise de sensibilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus (7 blocos com subitens), Teaching Methods",
+      "note": "O Syllabus trata de otimização de código de compiladores (análise estática/dinâmica, otimização guiada por perfil), não de otimização matemática de recursos; nenhum conteúdo de pesquisa operacional aparece."
+    },
+    {
+      "brTopic": "Problemas de mix de produção",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus (7 blocos com subitens), Teaching Methods",
+      "note": "O Syllabus trata de otimização de código de compiladores (análise estática/dinâmica, otimização guiada por perfil), não de otimização matemática de recursos; nenhum conteúdo de pesquisa operacional aparece."
+    },
+    {
+      "brTopic": "Programação de metas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus (7 blocos com subitens), Teaching Methods",
+      "note": "O Syllabus trata de otimização de código de compiladores (análise estática/dinâmica, otimização guiada por perfil), não de otimização matemática de recursos; nenhum conteúdo de pesquisa operacional aparece."
+    },
+    {
+      "brTopic": "Modelos de redes: problemas de transportes e de designação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus (7 blocos com subitens), Teaching Methods",
+      "note": "Árvores sintáticas e fluxos de código não são modelos de redes de transporte ou designação."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Análise léxica, sintática e semântica; técnicas de parsing e árvores sintáticas",
+      "location": "Syllabus: Introduction to Compiler Design; Parsing Techniques"
+    },
+    {
+      "topic": "Geração de código intermediário e de código-alvo; seleção de instruções e alocação de registradores",
+      "location": "Syllabus: Intermediate Code Generation; Code Generation"
+    },
+    {
+      "topic": "Otimização de código: análise estática e dinâmica, otimização guiada por perfil",
+      "location": "Syllabus: Code Optimisation Techniques; Advanced Optimisation Strategies"
+    },
+    {
+      "topic": "Projeto prático de construção de um compilador",
+      "location": "Syllabus: Compiler Project: Building from Scratch"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: fundamentos e modelagem da pesquisa operacional, programação linear, simplex e derivações, dualidade, análise de sensibilidade e solução de PL com software.",
+    "foreign": [
+      "Projetar e construir um compilador funcional",
+      "Aplicar princípios de matemática, estatística, ciência e engenharia a problemas complexos",
+      "Pensar algoritmicamente para otimizar processos",
+      "Gerir projetos iterativos"
+    ],
+    "convergences": [
+      "Nenhuma convergência de conteúdo; coincide apenas a palavra 'optimisation/otimização'"
+    ],
+    "differences": [
+      "Leeds é de ciência da computação (compiladores); Mackenzie é de matemática aplicada à decisão gerencial",
+      "'Otimização' em Leeds é desempenho de código gerado; em Mackenzie é maximização/minimização sujeita a restrições",
+      "Leeds tem 66 h de contato e projeto de compilador; a ficha brasileira tem 31,7 h"
+    ]
+  },
+  "depth": {
+    "level": "Graduação nos dois casos, com público e finalidade diferentes (computação x administração)",
+    "brazil": "Introdução à programação linear e à análise de sensibilidade, 31,7 h",
+    "foreign": "Construção de compilador do zero e otimização de código, 66 h de contato e 200 h de trabalho total",
+    "theoryPractice": "22 aulas de 2 h e 11 práticas de 2 h, com projeto de compilador"
+  },
+  "practical": {
+    "period": "Semester 1 (set a jan) no catálogo 2026/27; coincide em tese com a mobilidade 2027.2, mas a oferta de 2027/28 não foi publicada",
+    "language": "Inglês (planilha institucional: exigência de IELTS 6.0, TOEFL iBT 87 ou equivalente)",
+    "enrolment": "A página não declara disponibilidade para estudantes de intercâmbio; o módulo é de ciência da computação e não é 'discovery module'; turma de 150 alunos",
+    "prerequisites": "Nenhum listado na página",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "COMP3950 é um módulo de compiladores: o termo 'optimisation' designa melhoria de desempenho de código gerado, sem relação com a programação linear e os modelos de decisão de Pesquisa Operacional I, e nenhum dos seis tópicos brasileiros aparece.",
+  "justification": "Os seis tópicos (programação linear, modelagem, análise de sensibilidade, mix de produção, programação de metas e modelos de redes) não aparecem no resumo, nos objetivos, nos resultados de aprendizagem nem nos sete blocos do Syllabus, que são análise léxica/sintática/semântica, parsing, código intermediário, otimização de código, geração de código e projeto de compilador. A correspondência foi sugerida por recuperação semântica de 'otimização' e 'programação', homônimos nas duas áreas. A carga de 66 h de contato supera as 31,7 h brasileiras (razão 2,08), mas horas sem conteúdo compatível não sustentam aproveitamento. O registro do projeto para este módulo (data.json) já o associa a Projeto de Compiladores, de Ciência da Computação, e não a disciplinas de Administração.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Syllabus detalhado em sete blocos e horas explícitas, o que torna a divergência clara; ficha brasileira sem vigência confirmada e sem informação de avaliação do módulo.",
+  "limitations": [
+    "Horas de contato semestrais declaradas (66 h), mas duração da hora não informada; 20 UK credits não convertidos; razão de horas sem significado dado o conteúdo",
+    "Página não informa avaliação, pré-requisitos nem disponibilidade para study abroad",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Par gerado por recuperação semântica ('optimisation', 'programming'), não por candidatura registrada para Administração",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Leeds oferece, no Faculty of Business ou em matemática, módulo de investigação operacional/programação linear (ex.: de otimização em negócios) mais aderente a Pesquisa Operacional I?"
+  ],
+  "alternatives": [
+    {
+      "code": "LUBS2031",
+      "name": "Optimisation and AI for Business",
+      "relation": "Mesma universidade; lido para o parecer de Métodos Quantitativos. Cita programação linear (mix de produtos), localização e otimização multiobjetivo, temas próximos de Pesquisa Operacional I; não foi cotejado com esta disciplina neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 5) e da página do módulo COMP3950 no catálogo 2026/27 de Leeds, com apoio de IA (Claude); cada tópico procurado em todas as seções; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Homonímia evidente entre as duas noções de otimização"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

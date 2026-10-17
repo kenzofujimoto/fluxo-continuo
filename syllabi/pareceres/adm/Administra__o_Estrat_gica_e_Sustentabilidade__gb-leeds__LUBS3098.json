@@ -1,0 +1,178 @@
+{
+  "id": "adm|Administração Estratégica e Sustentabilidade|gb-leeds|LUBS3098",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Administração Estratégica e Sustentabilidade",
+    "name": "Administração Estratégica e Sustentabilidade",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 1, bloco 'Administração Estratégica e Sustentabilidade': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "Fundamentos da sustentabilidade",
+      "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "Numa perspectiva da sustentabilidade",
+      "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS3098",
+      "name": "Sustainable Business Futures: Policy and Practice",
+      "faculty": "Não nomeada na ficha (prefixo de código LUBS)",
+      "programme": "Não indicado na ficha de módulo",
+      "level": "Undergraduate (UG); o prefixo numérico 3xxx sugere nível final, não declarado na ficha",
+      "yearOfStudy": null,
+      "semester": 2,
+      "period": "Semester 2 (Jan to Jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de 20 créditos; não aprovado como discovery module",
+      "assessment": "Relatório de caso de 2.500 palavras 70%; pôster em grupo 30%; reavaliação por trabalho de 3.000 palavras",
+      "prerequisites": "Nenhum listado",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/3098/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "fb39d94437aa7b1cdb909d014322504cab9b75658e1fdc833c6d363b9ea50563",
+      "location": "Ficha 2026/27: module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus, Teaching Methods (horas), Methods of Assessment",
+      "hours": {
+        "contactTotal": 20,
+        "contactLecture": 10,
+        "contactSeminarLab": 10,
+        "selfStudy": 180,
+        "totalWorkload": 200,
+        "ects": null,
+        "credits": 20,
+        "creditUnit": "UK credits",
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "10 aulas de 1 h e 10 seminários de 1 h (20 h de contato), 180 h de estudo privado, 200 h no total (100 h por 10 créditos). Os créditos britânicos não foram convertidos em horas de aula."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes e Syllabus lidos; estratégia empresarial como campo teórico não aparece, só 'strategic challenges' ligados à mudança climática"
+    },
+    {
+      "brTopic": "Fundamentos da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'concepts of green economy, de-growth and post-growth'; objetivo de assegurar a sustentabilidade econômica, social e ambiental",
+      "foreignLocation": "Syllabus; Module summary, 1º parágrafo",
+      "note": "Os conceitos são apresentados pelo prisma da política climática; tripé da sustentabilidade e economia circular, citados na ementa brasileira, não são nomeados."
+    },
+    {
+      "brTopic": "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'the nature of the climate challenge and the anticipated risks for businesses and organisations'; políticas nacionais e internacionais",
+      "foreignLocation": "Module summary, 2º parágrafo; Syllabus, introdução à política climática",
+      "note": "Análise do entorno limitada a risco climático e política pública; variáveis ambientais, ameaças e oportunidades e fatores-chave de sucesso não são nomeados."
+    },
+    {
+      "brTopic": "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes e Syllabus lidos; missão, visão, objetivos estratégicos e competências essenciais não aparecem"
+    },
+    {
+      "brTopic": "Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'new business models and organisational change for sustainability'",
+      "foreignLocation": "Syllabus, parte sobre desafios de negócios e organizações",
+      "note": "Enunciado fragmentário na ficha brasileira (prolonga a análise do ambiente interno); avaliado como lente de sustentabilidade aplicada a organizações, não como análise interna."
+    },
+    {
+      "brTopic": "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes e Syllabus lidos; vantagem competitiva e visão baseada em recursos não aparecem; reading list remetida ao Minerva, não lida"
+    },
+    {
+      "brTopic": "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes e Syllabus lidos; os 'green business models and strategies' não caracterizam níveis nem tipos de estratégia"
+    },
+    {
+      "brTopic": "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'implications for organisational change, work and employment of new green business models and strategies'",
+      "foreignLocation": "Module summary, 3º parágrafo; Syllabus",
+      "note": "Mudança organizacional, trabalho e voz dos trabalhadores aparecem; acompanhamento estratégico por sistemas e indicadores não."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Política climática regional, nacional e supranacional; justiça e transições industriais para uma economia de baixo carbono", "location": "Module summary; Syllabus"},
+    {"topic": "Voz de consumidores e trabalhadores em novos contextos de negócios sustentáveis", "location": "Module summary, 3º parágrafo; Syllabus"},
+    {"topic": "Debates éticos sobre mudança climática e política de sustentabilidade", "location": "Learning outcomes, item 3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: ambientes externo e interno, vantagem competitiva e visão baseada em recursos, sustentabilidade (tripé e economia circular), modelos como balanced scorecard e indicadores GRI, Dow Jones e Ethos.",
+    "foreign": ["Compreender princípios de governança climática e prática de negócios sustentáveis", "Aplicar o conhecimento a desafios atuais de negócios", "Refletir criticamente sobre ética e política de sustentabilidade", "Pensamento sistêmico para ações climáticas complexas"],
+    "convergences": ["Sustentabilidade organizacional como lente comum", "Mudança organizacional para modelos sustentáveis"],
+    "differences": ["Leeds é política climática e transições de negócios, sem teoria de administração estratégica", "Mackenzie combina administração estratégica clássica (RBV, formulação, balanced scorecard) com sustentabilidade; a primeira metade não tem correspondente em Leeds"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Leeds em módulo de nível final (inferido do código), Mackenzie na 4ª etapa",
+    "brazil": "Disciplina de 63,3 h que une administração estratégica e sustentabilidade",
+    "foreign": "Módulo de 20 créditos sobre política climática e modelos de negócio sustentáveis, com estudos de caso e projeto",
+    "theoryPractice": "Aulas interativas e seminários (10 + 10 h), estudos de caso e pôster em grupo"
+  },
+  "practical": {
+    "period": "Semester 2 (janeiro a junho); se 2027.2 corresponder ao semestre de outono europeu, o módulo não coincide com a janela da mobilidade — confirmar com a COI",
+    "language": "Inglês (IELTS 6.0, TOEFL iBT 87 ou equivalente, conforme o convênio)",
+    "enrolment": "A ficha de catálogo é listada como disponível para estudantes de intercâmbio (study abroad); turma de 60 vagas",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O módulo de Leeds une sustentabilidade, política climática e modelos de negócio, de modo que sua metade sobre sustentabilidade tem pontos de contato com a ficha brasileira, mas toda a parte de administração estratégica (conceito de estratégia, ambiente interno, RBV, formulação) está ausente.",
+  "justification": "Quatro dos oito enunciados brasileiros são parciais — fundamentos da sustentabilidade, ambiente externo sob a ótica climática, a lente de sustentabilidade e a implantação via mudança organizacional — e quatro não foram encontrados: estratégia como conceito, ambiente interno, vantagem competitiva e visão baseada em recursos, e formulação estratégica. Isso resulta em 50% de cobertura parcial e nenhum tópico integralmente coberto, e a regra interna indicaria afinidade parcial. Eu a rebaixo porque os pontos parciais são de tema (sustentabilidade) e não de método, enquanto o núcleo de administração estratégica da disciplina brasileira não tem contrapartida. As 20 h de contato semestrais equivalem a 0,32 das 63,3 h brasileiras (0,26 se a hora fosse de 50 min), abaixo do referencial de 0,75.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A regra interna indicaria afinidade parcial (50% de enunciados parciais), mas os quatro parciais são sobreposições temáticas em sustentabilidade e climática, e o núcleo de administração estratégica (estratégia, ambiente interno, vantagem competitiva/RBV, formulação) está ausente; as 20 h de contato correspondem a 0,32 da carga brasileira.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Ficha com resumo, objetivos, resultados e ementa em frases, e horas de contato explícitas; reduzem a confiança a reading list remetida ao Minerva, a duração da hora não declarada e a ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 não confirmada; módulo ministrado no Semester 2 (janeiro a junho), possivelmente fora da janela 2027.2",
+    "Duração da hora de contato não declarada; razão calculada em 0,32 (60 min) e 0,26 (50 min)",
+    "Ementa da ficha em prosa curta; reading list e materiais ficam no Minerva, não lidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; dois enunciados da ficha (3 e 5) têm um fragmento 'Numa perspectiva da sustentabilidade' avaliado separadamente",
+    "O nível de estudo (final) é inferido do prefixo numérico do código, não declarado",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de Administração aceitaria o módulo apenas como cobertura da parte de sustentabilidade, combinada com outra de estratégia?",
+    "O módulo é ofertado no outono (Semester 1) em alguma edição para estudantes de intercâmbio?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada enunciado brasileiro vinculado a trechos de Objectives, Learning outcomes e Syllabus da ficha de Leeds; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Horas explícitas e divergência do núcleo estratégico clara"}
+}

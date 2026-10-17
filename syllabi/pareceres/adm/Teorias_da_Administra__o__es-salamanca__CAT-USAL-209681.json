@@ -1,0 +1,184 @@
+{
+  "id": "adm|Teorias da Administração|es-salamanca|CAT-USAL-209681",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Teorias da Administração",
+    "name": "Teorias da Administração",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 9, bloco 'Teorias da Administração': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Modelo Burocrático de Organização",
+      "Administração Científica",
+      "Teoria Clássica da Administração de Fayol",
+      "Teoria das Relações Humanas e suas decorrências",
+      "Introdução à Teoria Neoclássica da Administração e Administração por objetivos (APO)",
+      "Teoria dos Sistemas",
+      "O Necoclassicismo e a APO",
+      "Teoria Estruturalista da Administração",
+      "Teoria Contingencial",
+      "Visão Institucionalista das Organizações"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209681",
+      "name": "Introducción a la Administración",
+      "pageCode": "103803",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Organización de Empresas)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Primer Semestre (datas não declaradas na guia)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Básica",
+      "assessment": "Trabalho contínuo em sessões práticas 40% (incluindo 10% de prova prática não recuperável); prova final escrita 60%",
+      "prerequisites": "Sem requisitos; aconselhável o perfil de Economia e Empresa do bachillerato",
+      "source": "https://guias.usal.es/node/209681",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "1ee5c1a886a7f9e89d7a71ac4eea972da3a7039fb26efba7d85c50c4afe2651f",
+      "location": "Guia 2025/2026: 1 Datos, 2 Recomendaciones previas, 3 Objetivos, 4 Competencias, 5 Contenidos (Temas 1-9), 6 Metodologías, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A guia declara 6,00 ECTS e distingue sessões presenciais e não presenciais sem quantificá-las; a secção 7 está vazia no texto obtido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Modelo Burocrático de Organização",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 (Temas 1-9) e bibliografia lidas; 'El diseño de la organización' (Tema 7) é a unidade vizinha, mas a guia não menciona burocracia nem Weber"
+    },
+    {
+      "brTopic": "Administração Científica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência a Taylor ou a escolas de administração"
+    },
+    {
+      "brTopic": "Teoria Clássica da Administração de Fayol",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; 'Funciones empresariales' (Tema 5) e 'Dirección de empresas' (Tema 6) são rótulos próximos, sem menção a Fayol ou ao processo administrativo clássico"
+    },
+    {
+      "brTopic": "Teoria das Relações Humanas e suas decorrências",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; 'Dirección de recursos humanos' (Tema 9) é gestão de pessoas, não a escola das relações humanas"
+    },
+    {
+      "brTopic": "Introdução à Teoria Neoclássica da Administração e Administração por objetivos (APO)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; 'Objetivos de la empresa' (Tema 3) trata dos objetivos da empresa, não da APO"
+    },
+    {
+      "brTopic": "Teoria dos Sistemas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência à teoria geral de sistemas aplicada às organizações"
+    },
+    {
+      "brTopic": "O Necoclassicismo e a APO",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência ao neoclassicismo ou à APO (enunciado repetido, com grafia 'Necoclassicismo', na ficha brasileira)"
+    },
+    {
+      "brTopic": "Teoria Estruturalista da Administração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência ao estruturalismo"
+    },
+    {
+      "brTopic": "Teoria Contingencial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; 'Estrategia y desarrollo estratégico' (Tema 8) e 'El diseño de la organización' (Tema 7) não mencionam a abordagem contingencial"
+    },
+    {
+      "brTopic": "Visão Institucionalista das Organizações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência à teoria institucional"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Empresa e empresário; natureza, objetivos e formas de empresa", "location": "Secção 5, Temas 1-4"},
+    {"topic": "Funções empresariais e direção de empresas", "location": "Secção 5, Temas 5-6"},
+    {"topic": "Desenho da organização, estratégia e desenvolvimento estratégico", "location": "Secção 5, Temas 7-8"},
+    {"topic": "Direção de recursos humanos", "location": "Secção 5, Tema 9"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos característicos de cada escola da administração nos séculos XIX e XX e razões de sua permanência nas práticas organizacionais.",
+    "foreign": ["Conhecer o papel da empresa no sistema econômico", "Entender a razão de ser e o objetivo da empresa", "Conhecer a complexidade interna da empresa e o trabalho do gestor", "Administrar uma empresa e analisar sua posição competitiva"],
+    "convergences": ["Ambas pertencem ao núcleo introdutório de administração"],
+    "differences": ["Salamanca é introdução à empresa e à gestão contemporânea, sem recorte histórico das escolas de administração", "A ficha brasileira é um percurso teórico por escolas; a guia espanhola não nomeia nenhuma delas"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca no 1º ano (básica), Mackenzie na 2ª etapa",
+    "brazil": "Disciplina de 63,3 h sobre teorias e escolas da administração",
+    "foreign": "Introdução à administração de empresas em nove temas de natureza prática e descritiva",
+    "theoryPractice": "Sessões teóricas e práticas presenciais com casos, problemas e debates; horas não quantificadas"
+  },
+  "practical": {
+    "period": "Primeiro semestre do curso acadêmico, sem datas declaradas; tende a coincidir com o semestre de outono europeu se a oferta de 2027/28 se mantiver",
+    "language": "Espanhol (nível B1/B2 exigido pela universidade para o intercâmbio)",
+    "enrolment": "Disciplina básica de 1º ano; guia não informa vagas para estudantes de intercâmbio",
+    "prerequisites": "Nenhum obrigatório",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introducción a la Administración apresenta a empresa, seus objetivos, funções, direção, desenho organizacional, estratégia e recursos humanos em nove temas, sem nomear escola ou teoria da administração, o que deixa os dez enunciados de Teorias da Administração sem correspondência demonstrável.",
+  "justification": "A busca de cada escola listada na ficha brasileira (burocracia, administração científica, Fayol, relações humanas, neoclássica/APO, sistemas, estruturalismo, contingência e institucionalismo) nos nove temas e na bibliografia da guia não encontrou nenhuma menção. Os temas 5 a 8, que tratam de funções empresariais, direção, desenho da organização e estratégia, são vizinhos do assunto e podem tocar conceitos clássicos, mas a guia não o diz, e o parecer não presume conteúdo. Com zero cobertura dos dez enunciados, o resultado é baixa afinidade. As horas não são comparáveis (6 ECTS sem horas de contato contra 63,3 h-relógio), e a ficha brasileira não tem vigência confirmada. A disciplina espanhola é uma introdução prática à gestão da empresa, não um histórico das teorias.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "A guia lista nove temas completos e a divergência de enfoque é nítida, mas o nível de detalhe é de títulos; faltam horas de contato, a guia é de 2025/2026 e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Guia obtida é de 2025/2026, não de 2026/2027; oferta e conteúdo de 2027/28 não confirmados",
+    "A guia lista temas sem subtópicos: teorias clássicas poderiam ser tratadas dentro dos Temas 5-8 sem constar do texto",
+    "Horas de contato não declaradas (secção 7 vazia); 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; dois enunciados da ficha se sobrepõem (neoclássica e APO)",
+    "Outras disciplinas de organização de empresas de Salamanca não foram lidas",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O docente do grupo 1 inclui, dentro do Tema 6 ou 7, a evolução das escolas de administração (Taylor, Fayol, Weber, contingência)?",
+    "Salamanca tem disciplina de organização de empresas posterior com enfoque em teoria das organizações?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); busca de cada escola listada na ficha brasileira nas secções 3 a 5 e na bibliografia da guia espanhola; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Divergência de enfoque nítida em programa de nove temas"}
+}

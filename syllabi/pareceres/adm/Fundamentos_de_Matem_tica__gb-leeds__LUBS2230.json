@@ -1,0 +1,148 @@
+{
+  "id": "adm|Fundamentos de Matemática|gb-leeds|LUBS2230",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Fundamentos de Matemática",
+    "name": "Fundamentos de Matemática",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 1, bloco 'Fundamentos de Matemática': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos fundamentais de pré-cálculo",
+      "Funções",
+      "Limites",
+      "Derivadas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS2230",
+      "name": "Mathematics for Business and Economics 2",
+      "faculty": "Não nomeada na ficha (prefixo de código LUBS; responsável com e-mail lubs.leeds.ac.uk)",
+      "programme": "Não indicado na ficha de módulo",
+      "level": "Undergraduate (UG); o prefixo numérico 2xxx sugere segundo ano, não declarado na ficha",
+      "yearOfStudy": null,
+      "semester": 2,
+      "period": "Semester 2 (Jan to Jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de 10 créditos; não aprovado como discovery module",
+      "assessment": "Exame de 2 horas, 100%; reavaliação por exame de 2 horas",
+      "prerequisites": "LUBS1275 Mathematics and Statistics for Economics and Business 1A ou LUBS1285 (1B); exclusividade mútua com diversos módulos MATH",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/2230/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "358f7665c99826fdaf826e63c428f61a04a045374cb44bac9c517f74bfb8fd3f",
+      "location": "Ficha 2026/27: Pre-requisite qualifications, module summary, Objectives, Learning outcomes, Syllabus (Indicative content), Teaching Methods (horas), Exams",
+      "hours": {
+        "contactTotal": 23,
+        "contactLecture": 13,
+        "contactSeminarLab": 10,
+        "selfStudy": 77,
+        "totalWorkload": 100,
+        "ects": null,
+        "credits": 10,
+        "creditUnit": "UK credits",
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "13 aulas de 1 h e 10 workshops de 1 h (23 h de contato), 77 h de estudo privado, 100 h no total (100 h por 10 créditos). Créditos britânicos não convertidos em horas de aula."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos fundamentais de pré-cálculo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Indicative content: 'Linear Equations'; 'Vector, and Matrix Algebra'",
+      "foreignLocation": "Syllabus, Indicative content; Objectives, 'Matrix Algebra'",
+      "note": "Sistemas lineares e matrizes cobrem parte do enunciado; determinante, logaritmo, trigonometria, polinômios e fatoração não são nomeados."
+    },
+    {
+      "brTopic": "Funções",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Pre-requisite qualifications, summary, Objectives, Learning outcomes e Indicative content lidos; funções reais de uma variável não são listadas, e o módulo exige LUBS1275/1285 (não lidos) como base",
+      "note": "'Multivariate Analysis in Economics' trabalha funções de várias variáveis, o que pressupõe, sem ensinar, funções de uma variável."
+    },
+    {
+      "brTopic": "Limites",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Todas as secções de conteúdo da ficha lidas; limites (laterais, infinitos, fundamentais) não aparecem"
+    },
+    {
+      "brTopic": "Derivadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objectives: 'Matrix Algebra, Differential Calculus, Unconstrained and Constrained optimisation along with comparative statics'",
+      "foreignLocation": "Objectives; Syllabus, 'Multivariate Optimisation'",
+      "note": "Cálculo diferencial aparece em nível multivariado e aplicado à otimização; definição, retas tangente e normal e regras de derivação de uma variável não são nomeadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Análise multivariada em economia", "location": "Syllabus, Indicative content"},
+    {"topic": "Otimização multivariada sem restrições e com restrições; estática comparativa", "location": "Syllabus; Objectives"},
+    {"topic": "Programação não linear", "location": "Syllabus, Indicative content"},
+    {"topic": "Aplicações em finanças e gestão", "location": "Syllabus, Indicative content ('Finance and Management')"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: pré-cálculo (matriz, determinante, sistemas, logaritmo, trigonometria), polinômios, funções reais, limites e derivadas com regras, taxa de variação e aplicações.",
+    "foreign": ["Reconhecer, selecionar e aplicar técnicas matemáticas avançadas", "Traduzir problemas de negócios e economia em modelos matemáticos", "Resolver problemas de otimização e estática comparativa", "Raciocinar logicamente com conceitos abstratos"],
+    "convergences": ["Álgebra de matrizes e sistemas lineares", "Cálculo diferencial aplicado a problemas de gestão e economia"],
+    "differences": ["Leeds é continuação em nível mais avançado (multivariado, otimização, programação não linear) e pressupõe um módulo introdutório de matemática", "Mackenzie começa em pré-cálculo, funções e limites, que não aparecem em Leeds"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; módulo de Leeds de nível intermediário (inferido do código) e com pré-requisito, Mackenzie na 2ª etapa",
+    "brazil": "Fundamentos de matemática de 63,3 h, de pré-cálculo a derivadas de uma variável",
+    "foreign": "Métodos matemáticos avançados para negócios e economia, em 23 h de contato",
+    "theoryPractice": "13 aulas e 10 workshops; avaliação por exame escrito de 2 horas"
+  },
+  "practical": {
+    "period": "Semester 2 (janeiro a junho); se 2027.2 corresponder ao semestre de outono europeu, o módulo não coincide com a janela da mobilidade — confirmar com a COI",
+    "language": "Inglês (IELTS 6.0, TOEFL iBT 87 ou equivalente, conforme o convênio)",
+    "enrolment": "Listado como disponível para estudantes de intercâmbio (study abroad); turma de 340; exige LUBS1275 ou LUBS1285 ou equivalente comprovado",
+    "prerequisites": "LUBS1275 ou LUBS1285",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Mathematics for Business and Economics 2 é módulo de continuação, que trata matrizes, cálculo diferencial multivariado e otimização e deixa de fora funções, limites e a maior parte do pré-cálculo de Fundamentos de Matemática; a sobreposição é parcial em dois dos quatro enunciados.",
+  "justification": "Dois enunciados brasileiros são parciais: pré-cálculo, pela álgebra linear e de matrizes, e derivadas, pelo cálculo diferencial aplicado à otimização. Funções e limites não foram encontrados nos itens de conteúdo, e a ficha depende de um pré-requisito introdutório que não foi lido. A cobertura chega a 50% parcial e nenhum tópico é integralmente coberto, o que dá afinidade parcial: o módulo aprofunda temas que a ficha brasileira apenas inicia, sem repetir a base. As 23 h de contato equivalem a 0,36 das 63,3 h brasileiras (0,30 com hora de 50 min), abaixo do referencial de 0,75. A leitura sugere que LUBS2230 pode complementar, e não substituir, Fundamentos de Matemática.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Ficha com objetivos, conteúdo indicativo e horas explícitas; reduzem a confiança o conteúdo em tópicos curtos, o pré-requisito não lido, a hora não declarada e a ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 não confirmada; módulo no Semester 2 (janeiro a junho), possivelmente fora da janela 2027.2",
+    "Duração da hora de contato não declarada; razão calculada em 0,36 (60 min) e 0,30 (50 min)",
+    "O pré-requisito (LUBS1275 ou LUBS1285) provavelmente cobre funções e cálculo básico, mas não foi lido",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "LUBS1275 ou LUBS1285 cobrem funções, limites e derivadas e seriam um par mais próximo da ficha brasileira?",
+    "A coordenação de Administração aceitaria um módulo de continuação sem a base de funções e limites?"
+  ],
+  "alternatives": [
+    {"code": "LUBS1275", "name": "Mathematics and Statistics for Economics and Business 1A", "relation": "Pré-requisito citado na ficha; conteúdo não lido neste parecer"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada enunciado brasileiro vinculado a Objectives e Indicative content da ficha de Leeds; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Conteúdo indicativo explícito e horas declaradas"}
+}

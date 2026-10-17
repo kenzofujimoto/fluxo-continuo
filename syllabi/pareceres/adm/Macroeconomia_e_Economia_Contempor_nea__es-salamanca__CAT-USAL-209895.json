@@ -1,0 +1,213 @@
+{
+  "id": "adm|Macroeconomia e Economia Contemporânea|es-salamanca|CAT-USAL-209895",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Macroeconomia e Economia Contemporânea",
+    "name": "Macroeconomia e Economia Contemporânea",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 5, bloco 'Macroeconomia e Economia Contemporânea': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O Lado real e o Lado monetário da economia",
+      "Demanda e Oferta Agregados",
+      "Noções básicas de contas nacionais",
+      "O setor externo da economia",
+      "O lado monetário da economia",
+      "Os efeitos da inflação na atividade econômica",
+      "Política fiscal e seus efeitos",
+      "Discussão da conjuntura econômica nacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209895",
+      "name": "Macroeconomía",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Economía e Historia Económica (área Fundamentos del Análisis Económico)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segundo Semestre (campo 'Periodicidade'), 2º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "BÁSICA",
+      "assessment": "Avaliação contínua 40% (exercícios, apresentações, testes; frequência mínima 80%) + exame final 60%; a contínua não é recuperável",
+      "prerequisites": "Altamente recomendada Introducción a la Economía, não obrigatória",
+      "source": "https://guias.usal.es/node/209895",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "f967455198c23f119c4d5a95d357a072dbb85f0b27cc4ae51d2cbe7d8d2f1ced",
+      "location": "Guia 2025/2026: seções 1 (datos), 2 (recomendaciones), 3 (resultados de aprendizaje), 4 (competencias), 5 (Temas 1-10), 6-7 (metodologías), 9 (evaluación)",
+      "officialCode": "103817",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS. A seção 6 informa ritmo semanal aproximado (teoria de 1 a 1,5 h e prática de cerca de 1,5 h por semana), sem total semestral; a seção 7 e a '10. Organización docente semanal' não trazem tabela no texto obtido. Nenhuma hora de contato semestral declarada. Código oficial: 103817."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O Lado real e o Lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 3 'El mercado de bienes'; Tema 4 'Los mercados financieros I'; Tema 5 'Modelo IS-LM'",
+      "foreignLocation": "Seção 5, Temas 3-5"
+    },
+    {
+      "brTopic": "Demanda e Oferta Agregados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 10 'El modelo OA-DA': 10.1 'La oferta agregada', 10.2 'La demanda agregada'",
+      "foreignLocation": "Seção 5, Tema 10; Tema 3.2 (demanda de bienes)"
+    },
+    {
+      "brTopic": "Noções básicas de contas nacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "2.1 'La producción agregada'; 3.1 'La composición del PIB'; 3.4 'La identidad ahorro-inversión'",
+      "foreignLocation": "Seção 5, Temas 2.1 e 3",
+      "note": "Contas nacionais tratadas por agregados e identidades; sem sistema completo de contas."
+    },
+    {
+      "brTopic": "O setor externo da economia",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado de aprendizagem 5: 'modelización de una economía abierta bajo distintos esquemas alternativos de tipo de cambio y movilidad de capitales'",
+      "foreignLocation": "Seção 3 (resultados de aprendizagem); Tema 1.5 'La economía global'",
+      "note": "O setor externo aparece apenas como resultado de aprendizagem e como visão global; nenhum tema de economia aberta ou câmbio."
+    },
+    {
+      "brTopic": "O lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 4 'Los mercados financieros I' (demanda de dinero, tasa de interés, trampa de liquidez); Tema 6 'Los mercados financieros II'",
+      "foreignLocation": "Seção 5, Temas 4 e 6"
+    },
+    {
+      "brTopic": "Os efeitos da inflação na atividade econômica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "2.3 'La tasa de inflación'; Tema 8 'La curva de Phillips'; resultado 3: relación entre desempleo e inflación",
+      "foreignLocation": "Seção 5, Temas 2.3, 8 e 10.5; seção 3"
+    },
+    {
+      "brTopic": "Política fiscal e seus efeitos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "3.5 'Los límites a la política fiscal'; 5.5 'Política fiscal y política monetaria'; 9.2 'Los efectos de una consolidación fiscal'",
+      "foreignLocation": "Seção 5, Temas 3.5, 5.5 e 9.2"
+    },
+    {
+      "brTopic": "Discussão da conjuntura econômica nacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'Una gira por el mundo' (crisis, Estados Unidos, Zona Euro, China); competência CE19: evolução das economias mundial e espanhola",
+      "foreignLocation": "Seção 5, Tema 1; seção 4, CE19",
+      "note": "Conjuntura internacional e espanhola, não a conjuntura nacional brasileira."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Lei de Okun, curva de Phillips e taxa natural de desemprego",
+      "location": "Seção 5, Temas 2.4, 7 e 8"
+    },
+    {
+      "topic": "Modelo IS-LM, IS-LM-PC e IS-LM estendido com risco e intermediários financeiros",
+      "location": "Seção 5, Temas 5, 6 e 9"
+    },
+    {
+      "topic": "Crise financeira global e problema imobiliário",
+      "location": "Seção 5, Temas 1.1 e 6.5"
+    },
+    {
+      "topic": "Mercado de trabalho: medição e evolução do desemprego",
+      "location": "Seção 5, Tema 7"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: objetivos de governo, políticas econômicas, inflação e emprego, câmbio, moeda, desemprego, crescimento e desenvolvimento, setor público, indicadores, juros e demanda agregada, comparação Brasil e outros países.",
+    "foreign": [
+      "Conhecimento da linguagem macroeconômica e dos modelos",
+      "Interpretar as relações macroeconômicas com modelos simples e evidência empírica",
+      "Analisar efeitos das políticas monetária e fiscal",
+      "Desenvolver discurso sobre a evolução das economias mundial e espanhola"
+    ],
+    "convergences": [
+      "Demanda e oferta agregadas",
+      "Inflação, desemprego e curva de Phillips",
+      "Política fiscal e monetária",
+      "Moeda e juros"
+    ],
+    "differences": [
+      "Salamanca é modelo teórico (IS-LM, OA-DA) baseado em Blanchard; Mackenzie pede conjuntura brasileira e comparação internacional",
+      "Economia aberta e câmbio ficam só nos resultados de aprendizagem",
+      "Crescimento e desenvolvimento, citados na ementa brasileira, não aparecem no guia"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Mackenzie na 3ª etapa, Salamanca básica do 2º curso",
+    "brazil": "Disciplina de 63,3 h com 8 enunciados de política econômica e conjuntura",
+    "foreign": "Básica de 6 ECTS com 10 temas de modelos macroeconômicos baseados em Blanchard",
+    "theoryPractice": "Salamanca: sessão teórica semanal e sessão prática de cerca de 1,5 h com exercícios; avaliação 40% contínua e 60% exame"
+  },
+  "practical": {
+    "period": "Segundo semestre (fevereiro a junho), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Básica do 2º curso, grupos 1 a 3; recomenda Introducción a la Economía; aceitação de intercambista não verificada",
+    "prerequisites": "Altamente recomendada Introducción a la Economía, não obrigatória",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Macroeconomía cobre seis dos oito enunciados de Macroeconomia e Economia Contemporânea com modelos formais (IS-LM, OA-DA, Phillips); setor externo e conjuntura nacional ficam parciais.",
+  "justification": "Seis dos 8 enunciados estão cobertos pelos Temas 2-10 (lados real e monetário, demanda e oferta agregadas, contas nacionais, moeda, inflação, política fiscal) e dois são parciais: o setor externo, que só aparece como resultado de aprendizagem sobre economia aberta, e a conjuntura nacional, tratada como visão da economia mundial no Tema 1. Nenhum enunciado está ausente. A classe permanece em afinidade parcial porque o guia não declara horas de contato semestrais (apenas ritmo semanal e 6 ECTS) e a ficha brasileira não tem vigência confirmada, apesar da cobertura plena de 75%.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia com 10 temas detalhados em subitens e resultados de aprendizagem claros, mas sem horas semestrais; ficha brasileira sem ano impresso.",
+  "limitations": [
+    "Horas de contato semestrais não declaradas (apenas ritmo semanal aproximado); 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "O setor externo consta só nos resultados de aprendizagem, sem tema próprio",
+    "A ficha brasileira inclui conjuntura nacional, que depende do ano letivo e não é verificável em um guia espanhol",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O guia 2026/2027 inclui um tema de economia aberta e câmbio?",
+    "A coordenação aceita a conjuntura espanhola e mundial como suprimento do enunciado de conjuntura nacional?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cobertura alta por tema, com limitações de carga e vigência registradas"
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "adm|Elementos de Matemática|es-salamanca|CAT-USAL-207665",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Elementos de Matemática",
+    "name": "Elementos de Matemática",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 6, bloco 'Elementos de Matemática': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Revisão de conceitos aritméticos e algébricos: resolução de expressões numéricas com números inteiros e fracionários; fração geratriz de uma dízima periódica; simplificação de frações; estudo da potenciação e suas propriedades; noções de radiciação e logaritmos",
+      "Resolução de problemas envolvendo porcentagens",
+      "Estudo de equações de 1º grau, 2º grau e exponenciais. Resolução de problemas envolvendo equações",
+      "Resolução de problemas com inequações de 1º e 2º grau",
+      "Noções de funções e resolução de problemas envolvendo funções do 1º e do 2º grau com aplicações no estudo de receita, custo, lucro, demanda e oferta"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207665",
+      "name": "Competencia y Propiedad Intelectual",
+      "faculty": "Facultad de Derecho",
+      "department": "Derecho Privado (área Derecho Mercantil)",
+      "programme": "Grado en Derecho (plan 223); obrigatória do curso de Direito, não de Administração",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 1,
+      "period": "Primer Semestre (campo 'Periodicidade'), 4º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "OBLIGATORIA",
+      "assessment": "Exame teórico-prático 70% + prática corrigida 30%; exame de recuperação conta 70%",
+      "prerequisites": "Recomendadas: Empresa, empresario y su estatuto; Contratación mercantil, títulos, valores; Derecho de Bienes",
+      "source": "https://guias.usal.es/node/207665",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "04f3229a00bfb22e1f7ce792b4ac0862f56bbeca74f812cd82867a20bffbebe1",
+      "location": "Guia 2025/2026: seções 1 (datos), 2 (recomendaciones), 3 (objetivos), 4 (competencias), 5 (Temas 1-15), 6-7 (metodologías), 9 (evaluación)",
+      "officialCode": "102331",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 4.5,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "4,5 ECTS. A seção 7 'Distribución de las Metodologías Docentes' vem vazia no texto obtido; nenhuma hora de contato declarada. Código oficial: 102331."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Revisão de conceitos aritméticos e algébricos: resolução de expressões numéricas com números inteiros e fracionários; fração geratriz de uma dízima periódica; simplificação de frações; estudo da potenciação e suas propriedades; noções de radiciação e logaritmos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-15, completos), seção 3 (objetivos), seção 4 (competências) e seção 6 lidas; a disciplina é de Direito Mercantil e não contém conteúdo matemático.",
+      "note": "Nenhum tema trata de aritmética, potenciação, radiciação ou logaritmos."
+    },
+    {
+      "brTopic": "Resolução de problemas envolvendo porcentagens",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-15, completos), seção 3 (objetivos), seção 4 (competências) e seção 6 lidas; a disciplina é de Direito Mercantil e não contém conteúdo matemático.",
+      "note": "Porcentagem não aparece; 'venta a pérdida' (Tema 5) é ilícito concorrencial, não cálculo."
+    },
+    {
+      "brTopic": "Estudo de equações de 1º grau, 2º grau e exponenciais. Resolução de problemas envolvendo equações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-15, completos), seção 3 (objetivos), seção 4 (competências) e seção 6 lidas; a disciplina é de Direito Mercantil e não contém conteúdo matemático.",
+      "note": "Sem equações de 1º ou 2º grau nem exponenciais."
+    },
+    {
+      "brTopic": "Resolução de problemas com inequações de 1º e 2º grau",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-15, completos), seção 3 (objetivos), seção 4 (competências) e seção 6 lidas; a disciplina é de Direito Mercantil e não contém conteúdo matemático.",
+      "note": "Sem inequações."
+    },
+    {
+      "brTopic": "Noções de funções e resolução de problemas envolvendo funções do 1º e do 2º grau com aplicações no estudo de receita, custo, lucro, demanda e oferta",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-15, completos), seção 3 (objetivos), seção 4 (competências) e seção 6 lidas; a disciplina é de Direito Mercantil e não contém conteúdo matemático.",
+      "note": "Sem funções; receita, custo, lucro, demanda e oferta não são estudados como funções, e a competência é vista só do ponto de vista jurídico."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Direito da concorrência da UE e da Espanha (arts. 101 e 102 TFUE, Lei 15/2007)",
+      "location": "Seção 5, Temas 2-3"
+    },
+    {
+      "topic": "Concorrência desleal (Lei 3/1991) e tipologia de atos",
+      "location": "Seção 5, Temas 4-5"
+    },
+    {
+      "topic": "Patentes, marcas, desenho industrial e direitos de autor",
+      "location": "Seção 5, Temas 7-14"
+    },
+    {
+      "topic": "Medidas de defesa contra infração de direitos de propriedade intelectual",
+      "location": "Seção 5, Tema 15"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: matemática básica, operações com reais, porcentagem, equações e inequações, funções de 1º e 2º grau e funções de receita, custo e lucro.",
+    "foreign": [
+      "Conhecer as normas de conduta dos operadores no mercado e as consequências jurídicas de sua infração",
+      "Conhecer o regime jurídico das instituições de propriedade intelectual",
+      "Argumentar juridicamente em conflitos de concorrência e propriedade intelectual"
+    ],
+    "convergences": [
+      "Nenhuma convergência de conteúdo identificada"
+    ],
+    "differences": [
+      "Salamanca é Direito Mercantil (concorrência, patentes, marcas, direitos de autor); Mackenzie é matemática básica aplicada",
+      "O guia não possui conteúdo quantitativo"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação, mas de áreas distintas: Mackenzie na 1ª etapa de Administração, Salamanca no 4º curso de Direito",
+    "brazil": "Disciplina de 63,3 h com 5 enunciados de matemática básica",
+    "foreign": "Obrigatória de 4,5 ECTS com 15 temas jurídicos",
+    "theoryPractice": "Salamanca: sessões magistrais, práticas em aula, seminários e casos online; avaliação 70% exame e 30% práticas"
+  },
+  "practical": {
+    "period": "Primeiro semestre (setembro a janeiro), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Obrigatória do Grado en Derecho, turma 3 (manhã); pré-requisitos jurídicos; aceitação de intercambista não verificada",
+    "prerequisites": "Recomendadas: Empresa, empresario y su estatuto; Contratación mercantil, títulos, valores; Derecho de Bienes",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Competencia y Propiedad Intelectual é uma disciplina de Direito Mercantil sem conteúdo matemático; nenhum dos cinco enunciados de Elementos de Matemática encontra contrapartida nos 15 temas.",
+  "justification": "Os 5 enunciados da ficha (aritmética e logaritmos, porcentagem, equações, inequações, funções de receita, custo e lucro) estão todos ausentes dos Temas 1-15, que cobrem concorrência na UE e na Espanha, concorrência desleal, patentes, marcas, indicações geográficas, direitos de autor e desenho industrial. A coincidência de 'competência' e 'venda a perda' com o vocabulário de custo e lucro é apenas lexical. Cobertura de 0/5 define baixa afinidade, e o par vem de recuperação semântica por rótulo, não de afinidade curricular. Sem horas de contato (4,5 ECTS) a carga é não comparável.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Guia 2025/2026 com 15 temas descritos em detalhe; a ausência de conteúdo matemático é inequívoca mesmo sem tabela de horas e com ficha brasileira de vigência não confirmada.",
+  "limitations": [
+    "Anomalia de catálogo: CAT-USAL-207665 é disciplina obrigatória do Grado en Derecho (Competencia y Propiedad Intelectual), sem relação com o nome da disciplina brasileira",
+    "Horas de contato não declaradas; 4,5 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Existe disciplina de Matemática ou Estadística básica no plano de Administración y Dirección de Empresas da USAL que possa ser analisada para este enunciado?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergência total de objeto, sem incerteza relevante"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "id": "adm|Pesquisa Operacional I|es-26-universidaddej|11912020",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Pesquisa Operacional I",
+    "name": "Pesquisa Operacional I",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 7, bloco 'Pesquisa Operacional I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Programação linear",
+      "Modelagem de problemas de pesquisa operacional",
+      "Análise de sensibilidade",
+      "Problemas de mix de produção",
+      "Programação de metas",
+      "Modelos de redes: problemas de transportes e de designação"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Investigación operativa",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U112 - Estadística e Investigación Operativa",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Primer cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Obligatoria",
+      "assessment": "Prova de teoria 80%; controle de aprendizagem prático em avaliação contínua 20%; mínimo global 5/10",
+      "prerequisites": "Recomendado ter cursado Matemáticas I e II e Estadística I e II (não obrigatório)",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Conocimientos previos, Resumen (memoria RUCT), Competencias (HD03, HD04), Descripción de contenidos (Teoría e Práctica), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,50 h (75%) e A2a pequeño grupo 37,50 h (25%), ambas com 40% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado."
+      },
+      "sha256": "8ad26e7014712b878f483fb25a07f5f7639911f5bb316dca8d61a44d8f559a4f",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912020/es/2025-26-11912020_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11912020"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Programação linear",
+      "status": "coberto",
+      "foreignEvidence": "'Programación Lineal': planteamiento, resolución gráfica, propiedades; 'El método Símplex'; 'El problema dual'; 'El algoritmo dual del Simplex'",
+      "foreignLocation": "Teoría, bloco Programación Lineal",
+      "essential": true
+    },
+    {
+      "brTopic": "Modelagem de problemas de pesquisa operacional",
+      "status": "coberto",
+      "foreignEvidence": "'Planteamiento del problema'; HD04 'Modeliza situaciones empresariales'; prática: 'Formular modelos a partir de enunciados reales o simulados'",
+      "foreignLocation": "Teoría (Programación Lineal); Competencias HD04; Práctica",
+      "essential": true
+    },
+    {
+      "brTopic": "Análise de sensibilidade",
+      "status": "coberto",
+      "foreignEvidence": "'Análisis de sensibilidad' (bloco de Programación Lineal, após o dual e sua interpretação económica)",
+      "foreignLocation": "Teoría, Programación Lineal",
+      "essential": true
+    },
+    {
+      "brTopic": "Problemas de mix de produção",
+      "status": "parcial",
+      "foreignEvidence": "Prática: 'Formular modelos a partir de enunciados reales o simulados' e 'resolver [...] con software especializado'",
+      "foreignLocation": "Práctica",
+      "note": "A guia não nomeia o problema clássico de mix de produção; os casos reais ou simulados são compatíveis, mas não comprovam esse tipo de modelo.",
+      "essential": true
+    },
+    {
+      "brTopic": "Programação de metas",
+      "status": "parcial",
+      "foreignEvidence": "'Programación Multiobjetivo': planteamiento del problema de PL multiobjetivo; métodos de resolución",
+      "foreignLocation": "Teoría, Programación Multiobjetivo",
+      "note": "Programação multiobjetivo é o gênero; a programação por metas (goal programming) não é nomeada entre os métodos.",
+      "essential": true
+    },
+    {
+      "brTopic": "Modelos de redes: problemas de transportes e de designação",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría (Programación Lineal, Multiobjetivo, Decisión y juegos, No lineal), Práctica, Bibliografía",
+      "note": "Problemas de transporte, designação e fluxo em redes não constam do programa.",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Programação não linear: problemas irrestritos e com restrições",
+      "location": "Teoría, Programación no lineal"
+    },
+    {
+      "topic": "Análise de decisão e teoria dos jogos",
+      "location": "Teoría, Introducción al análisis de decisión y teoría de juegos"
+    },
+    {
+      "topic": "Interpretação econômica do dual e algoritmo dual do simplex",
+      "location": "Teoría, El problema dual"
+    },
+    {
+      "topic": "Práticas em Excel Solver ou R",
+      "location": "Práctica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: fundamentos e modelagem em PO, programação linear, simplex e derivações, dualidade, análise de sensibilidade e resolução com software.",
+    "foreign": [
+      "HD03 Aplicar ferramentas quantitativas da área de Administração e Direção de Empresas",
+      "HD04 Modelizar situações empresariais"
+    ],
+    "convergences": [
+      "Programação linear completa (modelagem, simplex, dual, sensibilidade)",
+      "Resolução com software (Excel Solver ou R)"
+    ],
+    "differences": [
+      "Jaén cobre programação não linear, multiobjetivo e teoria de jogos, que ampliam a ficha brasileira",
+      "Mackenzie inclui modelos de redes (transporte e designação) e mix de produção, não nomeados em Jaén"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de nível intermediário (Jaén 3º curso obrigatória; Mackenzie 5ª etapa); Jaén com escopo maior",
+    "brazil": "Pesquisa Operacional I de 31,7 h, focada em programação linear e modelagem",
+    "foreign": "Investigação operacional de semestre completo, com PL, multiobjetivo, decisão/jogos e programação não linear",
+    "theoryPractice": "Jaén: aulas magistrais com resolução de problemas e práticas em aula de informática; 20% da nota em prática"
+  },
+  "practical": {
+    "period": "Primer cuatrimestre, compatível em calendário com 2027.2 se mantido",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC obrigatória de 3º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Matemáticas I-II e Estadística I-II recomendadas",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Investigación operativa cobre o núcleo de Pesquisa Operacional I — programação linear, modelagem, simplex, dualidade e sensibilidade — com folga de conteúdo, mas deixa sem correspondência os modelos de redes de transporte e designação.",
+  "justification": "Três dos seis enunciados estão cobertos por itens identificados (programação linear com simplex e dual; modelagem; análise de sensibilidade), dois são parciais (mix de produção, só pelos casos práticos genéricos; programação de metas, via programação multiobjetivo sem nomear métodos) e um não aparece (transporte e designação). Cobertura total ou parcial de 5/6 (83,3%), com 50% integralmente cobertos, nível de aprofundamento maior em Jaén (semestre completo, 3º curso) e conteúdo extra em programação não linear e jogos. Sem horas presenciais totais na guia, as 31,7 h da ficha brasileira não são comparáveis, e a ficha não tem vigência confirmada; fica afinidade parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de Jaén detalhado e alinhado à ficha, mas sem total presencial nem ECTS e com ficha brasileira de vigência não confirmada; os dois itens parciais dependem de interpretação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "A carga de Jaén parece maior que a de uma disciplina de 31,7 h, mas nenhum total foi registrado",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita aproveitar Pesquisa Operacional I sem os modelos de redes (transporte e designação)?",
+    "Os exercícios práticos de Jaén incluem problemas de mix de produção e programação por metas?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência de programação linear é explícita nos dois documentos"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

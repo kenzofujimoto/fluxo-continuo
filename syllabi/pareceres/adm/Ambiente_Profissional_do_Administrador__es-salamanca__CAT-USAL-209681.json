@@ -1,0 +1,254 @@
+{
+  "id": "adm|Ambiente Profissional do Administrador|es-salamanca|CAT-USAL-209681",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Ambiente Profissional do Administrador",
+    "name": "Ambiente Profissional do Administrador",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 1, bloco 'Ambiente Profissional do Administrador': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Visão Organizacional (Teorias)",
+      "Administração, organizações e ambiente",
+      "Tomada de decisão em administração",
+      "As Funções Administrativas (PODC)",
+      "Perspectivas internas ao Mackenzie para iniciação da carreira",
+      "As áreas funcionais da administração",
+      "Visão Profissional (Pessoas)",
+      "O perfil esperado do jovem profissional",
+      "Competências para o trabalho no século XXI",
+      "Características pessoais e perfil do administrador",
+      "Entrada no mercado de trabalho e formação da postura profissional",
+      "Oportunidades de carreira do administrador",
+      "Plano de carreira"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209681",
+      "name": "Introducción a la Administración",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Organización de Empresas)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Primer Semestre (campo 'Periodicidad'), 1º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "BÁSICA",
+      "assessment": "Participação e prática contínua 40% (10% prova prática não recuperável) + prova final escrita 60%",
+      "prerequisites": "Nenhum requisito; recomenda-se Economia e Empresa do Bachillerato",
+      "source": "https://guias.usal.es/node/209681",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "1ee5c1a886a7f9e89d7a71ac4eea972da3a7039fb26efba7d85c50c4afe2651f",
+      "location": "Guia 2025/2026: seções 1 (datos), 3 (objetivos), 4 (competencias), 5 (contenidos, Temas 1-9), 6-7 (metodologías), 9 (evaluación)",
+      "officialCode": "103803",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS. A seção 7 'Distribución de las Metodologías Docentes' não traz tabela no texto obtido; nenhuma hora de contato declarada. Código oficial do guia: 103803."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Visão Organizacional (Teorias)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 2 'Naturaleza de la empresa'; Tema 7 'El diseño de la organización'",
+      "foreignLocation": "Seção 5, Temas 2 e 7",
+      "note": "Enfoque em natureza e desenho da empresa; não há escolas ou teorias administrativas nomeadas."
+    },
+    {
+      "brTopic": "Administração, organizações e ambiente",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'Empresa y empresario'; competência 5: identificar 'oportunidades y amenazas del entorno'",
+      "foreignLocation": "Seção 5, Tema 1; seção 4, competência específica 5",
+      "note": "O ambiente externo aparece só na competência, não como tema."
+    },
+    {
+      "brTopic": "Tomada de decisão em administração",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competências 7 e transversal 3: 'analizar, sintetizar y resolver los problemas empresariales' e 'adoptar decisiones razonadas'",
+      "foreignLocation": "Seção 4, competências 7 e transversal 3",
+      "note": "Apoio apenas em competência declarada; os Contenidos (Temas 1-9) não detalham o assunto."
+    },
+    {
+      "brTopic": "As Funções Administrativas (PODC)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 5 'Funciones empresariales'; Tema 6 'Dirección de empresas'; Tema 7 'El diseño de la organización'",
+      "foreignLocation": "Seção 5, Temas 5-7",
+      "note": "Direção e organização presentes; planejamento e controle como ciclo PODC não são nomeados (estratégia no Tema 8)."
+    },
+    {
+      "brTopic": "Perspectivas internas ao Mackenzie para iniciação da carreira",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 1, 3, 4, 5 e 9 lidas; nenhum item trata de percurso ou iniciação de carreira em instituição de ensino.",
+      "note": "Item específico do Mackenzie (iniciação de carreira interna); não transferível a um guia de outra universidade."
+    },
+    {
+      "brTopic": "As áreas funcionais da administração",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 5 'Funciones empresariales'",
+      "foreignLocation": "Seção 5, Tema 5",
+      "note": "Apenas o título do tema; as áreas funcionais não são listadas."
+    },
+    {
+      "brTopic": "Visão Profissional (Pessoas)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 1, 3, 4, 5 lidas; o Tema 9 'Dirección de recursos humanos' trata gestão de pessoas, não a visão profissional do administrador.",
+      "note": "Cabeçalho de unidade da ficha brasileira; seus subitens (perfil, competências, carreira) são avaliados à parte."
+    },
+    {
+      "brTopic": "O perfil esperado do jovem profissional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competências 5-8: 'administrar una empresa', 'consultoría y asesoría', 'negociar con los diversos agentes'",
+      "foreignLocation": "Seção 4, competências específicas de habilidade 5-8",
+      "note": "Apoio apenas em competência declarada; os Contenidos (Temas 1-9) não detalham o assunto."
+    },
+    {
+      "brTopic": "Competências para o trabalho no século XXI",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Transversais: aplicar conhecimento, 'generar nuevas ideas', 'adoptar decisiones razonadas', 'trabajo en equipo'",
+      "foreignLocation": "Seção 4, competências transversais 1-4",
+      "note": "Apoio apenas em competência declarada; os Contenidos (Temas 1-9) não detalham o assunto. Não menciona o século XXI nem competências digitais."
+    },
+    {
+      "brTopic": "Características pessoais e perfil do administrador",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência 4: 'características esenciales del trabajo directivo'; Tema 6 'Dirección de empresas'",
+      "foreignLocation": "Seção 4, competência 4; seção 5, Tema 6",
+      "note": "Cobre o trabalho do diretor, não o perfil pessoal do administrador."
+    },
+    {
+      "brTopic": "Entrada no mercado de trabalho e formação da postura profissional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 1, 3, 4, 5, 6 e 9 lidas; não há inserção no mercado de trabalho nem postura profissional."
+    },
+    {
+      "brTopic": "Oportunidades de carreira do administrador",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 1, 3, 4, 5 e 6 lidas; nenhuma unidade sobre opções de atuação profissional (só 'consultoría' na competência 6)."
+    },
+    {
+      "brTopic": "Plano de carreira",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 1, 3, 4, 5 e 6 lidas; sem planejamento de carreira."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Objetivos da empresa e distribuição interna e externa da riqueza gerada",
+      "location": "Seção 5, Tema 3; seção 4, competência 2"
+    },
+    {
+      "topic": "Formas jurídicas de empresa",
+      "location": "Seção 5, Tema 4"
+    },
+    {
+      "topic": "Estratégia e desenvolvimento estratégico",
+      "location": "Seção 5, Tema 8"
+    },
+    {
+      "topic": "Direção de recursos humanos",
+      "location": "Seção 5, Tema 9"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceito de organização e ambiente externo (ênfase no cliente), processos e funções administrativas, possibilidades de atuação do administrador e desafios práticos da profissão.",
+    "foreign": [
+      "Conhecer o papel da empresa como criadora de riqueza e sua complexidade interna",
+      "Conhecer as características do trabalho diretivo e as alternativas estratégicas",
+      "Administrar, consultar, analisar e decidir em contexto empresarial",
+      "Trabalhar em equipe e aplicar o conhecimento em situações práticas"
+    ],
+    "convergences": [
+      "Conceito de empresa/organização e suas funções",
+      "Direção, organização e áreas funcionais",
+      "Formação inicial para a gestão"
+    ],
+    "differences": [
+      "Salamanca é introdução à empresa (formas, objetivos, estratégia, RH); Mackenzie dedica quase metade da ficha a carreira e perfil profissional",
+      "Ausência de ambiente externo/cliente como tema em Salamanca",
+      "Sem itens sobre mercado de trabalho e plano de carreira"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação, primeiro ano/primeira etapa, caráter introdutório",
+    "brazil": "Disciplina de 63,3 h com 13 enunciados, divididos entre visão organizacional e visão profissional",
+    "foreign": "Disciplina básica de 6 ECTS com 9 temas teóricos sobre a empresa e sua direção",
+    "theoryPractice": "Salamanca: sessões teóricas, práticas em aula (casos, problemas, debates) e seminários; avaliação 40% prática e 60% prova final"
+  },
+  "practical": {
+    "period": "Primeiro semestre (setembro a janeiro), que não coincide com 2027.2; guia indica 1º curso, Primer Semestre",
+    "language": "Espanhol",
+    "enrolment": "Disciplina básica do 1º curso; guias de turmas 1-3 com mesmo conteúdo; aceitação de intercambista Mackenzie não verificada",
+    "prerequisites": "Nenhum requisito; recomenda-se Economia e Empresa do Bachillerato",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introducción a la Administración coincide com a metade organizacional da ficha Mackenzie (empresa, direção, organização, funções empresariais), mas deixa sem contrapartida os quatro enunciados sobre inserção e plano de carreira.",
+  "justification": "Dos 12 enunciados essenciais (o de perspectivas internas ao Mackenzie foi tratado como não transferível), nenhum está plenamente coberto: 8 são parciais e 4 não encontrados. Os parciais sustentados pelos Temas 2, 5, 6 e 7 (natureza da empresa, funções empresariais, direção e desenho organizacional) são os mais sólidos; outros três apoiam-se apenas em competências da seção 4 (decisão, perfil, competências transversais). Faltam ambiente externo e cliente como tema, mercado de trabalho, oportunidades e plano de carreira. O guia não declara horas de contato (6 ECTS), a carga não é comparável e a ficha brasileira não tem vigência confirmada, o que mantém a classe em afinidade parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia com 9 temas e competências detalhadas, mas apenas títulos de tema, sem horas de contato e de ano letivo anterior; ficha brasileira sem ano impresso.",
+  "limitations": [
+    "Horas de contato não declaradas (seção 7 sem tabela no texto obtido); 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Código de catálogo CAT-USAL-209681 corresponde ao código oficial 103803; o registro do catálogo usa o ano 2025/26",
+    "Temas listados só por título; conteúdo interno de cada tema desconhecido",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Os Temas 5 e 6 incluem planejamento, organização, direção e controle como ciclo (PODC)?",
+    "A coordenação aceita a ausência de conteúdo de carreira e mercado de trabalho como parcial?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergências restritas ao conteúdo de carreira, registradas por item"
+  }
+}

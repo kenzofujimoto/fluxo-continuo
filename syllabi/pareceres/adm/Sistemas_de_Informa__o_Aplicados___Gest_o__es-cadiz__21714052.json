@@ -1,0 +1,216 @@
+{
+  "id": "adm|Sistemas de Informação Aplicados à Gestão|es-cadiz|21714052",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sistemas de Informação Aplicados à Gestão",
+    "name": "Sistemas de Informação Aplicados à Gestão",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 12, bloco 'Sistemas de Informação Aplicados à Gestão': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Alinhamento estratégico de TI",
+      "Governança de TI",
+      "Convergência Tecnológica",
+      "Internet das coisas",
+      "Block Chain",
+      "Cripton Moeda",
+      "Big Data",
+      "Computação nas nuvens",
+      "Inteligência Artificial"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Cádiz",
+      "name": "Sistemas de Información en la Empresa",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C139 - Organización de Empresas (área 650)",
+      "programme": "Grado en Ingeniería Informática (titulação 1725); módulo IIID Tecnología específica Sistemas de Información, matéria IIID.2",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "Segundo semestre; cursos 3 e 4",
+      "academicYear": "2025/2026",
+      "language": "Espanhol (castelhano)",
+      "courseStatus": "Optativa",
+      "assessment": "Trabalho individual 50%; exposição em grupo 20%; exame/teste teórico-prático 30%",
+      "prerequisites": "Requisitos prévios e recomendações em branco",
+      "catalogue": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "location": "Programa docente 2025-26: identificação, resultados de aprendizagem (competências), atividades e metodologias docentes, sistema de avaliação, temário (7 temas)",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 42,
+        "contactSeminarLab": 18,
+        "selfStudy": null,
+        "totalWorkload": 150,
+        "ects": 6.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Programa declara 'Horas totales de actividades de docencia presencial 60,00', 'otras actividades 90,00' e 'total 150,00'; teoria 42 h e práticas/seminários/problemas 18 h. As outras atividades incluem não presenciais (10), tutorias (13), avaliação (24), outras (18) e prácticum (25), por isso não foram registradas como estudo autônomo. Duração da hora não declarada."
+      },
+      "sha256": "5c3cbaf6d2da073d98ededb3649b8f0221382ea7f2f81300c0db52037f06dca1",
+      "source": "https://asignaturas.uca.es/2025-26/21714052",
+      "universityId": "es-cadiz",
+      "code": "21714052"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Alinhamento estratégico de TI",
+      "status": "parcial",
+      "foreignEvidence": "Tema 3 'Búsqueda estratégica de ventajas competitivas empresariales basadas en el uso eficiente de las tecnologías de la información' (3.3 Ventajas competitivas y SI); tema 1.3 'La empresa y su sistema de información'",
+      "foreignLocation": "Temario 1.3 e 3.1-3.3",
+      "note": "Relação entre SI e estratégia competitiva tratada; o conceito de alinhamento estratégico de TI não é nomeado.",
+      "essential": true
+    },
+    {
+      "brTopic": "Governança de TI",
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-7, Resultados de aprendizagem e competências, Actividades y metodologías, Bibliografía (vazia)",
+      "note": "Há competência de requisitos com 'seguridad y cumplimiento de la normativa', mas nenhum tema de governança de TI.",
+      "essential": true
+    },
+    {
+      "brTopic": "Convergência Tecnológica",
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-7 (inclui 6.2 integração de aplicações e serviços e tema 7 serviços Web e interoperabilidade)",
+      "note": "Integração e interoperabilidade técnica não equivalem a convergência tecnológica como fenômeno de negócio.",
+      "essential": true
+    },
+    {
+      "brTopic": "Internet das coisas",
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-7, Resultados de aprendizagem, Actividades y metodologías",
+      "essential": true
+    },
+    {
+      "brTopic": "Block Chain",
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-7, Resultados de aprendizagem, Actividades y metodologías",
+      "essential": true
+    },
+    {
+      "brTopic": "Cripton Moeda",
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-7, Resultados de aprendizagem, Actividades y metodologías",
+      "note": "'Cripton Moeda' é a grafia da ficha oficial (criptomoeda).",
+      "essential": true
+    },
+    {
+      "brTopic": "Big Data",
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-7, Resultados de aprendizagem, Actividades y metodologías",
+      "essential": true
+    },
+    {
+      "brTopic": "Computação nas nuvens",
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-7 (inclui tema 5 'Arquitecturas de sistemas de información', sem subitens), Actividades y metodologías",
+      "note": "O tema 5 é citado apenas pelo título; computação em nuvem não é mencionada.",
+      "essential": true
+    },
+    {
+      "brTopic": "Inteligência Artificial",
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario 1-7, Resultados de aprendizagem, Actividades y metodologías",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Sistemas de informação para planejamento, controle e tomada de decisões empresariais",
+      "location": "Temario 1.1-1.3"
+    },
+    {
+      "topic": "Planejamento, implantação e manutenção do sistema de informação",
+      "location": "Temario 2.1-2.3"
+    },
+    {
+      "topic": "Mudanças na estrutura organizativa provocadas pelas TIC",
+      "location": "Temario 4"
+    },
+    {
+      "topic": "Desenho de SI: modelagem de dados e integração de aplicações",
+      "location": "Temario 6.1-6.2"
+    },
+    {
+      "topic": "Serviços Web: tipos, padrões, composição e modelagem",
+      "location": "Temario 7.1-7.3"
+    },
+    {
+      "topic": "Colaboração com empresas e prácticum de 25 h numa ONG",
+      "location": "Actividades y metodologías (códigos 09 e 13)"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: aplicabilidade dos sistemas de informação ao respaldo da decisão empresarial e apresentação de ferramentas e tecnologias que transformam a dinâmica dos negócios (IoT, blockchain, big data, nuvem, IA).",
+    "foreign": [
+      "Integrar soluções de TIC e processos empresariais",
+      "Determinar requisitos de SI atendendo a segurança e normativa",
+      "Participar na especificação, desenho, implantação e manutenção de SI",
+      "Aplicar princípios de gestão da qualidade e da inovação tecnológica"
+    ],
+    "convergences": [
+      "SI como apoio à decisão e à estratégia empresarial",
+      "Integração entre TI e processos de negócio"
+    ],
+    "differences": [
+      "Mackenzie é panorama de tecnologias emergentes (sete dos nove enunciados são tecnologias); Cádiz é engenharia de SI: planejamento, desenho, arquitetura, modelagem e serviços Web",
+      "A ficha brasileira inclui governança de TI e criptomoeda; o programa de Cádiz não os tem"
+    ]
+  },
+  "depth": {
+    "level": "Cádiz é optativa de 3º/4º ano de Engenharia Informática; Mackenzie 6ª etapa de Administração",
+    "brazil": "Componente de 31,7 h sobre aplicação gerencial de tecnologias de informação",
+    "foreign": "Disciplina de 6 ECTS com 60 h presenciais, voltada a planejamento, desenho e integração de sistemas de informação",
+    "theoryPractice": "Cádiz: 42 h de teoria e 18 h de práticas/seminários, mais 25 h de prácticum e colaboração com empresas"
+  },
+  "practical": {
+    "period": "Segundo semestre (fevereiro a junho), compatível com 2027.2 apenas se o calendário local for confirmado",
+    "language": "Espanhol (castelhano); COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "Optativa do GII; programa tem campos de mobilidade internacional sem opção marcada e sem número de vagas",
+    "prerequisites": "Nenhum informado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A disciplina de Cádiz cobre sistemas de informação como instrumento de estratégia, planejamento e desenho organizacional, mas não toca nenhuma das tecnologias que compõem a ficha Mackenzie — IoT, blockchain, big data, nuvem e IA —, nem governança de TI.",
+  "justification": "Dos nove enunciados da ficha, só alinhamento estratégico de TI tem correspondência parcial (tema 3 e 1.3), por tratar vantagem competitiva baseada em SI; os outros oito — governança de TI, convergência tecnológica, IoT, blockchain, criptomoeda, big data, nuvem e IA — não constam do temário de sete temas nem dos resultados de aprendizagem. Cobertura total ou parcial de 1/9 (11,1%). As 60 h presenciais declaradas superam as 31,7 h brasileiras (razão 1,89), mas a carga horária só tem peso se o conteúdo coincidir, o que não ocorre. Classe baixa afinidade.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual completo, com horas, créditos e temário, mas a bibliografia está em branco, os temas 5 e 6 trazem poucos subitens e a ficha brasileira não tem ano de vigência impresso.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada e vaga para mobilidade não verificada",
+    "Programa 2025-26; a versão 2026-27 não foi verificada",
+    "Duração da hora de aula não declarada: razão 60 h / 31,7 h calculada sem conversão de minutos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "A ficha brasileira lista tecnologias emergentes que podem ser tratadas em aula sem constar do temário oficial",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Palestras de especialistas e colaborações com empresas (código 13, 18 h) tratam tecnologias como IoT, big data ou IA?",
+    "Há em Cádiz disciplina de tecnologias emergentes (por exemplo, cloud, IA ou blockchain) mais adequada a este componente?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e do programa docente oficial da Universidad de Cádiz 2025-26 com apoio de IA (Claude); cada tópico vinculado ao tema do temário; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência das tecnologias emergentes no temário é nítida nos dois documentos"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

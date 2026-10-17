@@ -1,0 +1,180 @@
+{
+  "id": "adm|Métodos Quantitativos em Processos Decisórios|es-26-universidaddej|11911002",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Métodos Quantitativos em Processos Decisórios",
+    "name": "Métodos Quantitativos em Processos Decisórios",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 6, bloco 'Métodos Quantitativos em Processos Decisórios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Revisão de conceitos de estatística descritiva e inferencial com apoio do software estatístico IBM/SPSS",
+      "Teste “T”",
+      "Análise de Variância (ANOVA)",
+      "Regressão Linear Simples e Múltipla",
+      "Análise Fatorial"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Estadística I",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U112 - Estadística e Investigación Operativa (área 265)",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Segundo cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Prática em computador 25%; exame teórico-prático 75%",
+      "prerequisites": "Nenhum",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias (C07), Descripción de contenidos (Teoría 1-6, Relações de ejercicios, Prácticas en ordenador), Metodologías (45+10+5 sessões), Actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,50 h (75%) e A2a pequeño grupo 37,50 h (25%), ambas com 40% de presencialidade. A metodologia descreve 45 sessões de teoria, 10 de problemas e 5 em aula de informática, todas de 50 minutos, mas a guia não imprime total presencial semestral nem ECTS; nenhum total foi derivado ou registrado como horas de contato. Modalidade híbrida."
+      },
+      "sha256": "32e73dbbe83a2507a62c552048920a77412a8339f9cb33f291fa69fc4f9b92d2",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911002/es/2025-26-11911002_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11911002"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Revisão de conceitos de estatística descritiva e inferencial com apoio do software estatístico IBM/SPSS",
+      "status": "parcial",
+      "foreignEvidence": "'1. Introducción a la Estadística Descriptiva' (1.2-1.3); '4-6 Cálculo de probabilidades, variable aleatoria, modelos de distribuciones'; sessões em aula de informática com 'software estadístico correspondiente'",
+      "foreignLocation": "Teoría 1-6; Metodologías docentes e Prácticas en ordenador",
+      "note": "Cobre estatística descritiva e probabilidade com apoio de software; inferência não consta e o SPSS não é citado (a bibliografia menciona Statgraphics).",
+      "essential": true
+    },
+    {
+      "brTopic": "Teste “T”",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría 1-6, Relaciones de ejercicios 1-5, Prácticas en ordenador 1-4, Bibliografía",
+      "note": "Testes de hipóteses e distribuições amostrais não estão entre os contenidos de Estadística I.",
+      "essential": true
+    },
+    {
+      "brTopic": "Análise de Variância (ANOVA)",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría 1-6, Relaciones de ejercicios, Prácticas en ordenador, Bibliografía",
+      "essential": true
+    },
+    {
+      "brTopic": "Regressão Linear Simples e Múltipla",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría 1-6 (inclui 1.3 'Estadística Descriptiva Bidimensional'), Prácticas en ordenador (Práctica 3 'variable estadística bidimensional')",
+      "note": "A estatística descritiva bidimensional pode envolver correlação, mas a guia não nomeia regressão simples nem múltipla.",
+      "essential": true
+    },
+    {
+      "brTopic": "Análise Fatorial",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría 1-6, Prácticas en ordenador 1-4, Bibliografía",
+      "note": "Técnicas multivariadas não aparecem num curso de estatística de 1º ano.",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Séries cronológicas: componentes, tendência, sazonalidade e dessazonalização",
+      "location": "Teoría 2"
+    },
+    {
+      "topic": "Números índices simples e compostos, deflação de séries",
+      "location": "Teoría 3"
+    },
+    {
+      "topic": "Cálculo de probabilidades, variável aleatória e modelos de distribuição",
+      "location": "Teoría 4-6"
+    },
+    {
+      "topic": "Medidas de posição, dispersão, forma e concentração",
+      "location": "Teoría 1.2"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: escolha e aplicação de técnicas estatísticas uni, bi e multivariadas (relações, estimação, reduções, discriminação, inferência) na solução de problemas gerenciais.",
+    "foreign": [
+      "C07 Conceitos básicos de Estatística"
+    ],
+    "convergences": [
+      "Revisão de estatística descritiva com apoio de software"
+    ],
+    "differences": [
+      "Mackenzie vai das revisões à inferência paramétrica e à análise multivariada (t, ANOVA, regressão, fatorial); Jaén I fecha em descritiva, séries, índices e probabilidade",
+      "Jaén acrescenta séries temporais, números índices e modelos de probabilidade, que a ficha brasileira não lista"
+    ]
+  },
+  "depth": {
+    "level": "Desnível: Jaén 1º curso (fundamentos), Mackenzie 4ª etapa (técnicas aplicadas e multivariadas)",
+    "brazil": "Estatística aplicada à decisão gerencial, 63,3 h, com SPSS",
+    "foreign": "Estatística básica em seis unidades, com 5 sessões de informática de 50 min",
+    "theoryPractice": "Jaén: 45 sessões de teoria, 10 de problemas e 5 de informática (50 min cada); 25% da nota em prática no computador"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (primavera europeia), compatível com 2027.2 apenas se o calendário local for confirmado",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC básica de 1º curso, híbrida; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estadística I entrega a base descritiva, as séries, os índices e a probabilidade, mas nenhuma das técnicas inferenciais e multivariadas que dão nome à ficha brasileira — teste t, ANOVA, regressão e análise fatorial.",
+  "justification": "Dos cinco enunciados da ficha, um é parcial (revisão de estatística descritiva com apoio de software, Teoría 1 e sessões de informática, sem inferência nem SPSS) e quatro não aparecem: teste t, ANOVA, regressão simples e múltipla, análise fatorial. Cobertura total ou parcial de 1/5 (20%). A guia é de 1º curso e se detém antes da inferência estatística; a ficha brasileira, de 4ª etapa, parte dessa base. A carga de 63,3 h não pode ser confrontada: a guia declara 150 h de atividades e 60 sessões de 50 minutos, mas nenhum total presencial semestral.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "alta",
+  "confidenceRationale": "Programa detalhado até subitens, com sessões e software descritos; o desnível de conteúdo é inequívoco, ainda que a guia não traga total presencial nem ECTS e a ficha brasileira não tenha ano impresso.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "A guia fornece 60 sessões de 50 minutos, mas não o total presencial; por isso nenhuma hora de contato foi registrada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Estadística II (11912005) ou outra UC de Jaén trata testes de hipóteses, ANOVA e regressão? Não foi lida neste parecer.",
+    "Há UC de Jaén com análise multivariada (fatorial) em nível de 4º ano?"
+  ],
+  "alternatives": [
+    {
+      "code": "11912005",
+      "name": "Estadística II",
+      "relation": "Título sugere continuação com inferência; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência da inferência e de técnicas multivariadas é clara nos dois documentos"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

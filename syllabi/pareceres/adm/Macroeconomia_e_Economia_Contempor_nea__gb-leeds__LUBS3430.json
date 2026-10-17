@@ -1,0 +1,197 @@
+{
+  "id": "adm|Macroeconomia e Economia Contemporânea|gb-leeds|LUBS3430",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Macroeconomia e Economia Contemporânea",
+    "name": "Macroeconomia e Economia Contemporânea",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 5, bloco 'Macroeconomia e Economia Contemporânea': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O Lado real e o Lado monetário da economia",
+      "Demanda e Oferta Agregados",
+      "Noções básicas de contas nacionais",
+      "O setor externo da economia",
+      "O lado monetário da economia",
+      "Os efeitos da inflação na atividade econômica",
+      "Política fiscal e seus efeitos",
+      "Discussão da conjuntura econômica nacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS3430",
+      "name": "Modern Theories of Money and Monetary Policy",
+      "pageCode": "LUBS3430",
+      "faculty": "Não indicada na página do módulo",
+      "programme": "Catálogo de módulos de graduação 2026/27 (Undergraduate Module Catalogue)",
+      "level": "Graduação (UG); código 3xxx sugere ano final, o que a página não declara",
+      "yearOfStudy": null,
+      "semester": "Semester 1 (set a jan)",
+      "period": "Semester 1 (set a jan)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de catálogo (optativo para o intercambista)",
+      "assessment": "Ensaio de 2.000 palavras (100%); apresentações em grupo de 10 a 15 min sem peso; reavaliação por trabalho de 2.000 palavras",
+      "prerequisites": "LUBS2610 Intermediate Macroeconomics (pré-requisito listado); a página também diz que o material é acessível a quem não tem conhecimento técnico prévio",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/3430/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "bddf75b0aa6b1a45d0cb4f52fada64be4e9f6d08fc5d1784f84f38ff91693cb6",
+      "location": "Página do módulo 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 23,
+        "contactLecture": 13.5,
+        "contactSeminarLab": 9.5,
+        "selfStudy": 77,
+        "totalWorkload": 100,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Catálogo: 10 UK credits (não são ECTS; 100 h de trabalho total). Contato: 9 aulas de 1,5 h = 13,5 h; 5 seminários de 1 h + 9 seminários de 30 min (estes últimos não obrigatórios) = 9,5 h; total 23 h. Duração da hora não declarada. Módulo de um só semestre (Semester 1)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O Lado real e o Lado monetário da economia",
+      "essential": true,
+      "status": "nao_verificavel",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Syllabus (Indicative content: 'Alternative theories of money, inflation and interest rates'), Teaching Methods",
+      "note": "O 'Indicative content' é uma única linha; não se sabe se o módulo revisa a relação entre os setores real e monetário, que o pré-requisito LUBS2610 (Intermediate Macroeconomics) provavelmente já supõe. O conteúdo detalhado está no Minerva, fora do catálogo."
+    },
+    {
+      "brTopic": "Demanda e Oferta Agregados",
+      "essential": true,
+      "status": "nao_verificavel",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Syllabus (Indicative content: 'Alternative theories of money, inflation and interest rates'), Teaching Methods",
+      "note": "Não consta em nenhuma seção da página; o módulo parte de macroeconomia intermediária, em que a demanda e a oferta agregadas poderiam ser pressupostas, mas isso não é afirmado."
+    },
+    {
+      "brTopic": "Noções básicas de contas nacionais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Syllabus (Indicative content: 'Alternative theories of money, inflation and interest rates'), Teaching Methods",
+      "note": "Nenhuma menção a agregados, PIB ou contabilidade nacional; o foco declarado é moeda, inflação e juros."
+    },
+    {
+      "brTopic": "O setor externo da economia",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Syllabus (Indicative content: 'Alternative theories of money, inflation and interest rates'), Teaching Methods",
+      "note": "Câmbio e balanço de pagamentos não aparecem nos objetivos, resultados de aprendizagem nem no conteúdo indicativo."
+    },
+    {
+      "brTopic": "O lado monetário da economia",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Module aims 'to introduce and integrate modern developments in the economic theories of money, inflation and interest rates'",
+      "foreignLocation": "Objectives; Syllabus (Indicative content)",
+      "note": "Cobre o tema de moeda e juros, mas como teorias alternativas/modernas da moeda, sem indicar se inclui o básico (oferta e demanda de moeda, multiplicador, instrumentos do banco central) que o tópico brasileiro pressupõe."
+    },
+    {
+      "brTopic": "Os efeitos da inflação na atividade econômica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Learning outcome: 'Evaluate competing theoretical and empirical perspectives on money, inflation, and interest rates'",
+      "foreignLocation": "Learning outcomes 2 e 3; Syllabus",
+      "note": "A inflação é tratada em suas teorias e implicações de política; a página não menciona efeitos sobre produção, emprego ou distribuição."
+    },
+    {
+      "brTopic": "Política fiscal e seus efeitos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Syllabus (Indicative content: 'Alternative theories of money, inflation and interest rates'), Teaching Methods",
+      "note": "A política mencionada é a monetária ('policy implications' de teorias de moeda e juros); política fiscal não é citada."
+    },
+    {
+      "brTopic": "Discussão da conjuntura econômica nacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Syllabus (Indicative content: 'Alternative theories of money, inflation and interest rates'), Teaching Methods",
+      "note": "Não há análise de conjuntura nem comparação entre países; 'empirical perspectives' referem-se a evidência sobre teorias, e a avaliação é um ensaio de 2.000 palavras."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Teorias alternativas de moeda, inflação e taxa de juros e suas implicações de política",
+      "location": "Objectives; Learning outcomes 1-3; Syllabus"
+    },
+    {
+      "topic": "Avaliação crítica de perspectivas teóricas e empíricas concorrentes (pensamento crítico como habilidade transferível)",
+      "location": "Learning outcomes 2; Skills outcomes"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: objetivos do governo, políticas econômicas, inflação e emprego, câmbio, moeda, desemprego, crescimento e desenvolvimento, setor público, indicadores, juros e demanda agregada, comparação Brasil e outros países.",
+    "foreign": [
+      "Interpretar e delinear teorias modernas da moeda e suas implicações de política",
+      "Avaliar perspectivas teóricas e empíricas concorrentes sobre moeda, inflação e juros",
+      "Explicar as implicações de política de cada perspectiva",
+      "Aplicar pensamento crítico em contextos complexos"
+    ],
+    "convergences": [
+      "Moeda, inflação e taxa de juros como objetos de estudo",
+      "Implicações de política econômica"
+    ],
+    "differences": [
+      "Leeds é um módulo especializado de teoria monetária heterodoxa/moderna, não um curso geral de macroeconomia",
+      "Mackenzie percorre contas nacionais, setor externo, política fiscal e conjuntura, ausentes em Leeds",
+      "Leeds pressupõe macroeconomia intermediária (LUBS2610)"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Leeds com pré-requisito de macroeconomia intermediária, Mackenzie na 3ª etapa",
+    "brazil": "Macroeconomia aplicada e panorama de política econômica, 63,3 h",
+    "foreign": "Debate teórico avançado sobre moeda, inflação e juros, 23 h de contato, avaliação por ensaio",
+    "theoryPractice": "9 aulas e 14 seminários (9 de 30 min, opcionais); sem exercícios quantitativos declarados"
+  },
+  "practical": {
+    "period": "Semester 1 (set a jan) no catálogo 2026/27; a mobilidade 2027.2 tende a cair no Semester 1 de 2027/28, cuja oferta ainda não foi publicada",
+    "language": "Inglês (planilha institucional: exigência de IELTS 6.0, TOEFL iBT 87 ou equivalente)",
+    "enrolment": "Catálogo indica o módulo como disponível a estudantes de intercâmbio (study abroad); não é 'discovery module'; turma de até 150 alunos",
+    "prerequisites": "LUBS2610 Intermediate Macroeconomics",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "LUBS3430 aprofunda teorias modernas de moeda, inflação e juros e quase não toca a macroeconomia geral da ficha Mackenzie: apenas o lado monetário e a inflação têm correspondência parcial, enquanto contas nacionais, setor externo, política fiscal e conjuntura não aparecem.",
+  "justification": "Dos oito tópicos, dois ficaram parciais (lado monetário e efeitos da inflação, ambos pela via de teorias alternativas da moeda), dois não puderam ser verificados porque o conteúdo indicativo tem uma única linha e o detalhe está no Minerva (lado real e demanda/oferta agregadas) e quatro não aparecem (contas nacionais, setor externo, política fiscal, conjuntura). A cobertura de 25% fica abaixo de 50%. As 23 h de contato correspondem a 36% das 63,3 h da ficha brasileira (30% se a hora de Leeds tiver 50 min), longe dos 75% do parâmetro COI, e o módulo exige macroeconomia intermediária, ou seja, supõe parte do que a disciplina brasileira ensina.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "baixa",
+  "confidenceRationale": "Ficha de Leeds completa em horas e objetivos, mas o conteúdo programático é uma única linha e o detalhe fica no Minerva; ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Conteúdo indicativo de uma linha; a lista de leitura e o detalhe do programa estão no Minerva, fora da página consultada",
+    "Horas de contato semestrais declaradas (23 h), mas duração da hora de Leeds não informada; 10 UK credits não convertidos",
+    "Oferta 2027/28 não confirmada; o catálogo consultado é o de 2026/27 e o módulo tem pré-requisito LUBS2610",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O módulo revisa demanda/oferta agregadas e o modelo real-monetário, ou pressupõe tudo isso de LUBS2610?",
+    "A coordenação aceitaria um módulo de teoria monetária especializada como aproveitamento de macroeconomia geral?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 3) e da página do módulo LUBS3430 no catálogo 2026/27 de Leeds, com apoio de IA (Claude); tópicos nao_verificavel usados onde a página não permite decidir; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Incompatibilidade de escopo evidente; o único ponto aberto (Minerva) não mudaria a classe sem cobrir quatro tópicos ausentes"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

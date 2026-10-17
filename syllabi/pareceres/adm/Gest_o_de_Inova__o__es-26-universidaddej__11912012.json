@@ -1,0 +1,182 @@
+{
+  "id": "adm|Gestão de Inovação|es-26-universidaddej|11912012",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Inovação",
+    "name": "Gestão de Inovação",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 3, bloco 'Gestão de Inovação': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fatores fundamentais na gestão da inovação",
+      "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "A inovação como um processo de gestão e mecanismos de implantação",
+      "Modelo de estratégia de inovação",
+      "Ecossistema de Inovação",
+      "Avaliação e desempenho da inovação"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Dirección estratégica I",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U136 - Organización de Empresas, Marketing y Sociología",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Segundo cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Obligatoria",
+      "assessment": "Convocatória ordinária: exame 60% e trabalhos/participação 40%; extraordinária: prova escrita 100%",
+      "prerequisites": "Nenhum",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias (C05, COM04), Descripción de contenidos (Teoría 1-8, Práctica), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,50 h (75%) e A2a pequeño grupo 37,50 h (25%), ambas com 40% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado."
+      },
+      "sha256": "41c371baed74ac3e47d68f0c886e96651bd3526feb651de997775b251a5daba7",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912012/es/2025-26-11912012_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11912012"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fatores fundamentais na gestão da inovação",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría 1-8, Práctica, Competencias C05 e COM04, Bibliografía",
+      "note": "A palavra inovação só aparece no ODS 9 listado ao fim da guia; nenhum item do programa a trata.",
+      "essential": true
+    },
+    {
+      "brTopic": "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría 1-8 (inclui 6 análise interna e 7 vantagens competitivas), Bibliografía",
+      "note": "Tipologia de inovação e características da organização inovadora não são mencionadas; recursos e capacidades (análise interna) são conceito distinto.",
+      "essential": true
+    },
+    {
+      "brTopic": "A inovação como um processo de gestão e mecanismos de implantação",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría 1-8, Práctica ('resolução de casos, perguntas e exposições'), Sistemas de evaluación",
+      "note": "Processo de gestão da inovação e mecanismos de implantação não constam.",
+      "essential": true
+    },
+    {
+      "brTopic": "Modelo de estratégia de inovação",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría 7 'Ventajas competitivas y estrategias' e 8 'Estrategias competitivas según el tipo de industrias', Resumen RUCT",
+      "note": "A guia trata estratégias competitivas gerais; não há modelo de estratégia de inovação, então a proximidade é de campo (estratégia) e não de conteúdo.",
+      "essential": true
+    },
+    {
+      "brTopic": "Ecossistema de Inovação",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría 3 (grupos de interesse e governo corporativo), 4-5 (entorno e entorno competitivo), Resumen RUCT",
+      "note": "Análise do entorno competitivo não equivale a ecossistema de inovação (atores, redes, parcerias de P&D).",
+      "essential": true
+    },
+    {
+      "brTopic": "Avaliação e desempenho da inovação",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría 1-8, Sistemas de evaluación, Bibliografía",
+      "note": "Indicadores ou avaliação de desempenho da inovação não aparecem.",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Natureza da direção estratégica; orientações futuras e valores da empresa",
+      "location": "Teoría 1-2"
+    },
+    {
+      "topic": "Criação de valor, grupos de interesse e governo corporativo",
+      "location": "Teoría 3"
+    },
+    {
+      "topic": "Análise do entorno geral e competitivo; análise interna (recursos e capacidades)",
+      "location": "Teoría 4-6; Resumen RUCT"
+    },
+    {
+      "topic": "Vantagens competitivas e estratégias por tipo de indústria",
+      "location": "Teoría 7-8"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos de inovação e inovação como processo de gestão nas organizações.",
+    "foreign": [
+      "C05 Conceitos básicos de Direção de Empresas",
+      "COM04 Visão estratégica da direção de empresas"
+    ],
+    "convergences": [
+      "Ambas pertencem à área de gestão estratégica das organizações"
+    ],
+    "differences": [
+      "Mackenzie é centrada em inovação (teoria, tipos, processo, ecossistema, avaliação); Jaén é um curso de direção estratégica geral em que inovação não é unidade nem tópico",
+      "A coincidência de campo é só o tronco 'estratégia', que na ficha brasileira aparece apenas como 'modelo de estratégia de inovação'"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de nível avançado (Jaén 3º curso obrigatória; Mackenzie 6ª etapa)",
+    "brazil": "Componente de 31,7 h dedicado à gestão da inovação",
+    "foreign": "Primeiro de dois cursos de direção estratégica, com oito unidades sobre análise e estratégias competitivas",
+    "theoryPractice": "Jaén: aulas expositivas com debates, casos e exposições; peso prático de 40% na avaliação ordinária"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (primavera europeia), compatível com 2027.2 apenas se o calendário local for confirmado",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC obrigatória de 3º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dirección estratégica I e Gestão de Inovação compartilham o campo da gestão estratégica, mas a guia de Jaén não menciona inovação em nenhum dos oito temas: os seis enunciados da ficha brasileira ficam sem correspondência.",
+  "justification": "A ficha brasileira lista seis tópicos específicos de inovação (fatores, teoria e tipologia, processo de implantação, estratégia de inovação, ecossistema, avaliação e desempenho), e a guia de Jaén tem oito temas sobre natureza da estratégia, valores, criação de valor, entorno, análise interna, vantagens competitivas e estratégias por indústria. Cobertura 0/6: o único contato é o termo 'estratégia', que nos temas 7-8 é competitiva e genérica, e 'inovação' só consta do ODS 9 final. A sobreposição é de campo e não de conteúdo, por isso a classe é baixa afinidade; as 31,7 h da ficha também não são comparáveis às atividades de 150 h sem total presencial.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "alta",
+  "confidenceRationale": "Guia integral lida e programa de oito temas claro; a ausência total de inovação não depende de horas ou de vigência da ficha brasileira, embora esta não tenha ano impresso.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "Os títulos dos temas são curtos e podem ocultar subtópicos de inovação na aula; só a guia oficial foi lida",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Dirección estratégica II ou outra UC optativa de Jaén tratam inovação tecnológica ou gestão da inovação? Não foram lidas neste parecer."
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Nenhum dos seis enunciados tem correspondência; conclusão evidente nos documentos"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

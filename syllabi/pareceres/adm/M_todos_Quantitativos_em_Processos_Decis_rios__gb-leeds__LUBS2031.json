@@ -1,0 +1,177 @@
+{
+  "id": "adm|Métodos Quantitativos em Processos Decisórios|gb-leeds|LUBS2031",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Métodos Quantitativos em Processos Decisórios",
+    "name": "Métodos Quantitativos em Processos Decisórios",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 6, bloco 'Métodos Quantitativos em Processos Decisórios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Revisão de conceitos de estatística descritiva e inferencial com apoio do software estatístico IBM/SPSS",
+      "Teste “T”",
+      "Análise de Variância (ANOVA)",
+      "Regressão Linear Simples e Múltipla",
+      "Análise Fatorial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS2031",
+      "name": "Optimisation and AI for Business",
+      "pageCode": "LUBS2031",
+      "faculty": "Não indicada na página do módulo",
+      "programme": "Catálogo de módulos de graduação 2026/27 (Undergraduate Module Catalogue)",
+      "level": "Graduação (UG); código 2xxx sugere segundo ano, o que a página não declara",
+      "yearOfStudy": null,
+      "semester": "Semester 2 (jan a jun)",
+      "period": "Semester 2 (jan a jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de catálogo (optativo para o intercambista)",
+      "assessment": "Trabalho individual de 3.500 palavras (100%); reavaliação por trabalho de 3.500 palavras",
+      "prerequisites": "Nenhum listado; o módulo substitui LUBS2029",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/2031/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "e52591478b26a1a04a924f9a093bc6efe031d9ed89ab5d18887346fd4d11cf09",
+      "location": "Página do módulo 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 32.5,
+        "contactLecture": 16.5,
+        "contactSeminarLab": 16,
+        "selfStudy": 167.5,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Catálogo: 20 UK credits (não são ECTS; 200 h de trabalho total). Contato: 11 aulas de 1,5 h = 16,5 h e 8 práticas de 2 h = 16 h; total 32,5 h. Duração da hora não declarada. Módulo de um só semestre (Semester 2)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Revisão de conceitos de estatística descritiva e inferencial com apoio do software estatístico IBM/SPSS",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes LO1-LO5, Skills outcomes, Syllabus (11 itens), Teaching Methods",
+      "note": "Não há unidade de revisão estatística nem SPSS; as ferramentas citadas são linguagens de modelagem de otimização, solvers em planilha e linguagens orientadas a IA (SLO5)."
+    },
+    {
+      "brTopic": "Teste “T”",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes LO1-LO5, Skills outcomes, Syllabus (11 itens), Teaching Methods",
+      "note": "Testes de hipótese não aparecem no Syllabus nem nos resultados de aprendizagem."
+    },
+    {
+      "brTopic": "Análise de Variância (ANOVA)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes LO1-LO5, Skills outcomes, Syllabus (11 itens), Teaching Methods",
+      "note": "ANOVA não aparece em nenhuma seção."
+    },
+    {
+      "brTopic": "Regressão Linear Simples e Múltipla",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Valuing subjectivity: estimating impact with linear regression'; também 'Classification with logistics regression'",
+      "foreignLocation": "Syllabus, 6º e 7º itens",
+      "note": "Regressão linear é usada como ferramenta preditiva de impacto; a página não diz se é simples ou múltipla, nem menciona inferência (significância, diagnóstico) como no ementário brasileiro."
+    },
+    {
+      "brTopic": "Análise Fatorial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes LO1-LO5, Skills outcomes, Syllabus (11 itens), Teaching Methods",
+      "note": "Redução de dimensionalidade não é listada; os métodos multivariados do módulo são classificação (regressão logística, árvores, florestas aleatórias) e redes neurais."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Modelagem de otimização: programação linear (mix de produtos), problema da mochila, localização, otimização multiobjetivo e Pareto",
+      "location": "Syllabus, itens 1-5"
+    },
+    {
+      "topic": "Aprendizado de máquina: regressão logística, árvores de decisão, florestas aleatórias, redes neurais",
+      "location": "Syllabus, itens 7-9"
+    },
+    {
+      "topic": "IA generativa e perspectivas conjuntas de otimização e IA; considerações éticas",
+      "location": "Syllabus, itens 10-11; Objectives"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: escolha e aplicação de técnicas estatísticas uni, bi e multivariadas para relacionar, analisar, estimar, reduzir e inferir sobre variáveis na resolução de problemas gerenciais.",
+    "foreign": [
+      "Compreender conceitos de modelagem prescritiva e preditiva em otimização e IA",
+      "Avaliar criticamente a adoção de otimização e IA na gestão",
+      "Selecionar e usar ferramentas de otimização e IA para análise de dados e solução de problemas",
+      "Projetar soluções para problemas de negócio reais",
+      "Habilidades técnicas em linguagens de modelagem, solvers em planilha e linguagens de IA"
+    ],
+    "convergences": [
+      "Regressão linear para estimar relações entre variáveis de negócio",
+      "Resolução de problemas gerenciais com base em dados"
+    ],
+    "differences": [
+      "Mackenzie é de estatística inferencial com SPSS (teste t, ANOVA, regressão múltipla, análise fatorial); Leeds é de otimização e IA",
+      "Leeds inclui programação linear e machine learning, ausentes na ficha de Métodos Quantitativos",
+      "Avaliação por trabalho individual de 3.500 palavras"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação, 4ª etapa no Mackenzie e módulo de 20 UK credits em Leeds",
+    "brazil": "Estatística aplicada multivariada com software, 63,3 h",
+    "foreign": "Otimização e IA aplicada à gestão, com 8 práticas, 32,5 h de contato e 200 h de trabalho total",
+    "theoryPractice": "11 aulas de 1,5 h e 8 práticas de 2 h; formative feedback sobre trabalhos introdutórios"
+  },
+  "practical": {
+    "period": "Semester 2 (jan a jun) no catálogo 2026/27; a mobilidade 2027.2 tende a coincidir com o Semester 1 (set a jan) de 2027/28, cuja oferta deste módulo não está publicada",
+    "language": "Inglês (planilha institucional: exigência de IELTS 6.0, TOEFL iBT 87 ou equivalente)",
+    "enrolment": "Catálogo indica o módulo como disponível a estudantes de intercâmbio (study abroad); aprovado como 'discovery module'; turma de 144 alunos",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "LUBS2031 trata de otimização e inteligência artificial em negócios; só a regressão linear toca o ementário estatístico de Métodos Quantitativos, e teste t, ANOVA, análise fatorial e o uso de SPSS não aparecem.",
+  "justification": "Apenas um dos cinco tópicos tem correspondência (regressão linear, parcial: o catálogo não distingue simples de múltipla nem fala de inferência) e os outros quatro, estatística descritiva/inferencial com SPSS, teste t, ANOVA e análise fatorial, estão ausentes em todas as seções lidas, o que dá 20% de cobertura. As 32,5 h de contato equivalem a 51% das 63,3 h brasileiras (43% com hora de 50 min), abaixo dos 75% do parâmetro COI. O módulo ensina um conjunto diferente de métodos quantitativos (programação linear, problema da mochila, redes neurais, GenAI), útil para decisão gerencial mas não substitutivo do ementário estatístico.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Syllabus itemizado em 11 linhas com horas explícitas, mas sem detalhe do que cada item inclui; ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Horas de contato semestrais declaradas (32,5 h), mas duração da hora não informada; 20 UK credits não convertidos",
+    "O catálogo não detalha a regressão (simples ou múltipla, diagnóstico) nem se há estatística inferencial introdutória no módulo",
+    "Módulo lecionado no Semester 2; oferta correspondente a 2027.2 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O conteúdo de 'estimating impact with linear regression' inclui regressão múltipla e testes de significância?",
+    "Leeds oferece, para intercambistas, módulo de estatística inferencial (teste t, ANOVA, análise multivariada) que dialogue melhor com a ficha?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 4) e da página do módulo LUBS2031 no catálogo 2026/27 de Leeds, com apoio de IA (Claude); cada tópico vinculado ao item do Syllabus; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergência de escopo evidente nas duas fichas"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

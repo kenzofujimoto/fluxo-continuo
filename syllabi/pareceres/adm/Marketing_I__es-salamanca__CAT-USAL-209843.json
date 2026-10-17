@@ -1,0 +1,192 @@
+{
+  "id": "adm|Marketing I|es-salamanca|CAT-USAL-209843",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209843",
+      "name": "Fundamentos de Comercialización",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Comercialización e Investigación de Mercados)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segundo Semestre (campo 'Periodicidade'), 2º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "OBLIGATORIA",
+      "assessment": "Avaliação contínua 40% (controles parciais e trabalhos; frequência mínima 80%) + exame final 60% (mínimo 4/10); nota global mínima 5",
+      "prerequisites": "Recomendados: Introducción a la Administración, Introducción a la Economía e Matemáticas; intercambistas precisam de bons conhecimentos matemáticos (matrizes, sistemas de equações)",
+      "source": "https://guias.usal.es/node/209843",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "75eafc23e8a87ef3dbc26f0d295452081572ef8cf9e65e66928ba432572f6e7a",
+      "location": "Guia 2025/2026: seções 1 (datos), 2 (recomendaciones), 3 (objetivos), 4 (competencias), 5 (teoria Temas 1-6 e prática Temas 1-3), 6 (metodologías com horas), 9 (evaluación)",
+      "officialCode": "103820",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": 14,
+        "contactSeminarLab": 21,
+        "selfStudy": 105,
+        "totalWorkload": 150,
+        "ects": 6.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "6 ECTS; 'dedicación media del alumno de 150 horas', das quais 45 h (30%) 'de dedicación presencial o interacción obligatoria con el profesor' e 105 h de trabalho do aluno. Seção 6: sessões magistrais 14 h, práticas 21 h, tutoria 1 h, preparação de exame 4 h e 5 h presenciais de prova. A duração da hora não é declarada. Código oficial: 103820."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'TEMA 1.- Concepto de marketing'; objetivo: 'lenguaje, los conceptos, las herramientas y la lógica del marketing'",
+      "foreignLocation": "Seção 5, teoria, Tema 1; seção 3"
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'TEMA 3.- El entorno de marketing'; competência CEfc1: oportunidades, amenazas, debilidades y fortalezas",
+      "foreignLocation": "Seção 5, teoria, Tema 3; seção 4, CEfc1"
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'TEMA 5.- Comportamiento de compra de los consumidores y de los compradores industriales'",
+      "foreignLocation": "Seção 5, teoria, Tema 5"
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'TEMA 5.- Comportamiento de compra de los consumidores y de los compradores industriales'",
+      "foreignLocation": "Seção 5, teoria, Tema 5",
+      "note": "A ficha brasileira rotula este enunciado 'Comportamento Organizacional', mas a ementa o descreve como comportamento do comprador organizacional, que equivale aos 'compradores industriales'."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'TEMA 6.- Segmentación, targeting y posicionamiento'; CEfc2: 'segmentar un mercado y establecer el posicionamiento'; prática Tema 3 'segmentación de mercados'",
+      "foreignLocation": "Seção 5, teoria Tema 6 e prática Tema 3; seção 4, CEfc2"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "A empresa e a estratégia de marketing",
+      "location": "Seção 5, teoria, Tema 2"
+    },
+    {
+      "topic": "Gestão da informação de marketing e investigação comercial",
+      "location": "Seção 5, teoria, Tema 4"
+    },
+    {
+      "topic": "Demanda e cota de mercado; matrizes estratégicas (práticas)",
+      "location": "Seção 5, prática, Temas 1-2"
+    },
+    {
+      "topic": "Plano de marketing e organização da relação com distribuidores",
+      "location": "Seção 4, CEfc3 e CEfc4"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: marketing como geração de valor, satisfação, valor e fidelidade, comportamento do consumidor e do comprador organizacional, marketing estratégico com segmentação e posicionamento.",
+    "foreign": [
+      "Compreender a natureza e o papel do marketing na empresa e na economia",
+      "Valorar a situação competitiva e o entorno",
+      "Segmentar mercados e definir posicionamento",
+      "Desenhar um plano de marketing"
+    ],
+    "convergences": [
+      "Conceito de marketing",
+      "Ambiente de marketing",
+      "Comportamento do consumidor e do comprador industrial",
+      "Segmentação e posicionamento"
+    ],
+    "differences": [
+      "Salamanca acrescenta informação de marketing, matrizes estratégicas e plano de marketing",
+      "Satisfação, valor e fidelidade, citados na ementa brasileira, não aparecem nominalmente"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação introdutórias; Mackenzie na 1ª etapa, Salamanca obrigatória do 2º curso",
+    "brazil": "Disciplina de 63,3 h com 5 enunciados introdutórios",
+    "foreign": "Obrigatória de 6 ECTS com 6 temas teóricos, 3 práticos e 45 h de contato declaradas",
+    "theoryPractice": "Salamanca: 14 h magistrais e 21 h práticas (trabalhos e problemas); avaliação 40% contínua e 60% exame"
+  },
+  "practical": {
+    "period": "Segundo semestre (fevereiro a junho), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Obrigatória do 2º curso, grupos 1 a 3; guia pede a intercambistas boa base matemática; aceitação de intercambista não verificada",
+    "prerequisites": "Recomendados: Introducción a la Administración, Introducción a la Economía e Matemáticas; intercambistas precisam de bons conhecimentos matemáticos (matrizes, sistemas de equações)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Fundamentos de Comercialización cobre os cinco enunciados de Marketing I com temas correspondentes (conceito, entorno, comportamento de compra, segmentação e posicionamento), mas a carga de contato declarada fica abaixo de 75% das horas Mackenzie.",
+  "justification": "Os 5 enunciados têm tema correspondente nos Temas 1, 3, 5 e 6 da teoria, e o de comprador organizacional equivale aos 'compradores industriales' do Tema 5. A cobertura plena é de 100%, sem tópicos ausentes. O guia declara 45 h de contato (14 h magistrais, 21 h práticas) contra 63,3 h da ficha, razão de 0,71, ou 0,59 se a hora for de 50 min, e a duração da hora não é informada. Como a razão fica abaixo de 0,75 e a ficha brasileira não tem vigência confirmada, a classe não chega a alta afinidade e permanece em afinidade parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdo e horas por atividade declarados no guia; faltam a duração da hora estrangeira e a vigência da ficha brasileira.",
+  "limitations": [
+    "Duração da hora estrangeira não declarada; 45 h incluem 'interacción obligatoria' e não só aulas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "O rótulo 'Comportamento Organizacional' na ficha brasileira de Marketing I é ambíguo; interpretado como comportamento do comprador organizacional pela ementa",
+    "Satisfação, valor e fidelidade (ementa) não são nomeados no guia",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita 45 h de contato declaradas frente às 63,3 h da ficha, razão de 0,71?",
+    "Os Temas 2 e 4 abordam satisfação, valor e fidelidade do cliente?"
+  ],
+  "alternatives": [
+    {
+      "code": "CAT-USAL-210412",
+      "name": "International Marketing",
+      "relation": "Optativa avançada de marketing internacional em inglês, analisada em outro parecer deste lote; supõe os fundamentos que esta disciplina ensina"
+    }
+  ],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência por tema explícita; limite de carga horária registrado"
+  }
+}

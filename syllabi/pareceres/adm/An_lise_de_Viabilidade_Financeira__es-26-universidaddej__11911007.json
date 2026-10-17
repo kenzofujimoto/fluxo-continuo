@@ -1,0 +1,183 @@
+{
+  "id": "adm|Análise de Viabilidade Financeira|es-26-universidaddej|11911007",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Análise de Viabilidade Financeira",
+    "name": "Análise de Viabilidade Financeira",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 1, bloco 'Análise de Viabilidade Financeira': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Projeção do fluxo de caixa incremental",
+      "Métodos de avaliação de investimentos (VPL, TIR, TIR Modificada, Payback e Índice de",
+      "Rentabilidade)",
+      "Projetos de substituição e de renovação de ativos",
+      "Análise de sensibilidade, cenários e árvores de decisão"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Introducción a las finanzas",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U137 - Economía Financiera y Contabilidad",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Segundo cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Prova teórica tipo teste 40%; exame prático (resolução de exercícios) 60%",
+      "prerequisites": "Nenhum indicado",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias (C11, C17, COM09), Descripción de contenidos (Partes I-IV, Temas 1-11), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 75 h e A2a pequeño grupo 75 h, cada uma com 40% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado."
+      },
+      "sha256": "3ef7988f58cd39db25dc5d175df2218d3466e4e2ab5144acb86300079072c165",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911007/es/2025-26-11911007_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11911007"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Projeção do fluxo de caixa incremental",
+      "status": "parcial",
+      "foreignEvidence": "'11.2. Flujos de efectivo de un proyecto de inversión'; '5.5. Flujos de renta y de tesorería'; 10.4 presupuesto de tesorería",
+      "foreignLocation": "Teoría 11.2, 5.5 e 10.4",
+      "note": "Fluxos de caixa de um projeto de investimento são tratados, mas o caráter incremental da projeção não é mencionado.",
+      "essential": true
+    },
+    {
+      "brTopic": "Métodos de avaliação de investimentos (VPL, TIR, TIR Modificada, Payback e Índice de",
+      "status": "parcial",
+      "foreignEvidence": "'8.3.1. El Valor Actual Neto'; '8.3.2. La Tasa Interna de Rentabilidad'; '8.3.3.2. El TIR Global'; '8.2 criterios aproximados'",
+      "foreignLocation": "Teoría 8.2-8.5",
+      "note": "VPL, TIR e a TIR global (equivalente à TIR modificada) estão nomeados; payback e índice de rentabilidade não aparecem pelo nome (8.2 fala apenas de 'criterios aproximados').",
+      "essential": true
+    },
+    {
+      "brTopic": "Rentabilidade)",
+      "status": "nao_encontrado",
+      "essential": false,
+      "scopeExamined": "Teoría tema 8 e tema 11",
+      "note": "'Rentabilidade)' é fragmento de quebra de linha do item anterior na ficha oficial ('... Payback e Índice de / Rentabilidade)'); não é um tópico autônomo e foi excluído da cobertura."
+    },
+    {
+      "brTopic": "Projetos de substituição e de renovação de ativos",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 5-11 (inclui 11.5 decisão conjunta de investimento e financiamento), Práctica, Resumen RUCT",
+      "note": "Nenhum item trata substituição ou renovação de ativos; o tema 11.5 compara investimento e financiamento, não equipamentos.",
+      "essential": true
+    },
+    {
+      "brTopic": "Análise de sensibilidade, cenários e árvores de decisão",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría Partes I-IV, Práctica, Competencias, Sistemas de evaluación",
+      "note": "A competência COM09 cita 'riesgo e incertidumbre', mas nenhum item do programa nomeia sensibilidade, cenários ou árvores de decisão.",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Matemática financeira de base: capitalização simples e composta, rentas e amortização de empréstimos",
+      "location": "Teoría temas 2-4"
+    },
+    {
+      "topic": "Estrutura econômica e financeira da empresa, fontes de financiamento",
+      "location": "Teoría temas 5-6"
+    },
+    {
+      "topic": "Custo de capital e taxa de atualização",
+      "location": "Teoría tema 7"
+    },
+    {
+      "topic": "Planejamento financeiro de longo e curto prazo (orçamento de tesouraria, balanço previsional)",
+      "location": "Teoría temas 9-10"
+    },
+    {
+      "topic": "Aulas práticas em Excel",
+      "location": "Metodologías docentes"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: ferramentas de análise econômica de projetos, métodos de decisão (custo-benefício, VPL, TIR, payback, retorno sobre investimento), sensibilidade, alavancagem, incerteza e risco com construção de cenários.",
+    "foreign": [
+      "C11 Conceitos básicos de Finanças",
+      "C17 Dominar ferramentas informáticas aplicadas à gestão financeira/contábil",
+      "COM09 Compreender operações financeiras em certeza, risco e incerteza"
+    ],
+    "convergences": [
+      "Critérios VPL e TIR como núcleo da avaliação de investimentos",
+      "Fluxos de caixa de projeto e viabilidade financeira (tema 11)"
+    ],
+    "differences": [
+      "Jaén é introdução às finanças e dedica os temas 2-4 à matemática financeira, que a ficha brasileira de 6ª etapa pressupõe",
+      "Mackenzie vai além em substituição de ativos, sensibilidade, cenários, árvores de decisão e alavancagem; Jaén acrescenta planejamento financeiro e fontes de financiamento"
+    ]
+  },
+  "depth": {
+    "level": "Desnível: Jaén 1º curso (introdução), Mackenzie 6ª etapa (análise aplicada)",
+    "brazil": "Componente de 31,7 h centrado em métodos de avaliação e tratamento de incerteza",
+    "foreign": "Visão geral de finanças empresariais em 11 temas, com um tema (8) e parte do tema 11 sobre avaliação de investimentos",
+    "theoryPractice": "Jaén: teoria expositiva e práticas em aula de informática com Excel; avaliação 60% por exame de exercícios"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (primavera europeia), compatível com 2027.2 apenas se o calendário local for confirmado",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC básica de 1º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introducción a las finanzas toca o centro de Análise de Viabilidade Financeira — VAN, TIR e TIR global no tema 8 e fluxos de caixa de projetos no tema 11 —, mas não trata substituição de ativos, sensibilidade, cenários nem árvores de decisão, e o faz num nível introdutório.",
+  "justification": "Dos quatro enunciados essenciais (um fragmento de quebra de linha da ficha foi excluído), dois são parciais — projeção de fluxos de caixa (11.2, 5.5) e métodos de avaliação (8.2-8.5, sem payback nem índice de rentabilidade nomeados) — e dois não aparecem: projetos de substituição/renovação e análise de sensibilidade, cenários e árvores de decisão. Cobertura total ou parcial de 2/4 (50%), exatamente no limiar de afinidade parcial e sem nenhum tópico integralmente coberto. O desnível de etapa (1º curso vs. 6ª etapa) e a ausência de total presencial e ECTS impedem comparar as 31,7 h da ficha brasileira.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "baixa",
+  "confidenceRationale": "A ficha brasileira tem apenas quatro linhas essenciais, uma delas partida por quebra de linha, e a classe depende de exatamente 50%; a guia não traz horas presenciais totais nem ECTS e a ficha não tem vigência impressa.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "Cobertura de 50% é fronteira do critério interno: um único tópico a mais ou a menos mudaria a classe",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita aproveitar uma disciplina introdutória de finanças para um componente de análise de projetos da 6ª etapa?",
+    "O item 8.2 'criterios aproximados' inclui payback e índice de rentabilidade na prática?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe no limiar de 50%; convém revisão humana sobre o peso dos métodos VPL/TIR frente à ausência de sensibilidade e substituição"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

@@ -1,0 +1,167 @@
+{
+  "id": "adm|Marketing II|gb-leeds|LUBS0030",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS0030",
+      "name": "Introduction to Marketing",
+      "pageCode": "LUBS0030",
+      "faculty": "Não indicada na página do módulo",
+      "programme": "Catálogo de módulos de graduação 2026/27 (Undergraduate Module Catalogue)",
+      "level": "Graduação (UG); a página liga o módulo ao 'foundation year' e a outros módulos introdutórios de negócios",
+      "yearOfStudy": null,
+      "semester": "Semester 2 (jan a jun)",
+      "period": "Semester 2 (jan a jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de catálogo (optativo para o intercambista)",
+      "assessment": "Ensaio de 3.000 palavras (100%); reavaliação por trabalho de 3.000 palavras",
+      "prerequisites": "Nenhum listado na página",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/0030/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "bb2ac8ffade92e0497ae40f1f293e83bc8752577d443b19ee6a3bf1ffb233258",
+      "location": "Página do módulo 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 17.5,
+        "contactLecture": 10,
+        "contactSeminarLab": 7.5,
+        "selfStudy": 82.5,
+        "totalWorkload": 100,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Catálogo: 10 UK credits (não são ECTS; 100 h de trabalho total). Contato: 10 aulas de 1 h + 5 seminários de 1,5 h = 17,5 h. Duração da hora não declarada. Módulo de um só semestre (Semester 2)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Product strategies'; módulo cobre 'a range of sectors and nations'",
+      "foreignLocation": "Syllabus, 6º item; Module summary",
+      "note": "Estratégias de produto estão listadas, mas a administração de serviços (intangibilidade, qualidade de serviço) não é nomeada."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Pricing'",
+      "foreignLocation": "Syllabus, 7º item"
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Distribution strategies'",
+      "foreignLocation": "Syllabus, 8º item"
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Marketing communications'",
+      "foreignLocation": "Syllabus, 9º item"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Introdução ao marketing e pesquisa de marketing",
+      "location": "Syllabus, itens 1-2"
+    },
+    {
+      "topic": "Comportamento do comprador e segmentação, alvo e posicionamento (conteúdo de Marketing I)",
+      "location": "Syllabus, itens 3-4"
+    },
+    {
+      "topic": "Plano de marketing",
+      "location": "Syllabus, 10º item"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e definição das estratégias de preço, comunicação e distribuição para gerar valor superior ao cliente e à empresa.",
+    "foreign": [
+      "Descrever atividades de marketing e suas aplicações",
+      "Explicar a gestão de marketing em perspectiva conceitual e prática",
+      "Integrar pesquisa, segmentação, composto de marketing e comunicação com casos reais"
+    ],
+    "convergences": [
+      "Estratégias de produto, preço, distribuição e comunicação como itens nomeados"
+    ],
+    "differences": [
+      "Leeds trata o composto em itens de uma linha e dentro de um curso introdutório único",
+      "Serviços não são nomeados em Leeds, ao contrário da ementa brasileira",
+      "Mackenzie dedica 63,3 h só a esta segunda parte; Leeds tem 17,5 h para todo o conteúdo de marketing"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Leeds introdutória, Mackenzie na 4ª etapa, após Marketing I",
+    "brazil": "Aprofundamento do composto de marketing (produto, preço, praça, promoção), 63,3 h",
+    "foreign": "Cada elemento do composto ocupa um item de um programa introdutório, 17,5 h de contato no módulo inteiro",
+    "theoryPractice": "Aulas expositivas e seminários com estudos de caso; avaliação por ensaio de 3.000 palavras"
+  },
+  "practical": {
+    "period": "Semester 2 (jan a jun) no catálogo 2026/27; a mobilidade 2027.2 tende a coincidir com o Semester 1 (set a jan) de 2027/28, em que o módulo não seria oferecido se mantiver o padrão de 2026/27",
+    "language": "Inglês (planilha institucional: exigência de IELTS 6.0, TOEFL iBT 87 ou equivalente)",
+    "enrolment": "A página não afirma disponibilidade para estudantes de intercâmbio (study abroad) e cita o módulo como parte do 'foundation year'; módulo não aprovado como 'discovery module'; turma de 36 alunos",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Os quatro itens do Syllabus de LUBS0030 (produto, preço, distribuição, comunicação) correspondem nominalmente aos quatro tópicos de Marketing II, mas ocupam fração de um módulo introdutório de 17,5 h, bem aquém das 63,3 h da ficha.",
+  "justification": "Três tópicos estão cobertos por itens nomeados (Pricing, Distribution strategies, Marketing communications) e Bens e Serviços é parcial, pois só aparecem 'Product strategies', sem serviços. Com 75% de cobertura integral e nenhum tópico ausente, o critério de conteúdo da alta afinidade seria atingido apenas no papel; o veto vem das horas (17,5 h = 28% de 63,3 h, 23% com hora de 50 min, contra os 75% do parâmetro) e da ficha brasileira sem vigência confirmada. Como cada tópico é uma única linha em Leeds, a profundidade é provavelmente menor do que em quatro unidades dedicadas, o que o catálogo não permite medir.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Syllabus itemizado e horas explícitas, porém cada item é uma linha sem detalhamento; ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Horas de contato semestrais declaradas (17,5 h), mas duração da hora não informada; 10 UK credits não convertidos",
+    "A página liga o módulo ao 'foundation year' e não declara disponibilidade para study abroad",
+    "Módulo lecionado no Semester 2 (jan a jun); oferta correspondente a 2027.2 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "O mesmo módulo foi cotejado com Marketing I; um único módulo de 17,5 h não sustentaria as duas disciplinas (126,6 h somadas)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Leeds oferece, para intercambistas, módulo de marketing de nível 2 ou 3 que aprofunde preço, distribuição e comunicação?",
+    "Como a coordenação trataria a razão de 0,28 entre horas de contato, mesmo com os quatro tópicos nominalmente presentes?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 4) e da página do módulo LUBS0030 no catálogo 2026/27 de Leeds, com apoio de IA (Claude); cada tópico vinculado ao item do Syllabus; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência nominal clara; limitação de horas e de profundidade explicitada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

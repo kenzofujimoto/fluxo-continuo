@@ -1,0 +1,146 @@
+{
+  "id": "adm|Marketing II|es-salamanca|CAT-USAL-209843",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209843",
+      "name": "Fundamentos de Comercialización",
+      "pageCode": "103820",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Comercialización e Investigación de Mercados)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segundo Semestre (datas não declaradas na guia)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exame final 60% (mínimo 4/10 para ponderar); avaliação contínua 40% (controles parciais e trabalhos); aprovação com 5/10 na nota global; presença mínima 80%",
+      "prerequisites": "Conhecimentos prévios de introdução à administração, introdução à economia e matemática; intercambistas: bons conhecimentos matemáticos (matrizes, sistemas de equações)",
+      "source": "https://guias.usal.es/node/209843",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "75eafc23e8a87ef3dbc26f0d295452081572ef8cf9e65e66928ba432572f6e7a",
+      "location": "Guia 2025/2026: 1 Datos, 2 Recomendaciones previas, 3 Objetivos, 4 Competencias, 5 Contenidos (Teoría Temas 1-6; Práctica Temas 1-3), 6 Metodologías (horas), 9 Evaluación",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": 14,
+        "contactSeminarLab": 21,
+        "selfStudy": 105,
+        "totalWorkload": 150,
+        "ects": 6.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Secção 6 declara 150 h de dedicação, das quais 45 h presenciais: 14 h magistrais, 21 h práticas, 1 h de tutoria, 4 h de preparação de exame e 5 h de provas; 105 h não presenciais (85 + 20). Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secção 3 (objetivos), secção 4 (competências CGfc/CEfc/CTfc), secção 5 (Teoría Temas 1-6 e Práctica Temas 1-3) e secção 6; nenhuma menção a produto, bens ou serviços",
+      "note": "A disciplina é de fundamentos: conceito de marketing, estratégia, ambiente, informação, comportamento de compra e segmentação."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4, 5 e 6 lidas integralmente; preço e política de preços não aparecem em nenhum tema teórico ou prático",
+      "note": "'Demanda y cuota de mercado' (Práctica 1) é análise de mercado, não decisão de preço."
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4, 5 e 6 lidas; canais de distribuição ausentes dos temas",
+      "note": "A competência CEfc4 cita 'relaciones con distribuidores y clientes', mas é uma habilidade-alvo, não um conteúdo programático."
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4, 5 e 6 lidas; comunicação/promoção de marketing ausente dos temas (CTfc4 trata comunicação do aluno, não do marketing)"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Conceito de marketing e papel na empresa e na economia", "location": "Secção 5, Teoría Tema 1"},
+    {"topic": "Estratégia de marketing e análise do entorno", "location": "Secção 5, Teoría Temas 2-3"},
+    {"topic": "Gestão da informação de marketing e comportamento de compra", "location": "Secção 5, Teoría Temas 4-5"},
+    {"topic": "Segmentação, targeting e posicionamento; matrizes estratégicas e atitudes", "location": "Secção 5, Teoría Tema 6; Práctica Temas 2-3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e definição da estratégia de preço, comunicação e distribuição para gerar valor superior.",
+    "foreign": ["Compreender a natureza e o papel do marketing", "Avaliar a situação competitiva e definir oportunidades e ameaças", "Segmentar o mercado e definir posicionamento", "Elaborar um plano de marketing"],
+    "convergences": ["Ambas pertencem à área de marketing da graduação em administração"],
+    "differences": ["Salamanca cobre o primeiro contato com marketing (conceito, entorno, comportamento, segmentação); as decisões de mix da ficha brasileira não são tratadas", "Quatro tópicos brasileiros sem correspondente"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca no 2º ano (obrigatória), Mackenzie na 4ª etapa",
+    "brazil": "Marketing aplicado de 63,3 h centrado em decisões do mix",
+    "foreign": "Fundamentos de marketing, equivalente em nível a uma disciplina introdutória",
+    "theoryPractice": "14 h magistrais e 21 h práticas presenciais (resolução de problemas e trabalhos), mais forte componente prático que teórico"
+  },
+  "practical": {
+    "period": "Segundo semestre do curso acadêmico, sem datas declaradas; se 2027.2 corresponder ao semestre de outono europeu, a oferta tende a não coincidir — confirmar com a COI",
+    "language": "Espanhol (nível B1/B2 exigido pela universidade para o intercâmbio)",
+    "enrolment": "A guia prevê alunos de intercâmbio (Erasmus, PEI) e exige bons conhecimentos de matemática; vagas não informadas",
+    "prerequisites": "Introdução à administração, introdução à economia e matemática recomendadas",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Fundamentos de Comercialización é um curso de marketing introdutório (conceito, entorno, comportamento do consumidor, segmentação e posicionamento) que não trata de bens e serviços, preço, distribuição nem comunicação, os quatro enunciados de Marketing II.",
+  "justification": "Nenhum dos quatro tópicos essenciais foi encontrado nos seis temas teóricos e três práticos da guia, o que resulta em baixa afinidade apesar do campo comum de marketing. A carga é a única medida explícita: 45 h presenciais (14 teóricas, 21 práticas, 1 de tutoria, 4 de preparação e 5 de provas), equivalentes a 0,71 das 63,3 h-relógio brasileiras e a 0,59 se a hora espanhola fosse de 50 min; mesmo se a razão fosse favorável, o conteúdo não coincide. A comparação sugere que a disciplina corresponde a um estágio anterior ao de Marketing II, e não ao mix de preço, distribuição e comunicação.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa temático explícito e horas presenciais declaradas, mas a guia é de 2025/2026, a duração da hora não consta e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Guia obtida é de 2025/2026, não de 2026/2027; oferta e conteúdo de 2027/28 não confirmados",
+    "Duração da hora de contato não declarada; razão calculada em 0,71 (hora de 60 min) e 0,59 (50 min)",
+    "A guia lista temas, não subtópicos: a ausência de preço, distribuição e comunicação vale para o texto publicado",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A disciplina Marketing I do Mackenzie seria um par mais adequado para este conteúdo introdutório?",
+    "Há outra disciplina de Salamanca de política comercial ou dirección comercial que trate preço, distribuição e comunicação?"
+  ],
+  "alternatives": [
+    {"code": "CAT-USAL-210412", "name": "International Marketing", "relation": "Lida em parecer separado deste lote; trata o mix em contexto internacional, em uma unidade única"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); busca de cada enunciado brasileiro nas secções 3 a 6 da guia espanhola; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Ausência clara de quatro tópicos em programa temático completo; horas explícitas"}
+}

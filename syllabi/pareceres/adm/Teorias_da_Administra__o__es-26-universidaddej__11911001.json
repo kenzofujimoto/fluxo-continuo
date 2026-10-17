@@ -1,0 +1,221 @@
+{
+  "id": "adm|Teorias da Administração|es-26-universidaddej|11911001",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Teorias da Administração",
+    "name": "Teorias da Administração",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 9, bloco 'Teorias da Administração': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Modelo Burocrático de Organização",
+      "Administração Científica",
+      "Teoria Clássica da Administração de Fayol",
+      "Teoria das Relações Humanas e suas decorrências",
+      "Introdução à Teoria Neoclássica da Administração e Administração por objetivos (APO)",
+      "Teoria dos Sistemas",
+      "O Necoclassicismo e a APO",
+      "Teoria Estruturalista da Administração",
+      "Teoria Contingencial",
+      "Visão Institucionalista das Organizações"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Administración de empresas",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U136 - Organización de Empresas, Marketing y Sociología (área 650 Organización de Empresas)",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Primer cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Exame teórico 70%; trabalhos, casos e exercícios 25%; assistência/participação 5%",
+      "prerequisites": "Nenhum indicado",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias, Descripción de contenidos (Temas 1-8 e práticas), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,50 h (75%) e A2a pequeño grupo 37,50 h (25%), ambas com 40% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado."
+      },
+      "sha256": "37328f51800b3ad6a96d9abefbb85fa1efbeb545a86f09999fb4a6fb643d71fc",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911001/es/2025-26-11911001_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11911001"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Modelo Burocrático de Organização",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría temas 1-8 (inclui 7.1 e 7.4 sobre estrutura e formas organizativas), Bibliografía",
+      "note": "O tema 7 trata desenho organizativo em termos atuais; burocracia/Weber não é nomeada.",
+      "essential": true
+    },
+    {
+      "brTopic": "Administração Científica",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-8, Práctica por tema, Bibliografía",
+      "note": "Taylor, racionalização do trabalho e estudo de tempos e métodos não aparecem.",
+      "essential": true
+    },
+    {
+      "brTopic": "Teoria Clássica da Administração de Fayol",
+      "status": "parcial",
+      "foreignEvidence": "'2.3. La dirección. Características y funciones'; tema 6 'la función de planificación' e 'el control en la empresa'",
+      "foreignLocation": "Teoría 2.3 e 6.1-6.3",
+      "note": "Funções diretivas (planejar, controlar) sem atribuí-las a Fayol nem enumerar princípios gerais da administração.",
+      "essential": true
+    },
+    {
+      "brTopic": "Teoria das Relações Humanas e suas decorrências",
+      "status": "parcial",
+      "foreignEvidence": "'8.1. La motivación'; '8.2. Teorías motivacionales de contenido y de proceso'; 8.8 comunicação",
+      "foreignLocation": "Teoría 8.1-8.8",
+      "note": "Motivação, liderança e comunicação cobrem o objeto da escola humanista, mas sem o contexto histórico (Hawthorne) nem o termo 'relações humanas'.",
+      "essential": true
+    },
+    {
+      "brTopic": "Introdução à Teoria Neoclássica da Administração e Administração por objetivos (APO)",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría temas 1-8 (inclui tema 6 planificação e controle), Práctica por tema",
+      "note": "Administração por objetivos e a escola neoclássica não são nomeadas; o tema 6 trata planejamento de forma genérica.",
+      "essential": true
+    },
+    {
+      "brTopic": "Teoria dos Sistemas",
+      "status": "parcial",
+      "foreignEvidence": "'1.2. La empresa como sistema abierto'; RUCT: 'La empresa como sistema: los subsistemas de la empresa'",
+      "foreignLocation": "Teoría 1.2; Resumen (memoria RUCT)",
+      "note": "Visão sistêmica da empresa, apresentada como conceito de partida e não como escola teórica com seus autores.",
+      "essential": true
+    },
+    {
+      "brTopic": "O Necoclassicismo e a APO",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría temas 1-8, Práctica por tema",
+      "note": "Repete o item sobre neoclassicismo e APO da ficha brasileira; mesma ausência.",
+      "essential": true
+    },
+    {
+      "brTopic": "Teoria Estruturalista da Administração",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-8 (7 desenho organizativo, 5 cultura), Bibliografía",
+      "note": "Abordagem estruturalista (organizações formais e informais, conflito, Etzioni) não aparece.",
+      "essential": true
+    },
+    {
+      "brTopic": "Teoria Contingencial",
+      "status": "coberto",
+      "foreignEvidence": "'7.3. Factores de contingencia' dentro de 'Tema 7. Diseño organizativo'",
+      "foreignLocation": "Teoría 7.3",
+      "note": "Item explícito, aplicado ao desenho organizativo.",
+      "essential": true
+    },
+    {
+      "brTopic": "Visão Institucionalista das Organizações",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-8 (inclui 5 cultura, ética e responsabilidade social, 2.4 governo da empresa), Bibliografía",
+      "note": "O tema 5 trata cultura e ética empresarial, não a teoria institucional (isomorfismo, legitimidade).",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Tipologia de empresas e empresa familiar",
+      "location": "Teoría 1.3-1.4"
+    },
+    {
+      "topic": "Empresário, propriedade, governo da empresa e seus órgãos",
+      "location": "Teoría tema 2.1-2.4"
+    },
+    {
+      "topic": "Direção estratégica, crescimento e internacionalização",
+      "location": "Teoría temas 3 e 4"
+    },
+    {
+      "topic": "Cultura, ética e responsabilidade social empresarial",
+      "location": "Teoría tema 5"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos característicos de cada escola da administração nos séculos XIX e XX, contexto histórico de cada uma e razões de muitas teorias permanecerem nas práticas organizacionais.",
+    "foreign": [
+      "C05 Conhecer os conceitos básicos de Direção de Empresas",
+      "CC22 Conhecer os ODS e a sua aplicabilidade à matéria"
+    ],
+    "convergences": [
+      "Visão sistêmica da empresa",
+      "Fatores de contingência no desenho organizativo",
+      "Motivação e funções diretivas como conceitos de base"
+    ],
+    "differences": [
+      "Mackenzie organiza o conteúdo por escolas e autores (burocracia, Taylor, Fayol, estruturalismo, institucionalismo); Jaén organiza por temas atuais de direção sem histórico das teorias",
+      "Jaén acrescenta estratégia, internacionalização e responsabilidade social, ausentes da ficha brasileira"
+    ]
+  },
+  "depth": {
+    "level": "Ambas introdutórias (Jaén 1º curso, Mackenzie 2ª etapa)",
+    "brazil": "Componente de história do pensamento administrativo de 63,3 h",
+    "foreign": "Introdução aplicada à administração de empresas, com casos e leituras de notícias",
+    "theoryPractice": "Jaén: lição magistral e método do caso; Mackenzie: ficha sem detalhe metodológico"
+  },
+  "practical": {
+    "period": "Primer cuatrimestre, compatível em calendário com 2027.2 se mantido",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC básica de 1º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A guia de Jaén não organiza o conteúdo por escolas de pensamento: só os fatores de contingência (7.3) coincidem com um item nomeado da ficha brasileira, e a visão sistêmica, as funções diretivas e a motivação aproximam três outros apenas em conceito.",
+  "justification": "Dos dez enunciados da ficha, um está coberto de forma explícita (contingencial, item 7.3) e três são parciais (Fayol via funções diretivas 2.3 e tema 6; relações humanas via motivação 8.1-8.8; sistemas via 1.2). Burocracia, administração científica, neoclassicismo/APO (citados duas vezes), estruturalismo e institucionalismo não aparecem em nenhuma secção. Cobertura total ou parcial de 4/10 (40%), abaixo do limiar de 50%; com 1/10 coberto, a meta de 75% está longe. A carga de 63,3 h não pode ser confrontada com a guia, que traz 150 h de atividades sem total presencial nem ECTS.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia integral lida e itemizada; a lista de escolas da ficha é precisa e a ausência delas na guia é nítida, mas faltam carga presencial e ECTS e a ficha brasileira não tem ano de vigência.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "A ficha repete o item neoclássico/APO em duas linhas, ambas avaliadas como essenciais",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O programa detalhado de Administración de empresas (bibliografia básica de Hernández Ortiz/Moyano Fuentes) dedica unidade à evolução do pensamento administrativo?",
+    "A coordenação exige tratamento nominal das escolas para aproveitar Teorias da Administração?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência das escolas nominais é evidente nos dois documentos"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}
