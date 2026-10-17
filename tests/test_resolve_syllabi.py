@@ -46,3 +46,12 @@ def test_find_course_link_by_normalized_anchor_text():
 def test_candidate_urls_for_constructible_providers():
     assert candidate_urls("es-cadiz", "21714038", "https://esingenieria.uca.es/docencia/") == ["https://asignaturas.uca.es/2026-27/21714038", "https://asignaturas.uca.es/2025-26/21714038"]
     assert candidate_urls("es-salamanca", "CAT-USAL-1", "https://guias.usal.es/node/210314") == ["https://guias.usal.es/node/210314"]
+
+
+def test_code_match_with_another_course_title_is_rejected():
+    page = ("Programa docente (2026-27) <21719027 | ELECTRÓNICA DIGITAL> Asignatura: 21719027 | ELECTRÓNICA DIGITAL "
+            "Temario Tema 1 Sistemas de numeración. " + "texto " * 300)
+    v = verify_programme(page, "Proyectos Informáticos", "21719027", [])
+    assert not v["ok"] and "outra disciplina" in v["reason"]
+    ok = ("Programa docente <21714014 | ANÁLISIS DE ALGORITMOS Y ESTRUCTURAS DE DATOS> Temario Tema 1. " + "x " * 500)
+    assert verify_programme(ok, "Análisis de Algoritmos y Estructura de Datos", "21714014", [])["ok"]

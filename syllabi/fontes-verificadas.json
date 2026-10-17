@@ -1,7 +1,7 @@
 {
  "meta": {
   "updated": "2026-10-17T01:20:46Z",
-  "foreign": 399,
+  "foreign": 398,
   "policy": "Somente programas individuais oficiais verificados por identidade da disciplina e seção de conteúdos."
  },
  "foreign": [
@@ -336,22 +336,6 @@
    "format": "html",
    "identifiedBy": [
     "title",
-    "code"
-   ],
-   "contentMarker": "TEMARIO",
-   "checkedAt": "2026-10-16T20:03:43Z",
-   "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem"
-  },
-  {
-   "universityId": "es-cadiz",
-   "code": "21719027",
-   "name": "Proyectos Informáticos",
-   "source": "https://asignaturas.uca.es/2026-27/21719027",
-   "individualSyllabus": true,
-   "academicYear": "2026/2027",
-   "sha256": "f34cf16bea0e9f626372c8a24acefb35cf8b7f1854d316a5c1b848335ce97af7",
-   "format": "html",
-   "identifiedBy": [
     "code"
    ],
    "contentMarker": "TEMARIO",

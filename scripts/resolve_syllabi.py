@@ -68,6 +68,14 @@ def verify_programme(text: str, title: str, code: str, other_titles: list[str]) 
         ident.append("code")
     if not ident:
         return {"ok": False, "reason": "disciplina não identificada no topo da página"}
+    if ident == ["code"]:
+        # A code alone is not enough: the name printed next to it must be this course (catalogues reuse codes).
+        near = fold(text[:8000])
+        pos = near.find(fold(code))
+        window = set(near[pos:pos + 160].split()) - {fold(code)}
+        want = {w for w in t.split() if len(w) > 2}
+        if not want or len(want & window) / len(want) < 0.5:
+            return {"ok": False, "reason": "código aponta para outra disciplina (título junto ao código não confere)"}
     others = {fold(o) for o in other_titles if fold(o) and fold(o) != t and len(fold(o)) >= 6}
     full = fold(text)
     found = sum(1 for o in others if o in full)
