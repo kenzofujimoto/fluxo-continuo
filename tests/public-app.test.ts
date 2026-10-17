@@ -1,6 +1,23 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
+import { filterDestinations, parseLocations } from "../lib/locations";
+
+test("destination filters distinguish eligibility from course selection and normalize accents", () => {
+  const universities = getRepository().universities;
+  assert.equal(filterDestinations(universities, { q: "zz-no-result" }).length, 0);
+  assert.deepEqual(filterDestinations(universities, { course: "cc", eligible: true }), universities.filter(u => u.courses.cc));
+  assert.equal(filterDestinations(universities, { course: "cc", eligible: false }).length, universities.length);
+  assert.equal(filterDestinations(universities, { eligible: true }).length, universities.length);
+  assert.deepEqual(filterDestinations(universities, { q: "espanha" }), universities.filter(u => u.country === "Espanha"));
+});
+
+test("map locations reject unsafe sources and out-of-range coordinates", () => {
+  const origin = { name: "Origin", city: "City", lat: 0, lng: 0, precision: "city", source: "https://example.org", verifiedAt: "2026-10-16" };
+  assert.throws(() => parseLocations({ origin: { ...origin, lat: 91 }, universities: [] }));
+  assert.throws(() => parseLocations({ origin, universities: [{ ...origin, universityId: "test", source: "javascript:alert(1)" }] }));
+  assert.throws(() => parseLocations({ origin, universities: [{ ...origin, universityId: "test" }, { ...origin, universityId: "test" }] }));
+});
 import {
   getRepository,
   getDiscipline,
