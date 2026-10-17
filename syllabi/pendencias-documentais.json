@@ -1,16 +1,14 @@
 {
  "meta": {
-  "generated": "2026-10-16T19:54:22+00:00",
+  "generated": "2026-10-17T01:28:02+00:00",
   "brazilCounts": {
    "cc": {
-    "vigente_vinculada": 34,
-    "solicitar_ementa": 7,
-    "confirmar_inconsistencia": 1,
+    "vigente_vinculada": 39,
+    "confirmar_inconsistencia": 3,
     "regra_especifica": 5
    },
    "si": {
-    "vigente_vinculada": 40,
-    "solicitar_ementa": 2,
+    "vigente_vinculada": 42,
     "regra_especifica": 4
    },
    "adm": {
@@ -24,8 +22,8 @@
    }
   },
   "foreignUniversities": 55,
-  "foreignMissingSyllabi": 894,
-  "insufficientCatalogueCrossings": 3754,
+  "foreignMissingSyllabi": 821,
+  "insufficientCatalogueCrossings": 3544,
   "note": "Pendência documental não é incompatibilidade. Tentativas malsucedidas não provam inexistência do documento."
  },
  "labels": {
@@ -93,11 +91,11 @@
      "code": "ENUN51118",
      "name": "Ética e Cidadania",
      "stage": 1,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "vigente_vinculada",
+     "label": "Ementa oficial vigente vinculada",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+     "documentYear": 2025,
+     "detail": "Ementário público FCI 2025, câmpus Alphaville"
     },
     {
      "code": "ENEC54229",
@@ -113,11 +111,11 @@
      "code": "ENEX54357",
      "name": "Análise de Dados",
      "stage": 2,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "confirmar_inconsistencia",
+     "label": "Confirmar inconsistência no documento oficial",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+     "documentYear": 2025,
+     "detail": "Matriz: 'Análise de Dados'; ementário 2025 da 2ª etapa: 'Análise de Dados Aplicada'. Confirmar com a coordenação se é o mesmo componente."
     },
     {
      "code": "ENEX54356",
@@ -133,11 +131,11 @@
      "code": "ENUN51119",
      "name": "Introdução à Cosmovisão Reformada",
      "stage": 2,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "vigente_vinculada",
+     "label": "Ementa oficial vigente vinculada",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+     "documentYear": 2025,
+     "detail": "Ementário público FCI 2025, câmpus Alphaville"
     },
     {
      "code": "ENEX54359",
@@ -153,11 +151,11 @@
      "code": "ENUN52242",
      "name": "Princípios de Empreendedorismo",
      "stage": 2,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "vigente_vinculada",
+     "label": "Ementa oficial vigente vinculada",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+     "documentYear": 2025,
+     "detail": "Ementário público FCI 2025, câmpus Alphaville"
     },
     {
      "code": "ENEC54239",
@@ -173,11 +171,11 @@
      "code": "ENEC50078",
      "name": "Banco de Dados",
      "stage": 3,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "confirmar_inconsistencia",
+     "label": "Confirmar inconsistência no documento oficial",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+     "documentYear": 2025,
+     "detail": "Matriz: 'Banco de Dados'; ementário 2025 da 3ª etapa: 'Fundamentos de Banco de Dados'. Confirmar com a coordenação se é o mesmo componente."
     },
     {
      "code": "ENEX54362",
@@ -213,11 +211,11 @@
      "code": "ENUN51121",
      "name": "Projetos Empreendedores",
      "stage": 3,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "vigente_vinculada",
+     "label": "Ementa oficial vigente vinculada",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+     "documentYear": 2025,
+     "detail": "Ementário público FCI 2025, câmpus Alphaville"
     },
     {
      "code": "ENEX60047",
@@ -283,11 +281,11 @@
      "code": "ENEC61012",
      "name": "Introdução à Engenharia de Software",
      "stage": 5,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "vigente_vinculada",
+     "label": "Ementa oficial vigente vinculada",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+     "documentYear": 2025,
+     "detail": "Ementário público FCI 2025, câmpus Alphaville"
     },
     {
      "code": "ENEC54303",
@@ -511,9 +509,8 @@
     }
    ],
    "counts": {
-    "vigente_vinculada": 34,
-    "solicitar_ementa": 7,
-    "confirmar_inconsistencia": 1,
+    "vigente_vinculada": 39,
+    "confirmar_inconsistencia": 3,
     "regra_especifica": 5
    }
   },
@@ -804,11 +801,11 @@
      "code": "",
      "name": "GESTÃO DE PROJETOS DE TECNOLOGIA DA INFORMAÇÃO",
      "stage": 5,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "vigente_vinculada",
+     "label": "Ementa oficial vigente vinculada",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+     "documentYear": 2025,
+     "detail": "Ementário público FCI 2025, câmpus Alphaville"
     },
     {
      "code": "",
@@ -834,11 +831,11 @@
      "code": "",
      "name": "SERVIÇOS EM NUVEM",
      "stage": 5,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "vigente_vinculada",
+     "label": "Ementa oficial vigente vinculada",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+     "documentYear": 2025,
+     "detail": "Ementário público FCI 2025, câmpus Alphaville"
     },
     {
      "code": "",
@@ -982,8 +979,7 @@
     }
    ],
    "counts": {
-    "vigente_vinculada": 40,
-    "solicitar_ementa": 2,
+    "vigente_vinculada": 42,
     "regra_especifica": 4
    }
   },
@@ -2361,7 +2357,7 @@
    "name": "Universidade do Porto",
    "country": "Portugal",
    "catalogUrl": "https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=licenciaturas-e-mestrados-integrados",
-   "insufficientCatalogueCrossings": 182,
+   "insufficientCatalogueCrossings": 183,
    "missingSyllabi": [
     {
      "code": "CC4076",
@@ -2395,8 +2391,14 @@
    "name": "Northeastern Illinois University",
    "country": "EUA",
    "catalogUrl": "https://www.neiu.edu/academics/majors-minors-graduate-programs-certificates",
-   "insufficientCatalogueCrossings": 133,
+   "insufficientCatalogueCrossings": 136,
    "missingSyllabi": [
+    {
+     "code": "CS-426",
+     "name": "Advanced Numerical Methods",
+     "reason": "candidata por conceitos",
+     "source": "https://catalog.neiu.edu/courses/cs/"
+    },
     {
      "code": "CS-408",
      "name": "Advanced Operating Systems",
@@ -2506,14 +2508,14 @@
      "source": "https://catalog.neiu.edu/courses/cs/"
     },
     {
-     "code": "CS-315",
-     "name": "Modern Database Management",
+     "code": "CS-345",
+     "name": "Network Security",
      "reason": "candidata por conceitos",
      "source": "https://catalog.neiu.edu/courses/cs/"
     },
     {
-     "code": "CS-345",
-     "name": "Network Security",
+     "code": "CS-326",
+     "name": "Numerical Methods Using Fortran Programming",
      "reason": "candidata por conceitos",
      "source": "https://catalog.neiu.edu/courses/cs/"
     },
@@ -2645,7 +2647,7 @@
    "name": "Soongsil University",
    "country": "Coreia do Sul",
    "catalogUrl": "https://sec.ssu.ac.kr/page/subject_contents.php",
-   "insufficientCatalogueCrossings": 139,
+   "insufficientCatalogueCrossings": 140,
    "missingSyllabi": [
     {
      "code": "CAT-SSU-INFOSEC-012",
@@ -2680,12 +2682,6 @@
     {
      "code": "CAT-SSU-INFOSEC-006",
      "name": "Cybersecurity Ethics",
-     "reason": "candidata por conceitos",
-     "source": "https://sec.ssu.ac.kr/page/subject_contents.php"
-    },
-    {
-     "code": "CAT-SSU-INFOSEC-026",
-     "name": "Database Security",
      "reason": "candidata por conceitos",
      "source": "https://sec.ssu.ac.kr/page/subject_contents.php"
     },
@@ -2824,47 +2820,119 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "gb-leeds",
-   "name": "University of Leeds",
-   "country": "Inglaterra",
-   "catalogUrl": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
-   "insufficientCatalogueCrossings": 144,
+   "universityId": "tu-66-istanbulaydnun",
+   "name": "İstanbul Aydın Üniversitesi",
+   "country": "Turquia",
+   "catalogUrl": "https://study.aydin.edu.tr/programs/",
+   "insufficientCatalogueCrossings": 132,
    "missingSyllabi": [
     {
-     "code": "COMP3950",
-     "name": "Compiler Design & Optimisation",
+     "code": "COM373",
+     "name": "ALGORITHMICS MATHEMATICS",
      "reason": "candidata por conceitos",
-     "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3950/202627"
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
     },
     {
-     "code": "COMP3912",
-     "name": "Optimisation with Applications in AI",
+     "code": "COM386",
+     "name": "ANALYSIS AND DESIGN OF ALGORITHMS",
      "reason": "candidata por conceitos",
-     "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3912/202627"
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
     },
     {
-     "code": "COMP3630",
-     "name": "Artificial Intelligence and Robotics",
-     "reason": "candidata registrada",
-     "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3630/202627"
+     "code": "BLE101",
+     "name": "BUSINESS LAW AND PROFESSIONAL ETHICS",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
     },
     {
-     "code": "COMP3270",
-     "name": "High-performance Computing",
-     "reason": "candidata registrada",
-     "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3270/202627"
+     "code": "COM312",
+     "name": "COMPUTER NETWORKS",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
     },
     {
-     "code": "COMP3620",
-     "name": "Neural Networks & Deep Learning",
-     "reason": "candidata registrada",
-     "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3620/202627"
+     "code": "GRI403",
+     "name": "ENTREPRENEURSHIP",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
     },
     {
-     "code": "COMP3212",
-     "name": "Resilient Distributed Systems",
+     "code": "COM212",
+     "name": "INTRODUCTION TO WEB TECHNOLOGIES",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM382",
+     "name": "MICROPROCESSORS",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM227",
+     "name": "NUMERICAL METHODS",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM256",
+     "name": "OBJECT ORIENTED PROGRAMMING",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "MAT319",
+     "name": "PROBABILITY AND STATISTICS FOR ENGINEERS",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM322",
+     "name": "SOFTWARE ENGINEERING",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM329",
+     "name": "WEB PROGRAMMING",
+     "reason": "candidata por conceitos",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM339",
+     "name": "ADVANCED PROGRAMMING",
      "reason": "candidata registrada",
-     "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3212/202627"
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM119",
+     "name": "COMPUTER PROGRAMMING-I",
+     "reason": "candidata registrada",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM124",
+     "name": "COMPUTER PROGRAMMING-II",
+     "reason": "candidata registrada",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM251",
+     "name": "DATA STRUCTURES",
+     "reason": "candidata registrada",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM275",
+     "name": "DISCRETE MATHEMATICS",
+     "reason": "candidata registrada",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
+    },
+    {
+     "code": "COM254",
+     "name": "OPERATING SYSTEMS",
+     "reason": "candidata registrada",
+     "source": "https://study.aydin.edu.tr/computer-engineering/"
     }
    ],
    "parecerAnomalies": []
@@ -2874,7 +2942,7 @@
    "name": "IADE",
    "country": "Portugal",
    "catalogUrl": "https://www.iade.europeia.pt/cursos/licenciaturas",
-   "insufficientCatalogueCrossings": 146,
+   "insufficientCatalogueCrossings": 147,
    "missingSyllabi": [
     {
      "code": "CAT-PT-IADE-002",
@@ -2886,12 +2954,6 @@
      "code": "CAT-PT-IADE-004",
      "name": "Segurança Informática",
      "reason": "candidata por conceitos",
-     "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
-    },
-    {
-     "code": "CAT-PT-IADE-005",
-     "name": "Inteligência Artificial",
-     "reason": "candidata registrada",
      "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/"
     }
    ],
@@ -2962,730 +3024,6 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "tu-66-istanbulaydnun",
-   "name": "İstanbul Aydın Üniversitesi",
-   "country": "Turquia",
-   "catalogUrl": "https://study.aydin.edu.tr/programs/",
-   "insufficientCatalogueCrossings": 129,
-   "missingSyllabi": [
-    {
-     "code": "COM373",
-     "name": "ALGORITHMICS MATHEMATICS",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM386",
-     "name": "ANALYSIS AND DESIGN OF ALGORITHMS",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "BLE101",
-     "name": "BUSINESS LAW AND PROFESSIONAL ETHICS",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM312",
-     "name": "COMPUTER NETWORKS",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM353",
-     "name": "DATABASE SYSTEMS",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "GRI403",
-     "name": "ENTREPRENEURSHIP",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM212",
-     "name": "INTRODUCTION TO WEB TECHNOLOGIES",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM382",
-     "name": "MICROPROCESSORS",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM256",
-     "name": "OBJECT ORIENTED PROGRAMMING",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "MAT319",
-     "name": "PROBABILITY AND STATISTICS FOR ENGINEERS",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM322",
-     "name": "SOFTWARE ENGINEERING",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM329",
-     "name": "WEB PROGRAMMING",
-     "reason": "candidata por conceitos",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM339",
-     "name": "ADVANCED PROGRAMMING",
-     "reason": "candidata registrada",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM119",
-     "name": "COMPUTER PROGRAMMING-I",
-     "reason": "candidata registrada",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM124",
-     "name": "COMPUTER PROGRAMMING-II",
-     "reason": "candidata registrada",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM251",
-     "name": "DATA STRUCTURES",
-     "reason": "candidata registrada",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM275",
-     "name": "DISCRETE MATHEMATICS",
-     "reason": "candidata registrada",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    },
-    {
-     "code": "COM254",
-     "name": "OPERATING SYSTEMS",
-     "reason": "candidata registrada",
-     "source": "https://study.aydin.edu.tr/computer-engineering/"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
-   "universityId": "es-cadiz",
-   "name": "Universidad de Cádiz",
-   "country": "Espanha",
-   "catalogUrl": "https://www.uca.es/grados/?lang=em",
-   "insufficientCatalogueCrossings": 111,
-   "missingSyllabi": [
-    {
-     "code": "21714038",
-     "name": "Administración y Seguridad de Redes de Computadores",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714014",
-     "name": "Análisis de Algoritmos y Estructura de Datos",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714034",
-     "name": "Diseño Avanzado de Arquitectura de Computadores",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714015",
-     "name": "Diseño de Algoritmos",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714002",
-     "name": "Estadística",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714080",
-     "name": "Interacción Persona-Ordenador",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714017",
-     "name": "Programación Orientada a Objetos",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714059",
-     "name": "Seguridad en los Sistemas Informáticos",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714027",
-     "name": "Teoría de Autómatas y Lenguajes Formales",
-     "reason": "candidata por conceitos",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714053",
-     "name": "Administración de Bases de Datos",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714019",
-     "name": "Arquitectura de Computadores",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714032",
-     "name": "Arquitectura de Computadores Paralelos y Distribuidos",
-     "reason": "candidata registrada",
-     "source": "https://asignaturas.uca.es/2026-27/21714032"
-    },
-    {
-     "code": "21714011",
-     "name": "Bases de Datos",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714024",
-     "name": "Complejidad Computacional",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21506032",
-     "name": "Dirección de Marketing",
-     "reason": "candidata registrada",
-     "source": "https://asignaturas2.uca.es/wuca_asignaturasttg1617_asignatura7748.html?asign=21506032&dpto=C148&titul=21506"
-    },
-    {
-     "code": "21714039",
-     "name": "Diseño de Redes de Computadores",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714016",
-     "name": "Estructura de Datos no Lineales",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714051",
-     "name": "Ingeniería de Sistemas de Información",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714012",
-     "name": "Ingeniería del Software",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714013",
-     "name": "Inteligencia Artificial",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714006",
-     "name": "Introducción a la Programación",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714010",
-     "name": "Matemática Discreta",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714007",
-     "name": "Metodología de la Programación",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714001",
-     "name": "Organización y Gestión de Empresas",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714063",
-     "name": "Programación Web",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714049",
-     "name": "Programación en Internet",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21719027",
-     "name": "Proyectos Informáticos",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714021",
-     "name": "Redes de Computadores",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714023",
-     "name": "Sistemas Operativos",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714052",
-     "name": "Sistemas de Información en la Empresa",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714054",
-     "name": "Tecnologías Avanzadas de Bases de Datos",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    },
-    {
-     "code": "21714055",
-     "name": "Tecnologías de Inteligencia de Negocio",
-     "reason": "candidata registrada",
-     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
-    }
-   ],
-   "parecerAnomalies": [
-    {
-     "parecer": "cc|ENEC61018|es-cadiz|21714033",
-     "reason": "Classe rebaixada em relação à derivada pela regra; convém revisão humana do peso dos tópicos parciais"
-    }
-   ]
-  },
-  {
-   "universityId": "es-salamanca",
-   "name": "Universidad de Salamanca",
-   "country": "Espanha",
-   "catalogUrl": "https://www.usal.es/grados",
-   "insufficientCatalogueCrossings": 73,
-   "missingSyllabi": [
-    {
-     "code": "CAT-USAL-210314",
-     "name": "ADMINISTRACIÓN DE RECURSOS HUMANOS",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/210314"
-    },
-    {
-     "code": "CAT-USAL-207645",
-     "name": "ADMINISTRACIÓN PÚBLICA Y DEFENSA: ORGANIZACIÓN Y SERVICIO PÚBLICO",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207645"
-    },
-    {
-     "code": "CAT-USAL-207653",
-     "name": "CLÍNICA JURÍDICA DE ACCIÓN SOCIAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207653"
-    },
-    {
-     "code": "CAT-USAL-207665",
-     "name": "COMPETENCIA Y PROPIEDAD INTELECTUAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207665"
-    },
-    {
-     "code": "CAT-USAL-210334",
-     "name": "COMPORTAMIENTO ORGANIZACIONAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/210334"
-    },
-    {
-     "code": "CAT-USAL-207230",
-     "name": "CONTRATOS PÚBLICOS, URBANISMO Y ORDENACIÓN DEL TERRITORIO",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207230"
-    },
-    {
-     "code": "CAT-USAL-207685",
-     "name": "DELITOS CONTRA BIENES JURÍDICOS COLECTIVOS",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207685"
-    },
-    {
-     "code": "CAT-USAL-207265",
-     "name": "DELITOS CONTRA BIENES JURÍDICOS INDIVIDUALES",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207265"
-    },
-    {
-     "code": "CAT-USAL-207513",
-     "name": "DERECHO DE FAMILIA",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207513"
-    },
-    {
-     "code": "CAT-USAL-207341",
-     "name": "DERECHO DE OBLIGACIONES Y CONTRATOS",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207341"
-    },
-    {
-     "code": "CAT-USAL-207527",
-     "name": "DERECHO DE SUCESIONES",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207527"
-    },
-    {
-     "code": "CAT-USAL-207531",
-     "name": "DERECHO DEL TRABAJO",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207531"
-    },
-    {
-     "code": "CAT-USAL-207714",
-     "name": "DERECHO FINANCIERO AUTONÓMICO Y LOCAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207714"
-    },
-    {
-     "code": "CAT-USAL-207546",
-     "name": "DERECHO FINANCIERO Y TRIBUTARIO (PARTE ESPECIAL)",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207546"
-    },
-    {
-     "code": "CAT-USAL-207557",
-     "name": "DERECHO FINANCIERO Y TRIBUTARIO (PARTE GENERAL)",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207557"
-    },
-    {
-     "code": "CAT-USAL-210352",
-     "name": "DERECHO LABORAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/210352"
-    },
-    {
-     "code": "CAT-USAL-207730",
-     "name": "DERECHO MATRIMONIAL DE LAS CONFESIONES RELIGIOSAS Y SU RECONOCIMIENTO CIVIL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207730"
-    },
-    {
-     "code": "CAT-USAL-209476",
-     "name": "DERECHO MERCANTIL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209476"
-    },
-    {
-     "code": "CAT-USAL-210360",
-     "name": "DERECHO MERCANTIL DE LA UE",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/210360"
-    },
-    {
-     "code": "CAT-USAL-207570",
-     "name": "DERECHO PROCESAL CIVIL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207570"
-    },
-    {
-     "code": "CAT-USAL-207735",
-     "name": "DERECHO PROCESAL PENAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207735"
-    },
-    {
-     "code": "CAT-USAL-206909",
-     "name": "DERECHO ROMANO",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/206909"
-    },
-    {
-     "code": "CAT-USAL-207602",
-     "name": "DERECHO SINDICAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207602"
-    },
-    {
-     "code": "CAT-USAL-207408",
-     "name": "DERECHOS FUNDAMENTALES Y ORGANIZACIÓN TERRITORIAL DEL ESTADO",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207408"
-    },
-    {
-     "code": "CAT-USAL-210096",
-     "name": "DIRECCIÓN ESTRATÉGICA",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/210096"
-    },
-    {
-     "code": "CAT-USAL-207755",
-     "name": "ECONOMÍA APLICADA AL ANÁLISIS DEL DERECHO",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207755"
-    },
-    {
-     "code": "CAT-USAL-209525",
-     "name": "ECONOMÍA ESPAÑOLA",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209525"
-    },
-    {
-     "code": "CAT-USAL-206926",
-     "name": "ECONOMÍA POLÍTICA",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/206926"
-    },
-    {
-     "code": "CAT-USAL-209563",
-     "name": "ECONOMÍA PÚBLICA Y SISTEMA FISCAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209563"
-    },
-    {
-     "code": "CAT-USAL-209604",
-     "name": "ESTADÍSTICA I",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209604"
-    },
-    {
-     "code": "CAT-USAL-209810",
-     "name": "ESTADÍSTICA II",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209810"
-    },
-    {
-     "code": "CAT-USAL-210178",
-     "name": "ESTRATEGIA COMERCIAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/210178"
-    },
-    {
-     "code": "CAT-USAL-210214",
-     "name": "ESTRATEGIAS CORPORATIVAS",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/210214"
-    },
-    {
-     "code": "CAT-USAL-206969",
-     "name": "FUNDAMENTOS DE DERECHO ADMINISTRATIVO",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/206969"
-    },
-    {
-     "code": "CAT-USAL-209634",
-     "name": "FUNDAMENTOS DE DERECHO CIVIL PATRIMONIAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209634"
-    },
-    {
-     "code": "CAT-USAL-207761",
-     "name": "HISTORIA DEL CONSTITUCIONALISMO EN ESPAÑA",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207761"
-    },
-    {
-     "code": "CAT-USAL-209660",
-     "name": "HISTORIA ECONÓMICA",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209660"
-    },
-    {
-     "code": "CAT-USAL-209681",
-     "name": "INTRODUCCIÓN A LA ADMINISTRACIÓN",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209681"
-    },
-    {
-     "code": "CAT-USAL-207087",
-     "name": "INTRODUCCIÓN AL DERECHO PENAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207087"
-    },
-    {
-     "code": "CAT-USAL-207622",
-     "name": "INTRODUCCIÓN AL DERECHO PROCESAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207622"
-    },
-    {
-     "code": "CAT-USAL-207771",
-     "name": "JUSTICIA CONSTITUCIONAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207771"
-    },
-    {
-     "code": "CAT-USAL-210422",
-     "name": "OPERACIONES SOCIETARIAS",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/210422"
-    },
-    {
-     "code": "CAT-USAL-207780",
-     "name": "ORATORIA Y PRÁCTICA FORENSE",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207780"
-    },
-    {
-     "code": "CAT-USAL-207150",
-     "name": "PARTE GENERAL DE DERECHO CIVIL. DERECHO DE LA PERSONA",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207150"
-    },
-    {
-     "code": "CAT-USAL-209949",
-     "name": "SISTEMAS DE INFORMACIÓN CONTABLES INTERNOS",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/209949"
-    },
-    {
-     "code": "CAT-USAL-207481",
-     "name": "TEORÍA JURÍDICA DEL DELITO",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207481"
-    },
-    {
-     "code": "CAT-USAL-207711",
-     "name": "DERECHO DE LA SEGURIDAD SOCIAL",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/207711"
-    },
-    {
-     "code": "CAT-USAL-207719",
-     "name": "DERECHO INTERNACIONAL PRIVADO",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/207719"
-    },
-    {
-     "code": "CAT-USAL-207378",
-     "name": "DERECHO INTERNACIONAL PÚBLICO",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/207378"
-    },
-    {
-     "code": "CAT-USAL-209785",
-     "name": "DIRECCIÓN DE OPERACIONES",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/209785"
-    },
-    {
-     "code": "CAT-USAL-209843",
-     "name": "FUNDAMENTOS DE COMERCIALIZACIÓN",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/209843"
-    },
-    {
-     "code": "CAT-USAL-209880",
-     "name": "GESTIÓN FINANCIERA DEL CIRCULANTE",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/209880"
-    },
-    {
-     "code": "CAT-USAL-207041",
-     "name": "HISTORIA DEL DERECHO",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/207041"
-    },
-    {
-     "code": "CAT-USAL-210404",
-     "name": "INNOVACIÓN EMPRESARIAL",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/210404"
-    },
-    {
-     "code": "CAT-USAL-210412",
-     "name": "INTERNATIONAL MARKETING",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/210412"
-    },
-    {
-     "code": "CAT-USAL-209895",
-     "name": "MACROECONOMÍA",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/209895"
-    },
-    {
-     "code": "CAT-USAL-210415",
-     "name": "MARKETING SECTORIAL",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/210415"
-    },
-    {
-     "code": "CAT-USAL-209916",
-     "name": "MICROECONOMÍA I",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/209916"
-    },
-    {
-     "code": "CAT-USAL-210252",
-     "name": "MICROECONOMÍA II",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/210252"
-    },
-    {
-     "code": "CAT-USAL-209738",
-     "name": "SISTEMA DE INFORMACIÓN CONTABLE",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/209738"
-    },
-    {
-     "code": "CAT-USAL-207221",
-     "name": "TEORÍA DEL DERECHO",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/207221"
-    },
-    {
-     "code": "CAT-USAL-209979",
-     "name": "VALORACIÓN FINANCIERA",
-     "reason": "candidata registrada",
-     "source": "https://guias.usal.es/node/209979"
-    }
-   ],
-   "parecerAnomalies": [
-    {
-     "parecer": "cc|ENEC54298|es-salamanca|101131",
-     "reason": "Anomalia na extração dos tópicos oficiais (cabeçalho de página e enunciado composto) afeta a contagem"
-    },
-    {
-     "parecer": "cc|ENEC61014|es-salamanca|101120",
-     "reason": "Classe rebaixada em relação à derivada; e horas ausentes"
-    },
-    {
-     "parecer": "si|DESENVOLVIMENTO WEB II|es-salamanca|101136",
-     "reason": "Guia de dupla titulação com campo 'Carácter' vazio; identidade do plano acessível ao intercambista a confirmar"
-    },
-    {
-     "parecer": "si|INTERFACE HUMANO-COMPUTADOR|es-salamanca|101120",
-     "reason": "Classe rebaixada em relação à derivada pela regra"
-    }
-   ]
-  },
-  {
    "universityId": "us-pittsburg",
    "name": "Pittsburg State University",
    "country": "EUA",
@@ -3719,66 +3057,7 @@
    "country": "Portugal",
    "catalogUrl": "https://www.ipp.pt/ensino/cursos/licenciatura",
    "insufficientCatalogueCrossings": 121,
-   "missingSyllabi": [
-    {
-     "code": "CAT-PT-ESTG-002",
-     "name": "Sistemas Distribuídos",
-     "reason": "candidata por conceitos",
-     "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
-    },
-    {
-     "code": "CAT-PT-ESTG-003",
-     "name": "Administração de Sistemas Informáticos",
-     "reason": "candidata registrada",
-     "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
-    },
-    {
-     "code": "CAT-PT-ESTG-001",
-     "name": "Computação Móvel e Ubíqua",
-     "reason": "candidata registrada",
-     "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
-    },
-    {
-     "code": "CAT-PT-ESTG-004",
-     "name": "Laboratório de Desenvolvimento de Software",
-     "reason": "candidata registrada",
-     "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
-   "universityId": "pt-ubi",
-   "name": "Universidade da Beira Interior",
-   "country": "Portugal",
-   "catalogUrl": "http://www.ubi.pt/cursos",
-   "insufficientCatalogueCrossings": 116,
-   "missingSyllabi": [
-    {
-     "code": "17909",
-     "name": "Segurança de Sistemas Informáticos",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ubi.pt/Disciplina/17909/2026"
-    },
-    {
-     "code": "17908",
-     "name": "Segurança e Fiabilidade de Software",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ubi.pt/Disciplina/17908/2026"
-    },
-    {
-     "code": "17912",
-     "name": "Virtualização e Centros de Dados",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ubi.pt/Disciplina/17912/2026"
-    },
-    {
-     "code": "17905",
-     "name": "Computação Interativa e Visualização",
-     "reason": "candidata registrada",
-     "source": "https://www.ubi.pt/Disciplina/17905/2026"
-    }
-   ],
+   "missingSyllabi": [],
    "parecerAnomalies": []
   },
   {
@@ -3816,19 +3095,102 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "pt-ubi",
+   "name": "Universidade da Beira Interior",
+   "country": "Portugal",
+   "catalogUrl": "http://www.ubi.pt/cursos",
+   "insufficientCatalogueCrossings": 116,
+   "missingSyllabi": [],
+   "parecerAnomalies": []
+  },
+  {
+   "universityId": "es-cadiz",
+   "name": "Universidad de Cádiz",
+   "country": "Espanha",
+   "catalogUrl": "https://www.uca.es/grados/?lang=em",
+   "insufficientCatalogueCrossings": 104,
+   "missingSyllabi": [
+    {
+     "code": "21714038",
+     "name": "Administración y Seguridad de Redes de Computadores",
+     "reason": "candidata por conceitos",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714034",
+     "name": "Diseño Avanzado de Arquitectura de Computadores",
+     "reason": "candidata por conceitos",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714059",
+     "name": "Seguridad en los Sistemas Informáticos",
+     "reason": "candidata por conceitos",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714011",
+     "name": "Bases de Datos",
+     "reason": "candidata registrada",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714039",
+     "name": "Diseño de Redes de Computadores",
+     "reason": "candidata registrada",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714002",
+     "name": "Estadística",
+     "reason": "candidata registrada",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714051",
+     "name": "Ingeniería de Sistemas de Información",
+     "reason": "candidata registrada",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714006",
+     "name": "Introducción a la Programación",
+     "reason": "candidata registrada",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714010",
+     "name": "Matemática Discreta",
+     "reason": "candidata registrada",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714007",
+     "name": "Metodología de la Programación",
+     "reason": "candidata registrada",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    },
+    {
+     "code": "21714049",
+     "name": "Programación en Internet",
+     "reason": "candidata registrada",
+     "source": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/"
+    }
+   ],
+   "parecerAnomalies": [
+    {
+     "parecer": "cc|ENEC61018|es-cadiz|21714033",
+     "reason": "Classe rebaixada em relação à derivada pela regra; convém revisão humana do peso dos tópicos parciais"
+    }
+   ]
+  },
+  {
    "universityId": "it-49-almamaterstudi",
    "name": "Alma Mater Studiorum – Università di Bologna",
    "country": "Itália",
    "catalogUrl": "https://www.unibo.it/en/teaching/degree-programmes?codiceTipoCorso=l",
    "insufficientCatalogueCrossings": 110,
-   "missingSyllabi": [
-    {
-     "code": "00221-BA",
-     "name": "Commercial Law",
-     "reason": "candidata por conceitos",
-     "source": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/528997"
-    }
-   ],
+   "missingSyllabi": [],
    "parecerAnomalies": []
   },
   {
@@ -3845,7 +3207,7 @@
    "name": "Nevşehir Hacı Bektaş Veli Üniversitesi",
    "country": "Turquia",
    "catalogUrl": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/bolum/180002/sayfa/1",
-   "insufficientCatalogueCrossings": 75,
+   "insufficientCatalogueCrossings": 74,
    "missingSyllabi": [
     {
      "code": "İŞL235",
@@ -4023,7 +3385,7 @@
    "name": "Kyungpook National University",
    "country": "Coreia do Sul",
    "catalogUrl": "https://en.knu.ac.kr/edu/school01.htm",
-   "insufficientCatalogueCrossings": 67,
+   "insufficientCatalogueCrossings": 69,
    "missingSyllabi": [
     {
      "code": "ITE0416",
@@ -4189,7 +3551,7 @@
    "name": "Wright State University",
    "country": "EUA",
    "catalogUrl": "https://www.wright.edu/degrees-and-programs",
-   "insufficientCatalogueCrossings": 75,
+   "insufficientCatalogueCrossings": 74,
    "missingSyllabi": [
     {
      "code": "MGT 3110",
@@ -4271,7 +3633,7 @@
    "name": "Universidad de Los Andes",
    "country": "Colombia",
    "catalogUrl": "https://uniandes.edu.co/en/programs-and-faculties/programs/undergraduate",
-   "insufficientCatalogueCrossings": 79,
+   "insufficientCatalogueCrossings": 78,
    "missingSyllabi": [
     {
      "code": "ADMI1603",
@@ -4317,7 +3679,7 @@
    "name": "Technische Universität Graz",
    "country": "Áustria",
    "catalogUrl": "https://www.tugraz.at/en/studying-and-teaching/degree-and-certificate-programmes/bachelors-degree-programmes/overview-bachelors-degree-programmes/",
-   "insufficientCatalogueCrossings": 81,
+   "insufficientCatalogueCrossings": 82,
    "missingSyllabi": [
     {
      "code": "C.5.8/5.9",
@@ -4783,7 +4145,7 @@
    "name": "Universidade Lusíada de Lisboa - Fundação Minerva",
    "country": "Portugal",
    "catalogUrl": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
-   "insufficientCatalogueCrossings": 12,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "24128",
@@ -5409,7 +4771,7 @@
    "name": "Universidad Católica de Córdoba",
    "country": "Argentina",
    "catalogUrl": "https://ucc.edu.ar/propuesta-academica/grado-y-pregrado",
-   "insufficientCatalogueCrossings": 6,
+   "insufficientCatalogueCrossings": 7,
    "missingSyllabi": [
     {
      "code": "CAT-administracion-de-recursos-humanos-i",
@@ -5731,11 +5093,17 @@
    "name": "Università degli Studi di Roma Tor Vergata",
    "country": "Itália",
    "catalogUrl": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/",
-   "insufficientCatalogueCrossings": 19,
+   "insufficientCatalogueCrossings": 20,
    "missingSyllabi": [
     {
      "code": "8022886",
      "name": "Bilancio e comunicazione economico-finanziaria",
+     "reason": "candidata por conceitos",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    },
+    {
+     "code": "8022877",
+     "name": "Comparative criminal procedure",
      "reason": "candidata por conceitos",
      "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
     },
@@ -5872,6 +5240,18 @@
      "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
     },
     {
+     "code": "8021283",
+     "name": "Procedura penale",
+     "reason": "candidata por conceitos",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    },
+    {
+     "code": "8022893",
+     "name": "Processo penale e libertà fondamentali",
+     "reason": "candidata por conceitos",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    },
+    {
      "code": "8022887",
      "name": "Statistica",
      "reason": "candidata por conceitos",
@@ -5951,7 +5331,7 @@
    "name": "Universidade de Lisboa",
    "country": "Portugal",
    "catalogUrl": "https://www.ulisboa.pt/escolas",
-   "insufficientCatalogueCrossings": 10,
+   "insufficientCatalogueCrossings": 11,
    "missingSyllabi": [
     {
      "code": "CAT-direito-administrativo-i",
@@ -6216,18 +5596,6 @@
    "insufficientCatalogueCrossings": 10,
    "missingSyllabi": [
     {
-     "code": "CAT-UEB-SIS-SIS322",
-     "name": "BASES DE DATOS II",
-     "reason": "candidata por conceitos",
-     "source": "https://drive.google.com/uc?export=download&id=1Mxm-c7EPcKSjQz5dFSi4YWW90-BQXjTJ"
-    },
-    {
-     "code": "CAT-UEB-ADM-MAT222",
-     "name": "ESTADISTICA I",
-     "reason": "candidata por conceitos",
-     "source": "https://drive.google.com/uc?export=download&id=1nEvYZvV_iCsNQM3D70IWULRUGksMHICO"
-    },
-    {
      "code": "CAT-UEB-ADM-MAT223",
      "name": "ESTADISTICA II",
      "reason": "candidata por conceitos",
@@ -6318,6 +5686,12 @@
      "source": "https://drive.google.com/uc?export=download&id=1Mxm-c7EPcKSjQz5dFSi4YWW90-BQXjTJ"
     },
     {
+     "code": "CAT-UEB-SIS-SIS322",
+     "name": "BASES DE DATOS II",
+     "reason": "candidata registrada",
+     "source": "https://drive.google.com/uc?export=download&id=1Mxm-c7EPcKSjQz5dFSi4YWW90-BQXjTJ"
+    },
+    {
      "code": "CAT-UEB-SIS-MAT112",
      "name": "CALCULO I",
      "reason": "candidata registrada",
@@ -6338,6 +5712,12 @@
     {
      "code": "CAT-UEB-ADM-CON325",
      "name": "COSTOS I",
+     "reason": "candidata registrada",
+     "source": "https://drive.google.com/uc?export=download&id=1nEvYZvV_iCsNQM3D70IWULRUGksMHICO"
+    },
+    {
+     "code": "CAT-UEB-ADM-MAT222",
+     "name": "ESTADISTICA I",
      "reason": "candidata registrada",
      "source": "https://drive.google.com/uc?export=download&id=1nEvYZvV_iCsNQM3D70IWULRUGksMHICO"
     },
@@ -6636,33 +6016,11 @@
    ]
   },
   {
-   "universityId": "ho-40-viaachristianu",
-   "name": "Viaa - Christian University of Applied Sciences",
-   "country": "Holanda",
-   "catalogUrl": "https://www.viaa.nl/en/education/viaa-international-business-exchange/",
-   "insufficientCatalogueCrossings": 39,
-   "missingSyllabi": [
-    {
-     "code": "CAT-HO-40-VIAACHRISTIANU-005",
-     "name": "Practical Theology",
-     "reason": "candidata por conceitos",
-     "source": "https://www.viaa.nl/en/education/viaa-international-business-exchange/"
-    },
-    {
-     "code": "CAT-HO-40-VIAACHRISTIANU-003",
-     "name": "Research Project",
-     "reason": "candidata por conceitos",
-     "source": "https://www.viaa.nl/en/education/viaa-international-business-exchange/"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
    "universityId": "ch-14-universidadfin",
    "name": "Universidad Finis Terrae",
    "country": "Chile",
    "catalogUrl": "",
-   "insufficientCatalogueCrossings": 12,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "CAT-FINIS-DIR-032",
@@ -6803,6 +6161,18 @@
      "source": "https://finis.cl/images/mallas/derecho-diurno.pdf"
     },
     {
+     "code": "CAT-FINIS-DIR-021",
+     "name": "Derecho Tributario I",
+     "reason": "candidata por conceitos",
+     "source": "https://finis.cl/images/mallas/derecho-diurno.pdf"
+    },
+    {
+     "code": "CAT-FINIS-DIR-022",
+     "name": "Derecho Tributario II",
+     "reason": "candidata por conceitos",
+     "source": "https://finis.cl/images/mallas/derecho-diurno.pdf"
+    },
+    {
      "code": "CAT-FINIS-DIR-042",
      "name": "Historia Constitucional de Chile",
      "reason": "candidata por conceitos",
@@ -6830,11 +6200,33 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "ho-40-viaachristianu",
+   "name": "Viaa - Christian University of Applied Sciences",
+   "country": "Holanda",
+   "catalogUrl": "https://www.viaa.nl/en/education/viaa-international-business-exchange/",
+   "insufficientCatalogueCrossings": 39,
+   "missingSyllabi": [
+    {
+     "code": "CAT-HO-40-VIAACHRISTIANU-005",
+     "name": "Practical Theology",
+     "reason": "candidata por conceitos",
+     "source": "https://www.viaa.nl/en/education/viaa-international-business-exchange/"
+    },
+    {
+     "code": "CAT-HO-40-VIAACHRISTIANU-003",
+     "name": "Research Project",
+     "reason": "candidata por conceitos",
+     "source": "https://www.viaa.nl/en/education/viaa-international-business-exchange/"
+    }
+   ],
+   "parecerAnomalies": []
+  },
+  {
    "universityId": "po-61-universidadeca",
    "name": "Universidade Católica Portuguesa",
    "country": "Portugal",
    "catalogUrl": "http://www.porto.ucp.pt/pt/central-oferta-formativa/licenciaturas-unidades",
-   "insufficientCatalogueCrossings": 11,
+   "insufficientCatalogueCrossings": 12,
    "missingSyllabi": [
     {
      "code": "CAT-cristianismo-e-cultura",
@@ -6939,6 +6331,12 @@
      "source": "https://fd.lisboa.ucp.pt/pt-pt/unidade-curricular/processo-civil-parte-geral-1111"
     },
     {
+     "code": "CAT-processo-penal",
+     "name": "Processo Penal",
+     "reason": "candidata por conceitos",
+     "source": "https://fd.lisboa.ucp.pt/pt-pt/unidade-curricular/processo-penal-1111"
+    },
+    {
      "code": "CAT-teoria-geral-do-crime-e-da-pena",
      "name": "Teoria Geral do Crime e da Pena",
      "reason": "candidata por conceitos",
@@ -6990,159 +6388,236 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "it-48-universitadegl",
-   "name": "Università degli Studi di Salerno",
-   "country": "Itália",
-   "catalogUrl": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti",
-   "insufficientCatalogueCrossings": 11,
+   "universityId": "es-salamanca",
+   "name": "Universidad de Salamanca",
+   "country": "Espanha",
+   "catalogUrl": "https://www.usal.es/grados",
+   "insufficientCatalogueCrossings": 3,
    "missingSyllabi": [
     {
-     "code": "CAT-UNISA-26-001",
-     "name": "Diritto costituzionale",
+     "code": "CAT-USAL-210314",
+     "name": "ADMINISTRACIÓN DE RECURSOS HUMANOS",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/210314"
     },
     {
-     "code": "CAT-UNISA-26-014",
-     "name": "Diritto dei conflitti e della mediazione familiare",
+     "code": "105928",
+     "name": "Administración De Sistemas De Información",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/251236"
     },
     {
-     "code": "CAT-UNISA-26-048",
-     "name": "Diritto dei contratti",
+     "code": "105910",
+     "name": "Algoritmia",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/250851"
     },
     {
-     "code": "CAT-UNISA-26-049",
-     "name": "Diritto dei contratti pubblici",
+     "code": "105906",
+     "name": "Arquitectura De Computadores I",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/250695"
     },
     {
-     "code": "CAT-UNISA-26-056",
-     "name": "Diritto della contrattazione immobiliare",
+     "code": "105911",
+     "name": "Arquitectura De Computadores Ii",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/250866"
     },
     {
-     "code": "CAT-UNISA-26-019",
-     "name": "Diritto delle successioni",
+     "code": "105920",
+     "name": "Contratación De Sistemas De Información",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/251016"
     },
     {
-     "code": "CAT-UNISA-26-020",
-     "name": "Diritto di famiglia italiano e comparato",
+     "code": "105935",
+     "name": "Criptografía",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/251023"
     },
     {
-     "code": "CAT-UNISA-26-022",
-     "name": "Diritto ed economia comportamentale",
+     "code": "CAT-USAL-207527",
+     "name": "DERECHO DE SUCESIONES",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/207527"
     },
     {
-     "code": "CAT-UNISA-26-025",
-     "name": "Diritto penale dell'ambiente",
+     "code": "CAT-USAL-207714",
+     "name": "DERECHO FINANCIERO AUTONÓMICO Y LOCAL",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/207714"
     },
     {
-     "code": "CAT-UNISA-26-026",
-     "name": "Diritto penale dell'economia",
+     "code": "CAT-USAL-210096",
+     "name": "DIRECCIÓN ESTRATÉGICA",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/210096"
     },
     {
-     "code": "CAT-UNISA-26-027",
-     "name": "Diritto penale e fashion law",
+     "code": "102352",
+     "name": "Derecho Financiero Autonómico Ylocal",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/235922"
     },
     {
-     "code": "CAT-UNISA-26-028",
-     "name": "Diritto penale e influencer marketing",
+     "code": "105921",
+     "name": "Desarrollo De Aplicaciones Web I",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/251050"
     },
     {
-     "code": "CAT-UNISA-26-029",
-     "name": "Diritto penale e intelligenza artificiale",
+     "code": "105930",
+     "name": "Desarrollo De Aplicaciones Web Ii",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/251267"
     },
     {
-     "code": "CAT-UNISA-26-005",
-     "name": "Istituzioni di diritto romano",
+     "code": "105931",
+     "name": "Dirección De Empresas",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/251298"
     },
     {
-     "code": "CAT-UNISA-26-043",
-     "name": "Storia costituzionale comparata",
+     "code": "105938",
+     "name": "Diseño De Circuitos Lógicos Asistido Por Ordenador",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/251068"
     },
     {
-     "code": "CAT-UNISA-26-004",
-     "name": "Storia del diritto medievale e moderno",
+     "code": "101101",
+     "name": "Estadística",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/255154"
     },
     {
-     "code": "CAT-UNISA-26-006",
-     "name": "Storia del diritto romano",
+     "code": "105913",
+     "name": "Estructura De Datos",
      "reason": "candidata por conceitos",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/250897"
     },
     {
-     "code": "CAT-UNISA-26-007",
-     "name": "Criminologia",
+     "code": "101111",
+     "name": "Estructura De Datos Y Algoritmos I",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/255378"
+    },
+    {
+     "code": "101116",
+     "name": "Estructura De Datos Y Algoritmos Ii",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/255395"
+    },
+    {
+     "code": "105901",
+     "name": "Fundamentos De Matemáticas I",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/250759"
+    },
+    {
+     "code": "105902",
+     "name": "Fundamentos De Matemáticas Ii",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/250776"
+    },
+    {
+     "code": "105915",
+     "name": "Ingeniería De Software",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/250913"
+    },
+    {
+     "code": "101118",
+     "name": "Ingeniería De Software I",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/255433"
+    },
+    {
+     "code": "101122",
+     "name": "Ingeniería Del Software Ii",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/255560"
+    },
+    {
+     "code": "CAT-USAL-210422",
+     "name": "OPERACIONES SOCIETARIAS",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/210422"
+    },
+    {
+     "code": "101123",
+     "name": "Redes De Computadores I",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/255641"
+    },
+    {
+     "code": "101127",
+     "name": "Redes De Computadores Ii",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/255651"
+    },
+    {
+     "code": "105927",
+     "name": "Seguridad Informática",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/251170"
+    },
+    {
+     "code": "101119",
+     "name": "Sistemas Operativos Ii",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/255513"
+    },
+    {
+     "code": "105937",
+     "name": "Teoría De Autómatas Y Lenguajes Formales",
+     "reason": "candidata por conceitos",
+     "source": "https://guias.usal.es/node/251211"
+    },
+    {
+     "code": "CAT-USAL-209810",
+     "name": "ESTADÍSTICA II",
      "reason": "candidata registrada",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/209810"
     },
     {
-     "code": "CAT-UNISA-26-052",
-     "name": "Diritto dell'arbitrato",
+     "code": "CAT-USAL-210415",
+     "name": "MARKETING SECTORIAL",
      "reason": "candidata registrada",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/210415"
     },
     {
-     "code": "CAT-UNISA-26-017",
-     "name": "Diritto dell'impresa",
+     "code": "CAT-USAL-210252",
+     "name": "MICROECONOMÍA II",
      "reason": "candidata registrada",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
-    },
-    {
-     "code": "CAT-UNISA-26-002",
-     "name": "Filosofia del diritto",
-     "reason": "candidata registrada",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
-    },
-    {
-     "code": "CAT-UNISA-26-041",
-     "name": "Teoria dell'interpretazione",
-     "reason": "candidata registrada",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
-    },
-    {
-     "code": "CAT-UNISA-26-042",
-     "name": "Teoria generale del diritto",
-     "reason": "candidata registrada",
-     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
+     "source": "https://guias.usal.es/node/210252"
     }
    ],
-   "parecerAnomalies": []
+   "parecerAnomalies": [
+    {
+     "parecer": "cc|ENEC54298|es-salamanca|101131",
+     "reason": "Anomalia na extração dos tópicos oficiais (cabeçalho de página e enunciado composto) afeta a contagem"
+    },
+    {
+     "parecer": "cc|ENEC61014|es-salamanca|101120",
+     "reason": "Classe rebaixada em relação à derivada; e horas ausentes"
+    },
+    {
+     "parecer": "si|DESENVOLVIMENTO WEB II|es-salamanca|101136",
+     "reason": "Guia de dupla titulação com campo 'Carácter' vazio; identidade do plano acessível ao intercambista a confirmar"
+    },
+    {
+     "parecer": "si|INTERFACE HUMANO-COMPUTADOR|es-salamanca|101120",
+     "reason": "Classe rebaixada em relação à derivada pela regra"
+    }
+   ]
   },
   {
    "universityId": "in-41-bmlmunjalunive",
    "name": "BML Munjal University",
    "country": "Índia",
    "catalogUrl": "https://www.bmu.edu.in/courses/ba-llb/curriculum/",
-   "insufficientCatalogueCrossings": 10,
+   "insufficientCatalogueCrossings": 11,
    "missingSyllabi": [
     {
      "code": "LAW4701",
@@ -7177,6 +6652,12 @@
     {
      "code": "LAW2705",
      "name": "Constitutional Law-II",
+     "reason": "candidata por conceitos",
+     "source": "https://www.bmu.edu.in/courses/ba-llb/curriculum/"
+    },
+    {
+     "code": "LAW3701",
+     "name": "Criminal Procedure Code",
      "reason": "candidata por conceitos",
      "source": "https://www.bmu.edu.in/courses/ba-llb/curriculum/"
     },
@@ -7438,7 +6919,7 @@
    "name": "Universita' degli Studi di Firenze",
    "country": "Itália",
    "catalogUrl": "https://www.unifi.it/en/study-us/degree-programmes/international-courses",
-   "insufficientCatalogueCrossings": 12,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "CAT-diritto-amministrativo-i",
@@ -7546,100 +7027,6 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "po-55-institutopolit",
-   "name": "Instituto Politécnico de Coimbra",
-   "country": "Portugal",
-   "catalogUrl": "https://www.ipc.pt/ipc/estudar/licenciaturas/",
-   "insufficientCatalogueCrossings": 15,
-   "missingSyllabi": [
-    {
-     "code": "51002310",
-     "name": "Empreendedorismo e Inovação",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=290684&r=26522"
-    },
-    {
-     "code": "51003266",
-     "name": "Estatística Aplicada às Ciências Empresariais",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294363&r=26522"
-    },
-    {
-     "code": "51003277",
-     "name": "Gestão de Marketing",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294382&r=26522"
-    },
-    {
-     "code": "51002357",
-     "name": "Gestão de Recursos Humanos",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=290688&r=26522"
-    },
-    {
-     "code": "51003223",
-     "name": "Introdução à Gestão de Empresas",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294345&r=26522"
-    },
-    {
-     "code": "51003311",
-     "name": "Marketing Operacional",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294386&r=26522"
-    },
-    {
-     "code": "51003404",
-     "name": "Mercados e Investimentos Financeiros",
-     "reason": "candidata por conceitos",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294423&r=26522"
-    },
-    {
-     "code": "51003255",
-     "name": "Comportamento Organizacional",
-     "reason": "candidata registrada",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294362&r=26522"
-    },
-    {
-     "code": "51003288",
-     "name": "Contabilidade de Gestão I",
-     "reason": "candidata registrada",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294383&r=26522"
-    },
-    {
-     "code": "51003389",
-     "name": "Contabilidade de Gestão II",
-     "reason": "candidata registrada",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294404&r=26522"
-    },
-    {
-     "code": "51003333",
-     "name": "Gestão Financeira I",
-     "reason": "candidata registrada",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294388&r=26522"
-    },
-    {
-     "code": "51003421",
-     "name": "Gestão Financeira II",
-     "reason": "candidata registrada",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294462&r=26522"
-    },
-    {
-     "code": "51003410",
-     "name": "Gestão de Operações",
-     "reason": "candidata registrada",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294442&r=26522"
-    },
-    {
-     "code": "51003344",
-     "name": "Macroeconomia Europeia",
-     "reason": "candidata registrada",
-     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294389&r=26522"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
    "universityId": "ch-13-universidaddec",
    "name": "Universidad de Chile",
    "country": "Chile",
@@ -7734,11 +7121,105 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "po-55-institutopolit",
+   "name": "Instituto Politécnico de Coimbra",
+   "country": "Portugal",
+   "catalogUrl": "https://www.ipc.pt/ipc/estudar/licenciaturas/",
+   "insufficientCatalogueCrossings": 14,
+   "missingSyllabi": [
+    {
+     "code": "51002310",
+     "name": "Empreendedorismo e Inovação",
+     "reason": "candidata por conceitos",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=290684&r=26522"
+    },
+    {
+     "code": "51003266",
+     "name": "Estatística Aplicada às Ciências Empresariais",
+     "reason": "candidata por conceitos",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294363&r=26522"
+    },
+    {
+     "code": "51003277",
+     "name": "Gestão de Marketing",
+     "reason": "candidata por conceitos",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294382&r=26522"
+    },
+    {
+     "code": "51002357",
+     "name": "Gestão de Recursos Humanos",
+     "reason": "candidata por conceitos",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=290688&r=26522"
+    },
+    {
+     "code": "51003223",
+     "name": "Introdução à Gestão de Empresas",
+     "reason": "candidata por conceitos",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294345&r=26522"
+    },
+    {
+     "code": "51003311",
+     "name": "Marketing Operacional",
+     "reason": "candidata por conceitos",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294386&r=26522"
+    },
+    {
+     "code": "51003404",
+     "name": "Mercados e Investimentos Financeiros",
+     "reason": "candidata por conceitos",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294423&r=26522"
+    },
+    {
+     "code": "51003255",
+     "name": "Comportamento Organizacional",
+     "reason": "candidata registrada",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294362&r=26522"
+    },
+    {
+     "code": "51003288",
+     "name": "Contabilidade de Gestão I",
+     "reason": "candidata registrada",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294383&r=26522"
+    },
+    {
+     "code": "51003389",
+     "name": "Contabilidade de Gestão II",
+     "reason": "candidata registrada",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294404&r=26522"
+    },
+    {
+     "code": "51003333",
+     "name": "Gestão Financeira I",
+     "reason": "candidata registrada",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294388&r=26522"
+    },
+    {
+     "code": "51003421",
+     "name": "Gestão Financeira II",
+     "reason": "candidata registrada",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294462&r=26522"
+    },
+    {
+     "code": "51003410",
+     "name": "Gestão de Operações",
+     "reason": "candidata registrada",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294442&r=26522"
+    },
+    {
+     "code": "51003344",
+     "name": "Macroeconomia Europeia",
+     "reason": "candidata registrada",
+     "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294389&r=26522"
+    }
+   ],
+   "parecerAnomalies": []
+  },
+  {
    "universityId": "co-16-corporaciontec",
    "name": "Corporación Tecnológica de Bogotá",
    "country": "Colômbia",
    "catalogUrl": "https://ctb.edu.co/wp-content/uploads/2024/01/pensum-TDC-1024x662.png",
-   "insufficientCatalogueCrossings": 14,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "CAT-CO-16-CORPORACIONTEC-028",
@@ -7826,7 +7307,7 @@
    "name": "Instituto Politécnico de Castelo Branco",
    "country": "Portugal",
    "catalogUrl": "https://academicos.ipcb.pt/netpa/page?globalCurso=21&stage=planodiretoriopublico",
-   "insufficientCatalogueCrossings": 15,
+   "insufficientCatalogueCrossings": 14,
    "missingSyllabi": [
     {
      "code": "2149",
@@ -7908,7 +7389,7 @@
    "name": "Florence University of Arts",
    "country": "Itália",
    "catalogUrl": "https://catalog.fua.it/bachelor/24/bs-in-international-business-international-management/",
-   "insufficientCatalogueCrossings": 14,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "BUMKEM305",
@@ -8050,31 +7531,157 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "es-29-universitataut",
+   "name": "Universitat Autònoma de Barcelona",
+   "country": "Espanha",
+   "catalogUrl": "https://www.uab.cat/web/estudiar-1345661720635.html",
+   "insufficientCatalogueCrossings": 1,
+   "missingSyllabi": [
+    {
+     "code": "102248",
+     "name": "Dret Penal del Risc i Delinqüència Tecnològica",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102248/ca"
+    },
+    {
+     "code": "102290",
+     "name": "Dret Processal Laboral",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102290/ca"
+    },
+    {
+     "code": "102250",
+     "name": "Dret i Religions",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102250/ca"
+    },
+    {
+     "code": "102297",
+     "name": "Història del Dret i de les Institucions a Catalunya",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102297/ca"
+    },
+    {
+     "code": "102289",
+     "name": "Prevenció de Riscos Laborals",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102289/ca"
+    },
+    {
+     "code": "102224",
+     "name": "Seminari de Qüestions Actuals sobre Dret Administratiu",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102224/ca"
+    },
+    {
+     "code": "102233",
+     "name": "Seminari de Qüestions Actuals sobre Dret Civil",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102233/ca"
+    },
+    {
+     "code": "102212",
+     "name": "Seminari de Qüestions Actuals sobre Dret Constitucional",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102212/ca"
+    },
+    {
+     "code": "102269",
+     "name": "Seminari de Qüestions Actuals sobre Dret Mercantil",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102269/ca"
+    },
+    {
+     "code": "102242",
+     "name": "Seminari de Qüestions Actuals sobre Dret Penal",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102242/ca"
+    },
+    {
+     "code": "102203",
+     "name": "Seminari de Qüestions Actuals sobre Dret Processal",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102203/ca"
+    },
+    {
+     "code": "102283",
+     "name": "Seminari de Qüestions Actuals sobre Dret Romà",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102283/ca"
+    },
+    {
+     "code": "102288",
+     "name": "Seminari de Qüestions Actuals sobre Dret del Treball i de la Seguretat Social",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102288/ca"
+    },
+    {
+     "code": "102295",
+     "name": "Seminari de Qüestions Actuals sobre Història del Dret i de les Institucions",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102295/ca"
+    },
+    {
+     "code": "102279",
+     "name": "Seminari de Qüestions Actuals sobre Teoria i Filosofia del Dret",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102279/ca"
+    },
+    {
+     "code": "102202",
+     "name": "Tutela Judicial i Processos de Família",
+     "reason": "candidata por conceitos",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102202/ca"
+    },
+    {
+     "code": "102286",
+     "name": "Dret Privat Europeu",
+     "reason": "candidata registrada",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102286/ca"
+    },
+    {
+     "code": "102268",
+     "name": "Introducció a la Ciència Política",
+     "reason": "candidata registrada",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102268/ca"
+    },
+    {
+     "code": "102278",
+     "name": "Sociologia del Dret",
+     "reason": "candidata registrada",
+     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102278/ca"
+    }
+   ],
+   "parecerAnomalies": [
+    {
+     "parecer": "dir|DIREITO DA SEGURIDADE SOCIAL|es-29-universitataut|102293",
+     "reason": "Comparação entre sistemas jurídicos nacionais distintos e ementa brasileira histórica"
+    },
+    {
+     "parecer": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|es-29-universitataut|102240",
+     "reason": "Diferença de sistema jurídico e lacuna em dano moral exigem juízo da coordenação de Direito"
+    },
+    {
+     "parecer": "dir|DIREITO DE FAMÍLIA|es-29-universitataut|103955",
+     "reason": "Classificação depende da aceitação de institutos equivalentes de outro sistema jurídico"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PRIVADO|es-29-universitataut|102259",
+     "reason": "Diferença de sistema e divergência de créditos (9 vs 6) a confirmar"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PÚBLICO|es-29-universitataut|102232",
+     "reason": "Ementa brasileira histórica e atípica; conclusão depende da ementa vigente"
+    }
+   ]
+  },
+  {
    "universityId": "pt-coimbra",
    "name": "Universidade de Coimbra",
    "country": "Portugal",
    "catalogUrl": "https://www.uc.pt/estudarnauc/estudantes-internacionais/licenciaturas-e-mestrados-integrados/",
    "insufficientCatalogueCrossings": 18,
-   "missingSyllabi": [
-    {
-     "code": "91495",
-     "name": "Gestão de Recursos Humanos",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uc.pt/courses/PT/unit/91495/24624/2026-2027?common_core=true&type=ram&id=11983"
-    },
-    {
-     "code": "18803",
-     "name": "Marketing",
-     "reason": "candidata registrada",
-     "source": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027"
-    },
-    {
-     "code": "93288",
-     "name": "Microeconomia",
-     "reason": "candidata registrada",
-     "source": "https://apps.uc.pt/courses/PT/unit/93288/23001/2026-2027?common_core=true&type=ram&id=10622"
-    }
-   ],
+   "missingSyllabi": [],
    "parecerAnomalies": [
     {
      "parecer": "adm|Administração Estratégica e Sustentabilidade|pt-coimbra|18964",
@@ -8223,143 +7830,90 @@
    ]
   },
   {
-   "universityId": "es-29-universitataut",
-   "name": "Universitat Autònoma de Barcelona",
-   "country": "Espanha",
-   "catalogUrl": "https://www.uab.cat/web/estudiar-1345661720635.html",
-   "insufficientCatalogueCrossings": 1,
+   "universityId": "it-48-universitadegl",
+   "name": "Università degli Studi di Salerno",
+   "country": "Itália",
+   "catalogUrl": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti",
+   "insufficientCatalogueCrossings": 6,
    "missingSyllabi": [
     {
-     "code": "102248",
-     "name": "Dret Penal del Risc i Delinqüència Tecnològica",
+     "code": "CAT-UNISA-26-025",
+     "name": "Diritto penale dell'ambiente",
      "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102248/ca"
+     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
     },
     {
-     "code": "102290",
-     "name": "Dret Processal Laboral",
+     "code": "CAT-UNISA-26-026",
+     "name": "Diritto penale dell'economia",
      "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102290/ca"
+     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
     },
     {
-     "code": "102250",
-     "name": "Dret i Religions",
+     "code": "CAT-UNISA-26-027",
+     "name": "Diritto penale e fashion law",
      "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102250/ca"
+     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
     },
     {
-     "code": "102297",
-     "name": "Història del Dret i de les Institucions a Catalunya",
+     "code": "CAT-UNISA-26-035",
+     "name": "Istituzioni di diritto e procedura penale",
      "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102297/ca"
+     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
     },
     {
-     "code": "102224",
-     "name": "Seminari de Qüestions Actuals sobre Dret Administratiu",
+     "code": "CAT-UNISA-26-039",
+     "name": "Procedura penale delle società",
      "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102224/ca"
+     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
     },
     {
-     "code": "102233",
-     "name": "Seminari de Qüestions Actuals sobre Dret Civil",
+     "code": "CAT-UNISA-26-004",
+     "name": "Storia del diritto medievale e moderno",
      "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102233/ca"
-    },
-    {
-     "code": "102212",
-     "name": "Seminari de Qüestions Actuals sobre Dret Constitucional",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102212/ca"
-    },
-    {
-     "code": "102269",
-     "name": "Seminari de Qüestions Actuals sobre Dret Mercantil",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102269/ca"
-    },
-    {
-     "code": "102242",
-     "name": "Seminari de Qüestions Actuals sobre Dret Penal",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102242/ca"
-    },
-    {
-     "code": "102203",
-     "name": "Seminari de Qüestions Actuals sobre Dret Processal",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102203/ca"
-    },
-    {
-     "code": "102283",
-     "name": "Seminari de Qüestions Actuals sobre Dret Romà",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102283/ca"
-    },
-    {
-     "code": "102288",
-     "name": "Seminari de Qüestions Actuals sobre Dret del Treball i de la Seguretat Social",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102288/ca"
-    },
-    {
-     "code": "102295",
-     "name": "Seminari de Qüestions Actuals sobre Història del Dret i de les Institucions",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102295/ca"
-    },
-    {
-     "code": "102279",
-     "name": "Seminari de Qüestions Actuals sobre Teoria i Filosofia del Dret",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102279/ca"
-    },
-    {
-     "code": "102202",
-     "name": "Tutela Judicial i Processos de Família",
-     "reason": "candidata por conceitos",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102202/ca"
-    },
-    {
-     "code": "102286",
-     "name": "Dret Privat Europeu",
-     "reason": "candidata registrada",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102286/ca"
-    },
-    {
-     "code": "102268",
-     "name": "Introducció a la Ciència Política",
-     "reason": "candidata registrada",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102268/ca"
-    },
-    {
-     "code": "102278",
-     "name": "Sociologia del Dret",
-     "reason": "candidata registrada",
-     "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102278/ca"
+     "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti"
     }
    ],
-   "parecerAnomalies": [
+   "parecerAnomalies": []
+  },
+  {
+   "universityId": "gb-leeds",
+   "name": "University of Leeds",
+   "country": "Inglaterra",
+   "catalogUrl": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+   "insufficientCatalogueCrossings": 3,
+   "missingSyllabi": [
     {
-     "parecer": "dir|DIREITO DA SEGURIDADE SOCIAL|es-29-universitataut|102293",
-     "reason": "Comparação entre sistemas jurídicos nacionais distintos e ementa brasileira histórica"
+     "code": "COMP2860",
+     "name": "Beyond the Core: Advanced Hardware, Operating Systems and Parallelism",
+     "reason": "candidata por conceitos",
+     "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/2860/202627"
     },
     {
-     "parecer": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|es-29-universitataut|102240",
-     "reason": "Diferença de sistema jurídico e lacuna em dano moral exigem juízo da coordenação de Direito"
+     "code": "LUBS3655",
+     "name": "Professional Portfolio Management",
+     "reason": "candidata por conceitos",
+     "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/3655/202627"
     },
     {
-     "parecer": "dir|DIREITO DE FAMÍLIA|es-29-universitataut|103955",
-     "reason": "Classificação depende da aceitação de institutos equivalentes de outro sistema jurídico"
+     "code": "COMP2850",
+     "name": "Software Engineering",
+     "reason": "candidata por conceitos",
+     "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/2850/202627"
     },
     {
-     "parecer": "dir|DIREITO INTERNACIONAL PRIVADO|es-29-universitataut|102259",
-     "reason": "Diferença de sistema e divergência de créditos (9 vs 6) a confirmar"
+     "code": "LUBS1286",
+     "name": "Statistics and Data Analytics for Finance",
+     "reason": "candidata por conceitos",
+     "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/1286/202627"
     },
     {
-     "parecer": "dir|DIREITO INTERNACIONAL PÚBLICO|es-29-universitataut|102232",
-     "reason": "Ementa brasileira histórica e atípica; conclusão depende da ementa vigente"
+     "code": "LUBS1185",
+     "name": "Understanding Statistics in the Social Sciences",
+     "reason": "candidata por conceitos",
+     "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/1185/202627"
     }
-   ]
+   ],
+   "parecerAnomalies": []
   },
   {
    "universityId": "ro-babes",

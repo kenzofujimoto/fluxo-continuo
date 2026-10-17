@@ -148,6 +148,12 @@ def page_of(url: str, needle: str) -> int | None:
     return None
 
 
+def aliases() -> list[dict]:
+    """Documented links between matrix rows and FCI 2025 blocks printed under another title or file."""
+    p = ROOT / "syllabi/aliases-mackenzie.json"
+    return json.loads(p.read_text(encoding="utf-8"))["aliases"] if p.exists() else []
+
+
 def brazil_registry() -> list[dict]:
     p = ROOT / "syllabi/fontes-brasileiras.json"
     return json.loads(p.read_text(encoding="utf-8"))["sources"] if p.exists() else []
@@ -181,7 +187,7 @@ def targets(only_host: str | None) -> tuple[list[tuple[str, dict]], list[str]]:
                for r in rec["foreign"] if r["status"] == "ementa_individual" and r.get("document")]
     foreign += [(r["source"], {"universityId": r["universityId"], "code": r["code"]}) for r in extra.get("foreign", []) if r.get("source")]
     br = sorted({u for u in mack["sources"]} | {r["source"] for r in extra.get("brazil", []) if r.get("source")}
-                | {r["url"] for r in brazil_registry()})
+                | {r["url"] for r in brazil_registry()} | {a["source"] for a in aliases()})
     if only_host:
         foreign = [x for x in foreign if only_host in (urlparse(x[0]).hostname or "")]
         br = [u for u in br if only_host in (urlparse(u).hostname or "")]
@@ -216,9 +222,16 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
         if manifest.get(url, {}).get("status") == "lido" and text_path(url).exists():
             txt = text_path(url).read_text(encoding="utf-8").replace("\n\f\n", "\n")
             blocks_by_url[url] = parse_mackenzie_blocks(txt)
-    for row in mack["rows"]:
-        if row["status"] != "ementa_oficial_correspondente":
+    rows = [r for r in mack["rows"] if r["status"] == "ementa_oficial_correspondente"]
+    linked = {(r["courseId"], str(r["code"] or r["name"])) for r in rows}
+    stage_of = {(c["id"], r.get("id") or r["name"]): r.get("semester") for c in data["courses"] for r in c["rows"]}
+    for a in aliases():
+        if (a["courseId"], a["code"]) in linked:
             continue
+        rows.append({"courseId": a["courseId"], "code": a["code"], "name": a["code"], "source": a["source"],
+                     "documentName": a["documentName"], "stage": stage_of.get((a["courseId"], a["code"])),
+                     "aliasMethod": a["method"], "aliasNote": a.get("note")})
+    for row in rows:
         url = row["source"]
         cand = [b for b in blocks_by_url.get(url, []) if canonical(b["name"]) == canonical(row["documentName"])]
         if row["courseId"] == "cc":
@@ -232,11 +245,15 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
                         "campus": "Alphaville", "page": page_of(url, row["documentName"]), "stage": b["stage"],
                         "name": b["name"], "hours": b["hours"], "hourUnit": b["hourUnit"], "weekly": b["weekly"],
                         "optional": b["optional"], "ementa": b["ementa"], "topics": split_ementa(b["ementa"]),
-                        "anomalies": b.get("anomalies", []) + ([f"Bloco do PDF da {row['stage']}ª etapa declara Etapa {b['stage']}"] if row["courseId"] == "cc" and b["stage"] != row["stage"] else []),
-                        "status": "lido"}
+                        "anomalies": b.get("anomalies", []) + ([f"Bloco do PDF da {row['stage']}ª etapa declara Etapa {b['stage']}"] if row["courseId"] == "cc" and b["stage"] != row["stage"] else [])
+                        + ([row["aliasNote"]] if row.get("aliasMethod") == "titulo_diferente_confirmar" else []),
+                        "matchMethod": row.get("aliasMethod") or "titulo_exato", "status": "lido"}
     for k, v in progs_b.items():
         if v.get("status") == "lido":
             v.update({"officialSyllabus": True, "current": True, "currencyNote": "Ementário público FCI 2025, câmpus Alphaville"})
+            if v.get("matchMethod") == "titulo_diferente_confirmar":
+                # Same 2025 document, but the printed title differs from the matrix: identity awaits confirmation.
+                v.update({"current": False, "currencyNote": "Ementário FCI 2025 com título diferente da matriz; vínculo a confirmar com a coordenação"})
     # Additional official Brazilian ementários (Administração, Direito 2022) with explicit currency flags.
     courses = {c["id"]: c for c in data["courses"]}
     by_course = {}

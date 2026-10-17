@@ -53,7 +53,7 @@ jobs:
           python - <<'PY'
           import json
           x=json.load(open("syllabi/records.json"))
-          assert len(x["foreign"])==2608
+          assert len(x["foreign"])==len(json.load(open("data.json"))["foreignCourses"])
           assert len(x["mackenzie"])==221
           b=json.load(open("syllabi/mackenzie-docs.json"))
           assert len(b["rows"])==93

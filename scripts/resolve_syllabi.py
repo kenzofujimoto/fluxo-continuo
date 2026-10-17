@@ -20,6 +20,7 @@ import hashlib
 import json
 import re
 import sys
+import time
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -111,11 +112,20 @@ def candidate_urls(university_id: str, code: str, source: str | None) -> list[st
 
 def fetch_text(url: str) -> tuple[dict, str]:
     try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=(10, 40), allow_redirects=True)
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=(10, 30), allow_redirects=True, stream=True)
         info = {"http": r.status_code, "finalUrl": r.url}
         if r.status_code >= 400:
+            r.close()
             return info, ""
-        raw = r.content
+        # Hard deadline and size cap: slow-trickle servers must not stall the whole batch.
+        start, chunks, size = time.monotonic(), [], 0
+        for part in r.iter_content(65536):
+            chunks.append(part)
+            size += len(part)
+            if size > 15_000_000 or time.monotonic() - start > 60:
+                r.close()
+                return {**info, "error": "download excedeu 60 s ou 15 MB"}, ""
+        raw = b"".join(chunks)
         if "drive.google.com" in r.url and raw[:5] != b"%PDF" and b"confirm=" in raw:
             m = re.search(rb'confirm=([0-9A-Za-z_-]+)', raw)
             if m:
@@ -131,7 +141,11 @@ def fetch_text(url: str) -> tuple[dict, str]:
             t.decompose()
         info["format"] = "html"
         info["_html"] = str(soup)[:600000]
-        return info, re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
+        # Page title and main headings first: site menus often push the course title far down the text.
+        heading = " ".join(x.get_text(" ", strip=True) for x in soup.find_all(["title", "h1", "h2"])[:4])
+        for t in soup(["nav", "header", "footer", "aside"]):
+            t.decompose()
+        return info, re.sub(r"\s+", " ", heading + " " + soup.get_text(" ", strip=True))
     except Exception as e:  # recorded as an attempt, never as absence
         return {"http": None, "error": f"{type(e).__name__}: {str(e)[:120]}"}, ""
 
@@ -195,7 +209,7 @@ def main() -> int:
     verified = _load("syllabi/fontes-verificadas.json") if VERIFIED.exists() else {"meta": {}, "foreign": [], "brazil": []}
     attempts = _load("syllabi/tentativas-coleta.json") if ATTEMPTS.exists() else {"meta": {}, "attempts": []}
     att_idx = {(x["universityId"], x["code"]): x for x in attempts["attempts"]}
-    ok = 0
+    ok = done = 0
     with ThreadPoolExecutor(max_workers=max(1, min(a.workers, 8))) as pool:
         futs = {pool.submit(resolve, t, {}): t for t in todo}
         for f in as_completed(futs):
@@ -211,6 +225,37 @@ def main() -> int:
                                             "sha256": r["info"].get("sha256"), "format": r["info"].get("format"),
                                             "identifiedBy": r["verify"]["identifiedBy"], "contentMarker": r["verify"]["contentMarker"],
                                             "checkedAt": NOW, "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem"})
+            done += 1
+            if done % 50 == 0:  # checkpoint: partial progress survives interruptions
+                save(verified, attempts, att_idx)
+                print(f"{done}/{len(todo)} checked, {ok} verified", flush=True)
+    save(verified, attempts, att_idx)
+    print(f"resolved {ok}/{len(todo)}; verified total {len(verified['foreign'])}; records synced {sync_records()}", flush=True)
+    return 0
+
+
+def sync_records() -> int:
+    """Mirror verified programmes into records.json so every report uses one definition of 'individual'."""
+    rec_path = ROOT / "syllabi" / "records.json"
+    rec = json.loads(rec_path.read_text(encoding="utf-8"))
+    ver = {(v["universityId"], v["code"]): v for v in (_load("syllabi/fontes-verificadas.json")["foreign"] if VERIFIED.exists() else []) if v.get("individualSyllabus")}
+    changed = 0
+    for r in rec["foreign"]:
+        v = ver.get((r["universityId"], r["foreignCode"]))
+        if v and r.get("status") != "ementa_individual":
+            r.update({"status": "ementa_individual", "document": v["source"], "source": v["source"], "academicYear": v.get("academicYear"),
+                      "reason": "Programa individual verificado (" + v.get("method", "verificação") + ")", "verifiedAt": v.get("checkedAt")})
+            changed += 1
+    counts = {}
+    for r in rec["foreign"]:
+        counts[r["status"]] = counts.get(r["status"], 0) + 1
+    rec["meta"]["statusCounts"] = counts
+    rec["meta"]["foreignCourses"] = len(rec["foreign"])
+    rec_path.write_text(json.dumps(rec, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    return changed
+
+
+def save(verified: dict, attempts: dict, att_idx: dict) -> None:
     verified["foreign"].sort(key=lambda x: (x["universityId"], x["code"]))
     verified["meta"] = {"updated": NOW, "foreign": len(verified["foreign"]),
                         "policy": "Somente programas individuais oficiais verificados por identidade da disciplina e seção de conteúdos."}
@@ -219,8 +264,6 @@ def main() -> int:
                         "note": "Tentativa sem verificação não prova inexistência do programa; muitas fontes exigem login, anexos ou navegação dinâmica."}
     VERIFIED.write_text(json.dumps(verified, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     ATTEMPTS.write_text(json.dumps(attempts, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"resolved {ok}/{len(todo)}; verified total {len(verified['foreign'])}")
-    return 0
 
 
 if __name__ == "__main__":
