@@ -190,6 +190,18 @@ def test_mackenzie_page_header_inside_ementa_is_removed_and_anomalies_flagged():
     assert any("h-a semanais" in a for a in b["anomalies"])
 
 
+def test_mackenzie_empty_ementa_does_not_capture_bibliography_or_next_block():
+    header = ("Curso\nCIÊNCIA DA COMPUTAÇÃO\nNúcleo Temático\nX\nEtapa\n5\n"
+              "Comp. Curricular\n{title}\nCódigo\nENEC61012\n")
+    empty = (header.format(title="PROJETO DE SOFTWARE") + "Ementa\n\nBibliografia básica\n"
+             "Software engineering bibliography.\nBibliografia complementar\nMore references.\n")
+    following = header.format(title="REDES") + "Ementa\nProtocolos e redes.\nBibliografia básica\nX"
+    blocks = parse_mackenzie_blocks(empty + following)
+    assert blocks[0]["ementa"] == ""
+    assert any("ementa" in anomaly.lower() for anomaly in blocks[0]["anomalies"])
+    assert blocks[1]["ementa"] == "Protocolos e redes."
+
+
 def test_ubb_older_tables_with_split_seminar_lab_or_dash():
     a = parse_ubb("x", "  3.4. Total of hours in the curriculum    70   of which: 3.5. course  28     3.6. seminar/ laboratory         14+28\n Time allocation")
     assert a["hours"]["contact"] == {"total": 70, "course": 28, "seminarLab": 42}

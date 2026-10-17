@@ -29,6 +29,21 @@ def test_rejects_page_without_content_section_or_identity():
     assert not verify_programme("Contenidos Tema 1 " + "x " * 600, "Direito Civil", "X", [])["ok"]
 
 
+def test_explicit_academic_code_must_match_even_when_title_matches():
+    for label in ("Código 105914", "Código\n105914", "Código105914"):
+        page = "Sistemas Operativos I\n" + label + "\nContenidos\n" + "texto " * 200
+        result = verify_programme(page, "Sistemas Operativos I", "101114", [])
+        assert not result["ok"]
+        assert "código" in result["reason"]
+        assert verify_programme(page, "Sistemas Operativos I", "105914", [])["ok"]
+        assert verify_programme(page, "Sistemas Operativos I", "CAT-USAL-101114", [])["ok"]
+
+
+def test_unlabelled_numbers_are_not_academic_code_metadata():
+    page = "Sistemas Operativos I\nReferencia 105914\nContenidos\n" + "texto " * 200
+    assert verify_programme(page, "Sistemas Operativos I", "101114", [])["ok"]
+
+
 def test_academic_year():
     assert academic_year("Curso 2025/2026 Datos") == "2025/2026"
     assert academic_year("Programa docente (2026-27)") == "2026/2027"
