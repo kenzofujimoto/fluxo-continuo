@@ -95,7 +95,9 @@ def verify_programme(text: str, title: str, code: str, other_titles: list[str], 
     found = sum(1 for o in others if o in full)
     if found > 3:
         return {"ok": False, "reason": f"página de listagem ({found} outras disciplinas citadas)"}
-    m = CONTENT_MARKERS.search(text)
+    # Accessibility navigation is not a curricular content section.
+    content_text = re.sub(r"\b(?:ir|saltar)\s+para\s+(?:o\s+)?conte[uú]do\b|\bskip\s+to\s+(?:main\s+)?content\b", "", text, flags=re.I)
+    m = CONTENT_MARKERS.search(content_text)
     if not m or len(text) < 800:
         return {"ok": False, "reason": "seção de conteúdos não encontrada"}
     return {"ok": True, "identifiedBy": ident, "contentMarker": m.group(0)[:40], "otherTitlesFound": found}
