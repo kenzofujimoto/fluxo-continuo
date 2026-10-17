@@ -44,6 +44,19 @@ def test_unlabelled_numbers_are_not_academic_code_metadata():
     assert verify_programme(page, "Sistemas Operativos I", "101114", [])["ok"]
 
 
+def test_coimbra_verified_unit_url_identifies_catalogue_id_not_academic_code():
+    page = "Marketing\nCódigo 01620148\nContenidos\n" + "texto " * 200
+    result = verify_programme(page, "Marketing", "18803", [],
+                              source_url="https://apps.uc.pt/courses/PT/unit/18803/24201/2026-2027")
+    assert result["ok"]
+    assert "catalogue_id" in result["identifiedBy"]
+    for url in ("https://apps.uc.pt/courses/PT/unit/99999/24201/2026-2027",
+                "https://example.com/courses/PT/unit/18803/24201/2026-2027"):
+        assert not verify_programme(page, "Marketing", "18803", [], source_url=url)["ok"]
+    assert not verify_programme(page, "Microeconomia", "18803", [],
+                                source_url="https://apps.uc.pt/courses/EN/unit/18803/24201/2026-2027")["ok"]
+
+
 def test_academic_year():
     assert academic_year("Curso 2025/2026 Datos") == "2025/2026"
     assert academic_year("Programa docente (2026-27)") == "2026/2027"
