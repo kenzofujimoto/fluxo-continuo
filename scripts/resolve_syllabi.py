@@ -10,7 +10,9 @@ page by its anchor text), fetch them and accept a URL only when the page:
 Accepted sources go to syllabi/fontes-verificadas.json; every attempt (HTTP status, reason) goes to
 syllabi/tentativas-coleta.json. A failed attempt is never evidence that a programme does not exist.
 
-Run: python scripts/resolve_syllabi.py [--limit N] [--university ID]
+Run: python scripts/resolve_syllabi.py [--limit N] [--university ID] [--scope all-missing]
+Resume an interrupted sweep with --resume-since TIMESTAMP (the original run's UTC start).
+Without this explicit option, previous failures are retried and their history is preserved.
 """
 from __future__ import annotations
 
@@ -173,14 +175,20 @@ def _load(p):
     return json.loads((ROOT / p).read_text(encoding="utf-8"))
 
 
-def targets(only_uni: str | None) -> list[dict]:
+def targets(only_uni: str | None, scope: str = "priority") -> list[dict]:
     data = _load("data.json")
     rec = {(r["universityId"], r["foreignCode"]): r for r in _load("syllabi/records.json")["foreign"]}
-    verified = {(x["universityId"], x["code"]) for x in (_load("syllabi/fontes-verificadas.json")["foreign"] if VERIFIED.exists() else [])}
+    verified = {(x["universityId"], x["code"]) for x in (_load("syllabi/fontes-verificadas.json")["foreign"] if VERIFIED.exists() else []) if x.get("individualSyllabus")}
     req = _load("syllabi/pendencias-documentais.json")
     fc = {(f["universityId"], f["code"]): f for f in data["foreignCourses"]}
     out = []
-    for u in req["foreign"]:
+    groups = req["foreign"]
+    if scope == "all-missing":
+        groups = [{"universityId": uid, "missingSyllabi": [f for (university, _), f in fc.items() if university == uid]}
+                  for uid in dict.fromkeys(f["universityId"] for f in data["foreignCourses"])]
+    elif scope != "priority":
+        raise ValueError(f"Unknown collection scope: {scope}")
+    for u in groups:
         if only_uni and u["universityId"] != only_uni:
             continue
         titles = [f["name"] for (uid, _), f in fc.items() if uid == u["universityId"]]
@@ -192,6 +200,21 @@ def targets(only_uni: str | None) -> list[dict]:
             out.append({"universityId": key[0], "code": key[1], "name": f.get("name") or x.get("name"),
                         "source": f.get("source"), "titles": titles, "reason": x.get("reason")})
     return out
+
+
+def merge_attempt(previous: dict | None, current: dict) -> dict:
+    """Keep previous HTTP failures and successful evidence instead of overwriting the audit."""
+    if not previous:
+        return current
+    history = [*previous.get("history", []), {k: v for k, v in previous.items() if k != "history"}]
+    return {**current, "history": history}
+
+
+def resume_targets(todo: list[dict], attempts: dict, since: str | None) -> list[dict]:
+    """Skip attempts from this explicitly selected run; old failures remain retryable."""
+    if since is None:
+        return todo
+    return [t for t in todo if attempts.get((t["universityId"], t["code"]), {}).get("checkedAt", "") < since]
 
 
 def resolve(t: dict, listing_cache: dict) -> dict:
@@ -221,29 +244,35 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--university", default=None)
     ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--scope", choices=("priority", "all-missing"), default="priority")
+    ap.add_argument("--resume-since", help="Skip attempts checked at or after this ISO UTC timestamp")
     a = ap.parse_args()
-    todo = targets(a.university)
-    if a.limit:
-        todo = todo[:a.limit]
+    todo = targets(a.university, scope=a.scope)
     verified = _load("syllabi/fontes-verificadas.json") if VERIFIED.exists() else {"meta": {}, "foreign": [], "brazil": []}
     attempts = _load("syllabi/tentativas-coleta.json") if ATTEMPTS.exists() else {"meta": {}, "attempts": []}
     att_idx = {(x["universityId"], x["code"]): x for x in attempts["attempts"]}
+    todo = resume_targets(todo, att_idx, a.resume_since)
+    if a.limit:
+        todo = todo[:a.limit]
     ok = done = 0
     with ThreadPoolExecutor(max_workers=max(1, min(a.workers, 8))) as pool:
         futs = {pool.submit(resolve, t, {}): t for t in todo}
         for f in as_completed(futs):
             t = futs[f]
             r = f.result()
-            att_idx[(t["universityId"], t["code"])] = {"universityId": t["universityId"], "code": t["code"], "name": t["name"],
-                                                         "checkedAt": NOW, "verified": r["ok"], "tried": r["tried"]}
+            key = (t["universityId"], t["code"])
+            att_idx[key] = merge_attempt(att_idx.get(key), {"universityId": t["universityId"], "code": t["code"], "name": t["name"],
+                                                         "checkedAt": NOW, "verified": r["ok"], "tried": r["tried"]})
             if r["ok"]:
                 ok += 1
-                verified["foreign"] = [x for x in verified["foreign"] if (x["universityId"], x["code"]) != (t["universityId"], t["code"])]
+                prior = next((x for x in verified["foreign"] if (x["universityId"], x["code"]) == key), None)
+                verified["foreign"] = [x for x in verified["foreign"] if (x["universityId"], x["code"]) != key]
                 verified["foreign"].append({"universityId": t["universityId"], "code": t["code"], "name": t["name"], "source": r["url"],
                                             "individualSyllabus": True, "academicYear": academic_year(r["text"][:3000]),
                                             "sha256": r["info"].get("sha256"), "format": r["info"].get("format"),
                                             "identifiedBy": r["verify"]["identifiedBy"], "contentMarker": r["verify"]["contentMarker"],
-                                            "checkedAt": NOW, "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem"})
+                                            "checkedAt": NOW, "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem",
+                                            **({"history": [*prior.get("history", []), {k: v for k, v in prior.items() if k != "history"}]} if prior else {})})
             done += 1
             if done % 50 == 0:  # checkpoint: partial progress survives interruptions
                 save(verified, attempts, att_idx)
