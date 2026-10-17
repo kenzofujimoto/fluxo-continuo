@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T01:27:40.801394+00:00",
+  "generated": "2026-10-17T01:29:41.736026+00:00",
   "definitions": {
     "individualSyllabus": "Automated document identity + syllabus criteria; independent human audit pending.",
     "withoutIndividualSyllabus": "A course is indexed but individual syllabus not established.",
@@ -9,9 +9,9 @@
   },
   "metrics": {
     "foreignTotal": 2932,
-    "foreignIndividual": 727,
-    "foreignMissingIndividual": 2205,
-    "foreignIndividualMissingHours": 461,
+    "foreignIndividual": 722,
+    "foreignMissingIndividual": 2210,
+    "foreignIndividualMissingHours": 456,
     "mackTotal": 221,
     "mackVerified": 75,
     "registeredCandidates": 725,
@@ -6803,6 +6803,516 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
+      "id": "ch-15-universidaddie",
+      "name": "Universidad Diego Portales",
+      "country": "Chile",
+      "eligibleFor": [
+        "adm",
+        "dir"
+      ],
+      "catalogued": 69,
+      "individualSyllabus": 0,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 69,
+      "withIndividualButMissingHours": 0,
+      "statuses": {
+        "catalogo_ou_matriz": 42,
+        "pagina_com_conteudo": 27
+      },
+      "samplePending": [
+        {
+          "code": "38004",
+          "name": "Derecho Procesal",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-destrezas-para-la-profesion",
+          "name": "Destrezas para la Profesión",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-programa-de-integracion-y-preparacion-de-licenciatura",
+          "name": "Programa de Integración y Preparación de Licenciatura",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-teoria-y-filosofia-del-derecho",
+          "name": "Teoría y Filosofía del Derecho",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-derecho-penal-parte-general-i",
+          "name": "Derecho Penal Parte General I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-derecho-penal-parte-especial",
+          "name": "Derecho Penal Parte Especial",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-clinicas-juridicas",
+          "name": "Clínicas Jurídicas",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-derecho-regulatorio",
+          "name": "Curso de Derecho Regulatorio",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-derecho-en-procesos-judiciales",
+          "name": "Curso de Derecho en Procesos Judiciales",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-taller-de-etica-y-economia",
+          "name": "Taller de Ética y Economía",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-inteligencia-artificial-en-el-derecho",
+          "name": "Curso de Inteligencia Artificial en el Derecho",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-comunicacion-oral-general-i",
+          "name": "Curso de Comunicación Oral General I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "38004",
+          "name": "Derecho Procesal",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-destrezas-para-la-profesion",
+          "name": "Destrezas para la Profesión",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-programa-de-integracion-y-preparacion-de-licenciatura",
+          "name": "Programa de Integración y Preparación de Licenciatura",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-teoria-y-filosofia-del-derecho",
+          "name": "Teoría y Filosofía del Derecho",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-derecho-penal-parte-general-i",
+          "name": "Derecho Penal Parte General I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-derecho-penal-parte-especial",
+          "name": "Derecho Penal Parte Especial",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-clinicas-juridicas",
+          "name": "Clínicas Jurídicas",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-derecho-regulatorio",
+          "name": "Curso de Derecho Regulatorio",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-derecho-en-procesos-judiciales",
+          "name": "Curso de Derecho en Procesos Judiciales",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-taller-de-etica-y-economia",
+          "name": "Taller de Ética y Economía",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-inteligencia-artificial-en-el-derecho",
+          "name": "Curso de Inteligencia Artificial en el Derecho",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-comunicacion-oral-general-i",
+          "name": "Curso de Comunicación Oral General I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-formacion-general",
+          "name": "Curso de Formación General",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-clinica-juridica-supervisada",
+          "name": "Clínica Jurídica Supervisada",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-clinica-de-derecho-administrativo",
+          "name": "Clínica de Derecho Administrativo",
+          "status": "catalogo_ou_matriz",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+        },
+        {
+          "code": "CAT-curso-de-ingles-general",
+          "name": "Curso de Inglés General",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-fundamentos-de-administracion-y-negocios-i",
+          "name": "Fundamentos de Administración y Negocios I",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-matematica-i",
+          "name": "Matemática I",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-programacion",
+          "name": "Programación",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-taller-de-comunicacion-i",
+          "name": "Taller de Comunicación I",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-contabilidad-i",
+          "name": "Contabilidad I",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-fundamentos-de-administracion-y-negocios-ii",
+          "name": "Fundamentos de Administración y Negocios II",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-matematicas-ii",
+          "name": "Matemáticas II",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-microeconomia-i",
+          "name": "Microeconomía I",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-estadistica-i",
+          "name": "Estadística I",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-macroeconomia-i",
+          "name": "Macroeconomía I",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-matematicas-iii",
+          "name": "Matemáticas III",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-taller-de-comunicacion-ii",
+          "name": "Taller de Comunicación II",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-tecnologia-y-empresas",
+          "name": "Tecnología y Empresas",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-contabilidad-ii",
+          "name": "Contabilidad II",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-estadistica-ii",
+          "name": "Estadística II",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-microeconomia-ii",
+          "name": "Microeconomía II",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-personas-y-equipos",
+          "name": "Personas y Equipos",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-taller-de-liderazgo-y-trabajo-en-equipo",
+          "name": "Taller de Liderazgo y Trabajo en Equipo",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-econometria-i",
+          "name": "Econometría I",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-estrategia",
+          "name": "Estrategia",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-finanzas-i",
+          "name": "Finanzas I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-macroeconomia-ii",
+          "name": "Macroeconomía II",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-taller-de-etica-en-la-toma-de-decisiones",
+          "name": "Taller de Ética en la Toma de Decisiones",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-ciencia-de-datos",
+          "name": "Ciencia de Datos",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-gestion-de-operaciones",
+          "name": "Gestión de Operaciones",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-globalizacion-y-sustentabilidad",
+          "name": "Globalización y Sustentabilidad",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-marketing",
+          "name": "Marketing",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-crecimiento-y-desarrollo-economico",
+          "name": "Crecimiento y Desarrollo Económico",
+          "status": "pagina_com_conteudo",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-econometria-ii",
+          "name": "Econometría II",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-emprendimiento-y-liderazgo-en-equipos-i",
+          "name": "Emprendimiento y Liderazgo en Equipos I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-finanzas-ii",
+          "name": "Finanzas II",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-fundamentos-economicos-de-la-organizacion",
+          "name": "Fundamentos Económicos de la Organización",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-matematicas-para-economia",
+          "name": "Matemáticas para Economía",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-recursos-humanos",
+          "name": "Recursos Humanos",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-taller-de-emprendimiento",
+          "name": "Taller de Emprendimiento",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-teoria-de-juegos",
+          "name": "Teoría de Juegos",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-ciencia-de-datos-para-economia",
+          "name": "Ciencia de Datos para Economía",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-ciencia-de-datos-para-los-negocios",
+          "name": "Ciencia de Datos para los Negocios",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-derecho-para-los-negocios",
+          "name": "Derecho para los Negocios",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-economia-de-la-informacion-y-competencia-imperfecta",
+          "name": "Economía de la Información y Competencia Imperfecta",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-emprendimiento-y-liderazgo-en-equipos-ii",
+          "name": "Emprendimiento y Liderazgo en Equipos II",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-implementacion-estrategica",
+          "name": "Implementación Estratégica",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-politica-economica",
+          "name": "Política Económica",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-taller-de-juegos-de-negocios",
+          "name": "Taller de Juegos de Negocios",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-taller-de-simulacion-economica",
+          "name": "Taller de Simulación Económica",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-emprendimiento-y-liderazgo-en-equipos-iii",
+          "name": "Emprendimiento y Liderazgo en Equipos III",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-optativo-i",
+          "name": "Optativo I",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-optativo-ii",
+          "name": "Optativo II",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-optativo-iii",
+          "name": "Optativo III",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-optativo-iv",
+          "name": "Optativo IV",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-desarrollo-de-carrera-y-e-portafolio",
+          "name": "Desarrollo de Carrera y e-Portafolio",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-emprendimiento-y-liderazgo-en-equipos-iv",
+          "name": "Emprendimiento y Liderazgo en Equipos IV",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        },
+        {
+          "code": "CAT-practica-profesional",
+          "name": "Práctica Profesional",
+          "status": "catalogo_ou_matriz",
+          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+        }
+      ],
+      "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
       "id": "co-22-kyungpooknatio",
       "name": "Kyungpook National University",
       "country": "Coreia do Sul",
@@ -8281,518 +8791,6 @@
         }
       ],
       "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "ch-15-universidaddie",
-      "name": "Universidad Diego Portales",
-      "country": "Chile",
-      "eligibleFor": [
-        "adm",
-        "dir"
-      ],
-      "catalogued": 69,
-      "individualSyllabus": 5,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 64,
-      "withIndividualButMissingHours": 5,
-      "statuses": {
-        "ementa_individual": 5,
-        "catalogo_ou_matriz": 37,
-        "pagina_com_conteudo": 27
-      },
-      "samplePending": [
-        {
-          "code": "CAT-derecho-penal-parte-general-i",
-          "name": "Derecho Penal Parte General I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-derecho-penal-parte-especial",
-          "name": "Derecho Penal Parte Especial",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-derecho-regulatorio",
-          "name": "Curso de Derecho Regulatorio",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-derecho-en-procesos-judiciales",
-          "name": "Curso de Derecho en Procesos Judiciales",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-taller-de-etica-y-economia",
-          "name": "Taller de Ética y Economía",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-inteligencia-artificial-en-el-derecho",
-          "name": "Curso de Inteligencia Artificial en el Derecho",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-comunicacion-oral-general-i",
-          "name": "Curso de Comunicación Oral General I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-formacion-general",
-          "name": "Curso de Formación General",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-clinica-juridica-supervisada",
-          "name": "Clínica Jurídica Supervisada",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-clinica-de-derecho-administrativo",
-          "name": "Clínica de Derecho Administrativo",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-ingles-general",
-          "name": "Curso de Inglés General",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-fundamentos-de-administracion-y-negocios-i",
-          "name": "Fundamentos de Administración y Negocios I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "CAT-derecho-penal-parte-general-i",
-          "name": "Derecho Penal Parte General I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-derecho-penal-parte-especial",
-          "name": "Derecho Penal Parte Especial",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-derecho-regulatorio",
-          "name": "Curso de Derecho Regulatorio",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-derecho-en-procesos-judiciales",
-          "name": "Curso de Derecho en Procesos Judiciales",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-taller-de-etica-y-economia",
-          "name": "Taller de Ética y Economía",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-inteligencia-artificial-en-el-derecho",
-          "name": "Curso de Inteligencia Artificial en el Derecho",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-comunicacion-oral-general-i",
-          "name": "Curso de Comunicación Oral General I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-formacion-general",
-          "name": "Curso de Formación General",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-clinica-juridica-supervisada",
-          "name": "Clínica Jurídica Supervisada",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-clinica-de-derecho-administrativo",
-          "name": "Clínica de Derecho Administrativo",
-          "status": "catalogo_ou_matriz",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-curso-de-ingles-general",
-          "name": "Curso de Inglés General",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-fundamentos-de-administracion-y-negocios-i",
-          "name": "Fundamentos de Administración y Negocios I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-matematica-i",
-          "name": "Matemática I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-programacion",
-          "name": "Programación",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-taller-de-comunicacion-i",
-          "name": "Taller de Comunicación I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-contabilidad-i",
-          "name": "Contabilidad I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-fundamentos-de-administracion-y-negocios-ii",
-          "name": "Fundamentos de Administración y Negocios II",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-matematicas-ii",
-          "name": "Matemáticas II",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-microeconomia-i",
-          "name": "Microeconomía I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-estadistica-i",
-          "name": "Estadística I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-macroeconomia-i",
-          "name": "Macroeconomía I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-matematicas-iii",
-          "name": "Matemáticas III",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-taller-de-comunicacion-ii",
-          "name": "Taller de Comunicación II",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-tecnologia-y-empresas",
-          "name": "Tecnología y Empresas",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-contabilidad-ii",
-          "name": "Contabilidad II",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-estadistica-ii",
-          "name": "Estadística II",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-microeconomia-ii",
-          "name": "Microeconomía II",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-personas-y-equipos",
-          "name": "Personas y Equipos",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-taller-de-liderazgo-y-trabajo-en-equipo",
-          "name": "Taller de Liderazgo y Trabajo en Equipo",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-econometria-i",
-          "name": "Econometría I",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-estrategia",
-          "name": "Estrategia",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-finanzas-i",
-          "name": "Finanzas I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-macroeconomia-ii",
-          "name": "Macroeconomía II",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-taller-de-etica-en-la-toma-de-decisiones",
-          "name": "Taller de Ética en la Toma de Decisiones",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-ciencia-de-datos",
-          "name": "Ciencia de Datos",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-gestion-de-operaciones",
-          "name": "Gestión de Operaciones",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-globalizacion-y-sustentabilidad",
-          "name": "Globalización y Sustentabilidad",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-marketing",
-          "name": "Marketing",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-crecimiento-y-desarrollo-economico",
-          "name": "Crecimiento y Desarrollo Económico",
-          "status": "pagina_com_conteudo",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-econometria-ii",
-          "name": "Econometría II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-emprendimiento-y-liderazgo-en-equipos-i",
-          "name": "Emprendimiento y Liderazgo en Equipos I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-finanzas-ii",
-          "name": "Finanzas II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-fundamentos-economicos-de-la-organizacion",
-          "name": "Fundamentos Económicos de la Organización",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-matematicas-para-economia",
-          "name": "Matemáticas para Economía",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-recursos-humanos",
-          "name": "Recursos Humanos",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-taller-de-emprendimiento",
-          "name": "Taller de Emprendimiento",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-teoria-de-juegos",
-          "name": "Teoría de Juegos",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-ciencia-de-datos-para-economia",
-          "name": "Ciencia de Datos para Economía",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-ciencia-de-datos-para-los-negocios",
-          "name": "Ciencia de Datos para los Negocios",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-derecho-para-los-negocios",
-          "name": "Derecho para los Negocios",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-economia-de-la-informacion-y-competencia-imperfecta",
-          "name": "Economía de la Información y Competencia Imperfecta",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-emprendimiento-y-liderazgo-en-equipos-ii",
-          "name": "Emprendimiento y Liderazgo en Equipos II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-implementacion-estrategica",
-          "name": "Implementación Estratégica",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-politica-economica",
-          "name": "Política Económica",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-taller-de-juegos-de-negocios",
-          "name": "Taller de Juegos de Negocios",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-taller-de-simulacion-economica",
-          "name": "Taller de Simulación Económica",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-emprendimiento-y-liderazgo-en-equipos-iii",
-          "name": "Emprendimiento y Liderazgo en Equipos III",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-optativo-i",
-          "name": "Optativo I",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-optativo-ii",
-          "name": "Optativo II",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-optativo-iii",
-          "name": "Optativo III",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-optativo-iv",
-          "name": "Optativo IV",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-desarrollo-de-carrera-y-e-portafolio",
-          "name": "Desarrollo de Carrera y e-Portafolio",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-emprendimiento-y-liderazgo-en-equipos-iv",
-          "name": "Emprendimiento y Liderazgo en Equipos IV",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        },
-        {
-          "code": "CAT-practica-profesional",
-          "name": "Práctica Profesional",
-          "status": "catalogo_ou_matriz",
-          "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-        }
-      ],
-      "syllabiMissingContactHours": [
-        {
-          "code": "38004",
-          "name": "Derecho Procesal",
-          "status": "ementa_sem_horas",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-destrezas-para-la-profesion",
-          "name": "Destrezas para la Profesión",
-          "status": "ementa_sem_horas",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-programa-de-integracion-y-preparacion-de-licenciatura",
-          "name": "Programa de Integración y Preparación de Licenciatura",
-          "status": "ementa_sem_horas",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-teoria-y-filosofia-del-derecho",
-          "name": "Teoría y Filosofía del Derecho",
-          "status": "ementa_sem_horas",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        },
-        {
-          "code": "CAT-clinicas-juridicas",
-          "name": "Clínicas Jurídicas",
-          "status": "ementa_sem_horas",
-          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-        }
-      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -22000,8 +21998,8 @@
       ],
       "candidates": 199,
       "candidatePhases": {
-        "falta_ementa_brasileira_validada": 49,
-        "falta_ementa_estrangeira_individual": 150
+        "falta_ementa_brasileira_validada": 48,
+        "falta_ementa_estrangeira_individual": 151
       },
       "individualReviews": 0
     }
