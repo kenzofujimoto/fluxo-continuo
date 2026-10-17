@@ -1,0 +1,140 @@
+{
+  "id": "cc|ENEX60047|gb-leeds|COMP3912",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60047",
+    "name": "Análise de Algoritmos",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 4",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 3, bloco ANÁLISE DE ALGORITMOS: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 47.5,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+      "Aborda a complexidade de algoritmos iterativos e recursivos",
+      "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
+      "Analisa o desempenho das técnicas clássicas de projeto de algoritmos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3912",
+      "name": "Optimisation with Applications in AI",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "Semester 1 (setembro a janeiro)",
+      "academicYear": "2026/27",
+      "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+      "assessment": "Não publicada no texto recuperado; seção de avaliação não disponível.",
+      "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3912/202627",
+      "catalogue": null,
+      "sha256": "18be1451beafecd5e291119d3d7dd8d71a9d8ffad7bae778514b10fc3fa32dd5",
+      "location": "Catálogo Leeds 2026/27: identificação, Module summary, Objectives, Learning/Skills outcomes, Syllabus, Teaching Methods e atualização.",
+      "hours": {
+        "contactTotal": 66,
+        "contactLecture": 44,
+        "contactSeminarLab": 22,
+        "selfStudy": 134,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "20 créditos britânicos; não tratados como ECTS. Total Contact hours declarado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Escolha de métodos por tempo de computação e precisão aborda eficiência, sem análise assintótica/melhor-pior-médio sistemática.",
+      "foreignLocation": "Learning outcomes 1-2; Syllabus, métodos"
+    },
+    {
+      "brTopic": "Aborda a complexidade de algoritmos iterativos e recursivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Métodos exatos, branch-and-bound e busca local envolvem algoritmos, mas complexidade iterativa/recursiva não é explicitada.",
+      "foreignLocation": "Syllabus, Optimisation methods"
+    },
+    {
+      "brTopic": "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Branch-and-bound, heurísticas e aproximações dão repertório de projeto; divisão/conquista, gulosos e programação dinâmica não são individualizados.",
+      "foreignLocation": "Syllabus, Alternative approaches"
+    },
+    {
+      "brTopic": "Analisa o desempenho das técnicas clássicas de projeto de algoritmos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Selecionar métodos por tempo/precisão e investigar limitações sustenta avaliação, sem análise das quatro técnicas clássicas brasileiras.",
+      "foreignLocation": "Learning outcomes 2 e 4"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio. Aborda a complexidade de algoritmos iterativos e recursivos. Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica. Analisa o desempenho das técnicas clássicas de projeto de algoritmos.",
+    "foreign": [
+      "Selecionar modelos/métodos computacionais por custo e precisão em aplicações de IA."
+    ],
+    "convergences": [
+      "O módulo de otimização de Leeds fornece métodos e comparação de soluções, mas sua abordagem aplicada a IA cobre apenas parcialmente a sequência formal de Análise de Algoritmos."
+    ],
+    "differences": [
+      "O programa desenvolve LP/MILP, branch-and-bound, busca local e otimização não linear, com seleção por custo/precisão. Isso é evidência de raciocínio algorítmico e avaliação, porém não documenta análise assintótica por casos, recorrências ou o conjunto divisão e conquista/backtracking/gulosos/dinâmica. Os quatro tópicos recebem cobertura parcial e nenhum integral. As 66 h (44 aulas/22 práticas), acima de 47,5 h Mackenzie até no cenário de 50 min, aumentam a oportunidade de estudo sem remover as lacunas formais."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "ANÁLISE DE ALGORITMOS: etapa 4, 47.5 horas declaradas.",
+    "foreign": "Otimização matemática contínua e discreta aplicada; não curso geral de análise assintótica.",
+    "theoryPractice": "22 h de seminários/práticas declaradas, 44 h de aulas e 134 h de estudo privado."
+  },
+  "practical": {
+    "period": "Semester 1 (setembro a janeiro)",
+    "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O módulo de otimização de Leeds fornece métodos e comparação de soluções, mas sua abordagem aplicada a IA cobre apenas parcialmente a sequência formal de Análise de Algoritmos.",
+  "justification": "O programa desenvolve LP/MILP, branch-and-bound, busca local e otimização não linear, com seleção por custo/precisão. Isso é evidência de raciocínio algorítmico e avaliação, porém não documenta análise assintótica por casos, recorrências ou o conjunto divisão e conquista/backtracking/gulosos/dinâmica. Os quatro tópicos recebem cobertura parcial e nenhum integral. As 66 h (44 aulas/22 práticas), acima de 47,5 h Mackenzie até no cenário de 50 min, aumentam a oportunidade de estudo sem remover as lacunas formais.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual e contato explícitos; duração da hora, critérios de avaliação e mobilidade ainda requerem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora de contato estrangeira não explicitada; cenário condicional de 50 minutos deve ser considerado.",
+    "Módulo não aprovado como discovery module; não é confirmação de acesso de intercambista.",
+    "Avaliação e pré-requisitos não publicados no texto consultado; confirmar com a escola."
+  ],
+  "openQuestions": [
+    "A escola permite inscrição de intercambista neste módulo e confirma critérios de avaliação/duração da hora?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+  }
+}

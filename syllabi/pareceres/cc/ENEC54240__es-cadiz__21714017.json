@@ -1,0 +1,183 @@
+{
+  "id": "cc|ENEC54240|es-cadiz|21714017",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54240",
+    "name": "Programação Orientada a Objetos",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 3ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 4 (3ª etapa CC Alphaville), bloco 'Comp. Curricular PROGRAMAÇÃO ORIENTADA A OBJETOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2
+      },
+      "note": "Ementário declara 63,33 h-relógio e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+      "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
+      "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714017",
+      "name": "Programación Orientada a Objetos",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo II Formación común a la rama de Informática, materia II.2 Programación de computadores",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 2,
+      "semester": "Segundo semestre",
+      "period": "2º semestre do ano letivo espanhol (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida; linguagem de programação C++",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exames parciais de programação 60%, questionários online 20%, práticas 20%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714017",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "083ad12b672fc84be23b3728c20546cf1ba8c7d12826f370235ff05787147790",
+      "location": "Programa docente 2026-27: cabeçalho, 'Resultados de aprendizaje' 1-9, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-4 e Práticas P0-P4, 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 87,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro de atividades: 60 h presenciais = Teoría 24 + Prácticas, seminarios y problemas 12 + Prácticas de informática 24; 87 h não presenciais e 3 h de avaliação (exame escrito); 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 2 'Paradigma de la programación orientada a objetos' (objetos, clases); prática P0 'Clases, objetos y excepciones'; RA 3-4 e 8",
+      "foreignLocation": "Temario, Tema 2 e P0; Resultados de aprendizaje 3, 4 e 8"
+    },
+    {
+      "brTopic": "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 3 generalizações/especializações e interfaces; Tema 4 polimorfismo de sobrecarga, em tempo de execução e paramétrico; P2-P3 contêineres e algoritmos da STL; P4 herança e polimorfismo",
+      "foreignLocation": "Temario, Temas 3-4 e P2-P4; Resultados de aprendizaje 5-7",
+      "note": "A guia explicita interfaces, herança, polimorfismos e STL; encapsulamento, mecanismos de acesso e classes abstratas não são detalhados. Princípios básicos não demonstram por si só todos os subitens da ementa brasileira."
+    },
+    {
+      "brTopic": "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "P1 'Biblioteca de E/S y localización' e RA 7 (biblioteca padrão de C++: E/S, STL); sem referência a banco de dados",
+      "foreignLocation": "Temario, P1; Resultados de aprendizaje 7",
+      "note": "Entrada e saída da biblioteca padrão pode abranger arquivos, mas o documento não o detalha; a comunicação com banco de dados não aparece em nenhum item."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Evolução histórica das linguagens orientadas a objetos",
+      "location": "Temario, Tema 1; RA 1"
+    },
+    {
+      "topic": "Relações entre classes: associações, generalização, especialização",
+      "location": "Temario, Tema 3; P2-P3"
+    },
+    {
+      "topic": "Localização (locale) na biblioteca de E/S do C++",
+      "location": "Temario, P1"
+    },
+    {
+      "topic": "Implementação de um sistema orientado a objetos de média complexidade em C++",
+      "location": "Resultados de aprendizaje 9; Actividades 03"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Conhecer princípios do paradigma OO, identificar objetos e classes e suas relações (RA 2-5)",
+      "Identificar tipos de polimorfismo (RA 6)",
+      "Implementar classes, relações e um sistema de média complexidade em C++ (RA 8-9)"
+    ],
+    "convergences": [
+      "Classes, objetos, herança, interfaces e polimorfismo",
+      "Classes parametrizadas e coleções (STL)",
+      "Prática de implementação"
+    ],
+    "differences": [
+      "Cádiz fixa C++ e a STL; o Mackenzie não nomeia linguagem",
+      "O Mackenzie inclui banco de dados e arquivos; Cádiz não menciona banco de dados",
+      "Cádiz trata evolução histórica da OO e relações entre classes de forma mais explícita"
+    ]
+  },
+  "depth": {
+    "level": "Ambas obrigatórias de graduação: 2º curso (2º semestre) em Cádiz, 3ª etapa no Mackenzie",
+    "brazil": "Metade teórica e metade prática (2+2 h-a semanais)",
+    "foreign": "60 h presenciais: 24 de teoria, 12 de problemas e 24 de informática; exame parcial de programação vale 60%",
+    "theoryPractice": "Teoria 40% e prática/problemas 60% do contato em Cádiz, contra 50/50 no Mackenzie"
+  },
+  "practical": {
+    "period": "'Duración: SEGUNDO SEMESTRE' (primavera europeia); não coincide com 2027.2, que corresponde ao outono europeu de 2027/28",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Obrigatória com 265 matriculados em 2026-27 (178 repetentes em 2025-26); secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado no documento",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O programa de Programação Orientada a Objetos de Cádiz cobre com temas e práticas próprios os conceitos de classes, objetos, exceções, herança, interfaces, polimorfismo e STL, mas não menciona banco de dados e só indiretamente a manipulação de arquivos (biblioteca de E/S); é oferecida no segundo semestre.",
+  "justification": "Um dos três tópicos essenciais está coberto (classes, objetos e exceções em P0 e Tema 2) e dois são parciais: o bloco de mecanismos OO não explicita encapsulamento, acesso e classes abstratas, embora trate de herança, interfaces, polimorfismos e STL; o bloco de persistência não menciona banco de dados, e P1 cita somente biblioteca de E/S. Cobertura integral de 1/3 e integral ou parcial de 3/3, mantendo afinidade parcial. A guia declara 60 h presenciais (24 + 12 + 24), razão nominal de 0,947 ante 63,33 h brasileiras e 0,789 se a hora estrangeira tiver 50 minutos. A duração da hora não é declarada; a compatibilidade de horas é condicional. A oferta declarada é no segundo semestre espanhol, e a oferta específica para 2027.2 não está confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 completo, com temas, práticas P0-P4 e horas presenciais discriminadas; reduzem a confiança a duração não declarada da hora, o detalhamento só por títulos e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 e vaga para estudante de mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Disciplina de segundo semestre: coincidiria com a primavera europeia, não com 2027.2",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 com hora de 50 minutos",
+    "Biblioteca de E/S pode incluir arquivos, mas o documento não o declara; classificação do terceiro tópico como parcial baseia-se apenas nesse indício",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceitaria a ausência de acesso a banco de dados, reposta em Tópicos Avançados em Banco de Dados ou em atividade complementar?",
+    "A UCA admite estudantes de mobilidade no segundo semestre de 2027/28, e o período de intercâmbio permitiria cursá-lo?"
+  ],
+  "alternatives": [
+    {
+      "code": "21714014",
+      "name": "Análisis de Algoritmos y Estructuras de Datos",
+      "relation": "Guia lida e analisada em parecer próprio (Algoritmos e Programação II); usa linguagem orientada a objetos nas práticas, mas não substitui Programação Orientada a Objetos"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema, prática ou resultado de aprendizagem do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão Codex limitou a cobertura do bloco OO ao que a guia explicita; confirmação de encapsulamento, acesso, classes abstratas, persistência e calendário permanece necessária."
+  },
+  "reviewHistory": [
+    {
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex (AI-assisted documentary review)",
+      "changes": "Leitura integral de Temario, Resultados e Atividades da guia 21714017; bloco de mecanismos OO reclassificado como parcial. Conclusão parcial mantida."
+    }
+  ]
+}

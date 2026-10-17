@@ -1,0 +1,179 @@
+{
+  "id": "dir|TEORIA GERAL DA PENA|es-salamanca|CAT-USAL-207087",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TEORIA GERAL DA PENA",
+    "name": "TEORIA GERAL DA PENA",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 20, bloco TEORIA GERAL DA PENA; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 2
+    },
+    "topics": [
+      "A presente disciplina será destinada à compreensão da Teoria Geral da Pena, as suas origens e prognósticos",
+      "Serão apresentadas as finalidades da pena, com a devida reflexão sobre o seu cumprimento no nosso sistema penitenciário atual, sempre proporcionando uma visão constitucional dos princípios e garantias individuais",
+      "A pena será ministrada desde a sua individualização legislativa, passando pela individualização judiciária até a etapa executória, com exposição das espécies de sanção, regimes de cumprimento, cominação e aplicação, com exposição das limitações estatais neste aspecto e sugestão de melhorias",
+      "O sistema trifásico de aplicação da pena será ministrado sempre com base em precedentes e exploração dos principais equívocos verificados no cotidiano forense",
+      "Também será objeto deste módulo as hipóteses de concurso de crimes e seus fundamentos, bem como os efeitos da condenação e as hipóteses de reabilitação",
+      "As medidas de segurança e sua aplicação serão analisadas com foco nas dificuldades práticas de tal instituto, principalmente em casos de reiteração e a (im)possibilidade de se manter um indivíduo custodiado eternamente",
+      "Por fim, serão visitadas as causas extintivas de punibilidade, com maior destaque ao instituto da prescrição, seus fundamentos e as atuais divergências jurisprudenciais sobre o tema"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207087",
+      "name": "INTRODUCCIÓN AL DERECHO PENAL",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": 2,
+      "period": "year 1",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": "Exame70%, práticas30%",
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207087",
+      "catalogue": "https://guias.usal.es/node/207087",
+      "sha256": "fa127e7f362fadfbd53912841a7d84e2092aa48f41867a83448857fd2632f095",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102307"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A presente disciplina será destinada à compreensão da Teoria Geral da Pena, as suas origens e prognósticos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Teorias da pena e breve história da prisão.",
+      "foreignLocation": "5 lecciones2 e8"
+    },
+    {
+      "brTopic": "Serão apresentadas as finalidades da pena, com a devida reflexão sobre o seu cumprimento no nosso sistema penitenciário atual, sempre proporcionando uma visão constitucional dos princípios e garantias individuais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Prevenção, retribuição, proporcionalidade, humanidade e ressocialização, sob sistema espanhol.",
+      "foreignLocation": "5 lecciones2-3 e16"
+    },
+    {
+      "brTopic": "A pena será ministrada desde a sua individualização legislativa, passando pela individualização judiciária até a etapa executória, com exposição das espécies de sanção, regimes de cumprimento, cominação e aplicação, com exposição das limitações estatais neste aspecto e sugestão de melhorias",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Penas privativas, restritivas, multa, determinação e execução.",
+      "foreignLocation": "5 lecciones8-11 e16"
+    },
+    {
+      "brTopic": "O sistema trifásico de aplicação da pena será ministrado sempre com base em precedentes e exploração dos principais equívocos verificados no cotidiano forense",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Determinação da pena é ensinada, sem sistema trifásico brasileiro.",
+      "foreignLocation": "5 lección11"
+    },
+    {
+      "brTopic": "Também será objeto deste módulo as hipóteses de concurso de crimes e seus fundamentos, bem como os efeitos da condenação e as hipóteses de reabilitação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Consequências e cancelamento de antecedentes, sem concurso de crimes discriminado.",
+      "foreignLocation": "5 lección15"
+    },
+    {
+      "brTopic": "As medidas de segurança e sua aplicação serão analisadas com foco nas dificuldades práticas de tal instituto, principalmente em casos de reiteração e a (im)possibilidade de se manter um indivíduo custodiado eternamente",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Medidas de segurança e princípios de aplicação; não debate brasileiro de custódia perpétua.",
+      "foreignLocation": "5 lección13"
+    },
+    {
+      "brTopic": "Por fim, serão visitadas as causas extintivas de punibilidade, com maior destaque ao instituto da prescrição, seus fundamentos e as atuais divergências jurisprudenciais sobre o tema",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Extinção da responsabilidade e prescrição, sem divergências jurisprudenciais brasileiras.",
+      "foreignLocation": "5 lección15"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A presente disciplina será destinada à compreensão da Teoria Geral da Pena, as suas origens e prognósticos. Serão apresentadas as finalidades da pena, com a devida reflexão sobre o seu cumprimento no nosso sistema penitenciário atual, sempre proporcionando uma visão constitucional dos princípios e garantias individuais. A pena será ministrada desde a sua individualização legislativa, passando pela individualização judiciária até a etapa executória, com exposição das espécies de sanção, regimes de cumprimento, cominação e aplicação, com exposição das limitações estatais neste aspecto e sugestão de melhorias. O sistema trifásico de aplicação da pena será ministrado sempre com base em precedentes e exploração dos principais equívocos verificados no cotidiano forense. Também será objeto deste módulo as hipóteses de concurso de crimes e seus fundamentos, bem como os efeitos da condenação e as hipóteses de reabilitação. As medidas de segurança e sua aplicação serão analisadas com foco nas dificuldades práticas de tal instituto, principalmente em casos de reiteração e a (im)possibilidade de se manter um indivíduo custodiado eternamente. Por fim, serão visitadas as causas extintivas de punibilidade, com maior destaque ao instituto da prescrição, seus fundamentos e as atuais divergências jurisprudenciais sobre o tema.",
+    "foreign": [
+      "Introducción al Derecho Penal 102307 contempla o núcleo de Teoria Geral da Pena: finalidades, espécies, determinação, medidas de segurança, extinção e execução."
+    ],
+    "convergences": [
+      "Teorias da pena e breve história da prisão.",
+      "Prevenção, retribuição, proporcionalidade, humanidade e ressocialização, sob sistema espanhol.",
+      "Penas privativas, restritivas, multa, determinação e execução.",
+      "Determinação da pena é ensinada, sem sistema trifásico brasileiro.",
+      "Consequências e cancelamento de antecedentes, sem concurso de crimes discriminado.",
+      "Medidas de segurança e princípios de aplicação; não debate brasileiro de custódia perpétua.",
+      "Extinção da responsabilidade e prescrição, sem divergências jurisprudenciais brasileiras."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 3; exterior: Graduação, ano None.",
+    "brazil": "TEORIA GERAL DA PENA: 2; documento 2022",
+    "foreign": "INTRODUCCIÓN AL DERECHO PENAL: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 1",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introducción al Derecho Penal 102307 contempla o núcleo de Teoria Geral da Pena: finalidades, espécies, determinação, medidas de segurança, extinção e execução.",
+  "justification": "Dois de sete tópicos são conceitualmente integrais e cinco parciais, pois regimes jurídicos e sistema trifásico brasileiro diferem. Seis ECTS não fornecem horas de contato; a aprovação de conteúdo depende da ficha vigente e complementação local.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de TEORIA GERAL DA PENA com INTRODUCCIÓN AL DERECHO PENAL; Dois de sete tópicos são conceitualmente integrais e cinco parciais, pois regimes jurídicos e sistema trifásico brasileiro diferem. Seis ECTS não fornecem horas de contato; a aprovação de conteúdo depende da ficha vigente e complementação local.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

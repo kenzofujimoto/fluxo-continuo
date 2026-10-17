@@ -1,0 +1,190 @@
+{
+  "id": "adm|Gestão de Inovação|es-salamanca|CAT-USAL-210404",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Inovação",
+    "name": "Gestão de Inovação",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 3, bloco 'Gestão da Inovação': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fatores fundamentais na gestão da inovação",
+      "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "A inovação como um processo de gestão e mecanismos de implantação",
+      "Modelo de estratégia de inovação",
+      "Ecossistema de Inovação",
+      "Avaliação e desempenho da inovação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210404",
+      "name": "Innovación Empresarial",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Organización de Empresas)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 1,
+      "period": "Primer Semestre (campo 'Periodicidade'), 4º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "OPTATIVA",
+      "assessment": "Participação e avaliação contínua 40% (não recuperável) + prova final 60% (tipo teste), ambos com mínimo 5/10",
+      "prerequisites": "Nenhum requisito prévio",
+      "source": "https://guias.usal.es/node/210404",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "d335de16d16e98c0a67a20265517e527345e494404b48879759031295afc6815",
+      "location": "Guia 2025/2026: seções 1 (datos), 3 (objetivos), 4 (competencias), 5 (contenidos, Temas 1-6), 6-7 (metodologías), 9 (evaluación)",
+      "officialCode": "103846",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS. A seção 7 'Distribución de las Metodologías Docentes' vem vazia no texto obtido; nenhuma hora de contato declarada. Código oficial: 103846."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fatores fundamentais na gestão da inovação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'El empresario innovador. El proceso creativo'; competência 1: 'papel de la innovación en la actividad empresarial'",
+      "foreignLocation": "Seção 5, Temas 1-2; seção 4, competência 1",
+      "note": "Fatores como empresário, criatividade e fontes de ideias cobertos; os fatores fundamentais de gestão não são listados."
+    },
+    {
+      "brTopic": "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 2 'Conceptos básicos sobre Innovación y Tecnología'; competência 1: relação entre conhecimento, ciência e tecnologia",
+      "foreignLocation": "Seção 5, Tema 2",
+      "note": "Conceitos básicos cobertos; tipos e graus de inovação e características da organização inovadora não são nomeados."
+    },
+    {
+      "brTopic": "A inovação como um processo de gestão e mecanismos de implantação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 4 'Desarrollo interno de la Estrategia Tecnológica-Innovadora'; competência 5: 'gestionar y administrar la actividad tecnológica de la empresa'",
+      "foreignLocation": "Seção 5, Temas 4-5; seção 4, competência 5"
+    },
+    {
+      "brTopic": "Modelo de estratégia de inovação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 3 'Estrategia Tecnológica-Innovadora dentro de la Empresa'; competência 4: 'estrategias tecnológicas básicas'",
+      "foreignLocation": "Seção 5, Tema 3; seção 4, competência 4"
+    },
+    {
+      "brTopic": "Ecossistema de Inovação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 5 'Desarrollo cooperativo de la Estrategia Tecnológica-Innovadora'",
+      "foreignLocation": "Seção 5, Tema 5",
+      "note": "Cooperação tecnológica entre empresas aproxima-se do ecossistema, que não é nomeado."
+    },
+    {
+      "brTopic": "Avaliação e desempenho da inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3, 4, 5 (Temas 1-6) e 9 lidas; não há medição de desempenho nem indicadores de inovação. O Tema 6 trata de proteção (patentes e marcas).",
+      "note": "A competência 3 trata de rentabilizar inovações, não de avaliar seu desempenho."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Propriedade industrial: patentes e marcas como proteção da inovação",
+      "location": "Seção 5, Tema 6; seção 4, competência 3"
+    },
+    {
+      "topic": "Geração de tecnologia: opções internas e cooperativas",
+      "location": "Seção 4, competência 2; Temas 4-5"
+    },
+    {
+      "topic": "Empresário inovador e processo criativo",
+      "location": "Seção 5, Tema 1"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos de inovação e inovação como processo de gestão nas organizações.",
+    "foreign": [
+      "Compreender o papel da inovação, conhecimento, ciência e tecnologia",
+      "Conhecer as opções de geração de tecnologia e as estratégias tecnológicas",
+      "Gerir a atividade tecnológica como fonte de competitividade",
+      "Emitir informes de assessoria em inovação"
+    ],
+    "convergences": [
+      "Inovação como processo de gestão",
+      "Estratégia de inovação",
+      "Papel organizacional da inovação"
+    ],
+    "differences": [
+      "Salamanca inclui propriedade industrial (patentes e marcas), ausente da ficha brasileira",
+      "Mackenzie nomeia ecossistema de inovação e avaliação de desempenho, sem equivalente explícito em Salamanca"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Mackenzie na 6ª etapa, Salamanca optativa do 4º curso",
+    "brazil": "Disciplina de 31,7 h com 6 enunciados sobre gestão e estratégia da inovação",
+    "foreign": "Optativa de 6 ECTS com 6 temas sobre estratégia tecnológica e inovadora",
+    "theoryPractice": "Salamanca: sessões teóricas, práticas, dinâmicas de grupo e seminários; avaliação 40% contínua e 60% prova tipo teste"
+  },
+  "practical": {
+    "period": "Primeiro semestre (setembro a janeiro), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Optativa do 4º curso, grupo único; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum requisito prévio",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Innovación Empresarial trata a inovação como atividade estratégica da empresa e cobre os enunciados de processo e de estratégia de Gestão de Inovação, com lacunas em ecossistema e desempenho.",
+  "justification": "Dois dos 6 enunciados estão cobertos (gestão da inovação como processo, nos Temas 4-5; modelo de estratégia, no Tema 3), três são parciais (fatores fundamentais, teoria e tipos, ecossistema por meio da cooperação do Tema 5) e um não aparece: avaliação e desempenho da inovação. A cobertura plena ou parcial de 5/6 indica afinidade parcial; a classe não sobe porque o guia não declara horas de contato (6 ECTS), os tipos e graus de inovação não são nomeados e a ficha brasileira não tem vigência confirmada. Salamanca ainda acrescenta propriedade industrial, que ocupa o Tema 6.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Seis temas com competências explícitas, mas só títulos de tema, sem horas de contato; ficha brasileira sem ano impresso.",
+  "limitations": [
+    "Horas de contato não declaradas; 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Temas listados só por título; conteúdo interno de cada tema desconhecido",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O Tema 5 inclui redes, clusters ou ecossistemas de inovação e indicadores de desempenho?",
+    "A coordenação considera propriedade industrial como acréscimo aceitável ao conteúdo de Gestão de Inovação?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência por tema explícita e sem divergências críticas"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "id": "cc|ENEC50011|es-cadiz|21714063",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC50011",
+    "name": "Algoritmos e Programação I",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 1",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 2, bloco ALGORITMOS E PROGRAMAÇÃO I: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "Implementação de algoritmos utilizando linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714063",
+      "name": "Programación Web",
+      "programme": null,
+      "level": "Graduação",
+      "period": "2º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Aplicações web e defesa 50%, provas durante o semestre 40%, atividades teóricas 10%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714063",
+      "catalogue": null,
+      "sha256": "c3ed4d0135fb50f3e2b293f7bfb639788b8889f6b68bca70a821aea54a5f4296",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 90,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fundamentos PHP e organização em controladores/modelos/vistas implicam programação modular; os comandos elementares e estruturas lineares não são especificados.",
+      "foreignLocation": "Teoria Bloco II, itens 3-5"
+    },
+    {
+      "brTopic": "Implementação de algoritmos utilizando linguagem de programação imperativa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Desenvolvimento de aplicações com PHP e frameworks é prática expressa de programação imperativa.",
+      "foreignLocation": "Práticas 1-2; Teoria 3-5"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade. Implementação de algoritmos utilizando linguagem de programação imperativa.",
+    "foreign": [
+      "Construir e integrar aplicações web em servidor, frameworks PHP e CMS."
+    ],
+    "convergences": [
+      "Programación Web demonstra implementação em PHP, mas o roteiro de frameworks e CMS oferece cobertura apenas parcial dos fundamentos de Algoritmos e Programação I."
+    ],
+    "differences": [
+      "O bloco II introduz PHP no contexto servidor e avança para CodeIgniter, Laravel e Symfony, enquanto as práticas 1-2 exigem implementações. Não são ensinados nominalmente atribuição, condicionais, repetição e estrutura linear, componentes essenciais do primeiro enunciado Mackenzie. Há 60 h presenciais divididas igualmente entre teoria e prática, 90 de trabalho adicional e 6 ECTS; a razão nominal para 63,33 h é 0,947. A proximidade horária não torna um curso de aplicações web uma introdução completa à programação."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "ALGORITMOS E PROGRAMAÇÃO I: etapa 1, 63.33 horas declaradas.",
+    "foreign": "Optativa do 3º/4º ano; segundo semestre; PHP e gestão de conteúdo.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "2º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Programación Web demonstra implementação em PHP, mas o roteiro de frameworks e CMS oferece cobertura apenas parcial dos fundamentos de Algoritmos e Programação I.",
+  "justification": "O bloco II introduz PHP no contexto servidor e avança para CodeIgniter, Laravel e Symfony, enquanto as práticas 1-2 exigem implementações. Não são ensinados nominalmente atribuição, condicionais, repetição e estrutura linear, componentes essenciais do primeiro enunciado Mackenzie. Há 60 h presenciais divididas igualmente entre teoria e prática, 90 de trabalho adicional e 6 ECTS; a razão nominal para 63,33 h é 0,947. A proximidade horária não torna um curso de aplicações web uma introdução completa à programação.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora da UCA não declarada; comparação horária condicional.",
+    "Opções genéricas do formulário de idiomas/mobilidade não comprovam oferta em inglês ou vagas."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714063 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

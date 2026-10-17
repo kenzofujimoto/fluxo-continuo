@@ -1,0 +1,198 @@
+{
+  "id": "si|ARQUITETURA CORPORATIVA|pt-coimbra|18964",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ARQUITETURA CORPORATIVA",
+    "name": "ARQUITETURA CORPORATIVA",
+    "courseName": "Sistemas de Informação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 30, bloco ARQUITETURA CORPORATIVA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Conceitos de Administração de Negócios e Organizações",
+      "Gestão Organizacional",
+      "Tipos de organizações e de negócios",
+      "Fundamentos da Arquitetura Corporativa",
+      "Alinhamento da estratégia, objetivos e ambiente de negócios com a arquitetura de tecnologia da informação",
+      "Frameworks e ferramentas de apoio para arquitetura corporativa",
+      "Arquitetura de Processos",
+      "Arquitetura de Dados",
+      "Arquitetura de Aplicações",
+      "Arquitetura de Infraestrutura",
+      "Administração de Negócios no Mundo 4.0",
+      "Transformação Digital"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18964",
+      "name": "Estratégia Empresarial",
+      "source": "https://apps.uc.pt/courses/PT/unit/18964/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "b55cbe017f349b1f605f33bcf668f04b884229a28c64f57698ad3b79b7cfedb4",
+      "location": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "academicYear": "2026-2027",
+      "language": "Português declarado",
+      "period": "Semestral, semestre civil não indicado",
+      "assessment": "Periódica ou exame por edição",
+      "prerequisites": "Não aplicável",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos de Administração de Negócios e Organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Missão, visão, valores e análise de recursos e capacidades; administração como suporte à estratégia",
+      "foreignLocation": "Programa 1-2"
+    },
+    {
+      "brTopic": "Gestão Organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Avaliação e implementação de estratégias competitivas e corporativas",
+      "foreignLocation": "Programa 3-5"
+    },
+    {
+      "brTopic": "Tipos de organizações e de negócios",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelo de negócio, diversificação, integração e alianças; tipos organizacionais não sistematizados",
+      "foreignLocation": "Programa 2.3 e 4"
+    },
+    {
+      "brTopic": "Fundamentos da Arquitetura Corporativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Alinhamento da estratégia, objetivos e ambiente de negócios com a arquitetura de tecnologia da informação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Alinhamento de recursos e objetivos estratégicos, sem arquitetura de TI",
+      "foreignLocation": "Resultados; Programa 2.4 e 5"
+    },
+    {
+      "brTopic": "Frameworks e ferramentas de apoio para arquitetura corporativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Processos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Aplicações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Infraestrutura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Administração de Negócios no Mundo 4.0",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Transformação Digital",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Conceitos de Administração de Negócios e Organizações. Gestão Organizacional. Tipos de organizações e de negócios. Fundamentos da Arquitetura Corporativa. Alinhamento da estratégia, objetivos e ambiente de negócios com a arquitetura de tecnologia da informação. Frameworks e ferramentas de apoio para arquitetura corporativa. Arquitetura de Processos. Arquitetura de Dados. Arquitetura de Aplicações. Arquitetura de Infraestrutura. Administração de Negócios no Mundo 4.0. Transformação Digital.",
+    "foreign": [
+      "Formular estratégias corporativas e competitivas e aplicar análise de ambiente e recursos"
+    ],
+    "convergences": [
+      "Estratégia Empresarial contribui para gestão e diagnóstico de negócio, mas não trata os domínios técnicos de arquitetura corporativa."
+    ],
+    "differences": [
+      "Quatro em 12 tópicos têm apoio, um completo e três parciais. SWOT, integração vertical, diversificação e fusões oferecem contexto estratégico; arquitetura de processos, dados, aplicações, infraestrutura e frameworks não constam. Os 6 ECTS sem contato explícito impedem comparar 63,33h brasileiras e não resolvem a diferença curricular."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 6; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Formular estratégias corporativas e competitivas e aplicar análise de ambiente e recursos",
+    "theoryPractice": "Casos de unidades estratégicas reais e trabalho em grupo; aplicação de modelos estratégicos empresariais."
+  },
+  "practical": {
+    "period": "Semestral, semestre civil não indicado",
+    "language": "Português declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Não aplicável",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estratégia Empresarial contribui para gestão e diagnóstico de negócio, mas não trata os domínios técnicos de arquitetura corporativa.",
+  "justification": "Quatro em 12 tópicos têm apoio, um completo e três parciais. SWOT, integração vertical, diversificação e fusões oferecem contexto estratégico; arquitetura de processos, dados, aplicações, infraestrutura e frameworks não constam. Os 6 ECTS sem contato explícito impedem comparar 63,33h brasileiras e não resolvem a diferença curricular.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Estratégia Empresarial para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ARQUITETURA CORPORATIVA demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

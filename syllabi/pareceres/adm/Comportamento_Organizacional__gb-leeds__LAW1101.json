@@ -1,0 +1,180 @@
+{
+  "id": "adm|Comportamento Organizacional|gb-leeds|LAW1101",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Comportamento Organizacional",
+    "name": "Comportamento Organizacional",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 1, bloco 'Comportamento Organizacional': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Comportamento Organizacional – Conceito, dimensões e elementos",
+      "Processos Cognitivos e formação de atitudes",
+      "Processo de aprendizagem individual",
+      "Adoecimento no trabalho, estresse e qualidade de vida no trabalho",
+      "Comprometimento, Satisfação e envolvimento no Trabalho",
+      "Motivação",
+      "Liderança e poder nas organizações",
+      "Cultura organizacional",
+      "Diversidade"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LAW1101",
+      "name": "PRIME: Professions, Reflections, Identities, Motivations and Ethics",
+      "faculty": "Não nomeada na ficha (prefixo de código LAW; módulo do curso de Direito)",
+      "programme": "Módulo introdutório para estudantes de Direito (summary: 'being a graduate of a Law degree')",
+      "level": "Undergraduate (UG); o prefixo numérico 1xxx sugere primeiro ano, não declarado na ficha",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "Semesters 1 & 2 (Sep to Jun) — módulo anual",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de 20 créditos; não aprovado como discovery module",
+      "assessment": "100% trabalho de curso (coursework); descrição da tarefa não detalhada na ficha",
+      "prerequisites": "Nenhum listado",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LAW/1101/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "a2208eb6cc63068d56686b745b79d9f476012e04a649f6a25b926bc53ae8af69",
+      "location": "Ficha 2026/27: module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus (remetido ao Minerva), Teaching Methods (horas)",
+      "hours": {
+        "contactTotal": 36,
+        "contactLecture": 14,
+        "contactSeminarLab": 14,
+        "selfStudy": 164,
+        "totalWorkload": 200,
+        "ects": null,
+        "credits": 20,
+        "creditUnit": "UK credits",
+        "basis": "ano",
+        "hourLengthMinutes": null,
+        "note": "Módulo anual (Semesters 1 & 2): 8 h de aprendizagem on-line, 14 h de aulas e 14 h de seminários (7 de 2 h), 36 h de contato no ano, 164 h de estudo privado, 200 h no total. Como a base é o ano, a carga não é comparável com a semestral brasileira."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Comportamento Organizacional – Conceito, dimensões e elementos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Learning outcome 3: 'Recognise and summarise organisational structures and behaviours, ethical and unethical behaviours, leadership types and skills, and broader work behaviours'",
+      "foreignLocation": "Learning outcomes, item 3; Objectives, 'structural and organisational behaviours'",
+      "note": "Reconhecimento de estruturas e comportamentos organizacionais como resultado de aprendizagem, sem conceitos e dimensões detalhados; syllabus remetido ao Minerva."
+    },
+    {
+      "brTopic": "Processos Cognitivos e formação de atitudes",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Nenhum trecho de resumo, objetivos ou resultados trata de cognição ou atitudes; o syllabus só aponta para o Minerva, de modo que a ausência não pode ser afirmada."
+    },
+    {
+      "brTopic": "Processo de aprendizagem individual",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Há reflexão sobre estratégias de estudo e gestão do tempo (skills outcomes), mas isso não equivale a teorias de aprendizagem individual; syllabus não publicado."
+    },
+    {
+      "brTopic": "Adoecimento no trabalho, estresse e qualidade de vida no trabalho",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Ficha menciona 'balance academic and personal responsibilities', sem estresse nem saúde no trabalho; syllabus não publicado."
+    },
+    {
+      "brTopic": "Comprometimento, Satisfação e envolvimento no Trabalho",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Sem menção a comprometimento ou satisfação nos trechos publicados; syllabus remetido ao Minerva."
+    },
+    {
+      "brTopic": "Motivação",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "A ficha fala em refletir sobre as 'motivations' pessoais de carreira, que não é o mesmo que teorias de motivação no trabalho; syllabus não publicado."
+    },
+    {
+      "brTopic": "Liderança e poder nas organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Learning outcome 3: 'leadership types and skills'",
+      "foreignLocation": "Learning outcomes, item 3",
+      "note": "Liderança é citada em um resultado de aprendizagem; poder não é mencionado."
+    },
+    {
+      "brTopic": "Cultura organizacional",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "A ficha cita 'organisational structures and behaviours' e 'cultura e sociedade' em relação ao direito, sem cultura organizacional; syllabus não publicado."
+    },
+    {
+      "brTopic": "Diversidade",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Nenhum trecho publicado trata de diversidade; os resultados falam de identidades e valores pessoais na escolha de carreira; syllabus não publicado."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Papel do direito em questões sociais e culturais", "location": "Learning outcomes, itens 1-2"},
+    {"topic": "Reflexão sobre identidades, valores e motivações para decisões de carreira", "location": "Module summary; Objectives"},
+    {"topic": "Podcasts com profissionais e aplicação de literatura externa ao direito a contextos profissionais", "location": "Objectives; Learning outcomes, item 5"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: teorias e abordagens do comportamento humano nas organizações em três níveis (individual, grupal e organizacional), satisfação, motivação, liderança, cultura, mudança, diversidade e qualidade de vida.",
+    "foreign": ["Reconhecer a relevância do direito para cultura e sociedade", "Reconhecer estruturas, comportamentos, ética e liderança nas organizações", "Refletir sobre respostas individuais a situações estruturais", "Gerir o tempo e refletir sobre o próprio desenvolvimento"],
+    "convergences": ["Reconhecimento de comportamentos organizacionais e de tipos de liderança como resultado de aprendizagem"],
+    "differences": ["O módulo de Leeds é de desenvolvimento profissional e de identidade para estudantes de Direito, não de comportamento organizacional", "O syllabus, remetido ao ambiente virtual, impede verificar sete dos nove enunciados brasileiros"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; módulo de Leeds de primeiro ano (inferido do código) em curso de Direito, Mackenzie na 5ª etapa de Administração",
+    "brazil": "Disciplina de 63,3 h sobre comportamento nos níveis individual, grupal e organizacional",
+    "foreign": "Módulo anual de 20 créditos de reflexão profissional, com podcasts, aulas, seminários e uma avaliação de trabalho de curso",
+    "theoryPractice": "8 h on-line, 14 h de aulas e 14 h de seminários ao longo do ano"
+  },
+  "practical": {
+    "period": "Módulo anual (Semesters 1 & 2, setembro a junho): não pode ser concluído em um único semestre de mobilidade 2027.2",
+    "language": "Inglês (IELTS 6.0, TOEFL iBT 87 ou equivalente, conforme o convênio)",
+    "enrolment": "A ficha é listada como disponível para estudantes de intercâmbio (study abroad); turma de 550, desenhada para estudantes de Direito",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O módulo PRIME de Leeds é um curso anual de reflexão profissional para estudantes de Direito cujo syllabus não é publicado no catálogo; só dois enunciados de Comportamento Organizacional têm apoio nos resultados de aprendizagem, e sete não podem ser verificados.",
+  "justification": "Como o syllabus remete ao Minerva, a análise se apoiou em resumo, objetivos e resultados: o resultado 3 menciona estruturas e comportamentos organizacionais, ética e tipos de liderança, o que dá cobertura parcial para o conceito de comportamento organizacional e para liderança. Os outros sete enunciados — cognição e atitudes, aprendizagem, estresse e qualidade de vida, comprometimento e satisfação, motivação, cultura e diversidade — não aparecem e também não podem ser descartados, e por isso foram marcados como não verificáveis, 78% dos tópicos, acima do limite de um terço da regra interna. O módulo é anual, com 36 h de contato no ano, base que não se compara com as 63,3 h semestrais, e seu foco declarado em carreira e identidade no Direito indica escopo diferente. A classe é evidência insuficiente, não baixa afinidade.",
+  "conclusionClass": "evidencia_insuficiente",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "O catálogo não publica o syllabus detalhado, a avaliação não é descrita e o módulo é anual; a ficha brasileira também não tem vigência confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 não confirmada; módulo anual, inviável em um semestre de mobilidade",
+    "Syllabus publicado apenas no Minerva: sete dos nove tópicos são não verificáveis e a análise usa resumo, objetivos e resultados de aprendizagem",
+    "Horas de contato (36) são anuais; não comparáveis com as 63,3 h semestrais; duração da hora não declarada",
+    "O nível de estudo (primeiro ano) é inferido do prefixo numérico do código",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O Minerva do módulo LAW1101 inclui unidades de comportamento organizacional (motivação, cultura, diversidade) que justifiquem reavaliar o par?",
+    "Estudantes de outras áreas podem cursar um módulo anual de Direito de primeiro ano, e por um único semestre?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); como o syllabus remete ao Minerva, cada enunciado foi buscado em resumo, objetivos e resultados de aprendizagem e marcado como não verificável quando faltou texto; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Syllabus detalhado inacessível no catálogo; reavaliar se o Minerva ou o responsável do módulo fornecerem o programa"}
+}

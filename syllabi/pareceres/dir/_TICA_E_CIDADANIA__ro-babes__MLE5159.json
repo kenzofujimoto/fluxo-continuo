@@ -1,0 +1,121 @@
+{
+  "id": "dir|ÉTICA E CIDADANIA|ro-babes|MLE5159",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "ÉTICA E CIDADANIA",
+    "name": "ÉTICA E CIDADANIA",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "Página 87, bloco ÉTICA E CIDADANIA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "Ementário 2022 histórico; duração da hora e total semestral não estabelecidos."
+    },
+    "topics": [
+      "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história",
+      "bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5159",
+      "name": "Ethics and academic integrity in computer science",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem2_MLE5159_en_alexandru.roja_2026_10192.pdf",
+      "sha256": "b5b251e7b6b786738f8c76f31e07387705a4ad9f0f2deb4beccc870a72d339a2",
+      "location": "Syllabus UBB: secções 1-4, 6.1-6.2, 7, 8.1 unidades 1-12, 9 e 10",
+      "academicYear": "2025-2026 (apesar do diretório URL 2026)",
+      "language": "Inglês, documento; turma de mobilidade não confirmada",
+      "period": "Ano 3, semestre 6 (primavera europeia)",
+      "assessment": "Debates/diálogos 50%, projeto final 50%; mínimo 5 em ambas etapas",
+      "prerequisites": "Não obrigatórios, currículo e competências",
+      "hours": {
+        "contactTotal": 24,
+        "contactLecture": 24,
+        "contactSeminarLab": 0,
+        "selfStudy": 49,
+        "totalWorkload": 75,
+        "ects": 3,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Introdução à ética, deontologia, consequências, trabalho e dilemas da economia digital; cidadania histórica não sistematizada",
+      "foreignLocation": "8.1, unidades 1-7"
+    },
+    {
+      "brTopic": "bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Syllabus UBB: secções 1-4, 6.1-6.2, 7, 8.1 unidades 1-12, 9 e 10",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história; bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais.",
+    "foreign": [
+      "Analisar dilemas éticos em computação e aplicar metodologias e normas profissionais"
+    ],
+    "convergences": [
+      "MLE5159 cobre ética normativa e dilemas profissionais digitais, com ausência do componente calvinista de formação da cidadania."
+    ],
+    "differences": [
+      "O primeiro dos dois enunciados recebe apoio parcial nas unidades 1-7; IA, Big Tech, dados e propriedade intelectual ocupam as demais. As 24h de aula e 49h individuais são discriminadas, sem horas de laboratório. A edição interna é 2025-2026 e não deve ser presumida atual só pelo diretório 2026; a carga brasileira histórica permanece não comparável."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 1; referência histórica 2022, sem comprovação de vigência atual.",
+    "foreign": "Analisar dilemas éticos em computação e aplicar metodologias e normas profissionais",
+    "theoryPractice": "24h de aula, zero laboratório/seminário; projeto final aplica princípios éticos a computação."
+  },
+  "practical": {
+    "period": "Ano 3, semestre 6 (primavera europeia)",
+    "language": "Inglês, documento; turma de mobilidade não confirmada",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Não obrigatórios, currículo e competências",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5159 cobre ética normativa e dilemas profissionais digitais, com ausência do componente calvinista de formação da cidadania.",
+  "justification": "O primeiro dos dois enunciados recebe apoio parcial nas unidades 1-7; IA, Big Tech, dados e propriedade intelectual ocupam as demais. As 24h de aula e 49h individuais são discriminadas, sem horas de laboratório. A edição interna é 2025-2026 e não deve ser presumida atual só pelo diretório 2026; a carga brasileira histórica permanece não comparável.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Ementário Direito 2022 histórico, sem comprovação de correspondência à matriz vigente; horas semanais sem base semestral",
+    "Documento no diretório 2026 se identifica como ano 2025-2026; confirmar edição de oferta."
+  ],
+  "openQuestions": [
+    "A universidade confirma Ethics and academic integrity in computer science para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ÉTICA E CIDADANIA demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

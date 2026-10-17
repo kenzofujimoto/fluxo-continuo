@@ -1,0 +1,207 @@
+{
+  "id": "adm|Gestão Estratégica para a Sustentabilidade|pt-coimbra|93294",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão Estratégica para a Sustentabilidade",
+    "name": "Gestão Estratégica para a Sustentabilidade",
+    "courseName": "Administração",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 7º Semestre (Etapa_7_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_7_02.pdf",
+    "sha256": "d279717ca786cf41173458d00984280076c11ea43bc0a66ae61f8471af0fb5bd",
+    "location": "PDF p. 3, bloco 'Gestão Estratégica para Sustentabilidade': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "A dinâmica competitiva e abordagens da Administração Estratégica",
+      "Sociedade Industrial e Desenvolvimento",
+      "Racionalidade Econômica e Racionalidade Ecológica",
+      "Sustentabilidade Organizacional",
+      "Estratégia para Sustentabilidade – The Natural Step",
+      "O papel dos stakeholders",
+      "Responsabilidade Social Corporativa",
+      "Valor Compartilhado"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93294",
+      "name": "Responsabilidade Ética e Sustentabilidade",
+      "pageCode": "01020854",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Semestral; data.json: 1º Semestre. A página não indica o semestre; 2027.2 a confirmar",
+      "academicYear": "2026/2027",
+      "language": "Português; outra língua de ensino: Inglês",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/93294/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "b54dc5a1e226bb3f2d981d732d988bb8423432b96df8475786343b11b619239e",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (Cap. 1 itens 1.1-1.4; Cap. 2 itens 2.1-2.6), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, duração semestral e modo presencial, sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A dinâmica competitiva e abordagens da Administração Estratégica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino e Programa (Cap. 1 e Cap. 2, itens 1.1-2.6); Bibliografia",
+      "note": "Nenhum item sobre competição ou abordagens da estratégia; a única referência a estratégia é 'Responsabilidade Social Empresarial Estratégica' (2.3)."
+    },
+    {
+      "brTopic": "Sociedade Industrial e Desenvolvimento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "2.1 'O papel das empresas no desenvolvimento sustentável'",
+      "foreignLocation": "Programa, 2.1",
+      "note": "Só o vínculo com desenvolvimento sustentável; a sociedade industrial e a crítica ao modelo de desenvolvimento não são mencionadas."
+    },
+    {
+      "brTopic": "Racionalidade Econômica e Racionalidade Ecológica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "2.4 'Economia circular'; 2.5 'A Economia Azul'",
+      "foreignLocation": "Programa, 2.4 e 2.5",
+      "note": "Economia circular e azul são modelos que conciliam economia e meio ambiente, mas o contraste entre racionalidades não é nomeado."
+    },
+    {
+      "brTopic": "Sustentabilidade Organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Cap. 2 'Sustentabilidade Empresarial': 2.1 'O papel das empresas no desenvolvimento sustentável'; 2.6 'Transformação digital e compromisso futuro'",
+      "foreignLocation": "Programa, Cap. 2; Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Estratégia para Sustentabilidade – The Natural Step",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "2.3 'Responsabilidade Social Empresarial Estratégica'",
+      "foreignLocation": "Programa, 2.3; Bibliografia (Haski-Leventhal, Strategic CSR)",
+      "note": "Há estratégia de sustentabilidade via RSE estratégica, economia circular e azul; The Natural Step e o pensamento sistêmico não são citados."
+    },
+    {
+      "brTopic": "O papel dos stakeholders",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "2.2 'Envolvimento dos stakeholders'",
+      "foreignLocation": "Programa, 2.2"
+    },
+    {
+      "brTopic": "Responsabilidade Social Corporativa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "2.3 'Responsabilidade Social Empresarial Estratégica'; bibliografia 'Strategic Corporate Social Responsibility'",
+      "foreignLocation": "Programa, 2.3; Bibliografia"
+    },
+    {
+      "brTopic": "Valor Compartilhado",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino e Programa (Cap. 1 e Cap. 2, itens 1.1-2.6); Bibliografia",
+      "note": "Valor compartilhado (shared value) não é citado; a RSE estratégica (2.3) é um tema vizinho, sem prova de que o abranja."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Ética empresarial: comportamento no trabalho, moralidade e valores pessoais e empresariais, ética na prática",
+      "location": "Programa, Cap. 1 (1.1-1.4)"
+    },
+    {
+      "topic": "Transformação digital e compromisso futuro",
+      "location": "Programa, 2.6"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: gestão estratégica para a sustentabilidade, complexidades entre ambientes econômico, social e ecológico, objetivos estratégicos compartilhados e pensamento sistêmico.",
+    "foreign": [
+      "Conhecimentos gerais de ética nos negócios e sustentabilidade",
+      "Discutir perspectivas e evolução dos conceitos",
+      "Avaliar criticamente casos e propor soluções criativas",
+      "Pensamento crítico orientado ao propósito em direção a um futuro mais sustentável"
+    ],
+    "convergences": [
+      "Sustentabilidade organizacional",
+      "Stakeholders",
+      "Responsabilidade social empresarial",
+      "Economia circular e azul como vias de conciliação economia e ambiente"
+    ],
+    "differences": [
+      "Mackenzie enfatiza pensamento sistêmico, The Natural Step e valor compartilhado, não citados em Coimbra",
+      "Coimbra tem um capítulo de ética empresarial e é obrigatória do 3º ano; Mackenzie está na 7ª etapa",
+      "A dinâmica competitiva da administração estratégica não consta em Coimbra"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano de Gestão, Mackenzie na 7ª etapa",
+    "brazil": "Estratégia orientada pela sustentabilidade e pensamento sistêmico, 63,3 h",
+    "foreign": "Ética e sustentabilidade empresarial em dois capítulos, 6 ECTS",
+    "theoryPractice": "Exposição e casos reais em Problem-Based Learning"
+  },
+  "practical": {
+    "period": "Semestral; a página não indica o semestre (data.json: 1º Semestre); oferta 2027.2 a confirmar",
+    "language": "Português (outra língua de ensino: Inglês)",
+    "enrolment": "UC obrigatória do 3º ano de Gestão; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Aqui o encontro é bem mais próximo do que com Administração Estratégica: sustentabilidade organizacional, stakeholders e responsabilidade social corporativa estão no Cap. 2 de Coimbra, que também toca economia circular e azul; ficam fora The Natural Step, valor compartilhado e a dinâmica competitiva.",
+  "justification": "Três dos oito tópicos estão cobertos por itens identificados (2.1-2.3 do Programa), três são parciais (sociedade industrial e desenvolvimento, racionalidades econômica e ecológica, estratégia para sustentabilidade) e dois estão ausentes (dinâmica competitiva e valor compartilhado). A cobertura total ou parcial chega a 75%, mas só 37,5% é integral. A carga não é comparável (6 ECTS sem horas de contato), a ficha brasileira não tem vigência confirmada, e o título da ficha ('Gestão Estratégica para Sustentabilidade') foi ligado à matriz por normalização de artigos.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de Coimbra itemizado; faltam horas de contato e semestre, e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Horas de contato e semestre não declarados; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada (data.json: 2027.2 a confirmar)",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false); título da ficha ('Gestão Estratégica para Sustentabilidade') ligado à matriz por normalização de artigos",
+    "Os vínculos parciais com racionalidade ecológica e Natural Step dependem de inferência a partir de itens de uma linha",
+    "O par foi proposto por recuperação semântica (economia, estratégia, sustentabilidade), não por candidatura registrada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O Cap. 2 de Coimbra trata de valor compartilhado ou de The Natural Step dentro da RSE estratégica?",
+    "A coordenação aceitaria uma UC de ética empresarial e sustentabilidade em lugar de uma disciplina de estratégia para sustentabilidade?"
+  ],
+  "alternatives": [
+    {
+      "code": "18964",
+      "name": "Estratégia Empresarial",
+      "relation": "Mesma universidade, programa de estratégia; existe parecer próprio no repositório, mas o programa não foi relido neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 7) e da página oficial da UC de Coimbra (2026-2027), com apoio de IA (Claude); cada tópico vinculado ao item do Programa; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência itemizada, vínculos parciais explicados"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

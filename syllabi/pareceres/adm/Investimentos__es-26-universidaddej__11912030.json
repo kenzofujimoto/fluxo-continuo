@@ -1,0 +1,207 @@
+{
+  "id": "adm|Investimentos|es-26-universidaddej|11912030",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Investimentos",
+    "name": "Investimentos",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 5, bloco 'Investimentos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Estrutura do Sistema Financeiro Nacional",
+      "Mercado Monetário e Títulos de Renda Fixa (Públicos e Privados)",
+      "Mercado de Capitais (Primário e Secundário)",
+      "Relação Risco e Retorno",
+      "Teoria de Carteiras",
+      "Modelos de precificação de ativos",
+      "Fundos de Investimento e análise de desempenho",
+      "Mercado de Derivativos"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Análisis y valoración de operaciones en los mercados financieros",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U137 - Economía Financiera y Contabilidad",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (link de titulação aponta para o Grado en Finanzas y Contabilidad)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 5,
+      "semester": null,
+      "period": "Primer cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Obligatoria",
+      "assessment": "Prova(s) de teoria 60%; prova(s) de conteúdos práticos 40%",
+      "prerequisites": "Nenhum indicado",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias (C9, C16, C24, HD05, HD09, HD15), Descripción de contenidos (Unidades 1-6), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,5 h (75%) e A2a pequeño grupo 37,5 h (25%), ambas com 40% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado. Modalidade híbrida."
+      },
+      "sha256": "39d732424b96bdc364c39c03f7ba0f5778eeddd2fe7eaeb21244ee96ac4df675",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912030/es/2025-26-11912030_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11912030"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estrutura do Sistema Financeiro Nacional",
+      "status": "parcial",
+      "foreignEvidence": "'1.2. Mercados financieros'; '1.4. Mercados secundarios oficiales españoles'; '1.6. Marco regulatorio español de servicios financieros'; '1.7. Protección del inversor'",
+      "foreignLocation": "Teoría, Unidad 1.2-1.7",
+      "note": "Estrutura e regulação do sistema financeiro espanhol/europeu; o Sistema Financeiro Nacional brasileiro (CMN, BCB, CVM) não é objeto de estudo.",
+      "essential": true
+    },
+    {
+      "brTopic": "Mercado Monetário e Títulos de Renda Fixa (Públicos e Privados)",
+      "status": "parcial",
+      "foreignEvidence": "'3.2. Instrumentos de deuda pública'; '3.3. Instrumentos de deuda corporativa'; '3.1. Características y tipos de instrumentos de renta fija'",
+      "foreignLocation": "Teoría, Tema 3.1-3.4",
+      "note": "Renda fixa pública e privada coberta; mercado monetário não é nomeado.",
+      "essential": true
+    },
+    {
+      "brTopic": "Mercado de Capitais (Primário e Secundário)",
+      "status": "parcial",
+      "foreignEvidence": "'1.4. Mercados secundarios oficiales españoles'; '2.3. El mercado bursátil español'; '2.4. Mercados bursátiles internacionales'",
+      "foreignLocation": "Teoría, Unidades 1.4 e 2.3-2.4",
+      "note": "Mercado secundário e bolsa cobertos; mercado primário (emissões) não é nomeado.",
+      "essential": true
+    },
+    {
+      "brTopic": "Relação Risco e Retorno",
+      "status": "parcial",
+      "foreignEvidence": "Resumo RUCT: 'características, operativa, riesgo y fiscalidad' de cada família de instrumentos; HD05 valoração de consequências econômico-financeiras",
+      "foreignLocation": "Resumen (memoria RUCT); Competencias HD05",
+      "note": "O risco é tratado instrumento a instrumento; não há unidade sobre a relação entre risco e retorno esperado.",
+      "essential": true
+    },
+    {
+      "brTopic": "Teoria de Carteiras",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría Unidades 1-6, Práctica (idêntica à teoria), Resumen RUCT, Competencias, Bibliografía",
+      "note": "A única menção a 'carteiras' está em renda variável e fundos como produtos, sem teoria de carteiras.",
+      "essential": true
+    },
+    {
+      "brTopic": "Modelos de precificação de ativos",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría Unidades 1-6 (inclui 2.2 fluxos de caixa da inversão em ações e 5.3 formação de preços de divisas), Competencias HD09",
+      "note": "Fluxos de caixa de ações e formação de preços em divisas são pontuais; CAPM/APT ou modelos de precificação de ativos não são citados.",
+      "essential": true
+    },
+    {
+      "brTopic": "Fundos de Investimento e análise de desempenho",
+      "status": "parcial",
+      "foreignEvidence": "'6.1. Fondos y sociedades de inversión mobiliaria'; '6.2. SICAV'; '6.3. Fondos de inversión inmobiliaria'; '6.4. Planes y fondos de pensiones'",
+      "foreignLocation": "Teoría, Unidad 6.1-6.5",
+      "note": "Tipos e funcionamento de fundos; análise de desempenho dos fundos não aparece.",
+      "essential": true
+    },
+    {
+      "brTopic": "Mercado de Derivativos",
+      "status": "coberto",
+      "foreignEvidence": "'Unidad 4. Instrumentos financieros derivados': futuros (4.1-4.2), opciones (4.3-4.4), cobertura y especulación (4.5), productos estructurados (4.6)",
+      "foreignLocation": "Teoría, Unidad 4.1-4.7",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Fiscalidade da inversão em cada instrumento financeiro",
+      "location": "Teoría, Unidades 1.5, 2.5, 3.4, 4.7, 5.5, 6.5"
+    },
+    {
+      "topic": "Mercado de divisas: características, formação de preços e operativa",
+      "location": "Teoría, Unidade 5"
+    },
+    {
+      "topic": "Proteção do investidor e marco regulatório espanhol de serviços financeiros",
+      "location": "Teoría, Unidade 1.6-1.7"
+    },
+    {
+      "topic": "Planos e fundos de pensões; fundos imobiliários",
+      "location": "Teoría, Unidade 6.3-6.4"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: mercado de ações e de renda fixa, risco e retorno de ativos isolados e carteiras, impacto do risco no preço, títulos públicos e privados, fundos de investimento e noções de derivativos.",
+    "foreign": [
+      "C16 Natureza e características dos instrumentos e mercados financeiros",
+      "HD09 Aplicar métodos e técnicas de análise e gestão de instrumentos financeiros",
+      "HD15 Elaborar relatórios de assessoria a empresas e mercados"
+    ],
+    "convergences": [
+      "Mercados de renda variável e renda fixa",
+      "Derivativos (futuros, opções) e fundos de investimento",
+      "Estrutura dos mercados e regulação"
+    ],
+    "differences": [
+      "Mackenzie inclui a teoria financeira (risco e retorno, teoria de carteiras, modelos de precificação), que não consta em Jaén",
+      "Jaén é descritivo-operacional e ancorado na regulação e na fiscalidade espanholas, com câmbio e instrumentos estruturados que a ficha brasileira não lista"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de nível avançado (Jaén 5º curso obrigatória; Mackenzie 5ª etapa)",
+    "brazil": "Componente de 63,3 h com bloco de mercados e bloco de teoria de risco e carteiras",
+    "foreign": "Instrumentos e mercados financeiros em seis unidades, com ênfase em características, operativa, risco e tributação",
+    "theoryPractice": "Jaén: aula magistral, exercícios e casos resolvidos em planilha; modalidade híbrida"
+  },
+  "practical": {
+    "period": "Primer cuatrimestre, compatível em calendário com 2027.2 se mantido",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC obrigatória de 5º curso do duplo grau; aceitação de estudantes de mobilidade e modalidade híbrida a confirmar",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A guia de Jaén cobre bem os mercados e os instrumentos que Investimentos lista (renda fixa, bolsa, derivativos e fundos), mas deixa de fora o núcleo teórico — risco e retorno, teoria de carteiras e precificação de ativos — e substitui o sistema financeiro brasileiro pelo espanhol.",
+  "justification": "Dos oito enunciados, um está integralmente coberto (derivativos, Unidade 4.1-4.7) e cinco são parciais (SFN via 1.2-1.7 com regulação espanhola; renda fixa 3.1-3.4 sem mercado monetário; mercado de capitais sem mercado primário; risco apenas como característica de cada instrumento; fundos 6.1-6.5 sem análise de desempenho). Teoria de carteiras e modelos de precificação não aparecem. Cobertura total ou parcial de 6/8 (75%), mas só 1/8 (12,5%) coberto de forma plena, e a ficha brasileira não tem vigência confirmada; a classe é afinidade parcial. A carga de 63,3 h não é comparável com as 150 h de atividades da guia, que não declara total presencial nem ECTS.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de Jaén detalhado em unidades e subitens; contudo os itens da ficha brasileira são títulos curtos, o que torna os parciais dependentes de interpretação, e faltam horas presenciais, ECTS e vigência da ficha.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad (5º curso); ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "Quadro regulatório e fiscal espanhol/europeu, diferente do brasileiro (CMN, BCB, CVM)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita aproveitar uma disciplina de instrumentos e mercados sem teoria de carteiras e precificação para Investimentos?",
+    "Existe em Jaén outra UC (por exemplo, de dirección financiera ou gestión de carteras) que cubra risco-retorno e carteiras?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência de mercados e ausência de teoria de carteiras são nítidas nos dois documentos"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

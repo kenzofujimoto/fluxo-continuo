@@ -1,0 +1,179 @@
+{
+  "id": "dir|FATOS JURÍDICOS|es-salamanca|CAT-USAL-207150",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "FATOS JURÍDICOS",
+    "name": "FATOS JURÍDICOS",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 11, bloco FATOS JURÍDICOS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 2
+    },
+    "topics": [
+      "Examinar a Parte Geral do Código Civil, em especial a teoria dos fatos jurídicos e reflete sua importância para a proteção das relações privadas",
+      "Na primeira etapa, o conceito e classificação dos fatos jurídicos e suas espécies são apresentados, como disciplinador da criação, modificação e extinção dos direitos",
+      "Na sequência, é diferenciado atos ilícitos e lícitos, com ênfase no negócio jurídico",
+      "Em relação ao tópico de negócios jurídicos são destacados os seguintes temas: negócio jurídico como poder de autorregulação privada para a solução dos problemas contemporâneos",
+      "análise dos elementos essenciais e acidentais do negócio jurídico",
+      "distinção entre nulidade absoluta e relativa do negócio jurídico e prova do negócio jurídico",
+      "Na etapa final, os temas da prescrição e decadência são abordados, bem como suas distinções práticas no âmbito judicial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207150",
+      "name": "PARTE GENERAL DE DERECHO CIVIL. DERECHO DE LA PERSONA",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": 2,
+      "period": "year 1",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": "Exame70%, práticas30%",
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207150",
+      "catalogue": "https://guias.usal.es/node/207150",
+      "sha256": "d2ece871207d3bdc6774bc3ffec9ef813f88304bdc4978220245d993727d8dc2",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102306"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Examinar a Parte Geral do Código Civil, em especial a teoria dos fatos jurídicos e reflete sua importância para a proteção das relações privadas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Parte geral civil e autonomia privada com proteção de direitos subjetivos.",
+      "foreignLocation": "5, lecciones1 e11-14"
+    },
+    {
+      "brTopic": "Na primeira etapa, o conceito e classificação dos fatos jurídicos e suas espécies são apresentados, como disciplinador da criação, modificação e extinção dos direitos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Fato, ato e negócio jurídico; nascimento, aquisição, transmissão e extinção de direitos.",
+      "foreignLocation": "5, lecciones11-12"
+    },
+    {
+      "brTopic": "Na sequência, é diferenciado atos ilícitos e lícitos, com ênfase no negócio jurídico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fatos/atos/negócios constam, sem distinção explícita entre ilícitos e lícitos.",
+      "foreignLocation": "5, lección11.1"
+    },
+    {
+      "brTopic": "Em relação ao tópico de negócios jurídicos são destacados os seguintes temas: negócio jurídico como poder de autorregulação privada para a solução dos problemas contemporâneos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Autonomia privada: significado, exercício e limites.",
+      "foreignLocation": "5, lección11.2"
+    },
+    {
+      "brTopic": "análise dos elementos essenciais e acidentais do negócio jurídico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Estrutura e classes do negócio jurídico, sem elementos essenciais/acidentais discriminados.",
+      "foreignLocation": "5, lección14"
+    },
+    {
+      "brTopic": "distinção entre nulidade absoluta e relativa do negócio jurídico e prova do negócio jurídico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Ineficácia do negócio é tema; nulidade absoluta/relativa e prova não são explicitadas.",
+      "foreignLocation": "5, lección14.5"
+    },
+    {
+      "brTopic": "Na etapa final, os temas da prescrição e decadência são abordados, bem como suas distinções práticas no âmbito judicial",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Influência do tempo, prescrição extintiva e caducidade.",
+      "foreignLocation": "5, lección12.5"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Examinar a Parte Geral do Código Civil, em especial a teoria dos fatos jurídicos e reflete sua importância para a proteção das relações privadas. Na primeira etapa, o conceito e classificação dos fatos jurídicos e suas espécies são apresentados, como disciplinador da criação, modificação e extinção dos direitos. Na sequência, é diferenciado atos ilícitos e lícitos, com ênfase no negócio jurídico. Em relação ao tópico de negócios jurídicos são destacados os seguintes temas: negócio jurídico como poder de autorregulação privada para a solução dos problemas contemporâneos; análise dos elementos essenciais e acidentais do negócio jurídico; distinção entre nulidade absoluta e relativa do negócio jurídico e prova do negócio jurídico. Na etapa final, os temas da prescrição e decadência são abordados, bem como suas distinções práticas no âmbito judicial.",
+    "foreign": [
+      "Parte General de Derecho Civil 102306 é candidata forte em conteúdo para Fatos Jurídicos: fatos/atos/negócios, autonomia privada, direitos subjetivos, prescrição e caducidade."
+    ],
+    "convergences": [
+      "Parte geral civil e autonomia privada com proteção de direitos subjetivos.",
+      "Fato, ato e negócio jurídico; nascimento, aquisição, transmissão e extinção de direitos.",
+      "Fatos/atos/negócios constam, sem distinção explícita entre ilícitos e lícitos.",
+      "Autonomia privada: significado, exercício e limites.",
+      "Estrutura e classes do negócio jurídico, sem elementos essenciais/acidentais discriminados.",
+      "Ineficácia do negócio é tema; nulidade absoluta/relativa e prova não são explicitadas.",
+      "Influência do tempo, prescrição extintiva e caducidade."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 2; exterior: Graduação, ano None.",
+    "brazil": "FATOS JURÍDICOS: 2; documento 2022",
+    "foreign": "PARTE GENERAL DE DERECHO CIVIL. DERECHO DE LA PERSONA: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 1",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Parte General de Derecho Civil 102306 é candidata forte em conteúdo para Fatos Jurídicos: fatos/atos/negócios, autonomia privada, direitos subjetivos, prescrição e caducidade.",
+  "justification": "Quatro de sete enunciados têm cobertura conceitual integral e três parcial. Estrutura genérica de negócio não prova todos os elementos ou tipos de nulidade brasileiros. O curso de 6 ECTS dedica também várias lições a pessoa e capacidade; faltam horas e vigência brasileira atual.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de FATOS JURÍDICOS com PARTE GENERAL DE DERECHO CIVIL. DERECHO DE LA PERSONA; Quatro de sete enunciados têm cobertura conceitual integral e três parcial. Estrutura genérica de negócio não prova todos os elementos ou tipos de nulidade brasileiros. O curso de 6 ECTS dedica também várias lições a pessoa e capacidade; faltam horas e vigência brasileira atual.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

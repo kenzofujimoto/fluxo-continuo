@@ -1,0 +1,188 @@
+{
+  "id": "adm|Marketing I|es-salamanca|CAT-USAL-210412",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210412",
+      "name": "International Marketing",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Comercialización e Investigación de Mercados)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo Semestre (campo 'Periodicidade'), 4º curso; ministrada e avaliada 100% em inglês",
+      "academicYear": "2025/2026",
+      "language": "Inglês",
+      "courseStatus": "OPTATIVA",
+      "assessment": "Avaliação contínua 40% (casos, projetos em grupo, apresentações; frequência mínima 85%) + prova final tipo teste 60% (mínimo 5/10)",
+      "prerequisites": "Recomendados: B2 de inglês; fundamentos de marketing, comportamento do consumidor, pesquisa de mercado, administração e comércio internacional",
+      "source": "https://guias.usal.es/node/210412",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "0f964e35ce58b4846a8245fe84182fd8f59647a4641528148fcb85818db07209",
+      "location": "Guia 2025/2026: seções 1 (datos), 2 (recomendaciones), 3 (objetivos), 4 (competencias), 5 (7 linhas de conteúdo), 6-7 (metodologías), 9 (evaluación)",
+      "officialCode": "103861",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS. A seção 7 'Distribución de las Metodologías Docentes' vem vazia no texto obtido; nenhuma hora de contato declarada. Código oficial: 103861."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Introduction and fundamentals of international marketing'; objetivo: 'understand the role of marketing in international business management'",
+      "foreignLocation": "Seção 5, linha 1; seção 3",
+      "note": "O significado geral de marketing é pressuposto (conhecimento prévio exigido na seção 2), não ensinado desde o início."
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'The analysis of the international and domestic environments'; objetivo: 'analyze the dynamic and changing international environment'",
+      "foreignLocation": "Seção 5, linha 2; seção 3"
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 2, 3, 4 e 5 (7 linhas) lidas; comportamento do consumidor consta na seção 2 como conhecimento prévio exigido, não como conteúdo.",
+      "note": "Pesquisa de mercado e comportamento do consumidor são pré-requisitos recomendados."
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 2, 3, 4 e 5 lidas; o comportamento do comprador organizacional não é mencionado.",
+      "note": "A ficha brasileira rotula o enunciado 'Comportamento Organizacional'; a ementa o descreve como comportamento do comprador organizacional."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Research and selection of foreign markets'; 'The International Marketing-mix'",
+      "foreignLocation": "Seção 5, linhas 4 e 6",
+      "note": "Seleção de mercados aproxima-se de segmentação; posicionamento não é nomeado."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Expansão internacional da empresa e formas de entrada em mercados estrangeiros",
+      "location": "Seção 5, linhas 3 e 5"
+    },
+    {
+      "topic": "Mix de marketing internacional",
+      "location": "Seção 5, linha 6"
+    },
+    {
+      "topic": "Plano de marketing internacional",
+      "location": "Seção 5, linha 7"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: marketing como geração de valor, satisfação, valor, fidelidade, comportamento do consumidor e do comprador organizacional, segmentação e posicionamento.",
+    "foreign": [
+      "Compreender o papel do marketing na gestão internacional",
+      "Analisar o ambiente internacional na expansão global",
+      "Adaptar as variáveis do mix de marketing a um contexto internacional",
+      "Elaborar um plano básico de marketing internacional"
+    ],
+    "convergences": [
+      "Ambiente de marketing",
+      "Seleção de mercados e mix de marketing"
+    ],
+    "differences": [
+      "Salamanca é optativa avançada de marketing internacional em inglês e supõe marketing e comportamento do consumidor já conhecidos",
+      "Mackenzie é introdutória (conceitos, consumidor, comprador organizacional)"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: 1ª etapa introdutória; Salamanca: optativa do 4º curso, avançada",
+    "brazil": "Disciplina de 63,3 h com 5 enunciados introdutórios",
+    "foreign": "Optativa de 6 ECTS com 7 linhas de conteúdo de marketing internacional",
+    "theoryPractice": "Salamanca: estudos de caso, projetos em grupo, apresentações e testes; avaliação 40% contínua e 60% prova final"
+  },
+  "practical": {
+    "period": "Segundo semestre (fevereiro a junho), que não coincide com 2027.2; aula e avaliação 100% em inglês (B2)",
+    "language": "Inglês",
+    "enrolment": "Optativa do 4º curso, grupo 1; exige B2 de inglês, o que independe do espanhol da universidade; aceitação de intercambista não verificada",
+    "prerequisites": "Recomendados: B2 de inglês; fundamentos de marketing, comportamento do consumidor, pesquisa de mercado, administração e comércio internacional",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "International Marketing é um curso avançado em inglês que presume marketing e comportamento do consumidor, conteúdos que a ficha Mackenzie de Marketing I ensina; só o ambiente de marketing coincide plenamente.",
+  "justification": "Um dos 5 enunciados está coberto (ambiente de marketing, linha 2), dois são parciais (significado de marketing e segmentação/posicionamento, via seleção de mercados e mix) e dois não aparecem (comportamento do consumidor e do comprador organizacional), justamente os que o guia lista como conhecimento prévio. Pela regra interna, a cobertura de 3/5 sugere afinidade parcial; por isso a classe foi rebaixada para baixa afinidade, já que a base introdutória da ficha brasileira é pressuposto, e não conteúdo, do curso de Salamanca. A carga não é comparável (6 ECTS sem horas de contato).",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A regra interna dá afinidade parcial (3/5), mas dois enunciados parciais são fracos e o guia exige comportamento do consumidor e fundamentos de marketing como conhecimentos prévios, de modo que o conteúdo introdutório da ficha brasileira não é ensinado.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia com sete linhas de conteúdo e competências, sem horas de contato e com pré-requisitos explícitos; ficha brasileira sem ano impresso.",
+  "limitations": [
+    "Horas de contato não declaradas; 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Disciplina ministrada e avaliada 100% em inglês, enquanto o idioma de instrução geral da USAL é o espanhol",
+    "Conteúdos listados só por título de linha; sem detalhamento por tema",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Existe disciplina introdutória de Marketing (fundamentos e comportamento do consumidor) no plano da USAL que supra a ficha Mackenzie?",
+    "A coordenação aceita oferta em inglês para o intercambista?"
+  ],
+  "alternatives": [
+    {
+      "code": "CAT-USAL-209843",
+      "name": "Fundamentos de Comercialización",
+      "relation": "Obrigatória do 2º curso que ensina conceito, entorno, comportamento de compra e segmentação; analisada em outro parecer deste lote"
+    }
+  ],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Rebaixamento explicado por pré-requisitos explícitos do guia"
+  }
+}

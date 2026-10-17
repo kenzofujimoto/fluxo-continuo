@@ -1,0 +1,80 @@
+{
+ "meta": {
+  "generated": "2026-10-16",
+  "purpose": "Vínculos explícitos entre linhas da matriz e blocos do ementário FCI 2025 cujo título impresso difere ou que estão no PDF de componentes universais. 'titulo_diferente_confirmar' gera anomalia para confirmação."
+ },
+ "aliases": [
+  {
+   "courseId": "cc",
+   "code": "ENUN51118",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+   "documentName": "ÉTICA E CIDADANIA",
+   "method": "mesmo_titulo_documento_universal",
+   "note": null
+  },
+  {
+   "courseId": "cc",
+   "code": "ENUN51119",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+   "documentName": "INTRODUÇÃO À COSMOVISÃO REFORMADA",
+   "method": "mesmo_titulo_documento_universal",
+   "note": null
+  },
+  {
+   "courseId": "cc",
+   "code": "ENUN52242",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+   "documentName": "PRINCÍPIOS DE EMPREENDEDORISMO",
+   "method": "mesmo_titulo_documento_universal",
+   "note": null
+  },
+  {
+   "courseId": "cc",
+   "code": "ENUN51121",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+   "documentName": "PROJETOS EMPREENDEDORES",
+   "method": "mesmo_titulo_documento_universal",
+   "note": null
+  },
+  {
+   "courseId": "cc",
+   "code": "ENEC61012",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+   "documentName": "INTRODUÇÃO A ENGENHARIA DE SOFTWARE",
+   "method": "variacao_ortografica",
+   "note": null
+  },
+  {
+   "courseId": "si",
+   "code": "GESTÃO DE PROJETOS DE TECNOLOGIA DA INFORMAÇÃO",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+   "documentName": "GESTÃO DE PROJETOS DE TECNLOGIA DA INFORMAÇÃO",
+   "method": "variacao_ortografica",
+   "note": "Título impresso com erro de digitação ('TECNLOGIA') no ementário 2025"
+  },
+  {
+   "courseId": "si",
+   "code": "SERVIÇOS EM NUVEM",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+   "documentName": "SERVIÇO EM NUVEM",
+   "method": "variacao_ortografica",
+   "note": null
+  },
+  {
+   "courseId": "cc",
+   "code": "ENEX54357",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+   "documentName": "ANÁLISE DE DADOS APLICADA",
+   "method": "titulo_diferente_confirmar",
+   "note": "Matriz: 'Análise de Dados'; ementário 2025 da 2ª etapa: 'Análise de Dados Aplicada'. Confirmar com a coordenação se é o mesmo componente."
+  },
+  {
+   "courseId": "cc",
+   "code": "ENEC50078",
+   "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+   "documentName": "FUNDAMENTOS DE BANCO DE DADOS",
+   "method": "titulo_diferente_confirmar",
+   "note": "Matriz: 'Banco de Dados'; ementário 2025 da 3ª etapa: 'Fundamentos de Banco de Dados'. Confirmar com a coordenação se é o mesmo componente."
+  }
+ ]
+}

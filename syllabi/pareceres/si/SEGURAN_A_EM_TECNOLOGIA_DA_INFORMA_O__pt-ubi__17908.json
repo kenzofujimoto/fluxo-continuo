@@ -1,0 +1,159 @@
+{
+  "id": "si|SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO|pt-ubi|17908",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO",
+    "name": "SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 28, bloco SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Conceitos Fundamentais de Segurança da Informação",
+      "Introdução à Criptografia",
+      "Introdução de Segurança de Operações",
+      "Introdução de Segurança de desenvolvimento de software",
+      "Introdução aos Padrões de Segurança",
+      "Família ISO 27000 e ISO 22301",
+      "Introdução à Lei Brasileira e Privacidade dos Dados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-ubi",
+      "university": "Universidade da Beira Interior",
+      "code": "17908",
+      "name": "Segurança e Fiabilidade de Software",
+      "source": "https://www.ubi.pt/Disciplina/17908/2026",
+      "sha256": "84b91fdeedbe6291e34b2540bc14e6e9e1880556c6a9aa1ba7dff8361b150300",
+      "location": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "academicYear": "2026; atualização 09/10/2026",
+      "language": "Português declarado",
+      "period": "Ano 1, semestre S1",
+      "assessment": "50% componente prática e 50% prova teórica; mínimo 6 em cada",
+      "prerequisites": "Não declarados formalmente; lógica e programação são pressupostos pelo conteúdo",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Carga PL(30H)/T(30H) explícita; duração da hora não informada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos Fundamentais de Segurança da Informação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Propriedades de segurança de execução e ciclo de sistemas seguros; fundamentos gerais de SI não sistematizados",
+      "foreignLocation": "Objectivos; Conteúdos especificação"
+    },
+    {
+      "brTopic": "Introdução à Criptografia",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Introdução de Segurança de Operações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Introdução de Segurança de desenvolvimento de software",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Especificação por contratos, verificação estática e dinâmica e métodos formais no ciclo de desenvolvimento",
+      "foreignLocation": "Objectivos; Conteúdos 4-6"
+    },
+    {
+      "brTopic": "Introdução aos Padrões de Segurança",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Família ISO 27000 e ISO 22301",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Introdução à Lei Brasileira e Privacidade dos Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Conceitos Fundamentais de Segurança da Informação. Introdução à Criptografia. Introdução de Segurança de Operações. Introdução de Segurança de desenvolvimento de software. Introdução aos Padrões de Segurança. Família ISO 27000 e ISO 22301. Introdução à Lei Brasileira e Privacidade dos Dados.",
+    "foreign": [
+      "Especificar e verificar sistemas seguros e fiáveis com técnicas formais e contratos"
+    ],
+    "convergences": [
+      "Segurança e Fiabilidade de Software é focada em métodos formais, oferecendo cobertura de desenvolvimento seguro, mas pouca correspondência com a introdução geral à segurança de TI."
+    ],
+    "differences": [
+      "Apenas dois de sete enunciados recebem apoio, um completo e um parcial. SAT/SMT, model checking, contratos e monitorização não comprovam criptografia, operações, padrões ISO ou legislação brasileira. As 60h de contato revelam profundidade técnica, porém em um recorte específico diferente do componente introdutório."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 5; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Especificar e verificar sistemas seguros e fiáveis com técnicas formais e contratos",
+    "theoryPractice": "30h T e 30h PL; exercícios e prova sobre especificação e verificação formal de programas."
+  },
+  "practical": {
+    "period": "Ano 1, semestre S1",
+    "language": "Português declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Não declarados formalmente; lógica e programação são pressupostos pelo conteúdo",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Segurança e Fiabilidade de Software é focada em métodos formais, oferecendo cobertura de desenvolvimento seguro, mas pouca correspondência com a introdução geral à segurança de TI.",
+  "justification": "Apenas dois de sete enunciados recebem apoio, um completo e um parcial. SAT/SMT, model checking, contratos e monitorização não comprovam criptografia, operações, padrões ISO ou legislação brasileira. As 60h de contato revelam profundidade técnica, porém em um recorte específico diferente do componente introdutório.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Segurança e Fiabilidade de Software para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de SEGURANÇA EM TECNOLOGIA DA INFORMAÇÃO demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

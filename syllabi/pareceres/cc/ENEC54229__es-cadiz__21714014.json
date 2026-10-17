@@ -1,0 +1,160 @@
+{
+  "id": "cc|ENEC54229|es-cadiz|21714014",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54229",
+    "name": "Algoritmos e Programação II",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 2ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2 (2ª etapa CC Alphaville), bloco 'Comp. Curricular ALGORITMOS E PROGRAMAÇÃO II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h-relógio e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714014",
+      "name": "Análisis de Algoritmos y Estructuras de Datos",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo II Formación común a la rama de Informática, materia II.2 Programación de computadores",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 2,
+      "semester": "Primer semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame escrito teórico-prático 90%; provas de resultados de atividades de aprendizagem (rubricas) 10%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714014",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "6803fdabd948b6c48dbc5d9f304e4180c306d9d308dcbbbecd942b4239152bfb",
+      "location": "Programa docente 2026-27: cabeçalho (créditos, tipo, duração, curso, idioma), 'Resultados de aprendizaje' 1-11, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-7, 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro 'Actividades y metodologías docentes': 60 h de docência presencial = Teoría 24 + Prácticas, seminarios y problemas 12 + Prácticas de informática 24; 86 h não presenciais e 4 h de avaliação (exame final); 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Temas 1-2 (ordens assintóticas; tempo e espaço, pior/melhor/médio caso, estruturas de controle) e RA 1-4, 6, 9 sobre complexidade; recursão e técnicas iterativas não aparecem",
+      "foreignLocation": "Temario, Temas 1 e 2; Resultados de aprendizaje 1-4, 6, 9",
+      "note": "A parte de eficiência/complexidade tem cobertura forte e mais profunda que a do Mackenzie (análise empírica e formal, contraste teoria x prática). A parte de desenvolvimento de algoritmos com técnicas recursivas e iterativas não é nomeada em nenhum item do temário nem dos resultados de aprendizagem."
+    },
+    {
+      "brTopic": "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 3 'Algunos algoritmos clásicos y su análisis': 3.1 Búsqueda secuencial, 3.2 Métodos directos de ordenación",
+      "foreignLocation": "Temario, Tema 3 (3.1-3.2)",
+      "note": "Apenas busca sequencial e ordenação direta (elementar). Não há busca binária, ordenação por divisão e conquista ou heap/quick/merge sort entre os itens; 'avançados' não é coberto."
+    },
+    {
+      "brTopic": "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario Temas 1-7 completos, Resultados de aprendizaje 1-11, descrição das atividades de teoria e práticas e bibliografia; nenhum item trata de vetores/matrizes (arrays) como conteúdo. Temas 4-7 tratam de TAD, pilhas, filas e listas.",
+      "note": "Vetores podem ser usados como representação dos TAD (item 'Diferentes representaciones'), mas o documento não o afirma e o foco é abstração de dados em linguagem orientada a objetos (práticas), não programação imperativa com matrizes."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Tipos abstratos de dados: conceitos, modularidade, especificação e implementação (TAD Número Racional)", "location": "Temario, Tema 4"},
+    {"topic": "Pilhas, filas e listas (com cabeçalho, duplamente encadeadas, circulares) e suas diferentes representações", "location": "Temario, Temas 5-7"},
+    {"topic": "Programação genérica em laboratório e escolha entre implementações alternativas de uma abstração de dados", "location": "Resultados de aprendizaje 8 e 11"},
+    {"topic": "Contraste entre resultados empíricos e teóricos de complexidade", "location": "Resultados de aprendizaje 1 e 4"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Aplicar procedimentos algorítmicos básicos e analisar adequação e complexidade dos algoritmos propostos (competência específica)",
+      "Conhecer, projetar e usar eficientemente tipos e estruturas de dados adequados ao problema",
+      "Analisar empírica e formalmente a complexidade temporal e comparar algoritmos por complexidade assintótica (RA 1-4)"
+    ],
+    "convergences": [
+      "Análise de eficiência e complexidade de algoritmos",
+      "Busca sequencial e ordenação elementar como algoritmos clássicos analisados"
+    ],
+    "differences": [
+      "Cádiz concentra o semestre em análise de complexidade e TAD/estruturas lineares; o Mackenzie dedica um terço da ementa a vetores e matrizes, ausentes em Cádiz",
+      "Recursão e ordenação avançada, explícitas no Mackenzie, não aparecem no temário de Cádiz",
+      "O conteúdo de Cádiz sobre pilhas, filas, listas e TAD corresponde mais a Estrutura de Dados I do Mackenzie do que a Algoritmos e Programação II"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Cádiz obrigatória do 2º curso (1º semestre), Mackenzie obrigatória da 2ª etapa",
+    "brazil": "Metade teórica e metade prática (2+2 h-a semanais); linguagem imperativa",
+    "foreign": "60 h presenciais: 24 de teoria, 12 de seminários/problemas e 24 de práticas de informática com linguagem orientada a objetos; exame final vale 90%",
+    "theoryPractice": "Teoria 40% e prática/seminário 60% do contato em Cádiz, contra 50/50 no Mackenzie"
+  },
+  "practical": {
+    "period": "'Duración: PRIMER SEMESTRE' (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Obrigatória com 236 matriculados em 2026-27; secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado no documento",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A guia de Cádiz comprova a parte de complexidade e eficiência da ementa de Algoritmos e Programação II (Temas 1-2) e uma parte da busca e da ordenação (Tema 3: sequencial e métodos diretos), mas não cita recursão, ordenação avançada, vetores nem matrizes; o semestre se dedica a TAD, pilhas, filas e listas.",
+  "justification": "Nenhum dos três tópicos oficiais fica integralmente coberto: dois são parciais (complexidade sem recursão/técnicas iterativas; busca e ordenação só elementares) e vetores/matrizes não têm item algum no temário, o que resulta em 67% de cobertura parcial ou melhor, acima de 50% e abaixo do parâmetro de 75% para cobertura plena. A carga presencial declarada de 60 h (24 teoria + 12 seminários + 24 informática) equivale a 94,7% das 63,33 h do Mackenzie pelo valor nominal e a 78,9% se a hora espanhola for de 50 minutos; a carga não é o obstáculo, o conteúdo é. Quase metade do temário espanhol (Temas 4-7) cobre TAD e estruturas lineares que a ementa de Algoritmos e Programação II não menciona.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 completo, com temário em sete temas e horas presenciais discriminadas; reduzem a confiança a duração não declarada da hora espanhola, a ementa brasileira de três enunciados longos e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 e vaga para estudante de mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 se a hora for de 50 minutos",
+    "Ementa brasileira concisa: a recursão e a ordenação avançada são lidas dos enunciados oficiais sem conteúdo programático detalhado",
+    "O temário de Cádiz descreve títulos de temas; a profundidade real de cada item (por exemplo, quais métodos diretos de ordenação) não é especificada",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceitaria Análisis de Algoritmos y Estructuras de Datos como cobertura apenas parcial, com complementação de recursão e vetores/matrizes?",
+    "A UCA aceita estudantes de mobilidade na turma da obrigatória do 1º semestre de 2027/28?"
+  ],
+  "alternatives": [
+    {
+      "code": "21714016",
+      "name": "Disciplina do catálogo de Cádiz candidata a Estrutura de Dados I",
+      "relation": "Não lida neste parecer; os Temas 4-7 desta guia (TAD, pilhas, filas, listas) sugerem maior proximidade com Estrutura de Dados I do que com Algoritmos e Programação II"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema, resultado de aprendizagem ou quadro de atividades do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa completo com horas presenciais explícitas; lacunas de recursão, ordenação avançada e vetores/matrizes objetivas e documentadas"
+  }
+}

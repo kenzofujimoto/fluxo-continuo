@@ -1,0 +1,130 @@
+{
+  "id": "cc|ENEC54298|pt-ubi|17908",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54298",
+    "name": "Cibersegurança",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 2, bloco CIBERSEGURANÇA, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Introduz o conceito de segurança da informação",
+      "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-ubi",
+      "university": "Universidade da Beira Interior",
+      "code": "17908",
+      "name": "Segurança e Fiabilidade de Software",
+      "faculty": null,
+      "department": null,
+      "programme": "Mestrado",
+      "level": "Mestrado",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Outono/S 1",
+      "academicYear": "2026; atualização 09/10/2026",
+      "language": "Português; confirmar turma",
+      "courseStatus": null,
+      "assessment": "Exercícios 50%, prova 50%; mínimo 6 nas componentes",
+      "prerequisites": "Não declarados na fonte individual",
+      "source": "https://www.ubi.pt/Disciplina/17908/2026",
+      "catalogue": "http://www.ubi.pt/cursos",
+      "sha256": "84b91fdeedbe6291e34b2540bc14e6e9e1880556c6a9aa1ba7dff8361b150300",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introduz o conceito de segurança da informação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivos tratam construção de software seguro e fiável por métodos formais, sem introduzir os fundamentos gerais de segurança da informação.",
+      "foreignLocation": "Objectivos de Aprendizagem"
+    },
+    {
+      "brTopic": "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Especificação por contratos, SAT/SMT, verificação estática e dinâmica cobrem parte do desenvolvimento seguro; não constam criptografia, redes ou legislação.",
+      "foreignLocation": "Conteúdos programáticos, itens 1-7"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Introduz o conceito de segurança da informação. Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais.",
+    "foreign": [
+      "Selecionar e aplicar métodos formais para especificar e verificar software seguro"
+    ],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 6; destino Mestrado",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 2, 'pratica': 2, 'atelie': 0}",
+    "foreign": "30 T+30 PL no mestrado, com lógica temporal, model checking e exercícios de prova",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "Outono/S 1",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Confirmar precedências com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "Permissão para graduação cursar mestrado pendente",
+    "Hash de records anterior diverge; adotado hash atual de programas"
+  ],
+  "openQuestions": [
+    "Métodos formais podem ser reconhecidos como optativa avançada sem substituir Cibersegurança?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "Segurança e Fiabilidade de Software converge no desenvolvimento seguro, mas o faz por contratos e prova formal; não substitui a formação ampla em criptografia e segurança de redes.",
+  "justification": "A expressão segurança não basta: o programa é constituído por lógicas proposicional/primeira ordem/temporal, SAT/SMT e verificação. Ambos os enunciados Mackenzie têm só interseção parcial. As 60 h(30+30) atendem condicionalmente o parâmetro de 75%, mas não eliminam as lacunas de conteúdo.",
+  "conclusionClass": "afinidade_parcial"
+}

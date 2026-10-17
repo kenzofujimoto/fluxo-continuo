@@ -1,0 +1,165 @@
+{
+  "id": "cc|ENEX54366|es-cadiz|21714014",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54366",
+    "name": "Estrutura de Dados II",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 3, bloco 'Comp. Curricular ESTRUTURA DE DADOS II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h-relógio e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações",
+      "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714014",
+      "name": "Análisis de Algoritmos y Estructuras de Datos",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo II Formación común a la rama de Informática, materia II.2 Programación de computadores",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 2,
+      "semester": "Primer semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame escrito teórico-prático 90%; provas de resultados de atividades de aprendizagem (rubricas) 10%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714014",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "6803fdabd948b6c48dbc5d9f304e4180c306d9d308dcbbbecd942b4239152bfb",
+      "location": "Programa docente 2026-27: cabeçalho (créditos, tipo, duração, curso, idioma), 'Resultados de aprendizaje' 1-11, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-7, 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro 'Actividades y metodologías docentes': 60 h presenciais = Teoría 24 + Prácticas, seminarios y problemas 12 + Prácticas de informática 24; 86 h não presenciais e 4 h de avaliação (exame final); 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario Temas 1-7 completos (órdenes asintóticos, análise de complexidade, algoritmos clássicos, TAD, pilhas, filas, listas), Resultados de aprendizaje 1-11, quadro de atividades e bibliografia; nenhum item trata de árvores, tabelas hash ou mapas",
+      "note": "Apenas estruturas lineares são ministradas. As árvores e tabelas hash estão no programa irmão 21714016 (Estructuras de Datos no Lineales), de outro semestre."
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Temas 1-2: ordens assintóticas, jerarquía de complejidad, pior/melhor/médio caso; RA 9 relaciona eficiência de programas e algoritmos; RA 11 escolha de implementação por tempo e espaço",
+      "foreignLocation": "Temario, Temas 1-2; Resultados de aprendizaje 3, 9 e 11",
+      "note": "A fundamentação assintótica é forte, mas aplicada a algoritmos elementares e a pilhas, filas e listas, não às operações de árvores balanceadas, tabelas hash ou mapas da ementa brasileira."
+    },
+    {
+      "brTopic": "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Práticas de informática (24 h): problemas de programação 'empleando un lenguaje de programación orientada a objetos'; RA 8 programação genérica, RA 10 resolver problemas com TAD",
+      "foreignLocation": "Actividades y metodologías docentes, código 03; Resultados de aprendizaje 5, 8 e 10",
+      "note": "A metodologia coincide (laboratório orientado a objetos com resolução de problemas), mas as estruturas implementadas são TAD lineares e racionais, não árvores ou dispersão."
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Cabeçalho, resultados de aprendizagem 1-11, quadro de atividades, sistema de avaliação, temário completo e bibliografia; nenhuma atividade de extensão",
+      "note": "Item não curricular de conteúdo (carga de extensão exigida pelo Mackenzie); a lacuna não é tratada como reprovação."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Análise formal e empírica da complexidade temporal e contraste entre os resultados", "location": "Resultados de aprendizaje 1, 2 e 4; Temario Tema 2"},
+    {"topic": "Tipos abstratos de dados, especificação e modularidade (TAD Número Racional)", "location": "Temario, Tema 4"},
+    {"topic": "Pilhas, filas e listas (encadeadas, duplas e circulares)", "location": "Temario, Temas 5-7"},
+    {"topic": "Busca sequencial e métodos diretos de ordenação", "location": "Temario, Tema 3"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Conhecer, projetar e usar eficientemente tipos e estruturas de dados adequados ao problema",
+      "Analisar empírica e formalmente a complexidade dos algoritmos e comparar alternativas",
+      "Desenvolver programas baseados em TAD independentes da implementação"
+    ],
+    "convergences": [
+      "Eficiência assintótica como critério de escolha de estrutura",
+      "Laboratório em linguagem orientada a objetos com resolução de problemas"
+    ],
+    "differences": [
+      "Cádiz 21714014 ministra estruturas lineares e complexidade, correspondentes a Estrutura de Dados I e Análise de Algoritmos do Mackenzie, não a Estrutura de Dados II",
+      "Árvores, balanceamento, dispersão e mapas, núcleo da ementa brasileira, não constam",
+      "Práticas de extensão não têm equivalente"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Cádiz obrigatória do 2º curso (1º semestre), Mackenzie obrigatória da 4ª etapa",
+    "brazil": "Metade teórica e metade prática (2+2 h-a semanais); estruturas não lineares",
+    "foreign": "60 h presenciais: 24 teoria, 12 seminários e problemas, 24 práticas de informática; exame final com 90% da nota",
+    "theoryPractice": "Teoria 40% e seminário/prática 60% do contato em Cádiz, contra 50/50 no Mackenzie"
+  },
+  "practical": {
+    "period": "'Duración: PRIMER SEMESTRE' (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Obrigatória com 236 matriculados em 2026-27; secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado no documento",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O programa 21714014 de Cádiz ensina TAD, pilhas, filas, listas e análise assintótica, isto é, os pré-requisitos de Estrutura de Dados II; as árvores binárias, de busca, balanceadas e B, a dispersão e os mapas, que formam o primeiro enunciado da ementa brasileira, não aparecem em nenhum tema.",
+  "justification": "O tópico central (estruturas não lineares) é nao_encontrado em todos os sete temas e nos onze resultados de aprendizagem, e os outros dois essenciais ficam parciais porque a eficiência assintótica e a prática orientada a objetos incidem sobre estruturas lineares. A regra interna daria afinidade_parcial por contar 2 de 3 essenciais como parciais, mas essa leitura mascara que nenhuma estrutura da ementa é efetivamente ensinada. As 60 h presenciais (94,7% das 63,33 h do Mackenzie nominalmente; 78,9% com hora de 50 minutos) não sanam a lacuna, e Cádiz usa o código vizinho 21714016 para árvores e grafos.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "O único tópico que define Estrutura de Dados II (estruturas não lineares) é nao_encontrado, e os dois tópicos parciais dependem de estruturas que o documento não ensina; a classe derivada pela contagem mecânica superestima a aderência.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 completo, com temário e horas presenciais explícitas, o que sustenta a ausência das estruturas não lineares; reduzem a confiança a duração não declarada da hora e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 e vaga para estudante de mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 se a hora for de 50 minutos",
+    "Par originado por correspondência semântica de conceitos (complexidade, estruturas de dados, POO), que é apenas pista de busca",
+    "'Práticas de extensão' tratado como item não essencial; sem equivalente documental",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "O par correto para Estrutura de Dados II em Cádiz é 21714016 (Estructuras de Datos no Lineales), conforme o parecer próprio?",
+    "A UCA aceita estudantes de mobilidade na turma da obrigatória do 1º semestre de 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "21714016", "name": "Estructuras de Datos no Lineales", "relation": "Lida neste lote; árvores binárias, de busca, equilibradas, B e tabelas hash, com 60 h presenciais; é a candidata natural a Estrutura de Dados II"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema, resultado de aprendizagem ou quadro de atividades do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa completo; ausência de estruturas não lineares objetiva no temário"
+  }
+}

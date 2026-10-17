@@ -1,0 +1,131 @@
+{
+  "id": "cc|ENEX54368|pt-coimbra|91483",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54368",
+    "name": "MODELAGEM MATEMÁTICA",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "Página 4, bloco MODELAGEM MATEMÁTICA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo de modelagem de sistemas lineares, com aplicações em problemas de otimização linear e programação linear",
+      "simplex",
+      "solvers e simuladores para modelos lineares. Aborda a modelagem de modelos estocásticos. Estudo de cadeias de Markov e programação dinâmica"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "91483",
+      "name": "Métodos Quantitativos Aplicados à Administração Pública I",
+      "source": "https://apps.uc.pt/courses/PT/unit/91483/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "4cf4d65328b6fe8bf4b13981b57fdba18c098aa203124381515c6d051a256e64",
+      "location": "Ficha UC integral 2026-2027: dados da unidade, conhecimentos recomendados, ensino, resultados, Programa 1-4 e avaliação",
+      "academicYear": "2026-2027",
+      "language": "Português",
+      "period": "1º semestre no plano consultado; confirmar edição 2027/28",
+      "assessment": "Avaliação ao longo do semestre por duas ou três frequências, 100%, ou exame final.",
+      "prerequisites": "Conhecimentos básicos de Matemática.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "programme": "Administração Pública",
+      "level": "Licenciatura",
+      "yearOfStudy": 1,
+      "officialCode": "01019644"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de modelagem de sistemas lineares, com aplicações em problemas de otimização linear e programação linear",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Problemas de otimização são tratados por derivadas; não há programação linear ou modelagem de sistemas lineares explicitada",
+      "foreignLocation": "Programa 1-3"
+    },
+    {
+      "brTopic": "simplex",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC integral 2026-2027: dados da unidade, conhecimentos recomendados, ensino, resultados, Programa 1-4 e avaliação",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "solvers e simuladores para modelos lineares. Aborda a modelagem de modelos estocásticos. Estudo de cadeias de Markov e programação dinâmica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC integral 2026-2027: dados da unidade, conhecimentos recomendados, ensino, resultados, Programa 1-4 e avaliação",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo de modelagem de sistemas lineares, com aplicações em problemas de otimização linear e programação linear; simplex; solvers e simuladores para modelos lineares. Aborda a modelagem de modelos estocásticos. Estudo de cadeias de Markov e programação dinâmica.",
+    "foreign": [
+      "Aplicar conceitos algébricos e cálculo diferencial/integral a problemas de administração."
+    ],
+    "convergences": [
+      "A coincidência da palavra otimização entre Métodos Quantitativos I e Modelagem Matemática é limitada: Coimbra ensina cálculo, enquanto CC exige pesquisa operacional linear e estocástica."
+    ],
+    "differences": [
+      "Somente um de três enunciados recebe aproximação parcial. Derivadas e otimização não equivalem a programação linear; simplex, solvers, cadeias de Markov e programação dinâmica não foram encontrados no Programa 1-4, resultados ou ensino. A disciplina de 6 ECTS sem horas também não oferece base para comparação das 63,33h Mackenzie."
+    ]
+  },
+  "depth": {
+    "level": "Licenciatura, ano 1, em Administração Pública; comparação com CC de graduação.",
+    "brazil": "Etapa 4; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Aplicar conceitos algébricos e cálculo diferencial/integral a problemas de administração.",
+    "theoryPractice": "Exposição teórica com exemplos e resolução orientada de problemas; não há horas discriminadas."
+  },
+  "practical": {
+    "period": "1º semestre no plano consultado; confirmar edição 2027/28",
+    "language": "Português",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Conhecimentos básicos de Matemática.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A coincidência da palavra otimização entre Métodos Quantitativos I e Modelagem Matemática é limitada: Coimbra ensina cálculo, enquanto CC exige pesquisa operacional linear e estocástica.",
+  "justification": "Somente um de três enunciados recebe aproximação parcial. Derivadas e otimização não equivalem a programação linear; simplex, solvers, cadeias de Markov e programação dinâmica não foram encontrados no Programa 1-4, resultados ou ensino. A disciplina de 6 ECTS sem horas também não oferece base para comparação das 63,33h Mackenzie.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "6 ECTS declarados sem carga de contato: não é possível calcular compatibilidade horária."
+  ],
+  "openQuestions": [
+    "A universidade confirma Métodos Quantitativos Aplicados à Administração Pública I para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENEX54368 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

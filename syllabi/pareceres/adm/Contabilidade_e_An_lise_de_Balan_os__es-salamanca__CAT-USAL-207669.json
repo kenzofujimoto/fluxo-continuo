@@ -1,0 +1,219 @@
+{
+  "id": "adm|Contabilidade e Análise de Balanços|es-salamanca|CAT-USAL-207669",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade e Análise de Balanços",
+    "name": "Contabilidade e Análise de Balanços",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 1, bloco 'Contabilidade e Análise de Balanços': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução às Demonstrações Financeiras e usuários da Contabilidade",
+      "Estrutura das Demonstrações Financeiras (Balanço Patrimonial e DRE)",
+      "Contabilidade por Balanços Sucessivos",
+      "Método das Partidas Dobradas (Débito e Crédito)",
+      "Elaboração e estrutura da Demonstração dos Fluxos de Caixa",
+      "Fundamentos de análise das Demonstrações Financeiras",
+      "Análise Vertical e Horizontal",
+      "Análise por meio de Índices (Estrutura de Capital, Liquidez e Rentabilidade) e Análise",
+      "Dupont"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207669",
+      "name": "Contabilidad para Juristas: Elaboración e Interpretación de la Información Contable",
+      "faculty": "Facultad de Derecho (docência da Facultad de Economía y Empresa)",
+      "department": "Administración y Economía de la Empresa (área Economía Financiera y Contabilidad)",
+      "programme": "Grado en Derecho (plan 223); optativa do curso de Direito, não de Administração",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo Semestre (campo 'Periodicidade'), 4º curso",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "OPTATIVA",
+      "assessment": "Provas escritas de desenvolvimento 25% e de perguntas curtas 25%, casos práticos 20%, entrega de trabalhos 20%, seminários tutelados 10%",
+      "prerequisites": "Nenhuma recomendação prévia (campo com '-')",
+      "source": "https://guias.usal.es/node/235877",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "040c953c51fe9f5b9a93d56230fae31b41f675876a6b365c8989e152c18bbf68",
+      "location": "Guia 2026/2027: seções 1 (datos), 3 (objetivos), 4 (competencias A/B), 5 (contenidos, 9 linhas), 6 (tabela de metodologias em % e ECTS), 9 (evaluación)",
+      "officialCode": "102358",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS. A seção 6 traz tabela em porcentagem e ECTS (teoria 18% = 1,08 ECTS; práticas 12%; interação presencial/online total 40%), sem horas; nenhuma hora de contato declarada e nada foi convertido. Código oficial: 102358."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução às Demonstrações Financeiras e usuários da Contabilidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'La información contable en la legislación española y de la Unión Europea'; objetivo: importância da informação contábil 'para los usuarios, especialmente los mercados financieros'",
+      "foreignLocation": "Seção 5, linhas 1-2; seção 3",
+      "note": "Usuários da contabilidade e normas (PGC, NIIF) estão presentes, com viés jurídico."
+    },
+    {
+      "brTopic": "Estrutura das Demonstrações Financeiras (Balanço Patrimonial e DRE)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência: 'Interpretar la estructura y contenido de la información contable'; 'Interpretación de la información contable'",
+      "foreignLocation": "Seção 3 (competências específicas); seção 5, linha 5",
+      "note": "Balanço e demonstração de resultados não são nomeados."
+    },
+    {
+      "brTopic": "Contabilidade por Balanços Sucessivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'El proceso de elaboración contable. El ciclo contable.'",
+      "foreignLocation": "Seção 5, linha 3",
+      "note": "O ciclo contábil sustenta o registro de transações; o método de balanços sucessivos não é citado."
+    },
+    {
+      "brTopic": "Método das Partidas Dobradas (Débito e Crédito)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'hacer supuestos completos y manejar PGC con soltura'; 'El ciclo contable'",
+      "foreignLocation": "Seção 3 (primeiro objetivo); seção 5, linha 3",
+      "note": "Registro por supostos completos supõe lançamentos; partidas dobradas (débito e crédito) não são nomeadas."
+    },
+    {
+      "brTopic": "Elaboração e estrutura da Demonstração dos Fluxos de Caixa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (9 linhas de conteúdo), seção 3 (objetivos e competências) e seção 6 lidas; nenhuma menção a fluxos de caixa ou de efectivo.",
+      "note": "Sem estado de fluxos de caixa, que é um enunciado essencial da ficha brasileira."
+    },
+    {
+      "brTopic": "Fundamentos de análise das Demonstrações Financeiras",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Principios de análisis económico-financiero de la información contable'",
+      "foreignLocation": "Seção 5, linha 6; competências 'Interpretar, analizar y defender informes económico-financieros'"
+    },
+    {
+      "brTopic": "Análise Vertical e Horizontal",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "A linha de conteúdo é genérica ('Principios de análisis económico-financiero'); o guia não enumera técnicas, então a presença ou ausência da técnica não se verifica."
+    },
+    {
+      "brTopic": "Análise por meio de Índices (Estrutura de Capital, Liquidez e Rentabilidade) e Análise",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "A linha de conteúdo é genérica ('Principios de análisis económico-financiero'); o guia não enumera técnicas, então a presença ou ausência da técnica não se verifica.",
+      "note": "Índices de estrutura de capital, liquidez e rentabilidade não aparecem nominalmente."
+    },
+    {
+      "brTopic": "Dupont",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "A linha de conteúdo é genérica ('Principios de análisis económico-financiero'); o guia não enumera técnicas, então a presença ou ausência da técnica não se verifica.",
+      "note": "Decomposição Dupont não nomeada; apenas a ficha brasileira divide o enunciado em duas linhas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Informação contábil nos processos concursais (falência e reestruturação)",
+      "location": "Seção 5, linha 8"
+    },
+    {
+      "topic": "Informação contábil e tributação",
+      "location": "Seção 5, linha 9"
+    },
+    {
+      "topic": "Contabilidade fraudulenta e seus efeitos",
+      "location": "Seção 3 (objetivo 6 e competência 7)"
+    },
+    {
+      "topic": "Valoração de atividades econômicas",
+      "location": "Seção 5, linha 7"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel da contabilidade para gestores e investidores, demonstrações financeiras, registro de transações e análise do desempenho econômico-financeiro.",
+    "foreign": [
+      "Conhecer e comprender a linguagem contábil e a norma aplicável",
+      "Conhecer o processo de elaboração da informação contábil",
+      "Interpretar, analisar e defender informes econômico-financeiros",
+      "Valorar a situação de uma organização a partir da informação financeira"
+    ],
+    "convergences": [
+      "Usuários e finalidade da informação contábil",
+      "Ciclo contábil e interpretação de demonstrações",
+      "Princípios de análise econômico-financeira"
+    ],
+    "differences": [
+      "Salamanca é contabilidade para juristas (concursos, tributação, fraude, normativa), com pouco detalhe técnico de lançamentos",
+      "Sem estado de fluxos de caixa nem técnicas de análise nomeadas",
+      "Mackenzie é de administração, com análise por índices e Dupont explícita"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Mackenzie na 3ª etapa, Salamanca optativa do 4º curso de Direito",
+    "brazil": "Disciplina de 63,3 h com 9 enunciados, da estrutura das demonstrações à análise por índices",
+    "foreign": "Optativa de 6 ECTS com 9 linhas de conteúdo e orientação jurídica",
+    "theoryPractice": "Salamanca: aulas teóricas 18% e práticas 12% do total, mais seminários, trabalhos e provas escritas (50%)"
+  },
+  "practical": {
+    "period": "Segundo semestre (fevereiro a junho), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Optativa do Grado en Derecho (grupo único); acesso de aluno de Administração e aceitação de intercambista não verificados",
+    "prerequisites": "Nenhuma recomendação prévia (campo com '-')",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Contabilidad para Juristas dá o quadro normativo e o ciclo contábil, mas é pensada para o Direito: não nomeia fluxos de caixa, análise horizontal e vertical, índices nem Dupont, que sustentam metade da ficha Mackenzie.",
+  "justification": "Dois dos 9 enunciados estão cobertos (usuários e normas da informação contábil; princípios de análise econômico-financeira), três são parciais (estrutura das demonstrações, ciclo contábil e lançamentos, sem balanços sucessivos nem débito e crédito explícitos), um não aparece (fluxo de caixa) e três ficam não verificáveis porque o guia só traz 'principios de análisis'. Isso soma 5/9 de cobertura parcial ou plena, o mínimo da classe parcial, e a classe não sobe porque a ficha brasileira não tem vigência confirmada e o guia só dá percentuais e ECTS, sem horas de contato. O objeto também difere: concursos, tributação e fraude contábil para juristas, em vez da análise de balanços para gestores.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Contenidos de 9 linhas genéricas, sem enumeração das técnicas de análise, tabela só em % e ECTS e ficha brasileira sem vigência confirmada; três enunciados não podem ser verificados.",
+  "limitations": [
+    "Anomalia de catálogo: CAT-USAL-207669 é disciplina optativa do Grado en Derecho (Contabilidad para Juristas), não do curso de Administración y Dirección de Empresas; a fonte registrada em programas.json é guias.usal.es/node/235877",
+    "Tabela de metodologias em % e ECTS, sem horas; nenhuma hora de contato; 6 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Três enunciados classificados como não verificáveis (análise horizontal e vertical, índices, Dupont)",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A docente confirma que a análise por índices e a decomposição Dupont fazem parte das aulas?",
+    "A coordenação aceita como suprimento a disciplina de Contabilidad do plano de Administración y Dirección de Empresas, caso exista, em vez da versão para juristas?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Três enunciados não verificáveis e disciplina de outro curso (Direito); sugere-se consulta à docente"
+  }
+}

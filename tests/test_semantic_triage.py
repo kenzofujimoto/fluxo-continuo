@@ -81,3 +81,9 @@ def test_social_security_is_not_information_security_and_generic_concepts_are_no
     idf = {c: 2.0 for c in ("economia", "direitos_humanos")}
     # only the generic 'economia' concept is shared
     assert not is_candidate({"direitos_humanos"}, {"direitos_humanos", "economia"}, {"economia"}, {"economia"}, idf)
+
+
+def test_code_optimisation_is_not_operations_research():
+    assert "pesquisa_operacional" not in concepts("Compiler Design & Optimisation")
+    assert "pesquisa_operacional" in concepts("Optimisation models and linear programming")
+    assert "pesquisa_operacional" in concepts("Otimização linear e métodos quantitativos")

@@ -1,0 +1,177 @@
+{
+  "id": "cc|ENEC50078|ro-babes|MLE5233",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC50078",
+    "name": "Banco de Dados",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 3",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 2, bloco FUNDAMENTOS DE BANCO DE DADOS, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 47.5,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 3,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais",
+      "Detalhamento da teoria relacional",
+      "Construção de Modelos Entidade-Relacionamento e Relacional",
+      "Aplicação de Normalização",
+      "Estudo da Álgebra Relacional",
+      "Estudo da linguagem SQL",
+      "Introdução à linguagem de programação para banco de dados",
+      "Estudo de Transações e Controle de Concorrência"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5233",
+      "name": "Databases 1",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Information Engineering",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "3 rd Semester",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Compulsory",
+      "assessment": "Escrito 50%, laboratório 25%, prático 25%; 12 presenças laboratório e 5 seminários",
+      "prerequisites": "Data Structures and Algorithms",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem3_MLE5233_en_emilia_2026_10169.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IIE",
+      "sha256": "ec93fbccc3e92b3c376526024fcc93c897b646de08ad516c5bff9ff8623a92f3",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 44,
+        "totalWorkload": 100,
+        "ects": 4,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Introdução aos bancos e gerenciamento emSQLServer.",
+      "foreignLocation": "8.1 C 1; 7 resultados"
+    },
+    {
+      "brTopic": "Detalhamento da teoria relacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelo relacional e restrições são conteúdo específico.",
+      "foreignLocation": "8.1 C 2; 7 resultados"
+    },
+    {
+      "brTopic": "Construção de Modelos Entidade-Relacionamento e Relacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelagem conceitual e projeto de banco; ER não nomeado na unidade curricular.",
+      "foreignLocation": "8.1 C 11; 8.2 Lab 1-2"
+    },
+    {
+      "brTopic": "Aplicação de Normalização",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Dependências funcionais e formas 3 NF/BCNF.",
+      "foreignLocation": "8.1 C 4-5; 7 resultados"
+    },
+    {
+      "brTopic": "Estudo da Álgebra Relacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Álgebra relacional e avaliação dos operadores.",
+      "foreignLocation": "8.1 C 6, C 10"
+    },
+    {
+      "brTopic": "Estudo da linguagem SQL",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "ConsultasSQL eDDL/DML no seminário.",
+      "foreignLocation": "8.1 C 3; 8.2 Sem 1-2"
+    },
+    {
+      "brTopic": "Introdução à linguagem de programação para banco de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Procedimentos, SQL dinâmico, cursores, funções, views e triggers.",
+      "foreignLocation": "8.2 Sem 3-4"
+    },
+    {
+      "brTopic": "Estudo de Transações e Controle de Concorrência",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Transações e controle de concorrência com unidade própria.",
+      "foreignLocation": "8.1 C 13"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais. Detalhamento da teoria relacional. Construção de Modelos Entidade-Relacionamento e Relacional. Aplicação de Normalização. Estudo da Álgebra Relacional. Estudo da linguagem SQL. Introdução à linguagem de programação para banco de dados. Estudo de Transações e Controle de Concorrência.",
+    "foreign": [
+      "Projetar e administrar bases relacionais",
+      "Consultar e otimizarSQL e implementar procedimentos"
+    ],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 3; destino Bachelor",
+    "brazil": "47.5 horas-relógio; distribuição semanal {'teorica': 3, 'pratica': 0, 'atelie': 0}",
+    "foreign": "28 horas de aula+28 seminário/laboratório; DDL/DML, SQLServer e projeto prático",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "3 rd Semester",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Data Structures and Algorithms",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "Matriz: 'Banco de Dados'; ementário 2025 da 3ª etapa: 'Fundamentos de Banco de Dados'. Confirmar com a coordenação se é o mesmo componente.",
+    "Parser deixou contato nulo; secção 3.4-3.6 declara 56 h(28+28), adotadas aqui"
+  ],
+  "openQuestions": [],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "Databases 1 reúne os oito eixos de Fundamentos de Banco de Dados, incluindo transações noC 13 e programaçãoSQL nos seminários 3-4; modelagemER permanece parcial por não ser nomeada no programa.",
+  "justification": "Sete dos oito tópicos têm evidência integral e um parcial; 56 hde contato explícitas superam 47, 5 hnominalmente(razão 1, 179; 0, 982 a 50 min). A classe fica parcial porque current=false no vínculo brasileiro entre Banco de Dados da matriz e Fundamentos de Banco de Dados do ementário, condição que exige coordenação.",
+  "conclusionClass": "afinidade_parcial"
+}

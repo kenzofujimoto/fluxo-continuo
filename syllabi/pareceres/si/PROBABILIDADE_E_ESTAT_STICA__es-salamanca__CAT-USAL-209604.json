@@ -1,0 +1,190 @@
+{
+  "id": "si|PROBABILIDADE E ESTATÍSTICA|es-salamanca|CAT-USAL-209604",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "PROBABILIDADE E ESTATÍSTICA",
+    "name": "PROBABILIDADE E ESTATÍSTICA",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 27, bloco PROBABILIDADE E ESTATÍSTICA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo exploratório de dados",
+      "Estatística descritiva",
+      "Gráficos, tabelas e medidas estatísticas",
+      "Introdução à teoria de probabilidades",
+      "Conceitos de variáveis aleatórias",
+      "Distribuições de probabilidade discretas e contínuas",
+      "Introdução à inferência estatística",
+      "Intervalos de confianças",
+      "Testes de hipótese",
+      "Análise de Variância",
+      "Análise de Correlação e Regressão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209604",
+      "name": "ESTADÍSTICA I",
+      "source": "https://guias.usal.es/node/209604",
+      "sha256": "b1e68af1b2655d0755700c888ce3625dff311c4cc2b82af826d5c4bb04cf269e",
+      "location": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "academicYear": "2025/2026",
+      "language": "Espanhol declarado",
+      "period": "Segundo semestre, primeiro ano",
+      "assessment": "40% contínua e 60% exame; mínimo 3/6 no final",
+      "prerequisites": "Álgebra, análise matemática e informática básica Windows",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 3,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo exploratório de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Sintetizar, comparar e relacionar informação de dados observados",
+      "foreignLocation": "3 Objetivos; 4 competências específicas"
+    },
+    {
+      "brTopic": "Estatística descritiva",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Distribuições unidimensionais e bidimensionais; estatística descritiva explicitada",
+      "foreignLocation": "5 temas 2-3; 4"
+    },
+    {
+      "brTopic": "Gráficos, tabelas e medidas estatísticas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tabular, representar e resumir dados econômicos",
+      "foreignLocation": "3 Objetivos"
+    },
+    {
+      "brTopic": "Introdução à teoria de probabilidades",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Reconhecer e quantificar incerteza é objetivo; axiomas e técnicas de probabilidade não detalhados",
+      "foreignLocation": "3 Objetivos"
+    },
+    {
+      "brTopic": "Conceitos de variáveis aleatórias",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Distribuições de probabilidade discretas e contínuas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Introdução à inferência estatística",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Intervalos de confianças",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Testes de hipótese",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Análise de Variância",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Análise de Correlação e Regressão",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Distribuições bidimensionais e relação entre variáveis; regressão não individualizada",
+      "foreignLocation": "5 tema 3; 4"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo exploratório de dados. Estatística descritiva. Gráficos, tabelas e medidas estatísticas. Introdução à teoria de probabilidades. Conceitos de variáveis aleatórias. Distribuições de probabilidade discretas e contínuas. Introdução à inferência estatística. Intervalos de confianças. Testes de hipótese. Análise de Variância. Análise de Correlação e Regressão.",
+    "foreign": [
+      "Descrever e comparar dados econômicos, interpretar resultados e escolher técnicas estatísticas"
+    ],
+    "convergences": [
+      "Estadística I cobre exploração e descrição de dados, mas não demonstra inferência, intervalos, testes de hipótese ou ANOVA exigidos em Probabilidade e Estatística."
+    ],
+    "differences": [
+      "Cinco de 11 tópicos possuem conexão, três integralmente. Os quatro temas publicados são noções básicas, distribuições uni/bidimensionais e números-índices; a presença de livros de inferência na bibliografia não comprova ensino. São 3 ECTS sem contato e uma lacuna substantiva em variáveis aleatórias e distribuições probabilísticas."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 5; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Descrever e comparar dados econômicos, interpretar resultados e escolher técnicas estatísticas",
+    "theoryPractice": "Sessões expositivas e problemas; técnicas descritivas de dados econômicos, sem módulo inferencial."
+  },
+  "practical": {
+    "period": "Segundo semestre, primeiro ano",
+    "language": "Espanhol declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Álgebra, análise matemática e informática básica Windows",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estadística I cobre exploração e descrição de dados, mas não demonstra inferência, intervalos, testes de hipótese ou ANOVA exigidos em Probabilidade e Estatística.",
+  "justification": "Cinco de 11 tópicos possuem conexão, três integralmente. Os quatro temas publicados são noções básicas, distribuições uni/bidimensionais e números-índices; a presença de livros de inferência na bibliografia não comprova ensino. São 3 ECTS sem contato e uma lacuna substantiva em variáveis aleatórias e distribuições probabilísticas.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma ESTADÍSTICA I para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de PROBABILIDADE E ESTATÍSTICA demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "adm|Marketing II|es-salamanca|CAT-USAL-210412",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210412",
+      "name": "International Marketing",
+      "pageCode": "103861",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Comercialización e Investigación de Mercados)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo Semestre (datas não declaradas na guia)",
+      "academicYear": "2025/2026",
+      "language": "Inglês (guia: 'taught and evaluated 100% in English'; B2 recomendado)",
+      "courseStatus": "Optativa",
+      "assessment": "Exame final (tipo teste) 60%; avaliação contínua 40% (casos, projetos em grupo, apresentações, controles); nota mínima 5/10 no exame; presença mínima 85% para a avaliação contínua",
+      "prerequisites": "Recomendados: fundamentos de marketing, comportamento do consumidor, pesquisa de mercado, administração e comércio internacional",
+      "source": "https://guias.usal.es/node/210412",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "0f964e35ce58b4846a8245fe84182fd8f59647a4641528148fcb85818db07209",
+      "location": "Guia 2025/2026: 1 Datos, 2 Recomendaciones previas, 3 Objetivos, 4 Competencias, 5 Contenidos (Teoría, 7 itens), 6 Metodologías, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A guia declara 6,00 ECTS; a secção 7 (distribuição das metodologias) está vazia no texto obtido. Sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'adjust the marketing mix variables to an international context'; conteúdo: 'The International Marketing-mix'",
+      "foreignLocation": "Secção 3 (objetivo 4); secção 5, Teoría, 6º item",
+      "note": "O mix aparece como rótulo único; produto/serviço não é nomeado nem detalhado. Cobertura inferida do conceito de mix, em contexto internacional."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'The International Marketing-mix' e objetivo de ajustar as variáveis do mix ao contexto internacional",
+      "foreignLocation": "Secção 5, Teoría, 6º item; secção 3, objetivo 4",
+      "note": "Preço não é nomeado; o único apoio é o rótulo do mix. Estratégia de preço internacional é plausível, mas não comprovada pela guia."
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Ways to enter foreign markets' e 'The International Marketing-mix'",
+      "foreignLocation": "Secção 5, Teoría, 5º e 6º itens",
+      "note": "Os modos de entrada em mercados externos tocam canais, mas são tema distinto da gestão de distribuição da ementa brasileira."
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'The International Marketing-mix'; objetivo 4 (variáveis do mix no contexto internacional)",
+      "foreignLocation": "Secção 5, Teoría, 6º item; secção 3, objetivo 4",
+      "note": "Comunicação/promoção não é nomeada; vale a mesma ressalva dos demais componentes do mix."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Introdução e fundamentos do marketing internacional", "location": "Secção 5, Teoría, 1º item"},
+    {"topic": "Análise dos ambientes internacional e doméstico", "location": "Secção 5, Teoría, 2º item"},
+    {"topic": "Expansão internacional da empresa, pesquisa e seleção de mercados externos", "location": "Secção 5, Teoría, 3º e 4º itens"},
+    {"topic": "Plano de marketing internacional", "location": "Secção 5, Teoría, 7º item; secção 3, objetivo 5"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e definição da estratégia de preço, comunicação e distribuição para gerar valor superior ao cliente e à empresa.",
+    "foreign": ["Compreender o papel do marketing na gestão internacional", "Analisar o ambiente internacional na expansão global", "Ajustar as variáveis do mix ao contexto internacional", "Desenvolver um plano básico de marketing internacional"],
+    "convergences": ["Estratégia de marketing orientada pelo mix (produto, preço, distribuição, comunicação) como eixo comum"],
+    "differences": ["Salamanca dedica seis das sete unidades a ambiente, expansão, seleção de mercados, modos de entrada e plano internacionais, sem correspondente na ementa brasileira", "A ementa brasileira detalha quatro decisões do mix; a guia espanhola tem uma única unidade para o mix inteiro"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca no 4º ano (optativa), Mackenzie na 4ª etapa (obrigatória)",
+    "brazil": "Marketing aplicado de 63,3 h centrado em quatro decisões do mix",
+    "foreign": "Marketing internacional avançado, que pressupõe fundamentos de marketing já cursados, com casos, projetos em grupo e plano internacional",
+    "theoryPractice": "Estudo de casos, apresentações e projetos em grupo; guia não divide horas teóricas e práticas"
+  },
+  "practical": {
+    "period": "Segundo semestre do curso acadêmico, sem datas declaradas; se 2027.2 corresponder ao semestre de outono europeu, a oferta tende a não coincidir — confirmar com a COI",
+    "language": "Inglês, com avaliação integralmente em inglês (B2 recomendado); o convênio exige ainda nível de espanhol B1/B2 na universidade",
+    "enrolment": "Optativa de 4º ano; guia não informa vagas ou regras para estudantes de intercâmbio",
+    "prerequisites": "Fundamentos de marketing, comportamento do consumidor e pesquisa de mercado recomendados, não obrigatórios",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "International Marketing trata o mix de marketing apenas em uma de suas sete unidades, em contexto internacional, enquanto a ficha de Marketing II detalha produto/serviço, preço, distribuição e comunicação; a afinidade existe, porém apoiada em um rótulo sem detalhamento.",
+  "justification": "Os quatro enunciados brasileiros recebem status parcial pelo mesmo suporte: o item 'The International Marketing-mix' (Teoría, 6º) e o objetivo de ajustar as variáveis do mix ao contexto internacional. A guia não nomeia preço, comunicação nem bens e serviços, e as outras seis unidades (ambiente internacional, expansão, seleção de mercados, modos de entrada, plano) não têm correspondente em Marketing II. Cobertura integral é, portanto, indemonstrável, e a classe fica em afinidade parcial. As horas não são comparáveis: a guia traz 6 ECTS e secção 7 vazia, contra 63,3 h-relógio da ficha, que também não tem ano de vigência. Por ser disciplina de 4º ano que pressupõe marketing básico, o conteúdo tende a complementar, não substituir, Marketing II.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Todas as correspondências repousam em um único item de programa sem detalhamento; faltam horas de contato, a guia é do ano 2025/2026 e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Guia obtida é de 2025/2026, não de 2026/2027; conteúdo e oferta de 2027/28 não confirmados",
+    "Horas de contato não declaradas (secção 7 vazia); 6 ECTS não convertidos em horas",
+    "O mix de marketing é um único rótulo; as quatro correspondências são inferências e não leitura de itens detalhados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Aceitação de estudante de intercâmbio na turma em inglês não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O professor pode informar quanto da carga é dedicado a produto, preço, distribuição e comunicação dentro da unidade 'International Marketing-mix'?",
+    "A coordenação de Administração aceitaria uma disciplina de marketing internacional como cobertura de Marketing II ou apenas como optativa?",
+    "A turma em inglês (grupo 1) admite estudantes de intercâmbio em 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "CAT-USAL-209843", "name": "Fundamentos de Comercialización", "relation": "Lida em parecer separado deste lote; cobre marketing introdutório (entorno, segmentação, posicionamento), sem nomear o mix"}
+  ],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada enunciado brasileiro vinculado ao item da guia espanhola; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Cobertura parcial baseada em um único item sem detalhamento; vale confirmar com o departamento o peso do mix na disciplina"}
+}

@@ -1,0 +1,155 @@
+{
+  "id": "cc|ENEX60212|es-cadiz|21714024",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60212",
+    "name": "Teoria da Computação e Complexidade",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 7",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "PDF p. 5, bloco TEORIA DA COMPUTAÇÃO E COMPLEXIDADE: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "M quinas de Turing (notações em baixo nível e em alto nível); tese de Church-Turing",
+      "Decidibilidade e linguagens decidíveis",
+      "Indecidibilidade e linguagens indecidíveis",
+      "Complexidade de Tempo de máquinas de Turing",
+      "Classes de complexidade de tempo P, NP, NP-Completa e NP-difícil",
+      "Intratabilidade"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714024",
+      "name": "Complejidad Computacional",
+      "programme": null,
+      "level": "Graduação",
+      "period": "1º semestre",
+      "academicYear": "2025/26 (documento impresso)",
+      "language": "Castelhano",
+      "assessment": "Apresentações 50%; relatórios de laboratório 50%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2025-26/21714024",
+      "catalogue": null,
+      "sha256": "0b9921e93c80ee50735fb0039a39b2d1882dbac17cffe1c5111dfd05ebedb332",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 18,
+        "contactSeminarLab": 42,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "M quinas de Turing (notações em baixo nível e em alto nível); tese de Church-Turing",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Unidades 1-5; Resultados 1-9",
+      "note": "Máquinas de Turing e tese Church-Turing não são listadas; outros modelos/circuitos não provam esse conteúdo."
+    },
+    {
+      "brTopic": "Decidibilidade e linguagens decidíveis",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Unidades 1-5",
+      "note": "Decidibilidade de linguagens não é unidade do programa."
+    },
+    {
+      "brTopic": "Indecidibilidade e linguagens indecidíveis",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Unidades 1-5",
+      "note": "Indecidibilidade e linguagens indecidíveis não são nomeadas."
+    },
+    {
+      "brTopic": "Complexidade de Tempo de máquinas de Turing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Complexidade espaço-temporal e hierarquias são explícitas, sem formalização específica em máquinas de Turing.",
+      "foreignLocation": "Unidade 1; Resultado 3"
+    },
+    {
+      "brTopic": "Classes de complexidade de tempo P, NP, NP-Completa e NP-difícil",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "P, NP, reduções polinomiais e NPC são desenvolvidos com relações entre classes.",
+      "foreignLocation": "Unidades 2-4; Resultado 6"
+    },
+    {
+      "brTopic": "Intratabilidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Problemas complexos, cotas, P versus NP e técnicas de aproximação/heurísticas tratam intratabilidade.",
+      "foreignLocation": "Unidades 1,2,4-5; Resultados 1,5,7-9"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "M quinas de Turing (notações em baixo nível e em alto nível); tese de Church-Turing. Decidibilidade e linguagens decidíveis. Indecidibilidade e linguagens indecidíveis. Complexidade de Tempo de máquinas de Turing. Classes de complexidade de tempo P, NP, NP-Completa e NP-difícil. Intratabilidade.",
+    "foreign": [
+      "Distinguir complexidade de problemas e algoritmos e programar estratégias para problemas complexos."
+    ],
+    "convergences": [
+      "Complejidad Computacional cobre classes e intratabilidade de Teoria da Computação e Complexidade, mas não documenta as três bases de máquinas de Turing, decidibilidade e indecidibilidade."
+    ],
+    "differences": [
+      "As unidades 2-4 sustentam P/NP, reduções e completude, e a unidade 5 aborda estratégias para problemas difíceis. A complexidade de tempo recebe correspondência parcial por não explicitar o modelo de Turing. Já os três tópicos de computabilidade não aparecem no temário completo; o resultado geral sobre limites de cálculo é insuficiente para preenchê-los. Três de seis eixos ao menos parciais levam a afinidade parcial. As 60 h de contato (18 teoria, 18 problemas, 24 informática) superam 31,67 h, mas o documento é da edição 2025-26 e apresenta escopo concentrado em complexidade."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "TEORIA DA COMPUTAÇÃO E COMPLEXIDADE: etapa 7, 31.67 horas declaradas.",
+    "foreign": "Optativa 3º/4º ano, cinco unidades sobre classes/reduções e soluções aproximadas.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "1º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Complejidad Computacional cobre classes e intratabilidade de Teoria da Computação e Complexidade, mas não documenta as três bases de máquinas de Turing, decidibilidade e indecidibilidade.",
+  "justification": "As unidades 2-4 sustentam P/NP, reduções e completude, e a unidade 5 aborda estratégias para problemas difíceis. A complexidade de tempo recebe correspondência parcial por não explicitar o modelo de Turing. Já os três tópicos de computabilidade não aparecem no temário completo; o resultado geral sobre limites de cálculo é insuficiente para preenchê-los. Três de seis eixos ao menos parciais levam a afinidade parcial. As 60 h de contato (18 teoria, 18 problemas, 24 informática) superam 31,67 h, mas o documento é da edição 2025-26 e apresenta escopo concentrado em complexidade.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Edição oficial recuperada de 2025-26; futura oferta ainda não confirmada.",
+    "Duração da hora não declarada.",
+    "Temário não comprova o núcleo de computabilidade/Turing da ementa Mackenzie."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714024 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

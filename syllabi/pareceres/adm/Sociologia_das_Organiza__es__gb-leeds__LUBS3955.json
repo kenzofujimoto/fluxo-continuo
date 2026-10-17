@@ -1,0 +1,207 @@
+{
+  "id": "adm|Sociologia das Organizações|gb-leeds|LUBS3955",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sociologia das Organizações",
+    "name": "Sociologia das Organizações",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 9, bloco 'Sociologia das Organizações': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O poder e o poder nas organizações",
+      "A sociologia weberiana e as formas de dominação",
+      "A relação entre a Sociologia e Administração e a abordagem sociológica das organizações",
+      "A análise sociológica da dinâmica interna da empresa",
+      "A análise sociológica da dinâmica externa da empresa",
+      "Dimensões da cultura e cultura organizacional",
+      "Cultura brasileira e cultura organizacional",
+      "Questões sociológicas emergentes nas organizações"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS3955",
+      "name": "Leadership in Organisations",
+      "pageCode": "LUBS3955",
+      "faculty": "Não indicada na página do módulo",
+      "programme": "Catálogo de módulos de graduação 2026/27 (Undergraduate Module Catalogue)",
+      "level": "Graduação (UG); código 3xxx sugere ano final, o que a página não declara",
+      "yearOfStudy": null,
+      "semester": "Semester 1 (set a jan)",
+      "period": "Semester 1 (set a jan)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de catálogo (optativo para o intercambista)",
+      "assessment": "Prova de 2 h (ensaios fechados, testes de múltipla escolha) com 100%; reavaliação por prova de 2 h",
+      "prerequisites": "Nenhum listado",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/3955/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "455ccecf2db24fb20acfa103ed0d17a7e85e753dc204b902c94375f3a7c50c4c",
+      "location": "Página do módulo 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 16,
+        "contactLecture": 11,
+        "contactSeminarLab": 5,
+        "selfStudy": 84,
+        "totalWorkload": 100,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Catálogo: 10 UK credits (não são ECTS; 100 h de trabalho total). Contato: 11 aulas de 1 h + 5 seminários de 1 h = 16 h. Duração da hora não declarada. Módulo de um só semestre (Semester 1)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O poder e o poder nas organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Learning outcome 3: 'understand the nature of leader-led interactions and influence processes'",
+      "foreignLocation": "Learning outcomes 3",
+      "note": "Influência e carisma tocam o tema do poder, mas a página não o trata como conceito sociológico nem distingue poder formal e informal."
+    },
+    {
+      "brTopic": "A sociologia weberiana e as formas de dominação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectives, Learning outcomes 1-6, Skills outcomes, Syllabus (7 itens), Teaching Methods, Private study, Methods of Assessment",
+      "note": "Weber e os tipos de dominação não são citados; 'charisma' aparece no Syllabus, mas a página não o liga à dominação carismática weberiana."
+    },
+    {
+      "brTopic": "A relação entre a Sociologia e Administração e a abordagem sociológica das organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objectives: leadership examined 'from multiple disciplinary perspectives (including anthropology, psychology, sociology and philosophy)'",
+      "foreignLocation": "Objectives",
+      "note": "Sociologia é uma de quatro perspectivas disciplinares sobre liderança; não há estudo da relação entre sociologia e administração em si."
+    },
+    {
+      "brTopic": "A análise sociológica da dinâmica interna da empresa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Learning outcome 4: 'knowledge and understanding of group dynamics'; Syllabus: 'Team leadership and relational approaches'",
+      "foreignLocation": "Learning outcomes 4; Syllabus, 3º item",
+      "note": "Dinâmica de grupos e equipes sob a ótica da liderança, não análise sociológica da estrutura interna."
+    },
+    {
+      "brTopic": "A análise sociológica da dinâmica externa da empresa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectives, Learning outcomes 1-6, Skills outcomes, Syllabus (7 itens), Teaching Methods, Private study, Methods of Assessment",
+      "note": "'Contextual factors' (resultado 5) são fatores que afetam o estudo da liderança, não a relação da empresa com seu ambiente social."
+    },
+    {
+      "brTopic": "Dimensões da cultura e cultura organizacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Leadership and culture'",
+      "foreignLocation": "Syllabus, 4º item",
+      "note": "Cultura entra como contexto da liderança, sem as dimensões da cultura nem o conceito de cultura organizacional como tópico."
+    },
+    {
+      "brTopic": "Cultura brasileira e cultura organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectives, Learning outcomes 1-6, Skills outcomes, Syllabus (7 itens), Teaching Methods, Private study, Methods of Assessment",
+      "note": "Nenhum recorte nacional ou intercultural aparece na página."
+    },
+    {
+      "brTopic": "Questões sociológicas emergentes nas organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Current and critical issues which may include: gender and diversity; authenticity and toxicity; language and identity; arts and aesthetics'",
+      "foreignLocation": "Syllabus, 7º item",
+      "note": "Questões críticas contemporâneas aparecem, mas apenas como exemplos 'que podem' ser abordados, sob o prisma da liderança."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Teorias de liderança: abordagens tradicionais, críticas e contemporâneas; modelos transformacionais",
+      "location": "Objectives; Syllabus, itens 1-3"
+    },
+    {
+      "topic": "Ética da liderança e sustentabilidade; desenvolvimento de líderes",
+      "location": "Syllabus, itens 5-6"
+    },
+    {
+      "topic": "Autoconsciência e competências de liderança",
+      "location": "Learning outcomes 6; Skills outcomes"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: relações entre sociologia e organizações, fundamentos teóricos para analisar a dinâmica organizacional em seu contexto social e compreensão crítica das dimensões sociais, culturais e de poder.",
+    "foreign": [
+      "Demonstrar familiaridade com o conceito de liderança",
+      "Criticar a aplicabilidade das abordagens teóricas à prática",
+      "Entender interações líder-liderado e processos de influência",
+      "Compreender dinâmica de grupos e fatores contextuais",
+      "Reconhecer competências e estilos pessoais de liderança"
+    ],
+    "convergences": [
+      "Poder/influência, cultura e dinâmica de grupo como pontos de contato",
+      "Perspectiva sociológica citada como uma das lentes"
+    ],
+    "differences": [
+      "Leeds estuda liderança sob lentes psicológicas e de gestão; Mackenzie estuda a organização como fenômeno sociológico (Weber, dominação, cultura brasileira)",
+      "Weber, dinâmica externa da empresa e cultura brasileira não aparecem em Leeds",
+      "Leeds avalia por prova de 2 h; sem trabalho de análise"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Leeds com código de ano final, Mackenzie na 3ª etapa",
+    "brazil": "Fundamentos sociológicos da organização, 31,7 h",
+    "foreign": "Teorias e práticas de liderança, 16 h de contato e 100 h de trabalho total",
+    "theoryPractice": "11 aulas e 5 seminários de 1 h; estudos de caso e autoavaliação; prova final"
+  },
+  "practical": {
+    "period": "Semester 1 (set a jan) no catálogo 2026/27; em tese coincide com a mobilidade 2027.2, mas a oferta de 2027/28 não foi publicada",
+    "language": "Inglês (planilha institucional: exigência de IELTS 6.0, TOEFL iBT 87 ou equivalente)",
+    "enrolment": "Catálogo indica o módulo como disponível a estudantes de intercâmbio (study abroad); não é 'discovery module'; turma de 230 alunos",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "LUBS3955 é um módulo de liderança com perspectivas disciplinares múltiplas; seus pontos de contato com Sociologia das Organizações (influência, cultura, dinâmica de grupo) são adjacências temáticas, e Weber, dinâmica externa da empresa e cultura brasileira não aparecem.",
+  "justification": "Nenhum dos oito tópicos está coberto: cinco são parciais por afinidade temática (poder via influência, perspectiva sociológica como uma entre quatro lentes, dinâmica interna via grupos e equipes, cultura via 'Leadership and culture' e questões críticas contemporâneas) e três não aparecem (Weber e dominação, dinâmica externa, cultura brasileira). Pela regra interna, 62,5% de cobertura total ou parcial corresponderia a afinidade parcial; reduzimos a baixa afinidade porque todos os vínculos passam pelo filtro da liderança, a sociologia é só uma das lentes citadas e as 16 h de contato equivalem a 50% das 31,7 h (42% com hora de 50 min), abaixo dos 75% do parâmetro COI.",
+  "downgradeReason": "A regra interna indicaria afinidade parcial (5 de 8 tópicos parciais), mas nenhum tópico é coberto: os cinco parciais são adjacências via liderança, o conteúdo sociológico central (Weber, dominação, dinâmica externa, cultura brasileira) está ausente e a razão de horas é 0,50.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Objetivos e Syllabus claros e horas explícitas; sem Module summary na página e sem leitura do Minerva; ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Horas de contato semestrais declaradas (16 h), mas duração da hora não informada; 10 UK credits não convertidos",
+    "A página não traz Module summary; o 'Syllabus' lista temas de liderança, e o detalhe e a bibliografia estão no Minerva",
+    "Os cinco vínculos parciais são afinidades temáticas inferidas de itens curtos; nenhuma menção direta a sociologia das organizações",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Leeds oferece, para intercambistas, módulo de sociologia das organizações ou sociologia do trabalho mais aderente à ficha?",
+    "A coordenação consideraria liderança como área afim a sociologia das organizações, dado o peso de Weber na ficha brasileira?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 3) e da página do módulo LUBS3955 no catálogo 2026/27 de Leeds, com apoio de IA (Claude); cada tópico vinculado ao item do Syllabus ou resultado de aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe reduzida em relação à regra interna; vale uma segunda leitura sobre a afinidade entre liderança e sociologia das organizações"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

@@ -1,0 +1,183 @@
+{
+  "id": "adm|Marketing I|pt-coimbra|93364",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93364",
+      "name": "Gestão de Marcas",
+      "pageCode": "01021169",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não traz o campo 'Duração'; a lista oficial do plano registra 'Semestral'; semestre não indicado",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Avaliação periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Aprovação prévia na UC Marketing (campo 'Conhecimentos de Base Recomendados')",
+      "source": "https://apps.uc.pt/courses/PT/unit/93364/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "335b7670da30c99771a536f426530131e3b0de521a176229f79107369c2e62a9",
+      "location": "Página da UC 2026-2027: identificação, Conhecimentos de Base Recomendados, Métodos de Ensino, Resultados de Aprendizagem, Programa (itens 1-9), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e metodologia expositiva/ativa com estudos de caso e seminários, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "O item 1 'Introdução ao conceito de marca' trata de marca, não do significado de marketing; a página pressupõe aprovação prévia em Marketing."
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "Nenhum item de análise do ambiente (macro ou micro) de marketing; o único ambiente citado é o jurídico da proteção de marcas (itens 6-9)."
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "'Gestão emocional da marca' (item 4) e 'imagem da marca' tocam a percepção do consumidor, mas o programa não nomeia comportamento do consumidor; título de item não comprova o conteúdo."
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "O enunciado da ficha corresponde, na ementa, a 'comportamento do comprador organizacional'; não há item equivalente em Coimbra."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "Posicionamento pode ser subtema de 'A identidade da marca' (item 2), mas nem segmentação nem posicionamento são nomeados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Identidade da marca e valor da marca (brand equity)",
+      "location": "Programa, itens 2-3; Resultados de Aprendizagem"
+    },
+    {
+      "topic": "Gestão emocional da marca e construção de marcas poderosas",
+      "location": "Programa, itens 4-5"
+    },
+    {
+      "topic": "Direito das marcas: conceito legal, marcas tradicionais e não convencionais, requisitos e âmbitos de proteção",
+      "location": "Programa, itens 6-9"
+    },
+    {
+      "topic": "Tendências recentes de branding",
+      "location": "Resultados de Aprendizagem, 1º parágrafo"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: o que é marketing, geração de valor para cliente e empresa, satisfação, fidelidade, comportamento do consumidor e do comprador organizacional, marketing estratégico com segmentação e posicionamento.",
+    "foreign": [
+      "Compreender o conceito de marca, imagem da marca e valor da marca",
+      "Conhecer tendências recentes de branding",
+      "Conhecer o conceito legal de marca, seus tipos, requisitos e âmbitos de proteção"
+    ],
+    "convergences": [
+      "Ambas pertencem à área de marketing/gestão e buscam valor para a empresa",
+      "Coimbra recomenda Marketing como base, o que a coloca a jusante da disciplina Mackenzie"
+    ],
+    "differences": [
+      "Mackenzie é introdução geral a marketing; Coimbra é especialização em gestão e direito de marcas",
+      "Metade do programa de Coimbra (itens 6-9) é jurídica, sem contrapartida na ficha Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: 1ª etapa, obrigatória e introdutória; Coimbra: 3º ano, optativa, com Marketing como base",
+    "brazil": "Introdução a marketing em 63,3 h-relógio, com cinco enunciados conceituais",
+    "foreign": "Branding aplicado e direito das marcas, com estudo de casos e seminários com profissionais",
+    "theoryPractice": "Exposição teórica seguida de casos reais e casos práticos; proporção entre teoria e prática não declarada"
+  },
+  "practical": {
+    "period": "Página sem campo 'Duração'; lista oficial indica 'Semestral'; semestre e coincidência com 2027.2 a confirmar",
+    "language": "Português",
+    "enrolment": "UC opcional do 3º ano da Licenciatura em Gestão; mobilidade pode exigir aprovação dos coordenadores; vagas para intercâmbio não informadas na página",
+    "prerequisites": "Aprovação prévia em Marketing (a página não informa como a exigência é verificada para estudantes de mobilidade)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão de Marcas é uma optativa de especialização em branding e direito de marcas que pressupõe Marketing já cursada; nenhum dos cinco enunciados introdutórios da ficha Mackenzie de Marketing I tem item correspondente no programa de Coimbra.",
+  "justification": "Os enunciados da ficha — significado de marketing, ambiente, comportamento do consumidor, comportamento organizacional e segmentação/posicionamento — foram buscados nos nove itens do programa e nos resultados de aprendizagem e não aparecem: os itens 1-5 tratam de marca, identidade, valor e gestão emocional, e os itens 6-9 do direito das marcas (conceito legal, tipos, requisitos e âmbito de proteção). A própria página recomenda aprovação prévia em Marketing, o que indica que o conteúdo de Marketing I seria pré-requisito, não equivalente. Coimbra não declara horas de contacto (apenas 6 ECTS), a carga não é comparável com as 63,3 h Mackenzie e a ficha brasileira não tem ano de vigência.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e resultados de aprendizagem completos, o que sustenta a ausência dos tópicos; reduzem a confiança a falta de horas de contacto, de semestre e de ano de vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contacto e semestre não declarados; 6 ECTS não convertidos em horas",
+    "Oferta em 2027/28 e vagas para intercambistas não confirmadas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "A ausência de um tópico no programa não prova que ele nunca seja mencionado em aula; a comparação usa apenas o texto oficial",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Há outra UC de Marketing introdutório em Coimbra (por exemplo, a UC 18803 Marketing) que cubra melhor os cinco enunciados de Marketing I?",
+    "A coordenação de Administração aceitaria Gestão de Marcas como optativa livre em vez de equivalência a Marketing I?"
+  ],
+  "alternatives": [
+    {
+      "code": "18803",
+      "name": "Marketing",
+      "relation": "Obrigatória do 2º ano da Licenciatura em Gestão com conceito de marketing, ambiente, consumidor, segmentação e posicionamento; lida em parecer próprio (Marketing II e Planejamento), não analisada contra Marketing I neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 1) e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada enunciado buscado em todas as secções do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência objetiva dos cinco enunciados em programa itemizado"
+  }
+}

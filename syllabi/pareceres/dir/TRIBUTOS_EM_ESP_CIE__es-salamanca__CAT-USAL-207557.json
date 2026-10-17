@@ -1,0 +1,144 @@
+{
+  "id": "dir|TRIBUTOS EM ESPÉCIE|es-salamanca|CAT-USAL-207557",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TRIBUTOS EM ESPÉCIE",
+    "name": "TRIBUTOS EM ESPÉCIE",
+    "courseName": "Direito",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 56, bloco TRIBUTOS EM ESPÉCIE; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 2
+    },
+    "topics": [
+      "Estudo aprofundado dos tributos a partir da premissa do conhecimento das espécies tributárias estudadas no Sistema Tributário Nacional com destaque para o estudo dos impostos (federais, estaduais e municipais), das contribuições sociais (gerais e de seguridade social) e contribuições de intervenção no Domínio Econômico, iniciando-se pela revisão da classificação das espécies tributárias",
+      "Estudo de casos e posições dos Tribunais Superiores (STF e STJ) sobre os aspectos relevantes e controversos correlatos",
+      "Estudo dos projetos de reforma tributária"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207557",
+      "name": "DERECHO FINANCIERO Y TRIBUTARIO (PARTE GENERAL)",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "year 3",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": "Teoria50%, prática40%, entrega10%",
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207557",
+      "catalogue": "https://guias.usal.es/node/207557",
+      "sha256": "392fac0b6fd89ce4f7df1c82e8edc5cc339a9d802e1a132ebc191b7060acf5f4",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102320"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo aprofundado dos tributos a partir da premissa do conhecimento das espécies tributárias estudadas no Sistema Tributário Nacional com destaque para o estudo dos impostos (federais, estaduais e municipais), das contribuições sociais (gerais e de seguridade social) e contribuições de intervenção no Domínio Econômico, iniciando-se pela revisão da classificação das espécies tributárias",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Categorias tributárias, imposto, contribuição especial e taxa, sem catálogo federal/estadual/municipal brasileiro.",
+      "foreignLocation": "5 lecciones9-10"
+    },
+    {
+      "brTopic": "Estudo de casos e posições dos Tribunais Superiores (STF e STJ) sobre os aspectos relevantes e controversos correlatos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Jurisprudência e casos tributários são objetivos/metodologia, sem STF/STJ.",
+      "foreignLocation": "3 objetivos;9 avaliação"
+    },
+    {
+      "brTopic": "Estudo dos projetos de reforma tributária",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções de objetivos, conteúdos programáticos e metodologia do documento estrangeiro integral; comparação com a ementa brasileira histórica de 2022",
+      "note": "O programa estrangeiro não individualiza Estudo dos projetos de reforma tributária"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo aprofundado dos tributos a partir da premissa do conhecimento das espécies tributárias estudadas no Sistema Tributário Nacional com destaque para o estudo dos impostos (federais, estaduais e municipais), das contribuições sociais (gerais e de seguridade social) e contribuições de intervenção no Domínio Econômico, iniciando-se pela revisão da classificação das espécies tributárias. Estudo de casos e posições dos Tribunais Superiores (STF e STJ) sobre os aspectos relevantes e controversos correlatos. Estudo dos projetos de reforma tributária.",
+    "foreign": [
+      "A Parte General tributária 102320 apresenta categorias e elementos dos tributos, mas Tributos em Espécie exige aprofundamento dos impostos e contribuições brasileiros."
+    ],
+    "convergences": [
+      "Categorias tributárias, imposto, contribuição especial e taxa, sem catálogo federal/estadual/municipal brasileiro.",
+      "Jurisprudência e casos tributários são objetivos/metodologia, sem STF/STJ."
+    ],
+    "differences": [
+      "O programa estrangeiro não individualiza Estudo dos projetos de reforma tributária"
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 8; exterior: Graduação, ano None.",
+    "brazil": "TRIBUTOS EM ESPÉCIE: 2; documento 2022",
+    "foreign": "DERECHO FINANCIERO Y TRIBUTARIO (PARTE GENERAL): None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 3",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Parte General tributária 102320 apresenta categorias e elementos dos tributos, mas Tributos em Espécie exige aprofundamento dos impostos e contribuições brasileiros.",
+  "justification": "Dois de três enunciados têm aproximação parcial; o plano estrangeiro dedica-se à teoria, orçamento e procedimentos, não à tributação específica da federação brasileira nem reforma local. Exame50%, prática40% e entregas10% não corrigem a diferença de objeto.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de TRIBUTOS EM ESPÉCIE com DERECHO FINANCIERO Y TRIBUTARIO (PARTE GENERAL); Dois de três enunciados têm aproximação parcial; o plano estrangeiro dedica-se à teoria, orçamento e procedimentos, não à tributação específica da federação brasileira nem reforma local. Exame50%, prática40% e entregas10% não corrigem a diferença de objeto.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

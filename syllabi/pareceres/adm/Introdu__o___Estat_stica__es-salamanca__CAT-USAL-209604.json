@@ -1,0 +1,196 @@
+{
+  "id": "adm|Introdução à Estatística|es-salamanca|CAT-USAL-209604",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Introdução à Estatística",
+    "name": "Introdução à Estatística",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 4, bloco 'Introdução à Estatística': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Dados e Estatística",
+      "Estatística Descritiva: métodos tabulares e gráficos",
+      "Medidas numéricas em estatística Descritiva",
+      "Introdução à probabilidade",
+      "Distribuições (discreta e contínua) de probabilidade",
+      "Amostragem",
+      "Estimação por intervalo"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209604",
+      "name": "Estadística I",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Economía e Historia Económica (área Fundamentos del Análisis Económico)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Segundo Semestre (campo 'Periodicidade'), 1º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "OBLIGATORIA",
+      "assessment": "Avaliação contínua 40% (duas provas escritas) + exame final 60% (mínimo 3 sobre 6); nota final mínima 5",
+      "prerequisites": "Recomendados: álgebra e análise matemática; informática básica (Windows)",
+      "source": "https://guias.usal.es/node/209604",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "a73f8ad50b3c1a36b1749f5d16e603963a06dadaf66873cd854b0e8fd084f18b",
+      "location": "Guia 2025/2026: seções 1 (datos), 2 (recomendaciones), 3 (objetivos), 4 (competencias), 5 (Temas 1-4), 6-7 (metodologías), 9 (evaluación)",
+      "officialCode": "103810",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 3.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "3 ECTS. A seção 7 'Distribución de las Metodologías Docentes' vem vazia no texto obtido; nenhuma hora de contato declarada. Código oficial: 103810."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Dados e Estatística",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 1 'Nociones básicas'; competência: 'conceptos básicos de Estadística Descriptiva'",
+      "foreignLocation": "Seção 5, Tema 1; seção 4",
+      "note": "Título genérico; inferido do objetivo de descrever coletivos e variáveis econômicas."
+    },
+    {
+      "brTopic": "Estatística Descritiva: métodos tabulares e gráficos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivo: 'Tabular, representar, resumir datos económicos'; Tema 2 'Distribuciones unidimensionales'",
+      "foreignLocation": "Seção 3; seção 5, Tema 2"
+    },
+    {
+      "brTopic": "Medidas numéricas em estatística Descritiva",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'técnicas estadísticas que describen las variables'; competência: 'resumir, sintetizar, comparar y relacionar'; Temas 2-3",
+      "foreignLocation": "Seção 3; seção 4; seção 5, Temas 2-3",
+      "note": "Medidas de resumo e de relação inferidas dos títulos; o guia não lista média, dispersão ou correlação."
+    },
+    {
+      "brTopic": "Introdução à probabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'Reconocer y cuantificar las situaciones de incertidumbre'; competência: 'medir la incertidumbre'",
+      "foreignLocation": "Seção 3; seção 4",
+      "note": "Apenas em objetivo e competência; nenhum dos Temas 1-4 trata de probabilidade."
+    },
+    {
+      "brTopic": "Distribuições (discreta e contínua) de probabilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-4), seção 3 (objetivos) e seção 4 (competências específicas) lidas; os quatro temas são nociones básicas, distribuições uni e bidimensionais e números índices. Nenhum tema de distribuições de probabilidade.",
+      "note": "Provavelmente em Estadística II no plano, que não foi lida."
+    },
+    {
+      "brTopic": "Amostragem",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-4), seção 3 (objetivos) e seção 4 (competências específicas) lidas; os quatro temas são nociones básicas, distribuições uni e bidimensionais e números índices. Sem amostragem."
+    },
+    {
+      "brTopic": "Estimação por intervalo",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-4), seção 3 (objetivos) e seção 4 (competências específicas) lidas; os quatro temas são nociones básicas, distribuições uni e bidimensionais e números índices. Sem estimação nem intervalos de confiança."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Distribuições bidimensionais (Tema 3)",
+      "location": "Seção 5, Tema 3"
+    },
+    {
+      "topic": "Números índices com dados econômicos (Tema 4)",
+      "location": "Seção 5, Tema 4; seção 4"
+    },
+    {
+      "topic": "Uso de software estatístico e fontes estatísticas oficiais",
+      "location": "Seção 3; seção 4"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos e medidas de estatística descritiva, gráficos e tabelas com ferramentas computacionais, distribuições de probabilidade e intervalos de confiança.",
+    "foreign": [
+      "Conhecer a estatística descritiva aplicada a variáveis econômicas",
+      "Construir e interpretar números índices",
+      "Medir a incerteza no ambiente econômico",
+      "Usar software estatístico e fontes de dados"
+    ],
+    "convergences": [
+      "Estatística descritiva: tabelas, gráficos e resumo de dados",
+      "Uso de software estatístico"
+    ],
+    "differences": [
+      "Salamanca não lista probabilidade, distribuições, amostragem nem estimação por intervalo",
+      "Salamanca acrescenta distribuições bidimensionais e números índices"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Mackenzie na 3ª etapa, Salamanca obrigatória do 1º curso",
+    "brazil": "Disciplina de 63,3 h com 7 enunciados, metade de probabilidade e inferência",
+    "foreign": "Obrigatória de 3 ECTS (metade dos créditos usuais) com 4 temas de estatística descritiva",
+    "theoryPractice": "Salamanca: sessões teóricas e práticas de resolução de problemas e tutorias; avaliação 40% contínua e 60% exame"
+  },
+  "practical": {
+    "period": "Segundo semestre (fevereiro a junho), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Obrigatória do 1º curso; recomenda conhecimentos de álgebra; aceitação de intercambista não verificada",
+    "prerequisites": "Recomendados: álgebra e análise matemática; informática básica (Windows)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estadística I cobre a parte descritiva da ficha Mackenzie (dados, tabelas, gráficos, resumo), mas seus quatro temas deixam de fora distribuições de probabilidade, amostragem e intervalos de confiança.",
+  "justification": "Dois dos 7 enunciados estão cobertos (dados e estatística; métodos tabulares e gráficos), dois são parciais (medidas numéricas e introdução à probabilidade, apoiadas só em objetivos e competências) e três não aparecem: distribuições de probabilidade, amostragem e estimação por intervalo. A cobertura de 4/7 permanece no limite da classe parcial e a metade inferencial da ementa brasileira exigiria outra disciplina, provavelmente Estadística II, que não foi lida. A carga não é comparável: 3 ECTS sem horas de contato frente a 63,3 h, e a ficha brasileira não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Quatro temas listados só por título, objetivos e competências claros, sem horas de contato; ficha brasileira sem ano impresso.",
+  "limitations": [
+    "Horas de contato não declaradas; 3 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Temas listados só por título; probabilidade aparece apenas em objetivo e competência",
+    "Disciplina de Estadística II do plano não foi lida",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Estadística II da USAL cobre probabilidade, amostragem e intervalos de confiança?",
+    "Os Temas 2 e 3 incluem média, desvio-padrão e correlação?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Lacuna inferencial identificada por tema e documentada"
+  }
+}

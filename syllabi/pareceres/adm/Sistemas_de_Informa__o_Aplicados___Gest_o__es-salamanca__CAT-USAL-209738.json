@@ -1,0 +1,175 @@
+{
+  "id": "adm|Sistemas de Informação Aplicados à Gestão|es-salamanca|CAT-USAL-209738",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sistemas de Informação Aplicados à Gestão",
+    "name": "Sistemas de Informação Aplicados à Gestão",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 12, bloco 'Sistemas de Informação Aplicados à Gestão': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Alinhamento estratégico de TI",
+      "Governança de TI",
+      "Convergência Tecnológica",
+      "Internet das coisas",
+      "Block Chain",
+      "Cripton Moeda",
+      "Big Data",
+      "Computação nas nuvens",
+      "Inteligência Artificial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209738",
+      "name": "Sistema de Información Contable",
+      "pageCode": "103802",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Economía Financiera y Contabilidad)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Primer Semestre (datas não declaradas na guia)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Básica",
+      "assessment": "Avaliação contínua 40% e exame final 60% (parte I prática 4 pontos, parte II teórica 2 pontos); mínimo 5 pontos",
+      "prerequisites": "Nenhum descrito",
+      "source": "https://guias.usal.es/node/209738",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "b34f9c2e15359a15f9d4d6d88fc4baa663009435cc0972223155fcb9558861ec",
+      "location": "Guia 2025/2026: 1 Datos, 3 Objetivos, 4 Competencias (CESIC 1-17), 5 Contenidos (Temas 1-8), 6 Metodologías, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A guia declara 6,00 ECTS e descreve aulas teóricas, práticas e seminários sem quantificar horas; a secção 7 está vazia no texto obtido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Alinhamento estratégico de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 (CESIC 1-17, CTSIC) e 5 (Temas 1-8) lidas; trata-se do sistema de informação contábil, sem tecnologia da informação nem sua relação com a estratégia"
+    },
+    {
+      "brTopic": "Governança de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; os mecanismos de controle do Tema 7.4 referem-se à fiabilidade da informação empresarial divulgada, não à governança de TI"
+    },
+    {
+      "brTopic": "Convergência Tecnológica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; a única menção tecnológica é a competência transversal CTSIC 4 (uso de TIC), não um conteúdo"
+    },
+    {
+      "brTopic": "Internet das coisas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência a IoT"
+    },
+    {
+      "brTopic": "Block Chain",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência a blockchain"
+    },
+    {
+      "brTopic": "Cripton Moeda",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência a criptomoedas (o enunciado brasileiro aparece grafado 'Cripton Moeda' na ficha)"
+    },
+    {
+      "brTopic": "Big Data",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência a big data"
+    },
+    {
+      "brTopic": "Computação nas nuvens",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência a computação em nuvem"
+    },
+    {
+      "brTopic": "Inteligência Artificial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência a inteligência artificial"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Contabilidade financeira como sistema de informação; usuários e objetivos da informação financeira", "location": "Secção 5, Tema 1"},
+    {"topic": "Patrimônio, balanço, resultado, método contábil e ciclo contábil", "location": "Secção 5, Temas 2-6"},
+    {"topic": "Livros contábeis, obrigações legais e mecanismos de controle da qualidade da informação", "location": "Secção 5, Tema 7"},
+    {"topic": "Plano Geral de Contabilidade e marco conceitual", "location": "Secção 5, Tema 8"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: aplicabilidade dos sistemas de informação ao respaldo da decisão empresarial e novas ferramentas e tecnologias que transformam a dinâmica dos negócios.",
+    "foreign": ["Conhecer os fundamentos da contabilidade como sistema de informação econômico-financeiro", "Contabilizar um exercício completo, do asiento de abertura ao fechamento", "Preparar e apresentar os estados financeiros de síntese", "Conhecer a normativa contábil e os mecanismos de controle da informação"],
+    "convergences": ["Ambas tratam de informação como insumo da decisão empresarial, em sentido genérico"],
+    "differences": ["Salamanca é contabilidade financeira básica; Mackenzie é tecnologia da informação e inovação digital", "Nenhum dos nove enunciados tecnológicos brasileiros aparece na guia"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca no 1º ano (básica), Mackenzie na 6ª etapa",
+    "brazil": "Disciplina curta de 31,7 h sobre tecnologias de gestão",
+    "foreign": "Introdução à contabilidade financeira, com ciclo contábil completo e exame prático de lançamentos",
+    "theoryPractice": "Aulas magistrais, aulas práticas de lançamentos e trabalho não presencial em grupo; horas não quantificadas"
+  },
+  "practical": {
+    "period": "Primeiro semestre do curso acadêmico, sem datas declaradas; tende a coincidir com o semestre de outono europeu se a oferta de 2027/28 se mantiver",
+    "language": "Espanhol (nível B1/B2 exigido pela universidade para o intercâmbio)",
+    "enrolment": "Disciplina básica de 1º ano; guia não informa vagas para estudantes de intercâmbio",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sistema de Información Contable ensina contabilidade financeira básica (balanço, resultado, ciclo contábil, plano de contas) e não contém nenhum dos nove tópicos tecnológicos de Sistemas de Informação Aplicados à Gestão; a semelhança está só na expressão 'sistema de información'.",
+  "justification": "O título espanhol remete a sistemas de informação, mas os oito temas teóricos tratam do sistema de informação contábil, e os nove enunciados brasileiros (alinhamento e governança de TI, convergência tecnológica, IoT, blockchain, criptomoeda, big data, nuvem e IA) não aparecem em nenhum deles. O Tema 7.4, de mecanismos de controle da fiabilidade da informação divulgada, foi examinado e não equivale à governança de TI. Todos os tópicos ficaram como não encontrados, o que dá baixa afinidade. A carga não é comparável (6 ECTS sem horas de contato contra 31,7 h-relógio), mas isso é secundário diante da divergência total de escopo.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa detalhado em oito temas e dezessete competências, com divergência de escopo evidente; faltam horas de contato, a guia é de 2025/2026 e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Guia obtida é de 2025/2026, não de 2026/2027; oferta e conteúdo de 2027/28 não confirmados",
+    "Horas de contato não declaradas (secção 7 vazia); 6 ECTS não convertidos em horas",
+    "Outras disciplinas de Salamanca de sistemas de informação ou informática de gestão não foram lidas neste parecer",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; o enunciado 'Cripton Moeda' é reproduzido como está na ficha",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O plano de estudos de Administração e Dirección de Empresas em Salamanca inclui disciplina de sistemas de informação para gestão ou de tecnologia aplicada a negócios?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); busca de cada enunciado brasileiro nas secções 3 a 5 da guia espanhola; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Divergência total de escopo em programa detalhado"}
+}

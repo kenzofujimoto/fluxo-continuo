@@ -1,0 +1,182 @@
+{
+  "id": "adm|Matemática Financeira|es-salamanca|CAT-USAL-209979",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Matemática Financeira",
+    "name": "Matemática Financeira",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 7, bloco 'Matemática Financeira': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fundamentos da Matemática Financeira",
+      "Capitalização Simples",
+      "Capitalização Composta",
+      "Operações com taxas de juros",
+      "Descontos",
+      "Séries de pagamentos",
+      "Sistemas de Amortização de Empréstimos e Financiamentos – Sistema de Amortização",
+      "Constante e Sistema Francês de Amortização",
+      "Análise de projetos e decisões de investimentos – Valor Presente Líquido e Taxa Interna de Retorno"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209979",
+      "name": "Valoración Financiera",
+      "pageCode": "103815",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Economía Financiera y Contabilidad)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre (datas não declaradas na guia)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol (parte do material em inglês)",
+      "courseStatus": "Obrigatória",
+      "assessment": "Prova final 60% e avaliação contínua 40%; é preciso 5/10 individualmente em cada parte; presença mínima 80%",
+      "prerequisites": "Conhecimento básico de contabilidade geral, matemática e estatística básicas",
+      "source": "https://guias.usal.es/node/209979",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "6309dbfba3ed17171d5c353792300076350445c3ff3beaf460d375028ca9cdbf",
+      "location": "Guia 2025/2026: 1 Datos, 2 Recomendaciones previas, 3 Objetivos, 4 Competencias, 5 Contenidos (8 blocos teóricos), 6 Metodologías, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A guia declara 6,00 ECTS; a secção 7 (distribuição das metodologias) está vazia no texto obtido. Sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos da Matemática Financeira",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'comprender los fundamentos financieros del valor del dinero en el tiempo y el efecto del riesgo sobre el valor'",
+      "foreignLocation": "Secção 3, 6º objetivo",
+      "note": "O valor do dinheiro no tempo é objetivo declarado, mas nenhum bloco da secção 5 o desenvolve como cálculo (juros, fluxos, equivalência)."
+    },
+    {
+      "brTopic": "Capitalização Simples",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas integralmente (8 blocos teóricos de valoração de ativos); regimes de capitalização não aparecem"
+    },
+    {
+      "brTopic": "Capitalização Composta",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; capitalização composta não é nomeada em nenhum bloco ou competência"
+    },
+    {
+      "brTopic": "Operações com taxas de juros",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; 'Riesgo y Rentabilidad' trata a rentabilidade de ativos, não taxas equivalentes, nominais ou efetivas"
+    },
+    {
+      "brTopic": "Descontos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; desconto comercial/racional ausente"
+    },
+    {
+      "brTopic": "Séries de pagamentos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; rendas, anuidades e séries de pagamentos ausentes"
+    },
+    {
+      "brTopic": "Sistemas de Amortização de Empréstimos e Financiamentos – Sistema de Amortização",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; amortização de empréstimos não é tratada ('Contratos Financieros' refere-se a contratos de mercado)"
+    },
+    {
+      "brTopic": "Constante e Sistema Francês de Amortização",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem referência a SAC, sistema francês ou mapas de amortização"
+    },
+    {
+      "brTopic": "Análise de projetos e decisões de investimentos – Valor Presente Líquido e Taxa Interna de Retorno",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Las Decisiones de Inversión Financiera'; competência: 'aplicar el modelo a la selección de activos reales, tanto en contextos uniperiodo como multiperiodo'",
+      "foreignLocation": "Secção 5, bloco 1; secção 4, competências de habilidade",
+      "note": "Decisões de investimento são tratadas pelo prisma de risco-retorno (CAPM, carteiras); VPL e TIR não são nomeados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Direção financeira, objetivo da empresa e papel do diretor financeiro", "location": "Secção 5, bloco 1"},
+    {"topic": "Estrutura dos mercados financeiros, ativos, intermediários e contratos", "location": "Secção 5, bloco 2"},
+    {"topic": "Teoria do mercado eficiente e testes empíricos", "location": "Secção 5, bloco 3"},
+    {"topic": "Teoria de carteiras (Tobin-Markowitz), CAPM, CML e SML", "location": "Secção 5, blocos 4-6"},
+    {"topic": "Arbitragem (APT) e valoração de opções e futuros (Black-Scholes)", "location": "Secção 5, blocos 7-8"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: juros e capitalização, fluxo de caixa, equivalência de capitais, planos de financiamento, amortização, leasing, critérios econômico-financeiros de decisão e uso de planilhas e calculadoras financeiras.",
+    "foreign": ["Entender finanças da empresa e o papel da direção financeira", "Calcular rentabilidade e risco de ativos financeiros", "Selecionar carteiras ótimas e aplicar o CAPM e o APT", "Valorar opções com o modelo de opções"],
+    "convergences": ["Ambas tratam de valor do dinheiro no tempo e de decisões de investimento em nível geral"],
+    "differences": ["Salamanca é teoria financeira de mercado de capitais (eficiência, carteiras, CAPM, opções); Mackenzie é cálculo financeiro determinístico (juros, séries, amortização)", "Sete dos nove enunciados brasileiros não aparecem na guia"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca no 2º ano (obrigatória), Mackenzie na 3ª etapa",
+    "brazil": "Cálculo financeiro instrumental de 63,3 h, com planilhas e calculadora financeira",
+    "foreign": "Fundamentos de valoração financeira, com forte componente teórica de finanças (modelos de equilíbrio e arbitragem)",
+    "theoryPractice": "Casos, exercícios, modelos de simulação e leituras; guia não declara horas por tipo de atividade"
+  },
+  "practical": {
+    "period": "Primeiro semestre do curso acadêmico, sem datas declaradas; tende a coincidir com o semestre de outono europeu se a oferta de 2027/28 se mantiver",
+    "language": "Espanhol (nível B1/B2 exigido pela universidade para o intercâmbio)",
+    "enrolment": "Disciplina obrigatória do 2º ano; a guia não menciona estudantes de intercâmbio",
+    "prerequisites": "Contabilidade geral, matemática e estatística básicas",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Valoración Financiera aborda a valoração de ativos em mercados de capitais (eficiência, carteiras, CAPM, APT, opções) e deixa de fora capitalização, desconto, séries de pagamentos e amortização, que formam a maior parte da ficha de Matemática Financeira.",
+  "justification": "O título espanhol sugere afinidade, mas a leitura dos oito blocos de conteúdo mostra que sete dos nove enunciados brasileiros estão ausentes: capitalização simples e composta, taxas de juros, descontos, séries de pagamentos e os dois enunciados de amortização (SAC e francês). Dois são parciais — o valor do dinheiro no tempo aparece como objetivo e as decisões de investimento aparecem pelo prisma de risco e retorno, sem VPL e TIR nomeados —, o que dá 22% de cobertura, abaixo do limite de 50% para afinidade parcial. Não há horas de contato a comparar, só 6 ECTS. A disciplina é de finanças de mercado e se aproxima mais de Investimentos do que de Matemática Financeira.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdo itemizado e compatível com os objetivos da guia, mas sem horas de contato, com guia de 2025/2026 e ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Guia obtida é de 2025/2026, não de 2026/2027; oferta e conteúdo de 2027/28 não confirmados",
+    "Horas de contato não declaradas (secção 7 vazia); 6 ECTS não convertidos em horas",
+    "O único apoio para fundamentos de matemática financeira é um objetivo, sem bloco de conteúdo correspondente",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Alternativas em Salamanca (por exemplo, disciplina de matemática financeira ou de operações financeiras) não foram lidas neste parecer",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O curso de Salamanca tem outra disciplina com juros, descontos, rendas e amortização (por exemplo, no 1º ano)?",
+    "A coordenação de Administração consideraria Valoración Financiera como aproximação a Investimentos em vez de Matemática Financeira?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada enunciado brasileiro buscado nos objetivos, competências e blocos de conteúdo da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Programa itemizado e divergência de escopo evidente"}
+}

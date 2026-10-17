@@ -1,0 +1,160 @@
+{
+  "id": "adm|Microeconomia Aplicada aos Negócios|es-salamanca|CAT-USAL-209916",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Microeconomia Aplicada aos Negócios",
+    "name": "Microeconomia Aplicada aos Negócios",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 5, bloco 'Microeconomia Aplicada aos Negócios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e ferramentas básicas",
+      "Demanda x oferta",
+      "Elasticidades",
+      "Intervenção do governo no mercado",
+      "Teoria da firma: Produção e Custos",
+      "Organização da indústria"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209916",
+      "name": "Microeconomía I",
+      "pageCode": "103814",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Economía e Historia Económica (área Fundamentos del Análisis Económico)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre (datas não declaradas na guia)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Básica",
+      "assessment": "Avaliação contínua 40% e exame final 60%; detalhes divulgados no início do curso na plataforma Studium",
+      "prerequisites": "Recomendado: Introdução à Economia (básica) e Análise Matemática (obrigatória)",
+      "source": "https://guias.usal.es/node/209916",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "7317ca518a4a97649fb8ef5f339bc56ed98707f32d31058bc865f9fc7e234214",
+      "location": "Guia 2025/2026: 1 Datos, 2 Recomendaciones previas, 3 Objetivos, 4 Competencias (conocimientos e resultados), 5 Contenidos (12 itens), 6 Metodologías, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A guia declara 6,00 ECTS e descreve atividades presenciais e não presenciais sem quantificá-las; a secção 7 está vazia no texto obtido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e ferramentas básicas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'iniciar el método de análisis económico'; competência: 'coste de oportunidad' e problemas de decisão de consumidores e empresas",
+      "foreignLocation": "Secção 3; secção 4, competências de conhecimento",
+      "note": "Custo de oportunidade e agentes econômicos aparecem; trade-off, problemas econômicos básicos e sistemas econômicos, citados na ementa brasileira, são tratados em Introdução à Economia, recomendada como pré-requisito."
+    },
+    {
+      "brTopic": "Demanda x oferta",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'La demanda individual', 'La demanda de mercado', 'La oferta competitiva a corto plazo' e 'a largo plazo'",
+      "foreignLocation": "Secção 5, itens 4, 5, 8 e 10",
+      "note": "A guia desenvolve a demanda e a oferta a partir das decisões do consumidor e da empresa; equilíbrio de mercado e deslocamentos não são nomeados."
+    },
+    {
+      "brTopic": "Elasticidades",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas integralmente; efeito renda e efeito substituição são tratados, mas elasticidade não aparece"
+    },
+    {
+      "brTopic": "Intervenção do governo no mercado",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; 'El excedente del consumidor' é medida de bem-estar, sem tratamento de impostos, tetos ou subsídios"
+    },
+    {
+      "brTopic": "Teoria da firma: Produção e Custos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'La producción', 'Tecnologías y rendimientos a escala', 'Los costes'; competência: custos fixos, variáveis, totais, médios e marginais, custos irrecuperáveis",
+      "foreignLocation": "Secção 5, itens 1-3; secção 4, teoria da empresa"
+    },
+    {
+      "brTopic": "Organização da indústria",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'La oferta competitiva a corto plazo' e 'a largo plazo'",
+      "foreignLocation": "Secção 5, itens 4-5",
+      "note": "Apenas a concorrência perfeita é visível; monopólio, oligopólio e competição monopolística, que a ementa brasileira diferencia, não são listados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Teoria do consumidor: preferências, utilidade, relação marginal de substituição, restrição orçamentária", "location": "Secção 5, itens 6-7; secção 4"},
+    {"topic": "Efeito renda e efeito substituição; excedente do consumidor; tópicos de teoria do consumidor", "location": "Secção 5, itens 9, 11 e 12"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: agentes e problemas econômicos, oferta, demanda e equilíbrio, atuação do governo, elasticidade, estruturas de mercado, trade-off e custo de oportunidade.",
+    "foreign": ["Resolver problemas de decisão de consumidores e empresas", "Compreender preferências, utilidade, restrição orçamentária e excedente", "Compreender tecnologia, funções de produção e funções de custo e oferta", "Contextualizar problemas econômicos atuais"],
+    "convergences": ["Demanda, oferta, produção e custos", "Custo de oportunidade"],
+    "differences": ["Salamanca é mais formal e microfundada (teoria do consumidor e da firma) e exige análise matemática", "Mackenzie inclui elasticidade, intervenção do governo e estruturas de mercado, ausentes ou limitados na guia espanhola"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca no 2º ano (básica), Mackenzie na 2ª etapa",
+    "brazil": "Microeconomia aplicada a negócios, de 63,3 h",
+    "foreign": "Microeconomia intermediária formal (nível Varian/Pindyck) com análise matemática como recomendação",
+    "theoryPractice": "Aulas teóricas e práticas, tutorias e provas, sem quantificação de horas"
+  },
+  "practical": {
+    "period": "Primeiro semestre do curso acadêmico, sem datas declaradas; tende a coincidir com o semestre de outono europeu se a oferta de 2027/28 se mantiver",
+    "language": "Espanhol (nível B1/B2 exigido pela universidade para o intercâmbio)",
+    "enrolment": "Disciplina básica; guia não informa vagas para estudantes de intercâmbio",
+    "prerequisites": "Introdução à Economia e Análise Matemática recomendadas",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Microeconomía I cobre integralmente demanda, oferta, produção e custos e toca em custo de oportunidade e concorrência, mas não lista elasticidades nem intervenção do governo e só mostra a estrutura competitiva entre as estruturas de mercado da ficha de Microeconomia Aplicada aos Negócios.",
+  "justification": "Dois dos seis enunciados brasileiros estão cobertos por itens identificados (demanda e oferta nos itens 4-5, 8 e 10; produção e custos nos itens 1-3) e dois são parciais: conceitos básicos (custo de oportunidade, agentes) e organização da indústria (só a oferta competitiva). Elasticidades e intervenção do governo não foram encontradas nos 12 itens da secção 5, e a guia aprofunda a teoria do consumidor, ausente da ficha brasileira. Com quatro dos seis enunciados ao menos parcialmente reconhecidos, a cobertura total ou parcial chega a 67%, e a classe é afinidade parcial. Não há horas de contato (apenas 6 ECTS), então a carga de 63,3 h brasileira não é comparável, e a ficha não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e coerente com os objetivos da guia, mas sem horas de contato, com avaliação pouco detalhada, guia de 2025/2026 e ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Guia obtida é de 2025/2026, não de 2026/2027; oferta e conteúdo de 2027/28 não confirmados",
+    "Horas de contato não declaradas (secção 7 vazia); 6 ECTS não convertidos em horas",
+    "Elasticidades, intervenção do governo e estruturas de mercado podem ser tratadas em disciplina posterior de microeconomia que não foi lida",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Elasticidade e intervenção do governo são tratadas dentro dos itens de demanda e excedente do consumidor, apesar de não nomeadas?",
+    "Existe disciplina seguinte de microeconomia em Salamanca que cubra estruturas de mercado e que pudesse ser combinada com esta?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada enunciado brasileiro vinculado ao item da secção 5 ou às competências da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada; ausência de elasticidade e intervenção clara no texto"}
+}

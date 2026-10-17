@@ -1,0 +1,147 @@
+{
+  "id": "cc|ENEC61020|es-cadiz|21714032",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61020",
+    "name": "Computação Paralela",
+    "courseName": "Ciência da Computação",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 8",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "99a89616cc97ad85d17f1c8b29d7b0e84a2272807e38dd743c40180bead9aab4",
+    "location": "PDF p. 2, bloco COMPUTAÇÃO PARALELA: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo de arquiteturas de sistemas paralelos",
+      "Metodologia de desenvolvimento de programas paralelos",
+      "Análise de algoritmos paralelos",
+      "Medição e avaliação de programas paralelos",
+      "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714032",
+      "name": "Arquitectura de Computadores Paralelos y Distribuidos",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "1º semestre",
+      "academicYear": "2025/26 (documento impresso)",
+      "language": "Castelhano",
+      "assessment": "Exames 50%, trabalhos 23%, laboratório 14%, autoavaliação 5%, acompanhamento 8%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2025-26/21714032",
+      "catalogue": null,
+      "sha256": "333ab38f04c7988c75ee0a33f4d0954b0d418102e9b81dbbbda5bb7e093bf4ba",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 90,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de arquiteturas de sistemas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Vetoriais, SIMD/GPU, multiprocessadores, cluster e grid descrevem arquiteturas paralelas e distribuídas.",
+      "foreignLocation": "Temas 0-4"
+    },
+    {
+      "brTopic": "Metodologia de desenvolvimento de programas paralelos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Desenvolver/otimizar software e projeto prático são exigidos, sem roteiro explícito de metodologia de programação paralela.",
+      "foreignLocation": "Resultado 1; trabalho prático; atividades 02"
+    },
+    {
+      "brTopic": "Análise de algoritmos paralelos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Otimização e avaliação arquitetural são objetivos, mas não há análise formal dos algoritmos paralelos.",
+      "foreignLocation": "Resultados 1-3; Temário 1-5"
+    },
+    {
+      "brTopic": "Medição e avaliação de programas paralelos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Medidas de desempenho de interconexão e aplicação de projeto dão evidência restrita, sem medição geral de programas paralelos.",
+      "foreignLocation": "Tema 3; trabalho prático"
+    },
+    {
+      "brTopic": "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Simulações/práticas por arquitetura incluem GPU e multiprocessadores, mas linguagens, aceleradores e sistemas heterogêneos não são especificados.",
+      "foreignLocation": "Temas 1-2; Atividades 02 e 04"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo de arquiteturas de sistemas paralelos. Metodologia de desenvolvimento de programas paralelos. Análise de algoritmos paralelos. Medição e avaliação de programas paralelos. Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas.",
+    "foreign": [
+      "Analisar arquiteturas paralelas/distribuídas, desenvolver e otimizar software e selecionar hardware."
+    ],
+    "convergences": [
+      "Arquitecturas de Computadores Paralelos y Distribuidos cobre a diversidade arquitetural de Computação Paralela, com evidência apenas parcial para projeto, análise, medição e implementação de programas."
+    ],
+    "differences": [
+      "O roteiro da edição 2025-26 individualiza SIMD/GPU, coerência de multiprocessadores, redes de interconexão e cluster/grid/Hadoop, cobrindo o primeiro eixo Mackenzie. O resultado de desenvolver e otimizar software e o projeto prático apoiam os demais eixos sem detalhar algoritmos, metodologia, ferramentas ou avaliação de programas. Com um tópico integral e quatro parciais, 60 h (30 teoria, 12 problemas, 18 laboratório) não permitem promover a afinidade acima de parcial, ainda que a razão horária condicional para 63,33 h seja suficiente."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "COMPUTAÇÃO PARALELA: etapa 8, 63.33 horas declaradas.",
+    "foreign": "Optativa de 3º/4º ano; arquitetura vetorial, GPU, multiprocessadores, cluster/grid e Hadoop.",
+    "theoryPractice": "Práticas e simulações por arquitetura; trabalho teórico e projeto aplicado."
+  },
+  "practical": {
+    "period": "1º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Arquitecturas de Computadores Paralelos y Distribuidos cobre a diversidade arquitetural de Computação Paralela, com evidência apenas parcial para projeto, análise, medição e implementação de programas.",
+  "justification": "O roteiro da edição 2025-26 individualiza SIMD/GPU, coerência de multiprocessadores, redes de interconexão e cluster/grid/Hadoop, cobrindo o primeiro eixo Mackenzie. O resultado de desenvolver e otimizar software e o projeto prático apoiam os demais eixos sem detalhar algoritmos, metodologia, ferramentas ou avaliação de programas. Com um tópico integral e quatro parciais, 60 h (30 teoria, 12 problemas, 18 laboratório) não permitem promover a afinidade acima de parcial, ainda que a razão horária condicional para 63,33 h seja suficiente.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Ficha efetivamente recuperada é de 2025-26; edição futura não confirmada.",
+    "Hora não declarada em minutos.",
+    "Métodos, linguagens e plataformas de implementação não são especificados."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714032 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

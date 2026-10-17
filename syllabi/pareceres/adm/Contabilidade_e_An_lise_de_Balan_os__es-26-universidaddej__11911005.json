@@ -1,0 +1,227 @@
+{
+  "id": "adm|Contabilidade e Análise de Balanços|es-26-universidaddej|11911005",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade e Análise de Balanços",
+    "name": "Contabilidade e Análise de Balanços",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 1, bloco 'Contabilidade e Análise de Balanços': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução às Demonstrações Financeiras e usuários da Contabilidade",
+      "Estrutura das Demonstrações Financeiras (Balanço Patrimonial e DRE)",
+      "Contabilidade por Balanços Sucessivos",
+      "Método das Partidas Dobradas (Débito e Crédito)",
+      "Elaboração e estrutura da Demonstração dos Fluxos de Caixa",
+      "Fundamentos de análise das Demonstrações Financeiras",
+      "Análise Vertical e Horizontal",
+      "Análise por meio de Índices (Estrutura de Capital, Liquidez e Rentabilidade) e Análise",
+      "Dupont"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Introducción a la contabilidad",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U137 - Economía Financiera y Contabilidad",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Primer cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Exame final: parte teórica 50% e parte prática 50% (mínimo de 30% em cada parte)",
+      "prerequisites": "Não existem pré-requisitos",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias (C10, HD15), Descripción de contenidos (Temas 1-9, anexo IVA, temas com práticas), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,50 h (75%) e A2a pequeño grupo 37,50 h (25%), ambas com 40% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado."
+      },
+      "sha256": "e9c9e926e815cb5ecabf77ed5d6034933cd537cc9935070571d03eb14b19b76c",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911005/es/2025-26-11911005_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11911005"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução às Demonstrações Financeiras e usuários da Contabilidade",
+      "status": "parcial",
+      "foreignEvidence": "Tema 1: '1.1 Importancia de la información económica', '1.2 La Contabilidad como instrumento de la gestión empresarial'; 9.1 aspectos gerais das contas anuais",
+      "foreignLocation": "Teoría 1.1-1.4 e 9.1",
+      "note": "Os usuários externos (investidores, stakeholders) não são nomeados; o foco é a contabilidade como instrumento de gestão.",
+      "essential": true
+    },
+    {
+      "brTopic": "Estrutura das Demonstrações Financeiras (Balanço Patrimonial e DRE)",
+      "status": "coberto",
+      "foreignEvidence": "'9.2. El balance'; '9.3. La cuenta de resultados'; tema 5 '5.4 La cuenta de pérdidas y ganancias del ejercicio'",
+      "foreignLocation": "Teoría 9.2-9.3 e 5.4",
+      "note": "Estrutura segundo o Plano Geral de Contabilidade espanhol, não a Lei 6.404/CPC brasileiros.",
+      "essential": true
+    },
+    {
+      "brTopic": "Contabilidade por Balanços Sucessivos",
+      "status": "parcial",
+      "foreignEvidence": "'2.4. La ecuación patrimonial y su desarrollo'; '3.1. Concepto y clasificación de los hechos contables'; '6.3. Balance de comprobación e inventario real'",
+      "foreignLocation": "Teoría 2.4-2.5, 3.1 e 6.3",
+      "note": "Efeito dos fatos contábeis sobre o patrimônio é tratado, mas o método de balanços sucessivos não é nomeado.",
+      "essential": true
+    },
+    {
+      "brTopic": "Método das Partidas Dobradas (Débito e Crédito)",
+      "status": "coberto",
+      "foreignEvidence": "'3.5. El método de la partida doble'; tema 3 clases de cuentas e tecnicismos",
+      "foreignLocation": "Teoría 3.2-3.5 e práticas do tema 3",
+      "essential": true
+    },
+    {
+      "brTopic": "Elaboração e estrutura da Demonstração dos Fluxos de Caixa",
+      "status": "parcial",
+      "foreignEvidence": "'9.6. El estado de flujos de efectivo'",
+      "foreignLocation": "Teoría 9.6",
+      "note": "Aparece como um item da lista de contas anuais; o detalhamento da elaboração não é descrito.",
+      "essential": true
+    },
+    {
+      "brTopic": "Fundamentos de análise das Demonstrações Financeiras",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría temas 1-9 (inclui 9 contas anuais), Práctica, Competencias C10 e HD15, Bibliografía",
+      "note": "A guia termina na apresentação das contas anuais; não há unidade de interpretação ou análise das demonstrações.",
+      "essential": true
+    },
+    {
+      "brTopic": "Análise Vertical e Horizontal",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-9, Práctica por tema (temas 2, 3, 4 e 6), Bibliografía",
+      "essential": true
+    },
+    {
+      "brTopic": "Análise por meio de Índices (Estrutura de Capital, Liquidez e Rentabilidade) e Análise",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría temas 1-9, Práctica por tema, Bibliografía",
+      "note": "Índices de estrutura de capital, liquidez e rentabilidade não aparecem em nenhum item; o equilíbrio patrimonial e financeiro (2.6) é conceito de balanço, não análise por índices.",
+      "essential": true
+    },
+    {
+      "brTopic": "Dupont",
+      "status": "nao_encontrado",
+      "essential": false,
+      "scopeExamined": "Teoría temas 1-9, Bibliografía",
+      "note": "'Dupont' é continuação da linha anterior da ficha ('... e Análise / Dupont'), parte do mesmo enunciado de análise por índices; não conta de novo na cobertura."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Patrimônio, inventário e equilíbrio patrimonial",
+      "location": "Teoría tema 2"
+    },
+    {
+      "topic": "Cuentas administrativas e especulativas",
+      "location": "Teoría tema 4"
+    },
+    {
+      "topic": "Processo contábil geral: abertura, balancete, regularização e encerramento; anexo do IVA",
+      "location": "Teoría tema 6 e anexo"
+    },
+    {
+      "topic": "Livros de contabilidade e normativa legal",
+      "location": "Teoría tema 7"
+    },
+    {
+      "topic": "Normalização contábil: diretivas europeias, NIC/IFRS e Plano Geral de Contabilidade",
+      "location": "Teoría tema 8"
+    },
+    {
+      "topic": "Uso de software de contabilidade informatizada em algumas aulas práticas",
+      "location": "Metodologías docentes"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel da contabilidade, demonstrações financeiras, registro de transações e seu efeito sobre a posição financeira, e introdução à avaliação de desempenho econômico-financeiro por análise das demonstrações.",
+    "foreign": [
+      "C10 Conceitos básicos de Contabilidade",
+      "HD15 Aplicar a normativa contábil vigente na Espanha"
+    ],
+    "convergences": [
+      "Contabilidade como instrumento de gestão",
+      "Partidas dobradas e registro de fatos contábeis",
+      "Balanço, resultado e fluxos de caixa como contas anuais"
+    ],
+    "differences": [
+      "Mackenzie dedica quatro dos oito enunciados essenciais a registro e demonstrações e três à análise (vertical/horizontal, índices, Dupont); Jaén termina nas contas anuais sem análise",
+      "Jaén é ancorado no PGC espanhol e nas diretivas europeias; Mackenzie usa o referencial brasileiro"
+    ]
+  },
+  "depth": {
+    "level": "Ambas introdutórias (Jaén 1º curso, Mackenzie 3ª etapa)",
+    "brazil": "Contabilidade financeira básica mais análise introdutória de demonstrações, 63,3 h",
+    "foreign": "Contabilidade financeira de base, nove temas, com forte componente de registro e processo contábil e normativa espanhola",
+    "theoryPractice": "Jaén: lição magistral e resolução de exercícios nos temas 2, 3, 4 e 6, com software contábil em algumas sessões"
+  },
+  "practical": {
+    "period": "Primer cuatrimestre, compatível em calendário com 2027.2 se mantido",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC básica de 1º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introducción a la contabilidad cobre bem a metade de registro da ficha Mackenzie — partidas dobradas, balanço, resultado e fluxos de caixa —, mas não tem nenhum item de análise de demonstrações, que responde por três dos oito enunciados brasileiros.",
+  "justification": "Dois dos oito enunciados essenciais estão cobertos (estrutura do balanço e DRE nos itens 9.2–9.3; partidas dobradas em 3.5), três são parciais (introdução sem usuários externos explícitos, balanços sucessivos apenas via equação patrimonial e fatos contábeis, e fluxos de caixa apenas nomeados no item 9.6) e três não aparecem: fundamentos da análise, análise vertical/horizontal e índices. Dupont é continuação do enunciado de índices e não foi contado duas vezes. A cobertura integral é 2/8 (25%); integral ou parcial, 5/8 (62,5%), mantendo afinidade parcial. As práticas explicitadas tratam apenas dos temas 2, 3, 4 e 6; não demonstram a elaboração de fluxos de caixa do tema 9. A ficha informa 150 h de atividades e presencialidade de 40% por grupo, o que sugere 60 h presenciais por cálculo (112,5 × 0,40 + 37,5 × 0,40); como o total de contato e a duração da hora não são campos declarados, a comparação permanece pendente, sem converter ECTS.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia integral e itemizada; a ficha brasileira tem linhas partidas ('Dupont') e não tem vigência impressa; faltam horas presenciais totais e ECTS.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "Base normativa diferente: PGC espanhol e diretivas europeias vs. normas contábeis brasileiras",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita aproveitar a parte de registro contábil e exigir a análise de demonstrações em outra disciplina?",
+    "Existe na grade de Jaén (por exemplo, Contabilidade financeira ou Análisis de estados contables) uma UC que cubra a análise por índices?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão Codex reclassificou como parciais os usuários da informação e a elaboração dos fluxos de caixa; confirmar as horas de contato deriváveis dos percentuais de presencialidade e a vigência brasileira."
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "reviewHistory": [
+    {
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex (AI-assisted documentary review)",
+      "changes": "Leitura integral da guia 11911005: duas coberturas integrais reduzidas a parciais; identificada tabela de presencialidade. Conclusão parcial mantida."
+    }
+  ]
+}

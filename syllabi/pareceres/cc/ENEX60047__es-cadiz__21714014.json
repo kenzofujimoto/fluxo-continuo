@@ -1,0 +1,138 @@
+{
+  "id": "cc|ENEX60047|es-cadiz|21714014",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60047",
+    "name": "Análise de Algoritmos",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 4",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 3, bloco ANÁLISE DE ALGORITMOS: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 47.5,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+      "Aborda a complexidade de algoritmos iterativos e recursivos",
+      "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
+      "Analisa o desempenho das técnicas clássicas de projeto de algoritmos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714014",
+      "name": "Análisis de Algoritmos y Estructura de Datos",
+      "programme": null,
+      "level": "Graduação",
+      "period": "1º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Provas escritas 90%; atividades por rubricas 10%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714014",
+      "catalogue": null,
+      "sha256": "330e3ecd7298085a1b56d7c1aa3bc99655e8412f6abf8f55ca02765774bf363f",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Ordens assintóticas, tempo/espaço e melhor, pior e médio caso são tratados explicitamente.",
+      "foreignLocation": "Temário 1-2"
+    },
+    {
+      "brTopic": "Aborda a complexidade de algoritmos iterativos e recursivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Análise de estruturas de controle e algoritmos elementares é explícita; recorrências e análise recursiva não são individualizadas.",
+      "foreignLocation": "Temário 2; Resultados 1-4"
+    },
+    {
+      "brTopic": "Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temário completo 1-7; Resultados 1-11",
+      "note": "Divisão e conquista, backtracking, algoritmos gulosos e programação dinâmica não constam do roteiro."
+    },
+    {
+      "brTopic": "Analisa o desempenho das técnicas clássicas de projeto de algoritmos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Comparação assintótica e empírica de algoritmos é exigida, mas não aplicada às quatro técnicas clássicas da ficha brasileira.",
+      "foreignLocation": "Resultados 1-4 e 9; Temário 2-3"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos fundamentos da análise de algoritmos: análise assintótica, melhor caso, pior caso e caso médio. Aborda a complexidade de algoritmos iterativos e recursivos. Estudo de técnicas clássicas de projeto de algoritmos: divisão e conquista, backtracking, algoritmos gulosos programação dinâmica. Analisa o desempenho das técnicas clássicas de projeto de algoritmos.",
+    "foreign": [
+      "Comparar eficiência assintótica e empírica e escolher representações de TAD."
+    ],
+    "convergences": [
+      "O programa 21714014 atende a base assintótica de Análise de Algoritmos, mas seu restante privilegia TAD lineares e não as quatro técnicas clássicas de projeto."
+    ],
+    "differences": [
+      "O tema 2 documenta casos e recursos computacionais, e os resultados 1-4 comparam análise formal e empírica. O tema 3 restringe seus exemplos a busca sequencial e ordenações diretas; os temas 4-7 deslocam o foco para pilhas, filas e listas. Assim, um eixo está coberto, dois parcialmente e a unidade brasileira de divisão e conquista/backtracking/gulosos/dinâmica está ausente. As 60 h de contato superam 47,5 h nominais e também no cenário de 50 minutos, sem sanar a lacuna de projeto."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "ANÁLISE DE ALGORITMOS: etapa 4, 47.5 horas declaradas.",
+    "foreign": "2º ano, 1º semestre; sete temas, quatro deles concentrados em abstração/estruturas lineares.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "1º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O programa 21714014 atende a base assintótica de Análise de Algoritmos, mas seu restante privilegia TAD lineares e não as quatro técnicas clássicas de projeto.",
+  "justification": "O tema 2 documenta casos e recursos computacionais, e os resultados 1-4 comparam análise formal e empírica. O tema 3 restringe seus exemplos a busca sequencial e ordenações diretas; os temas 4-7 deslocam o foco para pilhas, filas e listas. Assim, um eixo está coberto, dois parcialmente e a unidade brasileira de divisão e conquista/backtracking/gulosos/dinâmica está ausente. As 60 h de contato superam 47,5 h nominais e também no cenário de 50 minutos, sem sanar a lacuna de projeto.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora da UCA não declarada; comparação horária condicional.",
+    "Opções genéricas do formulário de idiomas/mobilidade não comprovam oferta em inglês ou vagas."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714014 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "id": "cc|ENEC61015|gb-leeds|COMP3950",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61015",
+    "name": "Projeto de Compiladores",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 3, bloco PROJETO DE COMPILADORES: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código",
+      "Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3950",
+      "name": "Compiler Design & Optimisation",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "Semester 1 (setembro a janeiro)",
+      "academicYear": "2026/27",
+      "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+      "assessment": "Não publicada no texto recuperado; seção de avaliação não disponível.",
+      "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3950/202627",
+      "catalogue": null,
+      "sha256": "63cca2faed5a50cfa69551e8405f1ddbd29120bba7c91459358d8bc262f56228",
+      "location": "Catálogo Leeds 2026/27: identificação, Module summary, Objectives, Learning/Skills outcomes, Syllabus, Teaching Methods e atualização.",
+      "hours": {
+        "contactTotal": 66,
+        "contactLecture": 44,
+        "contactSeminarLab": 22,
+        "selfStudy": 134,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "20 créditos britânicos; não tratados como ECTS. Total Contact hours declarado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fases léxica/sintática/semântica, símbolos, geração e otimização são explícitos; tratamento de erro sintático não é individualizado (apenas erros semânticos).",
+      "foreignLocation": "Syllabus, Introduction, Parsing, Semantic Analysis e Code Generation/Optimisation"
+    },
+    {
+      "brTopic": "Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Projeto constrói compilador funcional completo com representação intermediária e código alvo; definição de linguagem/máquina hipotética não são especificadas.",
+      "foreignLocation": "Syllabus, Compiler Project, Intermediate Code Generation e Code Generation"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta os conceitos básicos de compiladores, a estrutura de um compilador e suas etapas e recursos: análise léxica, sintática, tratamento de erros sintáticos, tabela de símbolos, análise semântica, geração e otimização de código. Abrange as ferramentas e técnicas para construção de um compilador e definição de uma linguagem e implementação de um compilador para uma máquina hipotética.",
+    "foreign": [
+      "Construir compilador funcional e otimizar programas por análise estática/dinâmica e perfil."
+    ],
+    "convergences": [
+      "Compiler design & Optimisation documenta quase todo o pipeline e a construção prática de compilador, com ressalvas quanto a erro sintático e à linguagem/máquina hipotética de Projeto de Compiladores."
+    ],
+    "differences": [
+      "O roteiro inclui análise léxica, parsing, árvores, representação intermediária, semântica e símbolos, geração, alocação de registradores e otimização guiada por perfil. Contudo a ficha só nomeia erros semânticos e não delimita a linguagem fonte/máquina hipotética exigidas no enunciado brasileiro; ambos os tópicos compostos permanecem parciais. A exigência de compilador funcional é direta e não foi inferida do título. As 66 h (44 aulas, 22 práticas) superam 63,33 h nominais e equivalem a 55 h no cenário de 50 min, razão 0,868. É candidata forte para revisão detalhada, ainda classificada parcial pelas lacunas explícitas."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "PROJETO DE COMPILADORES: etapa 6, 63.33 horas declaradas.",
+    "foreign": "Pipeline completo mais otimizações avançadas; projeto do zero.",
+    "theoryPractice": "22 h práticas e projeto integrado de compilador; percentuais da avaliação não disponíveis."
+  },
+  "practical": {
+    "period": "Semester 1 (setembro a janeiro)",
+    "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Compiler design & Optimisation documenta quase todo o pipeline e a construção prática de compilador, com ressalvas quanto a erro sintático e à linguagem/máquina hipotética de Projeto de Compiladores.",
+  "justification": "O roteiro inclui análise léxica, parsing, árvores, representação intermediária, semântica e símbolos, geração, alocação de registradores e otimização guiada por perfil. Contudo a ficha só nomeia erros semânticos e não delimita a linguagem fonte/máquina hipotética exigidas no enunciado brasileiro; ambos os tópicos compostos permanecem parciais. A exigência de compilador funcional é direta e não foi inferida do título. As 66 h (44 aulas, 22 práticas) superam 63,33 h nominais e equivalem a 55 h no cenário de 50 min, razão 0,868. É candidata forte para revisão detalhada, ainda classificada parcial pelas lacunas explícitas.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual e contato explícitos; duração da hora, critérios de avaliação e mobilidade ainda requerem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora de contato estrangeira não explicitada; cenário condicional de 50 minutos deve ser considerado.",
+    "Módulo não aprovado como discovery module; não é confirmação de acesso de intercambista.",
+    "Avaliação e pré-requisitos não publicados no texto consultado; confirmar com a escola."
+  ],
+  "openQuestions": [
+    "A escola permite inscrição de intercambista neste módulo e confirma critérios de avaliação/duração da hora?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+  }
+}

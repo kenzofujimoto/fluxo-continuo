@@ -1,0 +1,193 @@
+{
+  "id": "adm|Microeconomia Aplicada aos Negócios|es-26-universidaddej|11911010",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Microeconomia Aplicada aos Negócios",
+    "name": "Microeconomia Aplicada aos Negócios",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 5, bloco 'Microeconomia Aplicada aos Negócios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e ferramentas básicas",
+      "Demanda x oferta",
+      "Elasticidades",
+      "Intervenção do governo no mercado",
+      "Teoria da firma: Produção e Custos",
+      "Organização da indústria"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Microeconomía",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U110 - Economía",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Segundo cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Troncal / Básica",
+      "assessment": "Exame final teórico-prático 70% (mínimo 4/10); atividades programadas (trabalhos, testes, participação) 30%",
+      "prerequisites": "Nenhum indicado",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias (C09, HD07, HD13), Descripción de contenidos (Blocos I-III, Temas 1-7, Práctica), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 100 h (67%) e A2a pequeño grupo 50 h (33%), ambas com 30% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado."
+      },
+      "sha256": "12e1bb86c1babd6a90d797c4bef97a65f4ee24c7f91ea04a0a360061dff25ad1",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11911010/es/2025-26-11911010_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11911010"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e ferramentas básicas",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Competencias (C09, HD07, HD13), Teoría Blocos I-III (Temas 1-7), Práctica, Bibliografía",
+      "note": "Agentes e sistemas econômicos, escassez, trade-off e custo de oportunidade não têm item próprio; a guia começa em preferências e utilidade (1.1) e restrição orçamentária (1.2).",
+      "essential": true
+    },
+    {
+      "brTopic": "Demanda x oferta",
+      "status": "parcial",
+      "foreignEvidence": "'2.1.- Demandas individual y de mercado'; '3.4 Costes de la empresa'; '7.2 Equilibrio en mercados competitivos de factores'",
+      "foreignLocation": "Teoría, Temas 2.1, 3 e 7.2",
+      "note": "A demanda está plenamente tratada; oferta aparece pela teoria da empresa, mas o equilíbrio oferta-demanda no mercado de bens e seus deslocamentos não são nomeados.",
+      "essential": true
+    },
+    {
+      "brTopic": "Elasticidades",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría Temas 1-7 (inclui 2.2 efeitos renda e substituição), Práctica, Bibliografía",
+      "note": "Elasticidade-preço, renda ou cruzada não é citada na guia.",
+      "essential": true
+    },
+    {
+      "brTopic": "Intervenção do governo no mercado",
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoría Temas 5-7 (inclui 5.2 'Ineficiencia del monopolio. Costes sociales'), Resumen RUCT, Competencias HD07",
+      "note": "Custos sociais do monopólio tocam em bem-estar, mas preços máximos/mínimos, impostos e subsídios não aparecem.",
+      "essential": true
+    },
+    {
+      "brTopic": "Teoria da firma: Produção e Custos",
+      "status": "coberto",
+      "foreignEvidence": "'Bloque II: Teoría de la Empresa' — 3.1 ingresos y costes, 3.2 tecnología de producción y rendimientos de escala, 3.4 costes a corto y largo plazo",
+      "foreignLocation": "Teoría, Temas 3 e 4",
+      "essential": true
+    },
+    {
+      "brTopic": "Organização da indústria",
+      "status": "coberto",
+      "foreignEvidence": "'Bloque III: Estructuras de Mercado' — 5.1 monopolio, 5.3 discriminación de precios, 6.1 competencia monopolística, 6.2 oligopolio",
+      "foreignLocation": "Teoría, Temas 5 e 6",
+      "note": "Concorrência perfeita aparece no tema 7.2 (mercados de fatores) e não como estrutura do mercado de bens.",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Teoria do consumidor: preferências, curvas de indiferença, restrição orçamentária, escolha ótima",
+      "location": "Teoría, Tema 1"
+    },
+    {
+      "topic": "Efeitos renda e substituição e aplicações",
+      "location": "Teoría, Tema 2.2-2.3"
+    },
+    {
+      "topic": "Existência e organização interna da empresa (mais além da teoria neoclássica)",
+      "location": "Teoría, Tema 4"
+    },
+    {
+      "topic": "Mercados de fatores de produção",
+      "location": "Teoría, Tema 7"
+    },
+    {
+      "topic": "Teoria de jogos (na bibliografia)",
+      "location": "Bibliografía"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: agentes e problemas econômicos, sistemas econômicos, oferta, demanda e equilíbrio, elasticidade, intervenção do governo, estruturas de mercado, trade-off e custo de oportunidade.",
+    "foreign": [
+      "C09 Conceitos básicos de Microeconomia",
+      "HD07 Interpretar o contexto econômico nacional e internacional da empresa",
+      "HD13 Resolver problemas de índole econômica"
+    ],
+    "convergences": [
+      "Teoria da firma: produção e custos",
+      "Estruturas de mercado: monopólio, concorrência monopolística e oligopólio",
+      "Demanda individual e de mercado"
+    ],
+    "differences": [
+      "Jaén dedica o bloco I à teoria do consumidor e o bloco III aos mercados de fatores, sem equivalente na ficha brasileira",
+      "Mackenzie lista elasticidades, intervenção do governo e conceitos introdutórios que a guia de Jaén não nomeia"
+    ]
+  },
+  "depth": {
+    "level": "Ambas introdutórias de microeconomia (Jaén 1º curso, Mackenzie 2ª etapa)",
+    "brazil": "Microeconomia aplicada aos negócios, 63,3 h, com visão de conceitos, mercado e firma",
+    "foreign": "Microeconomia intermediária em sete temas, com formalização do consumidor e da empresa e bibliografia de Pindyck e Varian",
+    "theoryPractice": "Jaén: aulas expositivas e resolução de exercícios, 70% por exame final"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (primavera europeia), compatível com 2027.2 apenas se o calendário local for confirmado",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC básica de 1º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Microeconomía cobre integralmente a teoria da firma e as estruturas de mercado de Microeconomia Aplicada aos Negócios e trata a demanda, mas a guia não nomeia elasticidade, intervenção do governo nem os conceitos introdutórios de escassez e custo de oportunidade.",
+  "justification": "Dois dos seis enunciados estão cobertos por blocos explícitos — teoria da firma (Tema 3-4) e organização industrial (Temas 5-6) —, um é parcial (oferta-demanda: demanda no 2.1, mas sem equilíbrio de mercado de bens) e três não aparecem: conceitos e ferramentas básicas, elasticidades e intervenção do governo. Cobertura total ou parcial de 3/6 (50%), exatamente no limiar de afinidade parcial; o espaço excedente da guia (consumidor, mercados de fatores) não compensa as lacunas. Carga horária não comparável: 63,3 h na ficha e 150 h de atividades sem total presencial na guia, que declara 30% de presencialidade.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de Jaén detalhado em temas e subitens, ficha brasileira de apenas seis títulos; a classe repousa no limiar de 50% e faltam horas presenciais totais, ECTS e vigência da ficha.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "Cobertura de 50% é fronteira do critério interno: um tópico a mais ou a menos mudaria a classe",
+    "Elasticidade e oferta-demanda podem ser ensinadas nas aulas sem constar do texto oficial",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação considera que o tema 2 de Jaén (demanda e aplicações) cobre elasticidade na prática?",
+    "Há outra UC de Jaén (por exemplo, introdução à economia) que trate conceitos básicos e intervenção do governo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a tema/secção da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Classe no limiar de 50%; convém revisão humana sobre elasticidade e intervenção do governo"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

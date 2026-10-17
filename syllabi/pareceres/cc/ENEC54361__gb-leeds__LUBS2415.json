@@ -1,0 +1,149 @@
+{
+  "id": "cc|ENEC54361|gb-leeds|LUBS2415",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54361",
+    "name": "Metodologia de Pesquisa em Computação",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 5, bloco METODOLOGIA DE PESQUISA EM COMPUTAÇÃO: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Fundamentos de pesquisa científica",
+      "Projetos de pesquisa",
+      "Técnicas de pesquisa",
+      "Estrutura e conteúdo de trabalhos de conclusão de cursos de graduação",
+      "Apresentação de trabalhos científicos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS2415",
+      "name": "Research Methods in International Business",
+      "programme": "Graduação (UG)",
+      "level": "Graduação",
+      "period": "Semesters 1 & 2 (setembro a junho)",
+      "academicYear": "2026/27",
+      "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+      "assessment": "Dois ensaios de 2.000 palavras, cada um com 50%; recuperação por elemento não superado.",
+      "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/2415/202627",
+      "catalogue": null,
+      "sha256": "82520ca65f4986cb3691a912d36b37f79c5183e765ceeebcdcaef2b28873102a",
+      "location": "Catálogo Leeds 2026/27: identificação, Module summary, Objectives, Learning/Skills outcomes, Syllabus, Teaching Methods e atualização.",
+      "hours": {
+        "contactTotal": 34,
+        "contactLecture": 22,
+        "contactSeminarLab": 12,
+        "selfStudy": 166,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "20 créditos britânicos; não tratados como ECTS. Total anual, não semestral."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos de pesquisa científica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Método científico, epistemologia e filosofias de pesquisa são resultados de aprendizagem.",
+      "foreignLocation": "Learning outcomes, itens 1-3"
+    },
+    {
+      "brTopic": "Projetos de pesquisa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Formulação de pergunta e desenho de pesquisa sustentam projeto.",
+      "foreignLocation": "Learning outcomes item 4; Syllabus semestre 1 itens 2-3"
+    },
+    {
+      "brTopic": "Técnicas de pesquisa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Entrevistas, grupos focais, casos, observação e análise qualitativa/quantitativa compõem o roteiro.",
+      "foreignLocation": "Syllabus semestre 1 itens 4-11 e semestre 2 itens 1-9"
+    },
+    {
+      "brTopic": "Estrutura e conteúdo de trabalhos de conclusão de cursos de graduação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo é preparar a dissertation LUBS3321, mas sua estrutura/conteúdo formal não é discriminada no programa.",
+      "foreignLocation": "Objectives; Module summary"
+    },
+    {
+      "brTopic": "Apresentação de trabalhos científicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Apresentar dados quantitativos e redigir dois ensaios apoia comunicação científica; apresentação oral de trabalho não é especificada.",
+      "foreignLocation": "Semestre 2 item 10; Methods of Assessment"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Fundamentos de pesquisa científica. Projetos de pesquisa. Técnicas de pesquisa. Estrutura e conteúdo de trabalhos de conclusão de cursos de graduação. Apresentação de trabalhos científicos.",
+    "foreign": [
+      "Criticar literatura e desenhar pesquisa qualitativa/quantitativa em negócios internacionais."
+    ],
+    "convergences": [
+      "Research Methods in International Business documenta método, projeto e técnicas de pesquisa de Metodologia em Computação, com diferença de domínio e duração anual que impede comparar suas 34 h diretamente."
+    ],
+    "differences": [
+      "Os três primeiros eixos brasileiros estão completos por filosofia/método, questões e desenho de pesquisa, métodos qualitativos e análise quantitativa. A preparação de dissertation e apresentação de dados são parciais, sem formato de TCC em Computação ou comunicação oral individualizados. O módulo ocorre de setembro a junho nos semestres 1 e 2: suas 34 h de contato (22 aula, 12 seminário) são anuais e não foram comparadas às 31,67 h semestrais Mackenzie. A necessidade de cursar o ano completo também limita a aplicabilidade a um intercâmbio de um semestre."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "METODOLOGIA DE PESQUISA EM COMPUTAÇÃO: etapa 6, 31.67 horas declaradas.",
+    "foreign": "Preparação metodológica para dissertation de International Business, 20 créditos ao longo do ano.",
+    "theoryPractice": "12 h de seminários/práticas declaradas, 22 h de aulas e 166 h de estudo privado."
+  },
+  "practical": {
+    "period": "Semesters 1 & 2 (setembro a junho)",
+    "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Research Methods in International Business documenta método, projeto e técnicas de pesquisa de Metodologia em Computação, com diferença de domínio e duração anual que impede comparar suas 34 h diretamente.",
+  "justification": "Os três primeiros eixos brasileiros estão completos por filosofia/método, questões e desenho de pesquisa, métodos qualitativos e análise quantitativa. A preparação de dissertation e apresentação de dados são parciais, sem formato de TCC em Computação ou comunicação oral individualizados. O módulo ocorre de setembro a junho nos semestres 1 e 2: suas 34 h de contato (22 aula, 12 seminário) são anuais e não foram comparadas às 31,67 h semestrais Mackenzie. A necessidade de cursar o ano completo também limita a aplicabilidade a um intercâmbio de um semestre.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual e contato explícitos; duração da hora, critérios de avaliação e mobilidade ainda requerem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Módulo anual nos semestres 1 e 2; não assumir que metade da unidade gera crédito/aproveitamento.",
+    "Total anual de 34 h não comparável diretamente à carga semestral brasileira.",
+    "Domínio de negócios internacionais; estrutura de TCC em Computação precisa ser adaptada.",
+    "Discovery module indisponível; matrícula em mobilidade a confirmar."
+  ],
+  "openQuestions": [
+    "A escola permite inscrição de intercambista neste módulo e confirma critérios de avaliação/duração da hora?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+  }
+}

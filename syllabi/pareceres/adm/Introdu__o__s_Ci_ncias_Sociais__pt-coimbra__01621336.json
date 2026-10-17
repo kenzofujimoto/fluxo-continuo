@@ -1,0 +1,215 @@
+{
+  "id": "adm|Introdução às Ciências Sociais|pt-coimbra|01621336",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Introdução às Ciências Sociais",
+    "name": "Introdução às Ciências Sociais",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 3, bloco 'Introdução às Ciências Sociais': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O contexto histórico de emergência da Sociologia e as reflexões desenvolvidas pelos clássicos da Sociologia: Método científico, relação sujeito e objeto e Sociologia Aplicada",
+      "Maquiavel: a virtù e a fortuna",
+      "O estado de natureza hobbesiano",
+      "O individualismo liberal de John Locke",
+      "Rousseau: da servidão à liberdade",
+      "O contexto histórico de emergência da Sociologia e as reflexões desenvolvidas pelos clássicos da Sociologia",
+      "Método científico, relação sujeito e objeto e Sociologia Aplicada",
+      "O Positivismo de Emile Durkheim",
+      "A dialética e o materialismo histórico de Karl Marx",
+      "A sociologia compreensiva de Max Weber"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "01621336",
+      "name": "Sociologia das Organizações",
+      "pageCode": "01621336",
+      "faculty": "Faculdade de Economia (a página refere UC de opção 'para vários cursos da FEUC')",
+      "programme": "Opção no plano de Gestão (plano 10622 na URL); área científica Sociologia",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não indica duração nem semestre; data.json: 'Semestral; 2027.2 a confirmar'",
+      "academicYear": "2026/2027",
+      "language": "Português; outra língua de ensino: Inglês",
+      "courseStatus": "Opcional",
+      "assessment": "Contínua: trabalhos escritos 20% + apresentações 30% + frequência 50%; final: exame 100%",
+      "prerequisites": "Nenhum formal; valoriza-se transpor para a sociologia temas organizacionais de outras áreas",
+      "source": "https://apps.uc.pt/courses/PT/unit/19129/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "027870a07c4ec2a80df6e99df5bdaf7bf6f43c62e35c8c0eaf1aeb0aae7075ec",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivos gerais e específicos), Programa 1-6, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contato nem duração. O identificador da URL (unit/19129) difere do código exibido na página (01621336), que é o usado no data.json."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O contexto histórico de emergência da Sociologia e as reflexões desenvolvidas pelos clássicos da Sociologia: Método científico, relação sujeito e objeto e Sociologia Aplicada",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "O Programa parte da organização e do indivíduo; não há unidade histórica nem metodológica sobre a emergência da Sociologia."
+    },
+    {
+      "brTopic": "Maquiavel: a virtù e a fortuna",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Maquiavel não aparece no Programa nem na bibliografia."
+    },
+    {
+      "brTopic": "O estado de natureza hobbesiano",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Hobbes e o contratualismo não aparecem."
+    },
+    {
+      "brTopic": "O individualismo liberal de John Locke",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Locke e o liberalismo clássico não aparecem."
+    },
+    {
+      "brTopic": "Rousseau: da servidão à liberdade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Rousseau não aparece."
+    },
+    {
+      "brTopic": "O contexto histórico de emergência da Sociologia e as reflexões desenvolvidas pelos clássicos da Sociologia",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Item repetido na ficha brasileira (divisão do primeiro tópico); mesma avaliação: sem unidade histórica sobre a Sociologia clássica em Coimbra."
+    },
+    {
+      "brTopic": "Método científico, relação sujeito e objeto e Sociologia Aplicada",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Item repetido na ficha brasileira (segunda metade do primeiro tópico); o Programa não discute método científico nem epistemologia. As competências 'metodológicas' citadas são instrumentais de aprendizagem."
+    },
+    {
+      "brTopic": "O Positivismo de Emile Durkheim",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Durkheim não aparece."
+    },
+    {
+      "brTopic": "A dialética e o materialismo histórico de Karl Marx",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Marx não aparece."
+    },
+    {
+      "brTopic": "A sociologia compreensiva de Max Weber",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (objetivos gerais e específicos), Métodos de Ensino, Programa 1-6 e Bibliografia",
+      "note": "Weber não aparece no Programa; a bibliografia é de sociologia do trabalho e das organizações contemporânea."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "A organização, o indivíduo e o grupo; identidade, pessoas e trabalho nas organizações",
+      "location": "Programa, 1 e 2"
+    },
+    {
+      "topic": "O ator e o sistema: relações de poder e análise estratégica",
+      "location": "Programa, 3"
+    },
+    {
+      "topic": "Conflito, negociação e associativismo; cultura nas organizações; liderança e desenvolvimento organizacional",
+      "location": "Programa, 4-6"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: ideias e reflexões filosóficas e emergência das Ciências Sociais como conhecimento científico da realidade social, em diálogo com a gestão e o mundo corporativo, a partir de diferentes abordagens teóricas.",
+    "foreign": [
+      "Compreender as dimensões social, cultural, política e simbólica das organizações",
+      "Perceber dinâmicas individuais e coletivas",
+      "Identificar relações de poder formais e informais",
+      "Analisar a cultura organizacional",
+      "Identificar mecanismos de liderança e mudança"
+    ],
+    "convergences": [
+      "Ambas partem de abordagem sociológica, mas em planos distintos"
+    ],
+    "differences": [
+      "Mackenzie é introdução histórica e teórica às Ciências Sociais (Maquiavel, Hobbes, Locke, Rousseau, Durkheim, Marx, Weber)",
+      "Coimbra é sociologia aplicada às organizações contemporâneas (poder, conflito, cultura, liderança)",
+      "Coimbra é opcional do 3º ano; a ficha brasileira está na 2ª etapa"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra de 3º ano e especializada, Mackenzie introdutória da 2ª etapa",
+    "brazil": "Fundamentos filosóficos e clássicos da Sociologia, 63,3 h",
+    "foreign": "Sociologia das organizações em seis unidades, 6 ECTS",
+    "theoryPractice": "Aulas teórico-práticas com leitura prévia, debates e apresentações em avaliação periódica"
+  },
+  "practical": {
+    "period": "A página não indica semestre; data.json: 'Semestral; 2027.2 a confirmar'",
+    "language": "Português (outra língua de ensino: Inglês)",
+    "enrolment": "UC opcional para vários cursos da FEUC; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Nenhum formal",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sociologia das Organizações de Coimbra e Introdução às Ciências Sociais compartilham apenas o rótulo 'sociológico': a ficha brasileira percorre filosofia política e sociologia clássica de Maquiavel a Weber, enquanto Coimbra estuda poder, conflito, cultura e liderança em organizações contemporâneas.",
+  "justification": "Nenhum dos dez tópicos tem correspondência nas seis unidades do Programa, nos objetivos nem na bibliografia: Maquiavel, Hobbes, Locke, Rousseau, Durkheim, Marx e Weber não são mencionados e não há unidade histórica ou metodológica sobre a emergência da Sociologia. A lista oficial repete o primeiro tópico em duas formas, o que conta como três entradas ausentes. O par foi gerado por recuperação semântica do conceito 'sociologia'. A carga não é comparável (6 ECTS sem horas de contato), a ficha brasileira não tem vigência confirmada e o desnível de especialização (opcional de 3º ano contra introdutória) reforça a baixa afinidade.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de seis unidades e objetivos explícitos tornam a ausência de conteúdo clara; faltam horas de contato e semestre, e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Horas de contato e semestre não declarados; 6 ECTS não convertidos",
+    "Programa da UC em um único parágrafo numerado, sem subitens; conteúdos como autores clássicos poderiam constar das aulas sem estar listados",
+    "Oferta 2027/28 não confirmada (data.json: 2027.2 a confirmar); o identificador da URL (19129) difere do código exibido (01621336)",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false); a lista de tópicos repete o primeiro item dividido, e o extrato oficial foi reproduzido literalmente",
+    "Par proposto por recuperação semântica, não por candidatura registrada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A FEUC oferece UC de teoria sociológica, sociologia geral ou ciência política para intercambistas de Gestão?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 2) e da página oficial da UC de Coimbra (2026-2027), com apoio de IA (Claude); cada tópico procurado em Programa, objetivos e bibliografia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência total de correspondência de conteúdo, documentos completos"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

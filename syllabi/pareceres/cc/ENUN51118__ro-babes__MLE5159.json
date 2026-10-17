@@ -1,0 +1,141 @@
+{
+  "id": "cc|ENUN51118|ro-babes|MLE5159",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN51118",
+    "name": "Ética e Cidadania",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "PDF p. 2, bloco ÉTICA E CIDADANIA; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história",
+      "bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5159",
+      "name": "Ethics and academic integrity in computer science",
+      "faculty": "Computer Science",
+      "department": "Department of Compuer Science",
+      "programme": null,
+      "level": "Licence",
+      "yearOfStudy": 3,
+      "semester": 6,
+      "period": "6",
+      "academicYear": "2025/2026",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "Not mandatory.",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem2_MLE5159_en_alexandru.roja_2026_10192.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "b5b251e7b6b786738f8c76f31e07387705a4ad9f0f2deb4beccc870a72d339a2",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": {
+          "total": 2,
+          "course": 2,
+          "seminarLab": 0
+        },
+        "contactTotal": 24,
+        "contactLecture": 24,
+        "contactSeminarLab": 0,
+        "selfStudy": 49,
+        "totalWorkload": 75,
+        "ects": 3,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Ética aplicada, deontologia e consequências aparecem, com dilemas da sociedade digital; formação histórica da cidadania não é sistematizada.",
+      "foreignLocation": "8.1 itens 1-7"
+    },
+    {
+      "brTopic": "bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "7; 8.1 itens 1-12; bibliografia",
+      "note": "Não há ética calvinista nem sua contribuição civil, política e social."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história; bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais.",
+    "foreign": [
+      "Ethics and academic integrity aborda deontologia, Big Tech, dados e IA. Ética e Cidadania também exige contribuição calvinista, que não consta na UBB."
+    ],
+    "convergences": [
+      "Ética aplicada, deontologia e consequências aparecem, com dilemas da sociedade digital; formação histórica da cidadania não é sistematizada."
+    ],
+    "differences": [
+      "Não há ética calvinista nem sua contribuição civil, política e social."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 1; exterior: Licence, ano 3.",
+    "brazil": "Ética e Cidadania: {'teorica': 2, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Ethics and academic integrity in computer science: None; avaliação None; contato 24 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 24 h aula e 0 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "6",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Not mandatory.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Ethics and academic integrity aborda deontologia, Big Tech, dados e IA. Ética e Cidadania também exige contribuição calvinista, que não consta na UBB.",
+  "justification": "Um dos dois enunciados tem cobertura parcial; o eixo confessional está ausente. As 24 h de aula e 49 h autônomas (total declarado 75 h, soma interna inconsistente) não substituem por si as 31,67 h brasileiras.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Ética e Cidadania com Ethics and academic integrity in computer science; Um dos dois enunciados tem cobertura parcial; o eixo confessional está ausente. As 24 h de aula e 49 h autônomas (total declarado 75 h, soma interna inconsistente) não substituem por si as 31,67 h brasileiras.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento UBB declara 24 h contato e 49 h individuais, cuja soma 73 difere do total declarado 75 h; confirmar ficha",
+    "PDF interno é 2025/2026 apesar do caminho de 2026"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

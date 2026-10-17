@@ -1,0 +1,179 @@
+{
+  "id": "adm|Marketing I|gb-leeds|LUBS0030",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS0030",
+      "name": "Introduction to Marketing",
+      "pageCode": "LUBS0030",
+      "faculty": "Não indicada na página do módulo",
+      "programme": "Catálogo de módulos de graduação 2026/27 (Undergraduate Module Catalogue)",
+      "level": "Graduação (UG); a página liga o módulo ao 'foundation year' e a outros módulos introdutórios de negócios",
+      "yearOfStudy": null,
+      "semester": "Semester 2 (jan a jun)",
+      "period": "Semester 2 (jan a jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de catálogo (optativo para o intercambista)",
+      "assessment": "Ensaio de 3.000 palavras (100%); reavaliação por trabalho de 3.000 palavras",
+      "prerequisites": "Nenhum listado na página",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/0030/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "bb2ac8ffade92e0497ae40f1f293e83bc8752577d443b19ee6a3bf1ffb233258",
+      "location": "Página do módulo 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 17.5,
+        "contactLecture": 10,
+        "contactSeminarLab": 7.5,
+        "selfStudy": 82.5,
+        "totalWorkload": 100,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Catálogo: 10 UK credits (não são ECTS; 100 h de trabalho total). Contato: 10 aulas de 1 h + 5 seminários de 1,5 h = 17,5 h. Duração da hora não declarada. Módulo de um só semestre (Semester 2)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Introduction to marketing'; outcome 'Explain marketing management from both conceptual and practical perspectives'",
+      "foreignLocation": "Syllabus, 1º item; Learning outcomes 1-3"
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Syllabus (Indicative content, 10 itens), Teaching Methods, Methods of Assessment",
+      "note": "A lista indicativa tem pesquisa de marketing, mas nenhuma análise de macroambiente/microambiente; 'international context' aparece apenas como resultado de aprendizagem."
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Buyer behaviour'",
+      "foreignLocation": "Syllabus, 3º item"
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Buyer behaviour' (sem distinção entre consumidor e comprador organizacional)",
+      "foreignLocation": "Syllabus, 3º item",
+      "note": "A ementa brasileira cita 'comportamento do comprador organizacional' (B2B); o título do tópico ('Comportamento Organizacional') é ambíguo. Leeds não separa o comprador organizacional; a leitura como teoria de comportamento organizacional não é coberta."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Market segmentation, targeting and positioning'",
+      "foreignLocation": "Syllabus, 4º item"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Pesquisa de marketing",
+      "location": "Syllabus, 2º item"
+    },
+    {
+      "topic": "Composto de marketing: produto, preço, distribuição e comunicação (também conteúdo de Marketing II)",
+      "location": "Syllabus, itens 5-9"
+    },
+    {
+      "topic": "Plano de marketing e marketing em contexto internacional",
+      "location": "Syllabus, 10º item; Learning outcomes 4"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: marketing como geração de valor, satisfação, fidelidade, comportamento do consumidor e do comprador organizacional, marketing estratégico com segmentação e posicionamento.",
+    "foreign": [
+      "Descrever como a teoria de marketing se aplica na prática",
+      "Descrever atividades de marketing no mundo real dos negócios",
+      "Explicar a gestão de marketing em perspectiva conceitual e prática",
+      "Situar a teoria em contexto internacional",
+      "Trabalhar em equipe; pensamento crítico"
+    ],
+    "convergences": [
+      "Conceito de marketing",
+      "Comportamento do comprador",
+      "Segmentação, definição de alvo e posicionamento"
+    ],
+    "differences": [
+      "Leeds inclui o composto de marketing inteiro e o plano de marketing em 17,5 h, conteúdo que o Mackenzie distribui entre Marketing I e II",
+      "Leeds não traz análise de ambiente de marketing nem fidelidade/satisfação como tópicos",
+      "Avaliação em ensaio, sem prova"
+    ]
+  },
+  "depth": {
+    "level": "Ambas introdutórias de graduação; Leeds ligada ao 'foundation year', Mackenzie na 1ª etapa",
+    "brazil": "Fundamentos de marketing, comportamento e estratégia segmentada, 63,3 h",
+    "foreign": "Introdução panorâmica a todo o composto de marketing, 17,5 h de contato",
+    "theoryPractice": "10 aulas de 1 h e 5 seminários de 1,5 h; estudos de caso internacionais"
+  },
+  "practical": {
+    "period": "Semester 2 (jan a jun) no catálogo 2026/27; a mobilidade 2027.2 tende a coincidir com o Semester 1 (set a jan) de 2027/28, em que o módulo não seria oferecido se mantiver o padrão de 2026/27",
+    "language": "Inglês (planilha institucional: exigência de IELTS 6.0, TOEFL iBT 87 ou equivalente)",
+    "enrolment": "A página não afirma disponibilidade para estudantes de intercâmbio (study abroad) e cita o módulo como parte do 'foundation year'; módulo não aprovado como 'discovery module'; turma de 36 alunos",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "LUBS0030 cobre o núcleo conceitual de Marketing I (conceito, comportamento do comprador, segmentação e posicionamento), mas sem ambiente de marketing e com apenas 17,5 h de contato para um panorama que ainda inclui o composto de marketing inteiro.",
+  "justification": "Três de cinco tópicos estão cobertos por itens identificados do Syllabus (introdução, buyer behaviour, STP), um é parcial (o comprador organizacional não é distinguido) e um não aparece (ambiente de marketing), o que dá 80% de cobertura total ou parcial. A classe fica em afinidade parcial porque a ficha brasileira não tem vigência confirmada e porque a carga de contato de 17,5 h equivale a 28% das 63,3 h (23% com hora de 50 min), muito abaixo dos 75% do parâmetro COI. Além disso o módulo é de um só semestre e de uma só avaliação por ensaio, enquanto dilui em 17,5 h conteúdos que o Mackenzie ensina em dois semestres.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Syllabus itemizado e horas de contato explícitas; falta o programa detalhado do Minerva, a ficha brasileira não tem vigência confirmada e a página não afirma disponibilidade para intercâmbio.",
+  "limitations": [
+    "Horas de contato semestrais declaradas (17,5 h), mas duração da hora não informada; 10 UK credits não convertidos",
+    "A página liga o módulo ao 'foundation year' e não declara disponibilidade para study abroad; verificar com Leeds se intercambistas podem se matricular",
+    "Módulo lecionado no Semester 2 (jan a jun); a oferta correspondente a 2027.2 não está confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false); o título do tópico 'Comportamento Organizacional' diverge da ementa ('comprador organizacional')",
+    "O mesmo módulo foi cotejado também com Marketing II; um único módulo de 17,5 h não sustentaria as duas disciplinas",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Leeds admite estudantes de intercâmbio em LUBS0030, citado como módulo do foundation year?",
+    "A coordenação consideraria 17,5 h de contato suficientes para 63,3 h de Marketing I, dada a razão de 0,28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 1) e da página do módulo LUBS0030 no catálogo 2026/27 de Leeds, com apoio de IA (Claude); cada tópico vinculado ao item do Syllabus; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência itemizada; ressalvas de oferta e de horas já registradas"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

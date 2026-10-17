@@ -1,0 +1,138 @@
+{
+  "id": "cc|ENEC54240|ro-babes|MLE5233",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54240",
+    "name": "Programação Orientada a Objetos",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 3",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 4, bloco PROGRAMAÇÃO ORIENTADA A OBJETOS, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+      "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
+      "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5233",
+      "name": "Databases 1",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Information Engineering",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "3 rd Semester",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Compulsory",
+      "assessment": "Exam",
+      "prerequisites": "Data Structures and Algorithms",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IIE_sem3_MLE5233_en_emilia_2026_10169.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IIE",
+      "sha256": "ec93fbccc3e92b3c376526024fcc93c897b646de08ad516c5bff9ff8623a92f3",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 44,
+        "totalWorkload": 100,
+        "ects": 4,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7 e 8.1 C 1-14/8.2 seminários e laboratórios de Databases 1: SQL, normalização, índices, modelagem e transações; sem unidades de classes/exceções, encapsulamento, herança oupolimorfismo."
+    },
+    {
+      "brTopic": "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7 e 8.1 C 1-14/8.2 seminários e laboratórios de Databases 1: SQL, normalização, índices, modelagem e transações; sem unidades de classes/exceções, encapsulamento, herança oupolimorfismo."
+    },
+    {
+      "brTopic": "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultados genéricos 6.2 mencionam aplicações com bancos eC++/Java; laboratórios projetam bases e consultas, sem ensinar conexão de aplicação e manipulação de arquivos.",
+      "foreignLocation": "6.2 TC 1/TC 3; 8.2 Lab 1-7",
+      "note": "C 12 Object Oriented Databases refere-se a modelo de banco, não ensino dePOO."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções. Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections. Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos.",
+    "foreign": [
+      "Projetar esquemas e administrar bancosSQLServer"
+    ],
+    "convergences": [],
+    "differences": [
+      "Mackenzie ensina o paradigmaPOO; destino ensina bancos relacionais",
+      "Object Oriented Databases eC++/Java nas competências genéricas não comprovam herança oupolimorfismo"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie etapa 3; destino Bachelor",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 2, 'pratica': 2, 'atelie': 0}",
+    "foreign": "Information Engineering, 2ºano/semestre 3; 28 aula+28 seminário/laboratório dedicados a bancos",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "3 rd Semester",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Data Structures and Algorithms",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "Extração automática deixou contato nulo; 56 hconstam em 3.4",
+    "Competências transversais genéricas citamPOO, mas não são roteiro de ensino da unidade"
+  ],
+  "openQuestions": [],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "A candidatura semântica de Databases 1 para Programação Orientada a Objetos é um falso positivo: objetivos concretos sãoSQLServer e bases relacionais, não classes, herança e polimorfismo.",
+  "justification": "Dois dos três tópicos brasileiros não foram encontrados; o terceiro tem apenas interseção parcial em aplicações com dados, sem arquivos nem ensino da conexão. As menções aPOOemTC 1/TC 3 são competências do curso, eC 12 trata bancos orientados a objetos.56 hde contato não comprovam ensino do paradigma; resultado é baixa afinidade.",
+  "conclusionClass": "baixa_afinidade"
+}

@@ -1,0 +1,189 @@
+{
+  "id": "dir|DIREITO DA SEGURIDADE SOCIAL|es-salamanca|CAT-USAL-207711",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DA SEGURIDADE SOCIAL",
+    "name": "DIREITO DA SEGURIDADE SOCIAL",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 50, bloco DIREITO DA SEGURIDADE SOCIAL; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 2
+    },
+    "topics": [
+      "Análise do sistema de seguridade social brasileiro: evolução histórica, subsistemas de saúde, de assistência e de previdência social",
+      "Princípios",
+      "Financiamento",
+      "Saúde: pressupostos constitucionais e principais aspectos da lei orgânica da saúde",
+      "Assistência social: pressupostos constitucionais, BPC e outras políticas assistenciais",
+      "Previdência social: conceitos fundamentais, pressupostos constitucionais, regimes previdenciários, plano de benefício do RGPS, financiamento e processo administrativo",
+      "Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais",
+      "Previdência complementar: pressupostos constitucionais e normas gerais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207711",
+      "name": "DERECHO DE LA SEGURIDAD SOCIAL",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": 1,
+      "period": "year 4",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": "Teoria40%, prática30%, atividades30%; teoria e prática precisam de aprovação",
+      "prerequisites": "Aprovação em Derecho del Trabajo",
+      "source": "https://guias.usal.es/node/207711",
+      "catalogue": "https://guias.usal.es/node/207711",
+      "sha256": "492c9f40a0ef18a9ba9559e92a46f5cd26a2288456a1d24327420504c6107dd4",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102339"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Análise do sistema de seguridade social brasileiro: evolução histórica, subsistemas de saúde, de assistência e de previdência social",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "História, sistema público/privado e assistência sanitária da Espanha; não organização brasileira.",
+      "foreignLocation": "5, tema 1"
+    },
+    {
+      "brTopic": "Princípios",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelo constitucional e fontes estabelecem princípios espanhóis.",
+      "foreignLocation": "5, tema 1.2-3"
+    },
+    {
+      "brTopic": "Financiamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Contribuição: sujeitos, bases, taxas e cobrança.",
+      "foreignLocation": "5, tema 4"
+    },
+    {
+      "brTopic": "Saúde: pressupostos constitucionais e principais aspectos da lei orgânica da saúde",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Assistência sanitária aparece na estrutura do sistema, sem SUS ou lei orgânica brasileira.",
+      "foreignLocation": "5, tema 1.4"
+    },
+    {
+      "brTopic": "Assistência social: pressupostos constitucionais, BPC e outras políticas assistenciais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Níveis não contributivos, rendimento mínimo e prestações familiares, sem BPC brasileiro.",
+      "foreignLocation": "5, temas 2,7,9,10"
+    },
+    {
+      "brTopic": "Previdência social: conceitos fundamentais, pressupostos constitucionais, regimes previdenciários, plano de benefício do RGPS, financiamento e processo administrativo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Regime geral, enquadramento, contribuição e benefícios, sem RGPS/CF brasileira.",
+      "foreignLocation": "5, temas 1-10"
+    },
+    {
+      "brTopic": "Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções de objetivos, conteúdos programáticos e metodologia do documento estrangeiro integral; comparação com a ementa brasileira histórica de 2022",
+      "note": "O programa estrangeiro não individualiza Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais"
+    },
+    {
+      "brTopic": "Previdência complementar: pressupostos constitucionais e normas gerais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Seguridade privada é mencionada sem disciplina completa de previdência complementar.",
+      "foreignLocation": "5, tema 1.4"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Análise do sistema de seguridade social brasileiro: evolução histórica, subsistemas de saúde, de assistência e de previdência social. Princípios. Financiamento. Saúde: pressupostos constitucionais e principais aspectos da lei orgânica da saúde. Assistência social: pressupostos constitucionais, BPC e outras políticas assistenciais. Previdência social: conceitos fundamentais, pressupostos constitucionais, regimes previdenciários, plano de benefício do RGPS, financiamento e processo administrativo. Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais. Previdência complementar: pressupostos constitucionais e normas gerais.",
+    "foreign": [
+      "Derecho de la Seguridad Social 102339 é candidata materialmente pertinente: proteção, enquadramento, cotização, incapacidade, aposentadoria, sobrevivência e desemprego."
+    ],
+    "convergences": [
+      "História, sistema público/privado e assistência sanitária da Espanha; não organização brasileira.",
+      "Modelo constitucional e fontes estabelecem princípios espanhóis.",
+      "Contribuição: sujeitos, bases, taxas e cobrança.",
+      "Assistência sanitária aparece na estrutura do sistema, sem SUS ou lei orgânica brasileira.",
+      "Níveis não contributivos, rendimento mínimo e prestações familiares, sem BPC brasileiro.",
+      "Regime geral, enquadramento, contribuição e benefícios, sem RGPS/CF brasileira.",
+      "Seguridade privada é mencionada sem disciplina completa de previdência complementar."
+    ],
+    "differences": [
+      "O programa estrangeiro não individualiza Regime próprio dos servidores públicos: aspectos constitucionais e normas gerais"
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 7; exterior: Graduação, ano None.",
+    "brazil": "DIREITO DA SEGURIDADE SOCIAL: 2; documento 2022",
+    "foreign": "DERECHO DE LA SEGURIDAD SOCIAL: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 4",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Derecho de la Seguridad Social 102339 é candidata materialmente pertinente: proteção, enquadramento, cotização, incapacidade, aposentadoria, sobrevivência e desemprego.",
+  "justification": "Sete dos oito tópicos têm alguma correspondência, mas só financiamento está integralmente descrito em termos conceituais; o programa não comprova SUS, BPC, RGPS e regime próprio brasileiro. São 6 ECTS sem horas dirigidas explícitas, exigindo confirmação ementária e institucional.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de DIREITO DA SEGURIDADE SOCIAL com DERECHO DE LA SEGURIDAD SOCIAL; Sete dos oito tópicos têm alguma correspondência, mas só financiamento está integralmente descrito em termos conceituais; o programa não comprova SUS, BPC, RGPS e regime próprio brasileiro. São 6 ECTS sem horas dirigidas explícitas, exigindo confirmação ementária e institucional.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

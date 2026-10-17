@@ -1,0 +1,169 @@
+{
+  "id": "adm|Marketing II|pt-coimbra|93364",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93364",
+      "name": "Gestão de Marcas",
+      "pageCode": "01021169",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "A página não traz o campo 'Duração'; a lista oficial do plano registra 'Semestral'; semestre não indicado",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Opcional",
+      "assessment": "Avaliação periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Aprovação prévia na UC Marketing (campo 'Conhecimentos de Base Recomendados')",
+      "source": "https://apps.uc.pt/courses/PT/unit/93364/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "335b7670da30c99771a536f426530131e3b0de521a176229f79107369c2e62a9",
+      "location": "Página da UC 2026-2027: identificação, Conhecimentos de Base Recomendados, Métodos de Ensino, Resultados de Aprendizagem, Programa (itens 1-9), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, sem horas de contacto nem semestre."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "Marca é tratada como ativo (identidade, valor, gestão emocional, criação), não como decisão de produto; não há distinção entre bens e serviços nem administração de linha de produtos."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "'O valor da marca' (item 3) é brand equity, não política de preço; nenhuma decisão de preço é mencionada."
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "Nenhum item sobre canais, logística ou estratégia de distribuição."
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, Conhecimentos de Base Recomendados e Programa (itens 1-9) da página 2026-2027",
+      "note": "Identidade e gestão emocional da marca (itens 2 e 4) podem envolver comunicação, mas o programa não menciona publicidade, promoção, vendas ou comunicação integrada; título de item não comprova o conteúdo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Identidade da marca e valor da marca (brand equity)",
+      "location": "Programa, itens 2-3"
+    },
+    {
+      "topic": "Gestão emocional da marca e construção de marcas poderosas",
+      "location": "Programa, itens 4-5"
+    },
+    {
+      "topic": "Direito das marcas: tipos de marcas, requisitos e âmbitos de proteção",
+      "location": "Programa, itens 6-9"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e definição das estratégias de preço, comunicação e distribuição para gerar valor superior ao cliente e à empresa.",
+    "foreign": [
+      "Compreender o conceito de marca, imagem e valor da marca",
+      "Conhecer tendências de branding",
+      "Conhecer o regime legal das marcas e seus âmbitos de proteção"
+    ],
+    "convergences": [
+      "Ambas visam valor para a empresa por meio de decisões de marketing"
+    ],
+    "differences": [
+      "Marketing II cobre o composto de marketing (produto, preço, praça, promoção); Gestão de Marcas aprofunda um único componente do produto e a sua proteção jurídica",
+      "Quatro dos nove itens de Coimbra são jurídicos, sem contrapartida na ficha Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: 4ª etapa, obrigatória; Coimbra: 3º ano, optativa de especialização",
+    "brazil": "Quatro enunciados do composto de marketing em 63,3 h-relógio",
+    "foreign": "Branding e direito das marcas com estudos de caso e seminários com profissionais",
+    "theoryPractice": "Exposição, casos reais e aplicação a casos práticos; proporção não declarada"
+  },
+  "practical": {
+    "period": "Página sem campo 'Duração'; lista oficial indica 'Semestral'; semestre e coincidência com 2027.2 a confirmar",
+    "language": "Português",
+    "enrolment": "UC opcional do 3º ano da Licenciatura em Gestão; mobilidade pode exigir aprovação dos coordenadores; vagas para intercâmbio não informadas",
+    "prerequisites": "Aprovação prévia em Marketing; a página não explica como é verificada para estudantes de mobilidade",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão de Marcas dedica-se à marca como ativo e como objeto jurídico; os quatro componentes que a ficha de Marketing II enumera (bens e serviços, preço, distribuição, comunicação) não aparecem no seu programa.",
+  "justification": "A ficha Mackenzie de Marketing II lista apenas quatro enunciados, e nenhum foi localizado nos nove itens do programa nem nos resultados de aprendizagem: os itens 1-5 versam sobre conceito, identidade, valor e gestão emocional da marca, e os itens 6-9 sobre tipos, requisitos e âmbitos de proteção legal. A semelhança vem apenas do vocabulário de estratégia e marketing que motivou a candidatura semântica. Coimbra não informa horas de contacto (6 ECTS apenas), o que impede comparar com as 63,3 h-relógio, e a ficha brasileira não traz ano de vigência; o resultado é baixa afinidade por ausência de cobertura, não por falta de dados.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado completo que permite afirmar a ausência dos quatro enunciados; reduzem a confiança a falta de horas de contacto e de semestre e a ficha brasileira sem ano de vigência.",
+  "limitations": [
+    "Horas de contacto e semestre não declarados; 6 ECTS não convertidos em horas",
+    "Oferta em 2027/28 e vagas para intercambistas não confirmadas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Candidatura de origem semântica: os conceitos 'estratégia' e 'marketing' em comum são apenas pista de busca, não evidência de equivalência",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UC 18803 Marketing, que trata preço, distribuição e comunicação, é a contraparte adequada de Marketing II (ver parecer próprio)?"
+  ],
+  "alternatives": [
+    {
+      "code": "18803",
+      "name": "Marketing",
+      "relation": "Programa lido: itens de estratégia de distribuição, de preço e de comunicação; contraparte natural do conteúdo de Marketing II"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 4) e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada enunciado buscado em todas as secções do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência objetiva dos quatro enunciados em programa itemizado"
+  }
+}

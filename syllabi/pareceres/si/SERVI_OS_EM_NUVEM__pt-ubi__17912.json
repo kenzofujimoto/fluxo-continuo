@@ -1,0 +1,127 @@
+{
+  "id": "si|SERVIÇOS EM NUVEM|pt-ubi|17912",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "SERVIÇOS EM NUVEM",
+    "name": "SERVIÇO EM NUVEM",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 29, bloco SERVIÇO EM NUVEM, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Introdução aos componentes de infraestrutura de TI e suas funções",
+      "Conceitos e Características e Modelos de Sistemas de Computação em Nuvem",
+      "Virtualização, Balanço de Carga, Replicação, Deployment, Monitoração, SLA, Plataforma de Código Aberto para Nuvens Privadas, Principais Plataformas em Nuvem de Mercado, Ferramentas de Gerenciamento de Configuração, Automação de Deploy, Técnicas e Ferramentas para Descoberta de Serviços, Integração e Entrega (Deploy) Contínua"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-ubi",
+      "university": "Universidade da Beira Interior",
+      "code": "17912",
+      "name": "Virtualização e Centros de Dados",
+      "source": "https://www.ubi.pt/Disciplina/17912/2026",
+      "sha256": "f192a526cdf4dee736febccb04d7873613ef33dbf65a650d1c472023662c1cee",
+      "location": "Ficha UBI 17912: identificação, Objectivos de Aprendizagem, 12 conteúdos, Metodologias/Avaliação e Bibliografia",
+      "academicYear": "2026 (URL; atualização 29/09/2026)",
+      "language": "Português declarado",
+      "period": "Ano 1, semestre S1",
+      "assessment": "Teste 40%, primeiro projeto laboratorial 30%, segundo projeto 30%",
+      "prerequisites": "Não publicados na ficha; confirmar base em sistemas e redes",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Carga PL(30H)/T(30H) explícita; duração da hora não informada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução aos componentes de infraestrutura de TI e suas funções",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Hardware, recursos, sistemas operativos, clusters e centros de dados",
+      "foreignLocation": "Conteúdos 2-8"
+    },
+    {
+      "brTopic": "Conceitos e Características e Modelos de Sistemas de Computação em Nuvem",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Adoção de virtualização/computação em nuvem e projeto arquitetônico de nuvens",
+      "foreignLocation": "Conteúdos 1 e 9"
+    },
+    {
+      "brTopic": "Virtualização, Balanço de Carga, Replicação, Deployment, Monitoração, SLA, Plataforma de Código Aberto para Nuvens Privadas, Principais Plataformas em Nuvem de Mercado, Ferramentas de Gerenciamento de Configuração, Automação de Deploy, Técnicas e Ferramentas para Descoberta de Serviços, Integração e Entrega (Deploy) Contínua",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Virtualização, gestão de recursos, automação e segurança em nuvens; não detalha CI/CD, SLA, descoberta ou plataformas de mercado",
+      "foreignLocation": "Conteúdos 3-7 e 10-12"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Introdução aos componentes de infraestrutura de TI e suas funções. Conceitos e Características e Modelos de Sistemas de Computação em Nuvem. Virtualização, Balanço de Carga, Replicação, Deployment, Monitoração, SLA, Plataforma de Código Aberto para Nuvens Privadas, Principais Plataformas em Nuvem de Mercado, Ferramentas de Gerenciamento de Configuração, Automação de Deploy, Técnicas e Ferramentas para Descoberta de Serviços, Integração e Entrega (Deploy) Contínua.",
+    "foreign": [
+      "Avaliar e implementar opções de virtualização e projeto de infraestrutura em nuvem"
+    ],
+    "convergences": [
+      "A UBI cobre infraestrutura e modelos de nuvem e uma parte do amplo eixo operacional, sem evidência de CI/CD, descoberta de serviços ou plataformas comerciais específicas."
+    ],
+    "differences": [
+      "Dois dos três enunciados de Serviços em Nuvem são completos e o terceiro parcial. A ficha aborda automação de centros de dados, recursos entre nuvens, redes e confiança, mas não enuncia balanceamento, replicação, monitoração, SLA e entrega contínua. A carga explícita 30T+30PL tem duração da hora incerta e precisa de confirmação para decisão institucional."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 5; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Avaliar e implementar opções de virtualização e projeto de infraestrutura em nuvem",
+    "theoryPractice": "30h teóricas e 30h práticas laboratoriais; projetos em grupo e escolhas de infraestrutura."
+  },
+  "practical": {
+    "period": "Ano 1, semestre S1",
+    "language": "Português declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Não publicados na ficha; confirmar base em sistemas e redes",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A UBI cobre infraestrutura e modelos de nuvem e uma parte do amplo eixo operacional, sem evidência de CI/CD, descoberta de serviços ou plataformas comerciais específicas.",
+  "justification": "Dois dos três enunciados de Serviços em Nuvem são completos e o terceiro parcial. A ficha aborda automação de centros de dados, recursos entre nuvens, redes e confiança, mas não enuncia balanceamento, replicação, monitoração, SLA e entrega contínua. A carga explícita 30T+30PL tem duração da hora incerta e precisa de confirmação para decisão institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Virtualização e Centros de Dados para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de SERVIÇOS EM NUVEM demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "cc|ENEX54362|pt-coimbra|91483",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54362",
+    "name": "CÁLCULO PARA CIÊNCIA DA COMPUTAÇÃO",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "Página 3, bloco CÁLCULO PARA CIÊNCIA DA COMPUTAÇÃO, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Demonstra a resolução de problemas que utilizam função real de uma variável",
+      "Estudo de gráficos: crescimento, concavidade, assíntotas, máximos e mínimos; problemas de otimização, limites e derivadas",
+      "Apresenta o conceito de primitiva e introduz a noção de integral definida aplicando os conceitos vistos à Ciência da Computação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "91483",
+      "name": "Métodos Quantitativos Aplicados à Administração Pública I",
+      "source": "https://apps.uc.pt/courses/PT/unit/91483/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "4cf4d65328b6fe8bf4b13981b57fdba18c098aa203124381515c6d051a256e64",
+      "location": "Ficha UC integral 2026-2027: dados da unidade, conhecimentos recomendados, ensino, resultados, Programa 1-4 e avaliação",
+      "academicYear": "2026-2027",
+      "language": "Português",
+      "period": "1º semestre no plano consultado; confirmar edição 2027/28",
+      "assessment": "Avaliação ao longo do semestre por duas ou três frequências, 100%, ou exame final.",
+      "prerequisites": "Conhecimentos básicos de Matemática.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "programme": "Administração Pública",
+      "level": "Licenciatura",
+      "yearOfStudy": 1,
+      "officialCode": "01019644"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Demonstra a resolução de problemas que utilizam função real de uma variável",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Estudo de funções aplicado à resolução de problemas matemáticos",
+      "foreignLocation": "Programa 2"
+    },
+    {
+      "brTopic": "Estudo de gráficos: crescimento, concavidade, assíntotas, máximos e mínimos; problemas de otimização, limites e derivadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Derivação e otimização explícitas; limites, concavidade e assíntotas não discriminados",
+      "foreignLocation": "Programa 3; Métodos de Ensino"
+    },
+    {
+      "brTopic": "Apresenta o conceito de primitiva e introduz a noção de integral definida aplicando os conceitos vistos à Ciência da Computação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cálculo integral e aplicações econômicas/sociais; primitivas e aplicação em Ciência da Computação não especificadas",
+      "foreignLocation": "Programa 4"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Demonstra a resolução de problemas que utilizam função real de uma variável. Estudo de gráficos: crescimento, concavidade, assíntotas, máximos e mínimos; problemas de otimização, limites e derivadas. Apresenta o conceito de primitiva e introduz a noção de integral definida aplicando os conceitos vistos à Ciência da Computação.",
+    "foreign": [
+      "Resolver problemas de administração por ferramentas algébricas, funções e cálculo."
+    ],
+    "convergences": [
+      "Métodos Quantitativos I compartilha funções, derivação e integração com Cálculo para CC, mas muda o contexto aplicado para administração e economia."
+    ],
+    "differences": [
+      "O item sobre funções está coberto e os outros dois parcialmente: otimização aparece no Programa 3, enquanto limites e análise completa de gráficos não são explicitados; o Programa 4 não especifica primitivas nem aplicações computacionais. A referência de 6 ECTS não estabelece quantas horas se dedicam ao cálculo, portanto não sustenta alta afinidade frente às 63,33h brasileiras."
+    ]
+  },
+  "depth": {
+    "level": "Licenciatura, ano 1, em Administração Pública; comparação com CC de graduação.",
+    "brazil": "Etapa 3; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Resolver problemas de administração por ferramentas algébricas, funções e cálculo.",
+    "theoryPractice": "Exposição teórica com exemplos e resolução orientada de problemas; não há horas discriminadas."
+  },
+  "practical": {
+    "period": "1º semestre no plano consultado; confirmar edição 2027/28",
+    "language": "Português",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Conhecimentos básicos de Matemática.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Métodos Quantitativos I compartilha funções, derivação e integração com Cálculo para CC, mas muda o contexto aplicado para administração e economia.",
+  "justification": "O item sobre funções está coberto e os outros dois parcialmente: otimização aparece no Programa 3, enquanto limites e análise completa de gráficos não são explicitados; o Programa 4 não especifica primitivas nem aplicações computacionais. A referência de 6 ECTS não estabelece quantas horas se dedicam ao cálculo, portanto não sustenta alta afinidade frente às 63,33h brasileiras.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "6 ECTS declarados sem carga de contato: não é possível calcular compatibilidade horária."
+  ],
+  "openQuestions": [
+    "A universidade confirma Métodos Quantitativos Aplicados à Administração Pública I para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENEX54362 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

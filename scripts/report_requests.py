@@ -63,6 +63,11 @@ def main() -> int:
     data = _load("data.json")
     programs = _load("syllabi/programas.json")["brazil"]
     records = {(r["universityId"], r["foreignCode"]): r for r in _load("syllabi/records.json")["foreign"]}
+    vpath = ROOT / "syllabi" / "fontes-verificadas.json"
+    if vpath.exists():
+        for v in json.loads(vpath.read_text(encoding="utf-8")).get("foreign", []):
+            if v.get("individualSyllabus"):
+                records[(v["universityId"], v["code"])] = {"status": "ementa_individual", "document": v["source"]}
     tri = _load("syllabi/triagem-semantica.json")
     pidx = _load("syllabi/pareceres-index.json")["pareceres"]
     coi = _load("docs/coi/regras.json")

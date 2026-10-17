@@ -15,6 +15,14 @@ jobs:
           node-version: '22'
       - name: Validar referencias e cruzamentos
         run: node validate.js
+      - name: Instalar aplicação pública
+        run: npm ci
+      - name: Testar contratos dos dados públicos
+        run: npm test
+      - name: Validar TypeScript e lint
+        run: npm run lint
+      - name: Compilar aplicação pública
+        run: npm run build
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

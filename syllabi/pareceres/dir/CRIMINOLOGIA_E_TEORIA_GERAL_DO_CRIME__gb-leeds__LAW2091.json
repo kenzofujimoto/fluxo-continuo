@@ -1,0 +1,184 @@
+{
+  "id": "dir|CRIMINOLOGIA E TEORIA GERAL DO CRIME|gb-leeds|LAW2091",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "CRIMINOLOGIA E TEORIA GERAL DO CRIME",
+    "name": "CRIMINOLOGIA E TEORIA GERAL DO CRIME",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "Página 10, bloco CRIMINOLOGIA E TEORIA GERAL DO CRIME, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "Ementário 2022 histórico; duração da hora e total semestral não estabelecidos."
+    },
+    "topics": [
+      "O curso de Direito Penal inicia-se com a criminologia, pois cada vez mais se torna indispensável o conhecimento dos aspectos sociais e antropológicos que antecedem o delito",
+      "Em um primeiro momento, este módulo abordará o conceito e função da criminologia, os seus movimentos históricos e contribuições na delimitação da política criminal",
+      "Em seguida, o componente fará uma introdução do aluno à dogmática penal, com análise dos princípios penais e sua aplicação pela Jurisprudência para resolução de casos concretos",
+      "A teoria do bem jurídico auxiliará o aluno a compreender as finalidades do direito penal e a legitimidade estatal para a criação de crimes",
+      "Serão visitadas as peculiaridades sobre a regras de aplicação da Lei Penal no tempo e espaço e o conflito aparente de normas, bem como o conceito, finalidade e elementos do tipo penal, sempre à luz dos princípios penais já visitados",
+      "Os diversos aspectos teóricos do tempo e lugar do delito e as classificações doutrinárias dos crimes serão abordados sempre com a exposição das repercussões práticas de tais premissas como, por exemplo, em caso de sucessão de leis penais e fixação de competência",
+      "Ainda neste componente, a Teoria Geral do Delito será ministrada sob os seus mais diversos aspectos",
+      "O delito será conceituado no seu prisma material, formal e analítico",
+      "Serão analisadas a tipicidade, antijuridicidade e culpabilidade de forma reflexiva, das teorias mais antigas até as mais modernas",
+      "Por fim, serão abordados os pontos teóricos envolvendo o Concurso de Pessoas, com abordagem das teorias monista e dualista de autor e a análise do sistema adotado pelo nosso país"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LAW2091",
+      "name": "Criminology: Theories and Concepts",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LAW/2091/202627",
+      "sha256": "dd8544b51587fb781db45400afd8541529a314e4211a9af1e8daa99377dd2845",
+      "location": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "academicYear": "2026/27",
+      "language": "Documento em inglês; turma de mobilidade a confirmar",
+      "period": "Semester 1 (Sep to Jan)",
+      "assessment": "Coursework 100%",
+      "prerequisites": "Não especificados na ficha disponível",
+      "hours": {
+        "contactTotal": 18.5,
+        "contactLecture": 11,
+        "contactSeminarLab": 7.5,
+        "selfStudy": 181.5,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O curso de Direito Penal inicia-se com a criminologia, pois cada vez mais se torna indispensável o conhecimento dos aspectos sociais e antropológicos que antecedem o delito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Explicações biológicas, psicológicas e sociológicas do comportamento delitivo",
+      "foreignLocation": "Module summary"
+    },
+    {
+      "brTopic": "Em um primeiro momento, este módulo abordará o conceito e função da criminologia, os seus movimentos históricos e contribuições na delimitação da política criminal",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Desenvolvimento do pensamento criminológico ocidental desde o período medieval e implicações para políticas criminais",
+      "foreignLocation": "Objectives e Learning outcomes"
+    },
+    {
+      "brTopic": "Em seguida, o componente fará uma introdução do aluno à dogmática penal, com análise dos princípios penais e sua aplicação pela Jurisprudência para resolução de casos concretos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "A teoria do bem jurídico auxiliará o aluno a compreender as finalidades do direito penal e a legitimidade estatal para a criação de crimes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Problematiza quais pessoas e condutas são criminalizadas; não desenvolve a teoria dogmática do bem jurídico",
+      "foreignLocation": "Module summary"
+    },
+    {
+      "brTopic": "Serão visitadas as peculiaridades sobre a regras de aplicação da Lei Penal no tempo e espaço e o conflito aparente de normas, bem como o conceito, finalidade e elementos do tipo penal, sempre à luz dos princípios penais já visitados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Os diversos aspectos teóricos do tempo e lugar do delito e as classificações doutrinárias dos crimes serão abordados sempre com a exposição das repercussões práticas de tais premissas como, por exemplo, em caso de sucessão de leis penais e fixação de competência",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Ainda neste componente, a Teoria Geral do Delito será ministrada sob os seus mais diversos aspectos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "O delito será conceituado no seu prisma material, formal e analítico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Serão analisadas a tipicidade, antijuridicidade e culpabilidade de forma reflexiva, das teorias mais antigas até as mais modernas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Por fim, serão abordados os pontos teóricos envolvendo o Concurso de Pessoas, com abordagem das teorias monista e dualista de autor e a análise do sistema adotado pelo nosso país",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo 2026/27: Module summary, Objectives, Learning outcomes, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "O curso de Direito Penal inicia-se com a criminologia, pois cada vez mais se torna indispensável o conhecimento dos aspectos sociais e antropológicos que antecedem o delito. Em um primeiro momento, este módulo abordará o conceito e função da criminologia, os seus movimentos históricos e contribuições na delimitação da política criminal. Em seguida, o componente fará uma introdução do aluno à dogmática penal, com análise dos princípios penais e sua aplicação pela Jurisprudência para resolução de casos concretos. A teoria do bem jurídico auxiliará o aluno a compreender as finalidades do direito penal e a legitimidade estatal para a criação de crimes. Serão visitadas as peculiaridades sobre a regras de aplicação da Lei Penal no tempo e espaço e o conflito aparente de normas, bem como o conceito, finalidade e elementos do tipo penal, sempre à luz dos princípios penais já visitados. Os diversos aspectos teóricos do tempo e lugar do delito e as classificações doutrinárias dos crimes serão abordados sempre com a exposição das repercussões práticas de tais premissas como, por exemplo, em caso de sucessão de leis penais e fixação de competência. Ainda neste componente, a Teoria Geral do Delito será ministrada sob os seus mais diversos aspectos. O delito será conceituado no seu prisma material, formal e analítico. Serão analisadas a tipicidade, antijuridicidade e culpabilidade de forma reflexiva, das teorias mais antigas até as mais modernas. Por fim, serão abordados os pontos teóricos envolvendo o Concurso de Pessoas, com abordagem das teorias monista e dualista de autor e a análise do sistema adotado pelo nosso país.",
+    "foreign": [
+      "Analisar criticamente teorias do crime e suas implicações para vitimização e justiça criminal"
+    ],
+    "convergences": [
+      "LAW2091 sustenta a parte histórica e sociológica da Criminologia, porém deixa de demonstrar tipicidade, antijuridicidade, culpabilidade e concurso de pessoas."
+    ],
+    "differences": [
+      "A ficha exige analisar teorias em seus contextos sociais, culturais e políticos e discutir a descolonização da criminologia. Esses resultados correspondem aos dois primeiros enunciados Mackenzie e tangenciam a criminalização, sem cobrir os sete eixos de lei penal e teoria analítica do delito. As 18,5h de contato são explícitas, mas a referência brasileira é semanal e histórica."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 2; referência histórica 2022, sem comprovação de vigência atual.",
+    "foreign": "Analisar criticamente teorias do crime e suas implicações para vitimização e justiça criminal",
+    "theoryPractice": "11h de lectures e 7,5h de seminars; análise crítica e coursework, sem treinamento sistemático da dogmática brasileira."
+  },
+  "practical": {
+    "period": "Semester 1 (Sep to Jan)",
+    "language": "Documento em inglês; turma de mobilidade a confirmar",
+    "enrolment": "Não é discovery module; matrícula de intercambista depende de autorização. Exclusão mútua com SLSP2021.",
+    "prerequisites": "Não especificados na ficha disponível",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "LAW2091 sustenta a parte histórica e sociológica da Criminologia, porém deixa de demonstrar tipicidade, antijuridicidade, culpabilidade e concurso de pessoas.",
+  "justification": "A ficha exige analisar teorias em seus contextos sociais, culturais e políticos e discutir a descolonização da criminologia. Esses resultados correspondem aos dois primeiros enunciados Mackenzie e tangenciam a criminalização, sem cobrir os sete eixos de lei penal e teoria analítica do delito. As 18,5h de contato são explícitas, mas a referência brasileira é semanal e histórica.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Ementário Direito 2022 histórico, sem comprovação de correspondência à matriz vigente; horas semanais sem base semestral"
+  ],
+  "openQuestions": [
+    "A universidade confirma Criminology: Theories and Concepts para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de CRIMINOLOGIA E TEORIA GERAL DO CRIME demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

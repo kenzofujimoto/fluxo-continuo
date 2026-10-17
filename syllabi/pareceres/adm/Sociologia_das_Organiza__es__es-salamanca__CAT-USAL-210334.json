@@ -1,0 +1,173 @@
+{
+  "id": "adm|Sociologia das Organizações|es-salamanca|CAT-USAL-210334",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sociologia das Organizações",
+    "name": "Sociologia das Organizações",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 9, bloco 'Sociologia das Organizações': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O poder e o poder nas organizações",
+      "A sociologia weberiana e as formas de dominação",
+      "A relação entre a Sociologia e Administração e a abordagem sociológica das organizações",
+      "A análise sociológica da dinâmica interna da empresa",
+      "A análise sociológica da dinâmica externa da empresa",
+      "Dimensões da cultura e cultura organizacional",
+      "Cultura brasileira e cultura organizacional",
+      "Questões sociológicas emergentes nas organizações"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210334",
+      "name": "Comportamiento Organizacional",
+      "pageCode": "103849",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Psicología Social y Antropología (área Psicología Social)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo Semestre (datas não declaradas na guia)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Optativa",
+      "assessment": "Avaliação contínua 100% (questionários, exercícios, team building, práticas individuais e em equipe, projeto com defesa), baseada na presença",
+      "prerequisites": "Nenhum requisito prévio",
+      "source": "https://guias.usal.es/node/210334",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "0e78985e855c03a0c8c095e1fd1a7fc69dd0b3eff151b44d004c984793568889",
+      "location": "Guia 2025/2026: 1 Datos, 3 Objetivos, 4 Competencias (CECO 1, 5, 6, 11), 5 Contenidos (7 itens teóricos), 6 Metodologías, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A guia declara 6,00 ECTS; a secção 7 está vazia no texto obtido e as metodologias não são quantificadas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O poder e o poder nas organizações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; há liderança em contextos organizacionais, mas nenhum item trata de poder",
+      "note": "'El liderazgo en entornos organizacionales' é tema adjacente, abordado sob perspectiva psicossocial; não foi tomado como cobertura de poder."
+    },
+    {
+      "brTopic": "A sociologia weberiana e as formas de dominação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4, 5 e bibliografia lidas; nenhum autor ou conceito sociológico clássico aparece"
+    },
+    {
+      "brTopic": "A relação entre a Sociologia e Administração e a abordagem sociológica das organizações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; a disciplina pertence à área de Psicologia Social e foca o comportamento do indivíduo na organização (objetivo da secção 3)"
+    },
+    {
+      "brTopic": "A análise sociológica da dinâmica interna da empresa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Conducta en grupo y equipos de trabajo'; 'La motivación en el trabajo'; 'El liderazgo en entornos organizacionales'",
+      "foreignLocation": "Secção 5, Contenidos teóricos, itens 5-7",
+      "note": "Trata a dinâmica interna (grupos, equipes, liderança) sob lente psicológica e individual, não sociológica; a correspondência é de objeto, não de abordagem."
+    },
+    {
+      "brTopic": "A análise sociológica da dinâmica externa da empresa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; o conteúdo se limita ao comportamento dentro da organização, sem relação da empresa com o entorno social"
+    },
+    {
+      "brTopic": "Dimensões da cultura e cultura organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; 'valores y personalidad' são atributos individuais, e cultura organizacional não é tema listado"
+    },
+    {
+      "brTopic": "Cultura brasileira e cultura organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem tema cultural nacional ou comparado"
+    },
+    {
+      "brTopic": "Questões sociológicas emergentes nas organizações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4 e 5 lidas; sem tema sociológico contemporâneo listado"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "O empregado e o capital humano; bases da conduta individual: valores e personalidade", "location": "Secção 5, Contenidos teóricos, itens 1-2"},
+    {"topic": "Emoções no trabalho; atitudes e estados psicológicos", "location": "Secção 5, itens 3-4"},
+    {"topic": "Motivação, liderança e conduta em grupos e equipes", "location": "Secção 5, itens 5-7"},
+    {"topic": "Exercícios e team building aplicados a cada tema", "location": "Secção 5, Contenidos prácticos"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: relações entre sociologia e organizações, fundamentos teóricos da dinâmica organizacional no contexto social e compreensão crítica de suas dimensões sociais, culturais e de poder.",
+    "foreign": ["Conhecer os fundamentos do comportamento do indivíduo em organizações", "Conhecer ferramentas de avaliação do comportamento individual", "Perceber e interpretar a conduta própria e alheia", "Aplicar instrumentos para avaliar o comportamento de indivíduos e grupos"],
+    "convergences": ["Ambas estudam pessoas e grupos em organizações, em sentido amplo"],
+    "differences": ["Salamanca adota perspectiva da psicologia social e do indivíduo; Mackenzie adota perspectiva sociológica (poder, dominação weberiana, cultura brasileira)", "Sete dos oito enunciados brasileiros não aparecem na guia"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca no 4º ano (optativa), Mackenzie na 3ª etapa",
+    "brazil": "Disciplina curta de 31,7 h de fundamentos sociológicos da organização",
+    "foreign": "Comportamento organizacional aplicado, com práticas e team building",
+    "theoryPractice": "Metodologia prática com casos, autoavaliações e debates; avaliação 100% contínua"
+  },
+  "practical": {
+    "period": "Segundo semestre do curso acadêmico, sem datas declaradas; se 2027.2 corresponder ao semestre de outono europeu, a oferta tende a não coincidir — confirmar com a COI",
+    "language": "Espanhol (nível B1/B2 exigido pela universidade para o intercâmbio)",
+    "enrolment": "Optativa de 4º ano com avaliação contínua baseada na presença; guia não informa vagas para estudantes de intercâmbio",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Comportamiento Organizacional é uma optativa de psicologia social sobre valores, emoções, motivação, liderança e equipes; só a dinâmica interna da empresa tem correspondência, e em abordagem psicológica, com os demais sete enunciados sociológicos de Sociologia das Organizações sem contrapartida na guia.",
+  "justification": "O conceito de comportamento organizacional aproxima os dois títulos de forma superficial, mas a guia pertence à área de Psicologia Social e se centra no indivíduo. Dos oito enunciados brasileiros, sete não foram encontrados — poder, Weber e dominação, relação entre sociologia e administração, dinâmica externa, cultura organizacional, cultura brasileira e questões sociológicas emergentes —, e a dinâmica interna da empresa ficou parcial por meio de grupos, motivação e liderança. A cobertura de 12,5% fica abaixo do limite de afinidade parcial, portanto baixa afinidade. A guia informa que um programa detalhado é entregue no início do curso; o parecer julga o texto publicado. As horas não são comparáveis: 6 ECTS sem horas de contato contra 31,7 h-relógio.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A guia declara que o programa detalhado só é entregue no início do curso e lista apenas sete itens genéricos; faltam horas de contato, a guia é de 2025/2026 e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Guia obtida é de 2025/2026, não de 2026/2027; oferta e conteúdo de 2027/28 não confirmados",
+    "Programa detalhado 'se entregará al inicio del curso': a ausência de temas vale para o texto publicado, não para a disciplina em sala",
+    "Horas de contato não declaradas (secção 7 vazia); 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Outras disciplinas de Salamanca de sociologia ou de organização de empresas não foram lidas",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O docente poderia confirmar se o programa detalhado inclui cultura organizacional, poder ou análise sociológica?",
+    "A coordenação de Administração consideraria esta guia como par mais adequado de Comportamento Organizacional (5ª etapa) do que de Sociologia das Organizações?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); busca de cada enunciado brasileiro nas secções 3 a 5 e na bibliografia da guia espanhola; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Programa detalhado não publicado; confirmar com o docente antes de descartar a afinidade"}
+}

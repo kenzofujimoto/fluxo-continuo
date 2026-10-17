@@ -1,0 +1,129 @@
+{
+  "id": "cc|ENEC54298|pt-ubi|17909",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54298",
+    "name": "Cibersegurança",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 2, bloco CIBERSEGURANÇA, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Introduz o conceito de segurança da informação",
+      "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-ubi",
+      "university": "Universidade da Beira Interior",
+      "code": "17909",
+      "name": "Segurança de Sistemas Informáticos",
+      "faculty": null,
+      "department": null,
+      "programme": "Mestrado",
+      "level": "Mestrado",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Outono/S 1",
+      "academicYear": "2026; avaliações nov/dez 2026",
+      "language": "Português; confirmar turma",
+      "courseStatus": null,
+      "assessment": "Prova escrita 50%, teste prático 25%, trabalho de grupo 25%",
+      "prerequisites": "Não declarados na fonte individual",
+      "source": "https://www.ubi.pt/Disciplina/17909/2026",
+      "catalogue": "http://www.ubi.pt/cursos",
+      "sha256": "f97a263fd54da414c86ced1904172b14c8a1ced5ad7cc99dd7533fcea1881ad2",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introduz o conceito de segurança da informação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo aprofunda conhecimentos prévios em segurança e fomenta consciência crítica; não é introdução geral à segurança da informação.",
+      "foreignLocation": "Objectivos de Aprendizagem"
+    },
+    {
+      "brTopic": "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Autenticação, conhecimento zero, curvas elípticas, computação multipartes, SO, Web e desenvolvimento seguro; ética, legislação e boas práticas internacionais não individualizadas.",
+      "foreignLocation": "Conteúdos 1-9; Objectivos"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Introduz o conceito de segurança da informação. Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais.",
+    "foreign": [
+      "Integrar primitivas criptográficas e configurar segurança de SO",
+      "Identificar vulnerabilidades Web e construir software seguro"
+    ],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 6; destino Mestrado",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 2, 'pratica': 2, 'atelie': 0}",
+    "foreign": "Mestrado, 30 T+30 PL; implementação criptográfica e engenharia de segurança em laboratório",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "Outono/S 1",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Confirmar precedências com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "Acesso de graduação a mestrado não confirmado",
+    "Hash de records diverge do documento em programas; usado hash do texto atual de 17/10"
+  ],
+  "openQuestions": [],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "Segurança de Sistemas Informáticos aprofunda criptografia moderna e proteção de software, com aplicação laboratorial; não documenta todo o panorama introdutório, ético e jurídico de Cibersegurança.",
+  "justification": "Dois tópicos brasileiros muito amplos recebem cobertura parcial: itens 1-3 sustentam criptografia e 4-9 segurança de sistemas/aplicações.60 h nominais representam 0, 947 das 63, 33 h; cenário 50 min dá 50 h, razão 0, 790. Horas bastam condicionalmente, mas lacunas temáticas e ingresso no mestrado impedem conclusão alta.",
+  "conclusionClass": "afinidade_parcial"
+}

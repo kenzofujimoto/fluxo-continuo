@@ -1,0 +1,132 @@
+{
+  "id": "cc|ENEX54368|gb-leeds|COMP3912",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54368",
+    "name": "Modelagem Matemática",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 4",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 4, bloco MODELAGEM MATEMÁTICA: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo de modelagem de sistemas lineares, com aplicações em problemas de otimização linear e programação linear",
+      "simplex",
+      "solvers e simuladores para modelos lineares. Aborda a modelagem de modelos estocásticos. Estudo de cadeias de Markov e programação dinâmica"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3912",
+      "name": "Optimisation with Applications in AI",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "Semester 1 (setembro a janeiro)",
+      "academicYear": "2026/27",
+      "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+      "assessment": "Não publicada no texto recuperado; seção de avaliação não disponível.",
+      "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3912/202627",
+      "catalogue": null,
+      "sha256": "18be1451beafecd5e291119d3d7dd8d71a9d8ffad7bae778514b10fc3fa32dd5",
+      "location": "Catálogo Leeds 2026/27: identificação, Module summary, Objectives, Learning/Skills outcomes, Syllabus, Teaching Methods e atualização.",
+      "hours": {
+        "contactTotal": 66,
+        "contactLecture": 44,
+        "contactSeminarLab": 22,
+        "selfStudy": 134,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "20 créditos britânicos; não tratados como ECTS. Total Contact hours declarado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de modelagem de sistemas lineares, com aplicações em problemas de otimização linear e programação linear",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelos lineares, LP/ILP/MILP e aplicações aparecem expressamente.",
+      "foreignLocation": "Syllabus, Optimisation models e LP-based approaches"
+    },
+    {
+      "brTopic": "simplex",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Syllabus integral de modelos/métodos",
+      "note": "Simplex não é nomeado; LP-based approaches não comprova esse algoritmo específico."
+    },
+    {
+      "brTopic": "solvers e simuladores para modelos lineares. Aborda a modelagem de modelos estocásticos. Estudo de cadeias de Markov e programação dinâmica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Métodos e prática de otimização apoiam solvers, mas Markov, modelos estocásticos e programação dinâmica não são desenvolvidos.",
+      "foreignLocation": "Syllabus, Optimisation methods; Learning outcomes 1-4"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo de modelagem de sistemas lineares, com aplicações em problemas de otimização linear e programação linear; simplex; solvers e simuladores para modelos lineares. Aborda a modelagem de modelos estocásticos. Estudo de cadeias de Markov e programação dinâmica.",
+    "foreign": [
+      "Modelar problemas contínuos/discretos e selecionar métodos de otimização em IA."
+    ],
+    "convergences": [
+      "Optimisation with Applications in Artificial Intelligence cobre programação linear de Modelagem Matemática, mas não demonstra simplex, cadeias de Markov ou programação dinâmica."
+    ],
+    "differences": [
+      "LP/ILP/MILP e modelagem lógica/fluxos comprovam o primeiro tópico integralmente; o segundo, simplex, não aparece no texto. O terceiro agrupa ferramentas lineares e modelagem estocástica/Markov/dinâmica: os métodos aplicados e 22 h práticas sustentam apenas a parte de solução computacional, sem os outros conteúdos. Com dois de três tópicos ao menos parciais, a regra indica afinidade parcial. As 66 h de contato superam as 63,33 h nominais, mas a profundidade adicional em gradiente, KKT e SVM não substitui as técnicas não encontradas."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "MODELAGEM MATEMÁTICA: etapa 4, 63.33 horas declaradas.",
+    "foreign": "LP/MILP, fluxos, branch-and-bound, busca local, otimização não linear/convexa e multicritério.",
+    "theoryPractice": "22 h de seminários/práticas declaradas, 44 h de aulas e 134 h de estudo privado."
+  },
+  "practical": {
+    "period": "Semester 1 (setembro a janeiro)",
+    "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Optimisation with Applications in Artificial Intelligence cobre programação linear de Modelagem Matemática, mas não demonstra simplex, cadeias de Markov ou programação dinâmica.",
+  "justification": "LP/ILP/MILP e modelagem lógica/fluxos comprovam o primeiro tópico integralmente; o segundo, simplex, não aparece no texto. O terceiro agrupa ferramentas lineares e modelagem estocástica/Markov/dinâmica: os métodos aplicados e 22 h práticas sustentam apenas a parte de solução computacional, sem os outros conteúdos. Com dois de três tópicos ao menos parciais, a regra indica afinidade parcial. As 66 h de contato superam as 63,33 h nominais, mas a profundidade adicional em gradiente, KKT e SVM não substitui as técnicas não encontradas.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual e contato explícitos; duração da hora, critérios de avaliação e mobilidade ainda requerem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora de contato estrangeira não explicitada; cenário condicional de 50 minutos deve ser considerado.",
+    "Módulo não aprovado como discovery module; não é confirmação de acesso de intercambista.",
+    "Avaliação e pré-requisitos não publicados no texto consultado; confirmar com a escola."
+  ],
+  "openQuestions": [
+    "A escola permite inscrição de intercambista neste módulo e confirma critérios de avaliação/duração da hora?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+  }
+}

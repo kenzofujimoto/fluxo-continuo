@@ -1,0 +1,162 @@
+{
+  "id": "cc|ENEC61010|ro-babes|MLE5006",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61010",
+    "name": "Desenvolvimento de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 2, bloco DESENVOLVIMENTO DE SOFTWARE; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5006",
+      "name": "Object Oriented Programming",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Departament of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "2",
+      "academicYear": "2026/2027",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": "Compulsory",
+      "assessment": "Exam",
+      "prerequisites": "Fundamentals of Programming; Average programming skills in a high level programming language",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem2_MLE5006_en_iuliana_2026_10392.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "d0aa84d84d5a65200761e17cfcbcf1595b0d9894ce0526af221ef4a736406b63",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 70,
+        "contactLecture": 28,
+        "contactSeminarLab": 42,
+        "selfStudy": 55,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Processo feature-driven, camadas e TDD aparecem nos laboratórios, mas o centro é C++/Qt.",
+      "foreignLocation": "8.3 laboratórios 3-4"
+    },
+    {
+      "brTopic": "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Projeto orientado a objetos e padrões são ensinados, sem processo completo de análise de requisitos.",
+      "foreignLocation": "7; 8.1 itens 5 e 12-13"
+    },
+    {
+      "brTopic": "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Diagramas de classes e relações aparecem; diagramas comportamentais não são sistematizados.",
+      "foreignLocation": "8.1 item 5; 8.2 seminário 7"
+    },
+    {
+      "brTopic": "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Implementação a partir de diagramas UML é exercício explícito.",
+      "foreignLocation": "8.2 seminário 7"
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "8.1-8.3; 9",
+      "note": "Não consta atividade de extensão comunitária."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Fundamentos dos conceitos e métodos de desenvolvimento de software. Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos. Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais. Domínio do Mapeamento dos diagramas UML para linguagem de programação. Práticas de extensão.",
+    "foreign": [
+      "Object Oriented Programming (MLE5006) aplica C++/Qt, padrões e UML de classes, porém Desenvolvimento de Software cobra análise e projeto com diagramas estruturais e comportamentais."
+    ],
+    "convergences": [
+      "Processo feature-driven, camadas e TDD aparecem nos laboratórios, mas o centro é C++/Qt.",
+      "Projeto orientado a objetos e padrões são ensinados, sem processo completo de análise de requisitos.",
+      "Diagramas de classes e relações aparecem; diagramas comportamentais não são sistematizados.",
+      "Implementação a partir de diagramas UML é exercício explícito."
+    ],
+    "differences": [
+      "Não consta atividade de extensão comunitária."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 4; exterior: Bachelor, ano 1.",
+    "brazil": "Desenvolvimento de Software: {'teorica': 4, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Object Oriented Programming: Compulsory; avaliação Exam; contato 70 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 28 h aula e 42 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "2",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Fundamentals of Programming; Average programming skills in a high level programming language",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Object Oriented Programming (MLE5006) aplica C++/Qt, padrões e UML de classes, porém Desenvolvimento de Software cobra análise e projeto com diagramas estruturais e comportamentais.",
+  "justification": "A modelagem de classes e sua implementação têm apoio explícito; ciclo de desenvolvimento e análise recebem apoio restrito. Os 70 h (28+42) são suficientes nominalmente frente a 63,33 h, mas volume de programação C++ não demonstra domínio de todo UML nem práticas de extensão.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Desenvolvimento de Software com Object Oriented Programming; A modelagem de classes e sua implementação têm apoio explícito; ciclo de desenvolvimento e análise recebem apoio restrito. Os 70 h (28+42) são suficientes nominalmente frente a 63,33 h, mas volume de programação C++ não demonstra domínio de todo UML nem práticas de extensão.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

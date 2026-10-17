@@ -1,0 +1,142 @@
+{
+  "id": "si|PROJETOS EMPREENDEDORES|pt-coimbra|93362",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "PROJETOS EMPREENDEDORES",
+    "name": "PROJETOS EMPREENDEDORES",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 48, bloco PROJETOS EMPREENDEDORES, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "Análise de soluções para o problema ou oportunidade",
+      "Proposição de projetos com viabilidade de implementação",
+      "Prática de proposição de valor e modelagem de projetos",
+      "Construção de planos de negócios simplificados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93362",
+      "name": "Empreendedorismo e Criação de Empresas",
+      "source": "https://apps.uc.pt/courses/PT/unit/93362/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "ceb7f6c4a34c24a3a67d347958764f95e7e6e684a2a8c0f2f95378c7fdb05402",
+      "location": "Ficha UC: identificação, Conhecimentos de Base, Métodos, Resultados, Programa, Avaliação e Bibliografia",
+      "academicYear": "2026-2027",
+      "language": "Português declarado",
+      "period": "Semestral; semestre civil não informado",
+      "assessment": "Periódica ou por exame, conforme edição",
+      "prerequisites": "Marketing, Estratégia, Análise Financeira e Gestão de Operações aprovadas ou em curso",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Percurso da ideia ao conceito para criação de empresas",
+      "foreignLocation": "Programa 2; Resultados"
+    },
+    {
+      "brTopic": "Análise de soluções para o problema ou oportunidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Criatividade estratégica e modelos de negócio; comparação estruturada de soluções não detalhada",
+      "foreignLocation": "Programa 3-4"
+    },
+    {
+      "brTopic": "Proposição de projetos com viabilidade de implementação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Projeções financeiras e avaliação de viabilidade do negócio",
+      "foreignLocation": "Programa 7"
+    },
+    {
+      "brTopic": "Prática de proposição de valor e modelagem de projetos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelos de negócio e projeto, sem proposição de valor individualizada",
+      "foreignLocation": "Programa 4; Métodos"
+    },
+    {
+      "brTopic": "Construção de planos de negócios simplificados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Passagem do conceito ao plano de negócio",
+      "foreignLocation": "Programa 5"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto. Análise de soluções para o problema ou oportunidade. Proposição de projetos com viabilidade de implementação. Prática de proposição de valor e modelagem de projetos. Construção de planos de negócios simplificados.",
+    "foreign": [
+      "Construir projetos e planos de negócios com criatividade e análise de viabilidade financeira"
+    ],
+    "convergences": [
+      "A unidade de Coimbra oferece ideação, modelo, plano e viabilidade, correspondendo ao núcleo de Projetos Empreendedores de SI."
+    ],
+    "differences": [
+      "Três de cinco tópicos são cobertos e dois parciais: a ficha não detalha análise comparativa de soluções nem prática específica da proposta de valor. A tutoria híbrida acompanha projetos, reforçando aplicação, mas 6 ECTS não estabelecem contato equivalente. Confirmar avaliação da edição e os conhecimentos prévios de negócios requeridos."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 5; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Construir projetos e planos de negócios com criatividade e análise de viabilidade financeira",
+    "theoryPractice": "Seminários e avaliação presenciais; tutoria online de projetos em regime híbrido."
+  },
+  "practical": {
+    "period": "Semestral; semestre civil não informado",
+    "language": "Português declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Marketing, Estratégia, Análise Financeira e Gestão de Operações aprovadas ou em curso",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A unidade de Coimbra oferece ideação, modelo, plano e viabilidade, correspondendo ao núcleo de Projetos Empreendedores de SI.",
+  "justification": "Três de cinco tópicos são cobertos e dois parciais: a ficha não detalha análise comparativa de soluções nem prática específica da proposta de valor. A tutoria híbrida acompanha projetos, reforçando aplicação, mas 6 ECTS não estabelecem contato equivalente. Confirmar avaliação da edição e os conhecimentos prévios de negócios requeridos.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Empreendedorismo e Criação de Empresas para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de PROJETOS EMPREENDEDORES demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

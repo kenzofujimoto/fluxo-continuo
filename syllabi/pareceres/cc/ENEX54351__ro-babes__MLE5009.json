@@ -1,0 +1,148 @@
+{
+  "id": "cc|ENEX54351|ro-babes|MLE5009",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54351",
+    "name": "Pensamento Computacional",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 4, bloco PENSAMENTO COMPUTACIONAL; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Estudo dos fundamentos do Pensamento Computacional, envolvendo o pensamento lógico, a habilidade de reconhecer padrões, decompor e abstrair um problema e raciocinar através de algoritmos",
+      "Desenvolvimento da capacidade criativa, crítica e estratégica para utilizar os fundamentos da computação, nas mais diversas áreas de conhecimento, com a finalidade de resolver problemas de uma maneira individual ou colaborativa, por meio do raciocínio lógico",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5009",
+      "name": "Functional and Logic Programming",
+      "faculty": "Mathematics and Computer Science",
+      "department": "Computer Science",
+      "programme": "Graduação",
+      "level": "Bachelor",
+      "yearOfStudy": 2,
+      "semester": 3,
+      "period": "Outono/S1",
+      "academicYear": "2026/2027",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": "Compulsory",
+      "assessment": "Exam",
+      "prerequisites": "MLE5005: Programming Fundamentals MLE5055: Computational Logic MLE5022: Data Structures and Algorithms",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE5009_en_hfpop_2026_10149.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem3_MLE5009_en_hfpop_2026_10149.pdf",
+      "sha256": "700229e8ca36652382a1d1920650a3b9bd5827c08bcb771d6492427c5241a725",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": {
+          "total": 4,
+          "course": 2,
+          "seminarLab": 2
+        },
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 94,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do Pensamento Computacional, envolvendo o pensamento lógico, a habilidade de reconhecer padrões, decompor e abstrair um problema e raciocinar através de algoritmos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Recursão, fatos/regras, unificação e backtracking desenvolvem raciocínio algorítmico; decomposição e abstração gerais não são ensino introdutório explicitado.",
+      "foreignLocation": "8.1 blocos Prolog; 8.3 Lab1-4"
+    },
+    {
+      "brTopic": "Desenvolvimento da capacidade criativa, crítica e estratégica para utilizar os fundamentos da computação, nas mais diversas áreas de conhecimento, com a finalidade de resolver problemas de uma maneira individual ou colaborativa, por meio do raciocínio lógico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultados pedem aplicação de técnicas declarativas a problemas reais e modelagem de fenômenos.",
+      "foreignLocation": "7 habilidades 3-4; 8.3"
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "8.1-8.3 e 9",
+      "note": "Atividades laboratoriais não registram extensão com comunidade externa."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos fundamentos do Pensamento Computacional, envolvendo o pensamento lógico, a habilidade de reconhecer padrões, decompor e abstrair um problema e raciocinar através de algoritmos. Desenvolvimento da capacidade criativa, crítica e estratégica para utilizar os fundamentos da computação, nas mais diversas áreas de conhecimento, com a finalidade de resolver problemas de uma maneira individual ou colaborativa, por meio do raciocínio lógico. Práticas de extensão.",
+    "foreign": [
+      "Functional and Logic Programming fornece exercícios de recursão e lógica em Prolog/Lisp, mas é curso do segundo ano e pressupõe a base que Pensamento Computacional introduz."
+    ],
+    "convergences": [
+      "Recursão, fatos/regras, unificação e backtracking desenvolvem raciocínio algorítmico; decomposição e abstração gerais não são ensino introdutório explicitado.",
+      "Resultados pedem aplicação de técnicas declarativas a problemas reais e modelagem de fenômenos."
+    ],
+    "differences": [
+      "Atividades laboratoriais não registram extensão com comunidade externa."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 1; exterior: Bachelor, ano 2.",
+    "brazil": "Pensamento Computacional: {'teorica': 4, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Functional and Logic Programming: Compulsory; avaliação Exam; contato 56 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 28 h aula e 28 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "Outono/S1",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "MLE5005: Programming Fundamentals MLE5055: Computational Logic MLE5022: Data Structures and Algorithms",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Functional and Logic Programming fornece exercícios de recursão e lógica em Prolog/Lisp, mas é curso do segundo ano e pressupõe a base que Pensamento Computacional introduz.",
+  "justification": "Os dois enunciados conceituais têm apoio parcial; faltam a amplitude introdutória e a extensão. A UBB dedica 56 h de contato e 94 h autônomas a paradigmas declarativos, frente a 63,33 h brasileiras. Pré-requisitos de programação, lógica e estruturas de dados restringem matrícula.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Pensamento Computacional com Functional and Logic Programming; Os dois enunciados conceituais têm apoio parcial; faltam a amplitude introdutória e a extensão. A UBB dedica 56 h de contato e 94 h autônomas a paradigmas declarativos, frente a 63,33 h brasileiras. Pré-requisitos de programação, lógica e estruturas de dados restringem matrícula.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

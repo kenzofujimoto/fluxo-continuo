@@ -1,0 +1,142 @@
+{
+  "id": "cc|ENUN51121|gb-leeds|LUBS1001",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN51121",
+    "name": "PROJETOS EMPREENDEDORES",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "Página 4, bloco PROJETOS EMPREENDEDORES, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "Análise de soluções para o problema ou oportunidade",
+      "Proposição de projetos com viabilidade de implementação",
+      "Prática de proposição de valor e modelagem de projetos",
+      "Construção de planos de negócios simplificados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS1001",
+      "name": "Introduction to Enterprise and Entrepreneurship",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/1001/202627",
+      "sha256": "e8c73c048e873e76c12b0e0de6741d016fa4330bec0fb8cdd0cf9b71703b600c",
+      "location": "LUBS1001: Module summary, Objectives, Learning outcomes 1-2, Syllabus indicativo, Teaching Methods e Methods of Assessment",
+      "academicYear": "2026/27",
+      "language": "Inglês; confirmar turma de mobilidade",
+      "period": "Semester 2 (Jan to Jun)",
+      "assessment": "Ensaio individual de 2.500 palavras, 100%.",
+      "prerequisites": "Não especificados na ficha disponível",
+      "hours": {
+        "contactTotal": 20,
+        "contactLecture": 10,
+        "contactSeminarLab": 10,
+        "selfStudy": 80,
+        "totalWorkload": 100,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Criatividade, inovação e contextos facilitadores de criação de empresas; identificação de problema/produto não é entrega explícita",
+      "foreignLocation": "Module summary; Syllabus, Innovation and creativity"
+    },
+    {
+      "brTopic": "Análise de soluções para o problema ou oportunidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Técnicas criativas e incubadoras aproximam elaboração de soluções, mas não há análise comparativa obrigatória de alternativas",
+      "foreignLocation": "Module summary; Syllabus, Facilitating enterprise creation"
+    },
+    {
+      "brTopic": "Proposição de projetos com viabilidade de implementação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "LUBS1001: Module summary, Objectives, Learning outcomes 1-2, Syllabus indicativo, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Prática de proposição de valor e modelagem de projetos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "LUBS1001: Module summary, Objectives, Learning outcomes 1-2, Syllabus indicativo, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Construção de planos de negócios simplificados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "LUBS1001: Module summary, Objectives, Learning outcomes 1-2, Syllabus indicativo, Teaching Methods e Methods of Assessment",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto. Análise de soluções para o problema ou oportunidade. Proposição de projetos com viabilidade de implementação. Prática de proposição de valor e modelagem de projetos. Construção de planos de negócios simplificados.",
+    "foreign": [
+      "Reconhecer conceitos de empreendedorismo, características de empreendedores e influências do contexto."
+    ],
+    "convergences": [
+      "Introduction to Enterprise and Entrepreneurship é uma introdução conceitual à criação de empresas, sem comprovar a execução de Projetos Empreendedores."
+    ],
+    "differences": [
+      "Entre cinco enunciados, dois se aproximam parcialmente pela criatividade e pelos contextos de criação. Proposição viável, modelagem da proposta de valor e plano de negócios não constam nas entregas: a avaliação é ensaio de 2.500 palavras. Há somente 20h de contato contra 31,67h brasileiras, razão nominal 0,632; os 80h privados não completam contato."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 3; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Reconhecer conceitos de empreendedorismo, características de empreendedores e influências do contexto.",
+    "theoryPractice": "10h de lecture e 10h de workshops; avaliação por ensaio, sem entrega obrigatória de plano de negócios."
+  },
+  "practical": {
+    "period": "Semester 2 (Jan to Jun)",
+    "language": "Inglês; confirmar turma de mobilidade",
+    "enrolment": "Discovery module adequado a alunos de qualquer área; vaga de intercambista e período ainda dependem de confirmação.",
+    "prerequisites": "Não especificados na ficha disponível",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introduction to Enterprise and Entrepreneurship é uma introdução conceitual à criação de empresas, sem comprovar a execução de Projetos Empreendedores.",
+  "justification": "Entre cinco enunciados, dois se aproximam parcialmente pela criatividade e pelos contextos de criação. Proposição viável, modelagem da proposta de valor e plano de negócios não constam nas entregas: a avaliação é ensaio de 2.500 palavras. Há somente 20h de contato contra 31,67h brasileiras, razão nominal 0,632; os 80h privados não completam contato.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Introduction to Enterprise and Entrepreneurship para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENUN51121 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

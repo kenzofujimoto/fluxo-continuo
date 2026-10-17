@@ -1,0 +1,139 @@
+{
+  "id": "cc|ENEC54303|ro-babes|MLE5147",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54303",
+    "name": "Linguagens Formais e Autômatos",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 3, bloco LINGUAGENS FORMAIS E AUTÔMATOS; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Estudo dos conceitos fundamentais sobre alfabetos, palavras e linguagens formais, a hierarquia de Chomsky e gramáticas formais",
+      "Apresenta as linguagens regulares e autômatos finitos, linguagens livres de contexto e autômatos à pilha, linguagens sensíveis ao contexto e autômatos linearmente limitados, linguagens recursivamente enumeráveis e Máquinas de Turing"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5147",
+      "name": "Robotic process automation",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": null,
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "5",
+      "academicYear": "2025/2026",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": null,
+      "assessment": null,
+      "prerequisites": "OOP, Programming Fundamentals, Advanced Programming Methods",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem5_MLE5147_en_mihis_2026_10674.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "05cd532d997c5ff61c9f9fcbc545eb3e84663e66919b24fcd9866558180d8afb",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": {
+          "total": 3,
+          "course": 2,
+          "seminarLab": 1
+        },
+        "contactTotal": 42,
+        "contactLecture": 28,
+        "contactSeminarLab": 14,
+        "selfStudy": 58,
+        "totalWorkload": 100,
+        "ects": 4,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos conceitos fundamentais sobre alfabetos, palavras e linguagens formais, a hierarquia de Chomsky e gramáticas formais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 7, 8.1 itens 1-14 e 8.2 laboratórios 1-7",
+      "note": "RPA não desenvolve alfabetos, gramáticas nem hierarquia de Chomsky."
+    },
+    {
+      "brTopic": "Apresenta as linguagens regulares e autômatos finitos, linguagens livres de contexto e autômatos à pilha, linguagens sensíveis ao contexto e autômatos linearmente limitados, linguagens recursivamente enumeráveis e Máquinas de Turing",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "8.1 itens 1-14; 8.2 laboratórios 1-7",
+      "note": "Fluxogramas e seletores UiPath não são estudo de autômatos finitos, pilha ou máquinas de Turing."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos conceitos fundamentais sobre alfabetos, palavras e linguagens formais, a hierarquia de Chomsky e gramáticas formais. Apresenta as linguagens regulares e autômatos finitos, linguagens livres de contexto e autômatos à pilha, linguagens sensíveis ao contexto e autômatos linearmente limitados, linguagens recursivamente enumeráveis e Máquinas de Turing.",
+    "foreign": [
+      "A candidata MLE5147 é Robotic Process Automation: automação UiPath de interfaces, Excel, PDF e e-mail. Não há correspondência documental com a teoria de linguagens formais."
+    ],
+    "convergences": [],
+    "differences": [
+      "RPA não desenvolve alfabetos, gramáticas nem hierarquia de Chomsky.",
+      "Fluxogramas e seletores UiPath não são estudo de autômatos finitos, pilha ou máquinas de Turing."
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 5; exterior: Bachelor, ano 3.",
+    "brazil": "Linguagens Formais e Autômatos: {'teorica': 4, 'pratica': 0, 'atelie': 0}; documento 2025",
+    "foreign": "Robotic process automation: None; avaliação None; contato 42 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 28 h aula e 14 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "5",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "OOP, Programming Fundamentals, Advanced Programming Methods",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A candidata MLE5147 é Robotic Process Automation: automação UiPath de interfaces, Excel, PDF e e-mail. Não há correspondência documental com a teoria de linguagens formais.",
+  "justification": "Ambos os tópicos de Linguagens Formais e Autômatos estão ausentes do programa examinado. As 42 h (28 aula, 14 laboratório) focam projetos de automação e não fornecem base para substituir 63,33 h de gramáticas e modelos computacionais.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Linguagens Formais e Autômatos com Robotic process automation; Ambos os tópicos de Linguagens Formais e Autômatos estão ausentes do programa examinado. As 42 h (28 aula, 14 laboratório) focam projetos de automação e não fornecem base para substituir 63,33 h de gramáticas e modelos computacionais.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "O cabeçalho interno do PDF indica 2025/2026 apesar do caminho de catálogo 2026; confirmar versão"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

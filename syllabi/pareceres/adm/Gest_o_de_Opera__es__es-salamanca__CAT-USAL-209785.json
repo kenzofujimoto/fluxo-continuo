@@ -1,0 +1,246 @@
+{
+  "id": "adm|Gestão de Operações|es-salamanca|CAT-USAL-209785",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Operações",
+    "name": "Gestão de Operações",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 3, bloco 'Gestão de Operações': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução à gestão de operações",
+      "Estratégia de produção e operações",
+      "Pacotes de valor",
+      "Indicadores de desempenho",
+      "Projeto de produto e seleção de processos",
+      "Tipos e seleção de Arranjo físico (layout)",
+      "Gestão da Capacidade",
+      "Teoria das Restrições",
+      "Planejamento Mestre de Produção e Operações (PMP)",
+      "Cálculo da Necessidade de Materiais (MRP)",
+      "Sequenciamento, Programação e Controle de Operações",
+      "Confiabilidade de processos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209785",
+      "name": "Dirección de Operaciones",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Organización de Empresas)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre (campo 'Periodicidade'), 2º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "OBLIGATORIA",
+      "assessment": "Frequência e participação em práticas 40% + prova final escrita 60% (mínimo 5/10)",
+      "prerequisites": "Sem requisitos; recomendado cursar Introducción a la Administración",
+      "source": "https://guias.usal.es/node/209785",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "2193ffa9fbdd0f6262e1231d6082ba0f5d1fc3182471ef4688f81abf76631d47",
+      "location": "Guia 2025/2026: seções 1 (datos), 2 (recomendaciones), 3 (objetivos), 4 (competencias CEDO), 5 (Partes I e II, Temas 1-12), 6-7 (metodologías), 9 (evaluación)",
+      "officialCode": "103816",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS. A seção 7 'Distribución de las Metodologías Docentes' vem vazia no texto obtido; nenhuma hora de contato declarada. Código oficial: 103816."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução à gestão de operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 1 'El subsistema operativo de la empresa: objetivos y decisiones'",
+      "foreignLocation": "Seção 5, Parte I, Tema 1; seção 3"
+    },
+    {
+      "brTopic": "Estratégia de produção e operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "CEDO 1: 'papel estratégico que puede jugar el subsistema operativo'; Tema 1 objetivos y decisiones",
+      "foreignLocation": "Seção 4, CEDO 1; seção 5, Tema 1",
+      "note": "A estratégia aparece como competência e no Tema 1; não há tema próprio de estratégia de operações."
+    },
+    {
+      "brTopic": "Pacotes de valor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Partes I e II, Temas 1-12), seção 3 (objetivos), seção 4 (competências CEDO 1-10) e seção 6 lidas. Sem pacote de valor nem distinção produto/serviço.",
+      "note": "A disciplina é voltada ao subsistema produtivo, com 'servicios' só no título da bibliografia."
+    },
+    {
+      "brTopic": "Indicadores de desempenho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Partes I e II, Temas 1-12), seção 3 (objetivos), seção 4 (competências CEDO 1-10) e seção 6 lidas. Sem indicadores de desempenho; o Tema 12 é gestão da qualidade."
+    },
+    {
+      "brTopic": "Projeto de produto e seleção de processos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 2 'Diseño de productos'; Temas 3-7 'Diseño de procesos'; CEDO 4 decisão de fabricar ou comprar",
+      "foreignLocation": "Seção 5, Parte I, Temas 2-7",
+      "note": "A seleção de processos está distribuída nos temas de dimensão, tecnologia e organização."
+    },
+    {
+      "brTopic": "Tipos e seleção de Arranjo físico (layout)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 5 'Diseño de procesos: Distribución en planta'; CEDO 6: ventajas y desventajas de la distribución en planta",
+      "foreignLocation": "Seção 5, Tema 5; seção 4, CEDO 6"
+    },
+    {
+      "brTopic": "Gestão da Capacidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 3 'Diseño de procesos: Dimensión y capacidad a largo plazo'; CEDO 5: 'capacidad estructural'",
+      "foreignLocation": "Seção 5, Tema 3; seção 4, CEDO 5"
+    },
+    {
+      "brTopic": "Teoria das Restrições",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Partes I e II, Temas 1-12), seção 3 (objetivos), seção 4 (competências CEDO 1-10) e seção 6 lidas. Sem Teoria das Restrições nem gargalos."
+    },
+    {
+      "brTopic": "Planejamento Mestre de Produção e Operações (PMP)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 8 'Conceptos básicos de planificación y control'; CEDO 9: sistema de planificación y control más apropiado",
+      "foreignLocation": "Seção 5, Parte II, Tema 8",
+      "note": "O planejamento agregado e mestre não é nomeado."
+    },
+    {
+      "brTopic": "Cálculo da Necessidade de Materiais (MRP)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 9 'Sistemas de empuje: planificación de las necesidades de materiales'",
+      "foreignLocation": "Seção 5, Parte II, Tema 9"
+    },
+    {
+      "brTopic": "Sequenciamento, Programação e Controle de Operações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 8 (planificación y control); Tema 10 'Sistemas de arrastre: producción Just-in-Time'; CEDO 10",
+      "foreignLocation": "Seção 5, Temas 8 e 10",
+      "note": "Sequenciamento e programação detalhados não são nomeados; controle por JIT é tratado."
+    },
+    {
+      "brTopic": "Confiabilidade de processos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Partes I e II, Temas 1-12), seção 3 (objetivos), seção 4 (competências CEDO 1-10) e seção 6 lidas. O Tema 12 trata de qualidade, sem confiabilidade de processos.",
+      "note": "Qualidade é adjacente, mas confiabilidade (falhas, disponibilidade) não é citada."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Localização de unidades operativas",
+      "location": "Seção 5, Tema 4; seção 4, CEDO 5"
+    },
+    {
+      "topic": "Tecnologia do sistema operativo",
+      "location": "Seção 5, Tema 6; seção 4, CEDO 7"
+    },
+    {
+      "topic": "Organização dos postos de trabalho",
+      "location": "Seção 5, Tema 7; seção 4, CEDO 8"
+    },
+    {
+      "topic": "Logística e gestão da cadeia de suprimentos",
+      "location": "Seção 5, Tema 11"
+    },
+    {
+      "topic": "Gestão da qualidade",
+      "location": "Seção 5, Tema 12"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel estratégico de operações, produtos versus serviços, critérios competitivos, projeto de produtos e processos, layout, capacidade e gargalos, PMP, MRP e sequenciamento.",
+    "foreign": [
+      "Conhecer o papel estratégico do subsistema operativo",
+      "Decidir sobre capacidade, localização, layout e tecnologia",
+      "Escolher o sistema de planejamento e controle (empuxo, JIT)",
+      "Aplicar ferramentas de gestão just in time"
+    ],
+    "convergences": [
+      "Projeto de produto e processo, layout e capacidade",
+      "MRP e planejamento e controle",
+      "Papel estratégico de operações"
+    ],
+    "differences": [
+      "Salamanca não trata serviços, pacotes de valor, indicadores de desempenho, Teoria das Restrições ou confiabilidade",
+      "Salamanca acrescenta localização, tecnologia, postos de trabalho, JIT, logística e qualidade"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Mackenzie na 5ª etapa, Salamanca obrigatória do 2º curso",
+    "brazil": "Disciplina de 63,3 h com 12 enunciados de projeto e planejamento de operações",
+    "foreign": "Obrigatória de 6 ECTS com 12 temas em duas partes (projeto e planejamento/controle)",
+    "theoryPractice": "Salamanca: sessões teóricas e práticas com problemas quantitativos; avaliação 40% contínua e 60% prova final"
+  },
+  "practical": {
+    "period": "Primeiro semestre (setembro a janeiro), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Obrigatória do 2º curso, grupos 1 a 3; aceitação de intercambista não verificada",
+    "prerequisites": "Sem requisitos; recomendado cursar Introducción a la Administración",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dirección de Operaciones cobre a espinha dorsal de Gestão de Operações (projeto de produto e processo, layout, capacidade, MRP), mas deixa de fora serviços, indicadores, Teoria das Restrições e confiabilidade.",
+  "justification": "Seis dos 12 enunciados estão cobertos pelos Temas 1-3, 5 e 9 (introdução, estratégia, projeto de produto e processos, layout, capacidade e MRP), dois são parciais (planejamento mestre e sequenciamento, tratados no Tema 8 e no JIT do Tema 10) e quatro não aparecem: pacotes de valor, indicadores de desempenho, Teoria das Restrições e confiabilidade. Isso dá 8/12 de cobertura plena ou parcial e metade em cobertura plena, abaixo dos 75% exigidos para alta afinidade. A carga é não comparável (6 ECTS sem horas de contato) e a ficha brasileira não tem vigência confirmada, o que mantém a classe em afinidade parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Doze temas listados por título e competências CEDO explícitas, sem horas de contato; ficha brasileira sem ano impresso.",
+  "limitations": [
+    "Horas de contato não declaradas; 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Temas listados só por título; conteúdo interno de cada tema desconhecido",
+    "O mesmo guia CAT-USAL-209785 é cotejado com 'Logística Empresarial' em outro parecer deste lote",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O Tema 3 ou o Tema 8 menciona gargalos e Teoria das Restrições?",
+    "Os indicadores de desempenho de operações são tratados dentro da gestão da qualidade (Tema 12)?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência por tema explícita; incertezas registradas"
+  }
+}

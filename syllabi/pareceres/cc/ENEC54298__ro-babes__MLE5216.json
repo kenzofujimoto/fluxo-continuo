@@ -1,0 +1,135 @@
+{
+  "id": "cc|ENEC54298|ro-babes|MLE5216",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54298",
+    "name": "Cibersegurança",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 2, bloco CIBERSEGURANÇA; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Introduz o conceito de segurança da informação",
+      "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5216",
+      "name": "Quantum computing with applications in cryptography and AI",
+      "faculty": "Faculty of Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science",
+      "level": "Bachelor",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "2",
+      "academicYear": "2026/2027",
+      "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+      "courseStatus": "Optional",
+      "assessment": "Colloquium",
+      "prerequisites": "relate d Basic knowledge of calculus and linear algebra.; Basic programming skills in Python.",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem6_MLE5216_en_mihoct_2026_10473.pdf",
+      "catalogue": "https://www.cs.ubbcluj.ro/apps/fise/viewSyllabi.php?an=2026&lang=en&specializare=IE",
+      "sha256": "dd33f7f02c6745104d6c80d15f011fec0c1144e4ab452b3ef8580365bc8a7131",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 65,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introduz o conceito de segurança da informação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Criptografia quântica, ataques a RSA e distribuição de chaves são trabalhados; fundamentos gerais de segurança da informação não são sistematizados.",
+      "foreignLocation": "8.1 itens 6-8; resultados 7"
+    },
+    {
+      "brTopic": "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Shor, criptografia pós-quântica e QKD cobrem criptografia; faltam segurança de aplicações, redes convencionais, desenvolvimento seguro, ética e legislação.",
+      "foreignLocation": "8.1 itens 6-8; 8.2 itens 5-6"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Introduz o conceito de segurança da informação. Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais.",
+    "foreign": [
+      "MLE5216 trata computação quântica aplicada à criptografia, enquanto Cibersegurança exige proteção ampla de informação, redes e software. A interseção é especializada em RSA e QKD."
+    ],
+    "convergences": [
+      "Criptografia quântica, ataques a RSA e distribuição de chaves são trabalhados; fundamentos gerais de segurança da informação não são sistematizados.",
+      "Shor, criptografia pós-quântica e QKD cobrem criptografia; faltam segurança de aplicações, redes convencionais, desenvolvimento seguro, ética e legislação."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Brasil: etapa 6; exterior: Bachelor, ano 3.",
+    "brazil": "Cibersegurança: {'teorica': 2, 'pratica': 2, 'atelie': 0}; documento 2025",
+    "foreign": "Quantum computing with applications in cryptography and AI: Optional; avaliação Colloquium; contato 60 h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: 24 h aula e 36 h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "2",
+    "language": "Inglês, linha IE/IIE; turma 2027/28 a confirmar",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "relate d Basic knowledge of calculus and linear algebra.; Basic programming skills in Python.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "MLE5216 trata computação quântica aplicada à criptografia, enquanto Cibersegurança exige proteção ampla de informação, redes e software. A interseção é especializada em RSA e QKD.",
+  "justification": "Os dois enunciados brasileiros têm apenas cobertura parcial: qubits, portas e aprendizagem quântica não substituem segurança de aplicações e aspectos jurídicos. Há 60 h de contato (24+36) ante 63,33 h; a carga não corrige as lacunas.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de Cibersegurança com Quantum computing with applications in cryptography and AI; Os dois enunciados brasileiros têm apenas cobertura parcial: qubits, portas e aprendizagem quântica não substituem segurança de aplicações e aspectos jurídicos. Há 60 h de contato (24+36) ante 63,33 h; a carga não corrige as lacunas.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Python e álgebra linear/cálculo exigidos; curso opcional do semestre 2 do terceiro ano"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

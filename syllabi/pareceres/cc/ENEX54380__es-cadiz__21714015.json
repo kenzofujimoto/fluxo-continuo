@@ -1,0 +1,166 @@
+{
+  "id": "cc|ENEX54380|es-cadiz|21714015",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54380",
+    "name": "Teoria dos Grafos",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 5, bloco 'Comp. Curricular TEORIA DOS GRAFOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h-relógio e 4 h-a teóricas por semana, sem prática."
+    },
+    "topics": [
+      "Estudo dos conceitos fundamentais e estruturas de dados para grafos",
+      "Aborda caminhos, busca em profundidade e largura, caminhos de custo mínimo, grafos eulerianos e hamiltonianos, árvore geradora e árvore geradora mínima",
+      "planaridade, coloração e emparelhamento em grafos",
+      "Estudo da eficiência assintótica dos algoritmos apresentados e aplicação de grafos na modelagem e resolução de problemas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714015",
+      "name": "Diseño de Algoritmos",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo II Formación común a la rama de Informática, materia II.2 Programación de computadores",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 3,
+      "semester": "Primer semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exames teórico-práticos 75%; provas complementares (questionários, exames, rubricas) 25%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714015",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "4f6d856787f3a1b591155893fbe430971ba3a312c0eae53055c5c1771eee1912",
+      "location": "Programa docente 2026-27: cabeçalho, 'Resultados de aprendizaje' 1-8, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Unidades 1-4 (teoria e laboratório), 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 20,
+        "contactSeminarLab": 40,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro 'Actividades y metodologías docentes': 60 h presenciais = Teoría 20 + Prácticas, seminarios y problemas 10 + Prácticas de informática 30; 86 h não presenciais e 4 h de avaliação; 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos conceitos fundamentais e estruturas de dados para grafos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "RA 6-7: técnicas básicas de exploração de grafo e diferença entre grafos explícitos e implícitos; Unidade 4 recorridos de grafos e resolução de laberintos",
+      "foreignLocation": "Resultados de aprendizaje 6 e 7; Temario, Unidad 4",
+      "note": "O documento não define grafo, grau, conectividade nem representa grafos por matriz ou lista de adjacência; a distinção grafos explícitos x implícitos é o único conceito estrutural citado."
+    },
+    {
+      "brTopic": "Aborda caminhos, busca em profundidade e largura, caminhos de custo mínimo, grafos eulerianos e hamiltonianos, árvore geradora e árvore geradora mínima",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Unidade 1: árvore de expansão de custo mínimo e caminhos de custo mínimo de um vértice a todos; Unidade 2: caminhos mínimos entre todos os pares; Unidade 4: recorridos de um grafo e ordenação topológica",
+      "foreignLocation": "Temario, Unidades 1, 2 e 4",
+      "note": "Cobre busca, caminhos mínimos (guloso e programação dinâmica) e árvore geradora mínima. Grafos eulerianos e hamiltonianos não aparecem; os algoritmos de Dijkstra, Prim e Kruskal não são citados pelo nome nesta guia."
+    },
+    {
+      "brTopic": "planaridade, coloração e emparelhamento em grafos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizaje 1-8, quadro de atividades, sistema de avaliação, Unidades 1-4 (teoria, problemas e laboratório) e bibliografia; nenhum item de planaridade, coloração ou emparelhamento",
+      "note": "A Unidade 4 inclui 'búsqueda con retroceso' e 'ramificación y acotación', técnicas que poderiam resolver coloração, mas o documento não as aplica a esses problemas."
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica dos algoritmos apresentados e aplicação de grafos na modelagem e resolução de problemas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Unidade 3 'Análisis de ER de divide y vencerás'; Unidade 1 'Medida del consumo de recursos computacionales'; RA 8 programas que resolvam problemas reais; Unidade 4 resolução de laberintos",
+      "foreignLocation": "Temario, Unidades 1, 3 e 4; Resultados de aprendizaje 2 e 8",
+      "note": "A análise formal está explícita só para divide e conquistar (relações de recorrência); para os algoritmos de grafos a eficiência é medida em laboratório. A modelagem por grafos aparece em laberintos e ordenação topológica."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Algoritmos gulosos: troco, mochila, esquema geral", "location": "Temario, Unidad 1"},
+    {"topic": "Programação dinâmica: funções com memória, tabela de subproblemas, princípio de otimalidade, fecho reflexivo e transitivo", "location": "Temario, Unidad 2"},
+    {"topic": "Divisão e conquista: busca binária, potência rápida, ordenação por fusão e rápida, seleção rápida", "location": "Temario, Unidad 3"},
+    {"topic": "Backtracking e ramificação e poda; perfilado de código em C/C++ e relatórios técnicos", "location": "Temario, Unidad 4 e laboratório da Unidad 1"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Aplicar divisão e conquista, algoritmos gulosos e programação dinâmica ao projeto de algoritmos (RA 1, 3, 4)",
+      "Aplicar técnicas básicas de exploração de um grafo e distinguir grafos explícitos de implícitos (RA 6-7)",
+      "Programar os algoritmos em laboratório para resolver problemas reais (RA 8)"
+    ],
+    "convergences": [
+      "Busca em grafos, caminhos mínimos e árvore geradora mínima como algoritmos centrais",
+      "Preocupação com a eficiência dos algoritmos"
+    ],
+    "differences": [
+      "Cádiz organiza o programa por técnica de projeto de algoritmos; grafos são um dos meios de ilustrá-las, e não o objeto de estudo como em Teoria dos Grafos",
+      "O Mackenzie trata em 4 h-a semanais exclusivamente teóricas; Cádiz dedica 30 de 60 h à programação em laboratório",
+      "Teoria estrutural de grafos (eulerianos, hamiltonianos, planaridade, coloração, emparelhamento) está ausente em Cádiz",
+      "O conteúdo de divisão e conquista, gulosos e programação dinâmica corresponde mais a Análise de Algoritmos do Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Cádiz obrigatória do 3º curso (1º semestre), Mackenzie obrigatória da 5ª etapa",
+    "brazil": "Disciplina inteiramente teórica (4 h-a semanais), voltada à teoria de grafos",
+    "foreign": "60 h presenciais: 20 teoria, 10 problemas, 30 laboratório; quatro unidades, uma delas dedicada a exploração em grafos",
+    "theoryPractice": "Teoria 33% e problemas/laboratório 67% do contato em Cádiz; no Mackenzie 100% teórica"
+  },
+  "practical": {
+    "period": "'Duración: PRIMER SEMESTRE' (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Obrigatória com 232 matriculados em 2026-27; secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado; programação em C++ exigida pelos roteiros de laboratório",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Diseño de Algoritmos cobre apenas a face algorítmica de Teoria dos Grafos: buscas, caminhos mínimos e árvore geradora mínima aparecem nas Unidades 1, 2 e 4, enquanto grafos eulerianos e hamiltonianos, planaridade, coloração, emparelhamento e as representações de grafos estão ausentes; a disciplina se organiza por técnicas (gulosos, programação dinâmica, divisão e conquista).",
+  "justification": "Três de quatro tópicos essenciais são parciais e o terceiro (planaridade, coloração, emparelhamento) não é encontrado, o que dá 75% de cobertura parcial ou melhor e nenhuma cobertura plena; assim a regra interna só permite afinidade_parcial. As 60 h presenciais declaradas equivalem a 94,7% das 63,33 h do Mackenzie nominalmente (78,9% com hora de 50 minutos), mas apenas uma das quatro unidades do programa espanhol trata de grafos e metade do contato é laboratório, enquanto o Mackenzie dedica as 4 h-a semanais a teoria de grafos. A aderência ao conteúdo é, portanto, bem inferior à razão de horas.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 completo, com unidades detalhadas por sessão e horas presenciais discriminadas; reduzem a confiança a duração não declarada da hora espanhola, a ementa brasileira de quatro enunciados curtos e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 e vaga para estudante de mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 se a hora for de 50 minutos",
+    "Par originado por correspondência semântica de conceitos (algoritmos, estruturas de dados, matemática discreta), que é apenas pista de busca",
+    "O temário não nomeia os algoritmos de Dijkstra, Prim e Kruskal nesta guia; sua presença em aula foi lida apenas pelos enunciados 'caminos de coste mínimo' e 'árbol de expansión de coste mínimo'",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceitaria cobertura de exploração, caminhos mínimos e árvore geradora, exigindo complementação de teoria estrutural de grafos?",
+    "O professor de Cádiz trata representações e conceitos básicos de grafos na Unidade 4, ainda que não constem do temário publicado?"
+  ],
+  "alternatives": [
+    {"code": "21714016", "name": "Estructuras de Datos no Lineales", "relation": "Lida neste lote; o Tema 2 traz grafos (representações por matriz e lista, buscas em profundidade e largura, Dijkstra, Floyd, Warshall, Prim e Kruskal) e complementa as lacunas de conceitos e estruturas de dados para grafos, mas também sem Euler, Hamilton, planaridade, coloração ou emparelhamento"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a unidade, resultado de aprendizagem ou quadro de atividades do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa completo com horas presenciais explícitas; ausência de teoria estrutural de grafos objetiva no temário"
+  }
+}

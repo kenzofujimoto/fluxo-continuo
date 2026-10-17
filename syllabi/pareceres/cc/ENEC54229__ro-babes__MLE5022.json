@@ -1,0 +1,134 @@
+{
+  "id": "cc|ENEC54229|ro-babes|MLE5022",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54229",
+    "name": "Algoritmos e Programação II",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 2",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2, bloco ALGORITMOS E PROGRAMAÇÃO II, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5022",
+      "name": "Data structures and algorithms",
+      "faculty": "Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (in English)",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "2",
+      "academicYear": "2026/2027",
+      "language": "Inglês na linha IE/IIE; confirmar turma",
+      "courseStatus": "Compulsory",
+      "assessment": "Exame 60%, laboratório 40%, bônus seminário 0, 5",
+      "prerequisites": "Fundamentals of programming",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem2_MLE5022_en_marianzsu_2026_10311.pdf",
+      "catalogue": "https://www.ubbcluj.ro/en/programe_academice/licenta/",
+      "sha256": "f613878e49984296c59ad0b8fe6f0ab6b7e3bb876df0eb47a51b352fcf0077bb",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 69,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Complexidade e análise amortizada; percursos e operações emárvores com algoritmos recursivos e não recursivos.",
+      "foreignLocation": "8.1 C 1-2, C 11-12; 8.2 Sem 2"
+    },
+    {
+      "brTopic": "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Heap Sort, bucket/radix/lexicographic sort e árvores de busca; métodos elementares de ordenação não individualizados.",
+      "foreignLocation": "8.1 C 7, C 12; 8.2 Sem 3"
+    },
+    {
+      "brTopic": "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Arraydinâmico, ADTMatrix e containers implementados emC++; não é explicitado ensino completo de implementação de matrizes.",
+      "foreignLocation": "8.1 C 2-3; 8.2 LabA 1; 9.5"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos. Apresenta os métodos de busca e algoritmos ordenação elementares e avançados. Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+    "foreign": [
+      "Analisar complexidades e implementar estruturas com algoritmos eficientes"
+    ],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 2; destino Bachelor",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 2, 'pratica': 2, 'atelie': 0}",
+    "foreign": "56 contato, 1ºano/semestre 2; laboratóriosC++ comADTs e documentação decomplexidade",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "Semestre 2/primavera",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Fundamentals of programming",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI"
+  ],
+  "openQuestions": [],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "Data Structures and Algorithms sustenta complexidade e recursão, busca e ordenação comheaps/radix earrays; o repertório de métodos elementares e implementação de matrizes é menos explícito que em Algoritmos II.",
+  "justification": "Dos três enunciados Mackenzie, um é coberto e dois parciais.56/63, 33 produz 0, 884 nominal, mas a hipótese 50 min reduz a 0, 737, abaixo do parâmetro 75%. A UBB aprofunda hashing eAVL, conteúdos adicionais que não apagam as lacunas de ordenação elementar/matrizes.",
+  "conclusionClass": "afinidade_parcial"
+}

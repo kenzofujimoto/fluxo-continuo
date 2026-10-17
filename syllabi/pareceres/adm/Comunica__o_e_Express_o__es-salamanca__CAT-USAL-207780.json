@@ -1,0 +1,205 @@
+{
+  "id": "adm|Comunicação e Expressão|es-salamanca|CAT-USAL-207780",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Comunicação e Expressão",
+    "name": "Comunicação e Expressão",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 5, bloco 'Comunicação e Expressão': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "A palavra e os usos da linguagem",
+      "Observações sobre o texto científico",
+      "Leitura e produção de texto científico",
+      "Expressividade ao falar em público",
+      "A expressão oral no ambiente acadêmico",
+      "A expressão oral no ambiente empresarial",
+      "A ABNT em produções científicas",
+      "O uso da ABNT nas produções científicas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207780",
+      "name": "Oratoria y Práctica Forense",
+      "faculty": "Facultad de Derecho",
+      "department": "Derecho Administrativo, Financiero y Procesal (área Derecho Procesal)",
+      "programme": "Grado en Derecho (plan 223); optativa do curso de Direito, não de Administração",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo Semestre (campo 'Periodicidade'), 4º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "OPTATIVA",
+      "assessment": "Provas expositivas orais 100% (discurso livre não jurídico, discurso improvisado, escrito de conclusões); frequência mínima de 80%",
+      "prerequisites": "Recomendadas: Introducción al Derecho Procesal, Derecho Procesal Civil e Penal",
+      "source": "https://guias.usal.es/node/207780",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "6ff5969fbb68fc3b75589e3b84c0959b94e1f903bdda2bcea8a454b258f67aad",
+      "location": "Guia 2025/2026: seções 1 (datos), 2 (recomendaciones), 3 (objetivos), 4 (competencias A/B), 5 (programa, Bloques 1-6), 6-7, 9 (evaluación)",
+      "officialCode": "102343",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 3.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "3 ECTS. A seção 7 'Distribución de las Metodologías Docentes' vem vazia no texto obtido; nenhuma hora de contato declarada. Código oficial do guia: 102343."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A palavra e os usos da linguagem",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Bloque 2: 'El discurso: estructura del discurso. Lenguaje verbal aplicado al discurso'",
+      "foreignLocation": "Seção 5, Bloque 2",
+      "note": "Linguagem verbal no discurso; não trata da palavra e dos usos da linguagem em sentido geral."
+    },
+    {
+      "brTopic": "Observações sobre o texto científico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (Bloques 1-6), 6 e 9 lidas; a disciplina é de oratória forense e política, sem escrita científica nem norma de citação.",
+      "note": "Há apenas a produção de 'comentarios y documentos jurídicos' (objetivo 4), que é outro gênero."
+    },
+    {
+      "brTopic": "Leitura e produção de texto científico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (Bloques 1-6), 6 e 9 lidas; a disciplina é de oratória forense e política, sem escrita científica nem norma de citação. Não há leitura crítica nem produção de texto científico.",
+      "note": "A redação de um 'escrito de conclusiones' (seção 9) é peça processual, não texto científico."
+    },
+    {
+      "brTopic": "Expressividade ao falar em público",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Bloque 1: 'Introducción a la oratoria. Oratoria y público. Técnicas de expresión oral'; Bloque 4: lenguaje no verbal y emoción del orador",
+      "foreignLocation": "Seção 5, Bloques 1 e 4; seção 9 (provas orais)"
+    },
+    {
+      "brTopic": "A expressão oral no ambiente acadêmico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Exposições e debates em aula; prova de 'discurso libre no jurídico'",
+      "foreignLocation": "Seção 6 (Exposiciones y debates); seção 9",
+      "note": "Prática oral na sala de aula, mas orientada ao foro e à política, não ao ambiente acadêmico (seminários, defesas)."
+    },
+    {
+      "brTopic": "A expressão oral no ambiente empresarial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (Bloques 1-6), 6 e 9 lidas; a disciplina é de oratória forense e política, sem escrita científica nem norma de citação. Os contextos são o foro (Bloque 3) e o político (Bloques 5-6), nenhum empresarial."
+    },
+    {
+      "brTopic": "A ABNT em produções científicas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (Bloques 1-6), 6 e 9 lidas; a disciplina é de oratória forense e política, sem escrita científica nem norma de citação.",
+      "note": "A ABNT é norma brasileira; o guia não cita nenhuma norma de citação ou formatação."
+    },
+    {
+      "brTopic": "O uso da ABNT nas produções científicas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (Bloques 1-6), 6 e 9 lidas; a disciplina é de oratória forense e política, sem escrita científica nem norma de citação.",
+      "note": "Mesmo enunciado ABNT em duplicidade na ficha brasileira; ausência idêntica."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Oratória forense, litigação e construção verbal persuasiva",
+      "location": "Seção 5, Bloque 3"
+    },
+    {
+      "topic": "Oratória política, discursos e debates",
+      "location": "Seção 5, Bloques 5-6"
+    },
+    {
+      "topic": "Simulação de juízos com papéis das partes processuais",
+      "location": "Seção 6"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: expressividade ao falar em público (acadêmico e empresarial), textos corporativos e científicos, leitura crítica, coesão e coerência, uso da ABNT.",
+    "foreign": [
+      "Argumentar e persuadir em debates jurídicos e políticos",
+      "Dominar linguagem verbal e não verbal no discurso",
+      "Redigir e defender documentos jurídicos",
+      "Trabalhar em equipe em simulações de julgamento"
+    ],
+    "convergences": [
+      "Expressão oral em público",
+      "Estrutura do discurso e linguagem não verbal"
+    ],
+    "differences": [
+      "Salamanca é oratória jurídica e política em um curso de Direito; Mackenzie é comunicação acadêmica e empresarial",
+      "Sem texto científico, leitura crítica ou ABNT em Salamanca",
+      "Salamanca exige conhecimento processual (pré-requisitos de Direito Processual)"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Mackenzie na 1ª etapa, Salamanca optativa do 4º curso de Direito",
+    "brazil": "Disciplina de 31,7 h com 8 enunciados, metade sobre texto científico e ABNT",
+    "foreign": "Optativa de 3 ECTS com 6 blocos de oratória e uma avaliação 100% oral",
+    "theoryPractice": "Salamanca: eminentemente prática, com debates e simulações de juízo; Mackenzie: oral e escrita aplicada"
+  },
+  "practical": {
+    "period": "Segundo semestre (fevereiro a junho), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Optativa do Grado en Derecho (grupo único); acesso de aluno de Administração e aceitação de intercambista não verificados",
+    "prerequisites": "Recomendadas: Introducción al Derecho Procesal, Derecho Procesal Civil e Penal",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Oratoria y Práctica Forense ensina falar em público, mas no foro e na política; não cobre texto científico, ABNT nem fala empresarial, que ocupam seis dos oito enunciados da ficha Mackenzie.",
+  "justification": "Só o enunciado de expressividade oral fica coberto (Bloques 1 e 4), e outros dois são parciais: linguagem verbal do discurso (Bloque 2) e fala em sala, sem foco acadêmico. Cinco enunciados não têm contrapartida: texto científico, leitura e produção, fala empresarial e os dois sobre ABNT. A cobertura de 3/8 fica abaixo de metade, o que define baixa afinidade. O objeto também diverge, pois o guia é de Direito Processual e supõe pré-requisitos jurídicos, e a carga não é comparável (3 ECTS sem horas de contato; Mackenzie 31,7 h).",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia completo (objetivos, 6 blocos, avaliação), mas sem horas de contato; ficha brasileira sem vigência confirmada. A discordância temática é nítida.",
+  "limitations": [
+    "Horas de contato não declaradas; 3 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Anomalia de catálogo: CAT-USAL-207780 pertence ao Grado en Derecho (optativa), não ao curso de Administración y Dirección de Empresas; o pareamento veio de recuperação semântica por afinidade de 'expressão oral'",
+    "O enunciado ABNT aparece duplicado na ficha brasileira",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Existe disciplina de redação acadêmica e normas de citação em Administración y Dirección de Empresas na USAL?",
+    "A coordenação aceitaria oratória forense como suprimento parcial da expressão oral, sem texto científico?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Divergência temática clara e documento completo"
+  }
+}

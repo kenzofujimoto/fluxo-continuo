@@ -1,0 +1,178 @@
+{
+  "id": "cc|ENEC54344|es-cadiz|21714054",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54344",
+    "name": "Tópicos Avançados em Banco de Dados",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 4",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 5, bloco TÓPICOS AVANÇADOS EM BANCO DE DADOS: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Aplicação da linguagem SQL: views, procedures, functions e triggers",
+      "Fundamentação sobre paradigmas de persistência: Hierárquico, Relacional e Objeto-relacional",
+      "Estudo da modelagem multidimensional (OLAP)",
+      "Transformação, preparação e carga de dados para uso em aplicações analíticas",
+      "Visualização de dados com a utilização de dashboard",
+      "Estudo de armazenamento e recuperação de dados em larga escala (Big Data)",
+      "Utilização de ferramentas para manipulação de dados em larga escala",
+      "Introdução aos bancos de dados NoSQL",
+      "Caracterização das famílias de bancos de dados NoSQL: chave-valor, documentos, grafos e colunas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714054",
+      "name": "Tecnologías Avanzadas de Bases de Datos",
+      "programme": null,
+      "level": "Graduação",
+      "period": "2º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Questionários 50%; exercícios e projeto com defesa 50%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714054",
+      "catalogue": null,
+      "sha256": "18ccce81861664f9e2b1280e866842b9e78df35d2e30d68cf7b51a669521475e",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 90,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aplicação da linguagem SQL: views, procedures, functions e triggers",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Procedures, functions e triggers têm temas próprios; views não são item explícito.",
+      "foreignLocation": "Práticas 3-4"
+    },
+    {
+      "brTopic": "Fundamentação sobre paradigmas de persistência: Hierárquico, Relacional e Objeto-relacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelos de dados e objeto-relacional são tratados; persistência hierárquica não é individualizada.",
+      "foreignLocation": "Teoria 1.2 e 2"
+    },
+    {
+      "brTopic": "Estudo da modelagem multidimensional (OLAP)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoria 1-4; Práticas 1-6",
+      "note": "OLAP e modelagem dimensional não aparecem."
+    },
+    {
+      "brTopic": "Transformação, preparação e carga de dados para uso em aplicações analíticas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temário teórico/prático completo",
+      "note": "ETL e preparação para análise não são temas publicados."
+    },
+    {
+      "brTopic": "Visualização de dados com a utilização de dashboard",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temário; Resultados de Aprendizagem 1-2",
+      "note": "Dashboards e visualização não constam do programa."
+    },
+    {
+      "brTopic": "Estudo de armazenamento e recuperação de dados em larga escala (Big Data)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Bancos distribuídos e NoSQL tratam armazenamento distribuído, sem Big Data analítico como unidade.",
+      "foreignLocation": "Teoria 3-4"
+    },
+    {
+      "brTopic": "Utilização de ferramentas para manipulação de dados em larga escala",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cassandra/CQL e Neo4J/Cypher são ferramentas práticas escaláveis, sem pipeline de manipulação Big Data.",
+      "foreignLocation": "Práticas 5-6"
+    },
+    {
+      "brTopic": "Introdução aos bancos de dados NoSQL",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Introdução, vantagens/desvantagens e tipos de NoSQL estão explicitados.",
+      "foreignLocation": "Teoria 4.1-4.3"
+    },
+    {
+      "brTopic": "Caracterização das famílias de bancos de dados NoSQL: chave-valor, documentos, grafos e colunas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "O item 4.3 enumera documental, chave-valor, grafos e tabular.",
+      "foreignLocation": "Teoria 4.3"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Aplicação da linguagem SQL: views, procedures, functions e triggers. Fundamentação sobre paradigmas de persistência: Hierárquico, Relacional e Objeto-relacional. Estudo da modelagem multidimensional (OLAP). Transformação, preparação e carga de dados para uso em aplicações analíticas. Visualização de dados com a utilização de dashboard. Estudo de armazenamento e recuperação de dados em larga escala (Big Data). Utilização de ferramentas para manipulação de dados em larga escala. Introdução aos bancos de dados NoSQL. Caracterização das famílias de bancos de dados NoSQL: chave-valor, documentos, grafos e colunas.",
+    "foreign": [
+      "Implementar bases objeto-relacionais e NoSQL com PL/SQL, CQL e Cypher."
+    ],
+    "convergences": [
+      "A unidade avançada de Cádiz converge com programação de BD e NoSQL, mas deixa sem evidência todo o segmento analítico de OLAP, ETL e dashboards exigido por Tópicos Avançados em Banco de Dados."
+    ],
+    "differences": [
+      "As práticas 3-4 desenvolvem rotinas e disparadores, e teoria 4 cobre integralmente a introdução e famílias NoSQL. Persistência e os dois eixos de larga escala têm apoio parcial em objeto-relacional, distribuição e Cassandra; não há prova de views, OLAP, transformação analítica ou visualização. São seis eixos com alguma correspondência em nove, porém apenas dois completos. As 60 h (30 teoria/30 práticas) representam 94,7% das 63,33 h no valor nominal ou 78,9% com 50 min, ficando o limite principal no conteúdo analítico."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "TÓPICOS AVANÇADOS EM BANCO DE DADOS: etapa 4, 63.33 horas declaradas.",
+    "foreign": "Tecnologias avançadas do 3º/4º ano com projeto Oracle e atividades Cassandra/Neo4J.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "2º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A unidade avançada de Cádiz converge com programação de BD e NoSQL, mas deixa sem evidência todo o segmento analítico de OLAP, ETL e dashboards exigido por Tópicos Avançados em Banco de Dados.",
+  "justification": "As práticas 3-4 desenvolvem rotinas e disparadores, e teoria 4 cobre integralmente a introdução e famílias NoSQL. Persistência e os dois eixos de larga escala têm apoio parcial em objeto-relacional, distribuição e Cassandra; não há prova de views, OLAP, transformação analítica ou visualização. São seis eixos com alguma correspondência em nove, porém apenas dois completos. As 60 h (30 teoria/30 práticas) representam 94,7% das 63,33 h no valor nominal ou 78,9% com 50 min, ficando o limite principal no conteúdo analítico.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora da UCA não declarada; comparação horária condicional.",
+    "Opções genéricas do formulário de idiomas/mobilidade não comprovam oferta em inglês ou vagas."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714054 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "id": "dir|DIREITO DE EMPRESA, DIREITO SOCIETÁRIO E PROPRIEDADE INTELECTUAL E INDUSTRIAL|it-48-universitadegl|CAT-UNISA-26-017",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DE EMPRESA, DIREITO SOCIETÁRIO E PROPRIEDADE INTELECTUAL E INDUSTRIAL",
+    "name": "DIREITO DE EMPRESA, DIREITO SOCIETÁRIO E PROPRIEDADE INTELECTUAL E INDUSTRIAL",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "Página 22, bloco DIREITO DE EMPRESA, DIREITO SOCIETÁRIO E PROPRIEDADE INTELECTUAL E INDUSTRIAL, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "Ementário 2022 histórico; duração da hora e total semestral não estabelecidos."
+    },
+    "topics": [
+      "A disciplina tem como objetivo oferecer ao aluno uma visão ampla do direito de empresa, propriedade intelectual e industrial e relações de consumo",
+      "Direito de Empresa: principais contribuições históricas do Direito Comercial",
+      "da teoria geral do direito societário",
+      "definição de empresa",
+      "sociedade empresária",
+      "o conceito de sócio",
+      "classificação e tipos societários",
+      "sociedades despersonificadas",
+      "sociedades simples",
+      "sociedades limitadas",
+      "sociedades anônimas",
+      "cooperativa",
+      "sociedade dependente de autorização",
+      "Os tópicos avançados em Propriedade intelectual abordam direitos autorais",
+      "tecnologia como um ativo da empresa",
+      "operações de tecnologia (tech transactions)",
+      "a Lei Geral de Proteção de Dados LGPD e data strategy",
+      "negócios online: contratos eletrônicos, assinatura eletrônica e títulos de crédito eletrônicos",
+      "a estruturação de fintechs no Brasil",
+      "Blockchain e Criptomoedas: modelos de negócio e empreendedorismo (startups) e aceleração",
+      "disruption e techs: edtech, fintech, adtech, agrotech, legaltech e outras",
+      "venture capital e investimentos",
+      "inovação: iniciativas público privadas e negotiation",
+      "Propriedade Industrial: conceitos de patentes",
+      "marcas",
+      "desenhos Industriais",
+      "indicações geográficas",
+      "contratos de licença, cessão, transferência de tecnologia e franquia",
+      "e concorrência desleal (proteção a informações confidenciais e segredos de negócio)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "it-48-universitadegl",
+      "university": "Università degli Studi di Salerno",
+      "code": "CAT-UNISA-26-017",
+      "name": "Diritto dell'impresa",
+      "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523770&percorso=0&anno=2026&cds_id=500852&tab=percorsi",
+      "sha256": "886c61e0fca3626b7d3bd9e1af2761832e004e0bdb01da760ed1af4ef2ecba65",
+      "location": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "academicYear": "2026/2027",
+      "language": "Italiano; turma e apoio linguístico a confirmar",
+      "period": "Quadro: primeiro semestre; método: segundo semestre. Divergência a confirmar.",
+      "assessment": "Exame oral",
+      "prerequisites": "Aprovação em Istituzioni di diritto privato é pré-requisito obrigatório",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro 6 CFU/54h; texto preserva regime de 72h e referência a 8 CFU, sem reconciliação."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina tem como objetivo oferecer ao aluno uma visão ampla do direito de empresa, propriedade intelectual e industrial e relações de consumo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Visão do direito de empresa, sem bloco de propriedade intelectual ou consumo",
+      "foreignLocation": "Obiettivi"
+    },
+    {
+      "brTopic": "Direito de Empresa: principais contribuições históricas do Direito Comercial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo inclui história e evolução normativa do direito empresarial",
+      "foreignLocation": "Obiettivi"
+    },
+    {
+      "brTopic": "da teoria geral do direito societário",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Sociedades benefit e SRL PMI aparecem, mas não há teoria geral societária sistematizada",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "definição de empresa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Imprenditore: nozione, categorie, discipline; azienda",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "sociedade empresária",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Empresário e empresa social, sem detalhar sociedade empresária no sistema brasileiro",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "o conceito de sócio",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "classificação e tipos societários",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Sociedades benefit e SRL PMI são tipos específicos; não há classificação completa",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "sociedades despersonificadas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "sociedades simples",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "sociedades limitadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "S.R.L. PMI, equivalente funcional limitado, sem regime brasileiro das limitadas",
+      "foreignLocation": "Contenuti"
+    },
+    {
+      "brTopic": "sociedades anônimas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "cooperativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "sociedade dependente de autorização",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Os tópicos avançados em Propriedade intelectual abordam direitos autorais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "tecnologia como um ativo da empresa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "operações de tecnologia (tech transactions)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "a Lei Geral de Proteção de Dados LGPD e data strategy",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "negócios online: contratos eletrônicos, assinatura eletrônica e títulos de crédito eletrônicos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "a estruturação de fintechs no Brasil",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Blockchain e Criptomoedas: modelos de negócio e empreendedorismo (startups) e aceleração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "disruption e techs: edtech, fintech, adtech, agrotech, legaltech e outras",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "venture capital e investimentos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "inovação: iniciativas público privadas e negotiation",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Propriedade Industrial: conceitos de patentes",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "marcas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "desenhos Industriais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "indicações geográficas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "contratos de licença, cessão, transferência de tecnologia e franquia",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "e concorrência desleal (proteção a informações confidenciais e segredos de negócio)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha Salerno 2026/2027: quadro inicial, Obiettivi, Prerequisiti, Contenuti, Metodi Didattici, Verifica e Testi",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A disciplina tem como objetivo oferecer ao aluno uma visão ampla do direito de empresa, propriedade intelectual e industrial e relações de consumo. Direito de Empresa: principais contribuições históricas do Direito Comercial; da teoria geral do direito societário; definição de empresa; sociedade empresária; o conceito de sócio; classificação e tipos societários; sociedades despersonificadas. sociedades simples; sociedades limitadas; sociedades anônimas; cooperativa; sociedade dependente de autorização. Os tópicos avançados em Propriedade intelectual abordam direitos autorais; tecnologia como um ativo da empresa; operações de tecnologia (tech transactions); a Lei Geral de Proteção de Dados LGPD e data strategy; negócios online: contratos eletrônicos, assinatura eletrônica e títulos de crédito eletrônicos; a estruturação de fintechs no Brasil; Blockchain e Criptomoedas: modelos de negócio e empreendedorismo (startups) e aceleração; disruption e techs: edtech, fintech, adtech, agrotech, legaltech e outras; venture capital e investimentos; inovação: iniciativas público privadas e negotiation. Propriedade Industrial: conceitos de patentes; marcas; desenhos Industriais; indicações geográficas; contratos de licença, cessão, transferência de tecnologia e franquia; e concorrência desleal (proteção a informações confidenciais e segredos de negócio).",
+    "foreign": [
+      "Argumentar e resolver problemas de empresário, estabelecimento, publicidade comercial e escrituração"
+    ],
+    "convergences": [
+      "Diritto dell’Impresa concentra empresário, estabelecimento, auxiliares e escrituração; cobre apenas pequena parte do componente brasileiro que também exige propriedade intelectual e negócios digitais."
+    ],
+    "differences": [
+      "A lista italiana prevê oito núcleos, incluindo empresa social, sociedades benefit, SRL PMI e penhor não possessório. Há sete aproximações em 29 enunciados brasileiros, com somente definição de empresa integralmente coberta; LGPD, blockchain, fintechs, marcas, patentes e contratos de tecnologia não são demonstrados. Além disso, quadro e método divergem em horas e semestre."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 3; referência histórica 2022, sem comprovação de vigência atual.",
+    "foreign": "Argumentar e resolver problemas de empresário, estabelecimento, publicidade comercial e escrituração",
+    "theoryPractice": "Quadro 54h; método 72h e exercícios, seminários e exame oral teórico/aplicativo; carga permanece incerta."
+  },
+  "practical": {
+    "period": "Quadro: primeiro semestre; método: segundo semestre. Divergência a confirmar.",
+    "language": "Italiano; turma e apoio linguístico a confirmar",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Aprovação em Istituzioni di diritto privato é pré-requisito obrigatório",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Diritto dell’Impresa concentra empresário, estabelecimento, auxiliares e escrituração; cobre apenas pequena parte do componente brasileiro que também exige propriedade intelectual e negócios digitais.",
+  "justification": "A lista italiana prevê oito núcleos, incluindo empresa social, sociedades benefit, SRL PMI e penhor não possessório. Há sete aproximações em 29 enunciados brasileiros, com somente definição de empresa integralmente coberta; LGPD, blockchain, fintechs, marcas, patentes e contratos de tecnologia não são demonstrados. Além disso, quadro e método divergem em horas e semestre.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Ementário Direito 2022 histórico, sem comprovação de correspondência à matriz vigente; horas semanais sem base semestral",
+    "54/72 horas e primeiro/segundo semestre divergentes na própria ficha; regime deve ser confirmado."
+  ],
+  "openQuestions": [
+    "A universidade confirma Diritto dell'impresa para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de DIREITO DE EMPRESA, DIREITO SOCIETÁRIO E PROPRIEDADE INTELECTUAL E INDUSTRIAL demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

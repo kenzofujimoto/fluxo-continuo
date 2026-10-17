@@ -1,0 +1,176 @@
+{
+  "id": "adm|Marketing I|es-26-universidaddej|11912003",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Dirección de marketing I",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U136 - Organización de Empresas, Marketing y Sociología",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Segundo cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame final teórico-prático 70%; trabalho em equipe com entrega e exposição 30%",
+      "prerequisites": "Não são necessários",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias (C12, COM10, COM11), Descripción de contenidos (Teoría e Práctica em parágrafo único), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,50 h (75%) e A2a pequeño grupo 37,50 h (25%), ambas com 40% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado."
+      },
+      "sha256": "dab18ab51f11ebf03b94ee05a55571236cb86f8528368a07728b326df9d71ebe",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11912003"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Competencias (C12 'conceitos básicos de Marketing'), Teoría (parágrafo único), Práctica, Bibliografía",
+      "note": "A guia começa em informação e medição de fenômenos comerciais; conceito de marketing e geração de valor só aparecem implícitos no resumo 'dirección y planificación de marketing' e em C12 (competência, não conteúdo).",
+      "essential": true
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "status": "parcial",
+      "foreignEvidence": "'Análisis del atractivo y la demanda de un mercado. Análisis de la competitividad'; COM11 'Evaluar el mercado y el entorno'",
+      "foreignLocation": "Teoría (parágrafo único); Competencias COM11",
+      "note": "Análise de mercado e concorrência cobre parte do ambiente de marketing; macroambiente (demográfico, econômico, cultural) não é citado.",
+      "essential": true
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "status": "coberto",
+      "foreignEvidence": "'Modelos de respuesta del comprador'; RUCT 'Modelos y técnicas de respuesta del comprador'",
+      "foreignLocation": "Teoría (parágrafo único); Resumen RUCT",
+      "note": "Satisfação, valor e fidelidade, citados na ementa brasileira, não são nomeados.",
+      "essential": true
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría (parágrafo único), Práctica, Bibliografía",
+      "note": "O rótulo 'Comportamento Organizacional' da ficha refere-se, pela ementa, ao comportamento do comprador organizacional (B2B); a guia trata só 'comprador' em geral, sem distinguir o mercado organizacional.",
+      "essential": true
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "status": "coberto",
+      "foreignEvidence": "'El proceso de segmentación de mercados y selección de mercados meta. Estrategias de posicionamiento'",
+      "foreignLocation": "Teoría (parágrafo único); Resumen RUCT",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "A informação em marketing e a medição dos fenômenos comerciais",
+      "location": "Teoría"
+    },
+    {
+      "topic": "Estimativa de demanda e investigação de mercados",
+      "location": "Resumen RUCT"
+    },
+    {
+      "topic": "Trabalho de análise de marketing estratégico em equipe",
+      "location": "Práctica; Sistemas de evaluación"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: o que é marketing e geração de valor para cliente e empresa; satisfação, valor, fidelidade, comportamento do consumidor e do comprador organizacional, marketing estratégico com segmentação e posicionamento.",
+    "foreign": [
+      "C12 Conceitos básicos de Marketing",
+      "COM10 Desenhar e implantar estratégias de marketing",
+      "COM11 Avaliar o mercado e o entorno no sistema de informação de marketing"
+    ],
+    "convergences": [
+      "Resposta do comprador/comportamento do consumidor",
+      "Segmentação, mercados-alvo e posicionamento"
+    ],
+    "differences": [
+      "Mackenzie, na 1ª etapa, introduz o conceito de marketing e distingue consumidor e comprador organizacional; Jaén, no 2º curso, pressupõe o conceito e trabalha medição, demanda, competitividade e investigação de mercados",
+      "A guia de Jaén é um parágrafo corrido, menos granular do que a lista de cinco blocos da ficha brasileira"
+    ]
+  },
+  "depth": {
+    "level": "Jaén em nível ligeiramente mais avançado (2º curso, primeira de duas disciplinas de direção de marketing); Mackenzie 1ª etapa",
+    "brazil": "Marketing introdutório de 63,3 h",
+    "foreign": "Direção de marketing I: informação, demanda, segmentação, posicionamento e investigação de mercados",
+    "theoryPractice": "Jaén: casos, exercícios e trabalho em equipe com exposição (30% da nota)"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (primavera europeia), compatível com 2027.2 apenas se o calendário local for confirmado",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC obrigatória de 2º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dirección de marketing I coincide com Marketing I no comportamento do comprador e em segmentação e posicionamento, mas pressupõe o conceito de marketing e não trata o comprador organizacional, de modo que a correspondência é metade conceitual e metade de nível.",
+  "justification": "Dois dos cinco enunciados estão cobertos — comportamento do consumidor, por 'modelos de respuesta del comprador', e segmentação e posicionamento — um é parcial (ambiente de marketing, via análise de atratividade, demanda e competitividade) e dois não aparecem: o significado de marketing e o comportamento do comprador organizacional. Cobertura total ou parcial de 3/5 (60%) e 40% integralmente cobertos. Os cinco blocos da ficha são títulos curtos e o programa de Jaén é um parágrafo corrido, o que limita a precisão. Carga horária não comparável: 63,3 h na ficha, 150 h de atividades na guia sem total presencial.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Os dois textos são curtos e lidos integralmente, mas pouco granulares (um parágrafo na guia, cinco títulos na ficha), e faltam horas presenciais, ECTS e vigência da ficha.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "Programa de Jaén em parágrafo único; conteúdos de aula podem ser mais amplos do que o texto oficial",
+    "O mesmo curso de Jaén é cotejado também com Marketing II neste lote; a mesma guia não pode cobrir ambos integralmente",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceita que o conceito de marketing seja tratado como pré-requisito de nível e não como lacuna?",
+    "Jaén tem UC de Introducción al marketing em 1º curso que cubra o significado de marketing e o comprador organizacional?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a trecho da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência conceitual simples; limitações de granularidade registradas"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

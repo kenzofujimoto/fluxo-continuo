@@ -1,0 +1,150 @@
+{
+  "id": "cc|ENEX60212|gb-leeds|COMP3943",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60212",
+    "name": "TEORIA DA COMPUTAÇÃO E COMPLEXIDADE",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "Página 5, bloco TEORIA DA COMPUTAÇÃO E COMPLEXIDADE, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "M quinas de Turing (notações em baixo nível e em alto nível); tese de Church-Turing",
+      "Decidibilidade e linguagens decidíveis",
+      "Indecidibilidade e linguagens indecidíveis",
+      "Complexidade de Tempo de máquinas de Turing",
+      "Classes de complexidade de tempo P, NP, NP-Completa e NP-difícil",
+      "Intratabilidade"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3943",
+      "name": "Algorithms & Complexity",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3943/202627",
+      "sha256": "32bbd6525673f1f2dd190744ddd030f6e096f1881f407aefbf45c3c811677ab6",
+      "location": "Catálogo Leeds 2026/27 integral: Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus e Teaching Methods",
+      "academicYear": "2026/27",
+      "language": "Inglês; turma de mobilidade a confirmar",
+      "period": "Semester 1 (Sep to Jan)",
+      "assessment": "Método e ponderações de avaliação não publicados no texto consultado.",
+      "prerequisites": "Não especificados na ficha disponível",
+      "hours": {
+        "contactTotal": 55,
+        "contactLecture": 44,
+        "contactSeminarLab": 11,
+        "selfStudy": 145,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "M quinas de Turing (notações em baixo nível e em alto nível); tese de Church-Turing",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo Leeds 2026/27 integral: Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus e Teaching Methods",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Decidibilidade e linguagens decidíveis",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo Leeds 2026/27 integral: Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus e Teaching Methods",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Indecidibilidade e linguagens indecidíveis",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Catálogo Leeds 2026/27 integral: Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus e Teaching Methods",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Complexidade de Tempo de máquinas de Turing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Análise de complexidade temporal e espacial e reduções polinomiais; não explicita máquinas de Turing como modelo",
+      "foreignLocation": "Skills outcomes; Syllabus, NP-completeness"
+    },
+    {
+      "brTopic": "Classes de complexidade de tempo P, NP, NP-Completa e NP-difícil",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Classes P e NP, reduções polinomiais, NP-completude e Cook/Levin/SAT",
+      "foreignLocation": "Syllabus, NP-completeness"
+    },
+    {
+      "brTopic": "Intratabilidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Intratabilidade e respostas por parametrização, aproximação e randomização",
+      "foreignLocation": "Module summary; Syllabus, Parameterized algorithms e Approximation algorithms"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "M quinas de Turing (notações em baixo nível e em alto nível); tese de Church-Turing. Decidibilidade e linguagens decidíveis. Indecidibilidade e linguagens indecidíveis. Complexidade de Tempo de máquinas de Turing. Classes de complexidade de tempo P, NP, NP-Completa e NP-difícil. Intratabilidade.",
+    "foreign": [
+      "Analisar dureza computacional e projetar soluções parametrizadas, aproximadas e aleatorizadas."
+    ],
+    "convergences": [
+      "Algorithms & Complexity sustenta a metade de complexidade e intratabilidade, mas não demonstra os fundamentos de computabilidade exigidos no início de Teoria da Computação."
+    ],
+    "differences": [
+      "Dos seis tópicos, dois estão cobertos, um é parcial e três não encontrados: máquinas de Turing/Church-Turing, decidibilidade e indecidibilidade. As 55h de contato superam 31,67h nominais, mas o tempo adicional é dedicado a kernelização, W[1], aproximação e algoritmos aleatorizados, não a esses fundamentos."
+    ]
+  },
+  "depth": {
+    "level": "Graduação em computação, módulo avançado; Mackenzie na etapa 6 ou 7.",
+    "brazil": "Etapa 7; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Analisar dureza computacional e projetar soluções parametrizadas, aproximadas e aleatorizadas.",
+    "theoryPractice": "44h de lecture e 11h de seminar; exercícios de demonstração e projeto de algoritmos, sem laboratório discriminado."
+  },
+  "practical": {
+    "period": "Semester 1 (Sep to Jan)",
+    "language": "Inglês; turma de mobilidade a confirmar",
+    "enrolment": "Não é discovery module; matrícula de mobilidade depende de autorização específica.",
+    "prerequisites": "Não especificados na ficha disponível",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Algorithms & Complexity sustenta a metade de complexidade e intratabilidade, mas não demonstra os fundamentos de computabilidade exigidos no início de Teoria da Computação.",
+  "justification": "Dos seis tópicos, dois estão cobertos, um é parcial e três não encontrados: máquinas de Turing/Church-Turing, decidibilidade e indecidibilidade. As 55h de contato superam 31,67h nominais, mas o tempo adicional é dedicado a kernelização, W[1], aproximação e algoritmos aleatorizados, não a esses fundamentos.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Algorithms & Complexity para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENEX60212 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

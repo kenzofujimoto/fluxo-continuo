@@ -1,0 +1,214 @@
+{
+  "id": "adm|Contabilidade de Custos|es-salamanca|CAT-USAL-210032",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade de Custos",
+    "name": "Contabilidade de Custos",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 3, bloco 'Contabilidade de Custos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "Custos Fixos e Variáveis)",
+      "Métodos de contabilização de estoques",
+      "Custeio por Absorção (Com e sem Departamentalização)",
+      "Custeio Variável",
+      "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "Tributos sobre a Receita e formação de preços",
+      "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "Etapas do processo orçamentário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210032",
+      "name": "Análisis de Estados Financieros",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Economía Financiera y Contabilidad)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "Primer Semestre (campo 'Periodicidad'), 3º curso; 15 semanas lectivas + 3 de exames",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "OBLIGATORIA",
+      "assessment": "Avaliação contínua 40% (questionários, trabalhos práticos; frequência mínima 70%) + exame final teórico e prático 60% (mínimo 3,5/10 em cada parte)",
+      "prerequisites": "Recomendadas: Sistemas de Información Contable, Análisis de Operaciones Económicas, Sistemas de Información Contable Internos",
+      "source": "https://guias.usal.es/node/238353",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "ad075730339513d1b1be89fadc0501d3be18123d67d0885ccdc20bcab9553dce",
+      "location": "Guia 2026/2027: seções 1 (datos), 2 (recomendaciones), 3 (objetivos), 4 (14 competencias), 5 (Temas 1-6), 6 (metodologías com horas), 9 (evaluación)",
+      "officialCode": "103823",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": 15,
+        "contactSeminarLab": 20,
+        "selfStudy": 78,
+        "totalWorkload": 150,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS; 'dedicación media del alumno de 150 horas'. Seção 6: sessões teóricas presenciais 15 h, práticas 20 h, tutorias 7 h ('presenciales o de interacción obligatoria'), trabalho não presencial 78 h e preparação do exame 30 h. O guia não declara um total de contato; por isso contactTotal fica nulo e a duração da hora não é informada. Código oficial: 103823."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-6, 25 subitens), seção 3 (objetivos) e seção 4 (14 competências) lidas; a disciplina analisa estados contábeis publicados, não apura custos de produtos. Nenhum tema define custos, despesas, custos diretos e indiretos.",
+      "note": "Os dois primeiros enunciados da ficha são uma única frase partida na extração (custos e despesas, diretos e indiretos, fixos e variáveis)."
+    },
+    {
+      "brTopic": "Custos Fixos e Variáveis)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-6, 25 subitens), seção 3 (objetivos) e seção 4 (14 competências) lidas; a disciplina analisa estados contábeis publicados, não apura custos de produtos. A classificação de custos em fixos e variáveis só é pressuposta no tema 3.6 (ponto morto).",
+      "note": "Ver nota do enunciado anterior; o 3.6 é avaliado em Custo/Volume/Lucro."
+    },
+    {
+      "brTopic": "Métodos de contabilização de estoques",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-6, 25 subitens), seção 3 (objetivos) e seção 4 (14 competências) lidas; a disciplina analisa estados contábeis publicados, não apura custos de produtos. Tema 5.2 trata rotação do circulante, não métodos de avaliação de estoques."
+    },
+    {
+      "brTopic": "Custeio por Absorção (Com e sem Departamentalização)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-6, 25 subitens), seção 3 (objetivos) e seção 4 (14 competências) lidas; a disciplina analisa estados contábeis publicados, não apura custos de produtos. Sem custeio por absorção nem departamentalização."
+    },
+    {
+      "brTopic": "Custeio Variável",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-6, 25 subitens), seção 3 (objetivos) e seção 4 (14 competências) lidas; a disciplina analisa estados contábeis publicados, não apura custos de produtos. Sem custeio variável."
+    },
+    {
+      "brTopic": "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "3.6 'El punto muerto o umbral de rentabilidad y el apalancamiento operativo'",
+      "foreignLocation": "Seção 5, Tema 3, item 3.6",
+      "note": "Cobre ponto de equilíbrio e alavancagem, no contexto de análise de demonstrações; sem as demais relações custo/volume/lucro."
+    },
+    {
+      "brTopic": "Tributos sobre a Receita e formação de preços",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-6, 25 subitens), seção 3 (objetivos) e seção 4 (14 competências) lidas; a disciplina analisa estados contábeis publicados, não apura custos de produtos. Sem tributos sobre receita nem formação de preços."
+    },
+    {
+      "brTopic": "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-6, 25 subitens), seção 3 (objetivos) e seção 4 (14 competências) lidas; a disciplina analisa estados contábeis publicados, não apura custos de produtos. Planeja apenas informes de diagnóstico (competência 14); não há orçamento."
+    },
+    {
+      "brTopic": "Etapas do processo orçamentário",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-6, 25 subitens), seção 3 (objetivos) e seção 4 (14 competências) lidas; a disciplina analisa estados contábeis publicados, não apura custos de produtos. Sem processo orçamentário."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Análise da situação patrimonial e solvência (Tema 2)",
+      "location": "Seção 5, Tema 2"
+    },
+    {
+      "topic": "Análise do resultado, rentabilidade e produtividade; Estado de Valor Agregado (Tema 3)",
+      "location": "Seção 5, Tema 3"
+    },
+    {
+      "topic": "Estado de Fluxos de Efectivo e variações patrimoniais (Tema 4)",
+      "location": "Seção 5, Tema 4"
+    },
+    {
+      "topic": "Capital circulante, fundo de manejo e estrutura permanente; alavancagem financeira (Temas 5-6)",
+      "location": "Seção 5, Temas 5-6"
+    },
+    {
+      "topic": "Métodos de avaliação de empresas",
+      "location": "Seção 3, último objetivo; seção 4, competência 5"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: contabilidade gerencial para decisão, comportamento de custos e despesas, custeio por absorção e direto, ponto de equilíbrio, formação de preços, tributos e orçamento.",
+    "foreign": [
+      "Interpretar estados financeiros e as contas anuais",
+      "Diagnosticar a situação econômica e financeira e relacioná-la ao setor",
+      "Analisar rentabilidade, custos e produtividade (competência 12)",
+      "Aplicar métodos de avaliação de empresas"
+    ],
+    "convergences": [
+      "Ponto de equilíbrio e alavancagem operacional (item 3.6)",
+      "Uso de informação contábil para decisões gerenciais"
+    ],
+    "differences": [
+      "Salamanca é contabilidade financeira externa (análise de balanços); Mackenzie é contabilidade gerencial interna de custos",
+      "Mackenzie tem custeio, estoques, preços e orçamento, todos ausentes",
+      "Salamanca acrescenta solvência, fluxos de caixa e avaliação de empresas"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Mackenzie na 4ª etapa, Salamanca obrigatória do 3º curso",
+    "brazil": "Disciplina de 63,3 h com 9 enunciados de custos, preços e orçamento",
+    "foreign": "Obrigatória de 6 ECTS com 6 temas (25 subitens) e 150 h de dedicação do aluno",
+    "theoryPractice": "Salamanca: 15 h teóricas + 20 h práticas com casos e ferramentas informáticas; avaliação 40% contínua e 60% exame"
+  },
+  "practical": {
+    "period": "Primeiro semestre (setembro a janeiro), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Obrigatória do 3º curso, três grupos; pré-requisitos recomendados de contabilidade; aceitação de intercambista não verificada",
+    "prerequisites": "Recomendadas: Sistemas de Información Contable, Análisis de Operaciones Económicas, Sistemas de Información Contable Internos",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A disciplina de Salamanca que o catálogo associa ao nome de Contabilidade de Custos é Análisis de Estados Financieros: só o ponto de equilíbrio (item 3.6) coincide, e custeio, estoques, preços e orçamento não aparecem.",
+  "justification": "O guia 2026/2027 do código CAT-USAL-210032 chama-se Análisis de Estados Financieros, não contabilidade de custos. Apenas 1 dos 9 enunciados está coberto (relações custo/volume/lucro, via ponto morto e alavancagem operacional do item 3.6) e 8 não foram encontrados nos Temas 1-6: terminologia de custos, fixos e variáveis, estoques, custeio por absorção, custeio variável, tributos e preços, planejamento e processo orçamentário. A cobertura de 1/9 define baixa afinidade. Salamanca declara 15 h teóricas e 20 h práticas, mas não um total de contato, e a hora não é caracterizada, então a carga segue não comparável com as 63,3 h Mackenzie.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia 2026/2027 completo, com temas e horas por atividade, porém sem total de contato; ficha brasileira sem vigência confirmada. A divergência de objeto é inequívoca.",
+  "limitations": [
+    "Anomalia de catálogo: o código CAT-USAL-210032 aponta para 'Análisis de Estados Financieros'; a fonte registrada em programas.json é guias.usal.es/node/238353, não node/210032",
+    "Horas por atividade declaradas (15 h teóricas, 20 h práticas, 7 h tutorias), sem total de contato semestral; 6 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "Os dois primeiros enunciados brasileiros são uma frase partida na extração",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A USAL oferece uma disciplina de Contabilidad de Costes/Dirección de Costes em Administración y Dirección de Empresas que contenha custeio e orçamento?",
+    "Os 'Sistemas de Información Contable Internos' (pré-requisito recomendado) tratam custos e orçamento?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência clara dos temas centrais; documento completo e atual"
+  }
+}

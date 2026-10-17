@@ -1,0 +1,584 @@
+{
+  "origin": {
+    "name": "Mackenzie Alphaville",
+    "lat": -23.488262,
+    "lng": -46.832539,
+    "city": "Barueri",
+    "precision": "campus",
+    "source": "https://commons.wikimedia.org/wiki/File:Universidade_Mackenzie_-_Campus_Alphaville_(Tambor%C3%A9).jpg",
+    "verifiedAt": "2026-10-16",
+    "locationNote": "Geotag da câmera de foto do campus, aproximado; não levantamento de limites ou ponto de entrada. Endereço institucional: https://portal.mackenzie.br/universidade/alphaville-tambore"
+  },
+  "universities": [
+    {
+      "universityId": "al-3-bauhausunivers",
+      "lat": 50.9745,
+      "lng": 11.3291,
+      "city": "Weimar",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q573975",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "al-4-leibnizunivers",
+      "lat": 52.382222222222225,
+      "lng": 9.717777777777778,
+      "city": "Hannover",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q678982",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "ar-6-universidadcat",
+      "lat": -31.419194,
+      "lng": -64.186917,
+      "city": "Córdoba",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1736398",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "ar-7-universidaddec",
+      "lat": -32.894238341763,
+      "lng": -68.84173737253217,
+      "city": "Mendoza",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q6156753",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "ar-cordoba",
+      "lat": -31.4375,
+      "lng": -64.18777778,
+      "city": "Córdoba",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1570489",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "bo-ueb",
+      "lat": -17.789166666667,
+      "lng": -63.1975,
+      "city": "Santa Cruz de la Sierra",
+      "precision": "city",
+      "source": "https://www.wikidata.org/wiki/Q170688",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Centro da cidade, não coordenada de campus. Cidade vinculada à instituição em https://www.wikidata.org/wiki/Q30294038"
+    },
+    {
+      "universityId": "bo-12-universidadpri",
+      "lat": -17.3935419,
+      "lng": -66.1570139,
+      "city": "Cochabamba",
+      "precision": "city",
+      "source": "https://www.wikidata.org/wiki/Q183124",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Centro da cidade, não coordenada de campus. Cidade vinculada à instituição em https://www.wikidata.org/wiki/Q30293988"
+    },
+    {
+      "universityId": "be-9-hasseltunivers",
+      "lat": 50.930480555556,
+      "lng": 5.3384972222222,
+      "city": "Hasselt",
+      "precision": "city",
+      "source": "https://www.wikidata.org/wiki/Q58780",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Centro da cidade, não coordenada de campus. Cidade vinculada à instituição em https://www.wikidata.org/wiki/Q1781858"
+    },
+    {
+      "universityId": "be-10-kuleuven",
+      "lat": 50.87796336853561,
+      "lng": 4.70029370854174,
+      "city": "Leuven",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q833670",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "ch-13-universidaddec",
+      "lat": -33.44454888888889,
+      "lng": -70.65095388888889,
+      "city": "Santiago",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q232141",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "ch-15-universidaddie",
+      "lat": -33.451355,
+      "lng": -70.659757,
+      "city": "Santiago",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1316229",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "ch-14-universidadfin",
+      "lat": -33.436959,
+      "lng": -70.60851,
+      "city": "Santiago",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1812621",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "co-17-universidaddel",
+      "lat": 4.6012,
+      "lng": -74.0657,
+      "city": "Bogotá",
+      "precision": "city",
+      "source": "https://www.wikidata.org/wiki/Q1569421",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Localização institucional aproximada, com precisão geográfica de cidade na fonte."
+    },
+    {
+      "universityId": "co-18-universidaddem",
+      "lat": 6.2311,
+      "lng": -75.6115,
+      "city": "Medellín",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q6156785",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "co-rosario",
+      "lat": 4.600231,
+      "lng": -74.073465,
+      "city": "Bogotá",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q3997334",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "co-20-universidadlag",
+      "lat": 4.601175,
+      "lng": -74.06566111,
+      "city": "Bogotá",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q6156504",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "kr-chung",
+      "lat": 37.50489,
+      "lng": 126.95503,
+      "city": "Seoul",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q41790",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "co-23-konkukuniversi",
+      "lat": 37.54194444444445,
+      "lng": 127.07638888888889,
+      "city": "Seoul",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q41765",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "co-22-kyungpooknatio",
+      "lat": 35.891388888889,
+      "lng": 128.61055555556,
+      "city": "Daegu",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q487841",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "co-24-solbridgeinter",
+      "lat": 36.33833333,
+      "lng": 127.43222222,
+      "city": "Daejeon",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q16979171",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "co-25-soongsiluniver",
+      "lat": 37.496295,
+      "lng": 126.95627,
+      "city": "Seoul",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q489331",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "es-cadiz",
+      "lat": 36.535833333333,
+      "lng": -6.2941666666667,
+      "city": "Cádiz",
+      "precision": "city",
+      "source": "https://www.wikidata.org/wiki/Q2000065",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Localização institucional aproximada, com precisão geográfica de cidade na fonte."
+    },
+    {
+      "universityId": "es-26-universidaddej",
+      "lat": 37.78611111,
+      "lng": -3.77416667,
+      "city": "Jaén",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q573144",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "es-salamanca",
+      "lat": 40.96138888888889,
+      "lng": -5.666666666666667,
+      "city": "Salamanca",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q308963",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "es-29-universitataut",
+      "lat": 41.500277777778,
+      "lng": 2.1077777777778,
+      "city": "Cerdanyola del Vallès",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q43452",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "eu-35-dukeuniversity",
+      "lat": 36.001111111111,
+      "lng": -78.938888888889,
+      "city": "Durham",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q168751",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "eu-31-northeasternil",
+      "lat": 41.9807,
+      "lng": -87.717,
+      "city": "Chicago",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q2000943",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "us-pittsburg",
+      "lat": 37.3913,
+      "lng": -94.7036,
+      "city": "Pittsburg",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q2097334",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "eu-33-theohiostateun",
+      "lat": 40.00055555555556,
+      "lng": -83.01444444444445,
+      "city": "Columbus",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q309331",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "eu-32-universityofte",
+      "lat": 32.730666666667,
+      "lng": -97.114583333333,
+      "city": "Arlington",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1230739",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "eu-34-wrightstateuni",
+      "lat": 39.779816,
+      "lng": -84.064765,
+      "city": "Fairborn",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q2002085",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "fr-39-isginternation",
+      "lat": 48.8672375,
+      "lng": 2.2759255555555553,
+      "city": "Paris",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1659456",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "fr-36-ecolenationale",
+      "lat": 48.80194,
+      "lng": 2.12694,
+      "city": "Versailles",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1050988",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "gb-leeds",
+      "lat": 53.807222222222,
+      "lng": -1.5516666666667,
+      "city": "Leeds",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q503424",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "ie-setu",
+      "lat": 52.246063,
+      "lng": -7.138733,
+      "city": "Waterford",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q55670387",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "it-49-almamaterstudi",
+      "lat": 44.493888888889,
+      "lng": 11.342777777778,
+      "city": "Bologna",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q131262",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "it-51-politecnicodim",
+      "lat": 45.478030555555556,
+      "lng": 9.227319444444445,
+      "city": "Milano",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q392904",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "it-46-universitadegl",
+      "lat": 44.842166666667,
+      "lng": 11.616305555556,
+      "city": "Ferrara",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q955609",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "it-50-universitadegl",
+      "lat": 43.77777,
+      "lng": 11.25951,
+      "city": "Firenze",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q820887",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "it-45-universitadegl",
+      "lat": 42.3696129,
+      "lng": 14.1457,
+      "city": "Chieti",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q2261128",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "it-47-universitadegl",
+      "lat": 41.849444444444444,
+      "lng": 12.627222222222223,
+      "city": "Roma",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1031803",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "it-48-universitadegl",
+      "lat": 40.771111111111,
+      "lng": 14.790555555556,
+      "city": "Fisciano",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1633215",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "po-54-institutopolit",
+      "lat": 39.8214565,
+      "lng": -7.5008732,
+      "city": "Castelo Branco",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q7227029",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "po-55-institutopolit",
+      "lat": 40.2048285,
+      "lng": -8.4563921,
+      "city": "Coimbra",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q2103165",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "po-61-universidadeca",
+      "lat": 38.749074,
+      "lng": -9.165963,
+      "city": "Lisboa",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q970751",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "pt-ubi",
+      "lat": 40.2774,
+      "lng": -7.50887,
+      "city": "Covilhã",
+      "precision": "city",
+      "source": "https://www.wikidata.org/wiki/Q846725",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Localização institucional aproximada, com precisão geográfica de cidade na fonte."
+    },
+    {
+      "universityId": "pt-coimbra",
+      "lat": 40.2074,
+      "lng": -8.4265,
+      "city": "Coimbra",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q368643",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "po-56-universidadede",
+      "lat": 38.7525,
+      "lng": -9.1588888888889,
+      "city": "Lisboa",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1122926",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "pt-utad",
+      "lat": 41.28738,
+      "lng": -7.7389388,
+      "city": "Vila Real",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q3309132",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "pt-porto",
+      "lat": 41.14666667,
+      "lng": -8.61555556,
+      "city": "Porto",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q1422903",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "po-63-universidadelu",
+      "lat": 38.69787,
+      "lng": -9.192153,
+      "city": "Lisboa",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q635878",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "po-57-universidadeno",
+      "lat": 38.7336,
+      "lng": -9.16028,
+      "city": "Lisboa",
+      "precision": "city",
+      "source": "https://www.wikidata.org/wiki/Q1979891",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Localização institucional aproximada, com precisão geográfica de cidade na fonte."
+    },
+    {
+      "universityId": "ro-babes",
+      "lat": 46.767777777778,
+      "lng": 23.591111111111,
+      "city": "Cluj-Napoca",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q538452",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "tu-66-istanbulaydnun",
+      "lat": 40.99061,
+      "lng": 28.7972317,
+      "city": "Istanbul",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q6088582",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "tu-67-nevsehirhacbek",
+      "lat": 38.6752,
+      "lng": 34.7422,
+      "city": "Nevşehir",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q6059990",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "at-graz",
+      "lat": 47.068888888889,
+      "lng": 15.45,
+      "city": "Graz",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q689775",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    },
+    {
+      "universityId": "in-41-bmlmunjalunive",
+      "lat": 28.247227777777777,
+      "lng": 76.81458888888889,
+      "city": "Kapriwas",
+      "precision": "campus",
+      "source": "https://www.wikidata.org/wiki/Q18355854",
+      "verifiedAt": "2026-10-16",
+      "locationNote": "Ponto institucional registrado no Wikidata; não confirma o campus de oferta da disciplina."
+    }
+  ]
+}

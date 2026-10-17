@@ -1,0 +1,179 @@
+{
+  "id": "adm|Políticas e Práticas de Gestão de Pessoas|gb-leeds|LUBS3855",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Políticas e Práticas de Gestão de Pessoas",
+    "name": "Políticas e Práticas de Gestão de Pessoas",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 10, bloco 'Políticas e Práticas de Gestão de Pessoas': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução à gestão de pessoas: a perspectiva estratégica",
+      "Políticas e Práticas de Captação e Movimentação de pessoas – Recrutamento, seleção e expatriação",
+      "Políticas e práticas de Desenvolvimento de pessoas – Treinamento, Gestão do conhecimento e universidade corporativa",
+      "Políticas e práticas de remuneração estratégica",
+      "Gestão do desempenho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS3855",
+      "name": "Strategic Human Resource Management",
+      "pageCode": "LUBS3855",
+      "faculty": "Não indicada na página do módulo",
+      "programme": "Catálogo de módulos de graduação 2026/27 (Undergraduate Module Catalogue)",
+      "level": "Graduação (UG); código 3xxx sugere ano final, o que a página não declara",
+      "yearOfStudy": null,
+      "semester": "Semester 1 (set a jan)",
+      "period": "Semester 1 (set a jan)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de catálogo (optativo para o intercambista)",
+      "assessment": "Trabalho de 3.000 palavras (100%); reavaliação por trabalho de 3.000 palavras",
+      "prerequisites": "Nenhum listado",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/3855/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "13e44e07d75478d0fd36472c920873e0645a991fb8300f48e425d65a205c2ead",
+      "location": "Página do módulo 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 19,
+        "contactLecture": 10,
+        "contactSeminarLab": 9,
+        "selfStudy": 181,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Catálogo: 20 UK credits (não são ECTS; 200 h de trabalho total). Contato: 10 aulas de 1 h + 9 seminários de 1 h = 19 h. Duração da hora não declarada. Módulo de um só semestre (Semester 1)."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução à gestão de pessoas: a perspectiva estratégica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Introduction to SHRM/Context of HRM'; outcome: 'Identify models of strategic HRM and the potential and actual connection between HRM and performance'",
+      "foreignLocation": "Syllabus, 1º item; Learning outcomes 2 e 5"
+    },
+    {
+      "brTopic": "Políticas e Práticas de Captação e Movimentação de pessoas – Recrutamento, seleção e expatriação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Recruitment and selection' e 'International HRM/Managing Expatriates'",
+      "foreignLocation": "Syllabus, 3º e 10º itens; Learning outcomes 3",
+      "note": "Movimentação interna não é nomeada; reestruturação e redundância aparecem como itens adicionais (8º)."
+    },
+    {
+      "brTopic": "Políticas e práticas de Desenvolvimento de pessoas – Treinamento, Gestão do conhecimento e universidade corporativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Training and learning at work'",
+      "foreignLocation": "Syllabus, 4º item",
+      "note": "Treinamento coberto; gestão do conhecimento e universidade corporativa não são nomeadas."
+    },
+    {
+      "brTopic": "Políticas e práticas de remuneração estratégica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Reward management'; summary: 'pay and reward'",
+      "foreignLocation": "Syllabus, 5º item; Module summary",
+      "note": "O enfoque 'estratégico' decorre do módulo inteiro tratar da ligação entre HRM, estratégia e desempenho."
+    },
+    {
+      "brTopic": "Gestão do desempenho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Syllabus: 'Performance management'",
+      "foreignLocation": "Syllabus, 7º item; Module summary"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Relação entre HRM e desempenho: criação de valor, métricas e sistemas de trabalho de alto desempenho",
+      "location": "Syllabus, 2º item"
+    },
+    {
+      "topic": "Mudança do papel do profissional de RH e terceirização de RH",
+      "location": "Syllabus, 6º item; Learning outcomes 4"
+    },
+    {
+      "topic": "Reestruturação e redundância; desenho de sistemas de emprego e trabalho temporário; participação e envolvimento",
+      "location": "Syllabus, itens 8, 9 e 11"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: abordagens contemporâneas de políticas e práticas de gestão de pessoas sob perspectiva estratégica: recrutar, selecionar, desenvolver, avaliar desempenho e recompensar.",
+    "foreign": [
+      "Avaliar a aplicação prática de modelos teóricos de HRM e desenvolvimento",
+      "Analisar criticamente os problemas e debates de tornar o HRM estratégico",
+      "Analisar questões contemporâneas: sistemas de emprego, HRM internacional e expatriados",
+      "Identificar modelos de SHRM e sua ligação com desempenho"
+    ],
+    "convergences": [
+      "Perspectiva estratégica de gestão de pessoas",
+      "Recrutamento e seleção, expatriação",
+      "Treinamento, remuneração e gestão do desempenho"
+    ],
+    "differences": [
+      "Leeds é fortemente orientado por pesquisa e crítica de modelos; a ficha brasileira lista práticas",
+      "Leeds inclui reestruturação, participação e terceirização, ausentes na ficha brasileira",
+      "Gestão do conhecimento e universidade corporativa são citadas só no Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Leeds com código de ano final, Mackenzie na 6ª etapa",
+    "brazil": "Políticas e práticas de gestão de pessoas, 63,3 h",
+    "foreign": "Gestão estratégica de pessoas com ênfase em evidência de pesquisa, 19 h de contato e 200 h de trabalho total",
+    "theoryPractice": "10 aulas e 9 seminários de 1 h; avaliação por trabalho de 3.000 palavras"
+  },
+  "practical": {
+    "period": "Semester 1 (set a jan) no catálogo 2026/27; em tese coincide com a mobilidade 2027.2, mas a oferta de 2027/28 não foi publicada",
+    "language": "Inglês (planilha institucional: exigência de IELTS 6.0, TOEFL iBT 87 ou equivalente)",
+    "enrolment": "Catálogo indica o módulo como disponível a estudantes de intercâmbio (study abroad); aprovado como 'discovery module'; turma de 126 alunos",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "LUBS3855 cobre explicitamente quatro dos cinco eixos da ficha de Políticas e Práticas de Gestão de Pessoas (visão estratégica, recrutamento e expatriação, remuneração, desempenho) e treinamento, mas com 19 h de contato contra 63,3 h.",
+  "justification": "Quatro tópicos estão cobertos por itens nomeados do Syllabus e o de desenvolvimento de pessoas é parcial, porque 'Training and learning at work' não menciona gestão do conhecimento nem universidade corporativa; o conteúdo atinge 80% de cobertura integral sem tópico ausente. A classe é afinidade parcial e não alta porque as 19 h de contato equivalem a 30% das 63,3 h da ficha (25% com hora de 50 min), muito abaixo dos 75% do parâmetro COI, e porque a ficha brasileira não tem vigência confirmada. O módulo de 20 UK credits tem 200 h de trabalho total, mas essas horas são de estudo privado, não de contato.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Syllabus de 11 itens e horas explícitas; sem leitura do Minerva e com ficha brasileira de vigência não confirmada.",
+  "limitations": [
+    "Horas de contato semestrais declaradas (19 h), mas duração da hora não informada; 20 UK credits e as 181 h de estudo privado não convertidos em horas de aula",
+    "Gestão do conhecimento e universidade corporativa não aparecem no catálogo; podem existir no material do Minerva",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Leeds considera as 19 h de contato mais as 181 h de estudo privado orientado como carga equivalente para fins de intercâmbio?",
+    "O material do Minerva trata de gestão do conhecimento e de universidade corporativa dentro de 'Training and learning at work'?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 6) e da página do módulo LUBS3855 no catálogo 2026/27 de Leeds, com apoio de IA (Claude); cada tópico vinculado ao item do Syllabus; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência itemizada; limitação de horas já registrada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

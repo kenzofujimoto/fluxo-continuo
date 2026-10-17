@@ -1,0 +1,166 @@
+{
+  "id": "cc|ENEX54366|es-cadiz|21714016",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54366",
+    "name": "Estrutura de Dados II",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 3, bloco 'Comp. Curricular ESTRUTURA DE DADOS II', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h-relógio e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações",
+      "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714016",
+      "name": "Estructuras de Datos no Lineales",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo II Formación común a la rama de Informática, materia II.2 Programación de computadores",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 2,
+      "semester": "Segundo semestre",
+      "period": "2º semestre do ano letivo espanhol (aproximadamente fevereiro a junho)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame escrito teórico-prático 80%; provas de resultados de atividades de aprendizagem (rubricas) 20%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714016",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "6126a76fe39413007be0fc80eed7b44e4961235f8c4c3fa698b36fa2de25bdde",
+      "location": "Programa docente 2026-27: cabeçalho (créditos, tipo, duração, curso, idioma), 'Resultados de aprendizaje' 1-4, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-3 (práticas 1-8), 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro 'Actividades y metodologías docentes': 60 h presenciais = Teoría 24 + Prácticas, seminarios y problemas 12 + Prácticas de informática 24; 86 h não presenciais e 4 h de avaliação (exame final); 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo das estruturas de dados não-lineares (árvores binárias, árvores binárias de busca, árvores balanceadas (AVL e B), tabela de dispersão e mapas) e suas aplicações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 1: árvores binárias (1.2), árvores binárias de busca (1.5.1), árvores de busca equilibradas (1.5.2), árvores B (1.5.3), tabelas hash (1.5.4); Tema 2 grafos",
+      "foreignLocation": "Temario, Tema 1 (1.2-1.6) e Tema 2; Prácticas 1-8",
+      "note": "AVL não é citada pelo nome (aparece como 'árboles de búsqueda equilibrados') e 'mapas' não é título de item; tabelas hash e árvores de busca cobrem a função de mapa. Cádiz acrescenta árvores gerais, montículos, filas com prioridade e grafos (Dijkstra, Floyd, Warshall, Prim, Kruskal)."
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "RA 3: escolher entre implementações alternativas e 'razonar sobre la solución escogida en función de los recursos necesarios (tiempo de ejecución, espacio requerido)'; temário especifica operações e implementações",
+      "foreignLocation": "Resultados de aprendizaje 3; Temario Tema 1 (1.2.1, 1.3.1 especificação de operações; 1.2.2-1.2.4 implementações)",
+      "note": "Nenhum item do temário nem dos resultados cita notação assintótica ou complexidade das operações; a análise de custo fica implícita na comparação de implementações (vetorial x células encadeadas). A análise assintótica formal está em 21714014."
+    },
+    {
+      "brTopic": "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Práticas de informática (24 h) com problemas de programação 'empleando un lenguaje orientado a objetos'; Prácticas 1-8 de árvores e grafos; RA 1 e 4",
+      "foreignLocation": "Actividades y metodologías docentes, código 03; Temario, Tema 3 (Prácticas 1-8); Resultados de aprendizaje 1 e 4"
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Cabeçalho, resultados de aprendizagem 1-4, quadro de atividades, sistema de avaliação, temário completo (Temas 1-3), bibliografia e comentários; nenhuma atividade de extensão ou projeto com a comunidade",
+      "note": "Item não curricular de conteúdo (carga de extensão exigida pelo Mackenzie); documento estrangeiro não o prevê e a lacuna não é tratada como reprovação."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Grafos: representações (matriz e listas de adjacência), buscas em profundidade e largura", "location": "Temario, Tema 2 (2.1-2.3)"},
+    {"topic": "Caminhos de custo mínimo (Dijkstra, Floyd, Warshall) e árvores de extensão mínima (Prim, Kruskal)", "location": "Temario, Tema 2 (2.4-2.5)"},
+    {"topic": "Árvores gerais e árvores parcialmente ordenadas (montículos), filas com prioridade", "location": "Temario, Tema 1 (1.3, 1.6)"},
+    {"topic": "Percursos de árvores em profundidade e largura", "location": "Temario, Tema 1 (1.4)"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Desenvolver programas baseados em TAD independentes da implementação (RA 1)",
+      "Organizar o volume de dados do modo mais racional segundo os requisitos do problema (RA 2)",
+      "Escolher entre implementações alternativas de uma abstração e justificar pelos recursos de tempo e espaço (RA 3)"
+    ],
+    "convergences": [
+      "Árvores binárias, árvores de busca, árvores B e tabelas hash como núcleo",
+      "Implementação em linguagem orientada a objetos com prática intensiva"
+    ],
+    "differences": [
+      "Cádiz inclui grafos e algoritmos de caminho mínimo e árvore geradora mínima (Tema 2), que o Mackenzie trata em Teoria dos Grafos",
+      "Mackenzie declara a eficiência assintótica por estrutura e as práticas de extensão; Cádiz fundamenta a escolha de implementação em tempo e espaço sem citar notação assintótica",
+      "AVL e mapas são nomeados no Mackenzie; em Cádiz aparecem como árvores equilibradas genéricas e tabelas hash"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Cádiz obrigatória do 2º curso (2º semestre), Mackenzie obrigatória da 4ª etapa",
+    "brazil": "Metade teórica e metade prática (2+2 h-a semanais)",
+    "foreign": "60 h presenciais: 24 teoria, 12 seminários e problemas, 24 práticas de informática distribuídas em oito roteiros (cinco de árvores, três de grafos)",
+    "theoryPractice": "Teoria 40% e seminário/prática 60% do contato em Cádiz, contra 50/50 no Mackenzie"
+  },
+  "practical": {
+    "period": "'Duración: SEGUNDO SEMESTRE' (aproximadamente fevereiro a junho); não coincide com um semestre 2027.2 do Mackenzie (agosto a dezembro) se a programação 2027/28 se mantiver",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Obrigatória com 311 matriculados em 2026-27; secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado; o conteúdo pressupõe TAD e estruturas lineares, ensinados em 21714014 no 1º semestre",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Cádiz ministra em Estructuras de Datos no Lineales as árvores binárias, de busca, equilibradas e B, as tabelas hash e ainda grafos, com 24 h de prática em linguagem orientada a objetos, o que cobre dois dos três tópicos essenciais de Estrutura de Dados II; a eficiência assintótica por estrutura não é nomeada neste programa.",
+  "justification": "Dois tópicos essenciais estão cobertos (estruturas não lineares nos Temas 1-2; implementação orientada a objetos nos roteiros de prática 1-8) e um é parcial (custo assintótico das operações só implícito no RA 3), com 67% de cobertura plena, abaixo do parâmetro de 75%. O item 'Práticas de extensão' foi tratado como não essencial e não encontrado. As 60 h presenciais declaradas equivalem a 94,7% das 63,33 h do Mackenzie pelo valor nominal e a 78,9% com hora de 50 minutos. Cerca de metade do temário espanhol é grafos (Dijkstra, Prim, Kruskal), conteúdo de Teoria dos Grafos e não de Estrutura de Dados II, e a disciplina ocorre no segundo semestre espanhol.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 completo, com temário, oito roteiros de prática e horas presenciais discriminadas; reduzem a confiança a duração não declarada da hora espanhola, a ausência de objetivo explícito sobre complexidade e a oferta 2027/28 em semestre diferente não confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 e vaga para estudante de mobilidade internacional não confirmadas (secção 'Movilidad' vazia); disciplina de segundo semestre espanhol, possivelmente fora do período 2027.2",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 se a hora for de 50 minutos",
+    "O temário lista títulos; a análise de custo das operações pode ser tratada em aula sem constar do documento, o que não foi presumido",
+    "'Práticas de extensão' tratado como item não essencial; sem equivalente documental",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceitaria 21714016 como cobertura parcial, com complementação de eficiência assintótica por estrutura e extensão?",
+    "A Escuela Superior de Ingeniería aceita mobilidade na turma do 2º semestre e a disciplina se ajusta ao calendário de intercâmbio escolhido?",
+    "Os grafos do Tema 2 podem contar também para Teoria dos Grafos, sem dupla contagem de carga?"
+  ],
+  "alternatives": [
+    {"code": "21714014", "name": "Análisis de Algoritmos y Estructuras de Datos", "relation": "Lida neste lote; cobre TAD, pilhas, filas, listas e análise assintótica, que são pré-requisito e complemento desta disciplina"},
+    {"code": "21714015", "name": "Diseño de Algoritmos", "relation": "Lida neste lote para Teoria dos Grafos; não substitui Estrutura de Dados II"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema, resultado de aprendizagem ou quadro de atividades do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa completo com horas presenciais explícitas; lacuna de eficiência assintótica documentada"
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "id": "adm|Marketing II|es-26-universidaddej|11912003",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Jaén",
+      "name": "Dirección de marketing I",
+      "faculty": "Facultad de Ciencias Sociales y Jurídicas",
+      "department": "U136 - Organización de Empresas, Marketing y Sociología",
+      "programme": "Guia emitida para o 'Doble Grado en Administración y dirección de empresas y Finanzas y contabilidad' (data.json associa ao Grado em ADE)",
+      "level": "Grado (licenciatura)",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Segundo cuatrimestre",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame final teórico-prático 70%; trabalho em equipe com entrega e exposição 30%",
+      "prerequisites": "Não são necessários",
+      "catalogue": "https://www.ujaen.es/estudios/oferta-academica/grados",
+      "location": "Guía docente 2025-26: Resumen (memoria RUCT), Competencias (C12, COM10, COM11), Descripción de contenidos (Teoría e Práctica), Metodologías e actividades formativas, Sistemas de evaluación, Bibliografía",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Tabela de atividades: A1a gran grupo 112,50 h (75%) e A2a pequeño grupo 37,50 h (25%), ambas com 40% de presencialidade; a guia não imprime total presencial nem ECTS. Nada foi derivado."
+      },
+      "sha256": "dab18ab51f11ebf03b94ee05a55571236cb86f8528368a07728b326df9d71ebe",
+      "source": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2025-26/3/119A/11912003/es/2025-26-11912003_es.html",
+      "universityId": "es-26-universidaddej",
+      "code": "11912003"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Competencias (COM10 estratégias de marketing), Teoría (parágrafo único), Práctica, Bibliografía",
+      "note": "A guia trata a informação e a demanda de mercado, segmentação e posicionamento; decisões de produto/serviço do mix não estão listadas.",
+      "essential": true
+    },
+    {
+      "brTopic": "Preço",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría (parágrafo único), Práctica, Bibliografía",
+      "note": "Estratégia de preço não é citada em nenhum ponto da guia.",
+      "essential": true
+    },
+    {
+      "brTopic": "Distribuição",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría (parágrafo único), Práctica, Bibliografía",
+      "note": "Canais e distribuição não aparecem.",
+      "essential": true
+    },
+    {
+      "brTopic": "Comunicação",
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumen RUCT, Teoría (parágrafo único), Práctica, Bibliografía",
+      "note": "Comunicação de marketing não aparece.",
+      "essential": true
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Informação em marketing e medição dos fenômenos comerciais",
+      "location": "Teoría"
+    },
+    {
+      "topic": "Modelos de resposta do comprador e análise do atrativo e da demanda do mercado",
+      "location": "Teoría; Resumen RUCT"
+    },
+    {
+      "topic": "Segmentação, mercados-alvo e estratégias de posicionamento",
+      "location": "Teoría"
+    },
+    {
+      "topic": "Investigação de mercados",
+      "location": "Resumen RUCT"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e definição da estratégia de preço, comunicação e distribuição para gerar valor superior ao cliente e à empresa.",
+    "foreign": [
+      "C12 Conceitos básicos de Marketing",
+      "COM10 Desenhar e implantar estratégias de marketing",
+      "COM11 Avaliar o mercado e o entorno no sistema de informação de marketing"
+    ],
+    "convergences": [
+      "Mesma área de marketing e geração de valor ao cliente (COM10)"
+    ],
+    "differences": [
+      "Mackenzie cobre o composto de marketing (produto/serviço, preço, distribuição, comunicação); Jaén I cobre diagnóstico de mercado, comportamento do comprador, segmentação e posicionamento",
+      "O conteúdo de Jaén I corresponde, em tema, ao Marketing I brasileiro e não ao Marketing II"
+    ]
+  },
+  "depth": {
+    "level": "Jaén 2º curso e Mackenzie 4ª etapa, com conteúdos em fases diferentes do ciclo de marketing",
+    "brazil": "Marketing operacional de 63,3 h, centrado nos quatro componentes do mix",
+    "foreign": "Direção de marketing I: análise e estratégia de mercado, sem as decisões do mix",
+    "theoryPractice": "Jaén: casos, exercícios e trabalho em equipe com exposição (30% da nota)"
+  },
+  "practical": {
+    "period": "Segundo cuatrimestre (primavera europeia), compatível com 2027.2 apenas se o calendário local for confirmado",
+    "language": "Espanhol; COI indica B1 aceite e B2 exigido pelo edital",
+    "enrolment": "UC obrigatória de 2º curso; aceitação de estudantes de mobilidade não verificada",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A guia de Dirección de marketing I não menciona produto, preço, distribuição nem comunicação: o curso de Jaén corresponde à fase de análise de mercado e posicionamento, que na grade brasileira cabe a Marketing I, e deixa Marketing II sem correspondência.",
+  "justification": "A ficha de Marketing II tem quatro enunciados — bens e serviços, preço, distribuição e comunicação —, todos ausentes das secções lidas da guia (resumo RUCT, competências, teoria, prática e bibliografia). A guia trata informação de marketing, modelos de resposta do comprador, atratividade e demanda, segmentação e posicionamento. Cobertura 0/4. Há convergência apenas de área (a competência COM10 fala em desenhar e implantar estratégias de marketing, sem especificar o mix). Carga horária não comparável: 63,3 h na ficha e 150 h de atividades sem total presencial na guia.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "A ausência dos quatro elementos do mix é nítida, mas o programa de Jaén é um parágrafo e a bibliografia (Kotler, Lambin) cobre o mix; conteúdo de aula pode exceder o texto oficial. Faltam horas presenciais, ECTS e vigência da ficha.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para mobilidade não confirmadas",
+    "Guia 2025-26 do duplo grau ADE + Finanzas y Contabilidad; ECTS e total de horas presenciais não declarados",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vigência para Alphaville não confirmada",
+    "Programa de Jaén em parágrafo único; a bibliografia (Kotler, Lambin) inclui o mix, sem prova de que seja ministrado",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Existe em Jaén uma Dirección de marketing II ou UC equivalente que trate o composto de marketing? Não foi lida neste parecer.",
+    "A coordenação considera que o conteúdo de Jaén I deve ser cotejado com Marketing I e não com Marketing II?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (ementa e Conteúdo Programático) e da guía docente oficial de Jaén 2025-26 com apoio de IA (Claude); cada tópico vinculado a trecho da guia; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência do composto de marketing evidente na guia de Jaén"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

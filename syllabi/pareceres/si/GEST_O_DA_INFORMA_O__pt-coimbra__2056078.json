@@ -1,0 +1,215 @@
+{
+  "id": "si|GESTÃO DA INFORMAÇÃO|pt-coimbra|2056078",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "GESTÃO DA INFORMAÇÃO",
+    "name": "GESTÃO DA INFORMAÇÃO",
+    "courseName": "Sistemas de Informação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 20, bloco GESTÃO DA INFORMAÇÃO, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Organizações e negócios data-driven",
+      "Dados e Informação como ativo organizacional",
+      "Informação, estratégia e tomada de decisão",
+      "Sistemas de gestão integrada de processos e informação (CRM, ERP, SCM etc)",
+      "Gestão de Documentos",
+      "Gestão de Conhecimento",
+      "Governança de Dados",
+      "Inteligência de Negócios",
+      "Arquitetura de Dados",
+      "Arquitetura da Informação",
+      "Frameworks de Gestão da Informação",
+      "Dados Abertos",
+      "Privacidade e Proteção de Dados",
+      "Sociedade dataficada"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "2056078",
+      "name": "Governança de Sistemas e Dados",
+      "source": "https://apps.uc.pt/courses/PT/unit/97192/25141/2026-2027",
+      "sha256": "59091dcc660a98937db3dd5bf099a9f8ef42f787e9dd7d1e8d5315ea26934b91",
+      "location": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "academicYear": "2026-2027",
+      "language": "Inglês; português como outra língua de ensino",
+      "period": "Semestral, semestre civil não indicado",
+      "assessment": "Pesquisa 10%, projeto 30%, exame 60%",
+      "prerequisites": "Conhecimentos básicos de SI",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Organizações e negócios data-driven",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "SI e dados apoiam objetivos organizacionais; cultura data-driven não sistematizada",
+      "foreignLocation": "Resultados; Programa 5"
+    },
+    {
+      "brTopic": "Dados e Informação como ativo organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Dados, seus benefícios e impulsionadores de negócio na governança",
+      "foreignLocation": "Programa 5"
+    },
+    {
+      "brTopic": "Informação, estratégia e tomada de decisão",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Alinhamento estratégico, geração de valor e gestão de recursos",
+      "foreignLocation": "Programa 2"
+    },
+    {
+      "brTopic": "Sistemas de gestão integrada de processos e informação (CRM, ERP, SCM etc)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Integração de sistemas e sistemas empresariais sem nomear CRM/ERP/SCM",
+      "foreignLocation": "Programa 1"
+    },
+    {
+      "brTopic": "Gestão de Documentos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Gestão de Conhecimento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Governança de Dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Governança de dados: objetivos, elementos, ferramentas e casos de uso",
+      "foreignLocation": "Programa 5"
+    },
+    {
+      "brTopic": "Inteligência de Negócios",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura da Informação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Frameworks de Gestão da Informação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "COBIT 2019 e ITIL 4 tratam governança/operações; não são apresentados como frameworks gerais de informação",
+      "foreignLocation": "Programa 2 e 4"
+    },
+    {
+      "brTopic": "Dados Abertos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC: identificação, Conhecimentos de Base, Métodos de Ensino, Resultados, Programa, Avaliação e Bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Privacidade e Proteção de Dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Continuidade e segurança de informação; privacidade e proteção de dados não individualizadas",
+      "foreignLocation": "Programa 3"
+    },
+    {
+      "brTopic": "Sociedade dataficada",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Imaginários sociotécnicos e cenários de transformação de SI; sociedade dataficada só indiretamente",
+      "foreignLocation": "Programa 6"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Organizações e negócios data-driven. Dados e Informação como ativo organizacional. Informação, estratégia e tomada de decisão. Sistemas de gestão integrada de processos e informação (CRM, ERP, SCM etc). Gestão de Documentos. Gestão de Conhecimento. Governança de Dados. Inteligência de Negócios. Arquitetura de Dados. Arquitetura da Informação. Frameworks de Gestão da Informação. Dados Abertos. Privacidade e Proteção de Dados. Sociedade dataficada.",
+    "foreign": [
+      "Gerir SI e dados organizacionais com governança, ITIL/COBIT e análise de cenários"
+    ],
+    "convergences": [
+      "Governança de Sistemas e Dados cobre valor, alinhamento e governança de dados de Gestão da Informação, porém deixa documentos, conhecimento, BI e arquiteturas sem demonstração."
+    ],
+    "differences": [
+      "Oito de 14 tópicos têm apoio, três integralmente. COBIT 2019, ITIL 4 e projeto de transformação digital aprofundam governança e operação, sem evidenciar dados abertos, CRM/ERP/SCM específicos ou gestão documental. Além das horas de contato não publicadas, o nível de mestrado representa barreira prática a confirmar para estudante de SI."
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie graduação; Coimbra 2º ciclo/mestrado, primeiro ano: admissão de graduando precisa de autorização.",
+    "brazil": "Etapa 4; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Gerir SI e dados organizacionais com governança, ITIL/COBIT e análise de cenários",
+    "theoryPractice": "Teórico-práticas, especialistas, laboratórios e projeto real de transformação digital com COBIT/ITIL."
+  },
+  "practical": {
+    "period": "Semestral, semestre civil não indicado",
+    "language": "Inglês; português como outra língua de ensino",
+    "enrolment": "Disciplina de mestrado opcional; ingresso de estudante de graduação em mobilidade não confirmado.",
+    "prerequisites": "Conhecimentos básicos de SI",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Governança de Sistemas e Dados cobre valor, alinhamento e governança de dados de Gestão da Informação, porém deixa documentos, conhecimento, BI e arquiteturas sem demonstração.",
+  "justification": "Oito de 14 tópicos têm apoio, três integralmente. COBIT 2019, ITIL 4 e projeto de transformação digital aprofundam governança e operação, sem evidenciar dados abertos, CRM/ERP/SCM específicos ou gestão documental. Além das horas de contato não publicadas, o nível de mestrado representa barreira prática a confirmar para estudante de SI.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Nível de mestrado exige confirmação de elegibilidade e pré-requisitos."
+  ],
+  "openQuestions": [
+    "A universidade confirma Governança de Sistemas e Dados para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de GESTÃO DA INFORMAÇÃO demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

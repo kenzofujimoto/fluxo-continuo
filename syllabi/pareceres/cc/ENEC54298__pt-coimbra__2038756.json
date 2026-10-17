@@ -1,0 +1,123 @@
+{
+  "id": "cc|ENEC54298|pt-coimbra|2038756",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54298",
+    "name": "CIBERSEGURANÇA",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "Página 2, bloco CIBERSEGURANÇA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Introduz o conceito de segurança da informação",
+      "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "2038756",
+      "name": "Segurança e Privacidade",
+      "source": "https://apps.uc.pt/courses/PT/unit/88926/25144/2026-2027?id=5041&type=ram",
+      "sha256": "a8aef2350d188c343120a1b280bb1bf6ee41f43cf32ca4f71bcf98b484112176",
+      "location": "Ficha UC 2026-2027 integral: Conhecimentos de Base Recomendados, Métodos de Ensino, Resultados de Aprendizagem, Programa e Avaliação",
+      "academicYear": "2026-2027",
+      "language": "Português; inglês como outra língua de ensino",
+      "period": "Unidade semestral; semestre conforme plano do curso, confirmar oferta 2027/28",
+      "assessment": "Projeto 50%; exame 50%.",
+      "prerequisites": "Programação, bases de dados, Engenharia de Redes e Sistemas de Informação.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "programme": "Cibersegurança",
+      "level": "Mestrado",
+      "yearOfStudy": 1,
+      "officialCode": "02038756"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introduz o conceito de segurança da informação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Fundamentos da privacidade e segurança e proteção do ciclo de vida dos dados",
+      "foreignLocation": "Programa, Tópico 1; Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Computação multipartes, autenticação anônima, encriptação pesquisável e homomórfica; obrigações éticas/legais explícitas; redes e desenvolvimento seguro generalista não detalhados",
+      "foreignLocation": "Programa, Tópicos 3-4, 7 e 11; Resultados de Aprendizagem"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Introduz o conceito de segurança da informação. Apresenta as principais técnicas de criptografia e protocolo de criptografia, tratar tanto aspectos práticos como teóricos relacionadas à segurança de redes, de aplicações e no desenvolvimento de software, assim como tratar aspectos éticos e jurídicos relacionados à segurança da informação e boas práticas internacionais.",
+    "foreign": [
+      "Desenvolver aplicações com dados sensíveis e preservar privacidade em armazenamento, comunicação e processamento."
+    ],
+    "convergences": [
+      "Segurança e Privacidade compartilha fundamentos de proteção e criptografia, mas é uma especialização de mestrado em privacidade e não demonstra toda a amplitude de Cibersegurança."
+    ],
+    "differences": [
+      "Um tópico está coberto e o segundo é parcial: os 12 tópicos de Coimbra privilegiam publicação de dados, privacidade de localização, IA adversarial e encriptação homomórfica. Segurança de redes, aplicações e boas práticas internacionais generalistas não podem ser inferidas das referências bibliográficas. Os 6 ECTS não permitem cotejar contato com as 63,33h brasileiras."
+    ]
+  },
+  "depth": {
+    "level": "Mestrado, 1º ano, 2º ciclo, em contraste com graduação etapa 6.",
+    "brazil": "Etapa 6; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Desenvolver aplicações com dados sensíveis e preservar privacidade em armazenamento, comunicação e processamento.",
+    "theoryPractice": "Aulas teóricas com discussão e aulas práticas de exercícios e projetos, sem quantidade horária publicada."
+  },
+  "practical": {
+    "period": "Unidade semestral; semestre conforme plano do curso, confirmar oferta 2027/28",
+    "language": "Português; inglês como outra língua de ensino",
+    "enrolment": "Acesso de graduando de CC a unidade de mestrado precisa de autorização; vaga e turma não verificadas.",
+    "prerequisites": "Programação, bases de dados, Engenharia de Redes e Sistemas de Informação.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Segurança e Privacidade compartilha fundamentos de proteção e criptografia, mas é uma especialização de mestrado em privacidade e não demonstra toda a amplitude de Cibersegurança.",
+  "justification": "Um tópico está coberto e o segundo é parcial: os 12 tópicos de Coimbra privilegiam publicação de dados, privacidade de localização, IA adversarial e encriptação homomórfica. Segurança de redes, aplicações e boas práticas internacionais generalistas não podem ser inferidas das referências bibliográficas. Os 6 ECTS não permitem cotejar contato com as 63,33h brasileiras.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Ficha informa ECTS, mas não horas de contato; nenhuma carga foi estimada a partir de créditos."
+  ],
+  "openQuestions": [
+    "A universidade confirma Segurança e Privacidade para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENEC54298 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

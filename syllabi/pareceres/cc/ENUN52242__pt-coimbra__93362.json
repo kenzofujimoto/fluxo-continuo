@@ -1,0 +1,125 @@
+{
+  "id": "cc|ENUN52242|pt-coimbra|93362",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN52242",
+    "name": "Princípios de Empreendedorismo",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 2",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "PDF p. 3, bloco PRINCÍPIOS DE EMPREENDEDORISMO, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": null
+    },
+    "topics": [
+      "A disciplina tem como propósito estudar e discutir sobre o que é empreendedorismo e sua importância no contexto contemporâneo para a vida pessoal, acadêmica, social e para a carreira dos alunos",
+      "Discute também uma análise das habilidades e atitudes essenciais para empreender, além de tendências e oportunidades de mercado"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93362",
+      "name": "Empreendedorismo e Criação de Empresas",
+      "faculty": null,
+      "department": null,
+      "programme": "Gestão (licenciatura)",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 3,
+      "semester": 6,
+      "period": "2º Semestre",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Periódica ou por exame; ficha por edição define modalidade",
+      "prerequisites": "Marketing, Estratégia, Análise Financeira e Gestão de Operações: aprovação ou frequência recomendada",
+      "source": "https://apps.uc.pt/courses/PT/unit/93362/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "ceb7f6c4a34c24a3a67d347958764f95e7e6e684a2a8c0f2f95378c7fdb05402",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina tem como propósito estudar e discutir sobre o que é empreendedorismo e sua importância no contexto contemporâneo para a vida pessoal, acadêmica, social e para a carreira dos alunos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conceitos-chave e desenvolvimento de características empreendedoras; criação de empresas domina o curso, sem explicitar empreendedorismo pessoal, acadêmico e social.",
+      "foreignLocation": "Programa 1; Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Discute também uma análise das habilidades e atitudes essenciais para empreender, além de tendências e oportunidades de mercado",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Criatividade estratégica, desenvolvimento de ideias, modelos de negócio e competências de liderança e trabalho em equipe.",
+      "foreignLocation": "Programa 2-5; Resultados de Aprendizagem"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A disciplina tem como propósito estudar e discutir sobre o que é empreendedorismo e sua importância no contexto contemporâneo para a vida pessoal, acadêmica, social e para a carreira dos alunos. Discute também uma análise das habilidades e atitudes essenciais para empreender, além de tendências e oportunidades de mercado.",
+    "foreign": [
+      "Desenvolver características empreendedoras e criar empresa",
+      "Criatividade, liderança e trabalho em equipe"
+    ],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 2; destino Gestão (licenciatura)",
+    "brazil": "31.67 horas-relógio; distribuição semanal None",
+    "foreign": "Regime b-learning com seminários presenciais e tutoria online de projetos",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "2º semestre da licenciatura; não coincide com outono europeu de 2027.2",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Confirmar precedências com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "93362 é identificador da página; código curricular oficial apresentado: 01021142",
+    "Fonte não informa horas de contato; 6 ECTS não são convertidos"
+  ],
+  "openQuestions": [],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "Empreendedorismo e Criação de Empresas desenvolve ideias, criatividade e plano de negócio; cobre atitudes empreendedoras, mas concentra-se na empresa em vez dos vários contextos de vida do componente universal.",
+  "justification": "Os dois enunciados brasileiros têm correspondência parcial/integral em resultados e Programa 1-5. Coimbra acrescenta propriedade intelectual, licenciamento e viabilidade financeira (6-7). Sem contato declarado, a comparação de 31, 67 h não é possível e a afinidade fica parcial.",
+  "conclusionClass": "afinidade_parcial"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "adm|Contabilidade e Análise de Balanços|pt-coimbra|21120",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade e Análise de Balanços",
+    "name": "Contabilidade e Análise de Balanços",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 1, bloco 'Contabilidade e Análise de Balanços': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução às Demonstrações Financeiras e usuários da Contabilidade",
+      "Estrutura das Demonstrações Financeiras (Balanço Patrimonial e DRE)",
+      "Contabilidade por Balanços Sucessivos",
+      "Método das Partidas Dobradas (Débito e Crédito)",
+      "Elaboração e estrutura da Demonstração dos Fluxos de Caixa",
+      "Fundamentos de análise das Demonstrações Financeiras",
+      "Análise Vertical e Horizontal",
+      "Análise por meio de Índices (Estrutura de Capital, Liquidez e Rentabilidade) e Análise",
+      "Dupont"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "21120",
+      "name": "Contabilidade Financeira",
+      "pageCode": "01210582",
+      "faculty": "Não indicada na página da UC (plano 11983, Administração Pública conforme data.json)",
+      "programme": "Licenciatura em Administração Pública (plano 11983, conforme data.json); área científica Gestão e Administração",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Semestral; data.json: 2º Semestre; 2027.2 a confirmar",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Final: exame 100%; contínua: projeto 5% + mini testes 5% + frequência 90%",
+      "prerequisites": "É desejável que os alunos tenham conhecimentos mínimos de contabilidade",
+      "source": "https://apps.uc.pt/courses/PT/unit/21120/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/11983/2026-2027",
+      "sha256": "75f4275fad5da4afa99625d9cc7baf322412512cadccdd462acbcbdf55b688da",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (I a VIII), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 5.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 5,0 ECTS e duração semestral, sem horas de contato. A página lista o último item do programa truncado ('VIII | Resolução de Exe')."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução às Demonstrações Financeiras e usuários da Contabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programa: 'I | Introdução'; 'III | Principais Demonstrações Financeiras'; objetivo de informar 'a situação patrimonial e os resultados' de qualquer organização",
+      "foreignLocation": "Programa I e III; Resultados de Aprendizagem",
+      "note": "Introdução às demonstrações presente; os usuários da contabilidade (gestores, investidores, stakeholders) não são nomeados."
+    },
+    {
+      "brTopic": "Estrutura das Demonstrações Financeiras (Balanço Patrimonial e DRE)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programa III: 'Balanço' e 'Demonstração dos Resultados (por naturezas)'; V: 'Estrutura e conteúdo das demonstrações financeiras'",
+      "foreignLocation": "Programa III e V (SNC)"
+    },
+    {
+      "brTopic": "Contabilidade por Balanços Sucessivos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem e Programa I a VIII (inclui os subitens do SNC)",
+      "note": "O método de balanços sucessivos não é citado; o Programa II segue o 'Processo contabilístico' por contas e lançamentos."
+    },
+    {
+      "brTopic": "Método das Partidas Dobradas (Débito e Crédito)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Programa II: 'Processo Contabilístico', 'As contas', 'Os lançamentos'",
+      "foreignLocation": "Programa II",
+      "note": "Contas e lançamentos são o mecanismo da partida dobrada, mas o termo e a regra débito/crédito não aparecem na ficha."
+    },
+    {
+      "brTopic": "Elaboração e estrutura da Demonstração dos Fluxos de Caixa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem e Programa I a VIII (inclui os subitens do SNC)",
+      "note": "O Programa traz Balanço e Demonstração dos Resultados por naturezas; a demonstração de fluxos de caixa não é listada."
+    },
+    {
+      "brTopic": "Fundamentos de análise das Demonstrações Financeiras",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'informações que lhes permitam analisar a situação patrimonial e os resultados das atividades de qualquer organização'",
+      "foreignLocation": "Resultados de Aprendizagem, 2º objetivo",
+      "note": "Só o objetivo geral menciona análise; o Programa não tem unidade de análise das demonstrações."
+    },
+    {
+      "brTopic": "Análise Vertical e Horizontal",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem e Programa I a VIII (inclui os subitens do SNC)",
+      "note": "Não consta em nenhuma unidade."
+    },
+    {
+      "brTopic": "Análise por meio de Índices (Estrutura de Capital, Liquidez e Rentabilidade) e Análise",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem e Programa I a VIII (inclui os subitens do SNC)",
+      "note": "Não há índices de estrutura de capital, liquidez ou rentabilidade no Programa."
+    },
+    {
+      "brTopic": "Dupont",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem e Programa I a VIII (inclui os subitens do SNC)",
+      "note": "O modelo Dupont não é citado."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Sistema de Normalização Contabilística (SNC): estrutura conceitual, NCRF e norma para pequenas entidades",
+      "location": "Programa V"
+    },
+    {
+      "topic": "Inventários, ativos fixos tangíveis e intangíveis, locações, provisões e passivos contingentes",
+      "location": "Programa V (Ativos e Passivos Não Financeiros)"
+    },
+    {
+      "topic": "Rédito, subsídios do governo e impostos sobre o rendimento",
+      "location": "Programa V (Algumas Componentes da Demonstração dos Resultados)"
+    },
+    {
+      "topic": "Exercício contabilístico e capital das sociedades",
+      "location": "Programa VI e VII"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel da contabilidade, demonstrações financeiras, registro das transações e seus efeitos na posição financeira, introdução à avaliação do desempenho econômico-financeiro por análise das demonstrações.",
+    "foreign": [
+      "Princípios, conceitos, métodos e técnicas da Contabilidade Financeira",
+      "Analisar a situação patrimonial e os resultados de qualquer organização",
+      "Estudar o SNC",
+      "Articular a contabilidade com as normas legais e fiscais associadas"
+    ],
+    "convergences": [
+      "Processo contabilístico (contas e lançamentos)",
+      "Balanço e demonstração de resultados"
+    ],
+    "differences": [
+      "Coimbra é de contabilidade financeira segundo o SNC português; Mackenzie inclui análise de balanços (vertical, horizontal, índices, Dupont) ausente em Coimbra",
+      "Coimbra aprofunda normas de ativos, locações, provisões e impostos sobre o rendimento, não citadas na ficha brasileira",
+      "A norma de referência difere: SNC/NCRF em Portugal, normas brasileiras no Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 1º ano de Administração Pública, Mackenzie na 3ª etapa de Administração",
+    "brazil": "Contabilidade básica e análise de demonstrações, 63,3 h",
+    "foreign": "Contabilidade financeira normativa (SNC) com extensão a ativos e passivos não financeiros, 5 ECTS",
+    "theoryPractice": "Aulas teórico-práticas com exercícios por módulo; avaliação periódica ou por exame"
+  },
+  "practical": {
+    "period": "Semestral; data.json: 2º Semestre; oferta 2027.2 a confirmar",
+    "language": "Português",
+    "enrolment": "UC obrigatória do 1º ano de Administração Pública; mobilidade pode pedir UC de outros ciclos e faculdades, sujeito à aprovação dos coordenadores",
+    "prerequisites": "Desejáveis conhecimentos mínimos de contabilidade",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Contabilidade Financeira de Coimbra cobre a parte de registro e demonstrações (balanço, resultados, contas e lançamentos) sob o SNC, mas a metade analítica de Contabilidade e Análise de Balanços (análise vertical/horizontal, índices, Dupont) e a demonstração de fluxos de caixa não aparecem.",
+  "justification": "Dos nove tópicos, um está coberto (estrutura de balanço e DRE), três são parciais (introdução às demonstrações, partidas dobradas via 'contas e lançamentos', fundamentos de análise via objetivo geral) e cinco estão ausentes: balanços sucessivos, fluxos de caixa, análise vertical e horizontal, índices e Dupont. A cobertura total ou parcial de 44% fica abaixo de 50%. O foco normativo no SNC português e os blocos de ativos, locações, provisões e impostos não correspondem à ficha brasileira. A carga não é comparável (5 ECTS, sem horas de contato) e a ficha brasileira não tem vigência confirmada.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado, mas com um item final truncado e sem horas de contato; ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Horas de contato não declaradas; 5 ECTS não convertidos; duração semestral informada, sem semestre na página",
+    "Programa termina em 'VIII | Resolução de Exe' (texto truncado na página)",
+    "Normas contábeis distintas (SNC/NCRF em Portugal; normas brasileiras no Mackenzie), o que limita aproveitamento mesmo nos tópicos comuns",
+    "Oferta 2027/28 não confirmada (data.json: 2º semestre; 2027.2 a confirmar)",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Coimbra tem UC de análise de demonstrações financeiras ou de gestão financeira (análise por índices) mais aderente à segunda metade da ficha?",
+    "O que contém o último item do programa ('VIII | Resolução de Exe...')?"
+  ],
+  "alternatives": [
+    {
+      "code": "18278",
+      "name": "Gestão Financeira",
+      "relation": "Mesma universidade; pode tratar análise financeira; existe parecer próprio no repositório, mas o programa não foi relido neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 3) e da página oficial da UC de Coimbra (2026-2027), com apoio de IA (Claude); cada tópico procurado no Programa I a VIII; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Lacunas de análise de balanços evidentes; ressalva do SNC registrada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

@@ -1,0 +1,199 @@
+{
+  "id": "si|TESTE E QUALIDADE DE SOFTWARE|pt-ubi|17908",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "TESTE E QUALIDADE DE SOFTWARE",
+    "name": "TESTE E QUALIDADE DE SOFTWARE",
+    "courseName": "Sistemas de Informação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 35, bloco TESTE E QUALIDADE DE SOFTWARE, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Qualidade de Software: Fundamentação de Qualidade de Software",
+      "Qualidade do Processo e Qualidade do Produto",
+      "Normas de Qualidade",
+      "Processos de gerência da qualidade de software",
+      "Métricas e estimativa da qualidade de software",
+      "Modelos de Processo e Modelos de Maturidade",
+      "Teste de Software: Fundamentação dos conceitos e fases do processo de Verificação e Validação de software",
+      "Inspeções e revisões",
+      "Domínio dos conceitos do processo e técnicas de teste de software",
+      "Gerência, Análise, Projeto, implementação e execução de testes",
+      "Domínio de automação de Teste",
+      "Teste ágil"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-ubi",
+      "university": "Universidade da Beira Interior",
+      "code": "17908",
+      "name": "Segurança e Fiabilidade de Software",
+      "source": "https://www.ubi.pt/Disciplina/17908/2026",
+      "sha256": "84b91fdeedbe6291e34b2540bc14e6e9e1880556c6a9aa1ba7dff8361b150300",
+      "location": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "academicYear": "2026; atualização 09/10/2026",
+      "language": "Português declarado",
+      "period": "Ano 1, semestre S1",
+      "assessment": "50% componente prática e 50% prova teórica; mínimo 6 em cada",
+      "prerequisites": "Não declarados formalmente; lógica e programação são pressupostos pelo conteúdo",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Carga PL(30H)/T(30H) explícita; duração da hora não informada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Qualidade de Software: Fundamentação de Qualidade de Software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Software seguro/fiável e propriedades funcionais; qualidade geral não sistematizada",
+      "foreignLocation": "Objectivos"
+    },
+    {
+      "brTopic": "Qualidade do Processo e Qualidade do Produto",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Ciclo de vida da especificação à verificação; sem separar qualidade do processo e produto",
+      "foreignLocation": "Objectivos"
+    },
+    {
+      "brTopic": "Normas de Qualidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Processos de gerência da qualidade de software",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Métricas e estimativa da qualidade de software",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Modelos de Processo e Modelos de Maturidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Teste de Software: Fundamentação dos conceitos e fases do processo de Verificação e Validação de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Verificação estática e dinâmica com contratos, sem fases gerais de validação",
+      "foreignLocation": "Conteúdos 4-6"
+    },
+    {
+      "brTopic": "Inspeções e revisões",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Domínio dos conceitos do processo e técnicas de teste de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Prova automática e monitorização verificam propriedades; técnicas gerais de teste não apresentadas",
+      "foreignLocation": "Conteúdos 3 e 6"
+    },
+    {
+      "brTopic": "Gerência, Análise, Projeto, implementação e execução de testes",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Domínio de automação de Teste",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "SAT/SMT e model checking automatizam verificação formal, não o teste em sentido amplo",
+      "foreignLocation": "Conteúdos 3"
+    },
+    {
+      "brTopic": "Teste ágil",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UBI 17908: identificação, objetivos, sete conteúdos, métodos/avaliação e bibliografia",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Qualidade de Software: Fundamentação de Qualidade de Software. Qualidade do Processo e Qualidade do Produto. Normas de Qualidade. Processos de gerência da qualidade de software. Métricas e estimativa da qualidade de software. Modelos de Processo e Modelos de Maturidade. Teste de Software: Fundamentação dos conceitos e fases do processo de Verificação e Validação de software. Inspeções e revisões. Domínio dos conceitos do processo e técnicas de teste de software. Gerência, Análise, Projeto, implementação e execução de testes. Domínio de automação de Teste. Teste ágil.",
+    "foreign": [
+      "Aplicar especificação, prova automática e verificação estática/dinâmica de propriedades de programas"
+    ],
+    "convergences": [
+      "Segurança e Fiabilidade de Software oferece verificação formal automatizada, mas não o programa abrangente de qualidade e teste do Mackenzie."
+    ],
+    "differences": [
+      "Cinco de 12 enunciados têm aproximação parcial: lógicas, contratos e verificação de programas não comprovam normas, métricas, maturidade, inspeções, gerência de testes ou teste ágil. A abordagem aprofundada em métodos formais é complementar, não substituta do ciclo geral de V&V. As 60h de contato não eliminam essas diferenças."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 6; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Aplicar especificação, prova automática e verificação estática/dinâmica de propriedades de programas",
+    "theoryPractice": "Métodos formais com exercícios de especificação/verificação; não apresenta ciclo completo de teste ou gestão da qualidade."
+  },
+  "practical": {
+    "period": "Ano 1, semestre S1",
+    "language": "Português declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Não declarados formalmente; lógica e programação são pressupostos pelo conteúdo",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Segurança e Fiabilidade de Software oferece verificação formal automatizada, mas não o programa abrangente de qualidade e teste do Mackenzie.",
+  "justification": "Cinco de 12 enunciados têm aproximação parcial: lógicas, contratos e verificação de programas não comprovam normas, métricas, maturidade, inspeções, gerência de testes ou teste ágil. A abordagem aprofundada em métodos formais é complementar, não substituta do ciclo geral de V&V. As 60h de contato não eliminam essas diferenças.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Segurança e Fiabilidade de Software para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de TESTE E QUALIDADE DE SOFTWARE demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

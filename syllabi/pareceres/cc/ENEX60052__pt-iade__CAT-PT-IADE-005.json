@@ -1,0 +1,150 @@
+{
+  "id": "cc|ENEX60052|pt-iade|CAT-PT-IADE-005",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60052",
+    "name": "Inteligência Artificial I",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 4, bloco INTELIGÊNCIA ARTIFICIAL I, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "Agentes Lógicos",
+      "Representação do conhecimento",
+      "Tomada de Decisão",
+      "e Aprendizagem"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-iade",
+      "university": "IADE",
+      "code": "CAT-PT-IADE-005",
+      "name": "Inteligência Artificial",
+      "faculty": null,
+      "department": null,
+      "programme": "Graduação",
+      "level": "Graduação",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Outono/S 1 (plano)",
+      "academicYear": "Plano da página com ingresso setembro 2026; edição da UC não identificada",
+      "language": "Português; confirmar turma",
+      "courseStatus": null,
+      "assessment": "Não declarado individualmente",
+      "prerequisites": "Não declarados na fonte individual",
+      "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/",
+      "catalogue": "https://www.iade.europeia.pt/cursos/licenciaturas",
+      "sha256": "653ca129a74ef8fe98ba66475d6d2992c72514527c2c04f7878370253bde8991",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Plano declara 56 Horas, mas não define horas de contato. Conserva-se o valor nominal aqui sem promover a contato semestral; não há conversão de ECTS.",
+        "nominalHoursInPlan": 56
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    },
+    {
+      "brTopic": "Agentes Lógicos",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    },
+    {
+      "brTopic": "Representação do conhecimento",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    },
+    {
+      "brTopic": "Tomada de Decisão",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    },
+    {
+      "brTopic": "e Aprendizagem",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas; Agentes Lógicos; Representação do conhecimento; Tomada de Decisão; e Aprendizagem.",
+    "foreign": [],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 6; destino Graduação",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 4, 'pratica': 0, 'atelie': 0}",
+    "foreign": "IADE lista Inteligência Artificial no 5ºsemestre, 56 horas e 6 ECTS; sem discriminação teórico-prática",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "Outono/S 1 (plano)",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Confirmar precedências com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A página oficial foi lida integralmente, mas apresenta o curso e a grade, sem resultados, programa e avaliação da unidade individual.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "Identificador CAT local; código curricular oficial não recuperado",
+    "records.json classifica como ementa_individual, mas o conteúdo recuperado é somente plano curricular",
+    "Tabela diz Horas 56 sem definir modalidade; valor nominal tratado condicionalmente, não comprova horas-relógio de contato"
+  ],
+  "openQuestions": [
+    "Obter ficha individual de Inteligência Artificial com conteúdo, avaliação e definição das 56 horas"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Obter ficha individual antes de inferir equivalência"
+  },
+  "synthesis": "Inteligência Artificial do IADE tem 56 horas na grade, mas nenhuma unidade temática que comprove agentes, busca, lógica, representação, decisão e aprendizagem de IA I.",
+  "justification": "Cinco tópicos essenciais ficam não verificáveis: referências promocionais a IA e sistemas inteligentes pertencem à licenciatura inteira. A razão nominal 56/63, 33 seria 0, 884, mas nem a natureza das horas nem o programa individual estão declarados; não há suporte para afinidade curricular.",
+  "conclusionClass": "evidencia_insuficiente"
+}

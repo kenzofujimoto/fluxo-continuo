@@ -1,0 +1,253 @@
+{
+  "id": "adm|Logística Empresarial|es-salamanca|CAT-USAL-209785",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Logística Empresarial",
+    "name": "Logística Empresarial",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 6, bloco 'Logística Empresarial': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos de logística",
+      "Gestão da Cadeia de Suprimentos",
+      "Serviço aos Clientes",
+      "Armazenagem e movimentação de materiais",
+      "Gestão de Compras",
+      "Gestão de Estoques a. Classificação ABC b. Estoque de segurança c. Ponto de pedido/reposição d. Lotes econômicos de compras e de fabricação",
+      "Técnicas Previsão de demanda a. Média móvel b. Média móvel ponderada c. Suavização exponencial",
+      "Distribuição física e Gestão de Canais de Distribuição",
+      "Localização de instalações",
+      "Just in Time (JIT)",
+      "Gestão de Transporte",
+      "Terceirização logística e Operadores Logísticos",
+      "Logística Reversa",
+      "TI aplicada à Logística"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209785",
+      "name": "Dirección de Operaciones",
+      "faculty": "Facultad de Economía y Empresa",
+      "department": "Administración y Economía de la Empresa (área Organización de Empresas)",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado (1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre (campo 'Periodicidade'), 2º curso",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "OBLIGATORIA",
+      "assessment": "Frequência e participação em práticas 40% + prova final escrita 60% (mínimo 5/10)",
+      "prerequisites": "Sem requisitos; recomendado cursar Introducción a la Administración",
+      "source": "https://guias.usal.es/node/209785",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "2193ffa9fbdd0f6262e1231d6082ba0f5d1fc3182471ef4688f81abf76631d47",
+      "location": "Guia 2025/2026: seções 1 (datos), 2 (recomendaciones), 3 (objetivos), 4 (competencias CEDO), 5 (Partes I e II, Temas 1-12), 6-7 (metodologías), 9 (evaluación)",
+      "officialCode": "103816",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "6 ECTS. A seção 7 'Distribución de las Metodologías Docentes' vem vazia no texto obtido; nenhuma hora de contato declarada. Código oficial: 103816."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos de logística",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 11 'Logística y gestión de la cadena de suministros'",
+      "foreignLocation": "Seção 5, Parte II, Tema 11",
+      "note": "Um tema entre doze; os conceitos de logística não são detalhados."
+    },
+    {
+      "brTopic": "Gestão da Cadeia de Suprimentos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 11 'Logística y gestión de la cadena de suministros'",
+      "foreignLocation": "Seção 5, Parte II, Tema 11",
+      "note": "Cadeia de suprimentos nomeada no título do tema; profundidade desconhecida."
+    },
+    {
+      "brTopic": "Serviço aos Clientes",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-12), seção 3 (objetivos) e seção 4 (CEDO 1-10) lidas; a logística aparece só no título do Tema 11, sem conteúdo interno publicado. Nível de serviço ao cliente não é nomeado."
+    },
+    {
+      "brTopic": "Armazenagem e movimentação de materiais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-12), seção 3 (objetivos) e seção 4 (CEDO 1-10) lidas; a logística aparece só no título do Tema 11, sem conteúdo interno publicado. Sem armazenagem nem movimentação de materiais."
+    },
+    {
+      "brTopic": "Gestão de Compras",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "CEDO 4: 'valorar las consecuencias de la decisión de fabricar o comprar'",
+      "foreignLocation": "Seção 4, CEDO 4",
+      "note": "Só a decisão de fabricar ou comprar; processo de compras e almoxarifado não são tratados."
+    },
+    {
+      "brTopic": "Gestão de Estoques a. Classificação ABC b. Estoque de segurança c. Ponto de pedido/reposição d. Lotes econômicos de compras e de fabricação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 9 'Sistemas de empuje: planificación de las necesidades de materiales'",
+      "foreignLocation": "Seção 5, Parte II, Tema 9",
+      "note": "Planejamento de materiais (MRP) toca a gestão de estoques, mas ABC, estoque de segurança, ponto de pedido e lote econômico não são nomeados."
+    },
+    {
+      "brTopic": "Técnicas Previsão de demanda a. Média móvel b. Média móvel ponderada c. Suavização exponencial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-12), seção 3 (objetivos) e seção 4 (CEDO 1-10) lidas; a logística aparece só no título do Tema 11, sem conteúdo interno publicado. Previsão de demanda e médias móveis não são nomeadas; o Tema 8 trata de planejamento e controle em geral."
+    },
+    {
+      "brTopic": "Distribuição física e Gestão de Canais de Distribuição",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-12), seção 3 (objetivos) e seção 4 (CEDO 1-10) lidas; a logística aparece só no título do Tema 11, sem conteúdo interno publicado. Distribuição física e canais não são nomeados."
+    },
+    {
+      "brTopic": "Localização de instalações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 4 'Diseño de procesos: Localización'; CEDO 5: 'localización óptima de una unidad operativa'",
+      "foreignLocation": "Seção 5, Tema 4; seção 4, CEDO 5",
+      "note": "Localização de unidades operativas; centros de distribuição não são citados."
+    },
+    {
+      "brTopic": "Just in Time (JIT)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 10 'Sistemas de arrastre: producción Just-in-Time'; CEDO 10: 'herramientas de gestión justo a tiempo'",
+      "foreignLocation": "Seção 5, Tema 10; seção 4, CEDO 10"
+    },
+    {
+      "brTopic": "Gestão de Transporte",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-12), seção 3 (objetivos) e seção 4 (CEDO 1-10) lidas; a logística aparece só no título do Tema 11, sem conteúdo interno publicado. Sem transporte."
+    },
+    {
+      "brTopic": "Terceirização logística e Operadores Logísticos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-12), seção 3 (objetivos) e seção 4 (CEDO 1-10) lidas; a logística aparece só no título do Tema 11, sem conteúdo interno publicado. Sem terceirização logística nem operadores logísticos (CEDO 4 trata fabricar ou comprar)."
+    },
+    {
+      "brTopic": "Logística Reversa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-12), seção 3 (objetivos) e seção 4 (CEDO 1-10) lidas; a logística aparece só no título do Tema 11, sem conteúdo interno publicado. Sem logística reversa."
+    },
+    {
+      "brTopic": "TI aplicada à Logística",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (Temas 1-12), seção 3 (objetivos) e seção 4 (CEDO 1-10) lidas; a logística aparece só no título do Tema 11, sem conteúdo interno publicado. Tecnologia no Tema 6 e CEDO 7 refere-se ao sistema produtivo, não a TI logística."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Projeto de produtos e de processos; capacidade; distribuição em planta",
+      "location": "Seção 5, Temas 2-5"
+    },
+    {
+      "topic": "Organização dos postos de trabalho e tecnologia",
+      "location": "Seção 5, Temas 6-7"
+    },
+    {
+      "topic": "Planejamento e controle: conceitos básicos e sistemas de empuxo",
+      "location": "Seção 5, Temas 8-9"
+    },
+    {
+      "topic": "Gestão da qualidade",
+      "location": "Seção 5, Tema 12"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: recursos materiais, nível de serviço, compras e almoxarifados, previsão de demanda, estoques, transporte e canais, localização de CDs, operações logísticas e TI na logística.",
+    "foreign": [
+      "Conhecer o papel estratégico do subsistema operativo",
+      "Decidir sobre capacidade, localização, layout e tecnologia",
+      "Escolher o sistema de planejamento e controle",
+      "Aplicar ferramentas just in time"
+    ],
+    "convergences": [
+      "Localização de instalações",
+      "Just in time",
+      "Cadeia de suprimentos (Tema 11)"
+    ],
+    "differences": [
+      "Salamanca é gestão da produção e a logística é um tema entre doze; Mackenzie é inteiramente logística (14 enunciados)",
+      "Sem estoques por modelos clássicos, previsão de demanda, transporte, armazenagem, reversa e TI em Salamanca"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Mackenzie na 6ª etapa, Salamanca obrigatória do 2º curso",
+    "brazil": "Disciplina de 63,3 h com 14 enunciados de logística, incluindo estoques e previsão de demanda",
+    "foreign": "Obrigatória de 6 ECTS com 12 temas de operações, só 1 de logística",
+    "theoryPractice": "Salamanca: sessões teóricas e práticas de problemas quantitativos; avaliação 40% contínua e 60% prova final"
+  },
+  "practical": {
+    "period": "Primeiro semestre (setembro a janeiro), que não coincide com 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Obrigatória do 2º curso, grupos 1 a 3; aceitação de intercambista não verificada",
+    "prerequisites": "Sem requisitos; recomendado cursar Introducción a la Administración",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dirección de Operaciones toca a logística apenas no Tema 11 e no JIT; localização e JIT casam com a ficha Mackenzie, mas estoques, previsão, transporte, armazenagem e logística reversa não têm contrapartida visível.",
+  "justification": "De 14 enunciados, 2 estão cobertos (localização de instalações, Tema 4; Just in Time, Tema 10), 4 são parciais (conceitos de logística e cadeia de suprimentos, restritos ao título do Tema 11; compras, reduzida a fabricar ou comprar; estoques, via MRP do Tema 9) e 8 não aparecem, entre eles previsão de demanda, transporte, armazenagem, terceirização, logística reversa e TI. A cobertura de 6/14 fica abaixo de metade, o que define baixa afinidade. O Tema 11 pode conter parte dos itens ausentes, mas o guia só publica o título, o que limita a verificação. Sem horas de contato (6 ECTS) a carga é não comparável.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia completo em temas, mas o único tema de logística (Tema 11) só tem título e não há horas de contato; ficha brasileira sem ano impresso.",
+  "limitations": [
+    "Horas de contato não declaradas; 6 ECTS não convertidos em horas",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo (current=false)",
+    "O conteúdo interno do Tema 11 (logística e cadeia de suprimentos) não é publicado; as ausências valem para o texto disponível",
+    "O mesmo guia CAT-USAL-209785 é cotejado com 'Gestão de Operações' em outro parecer deste lote",
+    "Guia consultado é do curso 2025/2026; a versão 2026/2027 não foi verificada",
+    "Oferta 2027/28 não confirmada e vaga para intercambista não verificada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O Tema 11 inclui transporte, armazenagem, serviço ao cliente e logística reversa?",
+    "Existe disciplina de logística ou de gestão de aprovisionamientos e stocks no plano de Administración y Dirección de Empresas da USAL?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha CCSA Mackenzie e do guia docente USAL (guias.usal.es) com apoio de IA (Claude); cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cobertura baixa já na leitura de títulos; incerteza do Tema 11 registrada"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "cc|ENEC54229|es-cadiz|21714063",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54229",
+    "name": "Algoritmos e Programação II",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 2",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 2, bloco ALGORITMOS E PROGRAMAÇÃO II: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714063",
+      "name": "Programación Web",
+      "programme": null,
+      "level": "Graduação",
+      "period": "2º semestre",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "assessment": "Projetos práticos 50%, provas 40%, atividades teóricas 10%.",
+      "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+      "source": "https://asignaturas.uca.es/2026-27/21714063",
+      "catalogue": null,
+      "sha256": "c3ed4d0135fb50f3e2b293f7bfb639788b8889f6b68bca70a821aea54a5f4296",
+      "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 90,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "PHP e desenvolvimento de funcionalidades comprovam programação; complexidade, recursão e análise de eficiência não são unidades do curso.",
+      "foreignLocation": "Teoria Blocos I-II; Práticas 1-2"
+    },
+    {
+      "brTopic": "Apresenta os métodos de busca e algoritmos ordenação elementares e avançados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoria Blocos I-III e Práticas 1-4",
+      "note": "Busca e ordenação de algoritmos, elementares ou avançados, não constam do programa web."
+    },
+    {
+      "brTopic": "Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Teoria itens 1-7; Práticas 1-4",
+      "note": "Vetores e matrizes não são descritos; acesso a dados por frameworks não demonstra esses conteúdos."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Aborda o desenvolvimento de algoritmos, a partir de técnicas de programação iterativa e recursiva, e análise da eficiência dos algoritmos com a introdução da complexidade de algoritmos. Apresenta os métodos de busca e algoritmos ordenação elementares e avançados. Aborda, ainda, o conceito e implementação de vetores e matrizes em uma linguagem de programação imperativa",
+    "foreign": [
+      "Implementar aplicações servidor e gerir componentes CMS."
+    ],
+    "convergences": [
+      "A programação PHP de Cádiz aproxima apenas a execução de código de Algoritmos II; os objetivos de eficiência, busca, ordenação, vetores e matrizes não são demonstrados."
+    ],
+    "differences": [
+      "Na ficha 21714063 os sete itens teóricos tratam arquitetura servidor, ambiente, PHP, frameworks e CMS. As quatro práticas integram esses componentes em aplicações, sem nomear análise de complexidade nem os algoritmos e estruturas previstos na etapa 2 brasileira. Só um dos três tópicos compostos recebe cobertura parcial, justificando baixa afinidade apesar de 60 h presenciais próximas às 63,33 h brasileiras. A oferta é no segundo semestre europeu, que também precisa ser compatibilizado com a mobilidade pretendida."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "ALGORITMOS E PROGRAMAÇÃO II: etapa 2, 63.33 horas declaradas.",
+    "foreign": "Web aplicada de 3º/4º ano; não é programa de algoritmos e estruturas.",
+    "theoryPractice": "Práticas de informática e avaliação com desenvolvimento de exercícios/projetos."
+  },
+  "practical": {
+    "period": "2º semestre",
+    "language": "Castelhano",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Campo Requisitos previos sem requisito preenchido; conhecimentos prévios não demonstrados.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A programação PHP de Cádiz aproxima apenas a execução de código de Algoritmos II; os objetivos de eficiência, busca, ordenação, vetores e matrizes não são demonstrados.",
+  "justification": "Na ficha 21714063 os sete itens teóricos tratam arquitetura servidor, ambiente, PHP, frameworks e CMS. As quatro práticas integram esses componentes em aplicações, sem nomear análise de complexidade nem os algoritmos e estruturas previstos na etapa 2 brasileira. Só um dos três tópicos compostos recebe cobertura parcial, justificando baixa afinidade apesar de 60 h presenciais próximas às 63,33 h brasileiras. A oferta é no segundo semestre europeu, que também precisa ser compatibilizado com a mobilidade pretendida.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial e carga presencial explícitos; duração da hora estrangeira e oferta futura permanecem incertas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora da UCA não declarada; comparação horária condicional.",
+    "Opções genéricas do formulário de idiomas/mobilidade não comprovam oferta em inglês ou vagas."
+  ],
+  "openQuestions": [
+    "A UCA confirma a unidade 21714063 e vagas de mobilidade em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+  }
+}

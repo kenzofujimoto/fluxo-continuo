@@ -1,0 +1,140 @@
+{
+  "id": "cc|ENEX54360|gb-leeds|COMP3943",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54360",
+    "name": "Estrutura de Dados I",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 3",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 4, bloco ESTRUTURA DE DADOS I: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta o conceito de Tipo Abstrato de Dados (TAD)",
+      "Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações",
+      "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3943",
+      "name": "Algorithms & Complexity",
+      "programme": "Graduação (UG)",
+      "level": "Graduação",
+      "period": "Semester 1 (setembro a janeiro)",
+      "academicYear": "2026/27",
+      "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+      "assessment": "Não publicada no texto recuperado; seção de avaliação não disponível.",
+      "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3943/202627",
+      "catalogue": null,
+      "sha256": "32bbd6525673f1f2dd190744ddd030f6e096f1881f407aefbf45c3c811677ab6",
+      "location": "Catálogo Leeds 2026/27: identificação, Module summary, Objectives, Learning/Skills outcomes, Syllabus, Teaching Methods e atualização.",
+      "hours": {
+        "contactTotal": 55,
+        "contactLecture": 44,
+        "contactSeminarLab": 11,
+        "selfStudy": 145,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "20 créditos britânicos; não tratados como ECTS. Total Contact hours declarado."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta o conceito de Tipo Abstrato de Dados (TAD)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Escolha de estruturas e paradigmas para implementação é resultado, sem definição específica de TAD.",
+      "foreignLocation": "Skills outcomes, item 2"
+    },
+    {
+      "brTopic": "Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Syllabus completo: NP, parametrização, aproximação e aleatorização",
+      "note": "Vetores, listas, pilhas, filas e heap/heapsort não aparecem como conteúdos ensinados."
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Análise formal de eficiência e complexidade é exigida, sem operações de cada estrutura linear.",
+      "foreignLocation": "Skills outcomes, itens 1 e 3"
+    },
+    {
+      "brTopic": "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Implementação de soluções é resultado explícito; OO e estruturas lineares não são individualizadas.",
+      "foreignLocation": "Skills outcomes item 2"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta o conceito de Tipo Abstrato de Dados (TAD). Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações. Estudo da eficiência assintótica das operações básicas de cada estrutura de dados. Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas.",
+    "foreign": [
+      "Analisar correção e complexidade e implementar algoritmos para problemas difíceis."
+    ],
+    "convergences": [
+      "Algorithms & Complexity cobre análise e implementação apenas em sentido geral; a coleção de TAD lineares de Estrutura de Dados I não integra o temário avançado publicado."
+    ],
+    "differences": [
+      "O programa parametrizado/NP/aproximação/aleatorização não lista as seis estruturas brasileiras nem heapsort. Os resultados sobre estruturas adequadas, análise formal e implementação sustentam três correspondências parciais, sem prova de abstração formal de TAD ou linguagem OO. A classe parcial decorre dessas aproximações limitadas; não representa cobertura dos laboratórios de listas/pilhas/filas do Mackenzie. Das 55 h de contato, só 11 são seminários e não há laboratório discriminado; o cenário de hora de 50 min equivale a 45,83 h, abaixo de 75% das 63,33 h."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "ESTRUTURA DE DADOS I: etapa 3, 63.33 horas declaradas.",
+    "foreign": "NP-completude, kernelização/FPT, aproximação e aleatoriedade, não disciplina de TAD lineares.",
+    "theoryPractice": "11 h de seminários/práticas declaradas, 44 h de aulas e 145 h de estudo privado."
+  },
+  "practical": {
+    "period": "Semester 1 (setembro a janeiro)",
+    "language": "Inglês (documento; proficiência e turma de mobilidade a confirmar)",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Sem pré-requisitos específicos publicados no texto; aceite acadêmico deve ser confirmado.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Algorithms & Complexity cobre análise e implementação apenas em sentido geral; a coleção de TAD lineares de Estrutura de Dados I não integra o temário avançado publicado.",
+  "justification": "O programa parametrizado/NP/aproximação/aleatorização não lista as seis estruturas brasileiras nem heapsort. Os resultados sobre estruturas adequadas, análise formal e implementação sustentam três correspondências parciais, sem prova de abstração formal de TAD ou linguagem OO. A classe parcial decorre dessas aproximações limitadas; não representa cobertura dos laboratórios de listas/pilhas/filas do Mackenzie. Das 55 h de contato, só 11 são seminários e não há laboratório discriminado; o cenário de hora de 50 min equivale a 45,83 h, abaixo de 75% das 63,33 h.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual e contato explícitos; duração da hora, critérios de avaliação e mobilidade ainda requerem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora de contato estrangeira não explicitada; cenário condicional de 50 minutos deve ser considerado.",
+    "Módulo não aprovado como discovery module; não é confirmação de acesso de intercambista.",
+    "Avaliação e pré-requisitos não publicados no texto consultado; confirmar com a escola."
+  ],
+  "openQuestions": [
+    "A escola permite inscrição de intercambista neste módulo e confirma critérios de avaliação/duração da hora?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+  }
+}

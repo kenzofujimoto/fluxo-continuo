@@ -1,0 +1,148 @@
+{
+  "id": "cc|ENEC61020|ar-cordoba|10-09806",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61020",
+    "name": "Computação Paralela",
+    "courseName": "Ciência da Computação",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 8",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/8__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "99a89616cc97ad85d17f1c8b29d7b0e84a2272807e38dd743c40180bead9aab4",
+    "location": "PDF p. 2, bloco COMPUTAÇÃO PARALELA: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo de arquiteturas de sistemas paralelos",
+      "Metodologia de desenvolvimento de programas paralelos",
+      "Análise de algoritmos paralelos",
+      "Medição e avaliação de programas paralelos",
+      "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ar-cordoba",
+      "university": "Universidad Nacional de Córdoba",
+      "code": "10-09806",
+      "name": "Programación Concurrente y Paralela",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "6º semestre do curso; calendário de oferta a confirmar.",
+      "academicYear": "Resolução 2023; oferta 2027/28 não confirmada",
+      "language": "Espanhol (texto oficial; turma de mobilidade a confirmar).",
+      "assessment": "Dois parciais, dois trabalhos laboratoriais e coloquio integrador; presença mínima 80% e mínimo de 60% nos parciais para regularização.",
+      "prerequisites": "Programación Avanzada.",
+      "source": "https://fcefyn.unc.edu.ar/documents/5557/10-09806-Programaci%C3%B3n_Concurrente_y_Paralela.docx.pdf",
+      "catalogue": null,
+      "sha256": "12eb0b6557493b9ec11c876fc22b6afce98e93678355049d5c83adeca30b14fb",
+      "location": "Ficha 10-09806, resolução 1042-HCD-2023 de 27/11/2023: identificação, competências CE6, apresentação, capítulos 1-10, avaliação, práticas, resultados 1-14 e bibliografia.",
+      "hours": {
+        "contactTotal": 96,
+        "contactLecture": null,
+        "contactSeminarLab": 45,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de arquiteturas de sistemas paralelos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "A apresentação contextualiza processadores multinúcleo e memória compartilhada; não há taxonomia de arquiteturas paralelas, manycore ou aceleradores.",
+      "foreignLocation": "Apresentação; capítulo 6"
+    },
+    {
+      "brTopic": "Metodologia de desenvolvimento de programas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelagem, especificação, validação formal e desenvolvimento de caso concorrente/paralelo estruturam o processo de projeto.",
+      "foreignLocation": "Capítulos 2, 8-10; avaliação de projetos"
+    },
+    {
+      "brTopic": "Análise de algoritmos paralelos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultados exigem analisar paralelismo de algoritmo sequencial e limites de aceleração/escalabilidade; não explicitam análise de complexidade paralela.",
+      "foreignLocation": "Resultados 4, 6-7"
+    },
+    {
+      "brTopic": "Medição e avaliação de programas paralelos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Seleção de métodos de desempenho multiprocesso, tempos de resposta e avaliação com redes temporais constam expressamente.",
+      "foreignLocation": "Capítulos 9-10; Resultados 5-7"
+    },
+    {
+      "brTopic": "Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Threads Java, pools e integração hardware-software comprovam implementação multinúcleo; GPU, manycore e heterogeneidade não estão no roteiro.",
+      "foreignLocation": "Apresentação; capítulo 10; práticas; Resultados 9-13"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo de arquiteturas de sistemas paralelos. Metodologia de desenvolvimento de programas paralelos. Análise de algoritmos paralelos. Medição e avaliação de programas paralelos. Implementação de algoritmos paralelos em arquiteturas multicore, manycore, aceleradores e heterogêneas.",
+    "foreign": [
+      "Modelar e implementar concorrência em Java; analisar sincronização, speedup, escalabilidade e redes de Petri."
+    ],
+    "convergences": [
+      "Metodologia de projeto paralelo e avaliação de desempenho.",
+      "Implementação multithread e análise de aceleração."
+    ],
+    "differences": [
+      "O repertório brasileiro inclui manycore, aceleradores e arquiteturas heterogêneas não demonstrados em Córdoba.",
+      "A ficha argentina enfatiza verificação formal por Petri e sincronização Java."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "COMPUTAÇÃO PARALELA: etapa 8, 63.33 horas declaradas.",
+    "foreign": "3º ano, sexto semestre; 10 capítulos com modelagem formal, threads, sincronização e caso integrador.",
+    "theoryPractice": "45 horas práticas declaradas; dois trabalhos em equipe, defesa individualizada e exercícios Java de locks, executors e barreiras."
+  },
+  "practical": {
+    "period": "6º semestre do curso; calendário de oferta a confirmar.",
+    "language": "Espanhol (texto oficial; turma de mobilidade a confirmar).",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Programación Avanzada.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A disciplina de Córdoba desenvolve projeto e desempenho de sistemas concorrentes, mas atende apenas parte das arquiteturas e implementações exigidas por Computação Paralela, especialmente no eixo de aceleradores.",
+  "justification": "Dois dos cinco tópicos têm correspondência direta: projeto formal dos capítulos 8-10 e medição dos resultados 5-7. Os demais ficam parciais pela falta de taxonomia arquitetural ampla, análise formal de complexidade e implementação em GPU/manycore. As 96 h semestrais, com 45 práticas, seriam 80 h-relógio no cenário de unidades de 50 min, ainda acima de 63,33; entretanto horas suficientes não suprem os três recortes de conteúdo. A classificação parcial preserva a distinção entre concorrência em Java e computação paralela em múltiplas arquiteturas.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento individual extenso e carga 96/45 h explícita; duração da hora, calendário atual e alcance de CE6.1 exigem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora argentina não especificada; 96 h são comparáveis apenas condicionalmente.",
+    "Documento aprovado em 2023 não assegura vigência em 2027/28."
+  ],
+  "openQuestions": [
+    "Qual a duração das horas da ficha 10-09806 e sua vigência no intercâmbio?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Conferir as diferenças de escopo e a edição vigente com a coordenação."
+  }
+}

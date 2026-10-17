@@ -1,0 +1,147 @@
+{
+  "id": "cc|ENEC61010|pt-estg|CAT-PT-ESTG-004",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61010",
+    "name": "Desenvolvimento de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 4",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 2, bloco DESENVOLVIMENTO DE SOFTWARE, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-estg",
+      "university": "P.PORTO / ESTG",
+      "code": "CAT-PT-ESTG-004",
+      "name": "Laboratório de Desenvolvimento de Software",
+      "faculty": null,
+      "department": null,
+      "programme": "Graduação",
+      "level": "Graduação",
+      "yearOfStudy": 3,
+      "semester": 5,
+      "period": "Outono/S 1 (grade)",
+      "academicYear": null,
+      "language": "Português; confirmar turma",
+      "courseStatus": "Sem indicação de optatividade na linha da unidade",
+      "assessment": "Não informado no plano",
+      "prerequisites": "Não declarados na fonte individual",
+      "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337",
+      "catalogue": "https://www.ipp.pt/ensino/cursos/licenciatura",
+      "sha256": "f3547e018b1a349f252d6b778ff07128487e24381edbbd4a4543b7f67418b55a",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 7,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    },
+    {
+      "brTopic": "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    },
+    {
+      "brTopic": "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    },
+    {
+      "brTopic": "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Grade e apresentação geral não permitem atribuir conteúdo a esta unidade; título não comprova cobertura."
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": false,
+      "status": "nao_verificavel",
+      "note": "Práticas de extensão são requisito institucional e não eixo técnico; reconhecimento depende da coordenação."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Fundamentos dos conceitos e métodos de desenvolvimento de software. Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos. Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais. Domínio do Mapeamento dos diagramas UML para linguagem de programação. Práticas de extensão.",
+    "foreign": [],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 4; destino Graduação",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 4, 'pratica': 0, 'atelie': 0}",
+    "foreign": "Grade coloca Laboratório de Desenvolvimento de Software no 3ºano/1ºsemestre, 7 ECTS; sem roteiro de projeto ou avaliação",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "Outono/S 1 (grade)",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Curso tem regime de precedências, mas a página remete a regulamento separado",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A página oficial foi lida integralmente, mas apresenta o curso e a grade, sem resultados, programa e avaliação da unidade individual.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "Identificador CAT local; código curricular oficial não recuperado",
+    "records.json classifica como ementa_individual, mas o conteúdo recuperado é somente plano curricular"
+  ],
+  "openQuestions": [
+    "Qual ficha descreve UML estrutural/comportamental e mapeamento em código?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Obter ficha individual antes de inferir equivalência"
+  },
+  "synthesis": "O plano ESTG localiza Laboratório de Desenvolvimento de Software no terceiro ano, mas não descreve análise orientada a objetos, diagramas UML ou transformação de modelos em código.",
+  "justification": "Os quatro tópicos técnicos de Desenvolvimento de Software permanecem não verificáveis. A apresentação prática da licenciatura não identifica atividades desta unidade.7 ECTS não demonstram 63, 33 h de contato e o rótulo optativa do cadastro não consta na linha do plano.",
+  "conclusionClass": "evidencia_insuficiente"
+}

@@ -1,0 +1,198 @@
+{
+  "id": "si|ARQUITETURA CORPORATIVA|es-salamanca|CAT-USAL-210178",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ARQUITETURA CORPORATIVA",
+    "name": "ARQUITETURA CORPORATIVA",
+    "courseName": "Sistemas de Informação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 30, bloco ARQUITETURA CORPORATIVA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Conceitos de Administração de Negócios e Organizações",
+      "Gestão Organizacional",
+      "Tipos de organizações e de negócios",
+      "Fundamentos da Arquitetura Corporativa",
+      "Alinhamento da estratégia, objetivos e ambiente de negócios com a arquitetura de tecnologia da informação",
+      "Frameworks e ferramentas de apoio para arquitetura corporativa",
+      "Arquitetura de Processos",
+      "Arquitetura de Dados",
+      "Arquitetura de Aplicações",
+      "Arquitetura de Infraestrutura",
+      "Administração de Negócios no Mundo 4.0",
+      "Transformação Digital"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210178",
+      "name": "ESTRATEGIA COMERCIAL",
+      "source": "https://guias.usal.es/node/210178",
+      "sha256": "1267239ba144de61fa448597a32cc2bbadf430dac3da3fe9ffc117e34c7608c8",
+      "location": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "academicYear": "2025/2026",
+      "language": "Espanhol declarado",
+      "period": "Segundo semestre",
+      "assessment": "40% rendimento durante semestre e 60% prova final",
+      "prerequisites": "Fundamentos de Comercialización recomendado",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 3,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos de Administração de Negócios e Organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Decisão comercial e estratégias de marketing; não é introdução geral à administração",
+      "foreignLocation": "3 Objetivos"
+    },
+    {
+      "brTopic": "Gestão Organizacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Diagnóstico de carteira, crescimento e posicionamento competitivo de marketing",
+      "foreignLocation": "5 Contenidos, temas 2-7"
+    },
+    {
+      "brTopic": "Tipos de organizações e de negócios",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Fundamentos da Arquitetura Corporativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Alinhamento da estratégia, objetivos e ambiente de negócios com a arquitetura de tecnologia da informação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Relaciona marketing e áreas empresariais; não aborda alinhamento da arquitetura de TI",
+      "foreignLocation": "4 Competencias CEec1"
+    },
+    {
+      "brTopic": "Frameworks e ferramentas de apoio para arquitetura corporativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Processos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Aplicações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Arquitetura de Infraestrutura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Administração de Negócios no Mundo 4.0",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Transformação Digital",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Conceitos de Administração de Negócios e Organizações. Gestão Organizacional. Tipos de organizações e de negócios. Fundamentos da Arquitetura Corporativa. Alinhamento da estratégia, objetivos e ambiente de negócios com a arquitetura de tecnologia da informação. Frameworks e ferramentas de apoio para arquitetura corporativa. Arquitetura de Processos. Arquitetura de Dados. Arquitetura de Aplicações. Arquitetura de Infraestrutura. Administração de Negócios no Mundo 4.0. Transformação Digital.",
+    "foreign": [
+      "Diagnosticar estratégias comerciais e elaborar planos de marketing segundo recursos e objetivos empresariais"
+    ],
+    "convergences": [
+      "Estrategia Comercial trabalha diagnóstico e decisões de marketing, deixando sem evidência os domínios de dados, aplicações, infraestrutura e frameworks de arquitetura corporativa."
+    ],
+    "differences": [
+      "Apenas três de 12 eixos têm aproximação parcial por administração e estratégia. Os sete temas vão de carteira de produtos a diferenciação e competição, sem TOGAF ou arquitetura empresarial, de processos e de informação. Os 3 ECTS sem contato explícito também não permitem aferir a exigência brasileira de 63,33h."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 6; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Diagnosticar estratégias comerciais e elaborar planos de marketing segundo recursos e objetivos empresariais",
+    "theoryPractice": "Teoria presencial, casos, problemas quantitativos, debates e apresentação de trabalhos de marketing."
+  },
+  "practical": {
+    "period": "Segundo semestre",
+    "language": "Espanhol declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Fundamentos de Comercialización recomendado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estrategia Comercial trabalha diagnóstico e decisões de marketing, deixando sem evidência os domínios de dados, aplicações, infraestrutura e frameworks de arquitetura corporativa.",
+  "justification": "Apenas três de 12 eixos têm aproximação parcial por administração e estratégia. Os sete temas vão de carteira de produtos a diferenciação e competição, sem TOGAF ou arquitetura empresarial, de processos e de informação. Os 3 ECTS sem contato explícito também não permitem aferir a exigência brasileira de 63,33h.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma ESTRATEGIA COMERCIAL para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ARQUITETURA CORPORATIVA demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "baixa_afinidade"
+}

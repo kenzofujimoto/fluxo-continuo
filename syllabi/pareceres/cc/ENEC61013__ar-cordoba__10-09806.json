@@ -1,0 +1,139 @@
+{
+  "id": "cc|ENEC61013|ar-cordoba|10-09806",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61013",
+    "name": "Sistemas Operacionais",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 5",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 2, bloco SISTEMAS OPERACIONAIS: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+      "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+      "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+      "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ar-cordoba",
+      "university": "Universidad Nacional de Córdoba",
+      "code": "10-09806",
+      "name": "Programación Concurrente y Paralela",
+      "programme": "Graduação",
+      "level": "Graduação",
+      "period": "6º semestre do curso; calendário de oferta a confirmar.",
+      "academicYear": "Resolução 2023; oferta 2027/28 não confirmada",
+      "language": "Espanhol (texto oficial; turma de mobilidade a confirmar).",
+      "assessment": "Dois parciais, dois trabalhos laboratoriais e coloquio integrador; presença mínima 80% e mínimo de 60% nos parciais para regularização.",
+      "prerequisites": "Programación Avanzada.",
+      "source": "https://fcefyn.unc.edu.ar/documents/5557/10-09806-Programaci%C3%B3n_Concurrente_y_Paralela.docx.pdf",
+      "catalogue": null,
+      "sha256": "12eb0b6557493b9ec11c876fc22b6afce98e93678355049d5c83adeca30b14fb",
+      "location": "Ficha 10-09806, resolução 1042-HCD-2023 de 27/11/2023: identificação, competências CE6, apresentação, capítulos 1-10, avaliação, práticas, resultados 1-14 e bibliografia.",
+      "hours": {
+        "contactTotal": 96,
+        "contactLecture": null,
+        "contactSeminarLab": 45,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "História da concorrência e descrição/estados de processos aparecem; não há história e taxonomia geral dos sistemas operacionais.",
+      "foreignLocation": "Capítulos 1 e 3"
+    },
+    {
+      "brTopic": "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Controle e gestão de threads, executores e processos constam; não se detalham algoritmos de escalonamento de CPU.",
+      "foreignLocation": "Capítulos 3 e 7; práticas de executors"
+    },
+    {
+      "brTopic": "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Memória compartilhada e sincronização são explícitas em 6-7; CE6.1 cita memória, arquivos e dispositivos, porém o temário não desenvolve esses três gerenciadores.",
+      "foreignLocation": "Capítulos 6-7; Competência CE6.1"
+    },
+    {
+      "brTopic": "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Práticas implementam threads e sincronização Java; não demonstram implementação de módulos de memória, arquivos ou dispositivos do SO.",
+      "foreignLocation": "Atividades práticas; capítulo 10; avaliação dos trabalhos"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta o histórico, classificação, estrutura de um sistema operacional. Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos. concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos. Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional.",
+    "foreign": [
+      "Modelar e implementar concorrência em Java; analisar sincronização, speedup, escalabilidade e redes de Petri."
+    ],
+    "convergences": [
+      "Processos, threads, exclusão mútua, sincronização e implementação concorrente."
+    ],
+    "differences": [
+      "Gerenciamento de memória, arquivos, dispositivos e escalonamento não são desenvolvidos como módulos de SO.",
+      "Redes de Petri e autômatos são mais extensos no curso argentino."
+    ]
+  },
+  "depth": {
+    "level": "Comparação de componentes de graduação",
+    "brazil": "SISTEMAS OPERACIONAIS: etapa 5, 63.33 horas declaradas.",
+    "foreign": "3º ano, sexto semestre; 10 capítulos com modelagem formal, threads, sincronização e caso integrador.",
+    "theoryPractice": "45 horas práticas declaradas; dois trabalhos em equipe, defesa individualizada e exercícios Java de locks, executors e barreiras."
+  },
+  "practical": {
+    "period": "6º semestre do curso; calendário de oferta a confirmar.",
+    "language": "Espanhol (texto oficial; turma de mobilidade a confirmar).",
+    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+    "prerequisites": "Programación Avanzada.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Programación Concurrente y Paralela aproxima os quatro enunciados de Sistemas Operacionais apenas parcialmente: o curso implementa concorrência, mas não apresenta um programa geral dos gerenciadores de SO.",
+  "justification": "Embora CE6.1 enumere estrutura de SO e memória/arquivos/dispositivos, os dez capítulos efetivos concentram-se em threads, sincronização, linguagens formais e redes de Petri. O capítulo 3 sustenta processos, e 6-7 as primitivas de concorrência; os trabalhos Java comprovam prática desse recorte. A ausência de desenvolvimento dos demais gerenciadores e do escalonamento impede cobertura integral de qualquer enunciado composto. As 96 h superam nominalmente 63,33 h, sem resolver a divergência curricular.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documento individual extenso e carga 96/45 h explícita; duração da hora, calendário atual e alcance de CE6.1 exigem confirmação.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+    "Duração da hora argentina não especificada; 96 h são comparáveis apenas condicionalmente.",
+    "Documento aprovado em 2023 não assegura vigência em 2027/28."
+  ],
+  "openQuestions": [
+    "Qual a duração das horas da ficha 10-09806 e sua vigência no intercâmbio?"
+  ],
+  "alternatives": [],
+  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Conferir as diferenças de escopo e a edição vigente com a coordenação."
+  }
+}

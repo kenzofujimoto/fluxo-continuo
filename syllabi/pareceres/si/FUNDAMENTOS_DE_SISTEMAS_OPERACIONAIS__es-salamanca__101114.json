@@ -1,0 +1,145 @@
+{
+  "id": "si|FUNDAMENTOS DE SISTEMAS OPERACIONAIS|es-salamanca|101114",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "FUNDAMENTOS DE SISTEMAS OPERACIONAIS",
+    "name": "FUNDAMENTOS DE SISTEMAS OPERACIONAIS",
+    "courseName": "Sistemas de Informação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Sistemas de Informação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Página 11, bloco FUNDAMENTOS DE SISTEMAS OPERACIONAIS, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos Fundamentos de Sistemas Operacionais",
+      "Descrição da Gerência de Processos",
+      "Caracterização da Comunicação entre Processos, da Concorrência entre Processos e da Sincronização entre Processos",
+      "Estudo da Gerência de Memória, Alocação de Recursos e Deadlocks",
+      "Estudo do Sistema de Arquivos, detalhamento dos Dispositivos de Entrada/Saída"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101114",
+      "name": "Sistemas Operativos I",
+      "source": "https://guias.usal.es/node/250976",
+      "sha256": "4012bbd02cba6577ef4820b98e5a56015265c7359dbf2fc9fec5fc89f97fa2cb",
+      "location": "Guia USAL: Dados, Recomendaciones, Objetivos, Competencias, Contenidos teóricos/práticos, Metodologías e Evaluación",
+      "academicYear": "2026/2027",
+      "language": "Espanhol declarado",
+      "period": "Primeiro semestre",
+      "assessment": "10% participação, 50% exames parciais, 20% exposição, 20% problemas",
+      "prerequisites": "Estrutura de computadores e programação; uso cotidiano de SO e fundamentos matemáticos recomendados",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "documentCode": "105914"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos Fundamentos de Sistemas Operacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Introdução a sistemas informáticos e sistemas operacionais",
+      "foreignLocation": "5 temas 1-2"
+    },
+    {
+      "brTopic": "Descrição da Gerência de Processos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Descrição/controle de processos e escalonamento",
+      "foreignLocation": "5 temas 3-4"
+    },
+    {
+      "brTopic": "Caracterização da Comunicação entre Processos, da Concorrência entre Processos e da Sincronização entre Processos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Exclusão mútua, sincronização, concorrência; comunicação entre processos não detalhada",
+      "foreignLocation": "5 temas 5-6; 4 CC14"
+    },
+    {
+      "brTopic": "Estudo da Gerência de Memória, Alocação de Recursos e Deadlocks",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Memória principal/virtual e interbloqueio/inanição",
+      "foreignLocation": "5 temas 6-8"
+    },
+    {
+      "brTopic": "Estudo do Sistema de Arquivos, detalhamento dos Dispositivos de Entrada/Saída",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Entrada/saída, armazenamento secundário e sistemas de arquivos",
+      "foreignLocation": "5 temas 9-10"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos Fundamentos de Sistemas Operacionais. Descrição da Gerência de Processos. Caracterização da Comunicação entre Processos, da Concorrência entre Processos e da Sincronização entre Processos. Estudo da Gerência de Memória, Alocação de Recursos e Deadlocks. Estudo do Sistema de Arquivos, detalhamento dos Dispositivos de Entrada/Saída.",
+    "foreign": [
+      "Compreender estrutura de SO e projetar aplicações apoiadas em serviços e técnicas concorrentes"
+    ],
+    "convergences": [
+      "Sistemas Operativos I demonstra quatro dos cinco eixos brasileiros e aproxima concorrência/sincronização; comunicação entre processos e identidade do código precisam de confirmação."
+    ],
+    "differences": [
+      "Os dez temas do documento 105914 cobrem processos, memória, deadlocks, E/S e arquivos. O catálogo local usa 101114, divergência preservada no parecer; comunicação não é unidade explícita. A cobertura é forte, porém o documento declara 6 ECTS sem total de contato verificável, impedindo alta afinidade frente às horas brasileiras."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 2; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Compreender estrutura de SO e projetar aplicações apoiadas em serviços e técnicas concorrentes",
+    "theoryPractice": "Aulas, problemas e apresentações; implementação de aplicações é objetivo, mas não há discriminação laboratorial de horas."
+  },
+  "practical": {
+    "period": "Primeiro semestre",
+    "language": "Espanhol declarado",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Estrutura de computadores e programação; uso cotidiano de SO e fundamentos matemáticos recomendados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O texto recuperado para 101114 identifica Sistemas Operativos I 105914, do grau de SI em Zamora. O conteúdo é promissor como alternativa, mas a identidade da candidata não está comprovada.",
+  "justification": "Os dez temas do documento 105914 abrangem processos, memória, deadlocks, E/S e arquivos, com comunicação apenas parcial. Contudo, título semelhante não autoriza atribuir esse programa à chave 101114, de outro contexto curricular. Registra-se insuficiência de identidade documental e solicita-se a ficha correta; os 6 ECTS tampouco comprovam contato semestral.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "O programa oficial lido é 105914; não foi comprovada sua identidade com a candidata 101114. Cobertura é apenas indício de alternativa e precisa de documento correto.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Chave local 101114; documento consultado identifica código 105914 do grau de SI. Confirmar identidade da candidata."
+  ],
+  "openQuestions": [
+    "A universidade confirma Sistemas Operativos I para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de FUNDAMENTOS DE SISTEMAS OPERACIONAIS demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "evidencia_insuficiente",
+  "downgradeReason": "Identidade documental não comprovada: a chave catalogada 101114 retorna 105914, de outro grau/campus (SI, Zamora). A proximidade de conteúdo não autoriza tratar os códigos como a mesma disciplina."
+}

@@ -1,0 +1,126 @@
+{
+  "id": "cc|ENEX60057|gb-leeds|COMP3620",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60057",
+    "name": "INTELIGÊNCIA ARTIFICIAL II",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "Página 3, bloco INTELIGÊNCIA ARTIFICIAL II, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3620",
+      "name": "Neural Networks & Deep Learning",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3620/202627",
+      "sha256": "bb27d935b1e2e8ae44e0eb8005febb5e29ac686cdd718dea262e2bbf0759565c",
+      "location": "Catálogo Leeds 2026/27 integral: Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus e Teaching Methods",
+      "academicYear": "2026/27",
+      "language": "Inglês; turma de mobilidade a confirmar",
+      "period": "Semester 1 (Sep to Jan)",
+      "assessment": "Método e ponderações de avaliação não publicados no texto consultado.",
+      "prerequisites": "Não especificados na ficha disponível",
+      "hours": {
+        "contactTotal": 66,
+        "contactLecture": 44,
+        "contactSeminarLab": 22,
+        "selfStudy": 134,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "O paradigma de aprendizagem é aprofundado em redes; representação simbólica do conhecimento não aparece",
+      "foreignLocation": "Syllabus, Deep learning basics"
+    },
+    {
+      "brTopic": "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Pipeline computacional, limpeza/imputação de dados e avaliação de classificadores conectam ML e ciência de dados",
+      "foreignLocation": "Syllabus, Machine Learning Operations; Presentation and Visualization"
+    },
+    {
+      "brTopic": "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Treino, cross validation, regressão logística e deep learning explícitos; árvores, associação e detecção de anomalias não constam",
+      "foreignLocation": "Syllabus, Deep learning basics, Machine Learning Operations e Generative Methods"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem. Estudo de aprendizagem de máquina e sua relação com ciência de dados. Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning.",
+    "foreign": [
+      "Implementar redes em Python, otimizar funções de perda, avaliar resultados e ajustar transformers."
+    ],
+    "convergences": [
+      "Neural Networks & Deep Learning aprofunda o ramo neural de IA II, sem demonstrar toda a diversidade de métodos simbólicos e de mineração de dados brasileiros."
+    ],
+    "differences": [
+      "O pipeline, treinamento e métricas têm correspondência direta; a lista composta de IA II só é parcial porque redes convolucionais, VAEs e transformers não comprovam árvores de decisão ou regras de associação. As 66h de contato (44+22) são próximas de 63,33h, porém não compensam esses conteúdos ausentes; classificam-se dois enunciados parciais e um coberto."
+    ]
+  },
+  "depth": {
+    "level": "Graduação em computação, módulo avançado; Mackenzie na etapa 6 ou 7.",
+    "brazil": "Etapa 7; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Implementar redes em Python, otimizar funções de perda, avaliar resultados e ajustar transformers.",
+    "theoryPractice": "44h de lectures e 22h de prática; Python, preparação de dados, CNN/U-Net e treinamento de redes."
+  },
+  "practical": {
+    "period": "Semester 1 (Sep to Jan)",
+    "language": "Inglês; turma de mobilidade a confirmar",
+    "enrolment": "Não é discovery module; matrícula de mobilidade depende de autorização específica.",
+    "prerequisites": "Não especificados na ficha disponível",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Neural Networks & Deep Learning aprofunda o ramo neural de IA II, sem demonstrar toda a diversidade de métodos simbólicos e de mineração de dados brasileiros.",
+  "justification": "O pipeline, treinamento e métricas têm correspondência direta; a lista composta de IA II só é parcial porque redes convolucionais, VAEs e transformers não comprovam árvores de decisão ou regras de associação. As 66h de contato (44+22) são próximas de 63,33h, porém não compensam esses conteúdos ausentes; classificam-se dois enunciados parciais e um coberto.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Neural Networks & Deep Learning para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENEX60057 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

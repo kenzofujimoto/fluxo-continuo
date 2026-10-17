@@ -15,7 +15,7 @@ def main():
     gaps=read("syllabi/coverage-report.json")
     reviews=read("syllabi/revisoes-ementas.json")["reviews"]
     foreign={(x["universityId"],x["foreignCode"]):x for x in syllabi["foreign"]}
-    assert len(foreign)==len(db["foreignCourses"])==2608
+    assert len(foreign)==len(db["foreignCourses"])
     br={(x["courseId"],str(x.get("code") or x["name"]).casefold()):x for x in docs["rows"]}
     assert len(br)==93
     assert len(db["courses"])==4
@@ -27,7 +27,7 @@ def main():
     assert metrics["officialMackenzieSyllabi"]==sum(x["status"]=="ementa_oficial_correspondente" for x in docs["rows"])
     assert gaps["metrics"]["foreignMissingIndividual"]==len(foreign)-status["ementa_individual"]
     assert gaps["metrics"]["foreignIndividualMissingHours"]==sum(x["status"]=="ementa_individual" and x.get("contactHours") is None for x in foreign.values())
-    assert sum(u["catalogued"] for u in gaps["universities"])==2608
+    assert sum(u["catalogued"] for u in gaps["universities"])==len(db["foreignCourses"])
     assert len(gaps["universities"])==len(db["universities"])==66
     for u in gaps["universities"]:
         assert u["catalogued"]==u["individualSyllabus"]+u["withoutIndividualSyllabus"]

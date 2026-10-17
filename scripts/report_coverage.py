@@ -66,7 +66,7 @@ def main():
           "registeredCandidates":len(comparison["registered"]),"bothSyllabiCandidates":sum(x["phase"]=="topicos_preliminares_disponiveis" for x in comparison["registered"]),
           "manualReviews":len(manual),"institutionalApprovals":0},"universities":institutions,"mackenzieCourses":courses_out}
     write("syllabi/coverage-report.json",report)
-    assert report["metrics"]["foreignTotal"]==2608
+    assert report["metrics"]["foreignTotal"]==len(json.loads((ROOT/"data.json").read_text(encoding="utf-8"))["foreignCourses"])
     assert report["metrics"]["registeredCandidates"]==725
     assert len(institutions)==66
     print("Gap report:",report["metrics"])

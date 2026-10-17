@@ -1,0 +1,171 @@
+{
+  "id": "dir|DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL|es-salamanca|CAT-USAL-207665",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL",
+    "name": "DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL",
+    "courseName": "Direito",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 59, bloco DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL; ementa e carga horária (continuação na página seguinte quando aplicável)",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "weeklyClassPeriods": 4
+    },
+    "topics": [
+      "A disciplina apresenta o campo do Direito Financeiro e Concorrencial a partir da dogmática jurídica e suas repercussões na proteção dos mercados e setores regulados",
+      "Num primeiro momento, as noções essenciais do Sistema Financeiro Nacional, com foco na organização do mercado financeiro e a política econômica",
+      "Na etapa final, a disciplina avança no estudo do Direito Concorrencial: apresentação da estrutura e da operação do Sistema Brasileiro de Defesa da Concorrência",
+      "o estudo da atuação preventiva e repressiva do Conselho Administrativo de Defesa Econômico (CADE)",
+      "acordo de leniência e a revisão judicial das decisões administrativas do CADE",
+      "O estudo dogmático do Direito da Concorrencial é acompanhado da análise da jurisprudência do CADE envolvendo controles de condutas e estruturas, bem como diante das recentes transformações da economia digital e da interface com a inovação e a propriedade intelectual"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207665",
+      "name": "COMPETENCIA Y PROPIEDAD INTELECTUAL",
+      "faculty": null,
+      "department": null,
+      "programme": "Derecho",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": 1,
+      "period": "year 4",
+      "academicYear": "2025/26",
+      "language": "Espanhol",
+      "courseStatus": null,
+      "assessment": "Exame teórico-prático70%, práticas30%",
+      "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+      "source": "https://guias.usal.es/node/207665",
+      "catalogue": "https://guias.usal.es/node/207665",
+      "sha256": "fb5855b4375adaf9cca837df400fb6743528b2e1128d8f09625d2c41d3848658",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "officialCode": "102331"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina apresenta o campo do Direito Financeiro e Concorrencial a partir da dogmática jurídica e suas repercussões na proteção dos mercados e setores regulados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Mercados e proteção concorrencial são objeto; sistema financeiro não.",
+      "foreignLocation": "5, temas1-3"
+    },
+    {
+      "brTopic": "Num primeiro momento, as noções essenciais do Sistema Financeiro Nacional, com foco na organização do mercado financeiro e a política econômica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções de objetivos, conteúdos programáticos e metodologia do documento estrangeiro integral; comparação com a ementa brasileira histórica de 2022",
+      "note": "O programa estrangeiro não individualiza Num primeiro momento, as noções essenciais do Sistema Financeiro Nacional, com foco na organização do mercado financeiro e a política econômica"
+    },
+    {
+      "brTopic": "Na etapa final, a disciplina avança no estudo do Direito Concorrencial: apresentação da estrutura e da operação do Sistema Brasileiro de Defesa da Concorrência",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Defesa da concorrência espanhola e europeia com órgãos, condutas e concentrações; não SBDC.",
+      "foreignLocation": "5, temas2-3"
+    },
+    {
+      "brTopic": "o estudo da atuação preventiva e repressiva do Conselho Administrativo de Defesa Econômico (CADE)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Práticas restritivas, abuso e controle de concentrações têm correspondência funcional, sem CADE.",
+      "foreignLocation": "5, temas2-3"
+    },
+    {
+      "brTopic": "acordo de leniência e a revisão judicial das decisões administrativas do CADE",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções de objetivos, conteúdos programáticos e metodologia do documento estrangeiro integral; comparação com a ementa brasileira histórica de 2022",
+      "note": "O programa estrangeiro não individualiza acordo de leniência e a revisão judicial das decisões administrativas do CADE"
+    },
+    {
+      "brTopic": "O estudo dogmático do Direito da Concorrencial é acompanhado da análise da jurisprudência do CADE envolvendo controles de condutas e estruturas, bem como diante das recentes transformações da economia digital e da interface com a inovação e a propriedade intelectual",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Interfaces de concorrência com patentes, software e infrações por Internet, sem jurisprudência do CADE.",
+      "foreignLocation": "5, temas6,8,11,13,15"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A disciplina apresenta o campo do Direito Financeiro e Concorrencial a partir da dogmática jurídica e suas repercussões na proteção dos mercados e setores regulados. Num primeiro momento, as noções essenciais do Sistema Financeiro Nacional, com foco na organização do mercado financeiro e a política econômica. Na etapa final, a disciplina avança no estudo do Direito Concorrencial: apresentação da estrutura e da operação do Sistema Brasileiro de Defesa da Concorrência; o estudo da atuação preventiva e repressiva do Conselho Administrativo de Defesa Econômico (CADE); acordo de leniência e a revisão judicial das decisões administrativas do CADE. O estudo dogmático do Direito da Concorrencial é acompanhado da análise da jurisprudência do CADE envolvendo controles de condutas e estruturas, bem como diante das recentes transformações da economia digital e da interface com a inovação e a propriedade intelectual.",
+    "foreign": [
+      "Competencia y Propiedad Intelectual 102331 aproxima defesa concorrencial, inovação e bens imateriais; não aborda Sistema Financeiro Nacional nem o CADE."
+    ],
+    "convergences": [
+      "Mercados e proteção concorrencial são objeto; sistema financeiro não.",
+      "Defesa da concorrência espanhola e europeia com órgãos, condutas e concentrações; não SBDC.",
+      "Práticas restritivas, abuso e controle de concentrações têm correspondência funcional, sem CADE.",
+      "Interfaces de concorrência com patentes, software e infrações por Internet, sem jurisprudência do CADE."
+    ],
+    "differences": [
+      "O programa estrangeiro não individualiza Num primeiro momento, as noções essenciais do Sistema Financeiro Nacional, com foco na organização do mercado financeiro e a política econômica",
+      "O programa estrangeiro não individualiza acordo de leniência e a revisão judicial das decisões administrativas do CADE"
+    ]
+  },
+  "depth": {
+    "level": "Brasil: etapa 8; exterior: Graduação, ano None.",
+    "brazil": "DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL: 4; documento 2022",
+    "foreign": "COMPETENCIA Y PROPIEDAD INTELECTUAL: None; avaliação None; contato None h.",
+    "theoryPractice": "Distribuição explicitada no documento estrangeiro: None h aula e None h seminário/laboratório; não presumir prática brasileira equivalente."
+  },
+  "practical": {
+    "period": "year 4",
+    "language": "Espanhol",
+    "enrolment": "Aceitação de intercambista e compatibilidade de matrícula precisam de confirmação individual",
+    "prerequisites": "Não explicitados no texto; confirmar com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Competencia y Propiedad Intelectual 102331 aproxima defesa concorrencial, inovação e bens imateriais; não aborda Sistema Financeiro Nacional nem o CADE.",
+  "justification": "Quatro dos seis tópicos têm correspondência parcial funcional na UE/Espanha. Leniência, revisão judicial do CADE e política financeira brasileira não estão explicitadas. O curso de 4,5 ECTS dedica grande parte a propriedade intelectual e não declara horas de contato.",
+  "conclusionClass": "afinidade_parcial",
+  "downgradeReason": "Enquadramento conservador: amplitude de tópico composto não corresponde necessariamente à cobertura integral nem à equivalência institucional.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cotejo documental de DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL com COMPETENCIA Y PROPIEDAD INTELECTUAL; Quatro dos seis tópicos têm correspondência parcial funcional na UE/Espanha. Leniência, revisão judicial do CADE e política financeira brasileira não estão explicitadas. O curso de 4,5 ECTS dedica grande parte a propriedade intelectual e não declara horas de contato.",
+  "limitations": [
+    "Oferta 2027/28 e vagas para mobilidade não confirmadas",
+    "Parecer acadêmico preliminar; validação compete à coordenação e à COI",
+    "Duração da hora estrangeira não declarada; não se convertem ECTS em horas",
+    "Documento brasileiro de 2022 é histórico; confirmar ementa e matriz vigentes",
+    "Institutos espanhóis não demonstram domínio da legislação brasileira; cotejo conceitual, não identidade normativa",
+    "Horas-aula semanais brasileiras não são horas de contato semestrais"
+  ],
+  "openQuestions": [
+    "A coordenação confirma o escopo e a vigência do componente brasileiro?",
+    "A instituição confirma idioma, pré-requisitos e oferta em 2027/28?"
+  ],
+  "alternatives": [],
+  "method": "Leitura e cotejo individual dos documentos oficiais em cache com apoio de IA (Codex); evidências por tópico e local; validação estrutural independente.",
+  "reviewedAt": "2026-10-16",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+  }
+}

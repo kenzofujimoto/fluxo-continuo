@@ -1,0 +1,168 @@
+{
+  "id": "cc|ENEX60061|pt-ubi|17905",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60061",
+    "name": "Computação Gráfica",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 7",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "PDF p. 3, bloco COMPUTAÇÃO GRÁFICA, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Estudo e análise da pipeline gráfica e APIs gráficas",
+      "Estudo de algoritmos fundamentais de Computação Gráfica",
+      "Matemática para Computação Gráfica",
+      "Estruturas de dados para representação de modelos e cenas tridimensionais",
+      "Modelos de cores, tonalização (shading) e iluminação",
+      "Estudo de materiais e técnicas de texturização",
+      "Programação de GPU e implementação de algoritmos de Computação Gráfica usando APIs gráficas e shaders"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-ubi",
+      "university": "Universidade da Beira Interior",
+      "code": "17905",
+      "name": "Computação Interativa e Visualização",
+      "faculty": null,
+      "department": null,
+      "programme": "Mestrado",
+      "level": "Mestrado",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Outono/S 1",
+      "academicYear": "2026; atualização 29/09/2026",
+      "language": "Português; confirmar turma",
+      "courseStatus": null,
+      "assessment": "Dois testes 25%, três trabalhos individuais 37, 5%, projeto 37, 5%",
+      "prerequisites": "Não declarados na fonte individual",
+      "source": "https://www.ubi.pt/Disciplina/17905/2026",
+      "catalogue": "http://www.ubi.pt/cursos",
+      "sha256": "334261b75cf09050a3c3fcd5554643757a10c7ee5d3212592f03ff59f95107ce",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e análise da pipeline gráfica e APIs gráficas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "OpenGL moderno e estágios vertex/fragment/geometry/tessellation/compute em GLSL.",
+      "foreignLocation": "ParteI, 01-04"
+    },
+    {
+      "brTopic": "Estudo de algoritmos fundamentais de Computação Gráfica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Ray casting e ray tracing constituem algoritmos gráficos; não há catálogo de algoritmos fundamentais introdutórios.",
+      "foreignLocation": "ParteI, 05"
+    },
+    {
+      "brTopic": "Matemática para Computação Gráfica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Campos escalares, vetoriais e tensoriais e algoritmos numéricos em GPU; matemática gráfica básica não sistematizada.",
+      "foreignLocation": "ParteII, 06-09; objetivos específicos"
+    },
+    {
+      "brTopic": "Estruturas de dados para representação de modelos e cenas tridimensionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Renderização de volumes e campos tridimensionais, sem estruturas de cenas/grafos explicitadas.",
+      "foreignLocation": "ParteII, 06-09"
+    },
+    {
+      "brTopic": "Modelos de cores, tonalização (shading) e iluminação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fragment shaders e ray tracing sustentam tonalização/iluminação, mas modelos de cores não individualizados.",
+      "foreignLocation": "ParteI, 02, 05"
+    },
+    {
+      "brTopic": "Estudo de materiais e técnicas de texturização",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "ParteI 01-05, ParteII 06-10, objetivos, metodologia e bibliografia; materiais e técnicas de textura não constam no conteúdo"
+    },
+    {
+      "brTopic": "Programação de GPU e implementação de algoritmos de Computação Gráfica usando APIs gráficas e shaders",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Programação GLSL e compute shaders, algoritmo numérico GPU e aplicação de visualização usando shaders/CUDA.",
+      "foreignLocation": "ParteI 01-04; objetivos específicos"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo e análise da pipeline gráfica e APIs gráficas. Estudo de algoritmos fundamentais de Computação Gráfica. Matemática para Computação Gráfica. Estruturas de dados para representação de modelos e cenas tridimensionais. Modelos de cores, tonalização (shading) e iluminação. Estudo de materiais e técnicas de texturização. Programação de GPU e implementação de algoritmos de Computação Gráfica usando APIs gráficas e shaders.",
+    "foreign": [
+      "Programar shaders e algoritmos GPU",
+      "Construir aplicação de visualização científica"
+    ],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 7; destino Mestrado",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 4, 'pratica': 0, 'atelie': 0}",
+    "foreign": "Mestrado com 30 T+30 PL; programação individual e projeto totalizam 75%da avaliação",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "Outono/S 1",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Confirmar precedências com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "Disciplina avançada e ingresso no mestrado dependem de autorização",
+    "Hash corrente de programas diferente do registro anterior"
+  ],
+  "openQuestions": [],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "Computação Interativa e Visualização documenta OpenGL/GLSL, shaders e visualização científica, mas não explicita texturização, estruturas de cenas e parte da matemática gráfica exigidas no Mackenzie.",
+  "justification": "Dois tópicos são cobertos e quatro parciais entre sete: capítulos 01-05 privilegiam pipeline programável e ray tracing, 06-10 volumes/campos/topologia. Materiais/texturas não aparecem. Contato 60 h nominal equivale a 94, 7%de 63, 33 h(79, 0%se hora 50 min), sem resolver essas diferenças curriculares.",
+  "conclusionClass": "afinidade_parcial"
+}

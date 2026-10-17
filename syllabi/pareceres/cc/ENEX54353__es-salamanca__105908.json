@@ -1,0 +1,167 @@
+{
+  "id": "cc|ENEX54353|es-salamanca|105908",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54353",
+    "name": "Lógica Matemática",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 1ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 5, bloco 'LÓGICA MATEMÁTICA', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas por semana."
+    },
+    "topics": [
+      "Estudo de elementos da teoria dos conjuntos: noção de conjunto e pertinência, subconjunto, operações com conjuntos, produto cartesiano, conjunto das partes, conjuntos numéricos; bases numéricas",
+      "Aborta a representação computacional de números inteiros e de ponto flutuante; funções, injetividade, sobrejetividade, bijetividade",
+      "Apresenta a lógica proposicional, proposições, conectivos lógicos, tabelas- verdade, equivalência proposicional, construção e validação de argumentos; Lógica de predicados, quantificador",
+      "Aborda formas normais e introduz problemas de satisfatibilidade",
+      "Apresenta demonstrações matemáticas princípio da indução matemática"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105908",
+      "name": "Matemática Discreta y Lógica",
+      "faculty": "Escuela Politécnica Superior de Zamora",
+      "department": "Matemática Aplicada",
+      "programme": "Grado en Ingeniería Informática en Sistemas de Información",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 1,
+      "semester": "Segundo Semestre",
+      "period": "2º semestre do ano letivo espanhol (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Básica (campo 'Carácter')",
+      "assessment": "Dois parciais (temas 1-4 e 5-8): exames 55% + avaliação contínua com trabalhos e práticas de Mathematica 45%",
+      "prerequisites": "Conhecimentos de Bachillerato: cálculo de uma variável e álgebra",
+      "source": "https://guias.usal.es/node/250796",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "7752ba303ce50a6332b10a3c8175a467c475075e7a99df8c474820f37e54964a",
+      "location": "Guía 2026/2027: secções 1 (dados), 2 (recomendações), 3 (objetivos), 4 (competências), 5 (Temas 1-8), 6 (metodologias), 9 (avaliação)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece só com o título, sem tabela de horas. Apenas 6 ECTS explícitos; ECTS não convertidos em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de elementos da teoria dos conjuntos: noção de conjunto e pertinência, subconjunto, operações com conjuntos, produto cartesiano, conjunto das partes, conjuntos numéricos; bases numéricas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1: 'Conjunto y partes de un conjunto, unión e intersección, conjunto complementario'; 'Producto cartesiano de dos conjuntos'",
+      "foreignLocation": "Secção 5, Tema 1",
+      "note": "Conjuntos, partes, operações e produto cartesiano estão cobertos; conjuntos numéricos e bases numéricas (binária, hexadecimal) não constam dos Contenidos."
+    },
+    {
+      "brTopic": "Aborta a representação computacional de números inteiros e de ponto flutuante; funções, injetividade, sobrejetividade, bijetividade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1: 'aplicaciones inyectivas, epiyectivas y biyectivas. Funciones, composición de funciones, función inversa'",
+      "foreignLocation": "Secção 5, Tema 1",
+      "note": "A parte de funções e injetividade/sobrejetividade/bijetividade está coberta; representação computacional de inteiros e ponto flutuante não aparece em nenhum tema."
+    },
+    {
+      "brTopic": "Apresenta a lógica proposicional, proposições, conectivos lógicos, tabelas- verdade, equivalência proposicional, construção e validação de argumentos; Lógica de predicados, quantificador",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 2: 'Proposición, valor de verdad, tabla de verdad, conectores lógicos. Equivalencias lógicas … Razonamiento lógico, inferencias y falacias'; Tema 3: predicados e cuantificadores existencial y universal",
+      "foreignLocation": "Secção 5, Temas 2 e 3; secção 3, objetivo 4"
+    },
+    {
+      "brTopic": "Aborda formas normais e introduz problemas de satisfatibilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secção 5 (Temas 1-8), secção 3 (objetivos) e secção 4 (competências) lidas integralmente; Tema 2 trata álgebra de Boole da lógica de proposições, mas não menciona formas normais (FNC/FND) nem satisfatibilidade/SAT.",
+      "note": "Álgebra de Boole é conteúdo adjacente, não suficiente para declarar formas normais ou SAT."
+    },
+    {
+      "brTopic": "Apresenta demonstrações matemáticas princípio da indução matemática",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 3: 'Demostraciones directas e indirectas, reducción al absurdo, prueba por contrarrecíproca, pruebas por casos. Principio de inducción y forma fuerte de inducción'",
+      "foreignLocation": "Secção 5, Tema 3"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Relações binárias, ordem e equivalência, classes e conjunto quociente", "location": "Secção 5, Tema 1"},
+    {"topic": "Contagem e combinatória; teoria de números e aritmética modular", "location": "Secção 5, Temas 4-5"},
+    {"topic": "Grafos e árvores; autômatos finitos; criptografia (RSA)", "location": "Secção 5, Temas 6-8"},
+    {"topic": "Práticas com Mathematica em Aula de Informática", "location": "Secção 6; secção 9"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "CB03 dominar matemática discreta, lógica, algorítmica e complexidade",
+      "Compreender e usar lógica proposicional e de predicados e álgebra de Boole (objetivos 4-5)",
+      "CT04 elaborar modelos abstratos"
+    ],
+    "convergences": [
+      "Lógica proposicional e de predicados, equivalências e inferências",
+      "Técnicas de demonstração e indução",
+      "Funções injetoras, sobrejetoras e bijetoras"
+    ],
+    "differences": [
+      "Mackenzie inclui formas normais, satisfatibilidade e representação computacional de números, ausentes em Salamanca",
+      "Salamanca ocupa a maior parte do programa com combinatória, grafos, autômatos e criptografia, sem correspondente na ementa de Lógica Matemática"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação do 1º ano em computação/informática",
+    "brazil": "4 h-a teóricas semanais, centradas em conjuntos, lógica, representação numérica e prova",
+    "foreign": "Disciplina básica de 6 ECTS cujos Temas 1-3 (de 8) correspondem à lógica; avaliação por dois parciais com exame",
+    "theoryPractice": "Mackenzie declara só horas teóricas; Salamanca soma práticas com Mathematica sem declarar proporção"
+  },
+  "practical": {
+    "period": "Segundo Semestre (primavera europeia); coincidência com 2027.2 depende do calendário 2027/28, não verificado",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional do projeto)",
+    "enrolment": "Disciplina básica de 1º curso do grau; aceitação de intercambista e vaga não verificadas",
+    "prerequisites": "Cálculo de uma variável e álgebra pré-universitárias",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Os Temas 1-3 de Matemática Discreta y Lógica cobrem a lógica proposicional e de predicados, as demonstrações com indução e as funções de Lógica Matemática, mas formas normais, satisfatibilidade, bases numéricas e representação computacional de números não aparecem no programa.",
+  "justification": "De cinco tópicos essenciais, dois são cobertos (lógica proposicional/predicados e demonstração/indução), dois são parciais (conjuntos sem conjuntos numéricos/bases; funções sem representação de inteiros e ponto flutuante) e um não é encontrado (formas normais e SAT). A razão coberto é 2/5 (40%), abaixo dos 75% exigidos para alta afinidade, e o par chega a 80% somando parciais. As horas são incomparáveis: a guía indica 6 ECTS e nenhuma hora presencial, contra 63,33 h declaradas pelo Mackenzie. Cerca de 60% do programa estrangeiro (Temas 4-8) trata de assuntos fora desta ementa.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guía individual 2026/2027 completa em conteúdos, sem tabela de horas; a ementa brasileira é concisa e dois tópicos compostos exigem julgamento sobre cobertura parcial.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Carga horária não comparável: guia sem horas presenciais, apenas 6 ECTS",
+    "Tópicos brasileiros compostos (conjuntos + bases numéricas; funções + representação computacional) foram avaliados como unidade, o que reduz a granularidade",
+    "Candidata de origem semântica; a mesma guía 105908 foi avaliada também contra Pensamento Computacional e Matemática Discreta",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceitaria cobrir formas normais/SAT e representação numérica por complementação em outro componente?",
+    "Salamanca oferece disciplina de Estructura de Computadores ou Fundamentos de Informática que trate representação numérica e permita completar o par?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía de Salamanca 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); título da página confere com o catálogo; cada tópico vinculado a tema/secção da guía; coerência verificada por scripts/build_pareceres.py --check. Outras disciplinas de Salamanca não foram lidas.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Fonte única completa e coerente; lacunas objetivas nos Contenidos"}
+}

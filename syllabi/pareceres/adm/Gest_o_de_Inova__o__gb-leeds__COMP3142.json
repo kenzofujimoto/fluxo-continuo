@@ -1,0 +1,159 @@
+{
+  "id": "adm|Gestão de Inovação|gb-leeds|COMP3142",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Inovação",
+    "name": "Gestão de Inovação",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso; o bloco se intitula 'Gestão da Inovação'",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 3, bloco 'Gestão da Inovação': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fatores fundamentais na gestão da inovação",
+      "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "A inovação como um processo de gestão e mecanismos de implantação",
+      "Modelo de estratégia de inovação",
+      "Ecossistema de Inovação",
+      "Avaliação e desempenho da inovação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3142",
+      "name": "Professionalism, Innovation & Enterprise",
+      "faculty": "Não nomeada na ficha (prefixo de código COMP; conteúdo voltado à Ciência da Computação)",
+      "programme": "Não indicado; o texto se dirige a estudantes e profissionais de computação",
+      "level": "Undergraduate (UG); o prefixo numérico 3xxx sugere nível final, não declarado na ficha",
+      "yearOfStudy": null,
+      "semester": 2,
+      "period": "Semester 2 (Jan to Jun)",
+      "academicYear": "2026/2027",
+      "language": "Inglês",
+      "courseStatus": "Módulo de 20 créditos; não aprovado como discovery module",
+      "assessment": "Não descrita na ficha obtida",
+      "prerequisites": "Nenhum listado",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3142/202627",
+      "catalogue": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+      "sha256": "ef53a8d12b24ea03e1b2c5ecc5b469f835e129adaf5c8f838e65a46f010da874",
+      "location": "Ficha 2026/27: module summary, Objectives, Learning outcomes (C4-C18), Skills outcomes, Syllabus (5 itens), Teaching Methods (horas)",
+      "hours": {
+        "contactTotal": 42,
+        "contactLecture": 22,
+        "contactSeminarLab": 20,
+        "selfStudy": 158,
+        "totalWorkload": 200,
+        "ects": null,
+        "credits": 20,
+        "creditUnit": "UK credits",
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "22 aulas de 1 h e 10 seminários de 2 h (42 h de contato), 158 h de estudo privado, 200 h no total (100 h por 10 créditos). Créditos britânicos não convertidos em horas de aula."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fatores fundamentais na gestão da inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes e Syllabus (5 itens) lidos; o objetivo cita 'factors for personal and enterprise success', que trata de sucesso profissional e empresarial e não de fatores da gestão da inovação"
+    },
+    {
+      "brTopic": "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus: 'Innovation in Computer Science'; objetivo: 'professional behaviours and innovation in computing'",
+      "foreignLocation": "Syllabus, 4º item; Objectives, 1º parágrafo",
+      "note": "A inovação é tratada no domínio da computação; tipos, graus de inovação e perfil da organização inovadora não são nomeados."
+    },
+    {
+      "brTopic": "A inovação como um processo de gestão e mecanismos de implantação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Habilidade: 'develop innovation ideas into a vision and concrete proposal'; syllabus: 'Entrepreneurship and Commercial Awareness'",
+      "foreignLocation": "Skills outcomes, 4º item; Syllabus, 2º item; Objectives",
+      "note": "O percurso da ideia à proposta concreta lembra o processo de inovação, em perspectiva de empreendedorismo e engenharia, sem mecanismos de implantação organizacionais."
+    },
+    {
+      "brTopic": "Modelo de estratégia de inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Todas as secções de conteúdo lidas; 'strategy tools and systems thinking' aparece como habilidade para tratar questões comerciais, éticas e de risco, sem modelo de estratégia de inovação"
+    },
+    {
+      "brTopic": "Ecossistema de Inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Todas as secções de conteúdo lidas; 'Topical Issues and Industry Insight' (5º item do syllabus) é genérico e não menciona ecossistemas, parcerias ou redes de inovação"
+    },
+    {
+      "brTopic": "Avaliação e desempenho da inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Todas as secções de conteúdo lidas; o resultado C9 trata de gestão de risco de projetos e a avaliação mencionada se refere a literatura técnica e soluções, não ao desempenho da inovação"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Trabalho em equipe profissional e ética, conduta profissional e considerações legais na indústria de tecnologia", "location": "Syllabus, 1º item; Module summary; Learning outcomes C8, C16"},
+    {"topic": "Pensamento criativo, crítico e sistêmico; fontes de informação e ferramentas de IA", "location": "Syllabus, 3º item; Skills outcomes, 2º item"},
+    {"topic": "Gestão de risco, igualdade, diversidade e inclusão, e planejamento da própria aprendizagem (CPD)", "location": "Learning outcomes C9, C11, C18"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos de inovação e a inovação como processo de gestão nas organizações.",
+    "foreign": ["Identificar e analisar questões éticas e códigos de conduta profissionais", "Usar um processo de gestão de risco em projetos", "Funcionar como membro ou líder de equipe", "Desenvolver consciência comercial e transformar uma ideia de inovação em proposta"],
+    "convergences": ["Transformação de ideias de inovação em proposta concreta", "Empreendedorismo e consciência comercial como contexto"],
+    "differences": ["Leeds é um módulo de profissionalismo, ética e empreendedorismo para a computação, com inovação como uma parte", "Mackenzie é gestão da inovação em organizações (ecossistema, estratégia, desempenho), sem correspondente na ficha britânica"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; módulo de Leeds de nível final (inferido do código) e de computação, Mackenzie na 6ª etapa de Administração",
+    "brazil": "Disciplina curta de 31,7 h sobre gestão da inovação",
+    "foreign": "Módulo de 20 créditos em cinco unidades de profissionalismo, empreendedorismo, pensamento criativo, inovação em computação e temas atuais",
+    "theoryPractice": "22 aulas e 10 seminários de 2 h; avaliação não descrita"
+  },
+  "practical": {
+    "period": "Semester 2 (janeiro a junho); se 2027.2 corresponder ao semestre de outono europeu, o módulo não coincide com a janela da mobilidade — confirmar com a COI",
+    "language": "Inglês (IELTS 6.0, TOEFL iBT 87 ou equivalente, conforme o convênio)",
+    "enrolment": "A ficha obtida não informa disponibilidade para estudantes de intercâmbio; módulo para estudantes de Ciência da Computação, turma de 350, o que exige verificar se um aluno de Administração pode se inscrever",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Professionalism, Innovation & Enterprise é módulo de profissionalismo e empreendedorismo para computação, em que a inovação é uma entre cinco unidades; apenas teoria da inovação e processo de inovação têm apoio parcial para os seis enunciados de Gestão de Inovação.",
+  "justification": "Dois enunciados brasileiros são parciais — a teoria da inovação, pela unidade 'Innovation in Computer Science', e a inovação como processo, pela transformação de ideias em proposta concreta — e quatro não foram encontrados: fatores da gestão da inovação, modelo de estratégia, ecossistema e avaliação do desempenho. A cobertura de 33% fica abaixo do limite de afinidade parcial. As 42 h de contato superam as 31,7 h brasileiras (razão 1,32, ou 1,10 com hora de 50 min), mas a carga é distribuída entre ética, direito profissional, trabalho em equipe e empreendedorismo, de modo que a razão favorável não indica equivalência de conteúdo. A ficha é voltada à computação, e a ficha não informa disponibilidade para intercâmbio.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Syllabus em cinco títulos com resultados de aprendizagem e horas explícitas; reduzem a confiança a avaliação não descrita, a reading list no Minerva, a hora não declarada e a ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 não confirmada; módulo no Semester 2 (janeiro a junho), possivelmente fora da janela 2027.2",
+    "A ficha obtida não informa se o módulo está disponível para estudantes de intercâmbio nem se aceita alunos de fora de computação",
+    "Duração da hora de contato não declarada; razão calculada em 1,32 (60 min) e 1,10 (50 min)",
+    "Syllabus em cinco títulos, sem subtópicos; reading list no Minerva, não lida",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; o bloco usa 'Gestão da Inovação'",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A unidade 'Innovation in Computer Science' trata de tipos e graus de inovação e de ecossistemas, como na ficha brasileira?",
+    "Um estudante de Administração pode se inscrever em módulo COMP de nível final?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral dos dois documentos oficiais com apoio de IA (Claude); cada enunciado brasileiro buscado em resumo, objetivos, resultados e nos cinco itens do syllabus da ficha de Leeds; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Divergência de escopo clara; horas explícitas"}
+}

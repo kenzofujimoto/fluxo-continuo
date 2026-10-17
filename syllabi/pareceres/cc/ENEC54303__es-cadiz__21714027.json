@@ -1,0 +1,147 @@
+{
+  "id": "cc|ENEC54303|es-cadiz|21714027",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54303",
+    "name": "Linguagens Formais e Autômatos",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 3 (5ª etapa CC Alphaville), bloco 'Comp. Curricular LINGUAGENS FORMAIS E AUTÔMATOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h-relógio e 4 h-a teóricas por semana, sem horas práticas."
+    },
+    "topics": [
+      "Estudo dos conceitos fundamentais sobre alfabetos, palavras e linguagens formais, a hierarquia de Chomsky e gramáticas formais",
+      "Apresenta as linguagens regulares e autômatos finitos, linguagens livres de contexto e autômatos à pilha, linguagens sensíveis ao contexto e autômatos linearmente limitados, linguagens recursivamente enumeráveis e Máquinas de Turing"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714027",
+      "name": "Teoría de Autómatas y Lenguajes Formales",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo IIIA Tecnología Específica Computación, materia IIIA.2 Procesadores de lenguajes",
+      "level": "Grado (graduação)",
+      "yearOfStudy": "3 ou 4",
+      "semester": "Segundo semestre",
+      "period": "2º semestre do ano letivo espanhol (primavera europeia)",
+      "academicYear": "2025/2026",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Optativa",
+      "assessment": "Exame final escrito 60%, práticas em computador 20%, projeto em grupo 20%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2025-26/21714027",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "d2f294bcf43f94a1c295fb89c9d4246542f20c038d55582ca58fadd145a812c7",
+      "location": "Programa docente 2025-26 (a guia 2026-27 não está no cache): cabeçalho, 'Resultados de aprendizaje' 1-4, 6-7, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-8",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 20,
+        "contactSeminarLab": 40,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro de atividades: 60 h presenciais = Teoría 20 + Prácticas, seminarios y problemas 10 + Prácticas de informática 30; 86 h não presenciais e 4 h de avaliação; 150 h totais. Créditos de teoria (2,5) e prática (5,0) somam 7,5, divergindo dos 6 ECTS declarados. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos conceitos fundamentais sobre alfabetos, palavras e linguagens formais, a hierarquia de Chomsky e gramáticas formais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 2 'Alfabetos, cadenas y lenguajes'; Tema 6 'Jerarquía de Chomsky', gramáticas regulares e livres de contexto, árvores de análise",
+      "foreignLocation": "Temario, Temas 2 e 6; Resultados de aprendizaje 3"
+    },
+    {
+      "brTopic": "Apresenta as linguagens regulares e autômatos finitos, linguagens livres de contexto e autômatos à pilha, linguagens sensíveis ao contexto e autômatos linearmente limitados, linguagens recursivamente enumeráveis e Máquinas de Turing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Temas 2-5 autômatos finitos determinísticos e não determinísticos, expressões regulares e propriedades; Tema 8 autômatos a pilha; Tema 6 gramáticas livres de contexto",
+      "foreignLocation": "Temario, Temas 2-6 e 8; Resultados de aprendizaje 1, 3 e 7",
+      "note": "Linguagens regulares e livres de contexto, com AF e AP, são tratadas com mais detalhe que o ementário (minimização, equivalências, propriedades de fechamento). Linguagens sensíveis ao contexto, autômatos linearmente limitados, recursivamente enumeráveis e Máquinas de Turing não aparecem; a hierarquia de Chomsky só é desenvolvida de modo tabular (RA 3)."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Minimização e equivalência de autômatos finitos; transições épsilon; propriedades de decisão e de fechamento de linguagens regulares", "location": "Temario, Temas 2, 3 e 5"},
+    {"topic": "Análise sintática descendente e ascendente", "location": "Temario, Tema 7; RA 4"},
+    {"topic": "Projeto léxico e sintático de uma linguagem e uso de ferramentas de apoio", "location": "Resultados de aprendizaje 2, 4 e 6"},
+    {"topic": "Projeto de gramáticas e árvores de análise", "location": "Temario, Tema 6"},
+    {"topic": "Projeto em grupo com memória e documentação (20%)", "location": "Sistema de evaluación, item 3"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Modelar processadores de linguagens com autômatos finitos e minimizá-los (RA 1)",
+      "Projetar linguagens livres de contexto com gramáticas e autômatos de pilha (RA 3)",
+      "Implementar analisadores léxico e sintático com ferramentas de apoio (RA 2, 4, 6)"
+    ],
+    "convergences": [
+      "Linguagens regulares e autômatos finitos",
+      "Linguagens livres de contexto, gramáticas e autômatos à pilha",
+      "Hierarquia de Chomsky"
+    ],
+    "differences": [
+      "O Mackenzie chega a linguagens sensíveis ao contexto, recursivamente enumeráveis e Máquinas de Turing; Cádiz não",
+      "Cádiz acrescenta análise sintática descendente/ascendente e prática de implementação, mais próximas de Projeto de Compiladores"
+    ]
+  },
+  "depth": {
+    "level": "Cádiz: optativa de 3º/4º curso na intensificação Computación; Mackenzie: obrigatória da 5ª etapa",
+    "brazil": "Quatro h-a teóricas semanais, sem prática declarada, com toda a hierarquia de Chomsky até Máquinas de Turing",
+    "foreign": "60 h presenciais com 40 h de problemas e informática e 20 h de teoria; avaliação com projeto em grupo",
+    "theoryPractice": "Cádiz é predominantemente prática (67% do contato); o ementário do Mackenzie é inteiramente teórico"
+  },
+  "practical": {
+    "period": "'Duración: SEGUNDO SEMESTRE' (primavera europeia); não coincide com 2027.2, que corresponde ao outono europeu de 2027/28",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Optativa com 24 matriculados em 2024-25 e 30 em 2025-26; secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado no documento",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A optativa Teoría de Autómatas y Lenguajes Formales cobre alfabetos, linguagens, hierarquia de Chomsky, autômatos finitos, expressões regulares, gramáticas e autômatos à pilha (Temas 2-6 e 8), mas deixa de fora linguagens sensíveis ao contexto, autômatos linearmente limitados, recursivamente enumeráveis e Máquinas de Turing, que fecham a ementa do Mackenzie.",
+  "justification": "O primeiro tópico essencial está coberto e o segundo é parcial, pois a metade final da cadeia da hierarquia de Chomsky (tipos 1 e 0) não consta do programa; cobertura plena de 50% e parcial de 100% levam a afinidade parcial pela regra interna. As 60 h presenciais (20 teoria, 10 problemas, 30 informática) somam 94,7% das 63,33 h do Mackenzie pelo valor nominal e 78,9% com hora de 50 minutos. O programa lido é o de 2025-26, e o curso é do segundo semestre espanhol, o que pesa mais na viabilidade do que na afinidade de conteúdo.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual oficial com horas discriminadas e temário em oito temas; reduzem a confiança o fato de a guia em cache ser a de 2025-26, a duração não declarada da hora e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Guia analisada é a de 2025-26; a de 2026-27 não estava no cache e o conteúdo pode ter mudado",
+    "Oferta em 2027/28 e vaga para estudante de mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Disciplina de segundo semestre: coincidiria com a primavera europeia, não com 2027.2",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 com hora de 50 minutos",
+    "Créditos de teoria (2,5) e prática (5,0) somam 7,5, diferente dos 6 ECTS declarados; o parecer usa apenas o quadro de horas",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceita a ausência de máquinas de Turing e de linguagens sensíveis ao contexto, ou exige complemento sobre decidibilidade?",
+    "A UCA oferta 21714027 no segundo semestre de 2027/28 para intercambistas?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema ou resultado de aprendizagem; par recuperado por similaridade semântica de conceitos e verificado documento a documento; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa completo com horas explícitas; lacuna de tipos 0 e 1 da hierarquia objetiva e documentada"
+  }
+}
