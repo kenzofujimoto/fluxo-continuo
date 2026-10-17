@@ -1,0 +1,127 @@
+{
+  "id": "cc|ENEX60057|gb-leeds|COMP3630",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60057",
+    "name": "INTELIGÊNCIA ARTIFICIAL II",
+    "courseName": "Ciência da Computação",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/7__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "ef10c81d74b63af44db4355f8acb3b25bbe5ce2ee7c760aa8a579f4ef11a6efd",
+    "location": "Página 3, bloco INTELIGÊNCIA ARTIFICIAL II, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "COMP3630",
+      "name": "Artificial Intelligence and Robotics",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/COMP/3630/202627",
+      "sha256": "9a8d6bff713c2b8853595afd97af5ca0d58eb3f693601987760b8d0ff79121d3",
+      "location": "Catálogo Leeds 2026/27 integral: Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus e Teaching Methods",
+      "academicYear": "2026/27",
+      "language": "Inglês; turma de mobilidade a confirmar",
+      "period": "Semester 1 (Sep to Jan)",
+      "assessment": "Método e ponderações de avaliação não publicados no texto consultado.",
+      "prerequisites": "Não especificados na ficha disponível",
+      "hours": {
+        "contactTotal": 66,
+        "contactLecture": 44,
+        "contactSeminarLab": 22,
+        "selfStudy": 134,
+        "totalWorkload": 200,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivos abrangem representação de conhecimento e abordagens baseadas em dados e aprendizagem",
+      "foreignLocation": "Objectives"
+    },
+    {
+      "brTopic": "Estudo de aprendizagem de máquina e sua relação com ciência de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Aprendizagem supervisionada/não supervisionada, qualidade dos dados e experimentos de IA",
+      "foreignLocation": "Syllabus, Machine Learning basics; Skills outcomes"
+    },
+    {
+      "brTopic": "Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Árvores, regressão logística, k-means, PCA e métricas explícitos; associação, detecção de anomalias e deep learning não estão especificados",
+      "foreignLocation": "Syllabus, Supervised Learning, Unsupervised Learning e Machine Learning basics"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Apresenta os conceitos da inteligência artificial baseado em representação de conhecimento e paradigma baseado em aprendizagem. Estudo de aprendizagem de máquina e sua relação com ciência de dados. Aborda o ecossistema computacional da aprendizagem de máquina, tipos de aprendizagem, tarefas de aprendizagem de máquina, treinamento, teste e validação, agrupamento, redução de dimensionalidade, associação, árvore de decisão, regressão logística, detecção de anomalia e deep learning.",
+    "foreign": [
+      "Combinar busca, planejamento, modelos probabilísticos e aprendizagem em sistemas inteligentes."
+    ],
+    "convergences": [
+      "Artificial Intelligence and Robotics cobre conceitos e relação ML/dados de IA II, mas sua abrangência em busca e robótica deixa lacunas no conjunto de técnicas da etapa 7."
+    ],
+    "differences": [
+      "Dois tópicos estão cobertos e o terceiro parcialmente: PCA e árvores são demonstrados; deep learning não pode ser inferido de imitation learning nem de classificação. O total desagregado de contato é 66h, mas há erro aparente de 200h em Total Contact. Robótica e STRIPS acrescentam conteúdo, sem sanar associação e anomalias não localizadas."
+    ]
+  },
+  "depth": {
+    "level": "Graduação em computação, módulo avançado; Mackenzie na etapa 6 ou 7.",
+    "brazil": "Etapa 7; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Combinar busca, planejamento, modelos probabilísticos e aprendizagem em sistemas inteligentes.",
+    "theoryPractice": "44h de lectures e 22h de prática; desenvolvimento e avaliação de sistemas de IA."
+  },
+  "practical": {
+    "period": "Semester 1 (Sep to Jan)",
+    "language": "Inglês; turma de mobilidade a confirmar",
+    "enrolment": "Não é discovery module; matrícula de mobilidade depende de autorização específica.",
+    "prerequisites": "Não especificados na ficha disponível",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Artificial Intelligence and Robotics cobre conceitos e relação ML/dados de IA II, mas sua abrangência em busca e robótica deixa lacunas no conjunto de técnicas da etapa 7.",
+  "justification": "Dois tópicos estão cobertos e o terceiro parcialmente: PCA e árvores são demonstrados; deep learning não pode ser inferido de imitation learning nem de classificação. O total desagregado de contato é 66h, mas há erro aparente de 200h em Total Contact. Robótica e STRIPS acrescentam conteúdo, sem sanar associação e anomalias não localizadas.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Total Contact indica 200h, incompatível com 44h de lecture, 22h de practical e 134h privadas."
+  ],
+  "openQuestions": [
+    "A universidade confirma Artificial Intelligence and Robotics para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENEX60057 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "cc|ENEC50011|ro-babes|MLE5022",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC50011",
+    "name": "Algoritmos e Programação I",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 1",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 2, bloco ALGORITMOS E PROGRAMAÇÃO I, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 2,
+        "pratica": 2,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "Implementação de algoritmos utilizando linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ro-babes",
+      "university": "Babeș-Bolyai University",
+      "code": "MLE5022",
+      "name": "Data structures and algorithms",
+      "faculty": "Mathematics and Computer Science",
+      "department": "Department of Computer Science",
+      "programme": "Computer Science (in English)",
+      "level": "Bachelor",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "2",
+      "academicYear": "2026/2027",
+      "language": "Inglês na linha IE/IIE; confirmar turma",
+      "courseStatus": "Compulsory",
+      "assessment": "Exame escrito 60%, laboratório 40%, bônus seminário até 0, 5; presenças mínimas",
+      "prerequisites": "Fundamentals of programming",
+      "source": "https://www.cs.ubbcluj.ro/files/curricula/2026/syllabus/IE_sem2_MLE5022_en_marianzsu_2026_10311.pdf",
+      "catalogue": "https://www.ubbcluj.ro/en/programe_academice/licenta/",
+      "sha256": "f613878e49984296c59ad0b8fe6f0ab6b7e3bb876df0eb47a51b352fcf0077bb",
+      "location": "Course description: secções 1-4 (identificação/horas), 7 (resultados), 8.1-8.2 (conteúdos)",
+      "hours": {
+        "contactTotal": 56,
+        "contactLecture": 28,
+        "contactSeminarLab": 28,
+        "selfStudy": 69,
+        "totalWorkload": 125,
+        "ects": 5,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Arrays dinâmicos e listas, pseudocódigo e complexidades; atribuição, condicionais, repetição e modularização são pré-requisitos implícitos, não unidades introdutórias ensinadas.",
+      "foreignLocation": "8.1 itens 1-6; 4 pré-requisitos"
+    },
+    {
+      "brTopic": "Implementação de algoritmos utilizando linguagem de programação imperativa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Implementação em C++ de ADTs nos laboratóriosA 1-A 5 e avaliação explícita de implementação/documentação.",
+      "foreignLocation": "8.2 Laboratory; 9.5"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade. Implementação de algoritmos utilizando linguagem de programação imperativa.",
+    "foreign": [
+      "Construir soluções com algoritmos eficientes e estruturas de dados adequadas"
+    ],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 1; destino Bachelor",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 2, 'pratica': 2, 'atelie': 0}",
+    "foreign": "Primeiro ano, segundo semestre; 28 aulas+28 seminário/laboratório; estruturas abstratas avançam além da introdução",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "Semestre 2(primavera); não coincide com 2027.2/outono",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Fundamentals of programming",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI"
+  ],
+  "openQuestions": [],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "Data Structures and Algorithms inclui implementação imperativa em C++ e estruturas lineares, mas pressupõe Fundamentals of Programming em vez de ensinar do zero comandos e modularização de Algoritmos I.",
+  "justification": "Arrays/listas e laboratóriosA 1-A 5 comprovam sobreposição, com acréscimos de hashing, heaps e árvoresAVL.56 hfrente 63, 33 h dão razão 0, 884 nominal/0, 737 no cenário 50 min. Um dos dois tópicos brasileiros é parcial; a carga condicional e o pressuposto de programação prévia impedem leitura de substituição integral.",
+  "conclusionClass": "afinidade_parcial"
+}

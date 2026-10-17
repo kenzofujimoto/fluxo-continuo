@@ -1,0 +1,118 @@
+{
+  "id": "cc|ENUN52242|gb-leeds|LUBS1001",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN52242",
+    "name": "PRINCÍPIOS DE EMPREENDEDORISMO",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "Página 3, bloco PRINCÍPIOS DE EMPREENDEDORISMO, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "A disciplina tem como propósito estudar e discutir sobre o que é empreendedorismo e sua importância no contexto contemporâneo para a vida pessoal, acadêmica, social e para a carreira dos alunos",
+      "Discute também uma análise das habilidades e atitudes essenciais para empreender, além de tendências e oportunidades de mercado"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS1001",
+      "name": "Introduction to Enterprise and Entrepreneurship",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/1001/202627",
+      "sha256": "e8c73c048e873e76c12b0e0de6741d016fa4330bec0fb8cdd0cf9b71703b600c",
+      "location": "LUBS1001: Module summary, Objectives, Learning outcomes 1-2, Syllabus indicativo, Teaching Methods e Methods of Assessment",
+      "academicYear": "2026/27",
+      "language": "Inglês; confirmar turma de mobilidade",
+      "period": "Semester 2 (Jan to Jun)",
+      "assessment": "Ensaio individual de 2.500 palavras, 100%.",
+      "prerequisites": "Não especificados na ficha disponível",
+      "hours": {
+        "contactTotal": 20,
+        "contactLecture": 10,
+        "contactSeminarLab": 10,
+        "selfStudy": 80,
+        "totalWorkload": 100,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina tem como propósito estudar e discutir sobre o que é empreendedorismo e sua importância no contexto contemporâneo para a vida pessoal, acadêmica, social e para a carreira dos alunos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Definições de enterprise/entrepreneurship e contexto contemporâneo; vida acadêmica e carreira pessoal não são desenvolvidas como eixos próprios",
+      "foreignLocation": "Objectives; Learning outcomes 1-2"
+    },
+    {
+      "brTopic": "Discute também uma análise das habilidades e atitudes essenciais para empreender, além de tendências e oportunidades de mercado",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Características de diferentes empreendedores, inovação, criatividade, setores e contexto das empresas",
+      "foreignLocation": "Syllabus, Entrepreneurs, Innovation and creativity, Exploring sectors"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A disciplina tem como propósito estudar e discutir sobre o que é empreendedorismo e sua importância no contexto contemporâneo para a vida pessoal, acadêmica, social e para a carreira dos alunos. Discute também uma análise das habilidades e atitudes essenciais para empreender, além de tendências e oportunidades de mercado.",
+    "foreign": [
+      "Interpretar ideias fundadoras do empreendedorismo e sua transformação em inovação."
+    ],
+    "convergences": [
+      "LUBS1001 apresenta o núcleo conceitual e as atitudes empreendedoras, com menor explicitação da dimensão pessoal e acadêmica de Princípios de Empreendedorismo."
+    ],
+    "differences": [
+      "O segundo enunciado tem cobertura por características, criatividade e contextos; o primeiro é parcial porque não basta dizer que alunos podem abrir empresas para demonstrar a importância na vida acadêmica e carreira. O formato introdutório e o ensaio de 2.500 palavras são compatíveis com reflexão, mas 20h de contato ficam abaixo de 75% das 31,67h brasileiras."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 2; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Interpretar ideias fundadoras do empreendedorismo e sua transformação em inovação.",
+    "theoryPractice": "10h de lecture e 10h de workshops; avaliação por ensaio, sem entrega obrigatória de plano de negócios."
+  },
+  "practical": {
+    "period": "Semester 2 (Jan to Jun)",
+    "language": "Inglês; confirmar turma de mobilidade",
+    "enrolment": "Discovery module adequado a alunos de qualquer área; vaga de intercambista e período ainda dependem de confirmação.",
+    "prerequisites": "Não especificados na ficha disponível",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "LUBS1001 apresenta o núcleo conceitual e as atitudes empreendedoras, com menor explicitação da dimensão pessoal e acadêmica de Princípios de Empreendedorismo.",
+  "justification": "O segundo enunciado tem cobertura por características, criatividade e contextos; o primeiro é parcial porque não basta dizer que alunos podem abrir empresas para demonstrar a importância na vida acadêmica e carreira. O formato introdutório e o ensaio de 2.500 palavras são compatíveis com reflexão, mas 20h de contato ficam abaixo de 75% das 31,67h brasileiras.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas"
+  ],
+  "openQuestions": [
+    "A universidade confirma Introduction to Enterprise and Entrepreneurship para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENUN52242 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

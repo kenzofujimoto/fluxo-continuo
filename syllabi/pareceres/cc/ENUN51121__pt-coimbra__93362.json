@@ -1,0 +1,148 @@
+{
+  "id": "cc|ENUN51121|pt-coimbra|93362",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN51121",
+    "name": "PROJETOS EMPREENDEDORES",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "Página 4, bloco PROJETOS EMPREENDEDORES, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "Análise de soluções para o problema ou oportunidade",
+      "Proposição de projetos com viabilidade de implementação",
+      "Prática de proposição de valor e modelagem de projetos",
+      "Construção de planos de negócios simplificados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93362",
+      "name": "Empreendedorismo e Criação de Empresas",
+      "source": "https://apps.uc.pt/courses/PT/unit/93362/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "sha256": "ceb7f6c4a34c24a3a67d347958764f95e7e6e684a2a8c0f2f95378c7fdb05402",
+      "location": "Empreendedorismo e Criação de Empresas 2026-2027: campos gerais, conhecimentos recomendados, ensino, resultados, Programa 1-7 e avaliação integrais",
+      "academicYear": "2026-2027",
+      "language": "Português",
+      "period": "2º semestre no plano de Gestão; confirmar oferta 2027/28",
+      "assessment": "Periódica ou exame, critérios definidos por edição, 100%.",
+      "prerequisites": "Aprovação ou frequência em Marketing, Estratégia, Análise Financeira e Gestão de Operações.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "programme": "Gestão",
+      "level": "Licenciatura",
+      "yearOfStudy": 3,
+      "officialCode": "01021142"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Da ideia ao conceito e modelos de criatividade estratégica aproximam oportunidades; diagnóstico de problema específico não explicitado",
+      "foreignLocation": "Programa 2-3"
+    },
+    {
+      "brTopic": "Análise de soluções para o problema ou oportunidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Criatividade estratégica, modelos de negócio e projeções para avaliar viabilidade econômico-financeira",
+      "foreignLocation": "Programa 3-4 e 7"
+    },
+    {
+      "brTopic": "Proposição de projetos com viabilidade de implementação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Projetos acompanhados por tutorias e avaliação da viabilidade econômico-financeira do negócio",
+      "foreignLocation": "Métodos de Ensino; Programa 7"
+    },
+    {
+      "brTopic": "Prática de proposição de valor e modelagem de projetos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelos de negócio e desenvolvimento de projetos explícitos; proposição de valor não é individualizada na ficha",
+      "foreignLocation": "Programa 4; Métodos de Ensino"
+    },
+    {
+      "brTopic": "Construção de planos de negócios simplificados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Passagem do conceito ao plano de negócio e projeções financeiras",
+      "foreignLocation": "Programa 5 e 7"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto. Análise de soluções para o problema ou oportunidade. Proposição de projetos com viabilidade de implementação. Prática de proposição de valor e modelagem de projetos. Construção de planos de negócios simplificados.",
+    "foreign": [
+      "Transformar ideias em modelos e planos de negócio com criatividade, liderança, equipe e avaliação financeira."
+    ],
+    "convergences": [
+      "Empreendedorismo e Criação de Empresas é uma candidata consistente para o projeto brasileiro, com plano e viabilidade financeira, embora a proposta de valor e o diagnóstico de problemas apareçam apenas de forma indireta."
+    ],
+    "differences": [
+      "Três tópicos cobertos e dois parciais decorrem do Programa 2-7 e das tutorias de projetos. A bibliografia de Osterwalder não foi usada para presumir prática específica de proposta de valor; tampouco os 6 ECTS foram convertidos em contato. O perfil de terceiro ano em Gestão exige verificar Marketing, Estratégia, Finanças e Operações para matrícula de aluno de CC."
+    ]
+  },
+  "depth": {
+    "level": "Licenciatura em Gestão, 3º ano, frente ao componente universal prático da etapa 3 de CC.",
+    "brazil": "Etapa 3; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Transformar ideias em modelos e planos de negócio com criatividade, liderança, equipe e avaliação financeira.",
+    "theoryPractice": "Regime híbrido com seminários e avaliações presenciais e tutorias online de acompanhamento dos projetos; horas não quantificadas."
+  },
+  "practical": {
+    "period": "2º semestre no plano de Gestão; confirmar oferta 2027/28",
+    "language": "Português",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Aprovação ou frequência em Marketing, Estratégia, Análise Financeira e Gestão de Operações.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Empreendedorismo e Criação de Empresas é uma candidata consistente para o projeto brasileiro, com plano e viabilidade financeira, embora a proposta de valor e o diagnóstico de problemas apareçam apenas de forma indireta.",
+  "justification": "Três tópicos cobertos e dois parciais decorrem do Programa 2-7 e das tutorias de projetos. A bibliografia de Osterwalder não foi usada para presumir prática específica de proposta de valor; tampouco os 6 ECTS foram convertidos em contato. O perfil de terceiro ano em Gestão exige verificar Marketing, Estratégia, Finanças e Operações para matrícula de aluno de CC.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "6 ECTS não convertidos em carga de contato.",
+    "Pré-requisitos de Gestão podem restringir matrícula de estudante de Computação."
+  ],
+  "openQuestions": [
+    "A universidade confirma Empreendedorismo e Criação de Empresas para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENUN51121 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

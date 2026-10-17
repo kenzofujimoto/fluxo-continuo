@@ -1,0 +1,132 @@
+{
+  "id": "cc|ENEX54357|pt-coimbra|91506",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54357",
+    "name": "ANÁLISE DE DADOS APLICADA",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Ciência da Computação Alphaville 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "Página 2, bloco ANÁLISE DE DADOS APLICADA, Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não declarados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo da análise exploratória de dados e construção de gráficos com uso de linguagens de programação",
+      "Aborda a coleta de dados e técnicas para obtenção de amostras aleatórias e para o desenvolvimento de experimentos estatísticos",
+      "Apresenta a inferência estatística e as principais; distribuições de probabilidade discretas e contínuas, distribuições amostrais, teste de hipótese inferência sobre a média populacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "91506",
+      "name": "Análise de Dados e Gestão de Informação II",
+      "source": "https://apps.uc.pt/courses/PT/unit/91506/24624/2026-2027?common_core=true&type=ram&id=11983",
+      "sha256": "fd7fc3dbe932428b6273fb3a173635383aa6ee0f8cf240700a6467a24d87bfb7",
+      "location": "Ficha UC 2026-2027 integral: Conhecimentos de Base Recomendados, Métodos de Ensino, Resultados de Aprendizagem, Programa e Avaliação",
+      "academicYear": "2026-2027",
+      "language": "Português",
+      "period": "2º semestre no plano consultado; confirmar edição 2027/28",
+      "assessment": "Resolução de problemas 10%; trabalho de síntese 40%; frequência 50%.",
+      "prerequisites": "Nenhum.",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 4,
+        "basis": null,
+        "hourLengthMinutes": null
+      },
+      "programme": "Administração Pública",
+      "level": "Licenciatura",
+      "yearOfStudy": 3,
+      "officialCode": "01019813"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da análise exploratória de dados e construção de gráficos com uso de linguagens de programação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Agrupamento e análise de perfis com software de dados; não demonstra construção de gráficos por linguagens de programação",
+      "foreignLocation": "Programa 1.1; Métodos de Ensino"
+    },
+    {
+      "brTopic": "Aborda a coleta de dados e técnicas para obtenção de amostras aleatórias e para o desenvolvimento de experimentos estatísticos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha UC 2026-2027 integral: Conhecimentos de Base Recomendados, Métodos de Ensino, Resultados de Aprendizagem, Programa e Avaliação",
+      "note": "O conteúdo específico deste enunciado não consta no escopo documental examinado; isso não demonstra reprovação institucional."
+    },
+    {
+      "brTopic": "Apresenta a inferência estatística e as principais; distribuições de probabilidade discretas e contínuas, distribuições amostrais, teste de hipótese inferência sobre a média populacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Regressão linear múltipla, logística e discriminante tratam inferência multivariada; distribuições amostrais e teste da média populacional não são desenvolvidos",
+      "foreignLocation": "Programa 3.1.1-3.1.4"
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo da análise exploratória de dados e construção de gráficos com uso de linguagens de programação. Aborda a coleta de dados e técnicas para obtenção de amostras aleatórias e para o desenvolvimento de experimentos estatísticos. Apresenta a inferência estatística e as principais; distribuições de probabilidade discretas e contínuas, distribuições amostrais, teste de hipótese inferência sobre a média populacional.",
+    "foreign": [
+      "Agrupar observações, reduzir redundância e formular previsões por modelos de regressão."
+    ],
+    "convergences": [
+      "Análise de Dados e Gestão de Informação II é multivariada, com convergências parciais em exploração e inferência, e lacuna na obtenção de amostras e experimentos."
+    ],
+    "differences": [
+      "Dois de três enunciados possuem aproximações; nenhum está integralmente demonstrado. Two-Step, k-means, clustering hierárquico, CATPCA e regressão não constituem evidência de amostragem aleatória ou testes sobre média populacional. Os 4 ECTS não viram horas de contato; o vínculo entre título da matriz brasileira e Análise de Dados Aplicada continua por esclarecer."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componente de graduação brasileiro e unidade estrangeira; progressão curricular estrangeira a confirmar",
+    "brazil": "Etapa 2; ementário oficial disponível; objetivos detalhados limitados ao bloco documental.",
+    "foreign": "Agrupar observações, reduzir redundância e formular previsões por modelos de regressão.",
+    "theoryPractice": "Casos de administração e exercícios com software quando possível; não indica código nem tempo de laboratório."
+  },
+  "practical": {
+    "period": "2º semestre no plano consultado; confirmar edição 2027/28",
+    "language": "Português",
+    "enrolment": "Aceitação de intercambistas, vagas e limites de matrícula não confirmados; depende da universidade e do acordo.",
+    "prerequisites": "Nenhum.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Análise de Dados e Gestão de Informação II é multivariada, com convergências parciais em exploração e inferência, e lacuna na obtenção de amostras e experimentos.",
+  "justification": "Dois de três enunciados possuem aproximações; nenhum está integralmente demonstrado. Two-Step, k-means, clustering hierárquico, CATPCA e regressão não constituem evidência de amostragem aleatória ou testes sobre média populacional. Os 4 ECTS não viram horas de contato; o vínculo entre título da matriz brasileira e Análise de Dados Aplicada continua por esclarecer.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais documentadas e cotejo por tópico; vigência, acesso à turma 2027/28 e limites de horas permanecem por confirmar.",
+  "limitations": [
+    "Oferta e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada; ECTS não convertidos em horas",
+    "Ficha informa ECTS, mas não horas de contato; nenhuma carga foi estimada a partir de créditos.",
+    "Correspondência Análise de Dados/Análise de Dados Aplicada não confirmada pela coordenação."
+  ],
+  "openQuestions": [
+    "A universidade confirma Análise de Dados e Gestão de Informação II para mobilidade 2027/28 e fornece programa atualizado com horas e pré-requisitos?",
+    "A coordenação aceita o recorte de ENEX54357 demonstrado nas unidades citadas?"
+  ],
+  "method": "Leitura dos documentos oficiais em cache e dossiê local; cotejo individual assistido por Codex, sem decisão institucional.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+  },
+  "conclusionClass": "afinidade_parcial"
+}

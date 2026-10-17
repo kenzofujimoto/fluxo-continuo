@@ -1,0 +1,165 @@
+{
+  "id": "cc|ENEC61006|pt-ubi|17912",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61006",
+    "name": "Arquitetura de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI CC Alphaville 2025, etapa 6",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 2, bloco ARQUITETURA DE SOFTWARE, Carga horária e Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {
+        "teorica": 4,
+        "pratica": 0,
+        "atelie": 0
+      }
+    },
+    "topics": [
+      "Visão geral de arquiteturas de software: definições, objetivos e relevância",
+      "Processo para a construção de arquitetura de software",
+      "Identificação e especificação de requisitos arquiteturais",
+      "Uso de padrões arquiteturais e padrões de software para a solução de requisitos arquiteturais",
+      "Métodos e técnicas para a representação de arquiteturas de software, incluindo-se visão arquiteturais e linguagens de descrição arquitetural",
+      "Métodos para a avaliação de arquiteturas de software",
+      "Perspectivas de pesquisa em arquitetura de software"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-ubi",
+      "university": "Universidade da Beira Interior",
+      "code": "17912",
+      "name": "Virtualização e Centros de Dados",
+      "faculty": null,
+      "department": null,
+      "programme": "Mestrado",
+      "level": "Mestrado",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Outono/S 1",
+      "academicYear": "2026; atualização 29/09/2026",
+      "language": "Português; confirmar turma",
+      "courseStatus": null,
+      "assessment": "Teste 40%, dois projetos laboratoriais 30%cada",
+      "prerequisites": "Não declarados na fonte individual",
+      "source": "https://www.ubi.pt/Disciplina/17912/2026",
+      "catalogue": "http://www.ubi.pt/cursos",
+      "sha256": "f192a526cdf4dee736febccb04d7873613ef33dbf65a650d1c472023662c1cee",
+      "location": "Documento integral; campos extraídos manualmente no parecer",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Visão geral de arquiteturas de software: definições, objetivos e relevância",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Visão de virtualização e projeto arquitetónico de nuvens oferece perspectiva de arquitetura de infraestrutura, não definições gerais de arquitetura de software.",
+      "foreignLocation": "Objectivos; Conteúdos 1, 8-9"
+    },
+    {
+      "brTopic": "Processo para a construção de arquitetura de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Projeto de centros de dados e de nuvens; não formaliza processo de construção de arquitetura de software.",
+      "foreignLocation": "Conteúdos 8-9"
+    },
+    {
+      "brTopic": "Identificação e especificação de requisitos arquiteturais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Disponibilidade, flexibilidade, utilização de recursos, escalabilidade e custos são objetivos explícitos de escolhas de infraestrutura.",
+      "foreignLocation": "Objectivos de Aprendizagem"
+    },
+    {
+      "brTopic": "Uso de padrões arquiteturais e padrões de software para a solução de requisitos arquiteturais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectivos, 12 itens de Conteúdos programáticos e Metodologias integralmente; projeto arquitetónico refere-se a nuvens/datacenters, não arquitetura de aplicações."
+    },
+    {
+      "brTopic": "Métodos e técnicas para a representação de arquiteturas de software, incluindo-se visão arquiteturais e linguagens de descrição arquitetural",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectivos, 12 itens de Conteúdos programáticos e Metodologias integralmente; projeto arquitetónico refere-se a nuvens/datacenters, não arquitetura de aplicações."
+    },
+    {
+      "brTopic": "Métodos para a avaliação de arquiteturas de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Avaliar escolhas, soluções e compromissos na instalação e gestão de infraestruturas virtualizadas; não descreve método de avaliação arquitetural de software.",
+      "foreignLocation": "Objectivos de Aprendizagem"
+    },
+    {
+      "brTopic": "Perspectivas de pesquisa em arquitetura de software",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectivos, 12 itens de Conteúdos programáticos e Metodologias integralmente; projeto arquitetónico refere-se a nuvens/datacenters, não arquitetura de aplicações."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Visão geral de arquiteturas de software: definições, objetivos e relevância. Processo para a construção de arquitetura de software. Identificação e especificação de requisitos arquiteturais. Uso de padrões arquiteturais e padrões de software para a solução de requisitos arquiteturais. Métodos e técnicas para a representação de arquiteturas de software, incluindo-se visão arquiteturais e linguagens de descrição arquitetural. Métodos para a avaliação de arquiteturas de software. Perspectivas de pesquisa em arquitetura de software.",
+    "foreign": [
+      "Avaliar tecnologias e compromissos de infraestrutura virtualizada e datacenters"
+    ],
+    "convergences": [],
+    "differences": []
+  },
+  "depth": {
+    "level": "Mackenzie etapa 6; destino Mestrado",
+    "brazil": "63.33 horas-relógio; distribuição semanal {'teorica': 4, 'pratica': 0, 'atelie': 0}",
+    "foreign": "Projeto de infraestrutura no mestrado; 60%da avaliação em dois projetos, 30 T+30 PL",
+    "theoryPractice": "Sem equivalência automática entre carga de trabalho e contato"
+  },
+  "practical": {
+    "period": "Outono/S 1",
+    "language": "Confirmar língua efetiva da turma e exigência de proficiência",
+    "enrolment": "Aceitação, vaga e elegibilidade para intercâmbio não verificadas",
+    "prerequisites": "Confirmar precedências com a instituição",
+    "offer2027": "nao_confirmada"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais lidos; duração da hora estrangeira e oferta futura não confirmadas.",
+  "limitations": [
+    "Oferta, turma e vaga para intercambista em 2027/28 não confirmadas",
+    "Duração da hora estrangeira não declarada",
+    "Análise preliminar; decisão compete à coordenação e à COI",
+    "Acesso ao mestrado pendente",
+    "Fonte de records tem hash anterior; adotado hash atual"
+  ],
+  "openQuestions": [],
+  "alternatives": [],
+  "method": "Leitura documental integral com apoio de IA (Codex), cotejo individual dos tópicos oficiais e validação estrutural pelo script do projeto.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Cotejo documental sem decisão institucional"
+  },
+  "synthesis": "Virtualização e Centros de Dados contribui com decisões de disponibilidade, escalabilidade e implantação de nuvens; o objeto arquitetural é infraestrutura, enquanto Mackenzie exige arquitetura de software e suas representações.",
+  "justification": "Quatro dos sete tópicos têm interseção parcial em projeto e compromissos de infraestrutura; padrões de software, visões/ADLs e pesquisa arquitetural não aparecem nos 12 itens. A regra interna resulta afinidade parcial, que não significa substituição: 60 hde contato não compensam a diferença de objeto.",
+  "conclusionClass": "afinidade_parcial"
+}
