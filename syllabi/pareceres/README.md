@@ -8,6 +8,11 @@ de conclusão: cada parecer deve chegar à sua própria conclusão a partir dos 
 Nenhum parecer é homologação. `institutionalStatus` permanece `aguardando_validacao_institucional` até existir
 documento formal de decisão do Mackenzie (`decisionDocument.url`).
 
+Quando o documento oficial possui o campo Ementa vazio, `brazil.topics` permanece vazio. O cotejo
+registra somente um marcador explícito de pendência documental com estado `nao_verificavel`,
+identificado na nota como marcador e não como tópico curricular. Bibliografia não substitui ementa;
+esses casos permanecem `evidencia_insuficiente` até a obtenção do plano de ensino completo.
+
 ## Como produzir
 
 1. `python scripts/fetch_documents.py` (cache incremental; documentos ficam em `.cache/`, fora do Git).

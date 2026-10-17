@@ -1728,7 +1728,7 @@
    "code": "CAT-PT-ESTG-004",
    "name": "Laboratório de Desenvolvimento de Software",
    "source": "https://www.estg.ipp.pt/cursos/licenciatura/1337",
-   "individualSyllabus": true,
+   "individualSyllabus": false,
    "academicYear": null,
    "sha256": "f3547e018b1a349f252d6b778ff07128487e24381edbbd4a4543b7f67418b55a",
    "format": "html",
@@ -1737,14 +1737,19 @@
    ],
    "contentMarker": "conteúdo",
    "checkedAt": "2026-10-16T20:03:43Z",
-   "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem"
+   "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem",
+   "identityReview": {
+    "reviewedAt": "2026-10-17",
+    "reviewer": "Codex (AI-assisted documentary review)",
+    "reason": "Página geral da licenciatura: lista Laboratório de Desenvolvimento de Software e créditos, sem programa individual da unidade curricular."
+   }
   },
   {
    "universityId": "pt-iade",
    "code": "CAT-PT-IADE-005",
    "name": "Inteligência Artificial",
    "source": "https://www.iade.europeia.pt/licenciaturas/engenharia-informatica/",
-   "individualSyllabus": true,
+   "individualSyllabus": false,
    "academicYear": null,
    "sha256": "653ca129a74ef8fe98ba66475d6d2992c72514527c2c04f7878370253bde8991",
    "format": "html",
@@ -1753,7 +1758,12 @@
    ],
    "contentMarker": "Conteúdo ",
    "checkedAt": "2026-10-16T20:03:43Z",
-   "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem"
+   "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem",
+   "identityReview": {
+    "reviewedAt": "2026-10-17",
+    "reviewer": "Codex (AI-assisted documentary review)",
+    "reason": "Página geral da licenciatura: lista Inteligência Artificial, horas e créditos, sem conteúdo programático individual da unidade curricular."
+   }
   },
   {
    "universityId": "pt-ubi",

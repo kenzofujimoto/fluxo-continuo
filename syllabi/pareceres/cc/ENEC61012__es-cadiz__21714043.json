@@ -22,18 +22,7 @@
       "unit": "hora_relogio",
       "basis": "semestre"
     },
-    "topics": [
-      "Bibliografia básica PRESSMAN, R",
-      "Engenharia de Software: Uma Abordagem Profissional",
-      "Edição, Bookman, McGraw-Hill, 2021",
-      "SOMMERVILLE, I",
-      "Engenharia de software",
-      "São Paulo: Pearson, 2019",
-      "WAZLAWICK, R",
-      "Engenharia de Software: Conceitos e Práticas",
-      "Edição",
-      "Rio de Janeiro: ElsevierCampus, 2013"
-    ]
+    "topics": []
   },
   "foreign": [
     {
@@ -66,64 +55,10 @@
   ],
   "topics": [
     {
-      "brTopic": "Bibliografia básica PRESSMAN, R",
-      "essential": true,
+      "brTopic": "Conteúdo curricular não verificável: campo Ementa vazio no documento oficial",
       "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "Engenharia de Software: Uma Abordagem Profissional",
       "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "Edição, Bookman, McGraw-Hill, 2021",
-      "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "SOMMERVILLE, I",
-      "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "Engenharia de software",
-      "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "São Paulo: Pearson, 2019",
-      "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "WAZLAWICK, R",
-      "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "Engenharia de Software: Conceitos e Práticas",
-      "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "Edição",
-      "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
-    },
-    {
-      "brTopic": "Rio de Janeiro: ElsevierCampus, 2013",
-      "essential": true,
-      "status": "nao_verificavel",
-      "note": "O extrator brasileiro capturou bibliografia; a página 101 tem Ementa vazia. Este fragmento não é tópico curricular verificável."
+      "note": "Marcador de pendência documental, não tópico curricular. A fonte traz bibliografia após o rótulo Ementa; não há conteúdo programático para cotejar."
     }
   ],
   "additionalForeignTopics": [],
@@ -172,6 +107,25 @@
   "reviewedAt": "2026-10-16",
   "secondReview": {
     "required": true,
-    "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
-  }
+    "reason": "Obter plano de ensino completo de Introdução a Engenharia de Software; campo Ementa oficial vazio. Bibliografia não substitui tópicos curriculares."
+  },
+  "reviewHistory": [
+    {
+      "reviewedAt": "2026-10-17",
+      "reviewer": "Codex (AI-assisted documentary review)",
+      "changes": "Corrigida extração de bibliografia como ementa. Mantida conclusão de evidência insuficiente; removidos títulos bibliográficos da lista de tópicos brasileiros.",
+      "previousExtractedTopics": [
+        "Bibliografia básica PRESSMAN, R",
+        "Engenharia de Software: Uma Abordagem Profissional",
+        "Edição, Bookman, McGraw-Hill, 2021",
+        "SOMMERVILLE, I",
+        "Engenharia de software",
+        "São Paulo: Pearson, 2019",
+        "WAZLAWICK, R",
+        "Engenharia de Software: Conceitos e Práticas",
+        "Edição",
+        "Rio de Janeiro: ElsevierCampus, 2013"
+      ]
+    }
+  ]
 }

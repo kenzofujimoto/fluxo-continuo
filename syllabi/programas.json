@@ -13519,25 +13519,16 @@
    "hourUnit": "hora_relogio",
    "weekly": null,
    "optional": false,
-   "ementa": "Bibliografia básica PRESSMAN, R. Engenharia de Software: Uma Abordagem Profissional. 8ª. Edição, Bookman, McGraw-Hill, 2021. SOMMERVILLE, I. Engenharia de software. São Paulo: Pearson, 2019. WAZLAWICK, R. Engenharia de Software: Conceitos e Práticas. 1ª. Edição. Rio de Janeiro: ElsevierCampus, 2013.",
-   "topics": [
-    "Bibliografia básica PRESSMAN, R",
-    "Engenharia de Software: Uma Abordagem Profissional",
-    "Edição, Bookman, McGraw-Hill, 2021",
-    "SOMMERVILLE, I",
-    "Engenharia de software",
-    "São Paulo: Pearson, 2019",
-    "WAZLAWICK, R",
-    "Engenharia de Software: Conceitos e Práticas",
-    "Edição",
-    "Rio de Janeiro: ElsevierCampus, 2013"
+   "ementa": "",
+   "topics": [],
+   "anomalies": [
+    "Ementa vazia ou não localizada no bloco oficial; confirmar com a coordenação"
    ],
-   "anomalies": [],
    "matchMethod": "variacao_ortografica",
    "status": "lido",
-   "officialSyllabus": true,
-   "current": true,
-   "currencyNote": "Ementário público FCI 2025, câmpus Alphaville"
+   "officialSyllabus": false,
+   "current": false,
+   "currencyNote": "Documento oficial FCI 2025 de Alphaville identificado, mas campo Ementa vazio; a bibliografia não comprova conteúdo curricular. Solicitar plano de ensino completo."
   },
   "si|GESTÃO DE PROJETOS DE TECNOLOGIA DA INFORMAÇÃO": {
    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
