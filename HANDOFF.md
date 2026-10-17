@@ -1,5 +1,14 @@
 # Release checkpoint — 2026-10-17
 
+## Active follow-up: public source exhaustion
+
+- User explicitly approved the new plan: inventory all 66 universities and four Brazilian courses, search public official portals/PDFs/archives, verify source identity/content/hours, update viable reviews and run tests/audit. No institutional contacts now. Do not claim the public internet is exhausted while institutional searches remain pending.
+- Branch `feature/public-syllabus-sweep`. Baseline remains 403 reviews, 718 individual foreign syllabi, 2,214 missing. Production release from PR #1 is live; this follow-up is local research, not yet published.
+- Collection improvements use TDD: opt-in `--scope all-missing`, resumable history, shared exact URL fetch cache, navigation-content false-positive guard, PDF signature detection fix. Full Python suite now 69 tests passed.
+- The broad sweep runs in isolated `.cache/public-sweep/`; do not blindly copy its verified sources into the authoritative base. Manual identity and content checks must quarantine false positives such as ESTG curriculum page 1337 and course-code collisions.
+- Regional research outputs and evidence live under `.cache/public-research/`: Europe, Americas, Asia/Brazil. SolBridge individual PDF matches are collected separately. Agents must finish their institutional ledgers and manual audits before integration. Preserve this cache; it is ignored by Git.
+- Next: finish public searches, validate source discoveries, integrate accepted evidence with history, cache/read documents, recompute research states and gaps, then audit and report exact coverage and unresolved obstacles. No emails or login bypasses.
+
 - All 270 frozen research pairs are complete; index contains 403 reviews: 5 high, 230 partial, 139 low, 29 insufficient. Covers 141/221 Brazilian disciplines. No institutional equivalence.
 - Source integrity fixes and their regression tests are committed. 61 Python tests and 9 application tests passed; documentary audit passed for 403 reviews and 6,856 research states.
 - Current release statistics and limitations: `docs/release-2026-10-17.md`. Foreign individual syllabi: 718/2,932; missing: 2,214; missing contact hours: 452/718; priority requests: 826.
