@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { getRepository } from "../lib/data";
 import { ReviewCard } from "./ui";
+import { DestinationGlobe } from "./destination-globe";
+import { getDestinations } from "../lib/destinations";
+import { universityLocations } from "../lib/locations";
 export default function Home() {
   const { stats, courses, reviews, meta } = getRepository();
   return (
     <>
-      <section className="hero">
+      <section className="hero globe-hero">
         <div className="hero-copy">
           <p className="eyebrow">
             <span className="status-dot" /> Seu próximo capítulo · 2027.2
@@ -21,8 +24,8 @@ export default function Home() {
             intercâmbio com informação que dá para conferir.
           </p>
           <div className="hero-actions">
-            <Link className="button signal" href="/disciplinas">
-              Explorar possibilidades <span>↗</span>
+            <Link className="button signal" href="/universidades">
+              Explorar destinos <span>↗</span>
             </Link>
             <Link className="text-link" href="/comparacoes">
               Comparar ementas →
@@ -32,26 +35,11 @@ export default function Home() {
             Acesso livre. Fontes abertas. Decisões bem informadas.
           </p>
         </div>
-        <div className="hero-art" aria-hidden="true">
-          <div className="orbit orbit-one" />
-          <div className="orbit orbit-two" />
-          <span className="art-coordinate">23°32′ S / 46°38′ W</span>
-          <div className="art-type">
-            vá
-            <br />
-            <em>além</em>
-            <span>↗</span>
-          </div>
-          <div className="art-sticker">
-            {stats.universities}
-            <span>
-              instituições
-              <br />
-              no acervo
-            </span>
-          </div>
-          <span className="art-bottom">PRÓXIMA PARADA: POSSIBILIDADES.</span>
-        </div>
+        <DestinationGlobe
+          destinations={getDestinations()}
+          origin={universityLocations.origin}
+          hero
+        />
       </section>
       <section className="stats-strip" aria-label="A pesquisa em números">
         {[
