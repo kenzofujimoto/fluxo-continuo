@@ -86,3 +86,32 @@ def test_navigation_content_label_does_not_verify_degree_curriculum():
     verdict = resolver.verify_programme(text, "Engenharia Informática", "CAT-PT-ESTG-004", [])
     assert verdict["ok"] is False
     assert "conteúdos" in verdict["reason"]
+
+
+def test_fetch_text_parses_pdf_with_leading_whitespace_and_keeps_raw_hash(monkeypatch):
+    import fitz
+    import hashlib
+
+    document = fitz.open()
+    page = document.new_page()
+    page.insert_text((72, 72), "Course contents and learning outcomes")
+    raw = b"\r\n " + document.tobytes()
+    document.close()
+
+    class Response:
+        status_code = 200
+        url = "https://example.edu/course.pdf"
+        headers = {"Content-Type": "application/pdf"}
+        encoding = "utf-8"
+
+        def iter_content(self, size):
+            yield raw
+
+        def close(self):
+            pass
+
+    monkeypatch.setattr(resolver.requests, "get", lambda *args, **kwargs: Response())
+    info, text = resolver.fetch_text(Response.url)
+    assert info["format"] == "pdf"
+    assert "Course contents" in text
+    assert info["sha256"] == hashlib.sha256(raw).hexdigest()
