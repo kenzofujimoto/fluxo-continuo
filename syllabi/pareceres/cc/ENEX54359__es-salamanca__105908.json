@@ -1,0 +1,152 @@
+{
+  "id": "cc|ENEX54359|es-salamanca|105908",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54359",
+    "name": "Matemática Discreta",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 2ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/2__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "5049a51bb5ed15f7b6030caf1749feb39a23b8788a680b2d9f9fa2dbd51aa985",
+    "location": "PDF p. 4, bloco 'MATEMÁTICA DISCRETA', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas por semana."
+    },
+    "topics": [
+      "Estudo de tópicos da teoria dos números, incluindo divisibilidade, máximo divisor comum, números primos, fatoração, congruência módulo n, inteiros módulo n, função mod e aplicações",
+      "Estudo das relações de recorrência e recursividade, cálculo de forma fechada; Relações, representação em forma de matrizes e grafos, relações de equivalência, relações de ordem, diagrama de Hasse",
+      "Aborda tópicos de contagem, incluindo princípio fundamental da contagem, fatorial de um número natural, permutações simples e com repetição, arranjos simples, combinações simples, números binomiais, teorema binomial, árvores de decisão e princípio da inclusão e exclusão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105908",
+      "name": "Matemática Discreta y Lógica",
+      "faculty": "Escuela Politécnica Superior de Zamora",
+      "department": "Matemática Aplicada",
+      "programme": "Grado en Ingeniería Informática en Sistemas de Información",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 1,
+      "semester": "Segundo Semestre",
+      "period": "2º semestre do ano letivo espanhol (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Básica (campo 'Carácter')",
+      "assessment": "Dois parciais (temas 1-4 e 5-8): exames 55% + avaliação contínua com trabalhos e práticas de Mathematica 45%",
+      "prerequisites": "Conhecimentos de Bachillerato: cálculo de uma variável e álgebra",
+      "source": "https://guias.usal.es/node/250796",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "7752ba303ce50a6332b10a3c8175a467c475075e7a99df8c474820f37e54964a",
+      "location": "Guía 2026/2027: secções 1 (dados), 2 (recomendações), 3 (objetivos), 4 (competências), 5 (Temas 1-8), 6 (metodologias), 9 (avaliação)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece só com o título, sem tabela de horas. Apenas 6 ECTS explícitos; ECTS não convertidos em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo de tópicos da teoria dos números, incluindo divisibilidade, máximo divisor comum, números primos, fatoração, congruência módulo n, inteiros módulo n, função mod e aplicações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 5: 'División euclídea, números primos y compuestos, teorema fundamental de la aritmética, factorización, máximo común divisor, algoritmo de Euclides … Congruencias módulo m'",
+      "foreignLocation": "Secção 5, Tema 5; secção 3, objetivo 7",
+      "note": "O Tema 5 acrescenta Bezout, equações diofantinas e dígitos de controle; o Tema 8 aplica aritmética modular em criptografia (RSA)."
+    },
+    {
+      "brTopic": "Estudo das relações de recorrência e recursividade, cálculo de forma fechada; Relações, representação em forma de matrizes e grafos, relações de equivalência, relações de ordem, diagrama de Hasse",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1: 'Relaciones binarias … matriz asociada', 'Relación de orden', 'Relación de equivalencia, clases de equivalencia'; Tema 6: representação matricial de grafos; objetivo 8 recursão e indução",
+      "foreignLocation": "Secção 5, Temas 1 e 6; secção 3, objetivo 8",
+      "note": "Relações, matrizes, equivalência e ordem estão cobertas; relações de recorrência com forma fechada e diagrama de Hasse não constam dos Contenidos (o objetivo 8 cita 'recursión' sem tema correspondente)."
+    },
+    {
+      "brTopic": "Aborda tópicos de contagem, incluindo princípio fundamental da contagem, fatorial de um número natural, permutações simples e com repetição, arranjos simples, combinações simples, números binomiais, teorema binomial, árvores de decisão e princípio da inclusão e exclusão",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 4: 'principio del producto, principio de la suma, principio de inclusión-exclusión … permutaciones, variaciones y combinaciones con y sin repetición'; Tema 6: árboles de decisión",
+      "foreignLocation": "Secção 5, Temas 4 e 6",
+      "note": "Princípios de contagem, permutações, arranjos (variaciones), combinações e inclusão-exclusão estão cobertos; números binomiais e teorema binomial não são citados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Lógica proposicional e de predicados, álgebra de Boole, demonstrações e indução", "location": "Secção 5, Temas 2-3"},
+    {"topic": "Grafos eulerianos/hamiltonianos, árvores geradoras mínimas, caminho mínimo e fluxo, percursos em largura e profundidade", "location": "Secção 5, Tema 6"},
+    {"topic": "Autômatos finitos e criptografia (RSA, Euler, Fermat)", "location": "Secção 5, Temas 7-8"},
+    {"topic": "Princípio das casas de pombos, números de Stirling e de Bell", "location": "Secção 5, Tema 4"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "CB03 dominar matemática discreta, lógica, algorítmica e complexidade",
+      "Compreender aritmética modular, recursão, indução e combinatória (objetivos 7-8)",
+      "Modelizar problemas reais e interpretar as soluções"
+    ],
+    "convergences": [
+      "Teoria dos números e aritmética modular",
+      "Relações, matrizes de relação, equivalência e ordem",
+      "Princípios de contagem, permutações e combinações"
+    ],
+    "differences": [
+      "Mackenzie nomeia recorrências, forma fechada, diagrama de Hasse e teorema binomial, sem tema equivalente em Salamanca",
+      "Salamanca soma lógica, grafos, autômatos e criptografia, fora do enunciado brasileiro de Matemática Discreta (a lógica é coberta por Lógica Matemática no currículo CC)"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação do 1º/2º semestre de computação; Salamanca é básica do 1º curso",
+    "brazil": "4 h-a teóricas semanais em três eixos: teoria dos números, relações/recorrência e contagem",
+    "foreign": "Oito temas, dos quais Temas 1, 4 e 5 e parte do 6 correspondem a esta ementa; 6 ECTS",
+    "theoryPractice": "Mackenzie declara só horas teóricas; Salamanca soma práticas com Mathematica sem declarar proporção"
+  },
+  "practical": {
+    "period": "Segundo Semestre (primavera europeia); coincidência com 2027.2 depende do calendário 2027/28, não verificado",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional do projeto)",
+    "enrolment": "Disciplina básica de 1º curso do grau; aceitação de intercambista e vaga não verificadas",
+    "prerequisites": "Cálculo de uma variável e álgebra pré-universitárias",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Matemática Discreta y Lógica cobre integralmente a teoria dos números de Matemática Discreta e a maior parte de relações e contagem, mas deixa de fora recorrências com forma fechada, diagrama de Hasse e teorema binomial.",
+  "justification": "Dos três tópicos essenciais, um é coberto (Tema 5 inclui divisibilidade, mdc, primos, fatoração e congruências) e dois são parciais (relações sem recorrência/Hasse; contagem sem binômio). A razão coberto é 1/3, insuficiente para alta afinidade, e coberto mais parcial chega a 100%. Não há hora presencial na guía (apenas 6 ECTS) para comparar com as 63,33 h do Mackenzie, de modo que a classe fica em afinidade parcial. O programa estrangeiro também dedica os Temas 2-3 e 7-8 a lógica, autômatos e criptografia, que ampliam o conteúdo mas não substituem os pontos ausentes.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guía individual 2026/2027 completa em conteúdos mas sem tabela de horas; a ementa brasileira é concisa, com três tópicos compostos que obrigam a avaliar cobertura por subitens.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Carga horária não comparável: guia sem horas presenciais, apenas 6 ECTS",
+    "Tópicos brasileiros muito compostos: parcial indica falta de subitens nomeados, não necessariamente de conteúdo ministrado",
+    "Candidata de origem semântica; a mesma guía 105908 foi avaliada também contra Pensamento Computacional e Lógica Matemática",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Salamanca trata recorrências e teorema binomial dentro dos Temas 4 e 6 sem nomeá-los na guía?",
+    "A COI aceitaria usar a mesma disciplina 105908 para mais de um componente brasileiro (Lógica Matemática e Matemática Discreta), ou apenas para um deles?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía de Salamanca 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); título da página confere com o catálogo; cada tópico vinculado a tema/secção da guía; coerência verificada por scripts/build_pareceres.py --check. Outras disciplinas de Salamanca não foram lidas.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Fonte única completa e coerente"}
+}

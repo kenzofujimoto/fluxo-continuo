@@ -1,0 +1,144 @@
+{
+  "id": "cc|ENEX54349|es-salamanca|CAT-USAL-207665",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54349",
+    "name": "Circuitos Elétricos e Eletrônicos",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 1ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 3, bloco 'CIRCUITOS ELÉTRICOS E ELETRÔNICOS', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Apresenta os fenômenos elétricos e magnéticos envolvidos em circuitos elétricos e eletrônicos",
+      "Aborda as propriedades e funcionamento dos diferentes tipos básicos de componentes elétricos e eletrônicos que compõem o suporte dos computadores digitais modernos, tais como: resistores, capacitores, indutores, diodos, transistores, filtros, fontes de alimentação e amplificadores operacionais, arquitetura e programação wiring com Arduino",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207665",
+      "name": "Competencia y Propiedad Intelectual",
+      "faculty": "Facultad de Derecho",
+      "department": "Derecho Privado (área Derecho Mercantil)",
+      "programme": "Grado en Derecho",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 4,
+      "semester": "Primer Semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol (campo 'Idioma': ESPAÑOL)",
+      "courseStatus": "Obligatoria (campo 'Carácter')",
+      "assessment": "Exame teórico-prático 70%; prática corrigida 30%",
+      "prerequisites": "Recomendado: Empresa e empresário, Contratação mercantil, Direito de Bens",
+      "source": "https://guias.usal.es/node/207665",
+      "catalogue": "https://www.usal.es/grados",
+      "sha256": "04f3229a00bfb22e1f7ce792b4ac0862f56bbeca74f812cd82867a20bffbebe1",
+      "location": "Guía 2025/2026: secções 1 (dados), 2 (recomendações), 3 (objetivos), 4 (competências), 5 (Contenidos, Temas 1-15), 7, 9 (avaliação)",
+      "hours": {
+        "weekly": null,
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 4.5,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Secção 7 'Distribución de las Metodologías Docentes' aparece apenas com o título, sem tabela de horas. Só 4,5 ECTS explícitos; ECTS não convertidos em horas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os fenômenos elétricos e magnéticos envolvidos em circuitos elétricos e eletrônicos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Guía integral lida: secções 3 (objetivos), 4 (competências), 5 (Temas 1-15), 8 (recursos). Todos os temas tratam de defesa da concorrência, concorrência desleal, patentes, marcas, direitos de autor e desenho industrial; nenhum envolve eletricidade ou magnetismo.",
+      "note": "A guia é de uma disciplina jurídica (Derecho Mercantil) do Grado en Derecho, não de eletrônica."
+    },
+    {
+      "brTopic": "Aborda as propriedades e funcionamento dos diferentes tipos básicos de componentes elétricos e eletrônicos que compõem o suporte dos computadores digitais modernos, tais como: resistores, capacitores, indutores, diodos, transistores, filtros, fontes de alimentação e amplificadores operacionais, arquitetura e programação wiring com Arduino",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 3, 4, 5 e 8 da guía. Os temas 7-8 (patentes e semicondutores) e o tema 11 (programas de computador como obra) citam tecnologia apenas como objeto de proteção jurídica, sem tratar componentes, circuitos ou Arduino.",
+      "note": "O Tema 8 menciona 'productos semiconductores' somente quanto ao regime de proteção legal."
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Secções 6 (metodologias) e 9 (avaliação) da guía: práticas em sala, seminários e estudo de casos, sem atividade de extensão comunitária.",
+      "note": "Item não curricular em sentido estrito (atividade extensionista do Mackenzie); não entra no cálculo da classe."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Direito europeu e espanhol de defesa da concorrência (arts. 101-102 TFUE; Lei 15/2007)", "location": "Secção 5, Temas 2-3"},
+    {"topic": "Concorrência desleal (Lei 3/1991): atos de engano, confusão, denigração, imitação", "location": "Secção 5, Temas 4-5"},
+    {"topic": "Patentes, marcas, indicações geográficas, desenho industrial", "location": "Secção 5, Temas 7-10 e 14"},
+    {"topic": "Direitos de autor, incluindo programas de computador e bases de dados", "location": "Secção 5, Temas 11-13"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Conhecer o regime jurídico das instituições de propriedade intelectual (B.1-B.3)",
+      "Resolver conflitos de concorrência e propriedade intelectual com argumentação jurídica (objetivo 3)",
+      "Competências básicas CB2-CB5 de argumentação e autonomia de aprendizagem"
+    ],
+    "convergences": [],
+    "differences": [
+      "Mackenzie forma em fundamentos físicos de circuitos e prática com Arduino; Salamanca forma em direito empresarial da concorrência e da propriedade intelectual",
+      "Não há área do conhecimento comum: eletrônica/computação versus Derecho Mercantil"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Salamanca obrigatória do 4º curso de Derecho, Mackenzie obrigatória da 1ª etapa de CC",
+    "brazil": "2+2 h-a semanais, teoria e prática com experimentos em eletrônica",
+    "foreign": "Quinze temas teóricos e práticas de resolução de casos; sem laboratório",
+    "theoryPractice": "Mackenzie é metade prática de laboratório; Salamanca usa casos jurídicos em sala"
+  },
+  "practical": {
+    "period": "Primer Semestre (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre, não verificado. Documento é da guia 2025/2026.",
+    "language": "Espanhol; edital Mackenzie exige B2 para Salamanca (dado institucional do projeto)",
+    "enrolment": "Obrigatória do 4º curso de Derecho; matrícula de estudante de CC e disponibilidade para intercâmbio não verificadas",
+    "prerequisites": "Recomendadas três disciplinas de Derecho Mercantil, inexistentes no currículo de CC",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A guía CAT-USAL-207665 descreve uma disciplina de Direito (concorrência e propriedade intelectual) e não contém circuitos, componentes eletrônicos nem Arduino; nenhum dos dois tópicos curriculares de Circuitos Elétricos e Eletrônicos é encontrado.",
+  "justification": "O candidato foi sugerido apenas por recuperação semântica ('eletronica', 'reais'), mas o título da guía coincide com o do catálogo e o conteúdo é jurídico: os Temas 1-15 cobrem arts. 101-102 do TFUE, Lei de Concorrência Desleal, patentes, marcas e direitos de autor. Os dois tópicos essenciais da ementa brasileira (fenômenos elétricos/magnéticos e componentes de resistores a amplificadores operacionais com Arduino) ficam como nao_encontrado, e o terceiro, 'Práticas de extensão', não é curricular. A carga horária não é comparável (guia com 4,5 ECTS e sem horas presenciais), mas a divergência de área torna a questão secundária.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Guía individual integral com objetivos, 15 temas e avaliação; a ausência total de conteúdo de eletrônica é inequívoca mesmo sem a tabela de horas.",
+  "limitations": [
+    "Oferta 2027/28 e vaga para intercambista não confirmadas",
+    "Documento estrangeiro é da guia 2025/2026 (página do catálogo exibe 'Curso 2025/2026')",
+    "Carga horária não comparável: guia sem horas presenciais, apenas 4,5 ECTS",
+    "Candidata de origem semântica, sem indício documental de equivalência temática",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Existe em Salamanca disciplina de eletrônica/circuitos (Ingeniería Informática ou Física) que a COI possa indicar para este componente?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e da guía de Salamanca em cache (dossiê .cache/dossiers), com apoio de IA (Claude); título da página confrontado com o nome do catálogo; cada tópico verificado contra os Temas 1-15; coerência verificada por scripts/build_pareceres.py --check. Outras disciplinas de Salamanca não foram lidas.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Divergência de área evidente nos documentos"}
+}

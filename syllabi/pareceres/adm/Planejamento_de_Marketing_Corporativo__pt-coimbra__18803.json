@@ -1,0 +1,210 @@
+{
+  "id": "adm|Planejamento de Marketing Corporativo|pt-coimbra|18803",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Planejamento de Marketing Corporativo",
+    "name": "Planejamento de Marketing Corporativo",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 8, bloco 'Planejamento de Marketing Corporativo': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "SIM – Sistema de informação de marketing",
+      "Análise do macro ambiente",
+      "Avaliação das capacidades da empresa",
+      "Análise concorrencial",
+      "Pesquisa de mercado",
+      "Definição de estratégias",
+      "Definição de metas e indicadores",
+      "Plano de Marketing"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18803",
+      "name": "Marketing",
+      "pageCode": "01620148",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração 'Semestral' na página; a lista oficial do plano registra o 1º semestre",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/18803/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "e3bc0a98bcb5161d8697382a53cbae62855573f440b1fb9b243ae0198432b9c2",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (texto de enquadramento e itens 1-10), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e semestre, com exposição, discussão de trabalhos de estudo de caso e resolução de exercícios, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "SIM – Sistema de informação de marketing",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, texto de enquadramento e itens 1-10 do Programa da página 2026-2027",
+      "note": "Não há item sobre informação, dados ou sistema de informação de marketing."
+    },
+    {
+      "brTopic": "Análise do macro ambiente",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Resultados: 'compreensão do ambiente de marketing', saber analisar 'o macroambiente'; programa: 'análise do ambiente externo'",
+      "foreignLocation": "Resultados de Aprendizagem; Programa, texto de enquadramento",
+      "note": "Não há item numerado dedicado; a cobertura vem do texto de enquadramento e dos resultados."
+    },
+    {
+      "brTopic": "Avaliação das capacidades da empresa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, texto de enquadramento e itens 1-10 do Programa da página 2026-2027",
+      "note": "O texto de enquadramento fala do marketing 'no âmbito de uma organização', mas não menciona análise interna, recursos ou capacidades da empresa."
+    },
+    {
+      "brTopic": "Análise concorrencial",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'2. Comportamento do comprador/consumidor e concorrência'; resultados: saber analisar a concorrência",
+      "foreignLocation": "Programa, item 2; Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Pesquisa de mercado",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, texto de enquadramento e itens 1-10 do Programa da página 2026-2027",
+      "note": "Nenhuma menção a pesquisa de mercado, coleta de dados ou métodos de pesquisa."
+    },
+    {
+      "brTopic": "Definição de estratégias",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1. O conceito de marketing e a estratégia orientada para o mercado'; itens 3-9: segmentação, alvo, posicionamento, produto, marcas, distribuição, preço e comunicação",
+      "foreignLocation": "Programa, itens 1 e 3-9; texto de enquadramento ('grandes decisões ... estratégia de marketing')"
+    },
+    {
+      "brTopic": "Definição de metas e indicadores",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem, Métodos de Ensino, texto de enquadramento e itens 1-10 do Programa da página 2026-2027",
+      "note": "Metas e indicadores não são mencionados; o item 10 'O plano de marketing' pode incluí-los, mas o texto não os nomeia."
+    },
+    {
+      "brTopic": "Plano de Marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'10. O plano de marketing'; texto: o programa conclui 'com o planeamento em marketing, focalizando-se a atenção no plano de marketing'",
+      "foreignLocation": "Programa, item 10 e texto de enquadramento"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Segmentação de mercados, seleção de segmentos-alvo e posicionamento",
+      "location": "Programa, itens 3-4"
+    },
+    {
+      "topic": "Inovação e desenvolvimento de novos produtos; gestão estratégica de marcas",
+      "location": "Programa, itens 5-6"
+    },
+    {
+      "topic": "Composto de marketing: distribuição, preço e comunicação com seis instrumentos",
+      "location": "Programa, itens 7-9"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: consolidar conhecimentos de marketing e elaborar o plano de marketing com gestão de informações, estratégias, plano de ações, metas e indicadores.",
+    "foreign": [
+      "Formular e implementar estratégias de marketing",
+      "Analisar concorrência, consumidores e macroambiente",
+      "Planejar com abordagem sistêmica e multidisciplinar, incluindo fatores econômicos e legais"
+    ],
+    "convergences": [
+      "Análise do macroambiente e da concorrência",
+      "Formulação de estratégias e elaboração do plano de marketing"
+    ],
+    "differences": [
+      "Mackenzie é disciplina de consolidação da 5ª etapa focada em informação, pesquisa, metas e indicadores; Coimbra é curso introdutório e abrangente de marketing do 2º ano",
+      "Coimbra dedica a maior parte do programa a decisões do composto de marketing, sem contrapartida nos tópicos da ficha brasileira"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: 5ª etapa, consolida marketing; Coimbra: 2º ano, curso geral de marketing",
+    "brazil": "Oito enunciados voltados à construção do plano de marketing em 63,3 h-relógio",
+    "foreign": "Dez itens que vão do conceito ao plano, com ênfase em decisões estratégicas e de composto",
+    "theoryPractice": "Exposição, discussão de estudo de caso real e exercícios; o plano de marketing é o item final"
+  },
+  "practical": {
+    "period": "Duração semestral; a lista oficial indica 1º semestre, que corresponde ao outono europeu e, em princípio, ao período 2027.2, sujeito a confirmação da oferta 2027/28",
+    "language": "Português",
+    "enrolment": "UC obrigatória do 2º ano da Licenciatura em Gestão; mobilidade pode exigir aprovação dos coordenadores; vagas para intercâmbio não informadas na página",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Marketing de Coimbra cobre metade dos oito enunciados de Planejamento de Marketing Corporativo (macroambiente, concorrência, estratégias e plano de marketing) e não traz sistema de informação, avaliação de capacidades, pesquisa de mercado nem metas e indicadores.",
+  "justification": "Quatro enunciados têm correspondência em itens ou resultados nomeados (macroambiente, item 2 de concorrência, itens 1 e 3-9 de estratégias, item 10 plano de marketing) e quatro não aparecem em nenhuma secção: SIM, avaliação das capacidades da empresa, pesquisa de mercado e definição de metas e indicadores, justamente a parte de diagnóstico e controle do plano. A razão de cobertura de 50% atinge o piso da regra interna de afinidade parcial, sem margem. A carga horária não é comparável: Coimbra declara 6 ECTS sem horas de contacto e a ficha brasileira de 63,3 h não tem ano de vigência. O resultado é um par limítrofe, em que Coimbra serve de base de marketing mas não substitui a etapa de planejamento operacional.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado, mas sem subitens; a decisão de ausência de metas e indicadores depende de o item 10 não os detalhar; faltam horas e a ficha brasileira não tem ano de vigência.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos em horas",
+    "Semestre vem da lista oficial do plano; oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "O item 10 'O plano de marketing' pode abranger metas, indicadores e informação sem que o texto os mencione; a comparação usa apenas o texto oficial",
+    "Cobertura de exatamente 50% (coberto 4 de 8), no limite da regra interna",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O plano de marketing de Coimbra exige metas, indicadores e pesquisa de mercado como componentes do trabalho prático?",
+    "A coordenação aceitaria Marketing de Coimbra como base de marketing e exigiria complemento para SIM e pesquisa de mercado?"
+  ],
+  "alternatives": [
+    {
+      "code": "83606",
+      "name": "Marketing Estratégico",
+      "relation": "Listada no plano de Administração Pública; programa não lido neste parecer"
+    },
+    {
+      "code": "93365",
+      "name": "Introdução ao Marketing Digital",
+      "relation": "Listada no plano de Gestão; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 5) e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada enunciado vinculado ao item ou à secção do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Par limítrofe (50% de cobertura) e ficha brasileira sem vigência; conferir com a coordenação"
+  }
+}

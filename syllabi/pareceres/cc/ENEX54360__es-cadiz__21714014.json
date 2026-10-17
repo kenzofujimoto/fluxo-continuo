@@ -1,0 +1,165 @@
+{
+  "id": "cc|ENEX54360|es-cadiz|21714014",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54360",
+    "name": "Estrutura de Dados I",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 3ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 4, bloco 'Comp. Curricular ESTRUTURA DE DADOS I', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 2, "pratica": 2},
+      "note": "Ementário declara 63,33 h-relógio e 2 h-a teóricas + 2 práticas por semana."
+    },
+    "topics": [
+      "Apresenta o conceito de Tipo Abstrato de Dados (TAD)",
+      "Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações",
+      "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714014",
+      "name": "Análisis de Algoritmos y Estructuras de Datos",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo II Formación común a la rama de Informática, materia II.2 Programación de computadores",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 2,
+      "semester": "Primer semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame escrito teórico-prático 90%; provas de resultados de atividades de aprendizagem (rubricas) 10%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714014",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "6803fdabd948b6c48dbc5d9f304e4180c306d9d308dcbbbecd942b4239152bfb",
+      "location": "Programa docente 2026-27: cabeçalho (créditos, tipo, duração, curso, idioma), 'Resultados de aprendizaje' 1-11, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-7, 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro 'Actividades y metodologías docentes': 60 h presenciais = Teoría 24 + Prácticas, seminarios y problemas 12 + Prácticas de informática 24; 86 h não presenciais e 4 h de avaliação (exame final); 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta o conceito de Tipo Abstrato de Dados (TAD)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 4 'Tipos abstractos de datos': conceitos, modularidade, uso de TAD, especificação e implementação do TAD Número Racional; RA 5 e 10",
+      "foreignLocation": "Temario, Tema 4 (4.1-4.6); Resultados de aprendizaje 5 e 10"
+    },
+    {
+      "brTopic": "Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Temas 5-7: pilhas, filas e listas (com cabeçalho, duplamente encadeadas, circulares) e suas diferentes representações",
+      "foreignLocation": "Temario, Temas 5, 6 e 7",
+      "note": "Pilhas, filas e listas cobertas em detalhe. Heap e heapsort não aparecem; vetores não são tema próprio (podem ser uma das 'diferentes representações', o que o documento não afirma). O Tema 3.2 traz apenas 'métodos directos de ordenación', não heapsort."
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Temas 1-2 (ordens assintóticas, pior/melhor/médio caso); RA 9 'relacionar a eficiência dos programas com a de seus algoritmos'; RA 11 escolha de implementação por tempo e espaço",
+      "foreignLocation": "Temario, Temas 1-2; Resultados de aprendizaje 3, 9 e 11",
+      "note": "A análise assintótica é ministrada como bloco geral e aplicada a algoritmos elementares (Tema 2.5, Tema 3). O temário de pilhas, filas e listas lista 'especificação de operações' e 'representações', mas não nomeia a custo de cada operação por representação; essa ligação é inferida do RA 11."
+    },
+    {
+      "brTopic": "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Práticas de informática (24 h): guias com problemas de programação 'empleando un lenguaje de programación orientada a objetos'; RA 8 programação genérica, RA 10 resolver problemas com TAD",
+      "foreignLocation": "Actividades y metodologías docentes, código 03; Resultados de aprendizaje 8 e 10"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Análise formal e empírica da complexidade temporal e contraste entre os resultados (RA 1, 2, 4)", "location": "Resultados de aprendizaje 1, 2 e 4; Temario Tema 2"},
+    {"topic": "Algoritmos clássicos: busca sequencial e métodos diretos de ordenação", "location": "Temario, Tema 3 (3.1-3.2)"},
+    {"topic": "Distinção entre complexidade de problemas, algoritmos e programas", "location": "Resultados de aprendizaje 6"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Conhecer, projetar e usar eficientemente os tipos e estruturas de dados adequados à resolução de um problema (competência específica)",
+      "Aplicar procedimentos algorítmicos básicos e analisar a complexidade dos algoritmos propostos",
+      "Desenvolver programas baseados em TAD, independentes da implementação, e escolher entre implementações alternativas"
+    ],
+    "convergences": [
+      "TAD como ponto de partida e implementação em linguagem orientada a objetos",
+      "Pilhas, filas e listas como estruturas lineares centrais",
+      "Eficiência assintótica como critério de comparação"
+    ],
+    "differences": [
+      "Cádiz dedica os Temas 1-3 (cerca de 3/7 do temário) a análise de complexidade e algoritmos clássicos, bloco que o Mackenzie trata em Análise de Algoritmos",
+      "Heap e heapsort, explícitos no Mackenzie, não constam do temário de Cádiz",
+      "Cádiz acrescenta programação genérica e especificação formal de TAD (Número Racional)"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Cádiz obrigatória do 2º curso (1º semestre), Mackenzie obrigatória da 3ª etapa",
+    "brazil": "Metade teórica e metade prática (2+2 h-a semanais)",
+    "foreign": "60 h presenciais: 24 teoria, 12 seminários e problemas, 24 práticas de informática; exame final com 90% da nota",
+    "theoryPractice": "Teoria 40% e seminário/prática 60% do contato em Cádiz, contra 50/50 no Mackenzie"
+  },
+  "practical": {
+    "period": "'Duración: PRIMER SEMESTRE' (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Obrigatória com 236 matriculados em 2026-27; secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado no documento",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A guia de Cádiz cobre integralmente o conceito de TAD (Tema 4) e a implementação em laboratório com linguagem orientada a objetos, e cobre em parte as estruturas lineares (pilhas, filas e listas, sem heap nem heapsort) e a eficiência assintótica, que fica concentrada nos Temas 1-2 em vez de ser aplicada a cada estrutura.",
+  "justification": "Dois dos quatro tópicos essenciais estão cobertos (TAD; implementação orientada a objetos com 24 h de práticas) e dois são parciais (estruturas lineares sem heap/heapsort e sem tema próprio de vetores; eficiência assintótica ensinada de modo geral, sem custo por operação de cada estrutura), o que dá 50% de cobertura plena, abaixo dos 75% do parâmetro, e 100% de cobertura parcial ou melhor. As 60 h presenciais declaradas equivalem a 94,7% das 63,33 h do Mackenzie pelo valor nominal e a 78,9% se a hora espanhola for de 50 minutos, portanto a carga não limita a classe. Em Cádiz, quase metade do temário (Temas 1-3) trata de complexidade e algoritmos clássicos, conteúdo estranho a Estrutura de Dados I.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 completo, com temário em sete temas e horas presenciais discriminadas; reduzem a confiança a duração não declarada da hora espanhola, a ementa brasileira de quatro enunciados curtos e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 e vaga para estudante de mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 se a hora for de 50 minutos",
+    "O temário de Cádiz lista títulos de tema; a presença de vetores como representação e a análise de custo por operação não são explícitas e não foram presumidas",
+    "Ementa brasileira concisa: heap e heapsort são lidos como enunciado oficial sem conteúdo programático detalhado",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC aceitaria cobertura parcial de estruturas lineares com complementação de heap/heapsort?",
+    "O professor de Cádiz trata o custo assintótico das operações de pilha, fila e lista no Tema 5-7, embora o temário não o nomeie?",
+    "A UCA aceita estudantes de mobilidade na turma da obrigatória do 1º semestre de 2027/28?"
+  ],
+  "alternatives": [
+    {"code": "21714016", "name": "Estructura de Datos no Lineales", "relation": "Lida neste lote; trata estruturas não lineares e corresponde a Estrutura de Dados II, não a esta disciplina"}
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema, resultado de aprendizagem ou quadro de atividades do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa completo com horas presenciais explícitas; lacunas de heap/heapsort objetivas e documentadas"
+  }
+}

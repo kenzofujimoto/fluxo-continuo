@@ -1,0 +1,184 @@
+{
+  "id": "adm|Métodos Quantitativos em Processos Decisórios|pt-coimbra|93289",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Métodos Quantitativos em Processos Decisórios",
+    "name": "Métodos Quantitativos em Processos Decisórios",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 6, bloco 'Métodos Quantitativos em Processos Decisórios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Revisão de conceitos de estatística descritiva e inferencial com apoio do software estatístico IBM/SPSS",
+      "Teste “T”",
+      "Análise de Variância (ANOVA)",
+      "Regressão Linear Simples e Múltipla",
+      "Análise Fatorial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "93289",
+      "name": "Estatística para Economia e Gestão I",
+      "pageCode": "01020807",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão; área científica Métodos Quantitativos)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Métodos Quantitativos",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Duração 'Semestral' na página; a lista oficial do plano registra o 2º semestre (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Matemática para Economia e Gestão I (Conhecimentos de Base Recomendados)",
+      "source": "https://apps.uc.pt/courses/PT/unit/93289/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "2a1ebe3ae81c05ac300a67c634a010b941eb9fc6b17a672b37f557deb0b13856",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem (objetivos gerais e específicos 1-4), Programa (itens 1-2 com subitens), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS, exposição teórica e exercícios, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Revisão de conceitos de estatística descritiva e inferencial com apoio do software estatístico IBM/SPSS",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "1.2.3 'Indicadores para uma distribuição (localização, dispersão, assimetria e achatamento, análise de concentração)'; resultado 1: calcular e interpretar medidas estatísticas",
+      "foreignLocation": "Programa, itens 1.1-1.2; Resultados de Aprendizagem B1",
+      "note": "Estatística descritiva e probabilidade são cobertas; estatística inferencial não aparece, e o programa não menciona SPSS nem outro software estatístico."
+    },
+    {
+      "brTopic": "Teste “T”",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (gerais e específicos 1-4), Métodos de Ensino e Programa (itens 1.1-1.3 e 2.1-2.2 com subitens) da página 2026-2027; bibliografia",
+      "note": "Não há inferência estatística nem testes de hipóteses; o programa para em probabilidades e variáveis aleatórias (item 2.2.6 quantis)."
+    },
+    {
+      "brTopic": "Análise de Variância (ANOVA)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (gerais e específicos 1-4), Métodos de Ensino e Programa (itens 1.1-1.3 e 2.1-2.2 com subitens) da página 2026-2027; bibliografia",
+      "note": "Nenhuma menção a comparação de médias ou análise de variância."
+    },
+    {
+      "brTopic": "Regressão Linear Simples e Múltipla",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (gerais e específicos 1-4), Métodos de Ensino e Programa (itens 1.1-1.3 e 2.1-2.2 com subitens) da página 2026-2027; bibliografia",
+      "note": "Nenhuma menção a regressão ou a modelos de relação entre variáveis; só medidas descritivas univariadas e números-índice."
+    },
+    {
+      "brTopic": "Análise Fatorial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem (gerais e específicos 1-4), Métodos de Ensino e Programa (itens 1.1-1.3 e 2.1-2.2 com subitens) da página 2026-2027; bibliografia",
+      "note": "Nenhuma menção a técnicas multivariadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Números-índice: Laspeyres, Paasche, Fisher, índice de preços ao consumidor, mudança de base",
+      "location": "Programa, item 1.3"
+    },
+    {
+      "topic": "Probabilidades, independência, fórmula de Bayes",
+      "location": "Programa, item 2.1"
+    },
+    {
+      "topic": "Variáveis aleatórias: funções de probabilidade, densidade e distribuição, momentos, função geradora de momentos, quantis",
+      "location": "Programa, item 2.2"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: escolher e aplicar técnicas estatísticas uni, bi e multivariadas (relações, estimação, redução, discriminação, inferência) em problemas gerenciais, com apoio do SPSS.",
+    "foreign": [
+      "Explorar dados com métodos numéricos e gráficos",
+      "Calcular e interpretar medidas de localização, dispersão, simetria e curtose",
+      "Aplicar probabilidades e variáveis aleatórias, discretas e contínuas"
+    ],
+    "convergences": [
+      "Estatística descritiva aplicada a dados econômicos e empresariais"
+    ],
+    "differences": [
+      "Mackenzie trata de estatística inferencial e multivariada com software (teste t, ANOVA, regressão, fatorial); Coimbra para na probabilidade e nas variáveis aleatórias",
+      "Coimbra inclui números-índice e teoria de probabilidades, ausentes da ficha brasileira"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra obrigatória do 1º ano, Mackenzie na 4ª etapa e de nível mais avançado",
+    "brazil": "Estatística aplicada à decisão gerencial, incluindo técnicas multivariadas, em 63,3 h-relógio",
+    "foreign": "Primeira de duas UCs de estatística da Licenciatura em Gestão, centrada em descritiva e probabilidade, com exercícios",
+    "theoryPractice": "Exposição com exemplos e exercícios práticos; proporção não declarada"
+  },
+  "practical": {
+    "period": "Duração semestral; a lista oficial indica 2º semestre (primavera europeia), que não coincide com 2027.2 se a organização do plano se mantiver",
+    "language": "Português",
+    "enrolment": "UC obrigatória do 1º ano; mobilidade pode exigir aprovação dos coordenadores; vagas para intercâmbio não informadas",
+    "prerequisites": "Matemática para Economia e Gestão I recomendada",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estatística para Economia e Gestão I é uma disciplina de estatística descritiva e probabilidade, equivalente apenas ao primeiro enunciado da ficha de Métodos Quantitativos, cujos demais quatro (teste t, ANOVA, regressão, análise fatorial) não aparecem.",
+  "justification": "A ficha Mackenzie concentra-se em inferência e técnicas multivariadas com SPSS: revisão descritiva e inferencial, teste t, ANOVA, regressão linear simples e múltipla e análise fatorial. O programa de Coimbra tem apenas dois blocos: estatística descritiva com números-índice (item 1) e probabilidades e variáveis aleatórias (item 2). Só a revisão descritiva é parcial, e nenhuma técnica inferencial ou multivariada foi localizada nas secções lidas, o que dá 20% de cobertura. Sem horas de contacto em Coimbra (6 ECTS) e com ficha brasileira sem ano de vigência, o par não tem base de carga, e o conteúdo sozinho já leva à baixa afinidade.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa com subitens e objetivos específicos explícitos, que sustentam a ausência dos tópicos; faltam horas e a ficha brasileira não tem ano de vigência.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos em horas",
+    "Semestre vem da lista oficial do plano (2º semestre); oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "A UC é a primeira de duas; a segunda (inferência) não foi lida",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Estatística para Economia e Gestão II (93290) cobre inferência, ANOVA e regressão da ficha Mackenzie?",
+    "Os dois níveis de estatística de Coimbra, juntos, atenderiam a ficha de Métodos Quantitativos, e o aproveitamento de duas UCs por uma é admitido?"
+  ],
+  "alternatives": [
+    {
+      "code": "93290",
+      "name": "Estatística para Economia e Gestão II",
+      "relation": "Listada no plano de Gestão como sequência de Estatística I; programa não lido neste parecer, provável contraparte de inferência e regressão"
+    },
+    {
+      "code": "93301",
+      "name": "R para Economia e Gestão",
+      "relation": "Listada no plano de Gestão; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 4) e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada enunciado buscado em todos os itens do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência objetiva de inferência e multivariada em programa itemizado"
+  }
+}

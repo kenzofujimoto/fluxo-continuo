@@ -1,0 +1,178 @@
+{
+  "id": "cc|ENEC54239|es-cadiz|21714019",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54239",
+    "name": "Arquitetura e Organização de Computadores",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 3ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 2 (3ª etapa CC Alphaville), bloco 'Comp. Curricular ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h-relógio e 4 h-a teóricas por semana, sem horas práticas."
+    },
+    "topics": [
+      "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "Arquitetura RISC x CISC",
+      "Introduz à linguagem de montagem em arquitetura RISC",
+      "Aborda de forma introdutória as arquiteturas paralelas centralizadas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714019",
+      "name": "Arquitectura de Computadores",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C140 Ingeniería en Automática, Electrónica, Arquitectura y Redes (área Arquitectura y Tecnología de Computadores)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo II Formación común a la rama de Informática, materia II.4",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 2,
+      "semester": "Primer semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame de teoria (duas provas) 30%, exame de problemas 40%, exame de laboratório 30%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714019",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "ae1fa645c91b2dcdd5d3e3ff3b53026978976619c9a18c66bfabbab7013dc47d",
+      "location": "Programa docente 2026-27: cabeçalho, 'Resultados de aprendizaje' 1-5, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-6, 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro de atividades: 60 h presenciais = Teoría 30 + Prácticas de informática 12 + Prácticas de taller/laboratorio 18; 86 h não presenciais e 4 h de avaliação; 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 'Introducción de arquitecturas de computadores. Análisis de prestaciones'; RA 5 'Analizar y contrastar distintas arquitecturas de computadores'",
+      "foreignLocation": "Temario, Tema 1; Resultados de aprendizaje 5",
+      "note": "O temário só traz títulos; a evolução histórica e uma classificação das arquiteturas não são citadas, apenas a introdução e a comparação de arquiteturas."
+    },
+    {
+      "brTopic": "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 2 'Jerarquía de memoria', Tema 3 'Implementación no segmentada de un procesador', Temas 4-5 segmentação e superescalares; RA 2 parâmetros da hierarquia de memória",
+      "foreignLocation": "Temario, Temas 2-5; Resultados de aprendizaje 2-4",
+      "note": "CPU e memória são cobertas com profundidade; barramentos e dispositivos de E/S não aparecem em nenhum tema ou resultado de aprendizagem."
+    },
+    {
+      "brTopic": "Arquitetura RISC x CISC",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "RA 3 trata de 'diversas realizaciones de una misma arquitectura del juego de instrucciones' e seus compromissos de desempenho, sem citar RISC ou CISC",
+      "foreignLocation": "Resultados de aprendizaje 3; Bibliografía básica (Patterson e Hennessy)",
+      "note": "O documento não permite afirmar nem negar a comparação RISC x CISC: o temário é só de títulos, e a bibliografia não prova conteúdo."
+    },
+    {
+      "brTopic": "Introduz à linguagem de montagem em arquitetura RISC",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 6 'Lenguajes de bajo nivel'; práticas de informática (12 h) e de laboratório (18 h) com problemas e simulação",
+      "foreignLocation": "Temario, Tema 6; Actividades 03 e 04",
+      "note": "Linguagem de baixo nível existe como tema, mas o documento não informa qual arquitetura de instruções (RISC ou outra) nem a ferramenta usada."
+    },
+    {
+      "brTopic": "Aborda de forma introdutória as arquiteturas paralelas centralizadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 4 Segmentación e Tema 5 Procesadores superescalares; RA 4 'paralelismo a nivel de instrucciones'",
+      "foreignLocation": "Temario, Temas 4-5; Resultados de aprendizaje 4",
+      "note": "Só o paralelismo em nível de instrução dentro de um processador; multiprocessadores, multicore e memória compartilhada não aparecem no temário."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Análise de prestações do computador (medidas de desempenho)", "location": "Temario, Tema 1; RA 1"},
+    {"topic": "Riscos do pipeline e alternativas de resolução", "location": "Resultados de aprendizaje 4; Tema 4"},
+    {"topic": "Exame de laboratório avaliado separadamente (30%)", "location": "Sistema de evaluación, item 3"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Conhecer, compreender e avaliar a estrutura e a arquitetura dos computadores e seus componentes básicos (competência específica)",
+      "Avaliar prestações do computador e identificar elementos de uma hierarquia de memória (RA 1-2)",
+      "Compreender segmentação de cauce, riscos e processadores superescalares (RA 3-4)"
+    ],
+    "convergences": [
+      "Estrutura do processador e da memória",
+      "Programação em baixo nível",
+      "Comparação de arquiteturas"
+    ],
+    "differences": [
+      "Cádiz aprofunda segmentação, superescalares e hierarquia de memória; o Mackenzie lista barramentos, E/S, RISC x CISC e paralelas centralizadas, que Cádiz não cita",
+      "O Mackenzie não declara prática, enquanto Cádiz dedica 30 das 60 h a informática e laboratório"
+    ]
+  },
+  "depth": {
+    "level": "Ambas obrigatórias de graduação no início do curso: 2º curso em Cádiz, 3ª etapa no Mackenzie",
+    "brazil": "Quatro h-a teóricas semanais, sem prática declarada, sobre organização básica, RISC x CISC e montagem",
+    "foreign": "60 h presenciais com 50% em teoria e 50% em informática e laboratório; exame de laboratório próprio",
+    "theoryPractice": "Cádiz tem componente prático explícito (30 h) que o ementário do Mackenzie não declara"
+  },
+  "practical": {
+    "period": "'Duración: PRIMER SEMESTRE' (outono europeu); coincidiria com 2027.2 apenas se a programação 2027/28 mantiver o semestre",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Obrigatória com 134 matriculados em 2026-27; secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado no documento",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Arquitectura de Computadores (21714019) cobre processador, hierarquia de memória, segmentação, superescalares e linguagens de baixo nível, mas o texto não menciona barramentos, E/S, multiprocessadores nem a comparação RISC x CISC; nenhum dos cinco enunciados de Arquitetura e Organização fica totalmente comprovado.",
+  "justification": "Quatro tópicos são parciais (evolução/classificação sem item próprio; CPU e memória sem barramentos e E/S; baixo nível sem arquitetura RISC declarada; apenas paralelismo de instrução) e o tópico RISC x CISC é não verificável, de modo que a cobertura total é 0% e a cobertura parcial chega a 80%, com um tópico não verificável (20%, abaixo de um terço). As 60 h presenciais declaradas (30 teoria + 12 informática + 18 laboratório) correspondem a 94,7% das 63,33 h do Mackenzie pelo valor nominal e a 78,9% com hora de 50 minutos; o limite é o conteúdo, pois a disciplina espanhola é mais profunda em pipeline e memória e silenciosa em E/S e barramentos. A classe é a mais alta que os tópicos permitem.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual 2026-27 com horas discriminadas; reduzem a confiança o temário de apenas seis títulos, a duração não declarada da hora e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Oferta em 2027/28 e vaga para mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 com hora de 50 minutos",
+    "O temário não detalha subitens: barramentos, E/S e RISC x CISC podem ser tratados em aula sem constar do documento, por isso RISC x CISC ficou não verificável",
+    "Ementa brasileira concisa, sem objetivos; comparação feita sobre os cinco enunciados oficiais",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A UCA pode informar se a linguagem de baixo nível é de arquitetura RISC (por exemplo, MIPS ou RISC-V) e se RISC x CISC é discutido?",
+    "A coordenação de CC aceitaria complementar barramentos, E/S e arquiteturas paralelas por atividade adicional?"
+  ],
+  "alternatives": [
+    {
+      "code": "21714032",
+      "name": "Arquitectura de Computadores Paralelos y Distribuidos",
+      "relation": "Optativa avançada, lida e analisada em parecer próprio; cobre multiprocessadores em profundidade, mas não os fundamentos de CPU, RISC e montagem"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema, resultado de aprendizagem ou atividade do documento estrangeiro; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Temário só de títulos: RISC x CISC e a arquitetura da linguagem de baixo nível dependem de confirmação com a UCA"
+  }
+}

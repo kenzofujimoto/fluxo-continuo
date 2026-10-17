@@ -1,0 +1,175 @@
+{
+  "id": "cc|ENEC61010|es-cadiz|21714017",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61010",
+    "name": "Desenvolvimento de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 4ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/4__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9c82252c89b612a1d7522504d6807f571ffb3371b3625494418dec1b23abfe99",
+    "location": "PDF p. 2 (4ª etapa CC Alphaville), bloco 'Comp. Curricular DESENVOLVIMENTO DE SOFTWARE', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h-relógio e 4 h-a teóricas por semana, sem horas práticas."
+    },
+    "topics": [
+      "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "Práticas de extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714017",
+      "name": "Programación Orientada a Objetos",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática (área Lenguajes y Sistemas Informáticos)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo II Formación común a la rama de Informática, materia II.2 Programación de computadores",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 2,
+      "semester": "Segundo semestre",
+      "period": "2º semestre do ano letivo espanhol (primavera europeia)",
+      "academicYear": "2026/2027",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida; linguagem de programação C++",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exames parciais de programação 60%, questionários online 20%, práticas 20%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2026-27/21714017",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "083ad12b672fc84be23b3728c20546cf1ba8c7d12826f370235ff05787147790",
+      "location": "Programa docente 2026-27: cabeçalho, 'Resultados de aprendizaje' 1-9, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 1-4 e Práticas P0-P4, 'Bibliografía'",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 87,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro de atividades: 60 h presenciais = Teoría 24 + Prácticas, seminarios y problemas 12 + Prácticas de informática 24; 87 h não presenciais e 3 h de avaliação (exame escrito); 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos dos conceitos e métodos de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "RA 3 'Conocer los pasos para la realización de un sistema orientado a objetos y sus principales elementos'; Tema 1 evolução e princípios; ausência de processos ou métodos de engenharia de software",
+      "foreignLocation": "Resultados de aprendizaje 3; Temario, Tema 1",
+      "note": "Só os passos de construção de um sistema OO; ciclo de vida, processos e métodos de desenvolvimento não são tratados."
+    },
+    {
+      "brTopic": "Estudo e domínio de técnicas modelagem para análise e projeto orientado a objetos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "RA 4 'Identificar los objetos que aparecen en un sistema, sus características y comportamientos, y clasificarlos en clases'; Tema 3 associações, generalização e especialização",
+      "foreignLocation": "Resultados de aprendizaje 4-5; Temario, Tema 3",
+      "note": "Identificação de classes e suas relações é o núcleo de análise OO, mas não há técnicas de modelagem nomeadas (casos de uso, CRC, padrões)."
+    },
+    {
+      "brTopic": "Estudo e domínio da linguagem orientada a objetos tanto os diagramas estruturais e diagramas comportamentais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario Temas 1-4 e P0-P4, Resultados de aprendizaje 1-9, descrições das atividades e bibliografia; não há menção a UML, diagramas estruturais ou comportamentais.",
+      "note": "Associações e generalizações do Tema 3 são conceitos que a UML representa, mas o documento não cita diagramas."
+    },
+    {
+      "brTopic": "Domínio do Mapeamento dos diagramas UML para linguagem de programação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario Temas 1-4 e P0-P4, Resultados de aprendizaje 8-9 (implementar classes e relações em C++) e atividade 03; o documento não parte de diagramas UML para código.",
+      "note": "A implementação de classes e relações em C++ (RA 8-9, P2-P4) é parte do lado do código; o mapeamento a partir de UML não consta."
+    },
+    {
+      "brTopic": "Práticas de extensão",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa docente integral; nenhuma atividade de extensão universitária ou projeto com comunidade.",
+      "note": "Item não curricular de extensão específico do Mackenzie; excluído da contagem essencial e sem equivalente natural em disciplina de graduação espanhola."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Programação em C++ e biblioteca padrão: E/S, contêineres e algoritmos da STL", "location": "Temario, P1-P3; RA 7"},
+    {"topic": "Polimorfismo de sobrecarga, em tempo de execução e paramétrico", "location": "Temario, Tema 4"},
+    {"topic": "Tratamento de exceções", "location": "Temario, P0"},
+    {"topic": "Implementação de um sistema orientado a objetos de média complexidade", "location": "Resultados de aprendizaje 9; Actividades 03"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Conhecer o paradigma OO e identificar objetos, classes e relações (RA 2-5)",
+      "Distinguir tipos de polimorfismo (RA 6)",
+      "Implementar classes e um sistema OO em C++ (RA 8-9)"
+    ],
+    "convergences": [
+      "Identificação de classes e relações entre classes, base da análise OO"
+    ],
+    "differences": [
+      "Desenvolvimento de Software é de modelagem e processo (UML, análise e projeto); a disciplina de Cádiz é de programação em C++",
+      "UML, diagramas estruturais e comportamentais, mapeamento UML para código e práticas de extensão não constam do programa espanhol"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação: Cádiz obrigatória do 2º curso, Mackenzie obrigatória da 4ª etapa",
+    "brazil": "Quatro h-a teóricas semanais, sem prática declarada, sobre métodos e modelagem",
+    "foreign": "60 h presenciais, 60% delas em problemas e informática, com foco em codificação em C++",
+    "theoryPractice": "Cádiz é majoritariamente prática de programação; o ementário do Mackenzie é teórico e de modelagem"
+  },
+  "practical": {
+    "period": "'Duración: SEGUNDO SEMESTRE' (primavera europeia); não coincide com 2027.2, que corresponde ao outono europeu de 2027/28",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Obrigatória com 265 matriculados em 2026-27; secção 'Movilidad' sem vagas ou modalidade preenchidas para mobilidade internacional",
+    "prerequisites": "Nenhum requisito formal declarado no documento",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A guia de Programação Orientada a Objetos de Cádiz toca apenas o núcleo de classes e relações da análise orientada a objetos; não trata métodos de desenvolvimento, UML, diagramas estruturais e comportamentais nem o mapeamento de UML para código, que formam a maior parte da ementa de Desenvolvimento de Software.",
+  "justification": "Dos quatro tópicos essenciais, dois são parciais por tangenciar a análise OO (RA 3-5, Tema 3) e dois não são encontrados (diagramas UML e mapeamento UML para código); a cobertura total é nula e a parcial chega a 50%, o que pela regra interna daria afinidade parcial. A classe é rebaixada porque os dois pontos parciais são tangenciais: a disciplina espanhola ensina a programar em C++ e o Mackenzie, a modelar e a documentar com UML. Em carga horária, 60 h presenciais seriam 94,7% de 63,33 h pelo valor nominal e 78,9% com hora de 50 minutos, mas as horas espanholas são de codificação, não de modelagem.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A regra interna deriva afinidade_parcial (50% de cobertura parcial em apenas quatro tópicos essenciais), mas as duas coberturas parciais se limitam a identificar classes e relações; métodos, UML e mapeamento a código estão ausentes, de modo que o conteúdo dominante da ementa não é comprovado.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa oficial 2026-27 completo e horas presenciais discriminadas; reduzem a confiança o fato de o par vir de similaridade semântica de conceitos, a duração não declarada da hora e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Par originado de recuperação semântica por conceitos (poo, programação), não de candidatura registrada",
+    "Oferta em 2027/28 e vaga para estudante de mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Disciplina de segundo semestre: coincidiria com a primavera europeia, não com 2027.2",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 com hora de 50 minutos",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "Existe disciplina de engenharia de software ou análise e projeto de sistemas no plano da UCA para exame mais adequado a Desenvolvimento de Software?",
+    "A coordenação de CC trata 'Práticas de extensão' como item cumprível apenas no Mackenzie?"
+  ],
+  "alternatives": [
+    {
+      "code": "21714043",
+      "name": "Disciplina do catálogo de Cádiz candidata a Introdução à Engenharia de Software",
+      "relation": "Não lida neste parecer; outra candidata de Cádiz para o eixo de engenharia de software, a verificar em parecer próprio"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol 2026/27 em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema, prática ou resultado de aprendizagem; par semântico tratado com ceticismo; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa completo com horas explícitas; divergência de natureza (programação x modelagem) clara no documento"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "id": "cc|ENEC54239|es-cadiz|21714032",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54239",
+    "name": "Arquitetura e Organização de Computadores",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 3ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 2 (3ª etapa CC Alphaville), bloco 'Comp. Curricular ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES', campos 'Carga horária' e 'Ementa'",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco do ementário",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "weeklyClassPeriods": {"teorica": 4, "pratica": 0},
+      "note": "Ementário declara 63,33 h-relógio e 4 h-a teóricas por semana, sem horas práticas."
+    },
+    "topics": [
+      "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "Arquitetura RISC x CISC",
+      "Introduz à linguagem de montagem em arquitetura RISC",
+      "Aborda de forma introdutória as arquiteturas paralelas centralizadas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714032",
+      "name": "Arquitectura de Computadores Paralelos y Distribuidos",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C140 Ingeniería en Automática, Electrónica, Arquitectura y Redes (área Arquitectura y Tecnología de Computadores)",
+      "programme": "1725 Grado en Ingeniería Informática — Módulo IIIB Tecnología Específica Ingeniería de Computadores, materia IIIB.1",
+      "level": "Grado (graduação)",
+      "yearOfStudy": "3 ou 4",
+      "semester": "Primer semestre",
+      "period": "1º semestre do ano letivo espanhol (outono europeu)",
+      "academicYear": "2025/2026",
+      "language": "Castelhano (campo 'Idioma'); secção 'Idiomas' sem oferta em língua estrangeira preenchida",
+      "courseStatus": "Optativa",
+      "assessment": "Exames parciais/final 50%, trabalhos individuais ou em grupo 23%, práticas de laboratório 14%, acompanhamento da aprendizagem 8%, autoavaliação 5%",
+      "prerequisites": "Secções 'Requisitos previos' e 'Recomendaciones' sem conteúdo no documento",
+      "source": "https://asignaturas.uca.es/2025-26/21714032",
+      "catalogue": "https://www.uca.es/grados/?lang=em",
+      "sha256": "ca03a074c710b3109cb229cc7d980118809b6d488e8ad73075f61df31b9d7a14",
+      "location": "Programa docente 2025-26 (a guia 2026-27 não está no cache): cabeçalho, 'Resultados de aprendizaje' 1-3, 'Actividades y metodologías docentes', 'Sistema de evaluación', 'Temario' Temas 0-5",
+      "hours": {
+        "weekly": null,
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 84,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro de atividades: 60 h presenciais = Teoría 30 + Prácticas, seminarios y problemas 12 + Prácticas de taller/laboratorio 18; 84 h não presenciais e 6 h de avaliação; 150 h totais. Duração da hora não declarada."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 0 'Generalidades sobre arquitecturas paralelas y distribuidas'; Tema 1 arquiteturas vetoriais, SIMD e GPU; Tema 4 cluster e grid",
+      "foreignLocation": "Temario, Temas 0, 1 e 4",
+      "note": "A classificação aparece apenas para arquiteturas paralelas e distribuídas; não há item sobre a evolução histórica das gerações de computadores nem classificação geral."
+    },
+    {
+      "brTopic": "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario Temas 0-5, Resultados de aprendizaje 1-3, quadro de atividades e competências; os temas partem de arquiteturas paralelas (coerência, consistência, redes de interconexão) e não tratam CPU, hierarquia de memória, barramentos nem E/S como fundamentos.",
+      "note": "O curso pressupõe esses fundamentos, que na UCA pertencem à obrigatória Arquitectura de Computadores (21714019, 2º curso)."
+    },
+    {
+      "brTopic": "Arquitetura RISC x CISC",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario Temas 0-5, Resultados de aprendizaje 1-3, descrições de atividades práticas e competências; nenhuma menção a RISC, CISC ou conjuntos de instruções."
+    },
+    {
+      "brTopic": "Introduz à linguagem de montagem em arquitetura RISC",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario Temas 0-5, quadro de atividades (práticas de laboratório 'sobre cada um dos tipos de arquitetura') e resultados de aprendizagem; não há linguagem de montagem ou programação em baixo nível citada."
+    },
+    {
+      "brTopic": "Aborda de forma introdutória as arquiteturas paralelas centralizadas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 2 'Multiprocesadores': características, coerência, sincronização, consistência; Tema 1 paralelismo de dados (vetorial, SIMD, GPU)",
+      "foreignLocation": "Temario, Temas 1 e 2",
+      "note": "A cobertura é bem mais profunda que o nível introdutório pedido: multiprocessadores com memória compartilhada, coerência de cache e consistência são o núcleo do curso."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Redes de interconexão: topologia, encaminhamento, estratégias de comunicação, controle de fluxo e medidas de desempenho", "location": "Temario, Tema 3"},
+    {"topic": "Arquiteturas distribuídas: cluster e grid", "location": "Temario, Tema 4"},
+    {"topic": "Tendências: ecossistema Hadoop e outras arquiteturas distribuídas", "location": "Temario, Tema 5"},
+    {"topic": "Trabalho teórico e trabalho prático em grupo sobre um tipo de arquitetura", "location": "Actividades (descrições de trabalhos não presenciais); Sistema de evaluación, item 2 (23%)"}
+  ],
+  "competencies": {
+    "brazil": "O ementário descreve conteúdos; não lista objetivos ou competências por componente.",
+    "foreign": [
+      "Analisar e avaliar arquiteturas de computadores, incluindo plataformas paralelas e distribuídas, e otimizar software para elas (RA 1)",
+      "Projetar e implementar software de sistema e de comunicações (RA 2)",
+      "Analisar, avaliar, selecionar e configurar plataformas de hardware (RA 3)"
+    ],
+    "convergences": [
+      "Arquiteturas paralelas com memória compartilhada (multiprocessadores) vistas no Mackenzie de forma introdutória e em Cádiz em profundidade"
+    ],
+    "differences": [
+      "Mackenzie é de fundamentos (CPU, memória, barramentos, E/S, RISC x CISC, montagem); Cádiz é optativa avançada de arquiteturas paralelas e distribuídas",
+      "Cádiz inclui redes de interconexão, cluster, grid e Hadoop, sem correspondente na ementa de Arquitetura e Organização de Computadores"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: obrigatória da 3ª etapa; Cádiz: optativa de 3º/4º curso da intensificação Ingeniería de Computadores",
+    "brazil": "Quatro h-a teóricas semanais, sem prática declarada, sobre fundamentos de organização de computadores",
+    "foreign": "60 h presenciais: 30 de teoria, 12 de problemas e 18 de laboratório, mais trabalhos teórico e prático",
+    "theoryPractice": "Cádiz tem metade do contato em seminário/laboratório; o ementário do Mackenzie não declara prática"
+  },
+  "practical": {
+    "period": "'Duración: PRIMER SEMESTRE' (outono europeu); guia em cache refere 2025-26, a de 2026-27 não foi obtida",
+    "language": "Castelhano; o edital exige B2 em espanhol para Cádiz",
+    "enrolment": "Optativa com 6 matriculados em 2024-25 e 16 em 2025-26; secção 'Movilidad' sem vagas ou modalidade preenchidas",
+    "prerequisites": "Nenhum requisito formal declarado; o temário pressupõe fundamentos de arquitetura",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A optativa 21714032 de Cádiz aprofunda multiprocessadores, SIMD/GPU, redes de interconexão e cluster, o que cobre apenas o último eixo da ementa de Arquitetura e Organização de Computadores (arquiteturas paralelas centralizadas); CPU, memória, barramentos, E/S, RISC x CISC e linguagem de montagem não constam.",
+  "justification": "Dos cinco tópicos essenciais, um está coberto (arquiteturas paralelas centralizadas, Temas 1-2), um é parcial (classificação restrita a arquiteturas paralelas) e três não são encontrados (organização básica, RISC x CISC, montagem), o que dá 40% de cobertura total ou parcial, abaixo do limiar de 50% para afinidade parcial. As 60 h presenciais (30 + 12 + 18) corresponderiam a 94,7% das 63,33 h do Mackenzie, mas a razão horária não compensa o conteúdo: a disciplina é avançada e atende melhor Computação Paralela ou Distribuída do que a base de arquitetura da 3ª etapa. Usá-la aqui ainda duplicaria o material de uma eventual equivalência de paralela.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa individual oficial com horas discriminadas e temário em seis blocos; reduzem a confiança o fato de a guia em cache ser a de 2025-26, a duração da hora não declarada e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Guia analisada é a de 2025-26; a de 2026-27 não estava no cache e o conteúdo pode ter mudado",
+    "Oferta em 2027/28 e vaga para mobilidade internacional não confirmadas (secção 'Movilidad' vazia)",
+    "Duração da hora presencial de Cádiz não declarada; razão 0,947 nominal e 0,789 com hora de 50 minutos",
+    "O temário lista títulos de tema sem detalhar subitens; ausência de CPU/RISC/montagem é ausência no documento, não prova de que não sejam mencionados em aula",
+    "Parecer preliminar independente; decisão compete à coordenação de CC e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de CC avaliaria 21714032 para Computação Paralela ou Distribuída, em vez de Arquitetura e Organização de Computadores?",
+    "A UCA oferta 21714032 em 2027/28 e a admite para estudantes de mobilidade?"
+  ],
+  "alternatives": [
+    {
+      "code": "21714019",
+      "name": "Arquitectura de Computadores",
+      "relation": "Obrigatória de 2º curso com hierarquia de memória, processador, segmentação e linguagens de baixo nível; guia lida e analisada em parecer próprio (ENEC54239 x 21714019), mais próxima dos fundamentos pedidos"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Mackenzie 2025 e do programa docente espanhol em cache (dossiê .cache/dossiers), com apoio de IA (Claude); cada tópico vinculado a tema ou item do documento estrangeiro; campo 'overlap' do catálogo interno não usado como evidência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa completo com horas presenciais explícitas; lacunas de fundamentos objetivas e documentadas"
+  }
+}

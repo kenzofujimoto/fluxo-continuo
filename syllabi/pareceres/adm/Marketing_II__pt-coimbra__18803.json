@@ -1,0 +1,176 @@
+{
+  "id": "adm|Marketing II|pt-coimbra|18803",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "pt-coimbra",
+      "university": "Universidade de Coimbra",
+      "code": "18803",
+      "name": "Marketing",
+      "pageCode": "01620148",
+      "faculty": "Não indicada na página da UC (plano 10622, Licenciatura em Gestão)",
+      "programme": "Licenciatura em Gestão (plano 10622); área científica Gestão",
+      "level": "1º Ciclo - Licenciatura",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Duração 'Semestral' na página; a lista oficial do plano registra o 1º semestre",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação periódica ou por exame, a definir na ficha por edição: 100%",
+      "prerequisites": "Conhecimentos de Base Recomendados: não aplicável",
+      "source": "https://apps.uc.pt/courses/PT/unit/18803/23001/2026-2027?common_core=true&type=ram&id=10622",
+      "catalogue": "https://apps.uc.pt/courses/PT/programme/10622/2026-2027",
+      "sha256": "e3bc0a98bcb5161d8697382a53cbae62855573f440b1fb9b243ae0198432b9c2",
+      "location": "Página da UC 2026-2027: identificação, Métodos de Ensino, Resultados de Aprendizagem, Programa (texto de enquadramento e itens 1-10), Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6,0 ECTS e semestre, com exposição, discussão de trabalhos de estudo de caso e resolução de exercícios, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Item 5 'Inovação e desenvolvimento de novos produtos' e item 6 'Gestão estratégica de marcas'; resultados: estratégias de produto",
+      "foreignLocation": "Programa, itens 5-6; Resultados de Aprendizagem",
+      "note": "Cobre decisões de produto e marca; a diferença entre administrar bens e serviços não é nomeada."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'8. Estratégia de preço'; resultados: definir estratégias de produto, preço, distribuição e comunicação",
+      "foreignLocation": "Programa, item 8; Resultados de Aprendizagem"
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'7. Estratégia de distribuição'",
+      "foreignLocation": "Programa, item 7"
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'9. Estratégia de comunicação: promoção de vendas, publicidade, força de vendas, relações públicas, merchandising, e marketing direto'",
+      "foreignLocation": "Programa, item 9"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Conceito de marketing e estratégia orientada para o mercado",
+      "location": "Programa, item 1"
+    },
+    {
+      "topic": "Comportamento do comprador/consumidor e concorrência; segmentação, seleção de segmentos-alvo e posicionamento",
+      "location": "Programa, itens 2-4"
+    },
+    {
+      "topic": "Plano de marketing",
+      "location": "Programa, item 10 e texto de enquadramento"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e definição das estratégias de preço, comunicação e distribuição para gerar valor superior ao cliente e à empresa.",
+    "foreign": [
+      "Tomar decisões de marketing, formular e implementar estratégias",
+      "Analisar concorrência, consumidores e macroambiente",
+      "Definir segmentos-alvo, posicionamento e estratégias de produto, preço, distribuição e comunicação"
+    ],
+    "convergences": [
+      "Estratégias de preço, distribuição e comunicação com o mesmo foco em valor para o cliente e para a empresa"
+    ],
+    "differences": [
+      "Coimbra é curso integral de marketing: acrescenta conceito, consumidor, segmentação, posicionamento, inovação e plano de marketing, que na grade Mackenzie ficam em Marketing I e em Planejamento de Marketing Corporativo",
+      "Mackenzie nomeia explicitamente 'bens e serviços'; Coimbra não distingue serviços"
+    ]
+  },
+  "depth": {
+    "level": "Ambas obrigatórias de graduação; Mackenzie na 4ª etapa, Coimbra no 2º ano",
+    "brazil": "Quatro enunciados do composto de marketing em 63,3 h-relógio",
+    "foreign": "Marketing completo em dez itens, do conceito ao plano de marketing, com um manual de referência (Kotler, Keller e Chernev)",
+    "theoryPractice": "Exposição, discussão de estudo de caso real e resolução de exercícios; proporção não declarada"
+  },
+  "practical": {
+    "period": "Duração semestral; a lista oficial indica 1º semestre, que corresponde ao outono europeu e, em princípio, ao período 2027.2, sujeito a confirmação da oferta 2027/28",
+    "language": "Português",
+    "enrolment": "UC obrigatória do 2º ano da Licenciatura em Gestão; mobilidade pode exigir aprovação dos coordenadores; vagas para intercâmbio não informadas na página",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Marketing de Coimbra trata de forma explícita as estratégias de preço, distribuição e comunicação de Marketing II, restando só a distinção entre bens e serviços como cobertura parcial; a disciplina ainda traz conteúdos que a grade Mackenzie distribui por Marketing I e Planejamento.",
+  "justification": "Três dos quatro enunciados da ficha estão cobertos por itens nomeados (7 distribuição, 8 preço, 9 comunicação com seis instrumentos listados) e 'Bens e Serviços' fica parcial, porque Coimbra traz inovação de produtos e gestão de marcas (itens 5-6) sem tratar de serviços. Nenhum tópico ficou ausente. A classe não passa de afinidade parcial porque a página declara só 6 ECTS, sem horas de contacto (carga não comparável com as 63,3 h-relógio), e a ficha brasileira não tem ano de vigência. Como Coimbra cobre também o conteúdo de Marketing I, o aproveitamento isolado de Marketing II exigiria que a coordenação decidisse como tratar essa sobreposição.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e resultados de aprendizagem explícitos; faltam horas de contacto e a ficha brasileira não tem ano de vigência.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos em horas",
+    "Semestre vem da lista oficial do plano, não do campo da página; oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Programa de 10 itens sem subitens: profundidade de cada estratégia não verificável",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Coimbra trata serviços (intangibilidade, qualidade do serviço) dentro de 'Estratégia de produto' ou de 'Estratégia de comunicação'?",
+    "A coordenação aceita que uma única UC de Coimbra seja usada para Marketing II e, em outro parecer, para Planejamento de Marketing Corporativo?"
+  ],
+  "alternatives": [
+    {
+      "code": "93364",
+      "name": "Gestão de Marcas",
+      "relation": "Programa lido; trata de marca e direito de marcas, não de preço, distribuição e comunicação (ver parecer de Marketing II com 93364)"
+    },
+    {
+      "code": "83606",
+      "name": "Marketing Estratégico",
+      "relation": "Listada no plano de Administração Pública; programa não lido neste parecer"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie (Etapa 4) e da página oficial da UC de Coimbra (2026-2027) com apoio de IA (Claude); cada enunciado vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência itemizada; limite da classe decorre de horas e vigência, não de dúvida de conteúdo"
+  }
+}
