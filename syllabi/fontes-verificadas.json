@@ -6528,7 +6528,7 @@
    "code": "101114",
    "name": "Sistemas Operativos I",
    "source": "https://guias.usal.es/node/250976",
-   "individualSyllabus": true,
+   "individualSyllabus": false,
    "academicYear": "2026/2027",
    "sha256": "0cb95011c810b9cc268ab2d2bfeedeacad63e0f9abe83662ce40018869f4607f",
    "format": "html",
@@ -6539,7 +6539,13 @@
    "contentMarker": "contenido",
    "checkedAt": "2026-10-17T01:23:05Z",
    "method": "expand_catalogue.py:usal + verify_programme",
-   "officialCode": "105914"
+   "officialCode": "105914",
+   "identityReview": {
+    "reviewedAt": "2026-10-16",
+    "reviewer": "Codex",
+    "officialCode": "105914",
+    "reason": "A ficha identifica 105914, Grado en Ingeniería Informática en Sistemas de Información, EPS Zamora; vínculo ao código catalogado 101114 não comprovado."
+   }
   },
   {
    "universityId": "es-salamanca",
