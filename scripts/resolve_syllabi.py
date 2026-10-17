@@ -150,13 +150,13 @@ def fetch_text(url: str) -> tuple[dict, str]:
                 r.close()
                 return {**info, "error": "download excedeu 60 s ou 15 MB"}, ""
         raw = b"".join(chunks)
-        if "drive.google.com" in r.url and raw[:5] != b"%PDF" and b"confirm=" in raw:
+        if "drive.google.com" in r.url and not raw.lstrip().startswith(b"%PDF-") and b"confirm=" in raw:
             m = re.search(rb'confirm=([0-9A-Za-z_-]+)', raw)
             if m:
                 r = requests.get(url + "&confirm=" + m.group(1).decode(), headers={"User-Agent": UA}, timeout=(10, 40))
                 raw = r.content
         info["sha256"] = hashlib.sha256(raw).hexdigest()
-        if raw[:5] == b"%PDF":
+        if raw.lstrip().startswith(b"%PDF-"):
             pdf = fitz.open(stream=raw, filetype="pdf")
             info["format"], info["pages"] = "pdf", len(pdf)
             return info, "\n".join(p.get_text() for p in pdf)[:200000]
