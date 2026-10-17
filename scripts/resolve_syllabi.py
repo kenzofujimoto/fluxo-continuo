@@ -24,8 +24,9 @@ import re
 import sys
 import time
 import unicodedata
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from pathlib import Path
+from threading import Lock
 from urllib.parse import urljoin, urlparse
 
 import fitz
@@ -217,11 +218,34 @@ def resume_targets(todo: list[dict], attempts: dict, since: str | None) -> list[
     return [t for t in todo if attempts.get((t["universityId"], t["code"]), {}).get("checkedAt", "") < since]
 
 
-def resolve(t: dict, listing_cache: dict) -> dict:
+class FetchCache:
+    """Deduplicate exact URLs within one run, including failures, without caching verdicts."""
+
+    def __init__(self) -> None:
+        self._lock = Lock()
+        self._pending: dict[str, Future] = {}
+
+    def fetch(self, url: str) -> tuple[dict, str]:
+        with self._lock:
+            future = self._pending.get(url)
+            owner = future is None
+            if owner:
+                future = Future()
+                self._pending[url] = future
+        if owner:
+            try:
+                future.set_result(fetch_text(url))
+            except Exception as error:
+                future.set_exception(error)
+        return future.result()
+
+
+def resolve(t: dict, listing_cache: FetchCache | dict) -> dict:
+    fetch = listing_cache.fetch if isinstance(listing_cache, FetchCache) else fetch_text
     tried = []
     urls = candidate_urls(t["universityId"], t["code"], t["source"])
     for url in urls:
-        info, text = fetch_text(url)
+        info, text = fetch(url)
         v = verify_programme(text, t["name"], t["code"], t["titles"], source_url=info.get("finalUrl") or url) if text else {"ok": False, "reason": f"HTTP {info.get('http')} {info.get('error', '')}".strip()}
         tried.append({"url": url, "http": info.get("http"), "result": v.get("reason") or "verificado"})
         if v["ok"]:
@@ -231,7 +255,7 @@ def resolve(t: dict, listing_cache: dict) -> dict:
         if html and url == t["source"]:
             link = find_course_link(html, info.get("finalUrl") or url, t["name"])
             if link and link not in urls:
-                info2, text2 = fetch_text(link)
+                info2, text2 = fetch(link)
                 v2 = verify_programme(text2, t["name"], t["code"], t["titles"], source_url=info2.get("finalUrl") or link) if text2 else {"ok": False, "reason": f"HTTP {info2.get('http')}"}
                 tried.append({"url": link, "http": info2.get("http"), "result": v2.get("reason") or "verificado", "foundOn": url})
                 if v2["ok"]:
@@ -255,8 +279,9 @@ def main() -> int:
     if a.limit:
         todo = todo[:a.limit]
     ok = done = 0
+    listing_cache = FetchCache()
     with ThreadPoolExecutor(max_workers=max(1, min(a.workers, 8))) as pool:
-        futs = {pool.submit(resolve, t, {}): t for t in todo}
+        futs = {pool.submit(resolve, t, listing_cache): t for t in todo}
         for f in as_completed(futs):
             t = futs[f]
             r = f.result()
