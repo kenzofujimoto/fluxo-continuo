@@ -39,19 +39,19 @@
       "name": "Teoría del Derecho",
       "faculty": "Facultad de Derecho",
       "department": "Historia del Derecho y Filosofía Jurídica, Moral y Política (área de Filosofía del Derecho)",
-      "programme": "Doble Titulación de Grado en Derecho y en Ciencia Política y Administración Pública",
+      "programme": "Grado en Derecho, Plan 223",
       "level": "Grado (1º ciclo)",
       "yearOfStudy": 1,
       "semester": 1,
       "period": "Primer Semestre (campo 'Periodicidad')",
       "academicYear": "2026/2027",
       "language": "Espanhol",
-      "courseStatus": "Não informado (campo 'Carácter' vazio na página)",
+      "courseStatus": "Básica (campo Carácter da guia canônica)",
       "assessment": "Exame escrito 80% (perguntas curtas e uma de desenvolvimento) + práticas 20%; é preciso aprovar a parte teórica; nota final é a média das partes de cada professor",
       "prerequisites": "Nenhuma recomendação prévia informada",
-      "source": "https://guias.usal.es/node/235560?plan=149789",
+      "source": "https://guias.usal.es/node/235560",
       "catalogue": "https://www.usal.es/grados",
-      "sha256": "f2c34b1df47ee0b5ff8839e406a35ff127055fe186c7ee3c0d9c509ec27968f4",
+      "sha256": "c5b8f0a0f604d6795d2b418ca9063fcfed2e62a49b83c97e33394f58dda376b0",
       "location": "Guía 2026/2027: secções 1 (datos), 3 (objetivos), 4 (competencias), 5 (contenidos L.1-L.12), 6-7 (metodologías), 8 (recursos), 9 (evaluación)",
       "hours": {
         "contactTotal": null,
@@ -107,9 +107,18 @@
     }
   ],
   "additionalForeignTopics": [
-    {"topic": "Relações entre Direito e economia; eficiência como valor jurídico", "location": "Contenidos L.4, L.6"},
-    {"topic": "Enunciados jurídicos: normas completas, incompletas e disposições não normativas; normas programáticas", "location": "Contenidos L.8"},
-    {"topic": "Coerência e completude do sistema: classificação de antinomias e tipologia de lacunas", "location": "Contenidos L.11-L.12"}
+    {
+      "topic": "Relações entre Direito e economia; eficiência como valor jurídico",
+      "location": "Contenidos L.4, L.6"
+    },
+    {
+      "topic": "Enunciados jurídicos: normas completas, incompletas e disposições não normativas; normas programáticas",
+      "location": "Contenidos L.8"
+    },
+    {
+      "topic": "Coerência e completude do sistema: classificação de antinomias e tipologia de lacunas",
+      "location": "Contenidos L.11-L.12"
+    }
   ],
   "competencies": {
     "brazil": "O ementário 2022 descreve conteúdos e opção teórica; não lista competências.",
@@ -118,7 +127,11 @@
       "Distinguir tipos de normas e suas relações no sistema",
       "Diferenciar o Direito de outros fenómenos sociais e reconhecer sua dimensão valorativa"
     ],
-    "convergences": ["Conceito e função do Direito", "Direito e moral", "Teoria do sistema jurídico (Kelsen, Hart)"],
+    "convergences": [
+      "Conceito e função do Direito",
+      "Direito e moral",
+      "Teoria do sistema jurídico (Kelsen, Hart)"
+    ],
     "differences": [
       "Salamanca não individualiza interpretação, decisão judicial nem a obra de Dworkin",
       "Salamanca acrescenta Direito e economia e teoria das antinomias e lacunas"
@@ -156,10 +169,30 @@
     "A turma do Grado en Derecho (código de catálogo CAT-USAL-207221) tem o mesmo programa que a da dupla titulação?"
   ],
   "alternatives": [
-    {"code": "CAT-USAL-207221", "name": "Teoría del Derecho (Grado en Derecho)", "relation": "Mesma matéria no plano simples de Direito; código interno de catálogo, programa não lido"},
-    {"code": "CAT-USAL-207765", "name": "Interpretación y Argumentación Jurídica", "relation": "4º curso; poderia suprir interpretação e decisão judicial; programa não lido"}
+    {
+      "code": "CAT-USAL-207221",
+      "name": "Teoría del Derecho (Grado en Derecho)",
+      "relation": "Mesma matéria no plano simples de Direito; código interno de catálogo, programa não lido"
+    },
+    {
+      "code": "CAT-USAL-207765",
+      "name": "Interpretación y Argumentación Jurídica",
+      "relation": "4º curso; poderia suprir interpretação e decisão judicial; programa não lido"
+    }
   ],
   "method": "Leitura integral do bloco do ementário Mackenzie 2022 e da guía docente USAL 2026/2027 com apoio de IA (Claude); cada tópico vinculado a lição do programa; coerência verificada por scripts/build_pareceres.py --check",
   "reviewedAt": "2026-10-16",
-  "secondReview": {"required": false, "reason": "Disciplina teórica com programa itemizado; incertezas registadas em limitations"}
+  "secondReview": {
+    "required": false,
+    "reason": "Disciplina teórica com programa itemizado; incertezas registadas em limitations"
+  },
+  "reviewHistory": [
+    {
+      "reviewedAt": "2026-10-16",
+      "reviewer": "Codex (AI-assisted documentary review)",
+      "changes": "Conferência integral das variantes com e sem ?plan=149789: conteúdos L.1–L.12, objetivos, metodologias e avaliação idênticos. Variante canônica indica Grado en Derecho, Plan 223, Básica; atualizados URL, hash e metadados sem alterar a conclusão parcial.",
+      "previousSource": "https://guias.usal.es/node/235560?plan=149789",
+      "previousSha256": "f2c34b1df47ee0b5ff8839e406a35ff127055fe186c7ee3c0d9c509ec27968f4"
+    }
+  ]
 }
