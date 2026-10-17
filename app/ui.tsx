@@ -46,7 +46,7 @@ export function Heading({
   title,
   children,
 }: {
-  eyebrow: string;
+  eyebrow: ReactNode;
   title: string;
   children?: ReactNode;
 }) {

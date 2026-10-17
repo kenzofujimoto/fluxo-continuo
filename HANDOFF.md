@@ -1,3 +1,11 @@
+# Globe visual refinement — 2026-10-16
+
+- Country cards and university detail now render local SVG country flags in the red/cream palette; all 21 country codes in the current data have assets. Original flag-icons 7.6.0 SVGs and MIT license are in `public/flags/`.
+- Global scrollbars match the local MackJr 6px dark styling, including horizontal destination strips. Firefox has a conditional thin fallback.
+- No new automated tests were added for this reversible visual adjustment. Existing TypeScript/Python tests, lint/types and production build were rerun; browser visual verification remains unavailable.
+- Preview remains http://127.0.0.1:3002, restarted after production rebuild. No push or deploy.
+
+---
 # Interactive globe checkpoint — 2026-10-16
 
 - Branch: `feature/interactive-globe`. Feature commit: `2680bb2`; failing tests: `a862010`; geodata: `d51b796`.

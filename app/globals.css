@@ -1732,3 +1732,56 @@
     font-size: 1.1rem;
   }
 }
+/* MackJr's native scrollbar treatment applies to pages and overflow strips. */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2a2a;
+}
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-corner {
+  background: #0a0a0a;
+}
+@supports not selector(::-webkit-scrollbar) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #1a1a1a #0a0a0a;
+  }
+}
+.country-flag {
+  width: 2rem;
+  height: 1.5rem;
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid #e6332240;
+}
+.country-flag-fallback {
+  display: inline-block;
+  min-width: 2rem;
+  font:
+    400 0.65rem "JetBrains Mono",
+    monospace;
+}
+.hero-destination-list {
+  padding-bottom: 1rem;
+  scrollbar-gutter: stable;
+}
+.page-heading .eyebrow .country-flag {
+  margin-right: 0.35rem;
+}

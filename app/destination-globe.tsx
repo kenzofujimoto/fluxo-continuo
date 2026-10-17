@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { Component, useState, type ReactNode } from "react";
 import type { Destination, Location } from "../lib/locations";
+import { CountryFlag } from "./country-flag";
 const Canvas = dynamic(() => import("./globe-canvas"), {
   ssr: false,
   loading: () => (
@@ -170,7 +171,7 @@ export function DestinationGlobe({
                 }}
               >
                 <span className="destination-mark" aria-hidden="true">
-                  {item.flag}
+                  <CountryFlag code={item.flag} />
                 </span>
                 <span>
                   <strong>{item.name}</strong>

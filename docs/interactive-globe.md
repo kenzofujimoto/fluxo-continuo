@@ -11,3 +11,5 @@ The globe accepts dragging and pin selection. It never auto-rotates; camera focu
 Manual checks: home/explorer at desktop and narrow viewport; drag and select a pin; select a list row with keyboard; toggle list then select a row; combine text, course and eligibility; zero matches; disable WebGL; reduced motion; follow coordinate source and university links. Browser automation was unavailable during initial implementation; visual acceptance remains a manual check.
 
 Map credits: world-atlas 2.0.2 (ISC license), https://github.com/topojson/world-atlas; Natural Earth, public domain, https://www.naturalearthdata.com/about/terms-of-use/. Geographic boundaries are illustrative and do not establish territorial claims.
+
+Country marks use local flag-icons 7.6.0 SVGs with an SVG duotone filter (MackJr red/cream), not ISO letters or emoji. The original geographic patterns are preserved; national colors are intentionally adapted. License/source: `public/flags/README.md` and `public/flags/LICENSE`. Page and overflow scrollbars follow the local MackJr CSS: 6px, track `#0a0a0a`, thumb `#1a1a1a`, hover `#2a2a2a`; Firefox uses its native thin fallback.

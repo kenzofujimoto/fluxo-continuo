@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CountryFlag } from "../../country-flag";
 import { notFound } from "next/navigation";
 import { getRepository } from "../../../lib/data";
 import {
@@ -41,7 +42,11 @@ export default async function UniversityDetail({
         ← Todas as universidades
       </Link>
       <Heading
-        eyebrow={`${university.flag} / ${university.country}`}
+        eyebrow={
+          <>
+            <CountryFlag code={university.flag} /> / {university.country}
+          </>
+        }
         title={university.name}
       >
         {university.availabilityNote}
