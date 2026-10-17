@@ -46,6 +46,16 @@ CONTENT_MARKERS = re.compile(
     r"resultados de aprendi[sz]a(?:je|gem))\b", re.I)
 
 
+# Official templates that always describe exactly one course (host, marker of the per-course header).
+INDIVIDUAL_TEMPLATES = [
+    ("guias.usal.es", r"1\.\s*Datos de la asignatura"),
+    ("catalogue.leeds.ac.uk", r"Module manager\s*:"),
+    ("asignaturas.uca.es", r"Asignatura:\s*\d{8}\s*\|"),
+    ("apps.uc.pt", r"\bUnidade Curricular\b"),
+    ("ects.nevsehir.edu.tr", r"\b(?:Course Code|Ders Kodu)\b"),
+]
+
+
 def fold(s: str) -> str:
     t = unicodedata.normalize("NFD", str(s or "").lower())
     t = "".join(c for c in t if unicodedata.category(c) != "Mn")
@@ -99,14 +109,19 @@ def verify_programme(text: str, title: str, code: str, other_titles: list[str], 
     others = {fold(o) for o in other_titles if fold(o) and fold(o) != t and len(fold(o)) >= 6}
     full = fold(text)
     found = sum(1 for o in others if o in full)
-    if found > 3:
+    # Known one-course-per-page templates cite other courses as prerequisites/recommendations;
+    # there the listing rule would reject genuine guides, so the template plus a title match decides.
+    template = next((host for host, rx in INDIVIDUAL_TEMPLATES
+                     if (source.hostname or "") == host and re.search(rx, text[:12000], re.I)), None)
+    if found > 3 and not (template and title_matches):
         return {"ok": False, "reason": f"página de listagem ({found} outras disciplinas citadas)"}
     # Accessibility navigation is not a curricular content section.
     content_text = re.sub(r"\b(?:ir|saltar)\s+para\s+(?:o\s+)?conte[uú]do\b|\bskip\s+to\s+(?:main\s+)?content\b", "", text, flags=re.I)
     m = CONTENT_MARKERS.search(content_text)
     if not m or len(text) < 800:
         return {"ok": False, "reason": "seção de conteúdos não encontrada"}
-    return {"ok": True, "identifiedBy": ident, "contentMarker": m.group(0)[:40], "otherTitlesFound": found}
+    return {"ok": True, "identifiedBy": ident, "contentMarker": m.group(0)[:40], "otherTitlesFound": found,
+            "individualTemplate": template}
 
 
 def find_course_link(html: str, base: str, title: str) -> str | None:
