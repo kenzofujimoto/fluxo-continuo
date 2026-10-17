@@ -177,7 +177,10 @@ def parse_mackenzie_blocks(text: str) -> list[dict]:
                 weekly = {"teorica": vals[0], "pratica": vals[1], "atelie": vals[2]}
         ext = _first(r"Percentual\s*\n\s*([0-9]{1,3}(?:,[0-9]{1,2})?)\s*\n?\s*%", seg)
         opt = re.search(r"Optativo\s*\n\s*(X?)\s*\n", seg)
-        ementa = _first(r"\bEmenta\s*\n(.*?)\n\s*Bibliografia", seg) or ""
+        ementa = _clean(_first(r"\bEmenta[^\S\n]*\n(.*?)(?=^[ \t]*Bibliografia\b)", seg, flags=re.I | re.S | re.M) or "")
+        anomalies = _mack_anomalies(hours, weekly)
+        if not ementa:
+            anomalies.append("Ementa vazia ou não localizada no bloco oficial; confirmar com a coordenação")
         out.append({
             "course": _clean(m.group(1)),
             "theme": _clean(m.group(2)),
@@ -189,7 +192,7 @@ def parse_mackenzie_blocks(text: str) -> list[dict]:
             "optional": bool(opt and opt.group(1) == "X"),
             "extensionPercent": _num(ext),
             "ementa": _clean(ementa),
-            "anomalies": _mack_anomalies(hours, weekly),
+            "anomalies": anomalies,
         })
     return out
 

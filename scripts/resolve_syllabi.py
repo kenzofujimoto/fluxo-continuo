@@ -59,6 +59,10 @@ def academic_year(text: str) -> str | None:
 
 
 def verify_programme(text: str, title: str, code: str, other_titles: list[str]) -> dict:
+    # Explicit academic metadata overrides a coincidentally matching course title.
+    declared_code = re.search(r"\bC[oó]digo(?:\s+(?:de la asignatura|da disciplina))?\s*:?\s*(\d{4,})\b", text[:6000], re.I)
+    if str(code).isdigit() and declared_code and declared_code.group(1) != str(code):
+        return {"ok": False, "reason": "código acadêmico declarado difere da disciplina solicitada"}
     head = fold(text[:6000])
     t = fold(title)
     ident = []
