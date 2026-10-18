@@ -1,0 +1,158 @@
+{
+  "id": "adm|Marketing I|es-cadiz|21506032",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21506032",
+      "name": "Dirección de Marketing",
+      "pageCode": "21506032",
+      "faculty": "Facultad de Ciencias Económicas y Empresariales (departamento Marketing y Comunicación)",
+      "programme": "Grado en Administración y Dirección de Empresas (1506); módulo VIII Dirección e investigación comercial, materia VIII.1 Dirección del marketing",
+      "level": "Grado",
+      "yearOfStudy": 2,
+      "semester": "Primer semestre",
+      "period": "Primer semestre, 2º curso",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (castellano)",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame final 50%, participação e assistência 15%, trabalho em grupo 15%, trabalho individual 10%, prova escrita intermediária 10%",
+      "prerequisites": "Campo de requisitos prévios sem texto na página",
+      "source": "https://asignaturas.uca.es/2026-27/21506032",
+      "catalogue": "https://asignaturas2.uca.es/wuca_asignaturasttg1617_asignatura7748.html?asign=21506032&dpto=C148&titul=21506",
+      "sha256": "fc28e2393809173116a3b80ab89d07bd05894bf18d1f0eba4303d5c2bc279045",
+      "location": "Programa docente 2026-27: identificação, Resultados de aprendizagem (1-10), Actividades y metodologías docentes, Sistema de evaluación, Temario (temas 1-9)",
+      "hours": {
+        "contactTotal": 48,
+        "contactLecture": 32,
+        "contactSeminarLab": 16,
+        "selfStudy": 64,
+        "totalWorkload": 150,
+        "ects": 6.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Página declara 48 h de docência presencial (teoria 32 + práticas, seminários e problemas 16), 102 h de outras atividades (64 não presenciais, 6 de tutorias, 2 de avaliação, 30 de seminários e trabalhos) e 150 h totais. A duração da hora não é declarada. Os 6 ECTS não foram convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 1 'La dirección de marketing'; resultado 4 'Importancia de otorgar valor al cliente'",
+      "foreignLocation": "Temario, tema 1; Resultados de aprendizagem, 4",
+      "note": "A ementa brasileira cita valor para cliente e empresa; o resultado 4 trata do valor ao cliente."
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado 6 'fuentes y proceso de captación de información para la identificación de las oportunidades de mercado'; tema 4 'Competencia y estrategias competitivas'; competência: avaliar o mercado e o entorno no sistema de informação de marketing",
+      "foreignLocation": "Resultados de aprendizagem 5-6; Temario, tema 4; Competências específicas",
+      "note": "O entorno aparece em competências e na análise da concorrência; não há tema nomeado de ambiente de marketing."
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizagem 1-10, competências, metodologias, avaliação e Temario (temas 1-9) do programa docente 2026-27",
+      "note": "O resultado 4 trata de entregar valor ao cliente, mas nenhum tema ou resultado trata de comportamento de compra do consumidor."
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizagem 1-10, competências, metodologias, avaliação e Temario (temas 1-9) do programa docente 2026-27",
+      "note": "Lido, como pede a ementa de Marketing I, como comportamento do comprador organizacional; não há mercado organizacional nem B2B no temário."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 3 'Mercado, segmentación y posicionamiento'",
+      "foreignLocation": "Temario, tema 3",
+      "note": "Título do tema coincide com o enunciado brasileiro."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Planejamento estratégico do marketing e plano de marketing", "location": "Temario, tema 2; resultados 1-2"},
+    {"topic": "Competição e estratégias competitivas", "location": "Temario, tema 4"},
+    {"topic": "Desenvolvimento de novos produtos", "location": "Temario, tema 5"},
+    {"topic": "Decisões estratégicas de preço, distribuição e comunicação do valor", "location": "Temario, temas 6-8"},
+    {"topic": "Marketing internacional e crescimento rentável a longo prazo", "location": "Temario, tema 9"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: marketing como geração de valor, satisfação, fidelidade, comportamento do consumidor e do comprador organizacional, marketing estratégico com segmentação e posicionamento.",
+    "foreign": ["Conhecer o planejamento estratégico de produtos e elaborar um plano de marketing", "Entender a entrega de valor ao cliente", "Desenhar estratégias de preço, distribuição e comunicação", "Avaliar o mercado e o entorno com o sistema de informação de marketing"],
+    "convergences": ["Papel do marketing e valor ao cliente", "Segmentação e posicionamento", "Ambiente e informação de mercado (parcial)"],
+    "differences": ["A UCA é de direção de marketing e estratégia, com plano de marketing e composto completo; o comportamento do consumidor e do comprador organizacional não é tema", "Mackenzie Marketing I é introdutória e inclui comportamento de compra"]
+  },
+  "depth": {
+    "level": "Graduação; UCA em 2º curso de ADE (obrigatória), Mackenzie na 1ª etapa",
+    "brazil": "Marketing I de 63,3 h, cinco enunciados introdutórios",
+    "foreign": "Dirección de Marketing de 6 ECTS com 48 h presenciais e nove temas, orientada à estratégia e ao plano de marketing",
+    "theoryPractice": "32 h de teoria e 16 de práticas com estudo de casos, aprendizagem por problemas e aula invertida"
+  },
+  "practical": {
+    "period": "Primeiro semestre do 2º curso; compatibilidade com 2027.2 não confirmada",
+    "language": "Espanhol (castellano); campos de oferta em língua estrangeira sem opção marcada",
+    "enrolment": "Oferta 2026-27 'SIM', vigente, 385 matriculados; campos de mobilidade internacional e plazas sem valores preenchidos",
+    "prerequisites": "Campo sem texto na página",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dirección de Marketing cobre o significado de marketing e a segmentação e o posicionamento com temas nomeados e toca o ambiente por resultados de aprendizagem, mas não trata do comportamento do consumidor nem do comprador organizacional, que ocupam dois dos cinco enunciados de Marketing I.",
+  "justification": "Dois enunciados estão cobertos (tema 1 e tema 3), um é parcial (ambiente de marketing, só em resultados e competências e no tema 4 de concorrência) e dois ficam ausentes (comportamento do consumidor e do comprador organizacional). A cobertura total ou parcial de 3 em 5 sustenta a afinidade parcial, e a UCA é uma disciplina de dirección de marketing de nível mais avançado, com plano de marketing e estratégia competitiva que a ficha brasileira não pede. As 48 horas presenciais dão razão de 0,76 sobre 63,3 h, mas 0,63 se a hora for de 50 min, e a ficha brasileira não tem vigência confirmada. A mesma disciplina também foi comparada com Marketing II, e os 48 h não sustentam o uso nas duas.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026-27 completo, com temário e horas presenciais explícitas; limitado pela vigência não confirmada da ficha brasileira e pela leitura do item 'Comportamento Organizacional'.",
+  "limitations": [
+    "Duração da hora presencial não declarada; razão 0,76, ou 0,63 com hora de 50 min; 6 ECTS não são convertidos",
+    "A mesma 21506032 é candidata para Marketing I e Marketing II (126,6 h somadas, contra 48 h)",
+    "O item 'Comportamento Organizacional' foi lido como comportamento do comprador organizacional, conforme a ementa de Marketing I",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "O catálogo do projeto cita o guia histórico 2016/17; este parecer usa o programa 2026-27",
+    "Oferta 2027/28 não confirmada; campos de mobilidade internacional sem valores; disciplina do 1º semestre",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UCA tem disciplina de comportamento do consumidor ou investigação de mercados em outro curso do grado em ADE?",
+    "A coordenação aceitaria a UCA 21506032 para apenas uma das duas disciplinas de marketing?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do programa docente 2026-27 da UCA (resultados, metodologia, avaliação, temário) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado procurado no temário e nos resultados; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"}
+}

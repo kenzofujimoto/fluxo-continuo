@@ -1,0 +1,152 @@
+{
+  "id": "cc|ENUN51119|es-salamanca|CAT-USAL-207730",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN51119",
+    "name": "Introdução à Cosmovisão Reformada",
+    "courseName": "Ciência da Computação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário FCI 2025 — Componentes Universais (COMPONENTES_UNIVERSAIS.pdf), câmpus Alphaville",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "PDF p. 2, bloco 'INTRODUÇÃO À COSMOVISÃO REFORMADA': carga horária e ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": true,
+    "currencyNote": "Ementário público FCI 2025, câmpus Alphaville",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário declara 31,67 h e 2 h-a teóricas semanais. Componente institucional da UPM, compartilhado entre cursos."
+    },
+    "topics": [
+      "Estudo da relevância e contribuições da Tradição Reformada ou Calvinista, sobretudo em sua ética e espiritualidade, para a construção histórica da sociedade ocidental moderna em geral, e brasileira em particular, expressos em seus aspectos culturais, econômicos, sociais, políticos e educacionais",
+      "Análise dos princípios confessionais da UPM, tanto em sua constituição como em seu percurso histórico"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "code": "CAT-USAL-207730",
+      "university": "Universidad de Salamanca",
+      "name": "Derecho matrimonial de las confesiones religiosas y su reconocimiento civil",
+      "pageCode": "102340",
+      "faculty": "Facultad de Derecho",
+      "department": "Derecho Privado (área Derecho Eclesiástico del Estado)",
+      "programme": "Grado en Derecho (plan 223)",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 4,
+      "semester": 1,
+      "period": "Primer semestre (curso 2025/2026)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Optativa",
+      "assessment": "Exame final escrito como instrumento principal; casos práticos e participação podem somar até 1 ponto",
+      "prerequisites": "Seção 2 'Recomendaciones previas' sem conteúdo (-)",
+      "catalogue": "https://www.usal.es/grados",
+      "location": "Guia acadêmico 2025/2026: seções 1 (dados), 3 (objetivos), 5 (contenidos 1-5), 6 (metodologias), 7 (vazia), 8 (recursos), 9 (avaliação)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A seção 7 'Distribución de las Metodologías Docentes' está vazia na cópia oficial; sem horas de contato. O código impresso na página é 102340; o catálogo do projeto registra o nó 207730 da guia."
+      },
+      "source": "https://guias.usal.es/node/207730",
+      "sha256": "d05c28328011e7df9e20f0b9ff01f6db4e1cf0024fe0d836befb37ab5e7dd022"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da relevância e contribuições da Tradição Reformada ou Calvinista, sobretudo em sua ética e espiritualidade, para a construção histórica da sociedade ocidental moderna em geral, e brasileira em particular, expressos em seus aspectos culturais, econômicos, sociais, políticos e educacionais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (contenidos 1-5), 6 e 8 (bibliografia) da guia 2025/2026",
+      "note": "O programa trata do casamento canônico, evangélico, hebreu e islâmico e do reconhecimento civil na Espanha. A tradição reformada/calvinista e sua influência sobre a sociedade ocidental e brasileira não são objeto; o 'matrimonio evangélico' (conteúdo 2) é um regime jurídico de celebração e dissolução, não história de uma ética ou espiritualidade."
+    },
+    {
+      "brTopic": "Análise dos princípios confessionais da UPM, tanto em sua constituição como em seu percurso histórico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (contenidos 1-5), 6 e 8 (bibliografia) da guia 2025/2026",
+      "note": "Princípios confessionais da UPM são específicos da própria instituição; nenhum documento de outra universidade pública espanhola os trata."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Matrimônio canônico: impedimentos, vícios do consentimento, forma, nulidade, dissolução e procedimentos",
+      "location": "Contenidos, 1"
+    },
+    {
+      "topic": "Matrimônio evangélico: capacidade, forma de celebração e dissolução",
+      "location": "Contenidos, 2"
+    },
+    {
+      "topic": "Matrimônio no direito hebreu e no direito islâmico",
+      "location": "Contenidos, 3-4"
+    },
+    {
+      "topic": "Reconhecimento de eficácia civil dos matrimônios religiosos no direito espanhol",
+      "location": "Contenidos, 5"
+    }
+  ],
+  "competencies": {
+    "brazil": "A ementa pede relevância da tradição reformada na formação da sociedade moderna e análise dos princípios confessionais da UPM; o ementário não lista competências.",
+    "foreign": [
+      "Conhecer os sistemas jurídicos dos matrimônios religiosos com eficácia civil na Espanha",
+      "Analisar textos jurídicos e jurisprudência desses matrimônios",
+      "Elaborar e defender soluções jurídicas para casos concretos"
+    ],
+    "convergences": [],
+    "differences": [
+      "A disciplina de Salamanca é de direito eclesiástico do Estado (direito matrimonial); a brasileira é histórico-cultural e institucional, ligada à identidade confessional do Mackenzie"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca: optativa do 4º ano do Grado en Derecho; Mackenzie: componente institucional da 2ª etapa de Ciência da Computação",
+    "brazil": "Componente de 31,67 h com duas frases de ementa",
+    "foreign": "Optativa jurídica de 6 ECTS com cinco blocos de direito matrimonial",
+    "theoryPractice": "Aulas magistrais e casos práticos; distribuição de horas não impressa"
+  },
+  "practical": {
+    "period": "Primeiro semestre do ano letivo espanhol; oferta 2027/28 não confirmada",
+    "language": "Espanhol",
+    "enrolment": "Disciplina de direito para curso de graduação em Derecho; aceitação de estudante de Computação não verificada",
+    "prerequisites": "Nenhum informado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A guia de Salamanca confere com o título do catálogo, mas descreve direito matrimonial das confissões religiosas, matéria sem relação com a história da tradição reformada nem com os princípios confessionais da UPM; nenhum dos dois enunciados da ementa tem correspondência.",
+  "justification": "O programa de cinco blocos (canônico, evangélico, hebreu, islâmico e reconhecimento civil na Espanha) é jurídico e centrado em nulidade, forma e dissolução do casamento. O único contato temático é o matrimônio evangélico, um regime de celebração e não a tradição calvinista, de modo que os dois tópicos essenciais ficam sem cobertura. Os princípios confessionais da UPM são identidade institucional, que não se obtém em universidade estrangeira. A carga não é comparável (6 ECTS sem horas de contato contra 31,67 h) e a matéria pertence a outra área, o que também a torna inadequada como substituta de componente de Ciência da Computação.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia completa e título conferido com o catálogo, o que torna clara a ausência de correspondência; reduzem a confiança a seção de horas vazia e o ementário brasileiro mínimo.",
+  "limitations": [
+    "Carga horária estrangeira não declarada (seção 7 vazia); 6 ECTS não convertidos",
+    "Documento estrangeiro do curso 2025/2026; oferta 2027/28 não confirmada",
+    "Página traz código 102340, diferente do nó 207730 registrado no catálogo do projeto; título coincide",
+    "Componente brasileiro é institucional (UPM) e a ementa tem apenas duas frases",
+    "Parecer preliminar independente; decisão compete à coordenação de Ciência da Computação e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação trata a Cosmovisão Reformada como componente exclusivamente institucional, não aproveitável por estudos no exterior?",
+    "A origem desta candidata no catálogo (correspondência semântica por 'cosmovisão') deve ser retirada?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário FCI (Componentes Universais) e da guia acadêmica USAL 2025/2026 com apoio de IA (Claude); título da página conferido com o catálogo; cada enunciado buscado em objetivos e contenidos; coerência verificada por scripts/build_pareceres.py --check",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência de correspondência evidente em guia completa"
+  }
+}

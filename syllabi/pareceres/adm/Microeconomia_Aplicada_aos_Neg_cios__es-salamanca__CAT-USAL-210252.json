@@ -1,0 +1,164 @@
+{
+  "id": "adm|Microeconomia Aplicada aos Negócios|es-salamanca|CAT-USAL-210252",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Microeconomia Aplicada aos Negócios",
+    "name": "Microeconomia Aplicada aos Negócios",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 5, bloco 'Microeconomia Aplicada aos Negócios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e ferramentas básicas",
+      "Demanda x oferta",
+      "Elasticidades",
+      "Intervenção do governo no mercado",
+      "Teoria da firma: Produção e Custos",
+      "Organização da indústria"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210252",
+      "name": "Microeconomía II",
+      "pageCode": "103832",
+      "faculty": "Facultad de Economía y Empresa; Departamento de Economía e Historia Económica; área Fundamentos del Análisis Económico",
+      "programme": "Grado en Administración y Dirección de Empresas",
+      "level": "Grado",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "Segundo semestre (periodicidade declarada na seção 1)",
+      "academicYear": "2025/2026",
+      "language": "Español",
+      "courseStatus": "Obligatoria",
+      "assessment": "Evaluación continua (provas escritas) 40% e examen final 60%",
+      "prerequisites": "Sem requisitos formais; recomendadas Introducción a la Economía, Análisis Matemático e Microeconomía I",
+      "source": "https://guias.usal.es/node/210252",
+      "catalogue": "https://guias.usal.es/node/210252",
+      "sha256": "b2bcb050f6c84498bdd13fb28d0a3ff0823907d3a6435526b50180f8d805ac4d",
+      "location": "Guía 'Curso 2025/2026': 1 Datos, 2 Recomendaciones, 3 Objetivos, 4 Competencias, 5 Contenidos, 6-7 Metodologías, 8 Recursos, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 3.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Declara 3,00 ECTS. A seção 7 'Distribución de las Metodologías Docentes' não traz tabela de horas no texto extraído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e ferramentas básicas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos), Metodologías, Recursos e Evaluación do guia 2025/26 foram lidos; agentes econômicos, trade-off e custo de oportunidade não aparecem e o curso exige Introducción a la Economía e Microeconomía I.",
+      "note": "Os fundamentos são pré-requisito do curso espanhol, não conteúdo dele."
+    },
+    {
+      "brTopic": "Demanda x oferta",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Competência: 'Comprender determinadas interacciones estratégicas (mercado, oferta, demanda, equilibrio)'; conteúdo 'Mercados competitivos'",
+      "foreignLocation": "Competencias, segundo item; Contenidos, primeiro bloco",
+      "note": "Tratada em nível intermediário, como base do equilíbrio de mercado e da eficiência."
+    },
+    {
+      "brTopic": "Elasticidades",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Os cinco blocos de Contenidos, as competências e os resultados de aprendizagem foram lidos; elasticidade não é citada, embora provavelmente seja usada no poder de mercado e nas políticas de preços.",
+      "note": "A bibliografia (Pindyck, Varian, Goolsbee) inclui o conceito, mas o guia não o enuncia."
+    },
+    {
+      "brTopic": "Intervenção do governo no mercado",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Competência: 'Evaluar... las consecuencias de determinadas políticas de controles de precios, impuestos, subvenciones'; regulação em situações não competitivas",
+      "foreignLocation": "Competencias específicas, quinto e sexto itens"
+    },
+    {
+      "brTopic": "Teoria da firma: Produção e Custos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Contenidos (Mercados competitivos, monopólio e monopsônio, poder de mercado, teoria de jogos, oligopólio) e competências foram lidos; produção e custos não são tema e vêm de Microeconomía I.",
+      "note": "O guia assume a teoria da firma como conhecida e a usa para mercados."
+    },
+    {
+      "brTopic": "Organização da indústria",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Monopolio, monopsonio y competencia monopolística. Poder de mercado y estrategias de precios'; 'Oligopolio'; 'Introducción a la teoría de juegos'",
+      "foreignLocation": "Contenidos, blocos 2 a 5",
+      "note": "Cobertura mais profunda que a ficha, com comportamento estratégico e teoria de jogos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Interação estratégica e introdução à teoria de jogos", "location": "Contenidos, quarto bloco"},
+    {"topic": "Eficiência, ótimo social e critério de Pareto", "location": "Competencias, quarto e quinto itens"},
+    {"topic": "Monopsônio e concorrência monopolística", "location": "Contenidos, segundo bloco"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: agentes e sistemas econômicos, oferta, demanda e equilíbrio, atuação do governo, elasticidade, estruturas de mercado, trade-off e custo de oportunidade.",
+    "foreign": ["Identificar tipos de mercado", "Aplicar análise de equilíbrio às interações entre agentes", "Avaliar consequências de controles de preços, impostos e subsídios", "Analisar eficiência e regulação"],
+    "convergences": ["Oferta, demanda e equilíbrio", "Intervenção do governo no mercado", "Estruturas de mercado e concorrência imperfeita"],
+    "differences": ["Salamanca é a segunda microeconomia e assume fundamentos, elasticidade e teoria da firma", "Salamanca acrescenta teoria de jogos e oligopólio estratégico", "Mackenzie é introdutória e tem 63,3 h; Salamanca tem 3 ECTS"]
+  },
+  "depth": {
+    "level": "Ambas de graduação em Administração; Salamanca no 3º ano (segunda microeconomia), Mackenzie na 2ª etapa (introdutória)",
+    "brazil": "Microeconomia introdutória aplicada, 63,3 h-relógio",
+    "foreign": "Mercados e comportamento estratégico, 3 ECTS, nível intermediário",
+    "theoryPractice": "Aulas teóricas e práticas, tutorias; avaliação contínua escrita de 40% e exame de 60%"
+  },
+  "practical": {
+    "period": "Segundo semestre; oferta 2027/28 não confirmada",
+    "language": "Español",
+    "enrolment": "O guia não informa vagas nem acesso para intercambistas; pressupõe Microeconomía I",
+    "prerequisites": "Introducción a la Economía, Análisis Matemático e Microeconomía I recomendadas",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Microeconomía II cobre oferta e demanda, intervenção do governo e organização da indústria da ficha Mackenzie, mas supõe e portanto não ensina conceitos básicos, elasticidade e teoria da firma.",
+  "justification": "Metade dos seis itens está coberta (demanda e oferta via equilíbrio de mercado, intervenção do governo via controle de preços, impostos e subsídios, e organização da indústria via monopólio, oligopólio e teoria de jogos), e metade está ausente (conceitos básicos, elasticidades e produção e custos), pois pertencem a Microeconomía I, pré-requisito recomendado. Como não há parciais, a cobertura útil é de 50% e a classe é afinidade parcial. A disciplina espanhola é de 3 ECTS, a segunda de uma sequência, enquanto a ficha brasileira é introdutória com 63,3 h; as horas não são comparáveis, pois a seção 7 não traz tabela. A lacuna em elasticidade e custos seria mitigada se Microeconomía I fosse cursada junto, o que este parecer não avaliou.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia curto, mas com competências e blocos nominais; sem horas presenciais, de 2025/26 e com ficha brasileira de vigência não confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; o guia lido é 'Curso 2025/2026'",
+    "Horas de contacto ausentes; 3 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Disciplina de continuação: fundamentos, elasticidade e custos estão em Microeconomía I, não lida neste parecer",
+    "Contenidos listados como cinco blocos sem detalhamento",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Microeconomía I (Salamanca) cobre elasticidade, produção e custos e poderia ser somada a esta?",
+    "O guia detalha elasticidade no bloco de poder de mercado e estratégias de preços?"
+  ],
+  "alternatives": [
+    {"code": "CAT-USAL-209916", "name": "Microeconomía I", "relation": "Pré-requisito recomendado e provável sede de elasticidade, produção e custos; já analisada em parecer separado para esta disciplina brasileira; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e do guia docente de Salamanca (seções 1 a 9) com apoio de IA (Claude); cada item vinculado a bloco ou competência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência nominal; lacunas explicadas pelo pré-requisito"}
+}

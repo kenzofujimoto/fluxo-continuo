@@ -1,0 +1,218 @@
+{
+  "id": "adm|Sistemas de Informação Aplicados à Gestão|tu-67-nevsehirhacbek|BUS230",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sistemas de Informação Aplicados à Gestão",
+    "name": "Sistemas de Informação Aplicados à Gestão",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 12, bloco 'Sistemas de Informação Aplicados à Gestão': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "current": false,
+    "currencyNote": "Ficha CCSA sem ano de vigência impresso; cabeçalho do campus São Paulo (Consolação); arquivo publicado em 29/07/2021 (Last-Modified). Vigência para a matriz atual de Alphaville não confirmada.",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Alinhamento estratégico de TI",
+      "Governança de TI",
+      "Convergência Tecnológica",
+      "Internet das coisas",
+      "Block Chain",
+      "Cripton Moeda",
+      "Big Data",
+      "Computação nas nuvens",
+      "Inteligência Artificial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "tu-67-nevsehirhacbek",
+      "code": "BUS230",
+      "university": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+      "name": "Management Information Systems",
+      "pageCode": "BUS230",
+      "faculty": "Faculty of Economics and Administrative Sciences",
+      "department": "Business Administration",
+      "programme": "Business Administration (1st Cycle Degree Programme)",
+      "level": "1º ciclo (graduação)",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "2º ano / Spring Semester; 14 semanas de ensino; primavera no país anfitrião, sem coincidência com o outono de 2027.2",
+      "academicYear": "Não impresso na página (pacote ECTS consultado em 2026)",
+      "language": "Inglês (Language of Instruction: English)",
+      "courseStatus": "Optional",
+      "assessment": "Prova intermediária (semana 8) 40%; prova final 60%",
+      "prerequisites": "None",
+      "catalogue": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/bolum/180002/sayfa/1",
+      "location": "Página ECTS da disciplina: cabeçalho (código, T+P, ECTS), Objectives, Learning Outcomes LO-1 a LO-3, Course Contents, Weekly Course Content (semanas 1-16), Assessment Methods, Student Work Load",
+      "hours": {
+        "weekly": {
+          "total": 3,
+          "course": 3
+        },
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": 105,
+        "ects": 4,
+        "basis": "semana",
+        "hourLengthMinutes": null,
+        "note": "Teórica+Prática 3+0 por semana, 14 semanas. A tabela de carga de trabalho do estudante lista 4 h semanais x 14 = 56 h em sala e soma 105 h no total; não é rotulada como horas de contato e não foi convertida."
+      },
+      "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/42322",
+      "sha256": "d03b9a2ccddd386d1b03db410aa05d3cf4ec48a3967082564ca9a2729fbe9cef"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Alinhamento estratégico de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectives, LO-1 a LO-3, Course Contents e semanas 1-15 do Weekly Course Content",
+      "note": "Semanas 1-3 tratam de planejamento e controle gerencial, decisão e necessidade de sistemas de informação nos negócios, sem mencionar alinhamento estratégico de TI."
+    },
+    {
+      "brTopic": "Governança de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectives, LO-1 a LO-3, Course Contents e semanas 1-15 do Weekly Course Content",
+      "note": "Nenhuma unidade de governança, políticas ou gestão de serviços de TI."
+    },
+    {
+      "brTopic": "Convergência Tecnológica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Semanas 1-15 do Weekly Course Content e Course Contents",
+      "note": "A semana 4 'Information technologies and computer networks' é infraestrutura básica, não convergência tecnológica."
+    },
+    {
+      "brTopic": "Internet das coisas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Semanas 1-15 do Weekly Course Content e Course Contents",
+      "note": "Internet das coisas não aparece."
+    },
+    {
+      "brTopic": "Block Chain",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Semanas 1-15 do Weekly Course Content e Course Contents",
+      "note": "Blockchain não aparece."
+    },
+    {
+      "brTopic": "Cripton Moeda",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Semanas 1-15 do Weekly Course Content e Course Contents",
+      "note": "Criptomoedas não aparecem."
+    },
+    {
+      "brTopic": "Big Data",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Course Contents 'working with huge data'; semana 13 'Data warehouse and data mining'; semana 14 'Data mining and Case studies'",
+      "foreignLocation": "Course Contents; Weekly Course Content, semanas 13-14",
+      "note": "Data warehouse e mineração de dados são a parte analítica de dados; 'Big Data' como tema não é nomeado."
+    },
+    {
+      "brTopic": "Computação nas nuvens",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Semanas 1-15 do Weekly Course Content e Course Contents",
+      "note": "Computação em nuvem não aparece; a semana 4 trata de redes de computadores."
+    },
+    {
+      "brTopic": "Inteligência Artificial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Semanas 1-15 do Weekly Course Content e Course Contents",
+      "note": "Inteligência artificial não aparece; mineração de dados (semanas 13-14) não é equivalente."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Fundamentos de sistemas de informação: dados, informação, conhecimento, estrutura e classificação dos SI",
+      "location": "Semanas 2, 3, 6, 7"
+    },
+    {
+      "topic": "Sistemas de apoio à operação e à gestão; SIG por área funcional (marketing, produção, finanças, contabilidade, P&D, RH)",
+      "location": "Semanas 5 e 9"
+    },
+    {
+      "topic": "ERP, bancos de dados, modelo entidade-relacionamento e normalização",
+      "location": "Semanas 10-12"
+    },
+    {
+      "topic": "Estudos de caso",
+      "location": "Semanas 14-15"
+    }
+  ],
+  "competencies": {
+    "brazil": "A ementa trata da aplicabilidade dos sistemas de informação ao apoio à decisão empresarial e de novas ferramentas e tecnologias que transformam os negócios.",
+    "foreign": [
+      "Entender a organização do negócio e a necessidade de sistemas de informação (LO-1)",
+      "Trabalhar com múltiplos sistemas de TI de negócio (LO-2)",
+      "Conhecer o SIG e seus módulos fundamentais (LO-3)"
+    ],
+    "convergences": [
+      "Apoio à tomada de decisão empresarial com sistemas de informação",
+      "Análise de grandes volumes de dados (data warehouse e mineração)"
+    ],
+    "differences": [
+      "Mackenzie lista tecnologias emergentes (IoT, blockchain, criptomoedas, nuvem, IA) e governança de TI; Nevşehir ensina fundamentos de SIG, ERP e modelagem de banco de dados",
+      "A disciplina turca é fundamental e introdutória, a brasileira é de tendências e governança"
+    ]
+  },
+  "depth": {
+    "level": "Nevşehir no 2º ano (optativa); Mackenzie na 6ª etapa (obrigatória)",
+    "brazil": "Componente obrigatório curto, de 31,7 h declaradas, voltado a tendências tecnológicas e governança",
+    "foreign": "Optativa de 3 h semanais em 14 semanas, com ênfase em fundamentos de SIG, ERP e bancos de dados",
+    "theoryPractice": "Teórica+Prática 3+0, aulas expositivas com discussão; sem laboratório declarado"
+  },
+  "practical": {
+    "period": "Semestre de primavera (Spring) no país anfitrião; não coincide com o 2027.2 de outono",
+    "language": "Inglês",
+    "enrolment": "Disciplina optativa de 2º ano; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum (None)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Management Information Systems é um curso introdutório de fundamentos de SIG, ERP e bancos de dados, enquanto a ficha Mackenzie trata de governança de TI e tecnologias emergentes: só a análise de grandes volumes de dados se aproxima, de modo parcial.",
+  "justification": "Dos nove tópicos da ficha brasileira, oito não têm correspondência no programa de 16 semanas (alinhamento de TI, governança, convergência, IoT, blockchain, criptomoedas, nuvem, IA) e um, Big Data, é parcial por meio de data warehouse e mineração de dados (semanas 13-14). A sobreposição restringe-se ao apoio à decisão (semanas 1 e 5), tema da ementa e não dos tópicos. A disciplina é optativa de 2º ano no semestre de primavera, o que a afasta do outono de 2027.2, e a carga (3 h semanais, 105 h de trabalho do estudante, 4 ECTS) não é comparável às 31,7 h da ficha brasileira.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa semanal completo e inequívoco quanto ao que falta; reduzem a confiança a ficha brasileira sem vigência confirmada e a ausência de horas de contato semestrais.",
+  "limitations": [
+    "Carga horária não comparável: 3 h semanais e 105 h de trabalho do estudante; 4 ECTS não convertidos",
+    "Disciplina de primavera no país anfitrião; oferta em 2027.2 (outono) não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo; vigência para Alphaville não confirmada",
+    "Página sem ano acadêmico impresso; inconsistência interna: cabeçalho informa 3+0 h semanais e a tabela de carga de trabalho lista 4 h semanais em sala",
+    "Bibliografia (Laudon, 2012; Lucey, 2005) não comprova conteúdo além do programa semanal",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria a disciplina como optativa ou atividade complementar em vez de equivalência do componente obrigatório?",
+    "Nevşehir tem outra disciplina de TI com tendências emergentes e governança que não foi lida neste parecer?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie (bloco da 6ª etapa) e da página ECTS oficial da disciplina com apoio de IA (Claude); cada tópico buscado no programa semanal e nos resultados de aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência de tópicos documentada em programa semanal completo"
+  }
+}

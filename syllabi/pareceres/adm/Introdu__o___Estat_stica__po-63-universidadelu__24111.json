@@ -1,0 +1,171 @@
+{
+  "id": "adm|Introdução à Estatística|po-63-universidadelu|24111",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Introdução à Estatística",
+    "name": "Introdução à Estatística",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 4, bloco 'Introdução à Estatística': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Dados e Estatística",
+      "Estatística Descritiva: métodos tabulares e gráficos",
+      "Medidas numéricas em estatística Descritiva",
+      "Introdução à probabilidade",
+      "Distribuições (discreta e contínua) de probabilidade",
+      "Amostragem",
+      "Estimação por intervalo"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24111",
+      "name": "Estatística",
+      "pageCode": "24111",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa); área científica Estatística",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha não foi extraído; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "2º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Dois testes intercalares de 50% cada, com presença mínima de 70% e média mínima de 10 valores",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24111_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "a4c0eace80ed9b44aeba2cffafa54e038f0886f0f675d8a7c086b7a2669570a1",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 14/10/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (capítulos 1-6), 19 (avaliação), 20 (recursos), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito, e nenhum valor foi atribuído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Dados e Estatística",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'a importância da Estatística enquanto ciência que permite confrontar os dados de uma amostra com a teoria'; 'ligação entre amostra e população'",
+      "foreignLocation": "Itens 14-15",
+      "note": "Apresentação do papel da estatística como objetivo; o programa não tem capítulo introdutório de dados, escalas e variáveis."
+    },
+    {
+      "brTopic": "Estatística Descritiva: métodos tabulares e gráficos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência: 'Utilizar software estatístico (R, SPSS) para análise e representação de dados'",
+      "foreignLocation": "Item 16; item 20",
+      "note": "A representação de dados com software aparece como competência; o programa começa em probabilidades e não tem tabelas de frequência nem gráficos."
+    },
+    {
+      "brTopic": "Medidas numéricas em estatística Descritiva",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Item 18 (capítulos 1-6), objetivos e competências; '2.4 Parâmetros' refere-se a parâmetros de variáveis aleatórias, não a medidas descritivas amostrais"
+    },
+    {
+      "brTopic": "Introdução à probabilidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1. Teoria das probabilidades': 1.1 conceitos, álgebra dos acontecimentos, axiomas; 1.2 probabilidades condicionadas; 1.3 Teorema de Bayes",
+      "foreignLocation": "Item 18, capítulo 1 (1.1-1.3)"
+    },
+    {
+      "brTopic": "Distribuições (discreta e contínua) de probabilidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'3. Distribuições de variáveis aleatórias discretas e contínuas': uniforme, Bernoulli, Binomial, Poisson, Normal; capítulo 2 variáveis aleatórias",
+      "foreignLocation": "Item 18, capítulos 2 e 3 (3.1-3.5)"
+    },
+    {
+      "brTopic": "Amostragem",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'4. Distribuições amostrais': 4.2 distribuições amostrais das estatísticas mais importantes",
+      "foreignLocation": "Item 18, capítulo 4 (4.1-4.2)",
+      "note": "Distribuições amostrais são tratadas; técnicas de amostragem não aparecem no programa."
+    },
+    {
+      "brTopic": "Estimação por intervalo",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'5.2. Estimação por intervalos: método da variável fulcral'",
+      "foreignLocation": "Item 18, capítulo 5 (5.2)"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Variáveis aleatórias bidimensionais e parâmetros", "location": "Item 18, 2.3-2.4"},
+    {"topic": "Distribuições Qui-Quadrado, t-Student e F-Snedecor", "location": "Item 18, 4.1"},
+    {"topic": "Estimação pontual", "location": "Item 18, 5.1"},
+    {"topic": "Testes de hipóteses paramétricos, erros e função potência", "location": "Item 18, capítulo 6"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos e medidas de estatística descritiva, gráficos e tabelas com ferramentas computacionais, distribuições de probabilidade e intervalos de confiança.",
+    "foreign": ["Calcular e interpretar probabilidades, distribuições e estimadores", "Formular e testar hipóteses estatísticas", "Usar software estatístico (R, SPSS) na análise de dados", "Avaliar a fiabilidade das conclusões probabilísticas"],
+    "convergences": ["Probabilidade e distribuições", "Estimação por intervalo", "Software estatístico"],
+    "differences": ["Lusíada é inferencial e probabilística, sem estatística descritiva", "Lusíada acrescenta variáveis bidimensionais e testes de hipóteses, ausentes da ficha Mackenzie"]
+  },
+  "depth": {
+    "level": "Licenciatura em Gestão de Empresa, 2º ano; Mackenzie na 3ª etapa",
+    "brazil": "Estatística introdutória de 63,3 h, com descritiva, probabilidade e intervalos",
+    "foreign": "Estatística com ênfase em probabilidades e inferência (capítulos 1-6), mais avançada em inferência",
+    "theoryPractice": "Ensino centrado na resolução de problemas, aulas TP e OT, com salas equipadas com R ou SPSS"
+  },
+  "practical": {
+    "period": "2º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estatística da Lusíada cobre a parte inferencial da ficha Mackenzie (probabilidade, distribuições, estimação por intervalo) e vai além com testes de hipóteses, mas não tem estatística descritiva, o que deixa dois tópicos introdutórios parciais e um ausente.",
+  "justification": "Três dos sete enunciados estão cobertos por capítulos explícitos (probabilidade no capítulo 1, distribuições nos 2-3 e estimação por intervalo em 5.2), três são parciais (papel da estatística só nos objetivos, descritiva só como competência de software, amostragem reduzida a distribuições amostrais) e um falta (medidas numéricas descritivas). A soma de 86% sustenta afinidade parcial, mas só 43% estão plenamente cobertos e toda a descritiva da ficha brasileira fica fora. A ficha é de 2025/2026, sem total de contacto legível (6 ECTS), e a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado com subitens e competências claras; ficha de 2025/2026, horas de contacto ilegíveis e vigência brasileira não confirmada.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 14/10/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "O objetivo específico (item 15) está truncado no PDF (frase interrompida em 'extrapolar os resultados d')",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A estatística descritiva é pressuposta de ensino secundário ou de outra UC de Gestão de Empresa?",
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Estatística'); cada tópico vinculado ao capítulo da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}

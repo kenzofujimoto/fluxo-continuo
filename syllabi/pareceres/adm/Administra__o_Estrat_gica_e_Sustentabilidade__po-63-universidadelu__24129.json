@@ -1,0 +1,183 @@
+{
+  "id": "adm|Administração Estratégica e Sustentabilidade|po-63-universidadelu|24129",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Administração Estratégica e Sustentabilidade",
+    "name": "Administração Estratégica e Sustentabilidade",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 1, bloco 'Administração Estratégica e Sustentabilidade': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "Fundamentos da sustentabilidade",
+      "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "Numa perspectiva da sustentabilidade",
+      "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24129",
+      "name": "Estratégia Empresarial",
+      "pageCode": "24129",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa); área científica Estratégia Empresarial",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha não foi extraído; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "2º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Três momentos: plano de negócios e dois testes de avaliação contínua; pesos conforme o regulamento de avaliação",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24129_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "abc690684836d6f38f8fea5a671c6f51a11ce89329e129f6c23165392d6afd2d",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026: itens 8 (carga horária), 9 (ECTS), 14-17 (objetivos, competências, metodologia), 18 (conteúdos programáticos), 19 (avaliação), 21 (sustentabilidade), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito, e nenhum valor foi atribuído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo específico: 'Caracterização do estado da arte no domínio da estratégia empresarial'; conteúdo '1. Introdução'",
+      "foreignLocation": "Itens 15 e 18 (conteúdo 1)",
+      "note": "A introdução tem uma só linha; as quatro visões da estratégia e o histórico não são nomeados."
+    },
+    {
+      "brTopic": "Fundamentos da sustentabilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-24 completos; o item 21 lista ODS 4, 5, 8 e 9 como objetivos educativos da UC, não como conteúdo; sem triple bottom line, economia circular nem conceituação",
+      "note": "Os ODS do item 21 declaram metas institucionais, e não substituem uma unidade sobre fundamentos da sustentabilidade."
+    },
+    {
+      "brTopic": "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conteúdo '2. Análise estratégica'; objetivo: 'empresa como sistema em constante interação com a envolvente'",
+      "foreignLocation": "Itens 15 e 18 (conteúdo 2)",
+      "note": "Envolvente aparece nos objetivos; variáveis, ameaças/oportunidades e fatores-chave não são detalhados, e a perspectiva da sustentabilidade não existe."
+    },
+    {
+      "brTopic": "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conteúdo '2. Análise estratégica'; competência 2 'visão sistémica e integrada das organizações'",
+      "foreignLocation": "Itens 15 e 18 (conteúdo 2)",
+      "note": "Análise estratégica genérica, sem missão, visão nem competências essenciais nomeadas."
+    },
+    {
+      "brTopic": "Numa perspectiva da sustentabilidade",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-24; sem perspectiva de sustentabilidade na análise estratégica",
+      "note": "Fragmento de título na ficha brasileira (continuação do item de ambiente), que a extração do PDF separou. Não conta de novo na cobertura."
+    },
+    {
+      "brTopic": "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "Conteúdo '3. Modelos de análise estratégica'; bibliografia complementar cita Magretta, 'Understanding Michael Porter'",
+      "foreignLocation": "Item 18 (conteúdo 3) e item 24",
+      "note": "O item não nomeia teorias; a bibliografia sugere, sem provar, o tema da vantagem competitiva. Visão baseada em recursos não é citada."
+    },
+    {
+      "brTopic": "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo geral: 'analisar e formular uma estratégia, elaborar um plano estratégico'; conteúdos '6. Falência e reestruturação de empresas', '8. Estratégias de internacionalização'",
+      "foreignLocation": "Itens 14 e 18 (conteúdos 6 e 8)",
+      "note": "Reestruturação aproxima-se de estratégias de redução; os níveis corporativo, de negócio e funcional e as estratégias genéricas não são nomeados."
+    },
+    {
+      "brTopic": "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-19 e 23-24; sem implementação, controle estratégico, estrutura ou cultura organizacional como conteúdos"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Determinantes financeiros da estratégia", "location": "Item 18, conteúdo 4"},
+    {"topic": "Desenvolvimento e valor", "location": "Item 18, conteúdo 5"},
+    {"topic": "Falência e reestruturação de empresas", "location": "Item 18, conteúdo 6"},
+    {"topic": "Corporate governance", "location": "Item 18, conteúdo 7"},
+    {"topic": "Estratégias de internacionalização e competitividade de Portugal", "location": "Item 18, conteúdos 8 e 9"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: ambiente externo e interno, vantagem competitiva e visão baseada em recursos, sustentabilidade (triple bottom line, economia circular), modelos como Balanced Scorecard, gestão sustentável e indicadores GRI, Dow Jones e Ethos.",
+    "foreign": ["Analisar e formular estratégia e elaborar plano estratégico", "Aplicar modelos de análise estratégica", "Pesquisar e aplicar conhecimentos a casos reais de empresas"],
+    "convergences": ["Análise estratégica e modelos de análise", "Formulação de estratégia e plano estratégico"],
+    "differences": ["Lusíada não trata sustentabilidade como conteúdo (só ODS como metas educativas)", "Lusíada inclui finanças da estratégia, governance, internacionalização e competitividade de Portugal, ausentes da ficha Mackenzie"]
+  },
+  "depth": {
+    "level": "Licenciatura em Gestão de Empresa, 3º ano (2º semestre); Mackenzie na 4ª etapa",
+    "brazil": "Disciplina de 63,3 h que combina administração estratégica e sustentabilidade",
+    "foreign": "Estratégia empresarial centrada em análise, modelos e plano estratégico, em lista de nove capítulos sem subitens",
+    "theoryPractice": "Aulas 'teóricas ou práticas' com casos e convidados do meio empresarial; plano de negócios como trabalho"
+  },
+  "practical": {
+    "period": "2º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estratégia Empresarial tem sobreposição temática com a metade estratégica da ficha Mackenzie (análise, modelos, formulação, plano), mas só em títulos de uma linha; sustentabilidade e implantação estratégica estão ausentes e a teoria de base não é verificável.",
+  "justification": "Dos sete enunciados essenciais, quatro são parciais (introdução à estratégia, ambientes externo e interno via 'Análise estratégica', formulação via objetivo geral, reestruturação e internacionalização), dois ausentes (fundamentos da sustentabilidade, implantação e acompanhamento) e um não verificável (vantagem competitiva e RBV, só sugerida pela bibliografia). Nenhum está coberto plenamente. A soma de parciais atinge 57%, o que sustenta afinidade parcial pela regra, mas a ficha lusíada não tem subitens, o que impede confirmar profundidade, e deixa fora a sustentabilidade que dá nome à disciplina brasileira. A ficha é de 2025/2026, sem total de contacto legível, e a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Conteúdos listados em uma linha cada, sem subitens, horas de contacto não legíveis e ficha de 2025/2026; as correspondências são prováveis, mas não demonstradas.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (data de emissão 09/10/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Programa em nove itens sem subitens: parcialidades são inferidas de títulos e objetivos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; tópicos 3 e 5 da ficha brasileira vêm partidos pela extração",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula, e qual o total de contacto?",
+    "Os modelos de análise estratégica incluem vantagem competitiva (Porter) e visão baseada em recursos?",
+    "A UC trata sustentabilidade em algum capítulo, além dos ODS do item 21?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Estratégia empresarial'); cada tópico vinculado ao item da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Programa em linhas únicas sem subitens e horas de contacto ilegíveis; recomenda-se confirmação com a Lusíada antes de qualquer decisão"}
+}

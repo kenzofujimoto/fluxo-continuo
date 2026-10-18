@@ -1,0 +1,169 @@
+{
+  "id": "adm|Microeconomia Aplicada aos Negócios|co-24-solbridgeinter|BUS109",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Microeconomia Aplicada aos Negócios",
+    "name": "Microeconomia Aplicada aos Negócios",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 5, bloco 'Microeconomia Aplicada aos Negócios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e ferramentas básicas",
+      "Demanda x oferta",
+      "Elasticidades",
+      "Intervenção do governo no mercado",
+      "Teoria da firma: Produção e Custos",
+      "Organização da indústria"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "BUS109",
+      "name": "Introduction to Microeconomics",
+      "pageCode": "BUS109",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); tipo de disciplina Core Foundation",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "15 semanas; o syllabus conciso não indica semestre de oferta",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Core Foundation",
+      "assessment": "Presença 20%, tarefa semanal e discussão 20%, duas provas intermediárias 45%, prova final 25%",
+      "prerequisites": "Nenhum",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS109%20Introduction%20to%20Microeconomics.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "ee6455cec6bd567d2c6de2f10c5f4fc7fa690acc0ab307fbe0f89a4fab4850a1",
+      "location": "Concise Syllabus 2016: Learning Objectives (1-6), Course Description, Course content by Week (semanas 1-15), quadro final com Credit, Contact Hours, Prerequisites, Duration",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro final: Credit 3, Contact Hours 45, Duration 15 weeks, Class Type Lecture. O documento não declara a duração da hora de contato. O crédito de 3 é institucional e não foi convertido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e ferramentas básicas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 1 'Introduction and the Ten Principles, Thinking Like an Economist'; objetivo 2: benefício e custo marginais na tomada de decisão; semanas 2-3 ganhos do comércio",
+      "foreignLocation": "Course content by Week, semanas 1-3; Learning Objectives items 1-2",
+      "note": "Trade-offs e custo de oportunidade vêm dos dez princípios de Mankiw (6ª ed.)."
+    },
+    {
+      "brTopic": "Demanda x oferta",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 2-3 'The Market Forces of Supply and Demand'; semana 5 'Consumers, Producers, and the Efficiency of Markets'",
+      "foreignLocation": "Course content by Week, semanas 2-3 e 5",
+      "note": "Unidade explícita, ampliada por excedente do consumidor e do produtor."
+    },
+    {
+      "brTopic": "Elasticidades",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 2-3 'Elasticity'",
+      "foreignLocation": "Course content by Week, semanas 2-3",
+      "note": "Elasticidade em unidade nomeada junto com oferta e demanda."
+    },
+    {
+      "brTopic": "Intervenção do governo no mercado",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 4 'Supply, Demand, and Government Policies'; semana 6 'The Costs of Taxation'; semana 12 'The Design of the Tax System'",
+      "foreignLocation": "Course content by Week, semanas 4, 6 e 12; Learning Objectives item 4",
+      "note": "Controles de preços, impostos e eficiência do sistema tributário."
+    },
+    {
+      "brTopic": "Teoria da firma: Produção e Custos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 7 'The Theory of Consumer Choice and the Costs of Production'; semanas 8-9 'Firms in Competitive Markets'",
+      "foreignLocation": "Course content by Week, semanas 7-9",
+      "note": "Custos de produção e decisão da firma competitiva."
+    },
+    {
+      "brTopic": "Organização da indústria",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 8-9 'Monopoly and Monopolistic Competition'; semana 10 'Oligopoly'; objetivo 3: comportamento das firmas sob diferentes estruturas industriais",
+      "foreignLocation": "Course content by Week, semanas 8-10; Learning Objectives item 3",
+      "note": "Concorrência perfeita, monopólio, concorrência monopolística e oligopólio."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Teoria da escolha do consumidor", "location": "Course content by Week, semana 7"},
+    {"topic": "Externalidades, bens públicos e recursos comuns", "location": "Course content by Week, semana 11"},
+    {"topic": "Mercados de fatores de produção, ganhos e discriminação", "location": "Course content by Week, semana 13"},
+    {"topic": "Desigualdade de renda, pobreza e informação assimétrica", "location": "Course content by Week, semana 14"},
+    {"topic": "Introdução à teoria dos jogos", "location": "Course content by Week, semana 15"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: agentes e problemas econômicos, sistemas econômicos, oferta, demanda e equilíbrio, atuação do governo, elasticidade, estruturas de mercado, trade-off e custo de oportunidade.",
+    "foreign": ["Pensar como economista", "Entender benefício e custo marginais na decisão", "Distinguir o comportamento das firmas em estruturas industriais diferentes", "Entender o poder e os limites dos mercados e a intervenção do governo", "Aplicar a análise microeconômica a questões reais"],
+    "convergences": ["Oferta, demanda e elasticidade", "Intervenção do governo", "Custos de produção e firma", "Estruturas de mercado", "Trade-off e custo de oportunidade"],
+    "differences": ["BUS109 inclui escolha do consumidor, mercados de fatores, desigualdade, informação assimétrica e teoria dos jogos, além da ficha brasileira", "A ementa Mackenzie cita agentes e sistemas econômicos, que o cronograma de BUS109 só trata de forma implícita nos dez princípios"]
+  },
+  "depth": {
+    "level": "Graduação introdutória; Mackenzie na 2ª etapa, BUS109 Core Foundation sem pré-requisito",
+    "brazil": "63,3 h, seis enunciados de microeconomia aplicada",
+    "foreign": "Introduction to Microeconomics de 45 horas de contato em 15 semanas (syllabus 2016), com Mankiw (6ª ed.), duas provas intermediárias e tarefas semanais",
+    "theoryPractice": "Aulas expositivas com muitos exercícios e tarefas, quizzes e recitation em Moodle"
+  },
+  "practical": {
+    "period": "15 semanas; semestre de oferta não indicado no syllabus de 2016; 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina do currículo BBA; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introduction to Microeconomics tem semana nomeada para cada um dos seis enunciados de Microeconomia Aplicada aos Negócios (princípios, oferta e demanda, elasticidade, política governamental, custos e estruturas de mercado) e acrescenta consumidor, externalidades e teoria dos jogos.",
+  "justification": "Os seis enunciados estão cobertos por unidades identificadas: dez princípios e custo marginal (semanas 1-3), oferta, demanda e elasticidade (2-3), política e tributação (4, 6, 12), custos de produção (7-9) e monopólio, concorrência monopolística e oligopólio (8-10). Não há lacuna de conteúdo. A classe só não chega a alta afinidade porque as 45 horas de contato dão razão de 0,71 sobre 63,3 h (0,59 com hora de 50 min), a ficha brasileira não tem vigência confirmada e o syllabus é de 2016. Por isso, é o par com maior cobertura entre as candidatas de microeconomia, à frente da ECON2107 da Uniandes, que não nomeia estruturas de mercado.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cronograma semanal que cobre todas as unidades e horas de contato declaradas; limitado pela idade do documento (2016) e pela vigência não confirmada da ficha brasileira.",
+  "limitations": [
+    "Syllabus de 2016, conciso; conteúdos atuais podem ter mudado até 2027.2",
+    "Horas de contato (45) declaradas sem a duração da hora; razão 0,71, ou 0,59 com hora de 50 min; Credit 3 não é convertido",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "SolBridge pode declarar a duração da hora de contato de BUS109 para confirmar a razão de carga?",
+    "A coordenação aceita carga abaixo de 75% quando a cobertura de conteúdo é total?"
+  ],
+  "alternatives": [
+    {"code": "BUS110", "name": "Introduction to Macroeconomics", "relation": "Lida em parecer separado (macroeconomia); BUS109 é seu pré-requisito"}
+  ],
+  "method": "Leitura integral do syllabus conciso BUS109 (2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado a semana do cronograma; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Cobertura explícita; limitação concentrada em horas e vigência"}
+}

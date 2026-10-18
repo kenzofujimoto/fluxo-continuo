@@ -1,0 +1,212 @@
+{
+  "id": "dir|PRINCÍPIOS, ESTRUTURA E ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA|es-salamanca|CAT-USAL-206969",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "PRINCÍPIOS, ESTRUTURA E ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA",
+    "name": "Princípios, Estrutura e Organização da Administração Pública",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 38, bloco 'PRINCÍPIOS, ESTRUTURA E ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA' (5ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo dos fundamentos do direito administrativo com análise de sua principiologia e do exercício dos poderes administrativos, para a concretização do ato administrativo e seu respectivo controle, no contexto da estrutura organizacional administrativa",
+      "Conceito de Direito Administrativo, Estado, Governo, Administração Pública e Burocracia",
+      "Regime Jurídico Constitucional da Administração Pública",
+      "Princípios de Direito Administrativo",
+      "Organização administrativa a administração pública e sua estrutura: Administração Pública Direta e Indireta",
+      "Entes de Cooperação, Paraestatais e Terceiro Setor: Conceito e Características",
+      "Função administrativa a administração pública em ação: poderes e atividades administrativas",
+      "Políticas públicas"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Salamanca",
+      "name": "FUNDAMENTOS DE DERECHO ADMINISTRATIVO",
+      "level": "Grau (graduação)",
+      "catalogue": "https://guias.usal.es/node/206969",
+      "universityId": "es-salamanca",
+      "code": "CAT-USAL-206969",
+      "source": "https://guias.usal.es/node/206969",
+      "sha256": "73b7e08b9d8068d278ee269e9761cb2ea45aa3cdd4f2307a1695e0c40d9d9f6f",
+      "faculty": "Facultad de Derecho (Grado en Derecho)",
+      "department": "Derecho Administrativo, Financiero y Procesal; área Derecho Administrativo",
+      "programme": "Grado en Derecho; asignatura básica, plan 223",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Segundo semestre do 1º curso",
+      "academicYear": "2025/2026",
+      "language": "ESPAÑOL",
+      "courseStatus": "Básica",
+      "assessment": "Avaliação contínua (práticas, trabalhos, intervenções em aula) com exame; as práticas pesam consideravelmente na nota; percentuais não declarados",
+      "prerequisites": "Recomendam-se conhecimentos prévios de Historia del Derecho e Derecho Constitucional",
+      "location": "Guia 2025/2026: secções 1 (Datos), 2 (Recomendaciones), 3 (Objetivos), 5 (Contenidos: temas 1-14 e prática), 6 (Metodologías), 7 (sem valores), 9 (Evaluación)",
+      "officialCode": "102305",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A secção 7 (Distribución de las Metodologías Docentes) não traz valores no texto; só 6 ECTS declarados, sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do direito administrativo com análise de sua principiologia e do exercício dos poderes administrativos, para a concretização do ato administrativo e seu respectivo controle, no contexto da estrutura organizacional administrativa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 2 IV 'principio de legalidad' e 'potestades administrativas'; tema 13 'El acto administrativo' com 'Revisión de la legalidad en vía administrativa'; tema 5 'Organización administrativa'",
+      "foreignLocation": "Seção 5, temas 2, 5 e 13",
+      "note": "O controle aparece como revisão em via administrativa e controle da potestade regulamentar (tema 4 III); o guia não lista controle judicial da Administração."
+    },
+    {
+      "brTopic": "Conceito de Direito Administrativo, Estado, Governo, Administração Pública e Burocracia",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1: 'Noción jurídica de administración pública'; 'Estructura del Estado: Pluralidad de Administraciones Públicas'; tema 2 I 'El Derecho Administrativo. Caracterización histórica y noción actual'",
+      "foreignLocation": "Seção 5, temas 1 e 2",
+      "note": "Conceito de direito administrativo, Estado e Administração presentes, com a origem do Estado de Direito; Governo só no tema 6 e burocracia não aparece."
+    },
+    {
+      "brTopic": "Regime Jurídico Constitucional da Administração Pública",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 1 VI 'Bases Constitucionales del Derecho Administrativo': cláusulas de Estado de Derecho, Estado Democrático y Social e Estado Autonómico",
+      "foreignLocation": "Seção 5, tema 1, ponto VI",
+      "note": "A estrutura do tópico é equivalente, mas o regime constitucional é o da Constituição Espanhola de 1978; os dispositivos da Constituição Federal de 1988 não são cobertos."
+    },
+    {
+      "brTopic": "Princípios de Direito Administrativo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 2 IV 'El principio de legalidad'; tema 5 IV 'Principios de organización'; tema 3 princípios de competência, hierarquia, prevalência e supletoriedade",
+      "foreignLocation": "Seção 5, temas 2, 3 e 5",
+      "note": "Legalidade e princípios organizativos estão listados; moralidade, impessoalidade, publicidade e eficiência do direito brasileiro não são mencionados."
+    },
+    {
+      "brTopic": "Organização administrativa a administração pública e sua estrutura: Administração Pública Direta e Indireta",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 5 entes públicos e órgãos; tema 6 Administración General del Estado; tema 7 periférica; temas 8-9 comunidades autónomas e locais; tema 10 'entidades instrumentales o administración institucional'",
+      "foreignLocation": "Seção 5, temas 5 a 10",
+      "note": "Cobertura em profundidade maior que a brasileira, mas sobre a organização espanhola (inclui Castilla y León); o equivalente da administração indireta é a administração institucional."
+    },
+    {
+      "brTopic": "Entes de Cooperação, Paraestatais e Terceiro Setor: Conceito e Características",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5, temas 1-14 e prática: o tema 10 aparece somente como título 'entidades instrumentales'; não há entes paraestatais, serviços sociais autônomos nem terceiro setor.",
+      "note": "Um tema 10 detalhado poderia incluir entes afins, mas o guia não o diz; sem prova de conteúdo, o tópico não se considera coberto."
+    },
+    {
+      "brTopic": "Função administrativa a administração pública em ação: poderes e atividades administrativas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 14 'La actividad administrativa': formas de actuación e 'potestad sancionadora'; tema 4 potestad reglamentaria; tema 2 IV 'Las potestades administrativas'",
+      "foreignLocation": "Seção 5, temas 2, 4 e 14"
+    },
+    {
+      "brTopic": "Políticas públicas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (temas 1-14), prática e metodologia: não há políticas públicas; a cláusula de Estado social aparece apenas como base constitucional (tema 1 VI).",
+      "note": "Planejamento e avaliação de políticas públicas não constam."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Sistema de fontes do ordenamento administrativo, relações entre ordenamento comunitário, estatal e autonômico, e potestad reglamentaria",
+      "location": "Contenidos, temas 3 e 4"
+    },
+    {
+      "topic": "Administrações periférica, autonômica (Castilla y León) e local, com legislação básica de regime local",
+      "location": "Contenidos, temas 7 a 9"
+    },
+    {
+      "topic": "Administração eletrônica e acesso dos cidadãos à informação administrativa",
+      "location": "Contenidos, tema 12"
+    },
+    {
+      "topic": "Relação jurídico-administrativa, autotutela, relações interadministrativas e potestad sancionadora",
+      "location": "Contenidos, temas 11 e 14"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário 2022 sem competências formais; trata de fundamentos, princípios, organização e função administrativa, até políticas públicas.",
+    "foreign": [
+      "Análise, síntese e conhecimento crítico das instituições administrativas",
+      "Aprendizagem autônoma, baseada em problemas",
+      "Conhecer fontes do ordenamento administrativo e a organização e competências dos órgãos",
+      "Conhecer a atividade administrativa"
+    ],
+    "convergences": [
+      "Noções fundamentais de direito administrativo e base constitucional",
+      "Organização administrativa e atividade da Administração"
+    ],
+    "differences": [
+      "Organização espanhola em níveis geral, periférico, autonômico e local",
+      "Temas de fontes, administração eletrônica e revisão de atos que a ementa brasileira não lista",
+      "Sem terceiro setor nem políticas públicas"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca: disciplina básica do 1º curso; Mackenzie: 5ª etapa",
+    "brazil": "2 horas-aula semanais, ementa de 8 tópicos",
+    "foreign": "6 ECTS, 14 temas e prática de casos em aprendizagem baseada em problemas; carga de contato não declarada",
+    "theoryPractice": "Aulas teóricas, casos, leituras e exposições orais; as práticas pesam fortemente na nota"
+  },
+  "practical": {
+    "period": "Segundo semestre do 1º curso; verificar se coincide com o semestre de mobilidade 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Básica do grado, com conhecimentos prévios de Direito Constitucional e História do Direito recomendados; aceitação de intercambista não verificada",
+    "prerequisites": "Recomendados: História do Direito e Direito Constitucional",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Fundamentos de Derecho Administrativo ultrapassa a ementa Mackenzie em organização e atos administrativos, com 14 temas contra 8 tópicos brasileiros, e cobre a espinha do curso (noção de Administração, bases constitucionais, princípios, estrutura, atividade), porém para o ordenamento espanhol e sem terceiro setor nem políticas públicas.",
+  "justification": "Três dos oito tópicos têm cobertura explícita: fundamentos com legalidade, potestades e atos (temas 2, 5 e 13), organização administrativa direta e indireta (temas 5 a 10) e função administrativa (temas 2, 4 e 14). Três são parciais por serem ligados ao direito positivo brasileiro: conceito de Governo e burocracia, regime constitucional (Constituição Espanhola de 1978) e princípios (só legalidade e princípios organizativos). Dois ficam sem correspondência: entes de cooperação, paraestatais e terceiro setor, e políticas públicas. A cobertura plena é de 37,5% e a plena ou parcial de 75%, o que sustenta afinidade parcial; a classe não pode subir porque o ementário de 2022 é histórico e as horas não se comparam, com 2 horas-aula semanais contra 6 ECTS sem horas de contato. O ponto forte do par é a estrutura organizacional, tratada em mais detalhe do que na ementa brasileira.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia individual com 14 temas detalhados, mas de 2025/2026, sem horas nem percentuais de avaliação; ementário brasileiro de 2022.",
+  "limitations": [
+    "Guia de Salamanca é do curso 2025/2026; o de 2026/2027 não foi lido",
+    "Ementário Mackenzie de 2022 é edição histórica; a matriz vigente pode divergir",
+    "Mackenzie informa 2 horas-aula semanais; Salamanca informa 6 ECTS sem horas de contato; carga não comparável e ECTS não convertidos",
+    "O direito administrativo brasileiro (Constituição de 1988, Decreto-Lei 200/1967, princípios do art. 37) não é coberto pelo guia espanhol; cotejo conceitual",
+    "O tema 10 do guia aparece só como título, o que impede confirmar entes afins aos paraestatais",
+    "Oferta 2027/28, semestre efetivo e vagas para intercambistas não confirmados"
+  ],
+  "openQuestions": [
+    "A coordenação aceita a estrutura administrativa espanhola como substituta da brasileira no tópico de organização administrativa?",
+    "O tema 10 (entidades instrumentais) inclui entes de cooperação ou fundações do terceiro setor?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e do guia USAL 2025/2026 (nó 206969, código oficial 102305) com apoio de IA (Claude); título do guia conferido com o nome do catálogo (coincide); tópicos vinculados a temas numerados; validação por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente de direito administrativo para pesar o peso do direito positivo espanhol frente ao brasileiro"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

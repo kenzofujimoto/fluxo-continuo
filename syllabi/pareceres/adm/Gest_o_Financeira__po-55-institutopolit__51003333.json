@@ -1,0 +1,152 @@
+{
+  "id": "adm|Gestão Financeira|po-55-institutopolit|51003333",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão Financeira",
+    "name": "Gestão Financeira",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 4, bloco 'Gestão Financeira': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Objetivos financeiros",
+      "Governança Corporativa",
+      "Custo de capital",
+      "Estrutura de capital",
+      "Gestão do capital de giro (Ciclo operacional e financeiro, necessidade de capital de giro, equilíbrio financeiro)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-55-institutopolit",
+      "university": "Instituto Politécnico de Coimbra (Universidade Politécnica de Coimbra)",
+      "code": "51003333",
+      "name": "Gestão Financeira I",
+      "pageCode": "51003333",
+      "faculty": "Instituto Superior de Contabilidade e Administração de Coimbra (ISCAC)",
+      "programme": "Licenciatura em Gestão de Empresas; área científica Ciências Empresariais e Económicas",
+      "level": "1º ciclo",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "Semestral (a página não indica qual semestre)",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória (modo presencial)",
+      "assessment": "Não indicada na página",
+      "prerequisites": "Não indicados na página",
+      "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294388&r=26522",
+      "catalogue": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/",
+      "sha256": "1a643a9d69b3af274b8e76c986e3fd694f2e6a68511676639c383273453f1ef8",
+      "location": "Página da UC 2026/2027: Métodos de Ensino, Resultados de Aprendizagem (1-5), Programa 1-6, Bibliografia, dados finais (ECTS, duração, tipo)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6 ECTS e duração semestral, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Objetivos financeiros",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Métodos de Ensino, Resultados de Aprendizagem 1-5, Programa 1-6 e Bibliografia; o item '1. INTRODUÇÃO' não tem subitens, e o objetivo da UC é análise de demonstrações financeiras, não objetivos da função financeira"
+    },
+    {
+      "brTopic": "Governança Corporativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6 e Resultados de Aprendizagem; sem governança, conflitos de agência ou remuneração de gestores"
+    },
+    {
+      "brTopic": "Custo de capital",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa 1-6 (análise de equilíbrio, rendibilidade, risco, meios libertos); sem custo de capital nem WACC"
+    },
+    {
+      "brTopic": "Estrutura de capital",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "4.1.2 'Risco financeiro'; 2.1 'abordagem patrimonial do equilíbrio financeiro'; 3.3 rendibilidade financeira",
+      "foreignLocation": "Programa 2.1, 3.3 e 4.1.2",
+      "note": "Endividamento é analisado como indicador do balanço e do risco; não há teoria nem política de estrutura de capital."
+    },
+    {
+      "brTopic": "Gestão do capital de giro (Ciclo operacional e financeiro, necessidade de capital de giro, equilíbrio financeiro)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'2. Análise do equilíbrio financeiro': 2.2 'abordagem funcional do equilíbrio financeiro: conceitos fundamentais'; objetivo 1 'avaliar a análise do equilíbrio financeiro'",
+      "foreignLocation": "Programa 2.1-2.2; Resultados de Aprendizagem 1",
+      "note": "'Equilíbrio financeiro' coincide com o termo da ficha brasileira. Ciclo operacional/financeiro e necessidade de capital de giro não são nomeados; a abordagem funcional é a que os trata na análise financeira portuguesa. Aqui é análise, não gestão (a gestão do fundo de maneio está em Gestão Financeira II)."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Análise da rendibilidade económica e financeira, equações fundamentais e modelo integrado", "location": "Programa 3.1-3.5"},
+    {"topic": "Risco económico, financeiro e global; risco de falência; scoring e rating de crédito", "location": "Programa 4.1-4.3"},
+    {"topic": "Meios libertos e demonstração de fluxos de caixa", "location": "Programa 5.1-5.2"},
+    {"topic": "Diagnóstico económico-financeiro de síntese", "location": "Programa 6"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: objetivos financeiros e conflitos de agência, decisões de investimento, financiamento e distribuição, custo de capital e estrutura de capital, política de dividendos, planejamento financeiro de curto prazo e capital de giro.",
+    "foreign": ["Avaliar o equilíbrio financeiro", "Avaliar a rendibilidade e o risco operacional e financeiro", "Analisar meios libertos e fluxos de caixa", "Preparar um diagnóstico económico-financeiro"],
+    "convergences": ["Equilíbrio financeiro e leitura funcional do balanço", "Risco financeiro como dimensão do endividamento"],
+    "differences": ["Coimbra I é uma UC de análise financeira de demonstrações; a ficha Mackenzie é de decisões financeiras corporativas (investimento, custo de capital, dividendos)", "Governança, custo de capital e objetivos financeiros não aparecem em Coimbra I"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 2º ano (obrigatória), Mackenzie na 6ª etapa",
+    "brazil": "Gestão financeira corporativa de 31,7 h",
+    "foreign": "Análise económico-financeira de demonstrações, com ênfase em rendibilidade e risco",
+    "theoryPractice": "Coimbra: aulas teórico-práticas interativas, discussão de casos reais e exercícios individuais"
+  },
+  "practical": {
+    "period": "Semestral; semestre não indicado na página. Oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Obrigatória no plano de Gestão de Empresas; disponibilidade para mobilidade incoming a confirmar com a instituição",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão Financeira I é uma unidade de análise de demonstrações financeiras: só o equilíbrio financeiro corresponde ao capital de giro da ficha Mackenzie, enquanto objetivos financeiros, governança e custo de capital não aparecem; baixa afinidade.",
+  "justification": "Apenas 1 dos 5 enunciados (capital de giro, via 'equilíbrio financeiro' em 2.1-2.2) está coberto e 1 é parcial (estrutura de capital, reduzida ao risco financeiro em 4.1.2); objetivos financeiros, governança e custo de capital estão ausentes dos seis capítulos. Com 2 de 5 enunciados cobertos ou parciais (40%), abaixo do limite de 50%, a classe é baixa afinidade. O conteúdo faltante está na UC Gestão Financeira II (51003421). Não há horas de contacto (6 ECTS) e a ficha Mackenzie, de 31,7 h, não tem vigência confirmada.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e título conferido; a baixa afinidade decorre do escopo diferente da UC, não de lacuna documental, mas faltam horas e vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos em horas",
+    "Oferta 2027/28 não confirmada; semestre de oferta não indicado",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "O programa brasileiro lista só cinco tópicos; a ementa cita também investimentos e dividendos, não avaliados como tópicos",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Gestão Financeira II (51003421) é a UC adequada para os tópicos de decisões financeiras da ficha Mackenzie?"
+  ],
+  "alternatives": [
+    {"code": "51003421", "name": "Gestão Financeira II", "relation": "Trata objetivos, estrutura e custo de capital, dividendos e fundo de maneio (P1-P6); lida e analisada em parecer próprio"}
+  ],
+  "method": "Leitura integral da ficha Mackenzie e da página oficial da UC (2026/2027) do Politécnico de Coimbra, com apoio de IA (Claude); título da página conferido com o catálogo; cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}

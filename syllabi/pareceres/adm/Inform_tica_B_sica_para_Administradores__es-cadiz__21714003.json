@@ -1,0 +1,211 @@
+{
+  "id": "adm|Informática Básica para Administradores|es-cadiz|21714003",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Informática Básica para Administradores",
+    "name": "Informática Básica para Administradores",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 9, bloco 'Informática Básica para Administradores': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Microsoft Word: visão geral, editoração e manipulação dos principais recursos",
+      "Microsoft Excel: Introdução ao uso de planilha eletrônica e visão geral do software",
+      "Formatação da Planilha (Exploração e uso dos grupos Fonte, Alinhamento, Número,",
+      "Área de Transferência, Estilo, Células e Edição)",
+      "Uso de fórmulas e cálculos",
+      "Filtros e classificação de dados",
+      "Ferramentas de dados (Análise rápida; criação de cenários; validação; uso do atingir meta)",
+      "Criação e personalização de Gráficos",
+      "Construção de Tabelas e Gráficos Dinâmicos",
+      "Obtenção de dados externos",
+      "Proteção de planilhas",
+      "Noções de criação, gravação e edição de Macros"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714003",
+      "name": "Fundamentos Físicos y Electrónicos de la Informática",
+      "pageCode": "21714003",
+      "faculty": "Escuela Superior de Ingeniería (departamento Ingeniería en Automática, Electrónica, Arquitectura y Redes)",
+      "programme": "Grado en Ingeniería Informática (1725); módulo I Formación básica, materia I.3 Física",
+      "level": "Grado",
+      "yearOfStudy": 1,
+      "semester": "Segundo semestre",
+      "period": "Segundo semestre, 1º curso",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (castellano)",
+      "courseStatus": "Formación básica o troncal",
+      "assessment": "Exame final escrito 85% (teoria e problemas); práticas de laboratório 15%",
+      "prerequisites": "Campo de requisitos prévios sem texto na página",
+      "source": "https://asignaturas.uca.es/2026-27/21714003",
+      "catalogue": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "sha256": "34d748779c480bb7f036329f0c17e7e9884f6a054631c6accea350c1a89618ab",
+      "location": "Programa docente 2026-27: identificação, Resultado de aprendizagem 1, Actividades y metodologías docentes, Sistema de evaluación, Temario (temas 1-15), Bibliografía",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 40,
+        "contactSeminarLab": 20,
+        "selfStudy": 72,
+        "totalWorkload": 150,
+        "ects": 6.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Página declara 60 h de docência presencial (teoria 40; problemas 10; laboratório 10), 90 h de outras atividades (72 não presenciais + 18 de avaliação) e 150 h totais. Duração da hora não declarada. Os 6 ECTS não foram convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Microsoft Word: visão geral, editoração e manipulação dos principais recursos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Nenhum tema de processamento de texto; o temário é de eletricidade e eletrônica."
+    },
+    {
+      "brTopic": "Microsoft Excel: Introdução ao uso de planilha eletrônica e visão geral do software",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Sem planilha eletrônica nem ferramenta de escritório; as práticas de laboratório são citadas apenas de forma genérica, dentro de uma matéria de Física."
+    },
+    {
+      "brTopic": "Formatação da Planilha (Exploração e uso dos grupos Fonte, Alinhamento, Número,",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Enunciado oficial truncado pela quebra de linha da ficha; sem conteúdo de formatação de planilhas."
+    },
+    {
+      "brTopic": "Área de Transferência, Estilo, Células e Edição)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Continuação do item anterior; sem correspondente."
+    },
+    {
+      "brTopic": "Uso de fórmulas e cálculos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Os cálculos do curso são de física e circuitos, sem fórmulas em planilha."
+    },
+    {
+      "brTopic": "Filtros e classificação de dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Sem tratamento de dados."
+    },
+    {
+      "brTopic": "Ferramentas de dados (Análise rápida; criação de cenários; validação; uso do atingir meta)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Sem ferramentas de análise de dados."
+    },
+    {
+      "brTopic": "Criação e personalização de Gráficos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Sem visualização de dados."
+    },
+    {
+      "brTopic": "Construção de Tabelas e Gráficos Dinâmicos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Sem tabelas dinâmicas."
+    },
+    {
+      "brTopic": "Obtenção de dados externos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Sem integração com dados externos nem banco de dados."
+    },
+    {
+      "brTopic": "Proteção de planilhas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "Sem tema de proteção de documentos."
+    },
+    {
+      "brTopic": "Noções de criação, gravação e edição de Macros",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultado de aprendizagem 1, metodologias, avaliação, Temario (temas 1-15) e bibliografia do programa docente 2026-27",
+      "note": "As 'famílias lógicas' do tema 11 são eletrônica digital de semicondutores, não lógica de programação nem macros."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Campo elétrico, lei de Gauss e potencial elétrico", "location": "Temario, temas 1-3"},
+    {"topic": "Corrente elétrica, circuitos de corrente contínua e alternada, condensadores", "location": "Temario, temas 4-6 e 9"},
+    {"topic": "Campo magnético, indução e ondas eletromagnéticas", "location": "Temario, temas 7, 8 e 10"},
+    {"topic": "Semicondutores, diodos, transistores e amplificadores operacionais", "location": "Temario, temas 11-15"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: planilhas eletrônicas para relatórios técnicos, análise de informações e decisão, noções de lógica de programação para macros, integração do Excel com outras plataformas e estruturação de banco de dados.",
+    "foreign": ["Conceitos básicos de campos e ondas, eletromagnetismo e teoria de circuitos", "Circuitos eletrônicos, semicondutores e dispositivos", "Resolução de problemas de engenharia com esses conceitos"],
+    "convergences": ["Nenhuma convergência de conteúdo identificada; ambas são de primeiro ano de graduação"],
+    "differences": ["Mackenzie é ferramental de escritório para administradores, UCA é física e eletrônica para engenharia informática", "A coincidência apontada pela busca semântica (eletrônica, lógica) é lexical e não curricular"]
+  },
+  "depth": {
+    "level": "Graduação de 1º ano em ambas; formação básica de engenharia na UCA e disciplina instrumental na 1ª etapa de Administração",
+    "brazil": "31,7 h de uso de Word e Excel, com macros e dados",
+    "foreign": "6 ECTS, 60 h presenciais, quinze temas de eletricidade e eletrônica, com cálculo e física de nível universitário",
+    "theoryPractice": "40 h de teoria, 10 de problemas e 10 de laboratório; exame escrito vale 85%"
+  },
+  "practical": {
+    "period": "Segundo semestre do 1º curso; semestre de oferta compatível com 2027.2 não confirmado",
+    "language": "Espanhol (castellano); campos de oferta em língua estrangeira sem opção marcada",
+    "enrolment": "Oferta 2026-27 'SIM', vigente, 227 matriculados; campos de mobilidade internacional e plazas sem valores preenchidos",
+    "prerequisites": "Campo sem texto na página",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Fundamentos Físicos y Electrónicos de la Informática trata de eletricidade, magnetismo e circuitos eletrônicos e não tem nenhuma unidade de Word, Excel, macros ou banco de dados: o par veio de uma coincidência lexical e não de afinidade curricular.",
+  "justification": "Os doze enunciados essenciais da ficha Mackenzie (Word, planilha, formatação, fórmulas, filtros, gráficos, tabelas dinâmicas, dados externos, proteção e macros) não encontram qualquer tema nos quinze temas do programa de 2026-27, nem no resultado de aprendizagem único ou no sistema de avaliação. A cobertura é zero. As 60 horas presenciais da UCA superam as 31,7 h de Mackenzie (razão 1,89), mas a carga horária não compensa a ausência total de conteúdo. As 'famílias lógicas' do tema 11 pertencem à eletrônica digital e não à lógica de programação de macros. A pontuação semântica (0,515, conceitos 'eletrônica' e 'lógica') não reflete afinidade.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "alta",
+  "confidenceRationale": "Programa 2026-27 completo, com temário integral e horas explícitas, e título coincidente com o catálogo; a ausência de qualquer tema de informática de escritório é inequívoca.",
+  "limitations": [
+    "Candidata de origem semântica (pontuação 0,515, conceitos 'eletrônica' e 'lógica'); o resultado baixa_afinidade é o esperado e útil",
+    "A duração da hora presencial não é declarada; 60 h contra 31,7 h; 6 ECTS não são convertidos",
+    "Dois enunciados oficiais são fragmentos de quebra de linha da ficha Mackenzie (formatação da planilha)",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada; campos de mobilidade internacional sem valores",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UCA oferece, em outro grado, disciplina de ofimática, informática de gestão ou análise de dados em planilhas?",
+    "Há disciplina de informática aplicada à empresa em Administración y Dirección de Empresas na UCA?"
+  ],
+  "alternatives": [
+    {"code": "21714001", "name": "Organización y Gestión de Empresas", "relation": "Também do Grado en Ingeniería Informática; lida em parecer separado, é de gestão e não de ofimática"}
+  ],
+  "method": "Leitura integral do programa docente 2026-27 da UCA (resultado, metodologia, avaliação, temário, bibliografia) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado procurado no temário; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Ausência de correspondência é explícita nos documentos"}
+}

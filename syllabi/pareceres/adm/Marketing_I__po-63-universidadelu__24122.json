@@ -1,0 +1,154 @@
+{
+  "id": "adm|Marketing I|po-63-universidadelu|24122",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24122",
+      "name": "Marketing",
+      "pageCode": "24122",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa); área científica Marketing",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha não foi extraído; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "1º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Avaliação contínua: dois testes escritos e um trabalho prático em grupo",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24122_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "d5ad4e20b1fc9c03c859db03ac2790285364511a47dcdf801b51beba8a87181e",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 12/10/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (capítulos 1-9), 19 (avaliação), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito, e nenhum valor foi atribuído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Capítulo 1: Conceito de marketing': definições, evolução, tendências, estratégia e plano de marketing; objetivo: 'Compreender o pensamento de marketing'",
+      "foreignLocation": "Item 18, capítulo 1 (1.1-1.4); item 14"
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Capítulo 3: Meio envolvente da empresa': micro meio envolvente e macro meio envolvente; competência: 'Caracterizar ambientes de marketing'",
+      "foreignLocation": "Item 18, capítulo 3 (3.1-3.3); item 16"
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Capítulo 5: Comportamento do consumidor': teorias e modelos explicativos; análise do processo de decisão nos vários tipos de mercado",
+      "foreignLocation": "Item 18, capítulo 5 (5.1-5.2)"
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Capítulo 4: 'Mercados industriais e mercados de consumo'; 'Mercados institucionais e governamentais'; 5.2 decisão 'nos vários tipos de mercado'",
+      "foreignLocation": "Item 18, capítulos 4 (4.2-4.3) e 5 (5.2)",
+      "note": "O título brasileiro parece abreviar 'comportamento do comprador organizacional' (ementa). Lusíada cobre mercados industriais e institucionais e decisão de compra por tipo de mercado, sem unidade explícita sobre o comprador organizacional. Se o tópico fosse comportamento organizacional em sentido de RH, não haveria correspondência."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Capítulo 7: Segmentação do mercado' (critérios, métodos de divisão); 'Capítulo 8: Posicionamento' (definição, eixos de diferenciação)",
+      "foreignLocation": "Item 18, capítulos 7 (7.1-7.4) e 8 (8.1-8.5)"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Marketing na organização: portfólio de negócios, planeamento e gestão das ações de marketing", "location": "Item 18, capítulo 2"},
+    {"topic": "Análise do mercado, quantificação e fatores de evolução", "location": "Item 18, capítulo 4"},
+    {"topic": "Análises de competitividade: SWOT e cinco forças de Porter", "location": "Item 18, capítulo 6"},
+    {"topic": "Sistemas de informação de marketing e investigação de marketing", "location": "Item 18, capítulo 9"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: marketing como geração de valor para cliente e empresa; satisfação, valor, fidelidade, comportamento do consumidor e do comprador organizacional; marketing estratégico, segmentação e posicionamento.",
+    "foreign": ["Compreender o planeamento e a orientação para o mercado", "Realizar análises de mercado e da concorrência", "Caracterizar ambientes de marketing e identificar oportunidades e ameaças", "Elaborar o plano estratégico e operacional de marketing"],
+    "convergences": ["Conceito de marketing", "Ambiente de marketing", "Comportamento do consumidor", "Segmentação e posicionamento"],
+    "differences": ["Lusíada é mais ampla: planeamento de marketing, análise competitiva, sistemas de informação", "Satisfação, valor e fidelidade (ementa Mackenzie) não aparecem nominalmente"]
+  },
+  "depth": {
+    "level": "Licenciatura em Gestão de Empresa, 3º ano; Mackenzie na 1ª etapa",
+    "brazil": "Marketing introdutório de 63,3 h",
+    "foreign": "Marketing mais amplo, com planeamento estratégico e investigação, em nove capítulos itemizados",
+    "theoryPractice": "Aulas teórico-práticas, mini-casos, discussão de artigos e estudos de caso"
+  },
+  "practical": {
+    "period": "1º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Marketing da Lusíada cobre com capítulos próprios quatro dos cinco tópicos da ficha Mackenzie de Marketing I (conceito, ambiente, consumidor, segmentação e posicionamento) e acrescenta planeamento e análise competitiva; o comportamento do comprador organizacional é apenas parcial.",
+  "justification": "Quatro dos cinco enunciados têm capítulo próprio (1, 3, 5, 7-8) e o quinto, ambíguo no título brasileiro, só se aproxima por mercados industriais e institucionais (4.2-4.3). Não há tópico ausente. Apesar da cobertura de 80%, a classe permanece em afinidade parcial porque a carga horária não é comparável (6 ECTS e valores soltos no item 8), a ficha lusíada é de 2025/2026 e a ficha Mackenzie não tem vigência confirmada. A UC lusíada excede a ficha em conteúdo, sendo de 3º ano e mais ampla que o Marketing I do 1º semestre.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Capítulos itemizados com subitens e boa correspondência; faltam horas de contacto legíveis, ficha de 2026/2027 e vigência da ficha brasileira, e há ambiguidade no tópico 'Comportamento Organizacional'.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 12/10/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; o título 'Comportamento Organizacional' contrasta com a ementa (comportamento do comprador organizacional)",
+    "Satisfação, valor e fidelidade (ementa Mackenzie) não localizados nominalmente na ficha lusíada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O capítulo 4 inclui comportamento de compra organizacional (B2B)?",
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Marketing'); cada tópico vinculado ao capítulo da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}

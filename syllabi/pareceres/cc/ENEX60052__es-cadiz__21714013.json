@@ -1,0 +1,181 @@
+{
+  "id": "cc|ENEX60052|es-cadiz|21714013",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60052",
+    "name": "Inteligência Artificial I",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 6ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 4, bloco 'INTELIGÊNCIA ARTIFICIAL I': campos Carga horária, Ementa e distribuição teórica/prática",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": true,
+    "currencyNote": "Ementário público FCI 2025, câmpus Alphaville",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário declara 63,33 h e 4 h-a teóricas semanais, sem horas práticas."
+    },
+    "topics": [
+      "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "Agentes Lógicos",
+      "Representação do conhecimento",
+      "Tomada de Decisão",
+      "e Aprendizagem"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "code": "21714013",
+      "university": "Universidad de Cádiz",
+      "name": "Inteligencia Artificial",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "Ingeniería Informática (C137)",
+      "programme": "Grado en Ingeniería Informática (1725); módulo II, materia II.1",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "Primer semestre (curso 2026-27)",
+      "academicYear": "2026/27",
+      "language": "Castelhano",
+      "courseStatus": "Obligatoria",
+      "assessment": "Exame final 90%; questionários nas sessões de laboratório 10%",
+      "prerequisites": "Campos de requisitos prévios e recomendações sem conteúdo preenchido",
+      "catalogue": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "location": "Programa docente 2026-27: identificação, resultados de aprendizagem 1-6, atividades e horas, sistema de avaliação, temário (temas 1-3), bibliografia",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Docência presencial 60 h = teoria 24 + práticas, seminários e problemas 12 + práticas de informática 24; não presenciais 86 h e avaliação 4 h."
+      },
+      "source": "https://asignaturas.uca.es/2026-27/21714013",
+      "sha256": "834573f29279d16a31b618f0ad183f34c8ff474731bbde58bf154d7b6294ae98"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tema 1.1-1.3 definição, revisão histórica e áreas de aplicação; tema 2 busca não informada, heurística (A*) e entre adversários; resultado 1 'Agentes Inteligentes'",
+      "foreignLocation": "Temario, temas 1 e 2; Resultados de aprendizaje 1, 4 e 5"
+    },
+    {
+      "brTopic": "Agentes Lógicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado 2 'representação ... de acordo a formalismos lógicos'; resultado 3 inferências; tema 3.2 'Agentes Inteligentes basados en reglas' (inferência, equiparação, resolução de conflitos)",
+      "foreignLocation": "Resultados de aprendizaje 2-3; Temario 3.2",
+      "note": "Os agentes do tema 3.2 são baseados em regras de produção; lógica proposicional ou de primeira ordem e agentes lógicos não são nomeados."
+    },
+    {
+      "brTopic": "Representação do conhecimento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'3. Representación del conocimiento': 3.1 principais técnicas de representação; 3.2 agentes baseados em regras",
+      "foreignLocation": "Temario, tema 3; Resultado de aprendizaje 2"
+    },
+    {
+      "brTopic": "Tomada de Decisão",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "2.3 'Búsqueda entre Adversarios': avaliação minimax e poda alfa-beta; 3.2 'Resolución de Conflictos' entre regras",
+      "foreignLocation": "Temario 2.3 e 3.2",
+      "note": "Só a decisão em jogos de soma zero e a resolução de conflitos de regras; teoria da decisão, utilidade e processos de decisão de Markov não aparecem."
+    },
+    {
+      "brTopic": "e Aprendizagem",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Subitem '1.4 Aprendizaje Automático' dentro da introdução; Mitchell, Machine Learning, apenas em bibliografia recomendada",
+      "foreignLocation": "Temario 1.4; Bibliografía recomendada",
+      "note": "Um subitem introdutório, sem algoritmos de aprendizagem nos resultados de aprendizagem; bibliografia não comprova conteúdo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Busca local: gradiente e feixe local; busca voraz e A*",
+      "location": "Temario 2.2"
+    },
+    {
+      "topic": "Sistemas especialistas e mecanismos de inferência por regras (equiparação, resolução de conflitos)",
+      "location": "Temario 3.2; bibliografia Jackson, Giarratano"
+    },
+    {
+      "topic": "Implementação dos algoritmos em linguagem de programação em práticas de informática",
+      "location": "Resultado de aprendizaje 6; atividade 03 (24 h)"
+    }
+  ],
+  "competencies": {
+    "brazil": "A ementa descreve aspectos históricos, conceitos, técnicas e aplicações de IA: agentes, busca, agentes lógicos, representação do conhecimento, tomada de decisão e aprendizagem; o ementário não lista competências separadas.",
+    "foreign": [
+      "Conhecer fundamentos de IA, agentes e áreas de aplicação (1)",
+      "Representar o conhecimento com formalismos lógicos e estruturados (2)",
+      "Realizar inferências sobre os sistemas implementados (3)",
+      "Formalizar problemas de busca e aplicar estratégias em espaços de estados (4-5)",
+      "Implementar os algoritmos em uma linguagem de programação (6)"
+    ],
+    "convergences": [
+      "Agentes inteligentes e busca para resolução de problemas",
+      "Representação do conhecimento",
+      "Perfil histórico e aplicações da IA"
+    ],
+    "differences": [
+      "Cádiz acrescenta busca entre adversários, sistemas baseados em regras e implementação em laboratório",
+      "Mackenzie nomeia agentes lógicos, tomada de decisão e aprendizagem como eixos; Cádiz os reduz a inferência por regras, minimax e um subitem de aprendizado automático"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação obrigatórias; Cádiz no 3º curso, Mackenzie na 6ª etapa",
+    "brazil": "Componente de 63,33 h com 4 h-a teóricas semanais e cinco blocos de conteúdo",
+    "foreign": "6 ECTS com três temas e 60 h presenciais, 24 delas de informática com implementação de algoritmos",
+    "theoryPractice": "Cádiz: 24 h de teoria, 12 de seminários e problemas e 24 de informática; Mackenzie: tudo teórico no ementário"
+  },
+  "practical": {
+    "period": "Primeiro semestre do ano letivo espanhol, em tese coincidente com 2027.2; oferta 2027/28 não confirmada",
+    "language": "Castelhano",
+    "enrolment": "Campo 'Movilidad internacional' sem modalidade assinalada; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum informado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Inteligencia Artificial de Cádiz cobre bem os blocos de agentes, busca e representação do conhecimento de IA I, mas reduz agentes lógicos, tomada de decisão e aprendizagem a poucos itens: inferência por regras, minimax e um subitem de aprendizado automático.",
+  "justification": "Dois dos cinco enunciados estão cobertos por temas explícitos (temas 1-2 para história, agentes e busca; tema 3 para representação do conhecimento) e três ficam parciais, cada um apoiado em um subitem. A carga é comparável de forma condicional: 60 h presenciais declaradas contra 63,33 h Mackenzie dão razão de 0,95 (0,79 se a hora fosse de 50 minutos), mas com 24 h de informática que o ementário brasileiro não prevê. A classe é afinidade parcial porque apenas 40% dos tópicos estão integralmente cobertos, abaixo do limiar de 75% para alta afinidade.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026-27 itemizado e horas presenciais discriminadas; reduzem a confiança a ementa brasileira concisa, a duração da hora de contato não declarada e a oferta 2027/28 não confirmada.",
+  "limitations": [
+    "Oferta 2027/28, vaga para intercâmbio e idioma (castelhano) não confirmados",
+    "Duração da hora de contato da UCA não declarada no documento",
+    "Ementa brasileira concisa e fragmentada em cinco enunciados; 'tomada de decisão' e 'aprendizagem' são citados sem detalhamento",
+    "Bibliografia de Cádiz (Mitchell, Giarratano) não comprova conteúdo ministrado",
+    "Parecer preliminar independente; decisão compete à coordenação de Ciência da Computação e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação considera minimax e resolução de conflitos de regras suficientes para 'tomada de decisão'?",
+    "A FCI pode detalhar o conteúdo de 'agentes lógicos' e de 'aprendizagem' em IA I?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário FCI 2025 (6ª etapa) e do programa docente UCA 2026-27 com apoio de IA (Claude); cada enunciado vinculado a tema, subitem ou resultado de aprendizagem; coerência verificada por scripts/build_pareceres.py --check",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência itemizada; limitações são de oferta e de duração da hora"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "id": "adm|Gestão Integrada de Empresas|es-cadiz|21714001",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão Integrada de Empresas",
+    "name": "Gestão Integrada de Empresas",
+    "courseName": "Administração",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 8º Semestre (Etapa_8_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_8_02.pdf",
+    "sha256": "ad75686cce296fe03be1bf61a9b3f75d1090a24f81a8c9ae1e4a6e5054c5d9d0",
+    "location": "PDF p. 1, bloco 'Gestão Integrada de Empresas': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Decisões sobre gestão de pessoas",
+      "Análise de mercado e implantação da empresa",
+      "Decisões em um Ambiente de incerteza",
+      "Lean Manufacturing and Quality Improvement",
+      "Demonstrativos Financeiros, Plano de negócios, Valuation e Gestão de RH",
+      "Elaboração do plano de negócios, do Valuation e da Proposta de venda de participação",
+      "Negociação com investidor",
+      "Customized Objective Learning Assessment",
+      "Liberação dos resultados do Learning Assessment",
+      "Reunião com CEOS e VPS de RH Gestão, Reconhecimento e Remuneração"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714001",
+      "name": "Organización y Gestión de Empresas",
+      "pageCode": "21714001",
+      "faculty": "Escuela Superior de Ingeniería (departamento Organización de Empresas)",
+      "programme": "Grado en Ingeniería Informática (1725); módulo I Formación básica, materia I.1 Empresa",
+      "level": "Grado",
+      "yearOfStudy": 2,
+      "semester": "Primer semestre",
+      "period": "Primer semestre, 2º curso",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (castellano)",
+      "courseStatus": "Formación básica o troncal",
+      "assessment": "Quatro provas: exame teórico 1 (25%), exame prático 1 (25%), exame teórico 2 (25%), exame prático 2 (25%)",
+      "prerequisites": "Campo de requisitos prévios sem texto na página",
+      "source": "https://asignaturas.uca.es/2026-27/21714001",
+      "catalogue": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "sha256": "3e588b6afbfe9386a87eed9e2d8a65b276218417205a1f7ff0bd51687bb5cd8f",
+      "location": "Programa docente 2026-27: identificação, Resultados de aprendizagem (1-15), Actividades y metodologías docentes, Sistema de evaluación, Temario (temas 01-12)",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 42,
+        "contactSeminarLab": 18,
+        "selfStudy": 86,
+        "totalWorkload": 150,
+        "ects": 6.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Página declara 60 h de docência presencial (teoria 42 + práticas, seminários e problemas 18), 90 h de outras atividades (86 não presenciais + 4 de avaliação) e 150 h totais. A duração da hora não é declarada. Os 6 ECTS não foram convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Decisões sobre gestão de pessoas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizagem 1-15, metodologias, avaliação e Temario (temas 01-12) do programa docente 2026-27",
+      "note": "Nenhum tema de gestão de pessoas; o resultado 4 trata só de funções administrativas em geral."
+    },
+    {
+      "brTopic": "Análise de mercado e implantação da empresa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 05 'El mercado: concepto, segmentación y estrategias'; Tema 02 emprendedores; Tema 09 decisões de localização das instalações",
+      "foreignLocation": "Temario, temas 02, 05 e 09",
+      "note": "Mercado, empreendedor e localização são tratados de forma conceitual; não há simulação de implantação da empresa nem análise de mercado aplicada."
+    },
+    {
+      "brTopic": "Decisões em um Ambiente de incerteza",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizagem 1-15, metodologias, avaliação e Temario (temas 01-12) do programa docente 2026-27",
+      "note": "Decisão sob incerteza (risco, cenários) não é citada; o resultado 7 de avaliação de projetos de investimento é o tema mais próximo."
+    },
+    {
+      "brTopic": "Lean Manufacturing and Quality Improvement",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizagem 1-15, metodologias, avaliação e Temario (temas 01-12) do programa docente 2026-27",
+      "note": "Os temas 06, 07 e 11 (produção, produtividade, estudo de métodos e tempos) são vizinhos, mas lean e melhoria da qualidade não aparecem."
+    },
+    {
+      "brTopic": "Demonstrativos Financeiros, Plano de negócios, Valuation e Gestão de RH",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Resultado 5 'diferencias entre un balance y una cuenta de resultados'; Tema 04 inversión, financiación, beneficio y rentabilidad; resultado 7 'Evaluar proyectos de inversión'",
+      "foreignLocation": "Resultados de aprendizagem 5-7; Temario, tema 04",
+      "note": "Cobre demonstrativos e investimento no nível conceitual; plano de negócios, valuation e RH não aparecem."
+    },
+    {
+      "brTopic": "Elaboração do plano de negócios, do Valuation e da Proposta de venda de participação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizagem 1-15, metodologias, avaliação e Temario (temas 01-12) do programa docente 2026-27",
+      "note": "Sem produto de plano de negócios nem proposta a investidor; avaliação por quatro provas escritas."
+    },
+    {
+      "brTopic": "Negociação com investidor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizagem 1-15, metodologias, avaliação e Temario (temas 01-12) do programa docente 2026-27",
+      "note": "Sem atividade de negociação ou captação."
+    },
+    {
+      "brTopic": "Customized Objective Learning Assessment",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Sistema de evaluación (quatro exames escritos) e metodologias do programa docente 2026-27",
+      "note": "Evento de avaliação da simulação Mackenzie, não tópico curricular; a UCA avalia com exames teóricos e práticos."
+    },
+    {
+      "brTopic": "Liberação dos resultados do Learning Assessment",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Sistema de evaluación (quatro exames escritos) e metodologias do programa docente 2026-27",
+      "note": "Evento administrativo da simulação Mackenzie, não tópico curricular."
+    },
+    {
+      "brTopic": "Reunião com CEOS e VPS de RH Gestão, Reconhecimento e Remuneração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de aprendizagem 1-15, metodologias, avaliação e Temario (temas 01-12) do programa docente 2026-27",
+      "note": "Sem conteúdo de reconhecimento e remuneração nem atividade com executivos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Empresa, sistema econômico e agentes econômicos; curva de transformação", "location": "Temario, tema 01"},
+    {"topic": "Formas jurídicas das sociedades segundo a legislação espanhola", "location": "Resultado 2; Temario, tema 02"},
+    {"topic": "Empresa como sistema e funções diretivas", "location": "Temario, tema 03"},
+    {"topic": "Dimensão e localização de instalações, layout, estudo de métodos e tempos", "location": "Temario, temas 08-11"},
+    {"topic": "Planejamento, programação e controle de projetos", "location": "Temario, tema 12"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: simulação da gestão empresarial em mercado competitivo, integração das áreas funcionais e decisão estratégica para desempenho operacional, de mercado e financeiro.",
+    "foreign": ["Enquadrar a empresa na realidade econômica", "Distinguir áreas e funções administrativas da empresa", "Avaliar projetos de investimento", "Analisar desenho produtivo, capacidade, localização e layout"],
+    "convergences": ["Visão integrada das áreas da empresa", "Mercado, marketing, finanças e produção em nível conceitual"],
+    "differences": ["Mackenzie é um capstone de simulação competitiva com plano de negócios, valuation e negociação com investidor", "A UCA é uma introdução expositiva à empresa para engenharia informática, avaliada por provas escritas"]
+  },
+  "depth": {
+    "level": "Graduação em ambas; Cádiz em 2º ano de Engenharia Informática (formação básica), Mackenzie na 8ª etapa, de síntese",
+    "brazil": "63,3 h de simulação integrada de gestão, com decisão estratégica, plano de negócios e valuation",
+    "foreign": "6 ECTS, 60 h presenciais: introdução à economia da empresa e à organização da produção, com teoria de grupo grande e problemas",
+    "theoryPractice": "42 h de teoria e 18 h de práticas, seminários e problemas; sem simulação nem trabalho em equipe avaliado"
+  },
+  "practical": {
+    "period": "Primeiro semestre do 2º curso; 2027.2 provavelmente fora do semestre de oferta (a confirmar)",
+    "language": "Espanhol (castellano); campos de oferta em língua estrangeira sem opção marcada",
+    "enrolment": "Oferta 2026-27 'SIM', vigente, 150 matriculados em 2026-27; campos de mobilidade internacional e plazas sem valores preenchidos",
+    "prerequisites": "Campo sem texto na página",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A disciplina de Cádiz é uma introdução expositiva à empresa para engenharia informática; não oferece a simulação integrada, o plano de negócios, o valuation, a negociação com investidor nem a gestão de pessoas que definem a ficha Mackenzie, e só duas unidades conceituais se aproximam.",
+  "justification": "Nenhum dos oito enunciados essenciais está coberto; mercado, empreendedor e localização (temas 02, 05, 09) tocam a análise de mercado e implantação, e demonstrativos, investimento e financiamento (tema 04, resultados 5-7) tocam a parte financeira, ambos como parciais. Os outros seis, incluindo pessoas, incerteza, lean e qualidade, plano de negócios, negociação com investidor e reconhecimento e remuneração, não aparecem no temário nem nos resultados de aprendizagem. A cobertura de 25% fica abaixo do mínimo de afinidade parcial. As 60 horas presenciais (razão 0,95 sobre 63,3 h, ou 0,79 se a hora for de 50 min) não compensam a diferença de natureza: a UCA avalia com provas escritas, e Mackenzie com simulação de gestão. Os dois eventos de avaliação da simulação foram marcados como não essenciais.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa 2026-27 completo, com temário e horas explícitas, mas a ficha brasileira é um roteiro de simulação sem vigência confirmada.",
+  "limitations": [
+    "A disciplina Mackenzie é um capstone de simulação com eventos (avaliação, reunião com CEOs) que não têm equivalente em disciplina expositiva",
+    "Dois enunciados oficiais de avaliação da simulação foram tratados como não essenciais; o enunciado de reunião com CEOs e VPs foi mantido como essencial por citar reconhecimento e remuneração",
+    "A duração da hora presencial não é declarada; razão 0,95, ou 0,79 com hora de 50 min; 6 ECTS não são convertidos",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada; semestre de oferta é o primeiro, e campos de mobilidade internacional estão sem valores",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UCA oferece disciplina de simulação empresarial ou de plano de negócios em outro grado (Administración y Dirección de Empresas)?",
+    "A coordenação aceita disciplina de introdução à empresa de engenharia para uma disciplina de síntese da 8ª etapa?"
+  ],
+  "alternatives": [
+    {"code": "21714003", "name": "Fundamentos Físicos y Electrónicos de la Informática", "relation": "Mesmo grado; lida em parecer separado (para Informática Básica), é de física e eletrônica e não de gestão"}
+  ],
+  "method": "Leitura integral do programa docente 2026-27 da UCA (resultados, metodologia, avaliação, temário) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado procurado no temário e nos resultados; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Diferença de natureza entre disciplinas é explícita nos documentos"}
+}

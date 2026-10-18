@@ -1,0 +1,218 @@
+{
+  "id": "dir|TEORIA GERAL DO PROCESSO|es-salamanca|CAT-USAL-207622",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TEORIA GERAL DO PROCESSO",
+    "name": "Teoria Geral do Processo",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 21, bloco 'TEORIA GERAL DO PROCESSO' (3ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 4 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "O ensino dos métodos estatal e não-estatais de resolução de conflitos em conjunto com o estudo dos fundamentos constitucionais do processo tem como premissa que a garantia de acesso à justiça não se esgota no acesso ao Poder Judiciário",
+      "A partir dessa constatação, o estudo dos aspectos fundamentais do direito processual e sua relação com o modelo constitucional de devido processo ocupa papel central e regula os mencionados métodos",
+      "Quando se trate do processo judicial, o estudo de seus institutos e da regulação da atuação do poder estatal permanece relevante, de modo que devem ser analisados: Jurisdição, Processo, Ação e Defesa",
+      "Estudo sobre os aspectos fundamentais do direito processual e sua relação com o modelo constitucional de devido processo",
+      "e sobre seus institutos: Jurisdição, Processo, Ação e Defesa",
+      "Fontes do direito processual",
+      "Princípios processuais",
+      "Análise da nova jurisdicionalidade: mediação, conciliação e arbitragem",
+      "Importância da compreensão dos conceitos para o exercício prático da atividade jurídica"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Salamanca",
+      "name": "INTRODUCCIÓN AL DERECHO PROCESAL",
+      "level": "Grau (graduação)",
+      "catalogue": "https://guias.usal.es/node/207622",
+      "universityId": "es-salamanca",
+      "code": "CAT-USAL-207622",
+      "source": "https://guias.usal.es/node/207622",
+      "sha256": "0dbaee268d9aa3cf4d97c30409a767b8e928be9f453db7631114f6db598502c9",
+      "faculty": "Facultad de Derecho (Grado en Derecho)",
+      "department": "Derecho Administrativo, Financiero y Procesal; área Derecho Procesal",
+      "programme": "Grado en Derecho; asignatura obligatoria, plan 223",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "Primer semestre do 3º curso",
+      "academicYear": "2025/2026",
+      "language": "ESPAÑOL",
+      "courseStatus": "Obligatoria",
+      "assessment": "Critérios não descritos: a secção 9 traz só 'Evaluación (Fecha: 17-07-17)'",
+      "prerequisites": "Recomenda-se ter cursado Teoría del Derecho e Derecho Constitucional",
+      "location": "Guia 2025/2026: secções 1 (Datos), 2 (Recomendaciones), 3 (Objetivos e competências específicas), 4, 5 (Contenidos: lecciones 1-8 e práctica), 6 (Metodologías), 7 (sem valores), 9 (Evaluación)",
+      "officialCode": "102320",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 3,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A secção 7 (Distribución de las Metodologías Docentes) não traz valores no texto; só 3 ECTS declarados, sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O ensino dos métodos estatal e não-estatais de resolução de conflitos em conjunto com o estudo dos fundamentos constitucionais do processo tem como premissa que a garantia de acesso à justiça não se esgota no acesso ao Poder Judiciário",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'relevancia y la función social del Derecho Procesal como sistema de solución de conflictos surgidos en las relaciones sociales'; lección 4 'derecho a la tutela judicial efectiva'",
+      "foreignLocation": "Seção 3, primeiro objetivo; seção 5, lección 4",
+      "note": "O acesso à justiça via tutela judicial efetiva aparece; os métodos não estatais de resolução de conflitos não são mencionados."
+    },
+    {
+      "brTopic": "A partir dessa constatação, o estudo dos aspectos fundamentais do direito processual e sua relação com o modelo constitucional de devido processo ocupa papel central e regula os mencionados métodos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Lección 6 'Los principios procesales referidos al proceso y al procedimiento. Garantías constitucionales'; lección 7 'El Derecho Procesal como garantía del ordenamiento jurídico'",
+      "foreignLocation": "Seção 5, lecciones 6 e 7; seção 3, competência 1",
+      "note": "A ponte entre processo e Constituição é explícita; o modelo é o espanhol da tutela judicial efetiva, não o devido processo legal brasileiro."
+    },
+    {
+      "brTopic": "Quando se trate do processo judicial, o estudo de seus institutos e da regulação da atuação do poder estatal permanece relevante, de modo que devem ser analisados: Jurisdição, Processo, Ação e Defesa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Lección 1 'La función jurisdiccional'; lección 2 'Jurisdicción y Legislación. Jurisdicción y Administración'; lección 3 órgão jurisdicional; lección 4 'Acción'; lección 5 'El Proceso'",
+      "foreignLocation": "Seção 5, lecciones 1 a 5",
+      "note": "Jurisdição, ação e processo estão cobertos com profundidade, e a atuação do poder estatal é regulada nas lecciones 2 e 3; defesa não é listada."
+    },
+    {
+      "brTopic": "Estudo sobre os aspectos fundamentais do direito processual e sua relação com o modelo constitucional de devido processo",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Competência 5: 'Valorar cuándo se entiende vulnerado el derecho a la tutela judicial efectiva'; lección 6 garantias constitucionais; lección 7 direito processual como garantia",
+      "foreignLocation": "Seção 3, competências específicas 1 e 5; seção 5, lecciones 6 e 7",
+      "note": "Tópico equivalente ao segundo, formulado de modo repetido na ementa por segmentação do texto."
+    },
+    {
+      "brTopic": "e sobre seus institutos: Jurisdição, Processo, Ação e Defesa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Lección 1 jurisdição; lección 4 'Acción y pretensión'; lección 5 proceso",
+      "foreignLocation": "Seção 5, lecciones 1, 4 e 5",
+      "note": "Jurisdição, ação e processo estão, mas 'defesa' não consta como instituto do guia."
+    },
+    {
+      "brTopic": "Fontes do direito processual",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5 (lecciones 1-8 e prática), seções 3 e 4: a lección 7 trata do conceito, etapas de formação e caracteres do Derecho Procesal, sem listar fontes; a competência B6 sobre fontes jurídicas é genérica do grado.",
+      "note": "Fontes do direito processual não são um item de conteúdo."
+    },
+    {
+      "brTopic": "Princípios processuais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Los principios procesales referidos al proceso y al procedimiento. Garantías constitucionales.'",
+      "foreignLocation": "Seção 5, lección 6"
+    },
+    {
+      "brTopic": "Análise da nova jurisdicionalidade: mediação, conciliação e arbitragem",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5, seção 3 e metodologia: mediação, conciliação e arbitragem não aparecem; a competência B11 sobre negociar e conciliar é genérica para o grado e não é conteúdo da disciplina.",
+      "note": "A 'nova jurisdicionalidade' não consta; a lección 3 trata apenas de órgãos jurisdicionais."
+    },
+    {
+      "brTopic": "Importância da compreensão dos conceitos para o exercício prático da atividade jurídica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivo 2: 'comprender las categorías e instituciones jurídico procesales en su aplicación práctica'; práticas com casos e exposição oral",
+      "foreignLocation": "Seção 3, segundo objetivo; seção 5, Práctica; seção 6",
+      "note": "Prática estruturada por casos, jurisprudência e textos legais."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Órgão jurisdicional, órgãos internacionais (TEDH, TJUE, TPI), Consejo General del Poder Judicial, abstenção e recusa",
+      "location": "Contenidos, lección 3"
+    },
+    {
+      "topic": "Atos processuais, vícios, atos de comunicação e cooperação judicial internacional",
+      "location": "Contenidos, lección 8"
+    },
+    {
+      "topic": "Conceito, formação histórica e caracteres do Derecho Procesal",
+      "location": "Contenidos, lección 7"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário 2022 sem competências formais; articula acesso à justiça, métodos estatais e não estatais de solução de conflitos e institutos fundamentais do processo.",
+    "foreign": [
+      "Compreender a função social do direito processual como solução de conflitos",
+      "Conhecer jurisdição, organização judicial e estrutura dos processos",
+      "Aplicar a teoria dos atos processuais",
+      "Raciocinar criticamente e expor oralmente soluções a casos"
+    ],
+    "convergences": [
+      "Jurisdição, ação e processo como institutos centrais",
+      "Princípios e garantias constitucionais do processo",
+      "Prática de casos"
+    ],
+    "differences": [
+      "Foco em organização judicial e atos processuais, que a ementa brasileira não lista",
+      "Sem mediação, conciliação e arbitragem",
+      "Sem fontes do direito processual como conteúdo"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca: 3º curso, obrigatória; Mackenzie: 3ª etapa",
+    "brazil": "4 horas-aula semanais, ementa de 9 tópicos (vários repetidos pela segmentação do texto)",
+    "foreign": "3 ECTS, 8 lecciones teóricas e práticas de casos",
+    "theoryPractice": "Teoria e práticas com casos, exposições e tutorias; horas por modalidade não declaradas"
+  },
+  "practical": {
+    "period": "Primer semestre do 3º curso; confirmar se coincide com o semestre de mobilidade 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Obrigatória do grado, com Teoria do Direito e Direito Constitucional recomendados; aceitação de intercambista não verificada",
+    "prerequisites": "Recomendados: Teoría del Derecho e Derecho Constitucional",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introducción al Derecho Procesal responde bem ao núcleo clássico de Teoria Geral do Processo (jurisdição, ação, processo, princípios e garantias constitucionais), com ênfase própria em órgãos jurisdicionais e atos processuais, mas não trata de fontes do direito processual nem dos meios consensuais e arbitrais.",
+  "justification": "Quatro dos nove tópicos essenciais são cobertos: relação entre processo e modelo constitucional (lecciones 6 e 7, duas vezes por repetição da ementa), princípios processuais (lección 6) e importância prática dos conceitos (objetivo 2 e práticas). Três são parciais: acesso à justiça sem métodos não estatais, institutos sem 'defesa' (duas vezes). Dois não aparecem: fontes do direito processual e a nova jurisdicionalidade de mediação, conciliação e arbitragem. A cobertura plena é de 44% e a plena ou parcial de 78%, o que mantém o par em afinidade parcial. A carga não se compara: 4 horas-aula semanais contra 3 ECTS sem horas de contato, e o ementário de 2022 é histórico. Diferentemente de Procedimentos Especiais, aqui o guia espanhol toca o núcleo declarado da componente brasileira.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia individual com lecciones detalhadas e competências, mas sem horas nem critérios de avaliação e de 2025/2026; ementa brasileira de 2022 segmentada em tópicos repetidos.",
+  "limitations": [
+    "Guia de Salamanca é do curso 2025/2026; o de 2026/2027 não foi lido",
+    "Ementário Mackenzie de 2022 é edição histórica; a matriz vigente pode divergir",
+    "Mackenzie informa 4 horas-aula semanais; Salamanca informa 3 ECTS sem horas de contato; carga não comparável e ECTS não convertidos",
+    "Alguns tópicos da ementa brasileira se repetem (modelo constitucional do processo, institutos) por segmentação do texto e contam duas vezes no indicador",
+    "O devido processo legal brasileiro e a nova jurisdicionalidade (Lei de Mediação, Lei de Arbitragem) não são cobertos pelo direito espanhol do guia",
+    "Oferta 2027/28 e vagas para intercambistas não confirmadas"
+  ],
+  "openQuestions": [
+    "Salamanca oferece outra disciplina que trate de meios alternativos de resolução de conflitos, mediação e arbitragem?",
+    "A coordenação aceita um conteúdo de 3 ECTS para uma componente brasileira de 4 horas-aula semanais?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e do guia USAL 2025/2026 (nó 207622, código oficial 102320) com apoio de IA (Claude); título do guia conferido com o nome do catálogo (coincide); nove tópicos examinados contra as 8 lecciones, objetivos, competências e práticas",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão docente do peso de organização judicial e atos processuais frente aos métodos consensuais da ementa brasileira"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

@@ -1,0 +1,187 @@
+{
+  "id": "adm|Comportamento Organizacional|po-55-institutopolit|51003255",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Comportamento Organizacional",
+    "name": "Comportamento Organizacional",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 1, bloco 'Comportamento Organizacional': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Comportamento Organizacional – Conceito, dimensões e elementos",
+      "Processos Cognitivos e formação de atitudes",
+      "Processo de aprendizagem individual",
+      "Adoecimento no trabalho, estresse e qualidade de vida no trabalho",
+      "Comprometimento, Satisfação e envolvimento no Trabalho",
+      "Motivação",
+      "Liderança e poder nas organizações",
+      "Cultura organizacional",
+      "Diversidade"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-55-institutopolit",
+      "university": "Instituto Politécnico de Coimbra (Universidade Politécnica de Coimbra)",
+      "code": "51003255",
+      "name": "Comportamento Organizacional",
+      "pageCode": "51003255",
+      "faculty": "Instituto Superior de Contabilidade e Administração de Coimbra (ISCAC); área científica Ciências Empresariais e Económicas",
+      "programme": "Licenciatura em Gestão de Empresas",
+      "level": "1º ciclo",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Semestral (a página não indica qual semestre)",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória",
+      "assessment": "Não informada na página",
+      "prerequisites": "Não informados na página",
+      "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294362&r=26522",
+      "catalogue": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/",
+      "sha256": "5e80437cd7d13f07030c689528520906aed6f913276aaf5f3e2a170966d267c4",
+      "location": "Ficha da unidade curricular: Métodos de Ensino, Resultados de Aprendizagem (1-3), Programa (cap. 1-5), Bibliografia, dados gerais (ano letivo 2026/2027, ECTS 6, modo presencial)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6 ECTS, duração semestral e modo presencial, sem horas de contacto nem semestre. Não derivado de ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Comportamento Organizacional – Conceito, dimensões e elementos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1. O que é o Comportamento Organizacional?': 1.1 Organizações e Pessoas; 1.2 A Gestão, o Gestor e os seus papéis",
+      "foreignLocation": "Programa, cap. 1, itens 1.1-1.2; Resultados de Aprendizagem 1"
+    },
+    {
+      "brTopic": "Processos Cognitivos e formação de atitudes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1.3 Fatores explicativos do comportamento individual'; '1.4 A percepção e o processo individual de tomada de decisão'",
+      "foreignLocation": "Programa, itens 1.3 e 1.4",
+      "note": "Percepção e decisão individual cobrem a parte cognitiva; formação de atitudes não é nomeada."
+    },
+    {
+      "brTopic": "Processo de aprendizagem individual",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Métodos de Ensino, Resultados de Aprendizagem 1-3 e Programa (cap. 1 a 5) foram lidos; a aprendizagem individual só aparece como 'aquisição/atualização de informação' no resultado 2, sem item de programa.",
+      "note": "O resultado 2 menciona aquisição e atualização de informação na sociedade da informação, uma formulação social e não de psicologia da aprendizagem."
+    },
+    {
+      "brTopic": "Adoecimento no trabalho, estresse e qualidade de vida no trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5.5 O Stress no trabalho'",
+      "foreignLocation": "Programa, item 5.5",
+      "note": "Stress é coberto; adoecimento e qualidade de vida no trabalho não são nomeados."
+    },
+    {
+      "brTopic": "Comprometimento, Satisfação e envolvimento no Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resultados de Aprendizagem e Programa (cap. 1 a 5) foram lidos; comprometimento, satisfação e envolvimento não são citados, apenas fatores do comportamento individual (item 1.3).",
+      "note": "O item 1.3 pode abranger atitudes no trabalho, mas o texto não permite afirmar."
+    },
+    {
+      "brTopic": "Motivação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'2. A motivação do indivíduo': 2.1 Processo motivacional, 2.2 Visões sobre a motivação, 2.3 Técnicas de motivação",
+      "foreignLocation": "Programa, cap. 2; Resultados de Aprendizagem 1"
+    },
+    {
+      "brTopic": "Liderança e poder nas organizações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'3. A Liderança': traços, comportamental, contingencial; carismática, transformacional, transacional; liderança contemporânea",
+      "foreignLocation": "Programa, cap. 3, itens 3.1-3.3",
+      "note": "Liderança é coberta com detalhe; poder não é nomeado (gestão de conflito e negociação, 4.3-4.4, tocam o tema)."
+    },
+    {
+      "brTopic": "Cultura organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'5.4 A cultura organizacional'; resultado de aprendizagem 1 inclui cultura organizacional",
+      "foreignLocation": "Programa, item 5.4; Resultados de Aprendizagem 1"
+    },
+    {
+      "brTopic": "Diversidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa (cap. 1 a 5), Resultados de Aprendizagem e Métodos de Ensino foram lidos; diversidade não aparece, nem na bibliografia nomeada (Robbins e Judge, Buchanan e Huczynski, Marujo et al.).",
+      "note": "O livro 'Humanizar as organizações' está na bibliografia, mas o programa não lista diversidade."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Ética empresarial", "location": "Programa, item 1.5"},
+    {"topic": "Comunicação organizacional, grupos e trabalho em equipa", "location": "Programa, cap. 4, itens 4.1-4.2"},
+    {"topic": "Gestão do conflito e processo de negociação", "location": "Programa, itens 4.3-4.4"},
+    {"topic": "Modelos e teorias de mudança organizacional e mudança na era digital", "location": "Programa, itens 5.1-5.3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: teorias e abordagens do comportamento humano nas organizações em três níveis (individual, grupal e organizacional): satisfação, motivação, liderança, grupos e equipes, cultura e mudança, diversidade e qualidade de vida.",
+    "foreign": ["Compreender conceitos, teorias e modelos de motivação, liderança, cultura e comunicação", "Analisar criticamente o comportamento humano nas organizações", "Desenvolver trabalho em equipa e aplicação prática por simulação"],
+    "convergences": ["Motivação, liderança e cultura organizacional", "Três níveis: individual, grupo e organização", "Aprendizagem por estudo de caso e simulação"],
+    "differences": ["Coimbra acrescenta comunicação, conflito, negociação, mudança e ética empresarial", "Mackenzie nomeia aprendizagem, satisfação e comprometimento, adoecimento e diversidade, ausentes do programa de Coimbra", "Coimbra é do 1º ano e Mackenzie da 5ª etapa"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; ISCAC no 1º ano de Gestão de Empresas, Mackenzie na 5ª etapa de Administração",
+    "brazil": "Comportamento humano em três níveis de análise, 63,3 h-relógio, nove itens",
+    "foreign": "Comportamento organizacional em cinco capítulos com 6 ECTS",
+    "theoryPractice": "Aprendizagem centrada no estudante, estudos de caso e simulações de dinâmica grupal"
+  },
+  "practical": {
+    "period": "Semestral (semestre não indicado); oferta 2027/28 não confirmada",
+    "language": "Português",
+    "enrolment": "UC obrigatória do 1º ano; a ficha não informa vagas para mobilidade; o portal institucional tem páginas de mobilidade internacional separadas",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A UC do ISCAC cobre a motivação, a liderança, a cultura organizacional e a base conceitual da ficha Mackenzie, com stress como parcial, mas deixa sem evidência aprendizagem individual, satisfação e comprometimento, e diversidade.",
+  "justification": "Três itens estão cobertos (conceito de comportamento organizacional, motivação, cultura), três são parciais (percepção sem formação de atitudes, stress sem adoecimento e qualidade de vida, liderança sem poder) e três ausentes (aprendizagem individual, comprometimento/satisfação/envolvimento e diversidade), o que dá 67% de cobertura útil. O programa de cinco capítulos é itemizado e acrescenta comunicação, conflito, negociação e mudança. Não há horas de contacto: a página traz 6 ECTS e duração semestral, e a carga não é comparável. A afinidade parcial é limitada pelas lacunas de conteúdo individual e de diversidade e pela ficha brasileira sem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e resultados de aprendizagem explícitos, mas sem horas de contacto, sem semestre e com ficha brasileira de vigência não confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; a página traz o ano letivo 2026/2027",
+    "Horas de contacto e semestre não declarados; 6 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Itens não encontrados podem estar contidos em tópicos genéricos como 1.3; a página não detalha os subitens",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O item 1.3 (fatores explicativos do comportamento individual) inclui aprendizagem, atitudes, satisfação e comprometimento?",
+    "A UC trata diversidade nas simulações de dinâmica grupal?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e da página oficial da UC no portal do Politécnico de Coimbra (métodos, resultados de aprendizagem, programa, bibliografia, dados gerais) com apoio de IA (Claude); cada item vinculado a capítulo ou subitem; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Programa itemizado e consistente"}
+}

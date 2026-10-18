@@ -1,0 +1,268 @@
+{
+  "id": "adm|Metodologia de Pesquisa em Ciências Sociais Aplicadas|gb-leeds|LUBS2415",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Metodologia de Pesquisa em Ciências Sociais Aplicadas",
+    "name": "Metodologia de Pesquisa em Ciências Sociais Aplicadas",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 8, bloco 'Metodologia de Pesquisa em Ciências Sociais Aplicadas': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "A ficha informa 4 aulas semanais e não declara carga horária total em horas-relógio. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Comparação entre os métodos de pesquisa prática/aplicada e acadêmica",
+      "Abordagens e tipos de pesquisa",
+      "Introdução à Metodologia de Pesquisa Prática/Aplicada",
+      "Estrutura",
+      "Relatório da situação: Empresa; o problema; os sintomas",
+      "Diagnóstico: as informações; análise e diagnóstico",
+      "Dados – Técnicas de Coleta, Instrumentos, Técnicas de Análise",
+      "Aporte teórico",
+      "Solução e planejamento",
+      "Introdução – Introdução à Metodologia de Pesquisa Acadêmica",
+      "Problema de pesquisa",
+      "Objetivos geral e específicos",
+      "Justificativa",
+      "Procedimentos metodológicos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS2415",
+      "name": "Research Methods in International Business",
+      "pageCode": "LUBS2415",
+      "faculty": "Leeds University Business School (módulo LUBS)",
+      "programme": "Undergraduate Module Catalogue 2026/27 (graduação)",
+      "level": "Graduação (UG)",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "Semesters 1 & 2 (Sep to Jun): módulo anual",
+      "academicYear": "2026/2027",
+      "language": "English",
+      "courseStatus": "Módulo do programa de International Business (preparação da dissertação LUBS3321); não é 'discovery module'",
+      "assessment": "Dois ensaios de 2.000 palavras (50% cada, um por semestre)",
+      "prerequisites": "Nenhum pré-requisito listado",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/2415/202627",
+      "catalogue": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/2415/202627",
+      "sha256": "98444b12e9e4a95380d6d74fcedecc0a95c583b99b5df2c3a109b221e5b8d520",
+      "location": "Module Catalogue 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Skills, Syllabus (Semester 1 e 2), Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 34.0,
+        "contactLecture": 22.0,
+        "contactSeminarLab": 12.0,
+        "selfStudy": 166.0,
+        "totalWorkload": 200.0,
+        "ects": null,
+        "basis": "ano",
+        "hourLengthMinutes": null,
+        "note": "20 UK credits (100 h por 10 credits = 200 h de trabalho total, não horas de contacto). 'Total Contact hours 34': 22 aulas de 1 h + 12 seminários de 1 h. Módulo ANUAL (semestres 1 e 2): as 34 h não cabem em um único semestre. Duração da hora igual a 1 h declarada na tabela; hourLengthMinutes não preenchido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Comparação entre os métodos de pesquisa prática/aplicada e acadêmica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumo, Objectives, Learning outcomes, Skills, Syllabus indicativo (Semester 1: 11 itens; Semester 2: 11 itens), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "O módulo discute filosofias de pesquisa e método científico, mas não contrasta pesquisa prática/aplicada com acadêmica."
+    },
+    {
+      "brTopic": "Abordagens e tipos de pesquisa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semester 1: 'Intro to qualitative research', entrevistas, grupos focais, estudo de caso; Semester 2: 'What is quantitative research'",
+      "foreignLocation": "Syllabus, Semester 1 itens 4-9 e Semester 2 itens 1-2; Learning outcomes (world views)",
+      "note": "Abordagens qualitativa e quantitativa e debate entre visões de mundo (epistemologia)."
+    },
+    {
+      "brTopic": "Introdução à Metodologia de Pesquisa Prática/Aplicada",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumo, Objectives, Learning outcomes, Skills, Syllabus indicativo (Semester 1: 11 itens; Semester 2: 11 itens), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Não há pesquisa aplicada de consultoria: o módulo prepara a dissertação acadêmica de International Business (LUBS3321)."
+    },
+    {
+      "brTopic": "Estrutura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumo, Objectives, Learning outcomes, Skills, Syllabus indicativo (Semester 1: 11 itens; Semester 2: 11 itens), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "A estrutura de relatório aplicado da ficha brasileira não tem equivalente; só se menciona preparar o projeto de dissertação."
+    },
+    {
+      "brTopic": "Relatório da situação: Empresa; o problema; os sintomas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumo, Objectives, Learning outcomes, Skills, Syllabus indicativo (Semester 1: 11 itens; Semester 2: 11 itens), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Não há tema de relatório da situação da empresa, problema e sintomas."
+    },
+    {
+      "brTopic": "Diagnóstico: as informações; análise e diagnóstico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumo, Objectives, Learning outcomes, Skills, Syllabus indicativo (Semester 1: 11 itens; Semester 2: 11 itens), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Diagnóstico organizacional não aparece; o módulo trata de coleta e análise para pesquisa acadêmica."
+    },
+    {
+      "brTopic": "Dados – Técnicas de Coleta, Instrumentos, Técnicas de Análise",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semester 1: entrevistas, grupos focais, observação, análise de dados qualitativos; Semester 2: 'Quantitative data collection methods' e cinco aulas de análise quantitativa",
+      "foreignLocation": "Syllabus, Semester 1 itens 5-9 e 11; Semester 2 itens 4-9",
+      "note": "Cobertura mais ampla e detalhada que a ficha brasileira, em duas metades do ano."
+    },
+    {
+      "brTopic": "Aporte teórico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semester 1: 'Research topic and literature review'; habilidade de localizar literatura relevante para um projeto",
+      "foreignLocation": "Syllabus, Semester 1 item 3; Skills (Transferable)",
+      "note": "Revisão de literatura equivale em parte ao aporte teórico; a construção do referencial teórico não é nomeada."
+    },
+    {
+      "brTopic": "Solução e planejamento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumo, Objectives, Learning outcomes, Skills, Syllabus indicativo (Semester 1: 11 itens; Semester 2: 11 itens), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Não há solução ou planejamento de intervenção: o produto é projeto de pesquisa."
+    },
+    {
+      "brTopic": "Introdução – Introdução à Metodologia de Pesquisa Acadêmica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Summary: princípios da descoberta científica e 'different research philosophies'; Introduction to Research methods; método científico e epistemologia",
+      "foreignLocation": "Module summary; Learning outcomes; Syllabus, Semester 1 item 1"
+    },
+    {
+      "brTopic": "Problema de pesquisa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Learning outcome: 'The logic underpinning the identification of a research question'; Semester 1 item 2 'Formulating research questions'",
+      "foreignLocation": "Learning outcomes; Syllabus, Semester 1 item 2"
+    },
+    {
+      "brTopic": "Objetivos geral e específicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semester 1 item 2 'Formulating research questions'; habilidade de desenhar um projeto de pesquisa",
+      "foreignLocation": "Syllabus, Semester 1 item 2; Skills",
+      "note": "Questões de pesquisa são o equivalente mais próximo; objetivo geral e específicos não são nomeados."
+    },
+    {
+      "brTopic": "Justificativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Resumo, Objectives, Learning outcomes, Skills, Syllabus indicativo (Semester 1: 11 itens; Semester 2: 11 itens), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Justificativa do projeto não é citada."
+    },
+    {
+      "brTopic": "Procedimentos metodológicos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semester 2: 'Quantitative research design'; habilidade de avaliar estratégias de pesquisa, métodos de coleta e de análise para um projeto",
+      "foreignLocation": "Syllabus, Semester 2 item 2; Skills (Transferable)"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Método científico, epistemologia e visões de mundo na pesquisa",
+      "location": "Learning outcomes; Syllabus, Semester 1 item 1"
+    },
+    {
+      "topic": "Ética em pesquisa",
+      "location": "Syllabus, Semester 1 item 10"
+    },
+    {
+      "topic": "Mensuração e apresentação de dados quantitativos",
+      "location": "Syllabus, Semester 2 itens 3 e 10"
+    },
+    {
+      "topic": "Análise crítica de artigos com métodos fracos",
+      "location": "Skills outcomes (Subject Specific)"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: métodos de pesquisa científica e orientação para elaborar projeto de pesquisa nos padrões do TGI do CCSA e normas ABNT.",
+    "foreign": [
+      "Explicar método científico e epistemologia",
+      "Formular questão e desenhar uma pesquisa",
+      "Aplicar métodos qualitativos e quantitativos de coleta e análise",
+      "Avaliar criticamente pesquisas publicadas"
+    ],
+    "convergences": [
+      "Problema de pesquisa e procedimentos metodológicos",
+      "Técnicas de coleta e análise de dados",
+      "Tipos e abordagens de pesquisa"
+    ],
+    "differences": [
+      "Leeds prepara dissertação acadêmica e não tem a trilha de pesquisa aplicada (relatório da situação, diagnóstico, solução)",
+      "Leeds é anual com 34 h de contato e inclui análise quantitativa extensa",
+      "Mackenzie vincula-se às normas ABNT e ao TGI"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Leeds em módulo de International Business (20 UK credits, anual), Mackenzie na 6ª etapa",
+    "brazil": "Metodologia para projeto aplicado e acadêmico de TGI, 4 aulas semanais",
+    "foreign": "Métodos qualitativos e quantitativos em dois semestres, 20 UK credits",
+    "theoryPractice": "22 aulas expositivas e 12 seminários; avaliação por dois ensaios de 2.000 palavras"
+  },
+  "practical": {
+    "period": "Módulo anual (semestres 1 e 2): não pode ser concluído em um único semestre 2027.2; oferta 2027/28 não confirmada",
+    "language": "English",
+    "enrolment": "A página não declara disponibilidade para study abroad; é módulo de programa específico (class size 180)",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Research Methods in International Business cobre bem o eixo acadêmico da ficha Mackenzie (problema, procedimentos, coleta e análise, tipos de pesquisa), mas não oferece a trilha de pesquisa aplicada (relatório, diagnóstico, solução), e é um módulo anual.",
+  "justification": "Cinco itens estão cobertos (tipos de pesquisa, coleta e análise, introdução à metodologia acadêmica, problema de pesquisa, procedimentos metodológicos), dois parciais (revisão de literatura como aporte teórico e questões de pesquisa como objetivos) e sete ausentes, a maioria deles a trilha de pesquisa aplicada (estrutura, relatório da situação, diagnóstico, solução e planejamento) mais comparação aplicada/acadêmica e justificativa. A cobertura útil é de 50% (7 de 14), no limite da faixa de afinidade parcial. Por ser anual (Semesters 1 & 2) o módulo não cabe em um semestre de intercâmbio, e as 34 h de contato são anuais. A carga não é comparável porque a ficha brasileira informa apenas 4 aulas semanais.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Syllabus indicativo completo em dois semestres e horas de contacto explícitas, mas a lista de leitura está só na Minerva, o módulo é anual e a ficha brasileira não tem vigência confirmada.",
+  "limitations": [
+    "Módulo ANUAL (Semesters 1 & 2): as horas de contato (34) e o conteúdo não podem ser cursados em um único semestre 2027.2",
+    "A Reading List está só na Minerva",
+    "Oferta 2027/28 não confirmada; a página traz o catálogo 2026/27",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Mackenzie informa 4 aulas semanais sem total em horas-relógio: carga horária não comparável",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Um estudante em intercâmbio de um semestre poderia cursar apenas uma metade (qualitativa ou quantitativa)?",
+    "O módulo aceita estudantes de intercâmbio fora de International Business?"
+  ],
+  "alternatives": [
+    {
+      "code": "LUBS2430",
+      "name": "Economics Research Methods",
+      "relation": "Módulo de semestre 2 com 10 UK credits; analisado em parecer separado"
+    },
+    {
+      "code": "LUBS1185",
+      "name": "Understanding Statistics in the Social Sciences",
+      "relation": "Módulo de estatística de semestre 1; analisado em parecer separado"
+    }
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e da página do Module Catalogue 2026/27 de Leeds (resumo, objetivos, resultados, syllabus indicativo, métodos de ensino e avaliação) com apoio de IA (Claude); cada item vinculado a seção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Syllabus itemizado; limitação de módulo anual explicitada"
+  }
+}

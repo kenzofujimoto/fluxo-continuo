@@ -1,0 +1,167 @@
+{
+  "id": "adm|Microeconomia Aplicada aos Negócios|co-17-universidaddel|ECON2107",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Microeconomia Aplicada aos Negócios",
+    "name": "Microeconomia Aplicada aos Negócios",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 5, bloco 'Microeconomia Aplicada aos Negócios': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e ferramentas básicas",
+      "Demanda x oferta",
+      "Elasticidades",
+      "Intervenção do governo no mercado",
+      "Teoria da firma: Produção e Custos",
+      "Organização da indústria"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-17-universidaddel",
+      "university": "Universidad de Los Andes",
+      "code": "ECON2107",
+      "name": "Introducción a la Microeconomía",
+      "pageCode": "ECON 2107, Sección F",
+      "faculty": "Facultad de Economía (o plano de estudos de Administración 2022 lista a disciplina como ECON2107)",
+      "programme": "Pregrado; disciplina catalogada no plano de estudos 2022 de Administración",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": "2025-20 (segundo semestre de 2025; aulas de 4 ago. a 28 nov.)",
+      "period": "Cronograma de 16 semanas no programa 2025-20; o programa não declara em que semestre da grade a disciplina é cursada",
+      "academicYear": "2025-20",
+      "language": "Espanhol",
+      "courseStatus": "Não informado no programa",
+      "assessment": "6 avaliações práticas (quices e talleres, 20% contando as 5 melhores), 2 exames parciais (40%), participação em experimentos e sondagens (20%), exame final cumulativo (20%)",
+      "prerequisites": "Não informados no programa",
+      "source": "https://economia.uniandes.edu.co/sites/economia/files/media/pregrado/pracademicos/202520/Econ-2107-Introduccion-a-la-Microeconomia-2025-20-Socorro-Martinez.pdf",
+      "catalogue": "https://administracion.uniandes.edu.co/wp-content/uploads/2022/04/plan-de-estudios-pregrado-administracion-2022.pdf",
+      "sha256": "dae4ef7066a1193687120d25c21973e4e8080560c22c1af3b0a75c5e621786b3",
+      "location": "Programa 2025-20: 2. Descripción, 3. Resultados de Aprendizaje, 4. Organización do curso (temas A-I) e cronograma semanal 1-16, 6. Metodología, 7. Evaluaciones",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O programa descreve sessões magistrais e complementares em 16 semanas, sem horas de contato. O plano de estudos 2022 (catálogo) indica 3 créditos colombianos, que não são horas e não foram convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e ferramentas básicas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 2 'Decisões e incentivos: custos de oportunidade, vantagem comparativa, rendas'; semana 1 modelos em economia; tema C 'Escassez, trabalho e escolhas'",
+      "foreignLocation": "Cronograma, semanas 1-5; Organização do curso, temas B e C",
+      "note": "Custo de oportunidade e escolha sob escassez aparecem de forma explícita; o enfoque é CORE (fatos históricos e modelos), não a abordagem tradicional do trade-off."
+    },
+    {
+      "brTopic": "Demanda x oferta",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 13 'Mercados: oferta e demanda de bens e serviços' (Cap. 8, 8.1-8.5); semana 14 'Dinâmicas de mercado: como reagem os mercados a choques'",
+      "foreignLocation": "Cronograma, semanas 13-14; tema G",
+      "note": "O tema G trata oferta e demanda em mercados de bens e serviços."
+    },
+    {
+      "brTopic": "Elasticidades",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 12 'Firmas e seus clientes: Elasticidade demanda; firmas decidem preços e quantidades' (Cap. 7, 7.5-7.13)",
+      "foreignLocation": "Cronograma, semana 12",
+      "note": "Só a elasticidade-preço da demanda é nomeada no cronograma; elasticidade da oferta e elasticidade-renda não aparecem explicitamente."
+    },
+    {
+      "brTopic": "Intervenção do governo no mercado",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 14 'Impostos e mercados'; semana 15 'Externalidades e bens públicos'; tema I 'Mercados, eficiência, externalidades e políticas públicas'",
+      "foreignLocation": "Cronograma, semanas 14-15; Organização do curso, tema I",
+      "note": "Tributação e políticas públicas contra externalidades; controles de preços (teto, piso) não são nomeados."
+    },
+    {
+      "brTopic": "Teoria da firma: Produção e Custos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 11 'Firma, benefícios e custos de produção: como as firmas decidem seus níveis de produção' (Cap. 7, 7.1-7.4); semana 3 'Inovação, custos e ganhos'",
+      "foreignLocation": "Cronograma, semanas 3 e 11; tema F",
+      "note": "Cobre decisão de produção e custos; relações de agência entre acionistas, gerentes e empregados (tema F) ampliam a teoria da firma."
+    },
+    {
+      "brTopic": "Organização da indústria",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 12: 'firmas decidem preços e quantidades' diante de clientes; semana 10 negociação entre firmas e trabalhadores",
+      "foreignLocation": "Cronograma, semanas 10 e 12; tema F",
+      "note": "Poder de preço da firma é tratado, mas concorrência perfeita, monopólio, oligopólio e outras estruturas de mercado não são nomeados no programa."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "A revolução capitalista, tecnologia, desigualdade e crescimento (CORE Cap. 1)", "location": "Cronograma, semanas 1-3; temas A e B"},
+    {"topic": "Teoria dos jogos, dilemas sociais, preferências sociais e cooperação com experimentos em sala", "location": "Cronograma, semanas 6-7; tema D"},
+    {"topic": "Instituições econômicas, propriedade e poder", "location": "Cronograma, semana 8; tema E"},
+    {"topic": "Critério de Pareto e justiça distributiva", "location": "Cronograma, semana 9"},
+    {"topic": "Mercado de trabalho: escolhas entre renda e tempo livre, desigualdade de gênero e entre países", "location": "Cronograma, semanas 4-5 e 10"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: agentes e problemas econômicos, sistemas econômicos, oferta, demanda e equilíbrio, atuação do governo, elasticidade, estruturas de mercado, trade-off e custo de oportunidade.",
+    "foreign": ["Entender as interações entre agentes econômicos (empresários, trabalhadores, consumidores, reguladores)", "Aplicar eficiência econômica e justiça distributiva para avaliar o funcionamento do mercado", "Pensamento crítico sobre a economia de mercado e suas consequências sociais e ambientais", "Trabalho em equipe e comunicação oral e escrita"],
+    "convergences": ["Agentes e problemas econômicos básicos", "Oferta, demanda e dinâmica de mercado", "Elasticidade da demanda", "Tributação e políticas públicas", "Produção, custos e decisões da firma"],
+    "differences": ["Uniandes usa o livro CORE 2.0 com forte componente histórico, ético e de teoria dos jogos, ausente da ficha Mackenzie", "Mackenzie nomeia sistemas econômicos e estruturas de mercado, que o programa de Uniandes não lista como unidades"]
+  },
+  "depth": {
+    "level": "Graduação introdutória em ambas; Mackenzie na 2ª etapa de Administração, Uniandes em disciplina de microeconomia de entrada",
+    "brazil": "Microeconomia aplicada aos negócios, 63,3 h, seis unidades da teoria de mercado e da firma",
+    "foreign": "Microeconomia introdutória baseada em CORE com 16 semanas, leitura prévia, aula magistral, aula complementar, experimentos e três talleres",
+    "theoryPractice": "Aulas magistrais e complementares, experimentos econômicos em sala, quices e talleres; sem laboratório separado"
+  },
+  "practical": {
+    "period": "Programa 2025-20 (segundo semestre de 2025, 4 ago. a 28 nov.); calendário 2027.2 desconhecido",
+    "language": "Espanhol (nível B2 de espanhol exigido pela Uniandes para disciplinas em espanhol, conforme catálogo de universidades)",
+    "enrolment": "Disciplina oferecida pela Faculdade de Economia; abertura a estudantes de intercâmbio e vagas na seção F não confirmadas",
+    "prerequisites": "Nenhum indicado no programa",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O programa 2025-20 de Introducción a la Microeconomía cobre cinco dos seis enunciados da ficha Mackenzie com semanas nomeadas (custo de oportunidade, oferta e demanda, elasticidade da demanda, impostos e políticas públicas, custos de produção) e deixa as estruturas de mercado só parcialmente tratadas.",
+  "justification": "Cinco tópicos estão cobertos por semanas específicas do cronograma (2, 12, 13-15 e 11) e a organização da indústria é parcial, pois só se lê que as firmas decidem preços e quantidades, sem concorrência perfeita, monopólio ou oligopólio. A cobertura seria compatível com maior afinidade, mas a classe fica em afinidade parcial: o programa não informa horas de contato (apenas 16 semanas de calendário e 3 créditos colombianos no catálogo, não convertidos), a ficha brasileira não tem ano de vigência impresso e o programa é de 2025-20, de uma seção específica (F). A abordagem CORE acrescenta teoria dos jogos, justiça distributiva e instituições, o que não substitui o conteúdo de estruturas de mercado exigido em Mackenzie.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cronograma semanal detalhado e título coincidente, mas sem horas de contato, semestre da grade nem vigência da ficha brasileira; programa de uma única seção e período.",
+  "limitations": [
+    "Horas de contato não declaradas; 3 créditos colombianos do catálogo 2022 não são horas e não foram convertidos",
+    "Programa de uma seção e período específicos (2025-20, Sección F, professora Socorro Martínez); o conteúdo de 2027.2 pode mudar",
+    "Oferta 2027/28 não confirmada e abertura a estudantes de intercâmbio não verificada",
+    "Ficha Mackenzie sem ano de vigência impresso, com cabeçalho do campus São Paulo (current=false)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Uniandes pode informar as horas semanais de aula magistral e complementar de ECON2107?",
+    "Há dedicação específica a estruturas de mercado (monopólio, oligopólio) nas leituras do Cap. 7 do CORE adotadas?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do programa ECON 2107 Sección F 2025-20 (descrição, resultados, cronograma semanal, metodologia, avaliação) e da ficha Mackenzie com apoio de IA (Claude); cada tópico vinculado a semana ou tema do cronograma; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência semanal explícita e consistente; lacunas concentradas na carga horária"}
+}

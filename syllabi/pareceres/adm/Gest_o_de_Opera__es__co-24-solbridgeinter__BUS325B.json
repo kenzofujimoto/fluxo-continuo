@@ -1,0 +1,216 @@
+{
+  "id": "adm|Gestão de Operações|co-24-solbridgeinter|BUS325B",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Operações",
+    "name": "Gestão de Operações",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 3, bloco 'Gestão de Operações': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução à gestão de operações",
+      "Estratégia de produção e operações",
+      "Pacotes de valor",
+      "Indicadores de desempenho",
+      "Projeto de produto e seleção de processos",
+      "Tipos e seleção de Arranjo físico (layout)",
+      "Gestão da Capacidade",
+      "Teoria das Restrições",
+      "Planejamento Mestre de Produção e Operações (PMP)",
+      "Cálculo da Necessidade de Materiais (MRP)",
+      "Sequenciamento, Programação e Controle de Operações",
+      "Confiabilidade de processos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "BUS325B",
+      "name": "Operations Management",
+      "pageCode": "BUS325B",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); tipo de disciplina Core Business",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "15 semanas; o syllabus conciso não indica semestre de oferta",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Core Business",
+      "assessment": "Presença 20%, prova intermediária 20%, prova final 20%, quizzes 20%, participação 10%, tarefas 10%",
+      "prerequisites": "BUS110",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS325B%20Operations%20Management.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "fd4ee2eea109689cea0b4ca17a3001a2067098c1739a98bbc3bb17033da345a8",
+      "location": "Concise Syllabus 2016: Learning Objectives, Course Description, Course content by Week (semanas 1-15), quadro final com Credit, Contact Hours, Prerequisites, Duration",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro final: Credit 3, Contact Hours 45, Duration 15 weeks, Class Type Lecture. O documento não declara a duração da hora de contato. O crédito de 3 é institucional e não foi convertido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução à gestão de operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 1 'Syllabus & Introduction to the Course and the Operations Function'; descrição: conceitos fundamentais de operações e cadeia de suprimentos para serviços e manufatura",
+      "foreignLocation": "Course content by Week, semana 1; Course Description",
+      "note": "A distinção entre operações de produtos e de serviços, citada na ementa, também está na descrição do curso."
+    },
+    {
+      "brTopic": "Estratégia de produção e operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 2 'Operations and Supply Chain Strategy'",
+      "foreignLocation": "Course content by Week, semana 2",
+      "note": "O papel das operações em relação a outras funções também consta da descrição."
+    },
+    {
+      "brTopic": "Pacotes de valor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, livro-texto e quadro final do syllabus conciso 2016",
+      "note": "'Service Quality' (semanas 5-7) toca serviços, mas o conceito de pacote de valor (bens e serviços combinados) não é citado."
+    },
+    {
+      "brTopic": "Indicadores de desempenho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semanas 5-7 'Quality Control and Improvement'; descrição: métodos para aumentar eficácia e eficiência organizacional",
+      "foreignLocation": "Course content by Week, semanas 5-7; Course Description",
+      "note": "Medição de qualidade e eficiência apontam para desempenho, mas indicadores de operações e critérios competitivos não são nomeados."
+    },
+    {
+      "brTopic": "Projeto de produto e seleção de processos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semanas 3-4 'Process Selection, Process-Flow Analysis'",
+      "foreignLocation": "Course content by Week, semanas 3-4",
+      "note": "Seleção e análise de processos está nomeada; projeto de produto e sua relação com o processo não."
+    },
+    {
+      "brTopic": "Tipos e seleção de Arranjo físico (layout)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, capítulos de prova (1, 2, 4, 6, 7, 8, 9; 10-16) e quadro final do syllabus conciso 2016",
+      "note": "Nenhuma semana trata de layout de instalações."
+    },
+    {
+      "brTopic": "Gestão da Capacidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 9-10 'Supply Chain Management, Forecasting, Capacity Planning'",
+      "foreignLocation": "Course content by Week, semanas 9-10",
+      "note": "Planejamento de capacidade está nomeado; gargalos não são citados."
+    },
+    {
+      "brTopic": "Teoria das Restrições",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, livro-texto e quadro final do syllabus conciso 2016",
+      "note": "Teoria das restrições e gargalos não aparecem no cronograma."
+    },
+    {
+      "brTopic": "Planejamento Mestre de Produção e Operações (PMP)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, livro-texto e quadro final do syllabus conciso 2016",
+      "note": "Previsão de demanda e capacidade (semanas 9-10) e MRP (semana 14) bordeiam o tema, mas o plano mestre de produção não é nomeado."
+    },
+    {
+      "brTopic": "Cálculo da Necessidade de Materiais (MRP)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 14 'Material Requirements Planning and ERP, Quiz 4'",
+      "foreignLocation": "Course content by Week, semana 14",
+      "note": "MRP explícito, acompanhado de ERP e de estoque de demanda independente (semanas 12-13)."
+    },
+    {
+      "brTopic": "Sequenciamento, Programação e Controle de Operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 11 'Scheduling Operations'; semanas 12-13 'Project Planning and Scheduling'",
+      "foreignLocation": "Course content by Week, semanas 11-13",
+      "note": "Programação de operações explícita; o controle não é nomeado em separado."
+    },
+    {
+      "brTopic": "Confiabilidade de processos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, livro-texto e quadro final do syllabus conciso 2016",
+      "note": "Qualidade e lean (semanas 5-7) são temas vizinhos; análise de confiabilidade de processos não é citada."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Lean thinking e sistemas enxutos", "location": "Course content by Week, semanas 5-7"},
+    {"topic": "Qualidade em serviços; controle e melhoria da qualidade", "location": "Course content by Week, semanas 5-7"},
+    {"topic": "Gestão da cadeia de suprimentos e previsão de demanda", "location": "Course content by Week, semanas 9-10"},
+    {"topic": "Planejamento e programação de projetos; estoques de demanda independente", "location": "Course content by Week, semanas 12-13"},
+    {"topic": "Qualidade asiática e operações sustentáveis ambientalmente", "location": "Learning Objectives, objetivo 1 (Global Perspective)"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel estratégico das operações, produtos x serviços, critérios competitivos e desempenho, projeto de produto e processo, layout, capacidade e gargalos, PMP e MRP, sequenciamento e controle.",
+    "foreign": ["Operar com eficácia e eficiência no mercado global", "Qualidade ao estilo das indústrias asiáticas", "Operações sustentáveis e ecológicas", "Métodos quantitativos para planejamento da produção e desenho de processos"],
+    "convergences": ["Introdução e estratégia de operações", "Seleção de processos", "Capacidade", "MRP", "Programação de operações"],
+    "differences": ["SolBridge acrescenta lean, qualidade, cadeia de suprimentos, previsão e estoques", "Mackenzie inclui layout, teoria das restrições, PMP, pacotes de valor e confiabilidade, não nomeados em SolBridge"]
+  },
+  "depth": {
+    "level": "Graduação em ambas; Mackenzie na 5ª etapa, SolBridge Core Business com pré-requisito BUS110",
+    "brazil": "63,3 h com doze enunciados de operações",
+    "foreign": "Operations management de 45 horas de contato em 15 semanas (syllabus 2016), com o livro de Schroeder e colegas e quatro quizzes",
+    "theoryPractice": "Leituras, discussões em aula, quizzes e métodos quantitativos"
+  },
+  "practical": {
+    "period": "15 semanas; semestre de oferta não indicado no syllabus de 2016; 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina do currículo BBA; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "BUS110 (Introduction to Macroeconomics, lido em parecer separado)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Operations Management cobre o núcleo de planejamento da ficha Mackenzie (introdução, estratégia, capacidade, MRP, programação), mas deixa de fora layout, teoria das restrições, plano mestre, pacotes de valor e confiabilidade, cinco dos doze enunciados.",
+  "justification": "Cinco enunciados estão cobertos por semanas nomeadas (1, 2, 9-10, 11-13 e 14) e dois são parciais (indicadores de desempenho e projeto de produto com seleção de processos); cinco não aparecem, entre eles layout, teoria das restrições e PMP. A cobertura total ou parcial de 7 dos 12 sustenta afinidade parcial, mas não alta (fullRatio de 42%). As 45 horas de contato em 15 semanas dão razão de 0,71 sobre 63,3 h (0,59 com hora de 50 min), abaixo de 75%; o syllabus é de 2016 e a ficha brasileira não tem vigência impressa. O curso coreano acrescenta lean, qualidade e cadeia de suprimentos além da ficha brasileira.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Syllabus conciso de 2016 com uma linha por semana e ficha brasileira sem vigência confirmada; ausências podem refletir a brevidade do cronograma.",
+  "limitations": [
+    "Syllabus de 2016, muito sucinto; layout, restrições ou PMP podem ser vistos em capítulos do livro sem constar no cronograma",
+    "Horas de contato (45) declaradas sem a duração da hora; razão 0,71, ou 0,59 com hora de 50 min; Credit 3 não é convertido",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada; pré-requisito BUS110 pode exigir plano de estudos",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O livro de Schroeder adotado trata de layout e de teoria das restrições dentro de 'Process Selection' ou 'Capacity Planning'?",
+    "Qual a duração da hora de contato em SolBridge?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do syllabus conciso BUS325B (2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado a semana ou objetivo; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Classe derivada diretamente da cobertura"}
+}

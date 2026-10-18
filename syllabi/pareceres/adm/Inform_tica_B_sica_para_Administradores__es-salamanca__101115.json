@@ -1,0 +1,247 @@
+{
+  "id": "adm|Informática Básica para Administradores|es-salamanca|101115",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Informática Básica para Administradores",
+    "name": "Informática Básica para Administradores",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 9, bloco 'Informática Básica para Administradores': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Microsoft Word: visão geral, editoração e manipulação dos principais recursos",
+      "Microsoft Excel: Introdução ao uso de planilha eletrônica e visão geral do software",
+      "Formatação da Planilha (Exploração e uso dos grupos Fonte, Alinhamento, Número,",
+      "Área de Transferência, Estilo, Células e Edição)",
+      "Uso de fórmulas e cálculos",
+      "Filtros e classificação de dados",
+      "Ferramentas de dados (Análise rápida; criação de cenários; validação; uso do atingir meta)",
+      "Criação e personalização de Gráficos",
+      "Construção de Tabelas e Gráficos Dinâmicos",
+      "Obtenção de dados externos",
+      "Proteção de planilhas",
+      "Noções de criação, gravação e edição de Macros"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101115",
+      "name": "Sistemas de Bases de Datos",
+      "pageCode": "101115",
+      "faculty": "Facultad de Ciencias; Departamento de Informática y Automática; área Lenguajes y Sistemas Informáticos (grupos também na E.T.S. Ingeniería Industrial de Béjar)",
+      "programme": "Grado en Ingeniería Informática",
+      "level": "Grado",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segundo semestre (periodicidade declarada na seção 1)",
+      "academicYear": "2026/2027",
+      "language": "Español",
+      "courseStatus": "Obligatoria",
+      "assessment": "Evaluación continua 30%, exámenes de teoría ou problemas 70% (50% com atividade ApS opcional); mínimo de 40% no exame final",
+      "prerequisites": "Sem requisitos formais; recomendados conceitos de Programación I e II, lógica de Álgebra Computacional e Diseño de Bases de Datos",
+      "source": "https://guias.usal.es/node/255476",
+      "catalogue": "https://guias.usal.es/node/255476",
+      "sha256": "10c2de78e30697d8dd5b98b0c599b17e485a1a29fed1953a14597732cd750a47",
+      "location": "Guía 'Curso 2026/2027': 1 Datos, 2 Recomendaciones, 3 Objetivos, 4 Competencias, 5 Contenidos (Temas 1-5 e Práctica), 6-7 Metodologías, 8 Recursos, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Declara 6,00 ECTS. A seção 7 'Distribución de las Metodologías Docentes' não traz tabela de horas no texto extraído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Microsoft Word: visão geral, editoração e manipulação dos principais recursos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Processador de texto está fora do escopo de uma disciplina de sistemas de bases de dados."
+    },
+    {
+      "brTopic": "Microsoft Excel: Introdução ao uso de planilha eletrônica e visão geral do software",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Nenhuma planilha eletrônica é citada; a bibliografia é de SGBD (Silberschatz, Ramakrishnan, MongoDB)."
+    },
+    {
+      "brTopic": "Formatação da Planilha (Exploração e uso dos grupos Fonte, Alinhamento, Número,",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Formatação de células é específica de planilha."
+    },
+    {
+      "brTopic": "Área de Transferência, Estilo, Células e Edição)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Continuação da linha anterior da ficha (área de transferência, estilo, células e edição); sem equivalente."
+    },
+    {
+      "brTopic": "Uso de fórmulas e cálculos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Fórmulas de planilha não aparecem; o guia usa linguagens de consulta, que são outro paradigma."
+    },
+    {
+      "brTopic": "Filtros e classificação de dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Filtro e ordenação de dados em planilha não correspondem a nenhum tema; consultas SQL só são citadas como linguagem de manipulação."
+    },
+    {
+      "brTopic": "Ferramentas de dados (Análise rápida; criação de cenários; validação; uso do atingir meta)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Cenários, validação e atingir meta são recursos de planilha ausentes do guia."
+    },
+    {
+      "brTopic": "Criação e personalização de Gráficos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Gráficos não são mencionados."
+    },
+    {
+      "brTopic": "Construção de Tabelas e Gráficos Dinâmicos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Tabelas e gráficos dinâmicos não são mencionados; as bases de dados do guia são relacionais e NoSQL."
+    },
+    {
+      "brTopic": "Obtenção de dados externos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Parte prática: 'Acceso a fuentes de datos'; Tema 3 'Recuperación de la información'",
+      "foreignLocation": "Contenidos, Práctica e Tema 3",
+      "note": "Acesso a fontes de dados é conceito próximo de obter dados externos, mas feito por SGBD e programação, não por importação em planilha."
+    },
+    {
+      "brTopic": "Proteção de planilhas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Segurança e integridade (Tema 2) referem-se a bancos de dados, não à proteção de planilhas."
+    },
+    {
+      "brTopic": "Noções de criação, gravação e edição de Macros",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-5 e Práctica), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de otimização de consultas, concorrência, administração de SGBD e bases não relacionais, sem ferramenta de escritório.",
+      "note": "Macros VBA não aparecem; o guia pressupõe Programação I e II como pré-requisito recomendado, o que indica que programação é conhecimento prévio e não conteúdo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Otimização de consultas",
+      "location": "Contenidos, Tema 1"
+    },
+    {
+      "topic": "Ajustes de eficiência, integridade e segurança de bases de dados",
+      "location": "Contenidos, Tema 2"
+    },
+    {
+      "topic": "Controle de concorrência",
+      "location": "Contenidos, Tema 4"
+    },
+    {
+      "topic": "Bases de dados não relacionais (NoSQL, MongoDB na bibliografia)",
+      "location": "Contenidos, Tema 5; Recursos"
+    },
+    {
+      "topic": "Administração de sistemas gestores, planos de contingência e recuperação",
+      "location": "Objetivos; Contenidos, Práctica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: planilhas eletrônicas para relatórios e tomada de decisão, noções de lógica de programação para macros, integração do Excel com outras plataformas e estruturação de banco de dados.",
+    "foreign": [
+      "Desenhar aplicações que resolvam necessidades de informação",
+      "Usar linguagens de consulta relacionais e não relacionais",
+      "Administrar um SGBD (integridade, disponibilidade, confidencialidade)",
+      "Elaborar planos de contingência e recuperação"
+    ],
+    "convergences": [
+      "Ambas tocam em bases de dados e acesso a fontes de dados",
+      "O desenvolvimento de macros e a programação são pré-requisitos ou apoio em ambas"
+    ],
+    "differences": [
+      "Mackenzie ensina ferramentas de escritório para usuário de negócio em 31,7 h; Salamanca é administração e otimização de SGBD para engenheiros informáticos",
+      "Nenhum dos 12 itens de Word/Excel tem equivalente direto",
+      "Salamanca exige conhecimento prévio de programação e de projeto de bases de dados"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: 1ª etapa de Administração, nível de usuário; Salamanca: 2º ano de Ingeniería Informática, nível técnico",
+    "brazil": "Competência instrumental em Word e Excel, 31,7 h, doze itens",
+    "foreign": "Administração e otimização de sistemas de bases de dados, cinco temas e prática de laboratório",
+    "theoryPractice": "Aulas magistrais, práticas guiadas em laboratório e tutorias; exame final com mínimo de 40%"
+  },
+  "practical": {
+    "period": "Segundo semestre; oferta 2027/28 não confirmada",
+    "language": "Español",
+    "enrolment": "O guia não informa acesso para estudantes de intercâmbio nem de outras áreas; exige base de programação",
+    "prerequisites": "Sem requisitos formais; Programación I e II e Diseño de Bases de Datos recomendadas",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sistemas de Bases de Datos é uma disciplina de engenharia que ensina a otimizar, proteger e administrar SGBD, e não tem relação com as ferramentas de Word e Excel da ficha Mackenzie; só o acesso a fontes de dados aproxima os dois.",
+  "justification": "Dos doze itens da ficha de 31,7 h (Word, formatação, fórmulas, filtros, gráficos, tabelas dinâmicas, dados externos, proteção e macros), um é parcial (obtenção de dados externos, aproximada por 'Acceso a fuentes de datos') e onze ficam ausentes depois da leitura dos cinco temas, da prática e dos objetivos do guia 2026/27. A semelhança sugerida pela busca semântica (banco de dados, lógica, programação) vem da ementa e não dos itens do conteúdo programático. Salamanca pressupõe programação e projeto de bases de dados como conhecimento prévio, um nível de engenharia que não substitui a alfabetização em planilhas. A carga é não comparável porque o guia traz 6 ECTS e nenhuma tabela de horas presenciais.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia 2026/27 completo e inequívoco quanto ao escopo; faltam horas presenciais e a ficha brasileira tem vigência não confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada",
+    "Horas de contacto ausentes; 6 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "O par veio de busca por conceitos (banco de dados, lógica, programação) e não de candidatura registrada",
+    "Disciplina de engenharia com pré-requisitos de programação; acesso por estudante de Administração não verificado",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Há em Salamanca disciplina introdutória de ofimática ou análise de dados em planilhas para o Grado en ADE?",
+    "Estudantes de Administração em mobilidade podem cursar disciplinas do Grado en Ingeniería Informática?"
+  ],
+  "alternatives": [
+    {
+      "code": "101110",
+      "name": "Diseño de Base de Datos",
+      "relation": "Disciplina de 6 ECTS do mesmo grado, de nível mais introdutório (modelo relacional, SQL); analisada em parecer separado"
+    }
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e do guia docente de Salamanca 2026/27 (seções 1 a 9) com apoio de IA (Claude); cada item verificado contra temas, prática e objetivos; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Descompasso de escopo evidente; item parcial único explicado"
+  }
+}

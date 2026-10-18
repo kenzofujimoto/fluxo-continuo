@@ -1,0 +1,156 @@
+{
+  "id": "adm|Gestão Financeira|po-63-universidadelu|24116",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão Financeira",
+    "name": "Gestão Financeira",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 4, bloco 'Gestão Financeira': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Objetivos financeiros",
+      "Governança Corporativa",
+      "Custo de capital",
+      "Estrutura de capital",
+      "Gestão do capital de giro (Ciclo operacional e financeiro, necessidade de capital de giro, equilíbrio financeiro)"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24116",
+      "name": "Gestão Financeira",
+      "pageCode": "24116",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa); área científica Gestão Financeira",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha não foi extraído; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "2º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Dois testes intercalares ponderados com a frequência final, conforme o regime geral de avaliação",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24116_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "4c1028fc08428a5d8c5753501f7c6236b27e14ff058af82afe8fc9b1acc1fd58",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 06/01/2026): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (conteúdos programáticos), 19 (avaliação), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito, e nenhum valor foi atribuído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Objetivos financeiros",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo geral: 'Compreender o âmbito da Gestão Financeira no âmbito geral da gestão organizacional'; palavras-chave 'Gestão financeira'",
+      "foreignLocation": "Item 14; item 22",
+      "note": "Âmbito da gestão financeira é nomeado; objetivos que os gestores devem perseguir (valor, riqueza do acionista) não são detalhados."
+    },
+    {
+      "brTopic": "Governança Corporativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 22-24 completos; sem governança, conflitos de agência ou remuneração de gestores"
+    },
+    {
+      "brTopic": "Custo de capital",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Algumas modalidades e financiamento em capital alheio disponíveis para as empresas; A determinação do custo do financiamento'",
+      "foreignLocation": "Item 18 (último conteúdo)",
+      "note": "Cobre custo do financiamento alheio; custo médio ponderado e custo do capital próprio não são citados."
+    },
+    {
+      "brTopic": "Estrutura de capital",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'O efeito de alavanca financeira'; 'Graus de alavanca operacional, financeira e global'; 'financiamento em capital alheio'",
+      "foreignLocation": "Item 18 (rendibilidade, risco, fontes de financiamento)",
+      "note": "Alavancagem e risco financeiro são analisados; teoria e política de estrutura de capital não são nomeadas."
+    },
+    {
+      "brTopic": "Gestão do capital de giro (Ciclo operacional e financeiro, necessidade de capital de giro, equilíbrio financeiro)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Compreender e determinar o equilíbrio financeiro; Fundo de Maneio, Necessidades em Fundo de Maneio e Tesouraria'",
+      "foreignLocation": "Item 18 (segundo conteúdo); item 15",
+      "note": "Ciclo operacional/financeiro não é nomeado; fundo de maneio e necessidades em fundo de maneio equivalem ao capital de giro e à sua necessidade."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Análise financeira: rendibilidade, rácios, análise de crescimento", "location": "Item 18; item 15"},
+    {"topic": "Risco operacional e financeiro, ponto crítico, margem de segurança e graus de alavanca", "location": "Item 18 (quarto conteúdo)"},
+    {"topic": "Planeamento financeiro: orçamentos operacionais e financeiros, plano de financiamento", "location": "Item 18 (sexto conteúdo)"},
+    {"topic": "Mercados financeiros e modalidades de financiamento em capital alheio", "location": "Item 18 (último conteúdo)"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: objetivos financeiros e conflitos de agência, decisões de investimento, financiamento e distribuição, custo e estrutura de capital, política de dividendos, planejamento de curto prazo e capital de giro.",
+    "foreign": ["Conduzir a análise financeira de uma empresa", "Determinar o equilíbrio financeiro e a tesouraria", "Analisar rendibilidade, risco operacional e financeiro", "Elaborar o plano financeiro de uma empresa"],
+    "convergences": ["Equilíbrio financeiro e fundo de maneio", "Alavancagem e risco financeiro", "Custo do financiamento"],
+    "differences": ["Lusíada combina análise financeira com planeamento financeiro; a ficha Mackenzie é de decisões de longo prazo", "Governança, política de dividendos, decisões de investimento e custo de capital próprio não aparecem em Lusíada"]
+  },
+  "depth": {
+    "level": "Licenciatura em Gestão de Empresa, 2º ano; Mackenzie na 6ª etapa",
+    "brazil": "Gestão financeira corporativa de 31,7 h",
+    "foreign": "Gestão financeira com forte componente de análise financeira e planeamento, com bibliografia de Higgins e Mota",
+    "theoryPractice": "Abordagem teórico-prática com casos práticos e uso de Excel"
+  },
+  "practical": {
+    "period": "2º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão Financeira da Lusíada confere ao capital de giro cobertura plena (fundo de maneio e tesouraria) e trata alavancagem e custo do financiamento, mas é uma UC de análise financeira: governança está ausente e objetivos, custo e estrutura de capital são só parciais.",
+  "justification": "Um dos cinco enunciados está coberto (fundo de maneio, necessidades e tesouraria), três são parciais (objetivos só como âmbito da gestão financeira, custo do financiamento alheio sem custo de capital próprio ou ponderado, estrutura de capital reduzida a alavanca e risco) e um ausente (governança corporativa). A soma de 80% sustenta afinidade parcial, não alta, porque só um tópico é coberto e os parciais são aproximações. A ficha é de 2025/2026, o item 8 não permite apurar horas de contacto (6 ECTS) e a ficha Mackenzie, de 31,7 h, não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdos e objetivos itemizados, mas ficha de 2025/2026, horas de contacto ilegíveis e vigência da ficha brasileira não confirmada.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 06/01/2026); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "A ementa brasileira cita investimentos e política de dividendos, que a UC lusíada não lista",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Existe UC lusíada de finanças empresariais (investimento, custo de capital, dividendos) além desta de análise financeira?",
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Gestão financeira'); cada tópico vinculado ao conteúdo da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}

@@ -1,0 +1,186 @@
+{
+  "id": "adm|Administração Estratégica e Sustentabilidade|co-24-solbridgeinter|BUS308B",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Administração Estratégica e Sustentabilidade",
+    "name": "Administração Estratégica e Sustentabilidade",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 1, bloco 'Administração Estratégica e Sustentabilidade': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "Fundamentos da sustentabilidade",
+      "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "Numa perspectiva da sustentabilidade",
+      "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "BUS308B",
+      "name": "Strategic Management",
+      "pageCode": "BUS308B",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); tipo de disciplina Core Business",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "15 semanas; o syllabus conciso não indica semestre de oferta",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Core Business",
+      "assessment": "Presença 20%, trabalho em equipe 30%, prova intermediária 15%, hot seats/quizzes/participação 15%, caso individual 20%",
+      "prerequisites": "BUS325B e FIN305",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS308B%20Strategic%20Management.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "e33ca1c0aa659aa6c9539418fcbe903b2c8b53a6c486fd5220d2958a6bfdaee7",
+      "location": "Concise Syllabus 2016: Learning Objectives, Course Description, Course content by Week (semanas 1-15), quadro final com Credit, Contact Hours, Prerequisites, Duration",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro final: Credit 3, Contact Hours 45, Duration 15 weeks, Class Type Lecture. O documento não declara a duração da hora de contato. O crédito de 3 é institucional e não foi convertido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estratégia como plano, padrão, posição e perspectiva: histórico e evolução; objetivos da administração estratégica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 1 'Introduction to the course: What is strategy'; leitura de Porter 'What is strategy?'; descrição: processo estratégico de análise, formulação, implementação e avaliação",
+      "foreignLocation": "Course content by Week, semana 1; Text and Materials; Course Description",
+      "note": "As quatro perspectivas (plano, padrão, posição, perspectiva) e o histórico da disciplina não são nomeados."
+    },
+    {
+      "brTopic": "Fundamentos da sustentabilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, leituras e quadro final do syllabus conciso 2016",
+      "note": "Nenhuma unidade de sustentabilidade; 'Social Responsibility' aparece só como peso 20% nos objetivos GACCS e 'Business Ethics' na semana 13."
+    },
+    {
+      "brTopic": "Análise do ambiente externo: variáveis ambientais; ameaças e oportunidades no ambiente externo; fatores-chave de sucesso. Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semanas 3-4 'External Analysis and Internal Analysis'; objetivo 1: dimensões dos ambientes externo e interno da firma; ambiente internacional com aspectos culturais, políticos e legais",
+      "foreignLocation": "Course content by Week, semanas 3-4; Learning Objectives item 1; Course Description",
+      "note": "Análise externa coberta; ameaças/oportunidades e fatores-chave de sucesso não nomeados; sem a perspectiva de sustentabilidade pedida pela ficha."
+    },
+    {
+      "brTopic": "Análise do ambiente interno: missão, visão, objetivos estratégicos; competências essenciais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semanas 3-4 'External Analysis and Internal Analysis'; semana 2 'Strategic Leadership: Managing the Strategy-Making Process for Competitive Advantage'",
+      "foreignLocation": "Course content by Week, semanas 2-4",
+      "note": "Análise interna e processo estratégico entram; missão, visão e competências essenciais não são nomeados."
+    },
+    {
+      "brTopic": "Numa perspectiva da sustentabilidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, leituras e quadro final do syllabus conciso 2016",
+      "note": "Enunciado oficial é fragmento de quebra de linha da ficha (continuação dos itens de análise de ambiente); tratado como exigência de perspectiva de sustentabilidade, que o syllabus não traz."
+    },
+    {
+      "brTopic": "Teorias de Gestão Estratégica: Vantagem Competitiva e Visão Baseada em Recursos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 2 'Managing the Strategy-Making Process for Competitive Advantage'; semanas 5-6 'Building Competitive Advantage through Functional-Level Strategy and Business-Level Strategy'",
+      "foreignLocation": "Course content by Week, semanas 2 e 5-6",
+      "note": "Vantagem competitiva é explícita; a visão baseada em recursos não é nomeada."
+    },
+    {
+      "brTopic": "Formulação estratégica: nível corporativo, de unidade de negócio e funcional, e estratégias genéricas e de crescimento; estratégias de redução; estratégias defensivas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 5-6 estratégias funcional e de negócio; semana 9 'Corporate-Level Strategy: Related and Unrelated Diversification'; semanas 10-11 estratégia global",
+      "foreignLocation": "Course content by Week, semanas 5-11; Learning Objectives item 2",
+      "note": "Os três níveis e a diversificação (crescimento) estão explícitos; redução e estratégias defensivas não são nomeadas, mas o item é majoritariamente coberto."
+    },
+    {
+      "brTopic": "Implantação e Acompanhamento estratégico: estrutura, pessoas, sistemas e cultura",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo 3: 'Strategic implementation including describing types of strategic control' e papéis de contabilidade, finanças, marketing e sistemas de informação",
+      "foreignLocation": "Learning Objectives item 3; semana 13 'Corporate Performance, Governance and Business Ethics'",
+      "note": "Implementação e controle aparecem só nos objetivos e na governança da semana 13; estrutura, pessoas e cultura não têm unidade própria."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Estratégia no ambiente global e estudo de casos internacionais", "location": "Course content by Week, semanas 10-11"},
+    {"topic": "Estratégia e tecnologia", "location": "Course content by Week, semana 12"},
+    {"topic": "Governança corporativa e ética empresarial", "location": "Course content by Week, semana 13"},
+    {"topic": "Estratégia no nível de negócio e estrutura da indústria", "location": "Course content by Week, semana 7"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: análise dos ambientes externo e interno, vantagem competitiva e visão baseada em recursos, triple bottom line e economia circular, balanced scorecard e indicadores de sustentabilidade (GRI, Dow Jones, Ethos).",
+    "foreign": ["Análise estratégica dos ambientes externo e interno", "Formulação de estratégias de negócio e corporativa em mercados internacionais", "Implementação e controle estratégico com papéis das áreas funcionais"],
+    "convergences": ["Análise de ambientes", "Vantagem competitiva", "Níveis de formulação estratégica (funcional, negócio, corporativo)"],
+    "differences": ["Mackenzie dedica metade do título e da ementa à sustentabilidade (triple bottom line, economia circular, GRI, Ethos), ausente no SolBridge", "SolBridge acrescenta ambiente internacional, tecnologia e governança, não listados na ficha brasileira", "Balanced scorecard e visão baseada em recursos não são nomeados em SolBridge"]
+  },
+  "depth": {
+    "level": "Graduação; BUS308B é Core Business com pré-requisitos BUS325B e FIN305; Mackenzie na 4ª etapa",
+    "brazil": "63,3 h, oito enunciados, com metade deles ligada à perspectiva de sustentabilidade",
+    "foreign": "Syllabus conciso de 2016, 15 semanas, 45 horas de contato, livro de Hill e Jones (10ª ed.) e leitura de Porter",
+    "theoryPractice": "Aulas expositivas com trabalho em equipe (30%), hot seats, quizzes e caso individual (20%)"
+  },
+  "practical": {
+    "period": "15 semanas; semestre de oferta não indicado no syllabus de 2016; 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina do currículo BBA; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "BUS325B e FIN305 (este último não lido neste parecer)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O Strategic Management de SolBridge cobre bem a metade 'estratégia' da ficha Mackenzie (análise externa e interna, vantagem competitiva, níveis de formulação), mas não tem nenhuma unidade de sustentabilidade, que ocupa pelo menos três dos oito enunciados e metade do título.",
+  "justification": "Um enunciado está coberto (formulação nos níveis funcional, de negócio e corporativo, semanas 5-11), cinco são parciais por serem tratados só em títulos curtos do cronograma (semanas 1 a 4, objetivo 3) e dois ficam ausentes: Fundamentos da sustentabilidade e o fragmento 'Numa perspectiva da sustentabilidade'. A cobertura numérica (6 de 8) daria afinidade parcial, mas rebaixamos porque a ementa brasileira cita triple bottom line, economia circular, balanced scorecard e indicadores GRI/Ethos, e nada disso aparece. As 45 horas de contato em 15 semanas ficam em 71% das 63,3 h de Mackenzie (59% se a hora for de 50 min), abaixo de 75%, e o syllabus é de 2016.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Os tópicos de sustentabilidade (metade do título e da ementa brasileira) não têm correspondente no cronograma de 2016, e a classe derivada pela cobertura numérica depende de itens parciais apoiados em títulos genéricos.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Syllabus conciso de 2016, com cronograma de uma linha por semana; a ficha brasileira não tem vigência confirmada e um dos enunciados oficiais é um fragmento de quebra de linha.",
+  "limitations": [
+    "Syllabus de 2016, muito sucinto; conteúdos podem ter mudado até 2027.2",
+    "Horas de contato (45) declaradas sem a duração da hora; razão 0,71, ou 0,59 com hora de 50 min; Credit 3 não é convertido",
+    "Enunciado oficial 'Numa perspectiva da sustentabilidade' é fragmento de quebra de linha da ficha Mackenzie",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada; pré-requisitos BUS325B e FIN305 podem exigir plano de estudos",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "SolBridge oferece versão atual do syllabus de BUS308B com unidades de sustentabilidade ou balanced scorecard?",
+    "Qual a duração da hora de contato em SolBridge (45 h em 15 semanas indica 3 h semanais)?"
+  ],
+  "alternatives": [
+    {"code": "BUS325B", "name": "Operations Management", "relation": "Pré-requisito de BUS308B; é uma disciplina de operações e foi analisada em parecer separado, não como alternativa a esta ficha"}
+  ],
+  "method": "Leitura integral do syllabus conciso BUS308B (2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado à semana ou objetivo; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Rebaixamento de classe por ausência de sustentabilidade; conferir com o coordenador se estratégia empresarial isolada atende parte da ementa"}
+}

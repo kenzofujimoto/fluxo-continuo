@@ -1,0 +1,159 @@
+{
+  "id": "adm|Marketing I|es-salamanca|CAT-USAL-210415",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210415",
+      "name": "Marketing Sectorial",
+      "pageCode": "103850",
+      "faculty": "Facultad de Economía y Empresa; Departamento de Administración y Economía de la Empresa; área Comercialización e Investigación de Mercados",
+      "programme": "Grado en Administración y Dirección de Empresas; módulo Comercialización e Investigación de Mercados",
+      "level": "Grado",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo semestre (periodicidade declarada na seção 1)",
+      "academicYear": "2025/2026",
+      "language": "Español",
+      "courseStatus": "Optativa",
+      "assessment": "Examen final 60% (mínimo 5 sobre 10), evaluación continua 40%; assistência mínima de 85% para pontuar a avaliação contínua",
+      "prerequisites": "Sem requisitos formais; recomendadas Fundamentos de Comercialización, Políticas Comerciales, Estrategia Comercial e Investigación de Mercados (6 ECTS cada)",
+      "source": "https://guias.usal.es/node/210415",
+      "catalogue": "https://guias.usal.es/node/210415",
+      "sha256": "48a5c25bc16e2fa2204eed9248f8f2ef69be1735a1f768ef286251dc21e0761a",
+      "location": "Guía 'Curso 2025/2026': 1 Datos, 2 Recomendaciones, 3 Objetivos, 4 Competencias, 5 Contenidos (parágrafo único), 6 Metodologías (horas), 8 Recursos, 9 Evaluación",
+      "hours": {
+        "contactTotal": 45.0,
+        "contactLecture": 15.0,
+        "contactSeminarLab": 20.0,
+        "selfStudy": null,
+        "totalWorkload": 150.0,
+        "ects": 6.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Seção 6: 150 h de dedicação, 'con 45 horas (30%) de dedicación presencial': teoria 15, prática 20, tutoria 7 e 3 h de exame. 105 h de trabalho do aluno. Duração da hora não declarada. Não derivado de ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'fundamentos básicos y los desarrollos más recientes del marketing en diferentes sectores'; competência: 'enfoque y ámbito de decisiones del marketing'",
+      "foreignLocation": "Objetivos, primeiro item; Competencias específicas de conocimiento, primeiro item",
+      "note": "Os fundamentos são retomados em contexto setorial; o conceito geral de marketing é assumido por Fundamentos de Comercialización, recomendada como pré-requisito."
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência de habilidade: 'reconocer las implicaciones de los cambios en la regulación de mercados y en las políticas industriales'; objetivo de 'análisis sectorial'",
+      "foreignLocation": "Competencias específicas de habilidad; Objetivos, terceiro e quarto itens",
+      "note": "Ambiente é tratado como análise do setor e da regulação; não há macroambiente nem microambiente de marketing enumerados."
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, parágrafo único de Contenidos, Metodologías, Recursos e Evaluación do guia 2025/26 foram lidos; só há 'gestión de clientes' e relação com clientes pela internet, que são gestão de clientes e não comportamento do consumidor.",
+      "note": "Satisfação, valor e decisão de compra não aparecem; o curso supõe marketing geral já estudado."
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "O guia 2025/26 foi lido integralmente; nenhuma competência ou conteúdo trata do comportamento do comprador organizacional; 'relación entre marketing y demás actividades funcionales' é integração funcional, não comportamento de compra.",
+      "note": "No contexto da ficha Marketing I, o item refere-se ao comprador organizacional (ementa brasileira); o guia só cita mercados industriais (cooperação produção-marketing em pymes)."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Competência: 'Conocer la forma de segmentación y posicionamiento (MT1, MT8)'",
+      "foreignLocation": "Competencias específicas de conocimiento, terceiro item",
+      "note": "Declarado como competência, sem tema detalhado; o conteúdo do guia é um único parágrafo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Marketing agroalimentar, digital, de serviços financeiros e para start-ups", "location": "Contenidos, parágrafo único"},
+    {"topic": "Análise setorial e métodos de apoio à decisão em marketing", "location": "Objetivos, terceiro a quinto itens"},
+    {"topic": "Elaboração, implantação e seguimento do plano de marketing", "location": "Competencias específicas de habilidad, quarto item"},
+    {"topic": "Relação com clientes pela internet", "location": "Competencias específicas de conocimiento, sexto item"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: o que é marketing e geração de valor; satisfação, valor, fidelidade, comportamento do consumidor, do comprador organizacional e marketing estratégico com segmentação e posicionamento.",
+    "foreign": ["Compreender o âmbito das decisões de marketing em diferentes setores", "Conhecer segmentação e posicionamento", "Conhecer métodos de apoio à decisão em marketing", "Analisar um setor e desenhar um plano de marketing"],
+    "convergences": ["Segmentação e posicionamento", "Enfoque geral das decisões de marketing"],
+    "differences": ["Salamanca é optativa do 4º ano, centrada em setores (turismo, financeiro, agroalimentar, digital) e pressupõe quatro disciplinas de marketing prévias", "Mackenzie é a primeira disciplina de marketing da 1ª etapa, com comportamento do consumidor e do comprador organizacional", "Conteúdo de Salamanca é um parágrafo; o guia detalha mais objetivos e competências"]
+  },
+  "depth": {
+    "level": "Mackenzie: 1ª etapa, introdutória; Salamanca: 4º ano, optativa avançada setorial",
+    "brazil": "Introdução ao marketing, 63,3 h-relógio, cinco itens",
+    "foreign": "Marketing setorial com análise de setor, 6 ECTS e 45 h presenciais declaradas",
+    "theoryPractice": "15 h de teoria, 20 h de prática (casos e exercícios), 7 h de tutoria e 3 h de exame"
+  },
+  "practical": {
+    "period": "Segundo semestre; oferta 2027/28 não confirmada",
+    "language": "Español",
+    "enrolment": "Optativa de 4º ano com assistência mínima de 85%; o guia não informa vagas para intercambistas",
+    "prerequisites": "Quatro disciplinas obrigatórias de marketing e comercialização recomendadas",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Marketing Sectorial é uma optativa avançada que só toca o conteúdo introdutório da ficha Marketing I pela segmentação e posicionamento e por noções gerais de decisão, e deixa sem evidência o comportamento do consumidor e do comprador organizacional.",
+  "justification": "Um item está coberto (segmentação e posicionamento, como competência), dois são parciais (significado de marketing e ambiente, reinterpretados em chave setorial) e dois ficam ausentes (comportamento do consumidor e do comprador organizacional), o que dá cobertura útil de 60%. O 'Contenidos' do guia é um único parágrafo e a classificação apoia-se em objetivos e competências. As horas são analisáveis: 45 h presenciais declaradas contra 63,3 h-relógio dão razão 0,71 (0,59 se a hora for de 50 min), abaixo do referencial de 0,75. A disciplina é de 4º ano e supõe quatro cursos de marketing prévios, de modo que a progressão pedagógica é inversa à da ficha brasileira de 1ª etapa. Por isso a classe é afinidade parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Conteúdo programático reduzido a um parágrafo, avaliação apoiada em competências, guia de 2025/26 e ficha brasileira de vigência não confirmada; as horas são explícitas.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; o guia lido é 'Curso 2025/2026'",
+    "Duração da hora estrangeira não declarada; razão de 0,71 se hora-relógio e 0,59 se hora de 50 min",
+    "Conteúdo programático do guia é um único parágrafo; temas por setor listados como exemplos ('como pueden ser')",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Disciplina optativa de 4º ano com quatro pré-requisitos recomendados",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Fundamentos de Comercialización cobre significado de marketing, ambiente e comportamento do consumidor em Salamanca?",
+    "Os setores abordados em 2027/28 serão os mesmos listados no guia?"
+  ],
+  "alternatives": [
+    {"code": "CAT-USAL-210412", "name": "International Marketing", "relation": "Disciplina de marketing da mesma universidade, já analisada em parecer separado para esta disciplina brasileira; programa não lido neste parecer"},
+    {"code": "CAT-USAL-209843", "name": "Fundamentos de Comercialización", "relation": "Pré-requisito recomendado deste curso e provável sede do marketing introdutório; já analisada em parecer separado; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e do guia docente de Salamanca (seções 1 a 9, incluindo a distribuição de horas na seção 6) com apoio de IA (Claude); cada item vinculado a objetivo ou competência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Conteúdo programático curto: confirmar com o docente se Segmentação e Posicionamento e o ambiente de marketing são ensinados"}
+}

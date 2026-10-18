@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-10-17T13:21:49+00:00",
+  "generated": "2026-10-18T02:19:31+00:00",
   "brazilCounts": {
    "cc": {
     "vigente_vinculada": 38,
@@ -23,7 +23,7 @@
   },
   "foreignUniversities": 55,
   "foreignMissingSyllabi": 634,
-  "insufficientCatalogueCrossings": 3500,
+  "insufficientCatalogueCrossings": 3484,
   "note": "Pendência documental não é incompatibilidade. Tentativas malsucedidas não provam inexistência do documento."
  },
  "labels": {
@@ -2391,7 +2391,7 @@
    "name": "Northeastern Illinois University",
    "country": "EUA",
    "catalogUrl": "https://www.neiu.edu/academics/majors-minors-graduate-programs-certificates",
-   "insufficientCatalogueCrossings": 132,
+   "insufficientCatalogueCrossings": 130,
    "missingSyllabi": [
     {
      "code": "CS-426",
@@ -2653,7 +2653,7 @@
    "name": "Soongsil University",
    "country": "Coreia do Sul",
    "catalogUrl": "https://sec.ssu.ac.kr/page/subject_contents.php",
-   "insufficientCatalogueCrossings": 136,
+   "insufficientCatalogueCrossings": 134,
    "missingSyllabi": [
     {
      "code": "CAT-SSU-INFOSEC-012",
@@ -2876,11 +2876,75 @@
    ]
   },
   {
+   "universityId": "it-46-universitadegl",
+   "name": "Universita' degli Studi di Ferrara",
+   "country": "Itália",
+   "catalogUrl": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o",
+   "insufficientCatalogueCrossings": 139,
+   "missingSyllabi": [
+    {
+     "code": "CAT-UNIFE-26-008",
+     "name": "Diritto commerciale",
+     "reason": "candidata por conceitos",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    },
+    {
+     "code": "CAT-UNIFE-26-001",
+     "name": "Diritto costituzionale",
+     "reason": "candidata por conceitos",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    },
+    {
+     "code": "CAT-UNIFE-26-012",
+     "name": "Diritto del lavoro",
+     "reason": "candidata por conceitos",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    },
+    {
+     "code": "CAT-UNIFE-26-011",
+     "name": "Diritto e religione",
+     "reason": "candidata por conceitos",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    },
+    {
+     "code": "CAT-UNIFE-26-010",
+     "name": "Giustizia costituzionale",
+     "reason": "candidata por conceitos",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    },
+    {
+     "code": "CAT-UNIFE-26-002",
+     "name": "Istituzioni di diritto romano",
+     "reason": "candidata por conceitos",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    },
+    {
+     "code": "CAT-UNIFE-26-013",
+     "name": "Politica economica",
+     "reason": "candidata por conceitos",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    },
+    {
+     "code": "CAT-UNIFE-26-005",
+     "name": "Storia del diritto medievale e moderno",
+     "reason": "candidata por conceitos",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    },
+    {
+     "code": "CAT-UNIFE-26-003",
+     "name": "Filosofia del diritto",
+     "reason": "candidata registrada",
+     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
+    }
+   ],
+   "parecerAnomalies": []
+  },
+  {
    "universityId": "tu-66-istanbulaydnun",
    "name": "İstanbul Aydın Üniversitesi",
    "country": "Turquia",
    "catalogUrl": "https://study.aydin.edu.tr/programs/",
-   "insufficientCatalogueCrossings": 128,
+   "insufficientCatalogueCrossings": 123,
    "missingSyllabi": [
     {
      "code": "COM373",
@@ -3007,70 +3071,6 @@
      "name": "OPERATING SYSTEMS",
      "reason": "candidata registrada",
      "source": "https://study.aydin.edu.tr/computer-engineering/"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
-   "universityId": "it-46-universitadegl",
-   "name": "Universita' degli Studi di Ferrara",
-   "country": "Itália",
-   "catalogUrl": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o",
-   "insufficientCatalogueCrossings": 139,
-   "missingSyllabi": [
-    {
-     "code": "CAT-UNIFE-26-008",
-     "name": "Diritto commerciale",
-     "reason": "candidata por conceitos",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
-    },
-    {
-     "code": "CAT-UNIFE-26-001",
-     "name": "Diritto costituzionale",
-     "reason": "candidata por conceitos",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
-    },
-    {
-     "code": "CAT-UNIFE-26-012",
-     "name": "Diritto del lavoro",
-     "reason": "candidata por conceitos",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
-    },
-    {
-     "code": "CAT-UNIFE-26-011",
-     "name": "Diritto e religione",
-     "reason": "candidata por conceitos",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
-    },
-    {
-     "code": "CAT-UNIFE-26-010",
-     "name": "Giustizia costituzionale",
-     "reason": "candidata por conceitos",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
-    },
-    {
-     "code": "CAT-UNIFE-26-002",
-     "name": "Istituzioni di diritto romano",
-     "reason": "candidata por conceitos",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
-    },
-    {
-     "code": "CAT-UNIFE-26-013",
-     "name": "Politica economica",
-     "reason": "candidata por conceitos",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
-    },
-    {
-     "code": "CAT-UNIFE-26-005",
-     "name": "Storia del diritto medievale e moderno",
-     "reason": "candidata por conceitos",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
-    },
-    {
-     "code": "CAT-UNIFE-26-003",
-     "name": "Filosofia del diritto",
-     "reason": "candidata registrada",
-     "source": "https://corsi.unife.it/it/lm-giurisprudenza/studiare/didattica/progr/programma-del-corso-e-dei-curricula-n-o"
     }
    ],
    "parecerAnomalies": []
@@ -3228,7 +3228,7 @@
    "name": "Kyungpook National University",
    "country": "Coreia do Sul",
    "catalogUrl": "https://en.knu.ac.kr/edu/school01.htm",
-   "insufficientCatalogueCrossings": 66,
+   "insufficientCatalogueCrossings": 64,
    "missingSyllabi": [
     {
      "code": "ITE0416",
@@ -3400,7 +3400,7 @@
    "name": "Universidad Diego Portales",
    "country": "Chile",
    "catalogUrl": "https://admision.udp.cl/descubre/carreras/",
-   "insufficientCatalogueCrossings": 63,
+   "insufficientCatalogueCrossings": 62,
    "missingSyllabi": [
     {
      "code": "CAT-ciencia-de-datos-para-economia",
@@ -3583,7 +3583,7 @@
    "name": "Universidad de Cádiz",
    "country": "Espanha",
    "catalogUrl": "https://www.uca.es/grados/?lang=em",
-   "insufficientCatalogueCrossings": 75,
+   "insufficientCatalogueCrossings": 74,
    "missingSyllabi": [
     {
      "code": "21714038",
@@ -3658,6 +3658,14 @@
      "reason": "Identidade do documento estrangeiro divergente do catálogo; requer localizar o código correto de Proyectos Informáticos antes de qualquer análise"
     },
     {
+     "parecer": "adm|Marketing I|es-cadiz|21506032",
+     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
+    },
+    {
+     "parecer": "adm|Marketing II|es-cadiz|21506032",
+     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
+    },
+    {
      "parecer": "adm|Projetos Empreendedores|es-cadiz|21719027",
      "reason": "Identidade do documento estrangeiro divergente do catálogo; requer localizar o código correto de Proyectos Informáticos antes de qualquer análise"
     },
@@ -3700,6 +3708,10 @@
     {
      "parecer": "cc|ENEC61011|es-cadiz|21714021",
      "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+    },
+    {
+     "parecer": "cc|ENEC61012|es-cadiz|21714012",
+     "reason": "Obter o plano de ensino completo de Introdução à Engenharia de Software; campo Ementa oficial vazio"
     },
     {
      "parecer": "cc|ENEC61012|es-cadiz|21714043",
@@ -3898,7 +3910,7 @@
    "name": "Nevşehir Hacı Bektaş Veli Üniversitesi",
    "country": "Turquia",
    "catalogUrl": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/bolum/180002/sayfa/1",
-   "insufficientCatalogueCrossings": 72,
+   "insufficientCatalogueCrossings": 70,
    "missingSyllabi": [
     {
      "code": "İŞL229",
@@ -3968,7 +3980,7 @@
    "name": "Universidad la Gran Colombia",
    "country": "Colômbia",
    "catalogUrl": "https://www.ugc.edu.co/pregrado",
-   "insufficientCatalogueCrossings": 45,
+   "insufficientCatalogueCrossings": 46,
    "missingSyllabi": [
     {
      "code": "CAT-antropologia",
@@ -4136,22 +4148,6 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "eu-35-dukeuniversity",
-   "name": "Duke University",
-   "country": "EUA",
-   "catalogUrl": "https://gradschool.duke.edu/academics/programs-and-degrees/",
-   "insufficientCatalogueCrossings": 69,
-   "missingSyllabi": [
-    {
-     "code": "587",
-     "name": "Language-Based Security",
-     "reason": "candidata por conceitos",
-     "source": "https://cs.duke.edu/undergraduate/bulletin-fall-summer-2026#collapse-accordion-1188-2"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
    "universityId": "eu-33-theohiostateun",
    "name": "The Ohio State University",
    "country": "EUA",
@@ -4191,6 +4187,22 @@
      "name": "Verbintenissenrecht",
      "reason": "candidata registrada",
      "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+    }
+   ],
+   "parecerAnomalies": []
+  },
+  {
+   "universityId": "eu-35-dukeuniversity",
+   "name": "Duke University",
+   "country": "EUA",
+   "catalogUrl": "https://gradschool.duke.edu/academics/programs-and-degrees/",
+   "insufficientCatalogueCrossings": 68,
+   "missingSyllabi": [
+    {
+     "code": "587",
+     "name": "Language-Based Security",
+     "reason": "candidata por conceitos",
+     "source": "https://cs.duke.edu/undergraduate/bulletin-fall-summer-2026#collapse-accordion-1188-2"
     }
    ],
    "parecerAnomalies": []
@@ -4405,7 +4417,12 @@
      "source": "https://docs.google.com/document/d/1CLZn4_AiDukosODlEL6ckCh_Wsz4ndzePIKj4WX_UEY/edit?usp=sharing"
     }
    ],
-   "parecerAnomalies": []
+   "parecerAnomalies": [
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PÚBLICO|ar-7-universidaddec|CAT-derecho-internacional-publico",
+     "reason": "Confirmar com a coordenação o conteúdo vigente de Direito Internacional Público, já que o texto de 2022 destoa do título, e obter programa estrangeiro atualizado com horas"
+    }
+   ]
   },
   {
    "universityId": "bo-12-universidadpri",
@@ -5038,7 +5055,7 @@
    "name": "Università degli Studi di Roma Tor Vergata",
    "country": "Itália",
    "catalogUrl": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/",
-   "insufficientCatalogueCrossings": 18,
+   "insufficientCatalogueCrossings": 19,
    "missingSyllabi": [
     {
      "code": "8022886",
@@ -5276,7 +5293,7 @@
    "name": "Universidad Evangélica Boliviana",
    "country": "Bolívia",
    "catalogUrl": "https://ueb.edu.bo/ingenieria-de-sistemas/",
-   "insufficientCatalogueCrossings": 10,
+   "insufficientCatalogueCrossings": 9,
    "missingSyllabi": [
     {
      "code": "CAT-UEB-SIS-MAT224",
@@ -5534,33 +5551,11 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "ho-40-viaachristianu",
-   "name": "Viaa - Christian University of Applied Sciences",
-   "country": "Holanda",
-   "catalogUrl": "https://www.viaa.nl/en/education/viaa-international-business-exchange/",
-   "insufficientCatalogueCrossings": 39,
-   "missingSyllabi": [
-    {
-     "code": "CAT-HO-40-VIAACHRISTIANU-005",
-     "name": "Practical Theology",
-     "reason": "candidata por conceitos",
-     "source": "https://www.viaa.nl/en/education/viaa-international-business-exchange/"
-    },
-    {
-     "code": "CAT-HO-40-VIAACHRISTIANU-003",
-     "name": "Research Project",
-     "reason": "candidata por conceitos",
-     "source": "https://www.viaa.nl/en/education/viaa-international-business-exchange/"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
    "universityId": "ch-14-universidadfin",
    "name": "Universidad Finis Terrae",
    "country": "Chile",
    "catalogUrl": "",
-   "insufficientCatalogueCrossings": 11,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "CAT-FINIS-DIR-032",
@@ -5740,11 +5735,33 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "ho-40-viaachristianu",
+   "name": "Viaa - Christian University of Applied Sciences",
+   "country": "Holanda",
+   "catalogUrl": "https://www.viaa.nl/en/education/viaa-international-business-exchange/",
+   "insufficientCatalogueCrossings": 39,
+   "missingSyllabi": [
+    {
+     "code": "CAT-HO-40-VIAACHRISTIANU-005",
+     "name": "Practical Theology",
+     "reason": "candidata por conceitos",
+     "source": "https://www.viaa.nl/en/education/viaa-international-business-exchange/"
+    },
+    {
+     "code": "CAT-HO-40-VIAACHRISTIANU-003",
+     "name": "Research Project",
+     "reason": "candidata por conceitos",
+     "source": "https://www.viaa.nl/en/education/viaa-international-business-exchange/"
+    }
+   ],
+   "parecerAnomalies": []
+  },
+  {
    "universityId": "in-41-bmlmunjalunive",
    "name": "BML Munjal University",
    "country": "Índia",
    "catalogUrl": "https://www.bmu.edu.in/courses/ba-llb/curriculum/",
-   "insufficientCatalogueCrossings": 10,
+   "insufficientCatalogueCrossings": 12,
    "missingSyllabi": [
     {
      "code": "LAW4701",
@@ -5904,7 +5921,7 @@
    "name": "Universita' degli Studi di Firenze",
    "country": "Itália",
    "catalogUrl": "https://www.unifi.it/en/study-us/degree-programmes/international-courses",
-   "insufficientCatalogueCrossings": 13,
+   "insufficientCatalogueCrossings": 15,
    "missingSyllabi": [
     {
      "code": "CAT-diritto-amministrativo-i",
@@ -6016,7 +6033,7 @@
    "name": "Universidad de Chile",
    "country": "Chile",
    "catalogUrl": "http://www.uchile.cl/pregrado",
-   "insufficientCatalogueCrossings": 14,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "CAT-gestion-de-personas",
@@ -6362,7 +6379,7 @@
    "name": "ISG International Business School",
    "country": "França",
    "catalogUrl": "https://www.isg.fr/en/programmes/bachelor-in-international-management/the-3-years/",
-   "insufficientCatalogueCrossings": 15,
+   "insufficientCatalogueCrossings": 14,
    "missingSyllabi": [
     {
      "code": "CAT-FR-39-ISGINTERNATION-011",
@@ -6627,7 +6644,7 @@
    "name": "Universidade de Coimbra",
    "country": "Portugal",
    "catalogUrl": "https://www.uc.pt/estudarnauc/estudantes-internacionais/licenciaturas-e-mestrados-integrados/",
-   "insufficientCatalogueCrossings": 16,
+   "insufficientCatalogueCrossings": 15,
    "missingSyllabi": [],
    "parecerAnomalies": [
     {
@@ -6925,7 +6942,7 @@
    "name": "Solbridge International School of Business",
    "country": "Coreia do Sul",
    "catalogUrl": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
-   "insufficientCatalogueCrossings": 9,
+   "insufficientCatalogueCrossings": 8,
    "missingSyllabi": [
     {
      "code": "ENT101",
@@ -6964,7 +6981,24 @@
      "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
     }
    ],
-   "parecerAnomalies": []
+   "parecerAnomalies": [
+    {
+     "parecer": "adm|Administração Estratégica e Sustentabilidade|co-24-solbridgeinter|BUS308B",
+     "reason": "Rebaixamento de classe por ausência de sustentabilidade; conferir com o coordenador se estratégia empresarial isolada atende parte da ementa"
+    },
+    {
+     "parecer": "adm|Gestão de Inovação|co-24-solbridgeinter|BUS445",
+     "reason": "Classe no limite de 50% da cobertura; avaliar se técnicas criativas atendem a ementa de gestão da inovação"
+    },
+    {
+     "parecer": "adm|Marketing I|co-24-solbridgeinter|MKT200B",
+     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
+    },
+    {
+     "parecer": "adm|Marketing II|co-24-solbridgeinter|MKT200B",
+     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
+    }
+   ]
   },
   {
    "universityId": "po-61-universidadeca",
@@ -7050,7 +7084,24 @@
      "source": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/direito.aspx"
     }
    ],
-   "parecerAnomalies": []
+   "parecerAnomalies": [
+    {
+     "parecer": "adm|Administração Estratégica e Sustentabilidade|po-63-universidadelu|24129",
+     "reason": "Programa em linhas únicas sem subitens e horas de contacto ilegíveis; recomenda-se confirmação com a Lusíada antes de qualquer decisão"
+    },
+    {
+     "parecer": "adm|Gestão de Operações|po-63-universidadelu|24125",
+     "reason": "Parcialidades de planejamento e controle inferidas de títulos curtos; recomenda-se obter o programa detalhado da Lusíada"
+    },
+    {
+     "parecer": "adm|Logística Empresarial|po-63-universidadelu|24115",
+     "reason": "Programa de dez linhas sem subitens; cobertura de estoques e distribuição inferida de títulos"
+    },
+    {
+     "parecer": "adm|Teorias da Administração|po-63-universidadelu|24101",
+     "reason": "Classe evidencia_insuficiente por ficha pouco discriminada; obter plano detalhado do conteúdo 2 antes de qualquer decisão"
+    }
+   ]
   },
   {
    "universityId": "it-48-universitadegl",
@@ -7149,7 +7200,12 @@
      "source": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/"
     }
    ],
-   "parecerAnomalies": []
+   "parecerAnomalies": [
+    {
+     "parecer": "dir|ATO ADMINISTRATIVO, CONTROLE DA ADMINISTRAÇÃO PÚBLICA E RESPONSABILIDADE CIVIL DO ESTADO|po-56-universidadede|CAT-direito-administrativo-ii",
+     "reason": "Revisão docente de direito administrativo para pesar diferenças entre sistemas e obter a ficha completa da unidade"
+    }
+   ]
   },
   {
    "universityId": "es-salamanca",
@@ -7175,8 +7231,16 @@
      "reason": "Três enunciados não verificáveis e disciplina de outro curso (Direito); sugere-se consulta à docente"
     },
     {
+     "parecer": "adm|Marketing I|es-salamanca|CAT-USAL-210415",
+     "reason": "Conteúdo programático curto: confirmar com o docente se Segmentação e Posicionamento e o ambiente de marketing são ensinados"
+    },
+    {
      "parecer": "adm|Marketing II|es-salamanca|CAT-USAL-210412",
      "reason": "Cobertura parcial baseada em um único item sem detalhamento; vale confirmar com o departamento o peso do mix na disciplina"
+    },
+    {
+     "parecer": "adm|Marketing II|es-salamanca|CAT-USAL-210415",
+     "reason": "Conteúdo programático curto: confirmar com o docente a profundidade de cada P por setor"
     },
     {
      "parecer": "adm|Sociologia das Organizações|es-salamanca|CAT-USAL-210334",
@@ -7291,12 +7355,32 @@
      "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
     },
     {
+     "parecer": "dir|PESSOAS E BENS|es-salamanca|CAT-USAL-207150",
+     "reason": "Revisão docente do direito civil para confirmar o peso da diferença entre Código Civil brasileiro e espanhol e a oferta"
+    },
+    {
+     "parecer": "dir|PRATICA JURIDICA CLINICA VI - ADVOCACIA CORPORATIVA|es-salamanca|CAT-USAL-207653",
+     "reason": "Decisão sobre aceitar atividade clínica de ação social no lugar de prática corporativa depende da coordenação"
+    },
+    {
+     "parecer": "dir|PRINCÍPIOS, ESTRUTURA E ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA|es-salamanca|CAT-USAL-206969",
+     "reason": "Revisão docente de direito administrativo para pesar o peso do direito positivo espanhol frente ao brasileiro"
+    },
+    {
      "parecer": "dir|PROCESSO DE CONHECIMENTO|es-salamanca|CAT-USAL-207570",
      "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
     },
     {
+     "parecer": "dir|PRÁTICA JURÍDICA CLÍNICA IV - ADVOCACIA PRIVADA|es-salamanca|CAT-USAL-207653",
+     "reason": "Aceite de atividade clínica de ação social no lugar de prática de advocacia privada é decisão da coordenação"
+    },
+    {
      "parecer": "dir|PRÁTICA JURÍDICA PRÉ-CLÍNICA I - MINHA FORMAÇÃO PROFISSIONAL|es-salamanca|CAT-USAL-207653",
      "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+    },
+    {
+     "parecer": "dir|PRÁTICA JURÍDICA PRÉ-CLÍNICA III - IMPACTO SOCIAL|es-salamanca|CAT-USAL-207653",
+     "reason": "Compatibilidade de nível (4º curso x 3ª etapa) e comprovação de atividades práticas dependem da coordenação"
     },
     {
      "parecer": "dir|RECURSOS E EXECUÇÃO DA SENTENÇA PENAL|es-salamanca|CAT-USAL-207735",
@@ -7325,6 +7409,10 @@
     {
      "parecer": "dir|TEORIA GERAL DO DIREITO|es-salamanca|CAT-USAL-207221",
      "reason": "Revisão docente de conteúdo e oferta necessária antes de aproveitamento"
+    },
+    {
+     "parecer": "dir|TEORIA GERAL DO PROCESSO|es-salamanca|CAT-USAL-207622",
+     "reason": "Revisão docente do peso de organização judicial e atos processuais frente aos métodos consensuais da ementa brasileira"
     },
     {
      "parecer": "dir|TRIBUTOS EM ESPÉCIE|es-salamanca|CAT-USAL-207557",
@@ -7372,116 +7460,6 @@
     },
     {
      "parecer": "si|PROGRAMAÇÃO DE SISTEMAS II|es-salamanca|105909",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    }
-   ]
-  },
-  {
-   "universityId": "gb-leeds",
-   "name": "University of Leeds",
-   "country": "Inglaterra",
-   "catalogUrl": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
-   "insufficientCatalogueCrossings": 3,
-   "missingSyllabi": [],
-   "parecerAnomalies": [
-    {
-     "parecer": "adm|Comportamento Organizacional|gb-leeds|LAW1101",
-     "reason": "Syllabus detalhado inacessível no catálogo; reavaliar se o Minerva ou o responsável do módulo fornecerem o programa"
-    },
-    {
-     "parecer": "adm|Sociologia das Organizações|gb-leeds|LUBS3955",
-     "reason": "Classe reduzida em relação à regra interna; vale uma segunda leitura sobre a afinidade entre liderança e sociologia das organizações"
-    },
-    {
-     "parecer": "cc|ENEC50011|gb-leeds|COMP3943",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC54298|gb-leeds|COMP3230",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC54361|gb-leeds|LUBS2415",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC61015|gb-leeds|COMP3950",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC61018|gb-leeds|COMP3212",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC61020|gb-leeds|COMP3270",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX54360|gb-leeds|COMP3943",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX54366|gb-leeds|COMP3943",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX54368|gb-leeds|COMP3912",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX60047|gb-leeds|COMP3912",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX60047|gb-leeds|COMP3943",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX60052|gb-leeds|COMP3630",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENEX60057|gb-leeds|COMP3620",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENEX60057|gb-leeds|COMP3630",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENEX60212|gb-leeds|COMP3943",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENUN51118|gb-leeds|LAW1101",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENUN51121|gb-leeds|LUBS1001",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENUN52242|gb-leeds|LUBS1001",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|CRIMINOLOGIA E TEORIA GERAL DO CRIME|gb-leeds|LAW2091",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|PRINCÍPIOS DE EMPREENDEDORISMO|gb-leeds|LUBS1001",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|PROJETOS EMPREENDEDORES|gb-leeds|LUBS1175",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|TUTELA DOS DIREITOS DIFUSOS E COLETIVOS|gb-leeds|LUBS0010",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|ÉTICA E CIDADANIA|gb-leeds|LAW1101",
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
     }
    ]
@@ -7654,11 +7632,129 @@
    ]
   },
   {
+   "universityId": "gb-leeds",
+   "name": "University of Leeds",
+   "country": "Inglaterra",
+   "catalogUrl": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
+   "insufficientCatalogueCrossings": 2,
+   "missingSyllabi": [],
+   "parecerAnomalies": [
+    {
+     "parecer": "adm|Comportamento Organizacional|gb-leeds|LAW1101",
+     "reason": "Syllabus detalhado inacessível no catálogo; reavaliar se o Minerva ou o responsável do módulo fornecerem o programa"
+    },
+    {
+     "parecer": "adm|Sociologia das Organizações|gb-leeds|LUBS3955",
+     "reason": "Classe reduzida em relação à regra interna; vale uma segunda leitura sobre a afinidade entre liderança e sociologia das organizações"
+    },
+    {
+     "parecer": "cc|ENEC50011|gb-leeds|COMP3943",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC54298|gb-leeds|COMP3230",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC54361|gb-leeds|LUBS2415",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC61015|gb-leeds|COMP3950",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC61018|gb-leeds|COMP3212",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC61020|gb-leeds|COMP3270",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX54360|gb-leeds|COMP3943",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX54366|gb-leeds|COMP3943",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX54368|gb-leeds|COMP3912",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX60047|gb-leeds|COMP3912",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX60047|gb-leeds|COMP3943",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX60052|gb-leeds|COMP3630",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENEX60057|gb-leeds|COMP3620",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENEX60057|gb-leeds|COMP3630",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENEX60212|gb-leeds|COMP3943",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENUN51118|gb-leeds|LAW1101",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENUN51121|gb-leeds|LUBS1001",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENUN52242|gb-leeds|LUBS1001",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|CRIMINOLOGIA E TEORIA GERAL DO CRIME|gb-leeds|LAW2091",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|PRINCÍPIOS DE EMPREENDEDORISMO|gb-leeds|LUBS1001",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|PRINCÍPIOS, ESTRUTURA E ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA|gb-leeds|LAW1224",
+     "reason": "Programa detalhado indisponível; revisão docente e consulta ao Minerva ou à School of Law antes de qualquer decisão"
+    },
+    {
+     "parecer": "dir|PROJETOS EMPREENDEDORES|gb-leeds|LUBS1175",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|PRÁTICA JURÍDICA PRÉ-CLÍNICA IV - PRATICAS DE INOVAÇÃO E EMPREENDEDORISMO|gb-leeds|LUBS3841",
+     "reason": "Decisão sobre aceitar módulo de negócios como atividade de inovação depende da coordenação de Direito"
+    },
+    {
+     "parecer": "dir|TUTELA DOS DIREITOS DIFUSOS E COLETIVOS|gb-leeds|LUBS0010",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|ÉTICA E CIDADANIA|gb-leeds|LAW1101",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    }
+   ]
+  },
+  {
    "universityId": "es-26-universidaddej",
    "name": "Universidad de Jaén",
    "country": "Espanha",
    "catalogUrl": "https://www.ujaen.es/estudios/oferta-academica/grados",
-   "insufficientCatalogueCrossings": 1,
+   "insufficientCatalogueCrossings": 0,
    "missingSyllabi": [],
    "parecerAnomalies": [
     {
@@ -7700,7 +7796,7 @@
    "name": "Instituto Politécnico de Coimbra",
    "country": "Portugal",
    "catalogUrl": "https://www.ipc.pt/ipc/estudar/licenciaturas/",
-   "insufficientCatalogueCrossings": 1,
+   "insufficientCatalogueCrossings": 0,
    "missingSyllabi": [],
    "parecerAnomalies": []
   }

@@ -1,0 +1,223 @@
+{
+  "id": "adm|Logística Empresarial|po-63-universidadelu|24115",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Logística Empresarial",
+    "name": "Logística Empresarial",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 6, bloco 'Logística Empresarial': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos de logística",
+      "Gestão da Cadeia de Suprimentos",
+      "Serviço aos Clientes",
+      "Armazenagem e movimentação de materiais",
+      "Gestão de Compras",
+      "Gestão de Estoques a. Classificação ABC b. Estoque de segurança c. Ponto de pedido/reposição d. Lotes econômicos de compras e de fabricação",
+      "Técnicas Previsão de demanda a. Média móvel b. Média móvel ponderada c. Suavização exponencial",
+      "Distribuição física e Gestão de Canais de Distribuição",
+      "Localização de instalações",
+      "Just in Time (JIT)",
+      "Gestão de Transporte",
+      "Terceirização logística e Operadores Logísticos",
+      "Logística Reversa",
+      "TI aplicada à Logística"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24115",
+      "name": "Gestão da Cadeia de Abastecimento",
+      "pageCode": "24115",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa); área científica Gestão da Cadeia de Abastecimento",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha não foi extraído; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "1º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Dois testes e um trabalho de grupo",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24115_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "227560b942d8b4341e289d18e52c96f5058efb36cdeaac1a0fc5bfb46a87493b",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 21/09/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (conteúdos 1-10), 19 (avaliação), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito, e nenhum valor foi atribuído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos de logística",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conteúdo '1. Logística'; palavras-chave 'Logística'",
+      "foreignLocation": "Item 18, conteúdo 1; item 22"
+    },
+    {
+      "brTopic": "Gestão da Cadeia de Suprimentos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'2. Cadeia de abastecimento'; objetivo 1: 'princípios fundamentais da cadeia de abastecimento e o seu papel estratégico na criação de valor'",
+      "foreignLocation": "Item 18, conteúdo 2; item 16 (objetivo 1)"
+    },
+    {
+      "brTopic": "Serviço aos Clientes",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'3. Serviço ao cliente'; '4. Ciclo da procura e ciclo da encomenda'; competência: ponderar 'níveis de serviço'",
+      "foreignLocation": "Item 18, conteúdos 3 e 4; item 16"
+    },
+    {
+      "brTopic": "Armazenagem e movimentação de materiais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'6. Armazenagem'",
+      "foreignLocation": "Item 18, conteúdo 6",
+      "note": "Armazenagem é nomeada; movimentação de materiais não aparece."
+    },
+    {
+      "brTopic": "Gestão de Compras",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5. Seleção e avaliação de fornecedores'; competência: gerir relações com fornecedores",
+      "foreignLocation": "Item 18, conteúdo 5; item 16",
+      "note": "Fornecedores cobrem parte do processo de compras; o ciclo de compras não é descrito."
+    },
+    {
+      "brTopic": "Gestão de Estoques a. Classificação ABC b. Estoque de segurança c. Ponto de pedido/reposição d. Lotes econômicos de compras e de fabricação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'7. Gestão de stocks'; objetivo 2: 'Analisar modelos de gestão de stocks'",
+      "foreignLocation": "Item 18, conteúdo 7; item 16 (objetivo 2)",
+      "note": "Gestão e modelos de stocks são nomeados; classificação ABC, estoque de segurança, ponto de pedido e lotes econômicos não são citados."
+    },
+    {
+      "brTopic": "Técnicas Previsão de demanda a. Média móvel b. Média móvel ponderada c. Suavização exponencial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; '4. Ciclo da procura e ciclo da encomenda' trata o fluxo de pedidos, e não técnicas quantitativas de previsão"
+    },
+    {
+      "brTopic": "Distribuição física e Gestão de Canais de Distribuição",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'9. Gestão do sistema logístico'; objetivo 3: 'Avaliar opções de transporte e distribuição, com base em critérios de eficiência, custo, tempo e sustentabilidade'; competência: gerir relações com distribuidores",
+      "foreignLocation": "Item 18, conteúdo 9; item 16",
+      "note": "Distribuição aparece como opção a avaliar; canais de distribuição não são detalhados."
+    },
+    {
+      "brTopic": "Localização de instalações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; sem localização de instalações ou centros de distribuição"
+    },
+    {
+      "brTopic": "Just in Time (JIT)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; sem JIT ou lean"
+    },
+    {
+      "brTopic": "Gestão de Transporte",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'8. Gestão de transportes'; objetivo 3 sobre opções de transporte; ODS 13 'optimização de rotas e modais de transporte'",
+      "foreignLocation": "Item 18, conteúdo 8; itens 16 e 21"
+    },
+    {
+      "brTopic": "Terceirização logística e Operadores Logísticos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; sem terceirização nem operadores logísticos (a gestão de relações com fornecedores e distribuidores é mais ampla)"
+    },
+    {
+      "brTopic": "Logística Reversa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 21 completos; sustentabilidade é citada como prática ética e ODS, sem logística reversa"
+    },
+    {
+      "brTopic": "TI aplicada à Logística",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; sem tecnologia da informação aplicada à logística (jogos de simulação são método de ensino, não conteúdo)"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Gestão de riscos e mitigação de falhas na cadeia de abastecimento", "location": "Item 15, objetivo 4"},
+    {"topic": "Ciclo da procura e ciclo da encomenda", "location": "Item 18, conteúdo 4"},
+    {"topic": "Práticas sustentáveis e éticas na cadeia", "location": "Item 15, objetivo 5; item 21"},
+    {"topic": "Gestão do sistema logístico", "location": "Item 18, conteúdo 9"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: recursos materiais, nível de serviço, compras e almoxarifados, previsão de demanda, gestão de estoques e distribuição, transporte e canais, localização de CDs, tipos de operações logísticas, papel da TI.",
+    "foreign": ["Mapear, avaliar e otimizar processos ao longo da cadeia de abastecimento", "Decidir estrategicamente entre custo, nível de serviço, tempo e sustentabilidade", "Gerir relações com fornecedores, distribuidores e clientes", "Avaliar opções de transporte e distribuição"],
+    "convergences": ["Conceitos de logística e cadeia de abastecimento", "Serviço ao cliente", "Estoques, armazenagem e transporte"],
+    "differences": ["Lusíada tem visão estratégica da cadeia, com riscos e sustentabilidade", "Mackenzie é técnica (ABC, ponto de pedido, previsão de demanda, JIT, localização, logística reversa, TI), que Lusíada não nomeia"]
+  },
+  "depth": {
+    "level": "Licenciatura em Gestão de Empresa, 2º ano; Mackenzie na 6ª etapa",
+    "brazil": "Logística empresarial de 63,3 h com técnicas quantitativas de estoques e previsão",
+    "foreign": "Gestão da cadeia de abastecimento em dez conteúdos de uma linha, orientada à decisão estratégica",
+    "theoryPractice": "Exposição oral, estudos de caso e jogos de simulação"
+  },
+  "practical": {
+    "period": "1º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão da Cadeia de Abastecimento aborda a logística em visão estratégica e cobre conceitos, cadeia, serviço ao cliente e transporte; as técnicas da ficha Mackenzie (previsão de demanda, JIT, localização, logística reversa, TI) não constam, e a gestão de estoques é só parcial.",
+  "justification": "Dos catorze enunciados, quatro estão cobertos (conceitos, cadeia de abastecimento, serviço ao cliente, transporte), quatro são parciais (armazenagem sem movimentação, fornecedores em vez de compras, gestão de stocks sem ABC nem lotes, distribuição sem canais) e seis ausentes (previsão de demanda, localização, JIT, terceirização, logística reversa e TI). Cobertos mais parciais somam 57%, apenas acima do limite para afinidade parcial, e só 29% estão plenamente cobertos. Os conteúdos são dez linhas sem subitens, de modo que as parcialidades são inferências de títulos. A ficha é de 2025/2026, sem total de contacto legível (6 ECTS), e a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Conteúdos de uma linha, sem subitens, tornam as parcialidades inferências; limiar de 50% sem folga, ficha de 2025/2026 e horas de contacto ilegíveis.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 21/09/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "O título da UC lusíada (Gestão da Cadeia de Abastecimento) difere do título Mackenzie (Logística Empresarial); a ficha foi analisada pelo conteúdo",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Os conteúdos 'Gestão de stocks' e 'Gestão do sistema logístico' incluem ABC, estoque de segurança, ponto de pedido, lotes econômicos e localização de instalações?",
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Gestão da cadeia de abastecimento'); cada tópico vinculado ao conteúdo da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Programa de dez linhas sem subitens; cobertura de estoques e distribuição inferida de títulos"}
+}

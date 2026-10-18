@@ -1,0 +1,160 @@
+{
+  "id": "adm|Marketing I|co-24-solbridgeinter|MKT200B",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing I",
+    "name": "Marketing I",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 10, bloco 'Marketing I': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O significado de marketing",
+      "Ambiente de Marketing",
+      "Comportamento do Consumidor",
+      "Comportamento Organizacional",
+      "Segmentação e Posicionamento"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "MKT200B",
+      "name": "Principles of Marketing",
+      "pageCode": "MKT200B",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); tipo de disciplina Business Course",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "15 semanas; o syllabus conciso não indica semestre de oferta",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Business Course",
+      "assessment": "Presença 20%, participação, projeto final e tarefa 30%, prova intermediária 20%, prova final 30%",
+      "prerequisites": "Nenhum",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/MKT200B%20Principles%20of%20Marketing.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "f4f292bcb36cd05b1cb51a4546da6b44cb20be434b48437709725d625ca48c69",
+      "location": "Concise Syllabus 2016: Learning Objectives (1-7), Course Description, Course content by Week (semanas 1-15), quadro final com Credit, Contact Hours, Prerequisites, Duration",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro final: Credit 3, Contact Hours 45, Duration 15 weeks, Class Type Lecture. O documento não declara a duração da hora de contato. O crédito de 3 é institucional e não foi convertido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O significado de marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 1 'Defining Marketing, Company and Marketing Strategy'; descrição: natureza e escopo dos princípios de marketing, valor e satisfação do cliente",
+      "foreignLocation": "Course content by Week, semana 1; Course Description",
+      "note": "A ementa brasileira cita satisfação, valor e fidelidade; a descrição de MKT200B trata de satisfação e valor do cliente."
+    },
+    {
+      "brTopic": "Ambiente de Marketing",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 2 'Analyzing the Marketing Environment, Managing Marketing Information to Gain Customer Insight'",
+      "foreignLocation": "Course content by Week, semana 2",
+      "note": "Unidade dedicada ao ambiente e à informação de marketing."
+    },
+    {
+      "brTopic": "Comportamento do Consumidor",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 3 'Consumer Markets and Consumer Buyer Behavior'",
+      "foreignLocation": "Course content by Week, semana 3; Course Description (consumer behavior)",
+      "note": "Unidade explícita, também citada na descrição do curso."
+    },
+    {
+      "brTopic": "Comportamento Organizacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 3 'Business Markets and Business Buyer Behavior'",
+      "foreignLocation": "Course content by Week, semana 3",
+      "note": "A ementa brasileira esclarece que o item é o comportamento do comprador organizacional, não o comportamento organizacional geral; é nesse sentido que o item é coberto."
+    },
+    {
+      "brTopic": "Segmentação e Posicionamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 4 'Customer-Driven Marketing Strategy'; descrição: 'customer segmentation'",
+      "foreignLocation": "Course content by Week, semana 4; Course Description",
+      "note": "O posicionamento não é nomeado na semana; segmentação consta da descrição e a estratégia orientada ao cliente é o capítulo que a trata."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Produto, serviços e marcas; desenvolvimento de novos produtos e ciclo de vida", "location": "Course content by Week, semanas 4-5"},
+    {"topic": "Preço e estratégias de preço", "location": "Course content by Week, semanas 5 e 7-8"},
+    {"topic": "Canais de marketing, varejo e atacado", "location": "Course content by Week, semanas 7-8"},
+    {"topic": "Comunicação, propaganda, vendas pessoais, marketing direto e online", "location": "Course content by Week, semanas 9-11"},
+    {"topic": "Mercado global e vantagem competitiva", "location": "Course content by Week, semanas 11-12"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: marketing como geração de valor para cliente e empresa; satisfação, valor, fidelidade, comportamento do consumidor e do comprador organizacional, marketing estratégico com segmentação e posicionamento.",
+    "foreign": ["Desenvolver estratégias e planos de marketing", "Conectar-se com clientes e construir marcas", "Moldar a oferta e entregar e comunicar valor", "Criar crescimento de longo prazo"],
+    "convergences": ["Conceito e escopo de marketing", "Ambiente de marketing", "Comportamento do consumidor e do comprador organizacional", "Segmentação"],
+    "differences": ["MKT200B cobre o composto de marketing completo (produto, preço, canais, comunicação) que em Mackenzie fica para Marketing II", "O posicionamento não é nomeado em MKT200B"]
+  },
+  "depth": {
+    "level": "Graduação introdutória; Mackenzie na 1ª etapa, MKT200B como Business Course sem pré-requisito",
+    "brazil": "Marketing I de 63,3 h, cinco enunciados introdutórios",
+    "foreign": "Principles of Marketing de 45 horas de contato em 15 semanas, com Kotler e Armstrong (14ª ed.), que reúne o conteúdo das duas disciplinas brasileiras",
+    "theoryPractice": "Aulas expositivas, exercícios, estudos de caso, projeto final e apresentações em sala"
+  },
+  "practical": {
+    "period": "15 semanas; semestre de oferta não indicado no syllabus de 2016; 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina do currículo BBA; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Principles of Marketing traz uma semana nomeada para cada enunciado de Marketing I (conceito, ambiente, consumidor, comprador organizacional e segmentação), com a ressalva de que a mesma disciplina de 45 horas já abrange também o conteúdo de Marketing II.",
+  "justification": "Os cinco enunciados estão cobertos pelas semanas 1 a 4 do cronograma (definição de marketing, ambiente, comportamento do consumidor e do comprador organizacional, estratégia orientada ao cliente com segmentação), sem lacuna de conteúdo. A classe fica em afinidade parcial e não em alta porque as 45 horas de contato dão razão 0,71 sobre 63,3 h (0,59 com hora de 50 min), a ficha brasileira não tem vigência impressa e o syllabus é de 2016. Como MKT200B também cobre o conteúdo de Marketing II, de outro semestre e também de 63,3 h, sua carga de 45 horas não sustenta o aproveitamento simultâneo das duas disciplinas brasileiras.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cronograma semanal com todas as unidades da ficha brasileira e horas de contato declaradas; limitado pela idade do documento (2016) e pela vigência não confirmada da ficha.",
+  "limitations": [
+    "Syllabus de 2016, conciso; conteúdos atuais podem ter mudado até 2027.2",
+    "Horas de contato (45) declaradas sem a duração da hora; razão 0,71, ou 0,59 com hora de 50 min; Credit 3 não é convertido",
+    "A mesma MKT200B é a candidata para Marketing I e Marketing II (126,6 h somadas); uma única disciplina de 45 h dificilmente atende às duas",
+    "O item 'Comportamento Organizacional' foi lido como comportamento do comprador organizacional, conforme a ementa de Marketing I",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação aceitaria MKT200B para apenas uma das duas disciplinas de marketing, com a outra complementada por outro curso?",
+    "Existe outra disciplina de marketing no BBA da SolBridge (por exemplo, comportamento do consumidor) que complete a carga?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do syllabus conciso MKT200B (2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado a semana do cronograma; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"}
+}

@@ -1,0 +1,264 @@
+{
+  "id": "adm|Metodologia de Pesquisa em Ciências Sociais Aplicadas|gb-leeds|LUBS2430",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Metodologia de Pesquisa em Ciências Sociais Aplicadas",
+    "name": "Metodologia de Pesquisa em Ciências Sociais Aplicadas",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 8, bloco 'Metodologia de Pesquisa em Ciências Sociais Aplicadas': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "A ficha informa 4 aulas semanais e não declara carga horária total em horas-relógio. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Comparação entre os métodos de pesquisa prática/aplicada e acadêmica",
+      "Abordagens e tipos de pesquisa",
+      "Introdução à Metodologia de Pesquisa Prática/Aplicada",
+      "Estrutura",
+      "Relatório da situação: Empresa; o problema; os sintomas",
+      "Diagnóstico: as informações; análise e diagnóstico",
+      "Dados – Técnicas de Coleta, Instrumentos, Técnicas de Análise",
+      "Aporte teórico",
+      "Solução e planejamento",
+      "Introdução – Introdução à Metodologia de Pesquisa Acadêmica",
+      "Problema de pesquisa",
+      "Objetivos geral e específicos",
+      "Justificativa",
+      "Procedimentos metodológicos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "gb-leeds",
+      "university": "University of Leeds",
+      "code": "LUBS2430",
+      "name": "Economics Research Methods",
+      "pageCode": "LUBS2430",
+      "faculty": "Leeds University Business School (módulo LUBS)",
+      "programme": "Undergraduate Module Catalogue 2026/27 (graduação)",
+      "level": "Graduação (UG)",
+      "yearOfStudy": null,
+      "semester": 2,
+      "period": "Semester 2 (Jan to Jun)",
+      "academicYear": "2026/2027",
+      "language": "English",
+      "courseStatus": "Módulo não aprovado como 'discovery module'; class size 434",
+      "assessment": "Relatório de 2.500 palavras (100%); método de avaliação 'under review'",
+      "prerequisites": "Nenhum pré-requisito listado",
+      "source": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/2430/202627",
+      "catalogue": "https://catalogue.leeds.ac.uk/Module/UG/LUBS/2430/202627",
+      "sha256": "e31980e356de34fc17e37eb503b5b23168657a1f0f0d5067296cf6f263f7621a",
+      "location": "Module Catalogue 2026/27: cabeçalho, Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus, Teaching Methods, Methods of Assessment",
+      "hours": {
+        "contactTotal": 18.0,
+        "contactLecture": 12.0,
+        "contactSeminarLab": 6.0,
+        "selfStudy": 82.0,
+        "totalWorkload": 100.0,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "10 UK credits (100 h de trabalho total, não horas de contacto). 'Total Contact hours 18': 12 aulas de 1 h, 4 seminários de 1 h e 1 workshop de 2 h. Estudo privado de 82 h. Duração da hora igual a 1 h declarada na tabela; hourLengthMinutes não preenchido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Comparação entre os métodos de pesquisa prática/aplicada e acadêmica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "O módulo compara métodos usados por cientistas sociais e pesquisadores de política, não pesquisa aplicada de empresa e pesquisa acadêmica."
+    },
+    {
+      "brTopic": "Abordagens e tipos de pesquisa",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivo: apresentar 'a wide array of different types of research methods'; regressão, qualitativa, desenhos experimentais e quase-experimentais, laboratório",
+      "foreignLocation": "Objectives, segundo item; Syllabus, bloco Research Methods"
+    },
+    {
+      "brTopic": "Introdução à Metodologia de Pesquisa Prática/Aplicada",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Não há pesquisa prática ou aplicada a organizações; o foco é métodos de cientistas sociais e de políticas públicas."
+    },
+    {
+      "brTopic": "Estrutura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Estrutura de relatório de pesquisa aplicada não é tema; só se cita relatório de 2.500 palavras como avaliação."
+    },
+    {
+      "brTopic": "Relatório da situação: Empresa; o problema; os sintomas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Situação da empresa e sintomas não aparecem."
+    },
+    {
+      "brTopic": "Diagnóstico: as informações; análise e diagnóstico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Diagnóstico organizacional não aparece."
+    },
+    {
+      "brTopic": "Dados – Técnicas de Coleta, Instrumentos, Técnicas de Análise",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Principles of survey design and data collection'; 'Regression analysis'; 'Qualitative research'",
+      "foreignLocation": "Syllabus, blocos Research Methods e Survey design and data collection",
+      "note": "Coleta (survey) e análise (regressão) em nível introdutório de 18 h."
+    },
+    {
+      "brTopic": "Aporte teórico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Revisão de literatura e referencial teórico não são citados na página."
+    },
+    {
+      "brTopic": "Solução e planejamento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Solução e planejamento de intervenção não aparecem."
+    },
+    {
+      "brTopic": "Introdução – Introdução à Metodologia de Pesquisa Acadêmica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Summary: 'introducing students to different research methods used by social scientists'; 'critical assessment of research methodologies'",
+      "foreignLocation": "Module summary; Objectives"
+    },
+    {
+      "brTopic": "Problema de pesquisa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Syllabus 'Designing a research project'; habilidade de 'plan and undertake a research project'",
+      "foreignLocation": "Syllabus, bloco Research Design; Skills outcomes",
+      "note": "Desenho do projeto sem menção explícita à formulação do problema de pesquisa."
+    },
+    {
+      "brTopic": "Objetivos geral e específicos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Objetivos geral e específicos não são citados."
+    },
+    {
+      "brTopic": "Justificativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Module summary, Objectives, Learning outcomes, Skills outcomes, Syllabus indicativo (quatro blocos), Teaching Methods e Methods of Assessment da página 2026/27 foram lidos; a Reading List remete à Minerva e não está disponível.",
+      "note": "Justificativa de projeto não é citada."
+    },
+    {
+      "brTopic": "Procedimentos metodológicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Learning outcome: 'Develop a rigorous and systematic approach to the process of conducting research'; core issues of research design",
+      "foreignLocation": "Learning outcomes; Objectives, terceiro item",
+      "note": "Procedimentos metodológicos aparecem como abordagem geral de desenho, sem especificação de seção metodológica."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Pensamento crítico e avaliação da confiabilidade de resultados",
+      "location": "Syllabus, Research Design e Critically evaluating research results"
+    },
+    {
+      "topic": "Erros de raciocínio estatístico e exagero de inferências",
+      "location": "Syllabus, Critically evaluating research results"
+    },
+    {
+      "topic": "Ética em pesquisa e desenho de questionários",
+      "location": "Syllabus, Survey design and data collection"
+    },
+    {
+      "topic": "Experimentos de laboratório e desenhos quase-experimentais",
+      "location": "Syllabus, Research Methods"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: métodos de pesquisa científica e orientação para projeto de pesquisa nos padrões do TGI do CCSA e normas ABNT.",
+    "foreign": [
+      "Desenvolver abordagem sistemática da pesquisa",
+      "Avaliar criticamente vantagens e desvantagens de métodos",
+      "Avaliar a confiabilidade de resultados e detectar uso enganoso de estatística"
+    ],
+    "convergences": [
+      "Tipos de pesquisa e técnicas de coleta e análise",
+      "Preparação para o projeto de final de curso"
+    ],
+    "differences": [
+      "Leeds enfatiza avaliação crítica de pesquisas de economia e política, com regressão e experimentos",
+      "Mackenzie estrutura o projeto aplicado e o projeto acadêmico em itens como problema, objetivos, justificativa e procedimentos",
+      "Leeds dura 18 h em um semestre"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Leeds módulo de 10 UK credits, Mackenzie 6ª etapa",
+    "brazil": "Metodologia para projeto de TGI, 4 aulas semanais",
+    "foreign": "Panorama de métodos de ciências sociais e avaliação crítica, 18 h de contato",
+    "theoryPractice": "12 aulas, 4 seminários e 1 workshop; avaliação por relatório de 2.500 palavras"
+  },
+  "practical": {
+    "period": "Semestre 2 (jan a jun); oferta 2027/28 não confirmada",
+    "language": "English",
+    "enrolment": "A página não declara disponibilidade para study abroad; método de avaliação 'currently under review'",
+    "prerequisites": "Nenhum listado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Economics Research Methods oferece um panorama de métodos de ciências sociais com ênfase em avaliação crítica de resultados; cobre tipos de pesquisa e coleta e análise de dados, mas fica distante da estrutura de projeto da ficha Mackenzie.",
+  "justification": "Três itens estão cobertos (tipos de pesquisa, coleta e análise, introdução à metodologia), dois parciais (desenho do projeto como problema e procedimentos metodológicos) e nove ausentes, entre eles todos os itens do projeto aplicado e aporte teórico, objetivos e justificativa. A cobertura útil é de 36% (5 de 14), abaixo da faixa de afinidade parcial. As horas de contato (18 h em um semestre, aulas, seminários e workshop) não são comparáveis com as 4 aulas semanais da ficha brasileira, e o método de avaliação do módulo está em revisão.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Página completa e inequívoca quanto a escopo, com horas de contacto explícitas; reading list só na Minerva, avaliação em revisão e ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Reading List está só na Minerva",
+    "A página avisa que o método de avaliação está em revisão e pode mudar",
+    "Oferta 2027/28 não confirmada; a página traz o catálogo 2026/27",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Mackenzie informa 4 aulas semanais sem total em horas-relógio: carga horária não comparável",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O módulo está aberto a estudantes de intercâmbio fora do pacote de Economics?"
+  ],
+  "alternatives": [
+    {
+      "code": "LUBS2415",
+      "name": "Research Methods in International Business",
+      "relation": "Módulo anual de 20 UK credits; analisado em parecer separado"
+    },
+    {
+      "code": "LUBS1185",
+      "name": "Understanding Statistics in the Social Sciences",
+      "relation": "Módulo de estatística de semestre 1; analisado em parecer separado"
+    }
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e da página do Module Catalogue 2026/27 de Leeds (resumo, objetivos, resultados, syllabus indicativo, métodos de ensino e avaliação) com apoio de IA (Claude); cada item vinculado a seção da página; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausências claras; sem itens duvidosos"
+  }
+}

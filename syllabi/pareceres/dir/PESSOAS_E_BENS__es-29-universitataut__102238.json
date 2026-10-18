@@ -1,0 +1,210 @@
+{
+  "id": "dir|PESSOAS E BENS|es-29-universitataut|102238",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "PESSOAS E BENS",
+    "name": "Pessoas e Bens",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 5, bloco 'PESSOAS E BENS' (1ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 4 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "O componente curricular Pessoas e Bens é o percurso inicial do discente no estudo das relações jurídico privadas",
+      "Num primeiro momento, por meio da reflexão e análise da dogmática jurídica (campo da Ciência do Direito dedicada à interpretação e à sistematização das normas jurídicas) será realizado o exame dos conteúdos dos Livros I e II da Parte Geral do Código Civil e sua importância para as relações político-sociais que o direito privado pretende regular",
+      "Serão tratados temas considerados fundamentais para a compreensão do Direito Civil como: pessoa natural e direitos da personalidade",
+      "pessoa jurídica, suas espécies e sua desconsideração",
+      "patrimônio e bens",
+      "autonomia privada e sua relevância jurídica",
+      "capacidade.Num segundo momento, a disciplina estudará as bases das relações privadas com a preocupação de problematizar o conteúdo dogmático a partir da zetética jurídica com destaque a validade, eficácia e vigência das leis e do próprio direito como relação jurídica que decorre de uma relação social anterior"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "code": "102238",
+      "university": "Universitat Autònoma de Barcelona",
+      "name": "Dret Civil IV",
+      "faculty": "Facultat de Dret (guia docent do Grau en Dret)",
+      "programme": "Grau en Dret; tipo OB (obrigatória); conteúdo de direitos reais e direito registral",
+      "level": "Grau (graduação)",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "Segon quadrimestre nos grupos 1, 2 e 51; o grupo 70 (Dret + ADE) é do primer quadrimestre",
+      "academicYear": "2026/2027",
+      "language": "Catalão (grupos 1 e 70) e espanhol (grupo 51); grupo 2 consta como castelhano na lista docente e como catalão no quadro de idiomas",
+      "courseStatus": "OB - obrigatória",
+      "assessment": "Avaliação contínua 50% (mínimo de três atividades) e exame de síntese 50%, com nota mínima 4 no exame para ponderar; avaliação única disponível",
+      "prerequisites": "Recomendados conhecimentos de Direito Romano e de Direito Civil I, II e III",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "location": "Guia docent 2026/2027: Objectius, Resultats d'aprenentatge, Continguts (temas 1-15), Activitats formatives, Avaluació, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Atividades da guia: Dirigida = seminários 22 h + classes magistrais e seminários 22 h; Supervisada = tutorias 6 h; Autònoma = 96 h (bibliografia 6, estudo 45, leitura 25, trabalhos 20). Registradas como atividades, sem rótulo de horas de contato."
+      },
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102238/ca",
+      "sha256": "72969275e433e5b378f57179ef79614a72f9373f2a94a030738d1aeb2b41b005"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O componente curricular Pessoas e Bens é o percurso inicial do discente no estudo das relações jurídico privadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivos: 'nocions bàsiques en seu de Drets reals i dret hipotecari'; 'conceptes fonamentals de la teoria general del dret de béns i de les relacions jurídic-reals'",
+      "foreignLocation": "Objectius; Resultats d'aprenentatge 'Analitzar els conceptes fonamentals del dret civil'",
+      "note": "Introduz relações jurídico-privadas apenas no eixo patrimonial (reais); o curso pressupõe Direito Civil I a III já cursados."
+    },
+    {
+      "brTopic": "Num primeiro momento, por meio da reflexão e análise da dogmática jurídica (campo da Ciência do Direito dedicada à interpretação e à sistematização das normas jurídicas) será realizado o exame dos conteúdos dos Livros I e II da Parte Geral do Código Civil e sua importância para as relações político-sociais que o direito privado pretende regular",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Temas 1, 4 e 8: direito real, posse e propriedade; legislação: Codi Civil de Catalunya (Llibre cinquè), Codi Civil estatal e legislação hipotecária",
+      "foreignLocation": "Continguts, temas 1, 4 e 8; Bibliografia (Legislació)",
+      "note": "O Livro II (Dos Bens) da Parte Geral tem análogo na teoria dos bens e dos direitos reais, sob direito catalão e espanhol; o Livro I (Das Pessoas) não tem. Os Livros do Código Civil brasileiro não são estudados."
+    },
+    {
+      "brTopic": "Serão tratados temas considerados fundamentais para a compreensão do Direito Civil como: pessoa natural e direitos da personalidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectius, Resultats d'aprenentatge, Continguts (temas 1-15), Activitats formatives e Bibliografia",
+      "note": "O resultado 'Analitzar els conceptes fonamentals del dret civil' é genérico; pessoa natural e direitos da personalidade pressupõem Direito Civil I e não são ensinados."
+    },
+    {
+      "brTopic": "pessoa jurídica, suas espécies e sua desconsideração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectius, Resultats d'aprenentatge, Continguts (temas 1-15), Activitats formatives e Bibliografia",
+      "note": "Pessoa jurídica e desconsideração não aparecem; as comunidades do tema 9 (propriedade horizontal) são cotitularidade de bens, não pessoa jurídica."
+    },
+    {
+      "brTopic": "patrimônio e bens",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo 'teoria general del dret de béns'; tema 1 classes de direitos reais, tema 4 posse (bens móveis), tema 3 registro de bens móveis, tema 8 propriedade e modos de aquisição",
+      "foreignLocation": "Objectius; Continguts, temas 1, 3, 4 e 8",
+      "note": "Trata bens como objeto de direitos reais e registro; a classificação dos bens e a noção de patrimônio do Código Civil brasileiro não são tema próprio."
+    },
+    {
+      "brTopic": "autonomia privada e sua relevância jurídica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectius, Resultats d'aprenentatge, Continguts (temas 1-15) e Activitats formatives",
+      "note": "Autonomia privada não é nomeada; há atos de disposição (doação, opção, garantias), mas como institutos de direitos reais, sem a categoria geral."
+    },
+    {
+      "brTopic": "capacidade.Num segundo momento, a disciplina estudará as bases das relações privadas com a preocupação de problematizar o conteúdo dogmático a partir da zetética jurídica com destaque a validade, eficácia e vigência das leis e do próprio direito como relação jurídica que decorre de uma relação social anterior",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tema 5.2.2 'Capacitat del donant i del donatari'; tema 4.1 'Subjectes. Capacitat'; resultados 'Interpretar críticament els fonaments del dret civil'",
+      "foreignLocation": "Continguts, temas 4.1 e 5.2.2; Resultats d'aprenentatge",
+      "note": "Capacidade aparece apenas em posse e doação; validade, eficácia e vigência das leis e a zetética jurídica não são tratadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Registro da propriedade: sistemas registrais, imatriculação, publicidade e fé pública registral",
+      "location": "Continguts, temas 2-3"
+    },
+    {
+      "topic": "Doação, usucapião e extinção dos direitos reais",
+      "location": "Continguts, temas 5-7"
+    },
+    {
+      "topic": "Comunidade e propriedade horizontal",
+      "location": "Continguts, tema 9"
+    },
+    {
+      "topic": "Direitos reais de garantia: penhor, anticrese e hipoteca, com execução",
+      "location": "Continguts, temas 10-11"
+    },
+    {
+      "topic": "Tanteio e retrato, usufruto, servidões, superfície e censo",
+      "location": "Continguts, temas 12-15"
+    }
+  ],
+  "competencies": {
+    "brazil": "A ementa apresenta o início do estudo das relações jurídico-privadas: Livros I e II da Parte Geral do Código Civil, pessoa natural e jurídica, bens, autonomia privada e capacidade, com abordagem zetética.",
+    "foreign": [
+      "Identificar conceitos da teoria geral dos bens e das relações jurídico-reais",
+      "Conhecer o sistema de aquisição e transmissão da propriedade e dos direitos reais limitados",
+      "Conectar direitos reais com obrigações e contratos"
+    ],
+    "convergences": [
+      "Teoria dos bens e do patrimônio",
+      "Capacidade em atos de disposição"
+    ],
+    "differences": [
+      "Mackenzie cobre pessoas (natural e jurídica) e personalidade, ausentes da UAB",
+      "A UAB aprofunda posse, registro, garantias e direitos reais limitados, sem equivalente na ementa de Pessoas e Bens"
+    ]
+  },
+  "depth": {
+    "level": "UAB: obrigatória do 3º ano; Mackenzie: 1ª etapa, parte geral do direito civil",
+    "brazil": "Componente inicial de 4 horas-aula semanais, de base dogmática e zetética",
+    "foreign": "6 ECTS com 15 temas de direitos reais e registro, que supõem Direito Civil I a III",
+    "theoryPractice": "UAB: 22 h de seminários e 22 h de aulas magistrais e seminários dirigidos; Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "Segon quadrimestre nos grupos regulares; não coincide com 2027.2 de outono se a programação se mantiver (grupo 70 no primer quadrimestre)",
+    "language": "Catalão ou espanhol conforme o grupo; grupo 51 em espanhol",
+    "enrolment": "Obrigatória de 3º curso com seminários de presença obrigatória e pré-requisitos curriculares; aceitação de intercambista não verificada",
+    "prerequisites": "Direito Romano e Direito Civil I-III recomendados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Dret Civil IV é um curso de direitos reais e direito registral do 3º ano, que cruza a ementa Pessoas e Bens apenas na teoria dos bens e em pontos de capacidade, e deixa sem correspondência o estudo de pessoa natural, pessoa jurídica e autonomia privada.",
+  "justification": "Quatro dos sete enunciados são parciais (introdução às relações privadas pela via real, Livro II da Parte Geral pela teoria dos bens, patrimônio e bens, capacidade em posse e doação) e três não têm correspondência: pessoa natural e personalidade, pessoa jurídica e sua desconsideração, e autonomia privada. Nenhum é coberto integralmente, e os parciais dependem do direito catalão e espanhol, não do Código Civil brasileiro. A regra interna daria afinidade parcial, mas a parte que a ementa chama de Livro I (pessoas) não existe na UAB e a parte de bens é reinterpretada como direitos reais, de modo que a classe fica em baixa afinidade. A carga não se compara (4 horas-aula semanais contra 44 h dirigidas e 6 ECTS).",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Os quatro parciais são contatos periféricos (direitos reais lidos como teoria dos bens, capacidade em posse e doação) sem cobertura plena; as três lacunas são o núcleo da ementa brasileira (pessoas e autonomia privada), e a contagem de 57% sobrestima a afinidade.",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia da UAB 2026/2027 detalhada, de conteúdo claramente diverso; reduzem a confiança a ementa brasileira histórica de 2022 e a ausência de carga semestral comparável.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; carga em horas-aula semanais, não comparável às 44 h dirigidas da UAB; 6 ECTS não convertidos",
+    "Matéria de direito civil brasileiro (Código Civil de 2002) não é coberta por direito catalão e espanhol; parciais são analógicos",
+    "Candidata de origem semântica: o contato é de conceito geral ('civil geral'), não de programa",
+    "Pré-requisitos curriculares (Direito Civil I-III) podem exigir comprovação",
+    "Oferta 2027/28 e idioma do grupo não confirmados",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A guia de Dret Civil I da UAB, citada como pré-requisito, cobre pessoa natural e jurídica e direitos da personalidade?",
+    "A coordenação aceitaria Dret Civil IV como cobertura apenas do eixo 'bens' de Pessoas e Bens?"
+  ],
+  "alternatives": [
+    {
+      "code": "Dret Civil I",
+      "name": "Dret Civil I",
+      "relation": "Citada como pré-requisito na guia de Dret Civil IV; código e programa não foram lidos neste parecer, de modo que não se afirma que trate de pessoas"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da guia docent UAB 102238 (2026/2027, catalão) com apoio de IA (Claude); cada enunciado buscado em temas, objetivos e resultados; coerência verificada por scripts/build_pareceres.py --check",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Diferença de escopo documentada tema a tema"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "cc|ENEC61012|es-cadiz|21714012",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61012",
+    "name": "Introdução à Engenharia de Software",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário CC Alphaville 2025 — 5ª etapa (FCI)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 2, bloco 'INTRODUÇÃO A ENGENHARIA DE SOFTWARE': campo Carga horária; campo Ementa vazio",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": true,
+    "currencyNote": "Ementário público FCI 2025, câmpus Alphaville",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ementário declara 63,33 h. Campo Ementa vazio no bloco oficial (anomalia registrada em programas.json)."
+    },
+    "topics": []
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "code": "21714012",
+      "university": "Universidad de Cádiz",
+      "name": "Ingeniería del Software",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "Ingeniería Informática (C137)",
+      "programme": "Grado en Ingeniería Informática (1725); módulo II, materia II.1",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segundo semestre (curso 2025-26)",
+      "academicYear": "2025/26",
+      "language": "Castelhano",
+      "courseStatus": "Obligatoria",
+      "assessment": "Atividades de aprendizagem e questionários 20%; exames teórico-práticos presenciais 80%",
+      "prerequisites": "Campos de requisitos prévios e recomendações sem conteúdo preenchido",
+      "catalogue": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "location": "Programa docente 2025-26: identificação, resultados de aprendizagem 1-7, atividades e horas, sistema de avaliação, temário (temas 1-6)",
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 24,
+        "contactSeminarLab": 36,
+        "selfStudy": 84,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Docência presencial 60 h = teoria 24 + práticas, seminários e problemas 12 + práticas de informática 24; não presenciais 84 h e avaliação 6 h."
+      },
+      "source": "https://asignaturas.uca.es/2025-26/21714012",
+      "sha256": "7059e08c633d63fe4aa408dbdc42f1a8bfab17633151ba65744e738bd1f45833"
+    }
+  ],
+  "topics": [
+    {
+      "essential": true,
+      "status": "nao_verificavel",
+      "note": "Marcador de pendência documental, não tópico curricular: o campo Ementa do bloco brasileiro está vazio. O resumo de matriz 'processos/atividades de engenharia; ciclo de vida; requisitos, projeto e qualidade' não é ementa oficial e não foi usado como prova."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Introdução: processos, ciclos de vida e metodologias de desenvolvimento",
+      "location": "Temario, tema 1"
+    },
+    {
+      "topic": "Análise orientada a objetos em UML: requisitos, casos de uso, modelo conceitual e de comportamento",
+      "location": "Temario, tema 2"
+    },
+    {
+      "topic": "Projeto orientado a objetos: padrões de projeto, arquitetura em camadas, diagramas de interação e de classes",
+      "location": "Temario, tema 3"
+    },
+    {
+      "topic": "Processo unificado de desenvolvimento de software",
+      "location": "Temario, tema 4"
+    },
+    {
+      "topic": "Testes de software: processo, técnicas e estratégia",
+      "location": "Temario, tema 5"
+    },
+    {
+      "topic": "Gestão de projetos de software: planejamento, estimativa, acompanhamento e riscos",
+      "location": "Temario, tema 6"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário não traz ementa nem objetivos para o componente; não há competências a comparar.",
+    "foreign": [
+      "Modelar análise e primeiro projeto em UML (resultados 4-5)",
+      "Distinguir conceitos e técnicas de teste (resultado 6)",
+      "Distinguir atividades de gestão de projetos de software (resultado 7)",
+      "Conhecer SWEBOK, ISO/IEC 12207 e IEEE Std. 830 (resultado 3)"
+    ],
+    "convergences": [],
+    "differences": [
+      "Sem ementa brasileira, nenhuma convergência ou divergência de conteúdo pode ser afirmada"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação obrigatórias; Cádiz no 2º curso, Mackenzie na 5ª etapa",
+    "brazil": "Componente de 63,33 h declaradas, sem conteúdo transcrito",
+    "foreign": "6 ECTS, 60 h presenciais (24 teoria, 12 seminários e problemas, 24 informática), seis temas de engenharia de software orientada a objetos",
+    "theoryPractice": "Cádiz: 60% da docência presencial é prática ou seminário (36 de 60 h); proporção Mackenzie desconhecida"
+  },
+  "practical": {
+    "period": "Segundo semestre do ano letivo espanhol (curso 2025-26); coincidência com 2027.2 depende da programação 2027/28",
+    "language": "Castelhano",
+    "enrolment": "Campo 'Movilidad internacional' sem modalidade assinalada na página; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum informado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A comparação de Introdução à Engenharia de Software com Ingeniería del Software não pode ser concluída porque o campo Ementa do ementário FCI está vazio; a ficha de Cádiz, por outro lado, é completa e traz seis temas e 60 h presenciais.",
+  "justification": "O bloco oficial brasileiro (p. 2 do PDF da 5ª etapa) informa 63,33 h e nenhum conteúdo, de modo que não há tópico essencial a cotejar e o único item registrado é o marcador de pendência, não verificável. A disciplina de Cádiz detalha análise e projeto em UML, processo unificado, testes e gestão de projetos, mas isso descreve apenas a estrangeira. A razão 60/63,33 de horas seria de 0,95 sem a hora estrangeira declarada, porém sem conteúdo brasileiro o requisito de 75% de conteúdo da COI não se avalia. O problema é documental e não indica insuficiência da disciplina espanhola.",
+  "conclusionClass": "evidencia_insuficiente",
+  "confidence": "baixa",
+  "confidenceRationale": "Ficha estrangeira individual e completa, mas ausência de ementa brasileira impede qualquer cotejo de conteúdo.",
+  "limitations": [
+    "Campo Ementa do bloco brasileiro vazio; é necessário o plano de ensino completo da FCI sem inferir conteúdo de títulos ou bibliografia",
+    "Oferta 2027/28 e vaga para intercâmbio não confirmadas",
+    "Duração da hora de contato da UCA não declarada no documento",
+    "Documento estrangeiro de 2025-26; a versão 2026-27 pode diferir",
+    "Parecer preliminar independente; decisão compete à coordenação de Ciência da Computação e à COI"
+  ],
+  "openQuestions": [
+    "A FCI pode fornecer a ementa e o conteúdo programático oficiais de Introdução à Engenharia de Software?",
+    "A UCA publica o programa 2026-27 de Ingeniería del Software com os mesmos seis temas?"
+  ],
+  "alternatives": [
+    {
+      "code": "21714043",
+      "name": "Calidad del Software",
+      "relation": "Outra disciplina de Cádiz já analisada para este componente brasileiro em parecer separado; não lida novamente neste parecer"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário FCI 2025 (5ª etapa) e do programa docente UCA 2025-26 com apoio de IA (Claude); ementa brasileira vazia registrada como marcador não verificável; coerência verificada por scripts/build_pareceres.py --check",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Obter o plano de ensino completo de Introdução à Engenharia de Software; campo Ementa oficial vazio"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "adm|Gestão de Inovação|co-24-solbridgeinter|BUS445",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Inovação",
+    "name": "Gestão de Inovação",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 3, bloco 'Gestão de Inovação': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fatores fundamentais na gestão da inovação",
+      "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "A inovação como um processo de gestão e mecanismos de implantação",
+      "Modelo de estratégia de inovação",
+      "Ecossistema de Inovação",
+      "Avaliação e desempenho da inovação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "BUS445",
+      "name": "Creativity and Innovation Management",
+      "pageCode": "BUS445",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); 3º e 4º anos, especializações em empreendedorismo e gestão",
+      "level": "Graduação",
+      "yearOfStudy": "3º e 4º anos (pré/co-requisitos)",
+      "semester": "Winter 2016",
+      "period": "Winter 2016; quadro de aulas de segunda a sexta, 9h às 12h, com cronograma de 15 semanas e 30 aulas (Lec 1-30)",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Não informado no syllabus",
+      "assessment": "Presença 20%, quatro tarefas 20%, projeto criativo individual (TRIZ) no mid-term 20%, projeto criativo em equipe (design thinking) 25%, final partes 2 e 3 15%",
+      "prerequisites": "Introdução a negócios e empreendedorismo; estudantes do 3º e 4º anos de especializações em empreendedorismo e gestão",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS445%20Creativity%20and%20Innovation%20Management.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "ac0194267ed83df2638c7b5a419950086d45c87af740855555b1d74a09a9b9c5",
+      "location": "Syllabus Winter 2016: 3. Course Objectives and Learning Goals, 4. Assessments, 5. Course Schedule (Partes I-III, semanas I-XV)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O syllabus informa 'Credit Hours 3' (crédito do tipo norte-americano) e horário de segunda a sexta, 9h às 12h, sem total de horas de contato; esse total não foi derivado do horário nem dos créditos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fatores fundamentais na gestão da inovação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Parte I 'Understanding creativity, innovation and learning': cognição e aprendizagem, 'The Engine of Creativity', pessoas, equipes e empresas criativas; Parte III atitudes individuais e de equipe",
+      "foreignLocation": "Course Schedule, Parte I (semanas I-III) e Parte III (semanas XI-XII)",
+      "note": "Os fatores tratados são cognitivos, de equipe e de atitude; fatores organizacionais como estrutura e recursos não são nomeados."
+    },
+    {
+      "brTopic": "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana IV 'Innovation, NPD and Diffusion Processes'; semana III 'Introducing creative people, teams and companies'; semana XII liderança e abertura inovadora da equipe",
+      "foreignLocation": "Course Schedule, semanas III, IV e XII",
+      "note": "Difusão e novos produtos entram; tipos e graus de inovação (incremental, radical) não são nomeados."
+    },
+    {
+      "brTopic": "A inovação como um processo de gestão e mecanismos de implantação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Parte II 'Managing Creativity and Innovation': design thinking, TRIZ, ideation, prototyping, apresentação de protótipos e 'planning to test'",
+      "foreignLocation": "Course Schedule, Parte II (semanas IV-X)",
+      "note": "O processo é ensinado no nível de projeto de resolução criativa de problemas; não há implantação nem governança da inovação na organização."
+    },
+    {
+      "brTopic": "Modelo de estratégia de inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos de aprendizagem, avaliações, cronograma das semanas I-XV e quadro de leituras do syllabus Winter 2016",
+      "note": "Sem unidade sobre estratégia ou portfólio de inovação."
+    },
+    {
+      "brTopic": "Ecossistema de Inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos de aprendizagem, avaliações, cronograma das semanas I-XV e quadro de leituras do syllabus Winter 2016",
+      "note": "Sem referência a ecossistemas, parcerias, startups ou políticas de inovação."
+    },
+    {
+      "brTopic": "Avaliação e desempenho da inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos de aprendizagem, avaliações, cronograma das semanas I-XV e quadro de leituras do syllabus Winter 2016",
+      "note": "A semana X prevê planejamento de testes de protótipos, mas não há indicadores nem medição de desempenho da inovação."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Criatividade como processo cognitivo; processamento de informação", "location": "Course Schedule, semana II"},
+    {"topic": "Design thinking e TRIZ como métodos de solução criativa de problemas", "location": "Course Schedule, semanas IV, VI e VII"},
+    {"topic": "Observação, entrevistas e definição de problemas (The Walk)", "location": "Course Schedule, semanas IV-VII"},
+    {"topic": "Prototipagem e apresentação de protótipos", "location": "Course Schedule, semanas IX-X"},
+    {"topic": "Autoeficácia, motivação e persistência", "location": "Course Schedule, semana XI"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos de inovação e inovação como processo de gestão nas organizações.",
+    "foreign": ["Observar e identificar problemas do cotidiano", "Gerar ideias novas para resolvê-los", "Dominar design thinking e TRIZ", "Refletir sobre o próprio comportamento e contribuir em processos criativos de equipe"],
+    "convergences": ["Conceitos de inovação e criatividade", "Inovação como processo conduzido", "Novos produtos e difusão"],
+    "differences": ["SolBridge é orientada a técnicas criativas (design thinking, TRIZ) e a atitudes pessoais; Mackenzie à gestão organizacional da inovação (estratégia, ecossistema, desempenho)", "Estratégia, ecossistema e avaliação de desempenho da inovação não aparecem em SolBridge"]
+  },
+  "depth": {
+    "level": "Graduação, 3º e 4º anos em SolBridge; 6ª etapa em Mackenzie",
+    "brazil": "Disciplina de 31,7 h com seis enunciados de gestão da inovação",
+    "foreign": "Disciplina de criatividade e inovação com cronograma de 15 semanas e 30 aulas em Winter 2016, projetos individual e em equipe",
+    "theoryPractice": "Forte componente prático: caminhada de observação, diário, projeto individual com TRIZ e projeto em equipe com design thinking"
+  },
+  "practical": {
+    "period": "Winter 2016 (sessão intensiva de 9h às 12h); calendário 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina de 3º e 4º anos com pré-requisitos; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "Introdução a negócios e empreendedorismo; 3º e 4º anos",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Creativity and Innovation Management cobre bem os fundamentos criativos e o processo de inovação, mas na forma de técnicas de projeto (design thinking e TRIZ); estratégia de inovação, ecossistema e desempenho da inovação, metade da ficha Mackenzie, não aparecem.",
+  "justification": "Um enunciado está coberto (fatores fundamentais, semanas I-III e XI-XII) e dois são parciais (teoria e tipos de inovação: só semana IV e organização criativa na semana III; processo de gestão: Parte II com design thinking e TRIZ, sem implantação organizacional). Modelo de estratégia, ecossistema e avaliação de desempenho não aparecem em nenhum item do cronograma. A cobertura total ou parcial de exatamente metade dos enunciados fixa a afinidade parcial, sem folga. O syllabus não informa horas de contato (só Credit Hours 3 e um horário de winter session), a ficha brasileira de 31,7 h não tem vigência confirmada e o documento é de 2016.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Syllabus de uma winter session de 2016, sem total de horas de contato nem código impresso; ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Syllabus de Winter 2016 (sessão intensiva); o formato regular de 15 semanas e o conteúdo atual podem diferir",
+    "Horas de contato não declaradas; Credit Hours 3 é crédito do tipo norte-americano e não foi convertido; horário de 9h às 12h não foi usado para derivar horas",
+    "O campo 'Course Code' do syllabus está em branco; o código BUS445 vem do catálogo do site e do nome do arquivo",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "SolBridge oferece BUS445 em semestre regular, com total de horas de contato declarado?",
+    "A edição atual inclui estratégia de inovação ou ecossistema empreendedor?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do syllabus BUS445 (Winter 2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado a parte e semana do cronograma; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Classe no limite de 50% da cobertura; avaliar se técnicas criativas atendem a ementa de gestão da inovação"}
+}
