@@ -140,3 +140,35 @@ test("invalid datasets fail visibly and unsafe source protocols are rejected", (
     "https://www.mackenzie.br/",
   );
 });
+
+
+test("public syllabus and university tables expose course limitations and agreement exclusions", async () => {
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const { default: Syllabi } = await import("../app/ementas/page");
+  const { default: UniversityDetail } = await import("../app/universidades/[id]/page");
+  const repository = getRepository();
+  const original = repository.foreignCourses[0];
+  const sentinel = "Scope limitation regression sentinel";
+  repository.foreignCourses.push({
+    ...original,
+    code: "SCOPE-REGRESSION",
+    name: sentinel,
+    limitations: "Only another faculty; mobility access unconfirmed.",
+    sourceEligibility: "outside_agreement",
+  });
+  try {
+    const library = renderToStaticMarkup(await Syllabi({
+      searchParams: Promise.resolve({ origem: "exterior", q: sentinel }),
+    }));
+    const university = renderToStaticMarkup(await UniversityDetail({
+      params: Promise.resolve({ id: original.universityId }),
+      searchParams: Promise.resolve({ q: sentinel }),
+    }));
+    for (const html of [library, university]) {
+      assert.match(html, /Only another faculty; mobility access unconfirmed\./);
+      assert.match(html, /Fora do escopo do acordo/);
+    }
+  } finally {
+    repository.foreignCourses.pop();
+  }
+});
