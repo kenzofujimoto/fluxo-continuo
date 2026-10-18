@@ -254,6 +254,10 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
             if v.get("matchMethod") == "titulo_diferente_confirmar":
                 # Same 2025 document, but the printed title differs from the matrix: identity awaits confirmation.
                 v.update({"current": False, "currencyNote": "Ementário FCI 2025 com título diferente da matriz; vínculo a confirmar com a coordenação"})
+            if not (v.get("ementa") or "").strip():
+                # A matched course block proves its identity, not the presence of syllabus content.
+                v.update({"officialSyllabus": False, "current": False,
+                          "currencyNote": "Ementário público FCI 2025 com campo Ementa vazio; conteúdo curricular ausente, plano de ensino necessário."})
     # Additional official Brazilian ementários (Administração, Direito 2022) with explicit currency flags.
     courses = {c["id"]: c for c in data["courses"]}
     by_course = {}
