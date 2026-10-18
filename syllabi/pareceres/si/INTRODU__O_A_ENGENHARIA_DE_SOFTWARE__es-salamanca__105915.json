@@ -1,0 +1,158 @@
+{
+  "id": "si|INTRODUÇÃO A ENGENHARIA DE SOFTWARE|es-salamanca|105915",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "INTRODUÇÃO A ENGENHARIA DE SOFTWARE",
+    "name": "INTRODUÇÃO A ENGENHARIA DE SOFTWARE",
+    "courseName": "Sistemas de Informação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE; página extraída 19 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Introdução a Engenharia de Software",
+      "Domínio de modelos dos processos de desenvolvimento de software e suas fases",
+      "Análise comparativa de processos de desenvolvimento de software",
+      "Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105915",
+      "academicCode": "105915",
+      "name": "Ingeniería De Software",
+      "faculty": "E. Politécnica Superior de Zamora",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática en Sistemas de Información (259)",
+      "level": "Graduação",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segundo Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Provas escritas 60%, trabalhos práticos 40%; mínimo 5 em cada parte.",
+      "prerequisites": "Será aconsejable cursar antes la asignatura Diseño de Bases de Datos ya que en ella se forma al alumno en conceptos relacionados con los modelos de datos conceptuales y lógicos (diagramas entidad/relación y modelos relacionales típicamente), lo que supone una importante base, a la vez que una descarga, para esta asignatura, donde estos modelos serán utilizados de forma práctica sin necesidad de tener que incluirlos en la parte teórica de dichas asignaturas.\nTambién deberá estar familiarizado con la teoría y la práctica del diseño y codificación, conceptos adquiridos en las asignaturas Fundamentos de Programación, Programación Orientada a Objetos y Estructuras de Datos.",
+      "source": "https://guias.usal.es/node/250913",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "a98c21373b90ca1f2efb71eecc5c14cba989a5176a5eebc54bcf0ca309c83cbf",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução a Engenharia de Software",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Introdução à engenharia do software.",
+      "foreignLocation": "5, módulo I, tema 2"
+    },
+    {
+      "brTopic": "Domínio de modelos dos processos de desenvolvimento de software e suas fases",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelos de processo e atividades técnicas do ciclo de vida.",
+      "foreignLocation": "3; 5, tema 3"
+    },
+    {
+      "brTopic": "Análise comparativa de processos de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelos são previstos, sem comparação de famílias explicitada nos tópicos.",
+      "foreignLocation": "5, tema 3"
+    },
+    {
+      "brTopic": "Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Engenharia de requisitos e análise UML são desenvolvidas; teste, implantação e manutenção não aparecem como unidades.",
+      "foreignLocation": "3; 5, módulos II-III"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Especificação de requisitos",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "UML e análise orientada a objetos",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Introdução a Engenharia de Software. Domínio de modelos dos processos de desenvolvimento de software e suas fases. Análise comparativa de processos de desenvolvimento de software. Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software.",
+    "foreign": "Obtener una visión genérica y práctica del software, estudiando sus particularidades y los problemas más comunes en el proceso de construcción de Sistemas de Información.\nIdentificar y establecer las diferentes etapas del desarrollo de un sistema de información, centrándose en la materia principal del curso en la fase de análisis y en el diseño del sistema de información.\nIntroducir al estudiante en la problemática del desarrollo de grandes programas e incidir en la necesidad de emplear procedimientos de ingeniería para obtener software de calidad.\nConocer las actividades técnicas e ingenieriles que se llevan a cabo en el ciclo de vida de un producto software.\nComprender la importancia de los requisitos en el ciclo de vida del software.\nConocer las fases de obtención, documentación, especificación y prototipado de los requisitos de un sistema software.\nAprender las especificaciones formales de requisitos.\nAprender los métodos de análisis siguiendo la metodología UML.",
+    "convergences": [
+      "Introdução à engenharia do software.",
+      "Modelos de processo e atividades técnicas do ciclo de vida.",
+      "Modelos são previstos, sem comparação de famílias explicitada nos tópicos.",
+      "Engenharia de requisitos e análise UML são desenvolvidas; teste, implantação e manutenção não aparecem como unidades."
+    ],
+    "differences": [
+      "Modelos são previstos, sem comparação de famílias explicitada nos tópicos.",
+      "Engenharia de requisitos e análise UML são desenvolvidas; teste, implantação e manutenção não aparecem como unidades."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 4; USAL ano 2",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 105915.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Segundo Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Será aconsejable cursar antes la asignatura Diseño de Bases de Datos ya que en ella se forma al alumno en conceptos relacionados con los modelos de datos conceptuales y lógicos (diagramas entidad/relación y modelos relacionales típicamente), lo que supone una importante base, a la vez que una descarga, para esta asignatura, donde estos modelos serán utilizados de forma práctica sin necesidad de tener que incluirlos en la parte teórica de dichas asignaturas.\nTambién deberá estar familiarizado con la teoría y la práctica del diseño y codificación, conceptos adquiridos en las asignaturas Fundamentos de Programación, Programación Orientada a Objetos y Estructuras de Datos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Ingeniería de Software 105915 aproxima-se de SI pelo ciclo de vida e por requisitos, com foco prático na análise e em UML.",
+  "justification": "O tema 2 cobre a introdução e o tema 3 os modelos, mas não identifica comparação detalhada entre famílias. Os temas 4-6 aprofundam requisitos e análise; não se toma essa profundidade como prova de testes, implantação e manutenção.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional.",
+    "Segundo semestre europeu não coincide em regra com o intercâmbio brasileiro 2027.2; calendário e eventual oferta alternativa não confirmados."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 105915 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "id": "cc|ENUN51121|es-cadiz|21714018",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN51121",
+    "name": "Projetos Empreendedores",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário Mackenzie, etapa 3",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "PDF p. 4, bloco PROJETOS EMPREENDEDORES: ementa, conteúdo, carga e bibliografia",
+    "language": "Português",
+    "prerequisites": "Não indicados no bloco curricular",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "Análise de soluções para o problema ou oportunidade",
+      "Proposição de projetos com viabilidade de implementação",
+      "Prática de proposição de valor e modelagem de projetos",
+      "Construção de planos de negócios simplificados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-cadiz",
+      "university": "Universidad de Cádiz",
+      "code": "21714018",
+      "name": "Proyectos Informáticos",
+      "faculty": "Escuela Superior de Ingeniería",
+      "department": "C137 Ingeniería Informática",
+      "programme": "1725 Grado en Ingeniería Informática",
+      "level": "Graduação",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "Primer Semestre",
+      "academicYear": "2026/2027",
+      "language": "Castelhano",
+      "courseStatus": "Obrigatória, vigente e ofertada em 2026/27",
+      "assessment": "Práticas, trabalhos, projetos, exposições e participação: 40%; provas escritas e orais: 60%.",
+      "prerequisites": "Campos Requisitos previos e Recomendaciones sem conteúdo preenchido.",
+      "source": "https://asignaturas.uca.es/2026-27/21714018",
+      "catalogue": "https://esingenieria.uca.es/docencia/grados/gii/asignaturas/",
+      "sha256": "18c17c136174c8b82be2227d980690cc4b36ad3cece7d9f0ff28d0ddfa7fb53d",
+      "location": "Programa docente integral; identificação; resultados; atividades e metodologias; avaliação; temário item 1.",
+      "identifierCorrection": {
+        "previousCode": "21719027",
+        "officialCode": "21714018",
+        "officialSource": "https://asignaturas.uca.es/2026-27/21714018",
+        "reason": "Original catalogue code points to Electrónica Digital; official Proyectos Informáticos programme declares 21714018.",
+        "reviewedAt": "2026-10-17"
+      },
+      "hours": {
+        "contactTotal": 60,
+        "contactLecture": 30,
+        "contactSeminarLab": 30,
+        "selfStudy": 90,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "60 horas de docência presencial explicitadas: 30 teórico-práticas e 30 práticas de informática; 90 não presenciais. Duração da hora não declarada. Créd. Teoría/Prácticas 3,75+3,75 são unidades distintas dos 6 ECTS e não foram convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Mercado digital, busca de mercado por IA e autoemprego sugerem oportunidades sem processo explícito de definição de problemas.",
+      "foreignLocation": "Temario, item 1"
+    },
+    {
+      "brTopic": "Análise de soluções para o problema ou oportunidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Desenho e seleção de aplicações são resultados sem método empreendedor de comparação de soluções.",
+      "foreignLocation": "Resultado 0"
+    },
+    {
+      "brTopic": "Proposição de projetos com viabilidade de implementação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Desenvolvimento de projetos e avaliação do impacto econômico são previstos, sem estudo de viabilidade detalhado.",
+      "foreignLocation": "Resultado 1; Temario, item 1"
+    },
+    {
+      "brTopic": "Prática de proposição de valor e modelagem de projetos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modelo de negócio digital e condições técnicas apoiam modelagem, sem proposição de valor explícita.",
+      "foreignLocation": "Temario, item 1; resultado 3"
+    },
+    {
+      "brTopic": "Construção de planos de negócios simplificados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Temario, resultados e avaliação",
+      "note": "Plano de negócios simplificado não é conteúdo nem produto avaliado identificado."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Legislação e normas da profissão informática",
+      "location": "Temario, item 1"
+    },
+    {
+      "topic": "Certificações, exercício profissional e projetos internacionais",
+      "location": "Temario, item 1"
+    }
+  ],
+  "competencies": {
+    "brazil": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto. Análise de soluções para o problema ou oportunidade. Proposição de projetos com viabilidade de implementação. Prática de proposição de valor e modelagem de projetos. Construção de planos de negócios simplificados.",
+    "foreign": [
+      "Dirigir projetos informáticos",
+      "Elaborar condições técnicas",
+      "Compreender negociação, liderança e comunicação",
+      "Conhecer regulação informática"
+    ],
+    "convergences": [
+      "Mercado digital, busca de mercado por IA e autoemprego sugerem oportunidades sem processo explícito de definição de problemas.",
+      "Desenho e seleção de aplicações são resultados sem método empreendedor de comparação de soluções.",
+      "Desenvolvimento de projetos e avaliação do impacto econômico são previstos, sem estudo de viabilidade detalhado.",
+      "Modelo de negócio digital e condições técnicas apoiam modelagem, sem proposição de valor explícita."
+    ],
+    "differences": [
+      "Ênfase em projetos informáticos, legislação e mercado digital; conteúdos específicos brasileiros não são inferidos do título geral."
+    ]
+  },
+  "depth": {
+    "level": "Graduação; UCA terceiro ano, primeiro semestre.",
+    "brazil": "Etapa 3; bloco oficial brasileiro reproduzido no cotejo.",
+    "foreign": "Temário sintético em um item amplo; resultados identificados por número.",
+    "theoryPractice": "30 h teórico-práticas e 30 h práticas de informática; atividades práticas com 40% da nota."
+  },
+  "practical": {
+    "period": "Primeiro semestre europeu; oferta 2027/28 precisa de confirmação.",
+    "language": "Castelhano; lista de opções de idioma na interface não comprova turma estrangeira.",
+    "enrolment": "Seção Mobilidad mostra opções genéricas sem seleção verificável; vagas e condições não confirmadas.",
+    "prerequisites": "Não preenchidos no programa público.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Proyectos Informáticos 21714018 converge parcialmente com os projetos empreendedores universais de CC, sobretudo em mercado digital e autoemprego.",
+  "justification": "Quatro dos cinco enunciados Mackenzie têm apenas interseções parciais: o guia aborda negócio digital e projeto informático, mas não discrimina definição do problema, proposição de valor ou estudo de viabilidade. A construção de plano de negócios não aparece; 60 horas presenciais atendem nominalmente a carga de 31,67 h brasileira sem suprir essas lacunas de conteúdo.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Identidade e horas resolvidas por ficha oficial 21714018. Temário sintético, duração da hora e oferta futura limitam a conclusão.",
+  "limitations": [
+    "Oferta 2027/28 e vaga de mobilidade não confirmadas.",
+    "Duração da hora de contato não declarada: comparação condicional quando há horas-relógio brasileiras.",
+    "Temário muito sintético; ausência de item é registrada sem inferir conteúdo da bibliografia.",
+    "Antigo código 21719027 pertencia a Electrónica Digital; correção e análise anterior preservadas no histórico.",
+    "Campos de idioma/mobilidade e política IA incluem todas as opções do formulário; não indicam decisão selecionada."
+  ],
+  "openQuestions": [
+    "Qual a duração da hora de contato e o detalhamento das unidades do temário?",
+    "A disciplina estará acessível à mobilidade no semestre pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha pública 21714018 e bloco curricular brasileiro; comparação manual por enunciado, preservando histórico da correção de identidade.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Detalhar conteúdo, duração da hora e condições de mobilidade; decisão institucional pendente."
+  },
+  "reviewHistory": [
+    {
+      "reviewedAt": "2026-10-17",
+      "reason": "Canonical course identifier corrected; curricular reassessment required against newly located programme.",
+      "previousId": "cc|ENUN51121|es-cadiz|21719027",
+      "previousConclusionClass": "evidencia_insuficiente",
+      "previousReviewCommit": "944f724",
+      "identifierCorrection": {
+        "previousCode": "21719027",
+        "officialCode": "21714018",
+        "officialSource": "https://asignaturas.uca.es/2026-27/21714018",
+        "reason": "Original catalogue code points to Electrónica Digital; official Proyectos Informáticos programme declares 21714018.",
+        "reviewedAt": "2026-10-17"
+      }
+    },
+    {
+      "reviewedAt": "2026-10-17",
+      "reason": "Releitura curricular integral da ficha correta Proyectos Informáticos 21714018; mantém histórico da associação anterior incorreta 21719027/Electrónica Digital.",
+      "previousReview": {
+        "id": "cc|ENUN51121|es-cadiz|21714018",
+        "schemaVersion": 2,
+        "type": "simples",
+        "brazil": {
+          "courseId": "cc",
+          "code": "ENUN51121",
+          "name": "Projetos Empreendedores",
+          "courseName": "Ciência da Computação",
+          "stage": 3,
+          "kind": "obrigatoria",
+          "campus": "Alphaville",
+          "documentYear": 2025,
+          "documentTitle": "Ementário Mackenzie, etapa 3",
+          "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+          "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+          "location": "PDF p. 4, bloco PROJETOS EMPREENDEDORES: ementa, conteúdo, carga e bibliografia",
+          "language": "Português",
+          "prerequisites": "Não indicados no bloco curricular",
+          "hours": {
+            "value": 31.67,
+            "unit": "hora_relogio",
+            "basis": "semestre"
+          },
+          "topics": [
+            "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+            "Análise de soluções para o problema ou oportunidade",
+            "Proposição de projetos com viabilidade de implementação",
+            "Prática de proposição de valor e modelagem de projetos",
+            "Construção de planos de negócios simplificados"
+          ]
+        },
+        "foreign": [
+          {
+            "universityId": "es-cadiz",
+            "university": "Universidad de Cádiz",
+            "code": "21714018",
+            "name": "Proyectos Informáticos (identidade documental não confirmada; URL retorna Electrónica Digital)",
+            "programme": null,
+            "level": "Graduação",
+            "period": "Não comprovado para Proyectos Informáticos",
+            "academicYear": "Não comprovado para a candidata",
+            "language": "Castelhano",
+            "assessment": "Não comprovada: a avaliação 40/20/40 pertence a Electrónica Digital.",
+            "prerequisites": "Não verificáveis para a candidata correta.",
+            "source": "https://asignaturas.uca.es/2026-27/21719027",
+            "catalogue": null,
+            "sha256": "f34cf16bea0e9f626372c8a24acefb35cf8b7f1854d316a5c1b848335ce97af7",
+            "location": "Programa docente 2026-27: identificação; requisitos; resultados; atividades e horas; sistema de avaliação; temário e bibliografia.",
+            "hours": {
+              "contactTotal": null,
+              "contactLecture": null,
+              "contactSeminarLab": null,
+              "selfStudy": null,
+              "totalWorkload": null,
+              "ects": null,
+              "basis": null,
+              "hourLengthMinutes": null
+            },
+            "identifierCorrection": {
+              "previousCode": "21719027",
+              "officialCode": "21714018",
+              "officialSource": "https://asignaturas.uca.es/2026-27/21714018",
+              "reason": "Original catalogue code points to Electrónica Digital; official Proyectos Informáticos programme declares 21714018.",
+              "reviewedAt": "2026-10-17"
+            }
+          }
+        ],
+        "topics": [
+          {
+            "brTopic": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "Documento retornado é de Electrónica Digital; o programa da candidata Proyectos Informáticos não foi localizado neste endereço."
+          },
+          {
+            "brTopic": "Análise de soluções para o problema ou oportunidade",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "Documento retornado é de Electrónica Digital; o programa da candidata Proyectos Informáticos não foi localizado neste endereço."
+          },
+          {
+            "brTopic": "Proposição de projetos com viabilidade de implementação",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "Documento retornado é de Electrónica Digital; o programa da candidata Proyectos Informáticos não foi localizado neste endereço."
+          },
+          {
+            "brTopic": "Prática de proposição de valor e modelagem de projetos",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "Documento retornado é de Electrónica Digital; o programa da candidata Proyectos Informáticos não foi localizado neste endereço."
+          },
+          {
+            "brTopic": "Construção de planos de negócios simplificados",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "Documento retornado é de Electrónica Digital; o programa da candidata Proyectos Informáticos não foi localizado neste endereço."
+          }
+        ],
+        "additionalForeignTopics": [],
+        "competencies": {
+          "brazil": "Identificação do problema ou da oportunidade de área de estudo/processo e/ou produto. Análise de soluções para o problema ou oportunidade. Proposição de projetos com viabilidade de implementação. Prática de proposição de valor e modelagem de projetos. Construção de planos de negócios simplificados.",
+          "foreign": [
+            "Não comprovadas para Proyectos Informáticos; fonte lida descreve competência em circuitos digitais."
+          ],
+          "convergences": [
+            "A candidata Proyectos Informáticos associada ao código 21719027 não possui documentação de identidade válida para analisar Projetos Empreendedores."
+          ],
+          "differences": [
+            "O código foi lido no documento oficial e corresponde a Electrónica Digital, com portas, biestáveis, circuitos e microprocessadores, em curso industrial. Não há documento da candidata de projetos indicada no cadastro. Os cinco tópicos brasileiros — problema/oportunidade, alternativas, viabilidade, proposição de valor e plano de negócios — ficam não verificáveis para a candidata, em vez de serem considerados ausentes por um programa de outra disciplina. A ficha eletrônica traz 60 h, mas transferir esse total à candidata criaria outra associação falsa."
+          ]
+        },
+        "depth": {
+          "level": "Comparação de componentes de graduação",
+          "brazil": "PROJETOS EMPREENDEDORES: etapa 3, 31.67 horas declaradas.",
+          "foreign": "Documento recuperado é de Engenharia Eletrônica Industrial, não da candidata cadastrada.",
+          "theoryPractice": "Os laboratórios de eletrônica não podem ser atribuídos a Proyectos Informáticos."
+        },
+        "practical": {
+          "period": "Não comprovado para Proyectos Informáticos",
+          "language": "Castelhano",
+          "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+          "prerequisites": "Não verificáveis para a candidata correta.",
+          "offer2027": "nao_confirmada"
+        },
+        "synthesis": "A candidata Proyectos Informáticos associada ao código 21719027 não possui documentação de identidade válida para analisar Projetos Empreendedores.",
+        "justification": "O código foi lido no documento oficial e corresponde a Electrónica Digital, com portas, biestáveis, circuitos e microprocessadores, em curso industrial. Não há documento da candidata de projetos indicada no cadastro. Os cinco tópicos brasileiros — problema/oportunidade, alternativas, viabilidade, proposição de valor e plano de negócios — ficam não verificáveis para a candidata, em vez de serem considerados ausentes por um programa de outra disciplina. A ficha eletrônica traz 60 h, mas transferir esse total à candidata criaria outra associação falsa.",
+        "conclusionClass": "evidencia_insuficiente",
+        "institutionalStatus": "aguardando_validacao_institucional",
+        "confidence": "baixa",
+        "confidenceRationale": "Identidade incompatível entre candidata e documento oficial retornado; não há base para cotejo individual.",
+        "limitations": [
+          "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+          "21719027 retorna Electrónica Digital; código associado ao nome Proyectos Informáticos no catálogo local está incorreto.",
+          "Carga, idioma, semestre e pré-requisitos da candidata de projetos não confirmados; valores da ficha eletrônica não transplantados."
+        ],
+        "openQuestions": [
+          "Qual é o código e a URL individual corretos de Proyectos Informáticos na UCA?"
+        ],
+        "alternatives": [],
+        "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+        "reviewedAt": "2026-10-16",
+        "secondReview": {
+          "required": true,
+          "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+        }
+      }
+    }
+  ]
+}

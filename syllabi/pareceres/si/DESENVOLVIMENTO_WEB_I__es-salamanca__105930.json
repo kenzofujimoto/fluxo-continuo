@@ -1,0 +1,176 @@
+{
+  "id": "si|DESENVOLVIMENTO WEB I|es-salamanca|105930",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "DESENVOLVIMENTO WEB I",
+    "name": "DESENVOLVIMENTO WEB I",
+    "courseName": "Sistemas de Informação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco DESENVOLVIMENTO WEB I; página extraída 4 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Introdução à estrutura de ambientes Web e arquitetura cliente servidor",
+      "Planejamento de aplicativos web com foco na solução de problemas reais",
+      "Construção de sistemas Web com linguagens do lado cliente",
+      "Organização de conteúdo com linguagem de marcação",
+      "Elaboração de design de páginas Web com folhas de estilo",
+      "Práticas de Extensão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105930",
+      "academicCode": "105930",
+      "name": "Desarrollo De Aplicaciones Web Ii",
+      "faculty": "E. Politécnica Superior de Zamora",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática en Sistemas de Información (259)",
+      "level": "Graduação",
+      "yearOfStudy": 4,
+      "semester": 1,
+      "period": "Primer Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exercícios individuais 25%, participação 5%, trabalhos em equipe 40%, provas 30%; mínimo 4 nos blocos 1, 3 e 4.",
+      "prerequisites": "Sería recomendable haber cursado las asignaturas Fundamentos de Programación, Programación Orientada a Objetos e Ingeniería del Software, y la asignatura previa de Desarrollo de Aplicaciones Web I.\nAl ser esta asignatura aplicada al diseño y programación Web, se recomienda, aunque algunos se vean ya en la asignatura, tener:\nConocimientos de metodologías de programación y de estructuras de datos.\nConocimientos de lenguajes de programación más comunes y adicionalmente los orientados a objeto: C, C++, JAVA, PHP, etc.\nConocimientos de lenguajes de acceso a bases de datos (SQL), de definición de marcas y especificación de estructuras de información (XML, XSL), lenguajes de definición de interfaces web (HTML, XHTML), de definición de estilos (CSS), etc.\nConocimientos de diseño de interfaces de usuario, accesibilidad y usabilidad.",
+      "source": "https://guias.usal.es/node/251267",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "25c5301aa015ab8e44a35b2c9a691747d58e439000b27c8e0904a65acddf4a08",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução à estrutura de ambientes Web e arquitetura cliente servidor",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Frameworks PHP e comparação de ambientes do lado servidor, sem introdução explícita à arquitetura cliente-servidor.",
+      "foreignLocation": "5, temas 1-4"
+    },
+    {
+      "brTopic": "Planejamento de aplicativos web com foco na solução de problemas reais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Projeto em equipe de aplicação web e aprendizagem baseada em problemas.",
+      "foreignLocation": "3, OI2; 6, trabalhos em grupo"
+    },
+    {
+      "brTopic": "Construção de sistemas Web com linguagens do lado cliente",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Técnicas práticas com JavaScript.",
+      "foreignLocation": "5, tema 5"
+    },
+    {
+      "brTopic": "Organização de conteúdo com linguagem de marcação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "HTML é utilizado nos exercícios, mas linguagens de marcação são recomendadas como conhecimento prévio.",
+      "foreignLocation": "2 e 6"
+    },
+    {
+      "brTopic": "Elaboração de design de páginas Web com folhas de estilo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "CSS consta nos exercícios, mas o guia pressupõe fundamentos de estilos.",
+      "foreignLocation": "2 e 6"
+    },
+    {
+      "brTopic": "Práticas de Extensão",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6 e 9",
+      "note": "Componente de extensão sem tópicos técnicos definidos; não entra na contagem essencial e depende de avaliação específica."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Frameworks profissionais PHP",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Comparação de frameworks",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Introdução à estrutura de ambientes Web e arquitetura cliente servidor. Planejamento de aplicativos web com foco na solução de problemas reais. Construção de sistemas Web com linguagens do lado cliente. Organização de conteúdo com linguagem de marcação. Elaboração de design de páginas Web com folhas de estilo. Práticas de Extensão.",
+    "foreign": "El papel principal de la asignatura es ampliar las destrezas para el desarrollo e integración de soluciones informáticas basadas en entornos Web. Mostrar y dar a conocer diversas técnicas de programación orientadas a la Web, de especificación y diseño, y de implementación de entornos Web mediante la aplicación y reutilización de bibliotecas de funciones-componentes-configuraciones y/o entornos de trabajo disponibles para esos fines.\nObjetivos instrumentales:\nOI1: Ampliar el abanico de conocimientos teóricos y prácticos en el desarrollo de Sistemas de Información y en concreto los orientados a la Web.\nOI2: Aprender y aplicar lenguajes, metodologías y herramientas para la especificación, diseño, implementación y mantenimiento de un sistema de información que se explota o utiliza a través de un entorno Web.\nOI3: Adquirir un buen manejo de la bibliografía recomendada en la asignatura, de forma que se potencia la autosuficiencia a la hora de completar la formación.\nOI4: Tomar conciencia de las implicaciones del trabajo individual, formando parte de un equipo.\nOI5: Tomar conciencia del trabajo en igualdad y de la no discriminación en el desarrollo del trabajo.\nObjetivos interpersonales generales:\nOIP1: Destrezas para la participación responsable: capacidad de coordinación, asistencia, contribuciones al grupo, respeto e igualdad.\nOIP2: Capacidad de trabajar en equipo adquiriendo y mejorando las habilidades sociales y la inteligencia emocional.\nOIP3: Capacidad de trabajar en equipo adquiriendo y mejorando la igualdad, la no discriminación y el respeto al resto de personas del equipo.\nOIP4: Comprometerse de forma ética con el trabajo, con el resto de los integrantes del grupo, consigo mismo y con la igualdad.\nOIP5: Capacidad de crítica y autocrítica, respecto al trabajo realizado tanto por el resto del alumnado como por el propio.",
+    "convergences": [
+      "Frameworks PHP e comparação de ambientes do lado servidor, sem introdução explícita à arquitetura cliente-servidor.",
+      "Projeto em equipe de aplicação web e aprendizagem baseada em problemas.",
+      "Técnicas práticas com JavaScript.",
+      "HTML é utilizado nos exercícios, mas linguagens de marcação são recomendadas como conhecimento prévio.",
+      "CSS consta nos exercícios, mas o guia pressupõe fundamentos de estilos."
+    ],
+    "differences": [
+      "Frameworks PHP e comparação de ambientes do lado servidor, sem introdução explícita à arquitetura cliente-servidor.",
+      "HTML é utilizado nos exercícios, mas linguagens de marcação são recomendadas como conhecimento prévio.",
+      "CSS consta nos exercícios, mas o guia pressupõe fundamentos de estilos.",
+      "Componente de extensão sem tópicos técnicos definidos; não entra na contagem essencial e depende de avaliação específica."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 1; USAL ano 4",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 105930.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Primer Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Sería recomendable haber cursado las asignaturas Fundamentos de Programación, Programación Orientada a Objetos e Ingeniería del Software, y la asignatura previa de Desarrollo de Aplicaciones Web I.\nAl ser esta asignatura aplicada al diseño y programación Web, se recomienda, aunque algunos se vean ya en la asignatura, tener:\nConocimientos de metodologías de programación y de estructuras de datos.\nConocimientos de lenguajes de programación más comunes y adicionalmente los orientados a objeto: C, C++, JAVA, PHP, etc.\nConocimientos de lenguajes de acceso a bases de datos (SQL), de definición de marcas y especificación de estructuras de información (XML, XSL), lenguajes de definición de interfaces web (HTML, XHTML), de definición de estilos (CSS), etc.\nConocimientos de diseño de interfaces de usuario, accesibilidad y usabilidad.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Web II 105930 aproxima-se tecnicamente de Web I de SI, mas parte de fundamentos já adquiridos e concentra-se em frameworks PHP.",
+  "justification": "O tema 5 e a metodologia confirmam JavaScript, HTML e CSS usados em trabalhos; ensinar esses fundamentos do zero não está demonstrado. A disciplina recomenda Web I e programação orientada a objetos, elevando a exigência de entrada para o aluno da primeira etapa.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 105930 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

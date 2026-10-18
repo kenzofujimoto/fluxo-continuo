@@ -1,0 +1,175 @@
+{
+  "id": "dir|SOCIOLOGIA DO DIREITO|po-56-universidadede|CAT-sociologia-do-direito",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "SOCIOLOGIA DO DIREITO",
+    "name": "SOCIOLOGIA DO DIREITO",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 4, bloco SOCIOLOGIA DO DIREITO: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "O componente examina as relações entre direito e sociedade, enfatizando a articulação entre direito e processos econômicos, políticos e culturais a partir de autores e temas específicos",
+      "A primeira etapa possibilita a compreensão da formação do campo da Sociologia do Direito a partir de debates epistemológicos sobre o papel do direito na sociedade (Friedrich von Savigny e Rudolf von Jhering), do conceito sociológico do direito (Émile Durkheim, Max Weber e Eugen Ehrlich) e do direito brasileiro (Roberto Lyra Filho e Marcelo Neves)",
+      "A segunda etapa apresenta o processo de transformação do direito a partir de discussões contemporâneas sobre a sociedade brasileira, em especial: acesso à justiça e reformas das instituições judiciárias",
+      "economização do direito e pluralismo jurídico transnacional",
+      "mudanças tecnológicas nas profissões jurídicas",
+      "movimentos sociais e novos direitos econômicos e sociais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-56-universidadede",
+      "university": "Universidade de Lisboa",
+      "code": "CAT-sociologia-do-direito",
+      "name": "Sociologia do Direito",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": "2026/2027",
+      "period": "2.ºsemestre, TAN; optativa; calendário 2027.2 não confirmado",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Conforme catálogo; acesso por mobilidade não confirmado",
+      "assessment": "Relatório 60%; dois exercícios e participação 40%",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/07/Sociologia-do-Direito-TAN.pdf",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "sha256": "1a4fa23103ddf0d6d542a211ad629508f596a749283048a6b3990bf29c5ab38f",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semana",
+        "hourLengthMinutes": 50,
+        "note": "A ficha declara duas aulas de 50 minutos por semana; não informa semanas ou total semestral. Campo Horas de Trabalho também registra 2h/semana; não é trabalho global somável.",
+        "weekly": {
+          "total": 2
+        }
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O componente examina as relações entre direito e sociedade, enfatizando a articulação entre direito e processos econômicos, políticos e culturais a partir de autores e temas específicos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Interdependência social e jurídica, natureza histórico-cultural e profissões",
+      "foreignLocation": "Objetivos, 1-6; Parte I, capítulos I-II"
+    },
+    {
+      "brTopic": "A primeira etapa possibilita a compreensão da formação do campo da Sociologia do Direito a partir de debates epistemológicos sobre o papel do direito na sociedade (Friedrich von Savigny e Rudolf von Jhering), do conceito sociológico do direito (Émile Durkheim, Max Weber e Eugen Ehrlich) e do direito brasileiro (Roberto Lyra Filho e Marcelo Neves)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Savigny, Jhering, Durkheim, Ehrlich e Weber",
+      "foreignLocation": "Parte II, capítulos III e V",
+      "note": "Roberto Lyra Filho e Marcelo Neves não individualizados no programa."
+    },
+    {
+      "brTopic": "A segunda etapa apresenta o processo de transformação do direito a partir de discussões contemporâneas sobre a sociedade brasileira, em especial: acesso à justiça e reformas das instituições judiciárias",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Mudança social, profissões, sociologia da justiça e atuação judicial",
+      "foreignLocation": "Parte III, capítulos VI e VIII; §10",
+      "note": "Reformas e acesso àjustiça no Brasil não constituem recorte específico."
+    },
+    {
+      "brTopic": "economização do direito e pluralismo jurídico transnacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Pluralismo jurídico, teoria crítica e direito alternativo latino-americano",
+      "foreignLocation": "Parte III, capítulo VII",
+      "note": "Economização e pluralismo transnacional não desenvolvidos explicitamente."
+    },
+    {
+      "brTopic": "mudanças tecnológicas nas profissões jurídicas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Profissões jurídicas e sociologia dosjuízes",
+      "foreignLocation": "Parte III, capítulo VIII",
+      "note": "Mudanças tecnológicas nas profissões não nomeadas."
+    },
+    {
+      "brTopic": "movimentos sociais e novos direitos econômicos e sociais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Mudança social, conflitos e uso alternativo do direito",
+      "foreignLocation": "Parte III, capítulos VI-VII",
+      "note": "Movimentos sociais e novos direitos econômicos e sociais não recebem unidade individual."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Luhmann, Bourdieu, Geiger, Gurvitch efuncionalismo",
+      "location": "Parte II, capítulo IV"
+    }
+  ],
+  "competencies": {
+    "brazil": "O componente examina as relações entre direito e sociedade, enfatizando a articulação entre direito e processos econômicos, políticos e culturais a partir de autores e temas específicos. A primeira etapa possibilita a compreensão da formação do campo da Sociologia do Direito a partir de debates epistemológicos sobre o papel do direito na sociedade (Friedrich von Savigny e Rudolf von Jhering), do conceito sociológico do direito (Émile Durkheim, Max Weber e Eugen Ehrlich) e do direito brasileiro (Roberto Lyra Filho e Marcelo Neves). A segunda etapa apresenta o processo de transformação do direito a partir de discussões contemporâneas sobre a sociedade brasileira, em especial: acesso à justiça e reformas das instituições judiciárias; economização do direito e pluralismo jurídico transnacional; mudanças tecnológicas nas profissões jurídicas; movimentos sociais e novos direitos econômicos e sociais.",
+    "foreign": [
+      "Compreender o direito como fenômeno sociocultural e comparar modelos sociológicos"
+    ],
+    "convergences": [
+      "Sociologia do Direito da FDUL cobre a tradição sociológica e o pluralismo, com aproximações parciais aos problemas brasileiros contemporâneos."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "2 horas-aula semanais em edição de 2022",
+    "foreign": "Os capítulos III-V incluem os cinco autores clássicos nomeados pelo Mackenzie; VI-VIII abrangem mudança, pluralismo e profissões. A ficha declara duas aulas de 50 min semanais, não carga semestral, e remete uma sociologia especial à indicação posterior.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "2.ºsemestre, TAN; optativa; calendário 2027.2 não confirmado",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sociologia do Direito da FDUL cobre a tradição sociológica e o pluralismo, com aproximações parciais aos problemas brasileiros contemporâneos.",
+  "justification": "Os capítulos III-V incluem os cinco autores clássicos nomeados pelo Mackenzie; VI-VIII abrangem mudança, pluralismo e profissões. A ficha declara duas aulas de 50 min semanais, não carga semestral, e remete uma sociologia especial à indicação posterior. O cotejo registra 1 tópicos cobertos e 5 parciais de 6 essenciais. A carga brasileira semanal e a ausência de total de contacto estrangeiro impedem calcular razão horária; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração estrangeira de 50 minutos declarada apenas para duas aulas semanais",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional",
+    "Duas aulas de 50 min/semana explícitas; sem semanas nem total semestral. Cabeçalho inglês residual diz Master’s Course, contrastando com Licenciatura portuguesa."
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  }
+}

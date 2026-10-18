@@ -1,0 +1,172 @@
+{
+  "id": "dir|DIREITO INDIVIDUAL DO TRABALHO|po-56-universidadede|CAT-direito-do-trabalho-i",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INDIVIDUAL DO TRABALHO",
+    "name": "DIREITO INDIVIDUAL DO TRABALHO",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 45, bloco DIREITO INDIVIDUAL DO TRABALHO: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "do Direito Individual do Trabalho",
+      "e, do Direito Tutelar do Trabalho",
+      "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-56-universidadede",
+      "university": "Universidade de Lisboa",
+      "code": "CAT-direito-do-trabalho-i",
+      "name": "Direito do Trabalho I",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": null,
+      "period": "1.º",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Conforme catálogo; acesso por mobilidade não confirmado",
+      "assessment": "Campo Avaliação em branco; não inferir pesos da bibliografia",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/06/Direito-do-Trabalho-I.pdf",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "sha256": "a7a35f4ca7cc089ea9e74e6800bdef4177fdf21689c0fce2ab16e7cf5c46dacc",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Não há total semestral inequívoco de horas de contacto do estudante; cargas dos docentes não são somadas nem créditos convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fundamentos, evolução histórica, fontes e princípios laborais",
+      "foreignLocation": "§6, capítulos I-IV, §§1-18",
+      "note": "O enfoque português não comprova a aplicação das normas e da jurisprudência brasileiras."
+    },
+    {
+      "brTopic": "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Trabalhador, empregador e situação jurídica laboral",
+      "foreignLocation": "§6, capítulo IV, §§14-18",
+      "note": "Não há desenvolvimento sistemático de formação e cessação do contrato individual."
+    },
+    {
+      "brTopic": "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Autonomia dogmática, princípios e sistema de fontes",
+      "foreignLocation": "§6, capítulos I-IV, §§1-15"
+    },
+    {
+      "brTopic": "do Direito Individual do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Pessoas laborais, privacidade e modalidades de trabalhadores",
+      "foreignLocation": "§6, capítulo IV, §§16-18",
+      "note": "Recorte individual introdutório dentro de programa predominantemente coletivo."
+    },
+    {
+      "brTopic": "e, do Direito Tutelar do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tipos de trabalhadores protegidos e tutela da privacidade",
+      "foreignLocation": "§6, §§16-17",
+      "note": "Não desenvolve jornada, salário e acidentes de trabalho."
+    },
+    {
+      "brTopic": "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Evolução histórica e desafios atuais; alargamento do conceito de trabalhador",
+      "foreignLocation": "§6, §§3 e 17",
+      "note": "Gig economy não é unidade explícita; bibliografia sobre plataformas não comprova sua ministração nem CLT."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Negociação coletiva, greve, lock-out e arbitragem coletiva",
+      "location": "§6, capítulos V-VII"
+    }
+  ],
+  "competencies": {
+    "brazil": "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras. Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens. Será feito um estudo da Teoria Geral do Direito do Trabalho; do Direito Individual do Trabalho; e, do Direito Tutelar do Trabalho. Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho.",
+    "foreign": [
+      "Compreender fontes, sujeitos e conflitos coletivos"
+    ],
+    "convergences": [
+      "Trabalho I de Lisboa oferece os fundamentos laborais e introduz os sujeitos, mas seu desenvolvimento predominante é coletivo e deixa o contrato individual para Trabalho II."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "4 horas-aula semanais em edição de 2022",
+    "foreign": "Os capítulos III-IV fornecem fontes e princípios, enquanto V-VII tratam convenções, greve e conflitos coletivos. O cotejo individual encontra aproximação introdutória, sem atribuir à bibliografia de plataformas o valor de programa ministrado.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "1.º no catálogo; confirmar calendário e compatibilidade com 2027.2",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Trabalho I de Lisboa oferece os fundamentos laborais e introduz os sujeitos, mas seu desenvolvimento predominante é coletivo e deixa o contrato individual para Trabalho II.",
+  "justification": "Os capítulos III-IV fornecem fontes e princípios, enquanto V-VII tratam convenções, greve e conflitos coletivos. O cotejo individual encontra aproximação introdutória, sem atribuir à bibliografia de plataformas o valor de programa ministrado. O cotejo registra 1 tópicos cobertos e 5 parciais de 6 essenciais. A carga brasileira semanal e a ausência de total de contacto estrangeiro impedem calcular razão horária; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional",
+    "Ano não impresso; duração e campos de horas/ECTS sem preenchimento."
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  }
+}

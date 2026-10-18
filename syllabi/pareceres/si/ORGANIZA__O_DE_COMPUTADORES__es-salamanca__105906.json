@@ -1,0 +1,226 @@
+{
+  "id": "si|ORGANIZAÇÃO DE COMPUTADORES|es-salamanca|105906",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ORGANIZAÇÃO DE COMPUTADORES",
+    "name": "ORGANIZAÇÃO DE COMPUTADORES",
+    "courseName": "Sistemas de Informação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco ORGANIZAÇÃO DE COMPUTADORES; página extraída 6 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Dados, informação e conhecimento",
+      "Modelos de computação (von Neumann e Turing)",
+      "Álgebra Booleana e Circuitos Lógicos",
+      "Sistemas de hardware e software",
+      "Dados e armazenamento",
+      "Organização funcional de computadores",
+      "Sistema de Numeração",
+      "Unidade Central de Processamento",
+      "Memória",
+      "Barramento",
+      "Sistema de E/S"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105906",
+      "academicCode": "105906",
+      "name": "Arquitectura De Computadores I",
+      "faculty": "E. Politécnica Superior de Zamora",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática en Sistemas de Información (259)",
+      "level": "Graduação",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Segundo Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Básica",
+      "assessment": "Contínua 40% e exame final 60%; mínimo 5 no final e nas práticas; prova contínua prejudicial pode ser desconsiderada.",
+      "prerequisites": "Se recomienda haber cursado las asignaturas “Física” y “Sistemas Informáticos”, del primer semestre.",
+      "source": "https://guias.usal.es/node/250695",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "347dfedfaaaa158649db033a2a54007f375f3dfad096d49a5d7b1f84fb503e63",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Dados, informação e conhecimento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Codificação de informação digital aparece sem discutir conhecimento.",
+      "foreignLocation": "3; 5, tema 1"
+    },
+    {
+      "brTopic": "Modelos de computação (von Neumann e Turing)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Von Neumann e Turing não aparecem no programa."
+    },
+    {
+      "brTopic": "Álgebra Booleana e Circuitos Lógicos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Álgebra de Boole e circuitos combinacionais e sequenciais.",
+      "foreignLocation": "5, temas 1-4"
+    },
+    {
+      "brTopic": "Sistemas de hardware e software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Componentes de hardware digital são tratados, sem a relação sistemática com software.",
+      "foreignLocation": "3; 5, temas 1-5"
+    },
+    {
+      "brTopic": "Dados e armazenamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Codificação e tecnologia de memórias cobrem representação e armazenamento básicos.",
+      "foreignLocation": "5, temas 1 e 5"
+    },
+    {
+      "brTopic": "Organização funcional de computadores",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo relaciona circuitos à organização de um computador, sem panorama funcional completo.",
+      "foreignLocation": "3"
+    },
+    {
+      "brTopic": "Sistema de Numeração",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Codificação digital consta sem listar bases e operações de numeração.",
+      "foreignLocation": "5, tema 1"
+    },
+    {
+      "brTopic": "Unidade Central de Processamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Circuitos aritméticos e registros são componentes de CPU, não sua organização completa.",
+      "foreignLocation": "5, temas 2-3"
+    },
+    {
+      "brTopic": "Memória",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Hierarquia, classificação e células de memória.",
+      "foreignLocation": "5, tema 5"
+    },
+    {
+      "brTopic": "Barramento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Barramentos não são individualizados."
+    },
+    {
+      "brTopic": "Sistema de E/S",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conversores analógico-digitais tratam interface de sinais, sem arquitetura completa de E/S.",
+      "foreignLocation": "5, tema 6"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Circuitos sequenciais assíncronos",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Conversores A/D e D/A",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Dados, informação e conhecimento. Modelos de computação (von Neumann e Turing). Álgebra Booleana e Circuitos Lógicos. Sistemas de hardware e software. Dados e armazenamento. Organização funcional de computadores. Sistema de Numeração. Unidade Central de Processamento. Memória. Barramento. Sistema de E/S.",
+    "foreign": "Ser capaz de conocer y utilizar diferentes sistemas de codificación para representar la información en circuitos digitales básicos\nSaber manejar los principios del álgebra de Boole para la simplificación de funciones lógicas y el diseño de circuitos digitales\nSaber manejar en el laboratorio los diferentes tipos de puertas lógicas y construir con ellos circuitos digitales\nSer capaz de analizar y diseñar circuitos combinacionales y secuenciales\nConocer los principios de los circuitos aritméticos digitales fundamentales\nSaber relacionar los distintos circuitos digitales estudiados en la asignatura con su papel en la organización y arquitectura de un computador\nConocer los distintos tipos de memorias para su adecuada utilización en aplicaciones informáticas\nSer capaz de diseñar y utilizar circuitos conversores de señales analógicas a digitales y de digitales a analógicas.\nAdquirir destrezas en el manejo de herramientas de simulación y diseño de circuitos digitales",
+    "convergences": [
+      "Codificação de informação digital aparece sem discutir conhecimento.",
+      "Álgebra de Boole e circuitos combinacionais e sequenciais.",
+      "Componentes de hardware digital são tratados, sem a relação sistemática com software.",
+      "Codificação e tecnologia de memórias cobrem representação e armazenamento básicos.",
+      "Objetivo relaciona circuitos à organização de um computador, sem panorama funcional completo.",
+      "Codificação digital consta sem listar bases e operações de numeração.",
+      "Circuitos aritméticos e registros são componentes de CPU, não sua organização completa.",
+      "Hierarquia, classificação e células de memória.",
+      "Conversores analógico-digitais tratam interface de sinais, sem arquitetura completa de E/S."
+    ],
+    "differences": [
+      "Codificação de informação digital aparece sem discutir conhecimento.",
+      "Von Neumann e Turing não aparecem no programa.",
+      "Componentes de hardware digital são tratados, sem a relação sistemática com software.",
+      "Codificação e tecnologia de memórias cobrem representação e armazenamento básicos.",
+      "Objetivo relaciona circuitos à organização de um computador, sem panorama funcional completo.",
+      "Codificação digital consta sem listar bases e operações de numeração.",
+      "Circuitos aritméticos e registros são componentes de CPU, não sua organização completa.",
+      "Barramentos não são individualizados.",
+      "Conversores analógico-digitais tratam interface de sinais, sem arquitetura completa de E/S."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 1; USAL ano 1",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 105906.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Segundo Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Se recomienda haber cursado las asignaturas “Física” y “Sistemas Informáticos”, del primer semestre.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Arquitectura de Computadores I 105906 concentra-se em eletrônica digital e cobre apenas parte da organização funcional ampla exigida por SI.",
+  "justification": "Os temas 1-5 confirmam lógica e memória e aproximam representação, armazenamento e componentes aritméticos. Von Neumann, Turing e barramento não aparecem; conversão A/D e D/A não basta para demonstrar um sistema de entrada e saída completo.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional.",
+    "Segundo semestre europeu não coincide em regra com o intercâmbio brasileiro 2027.2; calendário e eventual oferta alternativa não confirmados."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 105906 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

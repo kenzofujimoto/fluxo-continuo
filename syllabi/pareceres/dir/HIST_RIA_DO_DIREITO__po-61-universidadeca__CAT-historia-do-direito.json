@@ -1,0 +1,152 @@
+{
+  "id": "dir|HISTÓRIA DO DIREITO|po-61-universidadeca|CAT-historia-do-direito",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "HISTÓRIA DO DIREITO",
+    "name": "HISTÓRIA DO DIREITO",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 3, bloco HISTÓRIA DO DIREITO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-61-universidadeca",
+      "university": "Universidade Católica Portuguesa",
+      "code": "CAT-historia-do-direito",
+      "name": "História do Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": 2,
+      "period": "Semestre 2",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-historia-do-direito-1o-ano-harm.pdf",
+      "sha256": "f15dd152c4c53675af85e73c804370d40cfaa90b6889a6d98439281b4018e231",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": 35.0,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": 100.0,
+        "selfStudy": null,
+        "ects": 4.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivos destacam dimensão histórico-cultural e papel da história na formação do jurista.",
+      "foreignLocation": "Objetivos a-b"
+    },
+    {
+      "brTopic": "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Evolução de fontes e formação dos reinos relacionam instituições e cultura, com ênfase portuguesa e europeia.",
+      "foreignLocation": "Objetivo c e ConteúdosII-VI"
+    },
+    {
+      "brTopic": "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Mudanças do humanismo, iluminismo e liberalismo historicizam conceitos; problema explícito do anacronismo não aparece.",
+      "foreignLocation": "ConteúdosIV-VI"
+    },
+    {
+      "brTopic": "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Formação de reinos e primeiras constituições aproximam história institucional, sem Ministério Público ou estrutura judicial brasileira.",
+      "foreignLocation": "ConteúdosII.2 eVI"
+    },
+    {
+      "brTopic": "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Ordenações, Lei da Boa Razão e Código de Seabra iluminam antecedentes, mas não ensinam fontes brasileiras dos séculosXIX-XX.",
+      "foreignLocation": "ConteúdosIV-VI"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Glosadores, comentadores e ius commune",
+      "location": "ConteúdosIII"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Compreender a evolução das fontes portuguesas e europeias.",
+    "convergences": [
+      "Objetivos destacam dimensão histórico-cultural e papel da história na formação do jurista.",
+      "Evolução de fontes e formação dos reinos relacionam instituições e cultura, com ênfase portuguesa e europeia.",
+      "Mudanças do humanismo, iluminismo e liberalismo historicizam conceitos; problema explícito do anacronismo não aparece.",
+      "Formação de reinos e primeiras constituições aproximam história institucional, sem Ministério Público ou estrutura judicial brasileira.",
+      "Ordenações, Lei da Boa Razão e Código de Seabra iluminam antecedentes, mas não ensinam fontes brasileiras dos séculosXIX-XX."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Compreender a evolução das fontes portuguesas e europeias.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "Semestre 2 do ano português; confirmar correspondência com 2027.2.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "História do Direito Católica acompanha fontes romanas, canônicas e portuguesas, úteis ao contexto histórico brasileiro, com recorte territorial diferente.",
+  "justification": "Os cinco enunciados apresentam relação, mas somente a finalidade histórico-cultural é integral. O programa de2025/2026 termina na codificação portuguesa oitocentista; a distinção público/privado no Brasil e sua evolução no início do séculoXX não ficam comprovadas.35 horas TP não podem ser equiparadas à carga semanal brasileira.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. ",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

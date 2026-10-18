@@ -66,7 +66,8 @@
     {
       "essential": true,
       "status": "nao_verificavel",
-      "note": "Marcador de pendência documental, não tópico curricular: o campo Ementa do bloco brasileiro está vazio. O resumo de matriz 'processos/atividades de engenharia; ciclo de vida; requisitos, projeto e qualidade' não é ementa oficial e não foi usado como prova."
+      "note": "Marcador de pendência documental, não tópico curricular: o campo Ementa do bloco brasileiro está vazio. O resumo de matriz 'processos/atividades de engenharia; ciclo de vida; requisitos, projeto e qualidade' não é ementa oficial e não foi usado como prova.",
+      "brTopic": "Ementa brasileira vazia — pendência documental, não tópico curricular"
     }
   ],
   "additionalForeignTopics": [
@@ -150,5 +151,11 @@
   "secondReview": {
     "required": true,
     "reason": "Obter o plano de ensino completo de Introdução à Engenharia de Software; campo Ementa oficial vazio"
-  }
+  },
+  "reviewHistory": [
+    {
+      "reviewedAt": "2026-10-17",
+      "reason": "Explicit label added to the documentary-gap marker for the public application contract; no curricular topic was inferred."
+    }
+  ]
 }

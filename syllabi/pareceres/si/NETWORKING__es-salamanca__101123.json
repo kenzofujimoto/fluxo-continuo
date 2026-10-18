@@ -1,0 +1,145 @@
+{
+  "id": "si|NETWORKING|es-salamanca|101123",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "NETWORKING",
+    "name": "NETWORKING",
+    "courseName": "Sistemas de Informação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco NETWORKING; página extraída 16 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo das Teorias das Relações Humanas, Hierarquia das Necessidades e os Dois Fatores, visando o estudo aprofundado da evolução dos relacionamentos empresariais com networking na era digital",
+      "Reflexões sobre os aspectos fundamentais do Relacionamento Interpessoal, persuasão e influência no contexto atual de negócios, envolvendo comunicação, motivação e satisfação com troca de conhecimentos numa rede de relacionamento",
+      "Estudo da construção da rede de relacionamento, o que levam as pessoas a construírem relacionamentos duradouros orientados ao negócio"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101123",
+      "academicCode": "101123",
+      "name": "Redes De Computadores I",
+      "faculty": "Fac. Ciencias",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "Primer Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exames 70%, práticas/trabalhos 30%.",
+      "prerequisites": "Es deseable haber cursado las asignaturas: Señales y Sistemas y Sistemas Operativos I y II",
+      "source": "https://guias.usal.es/node/255641",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "195c0afbc1882dc77c4df92c11eb356342bbfb30d89a96f6625ec5d4d56ca644",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo das Teorias das Relações Humanas, Hierarquia das Necessidades e os Dois Fatores, visando o estudo aprofundado da evolução dos relacionamentos empresariais com networking na era digital",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6, redes técnicas",
+      "note": "Nenhuma teoria de relações humanas, Maslow ou Herzberg aparece."
+    },
+    {
+      "brTopic": "Reflexões sobre os aspectos fundamentais do Relacionamento Interpessoal, persuasão e influência no contexto atual de negócios, envolvendo comunicação, motivação e satisfação com troca de conhecimentos numa rede de relacionamento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Comunicação entre computadores não é relacionamento interpessoal, persuasão ou influência empresarial."
+    },
+    {
+      "brTopic": "Estudo da construção da rede de relacionamento, o que levam as pessoas a construírem relacionamentos duradouros orientados ao negócio",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "LAN e aplicações em rede não representam redes pessoais de negócios."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "OSI, enlace e TCP/IP",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Programação com sockets",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Estudo das Teorias das Relações Humanas, Hierarquia das Necessidades e os Dois Fatores, visando o estudo aprofundado da evolução dos relacionamentos empresariais com networking na era digital. Reflexões sobre os aspectos fundamentais do Relacionamento Interpessoal, persuasão e influência no contexto atual de negócios, envolvendo comunicação, motivação e satisfação com troca de conhecimentos numa rede de relacionamento. Estudo da construção da rede de relacionamento, o que levam as pessoas a construírem relacionamentos duradouros orientados ao negócio.",
+    "foreign": "Dominar y utilizar la terminología asociada de los diferentes objetos, medios y dispositivos necesarios para las telecomunicaciones, tanto en redes de área local como en redes de área ancha.\nConocer y entender las relaciones que mantiene la materia con el resto de materias de la titulación a partir de la introducción explícita de ejemplos y comentarios, aprovechando  puntos relevantes del temario.\nConocer y comprender algunas de las capacidades, aptitudes y conocimientos que la materia aporta para el desarrollo de los diversos perfiles profesionales.\nFamiliarizar al estudiante con los estándares en telecomunicaciones   y con los organismos de regulación. En especial con el modelo de referencia para la Interconexión de Sistemas Abiertos (OSI).\nConocer las arquitecturas, topologías y protocolos de las redes.\nConocer los diferentes componentes hardware y software de los sistemas de telecomunicaciones y como se organizan para proporcionar los servicios requeridos.\nSer capaz de seleccionar e instalar el equipamiento necesario para implementar un sistema de telecomunicaciones; por ejemplo, cables, modems, redes de área local, pasarelas y routers.\nSer capaz de diseñar, instalar, configurar y gestionar una LAN.\nDesarrollar aplicaciones en red para la empresa.\nConocer los diferentes servicios de telecomunicación y analizar una implementación específica del modelo OSI.\nAprender a evaluar, seleccionar e implementar diferentes opciones de comunicación para una organización.\nTener una visión general sobre las líneas de evolución futuras de la tecnología de telecomunicaciones.\nAdquirir y utilizar con fluidez un buen lenguaje científico, tanto oral como escrito, siendo riguroso en las explicaciones de cualquier proceso dentro de la materia.",
+    "convergences": [],
+    "differences": [
+      "Nenhuma teoria de relações humanas, Maslow ou Herzberg aparece.",
+      "Comunicação entre computadores não é relacionamento interpessoal, persuasão ou influência empresarial.",
+      "LAN e aplicações em rede não representam redes pessoais de negócios."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 3; USAL ano 3",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 101123.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Primer Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Es deseable haber cursado las asignaturas: Señales y Sistemas y Sistemas Operativos I y II",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Networking em SI estuda relações humanas e redes profissionais; Redes de Computadores I 101123 trata protocolos e infraestrutura técnica.",
+  "justification": "O algoritmo recuperou o par pelo termo redes, mas os nove temas de enlace, LAN, IP, transporte e aplicação não correspondem a qualquer dos três enunciados brasileiros. Trabalho em equipe como competência transversal não substitui teorias motivacionais ou construção de relacionamentos empresariais.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 101123 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

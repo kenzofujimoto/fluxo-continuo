@@ -1,0 +1,157 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL ECONOMICO|po-56-universidadede|CAT-direito-internacional-economico",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL ECONOMICO",
+    "name": "DIREITO INTERNACIONAL ECONÔMICO",
+    "courseName": "Direito",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 30, bloco DIREITO INTERNACIONAL ECONÔMICO: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A disciplina apresenta o campo do Direito Econômico Internacional, em especial a partir do exame da construção de regimes jurídicos internacionais",
+      "Diferentes interações, seja da competição de mercados, seja da cooperação (alianças, trocas, negociações), dependem de estruturas jurídicas capazes de instrumentalizar as pretensões econômicas",
+      "Na primeira etapa a disciplina apresenta os processos jurídicos (normas e tutelas) que estruturam a ordem econômica internacional por meio do exame das atuações do Fundo Monetário Internacional, do Banco Mundial, da Organização para a Cooperação e Desenvolvimento Econômico, da Organização Mundial do Comércio, da Organização Mundial da Propriedade Intelectual e da Rede Internacional de Concorrência",
+      "Na sequência, as bases jurídicas sobre os movimentos de integração econômica são apresentadas, incluindo mecanismos de formação de união aduaneiras e de mercado comum, bem como a configuração de integrações transnacionais via a lex mercatoria e a lex digitalis",
+      "Por fim, a disciplina mobiliza casos práticos, que possibilitam a identificação dos procedimentos, da jurisdição extraterritorial e das soluções extrajudiciais que marcam o campo econômico internacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-56-universidadede",
+      "university": "Universidade de Lisboa",
+      "code": "CAT-direito-internacional-economico",
+      "name": "Direito Internacional Económico",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": "2026/2027",
+      "period": "2.º semestre, 3.º ano, turma A; maio na avaliação; não confirma mobilidade em 2027.2",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Conforme catálogo; acesso por mobilidade não confirmado",
+      "assessment": "Método A: participação 50% e teste escrito 50%; método B: exame escrito em maio",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/06/ficha_UC_PT-DIE-t.A-2026-27.pdf",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "sha256": "5be5b413a1fee4f4fe79f80b7689698ae1596fefae56052381a8077ca5869354",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Não há total semestral inequívoco de horas de contacto do estudante; cargas dos docentes não são somadas nem créditos convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina apresenta o campo do Direito Econômico Internacional, em especial a partir do exame da construção de regimes jurídicos internacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Âmbito, fundamentos, princípios, fontes e sujeitos do direito internacional económico",
+      "foreignLocation": "§6, I"
+    },
+    {
+      "brTopic": "Diferentes interações, seja da competição de mercados, seja da cooperação (alianças, trocas, negociações), dependem de estruturas jurídicas capazes de instrumentalizar as pretensões econômicas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Instrumentos da ordem económica internacional e regimes de moeda, investimento e comércio",
+      "foreignLocation": "§5, ii-iii; §6, II-IV",
+      "note": "Competição e cooperação aparecem no enquadramento; não há tratamento específico da rede de concorrência."
+    },
+    {
+      "brTopic": "Na primeira etapa a disciplina apresenta os processos jurídicos (normas e tutelas) que estruturam a ordem econômica internacional por meio do exame das atuações do Fundo Monetário Internacional, do Banco Mundial, da Organização para a Cooperação e Desenvolvimento Econômico, da Organização Mundial do Comércio, da Organização Mundial da Propriedade Intelectual e da Rede Internacional de Concorrência",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "FMI e OMC com competências e ordenação monetária e comercial",
+      "foreignLocation": "§5, iii; §6, II-III",
+      "note": "Banco Mundial, OCDE, OMPI e Rede Internacional de Concorrência não individualizados no programa."
+    },
+    {
+      "brTopic": "Na sequência, as bases jurídicas sobre os movimentos de integração econômica são apresentadas, incluindo mecanismos de formação de união aduaneiras e de mercado comum, bem como a configuração de integrações transnacionais via a lex mercatoria e a lex digitalis",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "§6, I-IV; §5, objetivos; §8-12",
+      "note": "Não explicita uniões aduaneiras, mercado comum, lex mercatoria ou lex digitalis."
+    },
+    {
+      "brTopic": "Por fim, a disciplina mobiliza casos práticos, que possibilitam a identificação dos procedimentos, da jurisdição extraterritorial e das soluções extrajudiciais que marcam o campo econômico internacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Discussão teórica e prática com referência às disposições jurídicas em vigor",
+      "foreignLocation": "§8 e§12",
+      "note": "Não são identificados procedimentos extraterritoriais e soluções extrajudiciais; plano detalhado é remetido ao Moodle."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "A disciplina apresenta o campo do Direito Econômico Internacional, em especial a partir do exame da construção de regimes jurídicos internacionais. Diferentes interações, seja da competição de mercados, seja da cooperação (alianças, trocas, negociações), dependem de estruturas jurídicas capazes de instrumentalizar as pretensões econômicas. Na primeira etapa a disciplina apresenta os processos jurídicos (normas e tutelas) que estruturam a ordem econômica internacional por meio do exame das atuações do Fundo Monetário Internacional, do Banco Mundial, da Organização para a Cooperação e Desenvolvimento Econômico, da Organização Mundial do Comércio, da Organização Mundial da Propriedade Intelectual e da Rede Internacional de Concorrência. Na sequência, as bases jurídicas sobre os movimentos de integração econômica são apresentadas, incluindo mecanismos de formação de união aduaneiras e de mercado comum, bem como a configuração de integrações transnacionais via a lex mercatoria e a lex digitalis. Por fim, a disciplina mobiliza casos práticos, que possibilitam a identificação dos procedimentos, da jurisdição extraterritorial e das soluções extrajudiciais que marcam o campo econômico internacional.",
+    "foreign": [
+      "Compreender a ordem econômica internacional, FMI e OMC"
+    ],
+    "convergences": [
+      "Direito Internacional Económico de Lisboa aproxima fundamentos, FMI e OMC; faltam integração econômica e os procedimentos especificados pelo Mackenzie."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "2 horas-aula semanais em edição de 2022",
+    "foreign": "A ficha 2026/27 tem quatro blocos: I fundamentos, II FMI, III OMC e IV mobilidade de fatores e desenvolvimento. O programa detalhado e calendário estão no Moodle; não se inferem deles tópicos públicos ausentes.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "2.º semestre, 3.º ano, turma A; maio na avaliação; não confirma mobilidade em 2027.2",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito Internacional Económico de Lisboa aproxima fundamentos, FMI e OMC; faltam integração econômica e os procedimentos especificados pelo Mackenzie.",
+  "justification": "A ficha 2026/27 tem quatro blocos: I fundamentos, II FMI, III OMC e IV mobilidade de fatores e desenvolvimento. O programa detalhado e calendário estão no Moodle; não se inferem deles tópicos públicos ausentes. O cotejo registra 1 tópicos cobertos e 3 parciais de 5 essenciais. A carga brasileira semanal e a ausência de total de contacto estrangeiro impedem calcular razão horária; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional",
+    "Plano detalhado e calendário remetidos a Moodle não público; ECTS e trabalho em branco."
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "id": "si|FUNDAMENTOS DE BANCO DE DADOS|es-salamanca|101115",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "FUNDAMENTOS DE BANCO DE DADOS",
+    "name": "FUNDAMENTOS DE BANCO DE DADOS",
+    "courseName": "Sistemas de Informação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco FUNDAMENTOS DE BANCO DE DADOS; página extraída 12 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 47.5,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais",
+      "Detalhamento da teoria relacional",
+      "Construção de Modelos Entidade-Relacionamento e Relacional",
+      "Aplicação de Normalização",
+      "Estudo da Álgebra Relacional",
+      "Estudo da linguagem SQL",
+      "Introdução à linguagem de programação para banco de dados",
+      "Estudo de Transações e Controle de Concorrência"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101115",
+      "academicCode": "101115",
+      "name": "Sistemas De Bases De Datos",
+      "faculty": "Fac. Ciencias",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segundo Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação contínua 30%, exame 70%; opção ApS: 30% contínua, 20% ApS e 50% exame.",
+      "prerequisites": "Conocer los conceptos básicos sobre programación y gestión de ficheros, estudiados en las asignaturas Programación I y Programación II y la lógica estudiada en Álgebra Computacional, así como los conceptos sobre modelos lógicos y lenguajes de acceso estudiados en la asignatura  Diseño  de  Bases  de Datos.",
+      "source": "https://guias.usal.es/node/255476",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "10c2de78e30697d8dd5b98b0c599b17e485a1a29fed1953a14597732cd750a47",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Administração de sistemas gestores pressupõe bancos relacionais e usa seus modelos.",
+      "foreignLocation": "2-3; 5, prática"
+    },
+    {
+      "brTopic": "Detalhamento da teoria relacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo usa linguagens associadas ao modelo relacional, sem desenvolver sua teoria.",
+      "foreignLocation": "3"
+    },
+    {
+      "brTopic": "Construção de Modelos Entidade-Relacionamento e Relacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "2-5",
+      "note": "Modelagem entidade-relacionamento e relacional é pressuposta como disciplina anterior."
+    },
+    {
+      "brTopic": "Aplicação de Normalização",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-5",
+      "note": "Normalização não aparece entre os temas avançados."
+    },
+    {
+      "brTopic": "Estudo da Álgebra Relacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-5",
+      "note": "Não há unidade de álgebra relacional."
+    },
+    {
+      "brTopic": "Estudo da linguagem SQL",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Consultas e acesso a dados são objetivos e práticas, sem SQL explicitado no programa.",
+      "foreignLocation": "3; 5, prática"
+    },
+    {
+      "brTopic": "Introdução à linguagem de programação para banco de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Projeto de aplicações e acesso a fontes de dados constam sem linguagem procedural identificada.",
+      "foreignLocation": "3; 5, prática"
+    },
+    {
+      "brTopic": "Estudo de Transações e Controle de Concorrência",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Controle de concorrência é tema 4; transações não são individualizadas.",
+      "foreignLocation": "5, tema 4"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Otimização de consultas",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Segurança, recuperação e NoSQL",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais. Detalhamento da teoria relacional. Construção de Modelos Entidade-Relacionamento e Relacional. Aplicação de Normalização. Estudo da Álgebra Relacional. Estudo da linguagem SQL. Introdução à linguagem de programação para banco de dados. Estudo de Transações e Controle de Concorrência.",
+    "foreign": "Diseñar aplicaciones que resuelvan unas necesidades de información concretas\nUsar lenguajes de consulta y manipulación asociados al modelo relacional\nUsar lenguajes de consulta y manipulación asociados a modelos no  relacionales\nRealizar tareas de administración de un Sistema Gestor de Bases de Datos\nAdministrar un sistema de bases de datos, interpretando su diseño y estructura, y realizando la adaptación del modelo a los requerimientosd el sistema gestor de bases de datos, así como la configuración y administración del mismo a nivel físico y lógico, a fin de asegurar la integridad, disponibilidad y confidencialidad de la información almacenada.\nAsegurar el buen funcionamiento de la base de datos y hacer un seguimiento de la utilización de los usuarios a través de las tareas de mirroring, tunning y desdoblamiento.\nElaborar planes de contingencias y recuperación de los sistemas de bases de datos",
+    "convergences": [
+      "Administração de sistemas gestores pressupõe bancos relacionais e usa seus modelos.",
+      "Objetivo usa linguagens associadas ao modelo relacional, sem desenvolver sua teoria.",
+      "Consultas e acesso a dados são objetivos e práticas, sem SQL explicitado no programa.",
+      "Projeto de aplicações e acesso a fontes de dados constam sem linguagem procedural identificada.",
+      "Controle de concorrência é tema 4; transações não são individualizadas."
+    ],
+    "differences": [
+      "Administração de sistemas gestores pressupõe bancos relacionais e usa seus modelos.",
+      "Objetivo usa linguagens associadas ao modelo relacional, sem desenvolver sua teoria.",
+      "Modelagem entidade-relacionamento e relacional é pressuposta como disciplina anterior.",
+      "Normalização não aparece entre os temas avançados.",
+      "Não há unidade de álgebra relacional.",
+      "Consultas e acesso a dados são objetivos e práticas, sem SQL explicitado no programa.",
+      "Projeto de aplicações e acesso a fontes de dados constam sem linguagem procedural identificada.",
+      "Controle de concorrência é tema 4; transações não são individualizadas."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 3; USAL ano 2",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 101115.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Segundo Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Conocer los conceptos básicos sobre programación y gestión de ficheros, estudiados en las asignaturas Programación I y Programación II y la lógica estudiada en Álgebra Computacional, así como los conceptos sobre modelos lógicos y lenguajes de acceso estudiados en la asignatura  Diseño  de  Bases  de Datos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sistemas de Bases de Datos 101115 é uma continuação de administração e operação de bancos, não uma introdução à modelagem relacional.",
+  "justification": "Os temas 1-5 enfatizam otimização, segurança, recuperação, concorrência e NoSQL. Cinco enunciados de SI têm interseção parcial, mas entidade-relacionamento, normalização e álgebra não são ensinados explicitamente e aparecem como base prévia quando pertinente.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional.",
+    "Segundo semestre europeu não coincide em regra com o intercâmbio brasileiro 2027.2; calendário e eventual oferta alternativa não confirmados."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 101115 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

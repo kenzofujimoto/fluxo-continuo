@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-10-18T02:19:31+00:00",
+  "generated": "2026-10-18T02:36:29+00:00",
   "brazilCounts": {
    "cc": {
     "vigente_vinculada": 38,
@@ -22,8 +22,8 @@
    }
   },
   "foreignUniversities": 55,
-  "foreignMissingSyllabi": 634,
-  "insufficientCatalogueCrossings": 3484,
+  "foreignMissingSyllabi": 629,
+  "insufficientCatalogueCrossings": 3422,
   "note": "Pendência documental não é incompatibilidade. Tentativas malsucedidas não provam inexistência do documento."
  },
  "labels": {
@@ -2391,7 +2391,7 @@
    "name": "Northeastern Illinois University",
    "country": "EUA",
    "catalogUrl": "https://www.neiu.edu/academics/majors-minors-graduate-programs-certificates",
-   "insufficientCatalogueCrossings": 130,
+   "insufficientCatalogueCrossings": 132,
    "missingSyllabi": [
     {
      "code": "CS-426",
@@ -2653,7 +2653,7 @@
    "name": "Soongsil University",
    "country": "Coreia do Sul",
    "catalogUrl": "https://sec.ssu.ac.kr/page/subject_contents.php",
-   "insufficientCatalogueCrossings": 134,
+   "insufficientCatalogueCrossings": 136,
    "missingSyllabi": [
     {
      "code": "CAT-SSU-INFOSEC-012",
@@ -2944,7 +2944,7 @@
    "name": "İstanbul Aydın Üniversitesi",
    "country": "Turquia",
    "catalogUrl": "https://study.aydin.edu.tr/programs/",
-   "insufficientCatalogueCrossings": 123,
+   "insufficientCatalogueCrossings": 125,
    "missingSyllabi": [
     {
      "code": "COM373",
@@ -3228,7 +3228,7 @@
    "name": "Kyungpook National University",
    "country": "Coreia do Sul",
    "catalogUrl": "https://en.knu.ac.kr/edu/school01.htm",
-   "insufficientCatalogueCrossings": 64,
+   "insufficientCatalogueCrossings": 65,
    "missingSyllabi": [
     {
      "code": "ITE0416",
@@ -3583,7 +3583,7 @@
    "name": "Universidad de Cádiz",
    "country": "Espanha",
    "catalogUrl": "https://www.uca.es/grados/?lang=em",
-   "insufficientCatalogueCrossings": 74,
+   "insufficientCatalogueCrossings": 76,
    "missingSyllabi": [
     {
      "code": "21714038",
@@ -3654,8 +3654,8 @@
    ],
    "parecerAnomalies": [
     {
-     "parecer": "adm|Gestão de Projetos|es-cadiz|21719027",
-     "reason": "Identidade do documento estrangeiro divergente do catálogo; requer localizar o código correto de Proyectos Informáticos antes de qualquer análise"
+     "parecer": "adm|Gestão de Projetos|es-cadiz|21714018",
+     "reason": "Detalhar conteúdo, duração da hora e condições de mobilidade; decisão institucional pendente."
     },
     {
      "parecer": "adm|Marketing I|es-cadiz|21506032",
@@ -3666,8 +3666,8 @@
      "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
     },
     {
-     "parecer": "adm|Projetos Empreendedores|es-cadiz|21719027",
-     "reason": "Identidade do documento estrangeiro divergente do catálogo; requer localizar o código correto de Proyectos Informáticos antes de qualquer análise"
+     "parecer": "adm|Projetos Empreendedores|es-cadiz|21714018",
+     "reason": "Detalhar conteúdo, duração da hora e condições de mobilidade; decisão institucional pendente."
     },
     {
      "parecer": "cc|ENEC50011|es-cadiz|21714014",
@@ -3726,8 +3726,8 @@
      "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
     },
     {
-     "parecer": "cc|ENEC61015|es-cadiz|21719027",
-     "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+     "parecer": "cc|ENEC61015|es-cadiz|21714018",
+     "reason": "Detalhar conteúdo, duração da hora e condições de mobilidade; decisão institucional pendente."
     },
     {
      "parecer": "cc|ENEC61018|es-cadiz|21714033",
@@ -3762,8 +3762,8 @@
      "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
     },
     {
-     "parecer": "cc|ENUN51121|es-cadiz|21719027",
-     "reason": "Confirmar escopo, duração da hora e matrícula com as coordenações."
+     "parecer": "cc|ENUN51121|es-cadiz|21714018",
+     "reason": "Detalhar conteúdo, duração da hora e condições de mobilidade; decisão institucional pendente."
     }
    ]
   },
@@ -3772,7 +3772,7 @@
    "name": "Wright State University",
    "country": "EUA",
    "catalogUrl": "https://www.wright.edu/degrees-and-programs",
-   "insufficientCatalogueCrossings": 73,
+   "insufficientCatalogueCrossings": 72,
    "missingSyllabi": [
     {
      "code": "MGT 3110",
@@ -3870,7 +3870,7 @@
    "name": "Universidad de Los Andes",
    "country": "Colombia",
    "catalogUrl": "https://uniandes.edu.co/en/programs-and-faculties/programs/undergraduate",
-   "insufficientCatalogueCrossings": 77,
+   "insufficientCatalogueCrossings": 76,
    "missingSyllabi": [
     {
      "code": "ADMI1603",
@@ -3980,7 +3980,7 @@
    "name": "Universidad la Gran Colombia",
    "country": "Colômbia",
    "catalogUrl": "https://www.ugc.edu.co/pregrado",
-   "insufficientCatalogueCrossings": 46,
+   "insufficientCatalogueCrossings": 45,
    "missingSyllabi": [
     {
      "code": "CAT-antropologia",
@@ -4148,6 +4148,22 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "eu-35-dukeuniversity",
+   "name": "Duke University",
+   "country": "EUA",
+   "catalogUrl": "https://gradschool.duke.edu/academics/programs-and-degrees/",
+   "insufficientCatalogueCrossings": 69,
+   "missingSyllabi": [
+    {
+     "code": "587",
+     "name": "Language-Based Security",
+     "reason": "candidata por conceitos",
+     "source": "https://cs.duke.edu/undergraduate/bulletin-fall-summer-2026#collapse-accordion-1188-2"
+    }
+   ],
+   "parecerAnomalies": []
+  },
+  {
    "universityId": "eu-33-theohiostateun",
    "name": "The Ohio State University",
    "country": "EUA",
@@ -4164,55 +4180,11 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "be-9-hasseltunivers",
-   "name": "Hasselt University",
-   "country": "Bélgica",
-   "catalogUrl": "https://www.uhasselt.be/en#_studiekiezer",
-   "insufficientCatalogueCrossings": 66,
-   "missingSyllabi": [
-    {
-     "code": "CAT-personen-familie-en-familiaal-vermogensrecht",
-     "name": "Personen-, familie- en familiaal vermogensrecht",
-     "reason": "candidata por conceitos",
-     "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-    },
-    {
-     "code": "CAT-staatsrecht",
-     "name": "Staatsrecht",
-     "reason": "candidata registrada",
-     "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-    },
-    {
-     "code": "CAT-verbintenissenrecht",
-     "name": "Verbintenissenrecht",
-     "reason": "candidata registrada",
-     "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
-   "universityId": "eu-35-dukeuniversity",
-   "name": "Duke University",
-   "country": "EUA",
-   "catalogUrl": "https://gradschool.duke.edu/academics/programs-and-degrees/",
-   "insufficientCatalogueCrossings": 68,
-   "missingSyllabi": [
-    {
-     "code": "587",
-     "name": "Language-Based Security",
-     "reason": "candidata por conceitos",
-     "source": "https://cs.duke.edu/undergraduate/bulletin-fall-summer-2026#collapse-accordion-1188-2"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
    "universityId": "po-57-universidadeno",
    "name": "Universidade Nova de Lisboa",
    "country": "Portugal",
    "catalogUrl": "",
-   "insufficientCatalogueCrossings": 61,
+   "insufficientCatalogueCrossings": 60,
    "missingSyllabi": [
     {
      "code": "CAT-direito-empresarial",
@@ -4270,7 +4242,7 @@
    "name": "Universidad de Congreso",
    "country": "Argentina",
    "catalogUrl": "https://www.ucongreso.edu.ar/oferta-academica/",
-   "insufficientCatalogueCrossings": 43,
+   "insufficientCatalogueCrossings": 42,
    "missingSyllabi": [
     {
      "code": "CAT-analisis-economico-del-derecho",
@@ -4733,7 +4705,7 @@
    "name": "Universidad Católica de Córdoba",
    "country": "Argentina",
    "catalogUrl": "https://ucc.edu.ar/propuesta-academica/grado-y-pregrado",
-   "insufficientCatalogueCrossings": 7,
+   "insufficientCatalogueCrossings": 6,
    "missingSyllabi": [
     {
      "code": "CAT-administracion-de-recursos-humanos-i",
@@ -5055,7 +5027,7 @@
    "name": "Università degli Studi di Roma Tor Vergata",
    "country": "Itália",
    "catalogUrl": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/",
-   "insufficientCatalogueCrossings": 19,
+   "insufficientCatalogueCrossings": 18,
    "missingSyllabi": [
     {
      "code": "8022886",
@@ -5293,7 +5265,7 @@
    "name": "Universidad Evangélica Boliviana",
    "country": "Bolívia",
    "catalogUrl": "https://ueb.edu.bo/ingenieria-de-sistemas/",
-   "insufficientCatalogueCrossings": 9,
+   "insufficientCatalogueCrossings": 10,
    "missingSyllabi": [
     {
      "code": "CAT-UEB-SIS-MAT224",
@@ -5555,7 +5527,7 @@
    "name": "Universidad Finis Terrae",
    "country": "Chile",
    "catalogUrl": "",
-   "insufficientCatalogueCrossings": 13,
+   "insufficientCatalogueCrossings": 15,
    "missingSyllabi": [
     {
      "code": "CAT-FINIS-DIR-032",
@@ -5761,7 +5733,7 @@
    "name": "BML Munjal University",
    "country": "Índia",
    "catalogUrl": "https://www.bmu.edu.in/courses/ba-llb/curriculum/",
-   "insufficientCatalogueCrossings": 12,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "LAW4701",
@@ -6033,7 +6005,7 @@
    "name": "Universidad de Chile",
    "country": "Chile",
    "catalogUrl": "http://www.uchile.cl/pregrado",
-   "insufficientCatalogueCrossings": 13,
+   "insufficientCatalogueCrossings": 14,
    "missingSyllabi": [
     {
      "code": "CAT-gestion-de-personas",
@@ -6379,7 +6351,7 @@
    "name": "ISG International Business School",
    "country": "França",
    "catalogUrl": "https://www.isg.fr/en/programmes/bachelor-in-international-management/the-3-years/",
-   "insufficientCatalogueCrossings": 14,
+   "insufficientCatalogueCrossings": 15,
    "missingSyllabi": [
     {
      "code": "CAT-FR-39-ISGINTERNATION-011",
@@ -6443,7 +6415,7 @@
    "name": "Universitat Autònoma de Barcelona",
    "country": "Espanha",
    "catalogUrl": "https://www.uab.cat/web/estudiar-1345661720635.html",
-   "insufficientCatalogueCrossings": 2,
+   "insufficientCatalogueCrossings": 1,
    "missingSyllabi": [
     {
      "code": "102248",
@@ -6644,7 +6616,7 @@
    "name": "Universidade de Coimbra",
    "country": "Portugal",
    "catalogUrl": "https://www.uc.pt/estudarnauc/estudantes-internacionais/licenciaturas-e-mestrados-integrados/",
-   "insufficientCatalogueCrossings": 15,
+   "insufficientCatalogueCrossings": 17,
    "missingSyllabi": [],
    "parecerAnomalies": [
     {
@@ -6824,6 +6796,10 @@
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
     },
     {
+     "parecer": "dir|FALÊNCIA E RECUPERAÇÃO DE EMPRESAS|pt-coimbra|93321",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
      "parecer": "dir|FATOS JURÍDICOS|pt-coimbra|100140",
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
     },
@@ -6842,6 +6818,14 @@
     {
      "parecer": "dir|PRINCÍPIOS DE EMPREENDEDORISMO|pt-coimbra|93362",
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|PRINCÍPIOS, ESTRUTURA E ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA|pt-coimbra|91487",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|PROCEDIMENTOS ESPECIAIS E TUTELAS PROVISÓRIAS|pt-coimbra|100137",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
     },
     {
      "parecer": "dir|PROCESSO DE CONHECIMENTO|pt-coimbra|100133",
@@ -6938,74 +6922,11 @@
    ]
   },
   {
-   "universityId": "co-24-solbridgeinter",
-   "name": "Solbridge International School of Business",
-   "country": "Coreia do Sul",
-   "catalogUrl": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
-   "insufficientCatalogueCrossings": 8,
-   "missingSyllabi": [
-    {
-     "code": "ENT101",
-     "name": "Introduction to Entrepreneurship",
-     "reason": "candidata por conceitos",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    },
-    {
-     "code": "MAT121A",
-     "name": "Mathematics for Business",
-     "reason": "candidata por conceitos",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    },
-    {
-     "code": "GEN321",
-     "name": "Philosophy: Governance and Leadership",
-     "reason": "candidata por conceitos",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    },
-    {
-     "code": "SOC201B",
-     "name": "Sociology for Business",
-     "reason": "candidata por conceitos",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    },
-    {
-     "code": "MIN408C",
-     "name": "Global Strategic Management",
-     "reason": "candidata registrada",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    },
-    {
-     "code": "FIN405",
-     "name": "Mathematical Models in Finance",
-     "reason": "candidata registrada",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    }
-   ],
-   "parecerAnomalies": [
-    {
-     "parecer": "adm|Administração Estratégica e Sustentabilidade|co-24-solbridgeinter|BUS308B",
-     "reason": "Rebaixamento de classe por ausência de sustentabilidade; conferir com o coordenador se estratégia empresarial isolada atende parte da ementa"
-    },
-    {
-     "parecer": "adm|Gestão de Inovação|co-24-solbridgeinter|BUS445",
-     "reason": "Classe no limite de 50% da cobertura; avaliar se técnicas criativas atendem a ementa de gestão da inovação"
-    },
-    {
-     "parecer": "adm|Marketing I|co-24-solbridgeinter|MKT200B",
-     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
-    },
-    {
-     "parecer": "adm|Marketing II|co-24-solbridgeinter|MKT200B",
-     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
-    }
-   ]
-  },
-  {
    "universityId": "po-61-universidadeca",
    "name": "Universidade Católica Portuguesa",
    "country": "Portugal",
    "catalogUrl": "http://www.porto.ucp.pt/pt/central-oferta-formativa/licenciaturas-unidades",
-   "insufficientCatalogueCrossings": 11,
+   "insufficientCatalogueCrossings": 12,
    "missingSyllabi": [
     {
      "code": "CAT-direito-penal-introducao-e-teoria-da-lei-pe",
@@ -7014,7 +6935,68 @@
      "source": "https://fd.lisboa.ucp.pt/pt-pt/unidade-curricular/direito-penal-introducao-e-teoria-da-lei-penal-1111"
     }
    ],
-   "parecerAnomalies": []
+   "parecerAnomalies": [
+    {
+     "parecer": "dir|DIREITO COLETIVO DO TRABALHO|po-61-universidadeca|CAT-direito-do-trabalho",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|po-61-universidadeca|CAT-direito-das-obrigacoes",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO DAS SUCESSÕES|po-61-universidadeca|CAT-direito-das-sucessoes",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO DE FAMÍLIA|po-61-universidadeca|CAT-direito-da-familia",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INDIVIDUAL DO TRABALHO|po-61-universidadeca|CAT-direito-do-trabalho",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PRIVADO|po-61-universidadeca|CAT-direito-internacional-privado",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PÚBLICO|po-61-universidadeca|CAT-direito-internacional-publico",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PÚBLICO|po-61-universidadeca|CAT-fundamentos-de-direito-publico",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO PROCESSUAL DO TRABALHO|po-61-universidadeca|CAT-direito-do-trabalho",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|FILOSOFIA DO DIREITO|po-61-universidadeca|CAT-filosofia-do-direito",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|HISTÓRIA DO DIREITO|po-61-universidadeca|CAT-historia-do-direito",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|INTRODUCAO À COSMOVISÃO REFORMADA|po-61-universidadeca|CAT-cristianismo-e-cultura",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|ORGANIZAÇÃO DO ESTADO E SEPARAÇÃO DE PODERES|po-61-universidadeca|CAT-direitos-fundamentais-e-justica-constitucio",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|TEORIA GERAL DA PENA|po-61-universidadeca|CAT-teoria-geral-do-crime-e-da-pena",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|TEORIA GERAL DO PROCESSO|po-61-universidadeca|CAT-introducao-ao-direito-segundo-o-metodo-do-c",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    }
+   ]
   },
   {
    "universityId": "po-63-universidadelu",
@@ -7100,6 +7082,66 @@
     {
      "parecer": "adm|Teorias da Administração|po-63-universidadelu|24101",
      "reason": "Classe evidencia_insuficiente por ficha pouco discriminada; obter plano detalhado do conteúdo 2 antes de qualquer decisão"
+    },
+    {
+     "parecer": "dir|ATO ADMINISTRATIVO, CONTROLE DA ADMINISTRAÇÃO PÚBLICA E RESPONSABILIDADE CIVIL DO ESTADO|po-63-universidadelu|02335",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|CONTROLE DE CONSTITUCIONALIDADE E PROCESSO CONSTITUCIONAL|po-63-universidadelu|02330",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO DAS COISAS|po-63-universidadelu|02322",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|po-63-universidadelu|02318",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO DAS SUCESSÕES|po-63-universidadelu|02328",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO DE FAMÍLIA|po-63-universidadelu|02321",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL|po-63-universidadelu|24119",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO INDIVIDUAL DO TRABALHO|po-63-universidadelu|02327",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PRIVADO|po-63-universidadelu|02333",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PÚBLICO|po-63-universidadelu|02315",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|DIREITOS HUMANOS E FUNDAMENTAIS|po-63-universidadelu|02314",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|FILOSOFIA DO DIREITO|po-63-universidadelu|02339",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|LINGUAGEM JURÍDICA|po-63-universidadelu|02343",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|SISTEMA TRIBUTÁRIO CONSTITUCIONAL E TEORIA GERAL DA OBRIGAÇÃO TRIBUTÁRIA|po-63-universidadelu|02329",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "dir|TEORIA DA CONSTITUIÇÃO|po-63-universidadelu|02308",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
     }
    ]
   },
@@ -7204,6 +7246,141 @@
     {
      "parecer": "dir|ATO ADMINISTRATIVO, CONTROLE DA ADMINISTRAÇÃO PÚBLICA E RESPONSABILIDADE CIVIL DO ESTADO|po-56-universidadede|CAT-direito-administrativo-ii",
      "reason": "Revisão docente de direito administrativo para pesar diferenças entre sistemas e obter a ficha completa da unidade"
+    },
+    {
+     "parecer": "dir|CONTROLE DE CONSTITUCIONALIDADE E PROCESSO CONSTITUCIONAL|po-56-universidadede|CAT-justica-constitucional",
+     "reason": "Seis tópicos 'parcial' dependem de julgar equivalente o controle de normas português ao brasileiro"
+    },
+    {
+     "parecer": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|po-56-universidadede|CAT-direito-das-obrigacoes-i",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|po-56-universidadede|CAT-direito-das-obrigacoes-ii",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO DAS SUCESSÕES|po-56-universidadede|CAT-direito-das-sucessoes",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO DE FAMÍLIA|po-56-universidadede|CAT-direito-da-familia",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INDIVIDUAL DO TRABALHO|po-56-universidadede|CAT-direito-do-trabalho-i",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INDIVIDUAL DO TRABALHO|po-56-universidadede|CAT-direito-do-trabalho-ii",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL ECONOMICO|po-56-universidadede|CAT-direito-internacional-economico",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL ECONOMICO|po-56-universidadede|CAT-economia-internacional",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PRIVADO|po-56-universidadede|CAT-direito-internacional-privado-i",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PRIVADO|po-56-universidadede|CAT-direito-internacional-privado-ii",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PÚBLICO|po-56-universidadede|CAT-direito-internacional-publico-i",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITO INTERNACIONAL PÚBLICO|po-56-universidadede|CAT-direito-internacional-publico-ii",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|DIREITOS HUMANOS E FUNDAMENTAIS|po-56-universidadede|CAT-direitos-fundamentais",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|FILOSOFIA DO DIREITO|po-56-universidadede|CAT-filosofia-do-direito",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|HISTÓRIA DO DIREITO|po-56-universidadede|CAT-historia-do-direito-portugues",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|ORGANIZAÇÃO DO ESTADO E SEPARAÇÃO DE PODERES|po-56-universidadede|CAT-justica-constitucional",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|SOCIOLOGIA DO DIREITO|po-56-universidadede|CAT-sociologia-do-direito",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|TEORIA GERAL DO DIREITO|po-56-universidadede|CAT-teoria-geral-do-direito-civil-i",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|TEORIA GERAL DO DIREITO|po-56-universidadede|CAT-teoria-geral-do-direito-civil-ii",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    },
+    {
+     "parecer": "dir|TEORIA GERAL DO PROCESSO|po-56-universidadede|CAT-direito-processual-civil-ii",
+     "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+    }
+   ]
+  },
+  {
+   "universityId": "co-24-solbridgeinter",
+   "name": "Solbridge International School of Business",
+   "country": "Coreia do Sul",
+   "catalogUrl": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+   "insufficientCatalogueCrossings": 0,
+   "missingSyllabi": [
+    {
+     "code": "ENT101",
+     "name": "Introduction to Entrepreneurship",
+     "reason": "candidata por conceitos",
+     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
+    },
+    {
+     "code": "MAT121A",
+     "name": "Mathematics for Business",
+     "reason": "candidata por conceitos",
+     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
+    },
+    {
+     "code": "MIN408C",
+     "name": "Global Strategic Management",
+     "reason": "candidata registrada",
+     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
+    },
+    {
+     "code": "FIN405",
+     "name": "Mathematical Models in Finance",
+     "reason": "candidata registrada",
+     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
+    }
+   ],
+   "parecerAnomalies": [
+    {
+     "parecer": "adm|Administração Estratégica e Sustentabilidade|co-24-solbridgeinter|BUS308B",
+     "reason": "Rebaixamento de classe por ausência de sustentabilidade; conferir com o coordenador se estratégia empresarial isolada atende parte da ementa"
+    },
+    {
+     "parecer": "adm|Gestão de Inovação|co-24-solbridgeinter|BUS445",
+     "reason": "Classe no limite de 50% da cobertura; avaliar se técnicas criativas atendem a ementa de gestão da inovação"
+    },
+    {
+     "parecer": "adm|Marketing I|co-24-solbridgeinter|MKT200B",
+     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
+    },
+    {
+     "parecer": "adm|Marketing II|co-24-solbridgeinter|MKT200B",
+     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
     }
    ]
   },
@@ -7260,7 +7437,7 @@
     },
     {
      "parecer": "cc|ENEC61013|es-salamanca|101114",
-     "reason": "Horas e vaga de mobilidade dependem de confirmação institucional."
+     "reason": "Confirmar horas e lacunas de sincronização, dispositivos e oferta."
     },
     {
      "parecer": "cc|ENEC61014|es-salamanca|101124",
@@ -7423,12 +7600,52 @@
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
     },
     {
+     "parecer": "si|ALGORITMOS E PROGRAMAÇÃO I|es-salamanca|101111",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "si|ALGORITMOS E PROGRAMAÇÃO I|es-salamanca|101116",
+     "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+    },
+    {
+     "parecer": "si|ALGORITMOS E PROGRAMAÇÃO I|es-salamanca|105910",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
      "parecer": "si|ARQUITETURA CORPORATIVA|es-salamanca|CAT-USAL-210178",
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
     },
     {
+     "parecer": "si|DESENVOLVIMENTO WEB I|es-salamanca|105921",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|DESENVOLVIMENTO WEB I|es-salamanca|105930",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
      "parecer": "si|DESENVOLVIMENTO WEB II|es-salamanca|101136",
      "reason": "Guia de dupla titulação com campo 'Carácter' vazio; identidade do plano acessível ao intercambista a confirmar"
+    },
+    {
+     "parecer": "si|ESTRUTURA DE DADOS|es-salamanca|101111",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|ESTRUTURA DE DADOS|es-salamanca|101116",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|ESTRUTURA DE DADOS|es-salamanca|105913",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|FUNDAMENTOS DE BANCO DE DADOS|es-salamanca|101110",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|FUNDAMENTOS DE BANCO DE DADOS|es-salamanca|101115",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
     },
     {
      "parecer": "si|FUNDAMENTOS DE SISTEMAS DE INFORMAÇÃO|es-salamanca|CAT-USAL-209738",
@@ -7436,7 +7653,7 @@
     },
     {
      "parecer": "si|FUNDAMENTOS DE SISTEMAS OPERACIONAIS|es-salamanca|101114",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+     "reason": "Confirmar horas e lacunas de sincronização, dispositivos e oferta."
     },
     {
      "parecer": "si|INTERFACE HUMANO-COMPUTADOR|es-salamanca|101124",
@@ -7447,8 +7664,44 @@
      "reason": "Classe rebaixada em relação à derivada pela regra"
     },
     {
+     "parecer": "si|INTRODUÇÃO A COSMOVISÃO REFORMADA|es-salamanca|CAT-USAL-207730",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|INTRODUÇÃO A ENGENHARIA DE SOFTWARE|es-salamanca|101118",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|INTRODUÇÃO A ENGENHARIA DE SOFTWARE|es-salamanca|101122",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|INTRODUÇÃO A ENGENHARIA DE SOFTWARE|es-salamanca|105915",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
      "parecer": "si|MODELAGEM DE SISTEMAS|es-salamanca|105909",
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "si|NETWORKING|es-salamanca|101123",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|NETWORKING|es-salamanca|101127",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|ORGANIZAÇÃO DE COMPUTADORES|es-salamanca|101125",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|ORGANIZAÇÃO DE COMPUTADORES|es-salamanca|105906",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|PROBABILIDADE E ESTATÍSTICA|es-salamanca|CAT-USAL-209810",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
     },
     {
      "parecer": "si|PROBABILIDADE E ESTATÍSTICA|es-salamanca|CAT-USAL-209604",
@@ -7461,6 +7714,14 @@
     {
      "parecer": "si|PROGRAMAÇÃO DE SISTEMAS II|es-salamanca|105909",
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "si|REDES DE COMPUTADORES|es-salamanca|101123",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+    },
+    {
+     "parecer": "si|REDES DE COMPUTADORES|es-salamanca|101127",
+     "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
     }
    ]
   },
@@ -7748,6 +8009,15 @@
      "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
     }
    ]
+  },
+  {
+   "universityId": "be-9-hasseltunivers",
+   "name": "Hasselt University",
+   "country": "Bélgica",
+   "catalogUrl": "https://www.uhasselt.be/en#_studiekiezer",
+   "insufficientCatalogueCrossings": 1,
+   "missingSyllabi": [],
+   "parecerAnomalies": []
   },
   {
    "universityId": "es-26-universidaddej",

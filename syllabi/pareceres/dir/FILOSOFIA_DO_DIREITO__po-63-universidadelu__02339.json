@@ -1,0 +1,200 @@
+{
+  "id": "dir|FILOSOFIA DO DIREITO|po-63-universidadelu|02339",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "FILOSOFIA DO DIREITO",
+    "name": "FILOSOFIA DO DIREITO",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 4, bloco FILOSOFIA DO DIREITO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A Filosofia do Direito é um componente curricular de grande importância para a formação reflexiva do jurista",
+      "Visa proporcionar ao aluno o conhecimento e reflexão de temas clássicos e contemporâneos da filosofia através da problematização de questões fundamentais do direito, desenvolvendo sua a capacidade para a leitura, compreensão e análise de textos conceitualmente complexos",
+      "O recorte dado à disciplina é a distinção operada considerações de Michel Troper e Theodor Viehweg sobre esta distinção",
+      "Trata-se de um conjunto de análises, definições que tem por objeto (i) a conceito de direito",
+      "(ii) a teoria da justiça",
+      "(iii) a teoria da ciência jurídica",
+      "Contudo, este recorte não é radical, a filosofia do direito se apresenta como descrição das práticas jurídicas que se caracterizam pelo nível elevado de abstração e generalização, para tanto, ela se funda necessariamente sobre certos pressupostos e requer o emprego de conceitos cuja escolha dependem da transposição das grandes doutrinas filosóficas aos problemas do direito e da justiça",
+      "Neste componente curricular será apresentada a filosofia do direito, sua origem, seu desenvolvimento histórico e suas principais correntes",
+      "introdução e reflexão de temas clássicos e contemporâneos da filosofia do direito através da problematização de questões fundamentais do direito, tais como justiça, norma, moral, liberdade, poder, legitimidade, Estado e sociedade",
+      "contribuições das abordagens jusnaturalista e positivistas para a análise dos fenômenos jurídicos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "02339",
+      "name": "Filosofia do direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "2º semestre português; confirmar docente, versão e oferta2027/28.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02339_2025.pdf",
+      "sha256": "8c479e4c77d9d960e1b0e225dd109b0e80994935fa57785c1920aad857c92fae",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A Filosofia do Direito é um componente curricular de grande importância para a formação reflexiva do jurista",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Filosofia abstrata e concreta e formação do jurista são competências explícitas.",
+      "foreignLocation": "Primeiro programa, Competências16; segundo programaXV"
+    },
+    {
+      "brTopic": "Visa proporcionar ao aluno o conhecimento e reflexão de temas clássicos e contemporâneos da filosofia através da problematização de questões fundamentais do direito, desenvolvendo sua a capacidade para a leitura, compreensão e análise de textos conceitualmente complexos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Debates, investigação e problemas filosóficos contemporâneos são objetivos e metodologia expressos.",
+      "foreignLocation": "Objetivos14-15 e Metodologia17 dos dois programas"
+    },
+    {
+      "brTopic": "O recorte dado à disciplina é a distinção operada considerações de Michel Troper e Theodor Viehweg sobre esta distinção",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-12, ambos programas e bibliografias",
+      "note": "Troper e Viehweg não são individualizados nos programas ou bibliografias."
+    },
+    {
+      "brTopic": "Trata-se de um conjunto de análises, definições que tem por objeto (i) a conceito de direito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conceito de direito e ontologia têm desenvolvimento próprio.",
+      "foreignLocation": "Primeiro programa, Objetivos14 e ParteII"
+    },
+    {
+      "brTopic": "(ii) a teoria da justiça",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Direito e Justiça integra os dois programas.",
+      "foreignLocation": "Primeiro programa, ParteIII Cap.III; segundo programaX"
+    },
+    {
+      "brTopic": "(iii) a teoria da ciência jurídica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Filosofia e ciência, pensamento sistemático e problemático são conteúdos expressos.",
+      "foreignLocation": "Primeiro programa, ParteI Cap.I2; segundo programaIII-IV"
+    },
+    {
+      "brTopic": "Contudo, este recorte não é radical, a filosofia do direito se apresenta como descrição das práticas jurídicas que se caracterizam pelo nível elevado de abstração e generalização, para tanto, ela se funda necessariamente sobre certos pressupostos e requer o emprego de conceitos cuja escolha dependem da transposição das grandes doutrinas filosóficas aos problemas do direito e da justiça",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Realidade cultural, ordens normativas e dimensão abstrata/concreta ligam doutrinas a práticas.",
+      "foreignLocation": "Primeiro programa, ParteII Cap.II-III e Competências16"
+    },
+    {
+      "brTopic": "Neste componente curricular será apresentada a filosofia do direito, sua origem, seu desenvolvimento histórico e suas principais correntes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Quadros evolutivos e ideias/escolas são objetivos; história detalhada das origens não é especificada.",
+      "foreignLocation": "Objetivos14; segundo programaII"
+    },
+    {
+      "brTopic": "introdução e reflexão de temas clássicos e contemporâneos da filosofia do direito através da problematização de questões fundamentais do direito, tais como justiça, norma, moral, liberdade, poder, legitimidade, Estado e sociedade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Moral, justiça, liberdade, força e sociedade são expressos, sem todos os eixos de Estado e legitimidade individualizados.",
+      "foreignLocation": "Segundo programaVI eIX-XII"
+    },
+    {
+      "brTopic": "contribuições das abordagens jusnaturalista e positivistas para a análise dos fenômenos jurídicos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Positivismo e Direito Natural são seções próprias.",
+      "foreignLocation": "Primeiro programa, ParteII Cap.I1 e ParteIII Cap.II"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "IA, ética e neurociência; positivismo jurídico-tecnológico",
+      "location": "Primeiro programa, ParteIV"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Relacionar conceitos abstratos e problemas jurídicos concretos por debate e investigação.",
+    "convergences": [
+      "Filosofia abstrata e concreta e formação do jurista são competências explícitas.",
+      "Debates, investigação e problemas filosóficos contemporâneos são objetivos e metodologia expressos.",
+      "Conceito de direito e ontologia têm desenvolvimento próprio.",
+      "Direito e Justiça integra os dois programas.",
+      "Filosofia e ciência, pensamento sistemático e problemático são conteúdos expressos.",
+      "Realidade cultural, ordens normativas e dimensão abstrata/concreta ligam doutrinas a práticas.",
+      "Quadros evolutivos e ideias/escolas são objetivos; história detalhada das origens não é especificada.",
+      "Moral, justiça, liberdade, força e sociedade são expressos, sem todos os eixos de Estado e legitimidade individualizados.",
+      "Positivismo e Direito Natural são seções próprias."
+    ],
+    "differences": [
+      "Troper e Viehweg não são individualizados nos programas ou bibliografias."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Relacionar conceitos abstratos e problemas jurídicos concretos por debate e investigação.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "2º semestre português; confirmar docente, versão e oferta2027/28.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Filosofia02339 apresenta correspondência conceitual ampla em direito, justiça, ciência e doutrinas, preservando a ausência do recorte autoral Troper/Viehweg.",
+  "justification": "Sete tópicos são integrais, dois parciais e um ausente no PDF2025/2026. O documento agrega dois docentes: o primeiro organiza ontologia e axiologia com IA, o segundo linguagem, liberdade e eficácia. Não se presume que uma turma reúna ambos os percursos; matriz2022 e horas semanais limitam o parecer a parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. PDF de12 páginas reúne dois programas distintos para02339; evidência identifica a versão em cada tópico.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "PDF de12 páginas reúne dois programas distintos para02339; evidência identifica a versão em cada tópico."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

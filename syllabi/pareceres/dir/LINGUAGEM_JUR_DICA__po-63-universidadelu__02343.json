@@ -1,0 +1,200 @@
+{
+  "id": "dir|LINGUAGEM JURÍDICA|po-63-universidadelu|02343",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "LINGUAGEM JURÍDICA",
+    "name": "LINGUAGEM JURÍDICA",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 6, bloco LINGUAGEM JURÍDICA, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "No âmbito dos estudos jurídicos, o estudo linguístico é imprescindível para a reflexão e prática do direto",
+      "O objetivo desta disciplina é oferecer um quadro teórico geral das ciências da linguagem para que se reflita sobre passa pelo estudo da linguagem e pela distinção entre direito positivo e Ciência do Direito",
+      "A linguagem do direito positivo é compreendida pelo conjunto de normas jurídicas válidas (tem por escopo a regulação jurídica)",
+      "A Ciência do Direito, por sua vez, enquadrará o direito em um discurso descritivo do qual ele é objeto",
+      "A disciplina de Linguagem Jurídica contribui com a compreensão do direito e do ordenamento jurídica numa perspectivas sintática, semântica e pragmática",
+      "Enfoques do tipo fonológico, estilístico, lexiológico, lógico, semiótico, sociolinguístico e retórico, também são pertinentes",
+      "Serão analisadas as correntes dos estudos de linguagem do século XX (Ludwig Wittgenstein, John Langshaw Austin) que fomentam discussões sobre a natureza linguística e lógica do Direito, bem como a função prática da retórica e argumentação jurídica (Chaïm Perelman, Lucie Olbrechts-Tyteca, Olivier Reboul)",
+      "Serão analisados os diferentes níveis comunicativos e sua interface com o discurso jurídico",
+      "O estudo do vocabulário jurídico e de brocardos latinos",
+      "A apresentação dos aspectos relevantes da linguagem e da prática textual, abordando a prática do discurso jurídico, a estruturação frasal, o discurso argumentativo e a redação técnica"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "02343",
+      "name": "Lógica e argumentação jurídicas",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "2º semestre português; oferta2027/28 não comprovada.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02343_2025.pdf",
+      "sha256": "e69fa9686ffc29bd867804a3fe7b77dee4e4282f125f3414a1ecfc42f30e0595",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 3,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "No âmbito dos estudos jurídicos, o estudo linguístico é imprescindível para a reflexão e prática do direto",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Argumentação e lógica mostram a relevância prática do discurso, sem teoria linguística geral.",
+      "foreignLocation": "Objetivos14-16 e Metodologia17"
+    },
+    {
+      "brTopic": "O objetivo desta disciplina é oferecer um quadro teórico geral das ciências da linguagem para que se reflita sobre passa pelo estudo da linguagem e pela distinção entre direito positivo e Ciência do Direito",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, PartesI-III",
+      "note": "Ciências da linguagem e distinção direito positivo/Ciência do Direito não são tópicos explícitos."
+    },
+    {
+      "brTopic": "A linguagem do direito positivo é compreendida pelo conjunto de normas jurídicas válidas (tem por escopo a regulação jurídica)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Lógica da criação, identificação e aplicação do direito aproxima regulação, sem descrição linguística de normas válidas.",
+      "foreignLocation": "ParteI2.2-2.4"
+    },
+    {
+      "brTopic": "A Ciência do Direito, por sua vez, enquadrará o direito em um discurso descritivo do qual ele é objeto",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, PartesI-III",
+      "note": "Ciência jurídica como metadiscurso descritivo não aparece."
+    },
+    {
+      "brTopic": "A disciplina de Linguagem Jurídica contribui com a compreensão do direito e do ordenamento jurídica numa perspectivas sintática, semântica e pragmática",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Elocução e requisitos da narração aproximam a dimensão pragmática; sintaxe e semântica não são desenvolvidas.",
+      "foreignLocation": "ParteII3.3 e4"
+    },
+    {
+      "brTopic": "Enfoques do tipo fonológico, estilístico, lexiológico, lógico, semiótico, sociolinguístico e retórico, também são pertinentes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Lógica e retórica são centrais, sem fonologia, lexicologia ou sociolinguística.",
+      "foreignLocation": "ParteI1-2 e ParteII1-5"
+    },
+    {
+      "brTopic": "Serão analisadas as correntes dos estudos de linguagem do século XX (Ludwig Wittgenstein, John Langshaw Austin) que fomentam discussões sobre a natureza linguística e lógica do Direito, bem como a função prática da retórica e argumentação jurídica (Chaïm Perelman, Lucie Olbrechts-Tyteca, Olivier Reboul)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Persuasão e argumentação aproximam nova retórica; Wittgenstein, Austin e teorias linguísticas não são programas explícitos.",
+      "foreignLocation": "ParteII2-5; bibliografia não usada como prova de autores ministrados"
+    },
+    {
+      "brTopic": "Serão analisados os diferentes níveis comunicativos e sua interface com o discurso jurídico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Orador, auditório e discurso oral abordam comunicação sem uma classificação de níveis comunicativos.",
+      "foreignLocation": "ParteII2 e Metodologia17"
+    },
+    {
+      "brTopic": "O estudo do vocabulário jurídico e de brocardos latinos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, PartesI-III",
+      "note": "Vocabulário jurídico e brocardos latinos não estão previstos."
+    },
+    {
+      "brTopic": "A apresentação dos aspectos relevantes da linguagem e da prática textual, abordando a prática do discurso jurídico, a estruturação frasal, o discurso argumentativo e a redação técnica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Discurso oral e trabalho escrito praticam argumentação; estrutura frasal e redação técnica não são unidades próprias.",
+      "foreignLocation": "Avaliação19 e ParteII3-4"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Verdade, falsidade e persuasão",
+      "location": "ParteIII1-2"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Produzir discursos lógico-argumentativos e submetê-los ao contraditório.",
+    "convergences": [
+      "Argumentação e lógica mostram a relevância prática do discurso, sem teoria linguística geral.",
+      "Lógica da criação, identificação e aplicação do direito aproxima regulação, sem descrição linguística de normas válidas.",
+      "Elocução e requisitos da narração aproximam a dimensão pragmática; sintaxe e semântica não são desenvolvidas.",
+      "Lógica e retórica são centrais, sem fonologia, lexicologia ou sociolinguística.",
+      "Persuasão e argumentação aproximam nova retórica; Wittgenstein, Austin e teorias linguísticas não são programas explícitos.",
+      "Orador, auditório e discurso oral abordam comunicação sem uma classificação de níveis comunicativos.",
+      "Discurso oral e trabalho escrito praticam argumentação; estrutura frasal e redação técnica não são unidades próprias."
+    ],
+    "differences": [
+      "Ciências da linguagem e distinção direito positivo/Ciência do Direito não são tópicos explícitos.",
+      "Ciência jurídica como metadiscurso descritivo não aparece.",
+      "Vocabulário jurídico e brocardos latinos não estão previstos."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Produzir discursos lógico-argumentativos e submetê-los ao contraditório.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "2º semestre português; oferta2027/28 não comprovada.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Lógica e Argumentação02343 aproxima a dimensão argumentativa da Linguagem Jurídica, mas deixa de fora semiótica, brocardos e teoria linguística.",
+  "justification": "Sete de dez tópicos recebem alcance parcial, nenhum cobertura integral. Os3 ECTS e a modalidade de discurso oral com trabalho escrito de2025/2026 não bastam para inferir fonologia ou estudo de Austin. O parecer destaca a utilidade retórica e a lacuna científica da linguagem.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Quadro registra30 por modalidade e3 ECTS; não declara um total semestral de contato rotulado.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Quadro registra30 por modalidade e3 ECTS; não declara um total semestral de contato rotulado."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "dir|DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL|po-56-universidadede|CAT-direito-das-obrigacoes-i",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL",
+    "name": "DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 17, bloco DIREITO DAS OBRIGAÇÕES E RESPONSABILIDADE CIVIL: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo da teoria do direito das obrigações como fonte reflexiva para aplicação no âmbito das relações obrigacionais",
+      "Análise conceitual e prática das modalidades das obrigações, bem como das repercussões jurídicas em face do inadimplemento",
+      "Além do exame dos modos de transmissão das obrigações, análise dos modos de adimplemento direto e indireto e a consequente extinção da obrigação",
+      "Reflexão sobre o descumprimento obrigacional, apresentando as consequências da mora e, por sua vez, a implicação em perdas e danos",
+      "O componente curricular preocupa-se com a compreensão conceitual e prática da responsabilidade civil a partir da teoria geral do direito, estimulando a problematização de cases que envolvem a configuração do dano material, moral e estético",
+      "No tocante à quantificação do dano moral, busca-se, por meio do diálogo entre a doutrina e a jurisprudência, elencar parâmetros e critérios para a mensuração do dano"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-56-universidadede",
+      "university": "Universidade de Lisboa",
+      "code": "CAT-direito-das-obrigacoes-i",
+      "name": "Direito das Obrigações I",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": "2025/2026",
+      "period": "1.º",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Conforme catálogo; acesso por mobilidade não confirmado",
+      "assessment": "Regime comum de disciplinas obrigatórias; pesos não discriminados na ficha",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2025/08/Ficha_UC_DO-I_TA_2526.pdf",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "sha256": "e1d9dbdf12d88154a1e0f70e936f886bcd58e4d87cc3b43f1f65ec9903266634",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": 168,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Não há total semestral inequívoco de horas de contacto do estudante; cargas dos docentes não são somadas nem créditos convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da teoria do direito das obrigações como fonte reflexiva para aplicação no âmbito das relações obrigacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conceito, estrutura e características da obrigação e suas fontes",
+      "foreignLocation": "§6, Introdução; capítulos I-III; Parte I"
+    },
+    {
+      "brTopic": "Análise conceitual e prática das modalidades das obrigações, bem como das repercussões jurídicas em face do inadimplemento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modalidades de obrigações naturais, plurais, genéricas, alternativas, pecuniárias e juros; incumprimento de promessas",
+      "foreignLocation": "§6, capítulo IV, 15-17; Parte I, 43 e 52",
+      "note": "As modalidades são explícitas; consequências gerais do inadimplemento não integram esta primeira metade."
+    },
+    {
+      "brTopic": "Além do exame dos modos de transmissão das obrigações, análise dos modos de adimplemento direto e indireto e a consequente extinção da obrigação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Transmissão da promessa e mecanismos de restituição do enriquecimento",
+      "foreignLocation": "§6, itens 42 e 75-80",
+      "note": "Não cobre de modo sistemático cessão, cumprimento e extinção da obrigação em geral."
+    },
+    {
+      "brTopic": "Reflexão sobre o descumprimento obrigacional, apresentando as consequências da mora e, por sua vez, a implicação em perdas e danos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "§6, Introdução, capítulos I-IV e Parte I capítulos I-V",
+      "note": "Não há unidade de mora e incumprimento obrigacional geral; sanções da promessa não substituem esse eixo."
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se com a compreensão conceitual e prática da responsabilidade civil a partir da teoria geral do direito, estimulando a problematização de cases que envolvem a configuração do dano material, moral e estético",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Responsabilidade delitual, risco e danos patrimoniais e não patrimoniais",
+      "foreignLocation": "§6, capítulo V, 81-115",
+      "note": "Danos estéticos não individualizados e sistema civil português."
+    },
+    {
+      "brTopic": "No tocante à quantificação do dano moral, busca-se, por meio do diálogo entre a doutrina e a jurisprudência, elencar parâmetros e critérios para a mensuração do dano",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Danos não patrimoniais e indemnização por morte",
+      "foreignLocation": "§6, itens 95, 100-102 e 116",
+      "note": "Quantificação por jurisprudência brasileira não consta; o dever de indemnizar remete a outro desenvolvimento."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Gestão de negócios e enriquecimento sem causa",
+      "location": "§6, Parte I, capítulos III-IV"
+    }
+  ],
+  "competencies": {
+    "brazil": "Estudo da teoria do direito das obrigações como fonte reflexiva para aplicação no âmbito das relações obrigacionais. Análise conceitual e prática das modalidades das obrigações, bem como das repercussões jurídicas em face do inadimplemento. Além do exame dos modos de transmissão das obrigações, análise dos modos de adimplemento direto e indireto e a consequente extinção da obrigação. Reflexão sobre o descumprimento obrigacional, apresentando as consequências da mora e, por sua vez, a implicação em perdas e danos. O componente curricular preocupa-se com a compreensão conceitual e prática da responsabilidade civil a partir da teoria geral do direito, estimulando a problematização de cases que envolvem a configuração do dano material, moral e estético. No tocante à quantificação do dano moral, busca-se, por meio do diálogo entre a doutrina e a jurisprudência, elencar parâmetros e critérios para a mensuração do dano.",
+    "foreign": [
+      "Reconhecer a estrutura e fontes das obrigações"
+    ],
+    "convergences": [
+      "Obrigações I de Lisboa aproxima a teoria, modalidades e responsabilidade civil, mas deixa transmissão, cumprimento e mora sistemáticos para outra unidade."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "4 horas-aula semanais em edição de 2022",
+    "foreign": "A ficha de 2025/26 dedica a Parte I às fontes e os itens 81-115 à responsabilidade delitual; o item 116 apenas remete ao dever de indemnizar. Não se atribui cobertura plena à mensuração brasileira do dano moral.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "1.º no catálogo; confirmar calendário e compatibilidade com 2027.2",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Obrigações I de Lisboa aproxima a teoria, modalidades e responsabilidade civil, mas deixa transmissão, cumprimento e mora sistemáticos para outra unidade.",
+  "justification": "A ficha de 2025/26 dedica a Parte I às fontes e os itens 81-115 à responsabilidade delitual; o item 116 apenas remete ao dever de indemnizar. Não se atribui cobertura plena à mensuração brasileira do dano moral. O cotejo registra 1 tópicos cobertos e 4 parciais de 6 essenciais. A carga brasileira semanal e a ausência de total de contacto estrangeiro impedem calcular razão horária; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional"
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL PÚBLICO|po-56-universidadede|CAT-direito-internacional-publico-ii",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL PÚBLICO",
+    "name": "DIREITO INTERNACIONAL PÚBLICO",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 19, bloco DIREITO INTERNACIONAL PÚBLICO: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade",
+      "O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina",
+      "A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-56-universidadede",
+      "university": "Universidade de Lisboa",
+      "code": "CAT-direito-internacional-publico-ii",
+      "name": "Direito Internacional Público II",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": null,
+      "period": "1.º",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Conforme catálogo; acesso por mobilidade não confirmado",
+      "assessment": "Participação 25%, comentário judicial 25%, exposição 25%, relatório 25%",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/06/FDUL_ficha_UC_DIP-II-2026.pdf",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "sha256": "2c6f5f993bb8cbc187ffee4fc40b9b9027593bd82bb5edda4e9dab6da43cd457",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Não há total semestral inequívoco de horas de contacto do estudante; cargas dos docentes não são somadas nem créditos convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Desenvolvimento sustentável e sujeitos multinacionais e ONGs do ambiente",
+      "foreignLocation": "§6, 5.c-5.e",
+      "note": "Há governança ambiental e atores privados, mas não modelo geral empresarial voltado à desigualdade."
+    },
+    {
+      "brTopic": "O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fragmentação e constitucionalização, soft law e sujeitos privados",
+      "foreignLocation": "§6, 2.c-2.d e 5.c",
+      "note": "Não desenvolve o poder transnacional privado como construção de redes econômicas e exclusão social."
+    },
+    {
+      "brTopic": "A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Arbitragem de investimentos, ambiente e organizações não governamentais",
+      "foreignLocation": "§6, 3.c e 5.c-5.e",
+      "note": "Não cobre saúde, redes digitais, associações esportivas e o modelo inovador contra desigualdades."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Direito humanitário, penal internacional e direito do mar",
+      "location": "§6, 4 e 6"
+    }
+  ],
+  "competencies": {
+    "brazil": "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade. O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina. A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais",
+    "foreign": [
+      "Analisar tensões normativas e aplicar direito internacional a conflitos e regimes ambientais"
+    ],
+    "convergences": [
+      "Direito Internacional Público II oferece interseções pontuais em fragmentação, arbitragem e atores privados ambientais; seu centro segue litígios, conflitos armados, ambiente e mar."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "2 horas-aula semanais em edição de 2022",
+    "foreign": "Os blocos 2-6 tratam fontes, litígios, força, DIHumanitário, penal, ambiente e mar; multinacionais e ONGs aparecem em 5.c e arbitragem em 3.c. O cotejo distingue essas aproximações da proposta brasileira específica de governança social transnacional.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "1.º no catálogo; confirmar calendário e compatibilidade com 2027.2",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito Internacional Público II oferece interseções pontuais em fragmentação, arbitragem e atores privados ambientais; seu centro segue litígios, conflitos armados, ambiente e mar.",
+  "justification": "Os blocos 2-6 tratam fontes, litígios, força, DIHumanitário, penal, ambiente e mar; multinacionais e ONGs aparecem em 5.c e arbitragem em 3.c. O cotejo distingue essas aproximações da proposta brasileira específica de governança social transnacional. O cotejo registra 0 tópicos cobertos e 3 parciais de 3 essenciais. A carga brasileira semanal e a ausência de total de contacto estrangeiro impedem calcular razão horária; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional",
+    "Ano letivo deve ser confirmado na edição efetivamente aplicável; conteúdo não confirma oferta 2027.2."
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  },
+  "downgradeReason": "Embora a regra interna conte aproximações parciais acima de 50%, elas são pontuais e não recompõem o núcleo da disciplina brasileira: governança transnacional privada e redução de desigualdades."
+}

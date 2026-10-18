@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated": "2026-10-17T13:16:53Z",
-  "foreign": 1156,
+  "generated": "2026-10-18T02:33:18Z",
+  "foreign": 1195,
   "brazil": 187,
   "brazilByCourse": {
    "cc": 42,
@@ -9,7 +9,7 @@
    "adm": 41,
    "dir": 62
   },
-  "brazilCurrent": 82,
+  "brazilCurrent": 81,
   "structuredForeign": 68,
   "policy": "Campos lidos de seções explícitas; nulos quando ausentes. ECTS nunca convertidos em horas."
  },
@@ -2672,7 +2672,7 @@
    "ectsMentioned": true,
    "location": "Documento integral; campos extraídos manualmente no parecer"
   },
-  "es-cadiz|21719027": {
+  "es-cadiz|21714018": {
    "source": "https://asignaturas.uca.es/2026-27/21714018",
    "sha256": "f49c3e0efd55c9ca2013189eb336747a2209e5b74e3c4c37501cab823cc6663b",
    "contentSha256": "18c17c136174c8b82be2227d980690cc4b36ad3cece7d9f0ff28d0ddfa7fb53d",
@@ -9175,6 +9175,17 @@
    "ectsMentioned": false,
    "location": "Documento integral; campos extraídos manualmente no parecer"
   },
+  "co-24-solbridgeinter|BUS 204": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/Liberal%20Arts%20and%20Stem%20Core%20Courses.pdf",
+   "sha256": "1abfd58d6c62de048175ba91c2e78f7ad7be5de8b5b1c96b61165575a64f98e2",
+   "contentSha256": "1abfd58d6c62de048175ba91c2e78f7ad7be5de8b5b1c96b61165575a64f98e2",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 6818,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
   "co-24-solbridgeinter|COM114D": {
    "source": "https://www.solbridge.ac.kr/site/main/down/BBA/COM114D%20Writing%20and%20Presentation%20Skills.pdf",
    "sha256": "561f9f42c9b752b31b6229c52864e7f546aef4e4f5337113fafe3d7bfa7e3f19",
@@ -9183,6 +9194,28 @@
    "status": "lido",
    "layout": "nao_estruturado",
    "textChars": 2935,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "co-24-solbridgeinter|BUS250A": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/Liberal%20Arts%20and%20Stem%20Core%20Courses.pdf",
+   "sha256": "1abfd58d6c62de048175ba91c2e78f7ad7be5de8b5b1c96b61165575a64f98e2",
+   "contentSha256": "1abfd58d6c62de048175ba91c2e78f7ad7be5de8b5b1c96b61165575a64f98e2",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 6818,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "co-24-solbridgeinter|DAT101": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/Liberal%20Arts%20and%20Stem%20Core%20Courses.pdf",
+   "sha256": "1abfd58d6c62de048175ba91c2e78f7ad7be5de8b5b1c96b61165575a64f98e2",
+   "contentSha256": "1abfd58d6c62de048175ba91c2e78f7ad7be5de8b5b1c96b61165575a64f98e2",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 6818,
    "ectsMentioned": false,
    "location": "Documento integral; campos extraídos manualmente no parecer"
   },
@@ -9549,6 +9582,61 @@
    "ectsMentioned": false,
    "location": "Documento integral; campos extraídos manualmente no parecer"
   },
+  "co-24-solbridgeinter|THE450": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf",
+   "sha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "contentSha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 39978,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "co-24-solbridgeinter|SOC201B": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf",
+   "sha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "contentSha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 39978,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "co-24-solbridgeinter|GEN160": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/GEN160%20Sex%20Gender%20and%20Culture.pdf",
+   "sha256": "4b9a8455cf4672c62fca10aa0e305bea708ae1855dae2e2d22cb465caf286779",
+   "contentSha256": "4b9a8455cf4672c62fca10aa0e305bea708ae1855dae2e2d22cb465caf286779",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 3606,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "co-24-solbridgeinter|GEN105": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf",
+   "sha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "contentSha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 39978,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "co-24-solbridgeinter|BUS393": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf",
+   "sha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "contentSha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 39978,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
   "co-24-solbridgeinter|GEN120B": {
    "source": "https://www.solbridge.ac.kr/site/main/down/BBA/GEN120B%20Critical%20Thinking.pdf",
    "sha256": "7a26eddddfa49b0ef6621f3dfd70b34ad177b1ca242de26e55f1b40bc7acac4b",
@@ -9560,6 +9648,17 @@
    "ectsMentioned": false,
    "location": "Documento integral; campos extraídos manualmente no parecer"
   },
+  "co-24-solbridgeinter|GEN321": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf",
+   "sha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "contentSha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 39978,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
   "co-24-solbridgeinter|HIS160": {
    "source": "https://www.solbridge.ac.kr/site/main/down/BBA/HIS160%20Survey%20of%20US%20History.pdf",
    "sha256": "6ed498a69dcd7c6ca05dcfa5788769864b664ef2de08927fdee61698f3920f67",
@@ -9568,6 +9667,105 @@
    "status": "lido",
    "layout": "nao_estruturado",
    "textChars": 3538,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "co-24-solbridgeinter|CHE101A": {
+   "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf",
+   "sha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "contentSha256": "ea95cd5abb69eac6be5944cd96b75ca0cf82ad71b62c499f460e241a088db6de",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 39978,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "be-9-hasseltunivers|CAT-staatsrecht": {
+   "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=3843&n=4&t=01",
+   "sha256": "75c4913dc715e1206d570b49b704dad46c8e9d464a2040e3c38b9444ed4faecc",
+   "contentSha256": "94acb307adaaa4786cccd1a14b639483491837361d37e911068d0bdf4e8b17b5",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 76116,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "be-9-hasseltunivers|CAT-verbintenissenrecht": {
+   "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=1875&n=4&t=01",
+   "sha256": "b2ca63f00d82f2688366b33ead596a01b0b2f20f99f8424894fa457513cff01d",
+   "contentSha256": "14c060b2248bbf1896f7078a97ea1b0930020021d6001e6e65e149e26a804816",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 77378,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "be-9-hasseltunivers|CAT-internationaal-en-europees-recht": {
+   "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=1880&n=4&t=01",
+   "sha256": "6206b871caee12600bb546691f371e0cff729073f250452b0b47a39ccb8da225",
+   "contentSha256": "b36ed3761093db35988c137ef437d9ae56a0bcde2e6794f8c7aa4c6d22c862c5",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 74925,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "be-9-hasseltunivers|CAT-legal-english": {
+   "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=1877&n=4&t=01",
+   "sha256": "b6a2cb17ffc2645f2b6bd08822d52c9623beadac21fa1e51857b6960f4773bff",
+   "contentSha256": "19c724e1830c0e5acc805cdb3d2fcfecdd8371bd9e144b96de6b14b797a10d40",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 70406,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "be-9-hasseltunivers|CAT-goederen-en-bijzondere-overeenkomstenrecht": {
+   "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=2125&n=4&t=01",
+   "sha256": "dedafec5995a0b3ffcddc1552ff3a10f5986ab153896d2470e3fb63a162fe602",
+   "contentSha256": "1876df811f78eac86db235cad223b0bc2dbe3f663495903837adda752475cf36",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 70890,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "be-9-hasseltunivers|CAT-bestuursrecht": {
+   "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=4977&n=4&t=01",
+   "sha256": "07c486dc92c6172f5510c3fa0c826187b668510d1eb8758261afd0a199269a95",
+   "contentSha256": "505bbc1e13af81ed99f3335f0494a956440799cbeb9584c7a280faa60cb084ad",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 70503,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "be-9-hasseltunivers|CAT-personen-familie-en-familiaal-vermogensrecht": {
+   "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=2121&n=4&t=01",
+   "sha256": "5785a2fb68910c1a23332aaf6d8c1d8a6d38ea9957b8160f3213b998aa6e9609",
+   "contentSha256": "2de399a34dbf86858d2e67c271d0f8b6137230cce618c179a6e2c218fa976dd7",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 76326,
+   "ectsMentioned": false,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "be-9-hasseltunivers|CAT-bachelorscriptie": {
+   "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=4980&n=4&t=01",
+   "sha256": "834e075f62747b9edf8e6b179af8dca18d96573a152a861b20b128cbb3956fbe",
+   "contentSha256": "454356cde8bf3c5a92132e5d4869c0f2ce41633fb6152beb601543df8e9e7fc9",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 77491,
    "ectsMentioned": false,
    "location": "Documento integral; campos extraídos manualmente no parecer"
   },
@@ -11306,6 +11504,237 @@
    "status": "lido",
    "layout": "nao_estruturado",
    "textChars": 15971,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-001": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-002": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-003": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-004": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-005": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-006": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-007": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-008": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-009": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-010": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-011": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-012": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-013": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-014": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-015": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-016": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-017": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-018": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-019": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-020": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
+   "ectsMentioned": true,
+   "location": "Documento integral; campos extraídos manualmente no parecer"
+  },
+  "al-4-leibnizunivers|CAT-AL-4-LEIBNIZUNIVERS-DIG-021": {
+   "source": "https://www.wiwi.uni-hannover.de/fileadmin/wiwi/pdf/modulhandbuch/semesterunabhaengig/Modulhandbuch_Bachelor_Digital_Business.pdf",
+   "sha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "contentSha256": "5b26dacd35e93516f8894ddfaa4ff445fe3df58ddff35016dc03ac8647d1802d",
+   "fetchedAt": "2026-10-18T02:33:18Z",
+   "status": "lido",
+   "layout": "nao_estruturado",
+   "textChars": 245439,
    "ectsMentioned": true,
    "location": "Documento integral; campos extraídos manualmente no parecer"
   },
@@ -17232,9 +17661,9 @@
    ],
    "matchMethod": "variacao_ortografica",
    "status": "lido",
-   "officialSyllabus": true,
-   "current": true,
-   "currencyNote": "Ementário público FCI 2025, câmpus Alphaville"
+   "officialSyllabus": false,
+   "current": false,
+   "currencyNote": "Official public FCI2025 Alphaville file has an empty Ementa section for this component; bibliography is not syllabus content."
   },
   "si|GESTÃO DE PROJETOS DE TECNOLOGIA DA INFORMAÇÃO": {
    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",

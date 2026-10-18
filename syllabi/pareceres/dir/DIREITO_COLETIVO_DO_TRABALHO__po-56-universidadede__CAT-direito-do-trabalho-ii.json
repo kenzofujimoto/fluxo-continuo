@@ -1,0 +1,172 @@
+{
+  "id": "dir|DIREITO COLETIVO DO TRABALHO|po-56-universidadede|CAT-direito-do-trabalho-ii",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO COLETIVO DO TRABALHO",
+    "name": "Direito Coletivo do Trabalho",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 51, bloco 'DIREITO COLETIVO DO TRABALHO' (7ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Lisboa",
+      "name": "Direito do Trabalho II",
+      "faculty": "Faculdade de Direito da Universidade de Lisboa",
+      "programme": "Licenciatura em Direito; ficha bilíngue (versão inglesa: 'Labour Law II – Evening Course')",
+      "level": "Licenciatura (graduação)",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "Catálogo FDUL indica 2.º semestre; a caixa 'Semestral/Anual' da ficha está sem marcação",
+      "academicYear": "2026/2027 (inferido do nome do arquivo 'Ficha_Bilingue_Direito_do_Trabalho_II_2026_27'; não impresso no texto)",
+      "language": "Português (ficha também em inglês)",
+      "courseStatus": "Não declarado",
+      "assessment": "Regulamento da FDUL: exame escrito final e eventuais elementos adicionais definidos pelo docente",
+      "prerequisites": "Não declarados",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "location": "Ficha de UC: Objetivos de aprendizagem; Conteúdos programáticos (Capítulos I-XII, itens 1-109); Metodologias; Avaliação; Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Campos 'Horas de Trabalho' e 'Créditos ECTS' em branco; sem carga de contacto declarada."
+      },
+      "universityId": "po-56-universidadede",
+      "code": "CAT-direito-do-trabalho-ii",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/08/FDUL_Ficha_Bilingue_Direito_do_Trabalho_II_2026_27.pdf",
+      "sha256": "fe0fa50bad0595ba1e8c95ad52969466f59c783b9af93344942001044e7951f6"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos de aprendizagem e Conteúdos programáticos dos Capítulos I-XII (itens 1-109), versões portuguesa e inglesa, Metodologias e Bibliografia",
+      "note": "O programa é todo de direito individual (contrato de trabalho); só aparece de passagem 'Despedimento coletivo' (item 100), que é causa de cessação do contrato e não direito coletivo."
+    },
+    {
+      "brTopic": "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Conteúdos programáticos dos Capítulos I-XII (itens 1-109) e Objetivos de aprendizagem",
+      "note": "Sindicatos, associações de empregadores e comissões de trabalhadores não constam; estão no programa de Direito do Trabalho I."
+    },
+    {
+      "brTopic": "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Conteúdos programáticos dos Capítulos I-XII (itens 1-109) e Objetivos de aprendizagem",
+      "note": "Não há item sobre hierarquia de fontes coletivas ou favorabilidade; os itens 28-30 tratam de interpretação e integração do contrato individual."
+    },
+    {
+      "brTopic": "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Conteúdos programáticos dos Capítulos I-XII (itens 1-109), Bibliografia e Observações",
+      "note": "Contratação coletiva e convenções da OIT não aparecem; o item 86 'Nota comparatística' refere o direito comparado da cessação do contrato."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Formação, conteúdo, execução e cessação do contrato de trabalho",
+      "location": "Capítulos III-XII"
+    },
+    {
+      "topic": "Trabalho em plataformas digitais, teletrabalho, trabalho temporário e outsourcing",
+      "location": "Capítulo I, itens 6 e 10; Capítulo VI, itens 41-42"
+    },
+    {
+      "topic": "Acidentes de trabalho e despedimento (coletivo, por extinção do posto, por inadaptação)",
+      "location": "Capítulo X; Capítulo XII, itens 100-102"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa propõe estudo crítico das relações coletivas e do sistema sindical; não lista competências.",
+    "foreign": [
+      "Compreender o regime do contrato de trabalho individual da formação à extinção",
+      "Analisar poderes do empregador e posição do trabalhador",
+      "Aplicar legislação, jurisprudência e doutrina a casos práticos"
+    ],
+    "convergences": [
+      "Estudo crítico do direito do trabalho como ramo, com direito comparado pontual"
+    ],
+    "differences": [
+      "Direito individual em lugar de direito coletivo",
+      "Sem sindicatos, negociação coletiva, greve ou OIT",
+      "Ordenamento português"
+    ]
+  },
+  "depth": {
+    "level": "UC de licenciatura da FDUL (semestre 2 do catálogo) contra a 7.ª etapa Mackenzie",
+    "brazil": "Componente de 2 horas-aula semanais",
+    "foreign": "Programa de 109 itens em 12 capítulos; carga horária não declarada",
+    "theoryPractice": "Aulas expositivas, casos práticos e análise de jurisprudência; proporção não declarada"
+  },
+  "practical": {
+    "period": "Semestre não marcado na ficha (catálogo: 2.º); coincidência com 2027.2 não verificada",
+    "language": "Português",
+    "enrolment": "Acesso de estudantes de mobilidade não informado",
+    "prerequisites": "Não declarados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito do Trabalho II de Lisboa é a metade individual do direito do trabalho (contrato, posição das partes, cessação) e não toca o objeto de Direito Coletivo do Trabalho: nenhum dos quatro tópicos Mackenzie (sindicatos, negociação coletiva, articulação de fontes coletivas, OIT) aparece nos 109 itens do programa.",
+  "justification": "O programa lido item a item nos Capítulos I a XII só menciona 'Despedimento coletivo' (item 100) e 'Nota comparatística' (item 86), que pertencem à cessação do contrato individual. Por isso os quatro tópicos essenciais ficam 'nao_encontrado', com 0% de cobertura plena e parcial, o que determina baixa afinidade. O motivo é estrutural e não de qualidade: a matéria coletiva está em Direito do Trabalho I na mesma faculdade. Mesmo sem esse resultado, a ementa Mackenzie de 2022 é histórica e as 2 horas-aula semanais não se comparam com uma ficha sem horas ou ECTS. Este par não deve ser usado para pedir aproveitamento de Direito Coletivo do Trabalho.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "A ficha é completa em conteúdos e a ausência de matéria coletiva é inequívoca; a confiança é moderada porque faltam horas, ECTS e ano impresso, e a ementa brasileira é histórica.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; pode não corresponder à matriz vigente",
+    "Carga Mackenzie em horas-aula semanais; a ficha de Lisboa não declara horas nem ECTS: carga não comparável",
+    "Ano letivo inferido do nome do arquivo; duração e semestre não marcados na ficha",
+    "O par foi registrado como candidata, mas o conteúdo comparado pertence a outro ramo do direito do trabalho",
+    "Oferta em 2027.2 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "Existe razão para manter esta candidata, dado que o equivalente coletivo é Direito do Trabalho I?"
+  ],
+  "alternatives": [
+    {
+      "code": "CAT-direito-do-trabalho-i",
+      "name": "Direito do Trabalho I",
+      "relation": "Mesma universidade; cobre as situações laborais coletivas; lido em outro parecer deste lote"
+    }
+  ],
+  "method": "Leitura integral do ementário Direito Alphaville 2022 (p. 51) e da ficha bilíngue de Direito do Trabalho II da FDUL (2026/27 pelo nome do arquivo) com apoio de IA (Claude); título conferido com o catálogo (coincide); coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência de conteúdo coletivo verificada em todos os 109 itens do programa"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "dir|DIREITO DAS SUCESSÕES|po-56-universidadede|CAT-direito-das-sucessoes",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DAS SUCESSÕES",
+    "name": "DIREITO DAS SUCESSÕES",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 54, bloco DIREITO DAS SUCESSÕES: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo da teoria geral do direito sucessório, da primazia da sucessão legítima no direito brasileiro e da sucessão testamentária",
+      "O componente curricular preocupa-se com a análise conceitual e prática da estrutura tradicional positivada a respeito da abertura da sucessão, inventário, partilha e disposições testamentárias, mas, também, foca no estudo preventivo do planejamento sucessório sob o ponto de vista patrimonial e afetivo",
+      "Conta, ainda, com a preparação teórica e profissional a partir da análise de cases, englobando o debate doutrinário e jurisprudencial sobre o direito das sucessões codificado e as repercussões sucessórias da herança digital"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-56-universidadede",
+      "university": "Universidade de Lisboa",
+      "code": "CAT-direito-das-sucessoes",
+      "name": "Direito das Sucessões",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": null,
+      "period": "2.º",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Conforme catálogo; acesso por mobilidade não confirmado",
+      "assessment": "Avaliação em aulas e exames escritos e orais",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/06/Direito-das-Sucessoes-A-1-ciclo-.pdf",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "sha256": "36f17b3b08c62d9ed12aecc8c056d7039653dd7d7bcabec6347466ac66cd64da",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": 168,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Não há total semestral inequívoco de horas de contacto do estudante; cargas dos docentes não são somadas nem créditos convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da teoria geral do direito sucessório, da primazia da sucessão legítima no direito brasileiro e da sucessão testamentária",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Designação sucessória por fonte e objeto; vocação legitimária",
+      "foreignLocation": "§6, Parte I, capítulos I-III; Parte II, títulos I-II",
+      "note": "O enfoque português não comprova a aplicação das normas e da jurisprudência brasileiras."
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se com a análise conceitual e prática da estrutura tradicional positivada a respeito da abertura da sucessão, inventário, partilha e disposições testamentárias, mas, também, foca no estudo preventivo do planejamento sucessório sob o ponto de vista patrimonial e afetivo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Abertura, aquisição, administração, liquidação e partilha da herança",
+      "foreignLocation": "§6, Parte II, títulos I-III",
+      "note": "Não explicita inventário brasileiro nem planejamento patrimonial e afetivo preventivo."
+    },
+    {
+      "brTopic": "Conta, ainda, com a preparação teórica e profissional a partir da análise de cases, englobando o debate doutrinário e jurisprudencial sobre o direito das sucessões codificado e as repercussões sucessórias da herança digital",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Casos práticos na metodologia de ensino",
+      "foreignLocation": "§8; §6, considerações finais",
+      "note": "Herança digital aparece apenas na bibliografia: não comprova conteúdo ministrado."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo da teoria geral do direito sucessório, da primazia da sucessão legítima no direito brasileiro e da sucessão testamentária. O componente curricular preocupa-se com a análise conceitual e prática da estrutura tradicional positivada a respeito da abertura da sucessão, inventário, partilha e disposições testamentárias, mas, também, foca no estudo preventivo do planejamento sucessório sob o ponto de vista patrimonial e afetivo. Conta, ainda, com a preparação teórica e profissional a partir da análise de cases, englobando o debate doutrinário e jurisprudencial sobre o direito das sucessões codificado e as repercussões sucessórias da herança digital.",
+    "foreign": [
+      "Formação nos fundamentos do direito sucessório"
+    ],
+    "convergences": [
+      "Direito das Sucessões A de Lisboa converge na estrutura sucessória e partilha; não demonstra planejamento preventivo e herança digital como unidades ministradas."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "2 horas-aula semanais em edição de 2022",
+    "foreign": "O programa discrimina estática e dinâmica sucessórias, vocação legitimária e seis capítulos até partilha; as aulas usam casos. A referência bibliográfica a herança digital não foi promovida a tópico do programa. A ficha não imprime ano letivo, embora a bibliografia alcance 2026.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "2.º no catálogo; confirmar calendário e compatibilidade com 2027.2",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito das Sucessões A de Lisboa converge na estrutura sucessória e partilha; não demonstra planejamento preventivo e herança digital como unidades ministradas.",
+  "justification": "O programa discrimina estática e dinâmica sucessórias, vocação legitimária e seis capítulos até partilha; as aulas usam casos. A referência bibliográfica a herança digital não foi promovida a tópico do programa. A ficha não imprime ano letivo, embora a bibliografia alcance 2026. O cotejo registra 0 tópicos cobertos e 3 parciais de 3 essenciais. A carga brasileira semanal e a ausência de total de contacto estrangeiro impedem calcular razão horária; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional",
+    "Ano letivo não impresso; bibliografia de 2026 não determina vigência. Carga do docente: 4 horas por semana, sem total semestral do estudante."
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  }
+}

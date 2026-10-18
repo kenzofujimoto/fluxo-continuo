@@ -1,0 +1,139 @@
+{
+  "id": "si|ALGORITMOS E PROGRAMAÇÃO I|es-salamanca|105910",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ALGORITMOS E PROGRAMAÇÃO I",
+    "name": "ALGORITMOS E PROGRAMAÇÃO I",
+    "courseName": "Sistemas de Informação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco ALGORITMOS E PROGRAMAÇÃO I; página extraída 2 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "Implementação de algoritmos utilizando linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105910",
+      "academicCode": "105910",
+      "name": "Algoritmia",
+      "faculty": "E. Politécnica Superior de Zamora",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática en Sistemas de Información (259)",
+      "level": "Graduação",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Participação 10%, trabalhos/defesa 40%, exame 50%; mínimo 3,5 em cada parte.",
+      "prerequisites": "Haber superado las asignaturas Fundamentos de Programación, Programación Orientada a Objetos y Matemática Discreta y Lógica.",
+      "source": "https://guias.usal.es/node/250851",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "9d58b39901836002c2db4c39c020218188a707e90c9fcb955dc3343c8f62effe",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Projeto de algoritmos por força bruta, divisão, métodos gulosos e programação dinâmica; não detalha comandos e estruturas lineares iniciais.",
+      "foreignLocation": "5, temas 1-8"
+    },
+    {
+      "brTopic": "Implementação de algoritmos utilizando linguagem de programação imperativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Práticas traduzem algoritmos em linguagem de programação não identificada; o paradigma imperativo não é declarado.",
+      "foreignLocation": "6, práticas de informática"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Análise assintótica",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Backtracking e ramificação e poda",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade. Implementação de algoritmos utilizando linguagem de programação imperativa.",
+    "foreign": "OI1: Aprender a calcular el orden de crecimiento de un algoritmo dado.\nOI2: Aprender los diversos esquemas estándar de desarrollo de algoritmos.\nOI3: Saber encontrar el algoritmo que más se adapte a un problema concreto.",
+    "convergences": [
+      "Projeto de algoritmos por força bruta, divisão, métodos gulosos e programação dinâmica; não detalha comandos e estruturas lineares iniciais.",
+      "Práticas traduzem algoritmos em linguagem de programação não identificada; o paradigma imperativo não é declarado."
+    ],
+    "differences": [
+      "Projeto de algoritmos por força bruta, divisão, métodos gulosos e programação dinâmica; não detalha comandos e estruturas lineares iniciais.",
+      "Práticas traduzem algoritmos em linguagem de programação não identificada; o paradigma imperativo não é declarado."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 1; USAL ano 2",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 105910.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Primer Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Haber superado las asignaturas Fundamentos de Programación, Programación Orientada a Objetos y Matemática Discreta y Lógica.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Algoritmia 105910 é análise e projeto de algoritmos no segundo ano, enquanto SI inicia comandos e programação imperativa na primeira etapa.",
+  "justification": "Os temas 2-8 acrescentam recorrências e técnicas avançadas, mas não demonstram o ensino sistemático de atribuições, condicionais, repetições e estruturas lineares; a implementação aparece apenas em linguagem não especificada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 105910 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

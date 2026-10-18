@@ -1,0 +1,137 @@
+{
+  "id": "dir|DIREITO DAS SUCESSÕES|po-63-universidadelu|02328",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DAS SUCESSÕES",
+    "name": "DIREITO DAS SUCESSÕES",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 54, bloco DIREITO DAS SUCESSÕES, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo da teoria geral do direito sucessório, da primazia da sucessão legítima no direito brasileiro e da sucessão testamentária",
+      "O componente curricular preocupa-se com a análise conceitual e prática da estrutura tradicional positivada a respeito da abertura da sucessão, inventário, partilha e disposições testamentárias, mas, também, foca no estudo preventivo do planejamento sucessório sob o ponto de vista patrimonial e afetivo",
+      "Conta, ainda, com a preparação teórica e profissional a partir da análise de cases, englobando o debate doutrinário e jurisprudencial sobre o direito das sucessões codificado e as repercussões sucessórias da herança digital"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "02328",
+      "name": "Direito das sucessões",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "2º semestre português; disponibilidade2027/28 não confirmada.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02328_2025.pdf",
+      "sha256": "49c0473206b23576470d99e0eef3174c11bd02efdf24b2699c5524e520e91781",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da teoria geral do direito sucessório, da primazia da sucessão legítima no direito brasileiro e da sucessão testamentária",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Sucessão legítima, legitimária e testamentária são estudadas sob Código Civil português, não prioridade sucessória brasileira.",
+      "foreignLocation": "Primeiro programa, capítulos4-6; segundo programa, Sucessão Legal/Testamentária"
+    },
+    {
+      "brTopic": "O componente curricular preocupa-se com a análise conceitual e prática da estrutura tradicional positivada a respeito da abertura da sucessão, inventário, partilha e disposições testamentárias, mas, também, foca no estudo preventivo do planejamento sucessório sob o ponto de vista patrimonial e afetivo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Abertura, aceitação, administração e partilha estão nos objetivos; planejamento patrimonial/afetivo não é individualizado.",
+      "foreignLocation": "Segundo programa, Objetivos15 e Conteúdos18"
+    },
+    {
+      "brTopic": "Conta, ainda, com a preparação teórica e profissional a partir da análise de cases, englobando o debate doutrinário e jurisprudencial sobre o direito das sucessões codificado e as repercussões sucessórias da herança digital",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Exemplificação prática e jurisprudência são previstas, sem repercussões da herança digital.",
+      "foreignLocation": "Metodologia17 e Recursos20 dos dois programas"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Sucessão contratual e sucessão legitimária",
+      "location": "Primeiro programa, capítulos5 e7"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Decidir problemas sucessórios e efetuar partilhas no sistema português.",
+    "convergences": [
+      "Sucessão legítima, legitimária e testamentária são estudadas sob Código Civil português, não prioridade sucessória brasileira.",
+      "Abertura, aceitação, administração e partilha estão nos objetivos; planejamento patrimonial/afetivo não é individualizado.",
+      "Exemplificação prática e jurisprudência são previstas, sem repercussões da herança digital."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Decidir problemas sucessórios e efetuar partilhas no sistema português.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "2º semestre português; disponibilidade2027/28 não confirmada.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sucessões02328 aborda processo sucessório e testamentos portugueses, aproximando a formação brasileira sem demonstrar herança digital ou planejamento afetivo.",
+  "justification": "Os três tópicos recebem cobertura parcial. O PDF2025/2026 reúne uma versão de nove capítulos e outra em três títulos; os objetivos da segunda esclarecem abertura e partilha. O regime sucessório estrangeiro, a edição brasileira2022 e a carga em horas-aula semanais impedem conclusão favorável mais forte.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Documento agrega dois programas da mesma unidade, com diferentes docentes; nenhum declara herança digital.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Documento agrega dois programas da mesma unidade, com diferentes docentes; nenhum declara herança digital.",
+    "Carga por modalidades de aula, sem total de contato inequívoco."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

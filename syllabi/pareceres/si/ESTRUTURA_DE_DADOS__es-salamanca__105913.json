@@ -1,0 +1,167 @@
+{
+  "id": "si|ESTRUTURA DE DADOS|es-salamanca|105913",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ESTRUTURA DE DADOS",
+    "name": "ESTRUTURA DE DADOS",
+    "courseName": "Sistemas de Informação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco ESTRUTURA DE DADOS; página extraída 2 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresentação dos Tipos abstratos de dados",
+      "Estudo das estruturas lineares: pilhas, filas e listas e deques",
+      "Conceituação de tabelas de Hashing, árvores binárias e árvores n-árias, árvores balanceadas",
+      "Construção de aplicações de estruturas de dados",
+      "Apresentação de noções de complexidade para estruturas de dados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "105913",
+      "academicCode": "105913",
+      "name": "Estructura De Datos",
+      "faculty": "E. Politécnica Superior de Zamora",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática en Sistemas de Información (259)",
+      "level": "Graduação",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Três provas teórico-práticas na avaliação contínua ou exame final; teoria e prática com pesos iguais; mínimo 3,5 na teoria para média.",
+      "prerequisites": "Antes de cursar esta asignatura, sería conveniente que el alumno hubiera superado las asignaturas Fundamentos de Programación, Programación Orientada a Objetos y Matemática Discreta y Lógica.",
+      "source": "https://guias.usal.es/node/250897",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "8780867ded577e6e129c7d89206fbe4cd96215f019c4b1396f24ba34d655de6c",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresentação dos Tipos abstratos de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivos explicitam abstração de dados e programação baseada em tipos abstratos.",
+      "foreignLocation": "3"
+    },
+    {
+      "brTopic": "Estudo das estruturas lineares: pilhas, filas e listas e deques",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Listas, pilhas e filas possuem temas próprios; deques não são identificados.",
+      "foreignLocation": "5, temas 4-6"
+    },
+    {
+      "brTopic": "Conceituação de tabelas de Hashing, árvores binárias e árvores n-árias, árvores balanceadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Árvores são previstas, sem discriminar balanceamento e hashing.",
+      "foreignLocation": "5, tema 8"
+    },
+    {
+      "brTopic": "Construção de aplicações de estruturas de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Exercícios práticos em C aplicam os conceitos teóricos.",
+      "foreignLocation": "5, prática"
+    },
+    {
+      "brTopic": "Apresentação de noções de complexidade para estruturas de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Eficiência das estruturas e busca/ordenação aparecem, sem unidade expressa de complexidade.",
+      "foreignLocation": "4, CE001; 5, temas 2-3"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Grafos",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Busca e ordenação externa",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Apresentação dos Tipos abstratos de dados. Estudo das estruturas lineares: pilhas, filas e listas e deques. Conceituação de tabelas de Hashing, árvores binárias e árvores n-árias, árvores balanceadas. Construção de aplicações de estruturas de dados. Apresentação de noções de complexidade para estruturas de dados.",
+    "foreign": "• Describir los mecanismos de abstracción y su importancia para la resolución de problemas, centrando la descripción en la abstracción de datos.\n• Describir los conceptos de programación basada en tipos abstractos.\n• Describir las técnicas básicas de búsqueda y ordenación, tanto interna como externa.\n• Analizar las principales estructuras de datos desde un punto de vista abstracto.\n• Describir las formas de representación de las diversas estructuras de datos y las operaciones que se pueden realizar sobre ellas.",
+    "convergences": [
+      "Objetivos explicitam abstração de dados e programação baseada em tipos abstratos.",
+      "Listas, pilhas e filas possuem temas próprios; deques não são identificados.",
+      "Árvores são previstas, sem discriminar balanceamento e hashing.",
+      "Exercícios práticos em C aplicam os conceitos teóricos.",
+      "Eficiência das estruturas e busca/ordenação aparecem, sem unidade expressa de complexidade."
+    ],
+    "differences": [
+      "Listas, pilhas e filas possuem temas próprios; deques não são identificados.",
+      "Árvores são previstas, sem discriminar balanceamento e hashing.",
+      "Eficiência das estruturas e busca/ordenação aparecem, sem unidade expressa de complexidade."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 3; USAL ano 2",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 105913.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Primer Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Antes de cursar esta asignatura, sería conveniente que el alumno hubiera superado las asignaturas Fundamentos de Programación, Programación Orientada a Objetos y Matemática Discreta y Lógica.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estructura de Datos 105913 é diretamente pertinente ao núcleo de SI, com listas, pilhas, filas e aplicações em C.",
+  "justification": "A ficha dá suporte a TAD e implementação, mas apenas cobertura parcial aos três enunciados que agrupam deques, hashing, árvores balanceadas e complexidade. Busca e ordenação externa ampliam o curso sem provar esses itens faltantes.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 105913 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

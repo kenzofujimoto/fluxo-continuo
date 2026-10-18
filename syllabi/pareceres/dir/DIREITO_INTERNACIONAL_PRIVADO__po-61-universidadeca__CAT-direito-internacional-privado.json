@@ -1,0 +1,199 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL PRIVADO|po-61-universidadeca|CAT-direito-internacional-privado",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL PRIVADO",
+    "name": "DIREITO INTERNACIONAL PRIVADO",
+    "courseName": "Direito",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 34, bloco DIREITO INTERNACIONAL PRIVADO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Exame do direito internacional privado envolvendo questões de ordem conceitual, com análise no contexto do direito pátrio, com sua respectiva aplicação pelo juiz brasileiro, inclusive com cooperação internacional",
+      "Estudo dos fundamentos e objeto do direito internacional privado",
+      "Compreensão da correlação entre as fontes do Direito Internacional Público e do Direito Internacional Privado",
+      "Análise da evolução histórica das normas de direito internacional privado e das formas de dirimir os conflitos da lei no espaço",
+      "Estudo sobre os sujeitos, a competência do Poder Judiciário nacional na solução de conflitos entre diferentes jurisdições",
+      "Exame dos principais elementos de conexão existentes no direito brasileiro na determinação da lei material aplicável em ações de Direito Internacional Privado",
+      "Compreensão da correlação entre o direito internacional privado e demais ramos do direito nacional",
+      "Compreensão dos princípios fundamentais da arbitragem em Direito Internacional Privado e o seu papel fundamental para a disciplina",
+      "Análise dos limites à cooperação jurídica internacional e à aplicação do direito estrangeiro pelo juiz brasileiro com fundamento na ordem pública",
+      "Exame da Condição Jurídica do Migrante no Direito Internacional Privado"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-61-universidadeca",
+      "university": "Universidade Católica Portuguesa",
+      "code": "CAT-direito-internacional-privado",
+      "name": "Direito Internacional Privado",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2024/2025",
+      "semester": 2,
+      "period": "Semestre 2",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/144275-144276-144359-fuc-direito-internacional-privado-a-b-c-4o-ano.pdf",
+      "sha256": "1ee16899dab1b128815f5b46a2aa830befa396c1f9384df24cdd3acd10c698b4",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": 70.0,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": 200.0,
+        "selfStudy": null,
+        "ects": 8.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Exame do direito internacional privado envolvendo questões de ordem conceitual, com análise no contexto do direito pátrio, com sua respectiva aplicação pelo juiz brasileiro, inclusive com cooperação internacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competência e reconhecimento de sentenças abrangem cooperação, sob direito europeu e português, sem o juiz brasileiro.",
+      "foreignLocation": "pp.1-2, Objetivos e Competência Internacional"
+    },
+    {
+      "brTopic": "Estudo dos fundamentos e objeto do direito internacional privado",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Introdução delimita relevância, objeto, âmbito, valores e princípios do DIP.",
+      "foreignLocation": "p.1, Conteúdos, Introdução"
+    },
+    {
+      "brTopic": "Compreensão da correlação entre as fontes do Direito Internacional Público e do Direito Internacional Privado",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Pluralidade de fontes internas, europeias e internacionais é expressa, sem desenvolver sua relação com o DIPúblico.",
+      "foreignLocation": "p.1, Objetivos"
+    },
+    {
+      "brTopic": "Análise da evolução histórica das normas de direito internacional privado e das formas de dirimir os conflitos da lei no espaço",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Método conflitual e conflitos de sistemas são estudados; evolução histórica não é individualizada.",
+      "foreignLocation": "p.2, Direito de Conflitos, teoria geral"
+    },
+    {
+      "brTopic": "Estudo sobre os sujeitos, a competência do Poder Judiciário nacional na solução de conflitos entre diferentes jurisdições",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Teoria geral da competência internacional está prevista; jurisdição brasileira não é ensinada.",
+      "foreignLocation": "p.2, Competência Internacional"
+    },
+    {
+      "brTopic": "Exame dos principais elementos de conexão existentes no direito brasileiro na determinação da lei material aplicável em ações de Direito Internacional Privado",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Estado e capacidade, contratos, direitos reais e sucessões explicitam conexões materiais, segundo normas portuguesas e europeias.",
+      "foreignLocation": "p.2, Direito de Conflitos, parte especial"
+    },
+    {
+      "brTopic": "Compreensão da correlação entre o direito internacional privado e demais ramos do direito nacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Articulação entre disciplinas materiais é objetivo metodológico, sob um sistema jurídico diferente.",
+      "foreignLocation": "p.2, Método de ensino"
+    },
+    {
+      "brTopic": "Compreensão dos princípios fundamentais da arbitragem em Direito Internacional Privado e o seu papel fundamental para a disciplina",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Lei aplicável ao fundo da arbitragem e reconhecimento de sentenças arbitrais estrangeiras são previstos.",
+      "foreignLocation": "p.2, parte especial e Competência Internacional"
+    },
+    {
+      "brTopic": "Análise dos limites à cooperação jurídica internacional e à aplicação do direito estrangeiro pelo juiz brasileiro com fundamento na ordem pública",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Ordem pública internacional e aplicação de direito estrangeiro constam na teoria geral; falta regime brasileiro.",
+      "foreignLocation": "p.2, Direito de Conflitos, teoria geral"
+    },
+    {
+      "brTopic": "Exame da Condição Jurídica do Migrante no Direito Internacional Privado",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-4, Objetivos, Conteúdos e Legislação",
+      "note": "Estatuto do migrante não está individualizado no programa."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Regulamentos Roma I, Roma II e Bruxelas I bis",
+      "location": "p.2, Coerência"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Resolver situações privadas internacionais e discutir criticamente fontes e soluções plurais.",
+    "convergences": [
+      "Competência e reconhecimento de sentenças abrangem cooperação, sob direito europeu e português, sem o juiz brasileiro.",
+      "Introdução delimita relevância, objeto, âmbito, valores e princípios do DIP.",
+      "Pluralidade de fontes internas, europeias e internacionais é expressa, sem desenvolver sua relação com o DIPúblico.",
+      "Método conflitual e conflitos de sistemas são estudados; evolução histórica não é individualizada.",
+      "Teoria geral da competência internacional está prevista; jurisdição brasileira não é ensinada.",
+      "Estado e capacidade, contratos, direitos reais e sucessões explicitam conexões materiais, segundo normas portuguesas e europeias.",
+      "Articulação entre disciplinas materiais é objetivo metodológico, sob um sistema jurídico diferente.",
+      "Lei aplicável ao fundo da arbitragem e reconhecimento de sentenças arbitrais estrangeiras são previstos.",
+      "Ordem pública internacional e aplicação de direito estrangeiro constam na teoria geral; falta regime brasileiro."
+    ],
+    "differences": [
+      "Estatuto do migrante não está individualizado no programa."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Resolver situações privadas internacionais e discutir criticamente fontes e soluções plurais.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "Semestre 2 do ano português; confirmar correspondência com 2027.2.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O DIP da Católica aproxima conflitos de leis, competência e arbitragem da ementa histórica Mackenzie, com substituição do referencial brasileiro pelo português e europeu.",
+  "justification": "Nove dos dez enunciados têm aproximação documentada, porém apenas fundamentos e arbitragem alcançam cobertura integral. A ficha 2024/2025 declara 70 horas de contato e 8 ECTS; as duas horas-aula semanais brasileiras impedem razão semestral. A condição do migrante permanece lacuna específica.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Ficha estrangeira 2024/2025; atualização para 2027/28 não comprovada.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Ficha estrangeira 2024/2025; atualização para 2027/28 não comprovada."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

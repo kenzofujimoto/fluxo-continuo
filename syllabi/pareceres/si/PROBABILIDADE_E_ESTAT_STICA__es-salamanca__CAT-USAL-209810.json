@@ -1,0 +1,220 @@
+{
+  "id": "si|PROBABILIDADE E ESTATÍSTICA|es-salamanca|CAT-USAL-209810",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "PROBABILIDADE E ESTATÍSTICA",
+    "name": "PROBABILIDADE E ESTATÍSTICA",
+    "courseName": "Sistemas de Informação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco PROBABILIDADE E ESTATÍSTICA; página extraída 27 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo exploratório de dados",
+      "Estatística descritiva",
+      "Gráficos, tabelas e medidas estatísticas",
+      "Introdução à teoria de probabilidades",
+      "Conceitos de variáveis aleatórias",
+      "Distribuições de probabilidade discretas e contínuas",
+      "Introdução à inferência estatística",
+      "Intervalos de confianças",
+      "Testes de hipótese",
+      "Análise de Variância",
+      "Análise de Correlação e Regressão"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209810",
+      "academicCode": "103812",
+      "name": "ESTADÍSTICA II",
+      "faculty": "Fac. Economía y Empresa",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Administración y Dirección de Empresas",
+      "level": "Graduação",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "year 2",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Básica",
+      "assessment": "Contínua 50%, exame final 50%; a fórmula alternativa de nota está impressa de forma incompleta.",
+      "prerequisites": "Conocimiento de Álgebra, Análisis Matemático y Estadística I.\nConocimientos básicos de informática (Entorno Windows)\nConocimientos de Excel",
+      "source": "https://guias.usal.es/node/209810",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "2cec7b18e04b0ada3c043298d28f7561bc7f5ff91eb3a5fd5a265602afd8185a",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo exploratório de dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Exploração de dados não figura nos dois blocos da disciplina."
+    },
+    {
+      "brTopic": "Estatística descritiva",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "2-5",
+      "note": "Estatística descritiva é pressuposta por Estadística I."
+    },
+    {
+      "brTopic": "Gráficos, tabelas e medidas estatísticas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Gráficos, tabelas e medidas não são conteúdo explícito."
+    },
+    {
+      "brTopic": "Introdução à teoria de probabilidades",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Probabilidade constitui tema 0.",
+      "foreignLocation": "5, bloco 1"
+    },
+    {
+      "brTopic": "Conceitos de variáveis aleatórias",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Variáveis aleatórias e características.",
+      "foreignLocation": "5, tema 1"
+    },
+    {
+      "brTopic": "Distribuições de probabilidade discretas e contínuas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Distribuições discretas e contínuas.",
+      "foreignLocation": "5, temas 2-3"
+    },
+    {
+      "brTopic": "Introdução à inferência estatística",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Amostragem, estimação e inferência estatística.",
+      "foreignLocation": "5, bloco 2"
+    },
+    {
+      "brTopic": "Intervalos de confianças",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Estimação por intervalos.",
+      "foreignLocation": "5, tema 6"
+    },
+    {
+      "brTopic": "Testes de hipótese",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Contrastes de hipóteses paramétricos.",
+      "foreignLocation": "5, tema 7"
+    },
+    {
+      "brTopic": "Análise de Variância",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Análise de variância não é identificada."
+    },
+    {
+      "brTopic": "Análise de Correlação e Regressão",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Correlação e regressão não são identificadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Estimação pontual",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Aplicação com R e RStudio",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Estudo exploratório de dados. Estatística descritiva. Gráficos, tabelas e medidas estatísticas. Introdução à teoria de probabilidades. Conceitos de variáveis aleatórias. Distribuições de probabilidade discretas e contínuas. Introdução à inferência estatística. Intervalos de confianças. Testes de hipótese. Análise de Variância. Análise de Correlação e Regressão.",
+    "foreign": "Reconocer las distintas situaciones de incertidumbre, que originan la variedad de distribuciones de probabilidad existentes.\nPredecir comportamientos y características de una población a través de una muestra.\nIdentificar y manejar software estadístico.",
+    "convergences": [
+      "Probabilidade constitui tema 0.",
+      "Variáveis aleatórias e características.",
+      "Distribuições discretas e contínuas.",
+      "Amostragem, estimação e inferência estatística.",
+      "Estimação por intervalos.",
+      "Contrastes de hipóteses paramétricos."
+    ],
+    "differences": [
+      "Exploração de dados não figura nos dois blocos da disciplina.",
+      "Estatística descritiva é pressuposta por Estadística I.",
+      "Gráficos, tabelas e medidas não são conteúdo explícito.",
+      "Análise de variância não é identificada.",
+      "Correlação e regressão não são identificadas."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 5; USAL ano 2",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 103812.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "year 2 europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Conocimiento de Álgebra, Análisis Matemático y Estadística I.\nConocimientos básicos de informática (Entorno Windows)\nConocimientos de Excel",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estadística II 103812 cobre o núcleo probabilístico e inferencial de SI, mas não sua introdução descritiva nem regressão e ANOVA.",
+  "justification": "Seis dos onze tópicos encontram correspondência nos temas 0-7. A ficha de 2025/26 recomenda Estadística I e usa R/RStudio em atividades, mas não discrimina horas presenciais; o identificador CAT-USAL-209810 é do catálogo e não o código acadêmico 103812.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. O guia estrangeiro é de 2025/26.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional.",
+    "Guia individual de 2025/2026; vigência futura não comprovada.",
+    "Fórmula alternativa de avaliação aparece truncada na página pública; pesos e aplicação precisam de confirmação."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 103812 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

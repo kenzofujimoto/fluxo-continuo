@@ -1,0 +1,190 @@
+{
+  "id": "dir|DIREITO PROCESSUAL DO TRABALHO|po-61-universidadeca|CAT-direito-do-trabalho",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO PROCESSUAL DO TRABALHO",
+    "name": "DIREITO PROCESSUAL DO TRABALHO",
+    "courseName": "Direito",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 60, bloco DIREITO PROCESSUAL DO TRABALHO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Análise das regras e fundamentos do sistema processual à luz do Processo do Trabalho, bem como sua relação de subsidiariedade com sistema processual civil",
+      "Apresentação da Justiça do Trabalho, sua organização, estrutura, competência e ritos",
+      "Será feito um estudo reflexivo do Processo Individual do Trabalho, com suas regras e peculiaridades, inclusive em relação ao processo eletrônico trabalhista",
+      "Reflexão sobre a Teoria Geral dos Recursos",
+      "Análise dos Recursos no Processo do Trabalho",
+      "Apresentação da Execução Trabalhista e suas Peculiaridades",
+      "Reflexão sobre as Ações de Procedimentos Especiais",
+      "Estudo das Ações Coletivas",
+      "Discussão sobre as tutelas de urgência e ações e medidas cautelares na Justiça do Trabalho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-61-universidadeca",
+      "university": "Universidade Católica Portuguesa",
+      "code": "CAT-direito-do-trabalho",
+      "name": "Direito do Trabalho",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": 2,
+      "period": "Semestre 2",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-direito-do-trabalho-3o-ano.pdf",
+      "sha256": "c98def31da4275d1cc1ceb75e326b2cc918f3b3c1dfa3b93daaa9724714d3589",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": 70.0,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": 250.0,
+        "selfStudy": null,
+        "ects": 9.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Análise das regras e fundamentos do sistema processual à luz do Processo do Trabalho, bem como sua relação de subsidiariedade com sistema processual civil",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, programa I-VI e metodologia",
+      "note": "Não há fundamentos de processo laboral ou subsidiariedade processual civil."
+    },
+    {
+      "brTopic": "Apresentação da Justiça do Trabalho, sua organização, estrutura, competência e ritos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, programa I-VI",
+      "note": "Organização e competência da Justiça do Trabalho não aparecem."
+    },
+    {
+      "brTopic": "Será feito um estudo reflexivo do Processo Individual do Trabalho, com suas regras e peculiaridades, inclusive em relação ao processo eletrônico trabalhista",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.3-4, Contrato individual",
+      "note": "Contrato e despedimento são direito material; não documentam processo individual ou eletrônico."
+    },
+    {
+      "brTopic": "Reflexão sobre a Teoria Geral dos Recursos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, conteúdos e avaliação",
+      "note": "A teoria dos recursos não integra as unidades."
+    },
+    {
+      "brTopic": "Análise dos Recursos no Processo do Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, conteúdos e metodologia",
+      "note": "Recursos processuais trabalhistas não são previstos."
+    },
+    {
+      "brTopic": "Apresentação da Execução Trabalhista e suas Peculiaridades",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, conteúdos",
+      "note": "Execução trabalhista não consta do conteúdo."
+    },
+    {
+      "brTopic": "Reflexão sobre as Ações de Procedimentos Especiais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "p.4, item17.3 e restante programa",
+      "note": "Procedimentos especiais judiciais não se confundem com procedimento de despedimento contratual."
+    },
+    {
+      "brTopic": "Estudo das Ações Coletivas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conflitos coletivos e meios pacíficos de solução dão contexto material, sem ensinar ações coletivas judiciais.",
+      "foreignLocation": "p.2, itens3.3-3.4"
+    },
+    {
+      "brTopic": "Discussão sobre as tutelas de urgência e ações e medidas cautelares na Justiça do Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, conteúdos e legislação",
+      "note": "Tutelas de urgência e medidas cautelares não foram localizadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Contrato individual, remuneração e cessação",
+      "location": "pp.3-4, IV-VI"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Enquadrar interesses do trabalhador e empregador no regime material português.",
+    "convergences": [
+      "Conflitos coletivos e meios pacíficos de solução dão contexto material, sem ensinar ações coletivas judiciais."
+    ],
+    "differences": [
+      "Não há fundamentos de processo laboral ou subsidiariedade processual civil.",
+      "Organização e competência da Justiça do Trabalho não aparecem.",
+      "Contrato e despedimento são direito material; não documentam processo individual ou eletrônico.",
+      "A teoria dos recursos não integra as unidades.",
+      "Recursos processuais trabalhistas não são previstos.",
+      "Execução trabalhista não consta do conteúdo.",
+      "Procedimentos especiais judiciais não se confundem com procedimento de despedimento contratual.",
+      "Tutelas de urgência e medidas cautelares não foram localizadas."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Enquadrar interesses do trabalhador e empregador no regime material português.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "Semestre 2 do ano português; confirmar correspondência com 2027.2.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito do Trabalho da Católica é uma disciplina material sobre empresa, sindicatos e contrato; sua relação com Processo do Trabalho Mackenzie é pequena.",
+  "justification": "Apenas conflitos coletivos e meios pacíficos oferecem aproximação parcial entre nove tópicos processuais. O procedimento de despedimento do item17.3 não demonstra rito judicial, recursos ou execução. As 70 horas TP e 9 ECTS de 2025/2026 não resolvem a diferença de objeto nem se comparam às horas-aula semanais brasileiras.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Cabeçalho declara 70 horas TP e funcionamento 3h teóricas +3h práticas semanais; manter valores sem extrapolação.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Cabeçalho declara 70 horas TP e funcionamento 3h teóricas +3h práticas semanais; manter valores sem extrapolação."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T13:20:45.626302+00:00",
+  "generated": "2026-10-18T02:36:29.818752+00:00",
   "definitions": {
     "individualSyllabus": "Automated document identity + syllabus criteria; independent human audit pending.",
     "withoutIndividualSyllabus": "A course is indexed but individual syllabus not established.",
@@ -9,9 +9,9 @@
   },
   "metrics": {
     "foreignTotal": 2932,
-    "foreignIndividual": 1154,
-    "foreignMissingIndividual": 1778,
-    "foreignIndividualMissingHours": 856,
+    "foreignIndividual": 1193,
+    "foreignMissingIndividual": 1739,
+    "foreignIndividualMissingHours": 748,
     "mackTotal": 221,
     "mackVerified": 75,
     "registeredCandidates": 725,
@@ -10143,7 +10143,7 @@
           "source": "https://asignaturas.uca.es/2026-27/21714013"
         },
         {
-          "code": "21719027",
+          "code": "21714018",
           "name": "Proyectos Informáticos",
           "status": "ementa_sem_horas",
           "source": "https://asignaturas.uca.es/2026-27/21714018"
@@ -10844,505 +10844,6 @@
         }
       ],
       "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
-      "id": "co-24-solbridgeinter",
-      "name": "Solbridge International School of Business",
-      "country": "Coreia do Sul",
-      "eligibleFor": [
-        "adm"
-      ],
-      "catalogued": 67,
-      "individualSyllabus": 36,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 31,
-      "withIndividualButMissingHours": 36,
-      "statuses": {
-        "pagina_com_conteudo": 10,
-        "ementa_individual": 36,
-        "catalogo_ou_matriz": 21
-      },
-      "samplePending": [
-        {
-          "code": "BUS 204",
-          "name": "Ethics and Corporate Social Responsibility",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "MEN101A",
-          "name": "ADAPT (Academic Development, Asian Perspectives and Training)",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "BUS250A",
-          "name": "Business Communication Across Cultures",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "CAC200",
-          "name": "Select your career track",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "INFO204A",
-          "name": "Management Information Systems",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "INF101A",
-          "name": "IT for Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "DAT101",
-          "name": "Coding for Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "MAT121A",
-          "name": "Mathematics for Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "ACC101",
-          "name": "Introduction to Accounting",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "BUS100A",
-          "name": "Introduction to Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "FIN405",
-          "name": "Mathematical Models in Finance",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "FIN300",
-          "name": "Finance Simulation",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "BUS 204",
-          "name": "Ethics and Corporate Social Responsibility",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "MEN101A",
-          "name": "ADAPT (Academic Development, Asian Perspectives and Training)",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "BUS250A",
-          "name": "Business Communication Across Cultures",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "CAC200",
-          "name": "Select your career track",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "INFO204A",
-          "name": "Management Information Systems",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "INF101A",
-          "name": "IT for Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "DAT101",
-          "name": "Coding for Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "MAT121A",
-          "name": "Mathematics for Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "ACC101",
-          "name": "Introduction to Accounting",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "BUS100A",
-          "name": "Introduction to Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "FIN405",
-          "name": "Mathematical Models in Finance",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "FIN300",
-          "name": "Finance Simulation",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "FIN422",
-          "name": "Risk Management",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "ACC201",
-          "name": "Financial Accounting",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "FIN499",
-          "name": "Specialization Project – Finance",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "ENT101",
-          "name": "Introduction to Entrepreneurship",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "MIN408C",
-          "name": "Global Strategic Management",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "BUS405",
-          "name": "Business Law",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "THE450",
-          "name": "Specialization Thesis",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "SOC201B",
-          "name": "Sociology for Business",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "GEN231",
-          "name": "Fitness and Active Lifestyle",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "BUS202",
-          "name": "Start Up Business Practice",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "GEN160",
-          "name": "Sex, Gender, and Culture",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "GEN264",
-          "name": "Disaster and Apocalypse in Contemporary Media",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "GEN105",
-          "name": "Modernization of South Korea",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "BUS393",
-          "name": "Contemporary Korean Culture",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "GEN321",
-          "name": "Philosophy: Governance and Leadership",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "GEN311",
-          "name": "Contemporary Film Studies",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "CHE101A",
-          "name": "Chemistry: Principles and Modern Applications",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "ART400A",
-          "name": "Art in Practice and Theory",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        },
-        {
-          "code": "ENG122A",
-          "name": "English: Advanced Writing Class",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-        }
-      ],
-      "syllabiMissingContactHours": [
-        {
-          "code": "COM114D",
-          "name": "Writing and Presentation Skills",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/COM114D%20Writing%20and%20Presentation%20Skills.pdf"
-        },
-        {
-          "code": "BUS208C",
-          "name": "Basic Statistical Methods and Applications",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS208C%20Basic%20Statistical%20Methods%20and%20Applications.pdf"
-        },
-        {
-          "code": "IBS301",
-          "name": "International Business Management",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/IBS301%20International%20Business%20Management.pdf"
-        },
-        {
-          "code": "BUS109",
-          "name": "Introduction to Microeconomics",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS109%20Introduction%20to%20Microeconomics.pdf"
-        },
-        {
-          "code": "MKT200B",
-          "name": "Principles of Marketing",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/MKT200B%20Principles%20of%20Marketing.pdf"
-        },
-        {
-          "code": "BUS308B",
-          "name": "Strategic Management",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS308B%20Strategic%20Management.pdf"
-        },
-        {
-          "code": "BUS325B",
-          "name": "Operations Management",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS325B%20Operations%20Management.pdf"
-        },
-        {
-          "code": "FIN305",
-          "name": "Introduction to Corporate Finance",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN305%20Introduction%20to%20Corporate%20Finance.pdf"
-        },
-        {
-          "code": "BUS110",
-          "name": "Introduction to Macroeconomics",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS110%20Introduction%20to%20Macroeconomics.pdf"
-        },
-        {
-          "code": "BUS211C",
-          "name": "People and Organization",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS211C%20People%20and%20Organization.pdf"
-        },
-        {
-          "code": "FIN407",
-          "name": "Financial Markets and Institutions",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN407%20Financial%20Markets%20and%20Institutions.pdf"
-        },
-        {
-          "code": "FIN412B",
-          "name": "Mergers and Acquisitions",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN412B%20Mergers%20and%20Acquisitions.pdf"
-        },
-        {
-          "code": "FIN415",
-          "name": "International Corporate Finance",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN415%20International%20Corporate%20Finance.pdf"
-        },
-        {
-          "code": "ACC203",
-          "name": "Managerial Accounting",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ACC203%20Managerial%20Accounting.pdf"
-        },
-        {
-          "code": "FIN308B",
-          "name": "Commercial Banking",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN308B%20Commercial%20Banking.pdf"
-        },
-        {
-          "code": "FIN424",
-          "name": "Investment-Stock Trading Experience",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN424%20Investment-Stock%20Trading%20Experience.pdf"
-        },
-        {
-          "code": "FIN475",
-          "name": "Special Topics in Finance",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN475%20Special%20Topics%20in%20Finance.pdf"
-        },
-        {
-          "code": "ACC310",
-          "name": "Intermediate Accounting",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ACC310%20Intermediate%20Accounting.pdf"
-        },
-        {
-          "code": "FIN420",
-          "name": "Investment Analysis",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN420%20Investment%20Analysis.pdf"
-        },
-        {
-          "code": "FIN430",
-          "name": "Financial Derivatives",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN430%20Financial%20Derivatives.pdf"
-        },
-        {
-          "code": "ENT418B",
-          "name": "Entrepreneurial Finance",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ENT418B%20Entrepreneurial%20Finance.pdf"
-        },
-        {
-          "code": "FIN404",
-          "name": "Financial Statement Analysis",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN404%20Financial%20Statement%20Analysis.pdf"
-        },
-        {
-          "code": "BUS410B",
-          "name": "Human Resource Management",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS410B%20Human%20Resources%20Management.pdf"
-        },
-        {
-          "code": "BUS415B",
-          "name": "Managing Diversity in the Workplace",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS415B%20Managing%20Diversity%20in%20the%20Workplace.pdf"
-        },
-        {
-          "code": "BUS302C",
-          "name": "Global leadership",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS302C%20Global%20Leadership.pdf"
-        },
-        {
-          "code": "ASM310B",
-          "name": "Asian Management",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ASM310B%20Asian%20Managment.pdf"
-        },
-        {
-          "code": "MIB320",
-          "name": "E-Business Management",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/MIB320%20E-Business%20Management.pdf"
-        },
-        {
-          "code": "BUS445",
-          "name": "Creativity and Innovation Management",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS445%20Creativity%20and%20Innovation%20Management.pdf"
-        },
-        {
-          "code": "BUS450",
-          "name": "Strategic Interaction and Decision Making",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS450%20Strategic%20Interaction%20and%20Decision%20Making.pdf"
-        },
-        {
-          "code": "ENT301",
-          "name": "Understanding Startup Business",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ENT301%20Understanding%20Startup%20Business.pdf"
-        },
-        {
-          "code": "BUS206",
-          "name": "Business Negotiation",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS206%20Business%20Negotiation.pdf"
-        },
-        {
-          "code": "BUS306",
-          "name": "Advanced Business Negotiation",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS306%20Advanced%20Business%20Negotiation.pdf"
-        },
-        {
-          "code": "MIB415",
-          "name": "Global Supply Chain Management",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/MIB415%20Global%20Supply%20Chain%20Management.pdf"
-        },
-        {
-          "code": "MIB300",
-          "name": "Management Simulation",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/MIB300%20Management%20Simulation.pdf"
-        },
-        {
-          "code": "GEN120B",
-          "name": "Critical Thinking",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/GEN120B%20Critical%20Thinking.pdf"
-        },
-        {
-          "code": "HIS160",
-          "name": "Survey of US History",
-          "status": "ementa_sem_horas",
-          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/HIS160%20Survey%20of%20US%20History.pdf"
-        }
-      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -12865,221 +12366,346 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
-      "id": "al-4-leibnizunivers",
-      "name": "Leibniz Universität Hannover",
-      "country": "Alemanha",
-      "eligibleFor": [],
-      "catalogued": 21,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
+      "id": "co-24-solbridgeinter",
+      "name": "Solbridge International School of Business",
+      "country": "Coreia do Sul",
+      "eligibleFor": [
+        "adm"
+      ],
+      "catalogued": 67,
+      "individualSyllabus": 46,
+      "individualWithContactHours": 26,
       "withoutIndividualSyllabus": 21,
-      "withIndividualButMissingHours": 0,
+      "withIndividualButMissingHours": 20,
       "statuses": {
-        "pagina_com_conteudo": 21
+        "ementa_individual": 46,
+        "pagina_com_conteudo": 7,
+        "catalogo_ou_matriz": 14
       },
       "samplePending": [
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-001",
-          "name": "Introductory Module Computer Science",
+          "code": "MEN101A",
+          "name": "ADAPT (Academic Development, Asian Perspectives and Training)",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-002",
-          "name": "Data Structures and Algorithms",
+          "code": "CAC200",
+          "name": "Select your career track",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-003",
-          "name": "Programming 1",
+          "code": "INFO204A",
+          "name": "Management Information Systems",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-004",
-          "name": "Programming 2",
+          "code": "INF101A",
+          "name": "IT for Business",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-005",
-          "name": "Business Administration I",
+          "code": "MAT121A",
+          "name": "Mathematics for Business",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-006",
-          "name": "Business Administration II",
+          "code": "ACC101",
+          "name": "Introduction to Accounting",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-007",
-          "name": "Business Administration V",
+          "code": "BUS100A",
+          "name": "Introduction to Business",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-008",
-          "name": "Mathematics 1: Linear Algebra",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "FIN405",
+          "name": "Mathematical Models in Finance",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-009",
-          "name": "Mathematics 2: Analysis",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "FIN300",
+          "name": "Finance Simulation",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-010",
-          "name": "Discrete Structures",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "FIN422",
+          "name": "Risk Management",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-011",
-          "name": "Fundamentals of Software Engineering",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "ACC201",
+          "name": "Financial Accounting",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-012",
-          "name": "Business Administration III",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "FIN499",
+          "name": "Specialization Project – Finance",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         }
       ],
       "pendingForeign": [
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-001",
-          "name": "Introductory Module Computer Science",
+          "code": "MEN101A",
+          "name": "ADAPT (Academic Development, Asian Perspectives and Training)",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-002",
-          "name": "Data Structures and Algorithms",
+          "code": "CAC200",
+          "name": "Select your career track",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-003",
-          "name": "Programming 1",
+          "code": "INFO204A",
+          "name": "Management Information Systems",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-004",
-          "name": "Programming 2",
+          "code": "INF101A",
+          "name": "IT for Business",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-005",
-          "name": "Business Administration I",
+          "code": "MAT121A",
+          "name": "Mathematics for Business",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-006",
-          "name": "Business Administration II",
+          "code": "ACC101",
+          "name": "Introduction to Accounting",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-007",
-          "name": "Business Administration V",
+          "code": "BUS100A",
+          "name": "Introduction to Business",
           "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-008",
-          "name": "Mathematics 1: Linear Algebra",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "FIN405",
+          "name": "Mathematical Models in Finance",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-009",
-          "name": "Mathematics 2: Analysis",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "FIN300",
+          "name": "Finance Simulation",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-010",
-          "name": "Discrete Structures",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "FIN422",
+          "name": "Risk Management",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-011",
-          "name": "Fundamentals of Software Engineering",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "ACC201",
+          "name": "Financial Accounting",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-012",
-          "name": "Business Administration III",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "FIN499",
+          "name": "Specialization Project – Finance",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-013",
-          "name": "Statistical Methods of Data Science",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "ENT101",
+          "name": "Introduction to Entrepreneurship",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-014",
-          "name": "Fundamentals of IT Security",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "MIN408C",
+          "name": "Global Strategic Management",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-015",
-          "name": "Economics I",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "BUS405",
+          "name": "Business Law",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-016",
-          "name": "Fundamentals of Database Systems",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "GEN231",
+          "name": "Fitness and Active Lifestyle",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-017",
-          "name": "Business Administration IV",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "BUS202",
+          "name": "Start Up Business Practice",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-018",
-          "name": "Strategic IT Management",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "GEN264",
+          "name": "Disaster and Apocalypse in Contemporary Media",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-019",
-          "name": "Fundamentals of Data Science",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "GEN311",
+          "name": "Contemporary Film Studies",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-020",
-          "name": "Fundamentals of Human-Computer Interaction",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "ART400A",
+          "name": "Art in Practice and Theory",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         },
         {
-          "code": "CAT-AL-4-LEIBNIZUNIVERS-DIG-021",
-          "name": "Project Digital Business",
-          "status": "pagina_com_conteudo",
-          "source": "https://www.uni-hannover.de/en/studium/studienangebot/info/studiengang/detail/digital-business"
+          "code": "ENG122A",
+          "name": "English: Advanced Writing Class",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
         }
       ],
-      "syllabiMissingContactHours": [],
+      "syllabiMissingContactHours": [
+        {
+          "code": "BUS 204",
+          "name": "Ethics and Corporate Social Responsibility",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/Liberal%20Arts%20and%20Stem%20Core%20Courses.pdf"
+        },
+        {
+          "code": "BUS250A",
+          "name": "Business Communication Across Cultures",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/Liberal%20Arts%20and%20Stem%20Core%20Courses.pdf"
+        },
+        {
+          "code": "DAT101",
+          "name": "Coding for Business",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/Liberal%20Arts%20and%20Stem%20Core%20Courses.pdf"
+        },
+        {
+          "code": "FIN424",
+          "name": "Investment-Stock Trading Experience",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN424%20Investment-Stock%20Trading%20Experience.pdf"
+        },
+        {
+          "code": "ACC310",
+          "name": "Intermediate Accounting",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ACC310%20Intermediate%20Accounting.pdf"
+        },
+        {
+          "code": "ENT418B",
+          "name": "Entrepreneurial Finance",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ENT418B%20Entrepreneurial%20Finance.pdf"
+        },
+        {
+          "code": "FIN404",
+          "name": "Financial Statement Analysis",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN404%20Financial%20Statement%20Analysis.pdf"
+        },
+        {
+          "code": "MIB320",
+          "name": "E-Business Management",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/MIB320%20E-Business%20Management.pdf"
+        },
+        {
+          "code": "BUS445",
+          "name": "Creativity and Innovation Management",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS445%20Creativity%20and%20Innovation%20Management.pdf"
+        },
+        {
+          "code": "BUS450",
+          "name": "Strategic Interaction and Decision Making",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS450%20Strategic%20Interaction%20and%20Decision%20Making.pdf"
+        },
+        {
+          "code": "ENT301",
+          "name": "Understanding Startup Business",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ENT301%20Understanding%20Startup%20Business.pdf"
+        },
+        {
+          "code": "BUS206",
+          "name": "Business Negotiation",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS206%20Business%20Negotiation.pdf"
+        },
+        {
+          "code": "BUS306",
+          "name": "Advanced Business Negotiation",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS306%20Advanced%20Business%20Negotiation.pdf"
+        },
+        {
+          "code": "MIB300",
+          "name": "Management Simulation",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/MIB300%20Management%20Simulation.pdf"
+        },
+        {
+          "code": "THE450",
+          "name": "Specialization Thesis",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf"
+        },
+        {
+          "code": "SOC201B",
+          "name": "Sociology for Business",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf"
+        },
+        {
+          "code": "GEN105",
+          "name": "Modernization of South Korea",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf"
+        },
+        {
+          "code": "BUS393",
+          "name": "Contemporary Korean Culture",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf"
+        },
+        {
+          "code": "GEN321",
+          "name": "Philosophy: Governance and Leadership",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf"
+        },
+        {
+          "code": "CHE101A",
+          "name": "Chemistry: Principles and Modern Applications",
+          "status": "ementa_sem_horas",
+          "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BBA%20electives%20Course%20descriptions.pdf"
+        }
+      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -14256,178 +13882,6 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
-      "id": "be-9-hasseltunivers",
-      "name": "Hasselt University",
-      "country": "Bélgica",
-      "eligibleFor": [
-        "dir"
-      ],
-      "catalogued": 13,
-      "individualSyllabus": 0,
-      "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 13,
-      "withIndividualButMissingHours": 0,
-      "statuses": {
-        "catalogo_ou_matriz": 13
-      },
-      "samplePending": [
-        {
-          "code": "CAT-staatsrecht",
-          "name": "Staatsrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-verbintenissenrecht",
-          "name": "Verbintenissenrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-internationaal-en-europees-recht",
-          "name": "Internationaal en Europees recht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-oplossen-van-juridische-problemen",
-          "name": "Oplossen van juridische problemen",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-juridisch-schrijven",
-          "name": "Juridisch schrijven",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-legal-english",
-          "name": "Legal English",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-straf-en-strafprocesrecht",
-          "name": "Straf- en strafprocesrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-goederen-en-bijzondere-overeenkomstenrecht",
-          "name": "Goederen- en bijzondere overeenkomstenrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-rechtsvergelijking",
-          "name": "Rechtsvergelijking",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-fiscale-recht",
-          "name": "Fiscale recht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-bestuursrecht",
-          "name": "Bestuursrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-personen-familie-en-familiaal-vermogensrecht",
-          "name": "Personen-, familie- en familiaal vermogensrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        }
-      ],
-      "pendingForeign": [
-        {
-          "code": "CAT-staatsrecht",
-          "name": "Staatsrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-verbintenissenrecht",
-          "name": "Verbintenissenrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-internationaal-en-europees-recht",
-          "name": "Internationaal en Europees recht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-oplossen-van-juridische-problemen",
-          "name": "Oplossen van juridische problemen",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-juridisch-schrijven",
-          "name": "Juridisch schrijven",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-legal-english",
-          "name": "Legal English",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-straf-en-strafprocesrecht",
-          "name": "Straf- en strafprocesrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-goederen-en-bijzondere-overeenkomstenrecht",
-          "name": "Goederen- en bijzondere overeenkomstenrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-rechtsvergelijking",
-          "name": "Rechtsvergelijking",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-fiscale-recht",
-          "name": "Fiscale recht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-bestuursrecht",
-          "name": "Bestuursrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-personen-familie-en-familiaal-vermogensrecht",
-          "name": "Personen-, familie- en familiaal vermogensrecht",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        },
-        {
-          "code": "CAT-bachelorscriptie",
-          "name": "Bachelorscriptie",
-          "status": "catalogo_ou_matriz",
-          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
-        }
-      ],
-      "syllabiMissingContactHours": [],
-      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
-    },
-    {
       "id": "it-46-universitadegl",
       "name": "Universita' degli Studi di Ferrara",
       "country": "Itália",
@@ -14611,9 +14065,9 @@
       ],
       "catalogued": 38,
       "individualSyllabus": 26,
-      "individualWithContactHours": 0,
+      "individualWithContactHours": 26,
       "withoutIndividualSyllabus": 12,
-      "withIndividualButMissingHours": 26,
+      "withIndividualButMissingHours": 0,
       "statuses": {
         "ementa_individual": 26,
         "pagina_com_conteudo": 12
@@ -14766,164 +14220,7 @@
           "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/bolum/180002/sayfa/1"
         }
       ],
-      "syllabiMissingContactHours": [
-        {
-          "code": "İŞL101",
-          "name": "Introduction to Behavioral Sciences",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30652"
-        },
-        {
-          "code": "İŞL119",
-          "name": "Introduction to Business-I",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30660"
-        },
-        {
-          "code": "İŞL103",
-          "name": "Financial Accounting-I",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30653"
-        },
-        {
-          "code": "İŞL107",
-          "name": "Introduction to Law",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30655"
-        },
-        {
-          "code": "İŞL120",
-          "name": "Introduction to Business-II",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30669"
-        },
-        {
-          "code": "İŞL104",
-          "name": "Financial Accounting-II",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30663"
-        },
-        {
-          "code": "İŞL203",
-          "name": "Statistics-I",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30672"
-        },
-        {
-          "code": "İŞL235",
-          "name": "Business Administration-I",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30675"
-        },
-        {
-          "code": "İŞL232",
-          "name": "Entrepreneurship",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30727"
-        },
-        {
-          "code": "İŞL204",
-          "name": "Statistics-II",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30681"
-        },
-        {
-          "code": "İŞL238",
-          "name": "Business Administration-II",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30683"
-        },
-        {
-          "code": "İŞL301",
-          "name": "Corporate Finance",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30687"
-        },
-        {
-          "code": "İŞL321",
-          "name": "Cost Accounting-I",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30689"
-        },
-        {
-          "code": "İŞL302",
-          "name": "Financial Management-II",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30699"
-        },
-        {
-          "code": "İŞL322",
-          "name": "Cost Accounting-II",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30700"
-        },
-        {
-          "code": "İŞL324",
-          "name": "Production and Operations Management-II",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30701"
-        },
-        {
-          "code": "İŞL407",
-          "name": "Human Resources Management",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30713"
-        },
-        {
-          "code": "İŞL405",
-          "name": "Marketing Researches",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30712"
-        },
-        {
-          "code": "İŞL410",
-          "name": "Financial Statement Analysis",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30726"
-        },
-        {
-          "code": "İŞL406",
-          "name": "Strategic Management",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30724"
-        },
-        {
-          "code": "İŞL233",
-          "name": "Macroeconomics I",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/42786"
-        },
-        {
-          "code": "İŞL231",
-          "name": "Microeconomics I",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/42785"
-        },
-        {
-          "code": "BUS227",
-          "name": "Technology and Innovation Management",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/42788"
-        },
-        {
-          "code": "BUS230",
-          "name": "Management Information Systems",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/42322"
-        },
-        {
-          "code": "BUS335",
-          "name": "Organizational Behavior",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30696"
-        },
-        {
-          "code": "İŞL319",
-          "name": "Marketing Communications",
-          "status": "ementa_sem_horas",
-          "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/30695"
-        }
-      ],
+      "syllabiMissingContactHours": [],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -14935,9 +14232,9 @@
       ],
       "catalogued": 72,
       "individualSyllabus": 60,
-      "individualWithContactHours": 0,
+      "individualWithContactHours": 37,
       "withoutIndividualSyllabus": 12,
-      "withIndividualButMissingHours": 60,
+      "withIndividualButMissingHours": 23,
       "statuses": {
         "ementa_individual": 60,
         "catalogo_ou_matriz": 12
@@ -15122,70 +14419,16 @@
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523743&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
-          "code": "CAT-UNISA-26-008",
-          "name": "Diritti dell'antico Oriente mediterraneo",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523747&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-009",
-          "name": "Diritti dell'uomo",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523748&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-010",
-          "name": "Diritti fondamentali e biodiritto",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523749&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-011",
-          "name": "Diritto agroalimentare",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523754&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-012",
-          "name": "Diritto comparato dei dati e dell'intelligenza artificiale",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523757&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-013",
-          "name": "Diritto comparato della protezione dei dati personali",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523758&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
           "code": "CAT-UNISA-26-014",
           "name": "Diritto dei conflitti e della mediazione familiare",
           "status": "ementa_sem_horas",
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523760&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
-          "code": "CAT-UNISA-26-015",
-          "name": "Diritto dei mezzi di comunicazione",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523763&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-016",
-          "name": "Diritto dell'ambiente",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523766&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
           "code": "CAT-UNISA-26-017",
           "name": "Diritto dell'impresa",
           "status": "ementa_sem_horas",
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523770&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-018",
-          "name": "Diritto delle assicurazioni",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523773&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
           "code": "CAT-UNISA-26-019",
@@ -15206,18 +14449,6 @@
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523779&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
-          "code": "CAT-UNISA-26-023",
-          "name": "Diritto industriale",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523781&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-024",
-          "name": "Diritto internazionale della salute e dell'ambiente",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523782&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
           "code": "CAT-UNISA-26-028",
           "name": "Diritto penale e influencer marketing",
           "status": "ementa_sem_horas",
@@ -15230,64 +14461,10 @@
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523790&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
-          "code": "CAT-UNISA-26-030",
-          "name": "Diritto penale romano",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523791&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-031",
-          "name": "Diritto penitenziario",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523792&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-032",
-          "name": "Diritto pubblico romano",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523796&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
           "code": "CAT-UNISA-26-033",
           "name": "Filosofia politica",
           "status": "ementa_sem_horas",
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523800&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-034",
-          "name": "Informatica giuridica",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523803&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-035",
-          "name": "Istituzioni di diritto e procedura penale",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523805&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-036",
-          "name": "Law and literature",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523807&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-037",
-          "name": "Nozioni giuridiche fondamentali",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523810&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-038",
-          "name": "Organizzazione internazionale",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523811&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-039",
-          "name": "Procedura penale delle società",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523812&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
           "code": "CAT-UNISA-26-040",
@@ -15314,30 +14491,6 @@
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=524940&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
-          "code": "CAT-UNISA-26-044",
-          "name": "Filosofie giuridiche della guerra e della pace",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=524939&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-045",
-          "name": "Diritto anglo-americano",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523755&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-046",
-          "name": "Diritto canonico",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523756&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-047",
-          "name": "Diritto degli enti locali",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523759&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
           "code": "CAT-UNISA-26-048",
           "name": "Diritto dei contratti",
           "status": "ementa_sem_horas",
@@ -15350,88 +14503,16 @@
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523762&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
-          "code": "CAT-UNISA-26-050",
-          "name": "Diritto del terzo settore",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523764&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
           "code": "CAT-UNISA-26-052",
           "name": "Diritto dell'arbitrato",
           "status": "ementa_sem_horas",
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523767&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
-          "code": "CAT-UNISA-26-054",
-          "name": "Diritto dell'esecuzione penale",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523769&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-055",
-          "name": "Diritto dell'informatica",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523771&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
           "code": "CAT-UNISA-26-056",
           "name": "Diritto della contrattazione immobiliare",
           "status": "ementa_sem_horas",
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523772&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-057",
-          "name": "Diritto dello sport",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523775&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-058",
-          "name": "Diritto europeo e internazionale penale",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523780&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-059",
-          "name": "Diritto internazionale privato e processuale",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523783&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-060",
-          "name": "Diritto penale dello sport",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523787&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-061",
-          "name": "Diritto privato comparato",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523793&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-062",
-          "name": "Diritto tributario europeo e internazionale",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523797&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-063",
-          "name": "Diritto urbanistico",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523798&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-064",
-          "name": "European union values, integration and migration law",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523799&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-065",
-          "name": "Gender law",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=523802&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         },
         {
           "code": "CAT-UNISA-26-070",
@@ -15444,12 +14525,6 @@
           "name": "Teorie della devianza e del controllo sociale",
           "status": "ementa_sem_horas",
           "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=524941&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
-        },
-        {
-          "code": "CAT-UNISA-26-072",
-          "name": "Diritti e disabilità",
-          "status": "ementa_sem_horas",
-          "source": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti?id=524938&percorso=0&anno=2026&cds_id=500852&tab=percorsi"
         }
       ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
@@ -15921,6 +14996,138 @@
         }
       ],
       "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
+      "id": "be-9-hasseltunivers",
+      "name": "Hasselt University",
+      "country": "Bélgica",
+      "eligibleFor": [
+        "dir"
+      ],
+      "catalogued": 13,
+      "individualSyllabus": 8,
+      "individualWithContactHours": 0,
+      "withoutIndividualSyllabus": 5,
+      "withIndividualButMissingHours": 8,
+      "statuses": {
+        "ementa_individual": 8,
+        "catalogo_ou_matriz": 5
+      },
+      "samplePending": [
+        {
+          "code": "CAT-oplossen-van-juridische-problemen",
+          "name": "Oplossen van juridische problemen",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        },
+        {
+          "code": "CAT-juridisch-schrijven",
+          "name": "Juridisch schrijven",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        },
+        {
+          "code": "CAT-straf-en-strafprocesrecht",
+          "name": "Straf- en strafprocesrecht",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        },
+        {
+          "code": "CAT-rechtsvergelijking",
+          "name": "Rechtsvergelijking",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        },
+        {
+          "code": "CAT-fiscale-recht",
+          "name": "Fiscale recht",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        }
+      ],
+      "pendingForeign": [
+        {
+          "code": "CAT-oplossen-van-juridische-problemen",
+          "name": "Oplossen van juridische problemen",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        },
+        {
+          "code": "CAT-juridisch-schrijven",
+          "name": "Juridisch schrijven",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        },
+        {
+          "code": "CAT-straf-en-strafprocesrecht",
+          "name": "Straf- en strafprocesrecht",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        },
+        {
+          "code": "CAT-rechtsvergelijking",
+          "name": "Rechtsvergelijking",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        },
+        {
+          "code": "CAT-fiscale-recht",
+          "name": "Fiscale recht",
+          "status": "catalogo_ou_matriz",
+          "source": "https://www.uhasselt.be/nl/studeren/opleidingen/bachelor-en-master-in-de-rechten"
+        }
+      ],
+      "syllabiMissingContactHours": [
+        {
+          "code": "CAT-staatsrecht",
+          "name": "Staatsrecht",
+          "status": "ementa_sem_horas",
+          "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=3843&n=4&t=01"
+        },
+        {
+          "code": "CAT-verbintenissenrecht",
+          "name": "Verbintenissenrecht",
+          "status": "ementa_sem_horas",
+          "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=1875&n=4&t=01"
+        },
+        {
+          "code": "CAT-internationaal-en-europees-recht",
+          "name": "Internationaal en Europees recht",
+          "status": "ementa_sem_horas",
+          "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=1880&n=4&t=01"
+        },
+        {
+          "code": "CAT-legal-english",
+          "name": "Legal English",
+          "status": "ementa_sem_horas",
+          "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=1877&n=4&t=01"
+        },
+        {
+          "code": "CAT-goederen-en-bijzondere-overeenkomstenrecht",
+          "name": "Goederen- en bijzondere overeenkomstenrecht",
+          "status": "ementa_sem_horas",
+          "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=2125&n=4&t=01"
+        },
+        {
+          "code": "CAT-bestuursrecht",
+          "name": "Bestuursrecht",
+          "status": "ementa_sem_horas",
+          "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=4977&n=4&t=01"
+        },
+        {
+          "code": "CAT-personen-familie-en-familiaal-vermogensrecht",
+          "name": "Personen-, familie- en familiaal vermogensrecht",
+          "status": "ementa_sem_horas",
+          "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=2121&n=4&t=01"
+        },
+        {
+          "code": "CAT-bachelorscriptie",
+          "name": "Bachelorscriptie",
+          "status": "ementa_sem_horas",
+          "source": "https://studiegidswww.uhasselt.be/opleidingsonderdeel.aspx?a=2026&i=4980&n=4&t=01"
+        }
+      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -17904,9 +17111,9 @@
       ],
       "catalogued": 42,
       "individualSyllabus": 39,
-      "individualWithContactHours": 0,
+      "individualWithContactHours": 37,
       "withoutIndividualSyllabus": 3,
-      "withIndividualButMissingHours": 39,
+      "withIndividualButMissingHours": 2,
       "statuses": {
         "ementa_individual": 39,
         "pagina_com_conteudo": 2,
@@ -17954,204 +17161,6 @@
       ],
       "syllabiMissingContactHours": [
         {
-          "code": "CAT-introducao-ao-estudo-do-direito",
-          "name": "Introdução ao Estudo do Direito",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-introducao-ao-estudo-do-direito-1o-ano.pdf"
-        },
-        {
-          "code": "CAT-fundamentos-de-direito-publico",
-          "name": "Fundamentos de Direito Público",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-fundamentos-de-direito-publico-1o-ano.pdf"
-        },
-        {
-          "code": "CAT-introducao-ao-direito-segundo-o-metodo-do-c",
-          "name": "Introdução ao Direito segundo o Método do Caso",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-introducao-ao-direito-segundo-o-metodo-do-caso-1o-ano.pdf"
-        },
-        {
-          "code": "CAT-cristianismo-e-cultura",
-          "name": "Cristianismo e Cultura",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-cristianismo-e-cultura-1o-ano-ht.pdf"
-        },
-        {
-          "code": "CAT-fundamentos-de-direito-civil-e-direito-das-",
-          "name": "Fundamentos de Direito Civil e Direito das Pessoas",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/fuc-fundamentos-de-direito-civil-e-direito-das-pessoas-1o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-constitucional",
-          "name": "Direito Constitucional",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-direito-constitucional-harm.pdf"
-        },
-        {
-          "code": "CAT-introducao-a-economia",
-          "name": "Introdução à Economia",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-144004-fuc-introducao-a-economia-1o-ano.pdf"
-        },
-        {
-          "code": "CAT-historia-do-direito",
-          "name": "História do Direito",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-historia-do-direito-1o-ano-harm.pdf"
-        },
-        {
-          "code": "CAT-teoria-geral-do-negocio-juridico",
-          "name": "Teoria Geral do Negócio Jurídico",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-teoria-geral-do-negocio-juridico-harm.pdf"
-        },
-        {
-          "code": "CAT-organizacao-e-procedimento-administrativo",
-          "name": "Organização e Procedimento Administrativo",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-144401-fuc-organizacao-e-procedimento-administrativo-2o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-internacional-publico",
-          "name": "Direito Internacional Público",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-direito-internacional-publico-public-international-law-2o-ano.pdf"
-        },
-        {
-          "code": "CAT-financas-publicas",
-          "name": "Finanças Públicas",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-financas-publicas-2o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-das-obrigacoes",
-          "name": "Direito das Obrigações",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-144104-fuc-direito-das-obrigacoes-2o-ano_3.pdf"
-        },
-        {
-          "code": "CAT-direito-da-atividade-administrativa",
-          "name": "Direito da Atividade Administrativa",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-direito-da-atividade-administrativa-harm.pdf"
-        },
-        {
-          "code": "CAT-direitos-fundamentais-e-justica-constitucio",
-          "name": "Direitos Fundamentais e Justiça Constitucional",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/144439-fuc-direitos-fundamentais-e-justica-constitucional-2o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-da-uniao-europeia",
-          "name": "Direito da União Europeia",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-direito-da-uniao-europeia-harm.pdf"
-        },
-        {
-          "code": "CAT-cumprimento-e-nao-cumprimento-das-obrigacoe",
-          "name": "Cumprimento e Não Cumprimento das Obrigações",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/fuc-cumprimento-e-nao-cumprimento-das-obrigacoes-3o-ano.pdf"
-        },
-        {
-          "code": "CAT-direitos-reais",
-          "name": "Direitos Reais",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-direitos-reais-3o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-fiscal",
-          "name": "Direito Fiscal",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-direito-fiscal-pt-tax-law-en-3o-ano.pdf"
-        },
-        {
-          "code": "CAT-teoria-geral-do-crime-e-da-pena",
-          "name": "Teoria Geral do Crime e da Pena",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-teoria-geral-do-crime-e-da-pena-harm.pdf"
-        },
-        {
-          "code": "CAT-direito-do-trabalho",
-          "name": "Direito do Trabalho",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-direito-do-trabalho-3o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-da-familia",
-          "name": "Direito da Família",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-141116-fuc-direito-da-familia-3o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-das-sucessoes",
-          "name": "Direito das Sucessões",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-20261-fuc-direito-das-sucessoes-3o-ano.pdf"
-        },
-        {
-          "code": "CAT-processo-civil-parte-geral",
-          "name": "Processo Civil: Parte Geral",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-processo-civil-parte-geral-4o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-comercial",
-          "name": "Direito Comercial",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-direito-comercial-4o-ano-ht.pdf"
-        },
-        {
-          "code": "CAT-filosofia-do-direito",
-          "name": "Filosofia do Direito",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-filosofia-do-direito-harm.pdf"
-        },
-        {
-          "code": "CAT-contencioso-administrativo",
-          "name": "Contencioso Administrativo",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-contencioso-administrativo-harm.pdf"
-        },
-        {
-          "code": "CAT-processo-penal",
-          "name": "Processo Penal",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-144107-fuc-processo-penal-4o-ano.pdf"
-        },
-        {
-          "code": "CAT-sociedades-comerciais",
-          "name": "Sociedades Comerciais",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-144274-fuc-sociedades-comerciais-4o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-internacional-privado",
-          "name": "Direito Internacional Privado",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/144275-144276-144359-fuc-direito-internacional-privado-a-b-c-4o-ano.pdf"
-        },
-        {
-          "code": "CAT-processo-civil-marcha-do-processo",
-          "name": "Processo Civil: Marcha do Processo",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-144251-fuc-processo-civil-marcha-do-processo-4o-ano.pdf"
-        },
-        {
-          "code": "CAT-direito-da-inteligencia-artificial",
-          "name": "Direito da Inteligência Artificial",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026144381-fuc-direito-da-inteligencia-artificial-optativa.pdf"
-        },
-        {
-          "code": "CAT-direito-do-desporto",
-          "name": "Direito do Desporto",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-144262-fuc-direito-do-desporto-optativa.pdf"
-        },
-        {
           "code": "CAT-property",
           "name": "Property",
           "status": "ementa_sem_horas",
@@ -18162,30 +17171,6 @@
           "name": "International Arbitration",
           "status": "ementa_sem_horas",
           "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-international-arbitration-optativa-en.pdf"
-        },
-        {
-          "code": "CAT-compra-e-venda",
-          "name": "Compra e Venda",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-nova-fuc-compra-e-venda-optativa.pdf"
-        },
-        {
-          "code": "CAT-filiacao-e-responsabilidades-parentais",
-          "name": "Filiação e Responsabilidades Parentais",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-filiacao-e-responsabilidades-parentais-optativa.pdf"
-        },
-        {
-          "code": "CAT-direito-das-pessoas-com-deficiencia",
-          "name": "Direito das Pessoas com Deficiência",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2026-2027-fuc-direito-das-pessoas-com-deficiencia-optativa.pdf"
-        },
-        {
-          "code": "CAT-historia-do-constitucionalismo",
-          "name": "História do Constitucionalismo",
-          "status": "ementa_sem_horas",
-          "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-144483-fuc-historia-do-constitucionalismo-optativa.pdf"
         }
       ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
@@ -20204,6 +19189,24 @@
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
+      "id": "al-4-leibnizunivers",
+      "name": "Leibniz Universität Hannover",
+      "country": "Alemanha",
+      "eligibleFor": [],
+      "catalogued": 21,
+      "individualSyllabus": 21,
+      "individualWithContactHours": 21,
+      "withoutIndividualSyllabus": 0,
+      "withIndividualButMissingHours": 0,
+      "statuses": {
+        "ementa_individual": 21
+      },
+      "samplePending": [],
+      "pendingForeign": [],
+      "syllabiMissingContactHours": [],
+      "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
+    },
+    {
       "id": "es-26-universidaddej",
       "name": "Universidad de Jaén",
       "country": "Espanha",
@@ -21466,8 +20469,8 @@
       ],
       "candidates": 199,
       "candidatePhases": {
-        "falta_ementa_brasileira_validada": 96,
-        "falta_ementa_estrangeira_individual": 103
+        "falta_ementa_brasileira_validada": 99,
+        "falta_ementa_estrangeira_individual": 100
       },
       "individualReviews": 0
     }

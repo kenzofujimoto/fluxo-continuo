@@ -1,0 +1,163 @@
+{
+  "id": "dir|TEORIA GERAL DO DIREITO|po-56-universidadede|CAT-teoria-geral-do-direito-civil-i",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TEORIA GERAL DO DIREITO",
+    "name": "TEORIA GERAL DO DIREITO",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 4, bloco TEORIA GERAL DO DIREITO: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos",
+      "Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico",
+      "O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial",
+      "A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial",
+      "Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-56-universidadede",
+      "university": "Universidade de Lisboa",
+      "code": "CAT-teoria-geral-do-direito-civil-i",
+      "name": "Teoria Geral do Direito Civil I",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": "2026/2027",
+      "period": "1.º",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Conforme catálogo; acesso por mobilidade não confirmado",
+      "assessment": "Não informado na folha; indicações bibliográficas na primeira aula",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/10/PROGRAMA-DE-TEORIA-GERAL-DO-DIREITO-CIVIL-I.pdf",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "sha256": "1ef5ec9a46b9b1857061b650437ac5b958d1378b3def623b0818e4c3409dd0b1",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Não há total semestral inequívoco de horas de contacto do estudante; cargas dos docentes não são somadas nem créditos convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Situações jurídicas, factos, atos e negócios",
+      "foreignLocation": "Parte I, capítulo I; Parte II, capítulo II",
+      "note": "Enfoque dogmático civil, não funcionamento global do direito positivo e suas interfaces."
+    },
+    {
+      "brTopic": "Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Partes I-III, capítulos I-X; nota final",
+      "note": "Não define positivismo analítico como premissa epistemológica."
+    },
+    {
+      "brTopic": "O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Partes I-III, capítulos I-X; nota bibliográfica",
+      "note": "Hart, Dworkin e relação moral/justiça/decisão não identificados."
+    },
+    {
+      "brTopic": "A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Interpretação e integração do negócio, vontade, invalidade e abuso",
+      "foreignLocation": "Parte II, capítulos IV, VII-IX; Parte III",
+      "note": "Interpretação do negócio não substitui interpretação do sistema; coação é vício de vontade, não coerção jurídica geral."
+    },
+    {
+      "brTopic": "Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Autonomia, liberdade contratual, heteronomia e limites",
+      "foreignLocation": "Parte II, capítulo II",
+      "note": "Discussão localizada no negócio civil, não valores sociais e filosóficos da positivação jurídica."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Representação, cláusulas acessórias, vícios einvalidade",
+      "location": "Parte II, capítulos V-IX"
+    }
+  ],
+  "competencies": {
+    "brazil": "Enquanto disciplina de graduação, a Teoria Geral do Direito estuda o funcionamento do direito positivo em interface com os seus aspectos sociais e filosóficos. Trata-se de disciplina com objeto de estudo e abertura cognitiva previamente definidos, na qual epistemologicamente adota como premissa o positivismo jurídico analítico. O estudo inicia-se com a diferença de aproxima-se de autores como Herbert Hart e Ronald Dworkin com a pretensão de enfrentar a influência da moral no direito, na justiça e na decisão judicial. A disciplina preocupa-se com temas centrais da tradicional estrutura do Direito, como sistema jurídico, coação, sanção, interpretação do direito, decisão judicial. Todavia, afastando-se da estática jurídica que aproxima o estudo da estrutura para se aproximar da sua função, oferecendo abertura cognitiva à problematização dos valores sociais e filosóficos do processo de positivação jurídica que será desenvolvido no segundo semestre por meio da Filosofia e da Sociologia do Direito.",
+    "foreign": [
+      "Objetivos não explicitados; conteúdo descreve negócio jurídico eabuso do direito"
+    ],
+    "convergences": [
+      "Teoria Geral do Direito Civil I da FDUL é dogmática do negócio jurídico, com apenas interseções limitadas na teoria geral Mackenzie."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "4 horas-aula semanais em edição de 2022",
+    "foreign": "O programa 2026/27 percorre situações, formação, representação, vícios, invalidade, responsabilidade pré-contratual e abuso; não aborda Hart/Dworkin nem uma premissa de positivismo analítico. Três aproximações são locais ao civil e não equivalem a um curso de filosofia e sistema jurídico.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "1.º no catálogo; confirmar calendário e compatibilidade com 2027.2",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Teoria Geral do Direito Civil I da FDUL é dogmática do negócio jurídico, com apenas interseções limitadas na teoria geral Mackenzie.",
+  "justification": "O programa 2026/27 percorre situações, formação, representação, vícios, invalidade, responsabilidade pré-contratual e abuso; não aborda Hart/Dworkin nem uma premissa de positivismo analítico. Três aproximações são locais ao civil e não equivalem a um curso de filosofia e sistema jurídico. O cotejo registra 0 tópicos cobertos e 3 parciais de 5 essenciais. A carga brasileira semanal e a ausência de total de contacto estrangeiro impedem calcular razão horária; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional",
+    "Sem objetivos, horas, avaliação e créditos na folha de programa; bibliografia será indicada em aula."
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  },
+  "downgradeReason": "Embora a regra interna conte aproximações parciais acima de 50%, elas são pontuais e não recompõem o núcleo da disciplina brasileira: positivismo analítico, Hart/Dworkin e teoria geral do sistema e da decisão; o documento estrangeiro é de negócio jurídico civil."
+}

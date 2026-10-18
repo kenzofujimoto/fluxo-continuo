@@ -1,0 +1,182 @@
+{
+  "id": "dir|TEORIA DA CONSTITUIÇÃO|po-63-universidadelu|02308",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TEORIA DA CONSTITUIÇÃO",
+    "name": "TEORIA DA CONSTITUIÇÃO",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 15, bloco TEORIA DA CONSTITUIÇÃO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A disciplina estudará o movimento cultural, filosófico, social e político conhecido como constitucionalismo que resultou numa constitucionalização do Ocidente",
+      "Esse movimento desenvolvido sobretudo na Europa e nos Estados Unidos da América foi transportado para o Brasil onde veio a desenvolver-se com as particularidades de uma modernidade periférica",
+      "As temáticas abordadas serão as a seguir elencadas: Introdução ao direito constitucional brasileiro",
+      "Estudo do poder constituinte e da classificação das constituições",
+      "Comparação entre o constitucionalismo liberal e social nos grandes centros e no Brasil",
+      "Reflexão sobre o neoconstitucionalismo e os princípios constitucionais",
+      "Compreensão da interpretação, aplicabilidade e eficácia das normas constitucionais na teoria e na prática social brasileira",
+      "Estudo das consequências normativas do advento de uma nova ordem constitucional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "02308",
+      "name": "Direito constitucional",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "2º semestre português; confirmar versão e oferta2027/28.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02308_2025.pdf",
+      "sha256": "dc2b1f8906e50fd28bc678a8f54fcd94f3a67ccb7d219df85a5eaa6b9a70f70a",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina estudará o movimento cultural, filosófico, social e político conhecido como constitucionalismo que resultou numa constitucionalização do Ocidente",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Constituição e constitucionalismo e memória histórica aproximam movimento ocidental, com foco português.",
+      "foreignLocation": "Primeiro programa3 e8-11; segundo programaII.1"
+    },
+    {
+      "brTopic": "Esse movimento desenvolvido sobretudo na Europa e nos Estados Unidos da América foi transportado para o Brasil onde veio a desenvolver-se com as particularidades de uma modernidade periférica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-14, ambos programas",
+      "note": "Transposição ao Brasil e modernidade periférica não constam."
+    },
+    {
+      "brTopic": "As temáticas abordadas serão as a seguir elencadas: Introdução ao direito constitucional brasileiro",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-14, ambos programas",
+      "note": "Introdução ao direito constitucional brasileiro não é conteúdo."
+    },
+    {
+      "brTopic": "Estudo do poder constituinte e da classificação das constituições",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Classificações, poder constituinte e revisão são explicitados.",
+      "foreignLocation": "Primeiro programa4 e22"
+    },
+    {
+      "brTopic": "Comparação entre o constitucionalismo liberal e social nos grandes centros e no Brasil",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Períodos liberal e pós-liberal e constituições comparadas permitem contraste, sem Brasil.",
+      "foreignLocation": "Segundo programaII.1.2 eIII"
+    },
+    {
+      "brTopic": "Reflexão sobre o neoconstitucionalismo e os princípios constitucionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Princípios e normas são expressos; neoconstitucionalismo não é individualizado.",
+      "foreignLocation": "Primeiro programa7 e12"
+    },
+    {
+      "brTopic": "Compreensão da interpretação, aplicabilidade e eficácia das normas constitucionais na teoria e na prática social brasileira",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Interpretação e normas constitucionais são ensinadas, sem eficácia na prática brasileira.",
+      "foreignLocation": "Primeiro programa6-7; segundo programaI.1.4"
+    },
+    {
+      "brTopic": "Estudo das consequências normativas do advento de uma nova ordem constitucional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Revisão e transição constitucional e respectivos efeitos são explícitos, sob ordem portuguesa.",
+      "foreignLocation": "Segundo programaII.2.11"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Sistemas eleitorais, órgãos de soberania e fiscalização constitucional",
+      "location": "Primeiro programa14-21; segundo programaI.2-3 eII.2"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Interpretar normas constitucionais e problemas de organização e fiscalização do poder.",
+    "convergences": [
+      "Constituição e constitucionalismo e memória histórica aproximam movimento ocidental, com foco português.",
+      "Classificações, poder constituinte e revisão são explicitados.",
+      "Períodos liberal e pós-liberal e constituições comparadas permitem contraste, sem Brasil.",
+      "Princípios e normas são expressos; neoconstitucionalismo não é individualizado.",
+      "Interpretação e normas constitucionais são ensinadas, sem eficácia na prática brasileira.",
+      "Revisão e transição constitucional e respectivos efeitos são explícitos, sob ordem portuguesa."
+    ],
+    "differences": [
+      "Transposição ao Brasil e modernidade periférica não constam.",
+      "Introdução ao direito constitucional brasileiro não é conteúdo."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Interpretar normas constitucionais e problemas de organização e fiscalização do poder.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "2º semestre português; confirmar versão e oferta2027/28.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Constitucional02308 aproxima teoria, classificação e transição constitucional, com percurso português e comparação de países que não inclui o Brasil.",
+  "justification": "Seis de oito tópicos têm suporte, apenas poder constituinte/classificação integral. A primeira versão acompanha a Constituição1976; a segunda chama uma etapa de Constituição1982, ambiguidade preservada. A base brasileira histórica e horas semanais limitam o resultado, sem importar soluções portuguesas para CF/1988.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. PDF14 páginas reúne dois programas; o segundo rotula Constituição1982 enquanto o primeiro explicita Constituição1976 e revisões. Não corrigido por inferência.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "PDF14 páginas reúne dois programas; o segundo rotula Constituição1982 enquanto o primeiro explicita Constituição1976 e revisões. Não corrigido por inferência."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

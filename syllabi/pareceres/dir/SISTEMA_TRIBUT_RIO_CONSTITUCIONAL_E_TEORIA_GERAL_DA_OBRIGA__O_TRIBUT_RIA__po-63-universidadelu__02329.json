@@ -1,0 +1,245 @@
+{
+  "id": "dir|SISTEMA TRIBUTÁRIO CONSTITUCIONAL E TEORIA GERAL DA OBRIGAÇÃO TRIBUTÁRIA|po-63-universidadelu|02329",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "SISTEMA TRIBUTÁRIO CONSTITUCIONAL E TEORIA GERAL DA OBRIGAÇÃO TRIBUTÁRIA",
+    "name": "SISTEMA TRIBUTÁRIO CONSTITUCIONAL E TEORIA GERAL DA OBRIGAÇÃO TRIBUTÁRIA.",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 52, bloco SISTEMA TRIBUTÁRIO CONSTITUCIONAL E TEORIA GERAL DA OBRIGAÇÃO TRIBUTÁRIA., Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo dos princípios constitucionais tributários na Constituição de 1988",
+      "Princípios gerais, da limitação ao poder de tributar, da capacidade contributiva, da progressividade e proporcionalidade",
+      "Imunidade e não incidência",
+      "Competência arrecadatória dos entes federativos, princípios específicos e distribuição de recursos fiscais",
+      "Direito financeiro, orçamento e leis de controle orçamentário",
+      "Competência residual",
+      "Contribuições na Constituição",
+      "Teoria Geral da Obrigação Tributária",
+      "Tributo e espécies tributárias",
+      "Regra matriz de incidência e obrigação tributária",
+      "Sujeito passivo e responsabilidade tributária",
+      "Lançamento, constituição, suspensão, exclusão e extinção do crédito tributário",
+      "Decadência e Prescrição",
+      "Interpretação, validade, vigência, eficácia e aplicação da legislação tributária",
+      "Propostas de reforma tributária"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "02329",
+      "name": "Direito fiscal",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "2º semestre português; confirmar turma2027/28.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02329_2025.pdf",
+      "sha256": "ec95e11b616f9cccb53a723e4eb34d300eb784794ff4c19d94a20f32248349be",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos princípios constitucionais tributários na Constituição de 1988",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Constituição fiscal e princípios são tratados sob CRP103-104, sem Constituição brasileira1988.",
+      "foreignLocation": "Segundo programa2-3"
+    },
+    {
+      "brTopic": "Princípios gerais, da limitação ao poder de tributar, da capacidade contributiva, da progressividade e proporcionalidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Legalidade, segurança, igualdade e proporcionalidade aparecem; capacidade contributiva e progressividade não são explícitas.",
+      "foreignLocation": "Primeiro programa3.3 e segundo programa3"
+    },
+    {
+      "brTopic": "Imunidade e não incidência",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-11, ambos programas",
+      "note": "Imunidades e não incidência não são individualizadas."
+    },
+    {
+      "brTopic": "Competência arrecadatória dos entes federativos, princípios específicos e distribuição de recursos fiscais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-11, ambos programas",
+      "note": "Repartição federativa brasileira de receitas não consta."
+    },
+    {
+      "brTopic": "Direito financeiro, orçamento e leis de controle orçamentário",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Receitas públicas e sistema fiscal aproximam finanças; orçamento e leis orçamentárias não são estudados.",
+      "foreignLocation": "Primeiro programa2.4 e ParteEspecial1"
+    },
+    {
+      "brTopic": "Competência residual",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-11, ambos programas",
+      "note": "Competência residual tributária não foi localizada."
+    },
+    {
+      "brTopic": "Contribuições na Constituição",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Contribuições financeiras são tipificadas, sem regime constitucional brasileiro.",
+      "foreignLocation": "Primeiro programa1.1"
+    },
+    {
+      "brTopic": "Teoria Geral da Obrigação Tributária",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Situações subjetivas e obrigação do imposto têm unidade própria.",
+      "foreignLocation": "Primeiro programa4.1-4.5"
+    },
+    {
+      "brTopic": "Tributo e espécies tributárias",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conceito e espécies de tributos e classificações de impostos são explícitos.",
+      "foreignLocation": "Primeiro programa1.1 e2.1-2.3"
+    },
+    {
+      "brTopic": "Regra matriz de incidência e obrigação tributária",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fases e elementos do imposto aproximam incidência e obrigação, sem regra matriz na construção brasileira.",
+      "foreignLocation": "Primeiro programa2.2 e4.5"
+    },
+    {
+      "brTopic": "Sujeito passivo e responsabilidade tributária",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Sujeitos ativos/passivos e garantias estão previstos; responsabilidade tributária não é tópico próprio.",
+      "foreignLocation": "Primeiro programa4.2 e4.5.1,4.5.6-7"
+    },
+    {
+      "brTopic": "Lançamento, constituição, suspensão, exclusão e extinção do crédito tributário",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Constituição, modificações e extinção são explícitas; suspensão, exclusão e lançamento brasileiros não são detalhados.",
+      "foreignLocation": "Primeiro programa4.5.2-4.5.5"
+    },
+    {
+      "brTopic": "Decadência e Prescrição",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-11, ambos programas",
+      "note": "Decadência e prescrição não são individualizadas."
+    },
+    {
+      "brTopic": "Interpretação, validade, vigência, eficácia e aplicação da legislação tributária",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Interpretação, integração e aplicação fiscal são expressas sob fontes portuguesas.",
+      "foreignLocation": "Primeiro programa3.2 e3.4"
+    },
+    {
+      "brTopic": "Propostas de reforma tributária",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Política fiscal, problemas e pressões sobre o sistema fornecem contexto, sem propostas brasileiras de reforma.",
+      "foreignLocation": "Primeiro programa3.6 e ParteEspecial1.2-1.4"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "IRS, IRC, IVA, IMI e IMT",
+      "location": "Primeiro programa, ParteEspecial2-4; segundo programa5"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Identificar e aplicar conceitos e legislação fiscal portuguesa.",
+    "convergences": [
+      "Constituição fiscal e princípios são tratados sob CRP103-104, sem Constituição brasileira1988.",
+      "Legalidade, segurança, igualdade e proporcionalidade aparecem; capacidade contributiva e progressividade não são explícitas.",
+      "Receitas públicas e sistema fiscal aproximam finanças; orçamento e leis orçamentárias não são estudados.",
+      "Contribuições financeiras são tipificadas, sem regime constitucional brasileiro.",
+      "Situações subjetivas e obrigação do imposto têm unidade própria.",
+      "Conceito e espécies de tributos e classificações de impostos são explícitos.",
+      "Fases e elementos do imposto aproximam incidência e obrigação, sem regra matriz na construção brasileira.",
+      "Sujeitos ativos/passivos e garantias estão previstos; responsabilidade tributária não é tópico próprio.",
+      "Constituição, modificações e extinção são explícitas; suspensão, exclusão e lançamento brasileiros não são detalhados.",
+      "Interpretação, integração e aplicação fiscal são expressas sob fontes portuguesas.",
+      "Política fiscal, problemas e pressões sobre o sistema fornecem contexto, sem propostas brasileiras de reforma."
+    ],
+    "differences": [
+      "Imunidades e não incidência não são individualizadas.",
+      "Repartição federativa brasileira de receitas não consta.",
+      "Competência residual tributária não foi localizada.",
+      "Decadência e prescrição não são individualizadas."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Identificar e aplicar conceitos e legislação fiscal portuguesa.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "2º semestre português; confirmar turma2027/28.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Fiscal02329 oferece teoria do imposto e princípios, mas não a distribuição federativa e as garantias tributárias da ordem brasileira.",
+  "justification": "Onze de quinze tópicos recebem alguma relação, dois integrais. O documento2025/2026 agrega programas de dois docentes; as seções da primeira versão sustentam obrigação, incidência e extinção, enquanto a segunda é mais sintética. Imunidade, competência residual, prescrição e repartição brasileira permanecem sem unidade correspondente.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Dois programas na mesma ficha02329; os detalhes não são automaticamente comuns a todas as turmas.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Dois programas na mesma ficha02329; os detalhes não são automaticamente comuns a todas as turmas."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}
