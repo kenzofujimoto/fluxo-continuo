@@ -148,6 +148,10 @@ export default async function Syllabi({
                       <td>
                         {label(record?.status ?? "nao_verificado")}
                         <p className="muted">{record?.reason}</p>
+                        {item.sourceEligibility === "outside_agreement" && (
+                          <p>Fora do escopo do acordo</p>
+                        )}
+                        {item.limitations && <p className="muted">{item.limitations}</p>}
                       </td>
                       <td>
                         <Source url={record?.source ?? item.source} />

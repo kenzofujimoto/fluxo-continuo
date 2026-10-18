@@ -34,9 +34,13 @@ def ready_pairs() -> list[dict]:
     done = {p["id"] for p in _load("syllabi/pareceres-index.json")["pareceres"]}
     unis = data["universities"]
     courses = {c["id"]: c for c in data["courses"]}
+    outside_agreement = {(f["universityId"], f["code"]) for f in data["foreignCourses"]
+                         if f.get("sourceEligibility") == "outside_agreement"}
     out, seen = [], set()
 
     def add(cid, ri, uid, fcode, origin, score=None, shared=None):
+        if (uid, fcode) in outside_agreement:
+            return  # Preserve historical records, but do not schedule new comparisons outside scope.
         row = courses[cid]["rows"][ri]
         code = row.get("id") or row["name"]
         pid = f"{cid}|{code}|{uid}|{fcode}"

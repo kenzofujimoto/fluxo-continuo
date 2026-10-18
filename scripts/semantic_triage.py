@@ -287,7 +287,8 @@ def main() -> int:
 
     by_uni = collections.defaultdict(list)
     for f in data["foreignCourses"]:
-        by_uni[f["universityId"]].append(f)
+        if f.get("sourceEligibility") != "outside_agreement":
+            by_uni[f["universityId"]].append(f)
     # Registered candidates keyed by matrix row index: Direito/Administração records use mackName with empty mackCode.
     registered = collections.defaultdict(list)
     rows_by_course = {c["id"]: c["rows"] for c in data["courses"]}

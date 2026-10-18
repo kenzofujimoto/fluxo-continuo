@@ -136,6 +136,10 @@ export default async function UniversityDetail({
                   </td>
                   <td>
                     {item.topics || "Programa integral ainda não registrado."}
+                    {item.sourceEligibility === "outside_agreement" && (
+                      <p>Fora do escopo do acordo</p>
+                    )}
+                    {item.limitations && <p className="muted">{item.limitations}</p>}
                   </td>
                   <td>
                     {item.period || "Período a confirmar"}
