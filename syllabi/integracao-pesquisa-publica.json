@@ -1,14 +1,15 @@
 {
  "meta": {
-  "integratedAt": "2026-10-17T13:14:07Z",
+  "integratedAt": "2026-10-18T14:08:23.790051+00:00",
   "ledgers": [
    "europe",
    "americas",
    "asia",
-   "solbridge"
+   "solbridge",
+   "americas-followup"
   ],
-  "candidates": 487,
-  "accepted": 436,
+  "candidates": 529,
+  "accepted": 478,
   "rejected": 51,
   "skipped": 0,
   "policy": "Descobertas reverificadas uma a uma; rejeição não prova inexistência do programa."
@@ -4160,6 +4161,628 @@
     "title",
     "code"
    ]
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-contabilidad",
+   "source": "https://drive.google.com/uc?export=download&id=1CpuhB04jfCiYxSO88fq2XtzXf6IJHShM",
+   "sha256": "3c8bdc4a024395845f57bfefec4f75f865fff89a8fc451f0ecb5d101647f8074",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-contabilidad-empresarial-i",
+   "source": "https://drive.google.com/uc?export=download&id=1CAH5U7j0IbhbeaBtS93uRJ9AypA7E1AV",
+   "sha256": "2cc10c33a4d4f65f77164c0f2950d0f5c6572efc6f883ca083c38d112ec4bdf1",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-contabilidad-empresarial-ii",
+   "source": "https://drive.google.com/uc?export=download&id=1JkdztOrmor_82jo5jwp3Ai56Rs2yIpcX",
+   "sha256": "e655d1113f82eb2783515a7f25d62c9fce8c382980cb4b27b8173561ca44f5f5",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-comunicacion-i",
+   "source": "https://drive.google.com/uc?export=download&id=1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa",
+   "sha256": "3928bd4cb00f04b4fc6d8942433fd68dfb722ddeb503e887573a314312c684a5",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-historia-economica",
+   "source": "https://drive.google.com/uc?export=download&id=1DaWnAbLR8woI286D4neef7ufbwsEDk6g",
+   "sha256": "7315c9bc6229fa9937ce91c74d015714b1a53c9060a9c1e71270f524bab22380",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-introduccion-a-la-economia",
+   "source": "https://drive.google.com/uc?export=download&id=1eXeKe579WpdSY4CvV6znentnnM5geRYz",
+   "sha256": "3b96ea2cc11f1a08e8bfd4fa0f9406051b7eba4800ce7506ac15c1a6e6244b5e",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-taller-de-politica-publica",
+   "source": "https://drive.google.com/uc?export=download&id=1-MfgHnTmZ7J9YtHyOFfVff_qtNY-XHyj",
+   "sha256": "cd0060b0f1f3489ff867dd591ec5eac9e22fe94fe8b21a0d53f37bb185ae1dfa",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": "https://drive.google.com/uc?export=download&id=1SiJB05_VI11hV2yl2DlAEcyfO1lzOCLk",
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-introduccion-a-la-microeconomia",
+   "source": "https://drive.google.com/uc?export=download&id=1c2ntF1yaIQb0l1d-_X30s_G-OO-4CvM7",
+   "sha256": "6b78f1d06e79e524ebb9b228782736e177875cfa82a234a2a90b4add721ab287",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-microeconomia-i",
+   "source": "https://drive.google.com/uc?export=download&id=1kMe9alwQ5zPydKiAa3LhE6a1b-yTi3Mx",
+   "sha256": "6c38c2fc900d3973c108b3dc7d67be447ddb51a63b18b1ecdf75c3b7681b28a4",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-microeconomia-ii",
+   "source": "https://drive.google.com/uc?export=download&id=11WDE73yvZet0aIiDSpnAIeaL3JZ1ut6R",
+   "sha256": "167cc105530542bd5307b1da5bc1b384644b97b6803abf2293b1edb2e5de1c06",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-microeconomia-iii",
+   "source": "https://drive.google.com/uc?export=download&id=1kcwSTTLoZ3kZc_hh2h10WzrVJC_FKRUg",
+   "sha256": "73ae59819f5ff0b6348c896438566170dc0dad69958b57ada7e3e4099e05b734",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-microeconomia-iv",
+   "source": "https://drive.google.com/uc?export=download&id=104WPVcM7rF7hX9uvooOmg9aM-BAht21K",
+   "sha256": "1c5c362080929f1c9a40f20d4715dd442c2cfbfa0718fc5a323fa15377cbda05",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-introduccion-a-la-macroeconomia",
+   "source": "https://drive.google.com/uc?export=download&id=1lABVgwVRictP1MPxjbXdzgVwNb8yQUJW",
+   "sha256": "f0756cd8f124f0835978acb3709007470c33237a9e297770b9ca3700b17e0688",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-macroeconomia-i",
+   "source": "https://drive.google.com/uc?export=download&id=1Ysw47Snsgl2lO8nAEHP2XoH5CM2HikiX",
+   "sha256": "517dcea1f68a2819e96ee99b2e21351263809b22433a1890137699cf2d3f6ba3",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-macroeconomia-ii",
+   "source": "https://drive.google.com/uc?export=download&id=1dXH90Hprpfzfx7XLISB7M7J5NprbwXR0",
+   "sha256": "6d1d009495b3fa7e9a812b201262f71e98ec770ff64d9c9547b5414a3bb00d54",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2024"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-macroeconomia-iii",
+   "source": "https://drive.google.com/uc?export=download&id=1m9mxn4ZgxoGDcws0G_erAANCQQeDJSol",
+   "sha256": "de48d1f5d8b0748919d4050f84ec6afc52a0f5e6f1d463af596e2a1bae29b413",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-macroeconomia-iv",
+   "source": "https://drive.google.com/uc?export=download&id=1XebhW6mrpG-SDlgyY182cH0ZlJliHlyz",
+   "sha256": "2217385ac8e4fdaa4e418057be90c50463a816b3220da05137bb9e759f6e6e60",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-metodos-cuantitativos-i",
+   "source": "https://drive.google.com/uc?export=download&id=1P5EoQAbvJfwG-m9V31w3zeDDP95TTzyf",
+   "sha256": "d19d2bfac9e26844593fb904c52d857a8752a2471164a6fdfe3aae018563b797",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-metodos-cuantitativos-ii",
+   "source": "https://drive.google.com/uc?export=download&id=1_1z6QIdAHfuo-bvUSXgVkjwCuLc655OO",
+   "sha256": "b1e0163db82cd9d4c44a898cce74a82b6771504913bdee1de4addd0b5edc51f7",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-estadistica-i",
+   "source": "https://drive.google.com/uc?export=download&id=12sDD7Wj_1MgxRqiQqTB1uhZwgX7Xsta3",
+   "sha256": "1771be8d4091ad553f497dee2f9b4463f06175ef0b79176dc1bb1b7196083e43",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-estadistica-ii",
+   "source": "https://drive.google.com/uc?export=download&id=138SnBd4u9X0RsVzADVMInteKtZnbTBb4",
+   "sha256": "0bf6073d76b6d079c82e4ecd573e37de3ec469ff78534cee55b25338d2bf1018",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-finanzas-i",
+   "source": "https://drive.google.com/uc?export=download&id=1ijJrPagYXQ689j456i0qPKccP1EmGDiC",
+   "sha256": "262263d533d9a5afa7aeeefa1cdce1e03c6affc020b7280edc0f75e723bb3c5f",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-finanzas-ii",
+   "source": "https://drive.google.com/uc?export=download&id=1GoC7r79rzy1pWa2w1DrO1s_M328pCK7P",
+   "sha256": "7257eec978c37638812290c34aec7eae2563ff52f8b1c36b4d886bf4cea55251",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-gestion-de-personas-i",
+   "source": "https://drive.google.com/uc?export=download&id=1Ni1VA5qquRj1E_YK6Y8n_K-iHTolISm4",
+   "sha256": "6e1350276f911f5acd5637f91f0797d10cc130ee67cbbc0a7a091b1c92437eac",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-programacion-para-analitica-de-datos",
+   "source": "https://drive.google.com/uc?export=download&id=12o6f738l73OsievO181pgbklClh6nY_w",
+   "sha256": "776ec2f4d0235d16197bbba23a06376429706ff884624c5e8376cd7870ade30e",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-tecnologia-y-sistemas-de-informacion",
+   "source": "https://drive.google.com/uc?export=download&id=1BR41UxUWy3XxiCFNE7ip02Pd30NHj1Dq",
+   "sha256": "1a7994fd598b5f7b299ea770ee9b1c677d4ecf51ceadb5a0ba19d13ac7834e7d",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-razonamiento-basado-en-datos",
+   "source": "https://drive.google.com/uc?export=download&id=1T54fyQXf55HKj7w9G6NWBY_5bu_Obe-D",
+   "sha256": "ed6b32f0ff7e1fee0398dabd21346813f06470b44e9b249bb327230e2b1a3e87",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-metodos-matematicos-i",
+   "source": "https://drive.google.com/uc?export=download&id=1K24xgYgxWezrR3qZS806OHXC7pS1rXCo",
+   "sha256": "baaedfef36a9a3ce369d840208e88217640b43e49802723cc0848462869a226b",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-metodos-matematicos-ii",
+   "source": "https://drive.google.com/uc?export=download&id=1Pc-aEt9VYgmTLbRDNAEdkrIDuC_cjWnL",
+   "sha256": "13627b97349bb606b219e3aa8e3d08f08680e6dcefd87e037f4f01de86252e56",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-metodos-matematicos-iii",
+   "source": "https://drive.google.com/uc?export=download&id=1me8u-pNt-F95VROgF9-DVvFWH3lm0OuT",
+   "sha256": "b2d0917d0d575c9e09d7452c4a9c455fc3997dae98bce3980727782dcc66129c",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-metodos-matematicos-iv",
+   "source": "https://drive.google.com/uc?export=download&id=1HHQ_C_nh4mm9oH1N7UJ7PgOxQPzMoZCb",
+   "sha256": "22eea03297a4f202bdfc753e962b7748c8f4627db805d04e0f9b96fc34b04562",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-marketing-i",
+   "source": "https://drive.google.com/uc?export=download&id=1ny9RR05Uj_i_-dzs4053J-MFeTx7K2Yv",
+   "sha256": "1c661f8d51da6f73be73aa94cd62fbb671134a23a39779df563d498c7dcbc6fd",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-marketing-ii",
+   "source": "https://drive.google.com/uc?export=download&id=1bPr4mtf91CZvz16dKVtEAYGM5URFuRl2",
+   "sha256": "74f2626c7fb1412317d38fae31a4bd25a2acb584cbe401e78271cf96e92b49f5",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-gestion-y-empresa",
+   "source": "https://drive.google.com/uc?export=download&id=1CliHVWvxyus5Ls1BozNh7BTMYucRlkjE",
+   "sha256": "8222a90ac056cc7eeca727bcf41c09d8a9b9a19fd2b6fd559419613a07d8593a",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-taller-de-negocios",
+   "source": "https://drive.google.com/uc?export=download&id=1U91S2llEuHI3lEs1awQkICaaSEavgqV6",
+   "sha256": "b4aea5ea078e4d40a442cbc8f9eb191799196fe48fb239b793666db89d0e7acd",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-negocios-ii",
+   "source": "https://drive.google.com/uc?export=download&id=1jV8xq4vC2s7eWAUB674CwSUXs9UnbC16",
+   "sha256": "56d26afe993bcd834e6a2f19f60c8bd75066552c7c814d52589c76294f891713",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-negocios-iii",
+   "source": "https://drive.google.com/uc?export=download&id=1Xk53jkmNmG_U4pDuHVJPAqdBPPJV-Ktm",
+   "sha256": "9b530e9fc9c75ab1913be08af4f3fb60f78ff4deb78111c89f7f74dc79b33b11",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": "https://drive.google.com/uc?export=download&id=1218HvaF2VihHsESylaPIg5cEz3MoXX1j",
+   "academicYear": null
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-negocios-i",
+   "source": "https://drive.google.com/uc?export=download&id=1SfevsQPUwAkxKc68v2j1_TF9-LfABzFh",
+   "sha256": "a13c9763f868c132a2a779412135c46bc36d7250dfcafb5d83a3833732106135",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "dedicated_programme_title",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "co-17-universidaddel",
+   "code": "MATE1203",
+   "source": "https://math.uniandes.edu.co/aplicaciones/programas/2025-20/1203-1.pdf",
+   "sha256": "b8f28fa35bf50e2380f0e901059c75bbedc65150a16d29a866a30d64a04cfce6",
+   "identifiedBy": [
+    "title",
+    "code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2025-20"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "co-17-universidaddel",
+   "code": "MATE1252",
+   "source": "https://math.uniandes.edu.co/aplicaciones/programas/2025-20/1252-2.pdf",
+   "sha256": "ca7f5af2481790d723f8e1637e6960ad534ad10096efa437581de74214a1c60a",
+   "identifiedBy": [
+    "title",
+    "code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2025-20"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "co-17-universidaddel",
+   "code": "MATE1253",
+   "source": "https://math.uniandes.edu.co/aplicaciones/programas/2025-20/1253-3.pdf",
+   "sha256": "796f030fcc64af39ab7b148eac3be3d51e4fa5b1739115c4df4e1629fbc4105a",
+   "identifiedBy": [
+    "title",
+    "code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2025-20"
+  },
+  {
+   "ledger": "americas-followup",
+   "universityId": "co-17-universidaddel",
+   "code": "MATE1506",
+   "source": "https://math.uniandes.edu.co/aplicaciones/programas/2025-20/1506-2.pdf",
+   "sha256": "d66c227dc873edaa632baa9e41f9e9e2ecb57fc148a762ae55c03402ec707d39",
+   "identifiedBy": [
+    "title",
+    "code"
+   ],
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "previousSource": null,
+   "academicYear": "2025-20"
   }
  ],
  "rejected": [
@@ -4521,5 +5144,18 @@
    "reason": "página de listagem (13 outras disciplinas citadas)"
   }
  ],
- "skipped": []
+ "skipped": [],
+ "followupRuns": [
+  {
+   "ledger": "americas-followup",
+   "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+   "imported": 42,
+   "versionUpdates": [
+    "ch-13-universidaddec|CAT-taller-de-politica-publica",
+    "ch-13-universidaddec|CAT-negocios-iii"
+   ],
+   "skipped": 0,
+   "researchLedger": ".cache\\public-research\\americas-followup-audited.json"
+  }
+ ]
 }
