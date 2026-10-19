@@ -172,3 +172,25 @@ test("public syllabus and university tables expose course limitations and agreem
     repository.foreignCourses.pop();
   }
 });
+
+test("local flag comparison preserves country color roles in all 21 preview assets", () => {
+  const codes = [...new Set(getRepository().universities.map((item) => item.flag.toLowerCase()))];
+  assert.equal(codes.length, 21);
+  for (const code of codes) {
+    const original = readFileSync(`public/flags/${code}.svg`, "utf8");
+    const preview = readFileSync(`public/flags-preview/${code}.svg`, "utf8");
+    assert.equal((preview.match(/<path\b/g) ?? []).length, (original.match(/<path\b/g) ?? []).length);
+    assert.doesNotMatch(preview, /<filter\b|<image\b|https?:\/\/(?!www\.w3\.org)/);
+    for (const [, color] of preview.matchAll(/(?:fill|stroke)="([^"]+)"/g)) {
+      assert.ok(["none", "#15110e", "#e63322", "#f1ece3"].includes(color), `${code}: ${color}`);
+    }
+  }
+  for (const code of ["de", "it", "fr"]) {
+    const svg = readFileSync(`public/flags-preview/${code}.svg`, "utf8");
+    for (const color of ["#15110e", "#e63322", "#f1ece3"]) assert.ok(svg.includes(color), `${code}: ${color}`);
+  }
+  for (const code of ["ar", "uy"]) assert.match(readFileSync(`public/flags-preview/${code}.svg`, "utf8"), /fill="#e63322"/);
+  const page = readFileSync("app/teste-bandeiras/page.tsx", "utf8");
+  assert.match(page, /flags-preview/);
+  assert.doesNotMatch(page, /CountryFlag|dangerouslySetInnerHTML/);
+});
