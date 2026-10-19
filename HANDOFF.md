@@ -1,3 +1,11 @@
+# Course / application / study-plan previews — 2026-10-19
+
+- Approved local scope implemented: /teste-inicio (four courses + exact stage filter), /teste-candidatura (official-source guide, local checklist and Forms), /teste-plano (pending subject selection and distinct documented matching). Existing app/page.tsx, layout and global styles unchanged; /disciplinas now accepts etapa.
+- Server: http://127.0.0.1:3002, session 37098. Browser verified stage links, received planner stage, ranking and checklist. Screenshots: .cache/course-home-preview.jpg, .cache/planning-preview.jpg, .cache/application-guide-preview.jpg.
+- Planner uses only eligible high/partial hashed reviews, excludes outside-agreement records and bundles; maximum cardinality one-to-one matching per university prevents foreign-course reuse. Does not optimize affinity quality within tied plans or check scheduling, credit caps, semester offer or institutional approval. Selection is session-only; changing course clears it.
+- Current signed IN-RE110/2026 was located on COI editais-abertos; guide cites source pages, Forms VMKaSyTrJz and PDF dates. Public page end14/12/2027 conflicts with signed PDF end14/12/2026; explicitly visible in guide. Earlier research docs saying edital not located are historical and have not been rewritten by this preview.
+- Final tests: 23 TS +85 Python. TypeScript check and production build passed. Full ESLint passed before final query-parameter fix; targeted final lint also run. All preview implementation commits are local; no push/deploy for this work. Flags draft PR #3 remains unchanged remotely.
+- User should review these routes before promoting any new home/guide/planner into public navigation. Preserve .claude/, .playwright-mcp/ and .cache/.
 # Simplified home preview — 2026-10-19
 
 - Approved separate local mock: http://127.0.0.1:3002/teste-inicio . Existing home and global layout/styles remain unchanged.
@@ -155,5 +163,7 @@ Branch: `feature/pareceres-curriculares`. Nada foi publicado em `main`; a Vercel
 - Na Bash deste ambiente, heredocs podem alterar barras invertidas: escrever código com a ferramenta de edição.
 - `python -m http.server` + navegador mantêm JS em cache; recarregue sem cache ao testar.
 - Nenhum parecer é homologação; não alterar `institutionalStatus` sem documento formal.
+
+
 
 
