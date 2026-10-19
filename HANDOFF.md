@@ -1,3 +1,11 @@
+# Published checkpoint — 2026-10-19
+
+- PR #2 was created as draft, checks passed, marked ready and merged: https://github.com/kenzofujimoto/fluxo-continuo/pull/2 . Merge commit9dd145a67987c4445fd82249d753bfe7ea00851a; origin/main then auto-generated a coverage timestamp-only commitd1db2bc. Local branch fast-forwarded to that state before this documentation checkpoint.
+- Production is live at https://fluxo-continuo.vercel.app/ . Verified ready deploymentdpl_9XYuBDfWdHx6PEqbrj36UxANi3wS (fluxo-continuo-8facn5p69-kenzofujimotos-projects.vercel.app), with public domain alias. Git integration performed production deployment; no extra manual deployment or promotion was necessary.
+- HTTP200 and content verified on home,/cobertura (1633syllabi/585reviews/0approvals),/ementas ENCOM300 and DER9829,/universidades/po-57-universidadeno (outside-agreement warning),/comparacoes?curso=dir (new Anthropology review),/pendencias. Evidence snapshot.cache/public-release-http-checks.json. GitHub validation and Vercel checks passed; local85Python+10TS tests,lint/types/build/audit passed.
+- Final research statistics and limitations are in docs/release-2026-10-18.md. No institutional messages sent. No universal public-source exhaustion claim;1084candidate pairs still await detailed analysis and1455foreign records lack confirmed individual programme. This was publication of the expanded audited source round, not completion of all curricular comparisons.
+- Preserve untracked.claude/,.playwright-mcp/ and ignored.cache/. They are excluded from deployment. No agent mutations pending. This post-publication documentation checkpoint is local; published application content is the merged PR #2.
+
 # Release candidate — 2026-10-18 (latest authoritative checkpoint)
 
 - Public-source round validated:3088 foreign catalogue records,1633 with individual syllabus,1455 without,1098 individual missing contact totals.188/221 Brazilian actual syllabus texts linked;33 absent(7 ordinary,16freeelective,8TCC,2internship). Historical scope is explicit; no universal exhaustion claim and no contacts.
