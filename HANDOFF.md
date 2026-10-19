@@ -1,3 +1,10 @@
+# Published favicon and page titles — 2026-10-19
+
+- PR #4 merged a199fca089df632d721f1fe1f17d8ce1c65c3139: https://github.com/kenzofujimoto/fluxo-continuo/pull/4 . Local branch fix/favicon-page-titles fast-forwarded to origin/main.
+- Production Ready dpl_5vFX1tVJPRfvyzR4N1yxbN5FXEoL, fluxo-continuo-hsd199y6l-kenzofujimotos-projects.vercel.app; alias https://fluxo-continuo.vercel.app/ . Published by Git integration.
+- SVG f/ mark plus ICO16/32/48 and Apple180 icons, reproduced from scripts/generate-brand-icons.mjs. Home uses middle dot; detail metadata names university/discipline/comparison; filtered lists and initial planner course have course context. Existing page-title template appends Fluxo Contínuo once.
+- 32 TS +85 Python tests, lint/types/build and GitHub validation run39254412044 passed. Public HTTP200 verified four exact titles and all three icon types. Browser confirmed client navigation changes the detail title and versioned SVG/ICO/Apple links.
+- Evidence: .cache/metadata-release-checks.json, .cache/favicon-published.jpg. Preserve untracked .claude/ and .playwright-mcp/. This documentation checkpoint remains local; production is merged PR #4.
 # Published globe + course home — 2026-10-19
 
 - User approved final release: interactive globe above four course links, stage filtering on /disciplinas, official /candidatura and /plano. Original flag colors included.
@@ -171,6 +178,7 @@ Branch: `feature/pareceres-curriculares`. Nada foi publicado em `main`; a Vercel
 - Na Bash deste ambiente, heredocs podem alterar barras invertidas: escrever código com a ferramenta de edição.
 - `python -m http.server` + navegador mantêm JS em cache; recarregue sem cache ao testar.
 - Nenhum parecer é homologação; não alterar `institutionalStatus` sem documento formal.
+
 
 
 
