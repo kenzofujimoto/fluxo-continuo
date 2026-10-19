@@ -141,11 +141,11 @@ test("invalid datasets fail visibly and unsafe source protocols are rejected", (
   );
 });
 
-
 test("public syllabus and university tables expose course limitations and agreement exclusions", async () => {
   const { renderToStaticMarkup } = await import("react-dom/server");
   const { default: Syllabi } = await import("../app/ementas/page");
-  const { default: UniversityDetail } = await import("../app/universidades/[id]/page");
+  const { default: UniversityDetail } =
+    await import("../app/universidades/[id]/page");
   const repository = getRepository();
   const original = repository.foreignCourses[0];
   const sentinel = "Scope limitation regression sentinel";
@@ -157,13 +157,17 @@ test("public syllabus and university tables expose course limitations and agreem
     sourceEligibility: "outside_agreement",
   });
   try {
-    const library = renderToStaticMarkup(await Syllabi({
-      searchParams: Promise.resolve({ origem: "exterior", q: sentinel }),
-    }));
-    const university = renderToStaticMarkup(await UniversityDetail({
-      params: Promise.resolve({ id: original.universityId }),
-      searchParams: Promise.resolve({ q: sentinel }),
-    }));
+    const library = renderToStaticMarkup(
+      await Syllabi({
+        searchParams: Promise.resolve({ origem: "exterior", q: sentinel }),
+      }),
+    );
+    const university = renderToStaticMarkup(
+      await UniversityDetail({
+        params: Promise.resolve({ id: original.universityId }),
+        searchParams: Promise.resolve({ q: sentinel }),
+      }),
+    );
     for (const html of [library, university]) {
       assert.match(html, /Only another faculty; mobility access unconfirmed\./);
       assert.match(html, /Fora do escopo do acordo/);
@@ -171,4 +175,103 @@ test("public syllabus and university tables expose course limitations and agreem
   } finally {
     repository.foreignCourses.pop();
   }
+});
+
+test("local flag comparison preserves country color roles in all 21 preview assets", () => {
+  const codes = [
+    ...new Set(
+      getRepository().universities.map((item) => item.flag.toLowerCase()),
+    ),
+  ];
+  assert.equal(codes.length, 21);
+  for (const code of codes) {
+    const original = readFileSync(`public/flags/${code}.svg`, "utf8");
+    const preview = readFileSync(`public/flags-preview/${code}.svg`, "utf8");
+    assert.equal(
+      (preview.match(/<path\b/g) ?? []).length,
+      (original.match(/<path\b/g) ?? []).length,
+    );
+    assert.doesNotMatch(
+      preview,
+      /<filter\b|<image\b|https?:\/\/(?!www\.w3\.org)/,
+    );
+    for (const [, color] of preview.matchAll(/(?:fill|stroke)="([^"]+)"/g)) {
+      assert.ok(
+        ["none", "#15110e", "#e63322", "#f1ece3"].includes(color) ||
+          /^url\(#[a-z0-9-]+\)$/.test(color),
+        `${code}: ${color}`,
+      );
+    }
+  }
+  for (const code of ["de", "it", "fr", "ie", "in"]) {
+    const svg = readFileSync(`public/flags-preview/${code}.svg`, "utf8");
+    for (const color of ["#15110e", "#e63322", "#f1ece3"])
+      assert.ok(svg.includes(color), `${code}: ${color}`);
+  }
+  for (const code of ["ar", "uy"])
+    assert.match(
+      readFileSync(`public/flags-preview/${code}.svg`, "utf8"),
+      /fill="#e63322"/,
+    );
+  const page = readFileSync("app/teste-bandeiras/page.tsx", "utf8");
+  assert.match(page, /flags-preview/);
+  assert.doesNotMatch(page, /CountryFlag|dangerouslySetInnerHTML/);
+});
+
+test("country flags preserve original asset colors without duotone filters", () => {
+  const component = readFileSync("app/country-flag.tsx", "utf8");
+  assert.doesNotMatch(
+    component,
+    /<filter|feColorMatrix|feComponentTransfer|filter=/,
+  );
+  assert.match(component, /\/flags\/\$\{normalizedCode\}\.svg/);
+  assert.match(component, /availableFlags\.has\(normalizedCode\)/);
+});
+
+test("course home offers four courses, stage selection and study planning without dense globe content", () => {
+  const page = readFileSync("app/teste-inicio/page.tsx", "utf8");
+  assert.match(page, /CourseEntry/);
+  const entry = readFileSync("app/teste-inicio/course-entry.tsx", "utf8");
+  assert.match(entry, /teste-plano/);
+  assert.match(entry, /teste-candidatura/);
+  assert.match(entry, /etapa/);
+  assert.doesNotMatch(page + entry, /PreviewGlobe|stats-strip|ReviewCard/);
+});
+
+test("stage filters use exact curriculum stages and preserve unknown stages separately", async () => {
+  const { filterByStage, parseStage, availableStages } =
+    await import("../lib/stages");
+  const rows = [
+    { row: { semester: 1 } },
+    { row: { semester: 2 } },
+    { row: {} },
+  ];
+  assert.deepEqual(filterByStage(rows, "2"), [rows[1]]);
+  assert.deepEqual(filterByStage(rows, "nao-informada"), [rows[2]]);
+  assert.deepEqual(filterByStage(rows, ""), rows);
+  assert.equal(parseStage("25"), "");
+  assert.equal(parseStage("1.5"), "");
+  assert.deepEqual(
+    availableStages(
+      getRepository().courses.find((course) => course.id === "dir")!.rows,
+    ),
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  );
+});
+
+test("discipline page applies a course stage to actual rendered rows", async () => {
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const { default: Disciplines } = await import("../app/disciplinas/page");
+  const html = renderToStaticMarkup(
+    await Disciplines({
+      searchParams: Promise.resolve({ curso: "cc", etapa: "2" }),
+    }),
+  );
+  const rows = searchDisciplines("", "cc");
+  assert.ok(rows.some(({ row }) => row.semester === 2));
+  for (const { row } of rows.filter(({ row }) => row.semester === 2)) {
+    assert.ok(html.includes(row.name.replaceAll("&", "&amp;")));
+  }
+  assert.doesNotMatch(html, /CC \/ 1ª etapa/);
+  assert.match(html, /CC \/ 2ª etapa/);
 });

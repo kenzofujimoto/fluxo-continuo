@@ -1,7 +1,3 @@
-"use client";
-
-import { useId } from "react";
-
 const availableFlags = new Set([
   "de",
   "ar",
@@ -28,7 +24,6 @@ const availableFlags = new Set([
 
 /** Decorative country mark; the adjacent country name provides the label. */
 export function CountryFlag({ code }: { code: string }) {
-  const filterId = `country-duotone-${useId().replace(/:/g, "")}`;
   const normalizedCode = code.toLowerCase();
   if (!availableFlags.has(normalizedCode))
     return (
@@ -43,22 +38,12 @@ export function CountryFlag({ code }: { code: string }) {
       aria-hidden="true"
       focusable="false"
     >
-      <defs>
-        <filter id={filterId} colorInterpolationFilters="sRGB">
-          <feColorMatrix type="saturate" values="0" />
-          <feComponentTransfer>
-            <feFuncR type="discrete" tableValues="0.902 0.945" />
-            <feFuncG type="discrete" tableValues="0.2 0.925" />
-            <feFuncB type="discrete" tableValues="0.133 0.890" />
-          </feComponentTransfer>
-        </filter>
-      </defs>
       <image
         href={`/flags/${normalizedCode}.svg`}
         width="640"
         height="480"
-        filter={`url(#${filterId})`}
       />
     </svg>
   );
 }
+

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { availableStages, filterByStage, parseStage } from "../../lib/stages";
 import {
   disciplineKey,
   disciplinePath,
@@ -24,7 +25,15 @@ export default async function Disciplines({
 }) {
   const query = await searchParams;
   const degree = queryValue(query, "curso");
-  const results = searchDisciplines(queryValue(query, "q"), degree);
+  const stage = parseStage(queryValue(query, "etapa"));
+  const courses = getRepository().courses.filter(
+    (course) => !degree || course.id === degree,
+  );
+  const stages = availableStages(courses.flatMap((course) => course.rows));
+  const results = filterByStage(
+    searchDisciplines(queryValue(query, "q"), degree),
+    stage,
+  );
   const page = pageNumber(query, results.length);
   const { reviews, pending } = getRepository();
   return (
@@ -36,6 +45,18 @@ export default async function Disciplines({
       <form className="filters">
         <Search query={queryValue(query, "q")} />
         <CourseSelect value={degree} />
+        <label>
+          Etapa da matriz
+          <select name="etapa" defaultValue={stage}>
+            <option value="">Todas as etapas</option>
+            {stages.map((value) => (
+              <option key={value} value={value}>
+                {value}ª etapa
+              </option>
+            ))}
+            <option value="nao-informada">Etapa não informada</option>
+          </select>
+        </label>
         <button className="button dark" type="submit">
           Buscar →
         </button>

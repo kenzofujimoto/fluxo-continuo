@@ -1,3 +1,31 @@
+# Course / application / study-plan previews — 2026-10-19
+
+- Approved local scope implemented: /teste-inicio (four courses + exact stage filter), /teste-candidatura (official-source guide, local checklist and Forms), /teste-plano (pending subject selection and distinct documented matching). Existing app/page.tsx, layout and global styles unchanged; /disciplinas now accepts etapa.
+- Server: http://127.0.0.1:3002, session 37098. Browser verified stage links, received planner stage, ranking and checklist. Screenshots: .cache/course-home-preview.jpg, .cache/planning-preview.jpg, .cache/application-guide-preview.jpg.
+- Planner uses only eligible high/partial hashed reviews, excludes outside-agreement records and bundles; maximum cardinality one-to-one matching per university prevents foreign-course reuse. Does not optimize affinity quality within tied plans or check scheduling, credit caps, semester offer or institutional approval. Selection is session-only; changing course clears it.
+- Current signed IN-RE110/2026 was located on COI editais-abertos; guide cites source pages, Forms VMKaSyTrJz and PDF dates. Public page end14/12/2027 conflicts with signed PDF end14/12/2026; explicitly visible in guide. Earlier research docs saying edital not located are historical and have not been rewritten by this preview.
+- Final tests: 23 TS +85 Python. TypeScript check and production build passed. Full ESLint passed before final query-parameter fix; targeted final lint also run. All preview implementation commits are local; no push/deploy for this work. Flags draft PR #3 remains unchanged remotely.
+- User should review these routes before promoting any new home/guide/planner into public navigation. Preserve .claude/, .playwright-mcp/ and .cache/.
+# Simplified home preview — 2026-10-19
+
+- Approved separate local mock: http://127.0.0.1:3002/teste-inicio . Existing home and global layout/styles remain unchanged.
+- Short headline, one sentence, two primary paths, interactive globe and accessible destination selector. Removed metrics/cards/research detail from this preview only.
+- Desktop visual verified: globe loads, changing destination updates institution link. Screenshot: .cache/simple-home-preview.jpg. Do not apply this design to home or publish it until user chooses.
+- Original flags were pushed to fix/flag-preview; draft PR #3: https://github.com/kenzofujimoto/fluxo-continuo/pull/3 . Simplified-home mock remains local.
+# Local flag comparison mock — 2026-10-19
+
+- Branch: fix/flag-preview. Local preview: http://127.0.0.1:3002/teste-bandeiras (server session 52327).
+- User requested original colors alongside MackJr palette before applying changes. Compare 21 countries in light headers, dark cards and a complete contact sheet. Production CountryFlag and original SVG assets remain unchanged. No push or deployment.
+- Commits: 5909258 (failing regression), 75b1b06 (implementation). Full 96 tests, lint and build passed. Browser verified 50 loaded images and no CSS filters; visual snapshot: .cache/flag-preview.jpg.
+- Await user preference before integrating either option into the main site. Preserve existing untracked directories.
+# Published checkpoint — 2026-10-19
+
+- PR #2 was created as draft, checks passed, marked ready and merged: https://github.com/kenzofujimoto/fluxo-continuo/pull/2 . Merge commit9dd145a67987c4445fd82249d753bfe7ea00851a; origin/main then auto-generated a coverage timestamp-only commitd1db2bc. Local branch fast-forwarded to that state before this documentation checkpoint.
+- Production is live at https://fluxo-continuo.vercel.app/ . Verified ready deploymentdpl_9XYuBDfWdHx6PEqbrj36UxANi3wS (fluxo-continuo-8facn5p69-kenzofujimotos-projects.vercel.app), with public domain alias. Git integration performed production deployment; no extra manual deployment or promotion was necessary.
+- HTTP200 and content verified on home,/cobertura (1633syllabi/585reviews/0approvals),/ementas ENCOM300 and DER9829,/universidades/po-57-universidadeno (outside-agreement warning),/comparacoes?curso=dir (new Anthropology review),/pendencias. Evidence snapshot.cache/public-release-http-checks.json. GitHub validation and Vercel checks passed; local85Python+10TS tests,lint/types/build/audit passed.
+- Final research statistics and limitations are in docs/release-2026-10-18.md. No institutional messages sent. No universal public-source exhaustion claim;1084candidate pairs still await detailed analysis and1455foreign records lack confirmed individual programme. This was publication of the expanded audited source round, not completion of all curricular comparisons.
+- Preserve untracked.claude/,.playwright-mcp/ and ignored.cache/. They are excluded from deployment. No agent mutations pending. This post-publication documentation checkpoint is local; published application content is the merged PR #2.
+
 # Release candidate — 2026-10-18 (latest authoritative checkpoint)
 
 - Public-source round validated:3088 foreign catalogue records,1633 with individual syllabus,1455 without,1098 individual missing contact totals.188/221 Brazilian actual syllabus texts linked;33 absent(7 ordinary,16freeelective,8TCC,2internship). Historical scope is explicit; no universal exhaustion claim and no contacts.
@@ -135,3 +163,7 @@ Branch: `feature/pareceres-curriculares`. Nada foi publicado em `main`; a Vercel
 - Na Bash deste ambiente, heredocs podem alterar barras invertidas: escrever código com a ferramenta de edição.
 - `python -m http.server` + navegador mantêm JS em cache; recarregue sem cache ao testar.
 - Nenhum parecer é homologação; não alterar `institutionalStatus` sem documento formal.
+
+
+
+

@@ -1,0 +1,201 @@
+.shell {
+  padding: 36px clamp(24px, 6vw, 96px) 72px;
+  min-height: 78vh;
+  background: var(--paper);
+  color: var(--ink);
+}
+.topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.topline a {
+  border-bottom: 1px solid var(--signal);
+  padding-bottom: 6px;
+}
+.heading {
+  margin: 56px 0 46px;
+}
+.heading h1 {
+  font-size: clamp(44px, 6vw, 84px);
+  letter-spacing: -0.065em;
+  line-height: 1.04;
+  font-weight: 500;
+  margin: 0;
+}
+.heading em {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  color: var(--signal);
+}
+.heading p {
+  margin: 24px 0 0;
+  max-width: 470px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #6b655c;
+}
+.courses {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.courses legend,
+.stage {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.courses legend {
+  margin-bottom: 18px;
+}
+.card {
+  position: relative;
+  cursor: pointer;
+}
+.card input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.cardBody {
+  border: 1px solid #cfc7b9;
+  padding: 24px;
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  transition:
+    background 0.15s,
+    color 0.15s;
+}
+.number {
+  display: flex;
+  justify-content: space-between;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  color: #756d62;
+}
+.card strong {
+  margin: 30px 0 18px;
+  font-size: clamp(19px, 2vw, 27px);
+  letter-spacing: -0.04em;
+  line-height: 1.12;
+  font-weight: 500;
+  max-width: 220px;
+}
+.choice {
+  font-size: 11px;
+  margin-top: auto;
+  color: #756d62;
+}
+.card input:checked + .cardBody {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+}
+.card input:checked + .cardBody .number {
+  color: var(--signal);
+}
+.card input:checked + .cardBody .choice {
+  color: #c8c1b6;
+}
+.card:hover .cardBody {
+  border-color: var(--signal);
+}
+.card input:focus-visible + .cardBody,
+.shell a:focus-visible,
+.shell select:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 5px;
+}
+.bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+}
+.stage {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.stage select {
+  padding: 13px 36px 13px 14px;
+  border: 1px solid #cfc7b9;
+  background: transparent;
+  color: var(--ink);
+  font:
+    14px "Space Grotesk",
+    sans-serif;
+  min-width: 220px;
+}
+.actions {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.primary {
+  background: var(--signal);
+  color: var(--paper);
+  padding: 17px 22px;
+  font-size: 14px;
+  display: flex;
+  gap: 26px;
+}
+.primary:hover {
+  background: #bf2b1e;
+}
+.secondary {
+  font-size: 13px;
+  border-bottom: 1px solid #b1a797;
+  padding: 8px 0;
+}
+@media (max-width: 850px) {
+  .courses {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .heading {
+    margin-top: 42px;
+  }
+  .cardBody {
+    min-height: 190px;
+  }
+}
+@media (max-width: 480px) {
+  .topline {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .shell {
+    padding: 28px 22px 48px;
+  }
+  .heading h1 {
+    font-size: 43px;
+  }
+  .cardBody {
+    padding: 18px;
+    min-height: 180px;
+  }
+  .card strong {
+    font-size: 21px;
+    margin-top: 24px;
+  }
+  .actions {
+    gap: 16px;
+  }
+}
