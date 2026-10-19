@@ -1,0 +1,153 @@
+{
+  "id": "dir|INTRODUCAO À COSMOVISÃO REFORMADA|es-salamanca|CAT-USAL-207730",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "INTRODUCAO À COSMOVISÃO REFORMADA",
+    "name": "Introdução à Cosmovisão Reformada",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 88, bloco 'INTRODUÇÃO À COSMOVISÃO REFORMADA' (2ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo da relevância e contribuições da Tradição Reformada ou Calvinista, sobretudo em sua ética e espiritualidade, para a construção histórica da sociedade ocidental moderna em geral, e brasileira em particular, expressos em seus aspectos culturais, econômicos, sociais, políticos e educacionais",
+      "Análise dos princípios confessionais da UPM, tanto em sua constituição como em seu percurso histórico"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "code": "CAT-USAL-207730",
+      "university": "Universidad de Salamanca",
+      "name": "Derecho matrimonial de las confesiones religiosas y su reconocimiento civil",
+      "pageCode": "102340",
+      "faculty": "Facultad de Derecho",
+      "department": "Derecho Privado (área Derecho Eclesiástico del Estado)",
+      "programme": "Grado en Derecho (plan 223)",
+      "level": "Grado (graduação)",
+      "yearOfStudy": 4,
+      "semester": 1,
+      "period": "Primer semestre (curso 2025/2026)",
+      "academicYear": "2025/2026",
+      "language": "Espanhol",
+      "courseStatus": "Optativa",
+      "assessment": "Exame final escrito como instrumento principal; casos práticos e participação podem somar até 1 ponto",
+      "prerequisites": "Seção 2 'Recomendaciones previas' sem conteúdo (-)",
+      "catalogue": "https://www.usal.es/grados",
+      "location": "Guia acadêmico 2025/2026: seções 1 (dados), 3 (objetivos), 5 (contenidos 1-5), 6 (metodologias), 7 (vazia), 8 (recursos), 9 (avaliação)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A seção 7 'Distribución de las Metodologías Docentes' está vazia na cópia oficial; sem horas de contato. O código impresso na página é 102340; o catálogo do projeto registra o nó 207730 da guia."
+      },
+      "source": "https://guias.usal.es/node/207730",
+      "sha256": "d05c28328011e7df9e20f0b9ff01f6db4e1cf0024fe0d836befb37ab5e7dd022"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da relevância e contribuições da Tradição Reformada ou Calvinista, sobretudo em sua ética e espiritualidade, para a construção histórica da sociedade ocidental moderna em geral, e brasileira em particular, expressos em seus aspectos culturais, econômicos, sociais, políticos e educacionais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (contenidos 1-5), 6 e 8 (recursos e bibliografia) da guia 2025/2026",
+      "note": "Nada sobre a tradição reformada ou calvinista, sua ética e espiritualidade ou sua influência cultural, econômica, social, política e educacional. O contato mais próximo, 'El matrimonio evangélico' (conteúdo 2), regula capacidade, forma e dissolução do vínculo."
+    },
+    {
+      "brTopic": "Análise dos princípios confessionais da UPM, tanto em sua constituição como em seu percurso histórico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3 (objetivos), 5 (contenidos 1-5), 6 e 8 (recursos e bibliografia) da guia 2025/2026",
+      "note": "Os princípios confessionais da UPM, em sua constituição e percurso histórico, são tema institucional do Mackenzie e não de um programa jurídico de universidade pública."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Casamento canônico: conceito, nulidade, impedimentos, vícios do consentimento, dissolução e procedimentos",
+      "location": "Contenidos, 1"
+    },
+    {
+      "topic": "Casamento evangélico: capacidade, forma de celebração e dissolução do vínculo",
+      "location": "Contenidos, 2"
+    },
+    {
+      "topic": "Casamento no direito hebreu e no direito islâmico",
+      "location": "Contenidos, 3-4"
+    },
+    {
+      "topic": "Reconhecimento de eficácia civil dos casamentos religiosos no direito espanhol",
+      "location": "Contenidos, 5"
+    }
+  ],
+  "competencies": {
+    "brazil": "A ementa pede estudo da contribuição da tradição reformada à sociedade ocidental moderna e brasileira e análise dos princípios confessionais da UPM; o ementário não lista competências.",
+    "foreign": [
+      "Conhecer os sistemas jurídicos dos casamentos religiosos com eficácia civil na Espanha",
+      "Analisar textos jurídicos e jurisprudência relativos a esses casamentos",
+      "Elaborar e defender soluções jurídicas para casos específicos"
+    ],
+    "convergences": [],
+    "differences": [
+      "A guia espanhola é de direito eclesiástico do Estado; a ementa brasileira é histórico-cultural e institucional, sem pretensão de direito positivo"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca: optativa do 4º ano do Grado en Derecho; Mackenzie: componente institucional da 2ª etapa de Direito",
+    "brazil": "Componente de 2 horas-aula semanais com ementa de duas frases",
+    "foreign": "Optativa técnico-jurídica de 6 ECTS, com cinco blocos de direito matrimonial comparado entre confissões",
+    "theoryPractice": "Aulas magistrais e resolução de casos práticos; distribuição de horas não impressa"
+  },
+  "practical": {
+    "period": "Primeiro semestre do ano letivo espanhol; oferta 2027/28 não confirmada",
+    "language": "Espanhol",
+    "enrolment": "Optativa de 4º curso; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhum informado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Apesar de ser uma disciplina jurídica, a guia espanhola de direito matrimonial das confissões religiosas não estuda a tradição reformada nem a identidade confessional da UPM; os dois enunciados da ementa brasileira ficam sem correspondência.",
+  "justification": "A guia lista cinco blocos (casamento canônico, evangélico, hebreu, islâmico e reconhecimento civil na Espanha), todos de regime jurídico: nulidade, forma, consentimento e dissolução. A ementa de Cosmovisão Reformada pede contribuição histórica do calvinismo à sociedade brasileira e análise dos princípios da UPM, objetos que não aparecem em nenhum dos blocos. A natureza jurídica do curso espanhol o aproxima da graduação em Direito, mas não do conteúdo; mesmo entre disciplinas de religião e direito, a diferença entre regulação do casamento e história de uma tradição é de objeto. Carga e vigência também limitam a comparação: 6 ECTS sem horas contra 2 horas-aula semanais do ementário de 2022.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia completa e título conferido com o catálogo, o que evidencia a ausência de correspondência; reduzem a confiança a seção de horas vazia e o ementário brasileiro histórico de duas frases.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; carga em horas-aula semanais, não comparável; 6 ECTS não convertidos",
+    "Seção 7 (distribuição de horas) vazia na guia estrangeira; documento do curso 2025/2026; oferta 2027/28 não confirmada",
+    "Página traz código 102340, diferente do nó 207730 registrado no catálogo do projeto; título coincide",
+    "Candidata de origem semântica (conceito 'cosmovisão'): coincidência de tema religioso, não de programa",
+    "Componente brasileiro de natureza confessional/institucional",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de Direito trata a Cosmovisão Reformada como componente exclusivamente institucional, não aproveitável por estudos no exterior?",
+    "Direito Eclesiástico poderia ser aceito em outro componente de Direito do Mackenzie, e não neste?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da guia acadêmica USAL 2025/2026 com apoio de IA (Claude); título da página conferido com o catálogo; cada enunciado buscado em objetivos e contenidos; coerência verificada por scripts/build_pareceres.py --check",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência de correspondência evidente em guia completa"
+  }
+}

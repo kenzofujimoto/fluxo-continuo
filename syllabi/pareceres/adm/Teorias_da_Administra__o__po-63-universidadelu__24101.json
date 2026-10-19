@@ -1,0 +1,214 @@
+{
+  "id": "adm|Teorias da Administração|po-63-universidadelu|24101",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Teorias da Administração",
+    "name": "Teorias da Administração",
+    "courseName": "Administração",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 2º Semestre (Etapa_2_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_2_02.pdf",
+    "sha256": "2895456e0c1553544f018d883f905787a25bb69a353bb6288735c21e05fb81cf",
+    "location": "PDF p. 9, bloco 'Teorias da Administração': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Modelo Burocrático de Organização",
+      "Administração Científica",
+      "Teoria Clássica da Administração de Fayol",
+      "Teoria das Relações Humanas e suas decorrências",
+      "Introdução à Teoria Neoclássica da Administração e Administração por objetivos (APO)",
+      "Teoria dos Sistemas",
+      "O Necoclassicismo e a APO",
+      "Teoria Estruturalista da Administração",
+      "Teoria Contingencial",
+      "Visão Institucionalista das Organizações"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24101",
+      "name": "Introdução à Gestão",
+      "pageCode": "24101",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa)",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha foi extraído de forma truncada; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "1º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "'De acordo com a regulamentação em vigor na universidade' (item 19); sem detalhe de provas",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24101_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "c67c54cf84ee4d6f7c11b3be171bee47605dbc81d883211c789b873c257d290d",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 28/07/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (conteúdos 1-10), 19-20 (avaliação, recursos), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito e nenhum valor foi atribuído. A ficha declara 6 ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Modelo Burocrático de Organização",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'2. Teorias formais de gestão'; objetivo: 'Identificar as principais abordagens à teoria da gestão'",
+      "foreignLocation": "Item 18, conteúdo 2; item 15",
+      "note": "O conteúdo 2 não é desdobrado em escolas; a burocracia pode estar incluída, mas a ficha não a nomeia."
+    },
+    {
+      "brTopic": "Administração Científica",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'2. Teorias formais de gestão' sem desdobramento",
+      "foreignLocation": "Item 18, conteúdo 2",
+      "note": "Taylor e a administração científica não são nomeados no texto lido."
+    },
+    {
+      "brTopic": "Teoria Clássica da Administração de Fayol",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "Funções 'planear, organizar, dirigir e controlar' como âmbito da gestão; conteúdo 2 'Teorias formais de gestão'",
+      "foreignLocation": "Item 14; item 18, conteúdos 2 e 7-10",
+      "note": "As funções de gestão lembram Fayol, mas a ficha não atribui autoria nem trata a teoria clássica como tópico."
+    },
+    {
+      "brTopic": "Teoria das Relações Humanas e suas decorrências",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'9. Comunicação, liderança e motivação'; conteúdo 2 sem desdobramento",
+      "foreignLocation": "Item 18, conteúdos 2 e 9",
+      "note": "Motivação e liderança são temas vizinhos, mas a escola das relações humanas não é nomeada."
+    },
+    {
+      "brTopic": "Introdução à Teoria Neoclássica da Administração e Administração por objetivos (APO)",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'7. Planeamento e estratégia'; '10. Monitorização e controlo'",
+      "foreignLocation": "Item 18, conteúdos 7 e 10",
+      "note": "Planeamento e controlo tocam a APO, mas a teoria neoclássica e a administração por objetivos não são citadas."
+    },
+    {
+      "brTopic": "Teoria dos Sistemas",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'4. A envolvente e a cultura organizacional'; objetivo: 'Discutir o conceito de envolvente'",
+      "foreignLocation": "Item 18, conteúdo 4; item 15",
+      "note": "O conceito de envolvente é afim à visão de sistema aberto, mas a teoria dos sistemas não é nomeada."
+    },
+    {
+      "brTopic": "O Necoclassicismo e a APO",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'7. Planeamento e estratégia'; '10. Monitorização e controlo'",
+      "foreignLocation": "Item 18, conteúdos 7 e 10",
+      "note": "Enunciado brasileiro repete o tópico 5 (grafia 'Necoclassicismo' no original); mesma lacuna documental."
+    },
+    {
+      "brTopic": "Teoria Estruturalista da Administração",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'8. Desenho organizacional'; conteúdo 2 sem desdobramento",
+      "foreignLocation": "Item 18, conteúdos 2 e 8",
+      "note": "Desenho organizacional é tema vizinho; a escola estruturalista não é nomeada."
+    },
+    {
+      "brTopic": "Teoria Contingencial",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'4. A envolvente e a cultura organizacional'; '8. Desenho organizacional'",
+      "foreignLocation": "Item 18, conteúdos 4 e 8",
+      "note": "A relação organização-ambiente é tratada, mas a abordagem contingencial não é nomeada."
+    },
+    {
+      "brTopic": "Visão Institucionalista das Organizações",
+      "essential": true,
+      "status": "nao_verificavel",
+      "foreignEvidence": "'4. A envolvente e a cultura organizacional'; '6. Responsabilidade social e ética'",
+      "foreignLocation": "Item 18, conteúdos 4 e 6",
+      "note": "Nenhum item cita institucionalismo; só a cultura organizacional e o contexto são mencionados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Processo de tomada de decisão", "location": "Item 18, conteúdo 3"},
+    {"topic": "Globalização", "location": "Item 18, conteúdo 5"},
+    {"topic": "Responsabilidade social e ética", "location": "Item 18, conteúdo 6"},
+    {"topic": "Funções de gestão: planear, organizar, dirigir e controlar", "location": "Item 14; item 18, conteúdos 7-10"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos característicos de cada escola da administração nos séculos XIX e XX, realidade de época de cada uma e permanência de muitas teorias nas práticas organizacionais atuais.",
+    "foreign": [
+      "Identificar os princípios fundamentais da gestão de organizações formais",
+      "Compreender o âmbito das funções de gestão (planear, organizar, dirigir, controlar)",
+      "Identificar as principais abordagens à teoria da gestão",
+      "Desenvolver pensamento analítico, raciocínio crítico e comunicação oral e escrita"
+    ],
+    "convergences": [
+      "Objetivo de identificar as principais abordagens à teoria da gestão",
+      "Relação entre teoria e desafios da gestão atual"
+    ],
+    "differences": [
+      "A ficha brasileira é inteiramente dedicada a dez escolas e modelos teóricos; Lusíada dedica a eles um dos dez conteúdos",
+      "Lusíada abrange decisão, globalização, ética, planeamento, desenho organizacional e controlo, fora da lista brasileira"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Lusíada no 1º ano da Licenciatura em Gestão de Empresa, Mackenzie na 2ª etapa de Administração",
+    "brazil": "Disciplina histórico-teórica de 63,3 h com dez tópicos, um por escola",
+    "foreign": "Introdução geral à gestão, com dez conteúdos em que as teorias aparecem como um item sem desdobramento",
+    "theoryPractice": "Metodologia expositiva com discussão de situações e casos (item 17)"
+  },
+  "practical": {
+    "period": "1º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introdução à Gestão da Lusíada reserva ao tema um único conteúdo, 'Teorias formais de gestão', sem nomear escola alguma; por isso nenhum dos dez enunciados da ficha Mackenzie pode ser verificado, embora a UC pareça ser mais ampla e menos aprofundada em teoria.",
+  "justification": "Os dez enunciados brasileiros, um por escola ou modelo teórico, ficam nao_verificavel porque o conteúdo 2 da ficha lusíada não é desdobrado e os demais (decisão, envolvente, desenho organizacional, liderança, controlo) são apenas temas vizinhos. Pela regra (mais de um terço dos tópicos essenciais não verificáveis) a classe é evidência insuficiente, não baixa afinidade: a ficha não prova ausência, apenas não discrimina. Pelo desenho da UC, em que a teoria é um dos dez conteúdos, é provável que a profundidade seja inferior à das 63,3 h brasileiras, o que deve ser conferido com o plano de aula. O item 8 não permite apurar horas de contacto (6 ECTS) e a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "evidencia_insuficiente",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Ficha lusíada completa, mas sem desdobramento do conteúdo sobre teorias; horas de contacto ilegíveis e vigência da ficha brasileira não confirmada.",
+  "limitations": [
+    "Conteúdo 2 'Teorias formais de gestão' não discrimina escolas; classificação por escola não é possível",
+    "Ficha lusíada de 2025/2026 (emitida em 28/07/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso, com cabeçalho São Paulo e tópicos 5 e 7 repetidos (grafia 'Necoclassicismo')",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Quais escolas (burocracia, administração científica, Fayol, relações humanas, contingência) o conteúdo 2 abrange e com que carga?",
+    "A Lusíada tem outra UC de teoria das organizações ou de comportamento organizacional?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Introdução à Gestão'); cada tópico buscado nos itens 14-24; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Classe evidencia_insuficiente por ficha pouco discriminada; obter plano detalhado do conteúdo 2 antes de qualquer decisão"}
+}

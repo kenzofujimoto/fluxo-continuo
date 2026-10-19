@@ -1,0 +1,195 @@
+{
+  "id": "adm|Gestão Integrada de Empresas|po-55-institutopolit|51003223",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão Integrada de Empresas",
+    "name": "Gestão Integrada de Empresas",
+    "courseName": "Administração",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 8º Semestre (Etapa_8_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_8_02.pdf",
+    "sha256": "ad75686cce296fe03be1bf61a9b3f75d1090a24f81a8c9ae1e4a6e5054c5d9d0",
+    "location": "PDF p. 1, bloco 'Gestão Integrada de Empresas': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Decisões sobre gestão de pessoas",
+      "Análise de mercado e implantação da empresa",
+      "Decisões em um Ambiente de incerteza",
+      "Lean Manufacturing and Quality Improvement",
+      "Demonstrativos Financeiros, Plano de negócios, Valuation e Gestão de RH",
+      "Elaboração do plano de negócios, do Valuation e da Proposta de venda de participação",
+      "Negociação com investidor",
+      "Customized Objective Learning Assessment",
+      "Liberação dos resultados do Learning Assessment",
+      "Reunião com CEOS e VPS de RH Gestão, Reconhecimento e Remuneração"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-55-institutopolit",
+      "university": "Instituto Politécnico de Coimbra (Universidade Politécnica de Coimbra)",
+      "code": "51003223",
+      "name": "Introdução à Gestão de Empresas",
+      "pageCode": "51003223",
+      "faculty": "Instituto Superior de Contabilidade e Administração de Coimbra (ISCAC)",
+      "programme": "Licenciatura em Gestão de Empresas; área científica Ciências Empresariais e Económicas",
+      "level": "1º ciclo",
+      "yearOfStudy": 1,
+      "semester": null,
+      "period": "Semestral (a página não indica qual semestre)",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória (modo presencial)",
+      "assessment": "Avaliação contínua (2 testes 50%, projeto em grupo 30%, defesa oral 20%), exame com aproveitamento do projeto, ou exame 100%",
+      "prerequisites": "Nenhum conhecimento prévio específico exigido",
+      "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294345&r=26522",
+      "catalogue": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/",
+      "sha256": "cc48930a1cbc980270d2bdc0e072f5c0893ec2496313f63b55830dc7237a56f1",
+      "location": "Página da UC 2026/2027: Conhecimentos de Base, Métodos de Ensino, Objetivos (OA1-OA8), Competências (CD1-CD4), Programa P1-P5, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6 ECTS e duração semestral, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Decisões sobre gestão de pessoas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'4.2. Gestão de recursos humanos' como função empresarial; 3.3 direção: motivação, liderança, comunicação",
+      "foreignLocation": "Programa 3.3 e 4.2",
+      "note": "Apresentação introdutória da função; sem decisões de RH em simulação."
+    },
+    {
+      "brTopic": "Análise de mercado e implantação da empresa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'1.2. Ambiente organizacional, globalização e internacionalização'; '4.1. Marketing'; '5.2. Instrumentos básicos de análise estratégica'",
+      "foreignLocation": "Programa 1.2, 4.1 e 5.2",
+      "note": "Conceitos de ambiente e estratégia, sem análise de mercado aplicada nem implantação de empresa."
+    },
+    {
+      "brTopic": "Decisões em um Ambiente de incerteza",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'3.1. Planeamento e tomada de decisão'; ME4 'simulações e atividades de tomada de decisão'",
+      "foreignLocation": "Programa 3.1; Métodos de Ensino ME4",
+      "note": "Decisão em geral; incerteza não é nomeada."
+    },
+    {
+      "brTopic": "Lean Manufacturing and Quality Improvement",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa P1-P5, Objetivos OA1-OA8 e Bibliografia; '4.3 Operações e logística' é apenas uma função listada, sem lean nem melhoria da qualidade"
+    },
+    {
+      "brTopic": "Demonstrativos Financeiros, Plano de negócios, Valuation e Gestão de RH",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'4.4. Contabilidade e finanças'; '4.2. Gestão de recursos humanos'",
+      "foreignLocation": "Programa 4.2 e 4.4",
+      "note": "Funções apresentadas em nível introdutório; plano de negócios e valuation não aparecem."
+    },
+    {
+      "brTopic": "Elaboração do plano de negócios, do Valuation e da Proposta de venda de participação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa P1-P5 e Objetivos OA1-OA8; o projeto aplicado é um diagnóstico de organização, sem plano de negócios, valuation nem proposta a investidor"
+    },
+    {
+      "brTopic": "Negociação com investidor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Programa P1-P5, Métodos de Ensino e Avaliação; sem negociação nem captação de investidor"
+    },
+    {
+      "brTopic": "Customized Objective Learning Assessment",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Métodos de Avaliação MA1-MA4; a avaliação da UC é por testes, projeto e defesa oral, sem avaliação customizada de simulação",
+      "note": "Item de avaliação da simulação (instrumento), não conteúdo curricular; marcado como não essencial."
+    },
+    {
+      "brTopic": "Liberação dos resultados do Learning Assessment",
+      "essential": false,
+      "status": "nao_encontrado",
+      "scopeExamined": "Métodos de Avaliação; sem equivalente",
+      "note": "Evento administrativo do calendário da simulação, não conteúdo curricular; marcado como não essencial."
+    },
+    {
+      "brTopic": "Reunião com CEOS e VPS de RH Gestão, Reconhecimento e Remuneração",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'4.2. Gestão de recursos humanos'; 3.3 motivação e liderança",
+      "foreignLocation": "Programa 3.3 e 4.2",
+      "note": "Reconhecimento e remuneração não são nomeados; só a função de RH em visão geral."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Evolução das teorias da gestão (clássicas, comportamentais, sistémica, contingencial)", "location": "Programa P2"},
+    {"topic": "Ética, responsabilidade social e sustentabilidade", "location": "Programa 1.3"},
+    {"topic": "Estruturas organizacionais e cultura", "location": "Programa 3.2-3.3"},
+    {"topic": "Inovação e transformação digital", "location": "Programa 4.5"},
+    {"topic": "Gestão estratégica: níveis, processo, implementação e controlo", "location": "Programa P5"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: simulação da gestão empresarial em mercado competitivo, integração das áreas funcionais e decisão estratégica orientada a desempenho operacional, de mercado e financeiro.",
+    "foreign": ["Analisar o ambiente organizacional e as teorias da gestão", "Explicar o processo de gestão e as estruturas organizacionais", "Caracterizar as funções empresariais e suas interdependências", "Aplicar instrumentos básicos de análise estratégica em casos"],
+    "convergences": ["Integração das funções empresariais (visão geral)", "Tomada de decisão e análise estratégica em nível básico"],
+    "differences": ["Coimbra é uma UC introdutória de 1º ano, em casos e diagnóstico; Mackenzie é simulação de oitava etapa com plano de negócios, valuation e negociação com investidor", "Lean/qualidade, valuation e negociação não existem em Coimbra"]
+  },
+  "depth": {
+    "level": "Introdutória (1º ano) em Coimbra versus integradora de fim de curso (8ª etapa) no Mackenzie",
+    "brazil": "Simulação de gestão integrada de 63,3 h, com decisões e métricas de desempenho",
+    "foreign": "Princípios de gestão, teorias, processo de gestão e funções empresariais",
+    "theoryPractice": "Coimbra: exposição interativa, casos, projeto de diagnóstico em grupo e simulações pontuais de decisão"
+  },
+  "practical": {
+    "period": "Semestral; semestre não indicado na página. Oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Obrigatória no 1º ano de Gestão de Empresas; disponibilidade para mobilidade incoming a confirmar com a instituição",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introdução à Gestão de Empresas é uma UC de primeiro ano sobre princípios e funções da gestão; compartilha apenas o tema geral com a simulação integradora do Mackenzie, sem nenhum tópico coberto plenamente: baixa afinidade.",
+  "justification": "Nenhum dos oito enunciados essenciais está coberto; cinco são parciais por sobreposição de visão geral (RH em 4.2, ambiente e marketing em 1.2/4.1, decisão em 3.1, finanças em 4.4) e três ausentes (lean e qualidade, plano de negócios/valuation, negociação com investidor). A regra interna produziria afinidade parcial (5 de 8), mas todos os parciais são apresentações introdutórias de funções, enquanto a ficha brasileira é uma simulação de 63,3 h com decisões, valuation e investidor. A diferença de nível (1º ano versus 8ª etapa) e de natureza (teoria e casos versus simulação) leva à classe conservadora. Sem horas de contacto (6 ECTS) e com ficha Mackenzie de vigência não confirmada.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A regra interna indicaria afinidade parcial (5 de 8 tópicos essenciais parciais), mas todos os parciais são sobreposições de visão geral de funções empresariais em UC introdutória de 1º ano; nenhum tópico é coberto, e o núcleo da ficha Mackenzie (simulação integrada, plano de negócios, valuation, negociação com investidor, lean) está ausente.",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa e objetivos itemizados e título conferido; a baixa afinidade vem do escopo e do nível distintos, e faltam horas de contacto e vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos em horas",
+    "Oferta 2027/28 não confirmada; semestre de oferta não indicado",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; vários itens do conteúdo brasileiro são eventos da simulação, não conteúdos (dois marcados como não essenciais)",
+    "Não foi lida outra UC de ISCAC com simulação de gestão ou plano de negócios",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Existe, no plano de Gestão de Empresas do ISCAC, UC de projeto, simulação ou plano de negócios mais próxima da ficha Mackenzie?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e da página oficial da UC (2026/2027) do Politécnico de Coimbra, com apoio de IA (Claude); título da página conferido com o catálogo; cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}

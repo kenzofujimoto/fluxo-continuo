@@ -1,0 +1,162 @@
+{
+  "id": "dir|PRATICA JURIDICA CLINICA VI - ADVOCACIA CORPORATIVA|es-salamanca|CAT-USAL-207653",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "PRATICA JURIDICA CLINICA VI - ADVOCACIA CORPORATIVA",
+    "name": "Prática Jurídica Clínica VI - Advocacia Corporativa",
+    "courseName": "Direito",
+    "stage": 10,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 67, bloco 'PRATICA JURIDICA CLINICA VI - ADVOCACIA CORPORATIVA' (10ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 4 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Desenvolvimento de atividades de prática jurídica, com natureza de síntese integradora de conteúdos e competências",
+      "Prática jurídica que possibilite ao discente realizar, sob supervisão docente e dos parceiros responsáveis pelas atividades clínicas dos convênios, os atendimentos de casos reais, com foco na advocacia corporativa no âmbito do direito tributário e empresarial",
+      "Convênios com escritórios e empresas de grande porte da região"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Salamanca",
+      "name": "CLÍNICA JURÍDICA DE ACCIÓN SOCIAL",
+      "level": "Grau (graduação)",
+      "catalogue": "https://guias.usal.es/node/207653",
+      "universityId": "es-salamanca",
+      "code": "CAT-USAL-207653",
+      "source": "https://guias.usal.es/node/207653",
+      "sha256": "9ad46225d32feee2a6905bc8097d4e2f044a211ab7d5ebf3c2dacdace6b2a678",
+      "faculty": "Facultad de Derecho (Grado en Derecho)",
+      "department": "Derecho Privado; coordenação em Derecho Internacional Privado",
+      "programme": "Grado en Derecho; asignatura optativa, plan 223",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo semestre do 4º curso",
+      "academicYear": "2025/2026",
+      "language": "ESPAÑOL",
+      "courseStatus": "Optativa",
+      "assessment": "Critérios de avaliação não descritos no guia (secção 9 só traz 'Evaluación (Fecha: 25-05-22)')",
+      "prerequisites": "Não há recomendações prévias (secção 2 vazia)",
+      "location": "Guia 2025/2026: secções 1 (Datos), 3 (Objetivos), 4 (Competencias), 5 (Contenidos: seis líneas de actuación), 6 (Metodologías), 7 (vazia), 9 (Evaluación)",
+      "officialCode": "102375",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A secção 7 (Distribución de las Metodologías Docentes) não traz valores no texto; só 6 ECTS declarados, sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Desenvolvimento de atividades de prática jurídica, com natureza de síntese integradora de conteúdos e competências",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivo: 'aprendizaje activo y la formación práctica ... mediante el desarrollo de habilidades profesionales'; método que 'potencia la unidad del conocimiento (consilience)'",
+      "foreignLocation": "Seção 3, primeiro objetivo; seção 6",
+      "note": "A clínica espanhola também é prática de fim de curso (4º ano) que integra competências; o guia não usa o termo 'síntese integradora'."
+    },
+    {
+      "brTopic": "Prática jurídica que possibilite ao discente realizar, sob supervisão docente e dos parceiros responsáveis pelas atividades clínicas dos convênios, os atendimentos de casos reais, com foco na advocacia corporativa no âmbito do direito tributário e empresarial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'resolución y/o informe de casos reales provenientes de ONGs y entidades del tercer sector con los que la Universidad de Salamanca posea convenio'",
+      "foreignLocation": "Seção 6 (Metodologías Docentes); seção 5 (líneas de actuación)",
+      "note": "O método de casos reais com convênio é igual, mas o foco é ação social (clima, discapacidad, prisões, migração); a advocacia corporativa em direito tributário e empresarial não aparece."
+    },
+    {
+      "brTopic": "Convênios com escritórios e empresas de grande porte da região",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3, 5 e 6: os convênios são com ONGs e entidades do terceiro setor; não há escritórios nem empresas de grande porte.",
+      "note": "A existência de convênios é comum aos dois cursos, mas com parceiros de natureza oposta."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Seis linhas de atuação: mudança climática e desenvolvimento sustentável, discapacidad e dependência, intervenção penitenciária e direitos humanos, memória democrática, menores e uso da internet, migrantes",
+      "location": "Contenidos (texto cita o curso 2024/2025)"
+    },
+    {
+      "topic": "Formação em justiça social, consciência ética e defesa dos direitos humanos",
+      "location": "Objetivos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário 2022 sem competências formais; pede síntese integradora e atendimento de casos reais de advocacia corporativa (tributário e empresarial) sob supervisão.",
+    "foreign": [
+      "Analisar normas e fatos juridicamente relevantes e redigir documentos jurídicos",
+      "Trabalhar em equipe e de forma interdisciplinar, negociar e conciliar",
+      "Raciocínio crítico sobre as respostas do direito vigente",
+      "Consciência social e compromisso ético"
+    ],
+    "convergences": [
+      "Método clínico com casos reais e supervisão",
+      "Integração de competências profissionais no fim do curso"
+    ],
+    "differences": [
+      "Casos de ONGs e terceiro setor em vez de empresas e escritórios",
+      "Sem direito tributário ou empresarial entre as seis linhas",
+      "Motor pedagógico de justiça social, não de advocacia de negócios"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca: optativa do 4º curso; Mackenzie: 10ª etapa, obrigatória",
+    "brazil": "4 horas-aula semanais de prática com foco em advocacia corporativa",
+    "foreign": "6 ECTS; clínica jurídica de ação social com seis linhas anuais; horas e avaliação não detalhadas",
+    "theoryPractice": "Método essencialmente prático (casos reais); sem divisão de horas teoria/prática no texto"
+  },
+  "practical": {
+    "period": "Segundo semestre do 4º curso; verificar compatibilidade com o semestre de mobilidade 2027.2",
+    "language": "Espanhol",
+    "enrolment": "Optativa do grado com atendimento a casos de ONGs conveniadas; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhuma recomendação prévia",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Clínica Jurídica de Acción Social de Salamanca partilha com Prática Jurídica Clínica VI o método de casos reais conveniados, mas aplica-o a ONGs e direitos humanos; a razão de ser da componente brasileira, advocacia corporativa tributária e empresarial com grandes escritórios, não tem correspondente no guia.",
+  "justification": "A ementa Mackenzie tem três tópicos essenciais: a síntese integradora de competências (coberta pelo objetivo de formação prática e pela unidade do conhecimento), os atendimentos de casos reais com foco em direito tributário e empresarial (parcial, pois o método de casos reais conveniados é idêntico, mas as seis linhas de atuação são ações sociais) e os convênios com escritórios e empresas de grande porte (ausentes, já que Salamanca conveniou com ONGs e terceiro setor). A cobertura plena ou parcial seria de 67% e levaria à afinidade parcial, mas essa conta mede o método, não o objeto: o que define a componente brasileira, a advocacia de negócios, falta. Por isso a classe é rebaixada para baixa afinidade. Em horas, 4 horas-aula semanais de Mackenzie e 6 ECTS de Salamanca sem horas de contato não se comparam.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "A regra derivaria afinidade parcial por contar o método de casos reais, mas o objeto distintivo (advocacia corporativa tributária e empresarial, convênios com empresas) é inexistente no guia; o cotejo por tópicos genéricos superestimaria a afinidade.",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia curto, sem critérios de avaliação nem horas, e com texto de conteúdo que cita o curso 2024/2025 dentro do guia 2025/2026; o ementário brasileiro é de 2022. A diferença de objeto, porém, é evidente.",
+  "limitations": [
+    "Guia de Salamanca é do curso 2025/2026 e o texto de conteúdos refere-se ao curso 2024/2025; as linhas de atuação de 2027/28 podem mudar",
+    "Ementário Mackenzie de 2022 é edição histórica; a matriz vigente pode divergir",
+    "Mackenzie informa 4 horas-aula semanais; Salamanca informa 6 ECTS sem horas de contato; carga não comparável e ECTS não convertidos",
+    "A secção de avaliação do guia não descreve critérios; a forma de comprovar a atividade prática é desconhecida",
+    "Práticas com casos reais dependem de convênios externos de cada instituição, que não se transferem por documento",
+    "Oferta 2027/28 e vagas para intercambistas não confirmadas"
+  ],
+  "openQuestions": [
+    "A coordenação de Direito aceitaria uma clínica de ação social como atividade clínica no lugar da prática de advocacia corporativa, ou apenas como atividade complementar?",
+    "A Clínica de Salamanca admite alunos de mobilidade e inclui linha de atendimento a empresas em algum ano?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e do guia USAL 2025/2026 (nó 207653, código oficial 102375) com apoio de IA (Claude); título do guia conferido com o nome do catálogo (coincide); três tópicos examinados contra objetivos, competências, linhas de atuação e metodologia",
+  "secondReview": {
+    "required": true,
+    "reason": "Decisão sobre aceitar atividade clínica de ação social no lugar de prática corporativa depende da coordenação"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

@@ -1,0 +1,192 @@
+{
+  "id": "adm|Ética e Cidadania|po-63-universidadelu|02339",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Ética e Cidadania",
+    "name": "Ética e Cidadania",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 7, bloco 'Ética e Cidadania': carga horária (2 aulas semanais), ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "Ficha declara 2 horas-aula semanais, sem total semestral em horas-relógio. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Ética e Cidadania: objeto e campo de estudo",
+      "As principais teorias éticas e suas implicações",
+      "Importância, natureza e acessibilidade à verdade",
+      "As teorias da verdade e suas consequências para o campo ético",
+      "Liberdade e Justiça: a importância das leis",
+      "A democracia dos antigos e a democracia dos modernos",
+      "O Ser humano como ser social e político",
+      "Ética calvinista: a valorização da dignidade humana e suas implicações"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "02339",
+      "name": "Filosofia do Direito",
+      "pageCode": "02339",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito (Lisboa); UC de outro curso da universidade, não da Licenciatura em Gestão de Empresa",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha foi extraído de forma truncada; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "2º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Versão A: dois testes de avaliação contínua, presença e debates; versão B: trabalhos escritos, exposições orais, testes e debates (item 19)",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02339_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/direito.aspx",
+      "sha256": "8c479e4c77d9d960e1b0e225dd109b0e80994935fa57785c1920aad857c92fae",
+      "location": "PDF de 12 páginas com duas fichas 'Programa da Unidade Curricular' 2025/2026 (emitidas em 17/06/2025): versão A (pp. 1-6, regente Pais d'Aguiar) e versão B (pp. 7-12, regente Sousa Silva e Afonso Brigas); itens 8-9, 14-16, 17, 18, 19, 23-24 de cada",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 (repetido nas duas versões) traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula; nenhum total de contacto é explícito e nenhum valor foi atribuído. A ficha declara 6 ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Ética e Cidadania: objeto e campo de estudo",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "A: 'Parte II, Capítulo III: 1. Direito e Moral'; B: 'IX. O Direito e a moral'",
+      "foreignLocation": "Item 18, versão A (Parte II, Cap. III) e versão B (tópico IX)",
+      "note": "Só a relação entre moral e direito se aproxima; ética e cidadania como campo de estudo não são o objeto da UC, que é a filosofia jurídica."
+    },
+    {
+      "brTopic": "As principais teorias éticas e suas implicações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 22-24 das duas versões da ficha 2025/2026",
+      "note": "Os conteúdos listam escolas jusfilosóficas (positivismo, realismos, teoria tridimensional) e direito natural, não teorias éticas normativas."
+    },
+    {
+      "brTopic": "Importância, natureza e acessibilidade à verdade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 22-24 das duas versões da ficha 2025/2026",
+      "note": "Validade e eficácia do direito (versão B, XVI) são outro assunto que a verdade epistemológica."
+    },
+    {
+      "brTopic": "As teorias da verdade e suas consequências para o campo ético",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 22-24 das duas versões da ficha 2025/2026"
+    },
+    {
+      "brTopic": "Liberdade e Justiça: a importância das leis",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "A: 'Parte III, Capítulo III - Direito e Justiça'; B: 'X. O Direito e a justiça', 'XI. O Direito como condição de liberdade'",
+      "foreignLocation": "Item 18, versão A (Parte III, Cap. III) e versão B (tópicos X-XI)"
+    },
+    {
+      "brTopic": "A democracia dos antigos e a democracia dos modernos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 22-24 das duas versões da ficha 2025/2026",
+      "note": "Nenhuma menção a democracia; 'direito de resistência' (B, XII) é tema vizinho."
+    },
+    {
+      "brTopic": "O Ser humano como ser social e político",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "B: 'VI. O Direito como produto da sociedade'; 'VIII. O Direito como realidade cultural'; A: 'O Direito como realidade cultural e como ordem normativa'",
+      "foreignLocation": "Item 18, versão B (VI, VIII) e versão A (Parte II, Cap. II)",
+      "note": "Trata o direito como fato social e cultural, não o ser humano como ser social e político."
+    },
+    {
+      "brTopic": "Ética calvinista: a valorização da dignidade humana e suas implicações",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 22-24 das duas versões da ficha 2025/2026",
+      "note": "O enunciado é confessional (cosmovisão cristã reformada); nada análogo aparece, e 'Direitos e valores' (A, Parte III, Cap. I) não menciona dignidade humana."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Ontologia do direito: positivismo, realismos escandinavo e norte-americano, neo-idealismo, teoria egológica e tridimensional", "location": "Item 18, versão A, Parte II, Cap. I"},
+    {"topic": "Direito natural e axiologia do direito", "location": "Item 18, versão A, Parte III, Caps. I-II"},
+    {"topic": "Direito e inteligência artificial; 'positivismo jurídico-tecnológico'", "location": "Item 18, versão A, Parte IV"},
+    {"topic": "Direito e linguagem; direito e força; doutrina do espaço livre do Direito", "location": "Item 18, versão B, VII, XII, XIII"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos de ética, moral e cidadania e suas inter-relações; evolução histórica; teorias ético-normativas contemporâneas e suas implicações; ética cristã reformada e dignidade humana.",
+    "foreign": [
+      "Identificar quadros evolutivos do pensamento filosófico aplicados ao direito",
+      "Reconhecer formas filosoficamente possíveis de entender a realidade jurídica",
+      "Compreender a dicotomia entre princípios estruturantes e regra jurídica",
+      "Relacionar temas jurídicos concretos com a problemática filosófica subjacente"
+    ],
+    "convergences": [
+      "Reflexão filosófica sobre moral, justiça e liberdade",
+      "Debate de questões atuais em sala"
+    ],
+    "differences": [
+      "Lusíada é filosofia jurídica (ontologia e axiologia do direito) de curso de Direito; Mackenzie é ética geral, epistemologia e ética confessional reformada para Administração",
+      "Não há cidadania, democracia, teorias da verdade nem perspectiva confessional em Lusíada"
+    ]
+  },
+  "depth": {
+    "level": "Lusíada: 4º ano da Licenciatura em Direito; Mackenzie: 1ª etapa de Administração, introdutória",
+    "brazil": "Disciplina introdutória de 2 horas-aula semanais, com oito tópicos de ética, verdade e cidadania",
+    "foreign": "Filosofia do direito de nível avançado, com quatro partes (ou 16 tópicos na versão B)",
+    "theoryPractice": "Exposição, orientação tutorial e debate de casos (versão A); exposições e grupos de trabalho (versão B)"
+  },
+  "practical": {
+    "period": "2º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "UC da Faculdade de Direito, fora da matriz de Gestão de Empresa; acesso por aluno de Administração e disponibilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado (UC de 4º ano de Direito)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Filosofia do Direito da Lusíada é uma UC de teoria jurídica de 4º ano de Direito que só toca a ficha Mackenzie de Ética e Cidadania em justiça e liberdade, em moral e direito e em direito como fato social; teorias éticas, verdade, democracia e ética calvinista não aparecem.",
+  "justification": "Um enunciado é coberto (liberdade e justiça: Direito e Justiça na versão A, tópicos X-XI na B), dois são parciais (objeto de estudo, via Direito e Moral, e o ser humano como ser social, via direito como produto da sociedade) e cinco ausentes (teorias éticas, natureza da verdade, teorias da verdade, democracia antiga e moderna, ética calvinista). A cobertura somada de 3 em 8 (37,5%) fica abaixo de 50%, o que dá baixa afinidade: o par veio de recuperação semântica por conceitos comuns (ética, filosofia do direito) e a UC é de outro campo, com horas de contacto não apuráveis (6 ECTS) e carga brasileira só semanal.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Ficha lusíada completa (em duas versões) com conteúdo itemizado, mas horas de contacto ilegíveis, versão aplicável incerta e vigência da ficha brasileira não confirmada.",
+  "limitations": [
+    "O PDF contém duas fichas distintas (regentes diferentes, conteúdos programáticos diferentes); não se sabe qual vigora em 2025/2026",
+    "Ficha lusíada de 2025/2026 (emitida em 17/06/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Brasil informa apenas 2 horas-aula semanais; carga total em horas-relógio não declarada",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "UC de Direito (4º ano), fora da matriz de Administração da Lusíada; pressupostos de acesso desconhecidos",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Qual das duas versões da ficha de Filosofia do Direito vigora em 2026/2027?",
+    "A Lusíada admite aluno incoming de Administração em UC da Faculdade de Direito?",
+    "Existe na Lusíada UC de ética geral ou ética empresarial para Gestão de Empresa?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e das duas versões da ficha da UC de Filosofia do Direito (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Filosofia do direito'); cada tópico buscado nos itens 14-24; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Divergência de escopo clara; par de origem semântica"}
+}

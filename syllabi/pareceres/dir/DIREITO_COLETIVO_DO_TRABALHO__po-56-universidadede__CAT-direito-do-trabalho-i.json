@@ -1,0 +1,179 @@
+{
+  "id": "dir|DIREITO COLETIVO DO TRABALHO|po-56-universidadede|CAT-direito-do-trabalho-i",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO COLETIVO DO TRABALHO",
+    "name": "Direito Coletivo do Trabalho",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 51, bloco 'DIREITO COLETIVO DO TRABALHO' (7ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Lisboa",
+      "name": "Direito do Trabalho I",
+      "faculty": "Faculdade de Direito da Universidade de Lisboa",
+      "programme": "Licenciatura em Direito; ficha bilíngue (versão inglesa: 'Labour Law I – Evening Course')",
+      "level": "Licenciatura (graduação)",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "Catálogo FDUL indica 1.º semestre; a caixa 'Semestral/Anual' da ficha está sem marcação",
+      "academicYear": "Não impresso na ficha (arquivo publicado em 2026/06; catálogo de cursos indica 2025/26)",
+      "language": "Português (ficha também em inglês)",
+      "courseStatus": "Não declarado",
+      "assessment": "Ficha em branco no item Avaliação (português); versão inglesa remete ao regulamento da FDUL, com exame escrito final",
+      "prerequisites": "Não declarados",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "location": "Ficha de UC: Objetivos de aprendizagem; Conteúdos programáticos (Capítulos I-VII, §§1-45); Metodologias; Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Campos 'Horas de Trabalho' e 'Créditos ECTS' estão em branco (traços de preenchimento); nenhuma carga de contacto declarada."
+      },
+      "universityId": "po-56-universidadede",
+      "code": "CAT-direito-do-trabalho-i",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/06/Direito-do-Trabalho-I.pdf",
+      "sha256": "a7a35f4ca7cc089ea9e74e6800bdef4177fdf21689c0fce2ab16e7cf5c46dacc"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Parte 'Dogmática Básica e Situações Laborais Coletivas': Capítulos I-III e V-VII (introdução, evolução histórica, fontes, instrumentos coletivos, conflitos coletivos)",
+      "foreignLocation": "Conteúdos programáticos, Capítulos I-VII; Objetivos de aprendizagem",
+      "note": "Fundamentos e estrutura do direito coletivo são estudados com o regime português."
+    },
+    {
+      "brTopic": "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "§19 'Associações sindicais' (constituição, estatutos, quotização, ação sindical na empresa, delegados); §20 associações de empregadores; §21 comissões de trabalhadores",
+      "foreignLocation": "Conteúdos programáticos, Capítulo IV, Secção II, §§19-21",
+      "note": "Organização sindical coberta em detalhe; o ordenamento brasileiro e a Lei 13.467/2017 (Reforma Trabalhista) não são estudados."
+    },
+    {
+      "brTopic": "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "§12 'Os conflitos hierárquicos'; §13 'O princípio do tratamento mais favorável como metanorma'; §25.3 'Concursos de convenções'",
+      "foreignLocation": "Conteúdos programáticos, Capítulo III, Secção II, §§10-13; Capítulo V, §25",
+      "note": "Articulação entre fontes de direito social tratada com as normas do Código do Trabalho português."
+    },
+    {
+      "brTopic": "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "§5 'Direito Internacional do Trabalho e Direito Europeu'; §§22-25 convenção coletiva; §28 'A aplicação e os contratos de trabalho'; §34 portaria de extensão",
+      "foreignLocation": "Conteúdos programáticos, Capítulo III, §5; Capítulo V, Secções I, II e IV",
+      "note": "Negociação coletiva, concurso de convenções e instrumentos administrativos aparecem; a prevalência do negociado sobre o legislado e a prevalência do acordo coletivo sobre a convenção (regime brasileiro) e as convenções da OIT, em particular, não são nomeadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Greve: processamento, serviços mínimos, efeitos, limites e natureza; lock-out",
+      "location": "Capítulo VI, §§37-42"
+    },
+    {
+      "topic": "Meios de composição de conflitos coletivos: concertação social, conciliação, mediação, arbitragem obrigatória e necessária",
+      "location": "Capítulo VII e Capítulo V, §§32 e 36"
+    },
+    {
+      "topic": "Tutela da privacidade e dos dados pessoais do trabalhador e do candidato a emprego",
+      "location": "Capítulo IV, §16.2"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa propõe estudo crítico das relações coletivas e do sistema sindical brasileiro; não lista competências.",
+    "foreign": [
+      "Compreender fundamentos dogmáticos, fontes e sujeitos laborais",
+      "Dominar contratação coletiva, conflitos coletivos e mecanismos de resolução",
+      "Interpretar legislação, jurisprudência e doutrina e aplicá-las a casos práticos"
+    ],
+    "convergences": [
+      "Organização sindical, negociação coletiva e articulação entre fontes",
+      "Estudo crítico dos fundamentos do ramo"
+    ],
+    "differences": [
+      "Ordenamento português e europeu em vez do brasileiro e da Reforma de 2017",
+      "A ficha dedica espaço extenso a greve e lock-out, ausentes da ementa Mackenzie",
+      "Direito administrativo do trabalho e OIT não são destacados"
+    ]
+  },
+  "depth": {
+    "level": "UC do ciclo de licenciatura de Lisboa (ano exato não declarado) contra a 7.ª etapa Mackenzie",
+    "brazil": "Componente de 2 horas-aula semanais",
+    "foreign": "Programa de 45 parágrafos (§§) em sete capítulos, com 5 a 12 subitens em vários deles; carga horária não declarada",
+    "theoryPractice": "Aulas expositivas e dialogadas com análise de legislação, jurisprudência e casos práticos; proporção não declarada"
+  },
+  "practical": {
+    "period": "Semestre não confirmado na ficha (catálogo: 1.º); coincidência com 2027.2 não verificada",
+    "language": "Português",
+    "enrolment": "Acesso de estudantes de mobilidade não informado",
+    "prerequisites": "Não declarados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito do Trabalho I de Lisboa é, no desenho do próprio programa, a parte dedicada às situações laborais coletivas (sindicatos, convenção coletiva, greve, conciliação) e cobre o mesmo território conceitual da ementa Mackenzie de Direito Coletivo do Trabalho, com as ressalvas de aplicar o Código do Trabalho português e de não tratar a Reforma Trabalhista brasileira nem as convenções da OIT de modo expresso.",
+  "justification": "Os quatro tópicos essenciais têm contrapartida: dois são 'coberto' (fundamentos e estrutura do ramo; articulação entre fontes pelos §§12-13 e §25.3) e dois 'parcial' (organização sindical, por depender da lei brasileira e da Lei 13.467/2017; e primazia do negociado, acordo versus convenção e OIT, pois a ficha cita só direito internacional e europeu do trabalho de modo genérico no §5). A cobertura plena é de 50% e a total (coberto ou parcial) de 100%, sem tópico ausente. A classe não passa de afinidade parcial porque o ementário de 2022 é histórico e as 2 horas-aula semanais não se comparam com uma ficha sem horas de contacto nem ECTS. O programa português excede a ementa em greve e lock-out (§§37-42), o que não substitui os pontos brasileiros específicos.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa muito detalhado e coerente, mas sem carga horária, ECTS, semestre confirmado e ano impresso; ementa brasileira histórica de 2022.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; pode não corresponder à matriz vigente",
+    "Carga Mackenzie em horas-aula semanais; a ficha de Lisboa não declara horas nem ECTS: carga não comparável",
+    "A ficha não imprime o ano letivo nem marca a duração; o semestre vem do catálogo FDUL",
+    "O item Avaliação da versão portuguesa está em branco; a versão inglesa remete ao regulamento da faculdade",
+    "Lei 13.467/2017, CLT e convenções da OIT não são cobertas por lei estrangeira nacional",
+    "Oferta em 2027.2 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "Em que semestre e turma (dia ou noite) Direito do Trabalho I será ofertado a intercambistas?",
+    "A coordenação exigiria complemento sobre a Reforma Trabalhista e a OIT?"
+  ],
+  "alternatives": [
+    {
+      "code": "CAT-direito-do-trabalho-ii",
+      "name": "Direito do Trabalho II",
+      "relation": "Mesma universidade; parte individual do direito do trabalho, lida em outro parecer deste lote"
+    }
+  ],
+  "method": "Leitura integral do ementário Direito Alphaville 2022 (p. 51) e da ficha bilíngue de Direito do Trabalho I da FDUL com apoio de IA (Claude); título conferido com o catálogo (coincide); tópicos vinculados a parágrafos do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Cobertura documentada parágrafo a parágrafo; limitações decorrem de vigência e horas"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

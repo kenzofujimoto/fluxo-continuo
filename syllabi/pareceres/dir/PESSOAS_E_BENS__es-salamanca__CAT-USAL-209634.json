@@ -1,0 +1,196 @@
+{
+  "id": "dir|PESSOAS E BENS|es-salamanca|CAT-USAL-209634",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "PESSOAS E BENS",
+    "name": "Pessoas e Bens",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 5, bloco 'PESSOAS E BENS' (1ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 4 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "O componente curricular Pessoas e Bens é o percurso inicial do discente no estudo das relações jurídico privadas",
+      "Num primeiro momento, por meio da reflexão e análise da dogmática jurídica (campo da Ciência do Direito dedicada à interpretação e à sistematização das normas jurídicas) será realizado o exame dos conteúdos dos Livros I e II da Parte Geral do Código Civil e sua importância para as relações político-sociais que o direito privado pretende regular",
+      "Serão tratados temas considerados fundamentais para a compreensão do Direito Civil como: pessoa natural e direitos da personalidade",
+      "pessoa jurídica, suas espécies e sua desconsideração",
+      "patrimônio e bens",
+      "autonomia privada e sua relevância jurídica",
+      "capacidade.Num segundo momento, a disciplina estudará as bases das relações privadas com a preocupação de problematizar o conteúdo dogmático a partir da zetética jurídica com destaque a validade, eficácia e vigência das leis e do próprio direito como relação jurídica que decorre de uma relação social anterior"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Salamanca",
+      "name": "FUNDAMENTOS DE DERECHO CIVIL PATRIMONIAL",
+      "level": "Grau (graduação)",
+      "catalogue": "https://guias.usal.es/node/209634",
+      "universityId": "es-salamanca",
+      "code": "CAT-USAL-209634",
+      "source": "https://guias.usal.es/node/209634",
+      "sha256": "a0912beada762c63b51cd41d69398fed2915867b37c488f7ae3a37a5e2a52575",
+      "faculty": "Facultad de Derecho",
+      "department": "Derecho Privado; área Derecho Civil",
+      "programme": "Grado en Administración y Dirección de Empresas (ADE); asignatura obligatoria",
+      "yearOfStudy": 1,
+      "semester": 1,
+      "period": "Primer semestre do 1º curso",
+      "academicYear": "2025/2026",
+      "language": "ESPAÑOL",
+      "courseStatus": "Obligatoria (grado em ADE, não em Direito)",
+      "assessment": "Avaliação contínua 40% e exame escrito 60% (cerca de 1h30)",
+      "prerequisites": "Nenhuma recomendação prévia (secção 2 vazia)",
+      "location": "Guia 2025/2026: secções 1 (Datos), 3 (Objetivos), 4 (Competencias), 5 (Contenidos: lecciones 1-7), 6, 8 (Recursos), 9 (Evaluación)",
+      "officialCode": "103804",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 3,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A secção 7 (Distribución de las Metodologías Docentes) não traz valores no texto; só 3 ECTS declarados, sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O componente curricular Pessoas e Bens é o percurso inicial do discente no estudo das relações jurídico privadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Lección 1: 'Concepto y sistemática del Derecho Civil'",
+      "foreignLocation": "Seção 5, lección 1",
+      "note": "Apenas a introdução ao direito civil; o objetivo declarado é fornecer ferramentas de obrigações e contratos a futuros administradores, e não iniciar o estudo das relações privadas pela pessoa."
+    },
+    {
+      "brTopic": "Num primeiro momento, por meio da reflexão e análise da dogmática jurídica (campo da Ciência do Direito dedicada à interpretação e à sistematização das normas jurídicas) será realizado o exame dos conteúdos dos Livros I e II da Parte Geral do Código Civil e sua importância para as relações político-sociais que o direito privado pretende regular",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 3, 5 e 8: as 7 lecciones tratam de obrigações e contratos; a bibliografia lista direitos reais, mas nenhuma lección trata do Livro das pessoas nem dos bens.",
+      "note": "Sem sistematização da Parte Geral nem de pessoa e bens."
+    },
+    {
+      "brTopic": "Serão tratados temas considerados fundamentais para a compreensão do Direito Civil como: pessoa natural e direitos da personalidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5, lecciones 1-7: não há personalidade, estado civil nem direitos da personalidade.",
+      "note": "O curso espanhol em ADE não inclui direito da pessoa."
+    },
+    {
+      "brTopic": "pessoa jurídica, suas espécies e sua desconsideração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5, lecciones 1-7 e objetivos: pessoa jurídica não é mencionada.",
+      "note": "Sem tópico de sociedades ou pessoa jurídica no guia."
+    },
+    {
+      "brTopic": "patrimônio e bens",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5, lecciones 1-7: não há bens nem patrimônio; 'Derechos reales' aparece apenas na lista bibliográfica (seção 8).",
+      "note": "Bibliografia não substitui conteúdo programático."
+    },
+    {
+      "brTopic": "autonomia privada e sua relevância jurídica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5, lecciones 5-7 (conceito e elementos do contrato, eficácia e ineficácia): autonomia privada não é nomeada.",
+      "note": "A autonomia privada é pressuposto da matéria contratual, mas o guia não a lista como conteúdo."
+    },
+    {
+      "brTopic": "capacidade.Num segundo momento, a disciplina estudará as bases das relações privadas com a preocupação de problematizar o conteúdo dogmático a partir da zetética jurídica com destaque a validade, eficácia e vigência das leis e do próprio direito como relação jurídica que decorre de uma relação social anterior",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seção 5, lecciones 5 a 7: a 'Eficacia e ineficacia de los contratos' trata da validade do contrato, não da capacidade das pessoas nem da vigência e eficácia das leis; não há zetética.",
+      "note": "Capacidade pode ser elemento do contrato, mas o guia só dá títulos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Conceito, estrutura e fontes das obrigações; classes, cumprimento, execução e extinção",
+      "location": "Contenidos, lecciones 2 a 4"
+    },
+    {
+      "topic": "Conceito e elementos do contrato, classificação e ciclo de vida, eficácia e ineficácia",
+      "location": "Contenidos, lecciones 5 a 7"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário 2022 sem competências formais; a ementa trata de pessoa natural, pessoa jurídica, bens, autonomia privada e capacidade.",
+    "foreign": [
+      "Identificar problemas éticos e culturais e seu impacto nas organizações",
+      "Compreender funções dos negócios, empresas e setores",
+      "Aplicar conhecimento a situações práticas",
+      "Investigar e analisar informação de fontes variadas"
+    ],
+    "convergences": [
+      "Introdução ao conceito e à sistemática do direito civil"
+    ],
+    "differences": [
+      "O guia espanhol é de obrigações e contratos para alunos de ADE",
+      "Ausência de pessoa natural, pessoa jurídica, capacidade, bens e patrimônio",
+      "Competências de gestão empresarial em vez de competências jurídicas gerais"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca: 1º curso de ADE; Mackenzie: 1ª etapa de Direito",
+    "brazil": "4 horas-aula semanais; 7 tópicos sobre Livros I e II da Parte Geral",
+    "foreign": "3 ECTS, 7 lecciones em obrigações e contratos; avaliação contínua 40% e exame 60%",
+    "theoryPractice": "Aulas presenciais, práticas de problemas e seminários tutelados; horas por modalidade não declaradas"
+  },
+  "practical": {
+    "period": "Primer semestre do 1º curso de ADE",
+    "language": "Espanhol",
+    "enrolment": "Obrigatória de outro grado (ADE); inscrição de aluno de Direito em mobilidade não verificada",
+    "prerequisites": "Nenhuma recomendação prévia",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Fundamentos de Derecho Civil Patrimonial é uma disciplina de ADE sobre obrigações e contratos, cujo único contato com Pessoas e Bens é a lección introdutória de conceito e sistemática do direito civil; personalidade, capacidade, pessoa jurídica, bens e patrimônio não fazem parte do programa.",
+  "justification": "Das 7 lecciones listadas, só a primeira toca o escopo brasileiro, e apenas como introdução; a análise dos 7 tópicos da ementa dá 1 parcial e 6 ausentes, ou seja, 14% de cobertura plena ou parcial. O título engana: fala de direito civil 'patrimonial', mas o programa só trata de obrigações e contratos e remete direitos reais à bibliografia, sem lección correspondente. A diferença de público (graduação em Administração e Dirección de Empresas, 3 ECTS) confirma que o curso não substitui um componente de Direito. Não há horas comparáveis nos dois lados: 4 horas-aula semanais contra 3 ECTS. A classe é baixa afinidade; para Pessoas e Bens, a disciplina de Direito da Pessoa da mesma universidade é mais adequada.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "alta",
+  "confidenceRationale": "O programa é curto e inequívoco (7 lecciones de obrigações e contratos); mesmo com os limites de ano e horas, a falta de pessoa e bens é nítida.",
+  "limitations": [
+    "Guia de Salamanca é do curso 2025/2026; o de 2026/2027 não foi lido",
+    "Ementário Mackenzie de 2022 é edição histórica; a matriz vigente pode divergir",
+    "Mackenzie informa 4 horas-aula semanais; Salamanca informa 3 ECTS sem horas de contato; carga não comparável e ECTS não convertidos",
+    "As lecciones aparecem só como títulos; conteúdos internos (por exemplo capacidade como elemento do contrato) não podem ser confirmados",
+    "Disciplina de grado em ADE, sem previsão de matrícula de alunos de Direito",
+    "Oferta 2027/28 e vagas para intercambistas não confirmadas"
+  ],
+  "openQuestions": [
+    "Existe, em Salamanca, outra disciplina que aborde pessoa e bens com mais amplitude e que seja aceita para estudantes de Direito em mobilidade?"
+  ],
+  "alternatives": [
+    {
+      "code": "CAT-USAL-207150",
+      "name": "Parte General de Derecho Civil. Derecho de la Persona",
+      "relation": "Disciplina básica de Direito (6 ECTS) que cobre pessoa, bens e autonomia privada; lida em parecer próprio"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e do guia USAL 2025/2026 (nó 209634, código oficial 103804) com apoio de IA (Claude); título do guia conferido com o nome do catálogo (coincide); tópicos examinados contra as 7 lecciones, objetivos e bibliografia",
+  "secondReview": {
+    "required": false,
+    "reason": "Programa sem pessoa nem bens; conclusão independe de horas ou oferta"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

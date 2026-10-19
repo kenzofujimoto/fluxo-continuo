@@ -1,0 +1,189 @@
+{
+  "id": "si|FUNDAMENTOS DE BANCO DE DADOS|es-salamanca|101110",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "FUNDAMENTOS DE BANCO DE DADOS",
+    "name": "FUNDAMENTOS DE BANCO DE DADOS",
+    "courseName": "Sistemas de Informação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco FUNDAMENTOS DE BANCO DE DADOS; página extraída 12 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 47.5,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais",
+      "Detalhamento da teoria relacional",
+      "Construção de Modelos Entidade-Relacionamento e Relacional",
+      "Aplicação de Normalização",
+      "Estudo da Álgebra Relacional",
+      "Estudo da linguagem SQL",
+      "Introdução à linguagem de programação para banco de dados",
+      "Estudo de Transações e Controle de Concorrência"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101110",
+      "academicCode": "101110",
+      "name": "Diseño De Base De Datos",
+      "faculty": "Fac. Ciencias",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação contínua 30%, exame 70%; mínimo 40% no exame e eventualmente em suas partes.",
+      "prerequisites": "Conocer los conceptos básicos sobre gestión de ficheros estudiados  en  la asignatura Programación II y la  lógica  estudiada en Álgebra Computacional",
+      "source": "https://guias.usal.es/node/255361",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "f4a794fa8d05a15fb7d4a41ef7caae8e1a38d0688e0ad501587492fac3506348",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Bases de dados nos sistemas de informação e modelo relacional.",
+      "foreignLocation": "3; 5"
+    },
+    {
+      "brTopic": "Detalhamento da teoria relacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Características do modelo relacional e linguagens formais.",
+      "foreignLocation": "3; 5"
+    },
+    {
+      "brTopic": "Construção de Modelos Entidade-Relacionamento e Relacional",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelagem conceitual e transformação em modelo lógico relacional, exercitadas na prática.",
+      "foreignLocation": "3; 5, prática"
+    },
+    {
+      "brTopic": "Aplicação de Normalização",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Normalizar um esquema de banco de dados é objetivo explícito.",
+      "foreignLocation": "3"
+    },
+    {
+      "brTopic": "Estudo da Álgebra Relacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Linguagens de consulta formais constam, sem individualizar álgebra e cálculo relacional.",
+      "foreignLocation": "5"
+    },
+    {
+      "brTopic": "Estudo da linguagem SQL",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "SQL como DML e DDL em teoria e prática.",
+      "foreignLocation": "5"
+    },
+    {
+      "brTopic": "Introdução à linguagem de programação para banco de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "DDL e DML são praticados, sem linguagem procedural ou programação armazenada indicada.",
+      "foreignLocation": "5, prática"
+    },
+    {
+      "brTopic": "Estudo de Transações e Controle de Concorrência",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Transações e controle de concorrência não constam dos conteúdos."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Linguagens formais de consulta",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Fundamentação de bancos de dados e sistemas gerenciadores de banco de dados relacionais. Detalhamento da teoria relacional. Construção de Modelos Entidade-Relacionamento e Relacional. Aplicação de Normalização. Estudo da Álgebra Relacional. Estudo da linguagem SQL. Introdução à linguagem de programação para banco de dados. Estudo de Transações e Controle de Concorrência.",
+    "foreign": "Conocer las ventajas de las BD frente a otras estructuras de datos\nComprender las necesidades de la gestión de la información\nConocer las características del modelo relacional\nRealizar un modelo relacional a partir de unas necesidades concretas de almacenamiento de información\nConocer las fases del proceso de modelado de una base de datos\nTransformar un modelo conceptual en un modelo lógico\nNormalizar un esquema de una base de datos\nUsar lenguajes de consulta y manipulación asociados al modelo relacional\nUsar herramientas de consulta y manipulación de base de datos",
+    "convergences": [
+      "Bases de dados nos sistemas de informação e modelo relacional.",
+      "Características do modelo relacional e linguagens formais.",
+      "Modelagem conceitual e transformação em modelo lógico relacional, exercitadas na prática.",
+      "Normalizar um esquema de banco de dados é objetivo explícito.",
+      "Linguagens de consulta formais constam, sem individualizar álgebra e cálculo relacional.",
+      "SQL como DML e DDL em teoria e prática.",
+      "DDL e DML são praticados, sem linguagem procedural ou programação armazenada indicada."
+    ],
+    "differences": [
+      "Linguagens de consulta formais constam, sem individualizar álgebra e cálculo relacional.",
+      "DDL e DML são praticados, sem linguagem procedural ou programação armazenada indicada.",
+      "Transações e controle de concorrência não constam dos conteúdos."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 3; USAL ano 2",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 101110.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Primer Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Conocer los conceptos básicos sobre gestión de ficheros estudiados  en  la asignatura Programación II y la  lógica  estudiada en Álgebra Computacional",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Diseño de Base de Datos 101110 corresponde amplamente aos fundamentos e à modelagem de SI, mas deixa transações fora do programa.",
+  "justification": "Modelagem conceitual-lógica, normalização e SQL são explícitos nos objetivos e conteúdos; linguagens formais não individualizam álgebra relacional. A ficha não sustenta programação procedural de bancos nem transações/concorrência, tratados em outra etapa da formação estrangeira.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 101110 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "id": "cc|ENEX54360|co-25-soongsiluniver|CAT-SSU-INFOSEC-007",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX54360",
+    "name": "ESTRUTURA DE DADOS I",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 4, bloco ESTRUTURA DE DADOS I, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta o conceito de Tipo Abstrato de Dados (TAD)",
+      "Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações",
+      "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-25-soongsiluniver",
+      "university": "Soongsil University",
+      "code": "CAT-SSU-INFOSEC-007",
+      "name": "Data Structures",
+      "faculty": "IT College / Department of Information Security",
+      "department": "Information Security",
+      "programme": "Information Security (departamento específico)",
+      "level": "Graduação",
+      "period": "Semestre e ano de oferta não publicados na descrição",
+      "academicYear": null,
+      "language": "Descrição em coreano, rubrica em inglês; língua de ensino não confirmada",
+      "courseStatus": "Não discriminado na descrição",
+      "assessment": "Não publicada no parágrafo individual",
+      "prerequisites": "Não publicados no parágrafo individual",
+      "source": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "catalogue": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "sha256": "8b380c654c9b5f0c05e3680d0c118db268c4dfcf049e65c5c87cc544aed1ce91",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 자료구조 (Data Structures); somente o seu parágrafo, entre esta e a próxima rubrica",
+      "detailLevel": "brief_individual_description",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta o conceito de Tipo Abstrato de Dados (TAD)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "O conceito formal de Tipo Abstrato de Dados não consta da descrição delimitada.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 자료구조 (Data Structures); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "Estudo de estruturas de dados lineares (vetores, listas, pilhas, filas, heap e heapsort) e suas aplicações",
+      "essential": true,
+      "status": "parcial",
+      "note": "A lista brasileira inclui vetores, heap e heapsort, não individualizados na fonte coreana.",
+      "foreignEvidence": "Listas, pilhas, filas, recursão e ordenação são explicitamente enumeradas no parágrafo de Data Structures.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 자료구조 (Data Structures); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Estudo da eficiência assintótica das operações básicas de cada estrutura de dados",
+      "essential": true,
+      "status": "parcial",
+      "note": "Análise é expressa, mas eficiência assintótica das operações não está especificada.",
+      "foreignEvidence": "O objetivo inclui compreensão, projeto e análise de estruturas de dados.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 자료구조 (Data Structures); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Implementação das estruturas de dados com linguagem orientada a objetos e aplicação prática na resolução de problemas",
+      "essential": true,
+      "status": "parcial",
+      "note": "Não informa linguagem orientada a objetos nem quais implementações são avaliadas.",
+      "foreignEvidence": "A meta é desenvolver capacidade de programação aplicável a problemas práticos a partir das estruturas estudadas.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 자료구조 (Data Structures); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Árvores e grafos também são listados no mesmo parágrafo",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 자료구조 (Data Structures); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Objetos e operações prescritos pelos enunciados oficiais de ESTRUTURA DE DADOS I",
+    "foreign": [
+      "Compreender, projetar e analisar estruturas de dados para programar soluções práticas."
+    ],
+    "convergences": [
+      "Listas, pilhas, filas, recursão e ordenação são explicitamente enumeradas no parágrafo de Data Structures.",
+      "O objetivo inclui compreensão, projeto e análise de estruturas de dados.",
+      "A meta é desenvolver capacidade de programação aplicável a problemas práticos a partir das estruturas estudadas."
+    ],
+    "differences": [
+      "Soongsil inclui árvores e grafos, mas não nomeia TAD, heap, heapsort ou orientação a objetos neste componente."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "FCI2025, etapa3, 63.33horas-relógio semestrais; comparação preserva os enunciados compostos do ementário.",
+    "foreign": "Descrição departamental individual breve: Compreender, projetar e analisar estruturas de dados para programar soluções práticas.",
+    "theoryPractice": "A descrição foi examinada para distinguir objetivos de atividades comprovadas. Soongsil inclui árvores e grafos, mas não nomeia TAD, heap, heapsort ou orientação a objetos neste componente."
+  },
+  "practical": {
+    "period": "Semestre não indicado; consultar programação pública da oferta 2027/28 quando publicada",
+    "language": "Língua de ensino a confirmar; fonte em coreano com títulos bilíngues",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não publicados nesta descrição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Data Structures compartilha listas, pilhas e filas com Estrutura de DadosI, e associa esses objetos a projeto, análise e programação prática. O resumo também avança para árvores e grafos, porém esse alargamento não demonstra as exigências brasileiras de TAD, heap/heapsort, análise assintótica e implementação orientada a objetos.",
+  "justification": "Três dos quatro enunciados têm conexão parcial com o parágrafo individual; TAD não foi encontrado. A palavra análise não foi tomada como prova de notação assintótica, nem a menção a programação como confirmação de Java ou orientação a objetos. Árvores e grafos foram registrados como conteúdo adicional, sem compensar lacunas nos itens obrigatórios. A fonte não declara horas ou créditos; a referência de63,33horas do Mackenzie permanece sem denominador estrangeiro.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A descrição oficial bilíngue identifica o componente e seus objetos, mas não publica plano semanal, avaliação ou horas. O parecer restringe-se ao próprio parágrafo de 자료구조 (Data Structures), não ao compêndio inteiro; completude documental insuficiente para confiança moderada.",
+  "limitations": [
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Fonte individual breve dentro de compêndio departamental; não contém calendário, avaliação, créditos ou horas por componente.",
+    "Ano letivo e língua da turma não publicados; texto em coreano não comprova oferta em inglês.",
+    "Código CAT é identificador interno da base, não código acadêmico oficial; identidade pela rubrica bilíngue e parágrafo delimitado."
+  ],
+  "openQuestions": [
+    "O plano individual trabalha TAD e custo assintótico das operações?",
+    "Heap, heapsort e implementação orientada a objetos constam de exercícios avaliados?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+  }
+}

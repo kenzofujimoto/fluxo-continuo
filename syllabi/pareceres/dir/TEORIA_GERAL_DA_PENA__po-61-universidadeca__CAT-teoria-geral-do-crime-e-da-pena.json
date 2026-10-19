@@ -1,0 +1,172 @@
+{
+  "id": "dir|TEORIA GERAL DA PENA|po-61-universidadeca|CAT-teoria-geral-do-crime-e-da-pena",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "TEORIA GERAL DA PENA",
+    "name": "TEORIA GERAL DA PENA",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 20, bloco TEORIA GERAL DA PENA, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A presente disciplina será destinada à compreensão da Teoria Geral da Pena, as suas origens e prognósticos",
+      "Serão apresentadas as finalidades da pena, com a devida reflexão sobre o seu cumprimento no nosso sistema penitenciário atual, sempre proporcionando uma visão constitucional dos princípios e garantias individuais",
+      "A pena será ministrada desde a sua individualização legislativa, passando pela individualização judiciária até a etapa executória, com exposição das espécies de sanção, regimes de cumprimento, cominação e aplicação, com exposição das limitações estatais neste aspecto e sugestão de melhorias",
+      "O sistema trifásico de aplicação da pena será ministrado sempre com base em precedentes e exploração dos principais equívocos verificados no cotidiano forense",
+      "Também será objeto deste módulo as hipóteses de concurso de crimes e seus fundamentos, bem como os efeitos da condenação e as hipóteses de reabilitação",
+      "As medidas de segurança e sua aplicação serão analisadas com foco nas dificuldades práticas de tal instituto, principalmente em casos de reiteração e a (im)possibilidade de se manter um indivíduo custodiado eternamente",
+      "Por fim, serão visitadas as causas extintivas de punibilidade, com maior destaque ao instituto da prescrição, seus fundamentos e as atuais divergências jurisprudenciais sobre o tema"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-61-universidadeca",
+      "university": "Universidade Católica Portuguesa",
+      "code": "CAT-teoria-geral-do-crime-e-da-pena",
+      "name": "Teoria Geral do Crime e da Pena",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": 2,
+      "period": "Semestre 2",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-teoria-geral-do-crime-e-da-pena-harm.pdf",
+      "sha256": "88f29c896673a446311a00fa875d775991248cc280c6dffe1bbd0e124db30025",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": 70.0,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": 250.0,
+        "selfStudy": null,
+        "ects": 9.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A presente disciplina será destinada à compreensão da Teoria Geral da Pena, as suas origens e prognósticos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-2, Objetivos e §§1-5",
+      "note": "Objetivos e programa se concentram em teoria do crime, sem origem e fundamentos da pena."
+    },
+    {
+      "brTopic": "Serão apresentadas as finalidades da pena, com a devida reflexão sobre o seu cumprimento no nosso sistema penitenciário atual, sempre proporcionando uma visão constitucional dos princípios e garantias individuais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-2, Conteúdos§§1-5",
+      "note": "Finalidades da pena e sistema penitenciário não são individualizados."
+    },
+    {
+      "brTopic": "A pena será ministrada desde a sua individualização legislativa, passando pela individualização judiciária até a etapa executória, com exposição das espécies de sanção, regimes de cumprimento, cominação e aplicação, com exposição das limitações estatais neste aspecto e sugestão de melhorias",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-2, Conteúdos§§1-5",
+      "note": "Espécies de sanção, regimes e individualização não constam."
+    },
+    {
+      "brTopic": "O sistema trifásico de aplicação da pena será ministrado sempre com base em precedentes e exploração dos principais equívocos verificados no cotidiano forense",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-2, Conteúdos§§1-5",
+      "note": "Sistema trifásico brasileiro não é ensinado."
+    },
+    {
+      "brTopic": "Também será objeto deste módulo as hipóteses de concurso de crimes e seus fundamentos, bem como os efeitos da condenação e as hipóteses de reabilitação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Concurso de crimes e crime continuado têm seção própria, sem efeitos da condenação e reabilitação.",
+      "foreignLocation": "§5.1-5.2"
+    },
+    {
+      "brTopic": "As medidas de segurança e sua aplicação serão analisadas com foco nas dificuldades práticas de tal instituto, principalmente em casos de reiteração e a (im)possibilidade de se manter um indivíduo custodiado eternamente",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Inimputabilidade dá pressuposto relacionado, sem estudar aplicação de medidas de segurança.",
+      "foreignLocation": "§3.1"
+    },
+    {
+      "brTopic": "Por fim, serão visitadas as causas extintivas de punibilidade, com maior destaque ao instituto da prescrição, seus fundamentos e as atuais divergências jurisprudenciais sobre o tema",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-2, Conteúdos§§1-5",
+      "note": "Causas extintivas e prescrição não foram localizadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Tipicidade, causas justificadoras, tentativa e comparticipação",
+      "location": "§§1-4"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Aplicar dogmática do fato punível a hipóteses e jurisprudência.",
+    "convergences": [
+      "Concurso de crimes e crime continuado têm seção própria, sem efeitos da condenação e reabilitação.",
+      "Inimputabilidade dá pressuposto relacionado, sem estudar aplicação de medidas de segurança."
+    ],
+    "differences": [
+      "Objetivos e programa se concentram em teoria do crime, sem origem e fundamentos da pena.",
+      "Finalidades da pena e sistema penitenciário não são individualizados.",
+      "Espécies de sanção, regimes e individualização não constam.",
+      "Sistema trifásico brasileiro não é ensinado.",
+      "Causas extintivas e prescrição não foram localizadas."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Aplicar dogmática do fato punível a hipóteses e jurisprudência.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "Semestre 2 do ano português; confirmar correspondência com 2027.2.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Apesar do título Crime e Pena, a ficha Católica publicada descreve tipicidade, ilicitude, culpa e formas do crime, não o sistema de sanções.",
+  "justification": "Apenas concurso de crimes e pressuposto de inimputabilidade aproximam dois entre sete tópicos. A disciplina2025/2026 informa70 horas TP e9 ECTS, mas omite dosimetria, prescrição e execução. O nome da unidade não foi usado para supor uma seção de penas inexistente no texto.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Discrepância de escopo: o título inclui Pena, porém o conteúdo publicado encerra em concurso de crimes; fichas de turma remetidas ao Moodle.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Discrepância de escopo: o título inclui Pena, porém o conteúdo publicado encerra em concurso de crimes; fichas de turma remetidas ao Moodle."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

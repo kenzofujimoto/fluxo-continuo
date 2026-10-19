@@ -1,0 +1,155 @@
+{
+  "id": "dir|INTRODUCAO À COSMOVISÃO REFORMADA|es-29-universitataut|102249",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "INTRODUCAO À COSMOVISÃO REFORMADA",
+    "name": "Introdução à Cosmovisão Reformada",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 88, bloco 'INTRODUÇÃO À COSMOVISÃO REFORMADA' (2ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Estudo da relevância e contribuições da Tradição Reformada ou Calvinista, sobretudo em sua ética e espiritualidade, para a construção histórica da sociedade ocidental moderna em geral, e brasileira em particular, expressos em seus aspectos culturais, econômicos, sociais, políticos e educacionais",
+      "Análise dos princípios confessionais da UPM, tanto em sua constituição como em seu percurso histórico"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-29-universitataut",
+      "code": "102249",
+      "university": "Universitat Autònoma de Barcelona",
+      "name": "Multiculturalitat i Llibertat Religiosa",
+      "faculty": "Facultat de Dret (guia docent do Grau en Dret)",
+      "programme": "Grau en Dret; tipo OP (optativa)",
+      "level": "Grau (graduação)",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segon quadrimestre (quadro 'Grups i idiomes')",
+      "academicYear": "2026/2027",
+      "language": "Espanhol (grupo 1, teoria e práticas de aula); respostas em catalão se solicitado",
+      "courseStatus": "OP - optativa",
+      "assessment": "Escrito de queixa ao Defensor del Pueblo/Síndic 30%, dictamen em grupo 30%, juízo simulado 40%; frequência mínima de 50%",
+      "prerequisites": "Nenhum requisito formal; recomendada 'Sistemes Jurídics Contemporanis'",
+      "catalogue": "https://www.uab.cat/web/estudiar-1345661720635.html",
+      "location": "Guia docent 2026/2027: Objectius 1-6, Resultats d'aprenentatge, Continguts 1-15, Activitats formatives, Avaluació, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Atividades da guia: Dirigida = classes teóricas 22 h + práticas de aula 22 h; Supervisada = 88,5 h (demanda judicial 22,5; dictamen 21; queixa 5; juízo simulado 40); Autònoma = 12,5 h. Registradas como atividades, sem rótulo de horas de contato."
+      },
+      "source": "https://apps.uab.cat/guies/public/html/2026/assignatura/102249/ca",
+      "sha256": "09a6a5a439a842c5317c954ff3bac70962f40c75e06d3fdd03f08abb5272adb9"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo da relevância e contribuições da Tradição Reformada ou Calvinista, sobretudo em sua ética e espiritualidade, para a construção histórica da sociedade ocidental moderna em geral, e brasileira em particular, expressos em seus aspectos culturais, econômicos, sociais, políticos e educacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conteúdo 1 'La influència de les religions (islam, cristianisme, hinduisme, etc.) i dels seus corpus jurídics en la construcció dels sistemes jurídics contemporanis'; resultado 'trajectòria històrica de l'estat modern i la seva desconfessionalització'",
+      "foreignLocation": "Continguts 1 e 3; Resultats d'aprenentatge (poder polític, tradició constitucional, tolerància religiosa)",
+      "note": "Há contato genérico sobre religião e formação jurídico-política do Estado moderno; a tradição reformada ou calvinista, sua ética e espiritualidade e a sociedade brasileira não são objeto, e o foco é a liberdade religiosa."
+    },
+    {
+      "brTopic": "Análise dos princípios confessionais da UPM, tanto em sua constituição como em seu percurso histórico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectius 1-6, Resultats d'aprenentatge, Continguts 1-15, Activitats formatives e Bibliografia",
+      "note": "Os princípios confessionais da UPM são identidade institucional do Mackenzie e não aparecem em nenhum documento de universidade pública espanhola; o conteúdo 3 trata de modelos de relação Estado-confissões em geral."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Modelos de gestão do multiculturalismo e de relação Estado-confissões (EUA, Canadá, Espanha, Itália, França, Reino Unido)",
+      "location": "Continguts 2-3"
+    },
+    {
+      "topic": "Liberdade religiosa no direito internacional dos direitos humanos e na Constituição espanhola de 1978",
+      "location": "Continguts 4-6"
+    },
+    {
+      "topic": "Casos reais: véu islâmico, locais de culto, objeção de consciência, sacrifícios rituais, casamentos religiosos",
+      "location": "Continguts 8-14"
+    },
+    {
+      "topic": "Juízos simulados e recursos perante o Tribunal Constitucional e o TEDH",
+      "location": "Continguts 15; Activitats formatives"
+    }
+  ],
+  "competencies": {
+    "brazil": "A ementa pede relevância da tradição reformada na sociedade moderna e brasileira e análise dos princípios confessionais da UPM; o ementário não lista competências.",
+    "foreign": [
+      "Definir diversidade religiosa e o exercício da liberdade de religião",
+      "Vincular demandas multiculturais aos direitos constitucionais",
+      "Descrever a desconfessionalização do Estado moderno",
+      "Resolver casos reais por escrito e em juízo simulado"
+    ],
+    "convergences": [
+      "Papel histórico da religião na formação da sociedade e do direito"
+    ],
+    "differences": [
+      "A UAB é jurídica aplicada (liberdade religiosa e casos reais); Mackenzie é histórico-cultural e institucional sobre uma tradição confessional específica"
+    ]
+  },
+  "depth": {
+    "level": "UAB: optativa do 4º curso; Mackenzie: componente institucional da 2ª etapa",
+    "brazil": "Componente de 2 horas-aula semanais, com ementa de duas frases",
+    "foreign": "Optativa de 6 ECTS com 15 conteúdos e metodologia de casos reais e juízos simulados",
+    "theoryPractice": "UAB: 22 h de teoria e 22 h de práticas de aula, além de 88,5 h supervisadas; Mackenzie não discrimina"
+  },
+  "practical": {
+    "period": "Segon quadrimestre; não coincide com um semestre de outono em 2027.2 se a programação se mantiver",
+    "language": "Espanhol",
+    "enrolment": "Optativa de 4º curso; presença mínima de 50% das sessões; aceitação de intercambista não verificada",
+    "prerequisites": "Recomendada 'Sistemes Jurídics Contemporanis'",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Multiculturalitat i Llibertat Religiosa trata de liberdade religiosa e casos jurídicos, com um único conteúdo (o 1) sobre a influência das religiões nos sistemas jurídicos; não estuda a tradição reformada nem os princípios confessionais da UPM.",
+  "justification": "O primeiro enunciado, sobre a contribuição da tradição calvinista à sociedade ocidental e brasileira, tem apenas contato genérico com o conteúdo 1 e os resultados sobre desconfessionalização do Estado; o segundo, sobre princípios confessionais da UPM, não encontra correspondência. Pela contagem a regra interna daria afinidade parcial (um parcial em dois), mas esse parcial depende de uma frase de conteúdo, não da tradição reformada. A carga é incomparável (2 horas-aula semanais contra 6 ECTS) e o ementário de 2022 é histórico. Como o componente é institucional e de identidade confessional, a UAB não é substituto plausível.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "O único parcial apoia-se em um contato genérico (religião e sistemas jurídicos) sem a tradição reformada, e o segundo enunciado é identidade institucional da UPM; a contagem de 1 em 2 sobrestima a afinidade.",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia da UAB 2026/2027 detalhada, que mostra o escopo diferente; reduzem a confiança a ementa brasileira de duas frases, histórica, e a ausência de carga semestral comparável.",
+  "limitations": [
+    "Ementário Mackenzie de 2022 é edição histórica; carga em horas-aula semanais; 6 ECTS e atividades da UAB não convertidos em horas de contato",
+    "Candidata de origem semântica (conceito 'cosmovisão'): a correspondência é de tema geral, não de programa",
+    "Componente institucional confessional; pode ser tratado pela coordenação como não aproveitável por estudos externos",
+    "Oferta 2027/28 não confirmada; disciplina no segon quadrimestre",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de Direito aceita aproveitar Introdução à Cosmovisão Reformada por estudo no exterior ou o trata como componente institucional obrigatório no Mackenzie?",
+    "A candidata semântica por 'cosmovisão' deve ser mantida no catálogo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da guia docent UAB 102249 (2026/2027, catalão) com apoio de IA (Claude); título da página conferido com o catálogo; cada enunciado buscado em conteúdos e resultados; coerência verificada por scripts/build_pareceres.py --check",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Diferença de escopo documentada em guia completa"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "si|ESTRUTURA DE DADOS|es-salamanca|101111",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ESTRUTURA DE DADOS",
+    "name": "ESTRUTURA DE DADOS",
+    "courseName": "Sistemas de Informação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco ESTRUTURA DE DADOS; página extraída 2 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresentação dos Tipos abstratos de dados",
+      "Estudo das estruturas lineares: pilhas, filas e listas e deques",
+      "Conceituação de tabelas de Hashing, árvores binárias e árvores n-árias, árvores balanceadas",
+      "Construção de aplicações de estruturas de dados",
+      "Apresentação de noções de complexidade para estruturas de dados"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101111",
+      "academicCode": "101111",
+      "name": "Estructura De Datos Y Algoritmos I",
+      "faculty": "Fac. Ciencias",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação contínua 30%, exame 70%; mínimo 40% na prova final.",
+      "prerequisites": "Se  recomienda  no cursar Estructuras  de Datos y Algoritmos I sin  aprobar previamente Programación I y II.",
+      "source": "https://guias.usal.es/node/255378",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "551ef52aff89029d7bd74066fa8090ffb939a605376b3e6c362c1b8bcfede747",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresentação dos Tipos abstratos de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Tipos abstratos de dados figuram nos conteúdos e objetivos.",
+      "foreignLocation": "3 e 5, TAD"
+    },
+    {
+      "brTopic": "Estudo das estruturas lineares: pilhas, filas e listas e deques",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo trata estruturas lineares sem discriminar pilhas, filas, listas e deques.",
+      "foreignLocation": "3, objetivos específicos"
+    },
+    {
+      "brTopic": "Conceituação de tabelas de Hashing, árvores binárias e árvores n-árias, árvores balanceadas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo inclui estruturas não lineares, sem discriminar hashing e árvores balanceadas.",
+      "foreignLocation": "3, objetivos específicos"
+    },
+    {
+      "brTopic": "Construção de aplicações de estruturas de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivos mandam implementar estruturas para resolução de problemas; avaliação inclui implementação prática.",
+      "foreignLocation": "3; 9, entregas de práticas"
+    },
+    {
+      "brTopic": "Apresentação de noções de complexidade para estruturas de dados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Notação assintótica e análise de algoritmos.",
+      "foreignLocation": "5"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Recursão e recorrências",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Busca, ordenação e esquemas algorítmicos",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Apresentação dos Tipos abstratos de dados. Estudo das estruturas lineares: pilhas, filas e listas e deques. Conceituação de tabelas de Hashing, árvores binárias e árvores n-árias, árvores balanceadas. Construção de aplicações de estruturas de dados. Apresentação de noções de complexidade para estruturas de dados.",
+    "foreign": "Generales: Conocimiento de las materias básicas y tecnologías , que capaciten para el aprendizaje\nEspecíficos:\nDeterminarla complejidad en  tiempo y espacio de diferentes algoritmosy equilibrar los requisitos contrapuestos de eficiencia y costes en la implementación\nFormular soluciones algorítmicas de las aplicaciones que deba construir, determinando la adecuación y complejidad de las soluciones. Aplicarla recursividad como herramientade construcción deprogramas.\nAnalizar, especificar e implementar estructuras de datos, tanto lineales como no  lineales, desde la perspectiva de los TAD para la resolución de problemas utilizando la más apropiada, en función de los recursos necesarios",
+    "convergences": [
+      "Tipos abstratos de dados figuram nos conteúdos e objetivos.",
+      "Objetivo trata estruturas lineares sem discriminar pilhas, filas, listas e deques.",
+      "Objetivo inclui estruturas não lineares, sem discriminar hashing e árvores balanceadas.",
+      "Objetivos mandam implementar estruturas para resolução de problemas; avaliação inclui implementação prática.",
+      "Notação assintótica e análise de algoritmos."
+    ],
+    "differences": [
+      "Objetivo trata estruturas lineares sem discriminar pilhas, filas, listas e deques.",
+      "Objetivo inclui estruturas não lineares, sem discriminar hashing e árvores balanceadas."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 3; USAL ano 2",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 101111.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Primer Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Se  recomienda  no cursar Estructuras  de Datos y Algoritmos I sin  aprobar previamente Programación I y II.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estructura de Datos y Algoritmos I 101111 combina TAD, aplicação e complexidade, mas enumera menos estruturas concretas que SI.",
+  "justification": "Há cobertura explícita de três dos cinco enunciados brasileiros. As estruturas lineares e não lineares são previstas nos objetivos sem identificação de deques, hashing ou árvores balanceadas; não se usa a bibliografia como prova desses subtemas.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 101111 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

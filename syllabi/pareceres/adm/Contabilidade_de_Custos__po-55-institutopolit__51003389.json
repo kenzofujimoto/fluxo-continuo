@@ -1,0 +1,189 @@
+{
+  "id": "adm|Contabilidade de Custos|po-55-institutopolit|51003389",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade de Custos",
+    "name": "Contabilidade de Custos",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 3, bloco 'Contabilidade de Custos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "Custos Fixos e Variáveis)",
+      "Métodos de contabilização de estoques",
+      "Custeio por Absorção (Com e sem Departamentalização)",
+      "Custeio Variável",
+      "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "Tributos sobre a Receita e formação de preços",
+      "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "Etapas do processo orçamentário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-55-institutopolit",
+      "university": "Instituto Politécnico de Coimbra (Universidade Politécnica de Coimbra)",
+      "code": "51003389",
+      "name": "Contabilidade de Gestão II",
+      "pageCode": "51003389",
+      "faculty": "Instituto Superior de Contabilidade e Administração de Coimbra (ISCAC)",
+      "programme": "Licenciatura em Gestão de Empresas; área científica Ciências Empresariais e Económicas",
+      "level": "1º ciclo",
+      "yearOfStudy": 3,
+      "semester": null,
+      "period": "Semestral (a página não indica qual semestre)",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Obrigatória (modo presencial)",
+      "assessment": "Avaliação contínua (questões 25%, desafios 25%, testes 50%) ou exame escrito 80% + prova oral 20%",
+      "prerequisites": "Conhecimentos de base recomendados: Contabilidade Financeira I e II; Contabilidade de Gestão I",
+      "source": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/?d=294404&r=26522",
+      "catalogue": "https://www.ipc.pt/oferta-formativa/instituto-superior-de-contabilidade-e-administracao-de-coimbra/licenciatura/licenciatura-em-gestao-de-empresas/",
+      "sha256": "6ad2dc47f6c445f2c3159836cd20b842d45ce9d4e32df23ef47a88d427ac4d5d",
+      "location": "Página da UC 2026/2027: Conhecimentos de Base, Métodos de Ensino (ME1-ME4), Objetivos (OA1-OA5), Competências (CD1-CD5), Programa P1-P6, Avaliação, Bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A página declara 6 ECTS e duração semestral, sem horas de contacto."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "P1.1 'Centros de custo principais e auxiliares'; P1.2 'Repartição dos gastos Indiretos'; base recomendada: Contabilidade de Gestão I",
+      "foreignLocation": "Programa P1.1-P1.2; Conhecimentos de Base Recomendados CB2",
+      "note": "Gastos indiretos são tratados como técnica de repartição; a terminologia de custos e despesas é pressuposta de Contabilidade de Gestão I e não é ensinada aqui. O primeiro item brasileiro foi partido em duas linhas pela extração do PDF."
+    },
+    {
+      "brTopic": "Custos Fixos e Variáveis)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "OA3: 'seleção de produtos para otimizar margem de contribuição'; OA4/P3.3 análise Custo-Volume-Resultado",
+      "foreignLocation": "Resultados de Aprendizagem OA3-OA4; Programa P3.3",
+      "note": "Margem de contribuição e CVR pressupõem a separação fixo/variável, mas a página não a nomeia como conteúdo."
+    },
+    {
+      "brTopic": "Métodos de contabilização de estoques",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Métodos de Ensino, Objetivos, Competências, Programa P1-P6, Avaliação e Bibliografia; valorização de inventários só aparece no título de livros citados na bibliografia"
+    },
+    {
+      "brTopic": "Custeio por Absorção (Com e sem Departamentalização)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "OA1: 'método dos Centros de Custos ... distinção entre centros principais e auxiliares, e a repartição dos gastos indiretos'; P2.2 ABC versus custeios tradicionais",
+      "foreignLocation": "Resultados de Aprendizagem OA1-OA2; Programa P1 e P2.2",
+      "note": "Centros de custo equivalem à departamentalização; a expressão 'absorção' não aparece. Também cobre ABC, que a ficha brasileira não lista."
+    },
+    {
+      "brTopic": "Custeio Variável",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "OA3: decisões de curto prazo baseadas em margem de contribuição; P3.1 'Custos relevantes para a tomada de decisões'",
+      "foreignLocation": "Resultados de Aprendizagem OA3; Programa P3.1-P3.2",
+      "note": "O custeio variável como método de apuração de resultado não é nomeado; há apenas análise por margem de contribuição."
+    },
+    {
+      "brTopic": "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "OA4: 'Reconhecer as relações entre Custo, Volume e Resultado (CVR) e aplicar o modelo no planeamento e análise de curto prazo'",
+      "foreignLocation": "Resultados de Aprendizagem OA4/CD4; Programa P3.3",
+      "note": "Alavancagem e ponto de equilíbrio não são nomeados; o modelo CVR é o conteúdo declarado."
+    },
+    {
+      "brTopic": "Tributos sobre a Receita e formação de preços",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos OA1-OA5, Competências CD1-CD5 e Programa P1-P6; sem tributos nem formação de preços"
+    },
+    {
+      "brTopic": "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "P5.2 'Tipos de orçamentos'; 5.4 orçamentos operacionais e financeiros; 5.5 'Balanço e Demonstração dos Resultados Previsionais'",
+      "foreignLocation": "Programa P5.1-P5.5",
+      "note": "A divisão curto/longo prazo não é declarada."
+    },
+    {
+      "brTopic": "Etapas do processo orçamentário",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'5.3 O processo de elaboração do orçamento mestre'; P6 controlo orçamental com cálculo e análise de desvios",
+      "foreignLocation": "Programa P5.3 e P6.1-P6.2"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Custeio baseado nas atividades (ABC) e gestão baseada nas atividades (ABM)", "location": "Programa P2"},
+    {"topic": "Decisões de curto prazo: comprar ou produzir, encerramento de linhas, eliminação de produtos", "location": "Programa P3.1-P3.2; OA3"},
+    {"topic": "Custos padrão e análise de desvios", "location": "Programa P4 e P6.2; OA5"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel da contabilidade gerencial, comportamento dos custos, custeio por métodos diretos e de absorção, ponto de equilíbrio, formação de preços e tributos, orçamento e sistemas orçamentários.",
+    "foreign": ["Aplicar centros de custo e ABC na repartição de gastos indiretos", "Analisar custos relevantes em decisões de curto prazo", "Aplicar o modelo Custo-Volume-Resultado", "Elaborar orçamentos e analisar desvios com custos padrão"],
+    "convergences": ["Repartição de custos indiretos por centros", "Custo-volume-resultado", "Processo orçamentário"],
+    "differences": ["Coimbra II pressupõe os fundamentos de custos vistos em Contabilidade de Gestão I e acrescenta ABC, custos padrão e decisões de curto prazo", "Mackenzie inclui estoques, tributos sobre a receita e formação de preços, ausentes nesta UC"]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Coimbra no 3º ano (obrigatória), Mackenzie na 4ª etapa",
+    "brazil": "Contabilidade gerencial de 63,3 h cobrindo fundamentos, custeio, CVL e orçamento",
+    "foreign": "Segunda unidade de contabilidade de gestão: custeio avançado, decisões, custos padrão e orçamentação",
+    "theoryPractice": "Coimbra: metodologia ativa tipo Team-Based Learning, estudo prévio, casos práticos em grupo, desafios e testes"
+  },
+  "practical": {
+    "period": "Semestral; semestre não indicado na página. Oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Obrigatória no plano de Gestão de Empresas; disponibilidade para mobilidade incoming a confirmar com a instituição",
+    "prerequisites": "Recomendados: Contabilidade Financeira I e II e Contabilidade de Gestão I",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Contabilidade de Gestão II cobre o bloco avançado da ficha Mackenzie (CVL, orçamento e seu processo, centros de custo) e complementa a UC I, mas pressupõe os fundamentos de custos e não trata estoques, tributos nem formação de preços.",
+  "justification": "Quatro dos nove enunciados estão cobertos (centros de custo/absorção em P1, CVR em P3.3 e OA4, orçamento em P5.1-P5.5, processo do orçamento mestre em P5.3), três parciais (terminologia, fixo/variável e custeio variável aparecem só implícitos em margem de contribuição e gastos indiretos) e dois ausentes (estoques e tributos/preços). A soma de cobertos e parciais é 7 de 9, o que sustenta afinidade parcial. A UC recomenda Contabilidade de Gestão I como base, e esta, isolada, deixa de fora o fundamento de custos brasileiro. Sem horas de contacto (6 ECTS) a carga é não comparável, e a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa e objetivos itemizados; faltam horas de contacto, semestre e vigência da ficha brasileira.",
+  "limitations": [
+    "Horas de contacto não declaradas; 6 ECTS não convertidos em horas",
+    "Oferta 2027/28 não confirmada; semestre de oferta não indicado",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; primeiro tópico partido em duas linhas na extração",
+    "A UC pressupõe Contabilidade de Gestão I como base recomendada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Um aluno Mackenzie sem Contabilidade de Gestão I pode se matricular nesta UC de 3º ano?",
+    "O ISCAC informa horas de contacto semestrais para esta UC?"
+  ],
+  "alternatives": [
+    {"code": "51003288", "name": "Contabilidade de Gestão I", "relation": "Complementa esta UC: cobre conceitos, custeio total/variável e estoques; analisada em parecer próprio"}
+  ],
+  "method": "Leitura integral da ficha Mackenzie e da página oficial da UC (2026/2027) do Politécnico de Coimbra, com apoio de IA (Claude); título da página conferido com o catálogo; cada tópico vinculado ao item do programa; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}

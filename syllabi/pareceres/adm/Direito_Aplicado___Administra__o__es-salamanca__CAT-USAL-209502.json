@@ -1,0 +1,140 @@
+{
+  "id": "adm|Direito Aplicado à Administração|es-salamanca|CAT-USAL-209502",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Direito Aplicado à Administração",
+    "name": "Direito Aplicado à Administração",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 3, bloco 'Direito Aplicado à Administração': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Direito do Trabalho",
+      "Direito Empresarial",
+      "Direito Tributário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-209502",
+      "name": "Derecho Tributario",
+      "pageCode": "103809",
+      "faculty": "Facultad de Economía y Empresa; Departamento de Derecho Administrativo, Financiero y Procesal; área Derecho Financiero y Tributario",
+      "programme": "Grado en Administración y Dirección de Empresas; módulo 'Entorno Económico y Jurídico'",
+      "level": "Grado",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "Segundo semestre (periodicidad declarada na seção 1)",
+      "academicYear": "2026/2027",
+      "language": "Español",
+      "courseStatus": "Obligatoria",
+      "assessment": "Evaluación continua 40%; examen final teórico 60% (aprovação no exame teórico obrigatória)",
+      "prerequisites": "No hay requisitos previos",
+      "source": "https://guias.usal.es/node/237830",
+      "catalogue": "https://guias.usal.es/node/209502",
+      "sha256": "cc813eec9887f0ad5ccf58c9e5d6a8a93ce3ab8a05bc45ed0398373368190460",
+      "location": "Guía 'Curso 2026/2027' (node 237830): 1 Datos, 3 Objetivos, 4 Competencias, 5 Contenidos (Temas 1-6), 6 Metodologías, 8 Recursos, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 3.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Declara 3,00 ECTS. A seção 7 'Distribución de las Metodologías Docentes' não traz tabela de horas no texto extraído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Direito do Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (Temas 1-6), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; trabalho aparece apenas como rendimientos no IRPF (Tema 5), que é matéria fiscal.",
+      "note": "Contrato de trabalho e relações de emprego não são tratados."
+    },
+    {
+      "brTopic": "Direito Empresarial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Contenidos (Temas 1-6) e competências lidos; o Tema 2 menciona 'transmisión del patrimonio empresarial' e o Tema 4 o Imposto sobre Sociedades, ambos em chave tributária; a competência CEdt9 trata de 'consecuencias tributarias de las decisiones empresariales'.",
+      "note": "Faltam constituição, tipos societários e atuação da empresa no mercado como matéria jurídica."
+    },
+    {
+      "brTopic": "Direito Tributário",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'identificar y manejar adecuadamente la legislación tributaria, diferenciar... impuestos directos e indirectos'; Temas 1-6 (patrimônio, sucessões, não residentes, sociedades, IRPF, IVA)",
+      "foreignLocation": "Objetivos; Contenidos, Temas 1-6; Competencias CEdt1-CEdt18",
+      "note": "Direito tributário aplicado a empresas e pessoas, com foco em liquidar impostos; legislação espanhola (IRPF, IS, IVA, sucessões em Castela e Leão), não a brasileira."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Impostos sobre patrimônio e grandes fortunas", "location": "Contenidos, Tema 1"},
+    {"topic": "Impostos sobre sucessões e doações, com referência à transmissão do patrimônio empresarial", "location": "Contenidos, Tema 2"},
+    {"topic": "Imposto sobre a renda de não residentes e convênios de dupla tributação", "location": "Contenidos, Tema 3"},
+    {"topic": "IVA em operações intracomunitárias e transfronteiriças", "location": "Contenidos, Tema 6"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: visão dos três ramos jurídicos do dia a dia do administrador: prestação de serviço (trabalho), estrutura e atuação da empresa (empresarial) e tributos sobre a atividade econômica.",
+    "foreign": ["Conhecer terminologia e legislação tributária", "Distinguir impostos diretos e indiretos", "Analisar a situação tributária de uma empresa", "Conhecer as consequências tributárias das decisões empresariais", "Elaborar relatórios sobre questões tributárias"],
+    "convergences": ["Perfil de administrador que precisa entender tributos sobre a atividade econômica", "Tributação da empresa e de decisões empresariais"],
+    "differences": ["Salamanca dedica as 3 ECTS integralmente ao direito tributário; Mackenzie divide 31,7 h entre três ramos", "Sistema fiscal espanhol e da UE", "Sem trabalho e empresarial"]
+  },
+  "depth": {
+    "level": "Ambas de graduação em Administração; Salamanca no 1º ano (obrigatória, módulo Entorno Económico y Jurídico), Mackenzie na 3ª etapa",
+    "brazil": "Panorama de três ramos em 31,7 h",
+    "foreign": "Seis impostos estatais com liquidação prática, 3 ECTS",
+    "theoryPractice": "Aulas teóricas, práticas com supostos, estudo de casos e tutorias; avaliação contínua de 40%"
+  },
+  "practical": {
+    "period": "Segundo semestre; oferta 2027/28 não confirmada",
+    "language": "Español",
+    "enrolment": "Disciplina de 1º ano do Grado en ADE; o guia não informa acesso para intercambistas",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Derecho Tributario é a candidata mais próxima do perfil do administrador, porque ensina a liquidar os impostos que recaem sobre empresas e pessoas; mesmo assim só atende ao ramo tributário da ficha Mackenzie e em chave espanhola.",
+  "justification": "Direito tributário é parcial (Temas 1-6 e competências CEdt1-18, com legislação espanhola) e trabalho e empresarial estão ausentes na leitura de todos os seis temas, resultando em 1 de 3 itens com cobertura útil e classe de baixa afinidade. A disciplina é um módulo de 3 ECTS dedicado a um só ramo, contra 31,7 h repartidas em três na ficha brasileira. Diferentemente das duas disciplinas do Grado en Derecho analisadas para a mesma ficha, esta usa o guia de 2026/27 e está no curso de ADE, o que melhora a plausibilidade de acesso, mas não o escopo. As horas são não comparáveis: só há ECTS e a seção 7 não traz tabela.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia 2026/27 completo e detalhado; faltam horas presenciais e a ficha brasileira tem vigência não confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; o guia é de 2026/27 e o código do catálogo (209502) aponta para o node 237830",
+    "Horas de contacto ausentes; 3 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "A matéria tributária espanhola não é coberta pela legislação brasileira; transferência apenas conceitual",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Trabalho e empresarial poderiam ser complementados por outra disciplina do mesmo grado cursada em paralelo?",
+    "A disciplina de 1º ano é aberta a intercambistas no segundo semestre?"
+  ],
+  "alternatives": [
+    {"code": "CAT-USAL-207546", "name": "Derecho Financiero y Tributario (Parte Especial)", "relation": "Disciplina de 4,5 ECTS do Grado en Derecho; analisada em parecer separado"},
+    {"code": "CAT-USAL-207557", "name": "Derecho Financiero y Tributario (Parte General)", "relation": "Disciplina de 7,5 ECTS do Grado en Derecho; analisada em parecer separado"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e do guia docente de Salamanca 2026/27 (seções 1 a 9) com apoio de IA (Claude); cada item vinculado a tema ou competência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Descompasso de escopo evidente; sem itens duvidosos"}
+}

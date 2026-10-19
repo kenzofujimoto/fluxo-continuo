@@ -1,0 +1,167 @@
+{
+  "id": "adm|Políticas e Práticas de Gestão de Pessoas|po-63-universidadelu|24123",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Políticas e Práticas de Gestão de Pessoas",
+    "name": "Políticas e Práticas de Gestão de Pessoas",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 10, bloco 'Políticas e Práticas de Gestão de Pessoas': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução à gestão de pessoas: a perspectiva estratégica",
+      "Políticas e Práticas de Captação e Movimentação de pessoas – Recrutamento, seleção e expatriação",
+      "Políticas e práticas de Desenvolvimento de pessoas – Treinamento, Gestão do conhecimento e universidade corporativa",
+      "Políticas e práticas de remuneração estratégica",
+      "Gestão do desempenho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24123",
+      "name": "Estratégia de Recursos Humanos",
+      "pageCode": "24123",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa)",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha foi extraído de forma truncada; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "1º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Participação na discussão de casos práticos e dois testes escritos de avaliação contínua (item 19)",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24123_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "99681de4c0f00bc579e779415371c60cc27169313e2fbf0e379d0928a16aeaa3",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 25/06/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (conteúdos 1-3), 19-20 (avaliação, recursos), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito e nenhum valor foi atribuído. A ficha declara 6 ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução à gestão de pessoas: a perspectiva estratégica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1. Os diferentes paradigmas do sucesso organizacional no contexto da GRH', '1.3 Os novos desafios da GRH', '3.2 Estratégias de atração, retenção e desenvolvimento do talento'",
+      "foreignLocation": "Item 18, conteúdos 1 e 3.2; título da UC 'Estratégia de Recursos Humanos'"
+    },
+    {
+      "brTopic": "Políticas e Práticas de Captação e Movimentação de pessoas – Recrutamento, seleção e expatriação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'2.5 Recrutamento e seleção'; '2.1 A cultura da empresa e a gestão intercultural'; '2.3 O planeamento dos RH e a gestão de carreiras'",
+      "foreignLocation": "Item 18, 2.1, 2.3 e 2.5",
+      "note": "Recrutamento e seleção explícitos; expatriação não é nomeada (a gestão intercultural é só um tema vizinho)."
+    },
+    {
+      "brTopic": "Políticas e práticas de Desenvolvimento de pessoas – Treinamento, Gestão do conhecimento e universidade corporativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'2.7 A formação e a gestão do conhecimento'; competência: 'utilizar as práticas de formação profissional para a transmissão do conhecimento'",
+      "foreignLocation": "Item 18, 2.7; item 16",
+      "note": "Formação e gestão do conhecimento cobertas; universidade corporativa não aparece."
+    },
+    {
+      "brTopic": "Políticas e práticas de remuneração estratégica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'2.6 Sistemas de recompensas'; competência: 'interpretar tabelas salariais de mercado'",
+      "foreignLocation": "Item 18, 2.6; item 16",
+      "note": "O adjetivo 'estratégica' não é literal, mas a UC se organiza sob a ótica estratégica (título e conteúdo 3)."
+    },
+    {
+      "brTopic": "Gestão do desempenho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'2.8 Sistemas de gestão de desempenho'; competência: 'construir um plano de avaliação individual de desempenho'",
+      "foreignLocation": "Item 18, 2.8; item 16"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Teorias clássicas das organizações e abordagem das relações humanas", "location": "Item 18, 1.1-1.2"},
+    {"topic": "Cultura da empresa, gestão intercultural, gestão da mudança e do stress", "location": "Item 18, 2.1-2.2"},
+    {"topic": "Planeamento de RH, gestão de carreiras e análise e design do trabalho (descrição de funções)", "location": "Item 18, 2.3-2.4; item 16"},
+    {"topic": "Gestão do talento: capital humano versus capital intelectual", "location": "Item 18, 3.1"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: abordagens contemporâneas de políticas e práticas de gestão de pessoas em perspectiva estratégica; recrutar, selecionar e desenvolver pessoas; avaliar o desempenho e recompensar pessoas.",
+    "foreign": [
+      "Gerir a mudança e fazer planeamento de RH",
+      "Aplicar técnicas de recrutamento e seleção e construir descrições de funções",
+      "Interpretar tabelas salariais de mercado",
+      "Construir um plano de avaliação individual de desempenho"
+    ],
+    "convergences": [
+      "Recrutamento e seleção, formação, recompensas e desempenho como subsistemas de GP",
+      "Estudo de casos e exemplos empresariais"
+    ],
+    "differences": [
+      "Lusíada inclui teorias organizacionais, cultura, mudança, stress, carreiras e gestão do talento, sem equivalente na lista brasileira",
+      "A ficha brasileira cita expatriação e universidade corporativa, ausentes em Lusíada"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Lusíada no 3º ano da Licenciatura em Gestão de Empresa, Mackenzie na 6ª etapa de Administração",
+    "brazil": "Gestão de pessoas estratégica de 63,3 h, organizada em cinco blocos de políticas e práticas",
+    "foreign": "Gestão de recursos humanos com amplitude conceitual (teorias, cultura, mudança) e três conteúdos principais",
+    "theoryPractice": "Exposição, estudos de caso, artigos científicos e trabalhos em grupo (item 17)"
+  },
+  "practical": {
+    "period": "1º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estratégia de Recursos Humanos da Lusíada cobre remuneração e gestão do desempenho com itens próprios e recrutamento e formação em parte, mas deixa de fora expatriação e universidade corporativa; é uma UC de 1º semestre, enquanto a brasileira é de 6ª etapa.",
+  "justification": "Três dos cinco enunciados estão cobertos (perspectiva estratégica, recompensas em 2.6, desempenho em 2.8) e dois são parciais: captação traz recrutamento e seleção (2.5) sem expatriação, e desenvolvimento traz formação e gestão do conhecimento (2.7) sem universidade corporativa. Nenhum tópico está ausente, mas 60% de cobertura plena fica abaixo do patamar de alta afinidade. A classe é afinidade parcial, porque o item 8 não permite apurar horas de contacto (6 ECTS) frente às 63,3 h da ficha Mackenzie, que não tem vigência impressa.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Conteúdos itemizados e título conferido, mas ficha de 2025/2026, horas de contacto ilegíveis e vigência da ficha brasileira não confirmada.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 25/06/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Expatriação e universidade corporativa não constam do texto lido; podem aparecer em aula sem figurar na ficha",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UC trata mobilidade internacional (expatriação) dentro da gestão intercultural?",
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Estratégia de recursos humanos'); cada tópico vinculado ao item 18 da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}

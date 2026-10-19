@@ -1,0 +1,185 @@
+{
+  "id": "adm|Investimentos|co-24-solbridgeinter|FIN420",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Investimentos",
+    "name": "Investimentos",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 5, bloco 'Investimentos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Estrutura do Sistema Financeiro Nacional",
+      "Mercado Monetário e Títulos de Renda Fixa (Públicos e Privados)",
+      "Mercado de Capitais (Primário e Secundário)",
+      "Relação Risco e Retorno",
+      "Teoria de Carteiras",
+      "Modelos de precificação de ativos",
+      "Fundos de Investimento e análise de desempenho",
+      "Mercado de Derivativos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "FIN420",
+      "name": "Investment Analysis",
+      "pageCode": "FIN420",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); tipo de disciplina Finance Specialization",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "15 semanas; o syllabus conciso não indica semestre de oferta",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Finance Specialization",
+      "assessment": "Presença 20%, exercícios e tarefas 15%, prova intermediária 25%, prova final 40%",
+      "prerequisites": "Nenhum",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/FIN420%20Investment%20Analysis.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "fe64cf92da339d0d7197b1899cc3e0d5ea2fd2fe14614398dc9f2a449600efa5",
+      "location": "Concise Syllabus 2016: Learning Objectives (1-6), Course Description, Course content by Week (semanas 1-15), quadro final com Credit, Contact Hours, Prerequisites, Duration",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro final: Credit 3, Contact Hours 45, Duration 15 weeks, Class Type Lecture. O documento não declara a duração da hora de contato. O crédito de 3 é institucional e não foi convertido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estrutura do Sistema Financeiro Nacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 1 'Course outline and overview of the financial system'; semana 9 'Security regulation and investment ethics'",
+      "foreignLocation": "Course content by Week, semanas 1 e 9",
+      "note": "Visão geral do sistema financeiro e regulação em geral; a estrutura institucional brasileira (CMN, Banco Central, CVM) não é objeto de uma disciplina coreana."
+    },
+    {
+      "brTopic": "Mercado Monetário e Títulos de Renda Fixa (Públicos e Privados)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo 2: 'difference between investing in common stock and investing in fixed-income securities'; descrição: princípios de ativos de renda variável e de renda fixa",
+      "foreignLocation": "Learning Objectives item 2; Course Description",
+      "note": "Renda fixa aparece como objetivo e descrição, mas nenhuma semana é dedicada a títulos nem ao mercado monetário."
+    },
+    {
+      "brTopic": "Mercado de Capitais (Primário e Secundário)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 3 'The securities markets and transactions'; semana 4 'Investment information and securities transactions'; semana 8 'Investing in common stocks'",
+      "foreignLocation": "Course content by Week, semanas 3, 4 e 8",
+      "note": "Mercado primário e secundário não são separados por nome, mas mercados de valores mobiliários e transações são unidades próprias."
+    },
+    {
+      "brTopic": "Relação Risco e Retorno",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 5 'Return and risk'; objetivo 4 'Calculate and interpret the risk and return on an investment'",
+      "foreignLocation": "Course content by Week, semana 5; Learning Objectives item 4",
+      "note": "Unidade e objetivo explícitos."
+    },
+    {
+      "brTopic": "Teoria de Carteiras",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 6 'Modern Portfolio Management'; descrição: 'concepts of portfolio analysis in ... institutional investment management'",
+      "foreignLocation": "Course content by Week, semana 6; Course Description",
+      "note": "Teoria moderna de carteiras em unidade própria."
+    },
+    {
+      "brTopic": "Modelos de precificação de ativos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 10 'Stock valuation'; semana 11 'market efficiency and behavioral finance'; objetivo 5 descontar fluxos de caixa; objetivo 6 passeio aleatório e mercados eficientes",
+      "foreignLocation": "Course content by Week, semanas 10-11; Learning Objectives items 5-6",
+      "note": "Avaliação de ações por fluxo descontado e eficiência de mercado; CAPM e APT não são nomeados."
+    },
+    {
+      "brTopic": "Fundos de Investimento e análise de desempenho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 12 'Mutual funds and other professionally managed portfolios'; objetivo 3: características de fundos mútuos, unit trusts e hedge funds",
+      "foreignLocation": "Course content by Week, semana 12; Learning Objectives item 3",
+      "note": "A análise de desempenho de fundos não é nomeada, mas o tema dos fundos tem unidade própria."
+    },
+    {
+      "brTopic": "Mercado de Derivativos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 13 'Options: Puts and Calls'",
+      "foreignLocation": "Course content by Week, semana 13",
+      "note": "Só opções; contratos futuros, a termo e swaps não são citados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "O ambiente de investimento e as fontes de informação sobre investimentos", "location": "Course content by Week, semanas 2 e 4"},
+    {"topic": "Regulação de valores mobiliários e ética em investimentos", "location": "Course content by Week, semana 9"},
+    {"topic": "Análise técnica e finanças comportamentais", "location": "Course content by Week, semana 11"},
+    {"topic": "Hedge funds e unit trusts", "location": "Learning Objectives, objetivo 3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: funcionamento dos mercados de ações e de renda fixa, risco e retorno de ativo e de carteira, impacto do risco no retorno esperado e no preço, títulos privados e públicos, fundos de investimento e noções de derivativos.",
+    "foreign": ["Definir investimento, participantes e tipos de investidores", "Calcular e interpretar risco e retorno", "Avaliar a adequação de um investimento por fluxo de caixa descontado", "Explicar passeios aleatórios e eficiência de mercado"],
+    "convergences": ["Risco e retorno", "Carteiras", "Mercado de ações e valores mobiliários", "Fundos de investimento", "Derivativos (opções)"],
+    "differences": ["Mackenzie trata o sistema financeiro nacional brasileiro e os títulos públicos e privados", "SolBridge acrescenta análise técnica, finanças comportamentais, ética e regulação"]
+  },
+  "depth": {
+    "level": "Graduação em ambas; Mackenzie na 5ª etapa, FIN420 como Finance Specialization sem pré-requisito",
+    "brazil": "63,3 h, oito enunciados de mercado financeiro e teoria de carteiras",
+    "foreign": "Investment Analysis de 45 horas de contato (syllabus 2016), com Smart, Gitman e Joehnk, 12ª ed.",
+    "theoryPractice": "Aulas expositivas, discussões, estudos de caso em sala e trabalho em pequenas equipes"
+  },
+  "practical": {
+    "period": "15 semanas; semestre de oferta não indicado no syllabus de 2016; 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina do currículo BBA; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Investment Analysis cobre risco e retorno, carteiras, mercados de valores e fundos com semanas próprias, mas trata renda fixa e derivativos só por objetivos ou por uma semana de opções e não apresenta o sistema financeiro nacional que a ficha Mackenzie pede.",
+  "justification": "Quatro enunciados estão cobertos (mercados de valores nas semanas 3, 4 e 8; risco e retorno na 5; carteiras na 6; fundos na 12) e quatro são parciais: sistema financeiro (semanas 1 e 9, sem estrutura nacional), renda fixa (apenas objetivo 2, sem semana), precificação (avaliação de ações e eficiência de mercado, sem CAPM) e derivativos (só opções). Nenhum tópico ficou ausente e a cobertura total ou parcial é de 100%, mas só metade é integral, e a classe é afinidade parcial porque as 45 horas de contato dão razão 0,71 sobre 63,3 h (0,59 com hora de 50 min), o syllabus é de 2016 e a ficha brasileira não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cronograma semanal e objetivos de aprendizagem claros e de mesma estrutura da ficha brasileira, mas documento de 2016 sem ficha brasileira vigente.",
+  "limitations": [
+    "Syllabus de 2016, conciso; conteúdos atuais podem ter mudado até 2027.2",
+    "Horas de contato (45) declaradas sem a duração da hora; razão 0,71, ou 0,59 com hora de 50 min; Credit 3 não é convertido",
+    "Sistema Financeiro Nacional e títulos públicos brasileiros são conteúdo institucional do Brasil, sem equivalente esperado em disciplina coreana",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Há unidade de renda fixa e mercado monetário em alguma semana não detalhada de FIN420?",
+    "SolBridge tem disciplina de mercado de capitais ou de derivativos que complemente FIN420?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do syllabus conciso FIN420 (2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado a semana ou objetivo; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência semana a semana explícita; lacunas pontuais e declaradas"}
+}

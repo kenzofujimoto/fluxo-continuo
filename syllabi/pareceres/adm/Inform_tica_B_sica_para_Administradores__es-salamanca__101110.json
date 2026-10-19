@@ -1,0 +1,241 @@
+{
+  "id": "adm|Informática Básica para Administradores|es-salamanca|101110",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Informática Básica para Administradores",
+    "name": "Informática Básica para Administradores",
+    "courseName": "Administração",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 1º Semestre (Etapa_1_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_1_02.pdf",
+    "sha256": "8f1f91a804d80f1504385c3381f705ee6adb145792ff0bc096ac5768ac6d0719",
+    "location": "PDF p. 9, bloco 'Informática Básica para Administradores': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Microsoft Word: visão geral, editoração e manipulação dos principais recursos",
+      "Microsoft Excel: Introdução ao uso de planilha eletrônica e visão geral do software",
+      "Formatação da Planilha (Exploração e uso dos grupos Fonte, Alinhamento, Número,",
+      "Área de Transferência, Estilo, Células e Edição)",
+      "Uso de fórmulas e cálculos",
+      "Filtros e classificação de dados",
+      "Ferramentas de dados (Análise rápida; criação de cenários; validação; uso do atingir meta)",
+      "Criação e personalização de Gráficos",
+      "Construção de Tabelas e Gráficos Dinâmicos",
+      "Obtenção de dados externos",
+      "Proteção de planilhas",
+      "Noções de criação, gravação e edição de Macros"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101110",
+      "name": "Diseño de Base de Datos",
+      "pageCode": "101110",
+      "faculty": "Facultad de Ciencias; Departamento de Informática y Automática; área Lenguajes y Sistemas Informáticos (grupos também na E.T.S. Ingeniería Industrial de Béjar)",
+      "programme": "Grado en Ingeniería Informática",
+      "level": "Grado",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer semestre (periodicidade declarada na seção 1)",
+      "academicYear": "2026/2027",
+      "language": "Español",
+      "courseStatus": "Obligatoria",
+      "assessment": "Evaluación continua 30%, exámenes de teoría ou problemas 70%; mínimo de 40% no exame final",
+      "prerequisites": "Sem requisitos formais; recomendados gestão de ficheiros de Programación II e lógica de Álgebra Computacional",
+      "source": "https://guias.usal.es/node/255361",
+      "catalogue": "https://guias.usal.es/node/255361",
+      "sha256": "f4a794fa8d05a15fb7d4a41ef7caae8e1a38d0688e0ad501587492fac3506348",
+      "location": "Guía 'Curso 2026/2027': 1 Datos, 2 Recomendaciones, 3 Objetivos, 4 Competencias, 5 Contenidos (teoria e prática), 6-7 Metodologías, 8 Recursos, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Declara 6,00 ECTS. A seção 7 só traz 'Previsión de distribución de las metodologías docentes (Fecha: 24-06-25)', sem tabela de horas no texto extraído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Microsoft Word: visão geral, editoração e manipulação dos principais recursos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Edição de documentos não faz parte de projeto de bases de dados."
+    },
+    {
+      "brTopic": "Microsoft Excel: Introdução ao uso de planilha eletrônica e visão geral do software",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Nenhuma planilha é citada; a ferramenta de manipulação de dados do guia é o SQL."
+    },
+    {
+      "brTopic": "Formatação da Planilha (Exploração e uso dos grupos Fonte, Alinhamento, Número,",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Formatação de planilha ausente."
+    },
+    {
+      "brTopic": "Área de Transferência, Estilo, Células e Edição)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Continuação da linha de formatação (estilo, células, edição); sem equivalente."
+    },
+    {
+      "brTopic": "Uso de fórmulas e cálculos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Fórmulas de planilha não aparecem; os 'lenguajes de consulta formales' são álgebra e cálculo relacional."
+    },
+    {
+      "brTopic": "Filtros e classificação de dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "O SQL como DML permite selecionar e ordenar linhas, mas o guia não cita filtragem ou ordenação nem a ferramenta de planilha do item."
+    },
+    {
+      "brTopic": "Ferramentas de dados (Análise rápida; criação de cenários; validação; uso do atingir meta)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Análise rápida, cenários e atingir meta ausentes."
+    },
+    {
+      "brTopic": "Criação e personalização de Gráficos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Gráficos não são mencionados."
+    },
+    {
+      "brTopic": "Construção de Tabelas e Gráficos Dinâmicos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Tabelas e gráficos dinâmicos ausentes; consultas agregadas não são citadas."
+    },
+    {
+      "brTopic": "Obtenção de dados externos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Nem acesso a dados externos nem importação são tratados; o guia pressupõe dados já modelados no SGBD."
+    },
+    {
+      "brTopic": "Proteção de planilhas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Proteção de planilhas não aparece; segurança de bases só existe na disciplina seguinte (Sistemas de Bases de Datos)."
+    },
+    {
+      "brTopic": "Noções de criação, gravação e edição de Macros",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, Contenidos (cinco blocos de teoria e três de prática), Metodologías, Recursos e Evaluación do guia 2026/27 foram lidos; o guia trata de modelo relacional, SQL e projeto de bases de dados, sem ferramentas de escritório.",
+      "note": "Macros e programação são pré-requisito recomendado (Programación II) e não conteúdo."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Bases de dados nos sistemas de informação",
+      "location": "Contenidos, teoria, primeiro bloco"
+    },
+    {
+      "topic": "Modelos de dados e modelo relacional",
+      "location": "Contenidos, teoria, segundo bloco"
+    },
+    {
+      "topic": "Linguagens de consulta formais e SQL como DML e DDL",
+      "location": "Contenidos, teoria e prática"
+    },
+    {
+      "topic": "Projeto e normalização de esquemas relacionais",
+      "location": "Objetivos; Contenidos, teoria"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: planilhas eletrônicas para relatórios e decisão, lógica de programação para macros, integração do Excel com outras plataformas e estruturação de banco de dados.",
+    "foreign": [
+      "Conhecer as vantagens das bases de dados frente a outras estruturas",
+      "Construir modelo relacional a partir de necessidades de armazenamento",
+      "Normalizar esquemas",
+      "Usar linguagens de consulta e ferramentas de manipulação de dados"
+    ],
+    "convergences": [
+      "A ementa brasileira menciona estruturação de banco de dados, que é o tema central do curso espanhol"
+    ],
+    "differences": [
+      "Os doze itens brasileiros são sobre Word e Excel e nenhum tem correspondente",
+      "Salamanca forma engenheiros para projetar bases; Mackenzie forma usuários que analisam dados em planilhas",
+      "Salamanca é de 2º ano com Programación como base"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie: 1ª etapa de Administração, nível de usuário; Salamanca: 2º ano de Ingeniería Informática, nível introdutório de projeto de dados",
+    "brazil": "Competência instrumental em Word e Excel, 31,7 h",
+    "foreign": "Modelo relacional, SQL e normalização, curso de engenharia de 6 ECTS",
+    "theoryPractice": "Aulas magistrais com problemas, laboratório guiado em SQL e modelagem, tutorias"
+  },
+  "practical": {
+    "period": "Primeiro semestre; oferta 2027/28 não confirmada",
+    "language": "Español",
+    "enrolment": "O guia não informa acesso para estudantes de intercâmbio nem de outras áreas",
+    "prerequisites": "Sem requisitos formais; conhecimentos de programação e lógica recomendados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Diseño de Base de Datos ensina modelagem relacional, normalização e SQL, o que toca somente a menção a banco de dados na ementa brasileira; nenhum dos doze itens de Word e Excel do conteúdo programático encontra correspondente.",
+  "justification": "Nenhum dos doze itens do conteúdo programático da ficha de 31,7 h (Word, Excel, fórmulas, filtros, gráficos, tabelas dinâmicas, dados externos, proteção, macros) aparece nos cinco blocos de teoria e nos três de prática do guia, resultando em zero cobertura. O único ponto de contato é a estruturação de banco de dados, citada na ementa e não nos itens, que é a essência do curso espanhol; mesmo assim a abordagem é de projeto de esquemas e SQL em nível de engenharia, não de uso de planilhas por gestores. Em relação à candidata semântica Sistemas de Bases de Datos, este curso tem escopo introdutório de modelagem e não toca acesso a fontes de dados nem segurança. A carga é não comparável: 6 ECTS e nenhuma hora de contacto.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Guia 2026/27 completo e inequívoco quanto ao escopo; faltam horas presenciais e a ficha brasileira tem vigência não confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada",
+    "Horas de contacto ausentes; 6 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "O par veio de busca por conceitos (banco de dados, lógica, programação) e não de candidatura registrada",
+    "Disciplina de engenharia: acesso por estudante de Administração não verificado",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Existe disciplina de ofimática avançada ou análise de dados em planilhas em Salamanca fora do Grado en Ingeniería Informática?",
+    "A coordenação aceitaria banco de dados como compensação parcial da ementa, ignorando os itens de planilha?"
+  ],
+  "alternatives": [
+    {
+      "code": "101115",
+      "name": "Sistemas de Bases de Datos",
+      "relation": "Disciplina de 6 ECTS do segundo semestre, continuação desta; analisada em parecer separado"
+    }
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e do guia docente de Salamanca 2026/27 (seções 1 a 9) com apoio de IA (Claude); cada item verificado contra teoria, prática e objetivos; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Descompasso de escopo evidente; nenhum item parcial"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "id": "adm|Direito Aplicado à Administração|es-salamanca|CAT-USAL-207557",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Direito Aplicado à Administração",
+    "name": "Direito Aplicado à Administração",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 3, bloco 'Direito Aplicado à Administração': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Direito do Trabalho",
+      "Direito Empresarial",
+      "Direito Tributário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-207557",
+      "name": "Derecho Financiero y Tributario (Parte General)",
+      "pageCode": "102321",
+      "faculty": "Facultad de Derecho; Departamento de Derecho Administrativo, Financiero y Procesal; área Derecho Financiero y Tributario",
+      "programme": "Grado en Derecho (plan 223)",
+      "level": "Grado",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "Primer semestre (periodicidad declarada na seção 1)",
+      "academicYear": "2025/2026",
+      "language": "Español",
+      "courseStatus": "Obligatoria",
+      "assessment": "Examen teórico 50%, examen práctico 40%, entrega de prácticas obrigatória 10%",
+      "prerequisites": "Sem requisitos formais; recomendados Derecho Constitucional e Derecho Administrativo",
+      "source": "https://guias.usal.es/node/207557",
+      "catalogue": "https://guias.usal.es/node/207557",
+      "sha256": "1ce2e32dc93aa781a029b094af47c3c831709c6d9b1357570e940a1b5fbf931d",
+      "location": "Guía 'Curso 2025/2026': 1 Datos, 3 Objetivos, 4 Competencias, 5 Contenidos (Partes I-IV, Lecciones 1-22), 6-7 Metodologías, 8 Recursos, 9 Evaluación",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 7.5,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Declara 7,50 ECTS. A seção 6 traz apenas 'Metodologías docentes (Fecha: 17-07-17)' e a seção 7 não traz tabela de horas no texto extraído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Direito do Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objetivos, Competencias, as 22 lições de Contenidos (Partes I a IV), Metodologías, Recursos e Evaluación foram lidos; nenhuma lição trata de relação de emprego, contrato de trabalho ou seguridade social como direito laboral.",
+      "note": "Tema de escopo fiscal-financeiro; o direito laboral não é objeto do guia."
+    },
+    {
+      "brTopic": "Direito Empresarial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "As 22 lições (Partes I a IV) e as recomendações prévias foram lidas; empresa aparece só como sujeito passivo ou garante (Lección 15) e na Lección 8 como 'Sociedades Estatales' no regime orçamentário.",
+      "note": "Nenhuma lição trata da estrutura societária, do empresário ou da atuação da empresa no mercado."
+    },
+    {
+      "brTopic": "Direito Tributário",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Parte III 'Derecho Tributario material' (lições 9-16: tributo, categorias, hecho imponible, sujetos, base imponible, tipo, cuota) e Parte IV (aplicação, inspeção, recaudação, infrações, revisão)",
+      "foreignLocation": "Contenidos, Partes III e IV, Lecciones 9-22",
+      "note": "Teoria geral do tributo ampla e transferível em conceitos, mas fundamentada na Constituição espanhola, na Ley General Tributaria e no direito da UE; sem os tributos e a legislação brasileiros."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Princípios constitucionais financeiros, poder financeiro e fontes do direito financeiro", "location": "Contenidos, Parte I, Lecciones 1-4"},
+    {"topic": "Direito orçamentário, ciclo e controle do orçamento, gasto público", "location": "Contenidos, Parte II, Lecciones 5-8"},
+    {"topic": "Procedimentos de gestão, inspeção, recaudação, sanções e delitos contra a Fazenda Pública", "location": "Contenidos, Parte IV, Lecciones 17-22"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: visão dos três ramos jurídicos do cotidiano do administrador (trabalho, empresarial, tributário), com ênfase no tratamento dado a serviços, à empresa e aos tributos.",
+    "foreign": ["Analisar normas tributárias e seus princípios constitucionais", "Identificar elementos estruturais da obrigação tributária", "Conhecer a aplicação dos tributos e os direitos do contribuinte", "Compreender o orçamento e a execução do gasto público"],
+    "convergences": ["Noção de tributo, contribuinte e fato gerador como base da tributação da atividade econômica"],
+    "differences": ["Salamanca é teoria geral do direito financeiro e tributário em 22 lições para estudantes de Direito; Mackenzie tem 31,7 h e três ramos", "Orçamento público, gasto público e controle do orçamento não estão na ficha brasileira", "Trabalho e empresarial ausentes; legislação espanhola e europeia"]
+  },
+  "depth": {
+    "level": "Salamanca no 3º ano do Grado en Derecho; Mackenzie na 3ª etapa de Administração",
+    "brazil": "Panorama de três ramos em 31,7 h, três itens",
+    "foreign": "Direito financeiro e tributário geral em quatro partes e 22 lições, com 7,5 ECTS",
+    "theoryPractice": "Exame teórico (50%) e prático (40%) com entrega obrigatória de práticas"
+  },
+  "practical": {
+    "period": "Primeiro semestre; oferta 2027/28 não confirmada",
+    "language": "Español",
+    "enrolment": "Disciplina do Grado en Derecho; o guia não informa acesso nem vagas para intercambistas de Administração",
+    "prerequisites": "Sem requisitos formais; Derecho Constitucional e Administrativo recomendados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Parte General de Derecho Financiero y Tributario oferece teoria geral do tributo e procedimentos de aplicação que se ligam apenas ao item tributário da ficha Mackenzie, e ainda assim em chave espanhola; trabalho e direito empresarial estão fora das 22 lições.",
+  "justification": "Das três matérias brasileiras, só a tributária tem correspondência (Partes III e IV, lições 9-22), classificada como parcial porque o conteúdo repousa na Ley General Tributaria, na Constituição de 1978 e no direito da UE. Trabalho e empresarial ficam sem evidência após leitura das 22 lições. O arco do curso espanhol, com princípios constitucionais financeiros, orçamento e controle do gasto público, é jurídico-público e muito mais amplo que a ficha de 31,7 h. Os 7,5 ECTS não indicam horas e a seção 7 não traz tabela, logo a carga é não comparável. Cobertura útil de um terço dos itens leva à baixa afinidade.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa de 22 lições legível e completo; confiança limitada por horas ausentes, guia 2025/26 e ficha brasileira de vigência não confirmada.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; o guia lido é 'Curso 2025/2026'",
+    "Horas de contacto ausentes; 7,5 ECTS não convertidos",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "Disciplina do Grado en Derecho: acesso de estudante de Administração não confirmado",
+    "A matéria tributária espanhola não é coberta pela legislação brasileira; transferência apenas conceitual",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Uma disciplina de 7,5 ECTS de Direito pode ser aproveitada contra uma ficha de 31,7 h, e em que proporção?",
+    "A Parte General do Grado en Derecho está aberta a intercambistas de outras áreas?"
+  ],
+  "alternatives": [
+    {"code": "CAT-USAL-209502", "name": "Derecho Tributario", "relation": "Disciplina de 3 ECTS do Grado en ADE; analisada em parecer separado"},
+    {"code": "CAT-USAL-207546", "name": "Derecho Financiero y Tributario (Parte Especial)", "relation": "Disciplina de 4,5 ECTS do Grado en Derecho com os impostos concretos; analisada em parecer separado"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e do guia docente de Salamanca (seções 1 a 9, 22 lições) com apoio de IA (Claude); cada item vinculado a parte e lição; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Descompasso de escopo evidente; sem itens duvidosos"}
+}

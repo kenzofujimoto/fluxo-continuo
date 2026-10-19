@@ -1,0 +1,192 @@
+{
+  "id": "adm|Sistemas de Informação Aplicados à Gestão|po-63-universidadelu|24113",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Sistemas de Informação Aplicados à Gestão",
+    "name": "Sistemas de Informação Aplicados à Gestão",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 12, bloco 'Sistemas de Informação Aplicados à Gestão': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Alinhamento estratégico de TI",
+      "Governança de TI",
+      "Convergência Tecnológica",
+      "Internet das coisas",
+      "Block Chain",
+      "Cripton Moeda",
+      "Big Data",
+      "Computação nas nuvens",
+      "Inteligência Artificial"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24113",
+      "name": "Sistemas de Informação em Gestão",
+      "pageCode": "24113",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa)",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha foi extraído de forma truncada; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "1º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Avaliação contínua com dois testes escritos e fichas das aulas tutoriais (item 19)",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24113_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "8c126934da25f0274d90ae1dde358c0902764533b700ee5a3bf522207cca1c41",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 21/09/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (conteúdos 1-7), 19-20 (avaliação, recursos), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito e nenhum valor foi atribuído. A ficha declara 6 ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Alinhamento estratégico de TI",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5. Organização e Sistemas de Informação em Gestão'; objetivo: 'aplicação das TI à gestão' e 'sua gestão nas suas várias vertentes'",
+      "foreignLocation": "Item 18, conteúdo 5; item 16",
+      "note": "Relação entre organização e SI é tratada, mas o alinhamento estratégico não é nomeado."
+    },
+    {
+      "brTopic": "Governança de TI",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-16 (objetivos e competências), 17 (metodologia), 18 (conteúdos 1-7), 20 (recursos) e 22-24 (palavras-chave e bibliografia) da ficha 2025/2026",
+      "note": "'Segurança informática' (conteúdo 7) e gestão de infraestrutura são temas vizinhos, mas não há governança de TI."
+    },
+    {
+      "brTopic": "Convergência Tecnológica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 20-24 da ficha 2025/2026",
+      "note": "Os conteúdos 2 (história das tecnologias) e 6 (comunicações e redes) não mencionam convergência."
+    },
+    {
+      "brTopic": "Internet das coisas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 20-24 da ficha 2025/2026"
+    },
+    {
+      "brTopic": "Block Chain",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 20-24 da ficha 2025/2026"
+    },
+    {
+      "brTopic": "Cripton Moeda",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 20-24 da ficha 2025/2026",
+      "note": "O enunciado brasileiro está grafado 'Cripton Moeda' no original; interpretado como criptomoeda. Não há menção em Lusíada."
+    },
+    {
+      "brTopic": "Big Data",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 20-24 da ficha 2025/2026"
+    },
+    {
+      "brTopic": "Computação nas nuvens",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 20-24 da ficha 2025/2026",
+      "note": "Os conteúdos 3 (hardware e infraestrutura) e 6 (redes) podem tocar o tema, mas computação em nuvem não é nomeada."
+    },
+    {
+      "brTopic": "Inteligência Artificial",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 20-24 da ficha 2025/2026"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Informação, realidade e conhecimento; história dos sistemas de computação", "location": "Item 18, conteúdos 1-2"},
+    {"topic": "Hardware, infraestrutura e software", "location": "Item 18, conteúdos 3-4"},
+    {"topic": "Comunicações, redes de comunicação e segurança informática", "location": "Item 18, conteúdos 6-7"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: aplicabilidade dos sistemas de informação ao respaldo da decisão empresarial e apresentação de novas ferramentas e tecnologias que transformam a dinâmica dos negócios.",
+    "foreign": [
+      "Criar e utilizar sistemas de informação em gestão",
+      "Compreender conceitos básicos de informação e sistemas de informação",
+      "Utilizar de forma crítica e eficaz sistemas de informação aplicados à gestão",
+      "Entender a gestão de infraestrutura e comunicações e a aplicação das TI à gestão"
+    ],
+    "convergences": [
+      "Aplicação dos sistemas de informação à gestão e à decisão empresarial",
+      "Presença de Laudon & Laudon e O'Brien entre as referências, com ênfase em SI gerenciais"
+    ],
+    "differences": [
+      "A ficha brasileira é um módulo de tecnologias emergentes (IoT, blockchain, big data, nuvem, IA), nenhuma presente em Lusíada",
+      "Lusíada é uma introdução a fundamentos: informação, hardware, software, redes e segurança"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Lusíada no 2º ano da Licenciatura em Gestão de Empresa, Mackenzie na 6ª etapa de Administração",
+    "brazil": "Tópicos avançados de tecnologia aplicada ao negócio em 31,7 h",
+    "foreign": "Introdução a fundamentos de sistemas de informação, com sete conteúdos curtos e sem tecnologias emergentes",
+    "theoryPractice": "Exposição teórica, pesquisa dos alunos e exercícios práticos; fichas nas aulas tutoriais (itens 17 e 19)"
+  },
+  "practical": {
+    "period": "1º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sistemas de Informação em Gestão da Lusíada é uma introdução de fundamentos (informação, hardware, software, redes, segurança), enquanto a ficha Mackenzie é um módulo de tecnologias emergentes; só a relação entre organização e SI se aproxima do alinhamento estratégico.",
+  "justification": "Um dos nove enunciados é parcial (alinhamento estratégico, via o conteúdo 5) e oito não aparecem nos sete conteúdos da ficha: governança de TI, convergência tecnológica, IoT, blockchain, criptomoeda, big data, nuvem e IA. A cobertura somada de cerca de 11% fica muito abaixo de 50%, o que leva a baixa afinidade; a ausência pode refletir a ficha de 2025/2026 ser curta, mas o texto lido não permite supor esses temas. Além disso, o item 8 não permite apurar horas de contacto (6 ECTS) e a ficha Mackenzie de 31,7 h não tem vigência confirmada.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Ficha completa e título conferido, mas com conteúdos enunciados só por título curto; horas de contacto ilegíveis e vigência da ficha brasileira não confirmada.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 21/09/2025); ficha de 2026/2027 não vista",
+    "Conteúdos programáticos listados apenas por título curto; temas emergentes podem ser tratados em aula sem constar da ficha",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso, com cabeçalho São Paulo e enunciado 'Cripton Moeda' grafado de forma não padrão",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UC lusíada trata em aula tecnologias emergentes (big data, nuvem, IA) dentro de 'Software' ou 'Comunicações e Redes'?",
+    "Existe outra UC lusíada de gestão de TI ou transformação digital?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Sistemas de informação em gestão'); cada tópico buscado nos itens 14-24 da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Divergência de escopo clara e consistente"}
+}

@@ -1,0 +1,224 @@
+{
+  "id": "si|ORGANIZAÇÃO DE COMPUTADORES|es-salamanca|101125",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ORGANIZAÇÃO DE COMPUTADORES",
+    "name": "ORGANIZAÇÃO DE COMPUTADORES",
+    "courseName": "Sistemas de Informação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco ORGANIZAÇÃO DE COMPUTADORES; página extraída 6 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Dados, informação e conhecimento",
+      "Modelos de computação (von Neumann e Turing)",
+      "Álgebra Booleana e Circuitos Lógicos",
+      "Sistemas de hardware e software",
+      "Dados e armazenamento",
+      "Organização funcional de computadores",
+      "Sistema de Numeração",
+      "Unidade Central de Processamento",
+      "Memória",
+      "Barramento",
+      "Sistema de E/S"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101125",
+      "academicCode": "101125",
+      "name": "Arquitectura De Computadores",
+      "faculty": "Fac. Ciencias",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "Segundo Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Prova final 70%, exercícios 5%, práticas 25%; teoria e prática devem ser superadas separadamente.",
+      "prerequisites": "Se recomienda no cursar Arquitectura de Computadores sin aprobar previamente Computadores II",
+      "source": "https://guias.usal.es/node/255538",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "5edecca0ff0bafe80bcb4c9d2bd47595c44b70e05d587f3ae4c34e5c5a06040c",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Dados, informação e conhecimento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Dados, informação e conhecimento não constituem unidade."
+    },
+    {
+      "brTopic": "Modelos de computação (von Neumann e Turing)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Arquiteturas RISC e segmentação tratam computadores, sem modelos von Neumann e Turing explícitos.",
+      "foreignLocation": "5, temas 2-3"
+    },
+    {
+      "brTopic": "Álgebra Booleana e Circuitos Lógicos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Álgebra booleana e circuitos lógicos básicos não integram os temas."
+    },
+    {
+      "brTopic": "Sistemas de hardware e software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Simulação e programação paralela integram hardware e software sem introdução sistemática.",
+      "foreignLocation": "5, prática; 6"
+    },
+    {
+      "brTopic": "Dados e armazenamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tecnologia e hierarquia de memória tratam armazenamento sem representação de dados.",
+      "foreignLocation": "5, tema 5"
+    },
+    {
+      "brTopic": "Organização funcional de computadores",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Concorrência e microarquitetura detalham processador, sem panorama completo funcional.",
+      "foreignLocation": "5, temas 1-4"
+    },
+    {
+      "brTopic": "Sistema de Numeração",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Sistemas de numeração não figuram no programa."
+    },
+    {
+      "brTopic": "Unidade Central de Processamento",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Segmentação, dependências, conflitos e processadores superescalares.",
+      "foreignLocation": "5, temas 2-4"
+    },
+    {
+      "brTopic": "Memória",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Hierarquia, caches e tecnologia de memórias.",
+      "foreignLocation": "5, tema 5"
+    },
+    {
+      "brTopic": "Barramento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "3-6",
+      "note": "Barramento não é conteúdo identificado."
+    },
+    {
+      "brTopic": "Sistema de E/S",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Interrupções aparecem, sem sistemas de E/S em geral.",
+      "foreignLocation": "5, tema 3"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "MPI e arquiteturas paralelas",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Predição de desvios e execução superescalar",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Dados, informação e conhecimento. Modelos de computação (von Neumann e Turing). Álgebra Booleana e Circuitos Lógicos. Sistemas de hardware e software. Dados e armazenamento. Organização funcional de computadores. Sistema de Numeração. Unidade Central de Processamento. Memória. Barramento. Sistema de E/S.",
+    "foreign": "GENERALES\nCapacidad para definir, evaluar y seleccionar plataformas hardware y software para el desarrollo y la ejecución de sistemas, servicios y aplicaciones informáticas\nCapacidad para resolver problemas con iniciativa, toma de decisiones, autonomía y creatividad.\nESPECÍFICOS\nCapacitar al estudiante para medir el rendimiento de un procesador.\nEntender los conceptos y técnicas de concurrencia inmersos en los computadores actuales para el aumento de sus prestaciones.",
+    "convergences": [
+      "Arquiteturas RISC e segmentação tratam computadores, sem modelos von Neumann e Turing explícitos.",
+      "Simulação e programação paralela integram hardware e software sem introdução sistemática.",
+      "Tecnologia e hierarquia de memória tratam armazenamento sem representação de dados.",
+      "Concorrência e microarquitetura detalham processador, sem panorama completo funcional.",
+      "Segmentação, dependências, conflitos e processadores superescalares.",
+      "Hierarquia, caches e tecnologia de memórias.",
+      "Interrupções aparecem, sem sistemas de E/S em geral."
+    ],
+    "differences": [
+      "Dados, informação e conhecimento não constituem unidade.",
+      "Arquiteturas RISC e segmentação tratam computadores, sem modelos von Neumann e Turing explícitos.",
+      "Álgebra booleana e circuitos lógicos básicos não integram os temas.",
+      "Simulação e programação paralela integram hardware e software sem introdução sistemática.",
+      "Tecnologia e hierarquia de memória tratam armazenamento sem representação de dados.",
+      "Concorrência e microarquitetura detalham processador, sem panorama completo funcional.",
+      "Sistemas de numeração não figuram no programa.",
+      "Barramento não é conteúdo identificado.",
+      "Interrupções aparecem, sem sistemas de E/S em geral."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 1; USAL ano 3",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 101125.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Segundo Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Se recomienda no cursar Arquitectura de Computadores sin aprobar previamente Computadores II",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Arquitectura de Computadores 101125 oferece microarquitetura avançada a SI, deixando de fora vários fundamentos iniciais da organização.",
+  "justification": "CPU segmentada e memória têm correspondência forte; os demais pontos são parciais ou ausentes, pois a disciplina pressupõe Computadores II. MPI e simulação DLX ampliam a prática sem provar álgebra booleana, numeração, barramentos ou modelo de Turing.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional.",
+    "Segundo semestre europeu não coincide em regra com o intercâmbio brasileiro 2027.2; calendário e eventual oferta alternativa não confirmados."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 101125 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

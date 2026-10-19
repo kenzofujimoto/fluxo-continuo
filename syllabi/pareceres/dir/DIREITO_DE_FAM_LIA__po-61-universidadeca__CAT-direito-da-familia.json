@@ -1,0 +1,142 @@
+{
+  "id": "dir|DIREITO DE FAMÍLIA|po-61-universidadeca|CAT-direito-da-familia",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DE FAMÍLIA",
+    "name": "DIREITO DE FAMÍLIA",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 41, bloco DIREITO DE FAMÍLIA: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-61-universidadeca",
+      "university": "Universidade Católica Portuguesa",
+      "code": "CAT-direito-da-familia",
+      "name": "Direito da Família",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": "2025/2026",
+      "period": "3.º ano, 2.º semestre; oferta 2027.2 não confirmada",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Obrigatória",
+      "assessment": "Contínua pelaparticipação emproblemas eexame final também porproblemas",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-141116-fuc-direito-da-familia-3o-ano.pdf",
+      "catalogue": "https://fd.lisboa.ucp.pt/pt-pt/licenciatura-em-direito/licenciatura-em-direito/plano-curricular",
+      "sha256": "f695d97c5b28e91d6ef9bd73d4d4ac23825de423f32b93798373e8eed69bec05",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": 61,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": 150,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Total de contacto TP explicitamente declarado; duração da hora não informada."
+      },
+      "yearOfStudy": 3,
+      "semester": 2
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Família como realidade antropológica/jurídica e regulação legal",
+      "foreignLocation": "Objetivos; Conteúdos, I, unidades 1-3",
+      "note": "Princípios constitucionais contemporâneos brasileiros não estruturam unidade específica."
+    },
+    {
+      "brTopic": "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Casamento, consentimento, estatuto conjugal, bens, crise e divórcio",
+      "foreignLocation": "Conteúdos, II-IV, unidades 4-6 e 9-13",
+      "note": "O enfoque português não comprova a aplicação das normas e da jurisprudência brasileiras."
+    },
+    {
+      "brTopic": "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Estabelecimento da filiação e responsabilidades parentais",
+      "foreignLocation": "Conteúdos, II, unidades 7-8",
+      "note": "Não individualiza adoção, alimentos, guarda, interesse da criança nem ECA; referências bibliográficas não os comprovam."
+    }
+  ],
+  "additionalForeignTopics": [],
+  "competencies": {
+    "brazil": "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea. Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial. Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente.",
+    "foreign": [
+      "Interpretar textos edecisões familiares epropor soluções conforme lei portuguesa"
+    ],
+    "convergences": [
+      "Família da Católica cobre sobretudo casamento, patrimônio e filiação, com lacunas documentais nos institutos de proteção infantil e ECA da ementa brasileira."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "4 horas-aula semanais em edição de 2022",
+    "foreign": "As 13 unidades dedicam 1-3 à introdução, 4-8 a casamento/filiação, 9-11 a patrimônio e 12-13 a crises/divórcio. São 61 horas TP, 150 de trabalho e 6 ECTS, sem duração da hora; a convergência de temas não é equivalência normativa.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "3.º ano, 2.º semestre; oferta 2027.2 não confirmada",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Família da Católica cobre sobretudo casamento, patrimônio e filiação, com lacunas documentais nos institutos de proteção infantil e ECA da ementa brasileira.",
+  "justification": "As 13 unidades dedicam 1-3 à introdução, 4-8 a casamento/filiação, 9-11 a patrimônio e 12-13 a crises/divórcio. São 61 horas TP, 150 de trabalho e 6 ECTS, sem duração da hora; a convergência de temas não é equivalência normativa. O cotejo registra 0 tópicos cobertos e 3 parciais de 3 essenciais. A carga brasileira semanal impede calcular uma razão horária semestral, mesmo quando a ficha estrangeira declara contacto; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional"
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  }
+}

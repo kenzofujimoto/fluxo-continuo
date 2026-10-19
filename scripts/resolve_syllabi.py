@@ -10,7 +10,9 @@ page by its anchor text), fetch them and accept a URL only when the page:
 Accepted sources go to syllabi/fontes-verificadas.json; every attempt (HTTP status, reason) goes to
 syllabi/tentativas-coleta.json. A failed attempt is never evidence that a programme does not exist.
 
-Run: python scripts/resolve_syllabi.py [--limit N] [--university ID]
+Run: python scripts/resolve_syllabi.py [--limit N] [--university ID] [--scope all-missing]
+Resume an interrupted sweep with --resume-since TIMESTAMP (the original run's UTC start).
+Without this explicit option, previous failures are retried and their history is preserved.
 """
 from __future__ import annotations
 
@@ -22,8 +24,9 @@ import re
 import sys
 import time
 import unicodedata
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from pathlib import Path
+from threading import Lock
 from urllib.parse import urljoin, urlparse
 
 import fitz
@@ -41,6 +44,16 @@ CONTENT_MARKERS = re.compile(
     r"programma(?: del corso| dell'insegnamento)?|contenuti|course contents?|contents of the course|syllabus|course outline|"
     r"learning outcomes|ders i[cç]eri[gğ]i|i[cç]erik|haftal[ıi]k|weekly (?:topics|schedule)|continguts|unidades tem[aá]ticas|"
     r"resultados de aprendi[sz]a(?:je|gem))\b", re.I)
+
+
+# Official templates that always describe exactly one course (host, marker of the per-course header).
+INDIVIDUAL_TEMPLATES = [
+    ("guias.usal.es", r"1\.\s*Datos de la asignatura"),
+    ("catalogue.leeds.ac.uk", r"Module manager\s*:"),
+    ("asignaturas.uca.es", r"Asignatura:\s*\d{8}\s*\|"),
+    ("apps.uc.pt", r"\bUnidade Curricular\b"),
+    ("ects.nevsehir.edu.tr", r"\b(?:Course Code|Ders Kodu)\b"),
+]
 
 
 def fold(s: str) -> str:
@@ -70,6 +83,12 @@ def verify_programme(text: str, title: str, code: str, other_titles: list[str], 
     declared_code = re.search(r"\bC[oó]digo(?:\s+(?:de la asignatura|da disciplina))?\s*:?\s*(\d{4,})\b", text[:6000], re.I)
     if str(code).isdigit() and declared_code and declared_code.group(1) != str(code) and not catalogue_id:
         return {"ok": False, "reason": "código acadêmico declarado difere da disciplina solicitada"}
+    english_code = re.search(r"\bCourse\s+Code\s*:?\s*([A-Z]{2,8}\s*\d{2,6}[A-Z]?)\b", text[:6000], re.I)
+    if english_code and not str(code).startswith("CAT-"):
+        declared = re.sub(r"\s+", "", english_code.group(1)).upper()
+        requested = re.sub(r"\s+", "", str(code)).upper()
+        if declared != requested:
+            return {"ok": False, "reason": "código acadêmico declarado difere da disciplina solicitada"}
     ident = []
     if title_matches:
         ident.append("title")
@@ -90,12 +109,19 @@ def verify_programme(text: str, title: str, code: str, other_titles: list[str], 
     others = {fold(o) for o in other_titles if fold(o) and fold(o) != t and len(fold(o)) >= 6}
     full = fold(text)
     found = sum(1 for o in others if o in full)
-    if found > 3:
+    # Known one-course-per-page templates cite other courses as prerequisites/recommendations;
+    # there the listing rule would reject genuine guides, so the template plus a title match decides.
+    template = next((host for host, rx in INDIVIDUAL_TEMPLATES
+                     if (source.hostname or "") == host and re.search(rx, text[:12000], re.I)), None)
+    if found > 3 and not (template and title_matches):
         return {"ok": False, "reason": f"página de listagem ({found} outras disciplinas citadas)"}
-    m = CONTENT_MARKERS.search(text)
+    # Accessibility navigation is not a curricular content section.
+    content_text = re.sub(r"\b(?:ir|saltar)\s+para\s+(?:o\s+)?conte[uú]do\b|\bskip\s+to\s+(?:main\s+)?content\b", "", text, flags=re.I)
+    m = CONTENT_MARKERS.search(content_text)
     if not m or len(text) < 800:
         return {"ok": False, "reason": "seção de conteúdos não encontrada"}
-    return {"ok": True, "identifiedBy": ident, "contentMarker": m.group(0)[:40], "otherTitlesFound": found}
+    return {"ok": True, "identifiedBy": ident, "contentMarker": m.group(0)[:40], "otherTitlesFound": found,
+            "individualTemplate": template}
 
 
 def find_course_link(html: str, base: str, title: str) -> str | None:
@@ -145,13 +171,13 @@ def fetch_text(url: str) -> tuple[dict, str]:
                 r.close()
                 return {**info, "error": "download excedeu 60 s ou 15 MB"}, ""
         raw = b"".join(chunks)
-        if "drive.google.com" in r.url and raw[:5] != b"%PDF" and b"confirm=" in raw:
+        if "drive.google.com" in r.url and not raw.lstrip().startswith(b"%PDF-") and b"confirm=" in raw:
             m = re.search(rb'confirm=([0-9A-Za-z_-]+)', raw)
             if m:
                 r = requests.get(url + "&confirm=" + m.group(1).decode(), headers={"User-Agent": UA}, timeout=(10, 40))
                 raw = r.content
         info["sha256"] = hashlib.sha256(raw).hexdigest()
-        if raw[:5] == b"%PDF":
+        if raw.lstrip().startswith(b"%PDF-"):
             pdf = fitz.open(stream=raw, filetype="pdf")
             info["format"], info["pages"] = "pdf", len(pdf)
             return info, "\n".join(p.get_text() for p in pdf)[:200000]
@@ -173,14 +199,20 @@ def _load(p):
     return json.loads((ROOT / p).read_text(encoding="utf-8"))
 
 
-def targets(only_uni: str | None) -> list[dict]:
+def targets(only_uni: str | None, scope: str = "priority") -> list[dict]:
     data = _load("data.json")
     rec = {(r["universityId"], r["foreignCode"]): r for r in _load("syllabi/records.json")["foreign"]}
-    verified = {(x["universityId"], x["code"]) for x in (_load("syllabi/fontes-verificadas.json")["foreign"] if VERIFIED.exists() else [])}
+    verified = {(x["universityId"], x["code"]) for x in (_load("syllabi/fontes-verificadas.json")["foreign"] if VERIFIED.exists() else []) if x.get("individualSyllabus")}
     req = _load("syllabi/pendencias-documentais.json")
     fc = {(f["universityId"], f["code"]): f for f in data["foreignCourses"]}
     out = []
-    for u in req["foreign"]:
+    groups = req["foreign"]
+    if scope == "all-missing":
+        groups = [{"universityId": uid, "missingSyllabi": [f for (university, _), f in fc.items() if university == uid]}
+                  for uid in dict.fromkeys(f["universityId"] for f in data["foreignCourses"])]
+    elif scope != "priority":
+        raise ValueError(f"Unknown collection scope: {scope}")
+    for u in groups:
         if only_uni and u["universityId"] != only_uni:
             continue
         titles = [f["name"] for (uid, _), f in fc.items() if uid == u["universityId"]]
@@ -194,11 +226,49 @@ def targets(only_uni: str | None) -> list[dict]:
     return out
 
 
-def resolve(t: dict, listing_cache: dict) -> dict:
+def merge_attempt(previous: dict | None, current: dict) -> dict:
+    """Keep previous HTTP failures and successful evidence instead of overwriting the audit."""
+    if not previous:
+        return current
+    history = [*previous.get("history", []), {k: v for k, v in previous.items() if k != "history"}]
+    return {**current, "history": history}
+
+
+def resume_targets(todo: list[dict], attempts: dict, since: str | None) -> list[dict]:
+    """Skip attempts from this explicitly selected run; old failures remain retryable."""
+    if since is None:
+        return todo
+    return [t for t in todo if attempts.get((t["universityId"], t["code"]), {}).get("checkedAt", "") < since]
+
+
+class FetchCache:
+    """Deduplicate exact URLs within one run, including failures, without caching verdicts."""
+
+    def __init__(self) -> None:
+        self._lock = Lock()
+        self._pending: dict[str, Future] = {}
+
+    def fetch(self, url: str) -> tuple[dict, str]:
+        with self._lock:
+            future = self._pending.get(url)
+            owner = future is None
+            if owner:
+                future = Future()
+                self._pending[url] = future
+        if owner:
+            try:
+                future.set_result(fetch_text(url))
+            except Exception as error:
+                future.set_exception(error)
+        return future.result()
+
+
+def resolve(t: dict, listing_cache: FetchCache | dict) -> dict:
+    fetch = listing_cache.fetch if isinstance(listing_cache, FetchCache) else fetch_text
     tried = []
     urls = candidate_urls(t["universityId"], t["code"], t["source"])
     for url in urls:
-        info, text = fetch_text(url)
+        info, text = fetch(url)
         v = verify_programme(text, t["name"], t["code"], t["titles"], source_url=info.get("finalUrl") or url) if text else {"ok": False, "reason": f"HTTP {info.get('http')} {info.get('error', '')}".strip()}
         tried.append({"url": url, "http": info.get("http"), "result": v.get("reason") or "verificado"})
         if v["ok"]:
@@ -208,7 +278,7 @@ def resolve(t: dict, listing_cache: dict) -> dict:
         if html and url == t["source"]:
             link = find_course_link(html, info.get("finalUrl") or url, t["name"])
             if link and link not in urls:
-                info2, text2 = fetch_text(link)
+                info2, text2 = fetch(link)
                 v2 = verify_programme(text2, t["name"], t["code"], t["titles"], source_url=info2.get("finalUrl") or link) if text2 else {"ok": False, "reason": f"HTTP {info2.get('http')}"}
                 tried.append({"url": link, "http": info2.get("http"), "result": v2.get("reason") or "verificado", "foundOn": url})
                 if v2["ok"]:
@@ -221,29 +291,36 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--university", default=None)
     ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--scope", choices=("priority", "all-missing"), default="priority")
+    ap.add_argument("--resume-since", help="Skip attempts checked at or after this ISO UTC timestamp")
     a = ap.parse_args()
-    todo = targets(a.university)
-    if a.limit:
-        todo = todo[:a.limit]
+    todo = targets(a.university, scope=a.scope)
     verified = _load("syllabi/fontes-verificadas.json") if VERIFIED.exists() else {"meta": {}, "foreign": [], "brazil": []}
     attempts = _load("syllabi/tentativas-coleta.json") if ATTEMPTS.exists() else {"meta": {}, "attempts": []}
     att_idx = {(x["universityId"], x["code"]): x for x in attempts["attempts"]}
+    todo = resume_targets(todo, att_idx, a.resume_since)
+    if a.limit:
+        todo = todo[:a.limit]
     ok = done = 0
+    listing_cache = FetchCache()
     with ThreadPoolExecutor(max_workers=max(1, min(a.workers, 8))) as pool:
-        futs = {pool.submit(resolve, t, {}): t for t in todo}
+        futs = {pool.submit(resolve, t, listing_cache): t for t in todo}
         for f in as_completed(futs):
             t = futs[f]
             r = f.result()
-            att_idx[(t["universityId"], t["code"])] = {"universityId": t["universityId"], "code": t["code"], "name": t["name"],
-                                                         "checkedAt": NOW, "verified": r["ok"], "tried": r["tried"]}
+            key = (t["universityId"], t["code"])
+            att_idx[key] = merge_attempt(att_idx.get(key), {"universityId": t["universityId"], "code": t["code"], "name": t["name"],
+                                                         "checkedAt": NOW, "verified": r["ok"], "tried": r["tried"]})
             if r["ok"]:
                 ok += 1
-                verified["foreign"] = [x for x in verified["foreign"] if (x["universityId"], x["code"]) != (t["universityId"], t["code"])]
+                prior = next((x for x in verified["foreign"] if (x["universityId"], x["code"]) == key), None)
+                verified["foreign"] = [x for x in verified["foreign"] if (x["universityId"], x["code"]) != key]
                 verified["foreign"].append({"universityId": t["universityId"], "code": t["code"], "name": t["name"], "source": r["url"],
                                             "individualSyllabus": True, "academicYear": academic_year(r["text"][:3000]),
                                             "sha256": r["info"].get("sha256"), "format": r["info"].get("format"),
                                             "identifiedBy": r["verify"]["identifiedBy"], "contentMarker": r["verify"]["contentMarker"],
-                                            "checkedAt": NOW, "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem"})
+                                            "checkedAt": NOW, "method": "resolve_syllabi.py: identidade + seção de conteúdos + não listagem",
+                                            **({"history": [*prior.get("history", []), {k: v for k, v in prior.items() if k != "history"}]} if prior else {})})
             done += 1
             if done % 50 == 0:  # checkpoint: partial progress survives interruptions
                 save(verified, attempts, att_idx)

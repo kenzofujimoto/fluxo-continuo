@@ -1,0 +1,300 @@
+{
+ "id": "dir|DIREITO DA INOVAÇÃO TECNOLÓGICA|it-47-universitadegl|8022971",
+ "schemaVersion": 2,
+ "type": "simples",
+ "brazil": {
+  "courseId": "dir",
+  "code": "DIREITO DA INOVAÇÃO TECNOLÓGICA",
+  "name": "DIREITO DA INOVAÇÃO TECNOLÓGICA",
+  "courseName": "Direito",
+  "stage": 8,
+  "kind": "obrigatoria",
+  "campus": "Alphaville",
+  "documentYear": 2022,
+  "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+  "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+  "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+  "location": "PDF p.62, bloco DIREITO DA INOVAÇÃO TECNOLÓGICA",
+  "language": "Português",
+  "prerequisites": "Não informados no ementário",
+  "current": false,
+  "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+  "hours": {
+   "value": 2,
+   "unit": "hora_aula",
+   "basis": "semana",
+   "note": "O bloco informa2horas-aula semanais; não há total semestral comparável."
+  },
+  "topics": [
+   "Estudo do conceito e espécies de inovação",
+   "Inovação fechada e inovação aberta",
+   "A inovação tecnológica: importância para a sociedade e análise como objeto de tutela jurídica",
+   "Escolas econômicas sobre inovação tecnológica",
+   "Histórico do sistema jurídico da inovação no Brasil",
+   "Ciência, tecnologia e inovação tecnológica na Constituição",
+   "Sistema nacional de inovação tecnológica: atores e instrumentos",
+   "Direito digital, transformação digital e as novas fronteiras do direito",
+   "Proteção de dados pessoais",
+   "marco civil da internet",
+   "direito ao esquecimento",
+   "inteligência artificial e direito",
+   "Blockchain e smart contracts",
+   "Política de inovação tecnológica e suas interfaces com outras políticas públicas (educacional, industrial, tributária)",
+   "Financiamento da inovação tecnológica e seus atores",
+   "Os incentivos à inovação tecnológica no Brasil",
+   "Lei da inovação tecnológica (Lei nº 10.973/04)",
+   "Eficácia social do Ordenamento da Inovação",
+   "Propriedade Intelectual e Propriedade Industrial - (Lei n.º 9.279/96)",
+   "Licitações, contratos públicos e a inovação tecnológica",
+   "Compras públicas como incentivo à inovação tecnológica"
+  ]
+ },
+ "foreign": [
+  {
+   "universityId": "it-47-universitadegl",
+   "university": "Università degli Studi di Roma Tor Vergata",
+   "code": "8022971",
+   "name": "Diritto dell’innovazione tecnologica",
+   "faculty": "Giurisprudenza",
+   "programme": "Giurisprudenza, sede Tor Vergata, Canale 1",
+   "level": "LM CU, ciclo único em Direito",
+   "yearOfStudy": null,
+   "semester": null,
+   "period": "Semestre não declarado na ficha consultada",
+   "academicYear": "2026/2027",
+   "language": "Italiano",
+   "courseStatus": "Não declarado na ficha individual",
+   "assessment": "Prova oral sobre o programa completo; aprovação acadêmica local a partir de 18/30.",
+   "prerequisites": "Istituzioni di Diritto Privato",
+   "catalogue": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/",
+   "location": "PDF pp.1-6; p.3 campos AcroForm tb_programma_ita e tb_programma_eng lidos integralmente, inclusive texto além da aparência impressa",
+   "source": "https://cdl.giurisprudenza.uniroma2.it/wp-content/uploads/2026/07/Diritto-dellinnovazione-tecnologica_Ricciuto_2026_2027_TV.pdf",
+   "sha256": "d95365dbfc447807bd2bb838db60c0e7cc9ae8a72f2294919303abc8ddc6b92c",
+   "hours": {
+    "contactTotal": null,
+    "contactLecture": null,
+    "contactSeminarLab": null,
+    "selfStudy": null,
+    "totalWorkload": null,
+    "ects": null,
+    "basis": null,
+    "hourLengthMinutes": null,
+    "note": "7 CFU. Programa aloca 12 ore+16 ore+12 ore por blocos; não os classifica explicitamente como total de contato semestral. Não converterCFU nem somar blocos como carga certificada."
+   }
+  }
+ ],
+ "topics": [
+  {
+   "brTopic": "Estudo do conceito e espécies de inovação",
+   "essential": true,
+   "status": "parcial",
+   "foreignEvidence": "A introdução apresenta direito e tecnologia e fontes da inovação; não discrimina conceito e espécies de inovação.",
+   "foreignLocation": "Programma, parte introduttiva"
+  },
+  {
+   "brTopic": "Inovação fechada e inovação aberta",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "A inovação tecnológica: importância para a sociedade e análise como objeto de tutela jurídica",
+   "essential": true,
+   "status": "coberto",
+   "foreignEvidence": "Objetivos jurídicos sobre novos fenômenos tecnológicos e introdução sobre direito, tecnologia e fontes da tutela.",
+   "foreignLocation": "Obiettivi p.2; Programma p.3, parte introduttiva"
+  },
+  {
+   "brTopic": "Escolas econômicas sobre inovação tecnológica",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Histórico do sistema jurídico da inovação no Brasil",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Ciência, tecnologia e inovação tecnológica na Constituição",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Sistema nacional de inovação tecnológica: atores e instrumentos",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Direito digital, transformação digital e as novas fronteiras do direito",
+   "essential": true,
+   "status": "parcial",
+   "foreignEvidence": "Enquadra juridicamente novas tecnologias e plataformas digitais; transformação digital é abordada apenas por esses recortes.",
+   "foreignLocation": "Programma p.3, partes 1 e 3"
+  },
+  {
+   "brTopic": "Proteção de dados pessoais",
+   "essential": true,
+   "status": "parcial",
+   "foreignEvidence": "Estratégia europeia dos dados: tutela da pessoa, dados pessoais e não pessoais e circulação; não cobreLGPD brasileira.",
+   "foreignLocation": "Programma p.3, parte 2"
+  },
+  {
+   "brTopic": "marco civil da internet",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "direito ao esquecimento",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "inteligência artificial e direito",
+   "essential": true,
+   "status": "coberto",
+   "foreignEvidence": "O campo completo inclui disciplina jurídica da inteligência artificial no terceiro bloco setorial.",
+   "foreignLocation": "PDF p.3, AcroForm tb_programma_ita, parte 3, terceiro item"
+  },
+  {
+   "brTopic": "Blockchain e smart contracts",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Política de inovação tecnológica e suas interfaces com outras políticas públicas (educacional, industrial, tributária)",
+   "essential": true,
+   "status": "parcial",
+   "foreignEvidence": "A estratégia europeia dos dados oferece política regulatória setorial; interfaces educacional, industrial e tributária não estão discriminadas.",
+   "foreignLocation": "Programma p.3, parte 2"
+  },
+  {
+   "brTopic": "Financiamento da inovação tecnológica e seus atores",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Os incentivos à inovação tecnológica no Brasil",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Lei da inovação tecnológica (Lei nº 10.973/04)",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Eficácia social do Ordenamento da Inovação",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Propriedade Intelectual e Propriedade Industrial - (Lei n.º 9.279/96)",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Licitações, contratos públicos e a inovação tecnológica",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  },
+  {
+   "brTopic": "Compras públicas como incentivo à inovação tecnológica",
+   "essential": true,
+   "status": "nao_encontrado",
+   "scopeExamined": "Programa integral p.3 nos campos AcroForm italiano e inglês, incluindo setores saúde/plataformas/IA; objetivos p.2 e metodologia p.6.",
+   "note": "O programa delimitado não explicita este tópico; a ausência documental não prova impossibilidade de abordagem em aula."
+  }
+ ],
+ "additionalForeignTopics": [
+  {
+   "topic": "Circulação contratual dos dados pessoais e não pessoais",
+   "location": "Programma p.3, parte 2"
+  },
+  {
+   "topic": "Regulação de dados de saúde e plataformas digitais",
+   "location": "PDF p.3, campos AcroForm, parte 3"
+  }
+ ],
+ "competencies": {
+  "brazil": "Leitura histórica, constitucional e legislativa brasileira da inovação, dos incentivos, da propriedade industrial e das compras públicas.",
+  "foreign": [
+   "Interpretar categorias jurídicas das novas tecnologias",
+   "Construir soluções jurídicas e argumentação crítica",
+   "Analisar regulação europeia de dados, plataformas e IA"
+  ],
+  "convergences": [
+   "Enquadramento jurídico da tecnologia",
+   "Proteção da pessoa e regulação de dados",
+   "Direito da inteligência artificial"
+  ],
+  "differences": [
+   "Brasil enfatiza fomento, financiamento, propriedade industrial e contratação pública",
+   "Tor Vergata concentra-se na circulação de dados e em setores regulados pela experiência europeia"
+  ]
+ },
+ "depth": {
+  "level": "Brasil 8ªetapa; Tor Vergata ciclo único de Giurisprudenza, posição na matriz não informada na ficha.",
+  "brazil": "21 tópicos essenciais e 2 horas-aula semanais no ementário 2022.",
+  "foreign": "Três blocos com alocações literais 12/16/12 ore e 7 CFU; leitura jurídica apoiada em Direito Privado.",
+  "theoryPractice": "Tor Vergata declara aulas expositivas, discussão, exercícios e materiais jurisprudenciais; não há repartição quantitativa de contato."
+ },
+ "practical": {
+  "period": "Semestre e oferta no intercâmbio 2027.2 não confirmados.",
+  "language": "Italiano; a tradução inglesa da ficha não comprova aulas em inglês.",
+  "enrolment": "Convênio marcaDireito, mas matrícula individual e acesso a Giurisprudenza dependem da anfitriã.",
+  "prerequisites": "Istituzioni di Diritto Privato.",
+  "offer2027": "nao_confirmada"
+ },
+ "synthesis": "Apesar do título quase idêntico, a ficha deTor Vergata concentra a inovação tecnológica no direito europeu dos dados e em saúde, plataformas e IA. O ementário brasileiro agrega uma extensa vertente de fomento, Constituição, leis nacionais, propriedade industrial e compras públicas que o programa italiano não explicita.",
+ "justification": "Dos 21 tópicos essenciais,2 têm cobertura temática direta e 4 apenas parcial;15 não foram encontrados no programa integral, inclusive nos valores completos dos campos PDF. A parte 3, invisível no texto impresso extraído por transbordamento do formulário, confirmaIA, mas não justifica presumir blockchain, patente, financiamento ou licitação. A estratégia europeia dos dados só corresponde parcialmente à proteção de dados e às políticas públicas brasileiras. A combinação de ementário Mackenzie 2022 histórico,2 horas-aula semanais e ausência de contato semestral estrangeiro também impede avaliação quantitativa de carga. A baixa afinidade descreve este cotejo documental, sem reprovar mobilidade ou antecipar decisão institucional.",
+ "conclusionClass": "baixa_afinidade",
+ "confidence": "moderada",
+ "confidenceRationale": "Identidade, ano e campos curriculares italianos completos confirmados; o lado brasileiro é histórico e faltam oferta e carga comparável.",
+ "limitations": [
+  "EmentárioMackenzie 2022 histórico; vigência na matriz atual não confirmada.",
+  "Horas brasileiras semanais e 7 CFU italianos não comparáveis como contato semestral.",
+  "Alocações 12/16/12 ore por bloco não foram convertidas em contato certificado.",
+  "Texto de aparênciaPDF corta o final do programa: foram lidos valores integrais dos campos AcroForm, sem inferir tópicos ausentes.",
+  "Diferenças Brasil/União Europeia impedem presumir cobertura de legislação brasileira.",
+  "Oferta 2027/28, semestre, idioma do grupo e matrícula de intercambistas não confirmados."
+ ],
+ "openQuestions": [
+  "Qual a carga de contato semestral e a duração da hora na ficha certificada?",
+  "A coordenação considera aproveitamento optativo de direito europeu dos dados, distinto da disciplina brasileira de fomento à inovação?"
+ ],
+ "alternatives": [],
+ "method": "Cotejo documental assistido por Codex: leitura integral do bloco BRp.62 e da ficha italiana de 6 páginas; inspeção independente dos campos AcroForm completos na p.3; vínculo tópico a tópico, sem equivalência por título.",
+ "secondReview": {
+  "required": true,
+  "reason": "Validar diferença entre regulação de dados e fomento à inovação e confirmar aproveitamento de ementário brasileiro histórico; conferir campos PDF que excedem a aparência impressa."
+ },
+ "institutionalStatus": "aguardando_validacao_institucional",
+ "reviewedAt": "2026-10-18"
+}

@@ -1,0 +1,188 @@
+{
+  "id": "adm|Gestão de Inovação|tu-67-nevsehirhacbek|BUS227",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Inovação",
+    "name": "Gestão de Inovação",
+    "courseName": "Administração",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 6º Semestre (Etapa_6_v2_01.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_6_v2_01.pdf",
+    "sha256": "7cf67f14c0971b495c759e26fa037365db5ba7116bfa8355b3ee85cb89aabea3",
+    "location": "PDF p. 3, bloco 'Gestão de Inovação': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 31.7,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 31,7 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fatores fundamentais na gestão da inovação",
+      "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "A inovação como um processo de gestão e mecanismos de implantação",
+      "Modelo de estratégia de inovação",
+      "Ecossistema de Inovação",
+      "Avaliação e desempenho da inovação"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+      "name": "Technology and Innovation Management",
+      "pageCode": "42788",
+      "faculty": "Faculty of Economics and Administrative Sciences",
+      "programme": "Business Administration (İşletme)",
+      "level": "1st Cycle Degree Programme",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "2nd year, Fall Semester; 14 semanas",
+      "academicYear": "Não impresso na página (catálogo ECTS consultado em 2026)",
+      "language": "Inglês (Language of Instruction: English)",
+      "courseStatus": "Optional",
+      "assessment": "Prova intermediária 40% e prova final 60%; a tabela de avaliação indica as semanas 7 e 14, enquanto o plano semanal as marca nas semanas 8 e 16",
+      "prerequisites": "Nenhum (Pre-requisities and Co-requisites: None)",
+      "catalogue": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/bolum/180002/sayfa/1",
+      "location": "Página ECTS da UC BUS227: identificação, Objectives, Learning Outcomes LO-1 e LO-2, Course Contents, Weekly Course Content (semanas 1-16), Assessment Methods, Workload",
+      "hours": {
+        "contactTotal": 3,
+        "contactLecture": 3,
+        "contactSeminarLab": 0,
+        "selfStudy": null,
+        "totalWorkload": 112,
+        "ects": 4.0,
+        "basis": "semana",
+        "hourLengthMinutes": null,
+        "note": "Theoretical+Practice = 3+0, isto é, 3 horas semanais (base semanal, não semestral). A tabela de carga de trabalho registra 3 h x 14 semanas = 42 h de aula e total de 112 h de trabalho do aluno, que não são horas de contacto. 4 ECTS não convertidos."
+      },
+      "universityId": "tu-67-nevsehirhacbek",
+      "code": "BUS227",
+      "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/42788",
+      "sha256": "7e4fb7fdb6491b28b5a9e17eed0cb30d446691561722799ba6b706f7dce9fe4b"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fatores fundamentais na gestão da inovação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 1 'Fundamental terms, technology, innovation, management and marketing'; semana 3 'Customer needs, understanding market'; semana 4 'Product life cycle and new product development'",
+      "foreignLocation": "Weekly Course Content, semanas 1-4; Objectives",
+      "note": "O enunciado brasileiro é genérico; as semanas iniciais tratam dos termos e dos fatores de mercado da inovação."
+    },
+    {
+      "brTopic": "A teoria da inovação; tipos, graus e características da organização inovadora",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Course Contents: 'Innovation, What would be innovation'; semana 11 'what are innovative products?'; semana 2 'Technology and industrial evolution'",
+      "foreignLocation": "Course Contents; Weekly Course Content, semanas 2 e 11",
+      "note": "Conceito e noção de produto inovador aparecem; tipos e graus de inovação e características da organização inovadora não são nomeados."
+    },
+    {
+      "brTopic": "A inovação como um processo de gestão e mecanismos de implantação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 10 'New product development and innovation processes'; semana 9 'Research and Development, project view'; Course Contents: 'the process of technology management'",
+      "foreignLocation": "Weekly Course Content, semanas 9-10; Course Contents"
+    },
+    {
+      "brTopic": "Modelo de estratégia de inovação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 5 'Management of technology, strategic management of technology'; semana 6 'Dimensions of strategic technology management'",
+      "foreignLocation": "Weekly Course Content, semanas 5-6",
+      "note": "Estratégia tecnológica coberta; um modelo de estratégia de inovação como tal não é nomeado."
+    },
+    {
+      "brTopic": "Ecossistema de Inovação",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectives, Learning Outcomes LO-1 e LO-2, Course Contents e Weekly Course Content (semanas 1-16) da página BUS227",
+      "note": "Ecossistema de inovação não é nomeado; empreendedorismo e inovação (semana 14), propriedade intelectual (semana 12) e financiamento (semana 15) são elementos vizinhos."
+    },
+    {
+      "brTopic": "Avaliação e desempenho da inovação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "LO-1 'evaluate the commercial potential of a new technology and innovation'; semana 13 'Securing innovations, marketing innovations'",
+      "foreignLocation": "Learning Outcomes, LO-1; Weekly Course Content, semana 13",
+      "note": "Avalia o potencial comercial da inovação; indicadores de desempenho da inovação não são nomeados."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Gestão de tecnologia sustentável",
+      "location": "Weekly Course Content, semana 7"
+    },
+    {
+      "topic": "Direitos de propriedade intelectual e proteção de inovações",
+      "location": "Weekly Course Content, semanas 12-13; LO-2"
+    },
+    {
+      "topic": "Empreendedorismo e inovação; financiamento da inovação",
+      "location": "Weekly Course Content, semanas 14-15"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: conceitos de inovação e inovação como processo de gestão nas organizações.",
+    "foreign": [
+      "Avaliar o potencial comercial de uma nova tecnologia e inovação",
+      "Reconhecer os direitos de propriedade e sua importância na vida comercial",
+      "Compreender conceitos e ferramentas de tecnologia e inovação",
+      "Aplicar o processo de gestão da tecnologia e da inovação em estudos de caso"
+    ],
+    "convergences": [
+      "Conceitos de inovação e inovação como processo de gestão",
+      "Estratégia de tecnologia e inovação e processos de desenvolvimento de produtos"
+    ],
+    "differences": [
+      "A ficha brasileira inclui ecossistema de inovação, tipos e graus de inovação e avaliação de desempenho, que Nevşehir não nomeia",
+      "Nevşehir acrescenta gestão de tecnologia, propriedade intelectual, empreendedorismo e financiamento da inovação"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Nevşehir no 2º ano (outono), optativa, Mackenzie na 6ª etapa de Administração",
+    "brazil": "Gestão da inovação de 31,7 h, com seis enunciados conceituais",
+    "foreign": "Visão geral de tecnologia e inovação em 14 semanas, com estudos de caso e um item de propriedade intelectual",
+    "theoryPractice": "Aulas expositivas e discussão, com estudos de caso e prova prática ('Practice Exam')"
+  },
+  "practical": {
+    "period": "Fall Semester, 14 semanas; compatível em princípio com 2027.2 (outono), mas a oferta não está confirmada",
+    "language": "Inglês (Language of Instruction: English), segundo a página; o catálogo informa que o idioma normal da graduação em Business é turco, e o dossiê da universidade exige turco C1 e nível B2 no edital",
+    "enrolment": "UC optativa; disponibilidade para mobilidade incoming a confirmar com Nevşehir Hacı Bektaş Veli",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Technology and Innovation Management de Nevşehir cobre processos de inovação e estratégia tecnológica, o núcleo da ficha Mackenzie, e é dada em inglês, no outono; faltam ecossistema de inovação e indicadores de desempenho, e conceitos como tipos e graus de inovação ficam só parciais.",
+  "justification": "Dos seis enunciados, dois são cobertos (fatores fundamentais e processo de gestão da inovação, semanas 1-4, 9-10), três são parciais (conceito e tipos de inovação, estratégia tecnológica sem modelo de estratégia de inovação, avaliação do potencial comercial) e um ausente (ecossistema de inovação). A soma de 83% sustenta afinidade parcial; só 33% de cobertura plena e a falta do ecossistema impedem alta afinidade. A página traz 3 horas semanais (3+0) e 112 h de trabalho, sem total semestral de contacto, para as 31,7 h brasileiras. O semestre de outono e o inglês como língua de instrução tornam a UC viável em princípio, a confirmar.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Plano semanal detalhado e título conferido, mas horas só semanais, semanas de prova inconsistentes entre tabelas, página sem ano e vigência da ficha brasileira não confirmada.",
+  "limitations": [
+    "Página ECTS sem ano acadêmico impresso; versão consultada em 2026",
+    "Semanas das provas divergem entre a tabela de avaliação (7 e 14) e o plano semanal (8 e 16)",
+    "Horas semanais (3+0) apenas; sem total semestral de contacto; 4 ECTS e 112 h de carga de trabalho não convertidos em horas de contacto",
+    "Inglês declarado como língua de instrução, mas o catálogo geral indica turco como idioma normal do curso; confirmar para alunos incoming",
+    "Oferta em 2027.2 (outono) não confirmada; UC optativa",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; ementa curta (duas frases)",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A UC é efetivamente ofertada em inglês para alunos incoming e abre turma no outono de 2027?",
+    "A UC discute ecossistema e métricas de desempenho de inovação nos estudos de caso?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e da página oficial ECTS da UC BUS227 (Nevşehir), com apoio de IA (Claude); título conferido com o catálogo ('Technology and Innovation Management'); cada tópico vinculado às semanas do plano; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência semanal explícita e consistente"
+  }
+}

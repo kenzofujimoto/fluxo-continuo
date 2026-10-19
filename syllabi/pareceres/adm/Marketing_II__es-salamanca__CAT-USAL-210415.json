@@ -1,0 +1,152 @@
+{
+  "id": "adm|Marketing II|es-salamanca|CAT-USAL-210415",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "CAT-USAL-210415",
+      "name": "Marketing Sectorial",
+      "pageCode": "103850",
+      "faculty": "Facultad de Economía y Empresa; Departamento de Administración y Economía de la Empresa; área Comercialización e Investigación de Mercados",
+      "programme": "Grado en Administración y Dirección de Empresas; módulo Comercialización e Investigación de Mercados",
+      "level": "Grado",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo semestre (periodicidade declarada na seção 1)",
+      "academicYear": "2025/2026",
+      "language": "Español",
+      "courseStatus": "Optativa",
+      "assessment": "Examen final 60% (mínimo 5 sobre 10), evaluación continua 40%; assistência mínima de 85% para pontuar a avaliação contínua",
+      "prerequisites": "Sem requisitos formais; recomendadas Fundamentos de Comercialización, Políticas Comerciales, Estrategia Comercial e Investigación de Mercados (6 ECTS cada)",
+      "source": "https://guias.usal.es/node/210415",
+      "catalogue": "https://guias.usal.es/node/210415",
+      "sha256": "48a5c25bc16e2fa2204eed9248f8f2ef69be1735a1f768ef286251dc21e0761a",
+      "location": "Guía 'Curso 2025/2026': 1 Datos, 2 Recomendaciones, 3 Objetivos, 4 Competencias, 5 Contenidos (parágrafo único), 6 Metodologías (horas), 8 Recursos, 9 Evaluación",
+      "hours": {
+        "contactTotal": 45.0,
+        "contactLecture": 15.0,
+        "contactSeminarLab": 20.0,
+        "selfStudy": null,
+        "totalWorkload": 150.0,
+        "ects": 6.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Seção 6: 150 h de dedicação, 'con 45 horas (30%) de dedicación presencial': teoria 15, prática 20, tutoria 7 e 3 h de exame. 105 h de trabalho do aluno. Duração da hora não declarada. Não derivado de ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Conteúdo: estudo setorial da 'fabricación y venta de bienes y servicios'; objetivo: diferenças no 'producto' em cada setor frente ao marketing geral",
+      "foreignLocation": "Contenidos, parágrafo único; Objetivos, segundo item",
+      "note": "Produto aparece como uma das 4 Ps em chave setorial (agroalimentar, serviços financeiros, turismo); não há tema de administração de bens e serviços."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: características diferenciadoras dos setores nas '4 p's (producto, precio, distribución y comunicación)'",
+      "foreignLocation": "Objetivos, segundo item",
+      "note": "Preço citado apenas como P a diferenciar por setor; a estratégia de preços não é desenvolvida."
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: diferenças setoriais em 'distribución'; competência de cooperação entre produção e marketing em empresas industriais",
+      "foreignLocation": "Objetivos, segundo item; Competencias específicas de habilidad, segundo item",
+      "note": "Distribuição entra como P setorial; canais e gestão de distribuição não são detalhados."
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: diferenças setoriais em 'comunicación'; competência de relação com clientes pela internet; conteúdo de marketing digital",
+      "foreignLocation": "Objetivos, segundo item; Competencias de conocimiento, sexto item; Contenidos",
+      "note": "Comunicação aparece como P setorial e por meio do marketing digital; não há tema de estratégia de comunicação integrada."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Análise setorial: técnicas e métodos", "location": "Objetivos, terceiro e quarto itens"},
+    {"topic": "Marketing agroalimentar, digital, de serviços financeiros e para start-ups", "location": "Contenidos, parágrafo único"},
+    {"topic": "Segmentação e posicionamento", "location": "Competencias específicas de conocimiento, terceiro item"},
+    {"topic": "Plano de marketing: desenho, implantação e seguimento", "location": "Competencias específicas de habilidad, quarto item"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e aspectos da estratégia de preço, comunicação e distribuição para gerar valor superior ao cliente e à empresa.",
+    "foreign": ["Conhecer as peculiaridades das 4 Ps em setores específicos", "Aplicar ferramentas para identificar oportunidades comerciais em pymes industriais", "Reconhecer implicações da regulação de mercados nas decisões comerciais", "Desenhar e acompanhar um plano de marketing"],
+    "convergences": ["As quatro Ps (produto, preço, distribuição, comunicação) como eixo", "Geração de valor ao cliente por meio das decisões comerciais"],
+    "differences": ["Salamanca trata as 4 Ps como diferenças entre setores, e Mackenzie as desenvolve como estratégias de uma disciplina inteira", "Salamanca é optativa de 4º ano, sobre setores, com quatro pré-requisitos de marketing", "O conteúdo do guia é um único parágrafo"]
+  },
+  "depth": {
+    "level": "Ambas de graduação em Administração; Salamanca no 4º ano (optativa), Mackenzie na 4ª etapa",
+    "brazil": "Mix de marketing em 63,3 h-relógio, quatro itens",
+    "foreign": "Marketing setorial: análise de setor, 4 Ps por setor e plano de marketing, 6 ECTS",
+    "theoryPractice": "15 h de teoria e 20 h de prática com casos e exercícios; avaliação 60% exame e 40% contínua"
+  },
+  "practical": {
+    "period": "Segundo semestre; oferta 2027/28 não confirmada",
+    "language": "Español",
+    "enrolment": "Optativa de 4º ano com assistência mínima de 85%; o guia não informa vagas para intercambistas",
+    "prerequisites": "Quatro disciplinas obrigatórias de comercialização recomendadas, entre elas Políticas Comerciales",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Marketing Sectorial nomeia as quatro Ps que a ficha Marketing II desenvolve, mas apenas como diferenças entre setores; as estratégias de preço, distribuição e comunicação são pressupostas de Políticas Comerciales e não estão ensinadas aqui.",
+  "justification": "Os quatro itens (bens e serviços, preço, distribuição, comunicação) são parciais porque o objetivo 2 do guia lista exatamente 'producto, precio, distribución y comunicación' como dimensões a diferenciar por setor, sem tema próprio. Nenhum foi classificado como coberto, já que o guia delega a estratégia de cada P à disciplina prévia Políticas Comerciales (recomendada) e trata de peculiaridades setoriais. O guia traz 45 h presenciais explícitas na seção 6, contra 63,3 h-relógio da ficha, razão de 0,71 (0,59 se a hora for de 50 min), abaixo de 0,75. A cobertura parcial integral e a ficha brasileira sem vigência confirmada sustentam a afinidade parcial.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Conteúdo programático reduzido a um parágrafo e avaliação feita só por objetivos; guia de 2025/26 e ficha brasileira de vigência não confirmada; horas explícitas.",
+  "limitations": [
+    "Oferta 2027/28 não confirmada; o guia lido é 'Curso 2025/2026'",
+    "Duração da hora estrangeira não declarada; razão de 0,71 se hora-relógio e 0,59 se hora de 50 min",
+    "Conteúdo programático do guia é um único parágrafo, sem temas por P",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho do campus São Paulo (current=false)",
+    "O mesmo guia foi comparado com Marketing I em parecer separado",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Políticas Comerciales (6 ECTS, pré-requisito recomendado) cobre preço, distribuição e comunicação com profundidade equivalente à ficha?",
+    "Quais setores serão efetivamente tratados em 2027/28 e com que tempo para cada P?"
+  ],
+  "alternatives": [
+    {"code": "CAT-USAL-210412", "name": "International Marketing", "relation": "Disciplina de marketing da mesma universidade, já analisada em parecer separado para esta disciplina brasileira; programa não lido neste parecer"},
+    {"code": "CAT-USAL-209843", "name": "Fundamentos de Comercialización", "relation": "Disciplina de marketing da mesma universidade, já analisada em parecer separado; programa não lido neste parecer"}
+  ],
+  "method": "Leitura integral do Conteúdo Programático e da ementa da ficha Mackenzie e do guia docente de Salamanca (seções 1 a 9, incluindo a distribuição de horas na seção 6) com apoio de IA (Claude); cada item vinculado a objetivo ou competência; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Conteúdo programático curto: confirmar com o docente a profundidade de cada P por setor"}
+}

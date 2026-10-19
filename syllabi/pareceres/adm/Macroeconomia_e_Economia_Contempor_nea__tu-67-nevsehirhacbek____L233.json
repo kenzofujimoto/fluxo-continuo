@@ -1,0 +1,206 @@
+{
+  "id": "adm|Macroeconomia e Economia Contemporânea|tu-67-nevsehirhacbek|İŞL233",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Macroeconomia e Economia Contemporânea",
+    "name": "Macroeconomia e Economia Contemporânea",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 5, bloco 'Macroeconomia e Economia Contemporânea': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O Lado real e o Lado monetário da economia",
+      "Demanda e Oferta Agregados",
+      "Noções básicas de contas nacionais",
+      "O setor externo da economia",
+      "O lado monetário da economia",
+      "Os efeitos da inflação na atividade econômica",
+      "Política fiscal e seus efeitos",
+      "Discussão da conjuntura econômica nacional"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+      "name": "Macroeconomics I",
+      "pageCode": "42786",
+      "faculty": "Faculty of Economics and Administrative Sciences",
+      "programme": "Business Administration (İşletme)",
+      "level": "1st Cycle Degree Programme",
+      "yearOfStudy": 2,
+      "semester": null,
+      "period": "2nd year, Fall Semester; 14 semanas",
+      "academicYear": "Não impresso na página (catálogo ECTS consultado em 2026)",
+      "language": "Turco (Language of Instruction: Turkish); a página do catálogo está em inglês",
+      "courseStatus": "Optional",
+      "assessment": "Prova intermediária (semana 8) 40% e prova final (semana 16) 60%",
+      "prerequisites": "Nenhum (Pre-requisities and Co-requisites: None)",
+      "catalogue": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/bolum/180002/sayfa/1",
+      "location": "Página ECTS da UC İŞL233: identificação, Objectives, Learning Outcomes LO-1 a LO-3, Course Contents, Weekly Course Content (semanas 1-16), Assessment Methods, Workload",
+      "hours": {
+        "contactTotal": 3,
+        "contactLecture": 3,
+        "contactSeminarLab": 0,
+        "selfStudy": null,
+        "totalWorkload": 111,
+        "ects": 4.0,
+        "basis": "semana",
+        "hourLengthMinutes": null,
+        "note": "Theoretical+Practice = 3+0, isto é, 3 horas semanais (base semanal, não semestral). A tabela de carga de trabalho registra 3 h x 14 semanas = 42 h de aula e total de 111 h de trabalho do aluno, que não são horas de contacto. 4 ECTS não convertidos."
+      },
+      "universityId": "tu-67-nevsehirhacbek",
+      "code": "İŞL233",
+      "source": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/ders/42786",
+      "sha256": "588cbcefa45b3fc3045afa9f1a5767736a5c901031e13ac61f61e38cf9c7bb2f"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O Lado real e o Lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 1-2 'Macroeconomics: Economic Growth and Fluctuations'; semana 15 'Simultaneous Equilibrium in Goods and Money Markets'",
+      "foreignLocation": "Weekly Course Content, semanas 1-2 e 13-15; Objectives",
+      "note": "Mercado de bens (lado real) e mercado monetário são articulados no modelo IS-LM."
+    },
+    {
+      "brTopic": "Demanda e Oferta Agregados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 10 'Basic Keynesian Model: Total Planned Expenditure'; semana 12 'Inflationary-Deflationary Deficit' (gap)",
+      "foreignLocation": "Weekly Course Content, semanas 10-12",
+      "note": "O modelo keynesiano trata da demanda agregada planejada; oferta agregada não é nomeada."
+    },
+    {
+      "brTopic": "Noções básicas de contas nacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 3-4 'Measurement of Economy I: Measurement of Output'; Course Contents: 'Measurement of National Income'",
+      "foreignLocation": "Weekly Course Content, semanas 3-4; Course Contents"
+    },
+    {
+      "brTopic": "O setor externo da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 9 'Interest Rate, Exchange Rate and Balance of Payments'",
+      "foreignLocation": "Weekly Course Content, semana 9",
+      "note": "Câmbio e balanço de pagamentos têm uma única semana, compartilhada com a taxa de juros."
+    },
+    {
+      "brTopic": "O lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 9 'Interest Rate...'; semana 14 'IS-LM Model: LM Curve'; semana 15 'Equilibrium in Goods and Money Markets'",
+      "foreignLocation": "Weekly Course Content, semanas 9 e 14-15"
+    },
+    {
+      "brTopic": "Os efeitos da inflação na atividade econômica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 5 'Measurement of Economy II: Inflation'; semana 7 'Phillips Curve, Okun Rule, Economic Discontent Index'; LO-1 'explain concept of inflation'",
+      "foreignLocation": "Weekly Course Content, semanas 5 e 7; Learning Outcomes, LO-1",
+      "note": "Inclui também desemprego (semana 6), citado na ementa brasileira."
+    },
+    {
+      "brTopic": "Política fiscal e seus efeitos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 15 '4 Extreme Cases in IS-LM Model (Money and Fiscal Policy)'",
+      "foreignLocation": "Weekly Course Content, semana 15",
+      "note": "Política fiscal aparece só como caso do IS-LM, sem unidade própria sobre seus efeitos."
+    },
+    {
+      "brTopic": "Discussão da conjuntura econômica nacional",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Objectives, Learning Outcomes LO-1 a LO-3, Course Contents e Weekly Course Content (semanas 1-16) da página İŞL233",
+      "note": "Nenhuma discussão da conjuntura econômica do país; o tópico brasileiro é de conjuntura nacional, por natureza local."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Tipos de desemprego e Lei de Okun",
+      "location": "Weekly Course Content, semanas 6-7; LO-2"
+    },
+    {
+      "topic": "Modelo keynesiano básico: equilíbrio no mercado de bens",
+      "location": "Weekly Course Content, semanas 10-12"
+    },
+    {
+      "topic": "Modelo IS-LM: curvas IS e LM e casos extremos",
+      "location": "Weekly Course Content, semanas 13-15; LO-3"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: objetivos do governo, políticas econômicas, inflação e emprego, câmbio, moeda, desemprego, crescimento e desenvolvimento, setor público, indicadores econômicos, juros e demanda agregada, políticas expansivas e restritivas.",
+    "foreign": [
+      "Explicar o conceito de inflação",
+      "Explicar os tipos de desemprego",
+      "Explicar o modelo IS-LM",
+      "Explicar mudanças macroeconômicas na economia"
+    ],
+    "convergences": [
+      "Contas nacionais, inflação, desemprego, juros, câmbio e moeda",
+      "Demanda agregada e política fiscal e monetária"
+    ],
+    "differences": [
+      "A ficha brasileira inclui discussão da conjuntura nacional, política econômica do governo e comparação entre países, sem equivalente em Nevşehir",
+      "Nevşehir é mais formal e teórica (Keynes, IS-LM, Phillips, Okun), com ênfase em modelo"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Nevşehir no 2º ano (outono), optativa, Mackenzie na 3ª etapa de Administração",
+    "brazil": "Macroeconomia aplicada e contemporânea de 63,3 h, orientada à tomada de decisão",
+    "foreign": "Macroeconomia I, parte inicial de uma sequência, com modelos keynesianos e IS-LM",
+    "theoryPractice": "Aulas expositivas ('Lecturing'); resolução de problemas apenas na semana 15"
+  },
+  "practical": {
+    "period": "Fall Semester, 14 semanas; compatível em princípio com 2027.2 (outono), mas a oferta não está confirmada",
+    "language": "Instrução em turco (Language of Instruction: Turkish); catálogo em inglês. O dossiê da universidade informa exigência de certificado de turco C1 e nível B2 no edital",
+    "enrolment": "UC optativa; disponibilidade para mobilidade incoming e idioma de instrução a confirmar com Nevşehir Hacı Bektaş Veli",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Macroeconomics I de Nevşehir cobre, semana a semana, contas nacionais, inflação e desemprego, câmbio, moeda e o modelo IS-LM, o que corresponde à maior parte da ficha Mackenzie; oferta agregada, política fiscal em unidade própria e a conjuntura nacional ficam de fora.",
+  "justification": "Cinco dos oito enunciados são cobertos por semanas identificadas (lados real e monetário, contas nacionais, setor externo, moeda, inflação), dois são parciais (demanda agregada sem oferta agregada; política fiscal só no IS-LM) e um ausente (conjuntura econômica nacional, de natureza local). A cobertura plena de 62,5% fica abaixo de 75% e a soma é de 87,5%, o que dá afinidade parcial. A carga é semanal (3+0, 111 h de trabalho do aluno, 4 ECTS), sem total semestral de contacto frente às 63,3 h brasileiras; a ficha brasileira não tem vigência confirmada e a instrução é em turco.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Plano semanal detalhado e título conferido, mas horas só semanais, idioma de instrução turco, página sem ano e vigência da ficha brasileira não confirmada.",
+  "limitations": [
+    "Página ECTS sem ano acadêmico impresso; versão consultada em 2026",
+    "Horas semanais (3+0) apenas; sem total semestral de contacto; 4 ECTS e 111 h de carga de trabalho não convertidos em horas de contacto",
+    "Língua de instrução turca; a página em inglês não garante material, aulas ou provas em inglês",
+    "Título 'Macroeconomics I' indica sequência; a parte II (possivelmente com setor público, crescimento e desenvolvimento) não foi lida",
+    "Oferta em 2027.2 (outono) não confirmada; UC optativa",
+    "O tópico 'Discussão da conjuntura econômica nacional' é local e não comparável por natureza",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A Macroeconomics II da Nevşehir trata crescimento, desenvolvimento e setor público?",
+    "A UC é ofertada em turco ou inglês para alunos incoming?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e da página oficial ECTS da UC İŞL233 (Nevşehir), com apoio de IA (Claude); título conferido com o catálogo ('Macroeconomics I'); cada tópico vinculado às semanas do plano; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência semanal explícita e consistente"
+  }
+}

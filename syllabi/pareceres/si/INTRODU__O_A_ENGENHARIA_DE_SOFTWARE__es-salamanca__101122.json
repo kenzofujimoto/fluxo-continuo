@@ -1,0 +1,160 @@
+{
+  "id": "si|INTRODUÇÃO A ENGENHARIA DE SOFTWARE|es-salamanca|101122",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "INTRODUÇÃO A ENGENHARIA DE SOFTWARE",
+    "name": "INTRODUÇÃO A ENGENHARIA DE SOFTWARE",
+    "courseName": "Sistemas de Informação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE; página extraída 19 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Introdução a Engenharia de Software",
+      "Domínio de modelos dos processos de desenvolvimento de software e suas fases",
+      "Análise comparativa de processos de desenvolvimento de software",
+      "Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101122",
+      "academicCode": "101122",
+      "name": "Ingeniería Del Software Ii",
+      "faculty": "Fac. Ciencias",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "Primer Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Texto: contínua 25%, teoria 40%, prática 35%; fórmula impressa usa 40% de prática e diverge.",
+      "prerequisites": "Haber cursado la asignatura de Ingeniería del Software I",
+      "source": "https://guias.usal.es/node/255560",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "27645f0fee09eb8376e69179afde5bfa0a345c753d644652984e188577feb609",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução a Engenharia de Software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Revisa princípios de engenharia pelo desenho e ciclos de vida, mas introdução é pressuposta.",
+      "foreignLocation": "2-4; 5, tema 1"
+    },
+    {
+      "brTopic": "Domínio de modelos dos processos de desenvolvimento de software e suas fases",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Processos ágeis e DevOps constituem tema próprio, sem panorama completo de modelos.",
+      "foreignLocation": "5, tema 2"
+    },
+    {
+      "brTopic": "Análise comparativa de processos de desenvolvimento de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Profundidade em ágil e integração DevOps não explicita comparação abrangente de processos.",
+      "foreignLocation": "3; 5, tema 2"
+    },
+    {
+      "brTopic": "Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Design, especificação formal e tarefas de desenvolvimento cobrem parte do ciclo, sem todas as fases brasileiras.",
+      "foreignLocation": "5, temas 1, 4 e prática"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Padrões de projeto",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Técnicas formais e sistemas avançados",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Introdução a Engenharia de Software. Domínio de modelos dos processos de desenvolvimento de software e suas fases. Análise comparativa de processos de desenvolvimento de software. Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software.",
+    "foreign": "Dar a conocer los principios de diseño de software y los diferentes enfoques para afrontarlo.\nProporcionar los conocimientos necesarios para el modelado avanzado de software.\nProfundizar en el estudio de las metodologías ágiles y en su integración con prácticas DevOps, así como en su aplicación en el contexto del desarrollo de software actual.\nEnseñar al estudiante a reutilizar software de forma sistemática mediante la utilización de patrones.\nAbordar el modelado de sistemas avanzados y la incorporación de técnicas y arquitecturas emergentes en el ámbito del desarrollo de software.",
+    "convergences": [
+      "Revisa princípios de engenharia pelo desenho e ciclos de vida, mas introdução é pressuposta.",
+      "Processos ágeis e DevOps constituem tema próprio, sem panorama completo de modelos.",
+      "Profundidade em ágil e integração DevOps não explicita comparação abrangente de processos.",
+      "Design, especificação formal e tarefas de desenvolvimento cobrem parte do ciclo, sem todas as fases brasileiras."
+    ],
+    "differences": [
+      "Revisa princípios de engenharia pelo desenho e ciclos de vida, mas introdução é pressuposta.",
+      "Processos ágeis e DevOps constituem tema próprio, sem panorama completo de modelos.",
+      "Profundidade em ágil e integração DevOps não explicita comparação abrangente de processos.",
+      "Design, especificação formal e tarefas de desenvolvimento cobrem parte do ciclo, sem todas as fases brasileiras."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 4; USAL ano 3",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 101122.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Primer Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Haber cursado la asignatura de Ingeniería del Software I",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Ingeniería del Software II 101122 aporta design, ágil e DevOps a SI, mas pressupõe o curso introdutório que se pretende aproveitar.",
+  "justification": "Os quatro eixos possuem interseções parciais com temas 1-5; requisitos introdutórios e o percurso completo até manutenção não estão descritos como ensino sistemático. A fórmula de avaliação impressa soma 105%, divergindo dos pesos textuais 25/40/35; isso é registrado sem corrigir arbitrariamente.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional.",
+    "Avaliação: pesos textuais 25/40/35 divergem da fórmula 0,25EC+0,4ETP+0,4P, que soma 105%."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 101122 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "id": "dir|DIREITO PROCESSUAL DO TRABALHO|po-56-universidadede|CAT-direito-do-trabalho-i",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO PROCESSUAL DO TRABALHO",
+    "name": "Direito Processual do Trabalho",
+    "courseName": "Direito",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 60, bloco 'DIREITO PROCESSUAL DO TRABALHO' (8ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Análise das regras e fundamentos do sistema processual à luz do Processo do Trabalho, bem como sua relação de subsidiariedade com sistema processual civil",
+      "Apresentação da Justiça do Trabalho, sua organização, estrutura, competência e ritos",
+      "Será feito um estudo reflexivo do Processo Individual do Trabalho, com suas regras e peculiaridades, inclusive em relação ao processo eletrônico trabalhista",
+      "Reflexão sobre a Teoria Geral dos Recursos",
+      "Análise dos Recursos no Processo do Trabalho",
+      "Apresentação da Execução Trabalhista e suas Peculiaridades",
+      "Reflexão sobre as Ações de Procedimentos Especiais",
+      "Estudo das Ações Coletivas",
+      "Discussão sobre as tutelas de urgência e ações e medidas cautelares na Justiça do Trabalho"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Lisboa",
+      "universityId": "po-56-universidadede",
+      "code": "CAT-direito-do-trabalho-i",
+      "name": "Direito do Trabalho I",
+      "faculty": "Faculdade de Direito da Universidade de Lisboa",
+      "programme": "Licenciatura em Direito; ficha bilíngue marcada 'Evening Course' (turma noturna) na versão inglesa",
+      "level": "Licenciatura (graduação)",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "Catálogo indica '1.º'; a ficha deixa 'Semestral' e 'Anual' sem marca",
+      "academicYear": "Não impresso na ficha (arquivo publicado em 2026/06; o catálogo FDUL registra 2025/26)",
+      "language": "Português (ficha também em inglês; língua de ensino não declarada)",
+      "courseStatus": "Unidade curricular do plano de Licenciatura em Direito; caráter obrigatório/optativo não informado na ficha",
+      "assessment": "Regulamento de avaliação da FDUL, com exame final escrito e eventuais elementos adicionais definidos pelo docente (versão inglesa); sem percentuais",
+      "prerequisites": "Não informados",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "location": "Ficha de Unidade Curricular: seções 1-12 (objetivos, conteúdos programáticos § 1-45, metodologias, bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Campos 'Horas de Trabalho' e 'Créditos ECTS' ficam em branco na ficha; nenhuma carga horária declarada."
+      },
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/06/Direito-do-Trabalho-I.pdf",
+      "sha256": "a7a35f4ca7cc089ea9e74e6800bdef4177fdf21689c0fce2ab16e7cf5c46dacc"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Análise das regras e fundamentos do sistema processual à luz do Processo do Trabalho, bem como sua relação de subsidiariedade com sistema processual civil",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "O programa é de direito material coletivo do trabalho (fontes, sujeitos, convenções, greve); o diálogo com o processo civil aparece só como 'alteração de circunstâncias' pelo regime civil (§ 29) e não como subsidiariedade processual."
+    },
+    {
+      "brTopic": "Apresentação da Justiça do Trabalho, sua organização, estrutura, competência e ritos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "Não há unidade sobre organização judiciária laboral, competência ou ritos; o § 45.2 'intervenção judicial' trata da intervenção do Estado em conflitos coletivos, não da estrutura da Justiça do Trabalho."
+    },
+    {
+      "brTopic": "Será feito um estudo reflexivo do Processo Individual do Trabalho, com suas regras e peculiaridades, inclusive em relação ao processo eletrônico trabalhista",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "O processo individual do trabalho não consta; o contrato individual é matéria da unidade seguinte (Direito do Trabalho II)."
+    },
+    {
+      "brTopic": "Reflexão sobre a Teoria Geral dos Recursos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "Nenhuma unidade sobre teoria geral dos recursos."
+    },
+    {
+      "brTopic": "Análise dos Recursos no Processo do Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "Nenhuma unidade sobre recursos em processo laboral."
+    },
+    {
+      "brTopic": "Apresentação da Execução Trabalhista e suas Peculiaridades",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "Execução trabalhista não consta; o § 36 trata de arbitragem obrigatória e necessária como instrumento de regulação coletiva, não de execução."
+    },
+    {
+      "brTopic": "Reflexão sobre as Ações de Procedimentos Especiais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "Procedimentos especiais não aparecem no programa."
+    },
+    {
+      "brTopic": "Estudo das Ações Coletivas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "Os conflitos coletivos (greve, lock-out, § 37-42) e a arbitragem coletiva (§ 31-32) são matéria substantiva; não há ações coletivas processuais."
+    },
+    {
+      "brTopic": "Discussão sobre as tutelas de urgência e ações e medidas cautelares na Justiça do Trabalho",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Seções 5 (objetivos), 6 (conteúdos, capítulos I a VII, § 1 a § 45), 8 (metodologias) e 11 (bibliografia) da ficha 'Direito do Trabalho I' (versões portuguesa e inglesa)",
+      "note": "Tutelas de urgência e medidas cautelares não constam do programa."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Evolução histórica do Direito do Trabalho e sistema de fontes (Constituição, Direito Internacional e Europeu, Código do Trabalho, costume)",
+      "location": "Capítulos II e III, § 3-9"
+    },
+    {
+      "topic": "Conflitos de normas laborais no tempo, no espaço e hierárquicos; princípio do tratamento mais favorável",
+      "location": "Capítulo III, Seção II, § 10-13"
+    },
+    {
+      "topic": "Sujeitos coletivos: associações sindicais, associações de empregadores e comissões de trabalhadores",
+      "location": "Capítulo IV, § 16-21"
+    },
+    {
+      "topic": "Convenção coletiva, acordo de adesão, portarias de extensão e de condições de trabalho",
+      "location": "Capítulo V, § 22-36"
+    },
+    {
+      "topic": "Greve, lock-out, conciliação, mediação e intervenção do Estado nos conflitos coletivos",
+      "location": "Capítulos VI e VII, § 37-45"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 não lista competências; a ementa propõe estudo reflexivo do processo do trabalho, da organização da Justiça do Trabalho, de recursos, execução, ações coletivas e tutelas de urgência.",
+    "foreign": [
+      "Compreender fundamentos dogmáticos do Direito do Trabalho e o sistema de fontes",
+      "Interpretar legislação, jurisprudência e doutrina e aplicá-las a situações práticas (versão inglesa)",
+      "Identificar mecanismos de prevenção e resolução de conflitos coletivos de trabalho"
+    ],
+    "convergences": [
+      "Ambas partem do campo jurídico-laboral e tratam, em algum grau, de solução de conflitos coletivos"
+    ],
+    "differences": [
+      "A FDUL ensina direito material coletivo; o Mackenzie ensina direito processual do trabalho",
+      "A ficha lisboeta não menciona procedimento, jurisdição ou recursos"
+    ]
+  },
+  "depth": {
+    "level": "Mackenzie na 8ª etapa (final do curso); a FDUL situa a unidade no ciclo de Licenciatura sem indicar ano",
+    "brazil": "Componente de 2 horas-aula semanais, ementa de nove blocos temáticos",
+    "foreign": "45 parágrafos em sete capítulos, bibliografia doutrinária portuguesa (Monteiro Fernandes, Palma Ramalho, Romano Martinez)",
+    "theoryPractice": "Ficha cita aulas expositivas, análise de legislação e jurisprudência e casos práticos, sem repartição de horas"
+  },
+  "practical": {
+    "period": "Catálogo indica '1.º' (semestre não confirmado pela ficha); 2027.2 corresponde ao 1º semestre português apenas se a oferta se mantiver",
+    "language": "Português",
+    "enrolment": "Aceitação de intercambistas e vagas não verificadas na ficha",
+    "prerequisites": "Não informados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito do Trabalho I (FDUL) cobre dogmática, fontes, sujeitos e relações coletivas de trabalho, enquanto Direito Processual do Trabalho exige jurisdição, procedimento, recursos, execução e tutelas; os dois programas partilham o campo laboral mas não um único bloco processual.",
+  "justification": "Nenhum dos nove tópicos da ementa Mackenzie encontra correspondência nos §§ 1-45 da ficha: não há Justiça do Trabalho, ritos, processo individual, recursos, execução, procedimentos especiais, ações coletivas nem tutelas de urgência. As proximidades são nominais: 'conflitos coletivos' (§ 37-42) e 'arbitragem laboral coletiva, processo' (§ 32) tratam de direito material coletivo e de meios extrajudiciais, e o § 45.2 'intervenção judicial' ocupa uma linha sem desenvolvimento processual. Cobertura plena e parcial é 0/9, portanto baixa afinidade. A ficha não declara horas nem ECTS e o ementário de 2022 só informa 2 horas-aula semanais, de modo que a carga não é comparável. A unidade seria útil como conteúdo de direito do trabalho coletivo (eventual correspondência com Direito Coletivo do Trabalho, não analisada aqui), não como processo do trabalho.",
+  "conclusionClass": "baixa_afinidade",
+  "confidence": "moderada",
+  "confidenceRationale": "A ficha é um documento individual e traz o programa completo (§ 1-45), o que permite afirmar a ausência de conteúdo processual; a confiança não é alta porque faltam ano letivo impresso, horas e a ementa brasileira é de 2022.",
+  "limitations": [
+    "Ementário Mackenzie 2022 é edição histórica (current false); carga em horas-aula semanais, não comparável",
+    "A ficha FDUL não imprime ano letivo, nem horas, nem ECTS; o catálogo registra 2025/26 e a ficha foi publicada em 2026/06",
+    "A ficha traz as marcas de duração em branco; semestre e caráter obrigatório/optativo não confirmados",
+    "Oferta em 2027.2 (1º semestre português) e disponibilidade a estudantes de intercâmbio não confirmadas",
+    "Cotejo documental sem decisão institucional; a análise cobre apenas a unidade 'Direito do Trabalho I'"
+  ],
+  "openQuestions": [
+    "A FDUL oferece algum seminário ou unidade de contencioso laboral que cubra processo do trabalho?",
+    "A coordenação de Direito aceitaria direito material coletivo do trabalho para outra disciplina do currículo Mackenzie?"
+  ],
+  "alternatives": [
+    {
+      "code": "CAT-direito-do-trabalho-ii",
+      "name": "Direito do Trabalho II",
+      "relation": "Lida integralmente neste lote: direito individual do trabalho, com um único item processual (§ 105 'aspetos processuais e consequência da ilicitude')"
+    },
+    {
+      "code": "CAT-direito-processual-civil-iii",
+      "name": "Direito Processual Civil III",
+      "relation": "Constante do catálogo FDUL; programa não lido neste parecer, mas processo civil não equivale a processo do trabalho"
+    }
+  ],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da ficha FDUL 'Direito do Trabalho I' (versões em português e inglês) com apoio de IA (Claude); cada tópico cotejado com os parágrafos 1-45; coerência verificada por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Ausência total de conteúdo processual está documentada no programa integral da ficha"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

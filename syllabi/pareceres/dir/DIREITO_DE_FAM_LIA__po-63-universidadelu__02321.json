@@ -1,0 +1,136 @@
+{
+  "id": "dir|DIREITO DE FAMÍLIA|po-63-universidadelu|02321",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO DE FAMÍLIA",
+    "name": "DIREITO DE FAMÍLIA",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 41, bloco DIREITO DE FAMÍLIA, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "02321",
+      "name": "Direito da família",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "2º semestre português; confirmar compatibilidade temporal2027.2.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02321_2025.pdf",
+      "sha256": "9d23365a3858e177370d6bda199104806c41cec32b811f050ec0e6a6957d6c42",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos fundamentos do direito de família sob o enfoque principiológico e constitucional no contexto da sociedade contemporânea",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fontes internas e internacionais e relações familiares situam a disciplina contemporânea, sob princípios portugueses.",
+      "foreignLocation": "Objetivos14-15; Conteúdos, ParteGeral"
+    },
+    {
+      "brTopic": "Reflexão histórico-normativa da formação dos núcleos familiares, incluindo a análise conceitual e prática dos institutos do direito de família positivados, tais como as formalidades e implicações jurídicas das relações conjugais no âmbito pessoal e patrimonial, bem como a dissolução da sociedade conjugal e do vínculo matrimonial",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Casamento e efeitos pessoais/patrimoniais estão expressos, sem história familiar e dissolução explicitadas.",
+      "foreignLocation": "Objetivos14; Conteúdos, ParteEspecial"
+    },
+    {
+      "brTopic": "Além disso, o componente curricular preocupa-se em promover o debate doutrinário e jurisprudencial sobre as relações de parentesco e de afeto no âmbito do reconhecimento dos filhos, adoção, alimentos e da guarda sob a perspectiva do melhor interesse da criança e do adolescente, abordando, ainda, os ditames do Estatuto da Criança e do Adolescente",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Filiação, adoção e responsabilidades parentais são estudadas; não há Estatuto brasileiro da Criança e do Adolescente.",
+      "foreignLocation": "Objetivos14 e Conteúdos, ParteEspecial"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Procriação artificial, apadrinhamento civil e fontes europeias",
+      "location": "Conteúdos, ParteEspecial"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Aplicar normas familiares a problemas da vida social moderna.",
+    "convergences": [
+      "Fontes internas e internacionais e relações familiares situam a disciplina contemporânea, sob princípios portugueses.",
+      "Casamento e efeitos pessoais/patrimoniais estão expressos, sem história familiar e dissolução explicitadas.",
+      "Filiação, adoção e responsabilidades parentais são estudadas; não há Estatuto brasileiro da Criança e do Adolescente."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Aplicar normas familiares a problemas da vida social moderna.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "2º semestre português; confirmar compatibilidade temporal2027.2.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Família02321 aproxima casamento, filiação e adoção, com regime português e lacunas de dissolução e estatuto brasileiro da infância.",
+  "justification": "Três tópicos têm correspondência parcial no documento2025/2026. A ficha inclui procriação artificial e apadrinhamento civil, mas a leitura integral não permite adicionar divórcio ou ECA ao programa. As horas-aula semanais da fonte Mackenzie2022 não se equiparam ao quadro de modalidades português.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Quadro de30,15,20 por tipo de aula e6 ECTS; sem total de contato explícito.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Quadro de30,15,20 por tipo de aula e6 ECTS; sem total de contato explícito."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

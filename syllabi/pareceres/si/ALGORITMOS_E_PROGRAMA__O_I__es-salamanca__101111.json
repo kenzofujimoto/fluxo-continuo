@@ -1,0 +1,127 @@
+{
+  "id": "si|ALGORITMOS E PROGRAMAÇÃO I|es-salamanca|101111",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "ALGORITMOS E PROGRAMAÇÃO I",
+    "name": "ALGORITMOS E PROGRAMAÇÃO I",
+    "courseName": "Sistemas de Informação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "PDF p. 2, bloco ALGORITMOS E PROGRAMAÇÃO I, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "Implementação de algoritmos utilizando linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101111",
+      "name": "Estructura De Datos Y Algoritmos I",
+      "programme": "Grado en Ingeniería Informática",
+      "level": "Graduação",
+      "academicYear": "2026/2027",
+      "semester": 1,
+      "period": "Primeiro semestre espanhol; confirmar disponibilidade no outono2027.",
+      "language": "Espanhol",
+      "assessment": "Avaliação contínua30%, exame final70%; mínimo40% na prova final.",
+      "prerequisites": "Programación I e II recomendadas",
+      "source": "https://guias.usal.es/node/255378",
+      "sha256": "551ef52aff89029d7bd74066fa8090ffb939a605376b3e6c362c1b8bcfede747",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Busca, ordenação, recursão e TAD aproximam resolução algorítmica, sem ensinar explicitamente atribuição, condicionais e repetição introdutórias.",
+      "foreignLocation": "§3 Objetivos e §5 Contenidos"
+    },
+    {
+      "brTopic": "Implementação de algoritmos utilizando linguagem de programação imperativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Entregas exigem implementar exercícios; o paradigma imperativo não é declarado como objetivo específico.",
+      "foreignLocation": "§9 Sistemas de evaluación, Entregas de prácticas"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Notação assintótica, análise de complexidade e recursividade",
+      "location": "§5 Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Analisar custo e adequação de algoritmos e implementar estruturas abstratas.",
+    "convergences": [
+      "Busca, ordenação, recursão e TAD aproximam resolução algorítmica, sem ensinar explicitamente atribuição, condicionais e repetição introdutórias.",
+      "Entregas exigem implementar exercícios; o paradigma imperativo não é declarado como objetivo específico."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Ementário público FCI 2025, câmpus Alphaville",
+    "foreign": "Analisar custo e adequação de algoritmos e implementar estruturas abstratas.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "Primeiro semestre espanhol; confirmar disponibilidade no outono2027.",
+    "language": "Espanhol",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Estruturas e AlgoritmosI101111 é mais avançada que a introdução imperativaMackenzie; aproxima implementação e TAD, sem comprovar os comandos básicos.",
+  "justification": "Ambos os tópicos recebem cobertura parcial. A ficha2026/2027 recomendaProgramaciónI/II previamente e dedica conteúdo a complexidade, busca e recursão. Laboratórios comprovam implementação, não uma linguagem imperativa determinada. Os6 ECTS e a seção7 sem distribuição textual de horas impedem comparação de carga.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. §7 Distribución de las Metodologías Docentes sem tabela horária no texto publicado; contato mantido nulo.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Ementário público FCI 2025, câmpus Alphaville",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "§7 Distribución de las Metodologías Docentes sem tabela horária no texto publicado; contato mantido nulo.",
+    "Recomendações anteriores exigem ProgramaciónI/II; matrícula em módulo avançado deve ser confirmada."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

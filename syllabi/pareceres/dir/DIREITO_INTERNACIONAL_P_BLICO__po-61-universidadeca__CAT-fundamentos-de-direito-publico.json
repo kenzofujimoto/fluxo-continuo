@@ -1,0 +1,135 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL PÚBLICO|po-61-universidadeca|CAT-fundamentos-de-direito-publico",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL PÚBLICO",
+    "name": "DIREITO INTERNACIONAL PÚBLICO",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 19, bloco DIREITO INTERNACIONAL PÚBLICO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade",
+      "O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina",
+      "A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-61-universidadeca",
+      "university": "Universidade Católica Portuguesa",
+      "code": "CAT-fundamentos-de-direito-publico",
+      "name": "Fundamentos de Direito Público",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": 1,
+      "period": "Semestre 1",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-fundamentos-de-direito-publico-1o-ano.pdf",
+      "sha256": "d4a33777f051b0ae90f363ef4d14b292d9acf8040194f65241c34729dcfe378c",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": 70.0,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": 225.0,
+        "selfStudy": null,
+        "ects": 9.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Liberalismo e desigualdade, solidariedade e privatização estadual oferecem contexto, sem governança empresarial de redução de desigualdades.",
+      "foreignLocation": "itens9.1-9.7 e15.7"
+    },
+    {
+      "brTopic": "O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, objetivos, Partes I-II",
+      "note": "Sociedades virtuais e globalização não constituem programa de Direito Global privado organizado em redes econômicas."
+    },
+    {
+      "brTopic": "A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-6, programa itens1-18",
+      "note": "Não há estudo de redes transacionais em saúde, justiça, esportes, farmacêuticas ou contratos internacionais."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Estado, soberania, sistemas de governo e formas de Estado",
+      "location": "itens6-8 e13-18"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Interpretar criticamente a formação histórica e os desafios contemporâneos do Estado de Direito.",
+    "convergences": [
+      "Liberalismo e desigualdade, solidariedade e privatização estadual oferecem contexto, sem governança empresarial de redução de desigualdades."
+    ],
+    "differences": [
+      "Sociedades virtuais e globalização não constituem programa de Direito Global privado organizado em redes econômicas.",
+      "Não há estudo de redes transacionais em saúde, justiça, esportes, farmacêuticas ou contratos internacionais."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Interpretar criticamente a formação histórica e os desafios contemporâneos do Estado de Direito.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "Semestre 1 do ano português; confirmar correspondência com 2027.2.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Fundamentos de Direito Público estuda a formação e a estrutura do Estado de Direito; a governança transacional privada do Mackenzie recebe apenas contexto lateral.",
+  "justification": "Um de três tópicos aproxima-se por liberalismo, solidariedade e privatização. As unidades10 e12 tratam ordem internacional e ameaças democráticas, não o modelo de redes econômicas brasileiro. As 70 horas TP e 9 ECTS de 2025/2026 não suprem as duas lacunas temáticas essenciais.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. ",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "adm|Marketing II|co-24-solbridgeinter|MKT200B",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Marketing II",
+    "name": "Marketing II",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 5, bloco 'Marketing II': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Bens e Serviços",
+      "Preço",
+      "Distribuição",
+      "Comunicação"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "MKT200B",
+      "name": "Principles of Marketing",
+      "pageCode": "MKT200B",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); tipo de disciplina Business Course",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "15 semanas; o syllabus conciso não indica semestre de oferta",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Business Course",
+      "assessment": "Presença 20%, participação, projeto final e tarefa 30%, prova intermediária 20%, prova final 30%",
+      "prerequisites": "Nenhum",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/MKT200B%20Principles%20of%20Marketing.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "f4f292bcb36cd05b1cb51a4546da6b44cb20be434b48437709725d625ca48c69",
+      "location": "Concise Syllabus 2016: Learning Objectives (1-7), Course Description, Course content by Week (semanas 1-15), quadro final com Credit, Contact Hours, Prerequisites, Duration",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro final: Credit 3, Contact Hours 45, Duration 15 weeks, Class Type Lecture. O documento não declara a duração da hora de contato. O crédito de 3 é institucional e não foi convertido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Bens e Serviços",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 4 'Product, Services and Brands'; semana 5 'New Product Development and Product Life-Cycle Strategies'",
+      "foreignLocation": "Course content by Week, semanas 4-5",
+      "note": "Produto, serviços, marcas, desenvolvimento de produtos e ciclo de vida; a ementa de Marketing II cita a administração de bens e serviços."
+    },
+    {
+      "brTopic": "Preço",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 5 'Pricing'; semanas 7-8 'Pricing Strategies'",
+      "foreignLocation": "Course content by Week, semanas 5 e 7-8",
+      "note": "Duas unidades (fundamentos e estratégias de preço)."
+    },
+    {
+      "brTopic": "Distribuição",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 7-8 'Marketing Channels, Retailing and Wholesaling'",
+      "foreignLocation": "Course content by Week, semanas 7-8",
+      "note": "Canais, varejo e atacado."
+    },
+    {
+      "brTopic": "Comunicação",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 9 'Communicating customer Value'; semana 10 'Advertising and Public Relations, Personal Selling and Sales Promotion'; semana 11 'Direct and Online Marketing'",
+      "foreignLocation": "Course content by Week, semanas 9-11",
+      "note": "Três semanas de comunicação integrada, com marketing direto e online."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Definição de marketing, ambiente e informação de marketing, comportamento do consumidor e do comprador organizacional (conteúdo equivalente a Marketing I)", "location": "Course content by Week, semanas 1-3"},
+    {"topic": "Estratégia centrada no cliente", "location": "Course content by Week, semana 4"},
+    {"topic": "Vantagem competitiva e mercado global", "location": "Course content by Week, semanas 11-12"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: administração de bens e serviços e aspectos da estratégia de preço, comunicação e distribuição, para gerar valor superior ao cliente e à empresa.",
+    "foreign": ["Moldar a oferta de marketing", "Construir marcas fortes", "Entregar e comunicar valor", "Desenvolver estratégias e planos de marketing"],
+    "convergences": ["Produto e serviços", "Preço", "Distribuição", "Comunicação"],
+    "differences": ["MKT200B também cobre ambiente, comportamento do consumidor e segmentação (conteúdo de Marketing I)", "Mackenzie dedica 63,3 h somente ao composto de marketing, MKT200B reparte as 45 h por todo o marketing"]
+  },
+  "depth": {
+    "level": "Graduação; Mackenzie na 4ª etapa, MKT200B introdutória e sem pré-requisito",
+    "brazil": "Marketing II de 63,3 h, quatro enunciados do composto de marketing",
+    "foreign": "Principles of Marketing de 45 horas de contato em 15 semanas, cobrindo os quatro Ps em cerca de 7 semanas",
+    "theoryPractice": "Aulas expositivas, exercícios, estudos de caso, projeto final e apresentações em sala"
+  },
+  "practical": {
+    "period": "15 semanas; semestre de oferta não indicado no syllabus de 2016; 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina do currículo BBA; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Os quatro enunciados de Marketing II (bens e serviços, preço, distribuição, comunicação) têm semanas próprias em Principles of Marketing, mas cada um recebe uma ou duas semanas de um curso introdutório que também tem de ensinar o conteúdo de Marketing I.",
+  "justification": "Bens e serviços (semanas 4-5), preço (5 e 7-8), distribuição (7-8) e comunicação (9-11) estão cobertos com título de unidade em cada caso, sem lacuna. Como a cobertura é total, o fator limitante é a carga: 45 horas de contato (razão 0,71 de 63,3 h, ou 0,59 se a hora for de 50 min), das quais cerca de sete semanas tratam do composto de marketing, e o syllabus de 2016. A ficha de Marketing II não tem vigência impressa. A classe é afinidade parcial; a decisão precisa considerar que a mesma disciplina estrangeira é candidata a Marketing I e que o uso em ambas é inviável pela carga de 126,6 h somadas.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cronograma semanal com todas as unidades e horas de contato declaradas; limitado pela idade do documento (2016) e pela vigência não confirmada da ficha.",
+  "limitations": [
+    "Syllabus de 2016, conciso; conteúdos atuais podem ter mudado até 2027.2",
+    "Horas de contato (45) declaradas sem a duração da hora; razão 0,71, ou 0,59 com hora de 50 min; Credit 3 não é convertido",
+    "A mesma MKT200B é a candidata para Marketing I e Marketing II (126,6 h somadas); uma única disciplina de 45 h dificilmente atende às duas",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "A coordenação de Administração admite que MKT200B seja usada para Marketing II caso Marketing I seja cumprida em outro curso?",
+    "O BBA da SolBridge tem disciplina avançada de marketing (preço, canais ou comunicação) mais profunda que MKT200B?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do syllabus conciso MKT200B (2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado a semana do cronograma; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"}
+}

@@ -1,0 +1,169 @@
+{
+  "id": "dir|DIREITO INTERNACIONAL PÚBLICO|ar-7-universidaddec|CAT-derecho-internacional-publico",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INTERNACIONAL PÚBLICO",
+    "name": "Direito Internacional Público",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 19, bloco 'DIREITO INTERNACIONAL PÚBLICO' (3ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade",
+      "O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina",
+      "A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "ar-7-universidaddec",
+      "code": "CAT-derecho-internacional-publico",
+      "university": "Universidad de Congreso",
+      "name": "Derecho Internacional Público",
+      "faculty": "Não indicada no programa (carreira de Abogacía)",
+      "programme": "Abogacía; Cuarto Año (segundo o catálogo do projeto)",
+      "level": "Grado (graduação, carreira de Abogacía)",
+      "yearOfStudy": 4,
+      "semester": null,
+      "period": "Não indicado no programa; o catálogo registra apenas 'Cuarto Año'",
+      "academicYear": "2013 (impresso no programa: 'AÑO 2013'; o catálogo registra 2025/26)",
+      "language": "Espanhol",
+      "courseStatus": "Não indicado no programa",
+      "assessment": "Não indicada no programa",
+      "prerequisites": "Não indicados no programa",
+      "catalogue": "https://www.ucongreso.edu.ar/carrera/abogacia/",
+      "location": "Programa de Derecho Internacional Público (Prof. Titular Dr. Jorge Agustín Vicchi): unidades I-XVII e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O programa de 17 unidades não informa créditos, horas ou período."
+      },
+      "source": "https://www.ucongreso.edu.ar/wp-content/uploads/derecho%20internacional.pdf",
+      "sha256": "61e8044a31d61d65d52ae37f8013fd8529e0a02e9f927875c0f34e04ae1be554"
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina tem como finalidade estudar um modelo de governança que estabeleça relações transparentes entre organizações empresariais e os poderes públicos (internos e externos) voltada à redução da desigualdade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Unidades I-XVII do programa e bibliografia",
+      "note": "Nenhuma unidade trata de modelo de governança entre organizações empresariais e poderes públicos nem de redução de desigualdade; o programa é clássico (sujeitos, Estado, responsabilidade, território, mar, tratados, conflitos). Contatos periféricos: empresas transnacionais e ONGs como sujeitos (unidade II, 2.d-e)."
+    },
+    {
+      "brTopic": "O surgimento de um poder transacional não estatal construído a partir da comunicação das redes econômicas não governamentais a resultar num Direito Global de origem privada que inclui e exclui os cidadãos num processo de fragmentação social do direito é o ponto de partida teórico e empírico da disciplina",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "II.2.e 'Las empresas transnacionales ante el Derecho Internacional Público'; IV.3 cláusula Calvo e 'Las transnacionales (jurisprudencia)'; XVII.4 'La globalización'; XII.3 organismos financeiros e nuevo orden económico internacional",
+      "foreignLocation": "Unidades II.2.e, IV.3, XII.3 e XVII.4",
+      "note": "O programa estuda atores econômicos transnacionais pelo ângulo do direito internacional público estatal, não um direito global de origem privada nem a fragmentação social do direito."
+    },
+    {
+      "brTopic": "A disciplina teorizará sobre a formação de redes econômicas transacionais, seus processos de inclusão e exclusão dos cidadãos nos sistemas de saúde, de justiça e da própria democracia, bem como da viabilidade da proposta de um modelo de governança fundamentado na inovação jurídica, com objetivo de redução das desigualdades sociais A disciplina empiricamente se valerá de exemplos extraídos das associações esportivas, das arbitragens internacionais, da indústria farmacêutica, da inovação tecnológica, do Facebook, das ONGs e dos contratos internacionais",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "XIV.2.b 'Arbitraje internacional: tribunales arbitrales ... laudo'; II.2.d organizações não governamentais; XVI.3 Cruz Vermelha e outras ONGs",
+      "foreignLocation": "Unidades XIV.2.b, II.2.d e XVI.3",
+      "note": "Arbitragem internacional e ONGs, que figuram nos exemplos empíricos da ementa, aparecem no programa; contratos internacionais, associações esportivas, indústria farmacêutica, tecnologia e Facebook não, e a teoria de redes econômicas e exclusão de cidadãos está ausente."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Fontes, sujeitos, reconhecimento, sucessão e responsabilidade internacional do Estado; proteção diplomática",
+      "location": "Unidades I-IV"
+    },
+    {
+      "topic": "Território, direito do mar, espaço aéreo e exterior; soberania territorial argentina (Malvinas, Antártida)",
+      "location": "Unidades V-VII"
+    },
+    {
+      "topic": "ONU, OEA, organizações regionais, Mercosul e direito da integração e comunitário",
+      "location": "Unidades VIII, XI e XII"
+    },
+    {
+      "topic": "Direito diplomático e consular; direito dos tratados (Convenção de Viena de 1969)",
+      "location": "Unidades IX e XIII"
+    },
+    {
+      "topic": "Direitos humanos internacionais, solução pacífica de conflitos (CIJ), guerra, neutralidade e direito humanitário",
+      "location": "Unidades X, XIV-XVI"
+    }
+  ],
+  "competencies": {
+    "brazil": "O ementário 2022 descreve um modelo de governança e um direito global de origem privada, com foco em redes econômicas transnacionais, desigualdade e exemplos empíricos; não lista competências.",
+    "foreign": [
+      "Compreender sujeitos, fontes e responsabilidade no direito internacional público",
+      "Conhecer território, mar e organizações internacionais",
+      "Conhecer direito dos tratados, solução de conflitos e direito humanitário"
+    ],
+    "convergences": [
+      "Atores transnacionais não estatais (empresas, ONGs) e arbitragem internacional como pontos de contato"
+    ],
+    "differences": [
+      "Mackenzie (conforme o texto de 2022) trata de governança e direito global privado; o programa argentino é de direito internacional público clássico",
+      "O texto brasileiro não menciona fontes, tratados, responsabilidade do Estado, mar ou organizações como a ONU, que dominam o programa argentino"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação em Direito; Congreso no 4º ano, Mackenzie na 3ª etapa",
+    "brazil": "Componente de 2 horas-aula semanais com ementa de três enunciados sobre governança global",
+    "foreign": "Programa de 17 unidades de direito internacional público clássico, sem horas ou créditos informados",
+    "theoryPractice": "Programa sem metodologia nem avaliação descritas"
+  },
+  "practical": {
+    "period": "Não indicado; oferta 2027.2 desconhecida",
+    "language": "Espanhol",
+    "enrolment": "Programa sem condições de matrícula; acesso de intercambista e oferta em 2027.2 não verificados",
+    "prerequisites": "Nenhum informado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "O programa argentino de Derecho Internacional Público é um curso clássico de 17 unidades, enquanto o texto do ementário Mackenzie de 2022 descreve governança e direito global privado; só empresas transnacionais, ONGs e arbitragem internacional aproximam os dois documentos.",
+  "justification": "Dos três enunciados da ementa, um não tem unidade correspondente (governança entre empresas e poderes públicos para reduzir desigualdade) e dois são parciais por contatos periféricos: empresas transnacionais e globalização (unidades II.2.e, IV.3, XII.3, XVII.4) e arbitragem internacional e ONGs (XIV.2.b, II.2.d). Pela regra interna isso daria afinidade parcial, mas os contatos são temas laterais de um programa dominado por fontes, território, mar, tratados e organizações, e o programa é de 2013, sem horas nem créditos. O texto brasileiro parece não corresponder ao título do componente, por isso a classe é baixa afinidade e a confiança é baixa.",
+  "conclusionClass": "baixa_afinidade",
+  "downgradeReason": "Os dois enunciados parciais se apoiam em contatos laterais (empresas transnacionais, ONGs, arbitragem) de um programa de 2013 sem horas; o conteúdo central da ementa brasileira, governança e direito global de origem privada, não é estudado, e a contagem de tópicos sobrestima a afinidade.",
+  "confidence": "baixa",
+  "confidenceRationale": "Programa estrangeiro impresso como de 2013, sem créditos, horas, período ou avaliação, e ementa brasileira histórica de 2022 cujo texto parece destoar do título do componente.",
+  "limitations": [
+    "Programa estrangeiro impresso como 'AÑO 2013'; o catálogo registra 2025/26 sem confirmação de que o programa vigente seja o mesmo",
+    "Sem créditos, horas de contato, período, idioma de turma ou avaliação; carga horária não comparável",
+    "Ementário Mackenzie de 2022 é edição histórica; carga em 2 horas-aula semanais, não semestral",
+    "Anomalia: o texto de ementa de 'Direito Internacional Público' trata de governança e direito global privado e não de direito internacional público clássico; confirmar o conteúdo vigente com a coordenação",
+    "Oferta em 2027.2 e acesso de intercambista não confirmados",
+    "Parecer preliminar independente; decisão compete à coordenação de Direito e à COI"
+  ],
+  "openQuestions": [
+    "O conteúdo vigente de Direito Internacional Público no Mackenzie é o de direito internacional público clássico? Se for, a afinidade com este programa poderia ser bem maior.",
+    "A Universidad de Congreso tem programa atualizado (posterior a 2013) com horas e período?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e do programa PDF da Universidad de Congreso (17 unidades e bibliografia) com apoio de IA (Claude); cada enunciado buscado nas unidades; coerência verificada por scripts/build_pareceres.py --check",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar com a coordenação o conteúdo vigente de Direito Internacional Público, já que o texto de 2022 destoa do título, e obter programa estrangeiro atualizado com horas"
+  }
+}

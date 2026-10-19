@@ -1,0 +1,236 @@
+{
+  "id": "dir|ATO ADMINISTRATIVO, CONTROLE DA ADMINISTRAÇÃO PÚBLICA E RESPONSABILIDADE CIVIL DO ESTADO|po-63-universidadelu|02335",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "ATO ADMINISTRATIVO, CONTROLE DA ADMINISTRAÇÃO PÚBLICA E RESPONSABILIDADE CIVIL DO ESTADO",
+    "name": "ATO ADMINISTRATIVO, CONTROLE DA ADMINISTRAÇÃO PÚBLICA E RESPONSABILIDADE CIVIL DO ESTADO",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 44, bloco ATO ADMINISTRATIVO, CONTROLE DA ADMINISTRAÇÃO PÚBLICA E RESPONSABILIDADE CIVIL DO ESTADO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Analisar institutos próprios do direito administrativo, a partir das bases teóricas desenvolvidas em Princípios, Estrutura e Organização da Administração Pública",
+      "Ato administrativo: conceito, características, atributos e elementos",
+      "Controle do ato administrativo, no contexto da estrutura organizacional administrativa",
+      "Controle da administração Pública: Conceito",
+      "Modalidades",
+      "Controle administrativo: conceito, recursos administrativos e outros instrumentos de controle, coisa julgada administrativa e prescrição administrativa",
+      "Controle legislativo: político e financeiro",
+      "Controle judicial: Sistemas de jurisdição, Privilégios da Administração Pública em juízo, Meios de controle: habeas corpus, habeas data, mandato de injunção, mandado de segurança ação popular, ação civil pública",
+      "Responsabilidade civil do Estado: Teorias",
+      "Evolução no direito brasileiro",
+      "Causas excludentes e atenuantes",
+      "Responsabilidade por atos judiciais",
+      "Responsabilidade por atos legislativos",
+      "Reparação do dano"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "02335",
+      "name": "Contratos públicos",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "1º semestre português; calendário2027/28 não confirmado.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02335_2025.pdf",
+      "sha256": "72a91f41635ab8f7efaf88514c4e958b90d222ae913904b72e45b9305309e071",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Analisar institutos próprios do direito administrativo, a partir das bases teóricas desenvolvidas em Princípios, Estrutura e Organização da Administração Pública",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Aplicação do direito administrativo à contratação pública aproxima institutos administrativos, com recorte contratual português.",
+      "foreignLocation": "Objetivos15 e Conteúdos2-3"
+    },
+    {
+      "brTopic": "Ato administrativo: conceito, características, atributos e elementos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Adjudicação e formação da vontade administrativa permitem examinar atos, sem teoria completa de atributos e elementos.",
+      "foreignLocation": "Conteúdos17 e24"
+    },
+    {
+      "brTopic": "Controle do ato administrativo, no contexto da estrutura organizacional administrativa",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tribunal de Contas e adjudicação dão aproximação ao controle de atos contratuais, sem tratamento geral.",
+      "foreignLocation": "Conteúdos9 e24"
+    },
+    {
+      "brTopic": "Controle da administração Pública: Conceito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tribunal de Contas é instituição de fiscalização, mas não há conceito geral de controle administrativo.",
+      "foreignLocation": "Conteúdos9"
+    },
+    {
+      "brTopic": "Modalidades",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fiscalização financeira é uma modalidade documentada; demais modalidades não são sistematizadas.",
+      "foreignLocation": "Conteúdos9"
+    },
+    {
+      "brTopic": "Controle administrativo: conceito, recursos administrativos e outros instrumentos de controle, coisa julgada administrativa e prescrição administrativa",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-7, Conteúdos1-27",
+      "note": "Recursos administrativos, coisa julgada e prescrição administrativa não aparecem."
+    },
+    {
+      "brTopic": "Controle legislativo: político e financeiro",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tribunal de Contas aproxima fiscalização financeira, sem controle político-legislativo brasileiro.",
+      "foreignLocation": "Conteúdos9"
+    },
+    {
+      "brTopic": "Controle judicial: Sistemas de jurisdição, Privilégios da Administração Pública em juízo, Meios de controle: habeas corpus, habeas data, mandato de injunção, mandado de segurança ação popular, ação civil pública",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-7, Conteúdos1-27",
+      "note": "Remédios judiciais constitucionais brasileiros não integram o programa."
+    },
+    {
+      "brTopic": "Responsabilidade civil do Estado: Teorias",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-7, Conteúdos1-27",
+      "note": "Teorias de responsabilidade civil estatal não são individualizadas."
+    },
+    {
+      "brTopic": "Evolução no direito brasileiro",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-7, Conteúdos1-27",
+      "note": "Evolução brasileira da responsabilidade do Estado não consta."
+    },
+    {
+      "brTopic": "Causas excludentes e atenuantes",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-7, Conteúdos1-27",
+      "note": "Excludentes e atenuantes da responsabilidade estatal não são estudadas."
+    },
+    {
+      "brTopic": "Responsabilidade por atos judiciais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-7, Conteúdos1-27",
+      "note": "Responsabilidade por atos judiciais não foi localizada."
+    },
+    {
+      "brTopic": "Responsabilidade por atos legislativos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-7, Conteúdos1-27",
+      "note": "Responsabilidade por atos legislativos não foi localizada."
+    },
+    {
+      "brTopic": "Reparação do dano",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-7, Conteúdos1-27",
+      "note": "Reparação do dano pelo Estado não é conteúdo explícito."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Contratação in-house, limiares e modificações contratuais",
+      "location": "Conteúdos15,23 e27"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Utilizar o Código dos Contratos Públicos em problemas selecionados.",
+    "convergences": [
+      "Aplicação do direito administrativo à contratação pública aproxima institutos administrativos, com recorte contratual português.",
+      "Adjudicação e formação da vontade administrativa permitem examinar atos, sem teoria completa de atributos e elementos.",
+      "Tribunal de Contas e adjudicação dão aproximação ao controle de atos contratuais, sem tratamento geral.",
+      "Tribunal de Contas é instituição de fiscalização, mas não há conceito geral de controle administrativo.",
+      "Fiscalização financeira é uma modalidade documentada; demais modalidades não são sistematizadas.",
+      "Tribunal de Contas aproxima fiscalização financeira, sem controle político-legislativo brasileiro."
+    ],
+    "differences": [
+      "Recursos administrativos, coisa julgada e prescrição administrativa não aparecem.",
+      "Remédios judiciais constitucionais brasileiros não integram o programa.",
+      "Teorias de responsabilidade civil estatal não são individualizadas.",
+      "Evolução brasileira da responsabilidade do Estado não consta.",
+      "Excludentes e atenuantes da responsabilidade estatal não são estudadas.",
+      "Responsabilidade por atos judiciais não foi localizada.",
+      "Responsabilidade por atos legislativos não foi localizada.",
+      "Reparação do dano pelo Estado não é conteúdo explícito."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Utilizar o Código dos Contratos Públicos em problemas selecionados.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "1º semestre português; calendário2027/28 não confirmado.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Contratos Públicos Lusíada aborda adjudicação e fiscalização financeira, com alcance limitado para ato administrativo e responsabilidade civil estatal Mackenzie.",
+  "justification": "Seis de catorze tópicos recebem relação parcial por CCP, formação da vontade e Tribunal de Contas; o bloco de responsabilidade estatal permanece ausente. A unidade02335 é do primeiro semestre de2025/2026. O quadro de horas discrimina valores por tipos de aula, sem um total de contato explicitamente rotulado; não se convertem créditos nem se soma como hora-relógio brasileira.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Quadro horário em extração linear:30,15,20 e6 ECTS; total de contato não rotulado, mantido nulo.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Quadro horário em extração linear:30,15,20 e6 ECTS; total de contato não rotulado, mantido nulo."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

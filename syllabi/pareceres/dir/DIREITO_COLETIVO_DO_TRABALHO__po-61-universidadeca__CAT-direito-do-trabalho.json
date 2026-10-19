@@ -1,0 +1,157 @@
+{
+  "id": "dir|DIREITO COLETIVO DO TRABALHO|po-61-universidadeca|CAT-direito-do-trabalho",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO COLETIVO DO TRABALHO",
+    "name": "DIREITO COLETIVO DO TRABALHO",
+    "courseName": "Direito",
+    "stage": 7,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 51, bloco DIREITO COLETIVO DO TRABALHO: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-61-universidadeca",
+      "university": "Universidade Católica Portuguesa",
+      "code": "CAT-direito-do-trabalho",
+      "name": "Direito do Trabalho",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": "2025/2026",
+      "period": "3.º ano, 2.º semestre; não confirma disponibilidade no segundo semestre brasileiro 2027",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Obrigatória",
+      "assessment": "Contínua com participação eteste; exames finais obrigatórios escrito eoral",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-direito-do-trabalho-3o-ano.pdf",
+      "catalogue": "https://fd.lisboa.ucp.pt/pt-pt/licenciatura-em-direito/licenciatura-em-direito/plano-curricular",
+      "sha256": "c98def31da4275d1cc1ceb75e326b2cc918f3b3c1dfa3b93daaa9724714d3589",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": 70,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": 250,
+        "ects": 9,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Total de contacto TP explicitamente declarado; duração da hora não informada."
+      },
+      "yearOfStudy": 3,
+      "semester": 2
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Instituições coletivas: sindicatos, comissões e associações de empregadores",
+      "foreignLocation": "Conteúdos, II, itens 3-5",
+      "note": "O enfoque português não comprova a aplicação das normas e da jurisprudência brasileiras."
+    },
+    {
+      "brTopic": "Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Organização sindical, conflitos, greve e solução pacífica",
+      "foreignLocation": "Conteúdos, II, 3.1-3.6",
+      "note": "Lei brasileira 13.467/2017 e sistema sindical brasileiro não constam."
+    },
+    {
+      "brTopic": "Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fontes comuns e próprias, interpretação, integração e concorrência",
+      "foreignLocation": "Conteúdos, III, 6-8",
+      "note": "O enfoque português não comprova a aplicação das normas e da jurisprudência brasileiras."
+    },
+    {
+      "brTopic": "Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Instrumentos de regulamentação coletiva e favor laboratoris",
+      "foreignLocation": "Conteúdos, III, 7-8; Método de ensino",
+      "note": "Não demonstra prevalências brasileiras entre acordos/convenções, fiscalização administrativa e convenções específicas da OIT."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Contrato individual, teletrabalho ecessação",
+      "location": "Conteúdos, IV-VI"
+    }
+  ],
+  "competencies": {
+    "brazil": "Estudo crítico do Direito Coletivo do Trabalho, seus fundamentos, principais regras e estrutura. Análise profunda das relações coletivas de trabalho e das organizações sindicais em consonância com o ordenamento jurídico brasileiro e suas várias abordagens, principalmente após a promulgação da lei n° 13.467/2017 (Reforma Trabalhista). Estudo do fenômeno da articulação entre normas de direito social em matéria de direito coletivo do trabalho. Primado da negociação coletiva sobre os dispositivos legais que não se tipifiquem como de ordem pública absoluta, bem como estudo da prevalência da negociação realizada no local de trabalho (acordos coletivos) sobre os acordos assinados por sindicatos de uma categoria (convenções coletivas).Estudo do Direito Administrativo do Trabalho e do Direito Internacional do Trabalho, em especial das Convenções da Organização Internacional do Trabalho - OIT..",
+    "foreign": [
+      "Aplicar conceitos laborais eponderar interesses deempregado eempregador"
+    ],
+    "convergences": [
+      "Direito do Trabalho da Católica reúne um bloco coletivo relevante, mas o tratamento português e a falta de reforma brasileira/OIT impedem cobertura integral de Direito Coletivo."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "2 horas-aula semanais em edição de 2022",
+    "foreign": "A ficha 2025/26 reserva II às instituições e III às fontes; casos reais incluem pré-avisos de greve, decisões arbitrais e convenções. Também abrange contrato individual nas partes IV-VI, portanto as 70 horas de contacto não são todas de direito coletivo.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "3.º ano, 2.º semestre; não confirma disponibilidade no segundo semestre brasileiro 2027",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito do Trabalho da Católica reúne um bloco coletivo relevante, mas o tratamento português e a falta de reforma brasileira/OIT impedem cobertura integral de Direito Coletivo.",
+  "justification": "A ficha 2025/26 reserva II às instituições e III às fontes; casos reais incluem pré-avisos de greve, decisões arbitrais e convenções. Também abrange contrato individual nas partes IV-VI, portanto as 70 horas de contacto não são todas de direito coletivo. O cotejo registra 0 tópicos cobertos e 4 parciais de 4 essenciais. A carga brasileira semanal impede calcular uma razão horária semestral, mesmo quando a ficha estrangeira declara contacto; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional",
+    "70 horas TP explícitas coexistem com funcionamento 3 h teóricas+3 h práticas semanais; não se reconstrói nem soma uma carga diferente."
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  }
+}

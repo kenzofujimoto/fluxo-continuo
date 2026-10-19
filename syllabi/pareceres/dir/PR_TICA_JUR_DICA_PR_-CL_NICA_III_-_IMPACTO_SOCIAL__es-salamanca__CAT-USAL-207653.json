@@ -1,0 +1,199 @@
+{
+  "id": "dir|PRÁTICA JURÍDICA PRÉ-CLÍNICA III - IMPACTO SOCIAL|es-salamanca|CAT-USAL-207653",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "PRÁTICA JURÍDICA PRÉ-CLÍNICA III - IMPACTO SOCIAL",
+    "name": "Prática Jurídica Pré-Clínica III - Impacto Social",
+    "courseName": "Direito",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 23, bloco 'PRÁTICA JURÍDICA PRÉ-CLÍNICA III - IMPACTO SOCIAL' (3ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "Viabilizar o desenvolvimento de habilidades técnicas, práticas, culturais e artísticas",
+      "Sensibilizar do aluno para conhecer, identificar e vivenciar situações injustas e propor possíveis alternativas e exercitar a empatia",
+      "Ampliar a capacidade de raciocínio, por meio de provocações reflexivas propostas",
+      "Viabilizar a aceleração dos processos de aprendizagem de forma crítica pelos estudantes, de forma a torná-los capazes de buscar soluções quando confrontados com situações reais e próprias da realidade brasileira",
+      "Enriquecer a formação dos estudantes participantes mediante apreensão de novos conceitos e informações, próprios de distintos ramos do conhecimento, potencializando a capacidade de criativa e para formulação de soluções de impacto social tanto em políticas públicas como no terceiro setor",
+      "Estimular no discente a visão interdisciplinar, a capacidade de inovação e o empreendedorismo social",
+      "Permitir a aquisição de cultura geral"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidad de Salamanca",
+      "name": "CLÍNICA JURÍDICA DE ACCIÓN SOCIAL",
+      "level": "Grau (graduação)",
+      "catalogue": "https://guias.usal.es/node/207653",
+      "universityId": "es-salamanca",
+      "code": "CAT-USAL-207653",
+      "source": "https://guias.usal.es/node/207653",
+      "sha256": "9ad46225d32feee2a6905bc8097d4e2f044a211ab7d5ebf3c2dacdace6b2a678",
+      "faculty": "Facultad de Derecho (Grado en Derecho)",
+      "department": "Derecho Privado; coordenação em Derecho Internacional Privado",
+      "programme": "Grado en Derecho; asignatura optativa, plan 223",
+      "yearOfStudy": 4,
+      "semester": 2,
+      "period": "Segundo semestre do 4º curso",
+      "academicYear": "2025/2026",
+      "language": "ESPAÑOL",
+      "courseStatus": "Optativa",
+      "assessment": "Critérios de avaliação não descritos no guia (secção 9 só traz 'Evaluación (Fecha: 25-05-22)')",
+      "prerequisites": "Não há recomendações prévias (secção 2 vazia)",
+      "location": "Guia 2025/2026: secções 1 (Datos), 3 (Objetivos), 4 (Competencias), 5 (Contenidos: seis líneas de actuación), 6 (Metodologías), 7 (vazia), 9 (Evaluación)",
+      "officialCode": "102375",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "A secção 7 (Distribución de las Metodologías Docentes) não traz valores no texto; só 6 ECTS declarados, sem horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Viabilizar o desenvolvimento de habilidades técnicas, práticas, culturais e artísticas",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo: 'desarrollo de habilidades profesionales'; formação 'holística'; competências B13 (ferramentas informáticas) e B14 (debates de atualidade)",
+      "foreignLocation": "Seção 3, objetivos 1 e 5; seção 4",
+      "note": "Habilidades técnicas e práticas estão cobertas; as habilidades culturais e artísticas da ementa não são mencionadas."
+    },
+    {
+      "brTopic": "Sensibilizar do aluno para conhecer, identificar e vivenciar situações injustas e propor possíveis alternativas e exercitar a empatia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'profesionales críticos con el sistema y sensibles a la idea de justicia social'; 'contacto íntimo con la realidad social objeto de la intervención profesional'",
+      "foreignLocation": "Seção 3, objetivos 2 e 3",
+      "note": "Sensibilização para a injustiça e compromisso ético estão no centro do guia; a empatia não é nomeada, mas 'conciencia social' e valores éticos sim."
+    },
+    {
+      "brTopic": "Ampliar a capacidade de raciocínio, por meio de provocações reflexivas propostas",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "A4: 'elaborar un razonamiento crítico sobre las respuestas y soluciones del derecho vigente'; B5 e B10 (conciencia crítica, argumentación jurídica)",
+      "foreignLocation": "Seção 4, competências A4, B5 e B10",
+      "note": "O guia não descreve 'provocações reflexivas' como método, mas o resultado de raciocínio crítico é declarado."
+    },
+    {
+      "brTopic": "Viabilizar a aceleração dos processos de aprendizagem de forma crítica pelos estudantes, de forma a torná-los capazes de buscar soluções quando confrontados com situações reais e próprias da realidade brasileira",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Método clínico: 'aprendizaje a través de la experiencia, la responsabilidad y el compromiso' com 'casos reales provenientes de ONGs'",
+      "foreignLocation": "Seção 6 (Metodologías Docentes)",
+      "note": "A realidade enfrentada é a espanhola (ONGs de Salamanca), não a brasileira."
+    },
+    {
+      "brTopic": "Enriquecer a formação dos estudantes participantes mediante apreensão de novos conceitos e informações, próprios de distintos ramos do conhecimento, potencializando a capacidade de criativa e para formulação de soluções de impacto social tanto em políticas públicas como no terceiro setor",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Interdisciplinaridade ('consilience'); seis líneas de actuación (clima, discapacidad, prisões, memória, menores, migrantes); transferência do conhecimento à sociedade",
+      "foreignLocation": "Seção 6; seção 5; seção 3, objetivo 7",
+      "note": "Terceiro setor e interdisciplinaridade aparecem; políticas públicas não são citadas como objeto de soluções."
+    },
+    {
+      "brTopic": "Estimular no discente a visão interdisciplinar, a capacidade de inovação e o empreendedorismo social",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'potencia la unidad del conocimiento (consilience) desde la interdisciplinariedad'; 'aprendizaje colaborativo'",
+      "foreignLocation": "Seção 6; seção 3, objetivo 5",
+      "note": "A visão interdisciplinar está explícita; inovação e empreendedorismo social não são mencionados."
+    },
+    {
+      "brTopic": "Permitir a aquisição de cultura geral",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'una formación holística del alumnado'; B14 'identificar y analizar los debates de actualidad'",
+      "foreignLocation": "Seção 3, objetivo 5; seção 4, B14",
+      "note": "Aproximação: formação ampla e debates de atualidade, sem referência a cultura geral."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Seis linhas de atuação: mudança climática, discapacidad e dependência, direitos humanos em prisões, memória democrática, menores e internet, migrantes",
+      "location": "Contenidos (texto cita o curso 2024/2025)"
+    },
+    {
+      "topic": "Defesa dos direitos humanos e atendimento de casos jurídicos concretos com informes",
+      "location": "Objetivos 6; Metodologías Docentes; competência B8"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário 2022 centra-se em habilidades, empatia diante de injustiças, aprendizagem crítica, visão interdisciplinar, inovação e empreendedorismo social, sem competências formais numeradas.",
+    "foreign": [
+      "Aprendizagem ativa e formação prática com habilidades profissionais",
+      "Sensibilidade à justiça social e compromisso ético",
+      "Trabalho em equipe interdisciplinar",
+      "Raciocínio crítico e debate de atualidade"
+    ],
+    "convergences": [
+      "Sensibilização para a injustiça e a realidade social",
+      "Aprendizagem crítica com situações reais",
+      "Visão interdisciplinar e terceiro setor"
+    ],
+    "differences": [
+      "O guia espanhol trabalha casos jurídicos de ONGs; a ementa brasileira inclui também cultura e artes",
+      "Inovação e empreendedorismo social não aparecem no guia",
+      "Realidade espanhola em vez de brasileira"
+    ]
+  },
+  "depth": {
+    "level": "Salamanca: optativa do 4º curso; Mackenzie: 3ª etapa, obrigatória",
+    "brazil": "2 horas-aula semanais, componente introdutório de pré-clínica",
+    "foreign": "6 ECTS; clínica de ação social que opera com casos reais de ONGs, em curso avançado (4º ano)",
+    "theoryPractice": "Predomínio prático; sem divisão de horas no guia"
+  },
+  "practical": {
+    "period": "Segundo semestre do 4º curso; Mackenzie situa a componente na 3ª etapa",
+    "language": "Espanhol",
+    "enrolment": "Optativa de Direito com casos de ONGs conveniadas; aceitação de intercambista não verificada",
+    "prerequisites": "Nenhuma recomendação prévia",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Entre as quatro componentes clínicas brasileiras comparadas com a Clínica Jurídica de Acción Social, Pré-Clínica III (Impacto Social) é a única cujo objetivo, sensibilização para injustiças, soluções de impacto social e terceiro setor, repete o espírito do guia; faltam apenas inovação, empreendedorismo social e a vertente cultural e artística.",
+  "justification": "Dos sete tópicos da ementa, três são cobertos (sensibilização para situações injustas nos objetivos 2 e 3; raciocínio crítico em A4, B5 e B10; aprendizagem crítica com casos reais de ONGs na seção 6) e quatro parciais (habilidades técnicas sem as artísticas; soluções de impacto sem políticas públicas; interdisciplinaridade sem inovação nem empreendedorismo social; cultura geral por aproximação). Nenhum tópico é ausente: a cobertura plena ou parcial é de 100% e a plena é de 43%, abaixo de 75%, o que mantém o par em afinidade parcial. As horas não se comparam, pois são 2 horas-aula semanais em Mackenzie e 6 ECTS em Salamanca sem horas de contato; a clínica espanhola é optativa do 4º curso, bem mais avançada que uma pré-clínica da 3ª etapa, e isso exigiria decisão da coordenação sobre o nível. O ementário é de 2022, histórico, o que também impede classe mais alta.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Boa aderência de objetivos, mas guia sem horas nem critérios de avaliação, com conteúdos referidos ao curso 2024/2025; ementário brasileiro de 2022 formulado como objetivos, o que exige interpretação.",
+  "limitations": [
+    "Guia de Salamanca é do curso 2025/2026 e o texto de conteúdos refere-se ao curso 2024/2025",
+    "Ementário Mackenzie de 2022 é edição histórica; a matriz vigente pode divergir",
+    "Mackenzie informa 2 horas-aula semanais; Salamanca informa 6 ECTS sem horas de contato; carga não comparável e ECTS não convertidos",
+    "A ementa brasileira é escrita como lista de objetivos; a comparação reflete a interpretação de cada objetivo como tópico",
+    "Disciplina de 4º curso comparada a componente da 3ª etapa; nível de exigência diferente",
+    "Oferta 2027/28 e vagas para intercambistas não confirmadas"
+  ],
+  "openQuestions": [
+    "A coordenação aceita uma clínica de ação social de nível avançado no lugar de uma pré-clínica da 3ª etapa?",
+    "Como comprovar, para fins de aproveitamento, as atividades práticas se o guia não descreve critérios de avaliação?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e do guia USAL 2025/2026 (nó 207653, código oficial 102375) com apoio de IA (Claude); título do guia conferido com o nome do catálogo (coincide); sete tópicos examinados contra objetivos, competências, linhas de atuação e metodologia",
+  "secondReview": {
+    "required": true,
+    "reason": "Compatibilidade de nível (4º curso x 3ª etapa) e comprovação de atividades práticas dependem da coordenação"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

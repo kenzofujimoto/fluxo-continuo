@@ -1,0 +1,163 @@
+{
+  "id": "dir|DIREITO INDIVIDUAL DO TRABALHO|po-63-universidadelu|02327",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO INDIVIDUAL DO TRABALHO",
+    "name": "DIREITO INDIVIDUAL DO TRABALHO",
+    "courseName": "Direito",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 45, bloco DIREITO INDIVIDUAL DO TRABALHO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "do Direito Individual do Trabalho",
+      "e, do Direito Tutelar do Trabalho",
+      "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "02327",
+      "name": "Direito do trabalho",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "2º semestre português; confirmar calendário2027/28.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_02327_2025.pdf",
+      "sha256": "2c0f7704f6911cf5378daedc74912980c26a2c0bbe68b84c12ae4f9c3e257c48",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo crítico do Direito do Trabalho, seus fundamentos e principais regras",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivo geral relaciona papel regulador, interesses divergentes e consequências sociais do trabalho.",
+      "foreignLocation": "Objetivos14"
+    },
+    {
+      "brTopic": "Análise profunda das relações individuais de trabalho em consonância com o ordenamento jurídico brasileiro e suas várias abordagens",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Contrato, direitos, deveres e cessação são aprofundados no regime português, sem CLT.",
+      "foreignLocation": "ConteúdosD.a-j"
+    },
+    {
+      "brTopic": "Será feito um estudo da Teoria Geral do Direito do Trabalho",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Introdução, subordinação e fontes compõem fundamentos gerais da área.",
+      "foreignLocation": "ConteúdosA-C"
+    },
+    {
+      "brTopic": "do Direito Individual do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Contrato individual é eixo central, sob Código do Trabalho português.",
+      "foreignLocation": "Objetivos15 e ConteúdosD"
+    },
+    {
+      "brTopic": "e, do Direito Tutelar do Trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Tempo, descanso, férias e retribuição têm tratamento tutelar, com regime estatutário distinto.",
+      "foreignLocation": "ConteúdosD.e-h"
+    },
+    {
+      "brTopic": "Análise do fenômeno jurídico das relações de trabalho não somente pelo ângulo da Consolidação das Leis do Trabalho CLT, mas também das novas relações de trabalho existentes, o fenômeno da gig economy, a influência do direito comparado, assim como a construção de uma visão crítica e das possíveis alternativas para o futuro do trabalho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Modalidades de prestação e subordinação oferecem base comparada; gig economy e futuro do trabalho não são explícitos.",
+      "foreignLocation": "ConteúdosB eD.d"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Instrumentos de regulamentação coletiva e sua relação com lei e contrato",
+      "location": "ConteúdosC"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Negociar contratos e resolver situações de cessação de trabalho em Portugal.",
+    "convergences": [
+      "Objetivo geral relaciona papel regulador, interesses divergentes e consequências sociais do trabalho.",
+      "Contrato, direitos, deveres e cessação são aprofundados no regime português, sem CLT.",
+      "Introdução, subordinação e fontes compõem fundamentos gerais da área.",
+      "Contrato individual é eixo central, sob Código do Trabalho português.",
+      "Tempo, descanso, férias e retribuição têm tratamento tutelar, com regime estatutário distinto.",
+      "Modalidades de prestação e subordinação oferecem base comparada; gig economy e futuro do trabalho não são explícitos."
+    ],
+    "differences": []
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Negociar contratos e resolver situações de cessação de trabalho em Portugal.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "2º semestre português; confirmar calendário2027/28.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Trabalho02327 oferece formação individual e tutelar ampla, com cobertura de contrato e cessação, mas sem CLT e plataformas digitais explicitadas.",
+  "justification": "Os seis enunciados recebem alguma aproximação, dois de fundamento geral integrais e quatro parciais. O programa2025/2026 discrimina modalidades, horários e despedimento; não se deduz gig economy de trabalho temporário. A conclusão parcial preserva diferenças do direito nacional e da vigência brasileira2022.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Horas por modalidades de aula não fornecem total de contato inequivocamente rotulado.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Horas por modalidades de aula não fornecem total de contato inequivocamente rotulado."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

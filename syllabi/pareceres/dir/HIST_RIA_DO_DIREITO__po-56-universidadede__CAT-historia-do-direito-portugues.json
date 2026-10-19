@@ -1,0 +1,162 @@
+{
+  "id": "dir|HISTÓRIA DO DIREITO|po-56-universidadede|CAT-historia-do-direito-portugues",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "HISTÓRIA DO DIREITO",
+    "name": "HISTÓRIA DO DIREITO",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (histórico)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 3, bloco HISTÓRIA DO DIREITO: Ementa e carga semanal",
+    "language": "Português",
+    "prerequisites": "Não declarados",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-56-universidadede",
+      "university": "Universidade de Lisboa",
+      "code": "CAT-historia-do-direito-portugues",
+      "name": "História do Direito Português",
+      "faculty": "Faculdade de Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Licenciatura",
+      "academicYear": null,
+      "period": "2.º",
+      "language": "Português; versão bilíngue quando presente não comprova turma em inglês",
+      "courseStatus": "Conforme catálogo; acesso por mobilidade não confirmado",
+      "assessment": "Contínua 50%(oral 20, exercício 15, trabalho 10, assiduidade 5) e frequência 50%; versão inglesa traduz frequência comoattendance incorretamente",
+      "prerequisites": "Não declarados como requisito de matrícula no documento analisado",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/06/Historia-do-Direito-Portugues_Turma-Noite.pdf",
+      "catalogue": "https://www.fd.ulisboa.pt/cursos/licenciatura/plano-de-estudos/",
+      "sha256": "801c9ad5d7888c1211fd659d16a45539252e646de09b191b392c3b882587ad4c",
+      "location": "Ficha integral: objetivos, conteúdos programáticos, metodologia, avaliação e observações",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Não há total semestral inequívoco de horas de contacto do estudante; cargas dos docentes não são somadas nem créditos convertidos."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conhecimento crítico de conceitos presentes por sua formação histórica",
+      "foreignLocation": "Objetivos; coerência dos conteúdos"
+    },
+    {
+      "brTopic": "Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Fontes, ciência jurídica e contextos histórico-políticos",
+      "foreignLocation": "Conteúdos, §§1-23; coerência dos conteúdos"
+    },
+    {
+      "brTopic": "A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Rupturas, continuidades e contextos de cada época",
+      "foreignLocation": "Coerência dos conteúdos; objetivos",
+      "note": "Anacronismo não nomeado como problema metodológico específico."
+    },
+    {
+      "brTopic": "A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Constitucionalismo, codificações, direito judicial e instituições",
+      "foreignLocation": "Conteúdos, §§7, 17-22",
+      "note": "Estrutura específica de Judiciário, Legislativo e Ministério Público brasileiros não desenvolvida."
+    },
+    {
+      "brTopic": "Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Conteúdos, §§1-23; objetivos e coerência",
+      "note": "O recorte público/privado é português e europeu, não Brasil XIX/início XX."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Direito canônico, romano, forais e Ordenações",
+      "location": "Conteúdos, §§3-9"
+    }
+  ],
+  "competencies": {
+    "brazil": "A disciplina se inicia discutindo a relevância do estudo da história do direito a partir de uma perspectiva crítica e como tal abordagem pode contribuir com a formação do jurista. Essa base metodológica permite o desenvolvimento de uma história das ideias (cultura), das instituições e das fontes que possa evidenciar as relações entre sociedade e direito. A história das ideias tem como foco apontar tanto para os problemas interpretativos advindos do anacronismo como para a não essencialidade e, portanto, a relatividade do conteúdo dos conceitos jurídicos. A história das instituições pretende destacar como as diferenças possibilidades de organização das estruturas jurídicas (Judiciário, Legislativo, Ministério Público etc) refletem na criação, aplicação e compreensão do direito. Por fim, a história das fontes se circunscreve a apresentação das diferenças do direito público e privado no Brasil do século XIX e início do XX.",
+    "foreign": [
+      "Compreender fontes portuguesas, codificação e contexto histórico"
+    ],
+    "convergences": [
+      "História do Direito Português aproxima a metodologia crítica, história de fontes e instituições, mas mantém recorte lusitano sem história jurídica brasileira do XIX-XX."
+    ],
+    "differences": [
+      "O ordenamento português não substitui o direito positivo brasileiro; correspondências normativas são limitadas."
+    ]
+  },
+  "depth": {
+    "level": "Duas disciplinas de graduação; vigência da ficha brasileira não confirmada",
+    "brazil": "2 horas-aula semanais em edição de 2022",
+    "foreign": "O programa vai das fontes romanas/canônicas aos§§17-23(codificação, positivismo e pluralismo); a coerência explicita rupturas e continuidades. Não se presume que raízes portuguesas comprovem a história pública e privada do Brasil exigida no último tópico.",
+    "theoryPractice": "Metodologia e avaliação lidas no documento; não se presume proporção prática ou equivalência de duração"
+  },
+  "practical": {
+    "period": "2.º no catálogo; confirmar calendário e compatibilidade com 2027.2",
+    "language": "Português; turma de intercâmbio não confirmada",
+    "enrolment": "Aceitação, vagas e restrições para intercambistas não confirmadas",
+    "prerequisites": "Requisitos de matrícula e conhecimentos prévios a confirmar institucionalmente",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "História do Direito Português aproxima a metodologia crítica, história de fontes e instituições, mas mantém recorte lusitano sem história jurídica brasileira do XIX-XX.",
+  "justification": "O programa vai das fontes romanas/canônicas aos§§17-23(codificação, positivismo e pluralismo); a coerência explicita rupturas e continuidades. Não se presume que raízes portuguesas comprovem a história pública e privada do Brasil exigida no último tópico. O cotejo registra 2 tópicos cobertos e 2 parciais de 5 essenciais. A carga brasileira semanal e a ausência de total de contacto estrangeiro impedem calcular razão horária; o ementário de 2022 não comprova vigência atual.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Fontes oficiais individuais com conteúdo identificável; faltam vigência brasileira atual, comparabilidade de horas e oferta futura.",
+  "limitations": [
+    "Ementário brasileiro de 2022 histórico, sem confirmação da matriz vigente",
+    "Horas brasileiras semanais não equivalem a horas semestrais; duração da hora estrangeira não declarada",
+    "Oferta, turma, calendário e acesso por mobilidade em 2027/28 não confirmados",
+    "Análise preliminar sem decisão institucional",
+    "Ano letivo não impresso; carga de 2 horas do docente não é total de contato do aluno.",
+    "Tradução inglesa da avaliação troca frequência por attendance; adota-se somente o enunciado português 50%frequência."
+  ],
+  "openQuestions": [
+    "O programa e a carga horária vigentes mantêm os conteúdos documentados?",
+    "A coordenação aceita a cobertura doutrinária portuguesa diante das lacunas de direito brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos textos oficiais do dossiê local e cotejo individual de cada enunciado brasileiro, com apoio de IA (Codex); hashes reproduzidos de programas.json e validação pelo build_pareceres.py --check.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão jurídica e confirmação de vigência/carga necessárias antes de qualquer decisão de aproveitamento"
+  }
+}

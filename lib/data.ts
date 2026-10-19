@@ -55,6 +55,7 @@ const foreignSchema = z.looseObject({
   credits: z.union([z.string(), z.number()]).nullish(),
   period: optionalText,
   limitations: optionalText,
+  sourceEligibility: optionalText,
 });
 const matchSchema = z
   .looseObject({

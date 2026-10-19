@@ -1,0 +1,170 @@
+{
+  "id": "si|REDES DE COMPUTADORES|es-salamanca|101127",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "REDES DE COMPUTADORES",
+    "name": "REDES DE COMPUTADORES",
+    "courseName": "Sistemas de Informação",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco REDES DE COMPUTADORES; página extraída 10 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes",
+      "Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet",
+      "Descrição do roteamento de pacotes, vazão, atraso e perda de dados",
+      "Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento",
+      "Aplicação de tecnologias de redes sem fio: arquitetura 802.11"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101127",
+      "academicCode": "101127",
+      "name": "Redes De Computadores Ii",
+      "faculty": "Fac. Ciencias",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "yearOfStudy": 3,
+      "semester": 2,
+      "period": "Segundo Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Exames 70%, práticas/trabalhos 30%, com defesa corrigida pelo desempenho no exame.",
+      "prerequisites": "Es deseable haber superado la asignatura: Redes de Computadores I",
+      "source": "https://guias.usal.es/node/255651",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "1f037744214e44dbe97a4bda7632baf60e00eb4b50f02d65e59c995d4df64562",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "LAN avançadas e sem fio cobrem tecnologias específicas, sem panorama introdutório de tipos e escalabilidade.",
+      "foreignLocation": "5, temas 1 e 6"
+    },
+    {
+      "brTopic": "Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Serviços e níveis de rede aprofundam TCP/IP, mas modelo OSI é apenas objetivo geral.",
+      "foreignLocation": "3; 5, temas 2-5"
+    },
+    {
+      "brTopic": "Descrição do roteamento de pacotes, vazão, atraso e perda de dados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Encaminhamento dinâmico aparece sem medidas de vazão, atraso e perdas.",
+      "foreignLocation": "5, tema 3 e prática"
+    },
+    {
+      "brTopic": "Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "IPv6, NAT, RIP e OSPF são explícitos; fundamentos IPv4 não formam unidade própria.",
+      "foreignLocation": "5, temas 3-4 e prática"
+    },
+    {
+      "brTopic": "Aplicação de tecnologias de redes sem fio: arquitetura 802.11",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "LAN sem fio constitui teoria e prática, sem identificar padrão 802.11.",
+      "foreignLocation": "5, tema 6 e prática"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "DNS, DHCP e VLAN",
+      "location": "5, Contenidos"
+    },
+    {
+      "topic": "Multicast",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes. Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet. Descrição do roteamento de pacotes, vazão, atraso e perda de dados. Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento. Aplicação de tecnologias de redes sem fio: arquitetura 802.11.",
+    "foreign": "Dominar y utilizar la terminología asociada de los diferentes objetos, medios y dispositivos necesarios para las telecomunicaciones, tanto en redes de área local como en redes de área ancha.\nConocer y entender las relaciones que mantiene la materia con el resto de materias de la titulación a partir de la introducción explícita de ejemplos y comentarios, aprovechando puntos relevantes del temario.\nConocer y comprender algunas de las capacidades, aptitudes y conocimientos que la materia aporta para el desarrollo de los diversos perfiles profesionales.\nFamiliarizar   al estudiante con los estándares en telecomunicaciones y con los organismos de regulación. En especial con el modelo de referencia parala Interconexión de Sistemas Abiertos (OSI).\nConocer los diferentes componentes hardware y software de los sistemas de telecomunicaciones y como se organizan para proporcionar los servicios requeridos.\nSer capaz de seleccionar e instalar el equipamiento necesario para implementar un sistema de telecomunicaciones; por ejemplo, cables, modems, redes de área local, pasarelas y routers.\nSer capaz de diseñar, instalar, configurar y gestionar una LAN.\nDesarrollar aplicaciones en red para la empresa.\nConocer los diferentes servicios de telecomunicación y analizar una implementación específica del modelo OSI.\nAprender a evaluar, seleccionar e implementar diferentes opciones de comunicación para una organización.\nTener una visión general sobre las líneas de evolución futuras de la tecnología de telecomunicaciones.\nAdquirir y utilizar con fluidez un buen lenguaje científico, tanto oral como escrito, siendo riguroso en las explicaciones de cualquier proceso",
+    "convergences": [
+      "LAN avançadas e sem fio cobrem tecnologias específicas, sem panorama introdutório de tipos e escalabilidade.",
+      "Serviços e níveis de rede aprofundam TCP/IP, mas modelo OSI é apenas objetivo geral.",
+      "Encaminhamento dinâmico aparece sem medidas de vazão, atraso e perdas.",
+      "IPv6, NAT, RIP e OSPF são explícitos; fundamentos IPv4 não formam unidade própria.",
+      "LAN sem fio constitui teoria e prática, sem identificar padrão 802.11."
+    ],
+    "differences": [
+      "LAN avançadas e sem fio cobrem tecnologias específicas, sem panorama introdutório de tipos e escalabilidade.",
+      "Serviços e níveis de rede aprofundam TCP/IP, mas modelo OSI é apenas objetivo geral.",
+      "Encaminhamento dinâmico aparece sem medidas de vazão, atraso e perdas.",
+      "IPv6, NAT, RIP e OSPF são explícitos; fundamentos IPv4 não formam unidade própria.",
+      "LAN sem fio constitui teoria e prática, sem identificar padrão 802.11."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 2; USAL ano 3",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 101127.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Segundo Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "Es deseable haber superado la asignatura: Redes de Computadores I",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Redes de Computadores II 101127 aprofunda roteamento e redes sem fio pertinentes a SI, sem reproduzir seu panorama introdutório completo.",
+  "justification": "Os temas 3-4 especificam NAT, roteamento dinâmico e IPv6; a prática cita RIP/OSPF. No entanto, tipos de rede, métricas de atraso/perda e padrão 802.11 permanecem sem detalhe, e Redes I é recomendada antes da matrícula.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional.",
+    "Segundo semestre europeu não coincide em regra com o intercâmbio brasileiro 2027.2; calendário e eventual oferta alternativa não confirmados."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 101127 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

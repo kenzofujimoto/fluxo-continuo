@@ -87,3 +87,99 @@ def test_code_optimisation_is_not_operations_research():
     assert "pesquisa_operacional" not in concepts("Compiler Design & Optimisation")
     assert "pesquisa_operacional" in concepts("Optimisation models and linear programming")
     assert "pesquisa_operacional" in concepts("Otimização linear e métodos quantitativos")
+
+
+def test_outside_agreement_courses_never_become_new_suggestions(tmp_path, monkeypatch):
+    import json
+    import semantic_triage
+
+    fixture = {
+        "universities": [{"id": "university", "courses": {"cc": True}}],
+        "courses": [{"id": "cc", "rows": [{"id": "BR", "name": "Database SQL"}]}],
+        "foreignCourses": [
+            {"universityId": "university", "code": "LEGACY", "name": "Database SQL"},
+            {"universityId": "university", "code": "OUTSIDE", "name": "Database SQL", "sourceEligibility": "outside_agreement"},
+        ],
+        "matches": [],
+    }
+    (tmp_path / "syllabi").mkdir()
+    (tmp_path / "data.json").write_text(json.dumps(fixture), encoding="utf-8")
+    (tmp_path / "triagem.json").write_text(json.dumps({"pairs": [["cc", 0, 0]]}), encoding="utf-8")
+    (tmp_path / "syllabi/records.json").write_text(json.dumps({"foreign": []}), encoding="utf-8")
+    monkeypatch.setattr(semantic_triage, "ROOT", tmp_path)
+    monkeypatch.setattr(semantic_triage, "OUT", tmp_path / "output.json")
+    assert semantic_triage.main() == 0
+    output = json.loads((tmp_path / "output.json").read_text(encoding="utf-8"))
+    assert [candidate[0] for candidate in output["crossings"][0][4]] == ["LEGACY"]
+    assert all("OUTSIDE" not in item["foreign"] for item in output["combined"])
+
+    # Historical registered relations and reviews remain available even after scope correction.
+    fixture["matches"] = [{"courseId": "cc", "mackCode": "BR", "universityId": "university", "foreignCode": "OUTSIDE"}]
+    (tmp_path / "data.json").write_text(json.dumps(fixture), encoding="utf-8")
+    (tmp_path / "syllabi/pareceres-index.json").write_text(json.dumps({"pareceres": [
+        {"id": "historical-review", "cell": ["cc", 0, 0], "conclusionClass": "afinidade_parcial"}
+    ]}), encoding="utf-8")
+    assert semantic_triage.main() == 0
+    output = json.loads((tmp_path / "output.json").read_text(encoding="utf-8"))
+    assert output["crossings"][0][3] == "parecer_concluido"
+    assert [candidate[0] for candidate in output["crossings"][0][4]] == ["LEGACY"]
+
+
+def test_worklist_excludes_outside_agreement_from_registered_and_stale_semantic_candidates(tmp_path, monkeypatch):
+    import worklist
+
+    sources = {
+        "data.json": {
+            "universities": [{"id": "university"}],
+            "courses": [{"id": "cc", "rows": [{"id": "BR", "name": "Database SQL"}]}],
+            "foreignCourses": [
+                {"universityId": "university", "code": "LEGACY"},
+                {"universityId": "university", "code": "OUTSIDE", "sourceEligibility": "outside_agreement"},
+            ],
+            "matches": [
+                {"courseId": "cc", "mackCode": "BR", "universityId": "university", "foreignCode": code}
+                for code in ["LEGACY", "OUTSIDE"]
+            ],
+        },
+        "syllabi/programas.json": {
+            "brazil": {"cc|BR": {"status": "lido"}},
+            "foreign": {f"university|{code}": {"status": "lido"} for code in ["LEGACY", "OUTSIDE"]},
+        },
+        "syllabi/records.json": {"foreign": [
+            {"universityId": "university", "foreignCode": code, "status": "ementa_individual"}
+            for code in ["LEGACY", "OUTSIDE"]
+        ]},
+        "syllabi/pareceres-index.json": {"pareceres": []},
+        "syllabi/triagem-semantica.json": {"crossings": [["cc", 0, 0, "candidata_semantica", [["OUTSIDE", 1, [], "ementa_individual"]], ""]]},
+    }
+    monkeypatch.setattr(worklist, "ROOT", tmp_path)
+    monkeypatch.setattr(worklist, "_load", sources.__getitem__)
+    assert [pair["foreign"] for pair in worklist.ready_pairs()] == ["LEGACY"]
+    assert len(sources["data.json"]["matches"]) == 2
+
+
+def test_shared_compendium_profiles_use_only_the_exact_course_section(monkeypatch):
+    import semantic_triage
+
+    first = {"universityId": "ssu", "code": "C1", "name": "Programming", "source": "https://example.edu/subjects", "headingExact": "기초프로그래밍 (Programming)", "sourceType": "individual_course_description_in_compendium"}
+    second = {"universityId": "ssu", "code": "C2", "name": "Network Security", "source": first["source"], "headingExact": "네트워크보안 (Network Security)", "sourceType": first["sourceType"]}
+    monkeypatch.setattr(semantic_triage, "_cached_text", lambda url: "Navigation\n기초프로그래밍 (Programming)\nProgramming loops and arrays. Programming variables and functions.\n네트워크보안 (Network Security)\nCryptography cryptography networks networks.\nFooter")
+    text = semantic_triage.cached_course_text(first["source"], first, [first, second])
+    assert "loops and arrays" in text
+    assert "Cryptography" not in text
+    assert "seguranca" not in semantic_triage.concepts(text)
+    unknown = {**first, "headingExact": "Missing heading"}
+    assert semantic_triage.cached_course_text(first["source"], unknown, [unknown, second]) == ""
+
+
+def test_pdf_compendium_retrieval_respects_audited_pages_and_ambiguous_alternatives(monkeypatch):
+    import semantic_triage
+
+    source = "https://example.edu/modules.pdf"
+    own = {"code": "INTERNAL1", "name": "Computing", "source": source, "evidenceHeading": "Einführung in die Informatik", "evidencePages": [2], "sourceType": "compendium_with_individual_programmes"}
+    peer = {"code": "INTERNAL2", "name": "Security", "source": source, "evidenceHeading": "Sicherheit", "evidencePages": [3], "sourceType": own["sourceType"]}
+    monkeypatch.setattr(semantic_triage, "_cached_text", lambda url: "Index: all modules\n\f\nEinführung in die Informatik\nProgramming programming, algorithms algorithms.\n\f\nSicherheit\nCryptography cryptography.")
+    text = semantic_triage.cached_course_text(source, own, [own, peer])
+    assert "algorithms" in text and "Cryptography" not in text and "Index:" not in text
+    ambiguous = {**own, "sourceCourseTitles": ["Computing", "Security"]}
+    assert semantic_triage.cached_course_text(source, ambiguous, [ambiguous, peer]) == ""

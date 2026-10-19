@@ -83,3 +83,15 @@ def test_code_match_with_another_course_title_is_rejected():
     assert not v["ok"] and "outra disciplina" in v["reason"]
     ok = ("Programa docente <21714014 | ANÁLISIS DE ALGORITMOS Y ESTRUCTURAS DE DATOS> Temario Tema 1. " + "x " * 500)
     assert verify_programme(ok, "Análisis de Algoritmos y Estructura de Datos", "21714014", [])["ok"]
+
+
+def test_individual_guide_template_tolerates_other_course_names_in_prerequisites():
+    others = ["Contabilidad Financiera", "Matemáticas I", "Estadística I", "Microeconomía", "Macroeconomía"]
+    page = ("ADMINISTRACIÓN DE RECURSOS HUMANOS 1. Datos de la asignatura Código 103848 ECTS 6 "
+            "2. Recomendaciones previas " + " ".join(others) + " 5. Contenidos Tema 1 Planificación " + "texto " * 300)
+    v = verify_programme(page, "ADMINISTRACIÓN DE RECURSOS HUMANOS", "CAT-USAL-210314", others,
+                         source_url="https://guias.usal.es/node/210314")
+    assert v["ok"] and v["individualTemplate"] == "guias.usal.es"
+    # same page served from an unknown host keeps the strict listing rule
+    assert not verify_programme(page, "ADMINISTRACIÓN DE RECURSOS HUMANOS", "CAT-USAL-210314", others,
+                                source_url="https://example.org/x")["ok"]

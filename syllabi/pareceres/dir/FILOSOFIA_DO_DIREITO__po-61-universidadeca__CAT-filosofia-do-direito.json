@@ -1,0 +1,199 @@
+{
+  "id": "dir|FILOSOFIA DO DIREITO|po-61-universidadeca|CAT-filosofia-do-direito",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "FILOSOFIA DO DIREITO",
+    "name": "FILOSOFIA DO DIREITO",
+    "courseName": "Direito",
+    "stage": 2,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 4, bloco FILOSOFIA DO DIREITO, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A Filosofia do Direito é um componente curricular de grande importância para a formação reflexiva do jurista",
+      "Visa proporcionar ao aluno o conhecimento e reflexão de temas clássicos e contemporâneos da filosofia através da problematização de questões fundamentais do direito, desenvolvendo sua a capacidade para a leitura, compreensão e análise de textos conceitualmente complexos",
+      "O recorte dado à disciplina é a distinção operada considerações de Michel Troper e Theodor Viehweg sobre esta distinção",
+      "Trata-se de um conjunto de análises, definições que tem por objeto (i) a conceito de direito",
+      "(ii) a teoria da justiça",
+      "(iii) a teoria da ciência jurídica",
+      "Contudo, este recorte não é radical, a filosofia do direito se apresenta como descrição das práticas jurídicas que se caracterizam pelo nível elevado de abstração e generalização, para tanto, ela se funda necessariamente sobre certos pressupostos e requer o emprego de conceitos cuja escolha dependem da transposição das grandes doutrinas filosóficas aos problemas do direito e da justiça",
+      "Neste componente curricular será apresentada a filosofia do direito, sua origem, seu desenvolvimento histórico e suas principais correntes",
+      "introdução e reflexão de temas clássicos e contemporâneos da filosofia do direito através da problematização de questões fundamentais do direito, tais como justiça, norma, moral, liberdade, poder, legitimidade, Estado e sociedade",
+      "contribuições das abordagens jusnaturalista e positivistas para a análise dos fenômenos jurídicos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-61-universidadeca",
+      "university": "Universidade Católica Portuguesa",
+      "code": "CAT-filosofia-do-direito",
+      "name": "Filosofia do Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": 1,
+      "period": "Semestre 1",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://fd.lisboa.ucp.pt/pt-pt/system/files/assets/files/2025-2026-fuc-filosofia-do-direito-harm.pdf",
+      "sha256": "b8656934e15ba1aa4abdf5f54c30383b3f2332ae806fe84fdddfd919856a83f9",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": 35.0,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": 100.0,
+        "selfStudy": null,
+        "ects": 4.0,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A Filosofia do Direito é um componente curricular de grande importância para a formação reflexiva do jurista",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Objetivos propõem refletir sobre Direito, Justiça e controvérsias contemporâneas.",
+      "foreignLocation": "Objetivos1-2"
+    },
+    {
+      "brTopic": "Visa proporcionar ao aluno o conhecimento e reflexão de temas clássicos e contemporâneos da filosofia através da problematização de questões fundamentais do direito, desenvolvendo sua a capacidade para a leitura, compreensão e análise de textos conceitualmente complexos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Debate filosófico e argumentação estão presentes; leitura de textos complexos não é competência explicitamente detalhada.",
+      "foreignLocation": "Conteúdos1-4"
+    },
+    {
+      "brTopic": "O recorte dado à disciplina é a distinção operada considerações de Michel Troper e Theodor Viehweg sobre esta distinção",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha integral, objetivos e Conteúdos1-6",
+      "note": "Michel Troper e Theodor Viehweg não aparecem no programa publicado."
+    },
+    {
+      "brTopic": "Trata-se de um conjunto de análises, definições que tem por objeto (i) a conceito de direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Sentido da filosofia e positivismo/jusnaturalismo abordam o direito, sem unidade de definição conceitual específica.",
+      "foreignLocation": "Conteúdos1-2"
+    },
+    {
+      "brTopic": "(ii) a teoria da justiça",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Direito e Justiça e modos de realização do Direito Justo são objetivo expresso.",
+      "foreignLocation": "Objetivos1"
+    },
+    {
+      "brTopic": "(iii) a teoria da ciência jurídica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Ficha integral, Conteúdos1-6",
+      "note": "Teoria da ciência jurídica não é individualizada."
+    },
+    {
+      "brTopic": "Contudo, este recorte não é radical, a filosofia do direito se apresenta como descrição das práticas jurídicas que se caracterizam pelo nível elevado de abstração e generalização, para tanto, ela se funda necessariamente sobre certos pressupostos e requer o emprego de conceitos cuja escolha dependem da transposição das grandes doutrinas filosóficas aos problemas do direito e da justiça",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Positivismo, jusnaturalismo e princípios fornecem pressupostos filosóficos, sem explicitar descrição das práticas e método.",
+      "foreignLocation": "Conteúdos2-4"
+    },
+    {
+      "brTopic": "Neste componente curricular será apresentada a filosofia do direito, sua origem, seu desenvolvimento histórico e suas principais correntes",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Correntes positivista e jusnaturalista são explícitas, sem origem e desenvolvimento histórico sistemático.",
+      "foreignLocation": "Conteúdos1-2"
+    },
+    {
+      "brTopic": "introdução e reflexão de temas clássicos e contemporâneos da filosofia do direito através da problematização de questões fundamentais do direito, tais como justiça, norma, moral, liberdade, poder, legitimidade, Estado e sociedade",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Princípios, direitos animais e tecnologia enfrentam controvérsias; liberdade, legitimidade, Estado e sociedade não são todos especificados.",
+      "foreignLocation": "Objetivos2 e Conteúdos3-6"
+    },
+    {
+      "brTopic": "contribuições das abordagens jusnaturalista e positivistas para a análise dos fenômenos jurídicos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Debate positivismo versus jusnaturalismo consta de unidade própria.",
+      "foreignLocation": "Conteúdos2"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Proteção do planeta, direitos animais e tecnologia",
+      "location": "Conteúdos5-6"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Problematizar justiça e desafios contemporâneos por raciocínio jurídico.",
+    "convergences": [
+      "Objetivos propõem refletir sobre Direito, Justiça e controvérsias contemporâneas.",
+      "Debate filosófico e argumentação estão presentes; leitura de textos complexos não é competência explicitamente detalhada.",
+      "Sentido da filosofia e positivismo/jusnaturalismo abordam o direito, sem unidade de definição conceitual específica.",
+      "Direito e Justiça e modos de realização do Direito Justo são objetivo expresso.",
+      "Positivismo, jusnaturalismo e princípios fornecem pressupostos filosóficos, sem explicitar descrição das práticas e método.",
+      "Correntes positivista e jusnaturalista são explícitas, sem origem e desenvolvimento histórico sistemático.",
+      "Princípios, direitos animais e tecnologia enfrentam controvérsias; liberdade, legitimidade, Estado e sociedade não são todos especificados.",
+      "Debate positivismo versus jusnaturalismo consta de unidade própria."
+    ],
+    "differences": [
+      "Michel Troper e Theodor Viehweg não aparecem no programa publicado.",
+      "Teoria da ciência jurídica não é individualizada."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Problematizar justiça e desafios contemporâneos por raciocínio jurídico.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "Semestre 1 do ano português; confirmar correspondência com 2027.2.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A Filosofia do Direito da Católica converge em justiça, correntes positivistas e jusnaturalistas e argumentação; não evidencia o recorte Troper/Viehweg ou ciência jurídica.",
+  "justification": "Três tópicos recebem cobertura integral e cinco parcial entre dez. A ficha pública de uma página, 2025/2026, declara35 horas TP e4 ECTS; conteúdos por turma ficam no Moodle. Os desafios ambientais e tecnológicos acrescentam aplicação contemporânea, sem autorizar preencher os dois eixos ausentes.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Ficha resumida remete os detalhes de cada turma ao Moodle; nenhum conteúdo restrito foi acessado.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Ficha resumida remete os detalhes de cada turma ao Moodle; nenhum conteúdo restrito foi acessado."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

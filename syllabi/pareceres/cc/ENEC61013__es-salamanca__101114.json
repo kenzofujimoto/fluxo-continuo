@@ -34,27 +34,32 @@
       "universityId": "es-salamanca",
       "university": "Universidad de Salamanca",
       "code": "101114",
-      "name": "Sistemas Operativos I (candidato 101114; fonte identifica 105914/Zamora)",
-      "programme": "Grado en Ingeniería Informática (211)",
+      "name": "Sistemas Operativos I",
+      "programme": "Grado en Ingeniería Informática",
+      "faculty": "Facultad de Ciencias",
+      "department": "Informática y Automática",
       "level": "Graduação",
-      "period": "Não confirmado para 101114",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "Primer Semestre",
       "academicYear": "2026/2027",
       "language": "Espanhol",
-      "assessment": "Não comprovada para 101114; ficha recuperada de 105914 contém 10/50/20/20.",
-      "prerequisites": "Não confirmados para o código candidato correto.",
-      "source": "https://guias.usal.es/node/250976",
-      "catalogue": null,
-      "sha256": "4012bbd02cba6577ef4820b98e5a56015265c7359dbf2fc9fec5fc89f97fa2cb",
-      "location": "Guia oficial 2026/2027, seções 1-9: identificação, recomendações, objetivos, competências, conteúdos teóricos/práticos, metodologias, recursos e avaliação.",
+      "courseStatus": "Obrigatória",
+      "assessment": "Avaliação contínua 30% (duas práticas de 15%) e prova final 70%; sem mínimo por parte, nota global mínima 50%.",
+      "prerequisites": "Recomenda aprovação em Computadores II e Programación II.",
+      "source": "https://guias.usal.es/node/255489",
+      "sha256": "64a4d88b72e73a086463df9ad82b93251b2d1ae4c4e2e8427d5291c2537c17d6",
+      "location": "Seções 1-9; seis temas teóricos e duas partes práticas na seção 5.",
       "hours": {
         "contactTotal": null,
         "contactLecture": null,
         "contactSeminarLab": null,
         "selfStudy": null,
         "totalWorkload": null,
-        "ects": null,
-        "basis": null,
-        "hourLengthMinutes": null
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "40% de créditos presenciais na seção 6 não informa total de horas de contato; nenhuma conversão realizada."
       }
     }
   ],
@@ -62,73 +67,234 @@
     {
       "brTopic": "Apresenta o histórico, classificação, estrutura de um sistema operacional",
       "essential": true,
-      "status": "nao_verificavel",
-      "note": "A ficha recebida é 105914 de Zamora; correspondência ao código candidato 101114 não foi demonstrada."
+      "status": "coberto",
+      "foreignEvidence": "História, funções, objetivos, sistemas distribuídos e de tempo real e estrutura de SO.",
+      "foreignLocation": "5, tema I"
     },
     {
       "brTopic": "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
       "essential": true,
-      "status": "nao_verificavel",
-      "note": "A ficha recebida é 105914 de Zamora; correspondência ao código candidato 101114 não foi demonstrada."
+      "status": "coberto",
+      "foreignEvidence": "Estados e controle de processos; escalonamento FCFS, Round Robin, SPN, SRT, HRRN e prioridades.",
+      "foreignLocation": "5, temas II-III"
     },
     {
       "brTopic": "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
       "essential": true,
-      "status": "nao_verificavel",
-      "note": "A ficha recebida é 105914 de Zamora; correspondência ao código candidato 101114 não foi demonstrada."
+      "status": "parcial",
+      "foreignEvidence": "Processos/threads, memória principal e virtual, arquivos e E/S em chamadas UNIX; não detalha sincronização e gerência de dispositivos.",
+      "foreignLocation": "3; 5, temas II, IV-V e prática"
     },
     {
       "brTopic": "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional",
       "essential": true,
-      "status": "nao_verificavel",
-      "note": "A ficha recebida é 105914 de Zamora; correspondência ao código candidato 101114 não foi demonstrada."
+      "status": "coberto",
+      "foreignEvidence": "Práticas de shell UNIX e chamadas de sistema para arquivos, processos, sinais e multiplexação de E/S.",
+      "foreignLocation": "5, prática, partes 1-2; 9"
     }
   ],
-  "additionalForeignTopics": [],
+  "additionalForeignTopics": [
+    {
+      "topic": "Virtualização de memória, serviços e sistemas operacionais",
+      "location": "5, tema VI"
+    },
+    {
+      "topic": "Programação de shell bash",
+      "location": "5, prática, primeira parte"
+    }
+  ],
   "competencies": {
     "brazil": "Apresenta o histórico, classificação, estrutura de um sistema operacional. Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos. concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos. Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional.",
     "foreign": [
-      "Não atribuídas ao candidato: fonte lida refere-se à unidade 105914."
+      "Usar shell remota e programar shell",
+      "Criar e comunicar processos e threads",
+      "Conhecer estrutura e evolução de SO",
+      "Resolver problemas de concorrência"
     ],
     "convergences": [
-      "A fonte vinculada ao candidato 101114 identifica Sistemas Operativos I código 105914, do curso de SI em Zamora, impedindo confirmar a identidade da disciplina pretendida para Sistemas Operacionais."
+      "História, funções, objetivos, sistemas distribuídos e de tempo real e estrutura de SO.",
+      "Estados e controle de processos; escalonamento FCFS, Round Robin, SPN, SRT, HRRN e prioridades.",
+      "Processos/threads, memória principal e virtual, arquivos e E/S em chamadas UNIX; não detalha sincronização e gerência de dispositivos.",
+      "Práticas de shell UNIX e chamadas de sistema para arquivos, processos, sinais e multiplexação de E/S."
     ],
     "differences": [
-      "A página node/250976 apresenta dez temas de SO (processos, escalonamento, sincronização, memória e arquivos) e conteúdo academicamente próximo ao Mackenzie. Entretanto a seção 1 traz expressamente código 105914 e curso/campus diferentes do identificador 101114 cadastrado. Sem prova de que são a mesma unidade para fins de mobilidade, os quatro tópicos ficaram não verificáveis para o candidato correto, e 6 ECTS, avaliação 10/50/20/20 e pré-requisitos dessa outra ficha não foram transferidos como dados confirmados. É uma pendência de identidade, não uma conclusão de incompatibilidade curricular."
+      "O guia 101114 enfatiza processos, memória, virtualização e UNIX; não apresenta o mesmo programa de dez temas da antiga ficha 105914."
     ]
   },
   "depth": {
-    "level": "Comparação de componentes de graduação",
-    "brazil": "SISTEMAS OPERACIONAIS: etapa 5, 63.33 horas declaradas.",
-    "foreign": "Documento retornado pertence ao 2º ano de SI em Zamora; correspondência com 101114 desconhecida.",
-    "theoryPractice": "Métodos e problemas da ficha 105914 não podem ser atribuídos automaticamente a 101114."
+    "level": "Graduação, USAL segundo ano; Mackenzie etapa 5",
+    "brazil": "63.33 horas-relógio semestrais; escopo da ementa FCI 2025.",
+    "foreign": "Seis temas e duas partes práticas, incluindo programação UNIX.",
+    "theoryPractice": "Shell e chamadas de sistema avaliadas por duas práticas; horas não discriminadas."
   },
   "practical": {
-    "period": "Não confirmado para 101114",
+    "period": "Primeiro semestre europeu; compatibilidade de calendário 2027.2 ainda não confirmada.",
     "language": "Espanhol",
-    "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
-    "prerequisites": "Não confirmados para o código candidato correto.",
+    "enrolment": "Vaga e aceite para intercâmbio não confirmados.",
+    "prerequisites": "Computadores II e Programación II recomendados.",
     "offer2027": "nao_confirmada"
   },
-  "synthesis": "A fonte vinculada ao candidato 101114 identifica Sistemas Operativos I código 105914, do curso de SI em Zamora, impedindo confirmar a identidade da disciplina pretendida para Sistemas Operacionais.",
-  "justification": "A página node/250976 apresenta dez temas de SO (processos, escalonamento, sincronização, memória e arquivos) e conteúdo academicamente próximo ao Mackenzie. Entretanto a seção 1 traz expressamente código 105914 e curso/campus diferentes do identificador 101114 cadastrado. Sem prova de que são a mesma unidade para fins de mobilidade, os quatro tópicos ficaram não verificáveis para o candidato correto, e 6 ECTS, avaliação 10/50/20/20 e pré-requisitos dessa outra ficha não foram transferidos como dados confirmados. É uma pendência de identidade, não uma conclusão de incompatibilidade curricular.",
-  "conclusionClass": "evidencia_insuficiente",
+  "synthesis": "Sistemas Operativos I 101114 agora possui ficha correta: cobre história, processos, escalonamento e programação UNIX pertinentes a Sistemas Operacionais de CC.",
+  "justification": "O guia de seis temas confirma escalonamento, memória e virtualização; as duas partes práticas trabalham shell e chamadas de sistema. O amplo enunciado brasileiro que reúne concorrência, sincronização, memória, arquivos e dispositivos é apenas parcial: sincronização e gerência de dispositivos não recebem desenvolvimento específico. As 63,33 h de CC não podem ser confrontadas com 6 ECTS sem total presencial explícito.",
+  "conclusionClass": "afinidade_parcial",
   "institutionalStatus": "aguardando_validacao_institucional",
-  "confidence": "baixa",
-  "confidenceRationale": "Documento é oficial, mas identifica outra unidade/campus; candidato individual correto não está comprovado.",
+  "confidence": "moderada",
+  "confidenceRationale": "Identidade acadêmica resolvida por guia oficial 101114/2026-27 e bloco brasileiro 2025. Horas presenciais e oferta futura continuam sem confirmação.",
   "limitations": [
-    "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
-    "Incompatibilidade de identidade: candidato 101114, página oficial código 105914, SI/Zamora.",
-    "Sem horas de contato comprovadas para a candidata correta."
+    "Oferta 2027/28 e matrícula de intercambista não confirmadas.",
+    "Seção 7 não fornece horas de contato no texto; 6 ECTS e percentual presencial não são convertidos.",
+    "A análise anterior consultou 105914/Zamora; ela fica preservada no histórico e não fundamenta esta conclusão.",
+    "Ementa brasileira concisa; a decisão final compete à coordenação."
   ],
   "openQuestions": [
-    "A USAL confirma se 101114 corresponde curricularmente a 105914 ou fornece o guia correto?"
+    "Qual é o total presencial da ficha 101114 e a duração de cada hora?",
+    "A unidade estará disponível à mobilidade no semestre pretendido?"
   ],
   "alternatives": [],
-  "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
-  "reviewedAt": "2026-10-16",
+  "method": "Releitura integral da ficha pública correta node/255489 em cache e do bloco FCI brasileiro; cotejo manual por tópico; análise anterior preservada em reviewHistory.",
+  "reviewedAt": "2026-10-17",
   "secondReview": {
     "required": true,
-    "reason": "Horas e vaga de mobilidade dependem de confirmação institucional."
-  }
+    "reason": "Confirmar horas e lacunas de sincronização, dispositivos e oferta."
+  },
+  "reviewHistory": [
+    {
+      "reviewedAt": "2026-10-17",
+      "reason": "Revisão integral após localização da ficha correta 101114 em node/255489; preserva análise anterior da identidade divergente 105914.",
+      "previousReview": {
+        "id": "cc|ENEC61013|es-salamanca|101114",
+        "schemaVersion": 2,
+        "type": "simples",
+        "brazil": {
+          "courseId": "cc",
+          "code": "ENEC61013",
+          "name": "Sistemas Operacionais",
+          "courseName": "Ciência da Computação",
+          "stage": 5,
+          "kind": "obrigatoria",
+          "campus": "Alphaville",
+          "documentYear": 2025,
+          "documentTitle": "Ementário Mackenzie, etapa 5",
+          "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+          "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+          "location": "PDF p. 2, bloco SISTEMAS OPERACIONAIS: ementa, conteúdo, carga e bibliografia",
+          "language": "Português",
+          "prerequisites": "Não indicados no bloco curricular",
+          "hours": {
+            "value": 63.33,
+            "unit": "hora_relogio",
+            "basis": "semestre"
+          },
+          "topics": [
+            "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+            "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+            "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+            "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional"
+          ]
+        },
+        "foreign": [
+          {
+            "universityId": "es-salamanca",
+            "university": "Universidad de Salamanca",
+            "code": "101114",
+            "name": "Sistemas Operativos I (candidato 101114; fonte identifica 105914/Zamora)",
+            "programme": "Grado en Ingeniería Informática (211)",
+            "level": "Graduação",
+            "period": "Não confirmado para 101114",
+            "academicYear": "2026/2027",
+            "language": "Espanhol",
+            "assessment": "Não comprovada para 101114; ficha recuperada de 105914 contém 10/50/20/20.",
+            "prerequisites": "Não confirmados para o código candidato correto.",
+            "source": "https://guias.usal.es/node/250976",
+            "catalogue": null,
+            "sha256": "4012bbd02cba6577ef4820b98e5a56015265c7359dbf2fc9fec5fc89f97fa2cb",
+            "location": "Guia oficial 2026/2027, seções 1-9: identificação, recomendações, objetivos, competências, conteúdos teóricos/práticos, metodologias, recursos e avaliação.",
+            "hours": {
+              "contactTotal": null,
+              "contactLecture": null,
+              "contactSeminarLab": null,
+              "selfStudy": null,
+              "totalWorkload": null,
+              "ects": null,
+              "basis": null,
+              "hourLengthMinutes": null
+            }
+          }
+        ],
+        "topics": [
+          {
+            "brTopic": "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "A ficha recebida é 105914 de Zamora; correspondência ao código candidato 101114 não foi demonstrada."
+          },
+          {
+            "brTopic": "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "A ficha recebida é 105914 de Zamora; correspondência ao código candidato 101114 não foi demonstrada."
+          },
+          {
+            "brTopic": "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "A ficha recebida é 105914 de Zamora; correspondência ao código candidato 101114 não foi demonstrada."
+          },
+          {
+            "brTopic": "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional",
+            "essential": true,
+            "status": "nao_verificavel",
+            "note": "A ficha recebida é 105914 de Zamora; correspondência ao código candidato 101114 não foi demonstrada."
+          }
+        ],
+        "additionalForeignTopics": [],
+        "competencies": {
+          "brazil": "Apresenta o histórico, classificação, estrutura de um sistema operacional. Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos. concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos. Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional.",
+          "foreign": [
+            "Não atribuídas ao candidato: fonte lida refere-se à unidade 105914."
+          ],
+          "convergences": [
+            "A fonte vinculada ao candidato 101114 identifica Sistemas Operativos I código 105914, do curso de SI em Zamora, impedindo confirmar a identidade da disciplina pretendida para Sistemas Operacionais."
+          ],
+          "differences": [
+            "A página node/250976 apresenta dez temas de SO (processos, escalonamento, sincronização, memória e arquivos) e conteúdo academicamente próximo ao Mackenzie. Entretanto a seção 1 traz expressamente código 105914 e curso/campus diferentes do identificador 101114 cadastrado. Sem prova de que são a mesma unidade para fins de mobilidade, os quatro tópicos ficaram não verificáveis para o candidato correto, e 6 ECTS, avaliação 10/50/20/20 e pré-requisitos dessa outra ficha não foram transferidos como dados confirmados. É uma pendência de identidade, não uma conclusão de incompatibilidade curricular."
+          ]
+        },
+        "depth": {
+          "level": "Comparação de componentes de graduação",
+          "brazil": "SISTEMAS OPERACIONAIS: etapa 5, 63.33 horas declaradas.",
+          "foreign": "Documento retornado pertence ao 2º ano de SI em Zamora; correspondência com 101114 desconhecida.",
+          "theoryPractice": "Métodos e problemas da ficha 105914 não podem ser atribuídos automaticamente a 101114."
+        },
+        "practical": {
+          "period": "Não confirmado para 101114",
+          "language": "Espanhol",
+          "enrolment": "Vaga de mobilidade e aceite da coordenação não confirmados.",
+          "prerequisites": "Não confirmados para o código candidato correto.",
+          "offer2027": "nao_confirmada"
+        },
+        "synthesis": "A fonte vinculada ao candidato 101114 identifica Sistemas Operativos I código 105914, do curso de SI em Zamora, impedindo confirmar a identidade da disciplina pretendida para Sistemas Operacionais.",
+        "justification": "A página node/250976 apresenta dez temas de SO (processos, escalonamento, sincronização, memória e arquivos) e conteúdo academicamente próximo ao Mackenzie. Entretanto a seção 1 traz expressamente código 105914 e curso/campus diferentes do identificador 101114 cadastrado. Sem prova de que são a mesma unidade para fins de mobilidade, os quatro tópicos ficaram não verificáveis para o candidato correto, e 6 ECTS, avaliação 10/50/20/20 e pré-requisitos dessa outra ficha não foram transferidos como dados confirmados. É uma pendência de identidade, não uma conclusão de incompatibilidade curricular.",
+        "conclusionClass": "evidencia_insuficiente",
+        "institutionalStatus": "aguardando_validacao_institucional",
+        "confidence": "baixa",
+        "confidenceRationale": "Documento é oficial, mas identifica outra unidade/campus; candidato individual correto não está comprovado.",
+        "limitations": [
+          "Oferta 2027/28 e vaga para intercâmbio não confirmadas.",
+          "Incompatibilidade de identidade: candidato 101114, página oficial código 105914, SI/Zamora.",
+          "Sem horas de contato comprovadas para a candidata correta."
+        ],
+        "openQuestions": [
+          "A USAL confirma se 101114 corresponde curricularmente a 105914 ou fornece o guia correto?"
+        ],
+        "alternatives": [],
+        "method": "Leitura documental dos textos oficiais em cache e do bloco curricular brasileiro; cotejo individual dos tópicos por IA (Codex), sem conversão de créditos em horas.",
+        "reviewedAt": "2026-10-16",
+        "secondReview": {
+          "required": true,
+          "reason": "Horas e vaga de mobilidade dependem de confirmação institucional."
+        }
+      }
+    }
+  ]
 }

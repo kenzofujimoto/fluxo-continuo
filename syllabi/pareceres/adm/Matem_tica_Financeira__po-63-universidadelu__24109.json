@@ -1,0 +1,216 @@
+{
+  "id": "adm|Matemática Financeira|po-63-universidadelu|24109",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Matemática Financeira",
+    "name": "Matemática Financeira",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 7, bloco 'Matemática Financeira': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Fundamentos da Matemática Financeira",
+      "Capitalização Simples",
+      "Capitalização Composta",
+      "Operações com taxas de juros",
+      "Descontos",
+      "Séries de pagamentos",
+      "Sistemas de Amortização de Empréstimos e Financiamentos – Sistema de Amortização",
+      "Constante e Sistema Francês de Amortização",
+      "Análise de projetos e decisões de investimentos – Valor Presente Líquido e Taxa Interna de Retorno"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24109",
+      "name": "Cálculo Financeiro",
+      "pageCode": "24109",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa)",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha foi extraído de forma truncada; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 1,
+      "semester": 2,
+      "period": "2º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Avaliação contínua com 2 testes (item 19)",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24109_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "1dc4a21ffd84d38060975a323a8f2d7594cc221ff6a96031a527f236a9b4872d",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 12/08/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (conteúdos programáticos I-V), 19 (avaliação), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito e nenhum valor foi atribuído. A ficha declara 6 ECTS."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Fundamentos da Matemática Financeira",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'I.2 Valor capitalizado e valor atual'; 'II. Equivalência de capitais' com equação do valor, capital comum e vencimento médio",
+      "foreignLocation": "Item 18, I.1-I.3 e II.1-II.5; item 14 (domínios 1 e 2)"
+    },
+    {
+      "brTopic": "Capitalização Simples",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'I.3.1 Regime de juro simples'; 'I.3.2 Capitalização em juro simples'",
+      "foreignLocation": "Item 18, I.3.1-I.3.2; item 15 (objetivo 1)"
+    },
+    {
+      "brTopic": "Capitalização Composta",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'I.4 Regime de juro composto'; 'I.4.1 Capitalização em juro composto'; 'I.4.2 Atualização de capitais'",
+      "foreignLocation": "Item 18, I.4-I.4.2"
+    },
+    {
+      "brTopic": "Operações com taxas de juros",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'I.6 Taxas proporcionais', 'I.7 Taxas equivalentes', 'I.8 Taxas efetivas e taxas nominais', 'I.9 Taxa instantânea de capitalização'",
+      "foreignLocation": "Item 18, I.5-I.9 e II.7 (taxas médias)"
+    },
+    {
+      "brTopic": "Descontos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'I.3.3 Desconto' no regime de juro simples; 'I.4.2 Atualização de capitais' no regime composto",
+      "foreignLocation": "Item 18, I.3.3 e I.4.2",
+      "note": "Desconto aparece como item próprio só no regime simples; no composto é tratado como atualização de capitais."
+    },
+    {
+      "brTopic": "Séries de pagamentos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'III. Rendas': imediatas, antecipadas, diferidas, perpétuas, termos variáveis em progressão aritmética e geométrica, fracionadas",
+      "foreignLocation": "Item 18, III.1-III.7"
+    },
+    {
+      "brTopic": "Sistemas de Amortização de Empréstimos e Financiamentos – Sistema de Amortização",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'IV. Reembolso de empréstimos' com seis modalidades de pagamento de juros e amortização do capital",
+      "foreignLocation": "Item 18, IV.1-IV.7; item 15 (objetivo 4)"
+    },
+    {
+      "brTopic": "Constante e Sistema Francês de Amortização",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'IV.7.1 Amortizações constantes de capital'; 'IV.7.2 Prestações constantes'",
+      "foreignLocation": "Item 18, IV.7.1-IV.7.2",
+      "note": "Amortizações constantes correspondem ao SAC e prestações constantes ao sistema francês/Price; a ficha não usa essas denominações brasileiras."
+    },
+    {
+      "brTopic": "Análise de projetos e decisões de investimentos – Valor Presente Líquido e Taxa Interna de Retorno",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'II.6 Taxa interna de capitalização'; competência 1: 'tomada de decisão e resolução de problemas financeiros'",
+      "foreignLocation": "Item 18, II.6; item 16",
+      "note": "A taxa interna de capitalização é conceito afim à TIR, mas não há análise de projetos de investimento nem VPL nomeado."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Taxas médias com um ou vários capitais",
+      "location": "Item 18, II.7"
+    },
+    {
+      "topic": "Produtos e instrumentos financeiros: operações passivas e ativas do sistema bancário",
+      "location": "Item 18, V.1-V.2; item 15 (objetivo 5)"
+    },
+    {
+      "topic": "Finanças sustentáveis (ESG) aplicadas ao cálculo financeiro",
+      "location": "Item 21"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementa: equações exponenciais e logarítmicas aplicadas à taxa de juros, capitalização simples e composta, fluxo de caixa, equivalência de capitais, planos de financiamento e amortização, leasing, critérios de decisão financeira, comparação de investimentos e uso de planilhas e calculadoras financeiras.",
+    "foreign": [
+      "Tomar decisões e resolver problemas financeiros",
+      "Formular hipóteses financeiras, resolvê-las e confrontar resultados",
+      "Calcular juros e amortização em diferentes tipologias de empréstimo",
+      "Comunicar oralmente e por escrito no contexto do cálculo financeiro"
+    ],
+    "convergences": [
+      "Juros simples e compostos, taxas, equivalência de capitais, rendas e amortização",
+      "Resolução de casos práticos e exercícios de simulação"
+    ],
+    "differences": [
+      "A ficha brasileira inclui VPL/TIR, análise de projetos, leasing e uso explícito de planilhas e calculadoras financeiras, não listados em Lusíada",
+      "Lusíada detalha seis modalidades de reembolso, taxas médias e taxa instantânea de capitalização, e dedica um capítulo a produtos bancários"
+    ]
+  },
+  "depth": {
+    "level": "Ambas de graduação; Lusíada no 1º ano da Licenciatura em Gestão de Empresa, Mackenzie na 3ª etapa de Administração",
+    "brazil": "Matemática financeira aplicada de 63,3 h com extensão a análise de investimentos",
+    "foreign": "Cálculo financeiro clássico itemizado em cinco capítulos, com forte desenvolvimento de rendas e modalidades de reembolso",
+    "theoryPractice": "Exposição teórica combinada com casos práticos e exercícios de simulação (item 17)"
+  },
+  "practical": {
+    "period": "2º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Cálculo Financeiro da Lusíada espelha a maior parte da ficha Mackenzie com itens numerados — juros simples e compostos, taxas, equivalência de capitais, rendas e seis modalidades de reembolso, incluindo amortizações e prestações constantes —, deixando só a análise de investimentos por VPL e TIR apenas tangenciada.",
+  "justification": "Oito dos nove enunciados estão cobertos por itens identificados (I.1-I.9, II, III, IV.1-IV.7.2) e um é parcial: a taxa interna de capitalização (II.6) aproxima-se da TIR, mas não há análise de projetos nem VPL. Nenhum tópico ficou ausente, o que atingiria o patamar de alta afinidade quanto ao conteúdo. A classe fica em afinidade parcial porque o item 8 da ficha (30,00 e 20,00 sem rótulo, mais 6 ECTS) não permite apurar horas de contacto e a ficha Mackenzie de 63,3 h não tem vigência impressa nem confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Programa itemizado e título conferido com o catálogo, mas horas de contacto ilegíveis, ficha de 2025/2026 e vigência da ficha brasileira não confirmada.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 12/08/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "A ementa brasileira cita leasing, planos de aposentadoria, planilhas e calculadoras financeiras, ausentes da lista de conteúdos lusíada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula?",
+    "A UC usa folha de cálculo ou calculadora financeira nas aulas práticas?"
+  ],
+  "alternatives": [
+    {
+      "code": "24116",
+      "name": "Gestão Financeira",
+      "relation": "UC lusíada de análise e planeamento financeiro; possível apoio para o tópico de investimentos, avaliada em parecer próprio"
+    }
+  ],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Cálculo financeiro'); cada tópico vinculado ao item 18 da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": false,
+    "reason": "Correspondência itemizada e consistente"
+  }
+}

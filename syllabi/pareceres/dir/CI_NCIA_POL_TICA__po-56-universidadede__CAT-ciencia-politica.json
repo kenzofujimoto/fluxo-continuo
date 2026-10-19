@@ -1,0 +1,226 @@
+{
+  "id": "dir|CIÊNCIA POLÍTICA|po-56-universidadede|CAT-ciencia-politica",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "CIÊNCIA POLÍTICA",
+    "name": "Ciência Política",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário Direito Alphaville 2022 (edição histórica, link 'EMENTÁRIO' da página da matriz)",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 2, bloco 'CIÊNCIA POLÍTICA' (1ª etapa): ementa e número de horas-aula semanais",
+    "language": "Português",
+    "prerequisites": "Não informados no ementário",
+    "current": false,
+    "currencyNote": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana",
+      "note": "O ementário 2022 indica 2 horas-aula semanais e não declara carga semestral; carga horária não comparável."
+    },
+    "topics": [
+      "A Ciência Política é um componente curricular que contribui para formação geral do aluno",
+      "Relaciona o direito o século XIX, sob a influência de Friedrich Carl von Savigny e seus sucessores, tornou-se pronunciada a tendência entre juristas, de se separar radicalmente o direito da política",
+      "A Ciência Política insere o direito nessa malha complexa de relações que ultrapassa a mera separação de objetos da ciência",
+      "Analisa o conteúdo da ação de uma autoridade e as formas de implementação dessa ação, e aponta sua suscetível aplicação na esfera jurídica (legal policy) e no campo do direito e de suas instituições de implementação (a Justiça, a administração, a burocracia etc.), inserindo as relações entre direito e política no plano empírico",
+      "Para tanto, serão explicitados dos conceitos básicos de ciência política",
+      "o exame das temáticas do Estado, da sociedade e do direito",
+      "a análise da relação entre governo, legitimidade e legalidade",
+      "o exame dos regimes políticos e a discussão da temática do Estado de direito",
+      "O componente curricular também abordará um tópico específico sobre os aportes teóricos contemporâneos da ciência política às questões da globalização e da governança"
+    ]
+  },
+  "foreign": [
+    {
+      "university": "Universidade de Lisboa",
+      "name": "Ciência Política",
+      "level": "Licenciatura (graduação)",
+      "catalogue": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/09/FDUL_ficha_UC_CP-Licenciatura_PT-EN-ultima-versao-1.pdf",
+      "universityId": "po-56-universidadede",
+      "code": "CAT-ciencia-politica",
+      "source": "https://www.fd.ulisboa.pt/wp-content/uploads/2026/09/FDUL_ficha_UC_CP-Licenciatura_PT-EN-ultima-versao-1.pdf",
+      "sha256": "7b1b867df2308798750b9db97975f08e1467c6c9e2764d58c60aa7ae8c9101df",
+      "faculty": "Faculdade de Direito da Universidade de Lisboa",
+      "programme": "Curso de Licenciatura em Direito; Ficha de Unidade Curricular 2026/2027 'Ciência Política'",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "Semestral (ficha); o catálogo do plano de estudos indica '1.º' sem esclarecer se é ano ou semestre",
+      "academicYear": "2026/2027",
+      "language": "Português (ficha também em inglês)",
+      "courseStatus": "Unidade do plano de estudos da licenciatura; caráter e créditos não preenchidos",
+      "assessment": "Avaliação contínua ou final; dispensa da prova de frequência com 12 valores nos momentos contínuos (assiduidade e participação, trabalhos, questionários, discussão); assiduidade exigida nas aulas práticas",
+      "prerequisites": "Não declarados",
+      "location": "Ficha de Unidade Curricular 2026/2027: itens 1 a 11 (objetivos de aprendizagem 1.º e 2.º; conteúdos programáticos, capítulos I a XI; metodologias; avaliação; bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "'Horas de Trabalho' e 'Créditos ECTS' estão em branco; a ficha só informa Duração: Semestral e a existência de aulas plenárias e práticas."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A Ciência Política é um componente curricular que contribui para formação geral do aluno",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'fornecimento ao estudante de ferramentas fundamentais para a compreensão do fenómeno político'",
+      "foreignLocation": "Item 5, objetivo 1.º",
+      "note": "Disciplina de formação geral em fenômeno político para estudantes de Direito, como na ementa brasileira."
+    },
+    {
+      "brTopic": "Relaciona o direito o século XIX, sob a influência de Friedrich Carl von Savigny e seus sucessores, tornou-se pronunciada a tendência entre juristas, de se separar radicalmente o direito da política",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cap. III, §2.º 'A fenomenologia do poder': 1. 'Política e Direito'; cap. II, 8. 'Ciência do Direito Constitucional'",
+      "foreignLocation": "Cap. II, §1.º; cap. III, §2.º",
+      "note": "A relação entre política e direito é tema, mas o recorte histórico de Savigny e a tendência de separação entre juristas não consta. O texto brasileiro em programas.json está truncado ('Relaciona o direito o século XIX') por falha de extração."
+    },
+    {
+      "brTopic": "A Ciência Política insere o direito nessa malha complexa de relações que ultrapassa a mera separação de objetos da ciência",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Demarcação de campos teóricos (filosofia política, sociologia política, Ciência do Direito Constitucional) e 'Política e Direito'",
+      "foreignLocation": "Cap. II, §1.º, itens 2 a 8; cap. III, §2.º, item 1",
+      "note": "O direito inserido entre campos teóricos e na relação com o poder equivale à ideia de ultrapassar a mera separação de objetos."
+    },
+    {
+      "brTopic": "Analisa o conteúdo da ação de uma autoridade e as formas de implementação dessa ação, e aponta sua suscetível aplicação na esfera jurídica (legal policy) e no campo do direito e de suas instituições de implementação (a Justiça, a administração, a burocracia etc.), inserindo as relações entre direito e política no plano empírico",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cap. XI 'O Estado e a sua arquitectura': órgãos e funções do Estado, Parlamento, Governo, Presidente da República, autarquias locais, poder judicial",
+      "foreignLocation": "Cap. XI, §§1 a 6 (breves considerações: remissão)",
+      "note": "Instituições do Estado aparecem, de modo breve; legal policy, a análise empírica da ação da autoridade, a burocracia e a administração como instrumento de implementação não são listadas."
+    },
+    {
+      "brTopic": "Para tanto, serão explicitados dos conceitos básicos de ciência política",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Cap. I 'Noções de Ciência Política': conceito de política, de Ciência Política (objeto, âmbito e método) e Ciência Política no tempo",
+      "foreignLocation": "Cap. I, §1.º, itens 1 a 3",
+      "note": "Complementado por demarcação de campos e metodologia sistêmica (cap. II)."
+    },
+    {
+      "brTopic": "o exame das temáticas do Estado, da sociedade e do direito",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Cap. III 'Teoria do Estado': 'Estado-Sociedade e Estado-Poder', elementos, fins e funções do Estado; 'Política e Direito'",
+      "foreignLocation": "Cap. III, §1.º, itens 3 a 5; §2.º, item 1",
+      "note": "Estado, sociedade e direito são tratados com extensa revisão doutrinal (contratualistas, Kelsen, Schmitt, Rawls, Habermas)."
+    },
+    {
+      "brTopic": "a análise da relação entre governo, legitimidade e legalidade",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Os Fundamentos da Legitimidade do Poder Político'; 'A Limitação do Poder Político – Teorias e Técnicas'; cap. VIII 'Sistemas de Governo'",
+      "foreignLocation": "Cap. III, §2.º, itens 2 e 3; cap. VIII",
+      "note": "Governo e legitimidade estão explícitos; a legalidade entra pela relação política e direito e pela limitação do poder."
+    },
+    {
+      "brTopic": "o exame dos regimes políticos e a discussão da temática do Estado de direito",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cap. VI 'Regimes político-constitucionais': principais regimes, regime democrático com enfoque especial, populismo; 'A Limitação do Poder Político'",
+      "foreignLocation": "Cap. VI, itens 1 a 3; cap. III, §2.º, item 3",
+      "note": "Regimes políticos estão plenamente cobertos; o Estado de direito não é item do programa e entra só pela limitação do poder (a obra do docente sobre o tema aparece na bibliografia)."
+    },
+    {
+      "brTopic": "O componente curricular também abordará um tópico específico sobre os aportes teóricos contemporâneos da ciência política às questões da globalização e da governança",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Cap. III, §2.º, item 4: 'Estado, Nação, Soberania e Globalização'",
+      "foreignLocation": "Cap. III, §2.º, item 4",
+      "note": "Globalização e soberania são tratadas em um item; governança não aparece como tema."
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Formas de Estado: unitário centralizado e descentralizado, federação e união real",
+      "location": "Cap. V"
+    },
+    {
+      "topic": "Sistemas eleitorais, tipologias de representação, referendo e panorama de Portugal",
+      "location": "Cap. IX"
+    },
+    {
+      "topic": "Partidos políticos e grupos de pressão",
+      "location": "Cap. X"
+    },
+    {
+      "topic": "Digressão histórica sobre o Estado grego, romano, oriental, medieval, moderno e africano",
+      "location": "Cap. IV"
+    },
+    {
+      "topic": "Metodologia sistêmica: Bertalanffy, Parsons, Easton e Deutsch",
+      "location": "Cap. II, §2.º"
+    }
+  ],
+  "competencies": {
+    "brazil": "Ementário 2022 sem competências formais; busca relacionar direito e política e dar base conceitual de Estado, governo, legitimidade, regimes e Estado de direito.",
+    "foreign": [
+      "Compreender o fenômeno político",
+      "Dominar as temáticas clássicas: teoria do Estado, formas de Estado, regimes, sistemas de governo, eleitorais e partidos",
+      "Debater e apresentar trabalhos em aulas práticas"
+    ],
+    "convergences": [
+      "Conceitos básicos de ciência política e teoria do Estado",
+      "Relação entre política, poder, legitimidade e direito",
+      "Regimes políticos e globalização"
+    ],
+    "differences": [
+      "Maior amplitude em sistemas eleitorais, partidos, formas de Estado e história do Estado",
+      "Sem legal policy, burocracia e governança como itens",
+      "Casos e exemplos portugueses (partidos, sistema eleitoral)"
+    ]
+  },
+  "depth": {
+    "level": "Licenciatura em Direito da FDUL, unidade de formação geral; Mackenzie: 1ª etapa",
+    "brazil": "2 horas-aula semanais, ementa de 9 tópicos",
+    "foreign": "Programa de 11 capítulos com bibliografia extensa; horas e ECTS não preenchidos",
+    "theoryPractice": "Aulas plenárias expositivas e aulas práticas com debates, trabalhos de grupo e chamadas orais"
+  },
+  "practical": {
+    "period": "Semestral; o semestre efetivo não é declarado na ficha",
+    "language": "Português",
+    "enrolment": "Aceitação de intercambista e vagas não verificadas; assiduidade nas aulas práticas é exigida pelo regulamento",
+    "prerequisites": "Não declarados",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "A ficha 2026/2027 de Ciência Política da FDUL cobre o essencial da ementa Mackenzie, isto é, conceitos de ciência política, Estado e sociedade, legitimidade e regimes, e vai além com sistemas eleitorais, partidos e história do Estado; fica sem item próprio o Estado de direito, a governança e a análise empírica da ação das autoridades.",
+  "justification": "Cinco dos nove tópicos são cobertos por capítulo explícito (formação geral e fenômeno político; relação entre campos teóricos e direito; conceitos básicos; Estado, sociedade e direito; governo, legitimidade e legalidade) e quatro são parciais (a tendência de separar direito e política, a prática institucional sem legal policy nem burocracia, regimes sem item de Estado de direito, globalização sem governança). Nenhum tópico está ausente: 56% de cobertura plena e 100% de plena ou parcial. O par é do tipo mais transferível, pois teoria política não depende de leis nacionais; a classe só não sobe por três razões: nenhum dos lados traz horas comparáveis (a ficha deixa horas e ECTS em branco e Mackenzie informa 2 horas-aula semanais), a cobertura plena é inferior a 75% e o ementário de 2022 é histórico. O segundo tópico da ementa brasileira está truncado no programas.json, de modo que sua avaliação seguiu o sentido da frase completa do ementário.",
+  "conclusionClass": "afinidade_parcial",
+  "confidence": "moderada",
+  "confidenceRationale": "Ficha 2026/2027 completa em programa, metodologia e avaliação, mas sem horas, ECTS nem semestre; ementário brasileiro de 2022 com um tópico truncado por extração.",
+  "limitations": [
+    "Horas de trabalho e ECTS estão em branco na ficha; carga não comparável com as 2 horas-aula semanais de Mackenzie",
+    "Ementário Mackenzie de 2022 é edição histórica; a matriz vigente pode divergir",
+    "Um tópico brasileiro (separação entre direito e política desde o século XIX) está truncado na extração do programas.json e foi avaliado pelo sentido da frase",
+    "A posição '1.º' no plano de estudos não esclarece ano ou semestre",
+    "O capítulo XI é remissão a outras unidades (breves considerações), o que limita a cobertura de instituições",
+    "Oferta 2027/28, assiduidade e vagas para intercambistas não confirmadas"
+  ],
+  "openQuestions": [
+    "A ficha completa da unidade informa horas de contato e ECTS?",
+    "A coordenação aceita a ênfase em sistemas eleitorais e partidos portugueses no lugar de legal policy e governança?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do bloco do ementário Direito Alphaville 2022 e da Ficha de Unidade Curricular 2026/2027 de Ciência Política da FDUL, em português e inglês, com apoio de IA (Claude); título da ficha conferido com o nome do catálogo (coincide); capítulos I a XI vinculados a tópicos; validação por scripts/build_pareceres.py --check",
+  "secondReview": {
+    "required": false,
+    "reason": "Cobertura documentada capítulo a capítulo; limitações vêm de horas e vigência"
+  },
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "reviewedAt": "2026-10-17"
+}

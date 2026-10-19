@@ -1,0 +1,194 @@
+{
+  "id": "adm|Contabilidade de Custos|co-24-solbridgeinter|ACC203",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade de Custos",
+    "name": "Contabilidade de Custos",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 3, bloco 'Contabilidade de Custos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "Custos Fixos e Variáveis)",
+      "Métodos de contabilização de estoques",
+      "Custeio por Absorção (Com e sem Departamentalização)",
+      "Custeio Variável",
+      "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "Tributos sobre a Receita e formação de preços",
+      "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "Etapas do processo orçamentário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "ACC203",
+      "name": "Managerial Accounting",
+      "pageCode": "ACC203",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); tipo de disciplina Finance Specialization",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "15 semanas; o syllabus conciso não indica semestre de oferta",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Finance Specialization",
+      "assessment": "Presença 20%, tarefas 15%, prova intermediária 25%, prova final 40%",
+      "prerequisites": "Nenhum",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/ACC203%20Managerial%20Accounting.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "20a465e082accd9f1a2c63376e730c703253a49c07a55aebd68cd4400ef68a6d",
+      "location": "Concise Syllabus 2016: Learning Objectives (1-7), Course Description, Course content by Week (semanas 1-15), quadro final com Credit, Contact Hours, Prerequisites, Duration",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro final: Credit 3, Contact Hours 45, Duration 15 weeks, Class Type Lecture. O documento não declara a duração da hora de contato. O crédito de 3 é institucional e não foi convertido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 3-4 'Introduction to Cost Terms, Concepts and Accounting for Overheads'; objetivo 5: classificar e analisar os tipos de custos numa empresa industrial",
+      "foreignLocation": "Course content by Week, semanas 3-4; Learning Objectives item 5",
+      "note": "Enunciado oficial truncado pela quebra de linha da ficha, que continua no item seguinte; avaliado como terminologia de custos, custos x despesas e diretos x indiretos."
+    },
+    {
+      "brTopic": "Custos Fixos e Variáveis)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo 5: 'Classify and analyze the various types of costs in a manufacturing company'; semanas 8-10 'Marginal Costing'",
+      "foreignLocation": "Learning Objectives item 5; Course content by Week, semanas 3-4 e 8-10",
+      "note": "Fragmento de quebra de linha do item anterior. A classificação de custos e o custeio marginal pressupõem comportamento fixo e variável, mas o syllabus não o nomeia."
+    },
+    {
+      "brTopic": "Métodos de contabilização de estoques",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, livro-texto (Drury) e quadro final do syllabus conciso 2016",
+      "note": "Job costing e process costing acumulam custos de produtos, mas nenhum método de valoração de estoques (PEPS, custo médio) é citado."
+    },
+    {
+      "brTopic": "Custeio por Absorção (Com e sem Departamentalização)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Objetivo 6 'Calculate and allocate overhead costs to product manufacturing'; semanas 3-6 contabilização de overheads, job costing e contract costing",
+      "foreignLocation": "Learning Objectives item 6; Course content by Week, semanas 3-6",
+      "note": "Rateio de custos indiretos a produtos é a base do custeio por absorção, mas o termo e a departamentalização não aparecem no syllabus."
+    },
+    {
+      "brTopic": "Custeio Variável",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 8-10 'Activity-Based costing, Process costing and Marginal Costing'",
+      "foreignLocation": "Course content by Week, semanas 8-10",
+      "note": "'Marginal costing' corresponde ao custeio variável; o curso acrescenta custeio baseado em atividades."
+    },
+    {
+      "brTopic": "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semanas 8-10 'Marginal Costing'; objetivo 7 'Use relevant information for making decisions'",
+      "foreignLocation": "Course content by Week, semanas 8-10; Learning Objectives item 7",
+      "note": "Ponto de equilíbrio, margem de contribuição e alavancagem não são nomeados; o custeio marginal e a decisão com informação relevante apontam na direção."
+    },
+    {
+      "brTopic": "Tributos sobre a Receita e formação de preços",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Learning Objectives, Course Description, cronograma das semanas 1-15, livro-texto (Drury) e quadro final do syllabus conciso 2016",
+      "note": "Nem tributos sobre a receita (específicos do Brasil) nem formação de preços aparecem."
+    },
+    {
+      "brTopic": "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 11-12 'The Budgeting Process, Standard Costing and Variance Analyses'; semana 13 'Management Control Systems'",
+      "foreignLocation": "Course content by Week, semanas 11-13",
+      "note": "Orçamento e controle gerencial estão presentes; a distinção entre curto e longo prazo não é feita no syllabus."
+    },
+    {
+      "brTopic": "Etapas do processo orçamentário",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 11-12 'The Budgeting Process'",
+      "foreignLocation": "Course content by Week, semanas 11-12",
+      "note": "Unidade dedicada ao processo de orçamento; as etapas individuais não são detalhadas."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Papel da contabilidade gerencial e escopo da contabilidade de custos", "location": "Course content by Week, semanas 1-2; Course Description"},
+    {"topic": "Job costing, contract costing e process costing", "location": "Course content by Week, semanas 5-6 e 8-10; objetivo 1"},
+    {"topic": "Custeio baseado em atividades (ABC)", "location": "Course content by Week, semanas 8-10; objetivo 2"},
+    {"topic": "Custo padrão e análise de variações", "location": "Course content by Week, semanas 11-12"},
+    {"topic": "Sistemas de controle gerencial", "location": "Course content by Week, semana 13"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel da contabilidade gerencial, comportamento dos custos, custos de produtos e processos por métodos direto e de absorção, ponto de equilíbrio, formação de preços e tributos, orçamento.",
+    "foreign": ["Comparar job order e process costing", "Projetar e usar um sistema de custeio baseado em atividades", "Calcular e ratear custos indiretos aos produtos", "Usar informação relevante para decisões gerenciais"],
+    "convergences": ["Papel da contabilidade gerencial", "Terminologia e classificação de custos", "Custeio marginal (variável)", "Orçamento"],
+    "differences": ["SolBridge acrescenta ABC, custeio de contratos, custo padrão e variações e controle gerencial", "Mackenzie inclui estoques, tributos sobre a receita, formação de preços e relações custo/volume/lucro com ponto de equilíbrio, não nomeados em SolBridge"]
+  },
+  "depth": {
+    "level": "Graduação em ambas; Mackenzie na 4ª etapa, ACC203 como Finance Specialization sem pré-requisito",
+    "brazil": "Contabilidade de custos de 63,3 h, de conceitos a orçamento, com tributação brasileira",
+    "foreign": "Contabilidade gerencial de 45 horas de contato (syllabus 2016) com o texto de Drury, enfoque de custos e controle",
+    "theoryPractice": "Aulas expositivas com exercícios, discussões e mapas conceituais; sem laboratório"
+  },
+  "practical": {
+    "period": "15 semanas; semestre de oferta não indicado no syllabus de 2016; 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina do currículo BBA; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "Nenhum",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Managerial Accounting cobre terminologia de custos, custeio variável (marginal) e orçamento com unidades nomeadas, e toca por objetivos o rateio de custos indiretos; ficam sem correspondência os métodos de estoque e os tributos e a formação de preços da ficha brasileira.",
+  "justification": "Quatro enunciados estão cobertos (terminologia de custos nas semanas 3-4, custeio marginal nas semanas 8-10, orçamento nas semanas 11-12), três são parciais (custos fixos e variáveis, absorção, custo/volume/lucro, todos inferidos de objetivos ou do custeio marginal sem nomeação) e dois não aparecem: contabilização de estoques e tributos com formação de preços. A cobertura total ou parcial de 7 dos 9 enunciados sustenta a afinidade parcial, e SolBridge ainda traz ABC e custo padrão que Mackenzie não lista. As 45 horas de contato (razão 0,71 de 63,3 h, ou 0,59 se a hora for de 50 min) ficam abaixo de 75%, o syllabus é de 2016 e a ficha brasileira não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "Syllabus conciso de 2016 e ficha brasileira sem vigência confirmada; vários enunciados dependem de inferência a partir de títulos de semana.",
+  "limitations": [
+    "Syllabus de 2016, muito sucinto; conteúdos como ponto de equilíbrio e absorção podem estar nos capítulos de Drury sem constar do cronograma",
+    "Horas de contato (45) declaradas sem a duração da hora; razão 0,71, ou 0,59 com hora de 50 min; Credit 3 não é convertido",
+    "Os dois primeiros enunciados oficiais são um único item quebrado entre linhas na ficha Mackenzie",
+    "Tributos sobre a receita são conteúdo da legislação brasileira, sem equivalente esperado em disciplina coreana",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O capítulo de custo/volume/lucro de Drury é ministrado dentro de 'Marginal Costing'?",
+    "SolBridge ministra métodos de valoração de estoques em outra disciplina contábil do BBA?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do syllabus conciso ACC203 (2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado a semana ou objetivo; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Classe derivada diretamente da cobertura; parciais explicitados"}
+}

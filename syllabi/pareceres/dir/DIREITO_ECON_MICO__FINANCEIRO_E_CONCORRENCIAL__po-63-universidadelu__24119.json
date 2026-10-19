@@ -1,0 +1,165 @@
+{
+  "id": "dir|DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL|po-63-universidadelu|24119",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL",
+    "name": "DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL",
+    "courseName": "Direito",
+    "stage": 8,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial Mackenzie",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 59, bloco DIREITO ECONÔMICO, FINANCEIRO E CONCORRENCIAL, Ementa",
+    "language": "Português",
+    "prerequisites": "Não declarados na ementa",
+    "hours": {
+      "value": 4,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A disciplina apresenta o campo do Direito Financeiro e Concorrencial a partir da dogmática jurídica e suas repercussões na proteção dos mercados e setores regulados",
+      "Num primeiro momento, as noções essenciais do Sistema Financeiro Nacional, com foco na organização do mercado financeiro e a política econômica",
+      "Na etapa final, a disciplina avança no estudo do Direito Concorrencial: apresentação da estrutura e da operação do Sistema Brasileiro de Defesa da Concorrência",
+      "o estudo da atuação preventiva e repressiva do Conselho Administrativo de Defesa Econômico (CADE)",
+      "acordo de leniência e a revisão judicial das decisões administrativas do CADE",
+      "O estudo dogmático do Direito da Concorrencial é acompanhado da análise da jurisprudência do CADE envolvendo controles de condutas e estruturas, bem como diante das recentes transformações da economia digital e da interface com a inovação e a propriedade intelectual"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada",
+      "code": "24119",
+      "name": "Direito económico",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "academicYear": "2025/2026",
+      "semester": null,
+      "period": "1º semestre português; matrícula em Gestão de Empresa deve ser confirmada.",
+      "language": "Português",
+      "assessment": "Consultar regime de avaliação descrito no documento individual; inscrição de mobilidade não confirmada.",
+      "prerequisites": "Não se presume dispensa dos requisitos de matrícula.",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24119_2025.pdf",
+      "sha256": "2035d0e5a5aa5404c10048ac6a38fd369ee773e27f1ba498b96c84cb93c2dce4",
+      "location": "Documento individual integral; programa, objetivos, metodologia, avaliação e bibliografia",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "totalWorkload": null,
+        "selfStudy": null,
+        "ects": 6,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "Quadro por modalidades de aula; total de contato semestral não declarado de modo inequívoco no texto extraído. Não foi realizada soma inferida."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A disciplina apresenta o campo do Direito Financeiro e Concorrencial a partir da dogmática jurídica e suas repercussões na proteção dos mercados e setores regulados",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Regulação pública e defesa da concorrência se aproximam da proteção de mercados, sem dogmática financeira específica.",
+      "foreignLocation": "Conteúdos3 e11"
+    },
+    {
+      "brTopic": "Num primeiro momento, as noções essenciais do Sistema Financeiro Nacional, com foco na organização do mercado financeiro e a política econômica",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Constituição econômica e regulação abordam política econômica portuguesa, sem Sistema Financeiro Nacional brasileiro.",
+      "foreignLocation": "Conteúdos2-3"
+    },
+    {
+      "brTopic": "Na etapa final, a disciplina avança no estudo do Direito Concorrencial: apresentação da estrutura e da operação do Sistema Brasileiro de Defesa da Concorrência",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Defesa da concorrência aparece, sem estrutura do sistema brasileiro.",
+      "foreignLocation": "Conteúdos11.2"
+    },
+    {
+      "brTopic": "o estudo da atuação preventiva e repressiva do Conselho Administrativo de Defesa Econômico (CADE)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-5, Conteúdos1-11",
+      "note": "CADE e sua atuação preventiva/repressiva não constam."
+    },
+    {
+      "brTopic": "acordo de leniência e a revisão judicial das decisões administrativas do CADE",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "pp.1-5, Conteúdos1-11",
+      "note": "Leniência e revisão judicial de decisões do CADE não aparecem."
+    },
+    {
+      "brTopic": "O estudo dogmático do Direito da Concorrencial é acompanhado da análise da jurisprudência do CADE envolvendo controles de condutas e estruturas, bem como diante das recentes transformações da economia digital e da interface com a inovação e a propriedade intelectual",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Propriedade industrial e concorrência desleal aproximam interface concorrência/inovação; faltam casos CADE e economia digital.",
+      "foreignLocation": "Conteúdos11.1"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Sociedades comerciais, empresários e estabelecimento",
+      "location": "Conteúdos6-10"
+    }
+  ],
+  "competencies": {
+    "brazil": "Conteúdos e finalidades explicitados nos tópicos oficiais reproduzidos.",
+    "foreign": "Interpretar problemas econômicos e empresariais com instrumentos jurídicos.",
+    "convergences": [
+      "Regulação pública e defesa da concorrência se aproximam da proteção de mercados, sem dogmática financeira específica.",
+      "Constituição econômica e regulação abordam política econômica portuguesa, sem Sistema Financeiro Nacional brasileiro.",
+      "Defesa da concorrência aparece, sem estrutura do sistema brasileiro.",
+      "Propriedade industrial e concorrência desleal aproximam interface concorrência/inovação; faltam casos CADE e economia digital."
+    ],
+    "differences": [
+      "CADE e sua atuação preventiva/repressiva não constam.",
+      "Leniência e revisão judicial de decisões do CADE não aparecem."
+    ]
+  },
+  "depth": {
+    "level": "Cotejo de graduação; profundidade limitada aos programas publicados.",
+    "brazil": "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "foreign": "Interpretar problemas econômicos e empresariais com instrumentos jurídicos.",
+    "theoryPractice": "O contato e o trabalho global não são intercambiáveis; nenhum crédito foi convertido em horas."
+  },
+  "practical": {
+    "period": "1º semestre português; matrícula em Gestão de Empresa deve ser confirmada.",
+    "language": "Português",
+    "enrolment": "Aceitação e acesso à unidade por estudante de mobilidade não comprovados.",
+    "prerequisites": "Confirmar requisitos do destino antes da montagem do plano de estudos.",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Direito Econômico24119 tem aproximação regulatória e concorrencial com o Mackenzie, mas pertence a Gestão de Empresa e dedica grande parte a direito comercial.",
+  "justification": "Quatro de seis tópicos têm alcance parcial, nenhum integral: instituições financeiras brasileiras, CADE e seus procedimentos não são ministrados. O programa2025/2026 inclui sociedades, estabelecimento e contratos comerciais; são conteúdos adicionais e não prova de especialização concorrencial equivalente.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais permitem cotejar conteúdo, mas vigência, oferta e bases horárias limitam a decisão. Unidade24119 pertence a Gestão de Empresa, Faculdade de Ciências da Economia e da Empresa; não presumir acesso pela mobilidade em Direito.",
+  "limitations": [
+    "Oferta e vaga de mobilidade em 2027/28 não confirmadas.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente.",
+    "Nenhuma decisão institucional de aproveitamento foi emitida.",
+    "Unidade24119 pertence a Gestão de Empresa, Faculdade de Ciências da Economia e da Empresa; não presumir acesso pela mobilidade em Direito.",
+    "Horas por modalidade sem total de contato explicitamente rotulado."
+  ],
+  "openQuestions": [
+    "A unidade estará disponível a estudantes de mobilidade em 2027/28?",
+    "A coordenação aceita as aproximações e lacunas documentadas neste cotejo?"
+  ],
+  "alternatives": [],
+  "method": "Leitura do texto integral estrangeiro e do bloco brasileiro oficial; classificação de cada tópico pela evidência individual, sem inferir equivalência por título.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar matriz brasileira, mobilidade e divergências de conteúdo e de horas."
+  }
+}

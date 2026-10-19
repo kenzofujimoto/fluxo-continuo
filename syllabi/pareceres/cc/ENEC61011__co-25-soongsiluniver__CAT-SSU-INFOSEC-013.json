@@ -1,0 +1,159 @@
+{
+  "id": "cc|ENEC61011|co-25-soongsiluniver|CAT-SSU-INFOSEC-013",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61011",
+    "name": "REDES DE COMPUTADORES",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 4, bloco REDES DE COMPUTADORES, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes",
+      "Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet",
+      "Descrição do roteamento de pacotes, vazão, atraso e perda de dados",
+      "Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento",
+      "Aplicação de tecnologias de redes sem fio: arquitetura 802.11"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-25-soongsiluniver",
+      "university": "Soongsil University",
+      "code": "CAT-SSU-INFOSEC-013",
+      "name": "Computer Networks",
+      "faculty": "IT College / Department of Information Security",
+      "department": "Information Security",
+      "programme": "Information Security (departamento específico)",
+      "level": "Graduação",
+      "period": "Semestre e ano de oferta não publicados na descrição",
+      "academicYear": null,
+      "language": "Descrição em coreano, rubrica em inglês; língua de ensino não confirmada",
+      "courseStatus": "Não discriminado na descrição",
+      "assessment": "Não publicada no parágrafo individual",
+      "prerequisites": "Não publicados no parágrafo individual",
+      "source": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "catalogue": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "sha256": "8b380c654c9b5f0c05e3680d0c118db268c4dfcf049e65c5c87cc544aed1ce91",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터네트워크 (Computer Networks); somente o seu parágrafo, entre esta e a próxima rubrica",
+      "detailLevel": "brief_individual_description",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos tipos, tecnologias de transmissão e escalabilidade das redes",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "O parágrafo não diferencia tipos de redes, tecnologias de transmissão ou escalabilidade.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터네트워크 (Computer Networks); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "Caracterização do modelo de referência OSI, Arquitetura TCP/IP e a Internet",
+      "essential": true,
+      "status": "parcial",
+      "note": "OSI não é identificado; a estrutura em camadasTCP/IP cobre parte do enunciado composto.",
+      "foreignEvidence": "O modeloTCP/IP e as camadas de aplicação, transporte, rede e enlace são explicitamente estudados.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터네트워크 (Computer Networks); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Descrição do roteamento de pacotes, vazão, atraso e perda de dados",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "Detecção de erros é citada, mas isso não comprova roteamento de pacotes, vazão, atraso e perdas.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터네트워크 (Computer Networks); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "Apresentação do protocolo IPv4 e IPv6 e protocolos de roteamento",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "IPv4, IPv6 e protocolos de roteamento não estão discriminados.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터네트워크 (Computer Networks); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "Aplicação de tecnologias de redes sem fio: arquitetura 802.11",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "O texto de Computer Networks não especificaIEEE802.11 ou tecnologias sem fio.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터네트워크 (Computer Networks); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Detecção de erros por camadas e análise de problemas de redes",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터네트워크 (Computer Networks); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Objetos e operações prescritos pelos enunciados oficiais de REDES DE COMPUTADORES",
+    "foreign": [
+      "Entender o funcionamento da Internet porTCP/IP e pelas camadas de comunicação, incluindo detecção de erros."
+    ],
+    "convergences": [
+      "O modeloTCP/IP e as camadas de aplicação, transporte, rede e enlace são explicitamente estudados."
+    ],
+    "differences": [
+      "O Mackenzie detalha indicadores de desempenho, versõesIP, roteamento e802.11; o resumo daSSU comprova principalmente organização em camadas."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "FCI2025, etapa5, 63.33horas-relógio semestrais; comparação preserva os enunciados compostos do ementário.",
+    "foreign": "Descrição departamental individual breve: Entender o funcionamento da Internet porTCP/IP e pelas camadas de comunicação, incluindo detecção de erros.",
+    "theoryPractice": "A descrição foi examinada para distinguir objetivos de atividades comprovadas. O Mackenzie detalha indicadores de desempenho, versõesIP, roteamento e802.11; o resumo daSSU comprova principalmente organização em camadas."
+  },
+  "practical": {
+    "period": "Semestre não indicado; consultar programação pública da oferta 2027/28 quando publicada",
+    "language": "Língua de ensino a confirmar; fonte em coreano com títulos bilíngues",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não publicados nesta descrição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Computer Networks fornece correspondência parcial ao modeloTCP/IP, mas seu parágrafo não documenta quatro eixos específicos de Redes de Computadores: tecnologias e escalabilidade, métricas e roteamento, IPv4/IPv6 eIEEE802.11. A menção genérica a funcionamento da Internet não permite preencher essas unidades por inferência.",
+  "justification": "Apenas um dos cinco enunciados brasileiros foi classificado parcialmente coberto, pois aplicação, transporte, rede e enlace aparecem expressamente, enquantoOSI não é nomeado. Detecção de erros não equivale a vazão, atraso ou roteamento. O parágrafo vizinho Network Security menciona segurança sem fio, mas essa evidência pertence a outra disciplina e foi excluída deste cotejo. O resultado baixo reflete o alcance do resumo publicado, sem afirmar que a turma real omita esses temas; não há carga estrangeira comparável às63,33horas brasileiras.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A descrição oficial bilíngue identifica o componente e seus objetos, mas não publica plano semanal, avaliação ou horas. O parecer restringe-se ao próprio parágrafo de 컴퓨터네트워크 (Computer Networks), não ao compêndio inteiro; completude documental insuficiente para confiança moderada.",
+  "limitations": [
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Fonte individual breve dentro de compêndio departamental; não contém calendário, avaliação, créditos ou horas por componente.",
+    "Ano letivo e língua da turma não publicados; texto em coreano não comprova oferta em inglês.",
+    "Código CAT é identificador interno da base, não código acadêmico oficial; identidade pela rubrica bilíngue e parágrafo delimitado."
+  ],
+  "openQuestions": [
+    "O plano de Computer Networks ensinaIPv4, IPv6 e roteamento de pacotes?",
+    "Há atividades específicas de802.11 e avaliação de vazão, atraso e perda?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+  }
+}

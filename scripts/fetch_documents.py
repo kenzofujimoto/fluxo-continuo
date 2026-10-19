@@ -54,6 +54,24 @@ def sorted_path(url: str) -> Path:
     return TXT / (hashlib.sha256(url.encode()).hexdigest()[:24] + ".sorted.txt")
 
 
+def extract_pdf_page_text(page: fitz.Page, *, sort: bool = False) -> str:
+    """Recover full AcroForm values when their appearance rectangle clips the text."""
+    text = page.get_text(sort=sort)
+    normalized = lambda value: re.sub(r"\s+", " ", value).strip()
+    for widget in page.widgets() or []:
+        value = widget.field_value
+        if widget.field_type != fitz.PDF_WIDGET_TYPE_TEXT or not isinstance(value, str) or not value.strip():
+            continue
+        if normalized(value) in normalized(text):
+            continue
+        visible = page.get_text(clip=widget.rect, sort=sort).strip()
+        if visible and visible in text:
+            text = text.replace(visible, value.strip(), 1)
+        else:
+            text += f"\n[PDF form field: {widget.field_name}]\n{value.strip()}\n"
+    return text
+
+
 def fetch(url: str, prev: dict | None, refresh: bool) -> dict:
     entry = dict(prev or {})
     entry["url"] = url
@@ -91,9 +109,9 @@ def fetch(url: str, prev: dict | None, refresh: bool) -> dict:
         sha = hashlib.sha256(raw).hexdigest()
         if raw.startswith(b"%PDF") or "application/pdf" in mime:
             pdf = fitz.open(stream=raw, filetype="pdf")
-            pages = [p.get_text() for p in pdf]
+            pages = [extract_pdf_page_text(p) for p in pdf]
             text = "\n\f\n".join(pages)
-            stext = "\n".join(p.get_text(sort=True) for p in pdf)
+            stext = "\n".join(extract_pdf_page_text(p, sort=True) for p in pdf)
             fmt, npages = "pdf", len(pdf)
         elif "html" in mime or raw.lstrip()[:200].lower().startswith((b"<!doctype", b"<html")):
             soup = BeautifulSoup(raw, "html.parser")
@@ -254,16 +272,28 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
             if v.get("matchMethod") == "titulo_diferente_confirmar":
                 # Same 2025 document, but the printed title differs from the matrix: identity awaits confirmation.
                 v.update({"current": False, "currencyNote": "Ementário FCI 2025 com título diferente da matriz; vínculo a confirmar com a coordenação"})
+            if not (v.get("ementa") or "").strip():
+                # A matched course block proves its identity, not the presence of syllabus content.
+                v.update({"officialSyllabus": False, "current": False,
+                          "currencyNote": "Ementário público FCI 2025 com campo Ementa vazio; conteúdo curricular ausente, plano de ensino necessário."})
     # Additional official Brazilian ementários (Administração, Direito 2022) with explicit currency flags.
     courses = {c["id"]: c for c in data["courses"]}
     by_course = {}
-    for src in brazil_registry():
+    for src in sorted(brazil_registry(), key=lambda item: bool(item.get("onlyMissing"))):
         url = src["url"]
         if manifest.get(url, {}).get("status") != "lido" or not text_path(url).exists():
             continue
         txt = text_path(url).read_text(encoding="utf-8")
         pages = txt.split("\n\f\n")
+        course = courses[src["courseId"]]
+        existing = match_ficha_rows(course, by_course.get(src["courseId"], []))
         for b in parse_ficha_blocks(txt.replace("\n\f\n", "\n")):
+            identities = match_ficha_rows(course, [b])
+            allowed = src.get("matchOnlyCodes")
+            if allowed is not None and not any(code in allowed for code in identities):
+                continue
+            if src.get("onlyMissing") and (not identities or any(code in existing for code in identities)):
+                continue  # Supplemental sources cannot make an existing exact match ambiguous.
             b["src"] = src
             b["page"] = next((i for i, pg in enumerate(pages, 1) if canonical(b["name"]) in canonical(pg)), None)
             by_course.setdefault(src["courseId"], []).append(b)
@@ -284,6 +314,8 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
                             "programContent": b["programContent"],
                             "officialSyllabus": True, "current": bool(src.get("current")),
                             "currencyNote": src.get("currencyNote"), "provenance": src.get("provenance"), "status": "lido"}
+            if src.get("yearBasis"):
+                progs_b[key]["yearBasis"] = src["yearBasis"]
     return {"meta": {"generated": NOW, "foreign": len(progs_f), "brazil": len(progs_b),
                      "brazilByCourse": {c: sum(1 for k, v in progs_b.items() if k.startswith(c + "|") and v.get("status") == "lido") for c in ("cc", "si", "adm", "dir")},
                      "brazilCurrent": sum(1 for v in progs_b.values() if v.get("current")),

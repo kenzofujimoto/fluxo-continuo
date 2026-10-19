@@ -1,0 +1,211 @@
+{
+  "id": "adm|Gestão de Operações|po-63-universidadelu|24125",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Gestão de Operações",
+    "name": "Gestão de Operações",
+    "courseName": "Administração",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 5º Semestre (Etapa_5_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_5_02.pdf",
+    "sha256": "a5d0199288c8ccd4f48b390e31ba408ae55f61c6632a5528e8e7c9142068b841",
+    "location": "PDF p. 3, bloco 'Gestão de Operações': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Introdução à gestão de operações",
+      "Estratégia de produção e operações",
+      "Pacotes de valor",
+      "Indicadores de desempenho",
+      "Projeto de produto e seleção de processos",
+      "Tipos e seleção de Arranjo físico (layout)",
+      "Gestão da Capacidade",
+      "Teoria das Restrições",
+      "Planejamento Mestre de Produção e Operações (PMP)",
+      "Cálculo da Necessidade de Materiais (MRP)",
+      "Sequenciamento, Programação e Controle de Operações",
+      "Confiabilidade de processos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24125",
+      "name": "Gestão de Operações",
+      "pageCode": "24125",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa); área científica Gestão de Operações",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha não foi extraído; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 3,
+      "semester": 1,
+      "period": "1º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Um teste escrito e um trabalho individual, com ponderação do regulamento geral (RGAC, art. 8º)",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24125_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "2aea1ac806ebb290e2c6d7225bd563dd99e8658c4b3522efe2c271f53df74b37",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 22/06/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (conteúdos 1-8), 19 (avaliação), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito, e nenhum valor foi atribuído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução à gestão de operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'1. Fundamentos da Gestão de Operações': 1.1 importância das operações na competitividade; 1.2 história e evolução; 1.3 diferenças entre operações de bens e serviços",
+      "foreignLocation": "Item 18, conteúdo 1 (1.1-1.3)"
+    },
+    {
+      "brTopic": "Estratégia de produção e operações",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'2. Estratégia operacional': '2.1 Alinhamento entre operações e estratégia empresarial'; '2.2 Tipos de estratégias'",
+      "foreignLocation": "Item 18, conteúdo 2 (2.1-2.2)"
+    },
+    {
+      "brTopic": "Pacotes de valor",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; 1.3 trata diferenças entre bens e serviços, mas não pacote de valor produto-serviço nem critérios competitivos"
+    },
+    {
+      "brTopic": "Indicadores de desempenho",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Competências: 'implementar e monitorizar programas de qualidade e produtividade'; 'ferramentas de apoio à decisão baseadas em dados operacionais'",
+      "foreignLocation": "Itens 15-16",
+      "note": "Dados operacionais e produtividade aparecem como competência; o programa não tem unidade de medição de desempenho."
+    },
+    {
+      "brTopic": "Projeto de produto e seleção de processos",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'3. Processos e Layout': '3.1 Tipos de processos'; '3.2 Mapeamento de processos'",
+      "foreignLocation": "Item 18, conteúdo 3 (3.1-3.2)",
+      "note": "Tipos e mapeamento de processos cobrem a seleção de processos; projeto de produto não aparece."
+    },
+    {
+      "brTopic": "Tipos e seleção de Arranjo físico (layout)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'3. Processos e Layout': '3.3 Organização dos espaços'",
+      "foreignLocation": "Item 18, conteúdo 3 (3.3)",
+      "note": "Os tipos de layout não são listados; a organização do espaço está no mesmo capítulo dos tipos de processo."
+    },
+    {
+      "brTopic": "Gestão da Capacidade",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; 5.1 'Planeamento de operações' é genérico e não nomeia capacidade"
+    },
+    {
+      "brTopic": "Teoria das Restrições",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; sem teoria das restrições nem gargalos"
+    },
+    {
+      "brTopic": "Planejamento Mestre de Produção e Operações (PMP)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5. Planeamento da Produção': '5.1 Planeamento de operações'; '5.2 Sistemas de produção'",
+      "foreignLocation": "Item 18, conteúdo 5 (5.1-5.2)",
+      "note": "Planeamento de operações em termos gerais; plano mestre não é nomeado."
+    },
+    {
+      "brTopic": "Cálculo da Necessidade de Materiais (MRP)",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5.2 Sistemas de produção'; '5.3 Inventário e programação'",
+      "foreignLocation": "Item 18, conteúdo 5 (5.2-5.3)",
+      "note": "MRP é um sistema de planeamento de materiais e inventário; não é nomeado."
+    },
+    {
+      "brTopic": "Sequenciamento, Programação e Controle de Operações",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'5.3 Inventário e programação'; 5.1 planeamento de operações",
+      "foreignLocation": "Item 18, conteúdo 5 (5.1, 5.3)",
+      "note": "Programação é nomeada; sequenciamento e controle de operações não são detalhados."
+    },
+    {
+      "brTopic": "Confiabilidade de processos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; '4. Gestão da Qualidade' (princípios, ferramentas, certificações) é adjacente, mas confiabilidade (falhas, manutenção) não aparece"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Gestão da qualidade: princípios, ferramentas e certificações", "location": "Item 18, conteúdo 4"},
+    {"topic": "Supply chain e logística: cadeia de fornecimento, fornecedores e contratos, distribuição", "location": "Item 18, conteúdo 6"},
+    {"topic": "Tecnologia e inovação em operações", "location": "Item 18, conteúdo 7"},
+    {"topic": "Sustentabilidade nas operações e responsabilidade social", "location": "Item 18, conteúdo 8"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel estratégico das operações, produtos versus serviços, critérios competitivos e desempenho, layouts, capacidade e gargalos, PMP, MRP, sequenciamento e controle.",
+    "foreign": ["Analisar e redesenhar processos operacionais com melhoria contínua", "Implementar e monitorizar programas de qualidade e produtividade", "Gerir estrategicamente a cadeia de abastecimento", "Aplicar ferramentas de decisão baseadas em dados operacionais"],
+    "convergences": ["Introdução e estratégia de operações", "Processos e layout", "Planeamento e programação (visão geral)"],
+    "differences": ["Lusíada acrescenta qualidade, cadeia de abastecimento, tecnologia e sustentabilidade", "Mackenzie é técnica em planejamento de produção (capacidade, PMP, MRP, Teoria das Restrições); Lusíada não os nomeia"]
+  },
+  "depth": {
+    "level": "Licenciatura em Gestão de Empresa, 3º ano; Mackenzie na 5ª etapa",
+    "brazil": "Gestão de operações de 63,3 h com ênfase em planejamento e controle",
+    "foreign": "Gestão de operações generalista, em oito capítulos de três subitens, voltada a qualidade e cadeia de abastecimento",
+    "theoryPractice": "Aulas expositivas e ativas, seminários, visita de estudo, estudos de caso e trabalhos práticos"
+  },
+  "practical": {
+    "period": "1º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Gestão de Operações da Lusíada é generalista (processos, qualidade, cadeia de abastecimento): cobre introdução, estratégia e layout da ficha Mackenzie, mas planejamento e controle de produção só aparecem em três subitens genéricos, e capacidade e Teoria das Restrições faltam.",
+  "justification": "Três dos doze enunciados estão cobertos (conteúdos 1, 2 e 3.3), cinco são parciais (desempenho, processos sem projeto de produto, planeamento de operações, sistemas de produção e programação, ainda que sem PMP, MRP ou sequenciamento nomeados) e quatro ausentes (pacotes de valor, capacidade, Teoria das Restrições e confiabilidade). Cobertos e parciais somam 67%, o que sustenta afinidade parcial; a cobertura plena (25%) está concentrada no bloco introdutório, e o núcleo técnico de planejamento e controle da produção é inferido de títulos curtos. A ficha é de 2025/2026, sem total de contacto legível (6 ECTS), e a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A seção de planeamento da produção tem três subitens genéricos, o que torna as parcialidades inferências; ficha de 2025/2026 e horas de contacto ilegíveis.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 22/06/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo",
+    "Parcialidades de PMP, MRP e programação inferidas de títulos genéricos do capítulo 5",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "O capítulo 'Planeamento da Produção' inclui capacidade, plano mestre e MRP?",
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Gestão de operações'); cada tópico vinculado ao conteúdo da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": true, "reason": "Parcialidades de planejamento e controle inferidas de títulos curtos; recomenda-se obter o programa detalhado da Lusíada"}
+}

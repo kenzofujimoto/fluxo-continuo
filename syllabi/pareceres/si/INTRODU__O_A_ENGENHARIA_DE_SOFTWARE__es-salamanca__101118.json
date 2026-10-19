@@ -1,0 +1,153 @@
+{
+  "id": "si|INTRODUÇÃO A ENGENHARIA DE SOFTWARE|es-salamanca|101118",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "si",
+    "code": "INTRODUÇÃO A ENGENHARIA DE SOFTWARE",
+    "name": "INTRODUÇÃO A ENGENHARIA DE SOFTWARE",
+    "courseName": "Sistemas de Informação",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário SI Alphaville 2025 — FCI",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_SI__ALPHAVILLE_/Ement%C3%A1rio_SI_Alphaville__2025_.pdf",
+    "sha256": "1922c28c6554f77a1bca437a0de33b516a5e85856b8c2e15eb93ac2b6b831449",
+    "location": "Bloco INTRODUÇÃO A ENGENHARIA DE SOFTWARE; página extraída 19 do ementário; Ementa e Carga horária",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco brasileiro",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Introdução a Engenharia de Software",
+      "Domínio de modelos dos processos de desenvolvimento de software e suas fases",
+      "Análise comparativa de processos de desenvolvimento de software",
+      "Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "es-salamanca",
+      "university": "Universidad de Salamanca",
+      "code": "101118",
+      "academicCode": "101118",
+      "name": "Ingeniería De Software I",
+      "faculty": "Fac. Ciencias",
+      "department": "Conforme identificação da ficha individual",
+      "programme": "Grado en Ingeniería Informática (211)",
+      "level": "Graduação",
+      "yearOfStudy": 2,
+      "semester": 2,
+      "period": "Segundo Semestre",
+      "academicYear": "2026/2027",
+      "language": "Espanhol",
+      "courseStatus": "Obrigatória",
+      "assessment": "Teoria 40%, prática 35%, contínua 25%; mínimos de 5 na prática e 4 em cada prova teórica.",
+      "prerequisites": "-",
+      "source": "https://guias.usal.es/node/255433",
+      "catalogue": "https://guias.usal.es",
+      "sha256": "7ed741a33303e67c9928a7319fcc40fbc241d50f0ff1f84a72ddc3d7fc0283ba",
+      "location": "Guia integral: seções 1-9; conteúdos na seção 5",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Nenhum total presencial explícito no texto da seção 7. Percentuais de ECTS e créditos não são horas de contato."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Introdução a Engenharia de Software",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Introdução à engenharia do software e conceitos básicos.",
+      "foreignLocation": "5, bloco I"
+    },
+    {
+      "brTopic": "Domínio de modelos dos processos de desenvolvimento de software e suas fases",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Modelo clássico, iterativo, incremental, reutilização e ágil.",
+      "foreignLocation": "5, bloco I"
+    },
+    {
+      "brTopic": "Análise comparativa de processos de desenvolvimento de software",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Diferentes modelos de processo são estudados com características próprias e metodologia.",
+      "foreignLocation": "3; 5, bloco I"
+    },
+    {
+      "brTopic": "Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Fluxos do processo unificado incluem requisitos, análise, projeto, implementação e teste; implantação e manutenção não são detalhadas.",
+      "foreignLocation": "5, blocos II-IV"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Modelagem UML e processo unificado",
+      "location": "5, Contenidos"
+    }
+  ],
+  "competencies": {
+    "brazil": "Introdução a Engenharia de Software. Domínio de modelos dos processos de desenvolvimento de software e suas fases. Análise comparativa de processos de desenvolvimento de software. Caracterização das atividades de levantamento de requisitos, análise, projeto, implementação, teste, implantação e manutenção de software.",
+    "foreign": "Conocer los elementos, la estructura y los diferentes tipos de sistemas de información.\nEntender las actividades de ingeniería que componen el proceso del software y conocer los diferentes modelos de proceso.\nSaber obtener, analizar y documentar los requisitos de un sistema software aplicando los principios, técnicas y herramientas apropiados.\nModelar un sistema software en diferentes niveles de abstracción utilizando un lenguaje de modelado",
+    "convergences": [
+      "Introdução à engenharia do software e conceitos básicos.",
+      "Modelo clássico, iterativo, incremental, reutilização e ágil.",
+      "Diferentes modelos de processo são estudados com características próprias e metodologia.",
+      "Fluxos do processo unificado incluem requisitos, análise, projeto, implementação e teste; implantação e manutenção não são detalhadas."
+    ],
+    "differences": [
+      "Fluxos do processo unificado incluem requisitos, análise, projeto, implementação e teste; implantação e manutenção não são detalhadas."
+    ]
+  },
+  "depth": {
+    "level": "Graduação: SI etapa 4; USAL ano 2",
+    "brazil": "Escopo conforme enunciados da ementa oficial 2025.",
+    "foreign": "Escopo e pré-requisitos da ficha individual 101118.",
+    "theoryPractice": "Atividades teóricas e práticas descritas na seção 6, sem total de contato verificável."
+  },
+  "practical": {
+    "period": "Segundo Semestre europeu; confirmação necessária para 2027.2.",
+    "language": "Espanhol; requisitos de proficiência e turma devem ser conferidos.",
+    "enrolment": "A ficha individual não confirma matrícula de intercambistas nem dispensa de requisitos.",
+    "prerequisites": "-",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Ingeniería de Software I 101118 cobre o panorama de processos de SI e aprofunda requisitos e análise UML.",
+  "justification": "Três dos quatro enunciados encontram correspondência explícita no bloco I e nos objetivos; o quarto é parcial porque os fluxos unificados não individualizam implantação e manutenção. O percentual de 40% de créditos presenciais não fornece horas de contato e não é convertido.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Documentos oficiais individuais disponíveis, com conteúdos localizados; falta total presencial estrangeiro e confirmação de oferta. Ementário FCI 2025 e guia USAL 2026/27.",
+  "limitations": [
+    "Oferta e vagas de intercâmbio em 2027/28 não confirmadas.",
+    "A ficha pública não declara total de horas de contato semestrais; os 6 ECTS não foram convertidos em horas.",
+    "Ementa brasileira concisa; aproveitamento depende de decisão institucional.",
+    "Segundo semestre europeu não coincide em regra com o intercâmbio brasileiro 2027.2; calendário e eventual oferta alternativa não confirmados."
+  ],
+  "openQuestions": [
+    "Qual o total e a duração das horas presenciais desta disciplina?",
+    "A ficha 101118 será oferecida a intercambistas no período pretendido?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral do guia público no dossiê e do bloco brasileiro; cotejo manual de cada enunciado com unidades, sem inferir conteúdo por título ou bibliografia; validação estrutural por script.",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {
+    "required": true,
+    "reason": "Confirmar carga horária e condições de matrícula; análise independente sem decisão institucional."
+  }
+}

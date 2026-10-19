@@ -1,0 +1,186 @@
+{
+  "id": "adm|Macroeconomia e Economia Contemporânea|co-24-solbridgeinter|BUS110",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Macroeconomia e Economia Contemporânea",
+    "name": "Macroeconomia e Economia Contemporânea",
+    "courseName": "Administração",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 3º Semestre (Etapa_3_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_3_02.pdf",
+    "sha256": "986146d72b6a76e5e5a3a820af38b2131d33a23e392487c8f0ead18d7c9d1a1a",
+    "location": "PDF p. 5, bloco 'Macroeconomia e Economia Contemporânea': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; arquivo de 29/07/2021 (Last-Modified); vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "O Lado real e o Lado monetário da economia",
+      "Demanda e Oferta Agregados",
+      "Noções básicas de contas nacionais",
+      "O setor externo da economia",
+      "O lado monetário da economia",
+      "Os efeitos da inflação na atividade econômica",
+      "Política fiscal e seus efeitos",
+      "Discussão da conjuntura econômica nacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-24-solbridgeinter",
+      "university": "SolBridge International School of Business",
+      "code": "BUS110",
+      "name": "Introduction to Macroeconomics",
+      "pageCode": "BUS110",
+      "faculty": "SolBridge International School of Business",
+      "programme": "Bachelor of Business Administration (BBA); tipo de disciplina Core Foundation",
+      "level": "Graduação",
+      "yearOfStudy": null,
+      "semester": null,
+      "period": "15 semanas; o syllabus conciso não indica semestre de oferta",
+      "academicYear": "2016",
+      "language": "Inglês",
+      "courseStatus": "Core Foundation",
+      "assessment": "Presença e participação 20%, tarefa individual 20%, prova intermediária 20%, prova final 40%",
+      "prerequisites": "BUS109",
+      "source": "https://www.solbridge.ac.kr/site/main/down/BBA/BUS110%20Introduction%20to%20Macroeconomics.pdf",
+      "catalogue": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+      "sha256": "78a5f83c68119fcfada1669aa1bc5ad52d87a480dbe6dfe312a31b8ef4af5e23",
+      "location": "Concise Syllabus 2016: Learning Objectives, Course Description, Course content by Week (semanas 1-15), quadro final com Credit, Contact Hours, Prerequisites, Duration",
+      "hours": {
+        "contactTotal": 45,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": "semestre",
+        "hourLengthMinutes": null,
+        "note": "Quadro final: Credit 3, Contact Hours 45, Duration 15 weeks, Class Type Lecture. O documento não declara a duração da hora de contato. O crédito de 3 é institucional e não foi convertido."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "O Lado real e o Lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 3-4 'Production and Growth', 'Saving, Investment and the Financial System'; semanas 7-9 'The Monetary System, Money growth and Inflation'",
+      "foreignLocation": "Course content by Week, semanas 3-4 e 7-9",
+      "note": "Setor real (produção, crescimento, poupança e investimento) e setor monetário têm blocos distintos no cronograma."
+    },
+    {
+      "brTopic": "Demanda e Oferta Agregados",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 11 'Aggregate Demand and Aggregate Supply'",
+      "foreignLocation": "Course content by Week, semana 11",
+      "note": "Unidade explícita."
+    },
+    {
+      "brTopic": "Noções básicas de contas nacionais",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 1 'Measuring a Nation's Income'; semana 2 'Measuring the Cost of Living'",
+      "foreignLocation": "Course content by Week, semanas 1-2",
+      "note": "Renda nacional e custo de vida (índices de preços) são os temas de contabilidade nacional do livro de Mankiw."
+    },
+    {
+      "brTopic": "O setor externo da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 10 'Open-Economy Macroeconomics: Basic Concepts; a Macroeconomic Theory of the Open Economy'",
+      "foreignLocation": "Course content by Week, semana 10",
+      "note": "Economia aberta com teoria macroeconômica; câmbio da ementa brasileira está implícito nesses capítulos."
+    },
+    {
+      "brTopic": "O lado monetário da economia",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 7-9 'The Monetary System, Money growth and Inflation'",
+      "foreignLocation": "Course content by Week, semanas 7-9",
+      "note": "Três semanas dedicadas ao sistema monetário."
+    },
+    {
+      "brTopic": "Os efeitos da inflação na atividade econômica",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semanas 7-9 'Money growth and Inflation'; semana 13 'The Short-Run Trade-off between Inflation and Unemployment'",
+      "foreignLocation": "Course content by Week, semanas 7-9 e 13",
+      "note": "Inflação e sua relação com o desemprego; a ementa brasileira também cita inflação e emprego."
+    },
+    {
+      "brTopic": "Política fiscal e seus efeitos",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Semana 12 'The Influence of Monetary & Fiscal Policy on Aggregate Demand'",
+      "foreignLocation": "Course content by Week, semana 12",
+      "note": "Política fiscal e monetária tratadas em conjunto; efeitos sobre a demanda agregada."
+    },
+    {
+      "brTopic": "Discussão da conjuntura econômica nacional",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "Semana 14 'Six Debates over Macroeconomic Policy'; objetivo 2: analisar questões macroeconômicas em contexto internacional e reformas econômicas de vários países",
+      "foreignLocation": "Course content by Week, semana 14; Learning Objectives item 2",
+      "note": "Debate de política macroeconômica em contexto internacional; a conjuntura nacional brasileira não pode ser tratada em disciplina coreana."
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Poupança, investimento e sistema financeiro; ferramentas básicas de finanças", "location": "Course content by Week, semanas 4-5"},
+    {"topic": "Desemprego", "location": "Course content by Week, semana 5"},
+    {"topic": "Produção e crescimento econômico", "location": "Course content by Week, semana 3"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: objetivos do governo, políticas econômicas, inflação e emprego, câmbio, moeda, desemprego, crescimento e desenvolvimento, setor público, indicadores, juros e demanda agregada, comparação Brasil e outros países.",
+    "foreign": ["Entender o comportamento da economia agregada", "Aplicar ferramentas macroeconômicas a questões em contexto internacional", "Analisar criticamente questões econômicas atuais"],
+    "convergences": ["Agregados econômicos e contas nacionais", "Moeda, inflação e desemprego", "Setor externo", "Demanda e oferta agregadas", "Políticas fiscal e monetária"],
+    "differences": ["Mackenzie propõe discussão da conjuntura brasileira e comparação entre Brasil e outros países", "SolBridge segue o Mankiw (6ª ed.), com crescimento, poupança e ferramentas de finanças não listados na ficha brasileira"]
+  },
+  "depth": {
+    "level": "Graduação introdutória; Mackenzie na 3ª etapa, BUS110 Core Foundation com pré-requisito BUS109",
+    "brazil": "Macroeconomia de 63,3 h, oito enunciados",
+    "foreign": "Introduction to Macroeconomics de 45 horas de contato em 15 semanas (syllabus 2016), texto de Mankiw",
+    "theoryPractice": "Aulas expositivas e exercícios, tarefa individual e uso de Moodle"
+  },
+  "practical": {
+    "period": "15 semanas; semestre de oferta não indicado no syllabus de 2016; 2027.2 não confirmado",
+    "language": "Inglês (IELTS 5.5 ou equivalente, conforme catálogo de universidades)",
+    "enrolment": "Disciplina do currículo BBA; abertura a estudantes de intercâmbio e vagas não verificadas",
+    "prerequisites": "BUS109 (Introduction to Microeconomics, lido em parecer separado)",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introduction to Macroeconomics acompanha quase toda a sequência da ficha Mackenzie com semanas nomeadas (contas nacionais, oferta e demanda agregadas, moeda, inflação, setor externo, políticas fiscal e monetária); só a conjuntura nacional brasileira fica sem correspondente direto.",
+  "justification": "Sete dos oito enunciados estão cobertos por semanas identificadas (1-2, 3-5, 7-9, 10, 11, 12 e 13) e a discussão da conjuntura nacional é parcial, pois a semana 14 debate política macroeconômica de modo geral. Em conteúdo, o par seria candidato a alta afinidade; a classe é afinidade parcial porque as 45 horas de contato dão razão de 0,71 sobre as 63,3 h de Mackenzie (0,59 com hora de 50 min), abaixo de 75%, a ficha brasileira não tem vigência confirmada e o syllabus é de 2016. O documento também descreve o curso como de microeconomia, contradição com o título e com o cronograma, que são de macroeconomia.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Cronograma semanal claro e título coincidente, mas documento de 2016 com texto de descrição incoerente e ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Syllabus de 2016; a Course Description e a Learning Objective 2 falam de microeconomia, em contradição com o título e o cronograma de macroeconomia (anomalia do documento)",
+    "Horas de contato (45) declaradas sem a duração da hora; razão 0,71, ou 0,59 com hora de 50 min; Credit 3 não é convertido",
+    "A discussão da conjuntura nacional brasileira não é transferível a uma disciplina de universidade coreana",
+    "Ficha Mackenzie sem ano impresso, cabeçalho do campus São Paulo (current=false)",
+    "Oferta 2027/28 não confirmada; pré-requisito BUS109 pode exigir plano de estudos",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "SolBridge pode confirmar a descrição correta de BUS110, já que o texto atual descreve microeconomia?",
+    "A coordenação de Administração aceita a ausência da conjuntura nacional em disciplina estrangeira?"
+  ],
+  "alternatives": [
+    {"code": "BUS109", "name": "Introduction to Microeconomics", "relation": "Pré-requisito de BUS110; lido no parecer de Microeconomia Aplicada aos Negócios, não é alternativa à macroeconomia"}
+  ],
+  "method": "Leitura integral do syllabus conciso BUS110 (2016) e da ficha Mackenzie com apoio de IA (Claude); cada enunciado vinculado a semana do cronograma; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Classe limitada por horas e vigência; cobertura de conteúdo explícita"}
+}

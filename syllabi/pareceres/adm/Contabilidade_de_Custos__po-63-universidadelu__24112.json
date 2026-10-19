@@ -1,0 +1,186 @@
+{
+  "id": "adm|Contabilidade de Custos|po-63-universidadelu|24112",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "adm",
+    "code": "Contabilidade de Custos",
+    "name": "Contabilidade de Custos",
+    "courseName": "Administração",
+    "stage": 4,
+    "kind": "obrigatoria",
+    "campus": "Alphaville (vínculo pela página oficial da matriz; a ficha traz cabeçalho do campus São Paulo)",
+    "documentYear": null,
+    "documentTitle": "Ficha de componente curricular CCSA — 4º Semestre (Etapa_4_02.pdf), sem ano de vigência impresso",
+    "source": "https://www.mackenzie.br/fileadmin/user_upload/Etapa_4_02.pdf",
+    "sha256": "77639aecfeb51524ac26c9dd0fe49855180c27b280b43de52302dc649a337a52",
+    "location": "PDF p. 3, bloco 'Contabilidade de Custos': carga horária, ementa e Conteúdo Programático",
+    "language": "Português",
+    "prerequisites": "Não informados na ficha",
+    "hours": {
+      "value": 63.3,
+      "unit": "hora_relogio",
+      "basis": "semestre",
+      "note": "Ficha declara 63,3 h. Sem ano impresso; vigência para Alphaville não confirmada (current=false)."
+    },
+    "topics": [
+      "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "Custos Fixos e Variáveis)",
+      "Métodos de contabilização de estoques",
+      "Custeio por Absorção (Com e sem Departamentalização)",
+      "Custeio Variável",
+      "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "Tributos sobre a Receita e formação de preços",
+      "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "Etapas do processo orçamentário"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-63-universidadelu",
+      "university": "Universidade Lusíada de Lisboa (Fundação Minerva)",
+      "code": "24112",
+      "name": "Contabilidade de Gestão",
+      "pageCode": "24112",
+      "faculty": "Faculdade de Ciências da Economia e da Empresa",
+      "programme": "Licenciatura em Gestão de Empresa (Lisboa); área científica Contabilidade de Gestão",
+      "level": "Licenciatura (o campo 'Ciclo' da ficha não foi extraído; a matriz oficial publicada é de 1º ciclo)",
+      "yearOfStudy": 2,
+      "semester": 1,
+      "period": "1º semestre",
+      "academicYear": "2025/2026",
+      "language": "Português",
+      "courseStatus": "Não indicado na ficha",
+      "assessment": "Dois testes intercalares, presença mínima e frequência final, conforme o regime geral de avaliação",
+      "prerequisites": "Não indicados na ficha",
+      "source": "https://sv.lis.ulusiada.pt/DocsPDF/p_24112_2025.pdf",
+      "catalogue": "https://www.lis.ulusiada.pt/cursos/2025-2026/1%C2%BAciclo%E2%80%93licenciaturasemestradosintegrados/gest%C3%A3odeempresa.aspx",
+      "sha256": "4641ecb648831e4b0ff77e9a5d23db8c9bdcf61d7aebde635288ee35d81a5459",
+      "location": "Ficha 'Programa da Unidade Curricular' 2025/2026 (emitida em 28/07/2025): itens 8-9 (carga horária, ECTS), 14-16 (objetivos, competências), 17 (metodologia), 18 (conteúdos programáticos), 19 (avaliação), 23-24 (bibliografia)",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": 6.0,
+        "basis": null,
+        "hourLengthMinutes": null,
+        "note": "O item 8 traz os valores 30,00, 20,00 e 6,00 sem associação legível a cada tipo de aula (teórica, prática, teórico-prática, tutorial); nenhum total de contacto é explícito, e nenhum valor foi atribuído."
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Conceitos e terminologia de Custos (Custos e Despesas, Custos Diretos e Indiretos,",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conteúdos: 'Custos do Produto e Custos do Período'; 'A imputação dos custos a Objetos de Custeio: Custos Diretos e Custos Indiretos'",
+      "foreignLocation": "Item 18 (conteúdos 2 e 8); item 15 (custos indiretos e sua imputação)",
+      "note": "O primeiro item brasileiro foi partido em duas linhas pela extração do PDF e continua no tópico seguinte. Custos do período correspondem às despesas."
+    },
+    {
+      "brTopic": "Custos Fixos e Variáveis)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Comportamento dos custos face a variações da atividade'; objetivo: 'diferentes padrões de variabilidade dos custos face a diferentes níveis de atividade'",
+      "foreignLocation": "Item 18 (conteúdo 4); item 15"
+    },
+    {
+      "brTopic": "Métodos de contabilização de estoques",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Valorar inventários e cálculo dos resultados'; 'Valoração da Produção não Acabada'; objetivo 'formas de valorar inventários'",
+      "foreignLocation": "Item 18 (conteúdos 3 e 11); item 15"
+    },
+    {
+      "brTopic": "Custeio por Absorção (Com e sem Departamentalização)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "'Sistemas de Custeio'; 'O Método das Secções Homogéneas'; 'Método Direto e Método Indireto de determinação do Custo de Produção'",
+      "foreignLocation": "Item 18 (conteúdos 5, 9 e 10); item 14",
+      "note": "Secções homogéneas correspondem à departamentalização (rateio por centros); a expressão 'absorção' não aparece e é inferida de 'sistemas de custeio' e do cálculo do custo de produção."
+    },
+    {
+      "brTopic": "Custeio Variável",
+      "essential": true,
+      "status": "parcial",
+      "foreignEvidence": "'Sistemas de Custeio'; objetivo geral: 'implicações de diferentes sistemas de custeio nos inventários e nos resultados'",
+      "foreignLocation": "Item 18 (conteúdo 5); item 14",
+      "note": "Os sistemas de custeio não são listados; o custeio variável é provável, não comprovado."
+    },
+    {
+      "brTopic": "Relações Custo/Volume/Lucro (Alavancagem, Ponto de Equilíbrio)",
+      "essential": true,
+      "status": "coberto",
+      "foreignEvidence": "Conteúdo 'Análise C/V/R'; objetivo 'Compreender o alcance, utilidade e limitações da Análise CVR'",
+      "foreignLocation": "Item 18 (conteúdo 6); item 15",
+      "note": "Alavancagem e ponto de equilíbrio não são nomeados; a análise CVR é o conteúdo declarado."
+    },
+    {
+      "brTopic": "Tributos sobre a Receita e formação de preços",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 e 23-24 completos; sem tributos sobre a receita nem formação de preços"
+    },
+    {
+      "brTopic": "Planejamento financeiro e Orçamento (Curto e Longo Prazo)",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; 'Construir e utilizar informação de apoio à decisão' é genérico e não nomeia orçamento"
+    },
+    {
+      "brTopic": "Etapas do processo orçamentário",
+      "essential": true,
+      "status": "nao_encontrado",
+      "scopeExamined": "Itens 14-18 completos; sem orçamento nem processo orçamentário"
+    }
+  ],
+  "additionalForeignTopics": [
+    {"topic": "Produção conjunta: determinação de custos e resultados", "location": "Item 18, conteúdo 7"},
+    {"topic": "Custeio baseado nas atividades (ABC)", "location": "Item 18, conteúdo 12"},
+    {"topic": "Objetivos da contabilidade de gestão", "location": "Item 18, conteúdo 1"}
+  ],
+  "competencies": {
+    "brazil": "Ementa: papel da contabilidade gerencial, comportamento de custos e despesas, custos de produtos e processos por métodos diretos e de absorção, ponto de equilíbrio, formação de preços e tributos, orçamento.",
+    "foreign": ["Calcular o custo de produção de produtos e serviços", "Valorar inventários e calcular resultados", "Imputar custos indiretos a objetos de custeio", "Aplicar a análise CVR e construir informação de apoio à decisão"],
+    "convergences": ["Custos por natureza e comportamento", "Valoração de estoques e custeio", "Análise custo-volume-resultado"],
+    "differences": ["Lusíada acrescenta produção conjunta e ABC", "Mackenzie inclui tributos sobre a receita, formação de preços e todo o bloco de orçamento, ausentes aqui"]
+  },
+  "depth": {
+    "level": "Licenciatura em Gestão de Empresa, 2º ano; Mackenzie na 4ª etapa",
+    "brazil": "Contabilidade gerencial de 63,3 h com custeio, CVL, preços e orçamento",
+    "foreign": "Contabilidade de gestão de 12 conteúdos centrados em custos e resultados, sem orçamentação",
+    "theoryPractice": "Metodologia expositiva e participativa com resolução de casos e autoestudo"
+  },
+  "practical": {
+    "period": "1º semestre (ficha 2025/2026); oferta em 2027.2 não confirmada",
+    "language": "Português",
+    "enrolment": "Disponibilidade para mobilidade incoming a confirmar com a Universidade Lusíada",
+    "prerequisites": "Nenhum indicado",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Contabilidade de Gestão da Lusíada cobre o núcleo de custos da ficha Mackenzie (conceitos, comportamento, estoques, secções homogéneas, CVR), mas não trata tributos, formação de preços nem orçamento; cobertura parcial.",
+  "justification": "Cinco dos nove enunciados têm conteúdo identificável no item 18 (custos do produto/período e diretos/indiretos, comportamento dos custos, valoração de inventários, secções homogéneas e Análise C/V/R), um é parcial (custeio variável, só inferido de 'Sistemas de Custeio') e três faltam (tributos e preços, planejamento financeiro e orçamento, etapas orçamentárias). Cobertos mais parciais somam 67%, o que sustenta afinidade parcial. A ficha é de 2025/2026, sem total de contacto legível (apenas 6 ECTS e valores soltos no item 8), e a ficha Mackenzie não tem vigência confirmada.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "Lista de conteúdos de 12 itens e objetivos claros, mas sem subitens; horas de contacto ilegíveis, ficha de 2025/2026 e ficha brasileira sem vigência confirmada.",
+  "limitations": [
+    "Ficha lusíada de 2025/2026 (emitida em 28/07/2025); ficha de 2026/2027 não vista",
+    "Horas de contacto não legíveis: valores 30,00 e 20,00 no item 8 sem rótulo associado; 6 ECTS não convertidos",
+    "Oferta 2027/28 não confirmada",
+    "Ficha Mackenzie sem ano impresso e com cabeçalho São Paulo; primeiro tópico partido em duas linhas na extração",
+    "Orçamento pode estar em outra UC da Lusíada, não lida",
+    "Parecer preliminar independente; decisão compete à coordenação de Administração e à COI"
+  ],
+  "openQuestions": [
+    "Qual a associação dos valores de carga horária (30, 20) do item 8 aos tipos de aula?",
+    "Os 'Sistemas de Custeio' incluem custeio variável e custeio por absorção?",
+    "Existe outra UC lusíada de controlo de gestão/orçamentação?"
+  ],
+  "alternatives": [],
+  "method": "Leitura integral da ficha Mackenzie e do programa oficial da UC (2025/2026) da Universidade Lusíada de Lisboa, com apoio de IA (Claude); título conferido com o catálogo ('Contabilidade de gestão'); cada tópico vinculado ao conteúdo da ficha; coerência verificada por scripts/build_pareceres.py --check",
+  "reviewedAt": "2026-10-17",
+  "secondReview": {"required": false, "reason": "Correspondência itemizada e consistente"}
+}
