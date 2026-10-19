@@ -1,3 +1,9 @@
+# Local flag comparison mock — 2026-10-19
+
+- Branch: fix/flag-preview. Local preview: http://127.0.0.1:3002/teste-bandeiras (server session 52327).
+- User requested original colors alongside MackJr palette before applying changes. Compare 21 countries in light headers, dark cards and a complete contact sheet. Production CountryFlag and original SVG assets remain unchanged. No push or deployment.
+- Commits: 5909258 (failing regression), 75b1b06 (implementation). Full 96 tests, lint and build passed. Browser verified 50 loaded images and no CSS filters; visual snapshot: .cache/flag-preview.jpg.
+- Await user preference before integrating either option into the main site. Preserve existing untracked directories.
 # Published checkpoint — 2026-10-19
 
 - PR #2 was created as draft, checks passed, marked ready and merged: https://github.com/kenzofujimoto/fluxo-continuo/pull/2 . Merge commit9dd145a67987c4445fd82249d753bfe7ea00851a; origin/main then auto-generated a coverage timestamp-only commitd1db2bc. Local branch fast-forwarded to that state before this documentation checkpoint.
@@ -143,3 +149,4 @@ Branch: `feature/pareceres-curriculares`. Nada foi publicado em `main`; a Vercel
 - Na Bash deste ambiente, heredocs podem alterar barras invertidas: escrever código com a ferramenta de edição.
 - `python -m http.server` + navegador mantêm JS em cache; recarregue sem cache ao testar.
 - Nenhum parecer é homologação; não alterar `institutionalStatus` sem documento formal.
+
