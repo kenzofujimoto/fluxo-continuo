@@ -279,13 +279,21 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
     # Additional official Brazilian ementários (Administração, Direito 2022) with explicit currency flags.
     courses = {c["id"]: c for c in data["courses"]}
     by_course = {}
-    for src in brazil_registry():
+    for src in sorted(brazil_registry(), key=lambda item: bool(item.get("onlyMissing"))):
         url = src["url"]
         if manifest.get(url, {}).get("status") != "lido" or not text_path(url).exists():
             continue
         txt = text_path(url).read_text(encoding="utf-8")
         pages = txt.split("\n\f\n")
+        course = courses[src["courseId"]]
+        existing = match_ficha_rows(course, by_course.get(src["courseId"], []))
         for b in parse_ficha_blocks(txt.replace("\n\f\n", "\n")):
+            identities = match_ficha_rows(course, [b])
+            allowed = src.get("matchOnlyCodes")
+            if allowed is not None and not any(code in allowed for code in identities):
+                continue
+            if src.get("onlyMissing") and (not identities or any(code in existing for code in identities)):
+                continue  # Supplemental sources cannot make an existing exact match ambiguous.
             b["src"] = src
             b["page"] = next((i for i, pg in enumerate(pages, 1) if canonical(b["name"]) in canonical(pg)), None)
             by_course.setdefault(src["courseId"], []).append(b)
