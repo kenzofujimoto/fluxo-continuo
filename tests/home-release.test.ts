@@ -8,10 +8,17 @@ test("official home presents interactive globe before direct course destinations
   assert.match(source, /Seu próximo semestre/);
   assert.match(source, /mais longe/);
   assert.match(source, /<PreviewGlobe/);
-  assert.ok(source.indexOf("<PreviewGlobe") < source.indexOf('className="course-grid"'));
+  assert.ok(
+    source.indexOf("<PreviewGlobe") < source.indexOf('className="course-grid"'),
+  );
   assert.match(source, /href=\{`\/disciplinas\?curso=\$\{course.id\}`\}/);
   assert.equal(getRepository().courses.length, 4);
-  for (const removed of ["stats-strip", "ReviewCard", "missingPriority", "stage-picker"]) {
+  for (const removed of [
+    "stats-strip",
+    "ReviewCard",
+    "missingPriority",
+    "stage-picker",
+  ]) {
     assert.ok(!source.includes(removed), `Home must not include ${removed}`);
   }
 });
