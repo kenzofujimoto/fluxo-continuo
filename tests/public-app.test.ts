@@ -220,7 +220,10 @@ test("local flag comparison preserves country color roles in all 21 preview asse
 
 test("country flags preserve original asset colors without duotone filters", () => {
   const component = readFileSync("app/country-flag.tsx", "utf8");
-  assert.doesNotMatch(component, /<filter|feColorMatrix|feComponentTransfer|filter=/);
+  assert.doesNotMatch(
+    component,
+    /<filter|feColorMatrix|feComponentTransfer|filter=/,
+  );
   assert.match(component, /\/flags\/\$\{normalizedCode\}\.svg/);
   assert.match(component, /availableFlags\.has\(normalizedCode\)/);
 });
@@ -239,6 +242,9 @@ test("simplified home preview keeps two entry points and isolates the interactiv
   assert.match(globe, /<select/);
   assert.match(globe, /aria-live="polite"/);
   for (const source of [page, globe])
-    assert.doesNotMatch(source, /ReviewCard|stats-strip|course-grid|hero-destination-list|locationNote|catalogCount/);
+    assert.doesNotMatch(
+      source,
+      /ReviewCard|stats-strip|course-grid|hero-destination-list|locationNote|catalogCount/,
+    );
   assert.match(readFileSync("app/page.tsx", "utf8"), /stats-strip/);
 });
