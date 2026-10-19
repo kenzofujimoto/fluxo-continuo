@@ -228,23 +228,23 @@ test("country flags preserve original asset colors without duotone filters", () 
   assert.match(component, /availableFlags\.has\(normalizedCode\)/);
 });
 
-test("simplified home preview keeps two entry points and isolates the interactive globe", () => {
+test("course home offers four courses, stage selection and study planning without dense globe content", () => {
   const page = readFileSync("app/teste-inicio/page.tsx", "utf8");
-  const globe = readFileSync("app/teste-inicio/preview-globe.tsx", "utf8");
-  assert.match(page, /Seu próximo semestre/);
-  assert.match(page, /mais longe/);
-  assert.match(page, /href="\/universidades"/);
-  assert.match(page, /href="\/comparacoes"/);
-  assert.match(page, /getDestinations\(\)/);
-  assert.match(globe, /import\("\.\.\/globe-canvas"\)/);
-  assert.match(globe, /ssr: false/);
-  assert.match(globe, /onSelect=\{setSelectedId\}/);
-  assert.match(globe, /<select/);
-  assert.match(globe, /aria-live="polite"/);
-  for (const source of [page, globe])
-    assert.doesNotMatch(
-      source,
-      /ReviewCard|stats-strip|course-grid|hero-destination-list|locationNote|catalogCount/,
-    );
-  assert.match(readFileSync("app/page.tsx", "utf8"), /stats-strip/);
+  assert.match(page, /CourseEntry/);
+  const entry = readFileSync("app/teste-inicio/course-entry.tsx", "utf8");
+  assert.match(entry, /teste-plano/);
+  assert.match(entry, /teste-candidatura/);
+  assert.match(entry, /etapa/);
+  assert.doesNotMatch(page + entry, /PreviewGlobe|stats-strip|ReviewCard/);
+});
+
+test("stage filters use exact curriculum stages and preserve unknown stages separately", async () => {
+  const { filterByStage, parseStage, availableStages } = await import("../lib/stages");
+  const rows = [{ row: { semester: 1 } }, { row: { semester: 2 } }, { row: {} }];
+  assert.deepEqual(filterByStage(rows, "2"), [rows[1]]);
+  assert.deepEqual(filterByStage(rows, "nao-informada"), [rows[2]]);
+  assert.deepEqual(filterByStage(rows, ""), rows);
+  assert.equal(parseStage("25"), "");
+  assert.equal(parseStage("1.5"), "");
+  assert.deepEqual(availableStages(getRepository().courses.find(course => course.id === "dir")!.rows), [1,2,3,4,5,6,7,8,9,10]);
 });
