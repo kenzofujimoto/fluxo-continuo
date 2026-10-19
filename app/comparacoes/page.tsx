@@ -1,3 +1,4 @@
+import { filteredPageMetadata } from "../../lib/page-metadata";
 import Link from "next/link";
 import { getRepository, normalize } from "../../lib/data";
 import {
@@ -11,7 +12,13 @@ import {
   queryValue,
   type Query,
 } from "../ui";
-export const metadata = { title: "Comparar ementas" };
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Query>;
+}) {
+  return filteredPageMetadata("Comparar ementas", await searchParams);
+}
 export default async function Comparisons({
   searchParams,
 }: {

@@ -1,3 +1,4 @@
+import { filteredPageMetadata } from "../../lib/page-metadata";
 import Link from "next/link";
 import { availableStages, filterByStage, parseStage } from "../../lib/stages";
 import {
@@ -17,7 +18,13 @@ import {
   queryValue,
   type Query,
 } from "../ui";
-export const metadata = { title: "Disciplinas" };
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Query>;
+}) {
+  return filteredPageMetadata("Disciplinas", await searchParams);
+}
 export default async function Disciplines({
   searchParams,
 }: {

@@ -13,6 +13,18 @@ import {
   queryValue,
   type Query,
 } from "../../ui";
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const university = getRepository().universities.find(
+    (item) => item.id === id,
+  );
+  if (!university) notFound();
+  return { title: university.name };
+}
 export default async function UniversityDetail({
   params,
   searchParams,
@@ -139,7 +151,9 @@ export default async function UniversityDetail({
                     {item.sourceEligibility === "outside_agreement" && (
                       <p>Fora do escopo do acordo</p>
                     )}
-                    {item.limitations && <p className="muted">{item.limitations}</p>}
+                    {item.limitations && (
+                      <p className="muted">{item.limitations}</p>
+                    )}
                   </td>
                   <td>
                     {item.period || "Período a confirmar"}

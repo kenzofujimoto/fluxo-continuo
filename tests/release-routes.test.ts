@@ -22,7 +22,8 @@ test("published guide exposes official sources and application form without prev
 });
 
 test("published planner renders the requested course and stage with official navigation", async () => {
-  const { default: Planning, metadata } = await import("../app/plano/page");
+  const { default: Planning, generateMetadata } =
+    await import("../app/plano/page");
   const page = await Planning({
     searchParams: Promise.resolve({ curso: "cc", etapa: "2" }),
   });
@@ -33,7 +34,14 @@ test("published planner renders the requested course and stage with official nav
   assert.match(html, /href="\/"/);
   assert.match(html, /value="2" selected=""/);
   assert.doesNotMatch(html, /teste-|prévia/i);
-  assert.doesNotMatch(JSON.stringify(metadata), /false|prévia|Pr\\u00e9via/i);
+  assert.doesNotMatch(
+    JSON.stringify(
+      await generateMetadata({
+        searchParams: Promise.resolve({ curso: "cc" }),
+      }),
+    ),
+    /false|prévia|Pr\\u00e9via/i,
+  );
   const fallback = await Planning({
     searchParams: Promise.resolve({ curso: "invalid", etapa: "999" }),
   });

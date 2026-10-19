@@ -2,6 +2,16 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getComparison, label } from "../../../lib/data";
 import { Badge, Heading, Source, conclusionTone } from "../../ui";
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const review = getComparison(id);
+  if (!review) notFound();
+  return { title: `${review.brazil.name} · ${review.foreign[0].university}` };
+}
 export default async function ComparisonDetail({
   params,
 }: {

@@ -7,6 +7,16 @@ import {
   label,
 } from "../../../../lib/data";
 import { Badge, Heading, ReviewCard, Source } from "../../../ui";
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ course: string; code: string }>;
+}) {
+  const { course, code } = await params;
+  const discipline = getDiscipline(course, code);
+  if (!discipline) notFound();
+  return { title: `${discipline.row.name} · ${discipline.course.name}` };
+}
 export default async function DisciplineDetail({
   params,
 }: {

@@ -1,3 +1,4 @@
+import { filteredPageMetadata } from "../../lib/page-metadata";
 import Link from "next/link";
 import {
   disciplinePath,
@@ -16,7 +17,13 @@ import {
   queryValue,
   type Query,
 } from "../ui";
-export const metadata = { title: "Biblioteca de ementas" };
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Query>;
+}) {
+  return filteredPageMetadata("Biblioteca de ementas", await searchParams);
+}
 export default async function Syllabi({
   searchParams,
 }: {
@@ -151,7 +158,9 @@ export default async function Syllabi({
                         {item.sourceEligibility === "outside_agreement" && (
                           <p>Fora do escopo do acordo</p>
                         )}
-                        {item.limitations && <p className="muted">{item.limitations}</p>}
+                        {item.limitations && (
+                          <p className="muted">{item.limitations}</p>
+                        )}
                       </td>
                       <td>
                         <Source url={record?.source ?? item.source} />
