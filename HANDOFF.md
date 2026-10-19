@@ -1,3 +1,11 @@
+# Published globe + course home — 2026-10-19
+
+- User approved final release: interactive globe above four course links, stage filtering on /disciplinas, official /candidatura and /plano. Original flag colors included.
+- PR #3 updated from flags-only scope, all checks passed, merged c2d934cc28beec6480008af5933f54e5753ce5cd: https://github.com/kenzofujimoto/fluxo-continuo/pull/3 . Local branch fast-forwarded to origin/main after merge.
+- Production Ready: dpl_AJeQbwH6Q69FrDMdrFQ7uRGPsJnP, fluxo-continuo-pwvuzc29k-kenzofujimotos-projects.vercel.app, alias https://fluxo-continuo.vercel.app/ . Published by Git integration, no duplicate manual deployment.
+- 27 TS +85 Python tests passed; lint/type checks/build passed. GitHub full validation run39253148791 passed (academic data, source audit, parsers, all tests).
+- Public HTTP200/content verified home (all four course hrefs), /candidatura (Forms and explicit date discrepancy), /plano?curso=cc&etapa=2, /disciplinas?curso=cc&etapa=2 (six subjects). Evidence .cache/home-release-public-checks.json. Browser visually confirmed globe rendering; screenshot .cache/home-release-official.jpg.
+- Preserve untracked .claude/, .playwright-mcp/ and ignored .cache/. This post-release documentation commit is local only; published code is merged PR #3.
 # Course / application / study-plan previews — 2026-10-19
 
 - Approved local scope implemented: /teste-inicio (four courses + exact stage filter), /teste-candidatura (official-source guide, local checklist and Forms), /teste-plano (pending subject selection and distinct documented matching). Existing app/page.tsx, layout and global styles unchanged; /disciplinas now accepts etapa.
@@ -163,6 +171,7 @@ Branch: `feature/pareceres-curriculares`. Nada foi publicado em `main`; a Vercel
 - Na Bash deste ambiente, heredocs podem alterar barras invertidas: escrever código com a ferramenta de edição.
 - `python -m http.server` + navegador mantêm JS em cache; recarregue sem cache ao testar.
 - Nenhum parecer é homologação; não alterar `institutionalStatus` sem documento formal.
+
 
 
 
