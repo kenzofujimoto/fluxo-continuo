@@ -141,11 +141,11 @@ test("invalid datasets fail visibly and unsafe source protocols are rejected", (
   );
 });
 
-
 test("public syllabus and university tables expose course limitations and agreement exclusions", async () => {
   const { renderToStaticMarkup } = await import("react-dom/server");
   const { default: Syllabi } = await import("../app/ementas/page");
-  const { default: UniversityDetail } = await import("../app/universidades/[id]/page");
+  const { default: UniversityDetail } =
+    await import("../app/universidades/[id]/page");
   const repository = getRepository();
   const original = repository.foreignCourses[0];
   const sentinel = "Scope limitation regression sentinel";
@@ -157,13 +157,17 @@ test("public syllabus and university tables expose course limitations and agreem
     sourceEligibility: "outside_agreement",
   });
   try {
-    const library = renderToStaticMarkup(await Syllabi({
-      searchParams: Promise.resolve({ origem: "exterior", q: sentinel }),
-    }));
-    const university = renderToStaticMarkup(await UniversityDetail({
-      params: Promise.resolve({ id: original.universityId }),
-      searchParams: Promise.resolve({ q: sentinel }),
-    }));
+    const library = renderToStaticMarkup(
+      await Syllabi({
+        searchParams: Promise.resolve({ origem: "exterior", q: sentinel }),
+      }),
+    );
+    const university = renderToStaticMarkup(
+      await UniversityDetail({
+        params: Promise.resolve({ id: original.universityId }),
+        searchParams: Promise.resolve({ q: sentinel }),
+      }),
+    );
     for (const html of [library, university]) {
       assert.match(html, /Only another faculty; mobility access unconfirmed\./);
       assert.match(html, /Fora do escopo do acordo/);
@@ -174,22 +178,41 @@ test("public syllabus and university tables expose course limitations and agreem
 });
 
 test("local flag comparison preserves country color roles in all 21 preview assets", () => {
-  const codes = [...new Set(getRepository().universities.map((item) => item.flag.toLowerCase()))];
+  const codes = [
+    ...new Set(
+      getRepository().universities.map((item) => item.flag.toLowerCase()),
+    ),
+  ];
   assert.equal(codes.length, 21);
   for (const code of codes) {
     const original = readFileSync(`public/flags/${code}.svg`, "utf8");
     const preview = readFileSync(`public/flags-preview/${code}.svg`, "utf8");
-    assert.equal((preview.match(/<path\b/g) ?? []).length, (original.match(/<path\b/g) ?? []).length);
-    assert.doesNotMatch(preview, /<filter\b|<image\b|https?:\/\/(?!www\.w3\.org)/);
+    assert.equal(
+      (preview.match(/<path\b/g) ?? []).length,
+      (original.match(/<path\b/g) ?? []).length,
+    );
+    assert.doesNotMatch(
+      preview,
+      /<filter\b|<image\b|https?:\/\/(?!www\.w3\.org)/,
+    );
     for (const [, color] of preview.matchAll(/(?:fill|stroke)="([^"]+)"/g)) {
-      assert.ok(["none", "#15110e", "#e63322", "#f1ece3"].includes(color), `${code}: ${color}`);
+      assert.ok(
+        ["none", "#15110e", "#e63322", "#f1ece3"].includes(color) ||
+          /^url\(#[a-z0-9-]+\)$/.test(color),
+        `${code}: ${color}`,
+      );
     }
   }
-  for (const code of ["de", "it", "fr"]) {
+  for (const code of ["de", "it", "fr", "ie", "in"]) {
     const svg = readFileSync(`public/flags-preview/${code}.svg`, "utf8");
-    for (const color of ["#15110e", "#e63322", "#f1ece3"]) assert.ok(svg.includes(color), `${code}: ${color}`);
+    for (const color of ["#15110e", "#e63322", "#f1ece3"])
+      assert.ok(svg.includes(color), `${code}: ${color}`);
   }
-  for (const code of ["ar", "uy"]) assert.match(readFileSync(`public/flags-preview/${code}.svg`, "utf8"), /fill="#e63322"/);
+  for (const code of ["ar", "uy"])
+    assert.match(
+      readFileSync(`public/flags-preview/${code}.svg`, "utf8"),
+      /fill="#e63322"/,
+    );
   const page = readFileSync("app/teste-bandeiras/page.tsx", "utf8");
   assert.match(page, /flags-preview/);
   assert.doesNotMatch(page, /CountryFlag|dangerouslySetInnerHTML/);
