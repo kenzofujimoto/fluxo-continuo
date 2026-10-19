@@ -15,7 +15,9 @@ def main():
     foreign=read("syllabi/records.json")["foreign"]
     br=read("syllabi/mackenzie-docs.json")["rows"]
     comparison=read("syllabi/comparacoes.json")
-    manual=read("syllabi/revisoes-ementas.json")["reviews"]
+    legacy_manual=read("syllabi/revisoes-ementas.json")["reviews"]
+    manual=read("syllabi/pareceres-index.json")["pareceres"]
+    programs=read("syllabi/programas.json")["brazil"]
     udata={u["id"]:u for u in database["universities"]}
     courses={c["id"]:c for c in database["courses"]}
     by_uni=collections.defaultdict(list)
@@ -48,23 +50,32 @@ def main():
         items=candidate_by_course[cid]
         official=by_course[cid]
         pending=[{"code":r.get("id"),"name":r["name"],"semester":r.get("semester"),"status":br_index.get((cid,str(r.get("id") or r["name"]).casefold()),{}).get("status","ementario_oficial_atual_pendente")} for r in c["rows"] if br_index.get((cid,str(r.get("id") or r["name"]).casefold()),{}).get("status")!="ementa_oficial_correspondente"]
+        linked_rows=[r for r in c["rows"] if programs.get(f"{cid}|{r.get('id') or r['name']}",{}).get("officialSyllabus") is True]
+        pending_linked=[{"code":r.get("id"),"name":r["name"],"semester":r.get("semester")} for r in c["rows"] if programs.get(f"{cid}|{r.get('id') or r['name']}",{}).get("officialSyllabus") is not True]
         phases=collections.Counter(x["phase"] for x in items)
         courses_out.append({"id":cid,"name":c["name"],"components":len(c["rows"]),"officialSyllabiMatched":official,
               "officialSyllabiPending":len(c["rows"])-official,"pendingSubjects":pending,
               "candidates":len(items),"candidatePhases":dict(phases),
-              "individualReviews":sum(x["courseId"]==cid for x in manual)})
+              "linkedBrazilianSyllabi":len(linked_rows),"withoutBrazilianSyllabus":len(pending_linked),
+              "pendingBrazilianSubjects":pending_linked,
+              "individualReviews":sum(x.get("brazil",{}).get("courseId")==cid for x in manual)})
     report={"generated":dt.datetime.now(dt.timezone.utc).isoformat(),"definitions":{
        "individualSyllabus":"Automated document identity + syllabus criteria; independent human audit pending.",
        "withoutIndividualSyllabus":"A course is indexed but individual syllabus not established.",
        "withIndividualButMissingHours":"Individual syllabus found but contact hours not extracted.",
        "officialSyllabiMatched":"Mackenzie source title matched to current matrix; 2025 applicability needs confirmation.",
+       "linkedBrazilianSyllabi":"Registered Brazilian components with an explicitly linked official syllabus; historical applicability may remain unconfirmed.",
+       "withoutBrazilianSyllabus":"Registered Brazilian components without officialSyllabus true in the extracted programme registry.",
+       "manualReviews":"Current dossiers from pareceres-index; legacy review records reported separately.",
        "candidatePhases":"Source availability only, not equivalence verdict."
        },"metrics":{"foreignTotal":len(foreign),"foreignIndividual":sum(x["status"]=="ementa_individual" for x in foreign),
           "foreignMissingIndividual":sum(x["status"]!="ementa_individual" for x in foreign),
           "foreignIndividualMissingHours":sum(x["status"]=="ementa_individual" and x.get("contactHours") is None for x in foreign),
           "mackTotal":sum(len(c["rows"]) for c in database["courses"]),"mackVerified":sum(by_course.values()),
           "registeredCandidates":len(comparison["registered"]),"bothSyllabiCandidates":sum(x["phase"]=="topicos_preliminares_disponiveis" for x in comparison["registered"]),
-          "manualReviews":len(manual),"institutionalApprovals":0},"universities":institutions,"mackenzieCourses":courses_out}
+          "manualReviews":len(manual),"legacyManualReviews":len(legacy_manual),
+          "linkedBrazilianSyllabi":sum(c["linkedBrazilianSyllabi"] for c in courses_out),
+          "withoutBrazilianSyllabus":sum(c["withoutBrazilianSyllabus"] for c in courses_out),"institutionalApprovals":0},"universities":institutions,"mackenzieCourses":courses_out}
     write("syllabi/coverage-report.json",report)
     assert report["metrics"]["foreignTotal"]==len(json.loads((ROOT/"data.json").read_text(encoding="utf-8"))["foreignCourses"])
     assert report["metrics"]["registeredCandidates"]==725
