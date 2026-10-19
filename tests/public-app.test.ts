@@ -239,12 +239,39 @@ test("course home offers four courses, stage selection and study planning withou
 });
 
 test("stage filters use exact curriculum stages and preserve unknown stages separately", async () => {
-  const { filterByStage, parseStage, availableStages } = await import("../lib/stages");
-  const rows = [{ row: { semester: 1 } }, { row: { semester: 2 } }, { row: {} }];
+  const { filterByStage, parseStage, availableStages } =
+    await import("../lib/stages");
+  const rows = [
+    { row: { semester: 1 } },
+    { row: { semester: 2 } },
+    { row: {} },
+  ];
   assert.deepEqual(filterByStage(rows, "2"), [rows[1]]);
   assert.deepEqual(filterByStage(rows, "nao-informada"), [rows[2]]);
   assert.deepEqual(filterByStage(rows, ""), rows);
   assert.equal(parseStage("25"), "");
   assert.equal(parseStage("1.5"), "");
-  assert.deepEqual(availableStages(getRepository().courses.find(course => course.id === "dir")!.rows), [1,2,3,4,5,6,7,8,9,10]);
+  assert.deepEqual(
+    availableStages(
+      getRepository().courses.find((course) => course.id === "dir")!.rows,
+    ),
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  );
+});
+
+test("discipline page applies a course stage to actual rendered rows", async () => {
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const { default: Disciplines } = await import("../app/disciplinas/page");
+  const html = renderToStaticMarkup(
+    await Disciplines({
+      searchParams: Promise.resolve({ curso: "cc", etapa: "2" }),
+    }),
+  );
+  const rows = searchDisciplines("", "cc");
+  assert.ok(rows.some(({ row }) => row.semester === 2));
+  for (const { row } of rows.filter(({ row }) => row.semester === 2)) {
+    assert.ok(html.includes(row.name.replaceAll("&", "&amp;")));
+  }
+  assert.doesNotMatch(html, /CC \/ 1ª etapa/);
+  assert.match(html, /CC \/ 2ª etapa/);
 });
