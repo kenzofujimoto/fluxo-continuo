@@ -1,0 +1,205 @@
+.page {
+  max-width: 1440px;
+  margin: auto;
+  padding: 36px clamp(20px, 5vw, 80px) 80px;
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+.page nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  font-size: 13px;
+}
+.page header {
+  padding: 65px 0 52px;
+  max-width: 800px;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 11px;
+  color: var(--signal);
+  font-family: var(--font-mono);
+}
+.page h1 {
+  font-size: clamp(52px, 7vw, 92px);
+  line-height: 1;
+  letter-spacing: -0.065em;
+  margin: 25px 0;
+}
+.page em {
+  font-family: var(--font-serif);
+  font-weight: 400;
+}
+.page header > p:last-child {
+  max-width: 580px;
+  line-height: 1.7;
+}
+.layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.85fr) minmax(0, 1.3fr);
+  gap: 48px;
+}
+.page h2 {
+  font-size: 23px;
+  letter-spacing: -0.04em;
+  margin: 0 0 28px;
+}
+.selection > label {
+  display: block;
+  font-size: 12px;
+  margin: 15px 0;
+}
+.page select {
+  display: block;
+  width: 100%;
+  padding: 13px;
+  margin-top: 8px;
+  background: transparent;
+  border: 1px solid #c7c0b5;
+  color: inherit;
+  font: inherit;
+  font-size: 15px;
+}
+.hint {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #625d55;
+}
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.actions button {
+  padding: 9px 12px;
+  background: transparent;
+  border: 1px solid #c7c0b5;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+}
+.actions button:hover {
+  border-color: var(--signal);
+}
+.selection > p[role] {
+  font-size: 12px;
+  margin: 22px 0;
+}
+.list {
+  max-height: 620px;
+  overflow: auto;
+  border-top: 1px solid #d4cdc2;
+}
+.row {
+  display: flex;
+  gap: 14px;
+  padding: 17px 4px;
+  border-bottom: 1px solid #d4cdc2;
+  font-size: 14px;
+  cursor: pointer;
+}
+.row input {
+  accent-color: var(--signal);
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+}
+.row small {
+  display: block;
+  color: #756d62;
+  margin-top: 7px;
+  font-size: 11px;
+}
+.card {
+  padding: 28px;
+  border: 1px solid #c7c0b5;
+  margin: 24px 0;
+  background: #eee8de;
+}
+.card h3 {
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin: 15px 0;
+}
+.score {
+  font-size: 12px;
+}
+.score strong {
+  font-size: 42px;
+  margin-right: 8px;
+}
+.card > p:not(.eyebrow):not(.score) {
+  font-size: 12px;
+  line-height: 1.7;
+}
+.card > details {
+  border-top: 1px solid #c7c0b5;
+  padding: 16px 0;
+  margin: 18px 0 0;
+}
+.page summary {
+  cursor: pointer;
+  font-size: 13px;
+}
+.evidence {
+  padding: 18px 0;
+  border-bottom: 1px solid #c7c0b5;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.evidence h4 {
+  font-size: 15px;
+  margin: 0;
+}
+.evidence > a,
+.card > a {
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.note {
+  border-left: 2px solid var(--signal);
+  padding: 4px 0 4px 18px;
+  font-size: 12px;
+  line-height: 1.8;
+  margin-top: 32px;
+}
+.empty {
+  border: 1px dashed #b8afa1;
+  padding: 45px 25px;
+  margin: 26px 0;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.empty small {
+  display: block;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.page :focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 4px;
+}
+@media (max-width: 760px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+  .page header {
+    padding: 48px 0;
+  }
+  .list {
+    max-height: 380px;
+  }
+  .page nav {
+    font-size: 11px;
+  }
+  .card {
+    padding: 22px;
+  }
+}

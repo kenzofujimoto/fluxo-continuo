@@ -4,7 +4,9 @@ import { createRequire } from "node:module";
 import { renderToStaticMarkup } from "react-dom/server";
 
 const require = createRequire(import.meta.url);
-require.extensions[".css"] = (module) => { module.exports = {}; };
+require.extensions[".css"] = (module) => {
+  module.exports = {};
+};
 
 test("published guide exposes official sources and application form without preview navigation", async () => {
   const { default: Guide, metadata } = await import("../app/candidatura/page");
@@ -21,7 +23,9 @@ test("published guide exposes official sources and application form without prev
 
 test("published planner renders the requested course and stage with official navigation", async () => {
   const { default: Planning, metadata } = await import("../app/plano/page");
-  const page = await Planning({ searchParams: Promise.resolve({ curso: "cc", etapa: "2" }) });
+  const page = await Planning({
+    searchParams: Promise.resolve({ curso: "cc", etapa: "2" }),
+  });
   assert.equal(page.props.initialCourseId, "cc");
   assert.equal(page.props.initialStage, "2");
   const html = renderToStaticMarkup(page);
@@ -30,7 +34,9 @@ test("published planner renders the requested course and stage with official nav
   assert.match(html, /value="2" selected=""/);
   assert.doesNotMatch(html, /teste-|prévia/i);
   assert.doesNotMatch(JSON.stringify(metadata), /false|prévia|Pr\\u00e9via/i);
-  const fallback = await Planning({ searchParams: Promise.resolve({ curso: "invalid", etapa: "999" }) });
+  const fallback = await Planning({
+    searchParams: Promise.resolve({ curso: "invalid", etapa: "999" }),
+  });
   assert.equal(fallback.props.initialStage, "all");
   assert.notEqual(fallback.props.initialCourseId, "invalid");
 });
