@@ -136,19 +136,33 @@ test("real transformation excludes undocumented, low, ineligible and outside-agr
   }
 });
 
-test('planner page validates incoming course and stage before initializing client selection', async () => {
- const { createRequire } = await import('node:module');
- const require=createRequire(import.meta.url);
- require.extensions['.css'] = (module) => { module.exports = {}; };
- const {default: Page, metadata}=await import('../app/teste-plano/page');
- const element=await Page({searchParams:Promise.resolve({curso:'dir',etapa:'10'})});
- assert.equal(element.props.initialCourseId,'dir');
- assert.equal(element.props.initialStage,'10');
- assert.equal(element.key,'dir:10');
- const invalid=await Page({searchParams:Promise.resolve({curso:'unknown',etapa:'999'})});
- assert.equal(invalid.props.initialCourseId,getRepository().courses[0].id);
- assert.equal(invalid.props.initialStage,'all');
- const wrongStage=await Page({searchParams:Promise.resolve({curso:'cc',etapa:'10'})});
- assert.equal(wrongStage.props.initialStage,'all');
- assert.deepEqual(metadata.robots,{index:false,follow:false});
+test("planner page validates incoming course and stage before initializing client selection", async () => {
+  const { createRequire } = await import("node:module");
+  const require = createRequire(import.meta.url);
+  require.extensions[".css"] = (module) => {
+    module.exports = {};
+  };
+  const { default: Page, metadata } = await import("../app/teste-plano/page");
+  const element = await Page({
+    searchParams: Promise.resolve({ curso: "dir", etapa: "10" }),
+  });
+  assert.equal(element.props.initialCourseId, "dir");
+  assert.equal(element.props.initialStage, "10");
+  assert.equal(element.key, "dir:10");
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const html = renderToStaticMarkup(element);
+  assert.match(html, /value="dir" selected=""/);
+  assert.match(html, /value="10" selected=""/);
+  assert.doesNotMatch(html, /<main/);
+
+  const invalid = await Page({
+    searchParams: Promise.resolve({ curso: "unknown", etapa: "999" }),
+  });
+  assert.equal(invalid.props.initialCourseId, getRepository().courses[0].id);
+  assert.equal(invalid.props.initialStage, "all");
+  const wrongStage = await Page({
+    searchParams: Promise.resolve({ curso: "cc", etapa: "10" }),
+  });
+  assert.equal(wrongStage.props.initialStage, "all");
+  assert.deepEqual(metadata.robots, { index: false, follow: false });
 });

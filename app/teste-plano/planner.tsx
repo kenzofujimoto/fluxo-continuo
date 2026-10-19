@@ -4,6 +4,8 @@ import { useState } from "react";
 import { choosePlan, type PlanningOption } from "../../lib/planning";
 import styles from "./planner.module.css";
 type Props = {
+  initialCourseId: string;
+  initialStage: string;
   courses: {
     id: string;
     name: string;
@@ -17,9 +19,15 @@ type Props = {
     language: string;
   }[];
 };
-export default function Planner({ courses, options, universities }: Props) {
-  const [courseId, setCourseId] = useState(courses[0].id);
-  const [stage, setStage] = useState("all");
+export default function Planner({
+  courses,
+  options,
+  universities,
+  initialCourseId,
+  initialStage,
+}: Props) {
+  const [courseId, setCourseId] = useState(initialCourseId);
+  const [stage, setStage] = useState(initialStage);
   const [selected, setSelected] = useState<string[]>([]);
   const course = courses.find((item) => item.id === courseId)!;
   const visible = course.rows.filter(
@@ -51,7 +59,7 @@ export default function Planner({ courses, options, universities }: Props) {
         : [...current, key],
     );
   return (
-    <main className={styles.page}>
+    <div className={styles.page}>
       <nav>
         <Link href="/teste-inicio">← Início da prévia</Link>
         <Link href="/teste-candidatura">Como se candidatar ↗</Link>
@@ -242,6 +250,6 @@ export default function Planner({ courses, options, universities }: Props) {
           </aside>
         </section>
       </div>
-    </main>
+    </div>
   );
 }
