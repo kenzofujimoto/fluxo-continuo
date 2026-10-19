@@ -1,10 +1,17 @@
+import { filteredPageMetadata } from "../../lib/page-metadata";
 import { getRepository } from "../../lib/data";
 import Link from "next/link";
 import { getDestinations } from "../../lib/destinations";
 import { filterDestinations, universityLocations } from "../../lib/locations";
 import { DestinationGlobe } from "../destination-globe";
 import { queryValue, type Query } from "../ui";
-export const metadata = { title: "Explore destinos" };
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Query>;
+}) {
+  return filteredPageMetadata("Explore destinos", await searchParams);
+}
 export default async function Universities({
   searchParams,
 }: {

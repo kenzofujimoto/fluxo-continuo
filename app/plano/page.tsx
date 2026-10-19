@@ -2,9 +2,16 @@ import { comparisonPath, disciplineKey, getRepository } from "../../lib/data";
 import { buildPlanningOptions } from "../../lib/planning";
 import Planner from "./planner";
 
-export const metadata = {
-  title: "Meu plano de estudos",
-};
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const query = await searchParams;
+  const courses = getRepository().courses;
+  const course = courses.find((item) => item.id === query.curso) ?? courses[0];
+  return { title: `Meu plano de estudos · ${course.name}` };
+}
 export default async function PlanningPage({
   searchParams,
 }: {

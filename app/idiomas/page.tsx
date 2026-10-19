@@ -1,3 +1,4 @@
+import { filteredPageMetadata } from "../../lib/page-metadata";
 import Link from "next/link";
 import { getRepository, normalize } from "../../lib/data";
 import {
@@ -9,7 +10,13 @@ import {
   queryValue,
   type Query,
 } from "../ui";
-export const metadata = { title: "Idiomas e requisitos" };
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Query>;
+}) {
+  return filteredPageMetadata("Idiomas e requisitos", await searchParams);
+}
 export default async function Languages({
   searchParams,
 }: {
