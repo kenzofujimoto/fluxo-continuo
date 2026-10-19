@@ -217,3 +217,10 @@ test("local flag comparison preserves country color roles in all 21 preview asse
   assert.match(page, /flags-preview/);
   assert.doesNotMatch(page, /CountryFlag|dangerouslySetInnerHTML/);
 });
+
+test("country flags preserve original asset colors without duotone filters", () => {
+  const component = readFileSync("app/country-flag.tsx", "utf8");
+  assert.doesNotMatch(component, /<filter|feColorMatrix|feComponentTransfer|filter=/);
+  assert.match(component, /\/flags\/\$\{normalizedCode\}\.svg/);
+  assert.match(component, /availableFlags\.has\(normalizedCode\)/);
+});
