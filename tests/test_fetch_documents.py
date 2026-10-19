@@ -63,7 +63,8 @@ def test_supplemental_ficha_only_adds_named_missing_components_without_stage_ali
     (tmp_path / "syllabi/mackenzie-docs.json").write_text(json.dumps({"rows": []}), encoding="utf-8")
     sources = [{"courseId": "dir", "url": base_url, "documentYear": 2022, "current": False},
                {"courseId": "dir", "url": supplement_url, "documentYear": 2022, "current": False,
-                "onlyMissing": True, "matchOnlyCodes": [row["name"] for row in rows]}]
+                "yearBasis": "official_repository_2022_context", "onlyMissing": True,
+                "matchOnlyCodes": [row["name"] for row in rows]}]
     if reverse_sources:
         sources.reverse()
     monkeypatch.setattr(documents, "ROOT", tmp_path)
@@ -87,6 +88,7 @@ def test_supplemental_ficha_only_adds_named_missing_components_without_stage_ali
     assert brazil["dir|LEGAL METHOD"]["sha256"] == "base"
     assert brazil["dir|LEGAL METHOD"]["ementa"] == original
     assert brazil["dir|PROJECT FINANCE"]["weeklyClassPeriods"] == 2
+    assert brazil["dir|PROJECT FINANCE"]["yearBasis"] == "official_repository_2022_context"
 
 
 @pytest.mark.parametrize("ementa", ["", "Estudo de requisitos e projeto de software."])
