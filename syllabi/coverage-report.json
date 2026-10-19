@@ -1,22 +1,28 @@
 {
-  "generated": "2026-10-18T14:11:29.267921+00:00",
+  "generated": "2026-10-19T00:59:41.778003+00:00",
   "definitions": {
     "individualSyllabus": "Automated document identity + syllabus criteria; independent human audit pending.",
     "withoutIndividualSyllabus": "A course is indexed but individual syllabus not established.",
     "withIndividualButMissingHours": "Individual syllabus found but contact hours not extracted.",
     "officialSyllabiMatched": "Mackenzie source title matched to current matrix; 2025 applicability needs confirmation.",
+    "linkedBrazilianSyllabi": "Registered Brazilian components with an explicitly linked official syllabus; historical applicability may remain unconfirmed.",
+    "withoutBrazilianSyllabus": "Registered Brazilian components without officialSyllabus true in the extracted programme registry.",
+    "manualReviews": "Current dossiers from pareceres-index; legacy review records reported separately.",
     "candidatePhases": "Source availability only, not equivalence verdict."
   },
   "metrics": {
-    "foreignTotal": 2989,
-    "foreignIndividual": 1533,
-    "foreignMissingIndividual": 1456,
-    "foreignIndividualMissingHours": 998,
+    "foreignTotal": 3088,
+    "foreignIndividual": 1633,
+    "foreignMissingIndividual": 1455,
+    "foreignIndividualMissingHours": 1098,
     "mackTotal": 221,
     "mackVerified": 75,
     "registeredCandidates": 725,
     "bothSyllabiCandidates": 132,
-    "manualReviews": 3,
+    "manualReviews": 585,
+    "legacyManualReviews": 3,
+    "linkedBrazilianSyllabi": 188,
+    "withoutBrazilianSyllabus": 33,
     "institutionalApprovals": 0
   },
   "universities": [
@@ -3743,14 +3749,15 @@
         "adm",
         "dir"
       ],
-      "catalogued": 69,
-      "individualSyllabus": 0,
+      "catalogued": 77,
+      "individualSyllabus": 8,
       "individualWithContactHours": 0,
       "withoutIndividualSyllabus": 69,
-      "withIndividualButMissingHours": 0,
+      "withIndividualButMissingHours": 8,
       "statuses": {
         "catalogo_ou_matriz": 42,
-        "pagina_com_conteudo": 27
+        "pagina_com_conteudo": 27,
+        "ementa_individual": 8
       },
       "samplePending": [
         {
@@ -4242,7 +4249,56 @@
           "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
         }
       ],
-      "syllabiMissingContactHours": [],
+      "syllabiMissingContactHours": [
+        {
+          "code": "CAT-udp-public-derecho-de-las-obligaciones",
+          "name": "Derecho de las Obligaciones",
+          "status": "ementa_sem_horas",
+          "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/12/Obligaciones-2S-2025-1.pdf"
+        },
+        {
+          "code": "CAT-udp-public-persona-y-acto-juridico",
+          "name": "Persona y Acto Jurídico",
+          "status": "ementa_sem_horas",
+          "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/12/Persona-y-acto-juridico-2S-2025-1.pdf"
+        },
+        {
+          "code": "CAT-udp-public-derecho-de-danos",
+          "name": "Derecho de Daños",
+          "status": "ementa_sem_horas",
+          "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/07/PROGRAMA-Derecho-de-Danos-2025-IDM-Academia-de-DD-Civil.pdf"
+        },
+        {
+          "code": "CAT-udp-public-derechos-reales-y-derecho-inmobiliario",
+          "name": "Derechos Reales y Derecho Inmobiliario",
+          "status": "ementa_sem_horas",
+          "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/07/Derechos-reales-e-inmobiliario-1S-2024.pdf"
+        },
+        {
+          "code": "CAT-udp-public-persona-y-negocio-juridico",
+          "name": "Persona y Negocio Jurídico",
+          "status": "ementa_sem_horas",
+          "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-para-ADC-persona-y-negocio-juridico-V3.pdf"
+        },
+        {
+          "code": "CAT-udp-public-contratos-civiles",
+          "name": "Contratos Civiles",
+          "status": "ementa_sem_horas",
+          "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-para-ADC-Contratos-civiles-v3.pdf"
+        },
+        {
+          "code": "CAT-udp-public-fundamentos-historico-sociales-del-derecho-privado",
+          "name": "Fundamentos Histórico-Sociales del Derecho Privado",
+          "status": "ementa_sem_horas",
+          "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-academia-Fundamentos-Historico-sociales-del-Derecho-Privado.pdf"
+        },
+        {
+          "code": "DER9829",
+          "name": "Sostenibilidad y Derecho Internacional Privado",
+          "status": "ementa_sem_horas",
+          "source": "https://derecho.udp.cl/cms/wp-content/uploads/2024/03/Programa-Sostenibilidad-y-Derecho-internacional-privado.pdf"
+        }
+      ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
     },
     {
@@ -7138,23 +7194,17 @@
       "eligibleFor": [
         "adm"
       ],
-      "catalogued": 82,
-      "individualSyllabus": 39,
+      "catalogued": 173,
+      "individualSyllabus": 131,
       "individualWithContactHours": 0,
-      "withoutIndividualSyllabus": 43,
-      "withIndividualButMissingHours": 39,
+      "withoutIndividualSyllabus": 42,
+      "withIndividualButMissingHours": 131,
       "statuses": {
-        "ementa_individual": 39,
-        "pagina_com_conteudo": 34,
+        "ementa_individual": 131,
+        "pagina_com_conteudo": 33,
         "catalogo_ou_matriz": 9
       },
       "samplePending": [
-        {
-          "code": "CAT-comunicacion",
-          "name": "Comunicación",
-          "status": "pagina_com_conteudo",
-          "source": "https://uchile.cl/carreras/4966/ingenieria-comercial"
-        },
         {
           "code": "CAT-gestion-de-personas",
           "name": "Gestión de Personas",
@@ -7220,15 +7270,15 @@
           "name": "Libre I",
           "status": "catalogo_ou_matriz",
           "source": "https://uchile.cl/carreras/4966/ingenieria-comercial"
+        },
+        {
+          "code": "CAT-taller-practico-profesional-social-i",
+          "name": "Taller Práctico Profesional/Social I",
+          "status": "pagina_com_conteudo",
+          "source": "https://uchile.cl/carreras/4966/ingenieria-comercial"
         }
       ],
       "pendingForeign": [
-        {
-          "code": "CAT-comunicacion",
-          "name": "Comunicación",
-          "status": "pagina_com_conteudo",
-          "source": "https://uchile.cl/carreras/4966/ingenieria-comercial"
-        },
         {
           "code": "CAT-gestion-de-personas",
           "name": "Gestión de Personas",
@@ -7508,6 +7558,12 @@
           "source": "https://drive.google.com/uc?export=download&id=1K24xgYgxWezrR3qZS806OHXC7pS1rXCo"
         },
         {
+          "code": "CAT-comunicacion",
+          "name": "Comunicación",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa"
+        },
+        {
           "code": "CAT-introduccion-a-la-microeconomia",
           "name": "Introducción a la Microeconomía",
           "status": "ementa_sem_horas",
@@ -7601,7 +7657,7 @@
           "code": "CAT-comunicacion-i",
           "name": "Comunicación I",
           "status": "ementa_sem_horas",
-          "source": "https://drive.google.com/uc?export=download&id=1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa"
+          "source": "https://drive.google.com/uc?export=download&id=1KuGZcI802Z_ZCyXNU0gqy-FjZJKjKpfl"
         },
         {
           "code": "CAT-metodos-cuantitativos-ii",
@@ -7716,6 +7772,552 @@
           "name": "Finanzas II",
           "status": "ementa_sem_horas",
           "source": "https://drive.google.com/uc?export=download&id=1GoC7r79rzy1pWa2w1DrO1s_M328pCK7P"
+        },
+        {
+          "code": "ENCON405",
+          "name": "Contabilidad Avanzada",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1nNm4_TQ656jhOh8Z5aL77ODtt-jZV9Xy"
+        },
+        {
+          "code": "ENFIN425",
+          "name": "Gestión Financiera Corporativa",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=12FmWZ2Q5ozk7cih0CeIlqg9wpfFIzNs6"
+        },
+        {
+          "code": "ENGIN410",
+          "name": "Information Systems Development",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1y9K-_K5yuYZTSXtfMTb7Nt3GNpFr85AE"
+        },
+        {
+          "code": "ENGIN415",
+          "name": "Business Intelligence and Analytics",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1I9Ljm-5Oehs6zCj-oOb2rYLexl5iqavP"
+        },
+        {
+          "code": "ENGIN418",
+          "name": "Strategic Data Communication for Business",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1q5VSECa-h7LITaHVoKBfsmr-Dg_rR0nu"
+        },
+        {
+          "code": "ENGIN4190",
+          "name": "Artificial Intelligence in Strategic Management",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1A3pRLA2hfAP3msriKGtZBMdmKAeLfNM5"
+        },
+        {
+          "code": "MEC3005",
+          "name": "Business Analytics and AI",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=19LqTOIzsxX4NXQxYqw4tfQvfmuAsP87I"
+        },
+        {
+          "code": "ENNEG306",
+          "name": "Foreign Direct Investment Projects in Developing Countries and Emerging Markets",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1aXIGHdBuidWE4J_I8kVvFoMSkXlTzqZK"
+        },
+        {
+          "code": "ENNEG399",
+          "name": "Business Negotiations",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1GWqx4PhK0aBARmYhOHiNMgXXeDCl7Trn"
+        },
+        {
+          "code": "ENNEG426",
+          "name": "Strategic Alliances (SA), Mergers & Acquisitions (M&A)",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1VWzRXVPuUXIeoJRsQxDvhsAZvT60xWNc"
+        },
+        {
+          "code": "ENNEG745",
+          "name": "Capstone: International Business",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1U-3mx17kNIXg390GX2Pd4a_rcSHqi9ZJ"
+        },
+        {
+          "code": "ENOPE415",
+          "name": "Operations Management",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1iuJbBTv6E-AvlNTaQj7bALgwIoF-JkOG"
+        },
+        {
+          "code": "ENCON205",
+          "name": "Contabilidad II",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1sJcB-jzEKmLtFlxC09nCPBejtobciN6O"
+        },
+        {
+          "code": "ENCON255",
+          "name": "Fundamentos de Costos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1qvwYOvzxKAlq71rI7B0UC7VzoXXnWmOk"
+        },
+        {
+          "code": "ENCON305",
+          "name": "Costos y Presupuestos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1uvuZYbC9YKYMKuG81X5L35u6TQSNTD_p"
+        },
+        {
+          "code": "ENCON310",
+          "name": "Análisis Contable",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=100t6ASbAjAAYy_hPAfbTJzklQYL9KISz"
+        },
+        {
+          "code": "ENCON415",
+          "name": "Costos Avanzados",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1bx8Nwh7gB4_8HoRo8qY_uXn1mk4SHv4O"
+        },
+        {
+          "code": "ENCON455",
+          "name": "Contabilidad para las Decisiones",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1cqV0PS07Eqg0sXCRrTMHiqNez_qhBgZ5"
+        },
+        {
+          "code": "ENAUD250",
+          "name": "Auditoría I - Gestión de Riesgos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1sfqZAnQeKtLPBRPzBHWN5jPemA4T-AZ6"
+        },
+        {
+          "code": "ENAUD334",
+          "name": "Auditoría de Estados Financieros",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1YhEQg0-HisXLSVRfapzeSt6R4n2suIAs"
+        },
+        {
+          "code": "ENAUD350",
+          "name": "Auditoría II: Fundamentos de Auditoría",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1IN8iuV8EiqlzJjcpI7xDpKMHd34o2fB2"
+        },
+        {
+          "code": "ENAUD360",
+          "name": "Auditoría III – Desarrollo de Auditoría Interna",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=14WdImqmOIwN-6Pj9KUSKNEJGCbHwLbBc"
+        },
+        {
+          "code": "ENAUD453",
+          "name": "Tecnología y Bases de Datos para Auditoría",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1Ytw1WffK28iCCOVFBrc30_e1IsiYPO-v"
+        },
+        {
+          "code": "ENAUD460",
+          "name": "Control Interno",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1wTEpjTl3P_6PvNTXfqiHEU3S6qekl9qz"
+        },
+        {
+          "code": "ENTAL485",
+          "name": "Taller de Contabilidad y Auditoría",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1LJ91Ks_rFW0TVE2AAHN-F5xhe-YZTe2A"
+        },
+        {
+          "code": "ENIMP300",
+          "name": "Tributación I Economía de los Impuestos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1I4ikkc_EhDKQ93JW58fsIOjNMutHlGqr"
+        },
+        {
+          "code": "ENIMP350",
+          "name": "Tributación II (Derecho Tributario)",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1FxVCOpGIKVyIxjrgcFpC-8vWwe6-Xw_2"
+        },
+        {
+          "code": "ENIMP410",
+          "name": "Tributación V - Impuesto Tipo Consumo",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1VG_IBwv-zDxTPsHv0FwxWxW7m_Vlib3K"
+        },
+        {
+          "code": "ENIMP450",
+          "name": "Tributación IV - Renta Personal",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1iD-HCFRpnwvtt_8tfW3pxEcxs3H4_CXJ"
+        },
+        {
+          "code": "ENIMP463",
+          "name": "Tributación III Renta Empresarial",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1PlZYGic214JW5rTuddmpf-BZOJx0gfWH"
+        },
+        {
+          "code": "ENIMP500",
+          "name": "Tributación Contemporánea",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1RB3-70sGb906QrXcOYqIUnFtY52uwFj1"
+        },
+        {
+          "code": "ENMAN255",
+          "name": "Planificación y Diseño Organizacional",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1cN9XpdahQEPFzSqpcvZKxOsxu0nTtgva"
+        },
+        {
+          "code": "ENCGE350",
+          "name": "Control de Gestión",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1FGYm1Vfv2Vn_0sOBkgvdIOdWJsttiaku"
+        },
+        {
+          "code": "ENCGE355",
+          "name": "Control de Gestión I",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1ak5LPrtIPDa8mSXabOxEnVFi25xoEdNK"
+        },
+        {
+          "code": "ENGIN361",
+          "name": "Aplicaciones BI para la gestión de las organizaciones",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1ltldI0eI3oA9BfDQ2P2NgUqKLEa3UIab"
+        },
+        {
+          "code": "ENCGE500",
+          "name": "Taller de Control de Gestión",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1L1v8k2xti8hi8Gz9sB5IjjwASnf7u0tO"
+        },
+        {
+          "code": "ENOPE300",
+          "name": "Investigación Operativa",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1pBITtssDnQiFeaEobOXpVG9FWervfu0W"
+        },
+        {
+          "code": "ENCOM150",
+          "name": "Entorno Social y Profesional",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1ZxlNI0h8F9u7qNJJ_0230kEM67BN9aiz"
+        },
+        {
+          "code": "ENCOM300",
+          "name": "Comunicación II",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1KuGZcI802Z_ZCyXNU0gqy-FjZJKjKpfl"
+        },
+        {
+          "code": "ENECO309",
+          "name": "Desafíos para el desarrollo económico de Chile",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1trd3gaw_3JZlqCikhoNFYWMh_t8Jj9Wg"
+        },
+        {
+          "code": "ENECO338",
+          "name": "Economía del Comportamiento",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1FE-6xyycOJrORkatJRNRpoAYIMPFXuuw"
+        },
+        {
+          "code": "ENECO3221",
+          "name": "Métodos Empíricos en Libre Competencia y Regulación",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1DkI_CyF-z9uzkHHtwbGHIyauOoc3vxHa"
+        },
+        {
+          "code": "ENECO341",
+          "name": "Innovación con Base Científico-Tecnológico",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1Wtnb8cjTvqhH24wYbKdIUlA7HsnhBgwl"
+        },
+        {
+          "code": "ENECO435",
+          "name": "Organización Industrial Aplicada",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1NTowYuut98N1-0u7l4qeqXO1czNiE6wT"
+        },
+        {
+          "code": "ENMEC357",
+          "name": "Tópicos en Economía y Negocios Utilizando R",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=128UDq6SlXgHARIQho5A2-9HSXo-ivACy"
+        },
+        {
+          "code": "ENFIN355",
+          "name": "Análisis y Planificación Financiera",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1pfLA7UdBFaJEAveji0nK_GcYc1uWXPCs"
+        },
+        {
+          "code": "ENFIN408",
+          "name": "Preparación y Evaluación de Proyectos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1oQmFLeeTlPDT84F_VML_LQsLLckpax-g"
+        },
+        {
+          "code": "ENECO430",
+          "name": "Juegos y Estrategia",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1alcuanXVBFC3BVCJrz_4Fqb_8cPhMKdT"
+        },
+        {
+          "code": "ENGEP306",
+          "name": "Gestión y Equidad de Género",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=13KNvYX7s1KnJRdghgusF55l7IV66rsmV"
+        },
+        {
+          "code": "ENGIN305",
+          "name": "Sistemas de Administración de Base de Datos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1pIFjt63RXhNLa-HCmjNCQ8I3avJHjums"
+        },
+        {
+          "code": "ENGIN310",
+          "name": "Programación y Algoritmos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1Tlpdx9azpNTSQ0QxT1qreul9-mUcRd1b"
+        },
+        {
+          "code": "ENGIN315",
+          "name": "Sistemas de Aplicaciones",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1KXVj4W7sHij9H6khAzo_lYzo_RxNwZLB"
+        },
+        {
+          "code": "ENGIN450",
+          "name": "Negocios con Tecnologías de Información",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1hlCrHX5k5QdRJLcYeDk4lZUvyFCkTLvm"
+        },
+        {
+          "code": "ENGIN451",
+          "name": "Toma de decisiones bajo incertidumbre",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1vHY5pamucWdWad_ho4sqovq3SKE857N4"
+        },
+        {
+          "code": "ENGIN460",
+          "name": "Business Intelligence",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1oBXZhFWx-AuaOQiFBMDi4z1g85USd36E"
+        },
+        {
+          "code": "ENMKT438",
+          "name": "Marketing Digital Estratégico",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1vPQx2ISjtYB4hFFMUr-deknOOHGo28yC"
+        },
+        {
+          "code": "ENNEG150",
+          "name": "Ética y Negocios",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1sovfYiAHxFrkXizCckOvLsbfg1z0Zwi7"
+        },
+        {
+          "code": "ENNEG372",
+          "name": "Gestión de la Ética y la Sostenibilidad Empresarial",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1MMQ19hMnuVBSThhFShK9wklTH3-CmYoJ"
+        },
+        {
+          "code": "ENNEG429",
+          "name": "Gobierno y Gerencia de Empresas Familiares",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1GZJveKCXd53DSTr8NcJtzkqCkUKcJ-2e"
+        },
+        {
+          "code": "ENESO108",
+          "name": "Introducción a la Ecología",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1SwwVX3SZEsUFFBSC6jxTK0Tu8iRvC4k6"
+        },
+        {
+          "code": "ENESO110",
+          "name": "Introducción a la Psicología",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1PRo_Bm3hF61x5Al1bXYVAUvuMFgGbb-I"
+        },
+        {
+          "code": "ENESO111",
+          "name": "Introducción a la Antropología",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1cO9feOOPm7XVTEWnGlRtqsZ2W_tckM7V"
+        },
+        {
+          "code": "ENESO113",
+          "name": "Introducción a la Tecnología",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=14x70ILZP-WG2pCMVLx4U0m9r8ITS5DWk"
+        },
+        {
+          "code": "ENESO118",
+          "name": "Introducción a las Artes Mediales",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1ZcQowpOR2leKW4MA4MRXnHgZJ9P5o-Xz"
+        },
+        {
+          "code": "ENLEG155",
+          "name": "Entorno Legal",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=19DyXFW_HgkIbe6mGN5l1_ud8c1rokTG0"
+        },
+        {
+          "code": "CAT-fen-public-urban-economics",
+          "name": "Urban Economics",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1i3H4MA_Rj4dh2vgcKobgANOADtslyENE"
+        },
+        {
+          "code": "CAT-fen-public-environmental-economics-and-sustainable-development",
+          "name": "Environmental Economics and Sustainable Development",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1zT5eg3ZAQbUuvGyPAtKErQG5JDbiySxj"
+        },
+        {
+          "code": "CAT-fen-public-business-intelligence-and-database-applications",
+          "name": "Business Intelligence and Database Applications",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1KJBTnVz-m-8e_cQWpqrJaygVq6YAEV5i"
+        },
+        {
+          "code": "CAT-fen-public-business-process-management",
+          "name": "Business Process Management",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1hScOlglyxoQJDui7sjl4Y2kSG3ysdIPM"
+        },
+        {
+          "code": "CAT-fen-public-chilean-economic-development",
+          "name": "Chilean Economic Development",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1GNMGuRdul2Vvr_eVApovkuVByk9AIBCl"
+        },
+        {
+          "code": "CAT-fen-public-global-innovators",
+          "name": "Global Innovators",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1Z69FE6LLJPAILGUL6K85CGtnSey0E5rT"
+        },
+        {
+          "code": "CAT-fen-public-latin-american-politics-and-world-affairs",
+          "name": "Latin American Politics and World Affairs",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1o6KxJ3L-L0dwBKX91L-KXH9YdJ9m2ccI"
+        },
+        {
+          "code": "CAT-fen-public-estrategia-y-presupuestos",
+          "name": "Estrategia y Presupuestos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1RV8vBW2UZO1C6BFQsHJez95hkCAr0zGf"
+        },
+        {
+          "code": "CAT-fen-public-prevencion-de-fraudes-a-estados-financieros",
+          "name": "Prevención de Fraudes a Estados Financieros",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1n0jm94wGPErpG6q1_ImU7Lj_UFaOU_V7"
+        },
+        {
+          "code": "CAT-fen-public-transformacion-digital-y-ciberseguridad",
+          "name": "Transformación Digital y Ciberseguridad",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1QACNRkRRB0BSFX-bDWnzKHqsZFRtQQQy"
+        },
+        {
+          "code": "CAT-fen-public-auditoria-iv-auditoria-de-tecnologias-de-la-informacion",
+          "name": "Auditoría IV: Auditoría de Tecnologías de la Información",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1feEgDckLw78grSWKdhRQLMnorcLvzv71"
+        },
+        {
+          "code": "CAT-fen-public-control-de-gestion-ii",
+          "name": "Control de Gestión II",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1h2EI5OjtZIr3rwik31x6Dh8Xb5AkmhjD"
+        },
+        {
+          "code": "CAT-fen-public-evaluacion-social-de-proyectos-y-programas-publicos",
+          "name": "Evaluación Social de Proyectos y Programas Públicos",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1XaCfVJsuBy0YLZcxEW8U2iWz9E_Jl0Gp"
+        },
+        {
+          "code": "CAT-fen-public-economia-y-gestion-del-futbol",
+          "name": "Economía y Gestión del Fútbol",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1b119rBWUIC9LlKraC1VrFYT1H94W4Uws"
+        },
+        {
+          "code": "CAT-fen-public-finanzas-publicas",
+          "name": "Finanzas Públicas",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=18eLRrjpK8emdiNeuJjoDgEs7O1XyNF5s"
+        },
+        {
+          "code": "CAT-fen-public-limites-planetarios-y-desarrollo-economico",
+          "name": "Límites Planetarios y Desarrollo Económico",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=10_jwSY4fULxBTunvd4kNxBjjPjOFr_ba"
+        },
+        {
+          "code": "CAT-fen-public-matematicas-para-el-analisis-economico",
+          "name": "Matemáticas para el Análisis Económico",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1T87LtkyTt30Fna_sjvP0yZwbxhXUbTpk"
+        },
+        {
+          "code": "CAT-fen-public-analisis-de-datos-para-las-finanzas",
+          "name": "Análisis de datos para las finanzas",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1wkpxUU3VGwqkopt1NU77jWDoLSMt12Du"
+        },
+        {
+          "code": "CAT-fen-public-competencias-laborales",
+          "name": "Competencias Laborales",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=17d8tKXMLgByf_Ea8vzbaRv4AyWP7A5dd"
+        },
+        {
+          "code": "CAT-fen-public-innovacion-a-emprendimiento-sostenible",
+          "name": "Innovación a Emprendimiento Sostenible",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1xd-7HTTeY5UYvXkupxPcN897sYTphj1M"
+        },
+        {
+          "code": "CAT-fen-public-etica-sostenibilidad-y-compromiso-social",
+          "name": "Ética, Sostenibilidad y Compromiso Social",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1_PUVWeoyTyLdDX462kLfuRm9IQlZJjnG"
+        },
+        {
+          "code": "CAT-fen-public-introduccion-a-las-relaciones-internacionales-y-la-globalizacion",
+          "name": "Introducción a las Relaciones Internacionales y la Globalización",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1wYxvHiOpgAs_yRvAJCcndmZOs3IHr4sY"
+        },
+        {
+          "code": "CAT-fen-public-introduccion-a-la-politica-publica-basada-en-evidencia",
+          "name": "Introducción a la Política Pública Basada en Evidencia",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1--i2GZXkR-p3ERt5kikUVa-abyVVBUiM"
+        },
+        {
+          "code": "ENLIB323",
+          "name": "Curso Libre de Ajedrez",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1jbS3qcsK8XE2wdqy0JXmx_Dgda8o3zNP"
+        },
+        {
+          "code": "ENLIB348",
+          "name": "Canto Mixto",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1MmOU2s-ZThiapwRdD-cBeGGYcGetbxKb"
+        },
+        {
+          "code": "ENLIB349",
+          "name": "Fotografía Básica Digital",
+          "status": "ementa_sem_horas",
+          "source": "https://drive.google.com/uc?export=download&id=1qkLMns0yEctETw9GZZYDiojOaM3SrYtU"
         }
       ],
       "sourceEvidenceHint": "Only course-level syllabus status has been checked, not offer or academic equivalence."
@@ -18932,7 +19534,41 @@
         "falta_ementa_brasileira_validada": 22,
         "falta_ementa_estrangeira_individual": 84
       },
-      "individualReviews": 3
+      "linkedBrazilianSyllabi": 41,
+      "withoutBrazilianSyllabus": 6,
+      "pendingBrazilianSubjects": [
+        {
+          "code": "ENEC61012",
+          "name": "Introdução à Engenharia de Software",
+          "semester": 5
+        },
+        {
+          "code": "ORTC54386",
+          "name": "Trabalho de Conclusão de Curso I",
+          "semester": 7
+        },
+        {
+          "code": "ORES51291",
+          "name": "Estágio em Ciência da Computação",
+          "semester": 8
+        },
+        {
+          "code": "OPTATIVA I",
+          "name": "Optativa I",
+          "semester": 8
+        },
+        {
+          "code": "OPTATIVA II",
+          "name": "Optativa II",
+          "semester": 8
+        },
+        {
+          "code": "ORTC54387",
+          "name": "Trabalho de Conclusão de Curso II",
+          "semester": 8
+        }
+      ],
+      "individualReviews": 158
     },
     {
       "id": "si",
@@ -18984,7 +19620,31 @@
         "falta_ementa_estrangeira_individual": 55,
         "falta_ementa_brasileira_validada": 2
       },
-      "individualReviews": 0
+      "linkedBrazilianSyllabi": 42,
+      "withoutBrazilianSyllabus": 4,
+      "pendingBrazilianSubjects": [
+        {
+          "code": "",
+          "name": "TRABALHO DE CONCLUSÃO DE CURSO I",
+          "semester": 7
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA I",
+          "semester": 8
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA II",
+          "semester": 8
+        },
+        {
+          "code": "",
+          "name": "TRABALHO DE CONCLUSÃO DO CURSO II",
+          "semester": 8
+        }
+      ],
+      "individualReviews": 63
     },
     {
       "id": "adm",
@@ -19281,7 +19941,41 @@
         "falta_ementa_brasileira_validada": 148,
         "falta_ementa_estrangeira_individual": 83
       },
-      "individualReviews": 0
+      "linkedBrazilianSyllabi": 41,
+      "withoutBrazilianSyllabus": 6,
+      "pendingBrazilianSubjects": [
+        {
+          "code": "",
+          "name": "Optativa I",
+          "semester": 7
+        },
+        {
+          "code": "",
+          "name": "Trabalho de Conclusão de Curso I",
+          "semester": 7
+        },
+        {
+          "code": "",
+          "name": "Optativa II",
+          "semester": 8
+        },
+        {
+          "code": "",
+          "name": "Optativa III",
+          "semester": 8
+        },
+        {
+          "code": "",
+          "name": "Trabalho de Conclusão de Curso II",
+          "semester": 8
+        },
+        {
+          "code": "",
+          "name": "Estagio Supervisionado",
+          "semester": 8
+        }
+      ],
+      "individualReviews": 170
     },
     {
       "id": "dir",
@@ -19782,7 +20476,96 @@
         "falta_ementa_brasileira_validada": 116,
         "falta_ementa_estrangeira_individual": 83
       },
-      "individualReviews": 0
+      "linkedBrazilianSyllabi": 64,
+      "withoutBrazilianSyllabus": 17,
+      "pendingBrazilianSubjects": [
+        {
+          "code": "",
+          "name": "CIÊNCIA, TECNOLOGIA E SOCIEDADE NO DIREITO",
+          "semester": 1
+        },
+        {
+          "code": "",
+          "name": "ORGANIZACAO DO ESTADO E SEPARACAO DE PODERES",
+          "semester": 4
+        },
+        {
+          "code": "",
+          "name": "OBRIGAÇÕES MERCANTIS, OPERAÇÕES DE FUSÕES E AQUISIÇÕES E OPERAÇÕES E CONFLITOS SOCIETÁRIOS",
+          "semester": 5
+        },
+        {
+          "code": "",
+          "name": "COISA JULGADA, AÇÃO RESCISÓRIA E EXECUÇÃO",
+          "semester": 6
+        },
+        {
+          "code": "",
+          "name": "CRIMES CONTRA A ADMINISTRAÇÃO PÚBLICA E FÉ PÚBLICA",
+          "semester": 6
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA I",
+          "semester": 9
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA II",
+          "semester": 9
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA III",
+          "semester": 9
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA IV",
+          "semester": 9
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA V",
+          "semester": 9
+        },
+        {
+          "code": "",
+          "name": "PRATICA JURIDICA CLINICA V - MINISTERIO PUBLICO E MAGISTRATURAS",
+          "semester": 9
+        },
+        {
+          "code": "",
+          "name": "TCC I",
+          "semester": 9
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA VI",
+          "semester": 10
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA VII",
+          "semester": 10
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA VIII",
+          "semester": 10
+        },
+        {
+          "code": "",
+          "name": "OPTATIVA IX",
+          "semester": 10
+        },
+        {
+          "code": "",
+          "name": "TCC II",
+          "semester": 10
+        }
+      ],
+      "individualReviews": 194
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generatedAt": "2026-10-18T14:10:00.681929+00:00",
+    "generatedAt": "2026-10-19T00:59:42.425840+00:00",
     "universities": 66,
-    "registeredForeignCourses": 2989,
+    "registeredForeignCourses": 3088,
     "broadAttemptRecords": 2324,
     "broadAttemptSource": ".cache/public-sweep/syllabi/tentativas-coleta.json",
     "authoritativeSnapshotHashes": {
-      "data.json": "3c35e3006c950bf7b0bf065fc06f5b02f3de5ce9cbcae9585d3606d6b99fa1ae",
-      "syllabi/records.json": "6bfa1fa1a553f7084eebd8d9cf043f036e73ffc8eba8278e0bdcea999eba1fed",
-      "syllabi/fontes-verificadas.json": "b9f1d9255f8cdbab544bb121ae6e8bbee6bae5e77a4675def0ef45a460a6e8b9"
+      "data.json": "df0c5d2f73086e79682dea330995f8f334517b9edf86e1ab3f639f2d217ede86",
+      "syllabi/records.json": "2d14695f414c96e8f9b899c9ff99f00ca0152e99beab3bde5d18e42e8715107c",
+      "syllabi/fontes-verificadas.json": "d0ffd8b537027856e0cc831277d51ae580f805eaf5d9661ff807f411522efc87"
     },
     "policy": "Inventário documental, sem certificação de esgotamento absoluto. Falha técnica não prova ausência. Fontes verificadas atuais prevalecem sobre tentativas históricas. Sem contatos ou login.",
     "invalidLocalLedgerInputs": [
@@ -3863,12 +3863,12 @@
       "searchStatus": "public_research_documented_remaining_evidence_gaps",
       "absoluteExhaustionClaim": false,
       "scopeConsulted": {
-        "registeredForeignCourses": 82,
-        "individualEvidence": 39,
-        "remainingWithoutIndividualEvidence": 43,
+        "registeredForeignCourses": 173,
+        "individualEvidence": 131,
+        "remainingWithoutIndividualEvidence": 42,
         "documentStates": {
-          "ementa_individual": 39,
-          "pagina_com_conteudo": 34,
+          "ementa_individual": 131,
+          "pagina_com_conteudo": 33,
           "catalogo_ou_matriz": 9
         },
         "broadAttemptRecords": 82,
@@ -4728,11 +4728,6 @@
       },
       "remainingCourses": [
         {
-          "code": "CAT-comunicacion",
-          "name": "Comunicación",
-          "status": "pagina_com_conteudo"
-        },
-        {
           "code": "CAT-gestion-de-personas",
           "name": "Gestión de Personas",
           "status": "pagina_com_conteudo"
@@ -4965,12 +4960,13 @@
       "searchStatus": "public_research_documented_remaining_evidence_gaps",
       "absoluteExhaustionClaim": false,
       "scopeConsulted": {
-        "registeredForeignCourses": 69,
-        "individualEvidence": 0,
+        "registeredForeignCourses": 77,
+        "individualEvidence": 8,
         "remainingWithoutIndividualEvidence": 69,
         "documentStates": {
           "catalogo_ou_matriz": 42,
-          "pagina_com_conteudo": 27
+          "pagina_com_conteudo": 27,
+          "ementa_individual": 8
         },
         "broadAttemptRecords": 69,
         "legacyAttemptRecords": 69,
@@ -4983,7 +4979,10 @@
         "catalogueSources": [
           "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
         ],
-        "verifiedSourceHosts": []
+        "verifiedSourceHosts": [
+          "academiaderechocivil.udp.cl",
+          "derecho.udp.cl"
+        ]
       },
       "methods": [],
       "recordedQueries": [

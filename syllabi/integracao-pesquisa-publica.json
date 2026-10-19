@@ -1,15 +1,18 @@
 {
  "meta": {
-  "integratedAt": "2026-10-18T14:08:23.790051+00:00",
+  "integratedAt": "2026-10-19T00:55:11.034805+00:00",
   "ledgers": [
    "europe",
    "americas",
    "asia",
    "solbridge",
-   "americas-followup"
+   "americas-followup",
+   "fen-expanded",
+   "fen-title-only",
+   "udp-title"
   ],
-  "candidates": 529,
-  "accepted": 478,
+  "candidates": 628,
+  "accepted": 577,
   "rejected": 51,
   "skipped": 0,
   "policy": "Descobertas reverificadas uma a uma; rejeição não prova inexistência do programa."
@@ -4783,6 +4786,1494 @@
    "integratedAt": "2026-10-18T14:08:23.790051+00:00",
    "previousSource": null,
    "academicYear": "2025-20"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON405",
+   "source": "https://drive.google.com/uc?export=download&id=1nNm4_TQ656jhOh8Z5aL77ODtt-jZV9Xy",
+   "sha256": "4996fbcfbad07547f863e2e29322983d57f13d5bcc4d6491aee2a314c207cdca",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENFIN425",
+   "source": "https://drive.google.com/uc?export=download&id=12FmWZ2Q5ozk7cih0CeIlqg9wpfFIzNs6",
+   "sha256": "c6f08c6a5fff1de95f82d030eebe178abd7a3e7461f86b67071f7d6134ddb8ad",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN410",
+   "source": "https://drive.google.com/uc?export=download&id=1y9K-_K5yuYZTSXtfMTb7Nt3GNpFr85AE",
+   "sha256": "671ac0abcba0353f8a3b24cfeb2a265099c9756c93480c8cb99d7c8299ee9ca5",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN415",
+   "source": "https://drive.google.com/uc?export=download&id=1I9Ljm-5Oehs6zCj-oOb2rYLexl5iqavP",
+   "sha256": "23904065afa7f2731ba10c0fcc2225e156a461b6246894d7b1dfe44f7980cd56",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN418",
+   "source": "https://drive.google.com/uc?export=download&id=1q5VSECa-h7LITaHVoKBfsmr-Dg_rR0nu",
+   "sha256": "576441b6c4078cd843e48a985192a1ced4bb6de409f4e528b66052833f47a3e2",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN4190",
+   "source": "https://drive.google.com/uc?export=download&id=1A3pRLA2hfAP3msriKGtZBMdmKAeLfNM5",
+   "sha256": "379b75502bc56a4c08744f1f8b2b509c04ffeae988d3954fe9b349c2f9d34eca",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "MEC3005",
+   "source": "https://drive.google.com/uc?export=download&id=19LqTOIzsxX4NXQxYqw4tfQvfmuAsP87I",
+   "sha256": "68c3797f447ea4abfae3badeebb76668760d4cdfcc8eebb5097c3f642d3b391e",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG306",
+   "source": "https://drive.google.com/uc?export=download&id=1aXIGHdBuidWE4J_I8kVvFoMSkXlTzqZK",
+   "sha256": "e510cf3f061aedfcac5764f5913b70ff8a599cca2920e0b1ff276ba909046a5a",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG399",
+   "source": "https://drive.google.com/uc?export=download&id=1GWqx4PhK0aBARmYhOHiNMgXXeDCl7Trn",
+   "sha256": "75c3809c781c70e04c706feb5cdec1f39e783bb40bc20ff3c2a874936bfb3865",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG426",
+   "source": "https://drive.google.com/uc?export=download&id=1VWzRXVPuUXIeoJRsQxDvhsAZvT60xWNc",
+   "sha256": "e61faf8e2a36fbcd54527e57f67c1a5e21dd1067b8dda8788082c4b415b661be",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG745",
+   "source": "https://drive.google.com/uc?export=download&id=1U-3mx17kNIXg390GX2Pd4a_rcSHqi9ZJ",
+   "sha256": "ba756e2f177ef2f251677444a9e66d439e9f84fb84f7681b9be88cc29fb82bb8",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENOPE415",
+   "source": "https://drive.google.com/uc?export=download&id=1iuJbBTv6E-AvlNTaQj7bALgwIoF-JkOG",
+   "sha256": "9531d3a8f3b53437d320c8aaeb89bcf8a0f1c48a505fedc0f76d5148f556f490",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON205",
+   "source": "https://drive.google.com/uc?export=download&id=1sJcB-jzEKmLtFlxC09nCPBejtobciN6O",
+   "sha256": "774ac463ba8dc4fb6eb0695f6c9e600e4f06d803c691319baf4a4b5af781f412",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON255",
+   "source": "https://drive.google.com/uc?export=download&id=1qvwYOvzxKAlq71rI7B0UC7VzoXXnWmOk",
+   "sha256": "c8062ea45f036d67cc7d530dcae1a4d93120096a1a8c3b1fec15c7290d4ba4a0",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON305",
+   "source": "https://drive.google.com/uc?export=download&id=1uvuZYbC9YKYMKuG81X5L35u6TQSNTD_p",
+   "sha256": "83377051e8772a8f46a6709b7de8ca5c00063e60432dccf3b181ba08d8cf040b",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON310",
+   "source": "https://drive.google.com/uc?export=download&id=100t6ASbAjAAYy_hPAfbTJzklQYL9KISz",
+   "sha256": "6cf555d189679da2c5967993ccfd2b4c197c8c1fa6ea9ec70b4a0774889d697f",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON415",
+   "source": "https://drive.google.com/uc?export=download&id=1bx8Nwh7gB4_8HoRo8qY_uXn1mk4SHv4O",
+   "sha256": "36939dcda346305786d4d062f2458c547bf596a3ee5e76dd8fb0435791eb33a6",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON455",
+   "source": "https://drive.google.com/uc?export=download&id=1cqV0PS07Eqg0sXCRrTMHiqNez_qhBgZ5",
+   "sha256": "ee90896528ad2c795de1d189b62770907b39cadfa154c1eefe7778875f774db7",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD250",
+   "source": "https://drive.google.com/uc?export=download&id=1sfqZAnQeKtLPBRPzBHWN5jPemA4T-AZ6",
+   "sha256": "51433e82be443ebd0f37d4132dc3726af0889a6098919542003de828832a2631",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD334",
+   "source": "https://drive.google.com/uc?export=download&id=1YhEQg0-HisXLSVRfapzeSt6R4n2suIAs",
+   "sha256": "7b44c96d92f95a7c50cf98bcb2f21ac0f409e9463310ca22aea3a699f46cb594",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD350",
+   "source": "https://drive.google.com/uc?export=download&id=1IN8iuV8EiqlzJjcpI7xDpKMHd34o2fB2",
+   "sha256": "e054133266c7d2360a1966fd7b1d9b6371ee2e87caa44c5f3c3156112f7699c2",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD360",
+   "source": "https://drive.google.com/uc?export=download&id=14WdImqmOIwN-6Pj9KUSKNEJGCbHwLbBc",
+   "sha256": "4a92b94d3187c3347109e0bf2595c0b6a8d17a350b989f28338ca66ddb340e2d",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD453",
+   "source": "https://drive.google.com/uc?export=download&id=1Ytw1WffK28iCCOVFBrc30_e1IsiYPO-v",
+   "sha256": "d30753950a8961c385055d97cab99af4d4244f322f05e3060b14a14d53234df8",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD460",
+   "source": "https://drive.google.com/uc?export=download&id=1wTEpjTl3P_6PvNTXfqiHEU3S6qekl9qz",
+   "sha256": "1e7a597c1ef9330055ecb57c222098d32b2c2aa0c5e48ddaa264df595684f389",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENTAL485",
+   "source": "https://drive.google.com/uc?export=download&id=1LJ91Ks_rFW0TVE2AAHN-F5xhe-YZTe2A",
+   "sha256": "4471d2e6c211d4e3c1f2aa5bf81b7c58d933386e59bdabf26223a405c0b7b3cb",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP300",
+   "source": "https://drive.google.com/uc?export=download&id=1I4ikkc_EhDKQ93JW58fsIOjNMutHlGqr",
+   "sha256": "d7035be66fa17d3e024ae962d60cb2a48425c500618c83168c59dd0df4a5a389",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP350",
+   "source": "https://drive.google.com/uc?export=download&id=1FxVCOpGIKVyIxjrgcFpC-8vWwe6-Xw_2",
+   "sha256": "89d7154239dfb0c043987ae42db21f71a7736d225c82708eff3f95d4e86ae93a",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP410",
+   "source": "https://drive.google.com/uc?export=download&id=1VG_IBwv-zDxTPsHv0FwxWxW7m_Vlib3K",
+   "sha256": "9b8c3d9f4d9c16a424971fe3c69b61908052cc3381f41d4b9e41a3c0ebf7ed66",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP450",
+   "source": "https://drive.google.com/uc?export=download&id=1iD-HCFRpnwvtt_8tfW3pxEcxs3H4_CXJ",
+   "sha256": "fe9562345bb27e67d342ff0fed18ac956880ef3699f37642587b4cca66114ef2",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP463",
+   "source": "https://drive.google.com/uc?export=download&id=1PlZYGic214JW5rTuddmpf-BZOJx0gfWH",
+   "sha256": "d0cbdae1dcfd1fa83d3531b534abcf4aafe47e61ebfdf30bece593c1a4d3d957",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP500",
+   "source": "https://drive.google.com/uc?export=download&id=1RB3-70sGb906QrXcOYqIUnFtY52uwFj1",
+   "sha256": "3139e08a4d740eed6e34e0c69d86bc7b37d80c6b78128a2e8950fbac0df0a31d",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENMAN255",
+   "source": "https://drive.google.com/uc?export=download&id=1cN9XpdahQEPFzSqpcvZKxOsxu0nTtgva",
+   "sha256": "919b314d0350bee6799237a5731f46d8698919c4ed95cc2f4134ec19c6d14f2e",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCGE350",
+   "source": "https://drive.google.com/uc?export=download&id=1FGYm1Vfv2Vn_0sOBkgvdIOdWJsttiaku",
+   "sha256": "ef4874b78e326efbf499fd3e1778ab5fd7ac787ef94d4987c42fde40d93b2e8b",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCGE355",
+   "source": "https://drive.google.com/uc?export=download&id=1ak5LPrtIPDa8mSXabOxEnVFi25xoEdNK",
+   "sha256": "04dd44aa2392f51dd1605fff590e8627cc6e09a01774a4aa2f9de4d11283c060",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN361",
+   "source": "https://drive.google.com/uc?export=download&id=1ltldI0eI3oA9BfDQ2P2NgUqKLEa3UIab",
+   "sha256": "3b71214291d34876345dfc4b847b1d1eb43c2dbbda15389649b94d54e85011dc",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCGE500",
+   "source": "https://drive.google.com/uc?export=download&id=1L1v8k2xti8hi8Gz9sB5IjjwASnf7u0tO",
+   "sha256": "32f039e3d21166b674178f195e36a033091f7e360510ac4f3f054dfc35fb1151",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENOPE300",
+   "source": "https://drive.google.com/uc?export=download&id=1pBITtssDnQiFeaEobOXpVG9FWervfu0W",
+   "sha256": "1e01b4e7d9380966b9474ab4173903564046066c28a6c1612989651497be57e3",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCOM150",
+   "source": "https://drive.google.com/uc?export=download&id=1ZxlNI0h8F9u7qNJJ_0230kEM67BN9aiz",
+   "sha256": "2ec684054722ee45a6046d900640e02ee44de86f06d64826ad5f5598de9ed36d",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCOM300",
+   "source": "https://drive.google.com/uc?export=download&id=1KuGZcI802Z_ZCyXNU0gqy-FjZJKjKpfl",
+   "sha256": "62bdbb199975c3d358fac6cb67631679217f6e56063771d9ad6ee196d2fbffa6",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO309",
+   "source": "https://drive.google.com/uc?export=download&id=1trd3gaw_3JZlqCikhoNFYWMh_t8Jj9Wg",
+   "sha256": "013495a0d3d65562ee9cb9e031d3663c5b47ea271f9a20968b585aba258f289f",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO338",
+   "source": "https://drive.google.com/uc?export=download&id=1FE-6xyycOJrORkatJRNRpoAYIMPFXuuw",
+   "sha256": "21b0f256197f4349b00afe92940b4964de8a1c38e2de8995eee7c738d179c5a7",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2024"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO3221",
+   "source": "https://drive.google.com/uc?export=download&id=1DkI_CyF-z9uzkHHtwbGHIyauOoc3vxHa",
+   "sha256": "c979bfab7d829231849eac4071f7b4b4c47b1d05efc86e23000019c95bf3b056",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO341",
+   "source": "https://drive.google.com/uc?export=download&id=1Wtnb8cjTvqhH24wYbKdIUlA7HsnhBgwl",
+   "sha256": "596f198450d5a1e4ddff02879fccd71423bda31955625c8fc36b146a5b1be06f",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO435",
+   "source": "https://drive.google.com/uc?export=download&id=1NTowYuut98N1-0u7l4qeqXO1czNiE6wT",
+   "sha256": "30cf67667b4efd019400b26cbfcae289d8d1dcaff3be71acf556bbccf39b5946",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENMEC357",
+   "source": "https://drive.google.com/uc?export=download&id=128UDq6SlXgHARIQho5A2-9HSXo-ivACy",
+   "sha256": "84e75a6f0e71842068632485485d7fad81acfc2eef8b3011f436d51a17650cc5",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENFIN355",
+   "source": "https://drive.google.com/uc?export=download&id=1pfLA7UdBFaJEAveji0nK_GcYc1uWXPCs",
+   "sha256": "40f0ae614e84277ab235820be15763067f74ef810b54fd96f9122ebc50fa1959",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENFIN408",
+   "source": "https://drive.google.com/uc?export=download&id=1oQmFLeeTlPDT84F_VML_LQsLLckpax-g",
+   "sha256": "3a84aa7ad9f1dc72f5f581a9a9c412dfa61e17986c8968ddf1ad3c0e80347c88",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO430",
+   "source": "https://drive.google.com/uc?export=download&id=1alcuanXVBFC3BVCJrz_4Fqb_8cPhMKdT",
+   "sha256": "9d81bde8ca709a725edade5cb802cc0c54fa51320f2872a03a673347cff00a8c",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGEP306",
+   "source": "https://drive.google.com/uc?export=download&id=13KNvYX7s1KnJRdghgusF55l7IV66rsmV",
+   "sha256": "78c5dbed3c10e567e50fd5a50f2a977b168b6e7463897bc6554cc2f5e0a4b73c",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN305",
+   "source": "https://drive.google.com/uc?export=download&id=1pIFjt63RXhNLa-HCmjNCQ8I3avJHjums",
+   "sha256": "061222657b258218a286d299625fbbf9078b41f10e1c1c959059bb9793046c04",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN310",
+   "source": "https://drive.google.com/uc?export=download&id=1Tlpdx9azpNTSQ0QxT1qreul9-mUcRd1b",
+   "sha256": "baa3cd025c6af108a4b62f38b3eba35c5d14ebe0edf2e7bdf9a3ca3cdbde1219",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN315",
+   "source": "https://drive.google.com/uc?export=download&id=1KXVj4W7sHij9H6khAzo_lYzo_RxNwZLB",
+   "sha256": "545d1fbbab3282230073b3d14297328874b2010aa8021a22e318fae399f95ac7",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN450",
+   "source": "https://drive.google.com/uc?export=download&id=1hlCrHX5k5QdRJLcYeDk4lZUvyFCkTLvm",
+   "sha256": "10cd72a3f956a6506a2510feec3d88391961cd1fcedf20746e3af22fb288d9d2",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN451",
+   "source": "https://drive.google.com/uc?export=download&id=1vHY5pamucWdWad_ho4sqovq3SKE857N4",
+   "sha256": "d12f41482281e0ca6dbe14195bea2570751a8df565c2517145af3f223d4ad71e",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN460",
+   "source": "https://drive.google.com/uc?export=download&id=1oBXZhFWx-AuaOQiFBMDi4z1g85USd36E",
+   "sha256": "02d35c7f9850cd83f9c22a1274d794652f986d0ca266283d6ad3154cdfd2214c",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENMKT438",
+   "source": "https://drive.google.com/uc?export=download&id=1vPQx2ISjtYB4hFFMUr-deknOOHGo28yC",
+   "sha256": "85b8522d916c79006812ee72c6dacde5fc3b198a01830335cb68f96323d28544",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG150",
+   "source": "https://drive.google.com/uc?export=download&id=1sovfYiAHxFrkXizCckOvLsbfg1z0Zwi7",
+   "sha256": "b66a3b19416befd87bc3338fc23303fc72a34c4fa283a28399792fe5e3dcda7a",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG372",
+   "source": "https://drive.google.com/uc?export=download&id=1MMQ19hMnuVBSThhFShK9wklTH3-CmYoJ",
+   "sha256": "0967075847a7bb81ce88eb3d78617f9afa5b679b5f1a2bc9599674265fccfeb3",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG429",
+   "source": "https://drive.google.com/uc?export=download&id=1GZJveKCXd53DSTr8NcJtzkqCkUKcJ-2e",
+   "sha256": "85fae3cd908ef0d27d333916ea6d9b381cb9cf038653eee84da49b781867e9a1",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO108",
+   "source": "https://drive.google.com/uc?export=download&id=1SwwVX3SZEsUFFBSC6jxTK0Tu8iRvC4k6",
+   "sha256": "dff271b7f9a5d10d155a9cd1e6fc75f4ad03003f530a7b9998c9f2cd1c266e26",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO110",
+   "source": "https://drive.google.com/uc?export=download&id=1PRo_Bm3hF61x5Al1bXYVAUvuMFgGbb-I",
+   "sha256": "efd3510f6ff2e4eeec3bd6e7fff2488f24b45b403dfe472e147200111ebee138",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO111",
+   "source": "https://drive.google.com/uc?export=download&id=1cO9feOOPm7XVTEWnGlRtqsZ2W_tckM7V",
+   "sha256": "925959f3eeff0494f291462c3f284908b362277207afae567cad89389e66b952",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO113",
+   "source": "https://drive.google.com/uc?export=download&id=14x70ILZP-WG2pCMVLx4U0m9r8ITS5DWk",
+   "sha256": "e67267cfa9c1b1d9eea973fe1157a2b0a51ba6dfd7d5e16f338290527d5f57d2",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO118",
+   "source": "https://drive.google.com/uc?export=download&id=1ZcQowpOR2leKW4MA4MRXnHgZJ9P5o-Xz",
+   "sha256": "cfa3376145a823512371c3de6b4eed97f5ac7ee3a3698c4e50e4feb83143e401",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-expanded",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENLEG155",
+   "source": "https://drive.google.com/uc?export=download&id=19DyXFW_HgkIbe6mGN5l1_ud8c1rokTG0",
+   "sha256": "c6392a209f0333b6b4b5c685c4b029d4654c6ebaa6dc63ddc21b4fa2d88d1e36",
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-urban-economics",
+   "source": "https://drive.google.com/uc?export=download&id=1i3H4MA_Rj4dh2vgcKobgANOADtslyENE",
+   "sha256": "271094cec93c82db9f188664645db03fc3a8c510f3db8b652e0e095f007c682c",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-environmental-economics-and-sustainable-development",
+   "source": "https://drive.google.com/uc?export=download&id=1zT5eg3ZAQbUuvGyPAtKErQG5JDbiySxj",
+   "sha256": "8f5fd694c2b4733c46427d4782610a1bf499e952844a8098f6879f8687f3faab",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-business-intelligence-and-database-applications",
+   "source": "https://drive.google.com/uc?export=download&id=1KJBTnVz-m-8e_cQWpqrJaygVq6YAEV5i",
+   "sha256": "f6ca6a713227edd8efc377d63689d0c9ff2e31c34b94a612752eb13afb8c29e1",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-business-process-management",
+   "source": "https://drive.google.com/uc?export=download&id=1hScOlglyxoQJDui7sjl4Y2kSG3ysdIPM",
+   "sha256": "ef959ad4fdf0ee246f46d27cd6811f55fc071fe5259fd8f3cb2a36c76d48fae0",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-chilean-economic-development",
+   "source": "https://drive.google.com/uc?export=download&id=1GNMGuRdul2Vvr_eVApovkuVByk9AIBCl",
+   "sha256": "e14ea47c03a8791a5f5abc83ab8fa4bfca6e5df397c19b0825712372c9bb5392",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-global-innovators",
+   "source": "https://drive.google.com/uc?export=download&id=1Z69FE6LLJPAILGUL6K85CGtnSey0E5rT",
+   "sha256": "f74cd366f47067eee44e10c55cd5989c51f280e8880bf66d2b451ebd70a70db8",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-latin-american-politics-and-world-affairs",
+   "source": "https://drive.google.com/uc?export=download&id=1o6KxJ3L-L0dwBKX91L-KXH9YdJ9m2ccI",
+   "sha256": "1bcc965779c566818fb1d6e48902866cad315b2e30af444efc250ea44efb1ca7",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-estrategia-y-presupuestos",
+   "source": "https://drive.google.com/uc?export=download&id=1RV8vBW2UZO1C6BFQsHJez95hkCAr0zGf",
+   "sha256": "e68671feef6e65825c6931e3dba63d5d37e696c40feb0669fd4e47d90cd7b733",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-prevencion-de-fraudes-a-estados-financieros",
+   "source": "https://drive.google.com/uc?export=download&id=1n0jm94wGPErpG6q1_ImU7Lj_UFaOU_V7",
+   "sha256": "8155fa8d709489f3c8ea638e4eadcee188d331236a074270519c8d3505e593b1",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2024"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-transformacion-digital-y-ciberseguridad",
+   "source": "https://drive.google.com/uc?export=download&id=1QACNRkRRB0BSFX-bDWnzKHqsZFRtQQQy",
+   "sha256": "c4b32d48df9c720d41441b9517a0ab6ba1937c422ecf749694a5e34bc0a5fb64",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-auditoria-iv-auditoria-de-tecnologias-de-la-informacion",
+   "source": "https://drive.google.com/uc?export=download&id=1feEgDckLw78grSWKdhRQLMnorcLvzv71",
+   "sha256": "c2da4b9212b6e1780bef72d70d885e38574f4b18d9d0d52e8a1dc9bd6fff9fb5",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-control-de-gestion-ii",
+   "source": "https://drive.google.com/uc?export=download&id=1h2EI5OjtZIr3rwik31x6Dh8Xb5AkmhjD",
+   "sha256": "3b7cdb17c31499211ada54992094b2e8acd0f42b8d2f934e50fc81c21a25a408",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-evaluacion-social-de-proyectos-y-programas-publicos",
+   "source": "https://drive.google.com/uc?export=download&id=1XaCfVJsuBy0YLZcxEW8U2iWz9E_Jl0Gp",
+   "sha256": "bbe1b44988accb728bb0d84c5a3e484dafb6b436eeab236510e9175d5509db1f",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2024"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-economia-y-gestion-del-futbol",
+   "source": "https://drive.google.com/uc?export=download&id=1b119rBWUIC9LlKraC1VrFYT1H94W4Uws",
+   "sha256": "d5b2a671ccb5879950d6d791a287001486b5890c9e6fb792d1bca357b82994a7",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-finanzas-publicas",
+   "source": "https://drive.google.com/uc?export=download&id=18eLRrjpK8emdiNeuJjoDgEs7O1XyNF5s",
+   "sha256": "00c456fbf53f6c88d342692b6d1893609244a50c5d31a595d38de93d0668eff5",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-limites-planetarios-y-desarrollo-economico",
+   "source": "https://drive.google.com/uc?export=download&id=10_jwSY4fULxBTunvd4kNxBjjPjOFr_ba",
+   "sha256": "34cb1f6a13cf0e49376d3c71452766776b977beae71011fa8441dd9b4c41ca33",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-matematicas-para-el-analisis-economico",
+   "source": "https://drive.google.com/uc?export=download&id=1T87LtkyTt30Fna_sjvP0yZwbxhXUbTpk",
+   "sha256": "6b01a9cac705f64192ed483c80a0728fe0f44c848e7c4006328ff27ee3b7af2b",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-analisis-de-datos-para-las-finanzas",
+   "source": "https://drive.google.com/uc?export=download&id=1wkpxUU3VGwqkopt1NU77jWDoLSMt12Du",
+   "sha256": "fe8771ec948c56876e75bb01f8d1f9ab976ffb5bdcb0a1ab52c48613f658cc5a",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-competencias-laborales",
+   "source": "https://drive.google.com/uc?export=download&id=17d8tKXMLgByf_Ea8vzbaRv4AyWP7A5dd",
+   "sha256": "6cf14028245b9e7548d54fb81ab0670810e61bda3b390250dd85fb386e7da610",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-innovacion-a-emprendimiento-sostenible",
+   "source": "https://drive.google.com/uc?export=download&id=1xd-7HTTeY5UYvXkupxPcN897sYTphj1M",
+   "sha256": "f607b68d079bf2c31579869eb820cc9e1cea20cc8037b3b25914b98186366a1a",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": "2026"
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-etica-sostenibilidad-y-compromiso-social",
+   "source": "https://drive.google.com/uc?export=download&id=1_PUVWeoyTyLdDX462kLfuRm9IQlZJjnG",
+   "sha256": "e1a109209c01310e4f7df2cbf9adea34bae9ab9f267b4c16d0a15fda0259bc72",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-introduccion-a-las-relaciones-internacionales-y-la-globalizacion",
+   "source": "https://drive.google.com/uc?export=download&id=1wYxvHiOpgAs_yRvAJCcndmZOs3IHr4sY",
+   "sha256": "e7ea8b5c4b904524a26117448f41a1f82d1c8654c008c6ee011bdf02db5c7e4b",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-introduccion-a-la-politica-publica-basada-en-evidencia",
+   "source": "https://drive.google.com/uc?export=download&id=1--i2GZXkR-p3ERt5kikUVa-abyVVBUiM",
+   "sha256": "a404ff485101816f72e7b36e8d3e4766bc222048335f0e94274bdd93a3922aad",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENLIB323",
+   "source": "https://drive.google.com/uc?export=download&id=1jbS3qcsK8XE2wdqy0JXmx_Dgda8o3zNP",
+   "sha256": "13e5292add6dca7bbd117ea0511a9b1d3e6d987235d94be19cc0c315eb8b5d55",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENLIB348",
+   "source": "https://drive.google.com/uc?export=download&id=1MmOU2s-ZThiapwRdD-cBeGGYcGetbxKb",
+   "sha256": "d1d605c1cb7cb3e0ecff261aa3909fb3093496a09b39fb5145ae391ae9850e0f",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "fen-title-only",
+   "universityId": "ch-13-universidaddec",
+   "code": "ENLIB349",
+   "source": "https://drive.google.com/uc?export=download&id=1qkLMns0yEctETw9GZZYDiojOaM3SrYtU",
+   "sha256": "fd2d5a88ae31391bdaa80a06f63f7dddff13127bd9a9f2935baa4bcd2a1a4aaf",
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule",
+    "printed_academic_code"
+   ],
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "udp-title",
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-derecho-de-las-obligaciones",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/12/Obligaciones-2S-2025-1.pdf",
+   "sha256": "68739275a96a8ec9adbc3ec55ed052491de212a2ac8fcb921a806ce6ddd04648",
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "udp-title",
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-persona-y-acto-juridico",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/12/Persona-y-acto-juridico-2S-2025-1.pdf",
+   "sha256": "4547bc4672dc605fbdf2789f55fa12d9d32765235542c3fa8a6bb7a8bbf3b55e",
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "udp-title",
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-derecho-de-danos",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/07/PROGRAMA-Derecho-de-Danos-2025-IDM-Academia-de-DD-Civil.pdf",
+   "sha256": "632e401fb06c70f448cf97538e689de9d7775756bf29b6d034c433410ec31ab1",
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "previousSource": null,
+   "academicYear": "2025"
+  },
+  {
+   "ledger": "udp-title",
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-derechos-reales-y-derecho-inmobiliario",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/07/Derechos-reales-e-inmobiliario-1S-2024.pdf",
+   "sha256": "ab9f6733fffc9bc0f1d9250ef6b17a3178d2dc065c051578f5e542935278d133",
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "previousSource": null,
+   "academicYear": "2024"
+  },
+  {
+   "ledger": "udp-title",
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-persona-y-negocio-juridico",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-para-ADC-persona-y-negocio-juridico-V3.pdf",
+   "sha256": "c86083040e4e7d745f5b440ea7c3c86223ae07f2ad87e2184b6ea964d6303205",
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "previousSource": null,
+   "academicYear": "2023"
+  },
+  {
+   "ledger": "udp-title",
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-contratos-civiles",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-para-ADC-Contratos-civiles-v3.pdf",
+   "sha256": "f5b3b8910f018a72488d32aca9e87da50f7f6e3ed7fa4cd76e9dff087b175ba9",
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "previousSource": null,
+   "academicYear": "2023"
+  },
+  {
+   "ledger": "udp-title",
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-fundamentos-historico-sociales-del-derecho-privado",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-academia-Fundamentos-Historico-sociales-del-Derecho-Privado.pdf",
+   "sha256": "67a9d2c6b26d0806d834d05a7d7a69468f4326b8c1d7ab75aa5926eeca64e822",
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "previousSource": null,
+   "academicYear": null
+  },
+  {
+   "ledger": "udp-title",
+   "universityId": "ch-15-universidaddie",
+   "code": "DER9829",
+   "source": "https://derecho.udp.cl/cms/wp-content/uploads/2024/03/Programa-Sostenibilidad-y-Derecho-internacional-privado.pdf",
+   "sha256": "096ff92e09808a6f5f8aff7cf0247df9d4ac18bc2821704d50addd71e3bd45f2",
+   "identifiedBy": [
+    "title",
+    "printed_academic_code",
+    "individual_contents_units"
+   ],
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "previousSource": null,
+   "academicYear": null
   }
  ],
  "rejected": [
@@ -5156,6 +6647,51 @@
    ],
    "skipped": 0,
    "researchLedger": ".cache\\public-research\\americas-followup-audited.json"
+  },
+  {
+   "ledger": "fen-expanded",
+   "integratedAt": "2026-10-19T00:46:57.752338+00:00",
+   "imported": 65,
+   "versionUpdates": [],
+   "skipped": 0,
+   "researchLedger": ".cache\\public-research\\fen-expanded-audited.json"
+  },
+  {
+   "ledger": "fen-title-only",
+   "integratedAt": "2026-10-19T00:55:08.218921+00:00",
+   "imported": 26,
+   "versionUpdates": [],
+   "skipped": 0,
+   "researchLedger": ".cache\\public-research\\fen-title-only-audited.json"
+  },
+  {
+   "ledger": "udp-title",
+   "integratedAt": "2026-10-19T00:55:11.034805+00:00",
+   "imported": 8,
+   "versionUpdates": [],
+   "skipped": 0,
+   "researchLedger": ".cache\\public-research\\udp-title-audited.json"
+  }
+ ],
+ "identityCorrections": [
+  {
+   "checkedAt": "2026-10-19T00:53:57.003916+00:00",
+   "universityId": "ch-13-universidaddec",
+   "records": [
+    "CAT-comunicacion",
+    "CAT-comunicacion-i",
+    "ENCOM300"
+   ],
+   "reason": "Corrected source assignment using official host plan correspondence: MOD1D ENCOM1005 Comunicación is separate from MOD1D ENCOM3005 Comunicación I, which corresponds to MOD1B/C ENCOM300 Comunicación II.",
+   "crosswalk": {
+    "source": "https://mallas2026.fen.uchile.cl/simulador/",
+    "pdfSource": "https://mallas2026.fen.uchile.cl/wp-content/uploads/2025/10/TABLA-EQUIVALENCIAS-FINALES-IC-LA-1.pdf",
+    "sha256": "97ecb9d21cd79458b72486927ccb39dc0e75f7d81312b8d1f583ee1baa490fee",
+    "page": 1,
+    "policy": "Official host plan correspondence MOD1B/MOD1C versus MOD1D; no temporal direction or Mackenzie equivalence inferred."
+   },
+   "previousWrongSourceSha256": "3928bd4cb00f04b4fc6d8942433fd68dfb722ddeb503e887573a314312c684a5",
+   "correctedENCOM300Sha256": "62bdbb199975c3d358fac6cb67631679217f6e56063771d9ad6ee196d2fbffa6"
   }
  ]
 }

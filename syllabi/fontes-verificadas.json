@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "2026-10-18T14:08:23.790051+00:00",
-  "foreign": 1212,
+  "updated": "2026-10-19T00:55:11.034805+00:00",
+  "foreign": 1312,
   "policy": "Somente programas individuais oficiais verificados por identidade da disciplina e seção de conteúdos."
  },
  "foreign": [
@@ -31676,52 +31676,115 @@
    "auditReference": "americas-followup:e655d1113f82eb2783515a7f25d62c9fce8c382980cb4b27b8173561ca44f5f5"
   },
   {
-   "source": "https://drive.google.com/uc?export=download&id=1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa",
-   "sha256": "3928bd4cb00f04b4fc6d8942433fd68dfb722ddeb503e887573a314312c684a5",
-   "pages": 11,
-   "evidenceChars": 22704,
    "universityId": "ch-13-universidaddec",
    "code": "CAT-comunicacion-i",
    "name": "Comunicación I",
-   "format": "pdf",
-   "academicYear": "2026",
-   "individualSyllabus": true,
+   "source": "https://drive.google.com/uc?export=download&id=1KuGZcI802Z_ZCyXNU0gqy-FjZJKjKpfl",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1KuGZcI802Z_ZCyXNU0gqy-FjZJKjKpfl",
    "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
-   "catalogueCourseCode": "ENCOM1005",
-   "catalogueFileCode": [
-    "ENCOM100501"
+   "sha256": "62bdbb199975c3d358fac6cb67631679217f6e56063771d9ad6ee196d2fbffa6",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "printed_academic_code",
+    "official_host_plan_correspondence",
+    "individual_programme_contents"
    ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
    "evidencePages": [
     1,
     2,
     3,
     4,
     5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11
+    6
    ],
-   "identifiedBy": [
-    "official_catalogue_link",
-    "dedicated_programme_title",
-    "printed_academic_code"
-   ],
-   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "pages": 6,
+   "evidenceChars": 13164,
    "checkedAt": "2026-10-18",
-   "detailLevel": "full_programme",
-   "method": "Downloaded actual public Google Drive PDF linked by official FEN catalogue, inspected first-page course title and printed code independently of filename; checked dedicated course content/schedule.",
-   "limitations": [
-    "Official catalogue is preliminary and subject to change; does not establish 2027 offer.",
-    "Contact totals remain unverified: weekly hours and study credits are not semester contact totals.",
-    "Catalogue filename code differs from printed programme code; retained printed code and exact-title association to internal CAT record, not an assertion of code continuity."
+   "catalogueFileCode": [
+    "ENCOM3005"
    ],
-   "discoverySource": "https://drive.google.com/file/d/1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa/view?usp=drive_link",
-   "importedAt": "2026-10-18T14:08:23.790051+00:00",
-   "auditLedgerSha256": "53ea76bb25ef8777187cd92007bd832389e983e4782871992ecc2795beb1dbc4",
-   "auditReference": "americas-followup:3928bd4cb00f04b4fc6d8942433fd68dfb722ddeb503e887573a314312c684a5"
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:62bdbb199975c3d358fac6cb67631679217f6e56063771d9ad6ee196d2fbffa6",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "programmePrintedTitle": "Comunicación II",
+   "hostPlanCorrespondence": {
+    "source": "https://mallas2026.fen.uchile.cl/simulador/",
+    "pdfSource": "https://mallas2026.fen.uchile.cl/wp-content/uploads/2025/10/TABLA-EQUIVALENCIAS-FINALES-IC-LA-1.pdf",
+    "sha256": "97ecb9d21cd79458b72486927ccb39dc0e75f7d81312b8d1f583ee1baa490fee",
+    "page": 1,
+    "policy": "Official host plan correspondence MOD1B/MOD1C versus MOD1D; no temporal direction or Mackenzie equivalence inferred.",
+    "cataloguePlan": "MOD1D",
+    "catalogueCode": "ENCOM3005",
+    "printedProgrammeCode": "ENCOM300"
+   },
+   "identityCorrection": {
+    "checkedAt": "2026-10-19T00:53:57.003916+00:00",
+    "reason": "Corrected source assignment using official host plan correspondence: MOD1D ENCOM1005 Comunicación is separate from MOD1D ENCOM3005 Comunicación I, which corresponds to MOD1B/C ENCOM300 Comunicación II."
+   },
+   "sourceHistory": [
+    {
+     "replacedAt": "2026-10-19T00:53:57.003916+00:00",
+     "reason": "Corrected source assignment using official host plan correspondence: MOD1D ENCOM1005 Comunicación is separate from MOD1D ENCOM3005 Comunicación I, which corresponds to MOD1B/C ENCOM300 Comunicación II.",
+     "previous": {
+      "source": "https://drive.google.com/uc?export=download&id=1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa",
+      "sha256": "3928bd4cb00f04b4fc6d8942433fd68dfb722ddeb503e887573a314312c684a5",
+      "pages": 11,
+      "evidenceChars": 22704,
+      "universityId": "ch-13-universidaddec",
+      "code": "CAT-comunicacion-i",
+      "name": "Comunicación I",
+      "format": "pdf",
+      "academicYear": "2026",
+      "individualSyllabus": true,
+      "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+      "catalogueCourseCode": "ENCOM1005",
+      "catalogueFileCode": [
+       "ENCOM100501"
+      ],
+      "evidencePages": [
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ],
+      "identifiedBy": [
+       "official_catalogue_link",
+       "dedicated_programme_title",
+       "printed_academic_code"
+      ],
+      "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+      "checkedAt": "2026-10-18",
+      "detailLevel": "full_programme",
+      "method": "Downloaded actual public Google Drive PDF linked by official FEN catalogue, inspected first-page course title and printed code independently of filename; checked dedicated course content/schedule.",
+      "limitations": [
+       "Official catalogue is preliminary and subject to change; does not establish 2027 offer.",
+       "Contact totals remain unverified: weekly hours and study credits are not semester contact totals.",
+       "Catalogue filename code differs from printed programme code; retained printed code and exact-title association to internal CAT record, not an assertion of code continuity."
+      ],
+      "discoverySource": "https://drive.google.com/file/d/1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa/view?usp=drive_link",
+      "importedAt": "2026-10-18T14:08:23.790051+00:00",
+      "auditLedgerSha256": "53ea76bb25ef8777187cd92007bd832389e983e4782871992ecc2795beb1dbc4",
+      "auditReference": "americas-followup:3928bd4cb00f04b4fc6d8942433fd68dfb722ddeb503e887573a314312c684a5"
+     }
+    }
+   ]
   },
   {
    "source": "https://drive.google.com/uc?export=download&id=1DaWnAbLR8woI286D4neef7ufbwsEDk6g",
@@ -33257,6 +33320,4217 @@
    "importedAt": "2026-10-18T14:08:23.790051+00:00",
    "auditLedgerSha256": "53ea76bb25ef8777187cd92007bd832389e983e4782871992ecc2795beb1dbc4",
    "auditReference": "americas-followup:d66c227dc873edaa632baa9e41f9e9e2ecb57fc148a762ae55c03402ec707d39"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON405",
+   "name": "Contabilidad Avanzada",
+   "source": "https://drive.google.com/uc?export=download&id=1nNm4_TQ656jhOh8Z5aL77ODtt-jZV9Xy",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1nNm4_TQ656jhOh8Z5aL77ODtt-jZV9Xy",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "4996fbcfbad07547f863e2e29322983d57f13d5bcc4d6491aee2a314c207cdca",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 11358,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCON450501"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:4996fbcfbad07547f863e2e29322983d57f13d5bcc4d6491aee2a314c207cdca",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENFIN425",
+   "name": "Gestión Financiera Corporativa",
+   "source": "https://drive.google.com/uc?export=download&id=12FmWZ2Q5ozk7cih0CeIlqg9wpfFIzNs6",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=12FmWZ2Q5ozk7cih0CeIlqg9wpfFIzNs6",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "c6f08c6a5fff1de95f82d030eebe178abd7a3e7461f86b67071f7d6134ddb8ad",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "pages": 3,
+   "evidenceChars": 5675,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENFIN425"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:c6f08c6a5fff1de95f82d030eebe178abd7a3e7461f86b67071f7d6134ddb8ad",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN410",
+   "name": "Information Systems Development",
+   "source": "https://drive.google.com/uc?export=download&id=1y9K-_K5yuYZTSXtfMTb7Nt3GNpFr85AE",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1y9K-_K5yuYZTSXtfMTb7Nt3GNpFr85AE",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "671ac0abcba0353f8a3b24cfeb2a265099c9756c93480c8cb99d7c8299ee9ca5",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 6163,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN4101"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:671ac0abcba0353f8a3b24cfeb2a265099c9756c93480c8cb99d7c8299ee9ca5",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN415",
+   "name": "Business Intelligence and Analytics",
+   "source": "https://drive.google.com/uc?export=download&id=1I9Ljm-5Oehs6zCj-oOb2rYLexl5iqavP",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1I9Ljm-5Oehs6zCj-oOb2rYLexl5iqavP",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "23904065afa7f2731ba10c0fcc2225e156a461b6246894d7b1dfe44f7980cd56",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "pages": 9,
+   "evidenceChars": 16988,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN4150"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:23904065afa7f2731ba10c0fcc2225e156a461b6246894d7b1dfe44f7980cd56",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN418",
+   "name": "Strategic Data Communication for Business",
+   "source": "https://drive.google.com/uc?export=download&id=1q5VSECa-h7LITaHVoKBfsmr-Dg_rR0nu",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1q5VSECa-h7LITaHVoKBfsmr-Dg_rR0nu",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "576441b6c4078cd843e48a985192a1ced4bb6de409f4e528b66052833f47a3e2",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 8253,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN4180"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:576441b6c4078cd843e48a985192a1ced4bb6de409f4e528b66052833f47a3e2",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN4190",
+   "name": "Artificial Intelligence in Strategic Management",
+   "source": "https://drive.google.com/uc?export=download&id=1A3pRLA2hfAP3msriKGtZBMdmKAeLfNM5",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1A3pRLA2hfAP3msriKGtZBMdmKAeLfNM5",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "379b75502bc56a4c08744f1f8b2b509c04ffeae988d3954fe9b349c2f9d34eca",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "pages": 3,
+   "evidenceChars": 5990,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN4190"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:379b75502bc56a4c08744f1f8b2b509c04ffeae988d3954fe9b349c2f9d34eca",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "MEC3005",
+   "name": "Business Analytics and AI",
+   "source": "https://drive.google.com/uc?export=download&id=19LqTOIzsxX4NXQxYqw4tfQvfmuAsP87I",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=19LqTOIzsxX4NXQxYqw4tfQvfmuAsP87I",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "68c3797f447ea4abfae3badeebb76668760d4cdfcc8eebb5097c3f642d3b391e",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 7059,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENMEC3005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:68c3797f447ea4abfae3badeebb76668760d4cdfcc8eebb5097c3f642d3b391e",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG306",
+   "name": "Foreign Direct Investment Projects in Developing Countries and Emerging Markets",
+   "source": "https://drive.google.com/uc?export=download&id=1aXIGHdBuidWE4J_I8kVvFoMSkXlTzqZK",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1aXIGHdBuidWE4J_I8kVvFoMSkXlTzqZK",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "e510cf3f061aedfcac5764f5913b70ff8a599cca2920e0b1ff276ba909046a5a",
+   "academicYear": "2025",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "pages": 9,
+   "evidenceChars": 17529,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENNEG3060"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:e510cf3f061aedfcac5764f5913b70ff8a599cca2920e0b1ff276ba909046a5a",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG399",
+   "name": "Business Negotiations",
+   "source": "https://drive.google.com/uc?export=download&id=1GWqx4PhK0aBARmYhOHiNMgXXeDCl7Trn",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1GWqx4PhK0aBARmYhOHiNMgXXeDCl7Trn",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "75c3809c781c70e04c706feb5cdec1f39e783bb40bc20ff3c2a874936bfb3865",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 5977,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENNEG399"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:75c3809c781c70e04c706feb5cdec1f39e783bb40bc20ff3c2a874936bfb3865",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG426",
+   "name": "Strategic Alliances (SA), Mergers & Acquisitions (M&A)",
+   "source": "https://drive.google.com/uc?export=download&id=1VWzRXVPuUXIeoJRsQxDvhsAZvT60xWNc",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1VWzRXVPuUXIeoJRsQxDvhsAZvT60xWNc",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "e61faf8e2a36fbcd54527e57f67c1a5e21dd1067b8dda8788082c4b415b661be",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 13012,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENNEG426"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:e61faf8e2a36fbcd54527e57f67c1a5e21dd1067b8dda8788082c4b415b661be",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG745",
+   "name": "Capstone: International Business",
+   "source": "https://drive.google.com/uc?export=download&id=1U-3mx17kNIXg390GX2Pd4a_rcSHqi9ZJ",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1U-3mx17kNIXg390GX2Pd4a_rcSHqi9ZJ",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "ba756e2f177ef2f251677444a9e66d439e9f84fb84f7681b9be88cc29fb82bb8",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "pages": 8,
+   "evidenceChars": 14269,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENNEG745"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:ba756e2f177ef2f251677444a9e66d439e9f84fb84f7681b9be88cc29fb82bb8",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENOPE415",
+   "name": "Operations Management",
+   "source": "https://drive.google.com/uc?export=download&id=1iuJbBTv6E-AvlNTaQj7bALgwIoF-JkOG",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1iuJbBTv6E-AvlNTaQj7bALgwIoF-JkOG",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "9531d3a8f3b53437d320c8aaeb89bcf8a0f1c48a505fedc0f76d5148f556f490",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "pages": 9,
+   "evidenceChars": 16463,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENOPE4150"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:9531d3a8f3b53437d320c8aaeb89bcf8a0f1c48a505fedc0f76d5148f556f490",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON205",
+   "name": "Contabilidad II",
+   "source": "https://drive.google.com/uc?export=download&id=1sJcB-jzEKmLtFlxC09nCPBejtobciN6O",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1sJcB-jzEKmLtFlxC09nCPBejtobciN6O",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "774ac463ba8dc4fb6eb0695f6c9e600e4f06d803c691319baf4a4b5af781f412",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 11567,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCON2505"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:774ac463ba8dc4fb6eb0695f6c9e600e4f06d803c691319baf4a4b5af781f412",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON255",
+   "name": "Fundamentos de Costos",
+   "source": "https://drive.google.com/uc?export=download&id=1qvwYOvzxKAlq71rI7B0UC7VzoXXnWmOk",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1qvwYOvzxKAlq71rI7B0UC7VzoXXnWmOk",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "c8062ea45f036d67cc7d530dcae1a4d93120096a1a8c3b1fec15c7290d4ba4a0",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 13256,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCON1510"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:c8062ea45f036d67cc7d530dcae1a4d93120096a1a8c3b1fec15c7290d4ba4a0",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON305",
+   "name": "Costos y Presupuestos",
+   "source": "https://drive.google.com/uc?export=download&id=1uvuZYbC9YKYMKuG81X5L35u6TQSNTD_p",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1uvuZYbC9YKYMKuG81X5L35u6TQSNTD_p",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "83377051e8772a8f46a6709b7de8ca5c00063e60432dccf3b181ba08d8cf040b",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "pages": 16,
+   "evidenceChars": 21310,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCON305"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:83377051e8772a8f46a6709b7de8ca5c00063e60432dccf3b181ba08d8cf040b",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON310",
+   "name": "Análisis Contable",
+   "source": "https://drive.google.com/uc?export=download&id=100t6ASbAjAAYy_hPAfbTJzklQYL9KISz",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=100t6ASbAjAAYy_hPAfbTJzklQYL9KISz",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "6cf555d189679da2c5967993ccfd2b4c197c8c1fa6ea9ec70b4a0774889d697f",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 17825,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCON3510"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:6cf555d189679da2c5967993ccfd2b4c197c8c1fa6ea9ec70b4a0774889d697f",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON415",
+   "name": "Costos Avanzados",
+   "source": "https://drive.google.com/uc?export=download&id=1bx8Nwh7gB4_8HoRo8qY_uXn1mk4SHv4O",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1bx8Nwh7gB4_8HoRo8qY_uXn1mk4SHv4O",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "36939dcda346305786d4d062f2458c547bf596a3ee5e76dd8fb0435791eb33a6",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 11436,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCON415"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:36939dcda346305786d4d062f2458c547bf596a3ee5e76dd8fb0435791eb33a6",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCON455",
+   "name": "Contabilidad para las Decisiones",
+   "source": "https://drive.google.com/uc?export=download&id=1cqV0PS07Eqg0sXCRrTMHiqNez_qhBgZ5",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1cqV0PS07Eqg0sXCRrTMHiqNez_qhBgZ5",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "ee90896528ad2c795de1d189b62770907b39cadfa154c1eefe7778875f774db7",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "pages": 9,
+   "evidenceChars": 18470,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCON455"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:ee90896528ad2c795de1d189b62770907b39cadfa154c1eefe7778875f774db7",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD250",
+   "name": "Auditoría I - Gestión de Riesgos",
+   "source": "https://drive.google.com/uc?export=download&id=1sfqZAnQeKtLPBRPzBHWN5jPemA4T-AZ6",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1sfqZAnQeKtLPBRPzBHWN5jPemA4T-AZ6",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "51433e82be443ebd0f37d4132dc3726af0889a6098919542003de828832a2631",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 12270,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENAUD2005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:51433e82be443ebd0f37d4132dc3726af0889a6098919542003de828832a2631",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD334",
+   "name": "Auditoría de Estados Financieros",
+   "source": "https://drive.google.com/uc?export=download&id=1YhEQg0-HisXLSVRfapzeSt6R4n2suIAs",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1YhEQg0-HisXLSVRfapzeSt6R4n2suIAs",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "7b44c96d92f95a7c50cf98bcb2f21ac0f409e9463310ca22aea3a699f46cb594",
+   "academicYear": "2025",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 5375,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENAUD33401"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:7b44c96d92f95a7c50cf98bcb2f21ac0f409e9463310ca22aea3a699f46cb594",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD350",
+   "name": "Auditoría II: Fundamentos de Auditoría",
+   "source": "https://drive.google.com/uc?export=download&id=1IN8iuV8EiqlzJjcpI7xDpKMHd34o2fB2",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1IN8iuV8EiqlzJjcpI7xDpKMHd34o2fB2",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "e054133266c7d2360a1966fd7b1d9b6371ee2e87caa44c5f3c3156112f7699c2",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 9147,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENAUD3005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:e054133266c7d2360a1966fd7b1d9b6371ee2e87caa44c5f3c3156112f7699c2",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD360",
+   "name": "Auditoría III – Desarrollo de Auditoría Interna",
+   "source": "https://drive.google.com/uc?export=download&id=14WdImqmOIwN-6Pj9KUSKNEJGCbHwLbBc",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=14WdImqmOIwN-6Pj9KUSKNEJGCbHwLbBc",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "4a92b94d3187c3347109e0bf2595c0b6a8d17a350b989f28338ca66ddb340e2d",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 6103,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENAUD3505"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:4a92b94d3187c3347109e0bf2595c0b6a8d17a350b989f28338ca66ddb340e2d",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD453",
+   "name": "Tecnología y Bases de Datos para Auditoría",
+   "source": "https://drive.google.com/uc?export=download&id=1Ytw1WffK28iCCOVFBrc30_e1IsiYPO-v",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1Ytw1WffK28iCCOVFBrc30_e1IsiYPO-v",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "d30753950a8961c385055d97cab99af4d4244f322f05e3060b14a14d53234df8",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 6333,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENAUD453"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:d30753950a8961c385055d97cab99af4d4244f322f05e3060b14a14d53234df8",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENAUD460",
+   "name": "Control Interno",
+   "source": "https://drive.google.com/uc?export=download&id=1wTEpjTl3P_6PvNTXfqiHEU3S6qekl9qz",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1wTEpjTl3P_6PvNTXfqiHEU3S6qekl9qz",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "1e7a597c1ef9330055ecb57c222098d32b2c2aa0c5e48ddaa264df595684f389",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 6729,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENAUD460"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:1e7a597c1ef9330055ecb57c222098d32b2c2aa0c5e48ddaa264df595684f389",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENTAL485",
+   "name": "Taller de Contabilidad y Auditoría",
+   "source": "https://drive.google.com/uc?export=download&id=1LJ91Ks_rFW0TVE2AAHN-F5xhe-YZTe2A",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1LJ91Ks_rFW0TVE2AAHN-F5xhe-YZTe2A",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "4471d2e6c211d4e3c1f2aa5bf81b7c58d933386e59bdabf26223a405c0b7b3cb",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "pages": 9,
+   "evidenceChars": 13326,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENAUD485"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:4471d2e6c211d4e3c1f2aa5bf81b7c58d933386e59bdabf26223a405c0b7b3cb",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP300",
+   "name": "Tributación I Economía de los Impuestos",
+   "source": "https://drive.google.com/uc?export=download&id=1I4ikkc_EhDKQ93JW58fsIOjNMutHlGqr",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1I4ikkc_EhDKQ93JW58fsIOjNMutHlGqr",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "d7035be66fa17d3e024ae962d60cb2a48425c500618c83168c59dd0df4a5a389",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 9574,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENIMP4005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:d7035be66fa17d3e024ae962d60cb2a48425c500618c83168c59dd0df4a5a389",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP350",
+   "name": "Tributación II (Derecho Tributario)",
+   "source": "https://drive.google.com/uc?export=download&id=1FxVCOpGIKVyIxjrgcFpC-8vWwe6-Xw_2",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1FxVCOpGIKVyIxjrgcFpC-8vWwe6-Xw_2",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "89d7154239dfb0c043987ae42db21f71a7736d225c82708eff3f95d4e86ae93a",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 11855,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENIMP4505"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:89d7154239dfb0c043987ae42db21f71a7736d225c82708eff3f95d4e86ae93a",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP410",
+   "name": "Tributación V - Impuesto Tipo Consumo",
+   "source": "https://drive.google.com/uc?export=download&id=1VG_IBwv-zDxTPsHv0FwxWxW7m_Vlib3K",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1VG_IBwv-zDxTPsHv0FwxWxW7m_Vlib3K",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "9b8c3d9f4d9c16a424971fe3c69b61908052cc3381f41d4b9e41a3c0ebf7ed66",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "pages": 8,
+   "evidenceChars": 16192,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENIMP3505"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:9b8c3d9f4d9c16a424971fe3c69b61908052cc3381f41d4b9e41a3c0ebf7ed66",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP450",
+   "name": "Tributación IV - Renta Personal",
+   "source": "https://drive.google.com/uc?export=download&id=1iD-HCFRpnwvtt_8tfW3pxEcxs3H4_CXJ",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1iD-HCFRpnwvtt_8tfW3pxEcxs3H4_CXJ",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "fe9562345bb27e67d342ff0fed18ac956880ef3699f37642587b4cca66114ef2",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 10123,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENIMP45001"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:fe9562345bb27e67d342ff0fed18ac956880ef3699f37642587b4cca66114ef2",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP463",
+   "name": "Tributación III Renta Empresarial",
+   "source": "https://drive.google.com/uc?export=download&id=1PlZYGic214JW5rTuddmpf-BZOJx0gfWH",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1PlZYGic214JW5rTuddmpf-BZOJx0gfWH",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "d0cbdae1dcfd1fa83d3531b534abcf4aafe47e61ebfdf30bece593c1a4d3d957",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 11417,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENIMP3005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:d0cbdae1dcfd1fa83d3531b534abcf4aafe47e61ebfdf30bece593c1a4d3d957",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENIMP500",
+   "name": "Tributación Contemporánea",
+   "source": "https://drive.google.com/uc?export=download&id=1RB3-70sGb906QrXcOYqIUnFtY52uwFj1",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1RB3-70sGb906QrXcOYqIUnFtY52uwFj1",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "3139e08a4d740eed6e34e0c69d86bc7b37d80c6b78128a2e8950fbac0df0a31d",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 9318,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENIMP50001"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:3139e08a4d740eed6e34e0c69d86bc7b37d80c6b78128a2e8950fbac0df0a31d",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENMAN255",
+   "name": "Planificación y Diseño Organizacional",
+   "source": "https://drive.google.com/uc?export=download&id=1cN9XpdahQEPFzSqpcvZKxOsxu0nTtgva",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1cN9XpdahQEPFzSqpcvZKxOsxu0nTtgva",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "919b314d0350bee6799237a5731f46d8698919c4ed95cc2f4134ec19c6d14f2e",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 14639,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCGE3505"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:919b314d0350bee6799237a5731f46d8698919c4ed95cc2f4134ec19c6d14f2e",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCGE350",
+   "name": "Control de Gestión",
+   "source": "https://drive.google.com/uc?export=download&id=1FGYm1Vfv2Vn_0sOBkgvdIOdWJsttiaku",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1FGYm1Vfv2Vn_0sOBkgvdIOdWJsttiaku",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "ef4874b78e326efbf499fd3e1778ab5fd7ac787ef94d4987c42fde40d93b2e8b",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 11772,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCGE35001"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:ef4874b78e326efbf499fd3e1778ab5fd7ac787ef94d4987c42fde40d93b2e8b",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCGE355",
+   "name": "Control de Gestión I",
+   "source": "https://drive.google.com/uc?export=download&id=1ak5LPrtIPDa8mSXabOxEnVFi25xoEdNK",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1ak5LPrtIPDa8mSXabOxEnVFi25xoEdNK",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "04dd44aa2392f51dd1605fff590e8627cc6e09a01774a4aa2f9de4d11283c060",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 15638,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCGE400501"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:04dd44aa2392f51dd1605fff590e8627cc6e09a01774a4aa2f9de4d11283c060",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN361",
+   "name": "Aplicaciones BI para la gestión de las organizaciones",
+   "source": "https://drive.google.com/uc?export=download&id=1ltldI0eI3oA9BfDQ2P2NgUqKLEa3UIab",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1ltldI0eI3oA9BfDQ2P2NgUqKLEa3UIab",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "3b71214291d34876345dfc4b847b1d1eb43c2dbbda15389649b94d54e85011dc",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 6979,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCGE401"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:3b71214291d34876345dfc4b847b1d1eb43c2dbbda15389649b94d54e85011dc",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCGE500",
+   "name": "Taller de Control de Gestión",
+   "source": "https://drive.google.com/uc?export=download&id=1L1v8k2xti8hi8Gz9sB5IjjwASnf7u0tO",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1L1v8k2xti8hi8Gz9sB5IjjwASnf7u0tO",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "32f039e3d21166b674178f195e36a033091f7e360510ac4f3f054dfc35fb1151",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "pages": 11,
+   "evidenceChars": 21890,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCGE50001"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:32f039e3d21166b674178f195e36a033091f7e360510ac4f3f054dfc35fb1151",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENOPE300",
+   "name": "Investigación Operativa",
+   "source": "https://drive.google.com/uc?export=download&id=1pBITtssDnQiFeaEobOXpVG9FWervfu0W",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1pBITtssDnQiFeaEobOXpVG9FWervfu0W",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "1e01b4e7d9380966b9474ab4173903564046066c28a6c1612989651497be57e3",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 7379,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN3505"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:1e01b4e7d9380966b9474ab4173903564046066c28a6c1612989651497be57e3",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCOM150",
+   "name": "Entorno Social y Profesional",
+   "source": "https://drive.google.com/uc?export=download&id=1ZxlNI0h8F9u7qNJJ_0230kEM67BN9aiz",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1ZxlNI0h8F9u7qNJJ_0230kEM67BN9aiz",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "2ec684054722ee45a6046d900640e02ee44de86f06d64826ad5f5598de9ed36d",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "pages": 8,
+   "evidenceChars": 18277,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENNEG1505"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:2ec684054722ee45a6046d900640e02ee44de86f06d64826ad5f5598de9ed36d",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENCOM300",
+   "name": "Comunicación II",
+   "source": "https://drive.google.com/uc?export=download&id=1KuGZcI802Z_ZCyXNU0gqy-FjZJKjKpfl",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1KuGZcI802Z_ZCyXNU0gqy-FjZJKjKpfl",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "62bdbb199975c3d358fac6cb67631679217f6e56063771d9ad6ee196d2fbffa6",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 13164,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCOM3005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:62bdbb199975c3d358fac6cb67631679217f6e56063771d9ad6ee196d2fbffa6",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "versionAliasOf": "ch-13-universidaddec|CAT-comunicacion-i",
+   "relatedCatalogueRecords": [
+    "ch-13-universidaddec|CAT-comunicacion-i"
+   ],
+   "cataloguePlan": "MOD1B/MOD1C",
+   "currentOfferUnconfirmed": true,
+   "hostPlanCorrespondence": {
+    "source": "https://mallas2026.fen.uchile.cl/simulador/",
+    "pdfSource": "https://mallas2026.fen.uchile.cl/wp-content/uploads/2025/10/TABLA-EQUIVALENCIAS-FINALES-IC-LA-1.pdf",
+    "sha256": "97ecb9d21cd79458b72486927ccb39dc0e75f7d81312b8d1f583ee1baa490fee",
+    "page": 1,
+    "policy": "Official host plan correspondence MOD1B/MOD1C versus MOD1D; no temporal direction or Mackenzie equivalence inferred.",
+    "leftCode": "ENCOM300",
+    "leftTitle": "Comunicación II",
+    "rightCode": "ENCOM3005",
+    "rightTitle": "Comunicación I"
+   },
+   "versionAliasNote": "Same documented host-plan correspondence as internal CAT record; not evidence of two concurrently offered courses."
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO309",
+   "name": "Desafíos para el desarrollo económico de Chile",
+   "source": "https://drive.google.com/uc?export=download&id=1trd3gaw_3JZlqCikhoNFYWMh_t8Jj9Wg",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1trd3gaw_3JZlqCikhoNFYWMh_t8Jj9Wg",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "013495a0d3d65562ee9cb9e031d3663c5b47ea271f9a20968b585aba258f289f",
+   "academicYear": "2025",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 11818,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENECO309"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:013495a0d3d65562ee9cb9e031d3663c5b47ea271f9a20968b585aba258f289f",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO338",
+   "name": "Economía del Comportamiento",
+   "source": "https://drive.google.com/uc?export=download&id=1FE-6xyycOJrORkatJRNRpoAYIMPFXuuw",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1FE-6xyycOJrORkatJRNRpoAYIMPFXuuw",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "21b0f256197f4349b00afe92940b4964de8a1c38e2de8995eee7c738d179c5a7",
+   "academicYear": "2024",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "pages": 8,
+   "evidenceChars": 14036,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENECO33801"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:21b0f256197f4349b00afe92940b4964de8a1c38e2de8995eee7c738d179c5a7",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO3221",
+   "name": "Métodos Empíricos en Libre Competencia y Regulación",
+   "source": "https://drive.google.com/uc?export=download&id=1DkI_CyF-z9uzkHHtwbGHIyauOoc3vxHa",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1DkI_CyF-z9uzkHHtwbGHIyauOoc3vxHa",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "c979bfab7d829231849eac4071f7b4b4c47b1d05efc86e23000019c95bf3b056",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "pages": 8,
+   "evidenceChars": 12612,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENECO3221"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:c979bfab7d829231849eac4071f7b4b4c47b1d05efc86e23000019c95bf3b056",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO341",
+   "name": "Innovación con Base Científico-Tecnológico",
+   "source": "https://drive.google.com/uc?export=download&id=1Wtnb8cjTvqhH24wYbKdIUlA7HsnhBgwl",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1Wtnb8cjTvqhH24wYbKdIUlA7HsnhBgwl",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "596f198450d5a1e4ddff02879fccd71423bda31955625c8fc36b146a5b1be06f",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 9177,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENECO3410"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:596f198450d5a1e4ddff02879fccd71423bda31955625c8fc36b146a5b1be06f",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO435",
+   "name": "Organización Industrial Aplicada",
+   "source": "https://drive.google.com/uc?export=download&id=1NTowYuut98N1-0u7l4qeqXO1czNiE6wT",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1NTowYuut98N1-0u7l4qeqXO1czNiE6wT",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "30cf67667b4efd019400b26cbfcae289d8d1dcaff3be71acf556bbccf39b5946",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2
+   ],
+   "pages": 2,
+   "evidenceChars": 1418,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENECO435"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:30cf67667b4efd019400b26cbfcae289d8d1dcaff3be71acf556bbccf39b5946",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENMEC357",
+   "name": "Tópicos en Economía y Negocios Utilizando R",
+   "source": "https://drive.google.com/uc?export=download&id=128UDq6SlXgHARIQho5A2-9HSXo-ivACy",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=128UDq6SlXgHARIQho5A2-9HSXo-ivACy",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "84e75a6f0e71842068632485485d7fad81acfc2eef8b3011f436d51a17650cc5",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 6162,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENMEC35701"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:84e75a6f0e71842068632485485d7fad81acfc2eef8b3011f436d51a17650cc5",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENFIN355",
+   "name": "Análisis y Planificación Financiera",
+   "source": "https://drive.google.com/uc?export=download&id=1pfLA7UdBFaJEAveji0nK_GcYc1uWXPCs",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1pfLA7UdBFaJEAveji0nK_GcYc1uWXPCs",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "40f0ae614e84277ab235820be15763067f74ef810b54fd96f9122ebc50fa1959",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 8525,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENFIN4005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:40f0ae614e84277ab235820be15763067f74ef810b54fd96f9122ebc50fa1959",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENFIN408",
+   "name": "Preparación y Evaluación de Proyectos",
+   "source": "https://drive.google.com/uc?export=download&id=1oQmFLeeTlPDT84F_VML_LQsLLckpax-g",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1oQmFLeeTlPDT84F_VML_LQsLLckpax-g",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "3a84aa7ad9f1dc72f5f581a9a9c412dfa61e17986c8968ddf1ad3c0e80347c88",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 12092,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENFIN40801"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:3a84aa7ad9f1dc72f5f581a9a9c412dfa61e17986c8968ddf1ad3c0e80347c88",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENECO430",
+   "name": "Juegos y Estrategia",
+   "source": "https://drive.google.com/uc?export=download&id=1alcuanXVBFC3BVCJrz_4Fqb_8cPhMKdT",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1alcuanXVBFC3BVCJrz_4Fqb_8cPhMKdT",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "9d81bde8ca709a725edade5cb802cc0c54fa51320f2872a03a673347cff00a8c",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 8844,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENFIN4510"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:9d81bde8ca709a725edade5cb802cc0c54fa51320f2872a03a673347cff00a8c",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGEP306",
+   "name": "Gestión y Equidad de Género",
+   "source": "https://drive.google.com/uc?export=download&id=13KNvYX7s1KnJRdghgusF55l7IV66rsmV",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=13KNvYX7s1KnJRdghgusF55l7IV66rsmV",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "78c5dbed3c10e567e50fd5a50f2a977b168b6e7463897bc6554cc2f5e0a4b73c",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 8887,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGEP306"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:78c5dbed3c10e567e50fd5a50f2a977b168b6e7463897bc6554cc2f5e0a4b73c",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN305",
+   "name": "Sistemas de Administración de Base de Datos",
+   "source": "https://drive.google.com/uc?export=download&id=1pIFjt63RXhNLa-HCmjNCQ8I3avJHjums",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1pIFjt63RXhNLa-HCmjNCQ8I3avJHjums",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "061222657b258218a286d299625fbbf9078b41f10e1c1c959059bb9793046c04",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 11210,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN3005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:061222657b258218a286d299625fbbf9078b41f10e1c1c959059bb9793046c04",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN310",
+   "name": "Programación y Algoritmos",
+   "source": "https://drive.google.com/uc?export=download&id=1Tlpdx9azpNTSQ0QxT1qreul9-mUcRd1b",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1Tlpdx9azpNTSQ0QxT1qreul9-mUcRd1b",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "baa3cd025c6af108a4b62f38b3eba35c5d14ebe0edf2e7bdf9a3ca3cdbde1219",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 5543,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN31001"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:baa3cd025c6af108a4b62f38b3eba35c5d14ebe0edf2e7bdf9a3ca3cdbde1219",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN315",
+   "name": "Sistemas de Aplicaciones",
+   "source": "https://drive.google.com/uc?export=download&id=1KXVj4W7sHij9H6khAzo_lYzo_RxNwZLB",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1KXVj4W7sHij9H6khAzo_lYzo_RxNwZLB",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "545d1fbbab3282230073b3d14297328874b2010aa8021a22e318fae399f95ac7",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 9070,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN3510"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:545d1fbbab3282230073b3d14297328874b2010aa8021a22e318fae399f95ac7",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN450",
+   "name": "Negocios con Tecnologías de Información",
+   "source": "https://drive.google.com/uc?export=download&id=1hlCrHX5k5QdRJLcYeDk4lZUvyFCkTLvm",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1hlCrHX5k5QdRJLcYeDk4lZUvyFCkTLvm",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "10cd72a3f956a6506a2510feec3d88391961cd1fcedf20746e3af22fb288d9d2",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 13406,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN4010"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:10cd72a3f956a6506a2510feec3d88391961cd1fcedf20746e3af22fb288d9d2",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN451",
+   "name": "Toma de decisiones bajo incertidumbre",
+   "source": "https://drive.google.com/uc?export=download&id=1vHY5pamucWdWad_ho4sqovq3SKE857N4",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1vHY5pamucWdWad_ho4sqovq3SKE857N4",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "d12f41482281e0ca6dbe14195bea2570751a8df565c2517145af3f223d4ad71e",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "pages": 3,
+   "evidenceChars": 5515,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN45101"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:d12f41482281e0ca6dbe14195bea2570751a8df565c2517145af3f223d4ad71e",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENGIN460",
+   "name": "Business Intelligence",
+   "source": "https://drive.google.com/uc?export=download&id=1oBXZhFWx-AuaOQiFBMDi4z1g85USd36E",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1oBXZhFWx-AuaOQiFBMDi4z1g85USd36E",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "02d35c7f9850cd83f9c22a1274d794652f986d0ca266283d6ad3154cdfd2214c",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 9238,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENGIN4005"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:02d35c7f9850cd83f9c22a1274d794652f986d0ca266283d6ad3154cdfd2214c",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueIdentityConflict": "O link no catálogo2026 está rotulado Machine Learning (ENGIN4005), mas o PDF declara Business Intelligence, códigoENGIN460. Fonte individual preservada pelo título/código próprios; não comprova oferta de Machine Learning ou oferta2027."
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENMKT438",
+   "name": "Marketing Digital Estratégico",
+   "source": "https://drive.google.com/uc?export=download&id=1vPQx2ISjtYB4hFFMUr-deknOOHGo28yC",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1vPQx2ISjtYB4hFFMUr-deknOOHGo28yC",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "85b8522d916c79006812ee72c6dacde5fc3b198a01830335cb68f96323d28544",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "pages": 5,
+   "evidenceChars": 15115,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENMKT438"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:85b8522d916c79006812ee72c6dacde5fc3b198a01830335cb68f96323d28544",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG150",
+   "name": "Ética y Negocios",
+   "source": "https://drive.google.com/uc?export=download&id=1sovfYiAHxFrkXizCckOvLsbfg1z0Zwi7",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1sovfYiAHxFrkXizCckOvLsbfg1z0Zwi7",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "b66a3b19416befd87bc3338fc23303fc72a34c4fa283a28399792fe5e3dcda7a",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "pages": 4,
+   "evidenceChars": 4802,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENNEG15001"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:b66a3b19416befd87bc3338fc23303fc72a34c4fa283a28399792fe5e3dcda7a",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG372",
+   "name": "Gestión de la Ética y la Sostenibilidad Empresarial",
+   "source": "https://drive.google.com/uc?export=download&id=1MMQ19hMnuVBSThhFShK9wklTH3-CmYoJ",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1MMQ19hMnuVBSThhFShK9wklTH3-CmYoJ",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "0967075847a7bb81ce88eb3d78617f9afa5b679b5f1a2bc9599674265fccfeb3",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 13479,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENNEG37201"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:0967075847a7bb81ce88eb3d78617f9afa5b679b5f1a2bc9599674265fccfeb3",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENNEG429",
+   "name": "Gobierno y Gerencia de Empresas Familiares",
+   "source": "https://drive.google.com/uc?export=download&id=1GZJveKCXd53DSTr8NcJtzkqCkUKcJ-2e",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1GZJveKCXd53DSTr8NcJtzkqCkUKcJ-2e",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "85fae3cd908ef0d27d333916ea6d9b381cb9cf038653eee84da49b781867e9a1",
+   "academicYear": "2026",
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "pages": 3,
+   "evidenceChars": 6357,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENNEG429"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:85fae3cd908ef0d27d333916ea6d9b381cb9cf038653eee84da49b781867e9a1",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO108",
+   "name": "Introducción a la Ecología",
+   "source": "https://drive.google.com/uc?export=download&id=1SwwVX3SZEsUFFBSC6jxTK0Tu8iRvC4k6",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1SwwVX3SZEsUFFBSC6jxTK0Tu8iRvC4k6",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "dff271b7f9a5d10d155a9cd1e6fc75f4ad03003f530a7b9998c9f2cd1c266e26",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 13382,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENESO108"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:dff271b7f9a5d10d155a9cd1e6fc75f4ad03003f530a7b9998c9f2cd1c266e26",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO110",
+   "name": "Introducción a la Psicología",
+   "source": "https://drive.google.com/uc?export=download&id=1PRo_Bm3hF61x5Al1bXYVAUvuMFgGbb-I",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1PRo_Bm3hF61x5Al1bXYVAUvuMFgGbb-I",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "efd3510f6ff2e4eeec3bd6e7fff2488f24b45b403dfe472e147200111ebee138",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "pages": 11,
+   "evidenceChars": 15464,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENESO110"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:efd3510f6ff2e4eeec3bd6e7fff2488f24b45b403dfe472e147200111ebee138",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO111",
+   "name": "Introducción a la Antropología",
+   "source": "https://drive.google.com/uc?export=download&id=1cO9feOOPm7XVTEWnGlRtqsZ2W_tckM7V",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1cO9feOOPm7XVTEWnGlRtqsZ2W_tckM7V",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "925959f3eeff0494f291462c3f284908b362277207afae567cad89389e66b952",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 12974,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENESO111"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:925959f3eeff0494f291462c3f284908b362277207afae567cad89389e66b952",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO113",
+   "name": "Introducción a la Tecnología",
+   "source": "https://drive.google.com/uc?export=download&id=14x70ILZP-WG2pCMVLx4U0m9r8ITS5DWk",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=14x70ILZP-WG2pCMVLx4U0m9r8ITS5DWk",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "e67267cfa9c1b1d9eea973fe1157a2b0a51ba6dfd7d5e16f338290527d5f57d2",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "pages": 7,
+   "evidenceChars": 7829,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENESO113"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:e67267cfa9c1b1d9eea973fe1157a2b0a51ba6dfd7d5e16f338290527d5f57d2",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENESO118",
+   "name": "Introducción a las Artes Mediales",
+   "source": "https://drive.google.com/uc?export=download&id=1ZcQowpOR2leKW4MA4MRXnHgZJ9P5o-Xz",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1ZcQowpOR2leKW4MA4MRXnHgZJ9P5o-Xz",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "cfa3376145a823512371c3de6b4eed97f5ac7ee3a3698c4e50e4feb83143e401",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "pages": 6,
+   "evidenceChars": 6556,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENESO118"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:cfa3376145a823512371c3de6b4eed97f5ac7ee3a3698c4e50e4feb83143e401",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENLEG155",
+   "name": "Entorno Legal",
+   "source": "https://drive.google.com/uc?export=download&id=19DyXFW_HgkIbe6mGN5l1_ud8c1rokTG0",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=19DyXFW_HgkIbe6mGN5l1_ud8c1rokTG0",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "sha256": "c6392a209f0333b6b4b5c685c4b029d4654c6ebaa6dc63ddc21b4fa2d88d1e36",
+   "academicYear": null,
+   "format": "pdf",
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_catalogue_link",
+    "printed_academic_code",
+    "dedicated_programme_title"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "pages": 9,
+   "evidenceChars": 13995,
+   "checkedAt": "2026-10-18",
+   "catalogueFileCode": [
+    "ENCSH3505"
+   ],
+   "method": "Independent audit of original programme PDF, printed academic code and title, official 2026 catalogue section and programme contents.",
+   "limitations": [
+    "Programme version differs from catalogue publication; undated remains null.",
+    "2027 offering, prerequisites and cross-degree enrollment require confirmation.",
+    "Weekly presence values are not semester contact-hour totals."
+   ],
+   "importedAt": "2026-10-19T00:46:57.752338+00:00",
+   "auditLedgerSha256": "d7d4306e1dc47565d36c9897967d4e7913ffaee7e873e43e54ded328c0f80f97",
+   "auditReference": "fen-expanded:c6392a209f0333b6b4b5c685c4b029d4654c6ebaa6dc63ddc21b4fa2d88d1e36",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f"
+  },
+  {
+   "source": "https://drive.google.com/uc?export=download&id=1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa",
+   "sha256": "3928bd4cb00f04b4fc6d8942433fd68dfb722ddeb503e887573a314312c684a5",
+   "pages": 11,
+   "evidenceChars": 22704,
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-comunicacion",
+   "name": "Comunicación",
+   "format": "pdf",
+   "academicYear": "2026",
+   "individualSyllabus": true,
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueCourseCode": "ENCOM1005",
+   "catalogueFileCode": [
+    "ENCOM100501"
+   ],
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "identifiedBy": [
+    "printed_academic_code",
+    "official_host_plan_correspondence",
+    "individual_programme_contents"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "detailLevel": "full_programme",
+   "method": "Downloaded actual public Google Drive PDF linked by official FEN catalogue, inspected first-page course title and printed code independently of filename; checked dedicated course content/schedule.",
+   "limitations": [
+    "Official catalogue is preliminary and subject to change; does not establish 2027 offer.",
+    "Contact totals remain unverified: weekly hours and study credits are not semester contact totals.",
+    "Catalogue filename code differs from printed programme code; retained printed code and exact-title association to internal CAT record, not an assertion of code continuity."
+   ],
+   "discoverySource": "https://drive.google.com/file/d/1n1T8nt4RQgUkuq3Yqz-GPSN5iTWg6EDa/view?usp=drive_link",
+   "importedAt": "2026-10-18T14:08:23.790051+00:00",
+   "auditLedgerSha256": "53ea76bb25ef8777187cd92007bd832389e983e4782871992ecc2795beb1dbc4",
+   "auditReference": "americas-followup:3928bd4cb00f04b4fc6d8942433fd68dfb722ddeb503e887573a314312c684a5",
+   "programmePrintedTitle": "Comunicación I",
+   "hostPlanCorrespondence": {
+    "source": "https://mallas2026.fen.uchile.cl/simulador/",
+    "pdfSource": "https://mallas2026.fen.uchile.cl/wp-content/uploads/2025/10/TABLA-EQUIVALENCIAS-FINALES-IC-LA-1.pdf",
+    "sha256": "97ecb9d21cd79458b72486927ccb39dc0e75f7d81312b8d1f583ee1baa490fee",
+    "page": 1,
+    "policy": "Official host plan correspondence MOD1B/MOD1C versus MOD1D; no temporal direction or Mackenzie equivalence inferred.",
+    "cataloguePlan": "MOD1D",
+    "catalogueCode": "ENCOM1005",
+    "printedProgrammeCode": "ENCOM1005"
+   },
+   "identityCorrection": {
+    "checkedAt": "2026-10-19T00:53:57.003916+00:00",
+    "reason": "Corrected source assignment using official host plan correspondence: MOD1D ENCOM1005 Comunicación is separate from MOD1D ENCOM3005 Comunicación I, which corresponds to MOD1B/C ENCOM300 Comunicación II."
+   },
+   "sourceHistory": []
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-urban-economics",
+   "name": "Urban Economics",
+   "source": "https://drive.google.com/uc?export=download&id=1i3H4MA_Rj4dh2vgcKobgANOADtslyENE",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1i3H4MA_Rj4dh2vgcKobgANOADtslyENE",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 11,
+   "catalogueFileCode": [
+    "ENECO3320"
+   ],
+   "sha256": "271094cec93c82db9f188664645db03fc3a8c510f3db8b652e0e095f007c682c",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 6,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "evidenceChars": 13225,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:271094cec93c82db9f188664645db03fc3a8c510f3db8b652e0e095f007c682c"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-environmental-economics-and-sustainable-development",
+   "name": "Environmental Economics and Sustainable Development",
+   "source": "https://drive.google.com/uc?export=download&id=1zT5eg3ZAQbUuvGyPAtKErQG5JDbiySxj",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1zT5eg3ZAQbUuvGyPAtKErQG5JDbiySxj",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 12,
+   "catalogueFileCode": [
+    "ENECO487"
+   ],
+   "sha256": "8f5fd694c2b4733c46427d4782610a1bf499e952844a8098f6879f8687f3faab",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 7,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "evidenceChars": 7658,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:8f5fd694c2b4733c46427d4782610a1bf499e952844a8098f6879f8687f3faab"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-business-intelligence-and-database-applications",
+   "name": "Business Intelligence and Database Applications",
+   "source": "https://drive.google.com/uc?export=download&id=1KJBTnVz-m-8e_cQWpqrJaygVq6YAEV5i",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1KJBTnVz-m-8e_cQWpqrJaygVq6YAEV5i",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 13,
+   "catalogueFileCode": [
+    "ENGIN4200"
+   ],
+   "sha256": "f6ca6a713227edd8efc377d63689d0c9ff2e31c34b94a612752eb13afb8c29e1",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 3,
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "evidenceChars": 3611,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:f6ca6a713227edd8efc377d63689d0c9ff2e31c34b94a612752eb13afb8c29e1"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-business-process-management",
+   "name": "Business Process Management",
+   "source": "https://drive.google.com/uc?export=download&id=1hScOlglyxoQJDui7sjl4Y2kSG3ysdIPM",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1hScOlglyxoQJDui7sjl4Y2kSG3ysdIPM",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 14,
+   "catalogueFileCode": [
+    "ENGIN4505"
+   ],
+   "sha256": "ef959ad4fdf0ee246f46d27cd6811f55fc071fe5259fd8f3cb2a36c76d48fae0",
+   "academicYear": "2026",
+   "format": "pdf",
+   "pages": 5,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "evidenceChars": 8369,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:ef959ad4fdf0ee246f46d27cd6811f55fc071fe5259fd8f3cb2a36c76d48fae0"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-chilean-economic-development",
+   "name": "Chilean Economic Development",
+   "source": "https://drive.google.com/uc?export=download&id=1GNMGuRdul2Vvr_eVApovkuVByk9AIBCl",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1GNMGuRdul2Vvr_eVApovkuVByk9AIBCl",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 14,
+   "catalogueFileCode": [
+    "ENECO4161"
+   ],
+   "sha256": "e14ea47c03a8791a5f5abc83ab8fa4bfca6e5df397c19b0825712372c9bb5392",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 5,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "evidenceChars": 9989,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:e14ea47c03a8791a5f5abc83ab8fa4bfca6e5df397c19b0825712372c9bb5392"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-global-innovators",
+   "name": "Global Innovators",
+   "source": "https://drive.google.com/uc?export=download&id=1Z69FE6LLJPAILGUL6K85CGtnSey0E5rT",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1Z69FE6LLJPAILGUL6K85CGtnSey0E5rT",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 15,
+   "catalogueFileCode": [
+    "ENNEG307"
+   ],
+   "sha256": "f74cd366f47067eee44e10c55cd5989c51f280e8880bf66d2b451ebd70a70db8",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 8,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "evidenceChars": 16362,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:f74cd366f47067eee44e10c55cd5989c51f280e8880bf66d2b451ebd70a70db8"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-latin-american-politics-and-world-affairs",
+   "name": "Latin American Politics and World Affairs",
+   "source": "https://drive.google.com/uc?export=download&id=1o6KxJ3L-L0dwBKX91L-KXH9YdJ9m2ccI",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1o6KxJ3L-L0dwBKX91L-KXH9YdJ9m2ccI",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 16,
+   "catalogueFileCode": [
+    "ENNEG423001"
+   ],
+   "sha256": "1bcc965779c566818fb1d6e48902866cad315b2e30af444efc250ea44efb1ca7",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 4,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "evidenceChars": 6911,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:1bcc965779c566818fb1d6e48902866cad315b2e30af444efc250ea44efb1ca7"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-estrategia-y-presupuestos",
+   "name": "Estrategia y Presupuestos",
+   "source": "https://drive.google.com/uc?export=download&id=1RV8vBW2UZO1C6BFQsHJez95hkCAr0zGf",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1RV8vBW2UZO1C6BFQsHJez95hkCAr0zGf",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 20,
+   "catalogueFileCode": [
+    "ENCGE3005"
+   ],
+   "sha256": "e68671feef6e65825c6931e3dba63d5d37e696c40feb0669fd4e47d90cd7b733",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 3,
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "evidenceChars": 8279,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:e68671feef6e65825c6931e3dba63d5d37e696c40feb0669fd4e47d90cd7b733"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-prevencion-de-fraudes-a-estados-financieros",
+   "name": "Prevención de Fraudes a Estados Financieros",
+   "source": "https://drive.google.com/uc?export=download&id=1n0jm94wGPErpG6q1_ImU7Lj_UFaOU_V7",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1n0jm94wGPErpG6q1_ImU7Lj_UFaOU_V7",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 20,
+   "catalogueFileCode": [
+    "ENCON314"
+   ],
+   "sha256": "8155fa8d709489f3c8ea638e4eadcee188d331236a074270519c8d3505e593b1",
+   "academicYear": "2024",
+   "format": "pdf",
+   "pages": 4,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "evidenceChars": 6351,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:8155fa8d709489f3c8ea638e4eadcee188d331236a074270519c8d3505e593b1"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-transformacion-digital-y-ciberseguridad",
+   "name": "Transformación Digital y Ciberseguridad",
+   "source": "https://drive.google.com/uc?export=download&id=1QACNRkRRB0BSFX-bDWnzKHqsZFRtQQQy",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1QACNRkRRB0BSFX-bDWnzKHqsZFRtQQQy",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 23,
+   "catalogueFileCode": [
+    "ENAUD357"
+   ],
+   "sha256": "c4b32d48df9c720d41441b9517a0ab6ba1937c422ecf749694a5e34bc0a5fb64",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 20,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "evidenceChars": 10862,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "sourceType": "course_presentation_with_individual_programme",
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:c4b32d48df9c720d41441b9517a0ab6ba1937c422ecf749694a5e34bc0a5fb64"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-auditoria-iv-auditoria-de-tecnologias-de-la-informacion",
+   "name": "Auditoría IV: Auditoría de Tecnologías de la Información",
+   "source": "https://drive.google.com/uc?export=download&id=1feEgDckLw78grSWKdhRQLMnorcLvzv71",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1feEgDckLw78grSWKdhRQLMnorcLvzv71",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 24,
+   "catalogueFileCode": [
+    "ENGIN4015"
+   ],
+   "sha256": "c2da4b9212b6e1780bef72d70d885e38574f4b18d9d0d52e8a1dc9bd6fff9fb5",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 3,
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "evidenceChars": 5595,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:c2da4b9212b6e1780bef72d70d885e38574f4b18d9d0d52e8a1dc9bd6fff9fb5"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-control-de-gestion-ii",
+   "name": "Control de Gestión II",
+   "source": "https://drive.google.com/uc?export=download&id=1h2EI5OjtZIr3rwik31x6Dh8Xb5AkmhjD",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1h2EI5OjtZIr3rwik31x6Dh8Xb5AkmhjD",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 26,
+   "catalogueFileCode": [
+    "ENCGE450501"
+   ],
+   "sha256": "3b7cdb17c31499211ada54992094b2e8acd0f42b8d2f934e50fc81c21a25a408",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 4,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "evidenceChars": 7744,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:3b7cdb17c31499211ada54992094b2e8acd0f42b8d2f934e50fc81c21a25a408"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-evaluacion-social-de-proyectos-y-programas-publicos",
+   "name": "Evaluación Social de Proyectos y Programas Públicos",
+   "source": "https://drive.google.com/uc?export=download&id=1XaCfVJsuBy0YLZcxEW8U2iWz9E_Jl0Gp",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1XaCfVJsuBy0YLZcxEW8U2iWz9E_Jl0Gp",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 31,
+   "catalogueFileCode": [
+    "ENECO450"
+   ],
+   "sha256": "bbe1b44988accb728bb0d84c5a3e484dafb6b436eeab236510e9175d5509db1f",
+   "academicYear": "2024",
+   "format": "pdf",
+   "pages": 6,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "evidenceChars": 11798,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:bbe1b44988accb728bb0d84c5a3e484dafb6b436eeab236510e9175d5509db1f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-economia-y-gestion-del-futbol",
+   "name": "Economía y Gestión del Fútbol",
+   "source": "https://drive.google.com/uc?export=download&id=1b119rBWUIC9LlKraC1VrFYT1H94W4Uws",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1b119rBWUIC9LlKraC1VrFYT1H94W4Uws",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 32,
+   "catalogueFileCode": [
+    "ENECO389001"
+   ],
+   "sha256": "d5b2a671ccb5879950d6d791a287001486b5890c9e6fb792d1bca357b82994a7",
+   "academicYear": "2026",
+   "format": "pdf",
+   "pages": 5,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "evidenceChars": 8842,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:d5b2a671ccb5879950d6d791a287001486b5890c9e6fb792d1bca357b82994a7"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-finanzas-publicas",
+   "name": "Finanzas Públicas",
+   "source": "https://drive.google.com/uc?export=download&id=18eLRrjpK8emdiNeuJjoDgEs7O1XyNF5s",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=18eLRrjpK8emdiNeuJjoDgEs7O1XyNF5s",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 32,
+   "catalogueFileCode": [
+    "ENECO46001"
+   ],
+   "sha256": "00c456fbf53f6c88d342692b6d1893609244a50c5d31a595d38de93d0668eff5",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 3,
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "evidenceChars": 2472,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:00c456fbf53f6c88d342692b6d1893609244a50c5d31a595d38de93d0668eff5"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-limites-planetarios-y-desarrollo-economico",
+   "name": "Límites Planetarios y Desarrollo Económico",
+   "source": "https://drive.google.com/uc?export=download&id=10_jwSY4fULxBTunvd4kNxBjjPjOFr_ba",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=10_jwSY4fULxBTunvd4kNxBjjPjOFr_ba",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 32,
+   "catalogueFileCode": [
+    "ENECO492"
+   ],
+   "sha256": "34cb1f6a13cf0e49376d3c71452766776b977beae71011fa8441dd9b4c41ca33",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 8,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "evidenceChars": 22805,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:34cb1f6a13cf0e49376d3c71452766776b977beae71011fa8441dd9b4c41ca33"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-matematicas-para-el-analisis-economico",
+   "name": "Matemáticas para el Análisis Económico",
+   "source": "https://drive.google.com/uc?export=download&id=1T87LtkyTt30Fna_sjvP0yZwbxhXUbTpk",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1T87LtkyTt30Fna_sjvP0yZwbxhXUbTpk",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 32,
+   "catalogueFileCode": [
+    "ENECO4950"
+   ],
+   "sha256": "6b01a9cac705f64192ed483c80a0728fe0f44c848e7c4006328ff27ee3b7af2b",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 1,
+   "evidencePages": [
+    1
+   ],
+   "evidenceChars": 2513,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:6b01a9cac705f64192ed483c80a0728fe0f44c848e7c4006328ff27ee3b7af2b"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-analisis-de-datos-para-las-finanzas",
+   "name": "Análisis de datos para las finanzas",
+   "source": "https://drive.google.com/uc?export=download&id=1wkpxUU3VGwqkopt1NU77jWDoLSMt12Du",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1wkpxUU3VGwqkopt1NU77jWDoLSMt12Du",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 39,
+   "catalogueFileCode": [
+    "ENFIN433"
+   ],
+   "sha256": "fe8771ec948c56876e75bb01f8d1f9ab976ffb5bdcb0a1ab52c48613f658cc5a",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 2,
+   "evidencePages": [
+    1,
+    2
+   ],
+   "evidenceChars": 3432,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:fe8771ec948c56876e75bb01f8d1f9ab976ffb5bdcb0a1ab52c48613f658cc5a"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-competencias-laborales",
+   "name": "Competencias Laborales",
+   "source": "https://drive.google.com/uc?export=download&id=17d8tKXMLgByf_Ea8vzbaRv4AyWP7A5dd",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=17d8tKXMLgByf_Ea8vzbaRv4AyWP7A5dd",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 40,
+   "catalogueFileCode": [
+    "ENGEP406"
+   ],
+   "sha256": "6cf14028245b9e7548d54fb81ab0670810e61bda3b390250dd85fb386e7da610",
+   "academicYear": "2026",
+   "format": "pdf",
+   "pages": 11,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "evidenceChars": 3042,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:6cf14028245b9e7548d54fb81ab0670810e61bda3b390250dd85fb386e7da610"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-innovacion-a-emprendimiento-sostenible",
+   "name": "Innovación a Emprendimiento Sostenible",
+   "source": "https://drive.google.com/uc?export=download&id=1xd-7HTTeY5UYvXkupxPcN897sYTphj1M",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1xd-7HTTeY5UYvXkupxPcN897sYTphj1M",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 46,
+   "catalogueFileCode": [
+    "ENNEG338"
+   ],
+   "sha256": "f607b68d079bf2c31579869eb820cc9e1cea20cc8037b3b25914b98186366a1a",
+   "academicYear": "2026",
+   "format": "pdf",
+   "pages": 7,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "evidenceChars": 11209,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:f607b68d079bf2c31579869eb820cc9e1cea20cc8037b3b25914b98186366a1a"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-etica-sostenibilidad-y-compromiso-social",
+   "name": "Ética, Sostenibilidad y Compromiso Social",
+   "source": "https://drive.google.com/uc?export=download&id=1_PUVWeoyTyLdDX462kLfuRm9IQlZJjnG",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1_PUVWeoyTyLdDX462kLfuRm9IQlZJjnG",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 46,
+   "catalogueFileCode": [
+    "ENNEG37101"
+   ],
+   "sha256": "e1a109209c01310e4f7df2cbf9adea34bae9ab9f267b4c16d0a15fda0259bc72",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 5,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "evidenceChars": 7839,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:e1a109209c01310e4f7df2cbf9adea34bae9ab9f267b4c16d0a15fda0259bc72"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-introduccion-a-las-relaciones-internacionales-y-la-globalizacion",
+   "name": "Introducción a las Relaciones Internacionales y la Globalización",
+   "source": "https://drive.google.com/uc?export=download&id=1wYxvHiOpgAs_yRvAJCcndmZOs3IHr4sY",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1wYxvHiOpgAs_yRvAJCcndmZOs3IHr4sY",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 67,
+   "catalogueFileCode": [
+    "ENESO101"
+   ],
+   "sha256": "e7ea8b5c4b904524a26117448f41a1f82d1c8654c008c6ee011bdf02db5c7e4b",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 8,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "evidenceChars": 18868,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:e7ea8b5c4b904524a26117448f41a1f82d1c8654c008c6ee011bdf02db5c7e4b"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "CAT-fen-public-introduccion-a-la-politica-publica-basada-en-evidencia",
+   "name": "Introducción a la Política Pública Basada en Evidencia",
+   "source": "https://drive.google.com/uc?export=download&id=1--i2GZXkR-p3ERt5kikUVa-abyVVBUiM",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1--i2GZXkR-p3ERt5kikUVa-abyVVBUiM",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 68,
+   "catalogueFileCode": [
+    "ENESO117"
+   ],
+   "sha256": "a404ff485101816f72e7b36e8d3e4766bc222048335f0e94274bdd93a3922aad",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 6,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "evidenceChars": 12857,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed. CAT identifier is an internal key, not an institutional code. Catalogue/filename code retained only as source provenance.",
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:a404ff485101816f72e7b36e8d3e4766bc222048335f0e94274bdd93a3922aad"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENLIB323",
+   "name": "Curso Libre de Ajedrez",
+   "source": "https://drive.google.com/uc?export=download&id=1jbS3qcsK8XE2wdqy0JXmx_Dgda8o3zNP",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1jbS3qcsK8XE2wdqy0JXmx_Dgda8o3zNP",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 69,
+   "catalogueFileCode": [
+    "ENLIB3230"
+   ],
+   "sha256": "13e5292add6dca7bbd117ea0511a9b1d3e6d987235d94be19cc0c315eb8b5d55",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 9,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "evidenceChars": 14252,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule",
+    "printed_academic_code"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": null,
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference.",
+    "Cultural/strategy free elective; optional-credit acceptance is an institutional decision, not a direct course equivalence."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:13e5292add6dca7bbd117ea0511a9b1d3e6d987235d94be19cc0c315eb8b5d55"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENLIB348",
+   "name": "Canto Mixto",
+   "source": "https://drive.google.com/uc?export=download&id=1MmOU2s-ZThiapwRdD-cBeGGYcGetbxKb",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1MmOU2s-ZThiapwRdD-cBeGGYcGetbxKb",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 73,
+   "catalogueFileCode": [
+    "ENLIB3480"
+   ],
+   "sha256": "d1d605c1cb7cb3e0ecff261aa3909fb3093496a09b39fb5145ae391ae9850e0f",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 6,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "evidenceChars": 10661,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule",
+    "printed_academic_code"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": null,
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference.",
+    "Cultural/strategy free elective; optional-credit acceptance is an institutional decision, not a direct course equivalence."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:d1d605c1cb7cb3e0ecff261aa3909fb3093496a09b39fb5145ae391ae9850e0f"
+  },
+  {
+   "universityId": "ch-13-universidaddec",
+   "code": "ENLIB349",
+   "name": "Fotografía Básica Digital",
+   "source": "https://drive.google.com/uc?export=download&id=1qkLMns0yEctETw9GZZYDiojOaM3SrYtU",
+   "discoverySource": "https://drive.google.com/uc?export=download&id=1qkLMns0yEctETw9GZZYDiojOaM3SrYtU",
+   "catalogue": "https://nexointernacional.fen.uchile.cl/wp-content/uploads/2026/10/New-Course-Catalog-Summary-1.pdf",
+   "catalogueSha256": "27cb8ae640f5eab08222ea21c2fa52918b0dd9d8519d1ca981685cf6f295b54f",
+   "catalogueEvidencePage": 73,
+   "catalogueFileCode": [
+    "ENLIB3490"
+   ],
+   "sha256": "fd2d5a88ae31391bdaa80a06f63f7dddff13127bd9a9f2935baa4bcd2a1a4aaf",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 5,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "evidenceChars": 7738,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "unique_official_catalogue_link",
+    "dedicated_programme_title",
+    "individual_content_schedule",
+    "printed_academic_code"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": null,
+   "limitations": [
+    "Does not prove2027offer or cross-degree enrollment.",
+    "No credit conversion or semester contact-hour inference.",
+    "Cultural/strategy free elective; optional-credit acceptance is an institutional decision, not a direct course equivalence."
+   ],
+   "importedAt": "2026-10-19T00:55:08.218921+00:00",
+   "auditLedgerSha256": "5c968f05b6737a2ed378bb0b75fa090ad746198213eec34edaca03320607ffba",
+   "auditReference": "fen-title-only:fd2d5a88ae31391bdaa80a06f63f7dddff13127bd9a9f2935baa4bcd2a1a4aaf"
+  },
+  {
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-derecho-de-las-obligaciones",
+   "name": "Derecho de las Obligaciones",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/12/Obligaciones-2S-2025-1.pdf",
+   "catalogue": "https://academiaderechocivil.udp.cl/categoria/programa-de-curso/",
+   "sha256": "68739275a96a8ec9adbc3ec55ed052491de212a2ac8fcb921a806ce6ddd04648",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 4,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "evidenceChars": 11885,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed; CAT identifier internal only. Historical curriculum names do not prove continuity with2027curriculum.",
+   "limitations": [
+    "2027offering and contact totals not established; weekly sessions not converted."
+   ],
+   "sourceHistory": [
+    {
+     "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/03/PROGRAMA-ADC-DERECHO-DE-OBLIGACIONES-IDM-2024.pdf",
+     "sha256": "0b9d3a66c1f46d5f6c17eda85ce55b99f88bc88aa99ee79982f2b61e0de6055e",
+     "academicYear": "2024",
+     "name": "Derecho de las Obligaciones",
+     "note": "Prior exact-title official programme; material coordination2025 is not programme year2024."
+    }
+   ],
+   "currentOfferUnconfirmed": true,
+   "discoverySource": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/12/Obligaciones-2S-2025-1.pdf",
+   "importedAt": "2026-10-19T00:55:11.034805+00:00",
+   "auditLedgerSha256": "1706373b39050afe9618e3b3691eb23971a29fb58802c03b5322356791b8dc5e",
+   "auditReference": "udp-title:68739275a96a8ec9adbc3ec55ed052491de212a2ac8fcb921a806ce6ddd04648"
+  },
+  {
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-persona-y-acto-juridico",
+   "name": "Persona y Acto Jurídico",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/12/Persona-y-acto-juridico-2S-2025-1.pdf",
+   "catalogue": "https://academiaderechocivil.udp.cl/categoria/programa-de-curso/",
+   "sha256": "4547bc4672dc605fbdf2789f55fa12d9d32765235542c3fa8a6bb7a8bbf3b55e",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 4,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "evidenceChars": 8551,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed; CAT identifier internal only. Historical curriculum names do not prove continuity with2027curriculum.",
+   "limitations": [
+    "2027offering and contact totals not established; weekly sessions not converted.",
+    "Persona y Acto Jurídico2025 and Persona y Negocio Jurídico2023 may be historical renamings; do not assume simultaneous distinct offerings."
+   ],
+   "currentOfferUnconfirmed": true,
+   "discoverySource": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/12/Persona-y-acto-juridico-2S-2025-1.pdf",
+   "importedAt": "2026-10-19T00:55:11.034805+00:00",
+   "auditLedgerSha256": "1706373b39050afe9618e3b3691eb23971a29fb58802c03b5322356791b8dc5e",
+   "auditReference": "udp-title:4547bc4672dc605fbdf2789f55fa12d9d32765235542c3fa8a6bb7a8bbf3b55e"
+  },
+  {
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-derecho-de-danos",
+   "name": "Derecho de Daños",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/07/PROGRAMA-Derecho-de-Danos-2025-IDM-Academia-de-DD-Civil.pdf",
+   "catalogue": "https://academiaderechocivil.udp.cl/categoria/programa-de-curso/",
+   "sha256": "632e401fb06c70f448cf97538e689de9d7775756bf29b6d034c433410ec31ab1",
+   "academicYear": "2025",
+   "format": "pdf",
+   "pages": 4,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "evidenceChars": 11601,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed; CAT identifier internal only. Historical curriculum names do not prove continuity with2027curriculum.",
+   "limitations": [
+    "2027offering and contact totals not established; weekly sessions not converted."
+   ],
+   "currentOfferUnconfirmed": true,
+   "discoverySource": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2025/07/PROGRAMA-Derecho-de-Danos-2025-IDM-Academia-de-DD-Civil.pdf",
+   "importedAt": "2026-10-19T00:55:11.034805+00:00",
+   "auditLedgerSha256": "1706373b39050afe9618e3b3691eb23971a29fb58802c03b5322356791b8dc5e",
+   "auditReference": "udp-title:632e401fb06c70f448cf97538e689de9d7775756bf29b6d034c433410ec31ab1"
+  },
+  {
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-derechos-reales-y-derecho-inmobiliario",
+   "name": "Derechos Reales y Derecho Inmobiliario",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/07/Derechos-reales-e-inmobiliario-1S-2024.pdf",
+   "catalogue": "https://academiaderechocivil.udp.cl/categoria/programa-de-curso/",
+   "sha256": "ab9f6733fffc9bc0f1d9250ef6b17a3178d2dc065c051578f5e542935278d133",
+   "academicYear": "2024",
+   "format": "pdf",
+   "pages": 5,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "evidenceChars": 11318,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed; CAT identifier internal only. Historical curriculum names do not prove continuity with2027curriculum.",
+   "limitations": [
+    "2027offering and contact totals not established; weekly sessions not converted."
+   ],
+   "currentOfferUnconfirmed": true,
+   "discoverySource": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/07/Derechos-reales-e-inmobiliario-1S-2024.pdf",
+   "importedAt": "2026-10-19T00:55:11.034805+00:00",
+   "auditLedgerSha256": "1706373b39050afe9618e3b3691eb23971a29fb58802c03b5322356791b8dc5e",
+   "auditReference": "udp-title:ab9f6733fffc9bc0f1d9250ef6b17a3178d2dc065c051578f5e542935278d133"
+  },
+  {
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-persona-y-negocio-juridico",
+   "name": "Persona y Negocio Jurídico",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-para-ADC-persona-y-negocio-juridico-V3.pdf",
+   "catalogue": "https://academiaderechocivil.udp.cl/categoria/programa-de-curso/",
+   "sha256": "c86083040e4e7d745f5b440ea7c3c86223ae07f2ad87e2184b6ea964d6303205",
+   "academicYear": "2023",
+   "format": "pdf",
+   "pages": 4,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "evidenceChars": 11196,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed; CAT identifier internal only. Historical curriculum names do not prove continuity with2027curriculum.",
+   "limitations": [
+    "2027offering and contact totals not established; weekly sessions not converted.",
+    "Related to later Persona y Acto Jurídico; no assertion they are distinct concurrently offered subjects. Requires official curriculum identity crosswalk.",
+    "Persona y Acto Jurídico2025 and Persona y Negocio Jurídico2023 may be historical renamings; do not assume simultaneous distinct offerings."
+   ],
+   "currentOfferUnconfirmed": true,
+   "discoverySource": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-para-ADC-persona-y-negocio-juridico-V3.pdf",
+   "importedAt": "2026-10-19T00:55:11.034805+00:00",
+   "auditLedgerSha256": "1706373b39050afe9618e3b3691eb23971a29fb58802c03b5322356791b8dc5e",
+   "auditReference": "udp-title:c86083040e4e7d745f5b440ea7c3c86223ae07f2ad87e2184b6ea964d6303205"
+  },
+  {
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-contratos-civiles",
+   "name": "Contratos Civiles",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-para-ADC-Contratos-civiles-v3.pdf",
+   "catalogue": "https://academiaderechocivil.udp.cl/categoria/programa-de-curso/",
+   "sha256": "f5b3b8910f018a72488d32aca9e87da50f7f6e3ed7fa4cd76e9dff087b175ba9",
+   "academicYear": "2023",
+   "format": "pdf",
+   "pages": 5,
+   "evidencePages": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "evidenceChars": 12937,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed; CAT identifier internal only. Historical curriculum names do not prove continuity with2027curriculum.",
+   "limitations": [
+    "2027offering and contact totals not established; weekly sessions not converted."
+   ],
+   "currentOfferUnconfirmed": true,
+   "discoverySource": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-para-ADC-Contratos-civiles-v3.pdf",
+   "importedAt": "2026-10-19T00:55:11.034805+00:00",
+   "auditLedgerSha256": "1706373b39050afe9618e3b3691eb23971a29fb58802c03b5322356791b8dc5e",
+   "auditReference": "udp-title:f5b3b8910f018a72488d32aca9e87da50f7f6e3ed7fa4cd76e9dff087b175ba9"
+  },
+  {
+   "universityId": "ch-15-universidaddie",
+   "code": "CAT-udp-public-fundamentos-historico-sociales-del-derecho-privado",
+   "name": "Fundamentos Histórico-Sociales del Derecho Privado",
+   "source": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-academia-Fundamentos-Historico-sociales-del-Derecho-Privado.pdf",
+   "catalogue": "https://academiaderechocivil.udp.cl/categoria/programa-de-curso/",
+   "sha256": "67a9d2c6b26d0806d834d05a7d7a69468f4326b8c1d7ab75aa5926eeca64e822",
+   "academicYear": null,
+   "format": "pdf",
+   "pages": 3,
+   "evidencePages": [
+    1,
+    2,
+    3
+   ],
+   "evidenceChars": 7149,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "official_faculty_programme_repository",
+    "dedicated_programme_title",
+    "undergraduate_civil_law_curriculum"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "identityUncertainty": "No academic code printed; CAT identifier internal only. Historical curriculum names do not prove continuity with2027curriculum.",
+   "limitations": [
+    "2027offering and contact totals not established; weekly sessions not converted."
+   ],
+   "currentOfferUnconfirmed": true,
+   "discoverySource": "https://academiaderechocivil.udp.cl/cms/wp-content/uploads/2024/01/Programa-academia-Fundamentos-Historico-sociales-del-Derecho-Privado.pdf",
+   "importedAt": "2026-10-19T00:55:11.034805+00:00",
+   "auditLedgerSha256": "1706373b39050afe9618e3b3691eb23971a29fb58802c03b5322356791b8dc5e",
+   "auditReference": "udp-title:67a9d2c6b26d0806d834d05a7d7a69468f4326b8c1d7ab75aa5926eeca64e822"
+  },
+  {
+   "universityId": "ch-15-universidaddie",
+   "code": "DER9829",
+   "name": "Sostenibilidad y Derecho Internacional Privado",
+   "source": "https://derecho.udp.cl/cms/wp-content/uploads/2024/03/Programa-Sostenibilidad-y-Derecho-internacional-privado.pdf",
+   "sha256": "096ff92e09808a6f5f8aff7cf0247df9d4ac18bc2821704d50addd71e3bd45f2",
+   "format": "pdf",
+   "pages": 5,
+   "evidenceChars": 8810,
+   "academicYear": null,
+   "individualSyllabus": true,
+   "identifiedBy": [
+    "title",
+    "printed_academic_code",
+    "individual_contents_units"
+   ],
+   "contentMarker": "Dedicated course programme: objectives, contents and thematic schedule",
+   "checkedAt": "2026-10-18",
+   "method": "Live official publicPDF downloaded, SHA256 computed and full text extracted for source review.",
+   "limitations": [
+    "Historical or undated; offer2027 not established",
+    "Short monographic course: 2 months,1weekly session,2local monographic credits; ordinary undergraduate component and transferable credit not established."
+   ],
+   "catalogue": "https://derecho.udp.cl/",
+   "identityNote": "Code DER9829 printed at bottom of first page after table extraction; do not treat original null-code discovery as absent institutional identity.",
+   "currentOfferUnconfirmed": true,
+   "componentType": "short_course",
+   "degree": "Curso breve monográfico; vínculo de graduação e créditos aproveitáveis não confirmados",
+   "discoverySource": "https://derecho.udp.cl/cms/wp-content/uploads/2024/03/Programa-Sostenibilidad-y-Derecho-internacional-privado.pdf",
+   "importedAt": "2026-10-19T00:55:11.034805+00:00",
+   "auditLedgerSha256": "1706373b39050afe9618e3b3691eb23971a29fb58802c03b5322356791b8dc5e",
+   "auditReference": "udp-title:096ff92e09808a6f5f8aff7cf0247df9d4ac18bc2821704d50addd71e3bd45f2"
   }
  ],
  "brazil": []

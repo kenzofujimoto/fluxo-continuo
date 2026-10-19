@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated": "2026-10-18T14:11:28+00:00",
+  "generated": "2026-10-19T00:57:12+00:00",
   "brazilCounts": {
    "cc": {
     "vigente_vinculada": 38,
@@ -16,14 +16,14 @@
     "regra_especifica": 6
    },
    "dir": {
-    "confirmar_vigencia": 62,
-    "solicitar_ementa": 8,
+    "confirmar_vigencia": 64,
+    "solicitar_ementa": 6,
     "regra_especifica": 11
    }
   },
   "foreignUniversities": 55,
-  "foreignMissingSyllabi": 497,
-  "insufficientCatalogueCrossings": 3305,
+  "foreignMissingSyllabi": 496,
+  "insufficientCatalogueCrossings": 3253,
   "note": "Pendência documental não é incompatibilidade. Tentativas malsucedidas não provam inexistência do documento."
  },
  "labels": {
@@ -2039,11 +2039,11 @@
      "code": "",
      "name": "ESTRUTURAÇÃO DE OPERAÇÕES FINANCEIRAS E FINANCIAMENTO DE PROJETOS (PROJECT FINANCE)",
      "stage": 7,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "confirmar_vigencia",
+     "label": "Ementa oficial localizada, vigência não confirmada (sem ano impresso ou edição histórica)",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FD/2022/MATRIZ_CURRICULAR_2022/Ementa%CC%81rio_fdir_Alphaville_22__003_.pdf",
+     "documentYear": 2022,
+     "detail": "Documento histórico no repositório oficial FD/2022; ano2022 atribuído pelo contexto do repositório (não prova de vigência atual). Carga em horas-aula semanais. Somente Project Finance etapa7 e Ética Profissional etapa8 vinculados; etapa3 de Organização do Estado não corresponde à etapa4 da matriz."
     },
     {
      "code": "",
@@ -2069,11 +2069,11 @@
      "code": "",
      "name": "ÉTICA PROFISSIONAL",
      "stage": 8,
-     "category": "solicitar_ementa",
-     "label": "Solicitar ementa/plano de ensino vigente à coordenação",
-     "source": null,
-     "documentYear": null,
-     "detail": null
+     "category": "confirmar_vigencia",
+     "label": "Ementa oficial localizada, vigência não confirmada (sem ano impresso ou edição histórica)",
+     "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FD/2022/MATRIZ_CURRICULAR_2022/Ementa%CC%81rio_fdir_Alphaville_22__003_.pdf",
+     "documentYear": 2022,
+     "detail": "Documento histórico no repositório oficial FD/2022; ano2022 atribuído pelo contexto do repositório (não prova de vigência atual). Carga em horas-aula semanais. Somente Project Finance etapa7 e Ética Profissional etapa8 vinculados; etapa3 de Organização do Estado não corresponde à etapa4 da matriz."
     },
     {
      "code": "",
@@ -2277,8 +2277,8 @@
     }
    ],
    "counts": {
-    "confirmar_vigencia": 62,
-    "solicitar_ementa": 8,
+    "confirmar_vigencia": 64,
+    "solicitar_ementa": 6,
     "regra_especifica": 11
    }
   }
@@ -2339,7 +2339,7 @@
    "name": "Northeastern Illinois University",
    "country": "EUA",
    "catalogUrl": "https://www.neiu.edu/academics/majors-minors-graduate-programs-certificates",
-   "insufficientCatalogueCrossings": 133,
+   "insufficientCatalogueCrossings": 134,
    "missingSyllabi": [
     {
      "code": "CS-426",
@@ -2692,7 +2692,7 @@
    "name": "İstanbul Aydın Üniversitesi",
    "country": "Turquia",
    "catalogUrl": "https://study.aydin.edu.tr/programs/",
-   "insufficientCatalogueCrossings": 129,
+   "insufficientCatalogueCrossings": 128,
    "missingSyllabi": [
     {
      "code": "COM373",
@@ -2901,9 +2901,54 @@
    "name": "Soongsil University",
    "country": "Coreia do Sul",
    "catalogUrl": "https://sec.ssu.ac.kr/page/subject_contents.php",
-   "insufficientCatalogueCrossings": 137,
+   "insufficientCatalogueCrossings": 138,
    "missingSyllabi": [],
-   "parecerAnomalies": []
+   "parecerAnomalies": [
+    {
+     "parecer": "cc|ENEC50011|co-25-soongsiluniver|CAT-SSU-INFOSEC-001",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEC50078|co-25-soongsiluniver|CAT-SSU-INFOSEC-021",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEC54239|co-25-soongsiluniver|CAT-SSU-INFOSEC-008",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEC54240|co-25-soongsiluniver|CAT-SSU-INFOSEC-009",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEC54298|co-25-soongsiluniver|CAT-SSU-INFOSEC-023",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEC61011|co-25-soongsiluniver|CAT-SSU-INFOSEC-013",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEC61013|co-25-soongsiluniver|CAT-SSU-INFOSEC-022",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEX54360|co-25-soongsiluniver|CAT-SSU-INFOSEC-007",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEX60047|co-25-soongsiluniver|CAT-SSU-INFOSEC-012",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENEX60052|co-25-soongsiluniver|CAT-SSU-INFOSEC-020",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    },
+    {
+     "parecer": "cc|ENUN51118|co-25-soongsiluniver|CAT-SSU-INFOSEC-006",
+     "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+    }
+   ]
   },
   {
    "universityId": "us-pittsburg",
@@ -3226,189 +3271,6 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "ch-15-universidaddie",
-   "name": "Universidad Diego Portales",
-   "country": "Chile",
-   "catalogUrl": "https://admision.udp.cl/descubre/carreras/",
-   "insufficientCatalogueCrossings": 63,
-   "missingSyllabi": [
-    {
-     "code": "CAT-ciencia-de-datos-para-economia",
-     "name": "Ciencia de Datos para Economía",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-clinica-juridica-supervisada",
-     "name": "Clínica Jurídica Supervisada",
-     "reason": "candidata por conceitos",
-     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-    },
-    {
-     "code": "CAT-clinica-de-derecho-administrativo",
-     "name": "Clínica de Derecho Administrativo",
-     "reason": "candidata por conceitos",
-     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-    },
-    {
-     "code": "CAT-crecimiento-y-desarrollo-economico",
-     "name": "Crecimiento y Desarrollo Económico",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-derecho-penal-parte-especial",
-     "name": "Derecho Penal Parte Especial",
-     "reason": "candidata por conceitos",
-     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-    },
-    {
-     "code": "CAT-derecho-penal-parte-general-i",
-     "name": "Derecho Penal Parte General I",
-     "reason": "candidata por conceitos",
-     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-    },
-    {
-     "code": "38004",
-     "name": "Derecho Procesal",
-     "reason": "candidata por conceitos",
-     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-    },
-    {
-     "code": "CAT-econometria-i",
-     "name": "Econometría I",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-econometria-ii",
-     "name": "Econometría II",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-economia-de-la-informacion-y-competencia-imperfecta",
-     "name": "Economía de la Información y Competencia Imperfecta",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-emprendimiento-y-liderazgo-en-equipos-i",
-     "name": "Emprendimiento y Liderazgo en Equipos I",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-emprendimiento-y-liderazgo-en-equipos-ii",
-     "name": "Emprendimiento y Liderazgo en Equipos II",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-emprendimiento-y-liderazgo-en-equipos-iii",
-     "name": "Emprendimiento y Liderazgo en Equipos III",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-emprendimiento-y-liderazgo-en-equipos-iv",
-     "name": "Emprendimiento y Liderazgo en Equipos IV",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-estadistica-ii",
-     "name": "Estadística II",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-marketing",
-     "name": "Marketing",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-matematicas-para-economia",
-     "name": "Matemáticas para Economía",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-recursos-humanos",
-     "name": "Recursos Humanos",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-taller-de-emprendimiento",
-     "name": "Taller de Emprendimiento",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-taller-de-liderazgo-y-trabajo-en-equipo",
-     "name": "Taller de Liderazgo y Trabajo en Equipo",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-taller-de-etica-en-la-toma-de-decisiones",
-     "name": "Taller de Ética en la Toma de Decisiones",
-     "reason": "candidata por conceitos",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-taller-de-etica-y-economia",
-     "name": "Taller de Ética y Economía",
-     "reason": "candidata por conceitos",
-     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-    },
-    {
-     "code": "CAT-estadistica-i",
-     "name": "Estadística I",
-     "reason": "candidata registrada",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-estrategia",
-     "name": "Estrategia",
-     "reason": "candidata registrada",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-gestion-de-operaciones",
-     "name": "Gestión de Operaciones",
-     "reason": "candidata registrada",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-macroeconomia-i",
-     "name": "Macroeconomía I",
-     "reason": "candidata registrada",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-microeconomia-i",
-     "name": "Microeconomía I",
-     "reason": "candidata registrada",
-     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
-    },
-    {
-     "code": "CAT-teoria-y-filosofia-del-derecho",
-     "name": "Teoría y Filosofía del Derecho",
-     "reason": "candidata registrada",
-     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
-    }
-   ],
-   "parecerAnomalies": [
-    {
-     "parecer": "dir|FILOSOFIA DO DIREITO|ch-15-universidaddie|CAT-teoria-y-filosofia-del-derecho",
-     "reason": "Classificação do documento como ementa individual em records.json é incorreta; requer obtenção do programa da UDP"
-    }
-   ]
-  },
-  {
    "universityId": "es-cadiz",
    "name": "Universidad de Cádiz",
    "country": "Espanha",
@@ -3602,7 +3464,7 @@
    "name": "Wright State University",
    "country": "EUA",
    "catalogUrl": "https://www.wright.edu/degrees-and-programs",
-   "insufficientCatalogueCrossings": 73,
+   "insufficientCatalogueCrossings": 72,
    "missingSyllabi": [
     {
      "code": "MGT 3110",
@@ -3700,7 +3562,7 @@
    "name": "Universidad de Los Andes",
    "country": "Colombia",
    "catalogUrl": "https://uniandes.edu.co/en/programs-and-faculties/programs/undergraduate",
-   "insufficientCatalogueCrossings": 76,
+   "insufficientCatalogueCrossings": 75,
    "missingSyllabi": [
     {
      "code": "ADMI1603",
@@ -3896,15 +3758,6 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "tu-67-nevsehirhacbek",
-   "name": "Nevşehir Hacı Bektaş Veli Üniversitesi",
-   "country": "Turquia",
-   "catalogUrl": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/bolum/180002/sayfa/1",
-   "insufficientCatalogueCrossings": 72,
-   "missingSyllabi": [],
-   "parecerAnomalies": []
-  },
-  {
    "universityId": "eu-35-dukeuniversity",
    "name": "Duke University",
    "country": "EUA",
@@ -3937,11 +3790,20 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "tu-67-nevsehirhacbek",
+   "name": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+   "country": "Turquia",
+   "catalogUrl": "https://ects.nevsehir.edu.tr/ects/bilgipaketi/dil/eng/bolum/180002/sayfa/1",
+   "insufficientCatalogueCrossings": 70,
+   "missingSyllabi": [],
+   "parecerAnomalies": []
+  },
+  {
    "universityId": "ar-7-universidaddec",
    "name": "Universidad de Congreso",
    "country": "Argentina",
    "catalogUrl": "https://www.ucongreso.edu.ar/oferta-academica/",
-   "insufficientCatalogueCrossings": 43,
+   "insufficientCatalogueCrossings": 44,
    "missingSyllabi": [
     {
      "code": "CAT-analisis-economico-del-derecho",
@@ -4100,7 +3962,7 @@
    "name": "Universidad Privada Abierta Latinoamericana",
    "country": "Bolívia",
    "catalogUrl": "https://upal.edu.bo/wp-content/uploads/2019/10/Adm-de-Empresas.jpg",
-   "insufficientCatalogueCrossings": 14,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "CAT-UPAL-ADM-2019-020",
@@ -4726,7 +4588,7 @@
    "name": "Universidad Evangélica Boliviana",
    "country": "Bolívia",
    "catalogUrl": "https://ueb.edu.bo/ingenieria-de-sistemas/",
-   "insufficientCatalogueCrossings": 11,
+   "insufficientCatalogueCrossings": 10,
    "missingSyllabi": [
     {
      "code": "CAT-UEB-SIS-MAT224",
@@ -4984,11 +4846,194 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "ch-15-universidaddie",
+   "name": "Universidad Diego Portales",
+   "country": "Chile",
+   "catalogUrl": "https://admision.udp.cl/descubre/carreras/",
+   "insufficientCatalogueCrossings": 14,
+   "missingSyllabi": [
+    {
+     "code": "CAT-ciencia-de-datos-para-economia",
+     "name": "Ciencia de Datos para Economía",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-clinica-juridica-supervisada",
+     "name": "Clínica Jurídica Supervisada",
+     "reason": "candidata por conceitos",
+     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+    },
+    {
+     "code": "CAT-clinica-de-derecho-administrativo",
+     "name": "Clínica de Derecho Administrativo",
+     "reason": "candidata por conceitos",
+     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+    },
+    {
+     "code": "CAT-crecimiento-y-desarrollo-economico",
+     "name": "Crecimiento y Desarrollo Económico",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-derecho-penal-parte-especial",
+     "name": "Derecho Penal Parte Especial",
+     "reason": "candidata por conceitos",
+     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+    },
+    {
+     "code": "CAT-derecho-penal-parte-general-i",
+     "name": "Derecho Penal Parte General I",
+     "reason": "candidata por conceitos",
+     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+    },
+    {
+     "code": "38004",
+     "name": "Derecho Procesal",
+     "reason": "candidata por conceitos",
+     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+    },
+    {
+     "code": "CAT-econometria-i",
+     "name": "Econometría I",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-econometria-ii",
+     "name": "Econometría II",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-economia-de-la-informacion-y-competencia-imperfecta",
+     "name": "Economía de la Información y Competencia Imperfecta",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-emprendimiento-y-liderazgo-en-equipos-i",
+     "name": "Emprendimiento y Liderazgo en Equipos I",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-emprendimiento-y-liderazgo-en-equipos-ii",
+     "name": "Emprendimiento y Liderazgo en Equipos II",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-emprendimiento-y-liderazgo-en-equipos-iii",
+     "name": "Emprendimiento y Liderazgo en Equipos III",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-emprendimiento-y-liderazgo-en-equipos-iv",
+     "name": "Emprendimiento y Liderazgo en Equipos IV",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-estadistica-ii",
+     "name": "Estadística II",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-marketing",
+     "name": "Marketing",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-matematicas-para-economia",
+     "name": "Matemáticas para Economía",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-recursos-humanos",
+     "name": "Recursos Humanos",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-taller-de-emprendimiento",
+     "name": "Taller de Emprendimiento",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-taller-de-liderazgo-y-trabajo-en-equipo",
+     "name": "Taller de Liderazgo y Trabajo en Equipo",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-taller-de-etica-en-la-toma-de-decisiones",
+     "name": "Taller de Ética en la Toma de Decisiones",
+     "reason": "candidata por conceitos",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-taller-de-etica-y-economia",
+     "name": "Taller de Ética y Economía",
+     "reason": "candidata por conceitos",
+     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+    },
+    {
+     "code": "CAT-estadistica-i",
+     "name": "Estadística I",
+     "reason": "candidata registrada",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-estrategia",
+     "name": "Estrategia",
+     "reason": "candidata registrada",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-gestion-de-operaciones",
+     "name": "Gestión de Operaciones",
+     "reason": "candidata registrada",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-macroeconomia-i",
+     "name": "Macroeconomía I",
+     "reason": "candidata registrada",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-microeconomia-i",
+     "name": "Microeconomía I",
+     "reason": "candidata registrada",
+     "source": "https://admision.udp.cl/carrera/ingenieria-comercial-mencion-administracion/"
+    },
+    {
+     "code": "CAT-teoria-y-filosofia-del-derecho",
+     "name": "Teoría y Filosofía del Derecho",
+     "reason": "candidata registrada",
+     "source": "https://derecho.udp.cl/cms/wp-content/uploads/2025/12/DERECHO_2026.pdf"
+    }
+   ],
+   "parecerAnomalies": [
+    {
+     "parecer": "dir|FILOSOFIA DO DIREITO|ch-15-universidaddie|CAT-teoria-y-filosofia-del-derecho",
+     "reason": "Classificação do documento como ementa individual em records.json é incorreta; requer obtenção do programa da UDP"
+    }
+   ]
+  },
+  {
    "universityId": "ch-14-universidadfin",
    "name": "Universidad Finis Terrae",
    "country": "Chile",
    "catalogUrl": "",
-   "insufficientCatalogueCrossings": 12,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "CAT-FINIS-DIR-032",
@@ -5194,7 +5239,7 @@
    "name": "BML Munjal University",
    "country": "Índia",
    "catalogUrl": "https://www.bmu.edu.in/courses/ba-llb/curriculum/",
-   "insufficientCatalogueCrossings": 11,
+   "insufficientCatalogueCrossings": 12,
    "missingSyllabi": [
     {
      "code": "LAW4701",
@@ -5354,7 +5399,7 @@
    "name": "Corporación Tecnológica de Bogotá",
    "country": "Colômbia",
    "catalogUrl": "https://ctb.edu.co/wp-content/uploads/2024/01/pensum-TDC-1024x662.png",
-   "insufficientCatalogueCrossings": 14,
+   "insufficientCatalogueCrossings": 13,
    "missingSyllabi": [
     {
      "code": "CAT-CO-16-CORPORACIONTEC-028",
@@ -5442,7 +5487,7 @@
    "name": "ISG International Business School",
    "country": "França",
    "catalogUrl": "https://www.isg.fr/en/programmes/bachelor-in-international-management/the-3-years/",
-   "insufficientCatalogueCrossings": 16,
+   "insufficientCatalogueCrossings": 15,
    "missingSyllabi": [
     {
      "code": "CAT-FR-39-ISGINTERNATION-011",
@@ -5502,57 +5547,11 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "it-47-universitadegl",
-   "name": "Università degli Studi di Roma Tor Vergata",
-   "country": "Itália",
-   "catalogUrl": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/",
-   "insufficientCatalogueCrossings": 15,
-   "missingSyllabi": [
-    {
-     "code": "8022886",
-     "name": "Bilancio e comunicazione economico-finanziaria",
-     "reason": "candidata por conceitos",
-     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
-    },
-    {
-     "code": "8022781",
-     "name": "Economia aziendale",
-     "reason": "candidata por conceitos",
-     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
-    },
-    {
-     "code": "8021309",
-     "name": "Politica economica",
-     "reason": "candidata por conceitos",
-     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
-    },
-    {
-     "code": "8022887",
-     "name": "Statistica",
-     "reason": "candidata por conceitos",
-     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
-    },
-    {
-     "code": "8022848",
-     "name": "Diritto della concorrenza",
-     "reason": "candidata registrada",
-     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
-    },
-    {
-     "code": "8022850",
-     "name": "Diritto della crisi d'impresa",
-     "reason": "candidata registrada",
-     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
-    }
-   ],
-   "parecerAnomalies": []
-  },
-  {
    "universityId": "es-29-universitataut",
    "name": "Universitat Autònoma de Barcelona",
    "country": "Espanha",
    "catalogUrl": "https://www.uab.cat/web/estudiar-1345661720635.html",
-   "insufficientCatalogueCrossings": 2,
+   "insufficientCatalogueCrossings": 1,
    "missingSyllabi": [
     {
      "code": "102248",
@@ -6053,6 +6052,24 @@
    ]
   },
   {
+   "universityId": "it-50-universitadegl",
+   "name": "Universita' degli Studi di Firenze",
+   "country": "Itália",
+   "catalogUrl": "https://www.unifi.it/en/study-us/degree-programmes/international-courses",
+   "insufficientCatalogueCrossings": 14,
+   "missingSyllabi": [],
+   "parecerAnomalies": []
+  },
+  {
+   "universityId": "it-44-florenceuniver",
+   "name": "Florence University of Arts",
+   "country": "Itália",
+   "catalogUrl": "https://catalog.fua.it/bachelor/24/bs-in-international-business-international-management/",
+   "insufficientCatalogueCrossings": 13,
+   "missingSyllabi": [],
+   "parecerAnomalies": []
+  },
+  {
    "universityId": "po-54-institutopolit",
    "name": "Instituto Politécnico de Castelo Branco",
    "country": "Portugal",
@@ -6066,7 +6083,7 @@
    "name": "Universidade Católica Portuguesa",
    "country": "Portugal",
    "catalogUrl": "http://www.porto.ucp.pt/pt/central-oferta-formativa/licenciaturas-unidades",
-   "insufficientCatalogueCrossings": 12,
+   "insufficientCatalogueCrossings": 11,
    "missingSyllabi": [
     {
      "code": "CAT-direito-penal-introducao-e-teoria-da-lei-pe",
@@ -6286,11 +6303,62 @@
    ]
   },
   {
+   "universityId": "co-24-solbridgeinter",
+   "name": "Solbridge International School of Business",
+   "country": "Coreia do Sul",
+   "catalogUrl": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
+   "insufficientCatalogueCrossings": 5,
+   "missingSyllabi": [
+    {
+     "code": "ENT101",
+     "name": "Introduction to Entrepreneurship",
+     "reason": "candidata por conceitos",
+     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
+    },
+    {
+     "code": "MAT121A",
+     "name": "Mathematics for Business",
+     "reason": "candidata por conceitos",
+     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
+    },
+    {
+     "code": "MIN408C",
+     "name": "Global Strategic Management",
+     "reason": "candidata registrada",
+     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
+    },
+    {
+     "code": "FIN405",
+     "name": "Mathematical Models in Finance",
+     "reason": "candidata registrada",
+     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
+    }
+   ],
+   "parecerAnomalies": [
+    {
+     "parecer": "adm|Administração Estratégica e Sustentabilidade|co-24-solbridgeinter|BUS308B",
+     "reason": "Rebaixamento de classe por ausência de sustentabilidade; conferir com o coordenador se estratégia empresarial isolada atende parte da ementa"
+    },
+    {
+     "parecer": "adm|Gestão de Inovação|co-24-solbridgeinter|BUS445",
+     "reason": "Classe no limite de 50% da cobertura; avaliar se técnicas criativas atendem a ementa de gestão da inovação"
+    },
+    {
+     "parecer": "adm|Marketing I|co-24-solbridgeinter|MKT200B",
+     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
+    },
+    {
+     "parecer": "adm|Marketing II|co-24-solbridgeinter|MKT200B",
+     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
+    }
+   ]
+  },
+  {
    "universityId": "it-48-universitadegl",
    "name": "Università degli Studi di Salerno",
    "country": "Itália",
    "catalogUrl": "https://corsi.unisa.it/giurisprudenza/didattica/insegnamenti",
-   "insufficientCatalogueCrossings": 6,
+   "insufficientCatalogueCrossings": 5,
    "missingSyllabi": [
     {
      "code": "CAT-UNISA-26-025",
@@ -6369,20 +6437,62 @@
    ]
   },
   {
-   "universityId": "it-50-universitadegl",
-   "name": "Universita' degli Studi di Firenze",
+   "universityId": "it-47-universitadegl",
+   "name": "Università degli Studi di Roma Tor Vergata",
    "country": "Itália",
-   "catalogUrl": "https://www.unifi.it/en/study-us/degree-programmes/international-courses",
-   "insufficientCatalogueCrossings": 6,
-   "missingSyllabi": [],
-   "parecerAnomalies": []
+   "catalogUrl": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/",
+   "insufficientCatalogueCrossings": 1,
+   "missingSyllabi": [
+    {
+     "code": "8022886",
+     "name": "Bilancio e comunicazione economico-finanziaria",
+     "reason": "candidata por conceitos",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    },
+    {
+     "code": "8022781",
+     "name": "Economia aziendale",
+     "reason": "candidata por conceitos",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    },
+    {
+     "code": "8021309",
+     "name": "Politica economica",
+     "reason": "candidata por conceitos",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    },
+    {
+     "code": "8022887",
+     "name": "Statistica",
+     "reason": "candidata por conceitos",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    },
+    {
+     "code": "8022848",
+     "name": "Diritto della concorrenza",
+     "reason": "candidata registrada",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    },
+    {
+     "code": "8022850",
+     "name": "Diritto della crisi d'impresa",
+     "reason": "candidata registrada",
+     "source": "https://cdl.giurisprudenza.uniroma2.it/a-a-2025-2026/"
+    }
+   ],
+   "parecerAnomalies": [
+    {
+     "parecer": "dir|DIREITO DA INOVAÇÃO TECNOLÓGICA|it-47-universitadegl|8022971",
+     "reason": "Validar diferença entre regulação de dados e fomento à inovação e confirmar aproveitamento de ementário brasileiro histórico; conferir campos PDF que excedem a aparência impressa."
+    }
+   ]
   },
   {
    "universityId": "po-56-universidadede",
    "name": "Universidade de Lisboa",
    "country": "Portugal",
    "catalogUrl": "https://www.ulisboa.pt/escolas",
-   "insufficientCatalogueCrossings": 5,
+   "insufficientCatalogueCrossings": 4,
    "missingSyllabi": [
     {
      "code": "CAT-direito-comercial-ii-sociedades-comerciais",
@@ -6487,7 +6597,7 @@
    "name": "Universidad de Chile",
    "country": "Chile",
    "catalogUrl": "http://www.uchile.cl/pregrado",
-   "insufficientCatalogueCrossings": 1,
+   "insufficientCatalogueCrossings": 0,
    "missingSyllabi": [
     {
      "code": "CAT-gestion-de-personas",
@@ -6517,70 +6627,12 @@
    "parecerAnomalies": []
   },
   {
-   "universityId": "co-24-solbridgeinter",
-   "name": "Solbridge International School of Business",
-   "country": "Coreia do Sul",
-   "catalogUrl": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102",
-   "insufficientCatalogueCrossings": 1,
-   "missingSyllabi": [
-    {
-     "code": "ENT101",
-     "name": "Introduction to Entrepreneurship",
-     "reason": "candidata por conceitos",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    },
-    {
-     "code": "MAT121A",
-     "name": "Mathematics for Business",
-     "reason": "candidata por conceitos",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    },
-    {
-     "code": "MIN408C",
-     "name": "Global Strategic Management",
-     "reason": "candidata registrada",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    },
-    {
-     "code": "FIN405",
-     "name": "Mathematical Models in Finance",
-     "reason": "candidata registrada",
-     "source": "https://www.solbridge.ac.kr/story/page/index.jsp?code=solbridge_n030102"
-    }
-   ],
-   "parecerAnomalies": [
-    {
-     "parecer": "adm|Administração Estratégica e Sustentabilidade|co-24-solbridgeinter|BUS308B",
-     "reason": "Rebaixamento de classe por ausência de sustentabilidade; conferir com o coordenador se estratégia empresarial isolada atende parte da ementa"
-    },
-    {
-     "parecer": "adm|Gestão de Inovação|co-24-solbridgeinter|BUS445",
-     "reason": "Classe no limite de 50% da cobertura; avaliar se técnicas criativas atendem a ementa de gestão da inovação"
-    },
-    {
-     "parecer": "adm|Marketing I|co-24-solbridgeinter|MKT200B",
-     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
-    },
-    {
-     "parecer": "adm|Marketing II|co-24-solbridgeinter|MKT200B",
-     "reason": "Mesma disciplina estrangeira proposta para Marketing I e II; coordenação deve decidir o uso único"
-    }
-   ]
-  },
-  {
    "universityId": "es-salamanca",
    "name": "Universidad de Salamanca",
    "country": "Espanha",
    "catalogUrl": "https://www.usal.es/grados",
    "insufficientCatalogueCrossings": 3,
-   "missingSyllabi": [
-    {
-     "code": "CAT-USAL-207714",
-     "name": "DERECHO FINANCIERO AUTONÓMICO Y LOCAL",
-     "reason": "candidata por conceitos",
-     "source": "https://guias.usal.es/node/207714"
-    }
-   ],
+   "missingSyllabi": [],
    "parecerAnomalies": [
     {
      "parecer": "adm|Administração Estratégica e Sustentabilidade|es-salamanca|CAT-USAL-210214",
@@ -6909,124 +6961,6 @@
    ]
   },
   {
-   "universityId": "gb-leeds",
-   "name": "University of Leeds",
-   "country": "Inglaterra",
-   "catalogUrl": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
-   "insufficientCatalogueCrossings": 3,
-   "missingSyllabi": [],
-   "parecerAnomalies": [
-    {
-     "parecer": "adm|Comportamento Organizacional|gb-leeds|LAW1101",
-     "reason": "Syllabus detalhado inacessível no catálogo; reavaliar se o Minerva ou o responsável do módulo fornecerem o programa"
-    },
-    {
-     "parecer": "adm|Sociologia das Organizações|gb-leeds|LUBS3955",
-     "reason": "Classe reduzida em relação à regra interna; vale uma segunda leitura sobre a afinidade entre liderança e sociologia das organizações"
-    },
-    {
-     "parecer": "cc|ENEC50011|gb-leeds|COMP3943",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC54298|gb-leeds|COMP3230",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC54361|gb-leeds|LUBS2415",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC61015|gb-leeds|COMP3950",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC61018|gb-leeds|COMP3212",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEC61020|gb-leeds|COMP3270",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX54360|gb-leeds|COMP3943",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX54366|gb-leeds|COMP3943",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX54368|gb-leeds|COMP3912",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX60047|gb-leeds|COMP3912",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX60047|gb-leeds|COMP3943",
-     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
-    },
-    {
-     "parecer": "cc|ENEX60052|gb-leeds|COMP3630",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENEX60057|gb-leeds|COMP3620",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENEX60057|gb-leeds|COMP3630",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENEX60212|gb-leeds|COMP3943",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENUN51118|gb-leeds|LAW1101",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENUN51121|gb-leeds|LUBS1001",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "cc|ENUN52242|gb-leeds|LUBS1001",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|CRIMINOLOGIA E TEORIA GERAL DO CRIME|gb-leeds|LAW2091",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|PRINCÍPIOS DE EMPREENDEDORISMO|gb-leeds|LUBS1001",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|PRINCÍPIOS, ESTRUTURA E ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA|gb-leeds|LAW1224",
-     "reason": "Programa detalhado indisponível; revisão docente e consulta ao Minerva ou à School of Law antes de qualquer decisão"
-    },
-    {
-     "parecer": "dir|PROJETOS EMPREENDEDORES|gb-leeds|LUBS1175",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|PRÁTICA JURÍDICA PRÉ-CLÍNICA IV - PRATICAS DE INOVAÇÃO E EMPREENDEDORISMO|gb-leeds|LUBS3841",
-     "reason": "Decisão sobre aceitar módulo de negócios como atividade de inovação depende da coordenação de Direito"
-    },
-    {
-     "parecer": "dir|TUTELA DOS DIREITOS DIFUSOS E COLETIVOS|gb-leeds|LUBS0010",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    },
-    {
-     "parecer": "dir|ÉTICA E CIDADANIA|gb-leeds|LAW1101",
-     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
-    }
-   ]
-  },
-  {
    "universityId": "ro-babes",
    "name": "Babeș-Bolyai University",
    "country": "Romênia",
@@ -7194,13 +7128,122 @@
    ]
   },
   {
-   "universityId": "po-57-universidadeno",
-   "name": "Universidade Nova de Lisboa",
-   "country": "Portugal",
-   "catalogUrl": "",
+   "universityId": "gb-leeds",
+   "name": "University of Leeds",
+   "country": "Inglaterra",
+   "catalogUrl": "https://courses.leeds.ac.uk/course-search/undergraduate-courses",
    "insufficientCatalogueCrossings": 2,
    "missingSyllabi": [],
-   "parecerAnomalies": []
+   "parecerAnomalies": [
+    {
+     "parecer": "adm|Comportamento Organizacional|gb-leeds|LAW1101",
+     "reason": "Syllabus detalhado inacessível no catálogo; reavaliar se o Minerva ou o responsável do módulo fornecerem o programa"
+    },
+    {
+     "parecer": "adm|Sociologia das Organizações|gb-leeds|LUBS3955",
+     "reason": "Classe reduzida em relação à regra interna; vale uma segunda leitura sobre a afinidade entre liderança e sociologia das organizações"
+    },
+    {
+     "parecer": "cc|ENEC50011|gb-leeds|COMP3943",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC54298|gb-leeds|COMP3230",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC54361|gb-leeds|LUBS2415",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC61015|gb-leeds|COMP3950",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC61018|gb-leeds|COMP3212",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEC61020|gb-leeds|COMP3270",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX54360|gb-leeds|COMP3943",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX54366|gb-leeds|COMP3943",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX54368|gb-leeds|COMP3912",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX60047|gb-leeds|COMP3912",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX60047|gb-leeds|COMP3943",
+     "reason": "Revisão da coordenação deve avaliar os recortes de conteúdo e a matrícula fora do percurso local."
+    },
+    {
+     "parecer": "cc|ENEX60052|gb-leeds|COMP3630",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENEX60057|gb-leeds|COMP3620",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENEX60057|gb-leeds|COMP3630",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENEX60212|gb-leeds|COMP3943",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENUN51118|gb-leeds|LAW1101",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENUN51121|gb-leeds|LUBS1001",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "cc|ENUN52242|gb-leeds|LUBS1001",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|CRIMINOLOGIA E TEORIA GERAL DO CRIME|gb-leeds|LAW2091",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|PRINCÍPIOS DE EMPREENDEDORISMO|gb-leeds|LUBS1001",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|PRINCÍPIOS, ESTRUTURA E ORGANIZAÇÃO DA ADMINISTRAÇÃO PÚBLICA|gb-leeds|LAW1224",
+     "reason": "Programa detalhado indisponível; revisão docente e consulta ao Minerva ou à School of Law antes de qualquer decisão"
+    },
+    {
+     "parecer": "dir|PROJETOS EMPREENDEDORES|gb-leeds|LUBS1175",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|PRÁTICA JURÍDICA PRÉ-CLÍNICA IV - PRATICAS DE INOVAÇÃO E EMPREENDEDORISMO|gb-leeds|LUBS3841",
+     "reason": "Decisão sobre aceitar módulo de negócios como atividade de inovação depende da coordenação de Direito"
+    },
+    {
+     "parecer": "dir|TUTELA DOS DIREITOS DIFUSOS E COLETIVOS|gb-leeds|LUBS0010",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    },
+    {
+     "parecer": "dir|ÉTICA E CIDADANIA|gb-leeds|LAW1101",
+     "reason": "Confirmar fontes, interpretação curricular e condições de mobilidade com a coordenação."
+    }
+   ]
   },
   {
    "universityId": "be-9-hasseltunivers",
@@ -7212,11 +7255,25 @@
    "parecerAnomalies": []
   },
   {
+   "universityId": "po-57-universidadeno",
+   "name": "Universidade Nova de Lisboa",
+   "country": "Portugal",
+   "catalogUrl": "",
+   "insufficientCatalogueCrossings": 1,
+   "missingSyllabi": [],
+   "parecerAnomalies": [
+    {
+     "parecer": "dir|ANTROPOLOGIA JURÍDICA|po-57-universidadeno|27139",
+     "reason": "Revisão humana da fronteira sociologia/antropologia e da vinculação do ementário histórico antes de qualquer aproveitamento."
+    }
+   ]
+  },
+  {
    "universityId": "es-26-universidaddej",
    "name": "Universidad de Jaén",
    "country": "Espanha",
    "catalogUrl": "https://www.ujaen.es/estudios/oferta-academica/grados",
-   "insufficientCatalogueCrossings": 1,
+   "insufficientCatalogueCrossings": 0,
    "missingSyllabi": [],
    "parecerAnomalies": [
     {
@@ -7254,20 +7311,11 @@
    ]
   },
   {
-   "universityId": "it-44-florenceuniver",
-   "name": "Florence University of Arts",
-   "country": "Itália",
-   "catalogUrl": "https://catalog.fua.it/bachelor/24/bs-in-international-business-international-management/",
-   "insufficientCatalogueCrossings": 1,
-   "missingSyllabi": [],
-   "parecerAnomalies": []
-  },
-  {
    "universityId": "po-55-institutopolit",
    "name": "Instituto Politécnico de Coimbra",
    "country": "Portugal",
    "catalogUrl": "https://www.ipc.pt/ipc/estudar/licenciaturas/",
-   "insufficientCatalogueCrossings": 1,
+   "insufficientCatalogueCrossings": 0,
    "missingSyllabi": [],
    "parecerAnomalies": []
   }
