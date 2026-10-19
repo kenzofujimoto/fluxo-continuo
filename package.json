@@ -6,8 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "tsx --test tests/public-app.test.ts",
-    "lint": "next typegen && eslint app lib tests/public-app.test.ts && tsc --noEmit"
+    "test": "tsx --test tests/*.test.ts",
+    "lint": "next typegen && eslint app lib tests/*.test.ts && tsc --noEmit"
   },
   "dependencies": {
     "@fontsource/dm-serif-display": "^5.2.0",
