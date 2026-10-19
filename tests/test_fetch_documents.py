@@ -4,11 +4,52 @@ from pathlib import Path
 import sys
 
 import pytest
+import fitz
+from types import SimpleNamespace
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import fetch_documents as documents  # noqa: E402
+
+
+def test_fetch_preserves_complete_pdf_form_text_beyond_visible_widget_rectangle(tmp_path, monkeypatch):
+    pdf = fitz.open()
+    page = pdf.new_page(width=300, height=300)
+    page.insert_text((20, 20), "Course 8022971")
+    full = "Part one: introductory law.\nPart two: digital platforms.\nPart three: health data and artificial intelligence."
+    widget = fitz.Widget()
+    widget.field_name = "tb_programma_ita"
+    widget.field_type = fitz.PDF_WIDGET_TYPE_TEXT
+    widget.field_flags = fitz.PDF_TX_FIELD_IS_MULTILINE
+    widget.rect = fitz.Rect(20, 40, 260, 62)
+    widget.text_fontsize = 12
+    widget.field_value = full
+    page.add_widget(widget)
+    raw = pdf.tobytes()
+    url = "https://example.edu/programme.pdf"
+    response = SimpleNamespace(status_code=200, url=url, headers={"content-type": "application/pdf"},
+                               iter_content=lambda size: iter([raw]))
+    monkeypatch.setattr(documents.requests, "get", lambda *args, **kwargs: response)
+    monkeypatch.setattr(documents, "TXT", tmp_path)
+    result = documents.fetch(url, None, True)
+    assert result["status"] == "lido"
+    text = documents.text_path(url).read_text(encoding="utf-8")
+    assert "Part three: health data and artificial intelligence." in text
+    assert text.count("Part one: introductory law.") == 1
+    assert text.count("Course 8022971") == 1
+
+
+def test_pdf_form_value_already_visible_is_not_duplicated():
+    pdf = fitz.open()
+    page = pdf.new_page()
+    widget = fitz.Widget()
+    widget.field_name = "objectives"
+    widget.field_type = fitz.PDF_WIDGET_TYPE_TEXT
+    widget.rect = fitz.Rect(20, 20, 500, 100)
+    widget.field_value = "Understand data protection and privacy."
+    page.add_widget(widget)
+    assert documents.extract_pdf_page_text(page).count(widget.field_value) == 1
 
 
 @pytest.mark.parametrize("ementa", ["", "Estudo de requisitos e projeto de software."])

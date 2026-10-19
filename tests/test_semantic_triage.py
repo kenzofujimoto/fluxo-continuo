@@ -156,3 +156,30 @@ def test_worklist_excludes_outside_agreement_from_registered_and_stale_semantic_
     monkeypatch.setattr(worklist, "_load", sources.__getitem__)
     assert [pair["foreign"] for pair in worklist.ready_pairs()] == ["LEGACY"]
     assert len(sources["data.json"]["matches"]) == 2
+
+
+def test_shared_compendium_profiles_use_only_the_exact_course_section(monkeypatch):
+    import semantic_triage
+
+    first = {"universityId": "ssu", "code": "C1", "name": "Programming", "source": "https://example.edu/subjects", "headingExact": "기초프로그래밍 (Programming)", "sourceType": "individual_course_description_in_compendium"}
+    second = {"universityId": "ssu", "code": "C2", "name": "Network Security", "source": first["source"], "headingExact": "네트워크보안 (Network Security)", "sourceType": first["sourceType"]}
+    monkeypatch.setattr(semantic_triage, "_cached_text", lambda url: "Navigation\n기초프로그래밍 (Programming)\nProgramming loops and arrays. Programming variables and functions.\n네트워크보안 (Network Security)\nCryptography cryptography networks networks.\nFooter")
+    text = semantic_triage.cached_course_text(first["source"], first, [first, second])
+    assert "loops and arrays" in text
+    assert "Cryptography" not in text
+    assert "seguranca" not in semantic_triage.concepts(text)
+    unknown = {**first, "headingExact": "Missing heading"}
+    assert semantic_triage.cached_course_text(first["source"], unknown, [unknown, second]) == ""
+
+
+def test_pdf_compendium_retrieval_respects_audited_pages_and_ambiguous_alternatives(monkeypatch):
+    import semantic_triage
+
+    source = "https://example.edu/modules.pdf"
+    own = {"code": "INTERNAL1", "name": "Computing", "source": source, "evidenceHeading": "Einführung in die Informatik", "evidencePages": [2], "sourceType": "compendium_with_individual_programmes"}
+    peer = {"code": "INTERNAL2", "name": "Security", "source": source, "evidenceHeading": "Sicherheit", "evidencePages": [3], "sourceType": own["sourceType"]}
+    monkeypatch.setattr(semantic_triage, "_cached_text", lambda url: "Index: all modules\n\f\nEinführung in die Informatik\nProgramming programming, algorithms algorithms.\n\f\nSicherheit\nCryptography cryptography.")
+    text = semantic_triage.cached_course_text(source, own, [own, peer])
+    assert "algorithms" in text and "Cryptography" not in text and "Index:" not in text
+    ambiguous = {**own, "sourceCourseTitles": ["Computing", "Security"]}
+    assert semantic_triage.cached_course_text(source, ambiguous, [ambiguous, peer]) == ""
