@@ -1,0 +1,241 @@
+{
+  "id": "dir|ANTROPOLOGIA JURÍDICA|po-57-universidadeno|27139",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "dir",
+    "code": "ANTROPOLOGIA JURÍDICA",
+    "name": "ANTROPOLOGIA JURÍDICA",
+    "courseName": "Direito",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2022,
+    "documentTitle": "Ementário oficial 2022",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/5-graduacao/upm-alphaville/direito/EMENT%C3%81RIO_2022.pdf",
+    "sha256": "66976ba1290204b9fc01767d208e6492fe9287bb16182d786a6ba4496bcb5079",
+    "location": "PDF p. 1, bloco ANTROPOLOGIA JURÍDICA, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 2,
+      "unit": "hora_aula",
+      "basis": "semana"
+    },
+    "topics": [
+      "A Antropologia Jurídica é um componente curricular de grande importância para a formação crítica do jurista",
+      "Ela pode contribuir para uma melhor compreensão da complexidade social na qual se inscreve a regulação jurídica",
+      "Permite a percepção das diversas formas de expressão dessa regulação de modo a preparar o futuro jurista para a complexidade que caracteriza a sociedade brasileira",
+      "É possível situar o surgimento da antropologia jurídica no final do século XIX, o que a coloca em diálogo com a apreensão científica do homem e a perspectiva moderna de direito",
+      "A análise da especificidade da abordagem antropológica do direito suscita reflexões como: a discussão do pluralismo jurídico e da fundamentação do direito numa sociedade multicultural",
+      "explicitação dos traços fundamentais da análise e da pesquisa em antropologia e sua contribuição na observação do fenômeno jurídico",
+      "exame da questão da aculturação jurídica",
+      "análise da relação entre pluralismo jurídico e o direito das minorias e dos povos autóctones",
+      "descrição da abordagem antropológica como forma de compreensão do direito numa perspectiva plural",
+      "descentramento da antropologia jurídica de categorias, instituições, valores e conceitos ocidentais para o entendimento do direto",
+      "apresentação do campo interdisciplinar da mediação e conciliação como formas de resolução de conflitos",
+      "discussão dos direitos humanos a partir da perspectiva antropológica",
+      "explicitação de questões fundamentais relativas à observação antropológica do campo jurídico"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "po-57-universidadeno",
+      "university": "Universidade Nova de Lisboa",
+      "code": "27139",
+      "name": "Sociologia do Direito",
+      "faculty": "NOVA School of Law",
+      "department": "Direito",
+      "programme": "Licenciatura em Direito",
+      "level": "Graduação",
+      "period": "1º ano, S1, declarado na FUC2026/27; oferta2027/28 não confirmada",
+      "academicYear": "2026/2027",
+      "language": "Português",
+      "courseStatus": "Licenciatura em Direito, 1º ano, S1",
+      "assessment": "Dois testes individuais80%; apresentação oral10%; trabalho escrito10%. Cada teste tem5 questões e3horas.",
+      "prerequisites": "Não aplicável, conforme FUC p.2",
+      "source": "https://netpa.novalaw.unl.pt/netpa/doc?stage=FichaUnidadeCurricular&_event=publicacaoFUC&anoLectivo=202627&codeDiscip=27139&modeloId=20&codePeriodo=&codeCurso=null&codePlano=null&codeRamo=null&publica=true&codInstituic=1&docIsAttachment=false&popup_mode=true",
+      "catalogue": "",
+      "sha256": "e4542eb1bd96ac0e28ca67334a75b0ad974b358c5773c0833ee5f76c969bc0e7",
+      "location": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9",
+      "detailLevel": "full_individual_syllabus",
+      "hours": {
+        "contactTotal": 36,
+        "contactLecture": null,
+        "contactSeminarLab": 36,
+        "selfStudy": null,
+        "totalWorkload": 112,
+        "ects": 4,
+        "basis": "semestre",
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "A Antropologia Jurídica é um componente curricular de grande importância para a formação crítica do jurista",
+      "essential": true,
+      "status": "parcial",
+      "note": "Objetivo crítico compartilhado, mas abordagem sociológica não substitui por si a formação antropológica.",
+      "foreignEvidence": "A formação crítica é expressa como avaliação do alcance e relevância contemporânea das teorias sociológicas do direito.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "Ela pode contribuir para uma melhor compreensão da complexidade social na qual se inscreve a regulação jurídica",
+      "essential": true,
+      "status": "coberto",
+      "note": "O papel social da regulação jurídica é tratado diretamente, ainda que por repertório sociológico.",
+      "foreignEvidence": "Itens2,4,6 e9 relacionam direito a conflitos sociais, diferenciação, governação e campo jurídico.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "Permite a percepção das diversas formas de expressão dessa regulação de modo a preparar o futuro jurista para a complexidade que caracteriza a sociedade brasileira",
+      "essential": true,
+      "status": "parcial",
+      "note": "Não se delimita a sociedade brasileira nem sua diversidade regulatória.",
+      "foreignEvidence": "Objetivos e trabalho escrito aplicam conceitos a problemas sociopolítico-jurídicos contemporâneos.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "É possível situar o surgimento da antropologia jurídica no final do século XIX, o que a coloca em diálogo com a apreensão científica do homem e a perspectiva moderna de direito",
+      "essential": true,
+      "status": "parcial",
+      "note": "Não apresenta o surgimento específico da antropologia jurídica no séculoXIX.",
+      "foreignEvidence": "Metodologia contextualiza historicamente Marx, Weber, Durkheim e outras teorias do direito.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "A análise da especificidade da abordagem antropológica do direito suscita reflexões como: a discussão do pluralismo jurídico e da fundamentação do direito numa sociedade multicultural",
+      "essential": true,
+      "status": "parcial",
+      "note": "Pluralismo jurídico e fundamento multicultural não aparecem como unidade própria.",
+      "foreignEvidence": "Item3 articula direitos humanos, diferença e cidadania; objetivos permitem comparar perspectivas teóricas.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "explicitação dos traços fundamentais da análise e da pesquisa em antropologia e sua contribuição na observação do fenômeno jurídico",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "Leitura crítica de textos e reconstrução de teorias não comprovam método de pesquisa antropológica.",
+      "scopeExamined": "FUC integral27139, pp.1-10; nove conteúdos de sociologia do direito, objetivos e métodos; nenhuma unidade de etnografia, aculturação ou mediação"
+    },
+    {
+      "brTopic": "exame da questão da aculturação jurídica",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "Aculturação jurídica não é nomeada nos nove conteúdos nem nos exercícios.",
+      "scopeExamined": "FUC integral27139, pp.1-10; nove conteúdos de sociologia do direito, objetivos e métodos; nenhuma unidade de etnografia, aculturação ou mediação"
+    },
+    {
+      "brTopic": "análise da relação entre pluralismo jurídico e o direito das minorias e dos povos autóctones",
+      "essential": true,
+      "status": "parcial",
+      "note": "Não há estudo identificado de povos autóctones ou regimes de direitos das minorias.",
+      "foreignEvidence": "A tensão entre direitos humanos e diferença é tematizada em Balibar, item3.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "descrição da abordagem antropológica como forma de compreensão do direito numa perspectiva plural",
+      "essential": true,
+      "status": "parcial",
+      "note": "Pluralidade de teorias sociológicas é distinta da abordagem antropológica plural exigida.",
+      "foreignEvidence": "A sequência de teorias e a comparação crítica de suas categorias permitem analisar diferentes leituras do fenômeno jurídico.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "descentramento da antropologia jurídica de categorias, instituições, valores e conceitos ocidentais para o entendimento do direto",
+      "essential": true,
+      "status": "parcial",
+      "note": "Crítica ao universalismo oferece contato temático, sem programa explícito de descentramento de categorias ocidentais.",
+      "foreignEvidence": "Item9 e exercícios de Bourdieu discutem universalização, capital simbólico e força do campo jurídico.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "apresentação do campo interdisciplinar da mediação e conciliação como formas de resolução de conflitos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "Mediação e conciliação não integram o programa nem os métodos avaliativos descritos.",
+      "scopeExamined": "FUC integral27139, pp.1-10; nove conteúdos de sociologia do direito, objetivos e métodos; nenhuma unidade de etnografia, aculturação ou mediação"
+    },
+    {
+      "brTopic": "discussão dos direitos humanos a partir da perspectiva antropológica",
+      "essential": true,
+      "status": "parcial",
+      "note": "O objeto direitos humanos é explícito; a perspectiva antropológica específica não é demonstrada.",
+      "foreignEvidence": "Item3 examina direitos humanos, diferença e cidadania a partir de Balibar.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    },
+    {
+      "brTopic": "explicitação de questões fundamentais relativas à observação antropológica do campo jurídico",
+      "essential": true,
+      "status": "parcial",
+      "note": "Não se descrevem observação participante, etnografia ou protocolos de observação antropológica do campo.",
+      "foreignEvidence": "Item9 estuda o campo jurídico de Bourdieu, e o trabalho exige aplicação crítica a um problema contemporâneo.",
+      "foreignLocation": "FUC27139 2026/27, pp.2-4: conteúdos1-9, objetivos, metodologias e avaliação; versão inglesa pp.7-9"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Direito autopoiético e contingência das decisões em Luhmann",
+      "location": "Conteúdo7, p.2"
+    },
+    {
+      "topic": "Estado, legitimidade, biopoder e deliberação democrática",
+      "location": "Conteúdos5-8, p.2"
+    }
+  ],
+  "competencies": {
+    "brazil": "Reconhecer diversidade cultural e regulatória, observar fenômenos jurídicos e relativizar categorias ocidentais.",
+    "foreign": [
+      "Analisar criticamente teorias da sociologia jurídica",
+      "Mobilizar conceitos em problemas contemporâneos",
+      "Propor reformulações teóricas"
+    ],
+    "convergences": [
+      "Crítica da regulação jurídica e da universalidade de suas categorias",
+      "Relação entre direitos humanos, diferença e cidadania"
+    ],
+    "differences": [
+      "Antropologia inclui aculturação, povos autóctones e observação etnográfica; NOVA organiza nove teorias sociológicas",
+      "Mackenzie inclui mediação e conciliação; NOVA avalia principalmente análise argumentativa e reconstrução teórica"
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "Ementário histórico2022 da1ª etapa com2horas-aula semanais;13enunciados, vários introdutórios ou finalísticos.",
+    "foreign": "FUC de10páginas,36horasTP, nove unidades teóricas e avaliação detalhada, datada14/09/2026.",
+    "theoryPractice": "NOVA prevê discussão, apresentação e produção escrita; nenhuma pesquisa de campo antropológica é exigida explicitamente."
+  },
+  "practical": {
+    "period": "1º ano, S1, declarado na FUC2026/27; oferta2027/28 não confirmada",
+    "language": "Português, declarado na FUC",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não aplicável, conforme FUC p.2",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Sociologia do Direito27139 oferece instrumentos concretos para crítica da regulação social, com Marx, Balibar, Weber, Foucault e Bourdieu, mas não documenta o núcleo etnográfico e intercultural de Antropologia Jurídica. O cotejo distingue interdisciplinaridade de identidade curricular: campo jurídico e diferença aparecem, enquanto aculturação, povos autóctones e mediação permanecem sem unidade correspondente.",
+  "justification": "Dos13enunciados brasileiros, um recebe cobertura direta e nove apenas parcial; três não foram encontrados no programa integral. As convergências são objetivos críticos, análise de conflitos e direitos humanos; as divergências recaem precisamente sobre métodos antropológicos, aculturação e conciliação. A FUC publica36horas semestrais de contato e112de trabalho total, mas o ementário2022 informa2horas-aula por semana, impedindo uma razão semestral segura. Nem4ECTS nem112horas de trabalho foram convertidos em contato. A classe parcial expressa sobreposição de perspectivas, sem autorizar substituição integral.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "moderada",
+  "confidenceRationale": "FUC2026/27 completa e identificada pelo código27139, com conteúdos, métodos, avaliação e horas; a matriz brasileira histórica2022 e a diferença entre sociologia e antropologia limitam a confiança a moderada.",
+  "limitations": [
+    "Ementário brasileiro2022 não demonstra vigência na matriz atual.",
+    "FUC é marcada inválida para efeito de certificação: é fonte pública informativa, não declaração de aproveitamento.",
+    "Duração da hora portuguesa não declarada e unidade brasileira semanal em horas-aula.",
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Edição 2022 (histórica). Carga em horas-aula semanais, não horas semestrais. Não valida a matriz vigente."
+  ],
+  "openQuestions": [
+    "A coordenação considera Sociologia Jurídica como componente distinto de Antropologia Jurídica?",
+    "Existe descrição pública vigente do método etnográfico e do trabalho com povos autóctones no componente brasileiro?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Revisão humana da fronteira sociologia/antropologia e da vinculação do ementário histórico antes de qualquer aproveitamento."
+  }
+}

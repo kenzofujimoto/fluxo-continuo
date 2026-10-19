@@ -1,0 +1,135 @@
+{
+  "id": "cc|ENUN51118|co-25-soongsiluniver|CAT-SSU-INFOSEC-006",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENUN51118",
+    "name": "ÉTICA E CIDADANIA",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/COMPONENTES_UNIVERSAIS.pdf",
+    "sha256": "07557ae35795f3e1c799335ca38c0b3b994777171096ca8c5a4d69ce04e806a1",
+    "location": "PDF p. 2, bloco ÉTICA E CIDADANIA, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 31.67,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história",
+      "bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-25-soongsiluniver",
+      "university": "Soongsil University",
+      "code": "CAT-SSU-INFOSEC-006",
+      "name": "Cybersecurity Ethics",
+      "faculty": "IT College / Department of Information Security",
+      "department": "Information Security",
+      "programme": "Information Security (departamento específico)",
+      "level": "Graduação",
+      "period": "Semestre e ano de oferta não publicados na descrição",
+      "academicYear": null,
+      "language": "Descrição em coreano, rubrica em inglês; língua de ensino não confirmada",
+      "courseStatus": "Não discriminado na descrição",
+      "assessment": "Não publicada no parágrafo individual",
+      "prerequisites": "Não publicados no parágrafo individual",
+      "source": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "catalogue": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "sha256": "8b380c654c9b5f0c05e3680d0c118db268c4dfcf049e65c5c87cc544aed1ce91",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 사이버보안윤리 (Cybersecurity Ethics); somente o seu parágrafo, entre esta e a próxima rubrica",
+      "detailLevel": "brief_individual_description",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Explicar os conceitos teóricos de ética e cidadania, suas inter-relações na esfera social e o seu desenvolvimento ao longo da história",
+      "essential": true,
+      "status": "parcial",
+      "note": "A ética está contextualizada no ambiente cibernético; cidadania e sua evolução histórica não são desenvolvidas explicitamente.",
+      "foreignEvidence": "Cybersecurity Ethics aborda conceitos éticos, normas jurídicas, violações e crimes digitais, conteúdo nocivo e direitos autorais.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 사이버보안윤리 (Cybersecurity Ethics); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "bem como, destacar o papel e a contribuição da ética calvinista para a formação da cidadania em seus aspectos civis, políticos e sociais",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "A ética calvinista e sua contribuição às dimensões civil, política e social da cidadania não aparecem neste resumo.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 사이버보안윤리 (Cybersecurity Ethics); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Crimes e violações digitais e tecnologias de resposta a infrações éticas",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 사이버보안윤리 (Cybersecurity Ethics); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Objetos e operações prescritos pelos enunciados oficiais de ÉTICA E CIDADANIA",
+    "foreign": [
+      "Reconhecer aspectos éticos e jurídicos de incidentes cibernéticos, direitos autorais e conteúdo prejudicial."
+    ],
+    "convergences": [
+      "Cybersecurity Ethics aborda conceitos éticos, normas jurídicas, violações e crimes digitais, conteúdo nocivo e direitos autorais."
+    ],
+    "differences": [
+      "O componente Mackenzie tem fundamento histórico e calvinista da cidadania; aSSU se dirige à conduta e regulação de segurança digital."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "FCI2025, etapa1, 31.67horas-relógio semestrais; comparação preserva os enunciados compostos do ementário.",
+    "foreign": "Descrição departamental individual breve: Reconhecer aspectos éticos e jurídicos de incidentes cibernéticos, direitos autorais e conteúdo prejudicial.",
+    "theoryPractice": "A descrição foi examinada para distinguir objetivos de atividades comprovadas. O componente Mackenzie tem fundamento histórico e calvinista da cidadania; aSSU se dirige à conduta e regulação de segurança digital."
+  },
+  "practical": {
+    "period": "Semestre não indicado; consultar programação pública da oferta 2027/28 quando publicada",
+    "language": "Língua de ensino a confirmar; fonte em coreano com títulos bilíngues",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não publicados nesta descrição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Cybersecurity Ethics documenta ética aplicada e regulação de condutas digitais, oferecendo apenas uma intersecção com Ética e Cidadania. O núcleo particular do Mackenzie, a contribuição da ética calvinista à cidadania civil, política e social, não é demonstrado pelo curso coreano; crimes cibernéticos e direitos autorais não substituem esse fundamento.",
+  "justification": "Um dos dois enunciados é parcial pela discussão de ética e ordenamento jurídico no ciberespaço, e o segundo não foi encontrado após leitura exclusiva da rubricaCybersecurity Ethics. A regra interna de metade dos tópicos relacionados produz afinidade parcial, embora a transferência efetiva seja estreita; essa classe não deve ser lida como metade do conteúdo ou equivalência. O documento não informa horas para comparação com31,67horas brasileiras nem avaliação do repertório histórico. A análise exige revisão do caráter identitário do conteúdo calvinista antes de qualquer aproveitamento.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A descrição oficial bilíngue identifica o componente e seus objetos, mas não publica plano semanal, avaliação ou horas. O parecer restringe-se ao próprio parágrafo de 사이버보안윤리 (Cybersecurity Ethics), não ao compêndio inteiro; completude documental insuficiente para confiança moderada.",
+  "limitations": [
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Fonte individual breve dentro de compêndio departamental; não contém calendário, avaliação, créditos ou horas por componente.",
+    "Ano letivo e língua da turma não publicados; texto em coreano não comprova oferta em inglês.",
+    "Código CAT é identificador interno da base, não código acadêmico oficial; identidade pela rubrica bilíngue e parágrafo delimitado."
+  ],
+  "openQuestions": [
+    "O componente universal brasileiro permite substituição por ética profissional aplicada?",
+    "Existe ensino explícito de história da cidadania e de tradição calvinista na disciplina pretendida?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+  }
+}

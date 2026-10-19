@@ -1,0 +1,155 @@
+{
+  "id": "cc|ENEC61013|co-25-soongsiluniver|CAT-SSU-INFOSEC-022",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC61013",
+    "name": "SISTEMAS OPERACIONAIS",
+    "courseName": "Ciência da Computação",
+    "stage": 5,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/5__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "9530ce8333b397561c5fc708e80460c5c711aff55388929bdd2c6e87d7d12a25",
+    "location": "PDF p. 2, bloco SISTEMAS OPERACIONAIS, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+      "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+      "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+      "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-25-soongsiluniver",
+      "university": "Soongsil University",
+      "code": "CAT-SSU-INFOSEC-022",
+      "name": "Operating Systems",
+      "faculty": "IT College / Department of Information Security",
+      "department": "Information Security",
+      "programme": "Information Security (departamento específico)",
+      "level": "Graduação",
+      "period": "Semestre e ano de oferta não publicados na descrição",
+      "academicYear": null,
+      "language": "Descrição em coreano, rubrica em inglês; língua de ensino não confirmada",
+      "courseStatus": "Não discriminado na descrição",
+      "assessment": "Não publicada no parágrafo individual",
+      "prerequisites": "Não publicados no parágrafo individual",
+      "source": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "catalogue": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "sha256": "8b380c654c9b5f0c05e3680d0c118db268c4dfcf049e65c5c87cc544aed1ce91",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 운영체제 (Operating Systems); somente o seu parágrafo, entre esta e a próxima rubrica",
+      "detailLevel": "brief_individual_description",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta o histórico, classificação, estrutura de um sistema operacional",
+      "essential": true,
+      "status": "parcial",
+      "note": "História e classificação não são enumeradas.",
+      "foreignEvidence": "A estrutura de sistemas operacionais e os serviços fornecidos são expressamente estudados.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 운영체제 (Operating Systems); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Estudo do gerenciador de processos com abordagem de técnicas de escalonamento de processos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "O resumo não especifica gerência ou escalonamento de processos.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 운영체제 (Operating Systems); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "concorrência e sincronização entre processos e threads, gerenciador de memória, gerenciador de arquivos e gerenciador de dispositivos",
+      "essential": true,
+      "status": "parcial",
+      "note": "Não discrimina sincronização, threads, memória, arquivos ou dispositivos; a relação limita-se ao gerenciamento geral de recursos.",
+      "foreignEvidence": "A descrição reconhece recursos do computador e políticas para utilizá-los eficientemente.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 운영체제 (Operating Systems); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Prática com implementação dos diferentes tópicos abordados nos módulos que compõem um sistema operacional",
+      "essential": true,
+      "status": "parcial",
+      "note": "Aplicação analítica é mencionada, mas implementação dos módulos não está documentada.",
+      "foreignEvidence": "O objetivo inclui analisar e resolver problemas no nível do sistema operacional a partir da teoria.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 운영체제 (Operating Systems); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Uso dos serviços do sistema operacional como competência aplicada",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 운영체제 (Operating Systems); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Objetos e operações prescritos pelos enunciados oficiais de SISTEMAS OPERACIONAIS",
+    "foreign": [
+      "Entender estrutura e serviços doSO e analisar políticas de utilização eficiente dos recursos computacionais."
+    ],
+    "convergences": [
+      "A estrutura de sistemas operacionais e os serviços fornecidos são expressamente estudados.",
+      "A descrição reconhece recursos do computador e políticas para utilizá-los eficientemente.",
+      "O objetivo inclui analisar e resolver problemas no nível do sistema operacional a partir da teoria."
+    ],
+    "differences": [
+      "O Mackenzie especifica gerenciadores, escalonamento, concorrência e implementação; aSSU publica somente uma visão geral de recursos, políticas e serviços."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "FCI2025, etapa5, 63.33horas-relógio semestrais; comparação preserva os enunciados compostos do ementário.",
+    "foreign": "Descrição departamental individual breve: Entender estrutura e serviços doSO e analisar políticas de utilização eficiente dos recursos computacionais.",
+    "theoryPractice": "A descrição foi examinada para distinguir objetivos de atividades comprovadas. O Mackenzie especifica gerenciadores, escalonamento, concorrência e implementação; aSSU publica somente uma visão geral de recursos, políticas e serviços."
+  },
+  "practical": {
+    "period": "Semestre não indicado; consultar programação pública da oferta 2027/28 quando publicada",
+    "language": "Língua de ensino a confirmar; fonte em coreano com títulos bilíngues",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não publicados nesta descrição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Operating Systems relaciona estrutura, serviços e políticas de recursos, fornecendo aproximação conceitual a Sistemas Operacionais. O programa brasileiro, porém, exige mecanismos identificáveis de processos, escalonamento, sincronização, memória, arquivos e dispositivos e sua implementação; o resumo coreano não os individualiza.",
+  "justification": "Três dos quatro enunciados têm apoio parcial e escalonamento de processos não foi encontrado. A classificação parcial não significa cobertura de cada mecanismo: ela conserva o vínculo documentado a estrutura, políticas e resolução de problemas, com notas expressas sobre os subitens sem comprovação. O texto de System Programming mencionaPOSIX, memória e threads, mas não foi transferido paraOperating Systems. Ausência de laboratório descrito e de horas estrangeiras impede equiparar essa visão geral às63,33horas teórico-práticas do Mackenzie.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A descrição oficial bilíngue identifica o componente e seus objetos, mas não publica plano semanal, avaliação ou horas. O parecer restringe-se ao próprio parágrafo de 운영체제 (Operating Systems), não ao compêndio inteiro; completude documental insuficiente para confiança moderada.",
+  "limitations": [
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Fonte individual breve dentro de compêndio departamental; não contém calendário, avaliação, créditos ou horas por componente.",
+    "Ano letivo e língua da turma não publicados; texto em coreano não comprova oferta em inglês.",
+    "Código CAT é identificador interno da base, não código acadêmico oficial; identidade pela rubrica bilíngue e parágrafo delimitado."
+  ],
+  "openQuestions": [
+    "Processos, escalonadores e sincronização são unidades identificadas no plano completo?",
+    "Os estudantes implementam mecanismos de memória, arquivos ou gerenciadores de dispositivos?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "id": "cc|ENEC54239|co-25-soongsiluniver|CAT-SSU-INFOSEC-008",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54239",
+    "name": "ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 2, bloco ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "Arquitetura RISC x CISC",
+      "Introduz à linguagem de montagem em arquitetura RISC",
+      "Aborda de forma introdutória as arquiteturas paralelas centralizadas"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-25-soongsiluniver",
+      "university": "Soongsil University",
+      "code": "CAT-SSU-INFOSEC-008",
+      "name": "Computer Architectures",
+      "faculty": "IT College / Department of Information Security",
+      "department": "Information Security",
+      "programme": "Information Security (departamento específico)",
+      "level": "Graduação",
+      "period": "Semestre e ano de oferta não publicados na descrição",
+      "academicYear": null,
+      "language": "Descrição em coreano, rubrica em inglês; língua de ensino não confirmada",
+      "courseStatus": "Não discriminado na descrição",
+      "assessment": "Não publicada no parágrafo individual",
+      "prerequisites": "Não publicados no parágrafo individual",
+      "source": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "catalogue": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "sha256": "8b380c654c9b5f0c05e3680d0c118db268c4dfcf049e65c5c87cc544aed1ce91",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터구조 (Computer Architectures); somente o seu parágrafo, entre esta e a próxima rubrica",
+      "detailLevel": "brief_individual_description",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta a evolução e classificação das arquiteturas dos computadores",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "Não foram localizadas evolução histórica ou taxonomias de arquitetura.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터구조 (Computer Architectures); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "Estudo da arquitetura e organização básica dos computadores: Unidade central de processamento, Memórias, Barramentos e Dispositivos de E/S",
+      "essential": true,
+      "status": "parcial",
+      "note": "CPU e memória são explícitos; barramentos e dispositivos de entrada/saída não são descritos.",
+      "foreignEvidence": "O parágrafo trata função do hardware, estrutura e funcionamento de processador e memória e seus efeitos no desempenho de software.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터구조 (Computer Architectures); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Arquitetura RISC x CISC",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "RISC e CISC não são mencionados nesta descrição.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터구조 (Computer Architectures); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "Introduz à linguagem de montagem em arquitetura RISC",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "A descrição não especifica linguagem de montagem nem arquiteturaRISC.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터구조 (Computer Architectures); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "Aborda de forma introdutória as arquiteturas paralelas centralizadas",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "Não há referência a arquiteturas paralelas centralizadas no texto individual.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터구조 (Computer Architectures); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Otimização de software em função do desempenho do hardware",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 컴퓨터구조 (Computer Architectures); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Objetos e operações prescritos pelos enunciados oficiais de ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES",
+    "foreign": [
+      "Compreender processador e memória para otimizar software considerando a organização do hardware."
+    ],
+    "convergences": [
+      "O parágrafo trata função do hardware, estrutura e funcionamento de processador e memória e seus efeitos no desempenho de software."
+    ],
+    "differences": [
+      "A matriz brasileira exige evolução, RISC/CISC, montagemRISC e paralelismo; o texto de Soongsil se concentra em CPU, memória e desempenho."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "FCI2025, etapa3, 63.33horas-relógio semestrais; comparação preserva os enunciados compostos do ementário.",
+    "foreign": "Descrição departamental individual breve: Compreender processador e memória para otimizar software considerando a organização do hardware.",
+    "theoryPractice": "A descrição foi examinada para distinguir objetivos de atividades comprovadas. A matriz brasileira exige evolução, RISC/CISC, montagemRISC e paralelismo; o texto de Soongsil se concentra em CPU, memória e desempenho."
+  },
+  "practical": {
+    "period": "Semestre não indicado; consultar programação pública da oferta 2027/28 quando publicada",
+    "language": "Língua de ensino a confirmar; fonte em coreano com títulos bilíngues",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não publicados nesta descrição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Computer Architectures documenta estrutura e operação do processador e da memória, mas não o percurso curricular de Arquitetura e Organização de Computadores: evolução, RISC/CISC, montagemRISC e arquiteturas paralelas. A semelhança do título encobre um recorte publicado mais estreito, dirigido à otimização de software.",
+  "justification": "Somente o segundo dos cinco tópicos brasileiros recebe cobertura parcial, limitada a CPU e memória; até barramentos e entrada/saída permanecem sem comprovação. As quatro demais exigências não aparecem no próprio parágrafo. O componente Assembly Programming da mesma página estuda80x86, mas seu texto não foi incorporado a Computer Architectures. A baixa afinidade descreve a evidência publicada deste par, sem declarar incompatibilidade da disciplina efetivamente ministrada; faltam plano completo e carga estrangeira.",
+  "conclusionClass": "baixa_afinidade",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A descrição oficial bilíngue identifica o componente e seus objetos, mas não publica plano semanal, avaliação ou horas. O parecer restringe-se ao próprio parágrafo de 컴퓨터구조 (Computer Architectures), não ao compêndio inteiro; completude documental insuficiente para confiança moderada.",
+  "limitations": [
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Fonte individual breve dentro de compêndio departamental; não contém calendário, avaliação, créditos ou horas por componente.",
+    "Ano letivo e língua da turma não publicados; texto em coreano não comprova oferta em inglês.",
+    "Código CAT é identificador interno da base, não código acadêmico oficial; identidade pela rubrica bilíngue e parágrafo delimitado."
+  ],
+  "openQuestions": [
+    "O programa de Computer Architectures inclui RISC/CISC ou isso pertence a outro componente?",
+    "Existe unidade de montagemRISC e introdução ao paralelismo na turma pretendida?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+  }
+}

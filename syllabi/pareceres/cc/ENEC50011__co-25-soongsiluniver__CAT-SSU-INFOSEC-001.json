@@ -1,0 +1,137 @@
+{
+  "id": "cc|ENEC50011|co-25-soongsiluniver|CAT-SSU-INFOSEC-001",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC50011",
+    "name": "ALGORITMOS E PROGRAMAÇÃO I",
+    "courseName": "Ciência da Computação",
+    "stage": 1,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/1__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "f6eaa1ac965096cf32d7a11bad33603b39b78a01f25b3888056963459f835753",
+    "location": "PDF p. 2, bloco ALGORITMOS E PROGRAMAÇÃO I, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "Implementação de algoritmos utilizando linguagem de programação imperativa"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-25-soongsiluniver",
+      "university": "Soongsil University",
+      "code": "CAT-SSU-INFOSEC-001",
+      "name": "Introductory Programming",
+      "faculty": "IT College / Department of Information Security",
+      "department": "Information Security",
+      "programme": "Information Security (departamento específico)",
+      "level": "Graduação",
+      "period": "Semestre e ano de oferta não publicados na descrição",
+      "academicYear": null,
+      "language": "Descrição em coreano, rubrica em inglês; língua de ensino não confirmada",
+      "courseStatus": "Não discriminado na descrição",
+      "assessment": "Não publicada no parágrafo individual",
+      "prerequisites": "Não publicados no parágrafo individual",
+      "source": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "catalogue": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "sha256": "8b380c654c9b5f0c05e3680d0c118db268c4dfcf049e65c5c87cc544aed1ce91",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 기초프로그래밍 (Introductory Programming); somente o seu parágrafo, entre esta e a próxima rubrica",
+      "detailLevel": "brief_individual_description",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo e desenvolvimento de algoritmos envolvendo comandos de atribuição, condicionais, de repetição, modularização e estrutura de dados linear, tendo com ênfase a resolução de problemas em ordem crescente de complexidade",
+      "essential": true,
+      "status": "parcial",
+      "note": "A progressão de complexidade e o desenvolvimento explícito de algoritmos não são detalhados; os mecanismos básicos estão presentes.",
+      "foreignEvidence": "O parágrafo ensina variáveis, declarações, seleção, repetição, arrays e funções em C, mediante exercícios e projeto em equipe.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 기초프로그래밍 (Introductory Programming); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Implementação de algoritmos utilizando linguagem de programação imperativa",
+      "essential": true,
+      "status": "coberto",
+      "note": "C constitui a linguagem imperativa explicitamente empregada, sem inferir conteúdo de disciplinas vizinhas.",
+      "foreignEvidence": "A descrição identifica programação C padrão em ambiente UNIX e aprendizagem prática dos comandos.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 기초프로그래밍 (Introductory Programming); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Uso de UNIX e comunicação entre membros de equipe",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 기초프로그래밍 (Introductory Programming); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Objetos e operações prescritos pelos enunciados oficiais de ALGORITMOS E PROGRAMAÇÃO I",
+    "foreign": [
+      "Aprender programação C em UNIX e resolver problemas colaborativamente mediante exercícios e projeto."
+    ],
+    "convergences": [
+      "O parágrafo ensina variáveis, declarações, seleção, repetição, arrays e funções em C, mediante exercícios e projeto em equipe.",
+      "A descrição identifica programação C padrão em ambiente UNIX e aprendizagem prática dos comandos."
+    ],
+    "differences": [
+      "A ementa brasileira explicita desenvolvimento de algoritmos em dificuldade crescente; o resumo coreano enumera comandos e ferramentas, sem sequência didática."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "FCI2025, etapa1, 63.33horas-relógio semestrais; comparação preserva os enunciados compostos do ementário.",
+    "foreign": "Descrição departamental individual breve: Aprender programação C em UNIX e resolver problemas colaborativamente mediante exercícios e projeto.",
+    "theoryPractice": "A descrição foi examinada para distinguir objetivos de atividades comprovadas. A ementa brasileira explicita desenvolvimento de algoritmos em dificuldade crescente; o resumo coreano enumera comandos e ferramentas, sem sequência didática."
+  },
+  "practical": {
+    "period": "Semestre não indicado; consultar programação pública da oferta 2027/28 quando publicada",
+    "language": "Língua de ensino a confirmar; fonte em coreano com títulos bilíngues",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não publicados nesta descrição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Introductory Programming explicita C, variáveis, estruturas condicionais, laços, arrays e funções, oferecendo correspondência concreta ao núcleo imperativo de Algoritmos e ProgramaçãoI. A formação algorítmica brasileira é mais abrangente que a simples enumeração de recursos da linguagem: o resumo de Soongsil não explica como os exercícios progridem em complexidade.",
+  "justification": "O segundo enunciado brasileiro é coberto pelo uso explícito de C; o primeiro é parcial porque seleção, repetição, vetores e funções estão descritos, mas atribuição e construção progressiva de algoritmos não têm tratamento pormenorizado. O projeto em equipe evidencia aplicação, sem informar instrumentos de avaliação. As63,33horas brasileiras não podem ser cotejadas com uma carga estrangeira inexistente na fonte. Assim, proximidade dos fundamentos não sustenta alta afinidade documental.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A descrição oficial bilíngue identifica o componente e seus objetos, mas não publica plano semanal, avaliação ou horas. O parecer restringe-se ao próprio parágrafo de 기초프로그래밍 (Introductory Programming), não ao compêndio inteiro; completude documental insuficiente para confiança moderada.",
+  "limitations": [
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Fonte individual breve dentro de compêndio departamental; não contém calendário, avaliação, créditos ou horas por componente.",
+    "Ano letivo e língua da turma não publicados; texto em coreano não comprova oferta em inglês.",
+    "Código CAT é identificador interno da base, não código acadêmico oficial; identidade pela rubrica bilíngue e parágrafo delimitado."
+  ],
+  "openQuestions": [
+    "O programa público detalhado apresenta projeto de algoritmos e progressão de problemas, além da sintaxe C?",
+    "Quantas horas de aula e laboratório pertencem a esta turma de programação introdutória?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "cc|ENEX60052|co-25-soongsiluniver|CAT-SSU-INFOSEC-020",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEX60052",
+    "name": "INTELIGÊNCIA ARTIFICIAL I",
+    "courseName": "Ciência da Computação",
+    "stage": 6,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/6__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "b0d0f962489f864ed0de4e439142696ec0a900f1061dd17fb632b9d731aa45a1",
+    "location": "PDF p. 4, bloco INTELIGÊNCIA ARTIFICIAL I, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "Agentes Lógicos",
+      "Representação do conhecimento",
+      "Tomada de Decisão",
+      "e Aprendizagem"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-25-soongsiluniver",
+      "university": "Soongsil University",
+      "code": "CAT-SSU-INFOSEC-020",
+      "name": "Artificial Intelligence",
+      "faculty": "IT College / Department of Information Security",
+      "department": "Information Security",
+      "programme": "Information Security (departamento específico)",
+      "level": "Graduação",
+      "period": "Semestre e ano de oferta não publicados na descrição",
+      "academicYear": null,
+      "language": "Descrição em coreano, rubrica em inglês; língua de ensino não confirmada",
+      "courseStatus": "Não discriminado na descrição",
+      "assessment": "Não publicada no parágrafo individual",
+      "prerequisites": "Não publicados no parágrafo individual",
+      "source": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "catalogue": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "sha256": "8b380c654c9b5f0c05e3680d0c118db268c4dfcf049e65c5c87cc544aed1ce91",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 인공지능 (Artificial Intelligence); somente o seu parágrafo, entre esta e a próxima rubrica",
+      "detailLevel": "brief_individual_description",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Estudo dos aspectos históricos, conceitos, técnicas centrais e aplicações da Inteligência Artificial envolvendo: Agentes Inteligentes e Métodos de busca para Resolução de Problemas",
+      "essential": true,
+      "status": "parcial",
+      "note": "Busca é explícita, mas história e agentes inteligentes não são detalhados.",
+      "foreignEvidence": "O resumo aborda conceitos e técnicas deIA, busca e otimização, com projetos relacionados.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 인공지능 (Artificial Intelligence); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Agentes Lógicos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "Agentes lógicos não são nomeados; raciocínio genérico não prova esse modelo de agente.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 인공지능 (Artificial Intelligence); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    },
+    {
+      "brTopic": "Representação do conhecimento",
+      "essential": true,
+      "status": "coberto",
+      "note": "O eixo de representação do conhecimento tem correspondência direta.",
+      "foreignEvidence": "Representação de conhecimento e inferência constam expressamente no parágrafo deIA.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 인공지능 (Artificial Intelligence); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Tomada de Decisão",
+      "essential": true,
+      "status": "parcial",
+      "note": "Essas técnicas apoiam decisão, mas não há unidade explícita de tomada de decisão.",
+      "foreignEvidence": "O texto apresenta busca e otimização como perspectivas para compreender e aplicar técnicas deIA.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 인공지능 (Artificial Intelligence); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "e Aprendizagem",
+      "essential": true,
+      "status": "coberto",
+      "note": "A dimensão de aprendizagem possui correspondência direta, embora algoritmos específicos não sejam discriminados.",
+      "foreignEvidence": "Aprendizagem de máquina e aprendizagem profunda são conteúdos expressos.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 인공지능 (Artificial Intelligence); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Aprendizagem profunda e projetos orientados à otimização",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 인공지능 (Artificial Intelligence); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Objetos e operações prescritos pelos enunciados oficiais de INTELIGÊNCIA ARTIFICIAL I",
+    "foreign": [
+      "Usar representação, inferência, busca e aprendizagem para projetar aplicações de inteligência artificial."
+    ],
+    "convergences": [
+      "O resumo aborda conceitos e técnicas deIA, busca e otimização, com projetos relacionados.",
+      "Representação de conhecimento e inferência constam expressamente no parágrafo deIA.",
+      "O texto apresenta busca e otimização como perspectivas para compreender e aplicar técnicas deIA.",
+      "Aprendizagem de máquina e aprendizagem profunda são conteúdos expressos."
+    ],
+    "differences": [
+      "Agentes lógicos e história daIA estão explicitados no Mackenzie, mas não naSSU; aSSU acrescenta deep learning na descrição."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "FCI2025, etapa6, 63.33horas-relógio semestrais; comparação preserva os enunciados compostos do ementário.",
+    "foreign": "Descrição departamental individual breve: Usar representação, inferência, busca e aprendizagem para projetar aplicações de inteligência artificial.",
+    "theoryPractice": "A descrição foi examinada para distinguir objetivos de atividades comprovadas. Agentes lógicos e história daIA estão explicitados no Mackenzie, mas não naSSU; aSSU acrescenta deep learning na descrição."
+  },
+  "practical": {
+    "period": "Semestre não indicado; consultar programação pública da oferta 2027/28 quando publicada",
+    "language": "Língua de ensino a confirmar; fonte em coreano com títulos bilíngues",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não publicados nesta descrição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Artificial Intelligence apresenta representação do conhecimento e aprendizagem de máquina de forma direta, além de busca, inferência e otimização. A convergência com Inteligência ArtificialI é demonstrável, mas o modelo de agentes lógicos e as unidades históricas e decisórias do Mackenzie não recebem descrição equivalente na fonte breve.",
+  "justification": "Dois dos cinco tópicos estão cobertos, dois parcialmente relacionados e agentes lógicos não foram encontrados. Raciocínio não foi tratado como sinônimo de agente lógico, e otimização forneceu apenas vínculo parcial com tomada de decisão. Deep learning aparece como ampliação do escopo estrangeiro, não como compensação automática de lacunas. Sem calendário, avaliações e horas, a descrição não permite aferir carga ou profundidade frente às63,33horas brasileiras, justificando afinidade parcial com confiança baixa.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A descrição oficial bilíngue identifica o componente e seus objetos, mas não publica plano semanal, avaliação ou horas. O parecer restringe-se ao próprio parágrafo de 인공지능 (Artificial Intelligence), não ao compêndio inteiro; completude documental insuficiente para confiança moderada.",
+  "limitations": [
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Fonte individual breve dentro de compêndio departamental; não contém calendário, avaliação, créditos ou horas por componente.",
+    "Ano letivo e língua da turma não publicados; texto em coreano não comprova oferta em inglês.",
+    "Código CAT é identificador interno da base, não código acadêmico oficial; identidade pela rubrica bilíngue e parágrafo delimitado."
+  ],
+  "openQuestions": [
+    "São ensinados agentes racionais, agentes lógicos e representação lógica formal?",
+    "Quais métodos de decisão e busca são avaliados nos projetos?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+  }
+}

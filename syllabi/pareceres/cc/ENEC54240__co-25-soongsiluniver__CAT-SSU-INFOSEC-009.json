@@ -1,0 +1,145 @@
+{
+  "id": "cc|ENEC54240|co-25-soongsiluniver|CAT-SSU-INFOSEC-009",
+  "schemaVersion": 2,
+  "type": "simples",
+  "brazil": {
+    "courseId": "cc",
+    "code": "ENEC54240",
+    "name": "PROGRAMAÇÃO ORIENTADA A OBJETOS",
+    "courseName": "Ciência da Computação",
+    "stage": 3,
+    "kind": "obrigatoria",
+    "campus": "Alphaville",
+    "documentYear": 2025,
+    "documentTitle": "Ementário oficial 2025",
+    "source": "https://www.mackenzie.br/fileadmin/ARQUIVOS/Public/1-mackenzie/universidade/unidades-academicas/FCI/2025/EMENTAS_-_CC__ALPHAVILLE_/3__ETAPA_-_CC_-_ALPHAVILLE.pdf",
+    "sha256": "52df65586f68eeb1c1c7cc9db79a93e722b5db4512e72ce7f8ba85d239969007",
+    "location": "PDF p. 4, bloco PROGRAMAÇÃO ORIENTADA A OBJETOS, campo Ementa",
+    "language": "Português",
+    "prerequisites": "Não informados no bloco consultado",
+    "hours": {
+      "value": 63.33,
+      "unit": "hora_relogio",
+      "basis": "semestre"
+    },
+    "topics": [
+      "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+      "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
+      "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos"
+    ]
+  },
+  "foreign": [
+    {
+      "universityId": "co-25-soongsiluniver",
+      "university": "Soongsil University",
+      "code": "CAT-SSU-INFOSEC-009",
+      "name": "Object-Oriented Programming",
+      "faculty": "IT College / Department of Information Security",
+      "department": "Information Security",
+      "programme": "Information Security (departamento específico)",
+      "level": "Graduação",
+      "period": "Semestre e ano de oferta não publicados na descrição",
+      "academicYear": null,
+      "language": "Descrição em coreano, rubrica em inglês; língua de ensino não confirmada",
+      "courseStatus": "Não discriminado na descrição",
+      "assessment": "Não publicada no parágrafo individual",
+      "prerequisites": "Não publicados no parágrafo individual",
+      "source": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "catalogue": "https://sec.ssu.ac.kr/page/subject_contents.php",
+      "sha256": "8b380c654c9b5f0c05e3680d0c118db268c4dfcf049e65c5c87cc544aed1ce91",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 객체지향프로그래밍 (Object-Oriented Programming); somente o seu parágrafo, entre esta e a próxima rubrica",
+      "detailLevel": "brief_individual_description",
+      "hours": {
+        "contactTotal": null,
+        "contactLecture": null,
+        "contactSeminarLab": null,
+        "selfStudy": null,
+        "totalWorkload": null,
+        "ects": null,
+        "basis": null,
+        "hourLengthMinutes": null
+      }
+    }
+  ],
+  "topics": [
+    {
+      "brTopic": "Apresenta os conceitos fundamentais do paradigma orientado a objetos: classes, objetos, instanciação e tratamento de exceções",
+      "essential": true,
+      "status": "parcial",
+      "note": "Instanciação é coerente com o paradigma, mas não explicitada; exceções não aparecem.",
+      "foreignEvidence": "O parágrafo individual apresenta objetos e classes como bases do paradigma e usa Java em exercícios e projeto.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 객체지향프로그래밍 (Object-Oriented Programming); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Aborda encapsulamento e mecanismos de acesso, herança, polimorfismo dinâmico e estático, classes abstratas e interfaces, classes parametrizadas e collections",
+      "essential": true,
+      "status": "parcial",
+      "note": "Encapsulamento, acesso, formas de polimorfismo, classes abstratas, interfaces, parametrização e collections não são discriminados.",
+      "foreignEvidence": "Herança e polimorfismo são conteúdos nominados junto a classes e objetos.",
+      "foreignLocation": "Compêndio INFOSEC Soongsil, rubrica 객체지향프로그래밍 (Object-Oriented Programming); somente o seu parágrafo, entre esta e a próxima rubrica"
+    },
+    {
+      "brTopic": "Implementa a comunicação de aplicação com banco de dados e manipulação de arquivos",
+      "essential": true,
+      "status": "nao_encontrado",
+      "note": "Banco de dados e manipulação de arquivos não aparecem no resumo de Object-Oriented Programming.",
+      "scopeExamined": "Compêndio INFOSEC Soongsil, rubrica 객체지향프로그래밍 (Object-Oriented Programming); somente o seu parágrafo, entre esta e a próxima rubrica; descrição completa lida, sem cronograma, avaliação ou conteúdo dos componentes vizinhos"
+    }
+  ],
+  "additionalForeignTopics": [
+    {
+      "topic": "Projeto de resolução de problemas com Java",
+      "location": "Compêndio INFOSEC Soongsil, rubrica 객체지향프로그래밍 (Object-Oriented Programming); somente o seu parágrafo, entre esta e a próxima rubrica"
+    }
+  ],
+  "competencies": {
+    "brazil": "Objetos e operações prescritos pelos enunciados oficiais de PROGRAMAÇÃO ORIENTADA A OBJETOS",
+    "foreign": [
+      "Aplicar objetos, classes, herança e polimorfismo em Java, com prática e projeto de resolução de problemas."
+    ],
+    "convergences": [
+      "O parágrafo individual apresenta objetos e classes como bases do paradigma e usa Java em exercícios e projeto.",
+      "Herança e polimorfismo são conteúdos nominados junto a classes e objetos."
+    ],
+    "differences": [
+      "O escopo Mackenzie detalha abstração, interfaces, generics, collections, exceções e persistência; a descrição de Soongsil enumera somente os fundamentos do paradigma."
+    ]
+  },
+  "depth": {
+    "level": "Comparação entre componentes de graduação; não se pressupõe equivalência pelo nível",
+    "brazil": "FCI2025, etapa3, 63.33horas-relógio semestrais; comparação preserva os enunciados compostos do ementário.",
+    "foreign": "Descrição departamental individual breve: Aplicar objetos, classes, herança e polimorfismo em Java, com prática e projeto de resolução de problemas.",
+    "theoryPractice": "A descrição foi examinada para distinguir objetivos de atividades comprovadas. O escopo Mackenzie detalha abstração, interfaces, generics, collections, exceções e persistência; a descrição de Soongsil enumera somente os fundamentos do paradigma."
+  },
+  "practical": {
+    "period": "Semestre não indicado; consultar programação pública da oferta 2027/28 quando publicada",
+    "language": "Língua de ensino a confirmar; fonte em coreano com títulos bilíngues",
+    "enrolment": "A presença no catálogo não comprova acesso à turma por estudantes de mobilidade",
+    "prerequisites": "Não publicados nesta descrição",
+    "offer2027": "nao_confirmada"
+  },
+  "synthesis": "Object-Oriented Programming confirma Java e quatro fundamentos relevantes: objetos, classes, herança e polimorfismo. Esses elementos alcançam parcialmente dois grandes enunciados de Programação Orientada a Objetos, mas não comprovam exceções, interfaces, parametrização, collections nem comunicação com banco de dados e arquivos.",
+  "justification": "Os dois primeiros tópicos brasileiros são compostos e receberam avaliação parcial, sem tratar a existência de Java como prova de todas as suas bibliotecas ou mecanismos. O terceiro tópico não foi encontrado no parágrafo individual. A prática e o projeto estrangeiros demonstram aplicação de conceitos básicos, mas a ausência de avaliação e horas impede aferir profundidade e carga frente às63,33horas brasileiras. Resultado parcial significa uma base temática documentada que ainda exige complementação de escopo.",
+  "conclusionClass": "afinidade_parcial",
+  "institutionalStatus": "aguardando_validacao_institucional",
+  "confidence": "baixa",
+  "confidenceRationale": "A descrição oficial bilíngue identifica o componente e seus objetos, mas não publica plano semanal, avaliação ou horas. O parecer restringe-se ao próprio parágrafo de 객체지향프로그래밍 (Object-Oriented Programming), não ao compêndio inteiro; completude documental insuficiente para confiança moderada.",
+  "limitations": [
+    "Oferta em 2027/28, semestre pretendido e vaga de mobilidade não confirmados.",
+    "Parecer documental independente; aproveitamento depende de decisão da coordenação Mackenzie e COI.",
+    "Fonte individual breve dentro de compêndio departamental; não contém calendário, avaliação, créditos ou horas por componente.",
+    "Ano letivo e língua da turma não publicados; texto em coreano não comprova oferta em inglês.",
+    "Código CAT é identificador interno da base, não código acadêmico oficial; identidade pela rubrica bilíngue e parágrafo delimitado."
+  ],
+  "openQuestions": [
+    "Interfaces, exceções, collections e generics fazem parte do plano desta disciplina?",
+    "O projeto exige acesso a banco de dados e arquivos ou essas competências ficam em componentes separados?"
+  ],
+  "alternatives": [],
+  "method": "Leitura dos enunciados oficiais brasileiros e do conteúdo individual estrangeiro com apoio de IA; cotejo tópico a tópico. Em compêndio, somente a rubrica e seu próprio parágrafo são evidência. Ausência no documento consultado não significa ausência na disciplina real.",
+  "reviewedAt": "2026-10-18",
+  "secondReview": {
+    "required": true,
+    "reason": "Leitura humana da descrição coreana e obtenção de plano com subitens, horas e oferta; nenhum conteúdo foi inferido de títulos ou de outros parágrafos."
+  }
+}
