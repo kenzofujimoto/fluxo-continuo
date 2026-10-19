@@ -314,6 +314,8 @@ def extract_programs(manifest: dict, foreign: list[tuple[str, dict]], br_urls: l
                             "programContent": b["programContent"],
                             "officialSyllabus": True, "current": bool(src.get("current")),
                             "currencyNote": src.get("currencyNote"), "provenance": src.get("provenance"), "status": "lido"}
+            if src.get("yearBasis"):
+                progs_b[key]["yearBasis"] = src["yearBasis"]
     return {"meta": {"generated": NOW, "foreign": len(progs_f), "brazil": len(progs_b),
                      "brazilByCourse": {c: sum(1 for k, v in progs_b.items() if k.startswith(c + "|") and v.get("status") == "lido") for c in ("cc", "si", "adm", "dir")},
                      "brazilCurrent": sum(1 for v in progs_b.values() if v.get("current")),
