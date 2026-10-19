@@ -33,3 +33,15 @@ test("root title uses the middle dot and retains a page title template", async (
     template: "%s · Fluxo Contínuo",
   });
 });
+
+test("globe mark is shared by favicon, header and footer without lettering", async () => {
+  const svg = readFileSync("app/icon.svg", "utf8");
+  assert.match(svg, /<circle[^>]+fill="#f1ece3"/);
+  assert.match(svg, /id="continents"/);
+  assert.equal(readFileSync("public/brand.svg", "utf8"), svg);
+  const { default: Layout } = await import("../app/layout");
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const html = renderToStaticMarkup(Layout({ children: null }));
+  assert.equal((html.match(/src="\/brand\.svg"/g) ?? []).length, 2);
+  assert.doesNotMatch(html, />\s*f\/\s*</);
+});

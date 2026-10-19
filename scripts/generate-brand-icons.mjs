@@ -1,7 +1,30 @@
 import { readFile, writeFile } from "node:fs/promises";
 import sharp from "sharp";
+import { createRequire } from "node:module";
+import { geoOrthographic, geoPath } from "d3-geo";
+import { feature } from "topojson-client";
 
-const svg = await readFile(new URL("../app/icon.svg", import.meta.url));
+const require = createRequire(import.meta.url);
+// Natural Earth public-domain coastlines, distributed by world-atlas.
+const topology = JSON.parse(
+  await readFile(require.resolve("world-atlas/land-110m.json"), "utf8"),
+);
+const projection = geoOrthographic()
+  .translate([32, 32])
+  .scale(25)
+  .rotate([28, -8])
+  .precision(0.1);
+const land = geoPath(projection).digits(1)(
+  feature(topology, topology.objects.land),
+);
+const svg =
+  Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#15110e"/>
+  <circle cx="32" cy="32" r="25" fill="#f1ece3"/>
+  <path id="continents" d="${land}" fill="#e63322"/>
+</svg>\n`);
+await writeFile(new URL("../app/icon.svg", import.meta.url), svg);
+await writeFile(new URL("../public/brand.svg", import.meta.url), svg);
 const sizes = [16, 32, 48];
 const images = await Promise.all(
   sizes.map((size) => sharp(svg).resize(size, size).png().toBuffer()),

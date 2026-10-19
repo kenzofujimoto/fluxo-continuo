@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import "@fontsource/space-grotesk/400.css";
 import "@fontsource/space-grotesk/500.css";
 import "@fontsource/space-grotesk/600.css";
@@ -39,9 +40,14 @@ export default function Layout({
         </div>
         <header className="site-header">
           <Link className="brand" href="/" aria-label="Fluxo Contínuo, início">
-            <span className="brand-symbol" aria-hidden="true">
-              f/
-            </span>
+            <Image
+              className="brand-symbol"
+              src="/brand.svg"
+              width={48}
+              height={48}
+              alt=""
+              aria-hidden="true"
+            />
             <span>
               fluxo
               <br />
@@ -63,7 +69,17 @@ export default function Layout({
         <footer className="site-footer">
           <div>
             <Link className="footer-brand" href="/">
-              fluxo contínuo<span>.</span>
+              <Image
+                className="footer-symbol"
+                src="/brand.svg"
+                width={48}
+                height={48}
+                alt=""
+                aria-hidden="true"
+              />
+              <span className="footer-wordmark">
+                fluxo contínuo<span className="brand-dot">.</span>
+              </span>
             </Link>
             <p>
               Mais mundo.
