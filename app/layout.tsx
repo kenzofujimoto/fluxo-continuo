@@ -11,7 +11,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Fluxo Contínuo — seu próximo semestre começa aqui",
+    default: "Fluxo Contínuo · Seu próximo semestre começa aqui",
     template: "%s · Fluxo Contínuo",
   },
   description:
