@@ -52,6 +52,43 @@ def test_pdf_form_value_already_visible_is_not_duplicated():
     assert documents.extract_pdf_page_text(page).count(widget.field_value) == 1
 
 
+@pytest.mark.parametrize("reverse_sources", [False, True])
+def test_supplemental_ficha_only_adds_named_missing_components_without_stage_aliases(tmp_path, monkeypatch, reverse_sources):
+    base_url = "https://example.edu/original.pdf"
+    supplement_url = "https://example.edu/supplement.pdf"
+    rows = [{"name": "LEGAL METHOD", "semester": 1}, {"name": "PROJECT FINANCE", "semester": 7},
+            {"name": "PROFESSIONAL ETHICS", "semester": 8}, {"name": "STATE ORGANIZATION", "semester": 4}]
+    (tmp_path / "syllabi").mkdir()
+    (tmp_path / "data.json").write_text(json.dumps({"courses": [{"id": "dir", "rows": rows}]}), encoding="utf-8")
+    (tmp_path / "syllabi/mackenzie-docs.json").write_text(json.dumps({"rows": []}), encoding="utf-8")
+    sources = [{"courseId": "dir", "url": base_url, "documentYear": 2022, "current": False},
+               {"courseId": "dir", "url": supplement_url, "documentYear": 2022, "current": False,
+                "onlyMissing": True, "matchOnlyCodes": [row["name"] for row in rows]}]
+    if reverse_sources:
+        sources.reverse()
+    monkeypatch.setattr(documents, "ROOT", tmp_path)
+    monkeypatch.setattr(documents, "TXT", tmp_path / "text")
+    monkeypatch.setattr(documents, "aliases", lambda: [])
+    monkeypatch.setattr(documents, "brazil_registry", lambda: sources)
+    documents.TXT.mkdir()
+    def block(name, stage, content):
+        return f"Nome do Componente Curricular:\n{name}\nCódigo do Componente Curricular:\nCarga horária: 2 horas aula\nEtapa: {stage}\nEmenta:\n{content}\nBibliografia Básica:\nReference.\n"
+    original = "Original official content and legal methods with enough curricular detail to identify the programme."
+    documents.text_path(base_url).write_text(block("LEGAL METHOD", 1, original), encoding="utf-8")
+    supplemental = (block("LEGAL METHOD", 1, "Alternative duplicate source must never overwrite the original verified programme description.")
+                    + block("PROJECT FINANCE", 7, "Projects and financial guarantees, concession contracts and infrastructure development.")
+                    + block("PROFESSIONAL ETHICS", 8, "Legal professional conduct and statutory ethical obligations for regulated professions.")
+                    + block("STATE ORGANIZATION", 3, "Constitutional separation of powers and federated entities in a historical third-stage component."))
+    documents.text_path(supplement_url).write_text(supplemental, encoding="utf-8")
+    manifest = {base_url: {"status": "lido", "sha256": "base"}, supplement_url: {"status": "lido", "sha256": "supplement"}}
+    brazil = documents.extract_programs(manifest, [], [base_url, supplement_url])["brazil"]
+    assert set(brazil) == {"dir|LEGAL METHOD", "dir|PROJECT FINANCE", "dir|PROFESSIONAL ETHICS"}
+    assert brazil["dir|LEGAL METHOD"]["source"] == base_url
+    assert brazil["dir|LEGAL METHOD"]["sha256"] == "base"
+    assert brazil["dir|LEGAL METHOD"]["ementa"] == original
+    assert brazil["dir|PROJECT FINANCE"]["weeklyClassPeriods"] == 2
+
+
 @pytest.mark.parametrize("ementa", ["", "Estudo de requisitos e projeto de software."])
 def test_fci_document_presence_does_not_make_an_empty_ementa_current(tmp_path, monkeypatch, ementa):
     """An official PDF may contain an empty syllabus field next to valid course blocks."""
