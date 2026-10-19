@@ -1,3 +1,9 @@
+# Simplified home preview — 2026-10-19
+
+- Approved separate local mock: http://127.0.0.1:3002/teste-inicio . Existing home and global layout/styles remain unchanged.
+- Short headline, one sentence, two primary paths, interactive globe and accessible destination selector. Removed metrics/cards/research detail from this preview only.
+- Desktop visual verified: globe loads, changing destination updates institution link. Screenshot: .cache/simple-home-preview.jpg. Do not apply this design to home or publish it until user chooses.
+- Original flags were pushed to fix/flag-preview; draft PR #3: https://github.com/kenzofujimoto/fluxo-continuo/pull/3 . Simplified-home mock remains local.
 # Local flag comparison mock — 2026-10-19
 
 - Branch: fix/flag-preview. Local preview: http://127.0.0.1:3002/teste-bandeiras (server session 52327).
@@ -149,4 +155,5 @@ Branch: `feature/pareceres-curriculares`. Nada foi publicado em `main`; a Vercel
 - Na Bash deste ambiente, heredocs podem alterar barras invertidas: escrever código com a ferramenta de edição.
 - `python -m http.server` + navegador mantêm JS em cache; recarregue sem cache ao testar.
 - Nenhum parecer é homologação; não alterar `institutionalStatus` sem documento formal.
+
 
