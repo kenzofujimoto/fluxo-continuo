@@ -224,3 +224,21 @@ test("country flags preserve original asset colors without duotone filters", () 
   assert.match(component, /\/flags\/\$\{normalizedCode\}\.svg/);
   assert.match(component, /availableFlags\.has\(normalizedCode\)/);
 });
+
+test("simplified home preview keeps two entry points and isolates the interactive globe", () => {
+  const page = readFileSync("app/teste-inicio/page.tsx", "utf8");
+  const globe = readFileSync("app/teste-inicio/preview-globe.tsx", "utf8");
+  assert.match(page, /Seu próximo semestre/);
+  assert.match(page, /mais longe/);
+  assert.match(page, /href="\/universidades"/);
+  assert.match(page, /href="\/comparacoes"/);
+  assert.match(page, /getDestinations\(\)/);
+  assert.match(globe, /import\("\.\.\/globe-canvas"\)/);
+  assert.match(globe, /ssr: false/);
+  assert.match(globe, /onSelect=\{setSelectedId\}/);
+  assert.match(globe, /<select/);
+  assert.match(globe, /aria-live="polite"/);
+  for (const source of [page, globe])
+    assert.doesNotMatch(source, /ReviewCard|stats-strip|course-grid|hero-destination-list|locationNote|catalogCount/);
+  assert.match(readFileSync("app/page.tsx", "utf8"), /stats-strip/);
+});
