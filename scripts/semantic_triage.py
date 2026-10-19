@@ -23,6 +23,8 @@ import unicodedata
 from itertools import combinations
 from pathlib import Path
 
+from bs4 import BeautifulSoup, NavigableString, Tag
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "syllabi" / "triagem-semantica.json"
 
@@ -256,30 +258,113 @@ def _load(p):
 
 def _cached_text(url: str) -> str:
     p = ROOT / ".cache" / "text" / (hashlib.sha256(str(url).encode()).hexdigest()[:24] + ".txt")
-    return p.read_text(encoding="utf-8")[:40000] if p.exists() else ""
+    return p.read_text(encoding="utf-8") if p.exists() else ""
+
+
+def _evidence_headings(source: dict) -> list[str]:
+    headings = [source.get("headingExact"), source.get("evidenceHeading")]
+    headings.extend(p.get("exactHeading") for p in source.get("evidencePointers", []) if isinstance(p, dict))
+    if source.get("officialCode") and source.get("officialTitle"):
+        headings.append(f"{source['officialCode']} {source['officialTitle']}")
+    headings.extend(source.get("sourceCourseTitles", []))
+    return list(dict.fromkeys(h for h in headings if h))
+
+
+def cached_course_text(url: str, source: dict, peers: list[dict]) -> str:
+    """Retrieve an audited course section, never unrelated courses in a shared source."""
+    if len(source.get("sourceCourseTitles", [])) > 1:
+        return ""  # Alternative units cannot be pooled into one course profile.
+    text = _cached_text(url)
+    if not text:
+        return ""
+    shared = len({p.get("code") for p in peers}) > 1
+    compendium = "compendium" in str(source.get("sourceType", "")) + str(source.get("documentType", ""))
+    if not shared and not compendium:
+        return text[:40000]
+    headings = _evidence_headings(source)
+    normalize = lambda value: re.sub(r"\s+", " ", value).strip().casefold()
+    # HTML heading elements delimit even unregistered neighbours, unlike a title-only search.
+    sha = str(source.get("sha256") or "")
+    if re.fullmatch(r"[a-fA-F0-9]{64}", sha):
+        for directory in ("audited-public-http", "docs"):
+            raw = ROOT / ".cache" / directory / (sha + ".html")
+            if not raw.exists():
+                continue
+            raw_bytes = raw.read_bytes()
+            if hashlib.sha256(raw_bytes).hexdigest() != sha:
+                continue
+            soup = BeautifulSoup(raw_bytes, "html.parser")
+            found = [h for h in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "dt"])
+                     if normalize(h.get_text(" ", strip=True)) in {normalize(h) for h in headings}]
+            if len(found) != 1:
+                return ""
+            chunks = []
+            for node in found[0].next_elements:
+                if isinstance(node, Tag) and node.name in ("h1", "h2", "h3", "h4", "h5", "h6", "dt"):
+                    break
+                if isinstance(node, NavigableString) and node.parent.name not in ("script", "style") and node.strip():
+                    chunks.append(str(node).strip())
+            return "\n".join(chunks)[:40000]
+    pages = list(source.get("evidencePages") or [])
+    for pointer in source.get("evidencePointers", []):
+        if isinstance(pointer, dict):
+            pages += pointer.get("pages") or []
+    if pages:
+        document_pages = text.split("\f")
+        if any(not isinstance(n, int) or n < 1 or n > len(document_pages) for n in pages):
+            return ""
+        text = "\n".join(document_pages[n - 1] for n in sorted(set(pages)))
+    elif not source.get("headingExact"):
+        return ""  # Missing shared-source boundaries are not permission to use the entire page.
+    # Text-cache fallback: exact audited heading, then stop at the next known course heading.
+    lines = text.splitlines()
+    starts = [i for i, line in enumerate(lines) if normalize(line) in {normalize(h) for h in headings}]
+    if not starts:
+        return ""
+    start = starts[0]
+    other_headings = {normalize(h) for peer in peers if peer.get("code") != source.get("code") for h in _evidence_headings(peer)}
+    end = next((i for i in range(start + 1, len(lines)) if normalize(lines[i]) in other_headings), len(lines))
+    if not pages:
+        # Brief HTML descriptions are a single adjacent paragraph in this fallback.
+        paragraph = next((line for line in lines[start + 1:end] if line.strip()), "")
+        return "\n".join([lines[start], paragraph])[:40000]
+    return "\n".join(lines[start:end])[:40000]
 
 
 def main() -> int:
     data = _load("data.json")
     programs = _load("syllabi/programas.json") if (ROOT / "syllabi/programas.json").exists() else {"brazil": {}, "foreign": {}}
     records = {(r["universityId"], r["foreignCode"]): r for r in _load("syllabi/records.json")["foreign"]}
+    verified = {}
+    source_peers = collections.defaultdict(list)
     # Programmes verified later by resolve_syllabi.py count as individual syllabi too.
     if (ROOT / "syllabi/fontes-verificadas.json").exists():
         for v in _load("syllabi/fontes-verificadas.json").get("foreign", []):
             if v.get("individualSyllabus"):
+                verified[(v["universityId"], v["code"])] = v
+                source_peers[v["source"]].append(v)
                 records[(v["universityId"], v["code"])] = {"status": "ementa_individual", "document": v["source"]}
+    for key, record in records.items():
+        url = record.get("document")
+        if url and not any(peer.get("code") == key[1] for peer in source_peers[url]):
+            source_peers[url].append({"code": key[1], "source": url})
     pidx = _load("syllabi/pareceres-index.json")["pareceres"] if (ROOT / "syllabi/pareceres-index.json").exists() else []
     triage = _load("triagem.json")["pairs"]
     unis = data["universities"]
 
     # Foreign concept profiles: title counts twice as strong evidence; document text needs 2 hits (bibliography noise).
     fprof = {}
+    unscoped_documents = []
     for f in data["foreignCourses"]:
         key = (f["universityId"], f["code"])
         rec = records.get(key, {})
         title = concepts(f.get("name", ""))
         notes = concepts(" ".join(str(f.get(k) or "") for k in ("topics", "role")))
-        doc = concepts(_cached_text(rec.get("document")), min_hits=2) if rec.get("status") == "ementa_individual" else set()
+        url = rec.get("document")
+        document_text = cached_course_text(url, verified.get(key, {}), source_peers.get(url, [])) if rec.get("status") == "ementa_individual" else ""
+        if rec.get("status") == "ementa_individual" and not document_text:
+            unscoped_documents.append(list(key))
+        doc = concepts(document_text, min_hits=2)
         fprof[key] = {"title": title, "all": title | notes | doc, "docState": "ementa_individual" if rec.get("status") == "ementa_individual" else (rec.get("status") or "sem_registro")}
     n = len(fprof)
     df = collections.Counter(c for v in fprof.values() for c in v["all"])
@@ -363,6 +448,8 @@ def main() -> int:
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "crossings": len(out_rows), "states": dict(states), "newSemanticCandidates": new_candidates,
         "combinedSuggestions": len(combos), "concepts": len(THESAURUS),
+        "unscopedDocumentProfiles": unscoped_documents,
+        "documentScopePolicy": "Compêndios usam somente rubrica individual ou páginas auditadas; sem delimitação segura, recuperação usa apenas título/notas próprios. Documento não delimitado não significa ementa inexistente.",
         "method": "Tesauro multilíngue controlado (pt/en/es/ca/it/fr/ro); conceitos da ementa oficial brasileira x título, notas de catálogo e ementa individual estrangeira (≥2 ocorrências); peso IDF; limiar 0,4 com ≥2 conceitos. Indicador de recuperação, não percentual de equivalência.",
         "statesLegend": {s: s for s in STATES},
         "neverMeans": "Nenhum estado significa incompatibilidade ou aprovação.",

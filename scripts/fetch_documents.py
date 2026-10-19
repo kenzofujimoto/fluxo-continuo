@@ -54,6 +54,24 @@ def sorted_path(url: str) -> Path:
     return TXT / (hashlib.sha256(url.encode()).hexdigest()[:24] + ".sorted.txt")
 
 
+def extract_pdf_page_text(page: fitz.Page, *, sort: bool = False) -> str:
+    """Recover full AcroForm values when their appearance rectangle clips the text."""
+    text = page.get_text(sort=sort)
+    normalized = lambda value: re.sub(r"\s+", " ", value).strip()
+    for widget in page.widgets() or []:
+        value = widget.field_value
+        if widget.field_type != fitz.PDF_WIDGET_TYPE_TEXT or not isinstance(value, str) or not value.strip():
+            continue
+        if normalized(value) in normalized(text):
+            continue
+        visible = page.get_text(clip=widget.rect, sort=sort).strip()
+        if visible and visible in text:
+            text = text.replace(visible, value.strip(), 1)
+        else:
+            text += f"\n[PDF form field: {widget.field_name}]\n{value.strip()}\n"
+    return text
+
+
 def fetch(url: str, prev: dict | None, refresh: bool) -> dict:
     entry = dict(prev or {})
     entry["url"] = url
@@ -91,9 +109,9 @@ def fetch(url: str, prev: dict | None, refresh: bool) -> dict:
         sha = hashlib.sha256(raw).hexdigest()
         if raw.startswith(b"%PDF") or "application/pdf" in mime:
             pdf = fitz.open(stream=raw, filetype="pdf")
-            pages = [p.get_text() for p in pdf]
+            pages = [extract_pdf_page_text(p) for p in pdf]
             text = "\n\f\n".join(pages)
-            stext = "\n".join(p.get_text(sort=True) for p in pdf)
+            stext = "\n".join(extract_pdf_page_text(p, sort=True) for p in pdf)
             fmt, npages = "pdf", len(pdf)
         elif "html" in mime or raw.lstrip()[:200].lower().startswith((b"<!doctype", b"<html")):
             soup = BeautifulSoup(raw, "html.parser")
