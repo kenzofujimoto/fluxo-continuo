@@ -187,12 +187,10 @@
     font-weight: 700;
   }
   .brand-symbol {
-    color: var(--signal);
-    font-size: 3.1rem;
-    font-weight: 500;
-    line-height: 0.9;
-    letter-spacing: -0.16em;
-    margin-right: 0.35rem;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    flex-shrink: 0;
   }
   .brand-dot {
     color: var(--signal);
@@ -583,11 +581,22 @@
     gap: 3rem;
   }
   .footer-brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
     font-size: 1.7rem;
     letter-spacing: -0.06em;
   }
-  .footer-brand span {
+  .footer-brand .brand-dot {
     color: var(--signal);
+  }
+  .footer-wordmark {
+    color: var(--paper);
+  }
+  .footer-symbol {
+    width: 2.6rem;
+    height: 2.6rem;
+    flex-shrink: 0;
   }
   .site-footer > div:first-child p {
     font-size: 1.5rem;
@@ -1088,7 +1097,8 @@
       font-size: 1.2rem;
     }
     .brand-symbol {
-      font-size: 2.7rem;
+      width: 2.6rem;
+      height: 2.6rem;
     }
     .site-header nav {
       order: 2;
